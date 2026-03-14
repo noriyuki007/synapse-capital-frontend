@@ -71,7 +71,7 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
         "datePublished": date,
         "author": {
             "@type": "Person",
-            "name": "検証隊AI - SYNAPSE",
+            "name": "AI - SYNAPSE",
             "jobTitle": "Lead Market Analyst"
         },
         "publisher": {
@@ -265,7 +265,7 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
                             </div>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                                 <div className="space-y-4 text-slate-700 font-bold leading-relaxed">
-                                    <p>現在の市場環境に基づき、検証隊AIは「押し目買い」を強く推奨します。150円台の定着を確認した上で、151.50円を目指すシナリオが有力です。リスク管理として、149.50円のブレイクを確定的な転換点として設定しています。</p>
+                                    <p>現在の市場環境に基づき、AIは「押し目買い」を強く推奨します。150円台の定着を確認した上で、151.50円を目指すシナリオが有力です。リスク管理として、149.50円のブレイクを確定的な転換点として設定しています。</p>
                                 </div>
                                 <div className="space-y-4 border-l border-emerald-200 pl-8">
                                     <div className="text-[10px] font-black uppercase tracking-widest text-emerald-600">Next Step</div>
