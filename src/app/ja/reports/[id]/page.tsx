@@ -112,7 +112,7 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
                                         <Clock className="w-4 h-4" /> {date}
                                     </span>
                                 </div>
-                                <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-white tracking-tighter leading-[1.1] font-sans uppercase">
+                                <h1 className="text-2xl md:text-3xl lg:text-4xl font-black text-white tracking-tighter leading-[1.2] font-sans uppercase">
                                     {title}
                                 </h1>
                                 <Link href="/ja/reports" className="inline-flex items-center gap-2 text-[11px] font-black text-white/40 uppercase tracking-widest hover:text-white transition-colors group pt-4">
@@ -261,7 +261,7 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
                         <section className="bg-emerald-50 border border-emerald-100 p-10 md:p-14 space-y-8">
                             <div className="flex items-center gap-4">
                                 <ShieldCheck className="w-8 h-8 text-emerald-600" />
-                                <h2 className="text-2xl font-black tracking-tight">検証隊AI 結論 & アクションプラン</h2>
+                                <h2 className="text-2xl font-black tracking-tight">AI 結論 & アクションプラン</h2>
                             </div>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                                 <div className="space-y-4 text-slate-700 font-bold leading-relaxed">
@@ -309,7 +309,7 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
                                 </div>
                                 <div className="pt-4 border-t border-slate-50">
                                     <p className="text-[10px] font-bold text-slate-400 leading-relaxed uppercase tracking-tight">
-                                        Real-time asset valuation based on live Coingecko API pricing.
+                                        Coingecko APIのリアルタイム価格に基づく評価額。
                                     </p>
                                 </div>
                             </div>
