@@ -84,9 +84,10 @@ export async function getReportData(id: string) {
         chart_image?: string
     };
 
-    // Extract AI Conclusion & Next Steps using regex
-    const conclusionMatch = matterResult.content.match(/## 5\. AI結論とアクションプラン\n- 結論サマリー: ([\s\S]*?)\n- Next Step:\n([\s\S]*?)(?=\n##|$)/i) || 
-                            matterResult.content.match(/## 5\. AI結論とアクションプラン\n([\s\S]*?)(?=\n##|$)/i);
+    // Extract AI Conclusion & Next Steps using regex - improved to stop before JSON block
+    const contentBeforeJson = matterResult.content.split('```json')[0];
+    const conclusionMatch = contentBeforeJson.match(/## 5\. AI結論とアクションプラン\n- 結論サマリー: ([\s\S]*?)\n- Next Step:\n([\s\S]*?)(?=\n##|$)/i) || 
+                            contentBeforeJson.match(/## 5\. AI結論とアクションプラン\n([\s\S]*?)(?=\n##|$)/i);
     
     let conclusionText = "";
     let nextSteps: string[] = [];
@@ -97,12 +98,13 @@ export async function getReportData(id: string) {
         conclusionText = textMatch ? textMatch[1].trim() : "";
         
         const stepsMatch = fullBlock.match(/- Next Step:\n([\s\S]*?)$/i);
-        if (stepsMatch) {
-            nextSteps = stepsMatch[1].trim().split('\n').map(s => s.replace(/^[•\-\*]\s*/, '').trim());
-        } else {
-            // Fallback: search for any bullets in the block
-            nextSteps = fullBlock.split('\n').filter(l => l.trim().match(/^[•\-\*]\s+/)).map(s => s.replace(/^[•\-\*]\s*/, '').trim());
-        }
+        const stepsContent = stepsMatch ? stepsMatch[1] : fullBlock;
+        
+        nextSteps = stepsContent.split('\n')
+            .map(s => s.trim())
+            .filter(s => s.match(/^[•\-\*]/))
+            .map(s => s.replace(/^[•\-\*]\s*/, '').trim())
+            .filter(s => s && !s.includes('結論サマリー'));
     }
 
     // Default fallbacks if parsing fails

@@ -301,18 +301,23 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
                     <aside className="lg:col-span-4 space-y-12">
                         {/* 1.8 SOL Widget */}
                         <div className="sticky top-32 space-y-12">
+                            {/* 1. Market Insights / Widget */}
                             <div className="bg-white border border-slate-100 p-8 space-y-6 shadow-sm">
                                 <div className="flex items-center gap-3">
                                     <Zap className="w-5 h-5 text-yellow-500" />
-                                    <h3 className="text-sm font-black uppercase tracking-widest text-slate-900">現在の資産価値</h3>
+                                    <h3 className="text-sm font-black uppercase tracking-widest text-slate-900">市場リアルタイム評価</h3>
                                 </div>
                                 <div className="space-y-1">
-                                    <div className="text-[10px] font-black text-slate-400 uppercase tracking-widest">Holdings: 1.8 SOL</div>
+                                    <div className="text-[10px] font-black text-slate-400 uppercase tracking-widest">
+                                        {genre === 'CRYPTO' ? 'Crypto Holdings: 1.8 SOL' : 
+                                         genre === 'FX' ? 'Major Pair: USD/JPY' : 
+                                         'Equity: Market Watch'}
+                                    </div>
                                     <SolanaPriceWidget />
                                 </div>
                                 <div className="pt-4 border-t border-slate-50">
                                     <p className="text-[10px] font-bold text-slate-400 leading-relaxed uppercase tracking-tight">
-                                        Coingecko APIのリアルタイム価格に基づく評価額。
+                                        Coingecko APIのリアルタイムデータに基づく市場評価額。
                                     </p>
                                 </div>
                             </div>
