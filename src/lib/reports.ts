@@ -71,21 +71,32 @@ export async function getReportData(id: string) {
         return `<h2 id="${id}">${title}</h2>`;
     });
 
+    const data = matterResult.data as { 
+        date: string, 
+        title: string, 
+        genre?: string, 
+        excerpt?: string,
+        target_pair?: string,
+        prediction_direction?: string,
+        result?: string,
+        recommended_broker?: string,
+        tldr_points?: string[],
+        chart_image?: string
+    };
+
     return {
         id,
         contentHtml,
         signalData: signalData,
-        ...(matterResult.data as { 
-            date: string, 
-            title: string, 
-            genre: string, 
-            excerpt: string,
-            target_pair: string,
-            prediction_direction: string,
-            result: string,
-            recommended_broker: string,
-            tldr_points?: string[]
-        }),
+        title: data.title,
+        date: data.date,
+        genre: data.genre || 'FX',
+        target_pair: data.target_pair || '',
+        prediction_direction: data.prediction_direction || 'FLAT',
+        recommended_broker: data.recommended_broker || '',
+        tldr_points: data.tldr_points || [],
+        chart_image: data.chart_image || '',
+        excerpt: data.excerpt || '',
     };
 }
 export async function getTrackRecordStats() {

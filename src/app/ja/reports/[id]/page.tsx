@@ -55,7 +55,7 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
         notFound();
     }
 
-    const { title, date, genre, target_pair, prediction_direction, contentHtml, signalData, tldr_points, excerpt } = reportData;
+    const { title, date, genre, target_pair, prediction_direction, contentHtml, signalData, tldr_points, chart_image, excerpt } = reportData;
     const allReports = await getSortedReportsData();
     const stats = await getTrackRecordStats();
 
@@ -100,24 +100,19 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
                     {/* Main Content (8 columns) */}
                     <article className="lg:col-span-8 space-y-24">
                         
-                        {/* 1. Eyecatch & Title Overlay */}
-                        <section className="relative aspect-[21/9] bg-slate-900 overflow-hidden shadow-2xl">
-                            <img 
-                                src={`/images/market-analysis-${genre.toLowerCase()}.jpg`} 
-                                alt={title}
-                                className="w-full h-full object-cover opacity-60"
-                            />
-                            <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/40 to-transparent" />
-                            <div className="absolute inset-0 flex flex-col justify-end p-8 md:p-12 space-y-4">
+                        {/* 1. Eyecatch & Title Overlay - NO IMAGE, Solid Black as requested */}
+                        <section className="relative py-24 md:py-32 bg-slate-950 overflow-hidden shadow-2xl">
+                            <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(30,58,138,0.2),transparent)]" />
+                            <div className="relative px-8 md:px-12 space-y-6">
                                 <div className="flex items-center gap-4">
-                                    <span className="px-3 py-1 bg-blue-600 text-white text-[10px] font-black uppercase tracking-widest">
+                                    <span className="px-3 py-1 bg-indigo-600 text-white text-[10px] font-black uppercase tracking-widest">
                                         {genre === 'FX' ? '為替分析' : genre === 'CRYPTO' ? '暗号資産' : '株式市場'}
                                     </span>
-                                    <span className="text-[10px] font-black text-white/60 uppercase tracking-widest flex items-center gap-2">
+                                    <span className="text-[10px] font-black text-white/40 uppercase tracking-widest flex items-center gap-2">
                                         <Clock className="w-4 h-4" /> {date}
                                     </span>
                                 </div>
-                                <h1 className="text-3xl md:text-5xl font-black text-white tracking-tighter leading-tight">
+                                <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-white tracking-tighter leading-tight max-w-4xl">
                                     {title}
                                 </h1>
                             </div>
@@ -208,10 +203,16 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
                                       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                                         <div className="prose prose-slate max-w-none prose-p:font-bold prose-p:text-slate-700" dangerouslySetInnerHTML={{ __html: content }} />
                                         <div className="aspect-square bg-slate-900 relative overflow-hidden group shadow-xl">
-                                          <img src={`/images/market-analysis-${genre.toLowerCase()}.jpg`} className="w-full h-full object-cover opacity-50 grayscale group-hover:scale-110 transition-transform duration-700" alt="Technical Analysis" />
-                                          <div className="absolute inset-0 border-[1px] border-white/20 m-6 flex items-center justify-center">
-                                            <div className="text-[10px] font-black text-white/40 uppercase tracking-[0.5em] text-center px-4">AI Vision: Technical Convergence Area</div>
-                                          </div>
+                                          <img 
+                                            src={chart_image || `/images/market-analysis-${genre.toLowerCase()}.jpg`} 
+                                            className="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700" 
+                                            alt="Technical Analysis Chart" 
+                                          />
+                                          {!chart_image && (
+                                            <div className="absolute inset-0 border-[1px] border-white/20 m-6 flex items-center justify-center">
+                                              <div className="text-[10px] font-black text-white/40 uppercase tracking-[0.5em] text-center px-4">AI Vision: Technical Convergence Area</div>
+                                            </div>
+                                          )}
                                         </div>
                                       </div>
                                     </section>
