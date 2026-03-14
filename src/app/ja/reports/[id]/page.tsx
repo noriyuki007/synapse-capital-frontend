@@ -100,21 +100,25 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
                     {/* Main Content (8 columns) */}
                     <article className="lg:col-span-8 space-y-24">
                         
-                        {/* 1. Eyecatch & Title Overlay - NO IMAGE, Solid Black as requested */}
-                        <section className="relative py-24 md:py-32 bg-slate-950 overflow-hidden shadow-2xl">
+                        {/* 1. Eyecatch & Title Overlay - Restored Height, Solid Black */}
+                        <section className="relative w-full aspect-[21/10] bg-slate-950 overflow-hidden shadow-2xl flex flex-col justify-end">
                             <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(30,58,138,0.2),transparent)]" />
-                            <div className="relative px-8 md:px-12 space-y-6">
+                            <div className="relative p-8 md:p-14 lg:p-20 space-y-6">
                                 <div className="flex items-center gap-4">
-                                    <span className="px-3 py-1 bg-indigo-600 text-white text-[10px] font-black uppercase tracking-widest">
+                                    <span className="px-3 py-1 bg-indigo-600 text-white text-[10px] font-black uppercase tracking-widest rounded-sm">
                                         {genre === 'FX' ? '為替分析' : genre === 'CRYPTO' ? '暗号資産' : '株式市場'}
                                     </span>
                                     <span className="text-[10px] font-black text-white/40 uppercase tracking-widest flex items-center gap-2">
                                         <Clock className="w-4 h-4" /> {date}
                                     </span>
                                 </div>
-                                <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-white tracking-tighter leading-tight max-w-4xl">
+                                <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-white tracking-tighter leading-[1.1] font-sans uppercase">
                                     {title}
                                 </h1>
+                                <Link href="/ja/reports" className="inline-flex items-center gap-2 text-[11px] font-black text-white/40 uppercase tracking-widest hover:text-white transition-colors group pt-4">
+                                    <ArrowLeft className="w-4 h-4 group-hover:-translate-x-1 transition-transform" />
+                                    レポート一覧へ
+                                </Link>
                             </div>
                         </section>
 
