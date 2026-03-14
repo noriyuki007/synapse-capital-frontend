@@ -35,11 +35,5 @@ jobs:
           git commit -m "chore: automated daily market report update" || echo "No changes to commit"
           git push origin main
 
-      - name: Post to Facebook
-        env:
-          FB_PAGE_ID: ${{ secrets.FB_PAGE_ID }}
-          FB_ACCESS_TOKEN: ${{ secrets.FB_ACCESS_TOKEN }}
-        run: node scripts/post-to-facebook.js
-
       # Cloudflare Pages は GitHub 連携されている前提で、Push 時に自動ビルドが走ります。
       # もし連携していない場合は、ここで wrangler deploy を実行する必要があります。

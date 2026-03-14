@@ -24,10 +24,9 @@ async function postToFacebook() {
         .filter(f => f.endsWith('.md'))
         .map(f => ({
             name: f,
-            path: path.join(reportsDir, f),
-            mtime: fs.statSync(path.join(reportsDir, f)).mtime
+            path: path.join(reportsDir, f)
         }))
-        .sort((a, b) => b.mtime - a.mtime);
+        .sort((a, b) => b.name.localeCompare(a.name)); // YYYY-MM-DD sort works alphabetically
 
     if (files.length === 0) return;
 
