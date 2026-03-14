@@ -1,0 +1,39 @@
+name: Daily AI Market Reports
+
+on:
+  schedule:
+    # 毎日 00:00, 08:00, 16:00 UTC (日本時間 09:00, 17:00, 01:00) に実行
+    - cron: '0 0,8,16 * * *'
+  workflow_dispatch: # 手動実行用
+
+jobs:
+  generate-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/current-node@v3
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Generate Reports
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node scripts/generate-reports.js
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "Synapse AI Bot"
+          git config --global user.email "bot@synapsecapital.net"
+          git add .
+          git commit -m "chore: automated daily market report update" || echo "No changes to commit"
+          git push origin main
+
+      # Cloudflare Pages は GitHub 連携されている前提で、Push 時に自動ビルドが走ります。
+      # もし連携していない場合は、ここで wrangler deploy を実行する必要があります。
