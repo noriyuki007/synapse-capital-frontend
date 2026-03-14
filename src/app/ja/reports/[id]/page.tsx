@@ -3,7 +3,7 @@ import { notFound } from 'next/navigation';
 import { getReportData, getSortedReportsData, getTrackRecordStats } from '@/lib/reports';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { SolanaPriceWidget } from '@/components/SolanaPriceWidget';
+import { MarketPriceWidget } from '@/components/MarketPriceWidget';
 import { Activity, Clock, ShieldCheck, TrendingUp, TrendingDown, Target, ArrowLeft, ArrowRight, Bookmark, List, Zap, MessageSquare, AlertCircle } from 'lucide-react';
 import Link from 'next/link';
 
@@ -60,7 +60,8 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
     const stats = await getTrackRecordStats();
 
     // Remove the markdown section specifically so it doesn't double render if it's in the main body
-    const cleanContentHtml = contentHtml.replace(/<h2 id="5-ai結論とアクションプラン">[\s\S]*?<\/h2>[\s\S]*?(?=<h2|$)/i, '');
+    // This matches variations like "5. AI結論とアクションプラン" or just "AI結論とアクションプラン"
+    const cleanContentHtml = contentHtml.replace(/<h2 id="[^"]*ai結論[^"]*">[\s\S]*?<\/h2>[\s\S]*?(?=<h2|$)/i, '');
 
     // Extract H2 for TOC and content splitting (Use clean HTML)
     const h2Matches = Array.from(cleanContentHtml.matchAll(/<h2 id="([^"]+)">([\s\S]*?)<\/h2>/g));
@@ -309,15 +310,13 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
                                 </div>
                                 <div className="space-y-1">
                                     <div className="text-[10px] font-black text-slate-400 uppercase tracking-widest">
-                                        {genre === 'CRYPTO' ? 'Crypto Holdings: 1.8 SOL' : 
-                                         genre === 'FX' ? 'Major Pair: USD/JPY' : 
-                                         'Equity: Market Watch'}
+                                        Current Valuation
                                     </div>
-                                    <SolanaPriceWidget />
+                                    <MarketPriceWidget genre={genre} targetPair={target_pair} />
                                 </div>
                                 <div className="pt-4 border-t border-slate-50">
                                     <p className="text-[10px] font-bold text-slate-400 leading-relaxed uppercase tracking-tight">
-                                        Coingecko APIのリアルタイムデータに基づく市場評価額。
+                                        リアルタイムAPIに基づく市場参考価格。
                                     </p>
                                 </div>
                             </div>
