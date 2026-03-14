@@ -84,7 +84,7 @@ export async function getReportData(id: string) {
             prediction_direction: string,
             result: string,
             recommended_broker: string,
-            tldr?: string
+            tldr_points?: string[]
         }),
     };
 }
