@@ -4,6 +4,7 @@ import { getReportData, getSortedReportsData, getTrackRecordStats } from '@/lib/
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { MarketPriceWidget } from '@/components/MarketPriceWidget';
+import { ShareButtons } from '@/components/ShareButtons';
 import { Activity, Clock, ShieldCheck, TrendingUp, TrendingDown, Target, ArrowLeft, ArrowRight, Bookmark, List, Zap, MessageSquare, AlertCircle } from 'lucide-react';
 import Link from 'next/link';
 
@@ -281,6 +282,9 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
                                 </div>
                             </div>
                         </section>
+
+                        {/* 5.5 SNS Share Buttons */}
+                        <ShareButtons title={title} url={`/ja/reports/${id}`} />
 
                         {/* 6. Navigation Buttons */}
                         <nav className="flex items-center justify-between pt-16 border-t border-slate-100">
