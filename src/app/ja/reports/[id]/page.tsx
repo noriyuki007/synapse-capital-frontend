@@ -59,12 +59,12 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
     const allReports = await getSortedReportsData();
     const stats = await getTrackRecordStats();
 
-    // Extract H2 for TOC and content splitting
-    const h2Matches = Array.from(contentHtml.matchAll(/<h2 id="([^"]+)">([\s\S]*?)<\/h2>/g));
-    const toc = h2Matches.map(match => ({ id: match[1], text: match[2].replace(/<[^>]*>/g, '') }));
-
     // Remove the markdown section specifically so it doesn't double render if it's in the main body
     const cleanContentHtml = contentHtml.replace(/<h2 id="5-ai結論とアクションプラン">[\s\S]*?<\/h2>[\s\S]*?(?=<h2|$)/i, '');
+
+    // Extract H2 for TOC and content splitting (Use clean HTML)
+    const h2Matches = Array.from(cleanContentHtml.matchAll(/<h2 id="([^"]+)">([\s\S]*?)<\/h2>/g));
+    const toc = h2Matches.map(match => ({ id: match[1], text: match[2].replace(/<[^>]*>/g, '') }));
 
     // JSON-LD for SEO
     const jsonLd = {
@@ -163,7 +163,7 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
 
                         {/* 4. Structured Content Sections */}
                         <div className="space-y-32">
-                            {contentHtml.split(/<h2[^>]*>/).slice(1).map((sectionHtml, idx) => {
+                            {cleanContentHtml.split(/<h2[^>]*>/).slice(1).map((sectionHtml, idx) => {
                                 const titleHtml = h2Matches[idx]?.[2] || '';
                                 const content = sectionHtml.split('</h2>')[1] || '';
                                 const sectionId = h2Matches[idx]?.[1] || '';

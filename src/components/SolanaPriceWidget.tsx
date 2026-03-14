@@ -29,7 +29,7 @@ export function SolanaPriceWidget() {
 
     return (
         <div className="space-y-1.5">
-            <div className="text-[10px] font-black text-slate-300 uppercase tracking-widest">現在の1.8 SOL時価</div>
+            <div className="text-[10px] font-black text-slate-300 uppercase tracking-widest">市場参考価格 (SOL)</div>
             <div className="text-base font-black text-slate-900 flex items-center gap-2 uppercase font-sans">
                 <Zap className="w-4 h-4 text-amber-500 animate-pulse" />
                 ${totalPrice} <span className="text-[10px] text-emerald-500 font-bold ml-1">LIVE</span>

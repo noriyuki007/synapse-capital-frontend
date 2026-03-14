@@ -86,25 +86,38 @@ export async function getReportData(id: string) {
 
     // Extract AI Conclusion & Next Steps using regex - improved to stop before JSON block
     const contentBeforeJson = matterResult.content.split('```json')[0];
-    const conclusionMatch = contentBeforeJson.match(/## 5\. AI結論とアクションプラン\n- 結論サマリー: ([\s\S]*?)\n- Next Step:\n([\s\S]*?)(?=\n##|$)/i) || 
-                            contentBeforeJson.match(/## 5\. AI結論とアクションプラン\n([\s\S]*?)(?=\n##|$)/i);
+    
+    // Find the section
+    const sectionTitleRegex = /## 5\. AI結論とアクションプラン/i;
+    const sectionIndex = contentBeforeJson.search(sectionTitleRegex);
     
     let conclusionText = "";
     let nextSteps: string[] = [];
 
-    if (conclusionMatch) {
-        const fullBlock = conclusionMatch[0];
-        const textMatch = fullBlock.match(/- 結論サマリー: (.*?)\n/i) || fullBlock.match(/## 5\. AI結論とアクションプラン\n(.*?)\n/i);
-        conclusionText = textMatch ? textMatch[1].trim() : "";
+    if (sectionIndex !== -1) {
+        const sectionContent = contentBeforeJson.substring(sectionIndex);
         
-        const stepsMatch = fullBlock.match(/- Next Step:\n([\s\S]*?)$/i);
-        const stepsContent = stepsMatch ? stepsMatch[1] : fullBlock;
+        // Extract summary
+        const summaryMatch = sectionContent.match(/- 結論サマリー: (.*?)\n/i) || sectionContent.match(/## 5\. AI結論とアクションプラン\n(.*?)\n/i);
+        conclusionText = summaryMatch ? summaryMatch[1].trim() : "";
         
-        nextSteps = stepsContent.split('\n')
-            .map(s => s.trim())
-            .filter(s => s.match(/^[•\-\*]/))
-            .map(s => s.replace(/^[•\-\*]\s*/, '').trim())
-            .filter(s => s && !s.includes('結論サマリー'));
+        // Extract Next Steps (bullet points)
+        const stepsLines = sectionContent.split('\n');
+        let inNextSteps = false;
+        for (const line of stepsLines) {
+            if (line.includes('Next Step:')) {
+                inNextSteps = true;
+                continue;
+            }
+            if (inNextSteps) {
+                if (line.match(/^[•\-\*]/)) {
+                    nextSteps.push(line.replace(/^[•\-\*]\s*/, '').trim());
+                } else if (line.match(/^##/) || line.trim() === "") {
+                    // Stop at next header or empty line if we already have steps
+                    if (nextSteps.length > 0) break;
+                }
+            }
+        }
     }
 
     // Default fallbacks if parsing fails
