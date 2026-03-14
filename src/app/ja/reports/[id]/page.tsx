@@ -202,23 +202,143 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
                             </div>
                         </div>
 
-                        {/* 4. 本文 Section - No huge text blocks, strictly structured */}
-                        <article className="prose prose-slate max-w-none 
-                            prose-h2:text-3xl prose-h2:md:text-4xl prose-h2:font-black prose-h2:tracking-tight prose-h2:border-l-[12px] prose-h2:border-slate-900 prose-h2:pl-8 prose-h2:mt-24 prose-h2:mb-16 prose-h2:bg-slate-50 prose-h2:py-4
-                            prose-h3:text-xl prose-h3:font-black prose-h3:mt-16 prose-h3:mb-8 prose-h3:flex prose-h3:items-center prose-h3:gap-4
-                            prose-p:text-[17px] prose-p:font-medium prose-p:leading-[2.0] prose-p:text-slate-700 prose-p:mb-12
-                            prose-strong:font-black prose-strong:text-slate-950 prose-strong:bg-yellow-50
-                            prose-li:text-slate-700 prose-ul:list-square prose-li:mb-4">
-                            
-                            {/* Chartist Placeholder Example */}
-                            <div className="my-16 group relative aspect-video bg-slate-50 border border-slate-200 flex flex-col items-center justify-center overflow-hidden">
-                                <div className="absolute inset-0 bg-grid-slate-200 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))] -z-10" />
-                                <Activity className="w-12 h-12 text-blue-500/20 mb-6 group-hover:scale-110 transition-transform duration-500" />
-                                <h4 className="text-[11px] font-black text-slate-400 uppercase tracking-[0.4em]">Market Flow Diagram Placeholder</h4>
-                            </div>
+                        {/* 4. 本文 Section - Component-based Rendering */}
+                        <div className="space-y-24">
+                            {contentHtml.split(/<h2[^>]*>/).slice(1).map((sectionHtml, idx) => {
+                                const title = h2Matches[idx]?.[2] || '';
+                                const content = sectionHtml.split('</h2>')[1] || '';
+                                
+                                // Section 1: Fundamental Summary
+                                if (idx === 0) {
+                                    const keywords = content.match(/\*\*キーワード\*\*:\s*(.*)/)?.[1]?.split(/[、,]/) || [];
+                                    const summary = content.match(/\*\*サマリー\*\*:\s*([\s\S]*?)(?=\n|$)/)?.[1] || '';
+                                    return (
+                                        <section key={idx} className="space-y-10 group">
+                                            <div className="flex items-end gap-6 border-b-4 border-slate-900 pb-4">
+                                                <h2 className="text-3xl font-black uppercase tracking-tight leading-none italic">01. {title.replace(/\d+\.\s*/, '')}</h2>
+                                                <div className="h-4 w-px bg-slate-200" />
+                                                <span className="text-[10px] font-black text-slate-300 uppercase tracking-widest">Fundamental Context</span>
+                                            </div>
+                                            <div className="bg-slate-50 border border-slate-100 p-8 md:p-12 space-y-8">
+                                                <div className="flex flex-wrap gap-3">
+                                                    {keywords.map((kw, i) => (
+                                                        <span key={i} className="px-3 py-1 bg-white border border-slate-200 text-[10px] font-black text-slate-400 uppercase tracking-widest rounded-full">{kw.trim()}</span>
+                                                    ))}
+                                                </div>
+                                                <p className="text-xl font-bold text-slate-700 leading-relaxed italic border-l-4 border-slate-200 pl-8">
+                                                    {summary}
+                                                </p>
+                                            </div>
+                                        </section>
+                                    );
+                                }
 
-                            <div dangerouslySetInnerHTML={{ __html: contentHtml }} />
-                        </article>
+                                // Section 2: AI Grid
+                                if (idx === 1) {
+                                    const items = [
+                                        { label: '金利相関解析', text: content.match(/\*\*金利相関解析\*\*:\s*([\s\S]*?)(?=\n-|$)/)?.[1], icon: <Activity className="w-5 h-5" /> },
+                                        { label: 'オーダー状況', text: content.match(/\*\*オーダーブック解析\*\*:\s*([\s\S]*?)(?=\n-|$)/)?.[1], icon: <Target className="w-5 h-5" /> },
+                                        { label: '市場センチメント', text: content.match(/\*\*センチメント解析\*\*:\s*([\s\S]*?)(?=\n-|$)/)?.[1], icon: <TrendingUp className="w-5 h-5" /> },
+                                    ];
+                                    return (
+                                        <section key={idx} className="space-y-10">
+                                            <div className="flex items-end gap-6 border-b-4 border-slate-900 pb-4">
+                                                <h2 className="text-3xl font-black uppercase tracking-tight leading-none italic">02. {title.replace(/\d+\.\s*/, '')}</h2>
+                                                <div className="h-4 w-px bg-slate-200" />
+                                                <span className="text-[10px] font-black text-slate-300 uppercase tracking-widest">AI Quantum Insight</span>
+                                            </div>
+                                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                                                {items.map((item, i) => (
+                                                    <div key={i} className="p-8 border border-slate-100 hover:border-blue-600 transition-colors space-y-4 group">
+                                                        <div className="text-blue-600 opacity-20 group-hover:opacity-100 transition-opacity">{item.icon}</div>
+                                                        <h4 className="text-[10px] font-black text-slate-400 uppercase tracking-widest">{item.label}</h4>
+                                                        <p className="text-sm font-bold text-slate-700 leading-relaxed">{item.text || 'データ解析中...'}</p>
+                                                    </div>
+                                                ))}
+                                            </div>
+                                        </section>
+                                    );
+                                }
+
+                                // Section 3: Technical 2-Col
+                                if (idx === 2) {
+                                    const rsi = content.match(/\*\*RSI\*\*:\s*(\d+)/)?.[1] || '50';
+                                    const ma = content.match(/\*\*移動平均線\*\*:\s*([\s\S]*?)(?=\n-|$)/)?.[1] || '解析中';
+                                    const pointsHtml = content.match(/\*\*分析ポイント\*\*:\s*([\s\S]*)/)?.[1] || '';
+                                    return (
+                                        <section key={idx} className="space-y-10">
+                                            <div className="flex items-end gap-6 border-b-4 border-slate-900 pb-4">
+                                                <h2 className="text-3xl font-black uppercase tracking-tight leading-none italic">03. {title.replace(/\d+\.\s*/, '')}</h2>
+                                                <div className="h-4 w-px bg-slate-200" />
+                                                <span className="text-[10px] font-black text-slate-300 uppercase tracking-widest">Visual Matrix</span>
+                                            </div>
+                                            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+                                                <div className="space-y-8">
+                                                    <div className="space-y-2">
+                                                        <div className="flex justify-between text-[10px] font-black text-slate-400 uppercase tracking-widest">
+                                                            <span>RSI Index</span>
+                                                            <span className="text-slate-900">{rsi}</span>
+                                                        </div>
+                                                        <div className="h-1 w-full bg-slate-100">
+                                                            <div className="h-full bg-blue-600 transition-all duration-1000" style={{ width: `${rsi}%` }} />
+                                                        </div>
+                                                    </div>
+                                                    <div className="space-y-2">
+                                                        <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">MAトレンド</span>
+                                                        <div className="text-sm font-black text-slate-800 uppercase px-3 py-1 bg-slate-100 inline-block">{ma}</div>
+                                                    </div>
+                                                    <div className="prose prose-slate prose-sm text-slate-600" dangerouslySetInnerHTML={{ __html: pointsHtml.replace(/^- /gm, '• ') }} />
+                                                </div>
+                                                <div className="aspect-video bg-slate-900 overflow-hidden relative group">
+                                                    <img src={`/images/market-analysis-${genre.toLowerCase()}.jpg`} className="w-full h-full object-cover opacity-40 grayscale group-hover:scale-110 transition-transform duration-700" alt="Technical Chart" />
+                                                    <div className="absolute inset-0 flex items-center justify-center">
+                                                        <div className="text-[10px] font-black text-white/40 uppercase tracking-[0.5em] border border-white/20 px-4 py-2">System Diagram Area</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    );
+                                }
+
+                                // Section 4: Trading Plan
+                                if (idx === 3) {
+                                    const strategy = content.match(/\*\*戦略\*\*:\s*([\s\S]*?)(?=\n-|$)/)?.[1];
+                                    return (
+                                        <section key={idx} className="space-y-10">
+                                            <div className="flex items-end gap-6 border-b-4 border-slate-900 pb-4">
+                                                <h2 className="text-3xl font-black uppercase tracking-tight leading-none italic">04. {title.replace(/\d+\.\s*/, '')}</h2>
+                                                <div className="h-4 w-px bg-slate-200" />
+                                                <span className="text-[10px] font-black text-slate-300 uppercase tracking-widest">Execution Protocol</span>
+                                            </div>
+                                            <div className="border-[12px] border-slate-950 p-10 md:p-14 space-y-12">
+                                                <div className="space-y-4">
+                                                    <h3 className="text-sm font-black uppercase tracking-widest text-slate-400">Core Strategy</h3>
+                                                    <p className="text-2xl font-black text-slate-900 leading-tight underline decoration-blue-600 decoration-8 underline-offset-8">
+                                                        {strategy}
+                                                    </p>
+                                                </div>
+                                                <div className="grid grid-cols-2 gap-12 pt-8">
+                                                    <div className="space-y-2">
+                                                        <div className="text-[10px] font-black text-emerald-500 uppercase tracking-widest">Take Profit</div>
+                                                        <div className="text-4xl md:text-5xl font-black text-slate-950 font-sans tracking-tighter">{signalData?.tp || '---'}</div>
+                                                    </div>
+                                                    <div className="space-y-2">
+                                                        <div className="text-[10px] font-black text-rose-500 uppercase tracking-widest">Stop Loss</div>
+                                                        <div className="text-4xl md:text-5xl font-black text-slate-950 font-sans tracking-tighter">{signalData?.sl || '---'}</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </section>
+                                    );
+                                }
+
+                                // Default fallback for any extra sections
+                                return (
+                                    <section key={idx} className="prose prose-slate max-w-none prose-p:text-[17px] prose-p:leading-[2.0]" dangerouslySetInnerHTML={{ __html: `<h2>${title}</h2>${content}` }} />
+                                );
+                            })}
+                        </div>
+
 
                         {/* 5. AIによる結論とアクションプラン - Highlighted Box */}
                         <section className="border-4 border-emerald-500 p-10 md:p-14 space-y-10 bg-emerald-50/30">
