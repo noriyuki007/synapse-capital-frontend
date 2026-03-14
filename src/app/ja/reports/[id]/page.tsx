@@ -55,13 +55,16 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
         notFound();
     }
 
-    const { title, date, genre, target_pair, prediction_direction, contentHtml, signalData, tldr_points, chart_image, excerpt } = reportData;
+    const { title, date, genre, target_pair, prediction_direction, contentHtml, signalData, tldr_points, chart_image, excerpt, conclusionText, nextSteps } = reportData;
     const allReports = await getSortedReportsData();
     const stats = await getTrackRecordStats();
 
     // Extract H2 for TOC and content splitting
     const h2Matches = Array.from(contentHtml.matchAll(/<h2 id="([^"]+)">([\s\S]*?)<\/h2>/g));
     const toc = h2Matches.map(match => ({ id: match[1], text: match[2].replace(/<[^>]*>/g, '') }));
+
+    // Remove the markdown section specifically so it doesn't double render if it's in the main body
+    const cleanContentHtml = contentHtml.replace(/<h2 id="5-ai結論とアクションプラン">[\s\S]*?<\/h2>[\s\S]*?(?=<h2|$)/i, '');
 
     // JSON-LD for SEO
     const jsonLd = {
@@ -265,14 +268,14 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
                             </div>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
                                 <div className="space-y-4 text-slate-700 font-bold leading-relaxed">
-                                    <p>現在の市場環境に基づき、AIは「押し目買い」を強く推奨します。150円台の定着を確認した上で、151.50円を目指すシナリオが有力です。リスク管理として、149.50円のブレイクを確定的な転換点として設定しています。</p>
+                                    <p>{conclusionText}</p>
                                 </div>
                                 <div className="space-y-4 border-l border-emerald-200 pl-8">
                                     <div className="text-[10px] font-black uppercase tracking-widest text-emerald-600">Next Step</div>
                                     <ul className="space-y-3 font-bold text-sm">
-                                        <li>• 150.25円付近での引き付けエントリー</li>
-                                        <li>• 151.00円突破でのトレイリングストップ発動</li>
-                                        <li>• ロンドン・ニューヨーク時間の大口動向を監視</li>
+                                        {nextSteps.map((step, idx) => (
+                                            <li key={idx}>• {step}</li>
+                                        ))}
                                     </ul>
                                 </div>
                             </div>

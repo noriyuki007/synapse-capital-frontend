@@ -84,10 +84,37 @@ export async function getReportData(id: string) {
         chart_image?: string
     };
 
+    // Extract AI Conclusion & Next Steps using regex
+    const conclusionMatch = matterResult.content.match(/## 5\. AI結論とアクションプラン\n- 結論サマリー: ([\s\S]*?)\n- Next Step:\n([\s\S]*?)(?=\n##|$)/i) || 
+                            matterResult.content.match(/## 5\. AI結論とアクションプラン\n([\s\S]*?)(?=\n##|$)/i);
+    
+    let conclusionText = "";
+    let nextSteps: string[] = [];
+
+    if (conclusionMatch) {
+        const fullBlock = conclusionMatch[0];
+        const textMatch = fullBlock.match(/- 結論サマリー: (.*?)\n/i) || fullBlock.match(/## 5\. AI結論とアクションプラン\n(.*?)\n/i);
+        conclusionText = textMatch ? textMatch[1].trim() : "";
+        
+        const stepsMatch = fullBlock.match(/- Next Step:\n([\s\S]*?)$/i);
+        if (stepsMatch) {
+            nextSteps = stepsMatch[1].trim().split('\n').map(s => s.replace(/^[•\-\*]\s*/, '').trim());
+        } else {
+            // Fallback: search for any bullets in the block
+            nextSteps = fullBlock.split('\n').filter(l => l.trim().match(/^[•\-\*]\s+/)).map(s => s.replace(/^[•\-\*]\s*/, '').trim());
+        }
+    }
+
+    // Default fallbacks if parsing fails
+    if (conclusionText === "") conclusionText = "現在の市場環境に基づき、AIは慎重かつ戦略的な取引を推奨します。";
+    if (nextSteps.length === 0) nextSteps = ["主要なサポート・レジスタンスラインの監視", "経済指標発表時のボラティリティ警戒", "資金管理の徹底とリスク分散"];
+
     return {
         id,
         contentHtml,
         signalData: signalData,
+        conclusionText,
+        nextSteps,
         title: data.title,
         date: data.date,
         genre: data.genre || 'FX',
