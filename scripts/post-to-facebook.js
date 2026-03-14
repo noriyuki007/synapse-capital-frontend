@@ -7,13 +7,12 @@ const https = require('https');
  * Posts the latest report to the configured Facebook page.
  */
 
-const FB_PAGE_ID = process.env.FB_PAGE_ID;
-const FB_ACCESS_TOKEN = process.env.FB_ACCESS_TOKEN;
+const MAKE_WEBHOOK_URL = process.env.MAKE_WEBHOOK_URL;
 const BASE_URL = 'https://synapsecapital.net';
 
-async function postToFacebook() {
-    if (!FB_PAGE_ID || !FB_ACCESS_TOKEN) {
-        console.log('Facebook credentials not configured. Skipping auto-post.');
+async function postToMakeWebhook() {
+    if (!MAKE_WEBHOOK_URL) {
+        console.log('MAKE_WEBHOOK_URL not configured. Skipping post.');
         return;
     }
 
@@ -26,7 +25,7 @@ async function postToFacebook() {
             name: f,
             path: path.join(reportsDir, f)
         }))
-        .sort((a, b) => b.name.localeCompare(a.name)); // YYYY-MM-DD sort works alphabetically
+        .sort((a, b) => b.name.localeCompare(a.name));
 
     if (files.length === 0) return;
 
@@ -34,24 +33,27 @@ async function postToFacebook() {
     const slug = latestReport.name.replace('.md', '');
     const url = `${BASE_URL}/ja/reports/${slug}/`;
     
-    // Read markdown to get title
+    // Read markdown to get basic metadata
     const content = fs.readFileSync(latestReport.path, 'utf8');
     const titleMatch = content.match(/title:\s*"(.*?)"/);
+    const genreMatch = content.match(/genre:\s*"(.*?)"/);
+    
     const title = titleMatch ? titleMatch[1] : '最新のマーケットレポート';
+    const genre = genreMatch ? genreMatch[1] : 'MARKET';
 
-    console.log(`Preparing to post to Facebook: ${title}`);
-
-    const message = `【最新レポート更新】\n${title}\n\nAIによる最新のマーケット分析を公開しました。詳細はサイトをご確認ください。\n\n${url}`;
+    console.log(`Sending data to Make Webhook: ${title}`);
 
     const postData = JSON.stringify({
-        message: message,
-        link: url,
-        access_token: FB_ACCESS_TOKEN
+        title: title,
+        url: url,
+        genre: genre,
+        message: `【最新レポート更新】\n${title}\n\nAIによる最新のマーケット分析を公開しました。詳細はサイトをご確認ください。\n\n${url}`
     });
 
+    const parsedUrl = new URL(MAKE_WEBHOOK_URL);
     const options = {
-        hostname: 'graph.facebook.com',
-        path: `/v19.0/${FB_PAGE_ID}/feed`,
+        hostname: parsedUrl.hostname,
+        path: parsedUrl.pathname + parsedUrl.search,
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -63,10 +65,10 @@ async function postToFacebook() {
         let responseBody = '';
         res.on('data', (chunk) => { responseBody += chunk; });
         res.on('end', () => {
-            if (res.statusCode === 200) {
-                console.log('Successfully posted to Facebook!');
+            if (res.statusCode >= 200 && res.statusCode < 300) {
+                console.log('Successfully sent data to Make Webhook!');
             } else {
-                console.error(`Failed to post to Facebook. Status: ${res.statusCode}`);
+                console.error(`Failed to send data to Make. Status: ${res.statusCode}`);
                 console.error(responseBody);
             }
         });
@@ -80,4 +82,4 @@ async function postToFacebook() {
     req.end();
 }
 
-postToFacebook();
+postToMakeWebhook();
