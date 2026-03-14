@@ -1,15 +1,23 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Noto_Sans_JP } from "next/font/google";
 import "./globals.css";
 
 const inter = Inter({
     variable: "--font-inter",
     subsets: ["latin"],
+    weight: ["400", "500", "600", "700", "800", "900"],
+    display: "swap",
+});
+
+const notoJP = Noto_Sans_JP({
+    variable: "--font-noto-jp",
+    subsets: ["latin"],
     weight: ["400", "500", "700", "900"],
+    display: "swap",
 });
 
 export const viewport: Viewport = {
-    themeColor: "#4f46e5",
+    themeColor: "#ffffff",
     width: "device-width",
     initialScale: 1,
     maximumScale: 1,
@@ -17,8 +25,8 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-    title: "AIが教えるはじめてのFX・暗号資産 | Synapse Capital",
-    description: "複雑な分析はAIに任せ、あなたは「最高のタイミング」を知るだけ。Synapse Capitalの次世代意思決定エンジン。",
+    title: "Synapse Capital | AIマーケット分析・情報ターミナル",
+    description: "高度なAIが常時市場を監視。透明性の高いデータと分析結果を提供する情報ターミナル。",
     icons: {
         icon: "/favicon.png",
     }
@@ -31,7 +39,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="ja">
-            <body className={`${inter.variable} font-sans antialiased text-slate-900 bg-slate-50`}>
+            <body className={`${inter.variable} ${notoJP.variable} font-sans antialiased bg-white text-slate-900`}>
                 {children}
             </body>
         </html>

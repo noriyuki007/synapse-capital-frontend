@@ -1,0 +1,32 @@
+{
+  "FX": {
+    "pair": "USD/JPY",
+    "status": "BUY",
+    "comment": "米雇用統計後のドル買い需要を背景に、底堅い展開を予想。150.20付近のサポートが強力。",
+    "entry": "150.20",
+    "tp": "151.50",
+    "sl": "149.50",
+    "reliability": "HIGH",
+    "recommended_broker": "dmm-fx"
+  },
+  "STOCKS": {
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "主要ハイテク銘柄の決算が良好。指数は過去最高値圏を維持しており、上昇トレンド継続。",
+    "entry": "5020",
+    "tp": "5100",
+    "sl": "4980",
+    "reliability": "MID",
+    "recommended_broker": "dmm-fx"
+  },
+  "CRYPTO": {
+    "pair": "BTC/USD",
+    "status": "BUY",
+    "comment": "現物ETFへの資金流入が加速。ハッシュレートも過去最高を更新中で、長期的な上昇要因が揃う。",
+    "entry": "62000",
+    "tp": "68000",
+    "sl": "59000",
+    "reliability": "MID",
+    "recommended_broker": "bitflyer"
+  }
+}

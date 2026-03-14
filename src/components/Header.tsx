@@ -1,120 +1,98 @@
-"use client";
+'use client';
 
-import Link from "next/link";
-import Image from "next/image";
-import { useState } from "react";
+import React, { useState } from 'react';
+import { Activity, Globe, ChevronDown, BarChart3, Bitcoin, ShieldCheck, Cpu, LayoutGrid, FileText, TrendingUp, Users } from 'lucide-react';
+import Link from 'next/link';
 
-const categories = [
-    { id: 0, name: "注目の記事", slug: "featured" },
-    { id: 1, name: "世界のAI", slug: "news" },
-    { id: 2, name: "インサイト", slug: "insights" },
-    { id: 3, name: "スタートアップ", slug: "startups" },
-    { id: 4, name: "週間特集", slug: "features" },
-    { id: 5, name: "編集部レビュー", slug: "reviews" },
-    { id: 6, name: "マーケット分析", slug: "market-analysis" },
-];
+export const Header = () => {
+    const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
-export function Header() {
-    const [active, setActive] = useState(0);
-    const [isOpen, setIsOpen] = useState(false);
+    const menuItems = [
+        {
+            label: "マーケット・ターミナル",
+            id: "markets",
+            items: [
+                { label: "FX Pro", href: "/ja/pro", icon: Activity, desc: "外国為替市場のAI解析" },
+                { label: "株式 Pro", href: "/ja/pro/stocks", icon: BarChart3, desc: "グローバル株式ターミナル" },
+                { label: "暗号資産 Pro", href: "/ja/pro/crypto", icon: Bitcoin, desc: "オンチェーン・インサイト" },
+            ]
+        },
+        {
+            label: "インテリジェンス",
+            id: "intelligence",
+            items: [
+                { label: "最新レポート", href: "/ja/reports", icon: FileText, desc: "AIマーケット分析レポート" },
+                { label: "運用実績", href: "/ja/track-record", icon: TrendingUp, desc: "透明性の高い的中率公開" },
+            ]
+        },
+        {
+            label: "パートナー・連携",
+            id: "partners",
+            items: [
+                { label: "パートナー連携", href: "/ja/exchange", icon: Users, desc: "推奨取引プラットフォーム一覧" },
+            ]
+        }
+    ];
 
     return (
-        <>
-            <header className="sticky top-0 z-[60] bg-white border-b border-zinc-100 flex flex-col">
-                <div className="flex items-center justify-between px-4 h-16 max-w-7xl mx-auto w-full">
-                    {/* Hamburger for mobile */}
-                    <button
-                        onClick={() => setIsOpen(!isOpen)}
-                        className="md:hidden p-2 -ml-2 text-zinc-400 hover:text-brand-accent transition-colors"
-                    >
-                        {isOpen ? (
-                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M6 18L18 6M6 6l12 12" /></svg>
-                        ) : (
-                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M4 6h16M4 12h16M4 18h16" /></svg>
-                        )}
-                    </button>
-
-                    <Link href="/" className="flex items-center gap-3 group">
-                        <div className="relative w-10 h-10 bg-zinc-950 flex items-center justify-center rounded-none transform group-hover:scale-105 transition-all duration-300 shadow-xl overflow-hidden">
-                            <span className="text-white font-black text-xs">SC</span>
-                        </div>
-                        <div className="flex flex-col -space-y-1">
-                            <span className="text-xl font-black tracking-tighter text-zinc-900 leading-none group-hover:text-zinc-950 transition-colors">SYNAPSE</span>
-                            <span className="text-[9px] font-black tracking-[0.3em] text-brand-accent italic uppercase">CAPITAL</span>
-                        </div>
-                    </Link>
-
-                    <div className="flex items-center gap-3">
-                        {/* Desktop Search */}
-                        <button className="p-2 text-zinc-300 hover:text-brand-accent transition-all hidden sm:block">
-                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                            </svg>
-                        </button>
-
-                        <div className="sm:flex items-center gap-2 px-3 py-1 bg-zinc-900 border border-zinc-900 rounded-none shadow-xl hidden">
-                            <span className="text-[9px] font-black tracking-[0.2em] text-white uppercase italic">AI GUILD</span>
-                        </div>
-
-                        {/* Mobile search icon */}
-                        <button className="p-2 text-zinc-300 hover:text-brand-accent sm:hidden">
-                            <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-                            </svg>
-                        </button>
+        <header className="sticky top-0 z-[100] bg-white/90 border-b border-slate-100 px-4 md:px-8 py-3 flex items-center justify-between backdrop-blur-md">
+            <div className="flex items-center gap-12">
+                <Link href="/" className="flex items-center gap-3 group">
+                    <div className="w-8 h-8 bg-black rounded-none flex items-center justify-center text-white shrink-0 group-hover:bg-indigo-600 transition-all duration-300">
+                        <Activity className="w-5 h-5" />
                     </div>
-                </div>
+                    <div className="text-base font-black tracking-tighter text-black uppercase font-sans leading-none">
+                        SYNAPSE CAPITAL
+                    </div>
+                </Link>
 
-                {/* PC Category Navigation */}
-                <nav className="hidden md:flex overflow-x-auto no-scrollbar px-4 bg-white border-t border-zinc-50 max-w-7xl mx-auto w-full">
-                    {categories.map((cat) => (
-                        <Link
-                            key={cat.id}
-                            href={`/${cat.slug === "featured" ? "" : cat.slug}`}
-                            onClick={() => setActive(cat.id)}
-                            className={`flex-shrink-0 px-6 py-4 text-[11px] font-black transition-all duration-300 border-b-2 uppercase tracking-widest ${active === cat.id
-                                ? "text-zinc-950 border-zinc-950"
-                                : "text-zinc-300 border-transparent hover:text-zinc-700"
-                                }`}
+                <nav className="hidden lg:flex items-center gap-1 text-[11px] font-black text-slate-500 uppercase tracking-widest">
+                    {menuItems.map((menu) => (
+                        <div 
+                            key={menu.id} 
+                            className="relative group py-2 px-4"
+                            onMouseEnter={() => setOpenDropdown(menu.id)}
+                            onMouseLeave={() => setOpenDropdown(null)}
                         >
-                            {cat.name}
-                        </Link>
-                    ))}
-                </nav>
+                            <button className="flex items-center gap-1.5 hover:text-black transition-colors focus:outline-none uppercase">
+                                {menu.label}
+                                <ChevronDown className={`w-3 h-3 transition-transform duration-300 ${openDropdown === menu.id ? 'rotate-180' : ''}`} />
+                            </button>
 
-                {/* Mobile Drawer */}
-                {isOpen && (
-                    <div className="md:hidden fixed inset-0 top-16 z-50 bg-white">
-                        <div className="flex flex-col p-6 space-y-6">
-                            {categories.map((cat) => (
-                                <Link
-                                    key={cat.id}
-                                    href={`/${cat.slug === "featured" ? "" : cat.slug}`}
-                                    onClick={() => {
-                                        setActive(cat.id);
-                                        setIsOpen(false);
-                                    }}
-                                    className="text-lg font-black tracking-tighter text-zinc-900 border-b border-zinc-50 pb-4 flex justify-between items-center group"
-                                >
-                                    <span>{cat.name}</span>
-                                    <svg className="w-4 h-4 text-brand-accent transform group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" strokeLinecap="round" strokeLinejoin="round" strokeWidth={3} /></svg>
-                                </Link>
-                            ))}
-                            <div className="pt-6 space-y-3 border-t border-zinc-100">
-                                <p className="text-[10px] font-black text-zinc-300 uppercase tracking-widest">Follow Synapse Capital</p>
-                                <div className="flex gap-4">
-                                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-zinc-950 flex items-center justify-center hover:bg-brand-accent transition-colors">
-                                        <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z" /></svg>
-                                    </a>
-                                    <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-zinc-950 flex items-center justify-center hover:bg-brand-accent transition-colors">
-                                        <svg className="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" /></svg>
-                                    </a>
+                            {/* Dropdown Menu */}
+                            <div className={`absolute top-full left-0 w-64 pt-2 transition-all duration-300 ${openDropdown === menu.id ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 translate-y-2 pointer-events-none'}`}>
+                                <div className="bg-white border border-slate-100 rounded-none shadow-2xl shadow-slate-200/50 overflow-hidden p-2">
+                                    {menu.items.map((item) => (
+                                        <Link 
+                                            key={item.href} 
+                                            href={item.href}
+                                            className="flex items-start gap-4 p-3 rounded-none hover:bg-slate-50 transition-colors group/item"
+                                        >
+                                            <div className="mt-0.5 w-8 h-8 bg-slate-50 rounded-none flex items-center justify-center text-slate-400 group-hover/item:bg-indigo-50 group-hover/item:text-indigo-600 transition-colors">
+                                                <item.icon className="w-4 h-4" />
+                                            </div>
+                                            <div className="space-y-0.5">
+                                                <div className="text-[10px] font-black text-slate-900 uppercase tracking-widest">{item.label}</div>
+                                                <div className="text-[9px] font-bold text-slate-400">{item.desc}</div>
+                                            </div>
+                                        </Link>
+                                    ))}
                                 </div>
                             </div>
                         </div>
-                    </div>
-                )}
-            </header>
-        </>
+                    ))}
+                </nav>
+            </div>
+
+            <div className="flex items-center gap-4">
+                <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 bg-slate-50 border border-slate-100 rounded-none text-[9px] font-black text-slate-500 uppercase tracking-widest">
+                    <div className="w-1.5 h-1.5 rounded-none bg-emerald-500 animate-pulse" />
+                    システム稼働中
+                </div>
+                <Link href="/ja/pro" className="px-6 py-2.5 bg-indigo-600 text-white text-[10px] font-black uppercase tracking-[0.2em] rounded-none hover:bg-black transition-all shadow-lg shadow-indigo-100">
+                   ターミナル・アクセス
+                </Link>
+            </div>
+        </header>
     );
-}
+};

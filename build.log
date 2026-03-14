@@ -1,0 +1,57 @@
+
+> synapse-capital@0.1.0 build
+> next build
+
+▲ Next.js 16.1.6 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 2.2s
+  Running TypeScript ...
+  Collecting page data using 7 workers ...
+microCMS getExchanges failed, using unbiased local data.
+  Generating static pages using 7 workers (0/19) ...
+microCMS getExchanges failed, using unbiased local data.
+microCMS getExchanges failed, using unbiased local data.
+microCMS getExchanges failed, using unbiased local data.
+microCMS getExchanges failed, using unbiased local data.
+microCMS getExchanges failed, using unbiased local data.
+microCMS getExchanges failed, using unbiased local data.
+microCMS getExchanges failed, using unbiased local data.
+microCMS getExchanges failed, using unbiased local data.
+  Generating static pages using 7 workers (4/19) 
+microCMS getExchanges failed, using unbiased local data.
+microCMS getExchanges failed, using unbiased local data.
+  Generating static pages using 7 workers (9/19) 
+microCMS getExchanges failed, using unbiased local data.
+  Generating static pages using 7 workers (14/19) 
+microCMS getExchanges failed, using unbiased local data.
+microCMS getExchanges failed, using unbiased local data.
+microCMS getExchanges failed, using unbiased local data.
+microCMS getExchanges failed, using unbiased local data.
+✓ Generating static pages using 7 workers (19/19) in 1766.6ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /api/brokers/update
+├ ○ /ja
+├ ○ /ja/exchange
+├ ● /ja/exchange/[id]
+│ ├ /ja/exchange/dmm-fx
+│ ├ /ja/exchange/dmm-kabu
+│ ├ /ja/exchange/matsui-securities
+│ └ [+4 more paths]
+├ ○ /ja/pro
+├ ○ /ja/pro/crypto
+├ ○ /ja/pro/stocks
+├ ○ /ja/reports
+├ ● /ja/reports/[id]
+│ └ /ja/reports/2026-03-10-fx
+└ ○ /ja/track-record
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
