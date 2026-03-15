@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { execSync } from 'child_process';
 
 // --- 設定 ---
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
@@ -71,7 +72,33 @@ const RECOMMENDED_BROKERS = {
     CRYPTO: 'bitflyer'
 };
 
-async function generateWithGemini(genre, titles) {
+const TICKER_MAP = {
+    FX: { symbol: 'USD/JPY', ticker: 'USDJPY=X' },
+    STOCKS: { symbol: 'S&P 500', ticker: '^GSPC' },
+    CRYPTO: { symbol: 'BTC/USD', ticker: 'BTC-USD' }
+};
+
+function generateChart(genre) {
+    const config = TICKER_MAP[genre];
+    const imagePath = `public/images/market-analysis-${genre.toLowerCase()}.png`;
+    const title = config.symbol;
+    
+    console.log(`📊 Calling Python to generate chart for ${genre} (${config.ticker})...`);
+    try {
+        const cmd = `python3 scripts/generate_chart.py "${config.ticker}" "${imagePath}" "${title}"`;
+        const output = execSync(cmd).toString();
+        
+        const match = output.match(/MARKET_DATA_JSON:(.*)/);
+        if (match) {
+            return JSON.parse(match[1]);
+        }
+    } catch (e) {
+        console.error(`❌ Failed to generate chart for ${genre}:`, e.message);
+    }
+    return null;
+}
+
+async function generateWithGemini(genre, titles, marketData) {
     const persona = PERSONAS[genre];
     const broker = RECOMMENDED_BROKERS[genre];
     
@@ -97,10 +124,10 @@ async function generateWithGemini(genre, titles) {
 - オーダーブック解析: [主要な価格帯]
 - センチメント解析: [現在の市場心理指数]
 
-## 3. テクニカル分析
-- RSI: [数値]
-- 移動平均線: [状態]
-- 分析ポイント: [箇条書きで2点]
+## 3. テクニカル分析 (実際のデータを反映)
+- RSI: ${marketData?.rsi ? parseFloat(marketData.rsi).toFixed(1) : '[数値]'}
+- 移動平均線: ${marketData?.ma20 && marketData?.current_price ? (marketData.current_price > marketData.ma20 ? '20日線を上回り強気' : '20日線を下回り弱気') : '[状態]'}
+- 分析ポイント: [箇条書きで2点。実際の数値 ${marketData?.current_price || '---'} に言及すること]
 
 ## 4. プロ・トレーディング戦略
 - 戦略: [全体方針。1行で簡潔に]
@@ -110,6 +137,12 @@ async function generateWithGemini(genre, titles) {
 ## 5. AI結論とアクションプラン
 - 結論サマリー: [現在の市場環境に基づく最終的な結論を150文字程度で]
 - Next Step: [今後数日間の具体的なアクションプランを3つの箇条書きで]
+
+【実際の市場データ (この数値を記事に反映させてください)】
+- 現在価格: ${marketData?.current_price || '不明'}
+- 20日移動平均: ${marketData?.ma20 || '不明'}
+- 50日移動平均: ${marketData?.ma50 || '不明'}
+- RSI(14): ${marketData?.rsi || '不明'}
 
 【最新ニュース（参考資料）】
 ${titles.map(t => `- ${t}`).join('\n')}
@@ -201,7 +234,8 @@ async function main() {
         }
 
         try {
-            const markdown = await generateWithGemini(genre, allTitles);
+            const marketData = generateChart(genre);
+            const markdown = await generateWithGemini(genre, allTitles, marketData);
             const fileName = `${today}-${genre.toLowerCase()}.md`;
             const filePath = path.join(REPORTS_DIR, fileName);
             fs.writeFileSync(filePath, markdown);
