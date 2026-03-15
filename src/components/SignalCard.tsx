@@ -10,9 +10,9 @@ export const SignalCard = ({ pair, status, comment, entry, tp, sl, reliability, 
     return (
         <div className="bg-white border border-slate-200 rounded-none p-5 hover:border-black transition-all group flex flex-col gap-4 shadow-sm hover:shadow-md">
             <div className="flex justify-between items-start">
-                <div className="space-y-1">
+                <div className="space-y-1 overflow-hidden flex-1 mr-2">
                     <div className="text-[9px] font-bold text-slate-400 uppercase tracking-widest">分析対象</div>
-                    <div className="text-lg font-black text-black tracking-tighter tabular-nums">{pair}</div>
+                    <div className="text-base md:text-lg font-black text-black tracking-tighter tabular-nums truncate">{pair}</div>
                 </div>
                 <div className={`px-2.5 py-1 rounded-none text-[10px] font-black tracking-widest ${status === 'BUY' ? 'bg-emerald-50 text-emerald-600 border border-emerald-100' : 'bg-rose-50 text-rose-600 border border-rose-100'}`}>
                     {status === 'BUY' ? '買い推奨' : '売り推奨'}

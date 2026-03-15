@@ -28,7 +28,7 @@ export default async function ReportsPage() {
                                 インテリジェンス・ハブ
                             </div>
                             <h1 className="text-2xl md:text-3xl font-black text-slate-900 tracking-tighter leading-none font-sans uppercase whitespace-nowrap">
-                                [VERIFY-DEPLOY] インテリジェンス・レポート
+                                インテリジェンス・レポート
                             </h1>
                         </div>
                         
