@@ -1,29 +1,29 @@
 {
   "FX": {
-    "pair": "USD/JPY",
+    "pair": "EUR/USD",
     "status": "SELL",
-    "comment": "中東地政学的リスクの高まりとリスクオフのセンチメントが市場を支配。テクニカルも下降トレンドを示唆しており、短期的な下落が予想される。",
-    "entry": "158.50",
-    "tp": "157.50",
-    "sl": "159.00",
-    "reliability": "MEDIUM"
+    "comment": "イラン情勢の緊迫化によるリスクオフと、EUR/USDの200-DMA割れが重なり、強い下落トレンドが継続する可能性が高い。",
+    "entry": "1.1380",
+    "tp": "1.1300",
+    "sl": "1.1450",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "pair": "US_STOCKS_MARKET",
-    "status": "SELL",
-    "comment": "主要イベントを前にした高値警戒感と、個人消費の冷え込み懸念から、短期的な調整リスクを考慮。",
-    "entry": "5150",
-    "tp": "5080",
-    "sl": "5220",
+    "pair": "US Market Index (S&P 500 Futures)",
+    "status": "BUY",
+    "comment": "原油高騰とNvidiaイベントへの期待が拮抗する中、短期的なレンジ下限での押し目買いを推奨。ただし、機関投資家の慎重姿勢には注意。",
+    "entry": "5100",
+    "tp": "5220",
+    "sl": "5050",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
     "pair": "ETH/USD",
     "status": "BUY",
-    "comment": "機関投資家の需要と規制緩和の兆しがポジティブ。テクニカルも強気を示唆し、レンジ上限突破を期待。",
-    "entry": "$2,000",
-    "tp": "$2,120",
-    "sl": "$1,970",
+    "comment": "現在の市場は不確実性が高いが、ETH/USDは主要サポートライン($2,800)付近で底堅く推移。レンジ下限からの反発を狙う。",
+    "entry": "2850",
+    "tp": "3150",
+    "sl": "2750",
     "reliability": "MEDIUM"
   }
 }
