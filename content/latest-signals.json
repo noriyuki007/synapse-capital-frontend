@@ -1,32 +1,29 @@
 {
   "FX": {
-    "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "米雇用統計後のドル買い需要を背景に、底堅い展開を予想。150.20付近のサポートが強力。",
-    "entry": "150.20",
-    "tp": "151.50",
-    "sl": "149.50",
-    "reliability": "HIGH",
-    "recommended_broker": "dmm-fx"
+    "pair": "EUR/USD",
+    "status": "SELL",
+    "comment": "地政学的リスクの高まりと200-DMAの下抜けが重なり、EUR/USDは強い下降トレンドを示唆。安全資産としてのドル買いが優勢。",
+    "entry": "1.1395",
+    "tp": "1.1350",
+    "sl": "1.1435",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "pair": "S&P 500",
+    "pair": "主要株式市場",
     "status": "BUY",
-    "comment": "主要ハイテク銘柄の決算が良好。指数は過去最高値圏を維持しており、上昇トレンド継続。",
-    "entry": "5020",
-    "tp": "5100",
-    "sl": "4980",
-    "reliability": "MID",
-    "recommended_broker": "dmm-fx"
+    "comment": "AI期待が市場を下支えする一方、短期的な調整リスクも考慮し、主要支持線での押し目買いが有効と判断。",
+    "entry": "5080",
+    "tp": "5250",
+    "sl": "5000",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "現物ETFへの資金流入が加速。ハッシュレートも過去最高を更新中で、長期的な上昇要因が揃う。",
-    "entry": "62000",
-    "tp": "68000",
-    "sl": "59000",
-    "reliability": "MID",
-    "recommended_broker": "bitflyer"
+    "status": "SELL",
+    "comment": "規制の不透明感とETHのOTC売却が上値を抑制。短期的な下値試しの展開を警戒し、レンジ上限でのショートを推奨。",
+    "entry": 68000,
+    "tp": 66500,
+    "sl": 69000,
+    "reliability": "MEDIUM"
   }
 }
