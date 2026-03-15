@@ -183,7 +183,7 @@ async function main() {
             const fileName = `${today}-${genre.toLowerCase()}.md`;
             const filePath = path.join(REPORTS_DIR, fileName);
             fs.writeFileSync(filePath, markdown);
-            console.log(`Saved: ${filePath}`);
+            console.log(`✅ Saved: ${filePath}`);
 
             // 最新のシグナルをJSONとしてまとめ
             const signalMatch = markdown.match(/```json\n([\s\S]*?)\n```/);
@@ -196,10 +196,12 @@ async function main() {
                 }
                 existingSignals[genre] = signal;
                 fs.writeFileSync(signalsFile, JSON.stringify(existingSignals, null, 2));
-                console.log(`Updated latest-signals.json with ${genre}`);
+                console.log(`✅ Updated latest-signals.json with ${genre}`);
             }
         } catch (e) {
-            console.error(`Failed to generate ${genre}:`, e);
+            console.error(`❌ Failed to generate ${genre}:`, e.message);
+            // エラーを再スローしてスクリプト全体を失敗させる
+            throw e;
         }
     }
 }

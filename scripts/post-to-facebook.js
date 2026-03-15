@@ -26,6 +26,7 @@ async function postToMakeWebhook() {
     }
 
     const today = new Date().toISOString().split('T')[0];
+    console.log(`Checking for reports on date: ${today}`);
     
     // Get all reports from today
     const reportsForToday = fs.readdirSync(reportsDir)
@@ -36,7 +37,7 @@ async function postToMakeWebhook() {
         }));
 
     if (reportsForToday.length === 0) {
-        console.log(`No reports found for ${today}. Checking for the latest file instead.`);
+        console.log(`⚠️ No reports found for ${today}. Checking for the latest file instead.`);
         // Fallback: if no reports today, check if there's any report at all to post (for testing)
         const allFiles = fs.readdirSync(reportsDir)
             .filter(f => f.endsWith('.md'))
@@ -47,14 +48,14 @@ async function postToMakeWebhook() {
                 name: allFiles[0],
                 path: path.join(reportsDir, allFiles[0])
             });
-            console.log(`Using fallback: ${allFiles[0]}`);
+            console.log(`ℹ️ Using fallback (latest available): ${allFiles[0]}`);
         } else {
-            console.log('No reports found at all.');
+            console.log('❌ No reports found at all in directory.');
             return;
         }
     }
 
-    console.log(`Found ${reportsForToday.length} report(s) to process.`);
+    console.log(`🚀 Found ${reportsForToday.length} report(s) to process.`);
 
     for (const report of reportsForToday) {
         const slug = report.name.replace('.md', '');
