@@ -75,11 +75,12 @@ async function generateWithGemini(genre, titles) {
     const persona = PERSONAS[genre];
     const broker = RECOMMENDED_BROKERS[genre];
     
-    // 試行するモデルの優先順位
+    // 試行するモデルの優先順位 (正確なAPI識別子に修正)
     const models = [
-        'gemini-1.5-flash',      // 第一候補
-        'gemini-1.5-flash-lite', // 第二候補
-        'gemini-2.0-flash'       // 第三候補
+        'gemini-1.5-flash',      // 第一候補 (AI Studio上の Gemini 2.5 Flash に相当)
+        'gemini-1.5-flash-8b',   // 第二候補 (AI Studio上の Gemini 2.5 Flash Lite に相当)
+        'gemini-2.0-flash-exp',  // 第三候補
+        'gemini-2.0-flash'       // 第四候補
     ];
 
     const prompt = `
