@@ -9,9 +9,11 @@ import { Activity, Clock, ArrowRight } from 'lucide-react';
 export default async function ReportsPage() {
     const allReportsData = await getSortedReportsData();
     const stats = await getTrackRecordStats();
+    const buildTime = new Date().toISOString();
 
     return (
         <div className="min-h-screen bg-white text-slate-900 selection:bg-indigo-100 selection:text-indigo-900">
+            <span className="hidden" aria-hidden="true">Build: {buildTime}</span>
             <Header />
 
             <main className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 border-x border-slate-100 bg-white min-h-screen">
