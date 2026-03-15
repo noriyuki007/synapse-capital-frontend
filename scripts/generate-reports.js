@@ -123,7 +123,7 @@ target_pair: "銘柄名（USD/JPYなど）"
 prediction_direction: "UP/DOWN/FLAT"
 recommended_broker: "${broker}"
 tldr_points: ["AI予測の核心1", "AI予測の核心2", "AI予測の核心3"]
-chart_image: "/images/market-analysis-${genre.toLowerCase()}.jpg"
+chart_image: "/images/market-analysis-${genre.toLowerCase()}.png"
 excerpt: "120文字程度の要約。検索結果に表示される重要な文章です。"
 ---
 
