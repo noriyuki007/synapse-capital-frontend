@@ -36,11 +36,27 @@ const RSS_FEEDS = [
 // --- 補助関数 ---
 async function fetchRSS(url) {
     try {
-        const res = await fetch(url);
+        const res = await fetch(url, {
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (SynapseCapital AI Crawler)'
+            }
+        });
         const xml = await res.text();
         const items = xml.match(/<item>([\s\S]*?)<\/item>/gi) || [];
         return items.slice(0, 5).map(item => {
-            const title = (item.match(/<title>([\s\S]*?)<\/title>/i)?.[1] || '').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').trim();
+            let title = (item.match(/<title>([\s\S]*?)<\/title>/i)?.[1] || '').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').trim();
+            // Basic HTML Entity Decoding
+            title = title
+                .replace(/&amp;/g, '&')
+                .replace(/&lt;/g, '<')
+                .replace(/&gt;/g, '>')
+                .replace(/&quot;/g, '"')
+                .replace(/&#39;/g, "'")
+                .replace(/&#x2018;/g, "‘")
+                .replace(/&#x2019;/g, "’")
+                .replace(/&#x201C;/g, "“")
+                .replace(/&#x201D;/g, "”")
+                .replace(/&#8217;/g, "’");
             return title;
         });
     } catch (e) {

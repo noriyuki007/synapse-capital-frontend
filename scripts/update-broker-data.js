@@ -119,6 +119,42 @@ const BROKERS_RAW = [
         affiliateLink: 'https://h.accesstrade.net/sp/cc?rk=0100ms9100oow9'
     },
     {
+        id: 'moomoo-securities',
+        name: 'moomoo証券',
+        description: '次世代の投資体験を提供する。プロ級の分析ツールと、業界最安水準の手数料が魅力。',
+        features: ['プロ級の分析ツールが無料', '米国株の24時間取引', '低い取引コスト'],
+        pros: ['情報量が圧倒的に多い', 'UIがモダンで使いやすい'],
+        cons: ['ツールが多機能すぎて迷うことがある', '歴史が浅い'],
+        targetAudience: 'データ重視の個人投資家・米国株トレーダー',
+        recommendation: '高度なチャート分析と、豊富なマーケット情報を求めるアクティブ投資家に。',
+        rawScores: {
+            cost: 4.9,
+            platform: 5.0,
+            speed: 4.6,
+            security: 4.5,
+            support: 4.3
+        },
+        affiliateLink: 'https://h.accesstrade.net/sp/cc?rk=0100pge400oow9'
+    },
+    {
+        id: 'bitflyer',
+        name: 'bitFlyer',
+        description: '国内最大級の暗号資産取引所。高いセキュリティと、使いやすさが定評。',
+        features: ['ビットコイン取引量 6年連続No.1', '強固なセキュリティ', '1円から買える'],
+        pros: ['信頼性が極めて高い', 'アプリの完成度が高い'],
+        cons: ['スプレッドが広め（販売所）', 'レバレッジ取引の制限がある'],
+        targetAudience: '暗号資産初心者から上級者まで',
+        recommendation: '安全性と信頼性を最優先し、まずはビットコインから始めたい方に最適。',
+        rawScores: {
+            cost: 3.5,
+            platform: 4.8,
+            speed: 4.7,
+            security: 5.0,
+            support: 4.4
+        },
+        affiliateLink: 'https://bitflyer.com/'
+    },
+    {
         id: 'xmtrading',
         name: 'XMTrading',
         description: '世界最大級の海外FX。追証なしのゼロカットと最大1000倍のレバレッジが特徴。',
@@ -126,7 +162,7 @@ const BROKERS_RAW = [
         pros: ['少額から大きな利益を狙える', 'ゼロカットで借金リスクなし'],
         cons: ['スプレッドが国内社より広い', '国内の金融ライセンスではない'],
         targetAudience: 'ハイレバレッジでの短期トレードを好むリスク許向者',
-        recommendation: '極小資金からハイレバレッジで攻めたい、海外FX特有の利点を求める方に。',
+        recommendation: '極小資金からハイレバレッジで攻めたい、海外FX特有の利点を求める方に補足。',
         rawScores: {
             cost: 2.8,
             platform: 4.8,

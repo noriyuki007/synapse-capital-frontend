@@ -9,7 +9,8 @@
     "start": "next start",
     "lint": "eslint",
     "generate-report": "node scripts/generate-reports.js",
-    "update-broker-data": "node scripts/update-broker-data.js"
+    "update-broker-data": "node scripts/update-broker-data.js",
+    "post-to-facebook": "node scripts/post-to-facebook.js"
   },
   "dependencies": {
     "gray-matter": "^4.0.3",

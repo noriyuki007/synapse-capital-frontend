@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
             authors: ['AntiGravity AI'],
             images: [
                 {
-                    url: `${baseUrl}/images/og-report-${report.genre.toLowerCase()}.png`,
+                    url: `${baseUrl}/images/hero_visual.png`,
                     width: 1200,
                     height: 630,
                     alt: report.title,
@@ -175,11 +175,11 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
                                   return (
                                     <section id={sectionId} key={idx} className="space-y-10 scroll-mt-24">
                                       <h2 className="text-3xl font-black tracking-tight border-l-8 border-slate-900 pl-6">{titleHtml.replace(/^\d+\.\s*/, '')}</h2>
-                                      <div className="bg-gray-50 p-10 md:p-14 leading-relaxed text-lg text-slate-700" dangerouslySetInnerHTML={{ __html: content.replace(/米雇用統計|早期利下げ期待|日銀|上田総裁/g, '<strong>$&</strong>') }} />
+                                      <div className="bg-gray-50 p-10 md:p-14 leading-relaxed text-lg text-slate-700" dangerouslySetInnerHTML={{ __html: content }} />
                                     </section>
                                   );
                                 }
-
+ 
                                 // Section 2: AI Analysis (3-column grid)
                                 if (idx === 1) {
                                   const listItems = content.match(/<li>([\s\S]*?)<\/li>/g) || [];
@@ -203,7 +203,7 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
                                     </section>
                                   );
                                 }
-
+ 
                                 // Section 3: Technical Analysis (2-column)
                                 if (idx === 2) {
                                   return (
@@ -213,7 +213,7 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
                                         <div className="prose prose-slate max-w-none prose-p:font-bold prose-p:text-slate-700" dangerouslySetInnerHTML={{ __html: content }} />
                                         <div className="aspect-square bg-slate-900 relative overflow-hidden group shadow-xl">
                                           <img 
-                                            src={chart_image || `/images/market-analysis-${genre.toLowerCase()}.jpg`} 
+                                            src={chart_image || '/images/hero_visual.png'} 
                                             className="w-full h-full object-cover opacity-80 group-hover:scale-105 transition-transform duration-700" 
                                             alt="Technical Analysis Chart" 
                                           />
