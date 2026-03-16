@@ -42,10 +42,20 @@ async function fetchRSS(url) {
                 'User-Agent': 'Mozilla/5.0 (SynapseCapital AI Crawler)'
             }
         });
+
+        if (!res.ok) {
+            console.warn(`⚠️ RSS fetch failed for ${url} (Status: ${res.status})`);
+            return [];
+        }
+
         const xml = await res.text();
-        const items = xml.match(/<item>([\s\S]*?)<\/item>/gi) || [];
+        // Support both <item> (RSS) and <entry> (Atom)
+        const items = xml.match(/<(item|entry)>([\s\S]*?)<\/\1>/gi) || [];
+        
         return items.slice(0, 5).map(item => {
-            let title = (item.match(/<title>([\s\S]*?)<\/title>/i)?.[1] || '').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').trim();
+            let titleMatch = item.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+            let title = (titleMatch?.[1] || '').replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1').trim();
+            
             // Basic HTML Entity Decoding
             title = title
                 .replace(/&amp;/g, '&')
@@ -57,11 +67,15 @@ async function fetchRSS(url) {
                 .replace(/&#x2019;/g, "’")
                 .replace(/&#x201C;/g, "“")
                 .replace(/&#x201D;/g, "”")
-                .replace(/&#8217;/g, "’");
+                .replace(/&#8217;/g, "’")
+                .replace(/&#8211;/g, "–")
+                .replace(/&ndash;/g, "–")
+                .replace(/&#8212;/g, "—")
+                .replace(/&mdash;/g, "—");
             return title;
         });
     } catch (e) {
-        console.error(`Failed to fetch RSS: ${url}`);
+        console.error(`❌ Failed to fetch RSS: ${url}`, e.message);
         return [];
     }
 }
@@ -102,12 +116,13 @@ async function generateWithGemini(genre, titles, marketData) {
     const persona = PERSONAS[genre];
     const broker = RECOMMENDED_BROKERS[genre];
     
-    // 試行するモデルの優先順位 (AI Studioの表示に合わせて調整)
+    // 試行するモデルの優先順位 (2026年時点の推奨と安定版)
     const models = [
-        'gemini-2.5-flash',      // 第一候補 (UI上の Gemini 2.5 Flash)
-        'gemini-3-flash',        // 第二候補 (UI上の Gemini 3 Flash)
-        'gemini-2.5-flash-lite', // 第三候補 (UI上の Gemini 2.5 Flash Lite)
-        'gemini-2.0-flash'       // 第四候補
+        'gemini-2.0-flash',      // 最新
+        'gemini-1.5-flash',      // 安定・高速
+        'gemini-1.5-pro',       // 高性能
+        'gemini-2.0-flash-lite-preview-02-05', // 実験的
+        'gemini-1.5-flash-8b'    // 軽量
     ];
 
     const prompt = `
@@ -150,7 +165,7 @@ ${titles.map(t => `- ${t}`).join('\n')}
 【Frontmatter (厳守)】
 ---
 title: "プロ仕様の記事タイトル"
-date: "${new Date().toISOString().split('T')[0]}"
+date: "${new Date(new Date().toLocaleString('en-US', {timeZone: 'Asia/Tokyo'})).toISOString().split('T')[0]}"
 genre: "${genre}"
 target_pair: "銘柄名（USD/JPYなど）"
 prediction_direction: "UP/DOWN/FLAT"
@@ -236,28 +251,39 @@ async function main() {
         try {
             const marketData = generateChart(genre);
             const markdown = await generateWithGemini(genre, allTitles, marketData);
-            const fileName = `${today}-${genre.toLowerCase()}.md`;
+            
+            // Use local date for filename to avoid timezone confusion (JST is main target)
+            // But keep UTC for consistency with past files if preferred.
+            // Let's use the current date in Japanese timezone (JST) as that matches the user's focus
+            const jstDate = new Date(new Date().toLocaleString("en-US", {timeZone: "Asia/Tokyo"}));
+            const dateStr = jstDate.toISOString().split('T')[0];
+            
+            const fileName = `${dateStr}-${genre.toLowerCase()}.md`;
             const filePath = path.join(REPORTS_DIR, fileName);
             fs.writeFileSync(filePath, markdown);
             console.log(`✅ Saved: ${filePath}`);
 
             // 最新のシグナルをJSONとしてまとめ
-            const signalMatch = markdown.match(/```json\n([\s\S]*?)\n```/);
+            const signalMatch = markdown.match(/```json\s*([\s\S]*?)\s*```/);
             if (signalMatch) {
-                const signal = JSON.parse(signalMatch[1]);
-                const signalsFile = path.join('./content', 'latest-signals.json');
-                let existingSignals = {};
-                if (fs.existsSync(signalsFile)) {
-                    existingSignals = JSON.parse(fs.readFileSync(signalsFile, 'utf8'));
+                try {
+                    const signal = JSON.parse(signalMatch[1]);
+                    const signalsFile = path.join('./content', 'latest-signals.json');
+                    let existingSignals = {};
+                    if (fs.existsSync(signalsFile)) {
+                        existingSignals = JSON.parse(fs.readFileSync(signalsFile, 'utf8'));
+                    }
+                    existingSignals[genre] = signal;
+                    fs.writeFileSync(signalsFile, JSON.stringify(existingSignals, null, 2));
+                    console.log(`✅ Updated latest-signals.json with ${genre}`);
+                } catch (jsonErr) {
+                    console.warn(`⚠️ Failed to parse signal JSON for ${genre}:`, jsonErr.message);
                 }
-                existingSignals[genre] = signal;
-                fs.writeFileSync(signalsFile, JSON.stringify(existingSignals, null, 2));
-                console.log(`✅ Updated latest-signals.json with ${genre}`);
             }
         } catch (e) {
             console.error(`❌ Failed to generate ${genre}:`, e.message);
-            // エラーを再スローしてスクリプト全体を失敗させる
-            throw e;
+            // Don't throw here to allow other genres to proceed
+            continue;
         }
     }
 }

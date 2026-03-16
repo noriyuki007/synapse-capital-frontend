@@ -25,8 +25,9 @@ async function postToMakeWebhook() {
         return;
     }
 
-    const today = new Date().toISOString().split('T')[0];
-    console.log(`Checking for reports on date: ${today}`);
+    const jstDate = new Date(new Date().toLocaleString("en-US", {timeZone: "Asia/Tokyo"}));
+    const today = jstDate.toISOString().split('T')[0];
+    console.log(`Checking for reports on date: ${today} (JST)`);
     
     // Get all reports from today
     const reportsForToday = fs.readdirSync(reportsDir)

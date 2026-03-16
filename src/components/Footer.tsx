@@ -44,9 +44,9 @@ export const Footer = () => {
                         <div className="space-y-8">
                             <h5 className="text-[10px] font-black text-slate-900 uppercase tracking-[0.3em] leading-none">プラットフォーム</h5>
                             <nav className="flex flex-col gap-5 text-xs font-black text-slate-400 uppercase tracking-widest">
-                                <Link href="/ja/pro" className="hover:text-indigo-600 transition-colors">FX Pro</Link>
-                                <Link href="/ja/pro/stocks" className="hover:text-indigo-600 transition-colors">株式 Pro</Link>
-                                <Link href="/ja/pro/crypto" className="hover:text-indigo-600 transition-colors">暗号資産 Pro</Link>
+                                <Link href="/ja/pro" className="hover:text-indigo-600 transition-colors">FX プロ</Link>
+                                <Link href="/ja/pro/stocks" className="hover:text-indigo-600 transition-colors">株式プロ</Link>
+                                <Link href="/ja/pro/crypto" className="hover:text-indigo-600 transition-colors">暗号資産プロ</Link>
                             </nav>
                         </div>
                         <div className="space-y-8">

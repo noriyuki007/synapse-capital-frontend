@@ -6,6 +6,7 @@ import Link from 'next/link';
 import { Sidebar } from '@/components/Sidebar';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { Modal } from '@/components/Modal';
 
 /**
  * Shared Pro Ticker (Light Version)
@@ -25,7 +26,7 @@ const ProTicker = () => {
         <div className="w-full bg-slate-50 border-b border-slate-100 py-1.5 overflow-hidden sticky top-[57px] z-[40] backdrop-blur-sm">
             <div className="flex animate-ticker whitespace-nowrap">
                 {[...fxItems, ...fxItems].map((item, i) => (
-                    <div key={i} className="flex items-center gap-4 px-6 text-[9px] font-bold tracking-tighter">
+                    <div key={i} className="flex items-center gap-4 px-6 text-[11px] font-bold tracking-tighter">
                         <span className="text-slate-400 uppercase">{item.label}</span>
                         <span className="text-slate-900 tabular-nums">{item.val}</span>
                         <span className={item.up ? "text-emerald-500" : "text-rose-500"}>{item.chg}</span>
@@ -43,13 +44,13 @@ const ProTicker = () => {
  */
 export default function FXProDashboard() {
     const pairs = [
-        { label: "USD/JPY", status: "STABLE", sync: 50, levels: [true, true, false, false], consistency: "MEDIUM" },
-        { label: "EUR/USD", status: "STABLE", sync: 50, levels: [true, true, null, false], consistency: "MEDIUM" },
-        { label: "GBP/USD", status: "同期", sync: 100, levels: [false, false, false, false], consistency: "MEDIUM" },
-        { label: "AUD/USD", status: "STABLE", sync: 50, levels: [true, true, null, false], consistency: "LOW" },
-        { label: "USD/CAD", status: "進行", sync: 75, levels: [false, true, true, false], consistency: "HIGH" },
-        { label: "EUR/JPY", status: "STABLE", sync: 25, levels: [false, false, false, false], consistency: "LOW" },
-        { label: "GBP/JPY", status: "STABLE", sync: 50, levels: [false, false, false, false], consistency: "MEDIUM" },
+        { label: "USD/JPY", status: "安定", sync: 50, levels: [true, true, false, false], consistency: "中" },
+        { label: "EUR/USD", status: "安定", sync: 50, levels: [true, true, null, false], consistency: "中" },
+        { label: "GBP/USD", status: "同期中", sync: 100, levels: [false, false, false, false], consistency: "中" },
+        { label: "AUD/USD", status: "安定", sync: 50, levels: [true, true, null, false], consistency: "低" },
+        { label: "USD/CAD", status: "進行中", sync: 75, levels: [false, true, true, false], consistency: "高" },
+        { label: "EUR/JPY", status: "安定", sync: 25, levels: [false, false, false, false], consistency: "低" },
+        { label: "GBP/JPY", status: "安定", sync: 50, levels: [false, false, false, false], consistency: "中" },
     ];
 
     return (
@@ -65,7 +66,7 @@ export default function FXProDashboard() {
                     
                     {/* Hero Section */}
                     <div className="space-y-8 max-w-2xl">
-                        <div className="inline-flex items-center gap-2.5 px-3 py-1 bg-slate-50 border border-slate-100 rounded-none text-[9px] font-black text-slate-500 uppercase tracking-widest">
+                        <div className="inline-flex items-center gap-2.5 px-3 py-1 bg-slate-50 border border-slate-100 rounded-none text-[12px] font-black text-slate-500 uppercase tracking-widest">
                             プロフェッショナル・インサイト V2.4 ライブ
                         </div>
                         <h1 className="text-2xl md:text-3xl font-black text-slate-900 tracking-tighter leading-none font-sans uppercase whitespace-nowrap">
@@ -79,7 +80,7 @@ export default function FXProDashboard() {
                     {/* FX Board Area */}
                     <section className="space-y-10 pt-16 border-t border-slate-100">
                         <div className="flex items-center justify-between">
-                            <h2 className="text-[11px] font-black uppercase tracking-[0.4em] flex items-center gap-3 text-slate-900 leading-none">
+                            <h2 className="text-[13px] font-black uppercase tracking-[0.4em] flex items-center gap-3 text-slate-900 leading-none">
                                 <Activity className="w-4 h-4 text-indigo-600" />
                                 FX シナプス・ターミナル
                             </h2>
@@ -121,9 +122,9 @@ export default function FXProDashboard() {
                                 </h3>
                                 <div className="p-8 bg-slate-50 border border-slate-100 rounded-none space-y-6">
                                     {[
-                                        { label: "強気期待 (Bullish)", val: 68, color: "bg-emerald-500" },
-                                        { label: "中立 (Neutral)", val: 22, color: "bg-slate-300" },
-                                        { label: "弱気期待 (Bearish)", val: 10, color: "bg-rose-500" },
+                                        { label: "強気期待", val: 68, color: "bg-emerald-500" },
+                                        { label: "中立", val: 22, color: "bg-slate-300" },
+                                        { label: "弱気期待", val: 10, color: "bg-rose-500" },
                                     ].map((item, i) => (
                                         <div key={i} className="space-y-2">
                                             <div className="flex justify-between text-[10px] font-black uppercase tracking-tighter">
@@ -135,7 +136,7 @@ export default function FXProDashboard() {
                                             </div>
                                         </div>
                                     ))}
-                                    <p className="text-[9px] font-bold text-slate-400 leading-relaxed uppercase">
+                                    <p className="text-[11px] font-bold text-slate-400 leading-relaxed uppercase">
                                     独自のAIアルゴリズムにより、SNS、ニュース、オプション市場の歪みをリアルタイム解析。群衆の心理から一歩先を行く市場の方向性を算出します。
                                 </p>
                                 </div>
@@ -147,18 +148,18 @@ export default function FXProDashboard() {
                                 </h3>
                                 <div className="grid grid-cols-2 gap-4">
                                     {[
-                                        { pair: "USD/JPY", vola: "HIGH", val: "1.24%" },
-                                        { pair: "EUR/USD", vola: "LOW", val: "0.45%" },
-                                        { pair: "GBP/JPY", vola: "MID", val: "0.88%" },
-                                        { pair: "AUD/USD", vola: "MID", val: "0.72%" },
+                                        { pair: "USD/JPY", vola: "高", val: "1.24%" },
+                                        { pair: "EUR/USD", vola: "低", val: "0.45%" },
+                                        { pair: "GBP/JPY", vola: "中", val: "0.88%" },
+                                        { pair: "AUD/USD", vola: "中", val: "0.72%" },
                                     ].map((item, i) => (
                                         <div key={i} className="p-4 bg-white border border-slate-100 rounded-none space-y-1">
-                                            <div className="text-[9px] font-black text-slate-400 uppercase tracking-widest">{item.pair}</div>
+                                            <div className="text-[11px] font-black text-slate-400 uppercase tracking-widest">{item.pair}</div>
                                             <div className="flex items-center justify-between">
                                                 <span className="text-sm font-black text-slate-900 tabular-nums">{item.val}</span>
-                                                <span className={`text-[7px] font-black px-1 py-0.5 rounded-none ${
-                                                    item.vola === 'HIGH' ? 'bg-rose-50 text-rose-500 border border-rose-100' :
-                                                    item.vola === 'MID' ? 'bg-amber-50 text-amber-500 border border-amber-100' :
+                                                <span className={`text-[11px] font-black px-1 py-0.5 rounded-none ${
+                                                    item.vola === '高' ? 'bg-rose-50 text-rose-500 border border-rose-100' :
+                                                    item.vola === '中' ? 'bg-amber-50 text-amber-500 border border-amber-100' :
                                                     'bg-emerald-50 text-emerald-500 border border-emerald-100'
                                                 }`}>
                                                     {item.vola}
@@ -167,7 +168,7 @@ export default function FXProDashboard() {
                                         </div>
                                     ))}
                                 </div>
-                                <p className="text-[9px] font-bold text-slate-400 leading-relaxed uppercase">
+                                <p className="text-[11px] font-bold text-slate-400 leading-relaxed uppercase">
                                     ボラティリティの異常値を瞬時に検知。統計的な平均振幅からの乖離を測定することで、突発的な価格変動やトレンド転換の予兆を捉えます。
                                 </p>
                             </div>
@@ -181,12 +182,12 @@ export default function FXProDashboard() {
                             相関資産マトリクス
                         </h2>
                         <div className="overflow-x-auto">
-                            <table className="w-full text-[10px] uppercase font-black tracking-tight">
+                            <table className="w-full text-[12px] uppercase font-black tracking-tight">
                                 <thead>
                                     <tr className="border-b border-slate-100 text-slate-400">
-                                        <th className="py-4 text-left font-black">Asset Pair</th>
-                                        <th className="py-4 text-center font-black">Correlation</th>
-                                        <th className="py-4 text-right font-black">Status</th>
+                                        <th className="py-4 text-left font-black">通貨ペア</th>
+                                        <th className="py-4 text-center font-black">相関係数</th>
+                                        <th className="py-4 text-right font-black">ステータス</th>
                                     </tr>
                                 </thead>
                                 <tbody className="divide-y divide-slate-50">
@@ -205,7 +206,7 @@ export default function FXProDashboard() {
                                 </tbody>
                             </table>
                         </div>
-                        <p className="text-[9px] font-bold text-slate-300 leading-relaxed uppercase">
+                        <p className="text-[11px] font-bold text-slate-300 leading-relaxed uppercase">
                             主要通貨ペアとマクロ資産（金利、商品、指数）の動的な相関係数を算出。資産間の資金移動から、現在の相場テーマが「金利」なのか「リスク・オフ」なのかを判定します。
                         </p>
                     </section>
@@ -226,19 +227,18 @@ export default function FXProDashboard() {
 }
 
 const FXCard = ({ label, status, sync, levels, consistency }: any) => {
-    const consistencyJp: any = { 'HIGH': '高', 'MEDIUM': '中', 'LOW': '低' };
-    const statusJp: any = { 'STABLE': '安定', '同期': '同期中', '進行': '進行中', '逆行': '逆行中' };
+    const [isModalOpen, setIsModalOpen] = React.useState(false);
 
     return (
         <div className="bg-white border border-slate-100 rounded-none p-6 space-y-6 shadow-sm hover:shadow-xl hover:border-indigo-100 transition-all cursor-crosshair group">
             <div className="flex items-center justify-between">
                 <span className="text-sm font-black text-slate-900 tracking-tighter uppercase font-sans">{label}</span>
-                <span className={`text-[8px] font-black px-1.5 py-0.5 rounded-none tracking-widest uppercase border ${
-                    status === '逆行' || status === '進行' ? 'bg-rose-50 border-rose-100 text-rose-500' :
-                    status === '同期' ? 'bg-emerald-50 border-emerald-100 text-emerald-500' :
+                <span className={`text-[11px] font-black px-1.5 py-0.5 rounded-none tracking-widest uppercase border ${
+                    status === '逆行中' || status === '進行中' ? 'bg-rose-50 border-rose-100 text-rose-500' :
+                    status === '同期中' ? 'bg-emerald-50 border-emerald-100 text-emerald-500' :
                     'bg-slate-50 border-slate-100 text-slate-400'
                 }`}>
-                    {statusJp[status] || status}
+                    {status}
                 </span>
             </div>
 
@@ -247,17 +247,17 @@ const FXCard = ({ label, status, sync, levels, consistency }: any) => {
                     const dir = levels[i];
                     return (
                         <div key={tf} className="bg-slate-50 p-2 rounded-none border border-slate-100 flex flex-col items-center gap-1.5">
-                            <div className="text-[7px] font-black text-slate-300 tracking-tighter uppercase">{tf}</div>
-                            {dir === true && <TrendingUp className="w-3.5 h-3.5 text-emerald-500" />}
-                            {dir === false && <TrendingUp className="w-3.5 h-3.5 text-rose-500 rotate-180" />}
-                            {dir === null && <Activity className="w-3.5 h-3.5 text-slate-200" />}
+                            <div className="text-[12px] font-black text-slate-300 tracking-tighter uppercase">{tf}</div>
+                            {dir === true && <TrendingUp className="w-4 h-4 text-emerald-500" />}
+                            {dir === false && <TrendingUp className="w-4 h-4 text-rose-500 rotate-180" />}
+                            {dir === null && <Activity className="w-4 h-4 text-slate-200" />}
                         </div>
                     );
                 })}
             </div>
 
             <div className="space-y-1.5">
-                <div className="flex justify-between items-center text-[8px] font-black uppercase tracking-tighter">
+                <div className="flex justify-between items-center text-[11px] font-black uppercase tracking-tighter">
                     <span className="text-slate-400">シナプス同期率</span>
                     <span className="text-indigo-600">{sync}%</span>
                 </div>
@@ -269,9 +269,59 @@ const FXCard = ({ label, status, sync, levels, consistency }: any) => {
             <div className="flex items-center justify-between border-t border-slate-50 pt-4">
                 <div className="flex items-center gap-1.5 font-bold">
                     <AlertCircle className="w-3 h-3 text-amber-400" />
-                    <span className="text-[8px] font-black text-slate-400 uppercase tracking-tighter">不整合アラート: {consistencyJp[consistency] || consistency}</span>
+                    <span className="text-[11px] font-black text-slate-400 uppercase tracking-tighter">不整合アラート: {consistency}</span>
                 </div>
+                <button 
+                    onClick={() => setIsModalOpen(true)}
+                    className="text-[11px] font-black text-indigo-600 uppercase tracking-widest hover:underline transition-all"
+                >
+                    詳細分析 →
+                </button>
             </div>
+
+            <Modal 
+                isOpen={isModalOpen} 
+                onClose={() => setIsModalOpen(false)} 
+                title={`${label} シナプス・ターミナル詳細`}
+            >
+                <div className="space-y-8">
+                    <div className="flex items-center justify-between p-6 bg-slate-50 border border-slate-100">
+                        <div className="space-y-1">
+                            <div className="text-[11px] font-black text-slate-400 uppercase tracking-widest">現在のステータス</div>
+                            <div className="text-xl font-black text-slate-900">{status}</div>
+                        </div>
+                        <div className="text-right space-y-1">
+                            <div className="text-[11px] font-black text-slate-400 uppercase tracking-widest">同期の整合性</div>
+                            <div className="text-xl font-black text-indigo-600">{consistency}</div>
+                        </div>
+                    </div>
+
+                    <div className="space-y-4">
+                        <div className="text-[11px] font-black text-slate-900 uppercase tracking-[0.2em] border-b border-slate-200 pb-2">マルチタイムフレーム解析</div>
+                        <div className="grid grid-cols-4 gap-4">
+                            {['15M', '1H', '4H', '1D'].map((tf, i) => {
+                                const dir = levels[i];
+                                return (
+                                    <div key={tf} className="p-4 bg-white border border-slate-100 flex flex-col items-center gap-3">
+                                        <div className="text-[13px] font-black text-slate-400 uppercase">{tf}</div>
+                                        {dir === true && <TrendingUp className="w-6 h-6 text-emerald-500" />}
+                                        {dir === false && <TrendingUp className="w-6 h-6 text-rose-500 rotate-180" />}
+                                        {dir === null && <Activity className="w-6 h-6 text-slate-200" />}
+                                        <div className="text-[10px] font-bold text-slate-900">{dir === true ? '上昇優位' : dir === false ? '下降優位' : '中立'}</div>
+                                    </div>
+                                );
+                            })}
+                        </div>
+                    </div>
+
+                    <div className="p-6 border border-slate-100 space-y-4">
+                        <div className="text-[11px] font-black text-slate-900 uppercase tracking-widest">シナプス・ AI 診断</div>
+                        <p className="text-sm text-slate-600 leading-relaxed">
+                            {label}の価格行動は現在、{sync}%の確率で主要なアルゴリズムと同期しています。{consistency === '高' ? '不整合が少なく、テクニカル指標通りの推移が期待されます。' : '一部の指標でノイズが発生しており、突発的な変動に注意が必要です。'}短期的にはレジスタンスラインの突破を試みる動きをAIが検知しています。
+                        </p>
+                    </div>
+                </div>
+            </Modal>
         </div>
     );
 };
