@@ -94,26 +94,29 @@ export const Header = () => {
                 {/* Hamburger Menu Button */}
                 <button 
                     onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                    className="lg:hidden p-2 text-slate-900 focus:outline-none"
+                    className="lg:hidden p-2.5 -mr-1 text-slate-900 focus:outline-none hover:bg-slate-50 rounded-none transition-colors"
                     aria-label="Menu"
                 >
-                    {isMobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+                    <Menu className="w-6 h-6" />
                 </button>
             </div>
 
             {/* Mobile Navigation Drawer */}
             <div className={`fixed inset-0 z-[110] lg:hidden transition-all duration-500 ${isMobileMenuOpen ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'}`}>
-                <div className="absolute inset-0 bg-black/60 backdrop-blur-sm" onClick={() => setIsMobileMenuOpen(false)} />
-                <div className={`absolute top-0 right-0 w-[80%] h-full bg-white shadow-2xl transition-transform duration-500 ease-out ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
-                    <div className="p-8 space-y-12 overflow-y-auto h-full">
+                <div className="absolute inset-0 bg-black/40 backdrop-blur-[2px]" onClick={() => setIsMobileMenuOpen(false)} />
+                <div className={`absolute top-0 right-0 w-[300px] sm:w-[380px] h-full bg-white shadow-2xl transition-transform duration-500 ease-out border-l border-slate-100 ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+                    <div className="p-6 md:p-8 space-y-12 overflow-y-auto h-full scrollbar-hide">
                         <div className="flex items-center justify-between">
                             <Link href="/" className="flex items-center gap-3 shrink-0" onClick={() => setIsMobileMenuOpen(false)}>
-                                <div className="w-8 h-8 bg-black rounded-none flex items-center justify-center text-white">
+                                <div className="w-9 h-9 bg-black rounded-none flex items-center justify-center text-white">
                                     <Activity className="w-5 h-5" />
                                 </div>
                                 <div className="text-sm font-black tracking-tighter text-black uppercase">SYNAPSE</div>
                             </Link>
-                            <button onClick={() => setIsMobileMenuOpen(false)} className="text-slate-400">
+                            <button 
+                                onClick={() => setIsMobileMenuOpen(false)} 
+                                className="w-9 h-9 flex items-center justify-center text-slate-400 hover:text-black hover:bg-slate-50 transition-colors"
+                            >
                                 <X className="w-6 h-6" />
                             </button>
                         </div>

@@ -52,18 +52,19 @@ def generate_chart(ticker, filename, title_name):
                              ohlc='inherit')
     
     s = mpf.make_mpf_style(marketcolors=mc, 
-                          base_mpf_style='nightclouds',
+                          base_mpf_style='sas',
                           gridcolor='#1e293b',
                           facecolor='#0f172a',
-                          edgecolor='#334155')
+                          edgecolor='#334155',
+                          rc={'font.size': 8, 'axes.labelsize': 9, 'xtick.labelsize': 7, 'ytick.labelsize': 7})
 
     # Indicators to plot
     # Main chart
     addplot = [
-        mpf.make_addplot(data['MA20'], color='#0ea5e9', width=1.5),
-        mpf.make_addplot(data['MA50'], color='#f59e0b', width=1.5),
+        mpf.make_addplot(data['MA20'], color='#0ea5e9', width=1.0),
+        mpf.make_addplot(data['MA50'], color='#f59e0b', width=1.0),
         # RSI on a second panel
-        mpf.make_addplot(data['RSI'], panel=2, color='#8b5cf6', ylabel='RSI', ylim=(0, 100))
+        mpf.make_addplot(data['RSI'], panel=2, color='#8b5cf6', ylabel='RSI', ylim=(0, 100), width=0.8)
     ]
 
     # Save the file
@@ -74,9 +75,11 @@ def generate_chart(ticker, filename, title_name):
              title=f"\n{title_name} Analysis",
              ylabel='Price',
              savefig=filename,
-             figratio=(16, 9),
-             figscale=1.2,
-             tight_layout=True)
+             figratio=(16, 10),
+             figscale=1.5,
+             update_width_config=dict(candle_linewidth=0.6, candle_width=0.5),
+             tight_layout=True,
+             scale_padding=dict(left=0.5, right=1.5, top=1.0, bottom=0.5))
     
     # Print JSON stats for Node.js
     import json

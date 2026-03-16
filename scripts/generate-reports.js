@@ -139,7 +139,7 @@ async function generateWithGemini(genre, titles, marketData) {
 - オーダーブック解析: [主要な価格帯]
 - センチメント解析: [現在の市場心理指数]
 
-## 3. テクニカル分析 (実際のデータを反映)
+## 3. テクニカル分析
 - RSI: ${marketData?.rsi ? parseFloat(marketData.rsi).toFixed(1) : '[数値]'}
 - 移動平均線: ${marketData?.ma20 && marketData?.current_price ? (marketData.current_price > marketData.ma20 ? '20日線を上回り強気' : '20日線を下回り弱気') : '[状態]'}
 - 分析ポイント: [箇条書きで2点。実際の数値 ${marketData?.current_price || '---'} に言及すること]
