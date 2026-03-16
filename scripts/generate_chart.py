@@ -1,8 +1,11 @@
+import matplotlib
+matplotlib.use('Agg') # Use non-interactive backend for server environments
 import yfinance as yf
 import mplfinance as mpf
 import pandas as pd
 import sys
 import os
+import json
 
 def generate_chart(ticker, filename, title_name):
     print(f"Fetching data for {ticker}...")
