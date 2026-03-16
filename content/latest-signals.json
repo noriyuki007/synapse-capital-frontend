@@ -1,29 +1,29 @@
 {
   "FX": {
-    "pair": "EUR/USD",
-    "status": "SELL",
-    "comment": "イラン情勢の緊迫化によるリスクオフと、EUR/USDの200-DMA割れが重なり、強い下落トレンドが継続する可能性が高い。",
-    "entry": "1.1380",
-    "tp": "1.1300",
-    "sl": "1.1450",
-    "reliability": "HIGH"
+    "pair": "USD/JPY",
+    "status": "BUY",
+    "comment": "日米金利差拡大と地政学リスクがドル高円安を後押し。ただし、160円接近による介入警戒は極めて高く、短期的な押し目買いに限定し、厳格なリスク管理が不可欠。",
+    "entry": "159.00",
+    "tp": "159.80",
+    "sl": "158.80",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "pair": "US Market Index (S&P 500 Futures)",
-    "status": "BUY",
-    "comment": "原油高騰とNvidiaイベントへの期待が拮抗する中、短期的なレンジ下限での押し目買いを推奨。ただし、機関投資家の慎重姿勢には注意。",
-    "entry": "5100",
-    "tp": "5220",
-    "sl": "5050",
+    "pair": "主要株式市場",
+    "status": "SELL",
+    "comment": "地政学リスクとFRB利上げ観測が重しとなり、テクニカルも弱気トレンド。戻り売りが優勢。",
+    "entry": "6630.0",
+    "tp": "6450.0",
+    "sl": "6850.0",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "pair": "ETH/USD",
+    "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "現在の市場は不確実性が高いが、ETH/USDは主要サポートライン($2,800)付近で底堅く推移。レンジ下限からの反発を狙う。",
-    "entry": "2850",
-    "tp": "3150",
-    "sl": "2750",
-    "reliability": "MEDIUM"
+    "comment": "ETF流入と移動平均線上抜けによる強気トレンド継続。RSIの過熱感に注意し、押し目買いを推奨。",
+    "entry": "73500",
+    "tp": "75800",
+    "sl": "70000",
+    "reliability": "HIGH"
   }
 }
