@@ -13,10 +13,12 @@
     "post-to-facebook": "node scripts/post-to-facebook.js"
   },
   "dependencies": {
+    "@google/generative-ai": "^0.24.1",
     "gray-matter": "^4.0.3",
     "lucide-react": "^0.577.0",
     "microcms-js-sdk": "^3.3.0",
     "next": "16.1.6",
+    "openai": "^6.31.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remark": "^15.0.1",

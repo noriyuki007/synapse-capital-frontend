@@ -29,36 +29,44 @@ async function postToMakeWebhook() {
     const today = jstDate.toISOString().split('T')[0];
     console.log(`Checking for reports on date: ${today} (JST)`);
     
-    // Get all reports from today
-    const reportsForToday = fs.readdirSync(reportsDir)
+    // 1. Check for today's reports
+    let targetDate = today;
+    let reportsToPost = fs.readdirSync(reportsDir)
         .filter(f => f.startsWith(today) && f.endsWith('.md'))
-        .map(f => ({
-            name: f,
-            path: path.join(reportsDir, f)
-        }));
+        .map(f => ({ name: f, path: path.join(reportsDir, f) }));
 
-    if (reportsForToday.length === 0) {
-        console.log(`⚠️ No reports found for ${today}. Checking for the latest file instead.`);
-        // Fallback: if no reports today, check if there's any report at all to post (for testing)
+    // 2. Fallback logic: Find the most recent date with reports
+    if (reportsToPost.length === 0) {
+        console.log(`⚠️ No reports found for today (${today}). Searching for the most recent active date...`);
+        
         const allFiles = fs.readdirSync(reportsDir)
             .filter(f => f.endsWith('.md'))
-            .sort((a, b) => b.localeCompare(a));
-        
+            .sort((a, b) => b.localeCompare(a)); // Sort descending (latest first)
+
         if (allFiles.length > 0) {
-            reportsForToday.push({
-                name: allFiles[0],
-                path: path.join(reportsDir, allFiles[0])
-            });
-            console.log(`ℹ️ Using fallback (latest available): ${allFiles[0]}`);
-        } else {
-            console.log('❌ No reports found at all in directory.');
-            return;
+            // Get the date string from the latest file (e.g., "2026-03-15")
+            const latestFile = allFiles[0];
+            const dateMatch = latestFile.match(/^(\d{4}-\d{2}-\d{2})/);
+            
+            if (dateMatch) {
+                targetDate = dateMatch[1];
+                console.log(`ℹ️ Most recent reports found for date: ${targetDate}`);
+                
+                // Get ALL reports for that specific date to ensure all genres are covered
+                reportsToPost = allFiles
+                    .filter(f => f.startsWith(targetDate))
+                    .map(f => ({ name: f, path: path.join(reportsDir, f) }));
+            }
         }
     }
 
-    console.log(`🚀 Found ${reportsForToday.length} report(s) to process.`);
+    if (reportsToPost.length === 0) {
+        console.error('❌ No reports found to post (neither for today nor any past date).');
+        return;
+    }
+    console.log(`🚀 Found ${reportsToPost.length} report(s) for ${targetDate} to process.`);
 
-    for (const report of reportsForToday) {
+    for (const report of reportsToPost) {
         const slug = report.name.replace('.md', '');
         const url = `${BASE_URL}/ja/reports/${slug}/`;
         

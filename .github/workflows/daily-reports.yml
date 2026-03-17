@@ -31,13 +31,21 @@ jobs:
       - name: Install Python dependencies
         run: pip install yfinance mplfinance pandas
 
-      - name: Install Node dependencies
-        run: npm install
+      - name: Environment Diagnostics
+        run: |
+          echo "Node version: $(node -v)"
+          echo "Python version: $(python3 --version)"
+          echo "Checking environment variables..."
+          if [ -z "${{ secrets.GEMINI_API_KEY }}" ]; then echo "❌ GEMINI_API_KEY is missing"; else echo "✅ GEMINI_API_KEY is set"; fi
+          if [ -z "${{ secrets.MAKE_WEBHOOK_URL }}" ]; then echo "❌ MAKE_WEBHOOK_URL is missing"; else echo "✅ MAKE_WEBHOOK_URL is set"; fi
 
       - name: Generate Reports
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node scripts/generate-reports.js
+
+      - name: List Generated Files
+        run: ls -R content/reports/
 
       - name: Post to Facebook
         env:
