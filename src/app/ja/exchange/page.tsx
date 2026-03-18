@@ -5,7 +5,6 @@ import { Footer } from '@/components/Footer';
 import { Shield, ArrowRight, Zap, Trophy, Star, ShieldCheck } from 'lucide-react';
 import Link from 'next/link';
 
-export const runtime = 'edge';
 
 
 export async function generateMetadata() {

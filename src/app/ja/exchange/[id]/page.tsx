@@ -8,7 +8,6 @@ import { CheckCircle2, XCircle, ArrowRight, Shield, Clock, ShieldCheck, Target, 
 import Link from 'next/link';
 import { getExchanges } from '@/lib/microcms';
 
-export const runtime = 'edge';
 
 
 

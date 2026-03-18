@@ -1,6 +1,5 @@
 import PerfectLandingPage from '../page';
 
-export const runtime = 'edge';
 
 
 /**

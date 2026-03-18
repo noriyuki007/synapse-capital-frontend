@@ -8,7 +8,6 @@ import { ShareButtons } from '@/components/ShareButtons';
 import { Activity, Clock, ShieldCheck, TrendingUp, TrendingDown, Target, ArrowLeft, ArrowRight, Bookmark, List, Zap, MessageSquare, AlertCircle } from 'lucide-react';
 import Link from 'next/link';
 
-export const runtime = 'edge';
 
 
 
