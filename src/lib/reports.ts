@@ -1,20 +1,44 @@
-import fs from 'fs';
-import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 
-const reportsDirectory = path.join(process.cwd(), 'content/reports');
+// Report files are pre-defined for Edge runtime compatibility
+// In a real production app, these would come from an API or a pre-built JSON index
+const REPORT_FILES = [
+  '2026-03-17-crypto',
+  '2026-03-17-fx',
+  '2026-03-17-stocks',
+  '2026-03-15-crypto',
+  '2026-03-15-fx',
+  '2026-03-15-stocks',
+  '2026-03-11-crypto',
+  '2026-03-11-fx',
+  '2026-03-11-stocks',
+  '2026-03-10-fx'
+];
+
+/**
+ * Helper to get report content (This is a workaround for Edge Runtime's lack of fs)
+ */
+async function getRawReportContent(id: string) {
+    try {
+        // We use dynamic imports or fetch to get the content in a way that works in Edge
+        // For simplicity and speed in this context, we'll try to use the raw GitHub content or a local fetch
+        const response = await fetch(`https://raw.githubusercontent.com/noriyuki007/synapse-capital-frontend/main/content/reports/${id}.md`);
+        if (response.ok) return await response.text();
+    } catch (e) {
+        console.error(`Failed to fetch report ${id} from GitHub:`, e);
+    }
+    return '';
+}
 
 export async function getSortedReportsData() {
-    if (!fs.existsSync(reportsDirectory)) {
-        return [];
-    }
-    const fileNames = fs.readdirSync(reportsDirectory);
-    const allReportsData = await Promise.all(fileNames.map(async (fileName) => {
-        const id = fileName.replace(/\.md$/, '');
-        const fullPath = path.join(reportsDirectory, fileName);
-        const fileContents = fs.readFileSync(fullPath, 'utf8');
+    // In Edge runtime, we can't scan the filesystem.
+    // We Map over our hardcoded list and fetch/process them.
+    const allReportsData = await Promise.all(REPORT_FILES.map(async (id) => {
+        const fileContents = await getRawReportContent(id);
+        if (!fileContents) return null;
+
         const matterResult = matter(fileContents);
 
         return {
@@ -32,18 +56,15 @@ export async function getSortedReportsData() {
         };
     }));
 
-    return allReportsData.sort((a, b) => {
-        if (a.date < b.date) {
-            return 1;
-        } else {
-            return -1;
-        }
-    });
+    return allReportsData
+        .filter((r): r is NonNullable<typeof r> => r !== null)
+        .sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
 export async function getReportData(id: string) {
-    const fullPath = path.join(reportsDirectory, `${id}.md`);
-    const fileContents = fs.readFileSync(fullPath, 'utf8');
+    const fileContents = await getRawReportContent(id);
+    if (!fileContents) throw new Error(`Report ${id} not found`);
+
     const matterResult = matter(fileContents);
     
     // Extract signal JSON
@@ -84,10 +105,8 @@ export async function getReportData(id: string) {
         chart_image?: string
     };
 
-    // Extract AI Conclusion & Next Steps using regex - improved to stop before JSON block
+    // Extract AI Conclusion & Next Steps using regex
     const contentBeforeJson = matterResult.content.split('```json')[0];
-    
-    // Find the section
     const sectionTitleRegex = /## 5\. AI結論とアクションプラン/i;
     const sectionIndex = contentBeforeJson.search(sectionTitleRegex);
     
@@ -96,12 +115,9 @@ export async function getReportData(id: string) {
 
     if (sectionIndex !== -1) {
         const sectionContent = contentBeforeJson.substring(sectionIndex);
-        
-        // Extract summary
         const summaryMatch = sectionContent.match(/- 結論サマリー: (.*?)\n/i) || sectionContent.match(/## 5\. AI結論とアクションプラン\n(.*?)\n/i);
         conclusionText = summaryMatch ? summaryMatch[1].trim() : "";
         
-        // Extract Next Steps (bullet points)
         const stepsLines = sectionContent.split('\n');
         let inNextSteps = false;
         for (const line of stepsLines) {
@@ -113,21 +129,19 @@ export async function getReportData(id: string) {
                 if (line.match(/^[•\-\*]/)) {
                     nextSteps.push(line.replace(/^[•\-\*]\s*/, '').trim());
                 } else if (line.match(/^##/) || line.trim() === "") {
-                    // Stop at next header or empty line if we already have steps
                     if (nextSteps.length > 0) break;
                 }
             }
         }
     }
 
-    // Default fallbacks if parsing fails
     if (conclusionText === "") conclusionText = "現在の市場環境に基づき、AIは慎重かつ戦略的な取引を推奨します。";
     if (nextSteps.length === 0) nextSteps = ["主要なサポート・レジスタンスラインの監視", "経済指標発表時のボラティリティ警戒", "資金管理の徹底とリスク分散"];
 
     return {
         id,
         contentHtml,
-        signalData: signalData,
+        signalData,
         conclusionText,
         nextSteps,
         title: data.title,
@@ -141,6 +155,7 @@ export async function getReportData(id: string) {
         excerpt: data.excerpt || '',
     };
 }
+
 export async function getTrackRecordStats() {
     const reports = await getSortedReportsData();
     const stats = {
@@ -175,11 +190,15 @@ export async function getTrackRecordStats() {
 
     return stats;
 }
+
 export async function getLatestSignals() {
-    const filePath = path.join(process.cwd(), 'content/latest-signals.json');
-    if (fs.existsSync(filePath)) {
-        return JSON.parse(fs.readFileSync(filePath, 'utf8'));
+    try {
+        const response = await fetch('https://raw.githubusercontent.com/noriyuki007/synapse-capital-frontend/main/content/latest-signals.json');
+        if (response.ok) return await response.json();
+    } catch (e) {
+        console.error("Failed to fetch latest signals in Edge Runtime:", e);
     }
+    
     return {
         FX: { pair: "USD/JPY", status: "BUY", comment: "...", entry: "---", tp: "---", sl: "---", reliability: "LOW" },
         STOCKS: { pair: "S&P 500", status: "BUY", comment: "...", entry: "---", tp: "---", sl: "---", reliability: "LOW" },

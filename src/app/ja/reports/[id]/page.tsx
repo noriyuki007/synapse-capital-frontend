@@ -8,12 +8,11 @@ import { ShareButtons } from '@/components/ShareButtons';
 import { Activity, Clock, ShieldCheck, TrendingUp, TrendingDown, Target, ArrowLeft, ArrowRight, Bookmark, List, Zap, MessageSquare, AlertCircle } from 'lucide-react';
 import Link from 'next/link';
 
-export async function generateStaticParams() {
-    const reports = await getSortedReportsData();
-    return reports.map((report) => ({
-        id: report.id,
-    }));
-}
+export const runtime = 'edge';
+
+
+
+// generateStaticParams is removed as it's incompatible with runtime = 'edge' on Cloudflare Pages
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
     const { id } = await params;

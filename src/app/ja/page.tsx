@@ -1,5 +1,8 @@
 import PerfectLandingPage from '../page';
 
+export const runtime = 'edge';
+
+
 /**
  * Perfectly replicates the /ja landing page as per user request.
  * The implementation is stored in the root page.tsx and shared here.

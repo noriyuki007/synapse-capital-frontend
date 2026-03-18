@@ -6,6 +6,9 @@ import { Sidebar } from '@/components/Sidebar';
 import { Footer } from '@/components/Footer';
 import { Activity, Clock, ArrowRight } from 'lucide-react';
 
+export const runtime = 'edge';
+
+
 export default async function ReportsPage() {
     const allReportsData = await getSortedReportsData();
     const stats = await getTrackRecordStats();

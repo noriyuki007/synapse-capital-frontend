@@ -6,6 +6,9 @@ import { Footer } from '@/components/Footer';
 import { Activity, ShieldCheck, TrendingUp, CheckCircle2, XCircle, Clock } from 'lucide-react';
 import Link from 'next/link';
 
+export const runtime = 'edge';
+
+
 export default async function TrackRecordPage() {
     const reports = await getSortedReportsData();
     const stats = await getTrackRecordStats();

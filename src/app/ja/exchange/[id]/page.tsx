@@ -8,12 +8,11 @@ import { CheckCircle2, XCircle, ArrowRight, Shield, Clock, ShieldCheck, Target, 
 import Link from 'next/link';
 import { getExchanges } from '@/lib/microcms';
 
-export async function generateStaticParams() {
-    const exchanges = await getExchanges();
-    return exchanges.map((ex) => ({
-        id: ex.id,
-    }));
-}
+export const runtime = 'edge';
+
+
+
+// generateStaticParams is removed as it's incompatible with runtime = 'edge' on Cloudflare Pages
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
     const { id } = await params;
