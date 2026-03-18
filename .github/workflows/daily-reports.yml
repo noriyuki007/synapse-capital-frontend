@@ -62,6 +62,12 @@ jobs:
           git config --global user.name "Synapse AI Bot"
           git config --global user.email "bot@synapsecapital.net"
           git add content/reports/*.md content/latest-signals.json public/images/*.png
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: automated daily market report update" && git push origin main)
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "chore: automated daily market report update [skip ci]"
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "No changes to commit"
+          fi
 
       # Cloudflare Pages は GitHub 連携されている前提で、Push 時に自動ビルドが走ります。
