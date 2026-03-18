@@ -11,7 +11,12 @@ import { getExchanges } from '@/lib/microcms';
 
 
 
-// generateStaticParams is removed as it's incompatible with runtime = 'edge' on Cloudflare Pages
+export async function generateStaticParams() {
+    const exchanges = await getExchanges();
+    return exchanges.map((exchange) => ({
+        id: exchange.id,
+    }));
+}
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string }> }) {
     const { id } = await params;
