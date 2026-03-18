@@ -32,9 +32,10 @@ async function verify() {
 
     console.log("\n2. マルチエージェントAIの実行 (Synthesis)...");
     const result = await runMultiAgentAnalysis(ticker, userPlan, {
+      price: marketData.currentPrice,
       calendar: calendarData,
-      market: marketData,
-      sentiment: sentimentData,
+      marketSentiment: { label: 'Neutral', score: 50 }, // Simplified for verification
+      timestamp: new Date().toISOString()
     });
     
     console.log("✅ AI分析成功");
