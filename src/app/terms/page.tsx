@@ -97,6 +97,18 @@ const TermsOfService = () => {
                             当サイト内のコンテンツ（レポート、データ構造、UIデザイン等）の著作権その他の知的財産権は、原則として当サイトまたは正当な権利者に帰属します。ユーザーは、個人的な利用を超える範囲での無断転載や二次配布を行うことはできません。
                         </p>
                     </section>
+
+                    <section className="space-y-4 pt-8 border-t border-slate-800/50">
+                        <h2 className="text-lg font-bold text-white tracking-widest flex items-center gap-2">
+                            <span className="text-indigo-500 font-mono">第6条</span> お問い合わせ窓口
+                        </h2>
+                        <p>
+                            本規約に関するお問い合わせは、以下のメールアドレスまでご連絡ください。
+                        </p>
+                        <p className="text-indigo-400 font-mono mt-2">
+                            <a href="mailto:info@agent-frontier.jp" className="hover:underline">info@agent-frontier.jp</a>
+                        </p>
+                    </section>
                 </div>
             </div>
         </div>

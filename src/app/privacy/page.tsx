@@ -94,6 +94,18 @@ const PrivacyPolicy = () => {
                             当サイトは、法令の変更やサービス内容の更新に伴い、本ポリシーを予告なく変更することがあります。変更後のポリシーは、当サイトに掲載された時点で効力を生じるものとします。
                         </p>
                     </section>
+
+                    <section className="space-y-4 pt-8 border-t border-slate-800/50">
+                        <h2 className="text-lg font-bold text-white tracking-widest flex items-center gap-2">
+                            <span className="text-emerald-500 font-mono">07.</span> お問い合わせ窓口
+                        </h2>
+                        <p>
+                            本ポリシーに関するお問い合わせ、または個人情報の取り扱いに関するご相談は、以下のメールアドレスまでご連絡ください。
+                        </p>
+                        <p className="text-emerald-400 font-mono mt-2">
+                            <a href="mailto:info@agent-frontier.jp" className="hover:underline">info@agent-frontier.jp</a>
+                        </p>
+                    </section>
                 </div>
             </div>
         </div>
