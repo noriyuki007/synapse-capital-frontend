@@ -9,8 +9,8 @@ const inter = Inter({
     display: "swap",
 });
 
-const notoJP = Noto_Sans_JP({
-    variable: "--font-noto-jp",
+const noto = Noto_Sans_JP({
+    variable: "--font-noto",
     subsets: ["latin"],
     weight: ["400", "500", "700", "900"],
     display: "swap",
@@ -39,7 +39,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="ja">
-            <body className={`${inter.variable} ${notoJP.variable} font-sans antialiased bg-white text-slate-900`}>
+            <body className={`${inter.variable} ${noto.variable} font-sans antialiased bg-white text-slate-900`}>
                 {children}
             </body>
         </html>

@@ -93,8 +93,9 @@ export const Footer = () => {
                 {/* Bottom Section */}
                 <div className="pt-16 border-t border-slate-200/60 flex flex-col md:flex-row justify-between items-center gap-12">
                     <div className="space-y-4 text-center md:text-left">
-                        <div className="text-[10px] font-black text-slate-300 uppercase tracking-[0.5em]">
+                        <div className="text-[10px] font-black text-slate-300 uppercase tracking-[0.5em] flex items-center gap-4">
                             © 2026 SYNAPSE CAPITAL GLOBAL NETWORK
+                            <span className="text-[8px] border border-slate-200 px-1.5 py-0.5 opacity-50">v0.8.2-BETA</span>
                         </div>
                         <p className="text-[9px] font-bold text-slate-300 uppercase tracking-widest max-w-2xl leading-relaxed">
                             免責事項：全ての金融予測はAIによって生成されたものであり、投資助言を構成するものではありません。取引には実質的なリスクが伴います。

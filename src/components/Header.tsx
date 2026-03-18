@@ -22,6 +22,7 @@ export const Header = () => {
             label: "インテリジェンス",
             id: "intelligence",
             items: [
+                { label: "AI戦略検証", href: "/position-checker", icon: ShieldCheck, desc: "機関投資家級AIによる戦略検証" },
                 { label: "最新レポート", href: "/ja/reports", icon: FileText, desc: "AIマーケット分析レポート" },
                 { label: "運用実績", href: "/ja/track-record", icon: TrendingUp, desc: "透明性の高い的中率公開" },
             ]
@@ -42,8 +43,9 @@ export const Header = () => {
                     <div className="w-8 h-8 bg-black rounded-none flex items-center justify-center text-white shrink-0 group-hover:bg-indigo-600 transition-all duration-300">
                         <Activity className="w-5 h-5" />
                     </div>
-                    <div className="text-base font-black tracking-tighter text-black uppercase font-sans leading-none">
+                    <div className="text-base font-black tracking-tighter text-black uppercase font-sans leading-none flex items-center gap-2">
                         SYNAPSE CAPITAL
+                        <span className="text-[8px] bg-champagne-gold/10 text-champagne-gold border border-champagne-gold/20 px-1 py-0.5 rounded tracking-widest font-black uppercase">Beta</span>
                     </div>
                 </Link>
 

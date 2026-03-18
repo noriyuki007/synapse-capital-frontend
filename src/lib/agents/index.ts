@@ -1,9 +1,64 @@
 import { GoogleGenerativeAI } from '@google/generative-ai';
-import { EconomicEvent } from '../services/analyst';
-import { MarketData } from '../services/fund-manager';
-import { SentimentData } from '../services/prop-trader';
+import { MarketContext } from '../market';
+import { getAgentKnowledge } from './knowledge';
 
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || 'dummy_key');
+const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
+
+const FREE_MODELS = [
+  "google/gemini-2.0-flash-001",
+  "meta-llama/llama-3.3-70b-instruct:free",
+  "google/gemini-flash-1.5-8b",
+  "qwen/qwen-2.5-72b-instruct",
+  "mistralai/mistral-7b-instruct:free"
+];
+
+async function callOpenRouter(modelId: string, systemPrompt: string, userPrompt: string): Promise<string> {
+  if (!OPENROUTER_API_KEY) throw new Error('OPENROUTER_API_KEY is missing');
+  
+  const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+    method: "POST",
+    headers: {
+      "Authorization": `Bearer ${OPENROUTER_API_KEY}`,
+      "Content-Type": "application/json",
+      "HTTP-Referer": "https://synapsecapital.net",
+      "X-Title": "Synapse Capital Position Checker"
+    },
+    body: JSON.stringify({
+      model: modelId,
+      messages: [
+        { role: "system", content: systemPrompt },
+        { role: "user", content: userPrompt }
+      ]
+    })
+  });
+
+  if (!response.ok) {
+    const text = await response.text();
+    throw new Error(`OpenRouter Error: ${response.status} - ${text}`);
+  }
+
+  const data = await response.json();
+  return data.choices?.[0]?.message?.content || '';
+}
+
+async function callWithFallback(geminiModel: string, systemPrompt: string, userPrompt: string): Promise<string> {
+  try {
+    const model = genAI.getGenerativeModel({ model: geminiModel, systemInstruction: systemPrompt });
+    const result = await model.generateContent(userPrompt);
+    return result.response.text();
+  } catch (err) {
+    console.warn(`Gemini (${geminiModel}) failed, trying OpenRouter fallback chain...`);
+    for (const modelId of FREE_MODELS) {
+      try {
+        return await callOpenRouter(modelId, systemPrompt, userPrompt);
+      } catch (orErr) {
+        console.warn(`OpenRouter ${modelId} failed, trying next...`);
+      }
+    }
+    throw new Error("All AI models (Gemini and OpenRouter) failed.");
+  }
+}
 
 export interface AgentResponse {
   agentName: string;
@@ -14,6 +69,8 @@ export interface FinalAnalysis {
   expertAnalyses: AgentResponse[];
   leaderSynthesis: string;
   timestamp: string;
+  ticker: string;
+  userPlan: string;
 }
 
 /**
@@ -21,116 +78,190 @@ export interface FinalAnalysis {
  */
 function isMockMode() {
   const apiKey = process.env.GEMINI_API_KEY;
-  return !apiKey || apiKey.includes('your_') || apiKey === 'mock';
+  return (!apiKey || apiKey.includes('your_') || apiKey === 'mock') && !process.env.OPENROUTER_API_KEY;
 }
 
 /**
- * Agent 1: Analyst (Fundamental)
+ * Agent 1: Analyst (Fundamental / Macro)
  */
-async function runAnalystAgent(calendarData: EconomicEvent[], userPlan: string): Promise<AgentResponse> {
+async function runAnalystAgent(context: MarketContext, userPlan: string, assetClass: string): Promise<AgentResponse> {
   if (isMockMode()) {
-    return {
-      agentName: 'Analyst',
-      analysis: '【ファンダメンタル分析（モック）】重要指標を控えており、市場は膠着状態にあります。ドルの独歩高傾向は続いていますが、利下げ期待の変動に敏感な状況です。',
-    };
+    const mockText = assetClass === 'STOCK' 
+      ? '【株式ファンダメンタル分析】企業収益の成長性と金利動向が焦点です。' 
+      : assetClass === 'CRYPTO'
+      ? '【オンチェーン分析】クジラの動きとネットワークの活性化が顕著です。'
+      : '【為替マクロ分析】重要指標を控えており、利下げ期待の変動に敏感な状況です。';
+    return { agentName: 'Analyst', analysis: mockText };
   }
 
-  const dataSummary = calendarData.map(e => `${e.date} ${e.event} (${e.country}) Impact: ${e.impact}`).join('\n');
-  const prompt = `あなたは世界トップクラスの経済アナリストです。
-以下の経済カレンダーデータとユーザーのトレードプランに基づいて、ファンダメンタルズの展望を詳しく分析してください。
+  const calendarSummary = context.calendar?.map(e => `- ${e.date}: ${e.event} (${e.country}) Impact: ${e.impact}`).join('\n') || 'N/A';
+  const newsSummary = context.news?.map(n => `- ${n.title} (${n.site})`).join('\n') || 'N/A';
+  const scrapedNewsSummary = context.scrapedNews?.map(n => `- [${n.source}] ${n.title}`).join('\n') || 'N/A';
+  const sentimentSummary = context.marketSentiment ? `${context.marketSentiment.label} (Score: ${context.marketSentiment.score}/100)` : 'N/A';
 
-【経済カレンダー（High Impact）】
-${dataSummary}
+  const historySummary = context.historicalData ? context.historicalData.slice(0, 7).map(d => `- ${d.datetime}: Close ${d.close}`).join('\n') : 'N/A';
+  const macroSummary = context.macroContext ? `DXY: ${context.macroContext.dxy}, US10Y: ${context.macroContext.us10y}, VIX: ${context.macroContext.vix}, M2(Proxy): ${context.macroContext.m2}T` : 'N/A';
+  const indicatorsSummary = context.indicators ? `RSI(14): ${context.indicators.rsi}, SMA(20): ${context.indicators.sma20}` : 'N/A';
 
-【ユーザーのプラン】
-${userPlan}
+  const deepDataSummary = context.deepData ? `
+COT (Institutional): Commercial Net: ${context.deepData.cot?.commercialNet}, Speculator Net: ${context.deepData.cot?.speculatorNet} (${context.deepData.cot?.sentiment})
+Whale Activity: ${context.deepData.whaleActivity?.summary} (Estimated Inflow: ${context.deepData.whaleActivity?.inflow})
+` : 'N/A';
+
+  const assetSpecificGoal = assetClass === 'STOCK' 
+    ? "米国株または日本株のファンダメンタル分析" 
+    : assetClass === 'CRYPTO' 
+    ? "暗号資産のマーケット・センチメントとオンチェーン分析" 
+    : "グローバルなマクロ経済と為替市場の相関分析";
+
+  const prompt = `あなたは世界トップクラスの投資アナリストです。
+以下の最新のコンテキスト（歴史的トレンド、グローバルマクロ指標、機関投資家建玉、鯨の動向、速報）と、専門家としての思考フレームワークに基づき、${assetSpecificGoal}を行ってください。
+
+${getAgentKnowledge('analyst')}
+
+【アセットクラス】: ${assetClass}
+【取得日時】: ${context.timestamp}
+
+【グローバル・マクロ指標 (Master Macro)】:
+${macroSummary}
+
+【機関投資家・大口動向 (Deep Data)】:
+${deepDataSummary}
+
+【テクニカル指標 (Technical)】:
+${indicatorsSummary}
+
+【直近7日間の価格推移 (Historical)】:
+${historySummary}
+
+【外部情報 (API)】: 
+経済カレンダー: ${calendarSummary}
+公式ニュース: ${newsSummary}
+
+【スクレイピング/速報データ】:
+${scrapedNewsSummary}
+
+【市場センチメント】:
+${sentimentSummary}
+
+【ユーザープラン】: ${userPlan}
 
 指示：
-1. 現在の市場環境を、提供された重要指標から読み解いてください。
-2. ユーザーのプランに対するリスクや追い風を指摘してください。
-3. 日本語で回答し、信頼できるソースへの言及を含めてください。`;
+1. 現在の市場の主材料を簡潔に分析してください。挨拶は不要です。
+2. 読みやすさを重視し、過度な太字（**）の使用を避けてください。
+3. 最後に必ず以下の形式でJSONを含めてください。
+<data>
+{
+  "shortSummary": "1行（30文字以内）で現在の市場展望を要約",
+  "sentimentScore": 75.00,
+  "correlations": [
+    {"pair": "Target", "value": 1.00},
+    {"pair": "Related Asset", "value": 0.85}
+  ]
+}
+</data>
+4. 日本語で回答し、数値は小数点第2位まで含めてください。`;
 
-  const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
-  const result = await model.generateContent(prompt);
-  const response = await result.response;
+  const modelId = 'gemini-1.5-flash';
+  const analysis = await callWithFallback(modelId, `あなたは${assetSpecificGoal}のスペシャリストです。`, prompt);
 
   return {
     agentName: 'Analyst',
-    analysis: response.text(),
+    analysis: analysis,
   };
 }
 
 /**
  * Agent 2: Fund Manager (Risk/Volatility)
  */
-async function runFundManagerAgent(marketData: MarketData, userPlan: string): Promise<AgentResponse> {
+async function runFundManagerAgent(context: MarketContext, ticker: string, userPlan: string, assetClass: string): Promise<AgentResponse> {
   if (isMockMode()) {
     return {
       agentName: 'Fund Manager',
-      analysis: '【リスク管理分析（モック）】ATRは安定圏内にあり、急激な変動リスクは低いと判断します。ただし、指標発表時のオーバーナイト・リスクには注意が必要です。',
+      analysis: `【${assetClass}リスク管理分析】ボラティリティは適正範囲内です。`,
     };
   }
 
   const prompt = `あなたはヘッジファンドのリスクマネージャーです。
-以下の価格・ボラティリティデータとユーザーのトレードプランに基づいて、リスク評価を行ってください。
+専門家としての思考フレームワークを遵守し、以下の市場データとユーザープランに基づき、リスク評価を行ってください。
 
-【市場データ】
-通貨ペア: ${marketData.ticker}
-現在価格: ${marketData.currentPrice}
-14日間ATR: ${marketData.atr14}
+${getAgentKnowledge('fundManager')}
 
-【ユーザーのプラン】
-${userPlan}
+【アセットクラス】: ${assetClass}
+【データ】
+シンボル: ${ticker} / 現在価格: ${context.price} / 変動: ${context.changePercent}%
+【ユーザープラン】: ${userPlan}
 
 指示：
-1. 現在のボラティリティ（ATR）に基づき、今のマーケットが静かか、あるいは過熱しているかを判断してください。
-2. ユーザーのプランにおけるストップロス設定の妥当性や、期待される価格変動幅を分析してください。
-3. 日本語で、論理的かつ専門的なトーンで回答してください。`;
+1. ${assetClass}固有のボラティリティ特性（テールの厚み、ジャンプリスク等）を考慮して分析してください。
+2. 太字（**）の使用を控えてください。
+3. 最後に必ず以下の形式でJSONを含めてください。
+<data>
+{
+  "shortSummary": "1行のリスク状況要約",
+  "riskLevel": 3,
+  "volatility": 0.45,
+  "expectedAtr": 0.85
+}
+</data>
+4. 日本語で回答し、数値は小数点第2位まで含めてください。`;
 
-  const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
-  const result = await model.generateContent(prompt);
-  const response = await result.response;
+  const modelId = 'gemini-1.5-flash';
+  const analysis = await callWithFallback(modelId, "あなたはヘッジファンドのリスクマネージャーです。", prompt);
 
   return {
     agentName: 'Fund Manager',
-    analysis: response.text(),
+    analysis: analysis,
   };
 }
 
 /**
  * Agent 3: Prop Trader (Sentiment/Liquidity)
  */
-async function runPropTraderAgent(sentimentData: SentimentData, userPlan: string): Promise<AgentResponse> {
+async function runPropTraderAgent(context: MarketContext, ticker: string, userPlan: string, assetClass: string): Promise<AgentResponse> {
   if (isMockMode()) {
     return {
       agentName: 'Prop Trader',
-      analysis: '【センチメント分析（モック）】リテール層のロングポジションに偏りが見られます。サポートライン付近での流動性を狙ったスクイーズが発生しやすい局面です。',
+      analysis: `【${assetClass}センチメント分析】投機的な動きに注意が必要です。`,
     };
   }
 
-  const prompt = `あなたは鋭い視点を持つプロップトレーダーです。
-以下のセンチメントデータとユーザーのトレードプランに基づき、市場の「流動性の罠」や「大衆の心理」を分析してください。
+  const assetSpecificContext = assetClass === 'CRYPTO' ? "取引所残高、注文板の厚み" : "機関投資家の建玉、板不均衡";
 
-【センチメントデータ】
-Long: ${sentimentData.longPercentage}%
-Short: ${sentimentData.shortPercentage}%
-総ポジション数: ${sentimentData.totalPositions}
+  const prompt = `あなたはプロップトレーダーです。
+専門家としての思考フレームワークに基づき、市場の裏側を分析し、重要価格レベルをデータとして出力してください。
 
-【ユーザーのプラン】
-${userPlan}
+${getAgentKnowledge('propTrader')}
+
+【アセットクラス】: ${assetClass}
+【データ】
+シンボル: ${ticker} / 値動き: ${context.changePercent}%
+テクニカル指標: ${context.indicators ? `RSI: ${context.indicators.rsi}, SMA20: ${context.indicators.sma20}` : 'N/A'}
+機関投資家/クジラ動向: ${context.deepData ? `COT: ${context.deepData.cot?.sentiment}, Whale: ${context.deepData.whaleActivity?.summary}` : 'N/A'}
+重要視点: ${assetSpecificContext}
+【ユーザープラン】: ${userPlan}
 
 指示：
-1. 大衆（リテールトレーダー）のポジションがどちらに偏っているかを読み解き、逆行（スクイーズ）の可能性を指摘してください。
-2. いわゆる「流動性の罠」が発生しやすい価格帯を推測してください。
-3. 日本語で、現場のトレーダーらしい現実感のある分析を提供してください。`;
+1. 市場参加者の心理と流動性の分布を見抜いて分析してください。
+2. 過度な太字（**）の使用を避けてください。
+3. 最後に必ず以下の形式でJSONを含めてください。
+<data>
+{
+  "shortSummary": "1行のテクニカル要約",
+  "targetPrice": 152.50,
+  "liquidityLevels": [
+    {"price": 152.80, "strength": 0.95}
+  ]
+}
+</data>
+4. 日本語で回答し、数値は小数点第2位まで含めてください。`;
 
-  const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
-  const result = await model.generateContent(prompt);
-  const response = await result.response;
+  const modelId = 'gemini-1.5-flash';
+  const analysis = await callWithFallback(modelId, "あなたは鋭い視点を持つプロップトレーダーです。", prompt);
 
   return {
     agentName: 'Prop Trader',
-    analysis: response.text(),
+    analysis: analysis,
   };
 }
 
@@ -139,42 +270,53 @@ ${userPlan}
  */
 async function runLeaderAgent(expertAnalyses: AgentResponse[], userPlan: string): Promise<string> {
   if (isMockMode()) {
-    console.warn("GEMINI_API_KEY is missing. Returning mock synthesis.");
-    return `【総合診断】
-市場は現在、重要指標（FOMC、雇用統計）を前にした様子見ムードが強いですが、ボラティリティは安定しており、テクニカル的な節目での反応が期待されます。
-
-【戦略 A（強気シナリオ）】
-150円のレジスタンスを明確に上抜けた場合、トレンド追従で152円を目指す買い戦略が有効です。ただし、雇用統計の結果次第では急激な反転のリスクがあるため、建値でのストップロス移動推奨。
-
-【戦略 B（慎重シナリオ）】
-149.50円を下抜ける局面では、リテール層のロングポジションが解消される「ロング・スクイーズ」の発生に注意が必要です。この場合、148円台までの調整を待ってから押し目買いを検討すべきです。
-
-【最終的な警告・注意点】
-重要指標発表時はスプレッドの大幅な拡大と急激なスリッページが予想されます。プランで提示された損切りラインは必ず遵守してください。`;
+    return `【総合診断（モック）】市場は重要指標を前にした様子見ムードです。分析の結果、短期的なテクニカルな優位性は認められますが、マクロ的な不確実性が残ります。
+<data>
+{
+  "decision": "CAUTION",
+  "totalScore": 65.50,
+  "summary": "様子見を推奨",
+  "agreedPoints": ["短期的な下値の堅さ", "ボラティリティの低下傾向"],
+  "rejectedPoints": ["長期的なトレンドの転換点", "深夜帯の流動性リスク"],
+  "consensusSummary": "テクニカル的には買いだが、マクロ指標待ちで合意。"
+}
+</data>`;
   }
 
   const analysesSummary = expertAnalyses.map(a => `【${a.agentName}の分析】\n${a.analysis}`).join('\n\n');
   const prompt = `あなたは「シナプス・キャピタル」の最高投資責任者（CIO）です。
-3人の専門家による分析結果を統合し、ユーザーへの最終的なアドバイスを「選択肢A」と「選択肢B」の二つのシナリオで提示してください。
+各専門家の分析とデータを統合し、最終結論を日本語で出力してください。
 
 ${analysesSummary}
-
-【ユーザーのプラン】
-${userPlan}
+【ユーザープラン】: ${userPlan}
 
 指示：
-1. 専門家の意見の対立があれば、それを整理し、最も可能性の高い結論を導き出してください。
-2. 最終回答は必ず日本語で、以下の構成で出力してください。
-   - 総合診断（要約）
-   - 戦略 A （強気/順張り等）とその根拠
-   - 戦略 B （慎重/逆張り等）とその根拠
-   - 最終的な警告・注意点`;
+1. 専門家の意見を統合し、実効性のある戦略を提示してください。
+2. 以下のセクション見出しを必ず含めてレポートを構成してください：
+   - 総合分析: (全体像の把握)
+   - 委員会内での議論: (専門家同士の対立点や合意点)
+   - 合意事項（メリット・強み）: (具体的ポジティブ要素)
+   - 否定・懸念事項（リスク・弱点）: (具体的注意点)
+   - 時間軸でのアドバイス (JST): (日本時間を考慮したエントリー/決済タイミング)
+   - 推奨するアクション: (具体的なBUY/SELL/WAITの最終判断)
+   - 結論: (総括)
+3. 最後に必ず以下の形式でJSONを含めてください。
+<data>
+{
+  "decision": "GO / NO GO / CAUTION",
+  "totalScore": 82.00,
+  "summary": "15文字以内のタイトル",
+  "agreedPoints": ["合意事項1", "合意事項2"],
+  "rejectedPoints": ["否定・懸念事項1", "否定・懸念事項2"],
+  "consensusSummary": "委員会内での主な議論ポイントの要約"
+}
+</data>
+4. 数値はすべて小数点第2位まで表示してください。挨拶は不要です。直接レポートを開始してください。`;
 
-  const model = genAI.getGenerativeModel({ model: 'gemini-1.5-pro' });
-  const result = await model.generateContent(prompt);
-  const response = await result.response;
+  const modelId = 'gemini-1.5-pro';
+  const analysis = await callWithFallback(modelId, "あなたは「シナプス・キャピタル」の最高投資責任者（CIO）です。", prompt);
 
-  return response.text();
+  return analysis;
 }
 
 /**
@@ -183,14 +325,15 @@ ${userPlan}
 export async function runMultiAgentAnalysis(
   ticker: string,
   userPlan: string,
-  data: { calendar: EconomicEvent[]; market: MarketData; sentiment: SentimentData }
+  context: MarketContext,
+  assetClass: 'FX' | 'STOCK' | 'CRYPTO' = 'FX'
 ): Promise<FinalAnalysis> {
   
   // Parallel Execution of Expert Agents
   const expertPromises = [
-    runAnalystAgent(data.calendar, userPlan),
-    runFundManagerAgent(data.market, userPlan),
-    runPropTraderAgent(data.sentiment, userPlan),
+    runAnalystAgent(context, userPlan, assetClass),
+    runFundManagerAgent(context, ticker, userPlan, assetClass),
+    runPropTraderAgent(context, ticker, userPlan, assetClass),
   ];
 
   const expertAnalyses = await Promise.all(expertPromises);
@@ -201,6 +344,8 @@ export async function runMultiAgentAnalysis(
   return {
     expertAnalyses,
     leaderSynthesis,
-    timestamp: new Date().toISOString(),
+    timestamp: context.timestamp || new Date().toISOString(),
+    ticker,
+    userPlan
   };
 }

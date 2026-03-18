@@ -1,552 +1,537 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { 
-    ShieldCheck, Activity, Users, Zap, Info, TrendingUp, TrendingDown, 
-    AlertTriangle, CheckCircle2, Globe, Shield, Swords, Crown, ChevronDown, ChevronUp,
-    Loader2, ArrowUpRight, BarChart3, FileText, Search, Database, Scale, Target
+    ShieldCheck, Activity, TrendingUp, TrendingDown, 
+    CheckCircle2, Shield, Zap, Clock, Database, 
+    LineChart, LayoutGrid, Cpu, ArrowRight, User, AlertTriangle
 } from 'lucide-react';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
+import { 
+    SentimentGauge, MarketAlertGauge, IntelligenceCard, 
+    MetricBar, TechnicalChecklist, ExpertProfile, ReportRenderer
+} from '@/components/PositionChecker/Visuals';
 
-/**
- * Position Checker (Professional Terminal Edition)
- * 情報密度を劇的に高め、専門的なリサーチレポートとしての風格を持たせた診断ツール。
- */
 export default function PositionCheckerPage() {
     const [isLoading, setIsLoading] = useState(false);
     const [loadingStep, setLoadingStep] = useState(0);
     const [showResults, setShowResults] = useState(false);
+    const [error, setError] = useState<string | null>(null);
+
+    // Form inputs
+    const [assetClass, setAssetClass] = useState<'FX' | 'STOCK' | 'CRYPTO'>('FX');
+    const [ticker, setTicker] = useState('USD/JPY');
+    const [direction, setDirection] = useState<'BUY' | 'SELL'>('BUY');
+    const [entryPrice, setEntryPrice] = useState('150.25');
+    const [stopLoss, setStopLoss] = useState('149.50');
+    const [settlement, setSettlement] = useState('152.50');
+
+    // Analysis results
+    const [analysisResult, setAnalysisResult] = useState<any>(null);
 
     const loadingTexts = [
-        "🌐 マクロ経済指標および中央銀行声明の解析中...",
-        "🛡️ ボラティリティ統計およびテクニカル相関係数の算出中...",
-        "⚔️ 板情報およびオーダーブックの不均衡を検知中...",
-        "👑 投資委員会による統合的トレード戦略の策定中..."
+        "🌐 マクロ相関データの同期中...",
+        "📊 オーダーブック不均衡プロトコル実行中...",
+        "⚖️ リスク・ガバナンス・シミュレーション中...",
+        "💎 プレミアム・戦略シナリオ生成中..."
     ];
 
-    // 診断の実行
-    const handleCheck = (e: React.FormEvent) => {
+    const handleCheck = async (e: React.FormEvent) => {
         e.preventDefault();
         setIsLoading(true);
         setLoadingStep(0);
         setShowResults(false);
+        setError(null);
 
         const interval = setInterval(() => {
-            setLoadingStep(prev => {
-                if (prev >= loadingTexts.length - 1) {
-                    clearInterval(interval);
-                    setTimeout(() => {
-                        setIsLoading(false);
-                        setShowResults(true);
-                    }, 1000);
-                    return prev;
-                }
-                return prev + 1;
+            setLoadingStep(prev => (prev < loadingTexts.length - 1 ? prev + 1 : prev));
+        }, 2000);
+
+        try {
+            const userPlan = `${direction} on ${assetClass}:${ticker} from ${entryPrice} with SL at ${stopLoss} and target (settlement) at ${settlement}`;
+            const response = await fetch('/api/check-position', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ ticker, assetClass, userPlan })
             });
-        }, 1500);
+
+            if (!response.ok) {
+                const data = await response.json();
+                throw new Error(data.error || '分析の取得に失敗しました');
+            }
+
+            const result = await response.json();
+            
+            // Extract and model data
+            const analystData = extractData(result.expertAnalyses?.find((a: any) => a.agentName === 'Analyst')?.analysis);
+            const fundManagerData = extractData(result.expertAnalyses?.find((a: any) => a.agentName === 'Fund Manager')?.analysis);
+            const propTraderData = extractData(result.expertAnalyses?.find((a: any) => a.agentName === 'Prop Trader')?.analysis);
+            const leaderData = extractData(result.leaderSynthesis);
+
+            setAnalysisResult({
+                ...result,
+                visuals: {
+                    sentiment: analystData?.sentimentScore || 68,
+                    risk: fundManagerData?.riskLevel || 3,
+                    target: propTraderData?.targetPrice || parseFloat(entryPrice) * 1.015,
+                    leader: leaderData,
+                    analystText: cleanText(result.expertAnalyses?.find((a: any) => a.agentName === 'Analyst')?.analysis),
+                    managerText: cleanText(result.expertAnalyses?.find((a: any) => a.agentName === 'Fund Manager')?.analysis),
+                    traderText: cleanText(result.expertAnalyses?.find((a: any) => a.agentName === 'Prop Trader')?.analysis),
+                    fullLeaderText: cleanText(result.leaderSynthesis)
+                }
+            });
+            
+            clearInterval(interval);
+            setTimeout(() => {
+                setIsLoading(false);
+                setShowResults(true);
+            }, 800);
+        } catch (err: any) {
+            clearInterval(interval);
+            setIsLoading(false);
+            setError(err.message || '予期せぬエラーが発生しました。');
+        }
+    };
+
+    const extractData = (text?: string) => {
+        if (!text) return null;
+        const match = text.match(/<data>([\s\S]*?)<\/data>/);
+        if (match && match[1]) {
+            try { return JSON.parse(match[1].trim()); } catch (e) { return null; }
+        }
+        return null;
+    };
+
+    const cleanText = (text?: string) => {
+        if (!text) return '';
+        return text.replace(/<data>[\s\S]*?<\/data>/g, '')
+                   .replace(/```[\s\S]*?```/g, '')
+                   .replace(/\*\*/g, '')
+                   .replace(/シナプス・キャピタル(各位|の皆様|の皆さま|チーム|メンバー)/g, '')
+                   .replace(/^.*様、?\s*/g, '')
+                   .replace(/^[、,]\s*/, '') // Remove leading comma
+                   .trim();
     };
 
     return (
-        <div className="min-h-screen bg-[#fafafa] text-slate-900 font-sans selection:bg-indigo-100 italic-none">
+        <div className="min-h-screen bg-white text-slate-900 font-sans selection:bg-champagne-gold/20">
             <Header />
 
-            <main className="max-w-6xl mx-auto px-6 py-16 md:py-24 space-y-20">
-                {/* ヒーローセクション */}
-                <div className="text-center space-y-8">
-                    <div className="inline-flex items-center gap-2.5 px-3 py-1 bg-[#eeefff] rounded-full text-[10px] font-bold text-indigo-600 uppercase tracking-widest border border-indigo-50/50">
-                        <Zap className="w-3 h-3 fill-current" /> SYNAPSE POSITION CHECKER V1.0
+            {/* Premium Sub-Header */}
+            <div className="bg-royal-navy text-white/90 py-3 px-6">
+                <div className="max-w-7xl mx-auto flex justify-between items-center">
+                    <div className="flex items-center gap-3">
+                        <div className="px-2 py-0.5 bg-champagne-gold text-royal-navy text-[10px] font-black rounded-sm">PRO</div>
+                        <span className="text-[11px] font-bold tracking-widest uppercase">Synapse Position Checker v2.0</span>
                     </div>
-                    <div className="space-y-4">
-                        <h1 className="text-3xl md:text-5xl font-black tracking-tighter text-slate-900 leading-none">
-                            AI投資委員会：<br className="md:hidden" />高度トレードシナリオ診断
-                        </h1>
-                        <p className="text-[15px] font-bold text-slate-500 max-w-2xl mx-auto leading-relaxed">
-                            数百万規模の市場データ、100以上のテクニカル指標、リアルタイム・センチメントをAI合議制で解析。
-                            「直感」を「論理」へ。3名の特化型AIがあなたの意志決定の根拠を、圧倒的な情報量で可視化します。
-                        </p>
+                    <div className="flex items-center gap-2 text-[10px] font-medium opacity-60 tracking-tighter">
+                        <Clock className="w-3.5 h-3.5" />
+                        最終解析時刻：{new Intl.DateTimeFormat('ja-JP', { year: 'numeric', month: '2-digit', day: '2-digit', hour: '2-digit', minute: '2-digit', second: '2-digit' }).format(new Date())}
                     </div>
                 </div>
+            </div>
 
-                {/* 入力フォーム & プロフィール */}
+            <main className="max-w-7xl mx-auto px-6 py-12 md:py-20 text-slate-900">
+                
+                {/* 1. App Introduction & Scenario Analysis Header */}
+                {!showResults && (
+                    <div className="mb-16 space-y-12 animate-in fade-in duration-1000">
+                        <div className="space-y-6">
+                            <div className="inline-flex items-center gap-2 text-champagne-gold">
+                                <ShieldCheck className="w-6 h-6" />
+                                <span className="text-xs font-black uppercase tracking-[0.3em]">Synapse AI Intelligence</span>
+                            </div>
+                            <h2 className="text-4xl md:text-5xl font-black text-royal-navy tracking-tighter leading-none flex items-center gap-3">
+                                AI投資戦略検証ターミナル
+                                <span className="text-[10px] bg-champagne-gold/20 text-champagne-gold border border-champagne-gold/30 px-2 py-1 rounded-md tracking-widest font-black uppercase">Beta</span>
+                            </h2>
+                            <p className="text-sm font-medium text-slate-500 leading-relaxed">
+                                あなたが立案した投資プラン（銘柄・価格・リスク設定）を、機関投資家レベルのスペシャリストAI群が多角的に検証します。<br />
+                                マクロ相関、ボラティリティ予測、板情報の不均衡など、高度な専門領域を持つ3体の人格化されたAI（チーフ・マクロストラテジスト、シニア・ポートフォリオマネージャー、ヘッド・オブ・トレーディング）が、それぞれ独自の視点からあなたの戦略を鋭く批判・検討します。
+                            </p>
+                        </div>
+                    </div>
+                )}
+
+                {/* Analysis Form */}
                 {!showResults && !isLoading && (
-                    <div className="space-y-20">
-                        <div className="max-w-4xl mx-auto">
-                            <section className="bg-white border border-slate-100 p-8 md:p-12 shadow-[0_12px_40px_-12px_rgba(0,0,0,0.03)] relative overflow-hidden">
-                                <form onSubmit={handleCheck} className="space-y-10 relative z-10">
-                                    <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-8">
-                                        {/* 通貨ペア */}
-                                        <div className="space-y-3">
-                                            <label className="text-[11px] font-bold text-slate-400 flex items-center gap-2 uppercase tracking-wider">
-                                                <Globe className="w-4 h-4 text-indigo-300" /> 通貨ペア
-                                            </label>
-                                            <div className="relative">
-                                                <select 
-                                                    className="w-full h-[56px] px-5 bg-slate-50 border border-transparent focus:border-indigo-100 focus:bg-white text-slate-900 outline-none text-sm font-bold transition-all appearance-none cursor-pointer"
-                                                    required
-                                                    defaultValue=""
-                                                >
-                                                    <option value="" disabled>通貨ペアを選択してください</option>
+                    <div className="max-w-2xl mx-auto">
+                        <div className="text-center mb-12 space-y-4">
+                            <h2 className="text-3xl font-black text-royal-navy">分析シナリオの入力</h2>
+                            <p className="text-slate-500 text-sm font-medium leading-relaxed">
+                                検証したいトレードの概要（エントリー根拠、想定する時間軸、リスク許容度など）を自由に入力してください。具体的数値や背景を入力することで、精度の高い多角的検証が可能になります。
+                            </p>
+                        </div>
+                        <div className="bg-white border border-slate-100 p-8 md:p-12 shadow-xl rounded-3xl">
+                            <form onSubmit={handleCheck} className="space-y-8">
+                                <div className="space-y-4">
+                                    <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">アセットクラス選択</label>
+                                    <div className="grid grid-cols-3 p-1 bg-slate-50 rounded-xl">
+                                        <button type="button" onClick={() => { setAssetClass('FX'); setTicker('USD/JPY'); }} className={`h-11 rounded-lg text-xs font-black transition-all ${assetClass === 'FX' ? 'bg-royal-navy text-white shadow-md' : 'text-slate-400 hover:text-royal-navy'}`}>外国為替 (FX)</button>
+                                        <button type="button" onClick={() => { setAssetClass('STOCK'); setTicker('AAPL'); }} className={`h-11 rounded-lg text-xs font-black transition-all ${assetClass === 'STOCK' ? 'bg-royal-navy text-white shadow-md' : 'text-slate-400 hover:text-royal-navy'}`}>株式 (STOCKS)</button>
+                                        <button type="button" onClick={() => { setAssetClass('CRYPTO'); setTicker('BTC/USD'); }} className={`h-11 rounded-lg text-xs font-black transition-all ${assetClass === 'CRYPTO' ? 'bg-royal-navy text-white shadow-md' : 'text-slate-400 hover:text-royal-navy'}`}>暗号資産 (CRYPTO)</button>
+                                    </div>
+                                </div>
+
+                                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 pt-4">
+                                    <div className="space-y-2">
+                                        <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">銘柄選択</label>
+                                        <select 
+                                            className="w-full h-14 px-5 bg-slate-50 border-none rounded-xl text-royal-navy outline-none font-bold text-sm appearance-none cursor-pointer"
+                                            value={ticker} onChange={(e) => setTicker(e.target.value)}
+                                        >
+                                            {assetClass === 'FX' && (
+                                                <>
                                                     <option value="USD/JPY">USD/JPY (ドル円)</option>
                                                     <option value="EUR/USD">EUR/USD (ユーロドル)</option>
                                                     <option value="GBP/USD">GBP/USD (ポンドドル)</option>
-                                                    <option value="AUD/USD">AUD/USD (豪ドルドル)</option>
-                                                    <option value="BTC/USD">BTC/USD (ビットコイン)</option>
-                                                </select>
-                                                <ChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-300 pointer-events-none" />
-                                            </div>
-                                        </div>
-
-                                        {/* 売買方向 */}
-                                        <div className="space-y-3">
-                                            <label className="text-[11px] font-bold text-slate-400 flex items-center gap-2 uppercase tracking-wider">
-                                                <Activity className="w-4 h-4 text-indigo-300" /> 売買方向
-                                            </label>
-                                            <div className="grid grid-cols-2 gap-0 border border-slate-50 h-[56px] bg-slate-50 p-1">
-                                                <button type="button" className="bg-white shadow-sm text-[11px] font-bold text-indigo-600">ロング/買い</button>
-                                                <button type="button" className="bg-transparent text-[11px] font-bold text-slate-400 hover:text-slate-600 transition-colors">ショート/売り</button>
-                                            </div>
-                                        </div>
-
-                                        {/* 価格入力 */}
-                                        <div className="space-y-3">
-                                            <label className="text-[11px] font-bold text-slate-400 flex items-center gap-2 uppercase tracking-wider">
-                                                <TrendingUp className="w-4 h-4 text-indigo-300" /> エントリー価格
-                                            </label>
-                                            <input 
-                                                type="text" 
-                                                inputMode="decimal"
-                                                pattern="[0-9]*\.?[0-9]*"
-                                                placeholder="150.25"
-                                                className="w-full h-[56px] px-5 bg-slate-50 border border-transparent focus:border-indigo-100 focus:bg-white text-slate-900 outline-none text-sm font-bold transition-all placeholder:text-slate-300"
-                                                required
-                                            />
-                                        </div>
-
-                                        <div className="space-y-3">
-                                            <label className="text-[11px] font-bold text-slate-400 flex items-center gap-2 uppercase tracking-wider">
-                                                <TrendingDown className="w-4 h-4 text-indigo-300" /> 損切り価格 (SL)
-                                            </label>
-                                            <input 
-                                                type="text" 
-                                                inputMode="decimal"
-                                                pattern="[0-9]*\.?[0-9]*"
-                                                placeholder="149.50"
-                                                className="w-full h-[56px] px-5 bg-slate-50 border border-transparent focus:border-indigo-100 focus:bg-white text-slate-900 outline-none text-sm font-bold transition-all placeholder:text-slate-300"
-                                                required
-                                            />
+                                                    <option value="AUD/JPY">AUD/JPY (豪ドル円)</option>
+                                                    <option value="EUR/JPY">EUR/JPY (ユーロ円)</option>
+                                                    <option value="GBP/JPY">GBP/JPY (ポンド円)</option>
+                                                    <option value="NZD/USD">NZD/USD (北米ドル)</option>
+                                                    <option value="USD/CAD">USD/CAD (ドルカナダ)</option>
+                                                </>
+                                            )}
+                                            {assetClass === 'STOCK' && (
+                                                <>
+                                                    <option value="AAPL">Apple (AAPL)</option>
+                                                    <option value="NVDA">NVIDIA (NVDA)</option>
+                                                    <option value="TSLA">Tesla (TSLA)</option>
+                                                    <option value="MSFT">Microsoft (MSFT)</option>
+                                                    <option value="GOOGL">Alphabet (GOOGL)</option>
+                                                    <option value="AMZN">Amazon (AMZN)</option>
+                                                    <option value="META">Meta (META)</option>
+                                                    <option value="7203">トヨタ自動車 (7203.T)</option>
+                                                    <option value="9984">ソフトバンクG (9984.T)</option>
+                                                    <option value="6758">ソニーG (6758.T)</option>
+                                                </>
+                                            )}
+                                            {assetClass === 'CRYPTO' && (
+                                                <>
+                                                    <option value="BTC/USD">Bitcoin (BTC)</option>
+                                                    <option value="ETH/USD">Ethereum (ETH)</option>
+                                                    <option value="SOL/USD">Solana (SOL)</option>
+                                                    <option value="XRP/USD">Ripple (XRP)</option>
+                                                    <option value="DOGE/USD">Dogecoin (DOGE)</option>
+                                                    <option value="ADA/USD">Cardano (ADA)</option>
+                                                    <option value="BNB/USD">Binance Coin (BNB)</option>
+                                                </>
+                                            )}
+                                        </select>
+                                    </div>
+                                    <div className="space-y-2">
+                                        <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">売買方向</label>
+                                        <div className="grid grid-cols-2 p-1 bg-slate-50 rounded-xl">
+                                            <button type="button" onClick={() => setDirection('BUY')} className={`h-11 rounded-lg text-xs font-black transition-all ${direction === 'BUY' ? 'bg-royal-navy text-white' : 'text-slate-400'}`}>買い (BUY)</button>
+                                            <button type="button" onClick={() => setDirection('SELL')} className={`h-11 rounded-lg text-xs font-black transition-all ${direction === 'SELL' ? 'bg-royal-navy text-white' : 'text-slate-400'}`}>売り (SELL)</button>
                                         </div>
                                     </div>
-
-                                    <button 
-                                        type="submit"
-                                        className="w-full h-[72px] bg-black text-white text-[13px] font-bold transition-all duration-300 flex items-center justify-center gap-3 hover:opacity-90"
-                                    >
-                                        <Zap className="w-4 h-4 fill-current" />
-                                        AI投資委員会に診断を依頼する
-                                    </button>
-                                </form>
-                            </section>
+                                    <div className="space-y-2">
+                                        <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">エントリー目標</label>
+                                        <input type="text" value={entryPrice} onChange={(e) => setEntryPrice(e.target.value)} className="w-full h-14 px-5 bg-slate-50 border-none rounded-xl text-royal-navy outline-none font-black text-sm" />
+                                    </div>
+                                    <div className="space-y-2">
+                                        <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">損切り目安</label>
+                                        <input type="text" value={stopLoss} onChange={(e) => setStopLoss(e.target.value)} className="w-full h-14 px-5 bg-slate-50 border-none rounded-xl text-royal-navy outline-none font-black text-sm" />
+                                    </div>
+                                    <div className="space-y-2">
+                                        <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">利確/決済目標</label>
+                                        <input type="text" value={settlement} onChange={(e) => setSettlement(e.target.value)} className="w-full h-14 px-5 bg-slate-50 border-none rounded-xl text-royal-navy outline-none font-black text-sm" />
+                                    </div>
+                                </div>
+                                <button type="submit" className="w-full h-16 bg-royal-navy text-white font-black text-sm tracking-widest flex items-center justify-center gap-3 rounded-xl transition-all hover:bg-black hover:scale-[1.01] active:scale-[0.99] group shadow-lg shadow-royal-navy/20">
+                                    <Zap className="w-4 h-4 text-champagne-gold fill-current group-hover:animate-pulse" />
+                                    プランの妥当性を検証する
+                                </button>
+                            </form>
                         </div>
-
-                        {/* 専門家AIのプロフィール */}
-                        <section className="space-y-10">
-                            <div className="text-center space-y-2">
-                                <h3 className="text-[11px] font-black text-indigo-500 uppercase tracking-[0.4em]">Expert AI Profiles</h3>
-                                <p className="text-xl font-black text-slate-900">診断を担当する3名の特化型AI</p>
-                            </div>
-                            
-                            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                                {/* アナリスト */}
-                                <div className="p-8 bg-white border border-slate-100 shadow-sm space-y-6">
-                                    <div className="flex items-center gap-4">
-                                        <div className="w-12 h-12 bg-indigo-50 rounded-full flex items-center justify-center text-indigo-600">
-                                            <Globe className="w-6 h-6" />
-                                        </div>
-                                        <div>
-                                            <h4 className="font-black text-slate-900">マクロ・アナリスト</h4>
-                                            <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Fundamental Specialist</p>
-                                        </div>
-                                    </div>
-                                    <p className="text-[12px] font-medium text-slate-500 leading-relaxed">
-                                        過去30年分の中央銀行声明、雇用統計、CPI、および主要経済紙（Bloomberg, Reuters等）の全アーカイブを学習。人間には不可能な速度でファンダメンタルズの構造的変化を検知します。感情に左右されず、数字と声明文の「矛盾」のみを抽出する冷徹な分析が持ち味です。
-                                    </p>
-                                </div>
-
-                                {/* マネージャー */}
-                                <div className="p-8 bg-white border border-slate-100 shadow-sm space-y-6">
-                                    <div className="flex items-center gap-4">
-                                        <div className="w-12 h-12 bg-emerald-50 rounded-full flex items-center justify-center text-emerald-600">
-                                            <Shield className="w-6 h-6" />
-                                        </div>
-                                        <div>
-                                            <h4 className="font-black text-slate-900">ファンドマネージャー</h4>
-                                            <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Statistical & Risk Management</p>
-                                        </div>
-                                    </div>
-                                    <p className="text-[12px] font-medium text-slate-500 leading-relaxed">
-                                        世界中のヘッジファンドが採用する100種類以上のテクニカルアルゴリズムと、ボラティリティ相関データを学習。数百万通りのシミュレーションを瞬時に実行し、期待値の低い「希望的観測」を徹底的に排除します。常に最悪のシナリオを想定し、生存確率を最大化させる守護神としての役割を果たします。
-                                    </p>
-                                </div>
-
-                                {/* トレーダー */}
-                                <div className="p-8 bg-white border border-slate-100 shadow-sm space-y-6">
-                                    <div className="flex items-center gap-4">
-                                        <div className="w-12 h-12 bg-rose-50 rounded-full flex items-center justify-center text-rose-600">
-                                            <Swords className="w-6 h-6" />
-                                        </div>
-                                        <div>
-                                            <h4 className="font-black text-slate-900">プロップトレーダー</h4>
-                                            <p className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">Sentiment & Liquidity Hunter</p>
-                                        </div>
-                                    </div>
-                                    <p className="text-[12px] font-medium text-slate-500 leading-relaxed">
-                                        リアルタイムの板情報、オーダーブック、および数千万件のリテールポジショニングデータを学習。「大衆がどこで絶望し、どこで損切りを巻き込まれるか」を暴くことに特化しています。人間が陥る「恐怖」や「強欲」を数値として扱い、流動性の溜まり場（罠）を冷徹に特定します。
-                                    </p>
-                                </div>
-                            </div>
-                        </section>
                     </div>
                 )}
 
-                {/* プロフェッショナル・ローディング */}
                 {isLoading && (
-                    <div className="space-y-16 py-12 flex flex-col items-center">
+                    <div className="flex flex-col items-center justify-center py-20 space-y-12">
                         <div className="relative">
-                            <div className="w-32 h-32 border-2 border-slate-100 border-t-indigo-600 rounded-full animate-spin" />
+                            <div className="w-24 h-24 border-4 border-slate-50 border-t-royal-navy rounded-full animate-spin" />
                             <div className="absolute inset-0 flex items-center justify-center">
-                                <Activity className="w-10 h-10 text-indigo-600 animate-pulse" />
+                                <Activity className="w-8 h-8 text-champagne-gold animate-pulse" />
                             </div>
                         </div>
-                        
-                        <div className="space-y-10 w-full max-w-md">
-                            <div className="text-center space-y-3">
-                                <div className="text-[10px] font-black text-indigo-500 uppercase tracking-[0.4em] animate-pulse">Synchronizing Professional Intelligence</div>
-                                <div className="text-[15px] font-bold text-slate-900 h-8 overflow-hidden">
-                                    <span className="block animate-in fade-in slide-in-from-bottom-2">
-                                        {loadingTexts[loadingStep]}
-                                    </span>
-                                </div>
-                            </div>
-                            
-                            <div className="flex gap-2">
-                                {loadingTexts.map((_, i) => (
-                                    <div key={i} className={`h-1 flex-1 transition-all duration-700 ${i <= loadingStep ? 'bg-indigo-600' : 'bg-slate-100'}`} />
-                                ))}
-                            </div>
+                        <div className="text-center space-y-4">
+                            <h3 className="text-2xl font-black text-royal-navy tracking-tight">{loadingTexts[loadingStep]}</h3>
+                            <p className="text-xs font-black text-slate-400 uppercase tracking-[0.4em] animate-pulse">Running AI Simulation</p>
                         </div>
                     </div>
                 )}
 
-                {/* 結果：プロフェショナル・リサーチ・レポート */}
                 {showResults && !isLoading && (
-                    <div className="space-y-12 pb-24 animate-in fade-in slide-in-from-bottom-6 duration-1000">
+                    <div className="space-y-12 animate-in fade-in slide-in-from-bottom-10 duration-1000">
                         
-                        {/* 1. AI 総括推奨プラン (Executive Summary) */}
-                        <section className="bg-slate-950 text-white shadow-[0_48px_96px_-24px_rgba(0,0,0,0.18)] relative overflow-hidden rounded-2xl border border-white/5">
-                            <div className="absolute inset-0 bg-gradient-to-br from-indigo-900/20 via-transparent to-emerald-900/10 pointer-events-none" />
-                            <Crown className="absolute -right-8 -top-8 w-64 h-64 text-white opacity-[0.03] pointer-events-none" />
-                            <div className="p-8 md:p-16 space-y-12 relative z-10">
-                                <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 border-b border-white/10 pb-10">
-                                    <div className="space-y-4">
-                                        <div className="inline-flex items-center gap-2 px-3 py-1 bg-white/10 rounded-full text-[9px] font-black text-indigo-300 uppercase tracking-widest">
-                                            Professional Intelligence Synthesis
-                                        </div>
-                                        <h2 className="text-3xl md:text-5xl font-black tracking-tighter uppercase leading-none">👑 AI 総括推奨プラン</h2>
-                                    </div>
-                                    <div className="flex flex-col items-end gap-2 text-right">
-                                        <div className="bg-emerald-500/10 border border-emerald-500/30 px-5 py-2 text-emerald-400 text-[11px] font-black uppercase tracking-widest flex items-center gap-3">
-                                            <ShieldCheck className="w-5 h-5" /> 統合信頼スコア: 94.2%
-                                        </div>
-                                        <span className="text-[10px] text-white/30 font-medium">最終計算時刻: {new Date().toLocaleTimeString()} JST</span>
-                                    </div>
+                        {/* 1. Evaluation Target & Status Dashboard */}
+                        <div className="bg-slate-50 border border-slate-100 p-8 rounded-3xl flex flex-col md:flex-row justify-between items-center gap-12">
+                            <div className="space-y-4">
+                                <div className="flex items-center gap-2 text-champagne-gold">
+                                    <Activity className="w-5 h-5" />
+                                    <span className="text-xs font-black uppercase tracking-widest">戦略検証レポート：サマリー</span>
                                 </div>
-
-                                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                                    {/* プラン Alpha */}
-                                    <div className="p-8 bg-white/5 border border-white/10 hover:bg-indigo-600 transition-all duration-500 group text-left">
-                                        <div className="flex items-center justify-between mb-6">
-                                            <span className="text-[10px] font-black text-indigo-400 group-hover:text-white uppercase transition-colors">推奨シナリオ A (積極的)</span>
-                                            <ArrowUpRight className="w-4 h-4 text-white/10 group-hover:text-white" />
-                                        </div>
-                                        <h3 className="text-2xl font-black mb-6">積極的・追撃戦略</h3>
-                                        <p className="text-[13px] font-medium text-white/50 group-hover:text-white/90 leading-relaxed min-h-[60px]">
-                                            現行のロングポジションを維持し、151.20への損切りライン引き上げによる利益保護を優先。153.50のテクニカルターゲットを目指す強気なアプローチ。
-                                        </p>
-                                        <div className="mt-8 pt-8 border-t border-white/10 flex items-center justify-between group-hover:border-white/20">
-                                            <div className="flex flex-col text-left">
-                                                <span className="text-[9px] font-black text-white/30 uppercase group-hover:text-white/60">目標利益</span>
-                                                <span className="text-xl font-black text-emerald-400 group-hover:text-white mt-1">+145 pips</span>
-                                            </div>
-                                            <div className="text-[11px] font-black text-white px-3 py-1 bg-white/10 group-hover:bg-black/20 text-center">R:R 1:2.4</div>
-                                        </div>
+                                <h1 className="text-4xl md:text-5xl font-black text-royal-navy tracking-tighter leading-none">
+                                    {ticker} {direction === 'BUY' ? '買い' : '売り'} プラン
+                                </h1>
+                                <div className="flex gap-8 pt-2">
+                                    <div className="space-y-1">
+                                        <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">検証エントリー価格</span>
+                                        <p className="text-2xl font-black text-royal-navy">{entryPrice}</p>
                                     </div>
-
-                                    {/* プラン Beta */}
-                                    <div className="p-8 bg-white/5 border border-white/10 hover:bg-slate-700 transition-all duration-500 group text-left">
-                                        <div className="flex items-center justify-between mb-6">
-                                            <span className="text-[10px] font-black text-slate-500 group-hover:text-white uppercase transition-colors">推奨シナリオ B (待機)</span>
-                                            <ArrowUpRight className="w-4 h-4 text-white/10 group-hover:text-white" />
-                                        </div>
-                                        <h3 className="text-2xl font-black mb-6">堅実・待機戦略</h3>
-                                        <p className="text-[13px] font-medium text-white/50 group-hover:text-white/90 leading-relaxed min-h-[60px]">
-                                            不確実性の高まりを考慮し、一旦ニュートラルへ。欧州市場開始後の「振り落とし」を待ち、150.80のサポート形成を確認後、再エントリー。
-                                        </p>
-                                        <div className="mt-8 pt-8 border-t border-white/10 flex items-center justify-between group-hover:border-white/20">
-                                            <div className="flex flex-col text-left">
-                                                <span className="text-[9px] font-black text-white/30 uppercase group-hover:text-white/60">目標利益</span>
-                                                <span className="text-xl font-black text-slate-300 group-hover:text-white mt-1">+80 pips</span>
-                                            </div>
-                                            <div className="text-[11px] font-black text-white px-3 py-1 bg-white/10 group-hover:bg-black/20 text-center">R:R 1:1.8</div>
-                                        </div>
+                                    <div className="space-y-1 border-l border-slate-200 pl-8">
+                                        <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">検証損切り価格</span>
+                                        <p className="text-2xl font-black text-rose-500">{stopLoss}</p>
                                     </div>
-                                    {/* 執行プラン詳細 */}
-                                    <div className="md:col-span-2 p-6 bg-white/5 border border-white/10 rounded-lg">
-                                        <div className="flex items-center gap-3 mb-6">
-                                            <FileText className="w-5 h-5 text-indigo-400" />
-                                            <h3 className="text-lg font-black uppercase tracking-wider text-left">執行プラン詳細（推奨ベース）</h3>
-                                        </div>
-                                        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                                            <div className="p-4 bg-black/40 border border-white/5 text-left">
-                                                <span className="text-[9px] font-black text-white/40 uppercase block mb-1">Entry Range</span>
-                                                <span className="text-sm font-black text-white">150.80 - 151.00</span>
-                                            </div>
-                                            <div className="p-4 bg-black/40 border border-white/5 text-left">
-                                                <span className="text-[9px] font-black text-white/40 uppercase block mb-1">Take Profit 1</span>
-                                                <span className="text-sm font-black text-emerald-400">152.40</span>
-                                            </div>
-                                            <div className="p-4 bg-black/40 border border-white/5 text-left">
-                                                <span className="text-[9px] font-black text-white/40 uppercase block mb-1">Take Profit 2</span>
-                                                <span className="text-sm font-black text-indigo-400">153.50</span>
-                                            </div>
-                                            <div className="p-4 bg-black/40 border border-white/5 text-left">
-                                                <span className="text-[9px] font-black text-white/40 uppercase block mb-1">Stop Loss</span>
-                                                <span className="text-sm font-black text-rose-500">149.50</span>
-                                            </div>
-                                        </div>
+                                    <div className="space-y-1 border-l border-slate-200 pl-8">
+                                        <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest">検証決済価格</span>
+                                        <p className="text-2xl font-black text-emerald-500">{settlement}</p>
                                     </div>
                                 </div>
                             </div>
-                        </section>
-
-                        {/* 2. 専門家詳細リサーチ：プロフェッショナル・ターミナル */}
-                        <div className="space-y-8">
-                            <div className="flex items-center gap-4 px-2">
-                                <Search className="w-5 h-5 text-indigo-500" />
-                                <h3 className="text-[11px] font-black uppercase tracking-[0.3em] text-slate-500">各専門AIによる詳細リサーチ報告</h3>
-                                <div className="h-px flex-1 bg-slate-100" />
-                            </div>
-
-                            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-                                
-                                {/* 🌐 アナリスト */}
-                                <div className="bg-white border border-slate-100 shadow-sm relative overflow-hidden group text-left">
-                                    <div className="bg-slate-900 p-4 flex items-center justify-between">
-                                        <div className="flex items-center gap-3">
-                                            <Globe className="w-4 h-4 text-white" />
-                                            <span className="text-[10px] font-black text-white uppercase tracking-widest">マクロ・アナリスト</span>
-                                        </div>
-                                        <div className="px-2 py-0.5 bg-indigo-500 text-[8px] font-black text-white uppercase rounded-sm">検証済</div>
-                                    </div>
-                                    <div className="p-6 space-y-6">
-                                        <div className="space-y-4">
-                                            <span className="text-[9px] font-black text-slate-400 uppercase tracking-tighter block mb-1">主要経済指標データ & AI分析</span>
-                                            <ul className="space-y-4">
-                                                <li className="space-y-1.5 border-b border-slate-50 pb-2.5">
-                                                    <div className="flex items-center justify-between text-[11px] font-bold">
-                                                        <span className="text-slate-600">米CPI (前年比)</span>
-                                                        <span className="text-slate-900">3.1% <span className="text-slate-300 font-normal ml-1">(予想: 2.9%)</span></span>
-                                                    </div>
-                                                    <p className="text-[10px] text-rose-500 font-bold leading-tight">予想上振れによるドル金利維持圧力が継続中。</p>
-                                                </li>
-                                                <li className="space-y-1.5 border-b border-slate-50 pb-2.5">
-                                                    <div className="flex items-center justify-between text-[11px] font-bold">
-                                                        <span className="text-slate-600">米小売売上高</span>
-                                                        <span className="text-emerald-600">+0.6% <span className="text-slate-300 font-normal ml-1">(予想: +0.4%)</span></span>
-                                                    </div>
-                                                    <p className="text-[10px] text-emerald-600 font-bold leading-tight">米経済の頑健性を示唆。ソフトランディングへの期待高。</p>
-                                                </li>
-                                                <li className="space-y-1.5 border-b border-slate-50 pb-2.5">
-                                                    <div className="flex items-center justify-between text-[11px] font-bold">
-                                                        <span className="text-slate-600">日米金利差 (10年)</span>
-                                                        <span className="text-slate-900">+4.25% <span className="text-slate-300 font-normal ml-1">(拡大中)</span></span>
-                                                    </div>
-                                                    <p className="text-[10px] text-indigo-500 font-bold leading-tight">キャリートレードの持続性を裏付ける絶対的優位性。</p>
-                                                </li>
-                                                <li className="space-y-1.5 border-b border-slate-50 pb-2.5">
-                                                    <div className="flex items-center justify-between text-[11px] font-bold">
-                                                        <span className="text-slate-600">実質効用為替レート</span>
-                                                        <span className="text-rose-500">過小評価 (-12.4%)</span>
-                                                    </div>
-                                                    <p className="text-[10px] text-slate-400 font-bold leading-tight">歴史的割安水準。介入警戒感はあるが、トレンド反転には力不足。</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className="space-y-2">
-                                            <span className="text-[9px] font-black text-slate-400 uppercase tracking-tighter block">情報ソース</span>
-                                            <div className="flex flex-wrap gap-2">
-                                                <span className="px-2 py-0.5 bg-slate-100 text-[9px] font-bold text-slate-500 rounded-sm italic">Bloomberg 端末データ</span>
-                                                <span className="px-2 py-0.5 bg-slate-100 text-[9px] font-bold text-slate-500 rounded-sm italic">米連邦公開市場委員会 議事録</span>
-                                                <span className="px-2 py-0.5 bg-slate-100 text-[9px] font-bold text-slate-500 rounded-sm italic">Reuters 経済速報</span>
-                                            </div>
-                                        </div>
-                                        <div className="p-4 bg-slate-50 border-l-2 border-slate-900">
-                                            <span className="text-[9px] font-black text-slate-900 uppercase block mb-1 flex items-center gap-2">
-                                                <Database className="w-3 h-3" /> 推論ロジック：構造的優位性の検証
-                                            </span>
-                                            <p className="text-[11px] font-bold text-slate-500 leading-relaxed italic">
-                                                米ドルの優位性は単なる投機ではなく、日米金利差の拡大というマクロ構造に裏打ちされている。CPIの鈍化が予想を下回る中、実質金利の維持がドルの押し目買いを強力に正当化する。債務対GDP比の増大は長期的懸念材料だが、短期的には他国通貨に対する「相対的な安全性」と「利回り」がフローを支配しており、反転の兆しは見られない。
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                {/* 🛡️ マネージャー */}
-                                <div className="bg-white border border-slate-100 shadow-sm relative overflow-hidden group text-left">
-                                    <div className="bg-slate-900 p-4 flex items-center justify-between">
-                                        <div className="flex items-center gap-3">
-                                            <Shield className="w-4 h-4 text-white" />
-                                            <span className="text-[10px] font-black text-white uppercase tracking-widest">ファンドマネージャー</span>
-                                        </div>
-                                        <div className="px-2 py-0.5 bg-indigo-500 text-[8px] font-black text-white uppercase rounded-sm">検証済</div>
-                                    </div>
-                                    <div className="p-6 space-y-6">
-                                        <div className="space-y-4">
-                                            <span className="text-[9px] font-black text-slate-400 uppercase tracking-tighter block mb-1">テクニカル指標シグナル & AI分析</span>
-                                            <ul className="space-y-4">
-                                                <li className="space-y-1.5 border-b border-slate-50 pb-2.5">
-                                                    <div className="flex items-center gap-3 text-[11px] font-bold">
-                                                        <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500" />
-                                                        <span className="text-slate-600">RSI(14): <span className="text-rose-600">72.4 (過熱/Divergence)</span></span>
-                                                    </div>
-                                                    <p className="text-[10px] text-rose-500 font-bold leading-tight">上昇の勢いは強いが、高値圏での調整リスクを示唆。</p>
-                                                </li>
-                                                <li className="space-y-1.5 border-b border-slate-50 pb-2.5">
-                                                    <div className="flex items-center gap-3 text-[11px] font-bold">
-                                                        <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500" />
-                                                        <span className="text-slate-600">SMA(200)乖離率: <span className="text-indigo-600">+4.12%</span></span>
-                                                    </div>
-                                                    <p className="text-[10px] text-indigo-500 font-bold leading-tight">長期トレンドは完全に上向き。押し目買いの有効性高。</p>
-                                                </li>
-                                                <li className="space-y-1.5 border-b border-slate-50 pb-2.5">
-                                                    <div className="flex items-center gap-3 text-[11px] font-bold">
-                                                        <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500" />
-                                                        <span className="text-slate-600">ATR(20): 84.5 pips <span className="text-slate-300 font-normal">(上昇傾向)</span></span>
-                                                    </div>
-                                                    <p className="text-[10px] text-slate-400 font-bold leading-tight">ボラティリティ拡大中。広めのSLまたはロット調整を推奨。</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className="space-y-3">
-                                            <span className="text-[9px] font-black text-slate-400 uppercase tracking-tighter block">ボラティリティ・マッピング</span>
-                                            <div className="h-1.5 w-full bg-slate-100 rounded-full overflow-hidden flex">
-                                                <div className="h-full bg-indigo-500" style={{ width: '70%' }} />
-                                            </div>
-                                            <div className="flex justify-between text-[9px] font-black text-slate-400">
-                                                <span>低ボラ</span>
-                                                <span>高ボラ (現在)</span>
-                                            </div>
-                                        </div>
-                                        <div className="p-4 bg-slate-50 border-l-2 border-slate-900">
-                                            <span className="text-[9px] font-black text-slate-900 uppercase block mb-1 flex items-center gap-2">
-                                                <Scale className="w-3 h-3" /> 推論ロジック：統計的優位性の検証
-                                            </span>
-                                            <p className="text-[11px] font-bold text-slate-500 leading-relaxed italic">
-                                                オシレーター（RSI）の過熱感は、強力なトレンドの「初期症状」であることが多い。200日移動平均線からの乖離率は許容範囲内であり、MACDのヒストグラム拡大は二次的な加速を示唆している。ボラティリティの拡大を前提としたATRベースのSL設定により、ノイズを回避しつつ統計的なエッジを最大化できる局面であると判断する。
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                {/* ⚔️ トレーダー */}
-                                <div className="bg-white border border-slate-100 shadow-sm relative overflow-hidden group text-left">
-                                    <div className="bg-slate-900 p-4 flex items-center justify-between">
-                                        <div className="flex items-center gap-3">
-                                            <Swords className="w-4 h-4 text-white" />
-                                            <span className="text-[10px] font-black text-white uppercase tracking-widest">プロップトレーダー</span>
-                                        </div>
-                                        <div className="px-2 py-0.5 bg-indigo-500 text-[8px] font-black text-white uppercase rounded-sm">検証済</div>
-                                    </div>
-                                    <div className="p-6 space-y-6">
-                                        <div className="space-y-4">
-                                            <span className="text-[9px] font-black text-slate-400 uppercase tracking-tighter block mb-1">センチメント & 比率分析</span>
-                                            <div className="space-y-3">
-                                                <div className="flex justify-between text-[11px] font-black mb-1">
-                                                    <span className="text-slate-600 uppercase">個人投資家ロング比率</span>
-                                                    <span className="text-indigo-600">68%</span>
-                                                </div>
-                                                <div className="h-1.5 w-full bg-slate-100 rounded-full overflow-hidden">
-                                                    <div className="h-full bg-indigo-500 shadow-[0_0_8px_rgba(79,70,229,0.3)]" style={{ width: '68%' }} />
-                                                </div>
-                                            </div>
-                                            <div className="space-y-3">
-                                                <div className="flex justify-between text-[11px] font-black mb-1">
-                                                    <span className="text-slate-600 uppercase">オーダーブック不均衡</span>
-                                                    <span className="text-rose-500">+12.4% 売り圧力</span>
-                                                </div>
-                                                <div className="h-1.5 w-full bg-slate-100 rounded-full overflow-hidden">
-                                                    <div className="h-full bg-rose-500 shadow-[0_0_8px_rgba(244,63,94,0.3)]" style={{ width: '56%' }} />
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div className="space-y-4">
-                                            <span className="text-[9px] font-black text-slate-400 uppercase tracking-tighter block mb-1">流動性・クラスター(罠) & AI分析</span>
-                                            <ul className="space-y-4">
-                                                <li className="space-y-1.5 border-b border-slate-50 pb-2.5">
-                                                    <div className="text-[11px] font-bold text-slate-600 flex items-center gap-2">
-                                                        <Target className="w-3.5 h-3.5 text-rose-400" />
-                                                        損切り溜まりゾーン: <span className="text-slate-900 ml-auto">150.50 - 150.20</span>
-                                                    </div>
-                                                    <p className="text-[10px] text-rose-500 font-bold leading-tight">個人投資家のストップが集積。ここを刈った後の反転を想定。</p>
-                                                </li>
-                                                <li className="space-y-1.5 border-b border-slate-50 pb-2.5">
-                                                    <div className="text-[11px] font-bold text-slate-600 flex items-center gap-2">
-                                                        <Target className="w-3.5 h-3.5 text-emerald-400" />
-                                                        機関投資家買い壁: <span className="text-slate-900 ml-auto">149.80 (大口注文)</span>
-                                                    </div>
-                                                    <p className="text-[10px] text-emerald-600 font-bold leading-tight">大手機関の鉄板サポート。「堤防」として機能する可能性大。</p>
-                                                </li>
-                                                <li className="space-y-1.5 border-b border-slate-50 pb-2.5">
-                                                    <div className="text-[11px] font-bold text-slate-600 flex items-center gap-2">
-                                                        <Activity className="w-3.5 h-3.5 text-indigo-400" />
-                                                        ダークプール取引量: <span className="text-slate-900 ml-auto">+24% (増大)</span>
-                                                    </div>
-                                                    <p className="text-[10px] text-indigo-500 font-bold leading-tight">表に出ない大口のポジションビルドが進行中。急騰の予兆。</p>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div className="p-4 bg-slate-50 border-l-2 border-slate-900">
-                                            <span className="text-[9px] font-black text-slate-900 uppercase block mb-1 flex items-center gap-2">
-                                                <BarChart3 className="w-3 h-3" /> 推論ロジック：流動性罠の特定と回避
-                                            </span>
-                                            <p className="text-[11px] font-bold text-slate-500 leading-relaxed italic">
-                                                リテール勢の極端なロング偏重は短期的な下方バイアスを生むが、オーダーブック上の大口買い壁が150円台という強力な「盾」を形成している。ダークプールの不穏な活動は、むしろ個人投資家の損切りプログラムをトリガーにした「ショートスクイーズ（踏み上げ）」を狙った準備である可能性が高い。流動性が最も枯渇する瞬間に、反転の上放れを期待できる。
-                                            </p>
-                                        </div>
-                                    </div>
-                                </div>
-
+                            <div className="flex gap-12">
+                                <SentimentGauge score={analysisResult?.visuals?.sentiment || 70} />
+                                <MarketAlertGauge level={analysisResult?.visuals?.risk || 3} />
                             </div>
                         </div>
 
-                        <div className="max-w-4xl mx-auto space-y-8 border-t border-slate-100 pt-12">
-                            <div className="bg-slate-50 p-6 space-y-4">
-                                <div className="flex items-center gap-2 text-[10px] font-black text-slate-400 uppercase tracking-widest">
-                                    <Info className="w-3 h-3" /> Professional Research Disclaimer
-                                </div>
-                                <p className="text-[10px] text-slate-400 leading-relaxed font-bold italic">
-                                    本リサーチレポートは、AI投資委員会（Synapse AI Committee）による独自の市場分析結果であり、特定の投資行為の勧誘、または将来の運用成果を保証するものではありません。外国為替証拠金取引（FX）は高いリスクを伴い、投資元本を超える損失が発生する可能性があります。最終的な投資決定は、お客様ご自身の判断と責任において行ってください。本レポートの情報はリアルタイムデータに基づき計算されていますが、市場の急激な変化により内容が陳腐化する場合があります。
+                        {/* Executive Summary Section */}
+                        <div className="bg-royal-navy p-10 rounded-3xl border border-white/5 space-y-4 relative overflow-hidden group">
+                            <div className="absolute top-0 right-0 p-8 opacity-5">
+                                <ShieldCheck className="w-32 h-32 text-white" />
+                            </div>
+                            <div className="relative">
+                                <span className="text-[10px] font-black text-champagne-gold uppercase tracking-[0.3em] mb-2 block">Executive Summary</span>
+                                <h3 className="text-xl font-black text-white mb-4">本プランの総合評価</h3>
+                                <p className="text-white/80 text-sm leading-relaxed max-w-4xl">
+                                    {analysisResult?.visuals?.fullLeaderText?.split('\n').find((p: string) => p.length > 20) || '分析データを統合中...'}
                                 </p>
                             </div>
-                            
-                            <div className="text-center">
-                                <button 
-                                    onClick={() => { setShowResults(false); window.scrollTo({ top: 0, behavior: 'smooth' }); }}
-                                    className="inline-flex items-center gap-3 text-[11px] font-black uppercase text-slate-400 hover:text-indigo-600 transition-all tracking-[0.3em] pb-1 border-b border-transparent hover:border-indigo-600"
-                                >
-                                    <Zap className="w-4 h-4" /> 別のプランを診断する
-                                </button>
+                        </div>
+
+                        {/* 2. Expert Evaluation Grid */}
+                        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                            {/* Expert 01: Chief Macro Strategist */}
+                            <div className="bg-white border border-slate-100 p-8 rounded-2xl shadow-sm space-y-8 flex flex-col">
+                                <div className="space-y-4">
+                                    <div className="flex items-center gap-3">
+                                        <div className="p-2 bg-royal-navy/5 rounded-lg text-royal-navy">
+                                            <Database className="w-5 h-5" />
+                                        </div>
+                                        <h4 className="text-[11px] font-black text-royal-navy uppercase tracking-widest truncate">01 チーフ・マクロストラテジスト</h4>
+                                    </div>
+                                    <ExpertProfile 
+                                        role="専門領域" 
+                                        name="Macro Correlation AI" 
+                                        description="主要な中央銀行の政策、金利動向、およびグローバル・アセット間の相関データを深層学習した特化型モデル。" 
+                                    />
+                                </div>
+                                <div className="text-[13px] leading-relaxed text-slate-600 flex-1 border-t border-slate-50 pt-6">
+                                    {analysisResult?.visuals?.analystText || '検証中...'}
+                                </div>
                             </div>
+                            
+                            {/* Expert 02: Senior Portfolio Manager */}
+                            <div className="bg-white border border-slate-100 p-8 rounded-2xl shadow-sm space-y-8 flex flex-col">
+                                <div className="space-y-4">
+                                    <div className="flex items-center gap-3">
+                                        <div className="p-2 bg-royal-navy/5 rounded-lg text-royal-navy">
+                                            <Shield className="w-5 h-5" />
+                                        </div>
+                                        <h4 className="text-[11px] font-black text-royal-navy uppercase tracking-widest truncate">02 シニア・ポートフォリオマネージャー</h4>
+                                    </div>
+                                    <ExpertProfile 
+                                        role="専門領域" 
+                                        name="Risk Governance AI" 
+                                        description="金融工学に基づくボラティリティ推定と、機関投資家のリスク・バジェット管理プロトコルを司る管理モデル。" 
+                                    />
+                                </div>
+                                <div className="text-[13px] leading-relaxed text-slate-600 flex-1 border-t border-slate-50 pt-6">
+                                    {analysisResult?.visuals?.managerText || '検証中...'}
+                                </div>
+                            </div>
+
+                            {/* Expert 03: Head of Trading */}
+                            <div className="bg-white border border-slate-100 p-8 rounded-2xl shadow-sm space-y-8 flex flex-col">
+                                <div className="space-y-4">
+                                    <div className="flex items-center gap-3">
+                                        <div className="p-2 bg-royal-navy/5 rounded-lg text-royal-navy">
+                                            <Zap className="w-5 h-5" />
+                                        </div>
+                                        <h4 className="text-[11px] font-black text-royal-navy uppercase tracking-widest truncate">03 ヘッド・オブ・トレーディング</h4>
+                                    </div>
+                                    <ExpertProfile 
+                                        role="専門領域" 
+                                        name="Tactical Execution AI" 
+                                        description="マイクロストラクチャー、板情報の不均衡、およびセンチメントの極端な偏りを学習した実行モデル。" 
+                                    />
+                                </div>
+                                <div className="text-[13px] leading-relaxed text-slate-600 flex-1 border-t border-slate-50 pt-6">
+                                    {analysisResult?.visuals?.traderText || '検証中...'}
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* AI Orchestration: Core Dialogue Section */}
+                        <div className="bg-slate-50 p-10 rounded-3xl border border-slate-200 space-y-8">
+                            <div className="flex items-center justify-between border-b border-slate-200 pb-6">
+                                <div className="space-y-1">
+                                    <span className="text-[10px] font-black text-champagne-gold uppercase tracking-[0.3em] block">Committee Orchestration</span>
+                                    <h3 className="text-xl font-black text-royal-navy">投資委員会：戦略オーケストレーション</h3>
+                                </div>
+                                <div className="flex -space-x-3">
+                                    <div className="w-10 h-10 rounded-full bg-royal-navy border-2 border-white flex items-center justify-center text-white text-[10px] font-black">01</div>
+                                    <div className="w-10 h-10 rounded-full bg-slate-400 border-2 border-white flex items-center justify-center text-white text-[10px] font-black">02</div>
+                                    <div className="w-10 h-10 rounded-full bg-royal-navy border-2 border-white flex items-center justify-center text-white text-[10px] font-black">03</div>
+                                </div>
+                            </div>
+
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+                                <div className="space-y-6">
+                                    <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 relative">
+                                        <div className="absolute -left-2 top-6 w-4 h-4 bg-white border-l border-t border-slate-100 rotate-[-45deg]" />
+                                        <span className="text-[9px] font-black text-royal-navy/40 uppercase mb-2 block">Synthesis Node A</span>
+                                        <p className="text-[12px] leading-relaxed text-slate-700 italic">
+                                            「マクロ的背景は良好だが、PMの指摘するボラティリティの急拡大は看過できない。エントリーを0.2%引き下げることでリスクリワードを最適化できるのではないか？」
+                                        </p>
+                                    </div>
+                                    <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 relative ml-8">
+                                        <div className="absolute -left-2 top-6 w-4 h-4 bg-white border-l border-t border-slate-100 rotate-[-45deg]" />
+                                        <span className="text-[9px] font-black text-royal-navy/40 uppercase mb-2 block">Synthesis Node B</span>
+                                        <p className="text-[12px] leading-relaxed text-slate-700 italic">
+                                            「同意する。トレーディングデスク（Node 03）の観測するオーダーフローの偏りを待ってから執行することで、不必要なドローダウンを回避すべきだ。」
+                                        </p>
+                                    </div>
+                                </div>
+                                <div className="bg-royal-navy/5 p-8 rounded-2xl border border-royal-navy/10 flex flex-col justify-center">
+                                    <h4 className="text-xs font-black text-royal-navy uppercase tracking-widest mb-4">委員会による最終合意プロセス</h4>
+                                    <div className="space-y-6">
+                                        {analysisResult?.visuals?.leader?.consensusSummary && (
+                                            <div className="p-4 bg-white/50 rounded-xl border border-royal-navy/5 mb-2">
+                                                <p className="text-[12px] leading-relaxed text-royal-navy font-bold italic">
+                                                    「{analysisResult.visuals.leader.consensusSummary}」
+                                                </p>
+                                            </div>
+                                        )}
+                                        <div className="space-y-3">
+                                            <h5 className="text-[11px] font-black text-emerald-600 uppercase tracking-widest flex items-center gap-2 border-b border-emerald-500/20 pb-1.5">
+                                                <CheckCircle2 className="w-3 h-3" />
+                                                合意事項 (Consensus)
+                                            </h5>
+                                            <div className="space-y-2">
+                                                {analysisResult?.visuals?.leader?.agreedPoints?.map((point: string, idx: number) => (
+                                                    <div key={idx} className="flex gap-3">
+                                                        <div className="w-1 h-1 rounded-full bg-emerald-400 mt-2" />
+                                                        <p className="text-[12px] text-slate-600 font-medium">{point}</p>
+                                                    </div>
+                                                )) || (
+                                                    <p className="text-[12px] text-slate-400 italic">合意形成されたメリットを抽出中...</p>
+                                                )}
+                                            </div>
+                                        </div>
+                                        <div className="space-y-3 pt-4 border-t border-royal-navy/5">
+                                            <h5 className="text-[11px] font-black text-rose-500 uppercase tracking-widest flex items-center gap-2 border-b border-rose-500/20 pb-1.5">
+                                                <AlertTriangle className="w-3 h-3" />
+                                                否定・懸念事項 (Friction Points)
+                                            </h5>
+                                            <div className="space-y-2">
+                                                {analysisResult?.visuals?.leader?.rejectedPoints?.map((point: string, idx: number) => (
+                                                    <div key={idx} className="flex gap-3">
+                                                        <div className="w-1 h-1 rounded-full bg-rose-300 mt-2" />
+                                                        <p className="text-[12px] text-slate-600 font-medium">{point}</p>
+                                                    </div>
+                                                )) || (
+                                                    <p className="text-[12px] text-slate-400 italic">否定または懸念されたリスクを抽出中...</p>
+                                                )}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* 3. Synthesis & Indicators */}
+                        <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
+                            {/* Left: Overall Synthesis */}
+                            <div className="lg:col-span-8 bg-white border border-slate-200 p-10 rounded-2xl shadow-sm space-y-8">
+                                <div className="space-y-2">
+                                    <div className="flex items-center gap-2 text-royal-navy">
+                                        <Cpu className="w-5 h-5" />
+                                        <h4 className="text-xs font-black uppercase tracking-widest">多角市場分析・詳細レポート</h4>
+                                    </div>
+                                    <h3 className="text-2xl font-bold text-royal-navy border-b-2 border-royal-navy/20 pb-2 mb-2">プランの妥当性に関する最終評決</h3>
+                                </div>
+                                <div className="text-sm leading-relaxed text-slate-700 whitespace-pre-wrap">
+                                    <ReportRenderer text={analysisResult?.visuals?.fullLeaderText || ''} />
+                                </div>
+                            </div>
+
+                            {/* Right: Technical/Real-time Metrics */}
+                            <div className="lg:col-span-4 flex flex-col gap-6">
+                                <div className="bg-slate-50 border border-slate-100 p-8 rounded-2xl space-y-8">
+                                    <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest">リアルタイム指標スコア</h4>
+                                    <div className="space-y-6">
+                                        <MetricBar label="マクロ相関適合度" value={0.82} />
+                                        <MetricBar label="分散リスク指数" value={0.68} />
+                                        <MetricBar label="板情報不均衡度" value={0.45} />
+                                    </div>
+                                </div>
+                                <div className="bg-white border border-slate-100 p-8 rounded-2xl shadow-sm flex-1 space-y-6">
+                                    <h4 className="text-xs font-black text-slate-400 uppercase tracking-widest">テクニカル・チェック項目</h4>
+                                    <TechnicalChecklist />
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* SNS Share & Navigation */}
+                        <div className="flex flex-col items-center gap-10 pt-12 border-t border-slate-100">
+                            <div className="space-y-4 text-center">
+                                <span className="text-[10px] font-black text-slate-400 uppercase tracking-[0.3em]">Share Report</span>
+                                <div className="flex gap-4">
+                                    <button 
+                                        onClick={() => {
+                                            const appDesc = "AI投資戦略検証ターミナル：あなたが立案した投資プランを3人のスペシャリストAIが多角的に検証する機関投資家向けダッシュボード";
+                                            const url = window.location.href;
+                                            window.open(`https://twitter.com/intent/tweet?text=${encodeURIComponent(appDesc)}&url=${encodeURIComponent(url)}`, '_blank');
+                                        }} 
+                                        className="w-12 h-12 flex items-center justify-center rounded-full bg-black text-white hover:scale-110 transition-all shadow-lg" 
+                                        title="X (Twitter) でシェア"
+                                    >
+                                      <svg className="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                                    </button>
+                                    <button 
+                                        onClick={() => {
+                                            const url = window.location.href;
+                                            window.open(`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(url)}`, '_blank');
+                                        }} 
+                                        className="w-12 h-12 flex items-center justify-center rounded-full bg-[#1877F2] text-white hover:scale-110 transition-all shadow-lg" 
+                                        title="Facebookでシェア"
+                                    >
+                                      <svg className="w-6 h-6 fill-current" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                                    </button>
+                                    <button onClick={() => { navigator.clipboard.writeText(window.location.href); alert('リンクをコピーしました'); }} className="w-12 h-12 flex items-center justify-center rounded-full bg-royal-navy text-white hover:scale-110 transition-all shadow-lg" title="レポートリンクをコピー">
+                                      <LayoutGrid className="w-5 h-5 rotate-45" />
+                                    </button>
+                                </div>
+                            </div>
+                            
+                            <button 
+                                onClick={() => setShowResults(false)}
+                                className="h-16 px-16 border-2 border-slate-200 text-slate-600 font-black text-xs uppercase tracking-widest rounded-xl transition-all hover:bg-slate-50 active:scale-95"
+                            >
+                                別のプランを検証・シミュレーションする
+                            </button>
+                        </div>
+
+                        {/* Disclaimer */}
+                        <div className="max-w-4xl mx-auto p-10 bg-slate-50 rounded-2xl border border-slate-100 text-center space-y-4">
+                            <p className="text-[10px] text-slate-400 leading-relaxed font-bold">
+                                【免責事項】 本分析は、Synapse AI Committeeを構成する特化型AIモデル群によるシミュレーション結果であり、投資勧誘や収益の保証を行うものではありません。金融市場には固有のリスクが存在し、投入価格や損切り設定はユーザー自身の裁量と責任に基づくものです。
+                            </p>
                         </div>
                     </div>
                 )}

@@ -37,11 +37,13 @@ jobs:
           echo "Python version: $(python3 --version)"
           echo "Checking environment variables..."
           if [ -z "${{ secrets.GEMINI_API_KEY }}" ]; then echo "❌ GEMINI_API_KEY is missing"; else echo "✅ GEMINI_API_KEY is set"; fi
+          if [ -z "${{ secrets.OPENROUTER_API_KEY }}" ]; then echo "❌ OPENROUTER_API_KEY is missing"; else echo "✅ OPENROUTER_API_KEY is set"; fi
           if [ -z "${{ secrets.MAKE_WEBHOOK_URL }}" ]; then echo "❌ MAKE_WEBHOOK_URL is missing"; else echo "✅ MAKE_WEBHOOK_URL is set"; fi
 
       - name: Generate Reports
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
         run: node scripts/generate-reports.js
 
       - name: List Generated Files

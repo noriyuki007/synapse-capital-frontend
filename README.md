@@ -20,6 +20,21 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Public Beta & Rate Limiting
+
+This project is currently in **Public Beta (v0.8.2-BETA)**.
+To maintain service stability, a rate limit of **5 analyses per day per IP** is enforced.
+
+### Administrative Access (Unlimited)
+
+To bypass the rate limit for your own environment, set the `ADMIN_IP` environment variable in your deployment platform (Vercel/Cloudflare) or `.env.local`:
+
+```env
+ADMIN_IP=your_public_ip_address
+```
+
+You can find your public IP by visiting [ifconfig.me](https://ifconfig.me) or similar services.
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:

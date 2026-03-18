@@ -36,6 +36,11 @@ def generate_chart(ticker, filename, title_name):
     data.loc[:, 'MA20'] = data['Close'].rolling(window=20).mean()
     data.loc[:, 'MA50'] = data['Close'].rolling(window=50).mean()
     
+    # Bollinger Bands
+    data.loc[:, 'std'] = data['Close'].rolling(window=20).std()
+    data.loc[:, 'BB_upper'] = data['MA20'] + (data['std'] * 2)
+    data.loc[:, 'BB_lower'] = data['MA20'] - (data['std'] * 2)
+
     # Calculate RSI
     delta = data['Close'].diff()
     gain = (delta.where(delta > 0, 0)).rolling(window=14).mean()
@@ -62,7 +67,9 @@ def generate_chart(ticker, filename, title_name):
     # Main chart
     addplot = [
         mpf.make_addplot(data['MA20'], color='#0ea5e9', width=1.0),
-        mpf.make_addplot(data['MA50'], color='#f59e0b', width=1.0),
+        mpf.make_addplot(data['MA50'], color='#f59e0b', width=1.2, alpha=0.6),
+        mpf.make_addplot(data['BB_upper'], color='#4338ca', width=0.8, alpha=0.3),
+        mpf.make_addplot(data['BB_lower'], color='#4338ca', width=0.8, alpha=0.3),
         # RSI on a second panel
         mpf.make_addplot(data['RSI'], panel=2, color='#8b5cf6', ylabel='RSI', ylim=(0, 100), width=0.8)
     ]
@@ -72,8 +79,8 @@ def generate_chart(ticker, filename, title_name):
     mpf.plot(data, type='candle', style=s, 
              addplot=addplot,
              volume=True, 
-             title=f"\n{title_name} Analysis",
-             ylabel='Price',
+             title=f"\n{title_name} 解析レポート",
+             ylabel='価格',
              savefig=filename,
              figratio=(16, 10),
              figscale=1.5,

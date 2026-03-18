@@ -1,80 +1,49 @@
 @import "tailwindcss";
 
 @theme {
-    --font-sans: var(--font-inter), var(--font-noto-jp), system-ui;
-    --font-mono: var(--font-jetbrains-mono);
+    --font-inter: var(--font-inter), system-ui;
+    --font-noto: var(--font-noto), "Noto Sans JP", sans-serif;
+    
+    /* Global Sans is mapped to Noto for Japanese support */
+    --font-sans: var(--font-noto);
+    
     --color-brand-accent: #6366f1;
     --color-market-up: #10b981;
     --color-market-down: #ef4444;
+    
+    /* Institutional Premium Palette */
+    --color-royal-navy: #002347;
+    --color-champagne-gold: #D4AF37;
 }
 
 :root {
     --background: #ffffff;
     --foreground: #020617;
-    --card: #f8fafc;
+    --card: #ffffff;
     --card-foreground: #020617;
+    --popover: #ffffff;
+    --popover-foreground: #020617;
+    --primary: #002347;
+    --primary-foreground: #ffffff;
+    --secondary: #f1f5f9;
+    --secondary-foreground: #0f172a;
+    --muted: #f1f5f9;
+    --muted-foreground: #64748b;
+    --accent: #D4AF37;
+    --accent-foreground: #0f172a;
+    --destructive: #ff4444;
+    --destructive-foreground: #f8fafc;
     --border: #e2e8f0;
+    --input: #e2e8f0;
+    --ring: #94a3b8;
+    --radius: 0.75rem;
 }
 
-body {
-    color: var(--foreground);
-    background: var(--background);
-    font-family: var(--font-sans);
-    letter-spacing: -0.01em;
-}
-
-/* Custom Scrollbar for Terminals */
-::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
-}
-
-::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-::-webkit-scrollbar-thumb {
-    background: rgba(255, 255, 255, 0.1);
-}
-
-::-webkit-scrollbar-thumb:hover {
-    background: rgba(255, 255, 255, 0.2);
-}
-
-/* Ticker Animation */
-@keyframes ticker {
-    0% {
-        transform: translateX(0);
+@layer base {
+    * {
+        @apply border-slate-200;
     }
-
-    100% {
-        transform: translateX(-50%);
+    body {
+        @apply bg-white text-slate-900 font-sans;
     }
-}
-
-.animate-ticker {
-    display: flex;
-    width: max-content;
-    animation: ticker 60s linear infinite;
-}
-
-/* Animations from the legacy Landing Page */
-@keyframes bounce-slow {
-
-    0%,
-    100% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-5px);
-    }
-}
-
-.animate-bounce-slow {
-    animation: bounce-slow 3s ease-in-out infinite;
-}
-
-.text-transparent {
-    -webkit-text-fill-color: transparent;
 }
