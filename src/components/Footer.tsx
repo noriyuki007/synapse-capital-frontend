@@ -84,7 +84,6 @@ export const Footer = () => {
                             <nav className="flex flex-col gap-5 text-xs font-black text-slate-400 uppercase tracking-widest">
                                 <Link href="/terms" className="hover:text-indigo-600 transition-colors">利用規約</Link>
                                 <Link href="/privacy" className="hover:text-indigo-600 transition-colors">プライバシーポリシー</Link>
-                                <Link href="mailto:info@agent-frontier.jp" className="hover:text-indigo-600 transition-colors">お問い合わせ</Link>
                             </nav>
                         </div>
                     </div>
