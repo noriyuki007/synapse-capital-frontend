@@ -1,21 +1,53 @@
-import React from 'react';
+'use client';
+
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { getSortedReportsData, getTrackRecordStats } from '@/lib/reports';
 import { Header } from '@/components/Header';
 import { Sidebar } from '@/components/Sidebar';
 import { Footer } from '@/components/Footer';
-import { Activity, Clock, ArrowRight } from 'lucide-react';
+import { Activity, Clock, ArrowRight, ChevronLeft, ChevronRight } from 'lucide-react';
 
+const ITEMS_PER_PAGE = 6;
 
+export default function ReportsPage() {
+    const [allReportsData, setAllReportsData] = useState<any[]>([]);
+    const [stats, setStats] = useState<any>(null);
+    const [currentPage, setCurrentPage] = useState(1);
+    const [loading, setLoading] = useState(true);
 
-export default async function ReportsPage() {
-    const allReportsData = await getSortedReportsData();
-    const stats = await getTrackRecordStats();
-    const buildTime = new Date().toISOString();
+    useEffect(() => {
+        async function loadData() {
+            const reports = await getSortedReportsData();
+            const trackStats = await getTrackRecordStats();
+            setAllReportsData(reports);
+            setStats(trackStats);
+            setLoading(false);
+        }
+        loadData();
+    }, []);
+
+    // Pagination logic
+    const totalPages = Math.ceil(allReportsData.length / ITEMS_PER_PAGE);
+    const indexOfLastItem = currentPage * ITEMS_PER_PAGE;
+    const indexOfFirstItem = indexOfLastItem - ITEMS_PER_PAGE;
+    const currentReports = allReportsData.slice(indexOfFirstItem, indexOfLastItem);
+
+    const paginate = (pageNumber: number) => {
+        setCurrentPage(pageNumber);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    if (loading) {
+        return (
+            <div className="min-h-screen bg-white flex items-center justify-center">
+                <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-indigo-600"></div>
+            </div>
+        );
+    }
 
     return (
         <div className="min-h-screen bg-white text-slate-900 selection:bg-indigo-100 selection:text-indigo-900">
-            <span className="hidden" aria-hidden="true">Build: {buildTime}</span>
             <Header />
 
             <main className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 border-x border-slate-100 bg-white min-h-screen">
@@ -56,13 +88,13 @@ export default async function ReportsPage() {
                         <div className="flex items-center justify-between border-b border-slate-100 pb-6">
                             <h2 className="text-[11px] font-black uppercase tracking-[0.4em] flex items-center gap-3 text-slate-900 leading-none">
                                 <Activity className="w-4 h-4 text-indigo-600" />
-                                予測履歴一覧
+                                予測履歴一覧 (Page {currentPage}/{totalPages})
                             </h2>
                         </div>
 
                         <div className="grid grid-cols-1 gap-12">
-                            {allReportsData.length > 0 ? (
-                                allReportsData.map((report: any) => (
+                            {currentReports.length > 0 ? (
+                                currentReports.map((report: any) => (
                                     <Link key={report.id} href={`/ja/reports/${report.id}`} className="group block">
                                         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
                                             <div className="md:col-span-2 space-y-2">
@@ -104,6 +136,45 @@ export default async function ReportsPage() {
                                 </div>
                             )}
                         </div>
+
+                        {/* Pagination Controls */}
+                        {totalPages > 1 && (
+                            <div className="flex items-center justify-center gap-4 pt-12 border-t border-slate-100">
+                                <button
+                                    onClick={() => paginate(currentPage - 1)}
+                                    disabled={currentPage === 1}
+                                    className="flex items-center gap-2 px-6 py-3 border border-slate-100 text-[10px] font-black uppercase tracking-widest hover:bg-black hover:text-white disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-slate-300 transition-all"
+                                >
+                                    <ChevronLeft className="w-4 h-4" />
+                                    Prev
+                                </button>
+                                
+                                <div className="flex items-center gap-2">
+                                    {Array.from({ length: totalPages }, (_, i) => i + 1).map(num => (
+                                        <button
+                                            key={num}
+                                            onClick={() => paginate(num)}
+                                            className={`w-10 h-10 border text-[10px] font-black flex items-center justify-center transition-all ${
+                                                num === currentPage 
+                                                ? 'bg-indigo-600 border-indigo-600 text-white' 
+                                                : 'border-slate-100 hover:border-black'
+                                            }`}
+                                        >
+                                            {num}
+                                        </button>
+                                    ))}
+                                </div>
+
+                                <button
+                                    onClick={() => paginate(currentPage + 1)}
+                                    disabled={currentPage === totalPages}
+                                    className="flex items-center gap-2 px-6 py-3 border border-slate-100 text-[10px] font-black uppercase tracking-widest hover:bg-black hover:text-white disabled:opacity-30 disabled:hover:bg-transparent disabled:hover:text-slate-300 transition-all"
+                                >
+                                    Next
+                                    <ChevronRight className="w-4 h-4" />
+                                </button>
+                            </div>
+                        )}
                     </section>
                 </div>
 
