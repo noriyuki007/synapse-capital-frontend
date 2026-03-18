@@ -1,29 +1,29 @@
 {
   "FX": {
-    "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "テクニカル分析で上昇トレンドを確認。日銀政策据え置きなら円売り加速。",
-    "entry": "158.70",
-    "tp": "159.50",
-    "sl": "158.50",
-    "reliability": "HIGH"
+    "pair": "MOCK",
+    "status": "FLAT",
+    "comment": "モックデータです",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "LOW"
   },
   "STOCKS": {
-    "pair": "DOW/USD",
-    "status": "SELL",
-    "comment": "20日移動平均線下回り、弱気トレンド継続。金利上昇と景気後退懸念が重なり下落圧力強。",
-    "entry": "6740.00",
-    "tp": "6650.00",
-    "sl": "6800.00",
-    "reliability": "MEDIUM"
+    "pair": "MOCK",
+    "status": "FLAT",
+    "comment": "モックデータです",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "LOW"
   },
   "CRYPTO": {
-    "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "20日移動平均線を上回り、強気トレンド継続と判断。押し目買い戦略が有効。",
-    "entry": "73000",
-    "tp": "75000",
-    "sl": "72500",
-    "reliability": "HIGH"
+    "pair": "MOCK",
+    "status": "FLAT",
+    "comment": "モックデータです",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "LOW"
   }
 }
