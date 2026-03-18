@@ -39,6 +39,13 @@ export default function PositionCheckerPage() {
         "💎 プレミアム・戦略シナリオ生成中..."
     ];
 
+    const handleCheck = async (e: React.FormEvent) => {
+        e.preventDefault();
+        setIsLoading(true);
+        setLoadingStep(0);
+        setShowResults(false);
+        setError(null);
+
         const entry = parseFloat(entryPrice);
         const sl = parseFloat(stopLoss);
         const tp = parseFloat(settlement);
@@ -75,6 +82,10 @@ export default function PositionCheckerPage() {
         }
 
         setValidationError(null);
+
+        const interval = setInterval(() => {
+            setLoadingStep(prev => (prev < loadingTexts.length - 1 ? prev + 1 : prev));
+        }, 2000);
 
         try {
             const userPlan = `${direction} on ${assetClass}:${ticker} from ${entryPrice} with SL at ${stopLoss} and target (settlement) at ${settlement}`;
