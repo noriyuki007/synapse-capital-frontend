@@ -13,7 +13,6 @@ import {
     MetricBar, TechnicalChecklist, ExpertProfile, ReportRenderer
 } from '@/components/PositionChecker/Visuals';
 
-export const runtime = 'edge';
 
 export default function PositionCheckerPage() {
     const [isLoading, setIsLoading] = useState(false);
