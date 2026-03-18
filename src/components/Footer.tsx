@@ -103,10 +103,7 @@ export const Footer = () => {
                     </div>
                     
                     <div className="flex items-center gap-8">
-                         <div className="flex items-center gap-2 text-[9px] font-black text-slate-400 uppercase tracking-widest">
-                            <div className="w-1 h-1 bg-indigo-400 rounded-none" />
-                            セキュリティ規格 ISO/AI 27001
-                        </div>
+                        {/* Security standard removed as per user request */}
                     </div>
                 </div>
             </div>
