@@ -259,10 +259,12 @@ async function main() {
             const dateStr = getJSTDateStr();
             const filePath = path.join(REPORTS_DIR, `${dateStr}-${genre.toLowerCase()}.md`);
 
+            /* 
             if (fs.existsSync(filePath)) {
                 console.log(`[${genre}] ${dateStr} report already exists. Skipping.`);
                 continue;
             }
+            */
 
             let markdown;
             try {
