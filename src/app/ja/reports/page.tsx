@@ -178,12 +178,60 @@ export default function ReportsPage() {
                     </section>
                 </div>
 
-                {/* Shared Sidebar */}
-                <div className="lg:col-span-4 p-6 md:p-10 border-none bg-white">
-                    <Sidebar 
-                        latestReports={allReportsData.slice(0, 3)} 
-                        stats={stats} 
-                    />
+                {/* Custom Sidebar for Reports List Page */}
+                <div className="lg:col-span-4 p-6 md:p-10 border-none bg-white space-y-12">
+                    {/* Featured Intelligence Section */}
+                    <section className="space-y-8">
+                        <div className="flex items-center gap-3 border-b border-slate-100 pb-4">
+                            <Activity className="w-4 h-4 text-indigo-600" />
+                            <h2 className="text-[10px] font-black uppercase tracking-[0.3em] text-slate-900">
+                                注目のインテリジェンス
+                            </h2>
+                        </div>
+                        
+                        <div className="space-y-6">
+                            {allReportsData.slice(0, 3).map((report: any) => (
+                                <Link key={report.id} href={`/ja/reports/${report.id}`} className="group block space-y-2">
+                                    <div className="text-[9px] font-black text-indigo-600 uppercase tracking-widest">Editor&apos;s Pick</div>
+                                    <h3 className="text-sm font-black text-slate-900 group-hover:text-indigo-600 transition-colors leading-snug line-clamp-2 uppercase">
+                                        {report.title}
+                                    </h3>
+                                    <div className="text-[9px] font-bold text-slate-400 uppercase tracking-tighter">{report.date}</div>
+                                </Link>
+                            ))}
+                        </div>
+                    </section>
+
+                    {/* Stats Section (Re-using logic from Sidebar but customized) */}
+                    {stats && (
+                        <section className="space-y-8">
+                            <div className="flex items-center gap-3 border-b border-slate-100 pb-4">
+                                <Clock className="w-4 h-4 text-indigo-600" />
+                                <h2 className="text-[10px] font-black uppercase tracking-[0.3em] text-slate-900">
+                                    パフォーマンス統計
+                                </h2>
+                            </div>
+                            <div className="grid grid-cols-2 gap-4">
+                                <div className="p-4 border border-slate-100 bg-slate-50/50">
+                                    <div className="text-[9px] font-black text-slate-400 uppercase mb-1">Total Reports</div>
+                                    <div className="text-xl font-black text-slate-900">{stats.total}</div>
+                                </div>
+                                <div className="p-4 border border-slate-100 bg-indigo-50/30">
+                                    <div className="text-[9px] font-black text-indigo-600 uppercase mb-1">Win Rate</div>
+                                    <div className="text-xl font-black text-indigo-600">{stats.winRate}%</div>
+                                </div>
+                            </div>
+                        </section>
+                    )}
+
+                    {/* Simple Help Card */}
+                    <div className="p-8 border border-slate-100 bg-slate-900 text-white space-y-4">
+                        <div className="text-[9px] font-black uppercase tracking-widest text-indigo-400">Institutional Access</div>
+                        <h4 className="text-sm font-black leading-tight uppercase">機関投資家レベルの解析を、<br/>全てのトレーダーに。</h4>
+                        <p className="text-[10px] font-bold text-slate-400 leading-relaxed uppercase opacity-80">
+                            Synapse AIは24時間365日、グローバルマーケットを監視し、期待値の高いシグナルのみを抽出します。
+                        </p>
+                    </div>
                 </div>
             </main>
             <Footer />
