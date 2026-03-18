@@ -5,9 +5,15 @@ import html from 'remark-html';
 // Report files are pre-defined for Edge runtime compatibility
 // In a real production app, these would come from an API or a pre-built JSON index
 const REPORT_FILES = [
+  '2026-03-18-crypto',
+  '2026-03-18-fx',
+  '2026-03-18-stocks',
   '2026-03-17-crypto',
   '2026-03-17-fx',
   '2026-03-17-stocks',
+  '2026-03-16-crypto',
+  '2026-03-16-fx',
+  '2026-03-16-stocks',
   '2026-03-15-crypto',
   '2026-03-15-fx',
   '2026-03-15-stocks',
