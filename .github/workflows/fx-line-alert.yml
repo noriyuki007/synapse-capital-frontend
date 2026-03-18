@@ -1,0 +1,26 @@
+name: FX LINE Alert
+
+on:
+  schedule:
+    # 毎日平日の指定時間に実行 (例: 00:00, 04:00, 08:00, 12:00, 16:00, 20:00 UTC)
+    # 日本時間(JST)では 09:00, 13:00, 17:00, 21:00, 01:00, 05:00 に該当します
+    - cron: '0 0,4,8,12,16,20 * * 1-5'
+  workflow_dispatch: # 手動実行用
+
+jobs:
+  run-alert-scanner:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run FX Alert Script
+        env:
+          LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
+          LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
+        run: node scripts/notify-line-fx.js
