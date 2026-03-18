@@ -3,33 +3,49 @@ export const runtime = 'edge';
 import { getMarketContext } from '@/lib/market';
 import { runMultiAgentAnalysis } from '@/lib/agents';
 
-// Major FX Pairs to scan
-const TOP_PAIRS = [
-  { ticker: 'USDJPY=X', symbol: 'USD/JPY' },
-  { ticker: 'EURUSD=X', symbol: 'EUR/USD' },
-  { ticker: 'GBPUSD=X', symbol: 'GBP/USD' },
-  { ticker: 'AUDUSD=X', symbol: 'AUD/USD' },
-  { ticker: 'USDCHF=X', symbol: 'USD/CHF' }
-];
+// Ticker Sets by Asset Class
+const ASSET_TICKERS: Record<string, { ticker: string; symbol: string }[]> = {
+  FX: [
+    { ticker: 'USDJPY=X', symbol: 'USD/JPY' },
+    { ticker: 'EURUSD=X', symbol: 'EUR/USD' },
+    { ticker: 'GBPUSD=X', symbol: 'GBP/USD' },
+    { ticker: 'AUDUSD=X', symbol: 'AUD/USD' },
+    { ticker: 'USDCHF=X', symbol: 'USD/CHF' }
+  ],
+  STOCKS: [
+    { ticker: 'AAPL', symbol: 'Apple' },
+    { ticker: 'TSLA', symbol: 'Tesla' },
+    { ticker: 'NVDA', symbol: 'NVIDIA' },
+    { ticker: 'MSFT', symbol: 'Microsoft' },
+    { ticker: 'META', symbol: 'Meta' }
+  ],
+  CRYPTO: [
+    { ticker: 'BTC-USD', symbol: 'BTC/USD' },
+    { ticker: 'ETH-USD', symbol: 'ETH/USD' },
+    { ticker: 'SOL-USD', symbol: 'SOL/USD' },
+    { ticker: 'DOGE-USD', symbol: 'DOGE/USD' },
+    { ticker: 'XRP-USD', symbol: 'XRP/USD' }
+  ]
+};
 
 export async function GET(req: NextRequest) {
-  // Simple check for internal-only (though the URL is secret)
-  // We can add a secret header check for more security if needed
+  const { searchParams } = new URL(req.url);
+  const assetClass = (searchParams.get('assetClass') || 'FX').toUpperCase();
+  
+  const tickers = ASSET_TICKERS[assetClass] || ASSET_TICKERS.FX;
   
   try {
     const results = await Promise.all(
-      TOP_PAIRS.map(async (pair) => {
+      tickers.map(async (pair) => {
         try {
           const context = await getMarketContext(pair.ticker);
-          // Special request for 'Best Setup' from the agents
           const analysis = await runMultiAgentAnalysis(
             pair.ticker, 
             "Identify the absolute best entry, stop loss, and target for a 24-48h horizon. Be definitive.", 
             context, 
-            'FX'
+            assetClass as any
           );
 
-          // Extract metrics for ranking
           const signalJson = extractSignalData(analysis.leaderSynthesis);
 
           return {
@@ -46,16 +62,15 @@ export async function GET(req: NextRequest) {
       })
     );
 
-    // Filter failed runs and Sort by AI confidence/score
     const validResults = results
         .filter((r): r is any => r !== null)
         .sort((a, b) => b.score - a.score);
 
-    // Take top 3
     const top3 = validResults.slice(0, 3);
 
     return NextResponse.json({
       timestamp: new Date().toISOString(),
+      assetClass,
       topPicks: top3
     });
 
@@ -65,9 +80,6 @@ export async function GET(req: NextRequest) {
   }
 }
 
-/**
- * Extract numerical score and signal data from the leader synthesis JSON block
- */
 function extractSignalData(synthesis: string) {
   try {
     const match = synthesis.match(/<data>\s*([\s\S]*?)\s*<\/data>/);
@@ -77,7 +89,7 @@ function extractSignalData(synthesis: string) {
             decision: data.decision,
             score: data.totalScore || 0,
             summary: data.summary,
-            entry: data.entry || 'Scanning...',
+            entry: data.entry || '---',
             tp: data.tp || '---',
             sl: data.sl || '---'
         };
