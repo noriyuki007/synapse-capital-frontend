@@ -1,4 +1,5 @@
 {
+  "name": "synapse-capital-frontend",
   "pages_build_output_dir": ".vercel/output",
   "compatibility_flags": [
     "nodejs_compat"
