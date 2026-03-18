@@ -226,8 +226,14 @@ RSSニュース: ${titles.join(', ')}。価格データ: ${marketData?.current_p
         })
     });
 
-    if (!response.ok) throw new Error(`OpenRouter Error: ${response.status}`);
+    if (!response.ok) {
+        const errorText = await response.text();
+        throw new Error(`OpenRouter API Error: ${response.status} - ${errorText}`);
+    }
     const data = await response.json();
+    if (data.error) {
+        throw new Error(`OpenRouter API Business Error: ${JSON.stringify(data.error)}`);
+    }
     return data.choices[0]?.message?.content;
 }
 
@@ -267,15 +273,21 @@ async function main() {
             */
 
             let markdown;
-            try {
-                markdown = await generateWithGemini(genre, allTitles, marketData);
             } catch (e) {
-                console.warn(`[${genre}] Gemini failed, trying fallbacks...`);
+                console.warn(`[${genre}] ⚠️ Gemini generation failed, will try fallback: ${e.message}`);
+                console.log(`[${genre}] Gemini failed. Starting OpenRouter fallback chain...`);
                 for (const mId of FREE_MODELS) {
                     try {
                         markdown = await generateWithOpenRouter(genre, allTitles, marketData, mId);
-                        break;
-                    } catch (e2) { continue; }
+                        if (markdown) {
+                            console.log(`[${genre}] ✅ Fallback successful with ${mId}`);
+                            break;
+                        }
+                    } catch (e2) {
+                        console.error(`[${genre}] ❌ OpenRouter fallback failed for ${mId}: ${e2.message}`);
+                        console.log(`[${genre}] OpenRouter ${mId} failed. Trying next model...`);
+                        continue;
+                    }
                 }
             }
 
