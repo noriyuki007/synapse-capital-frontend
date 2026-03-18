@@ -84,7 +84,7 @@ function isMockMode() {
 /**
  * Agent 1: Analyst (Fundamental / Macro)
  */
-async function runAnalystAgent(context: MarketContext, userPlan: string, assetClass: string): Promise<AgentResponse> {
+async function runAnalystAgent(context: MarketContext, userPlan: string, assetClass: string, fastMode: boolean = false): Promise<AgentResponse> {
   if (isMockMode()) {
     const mockText = assetClass === 'STOCK' 
       ? '【株式ファンダメンタル分析】企業収益の成長性と金利動向が焦点です。' 
@@ -159,8 +159,8 @@ ${sentimentSummary}
     {"pair": "Related Asset", "value": 0.85}
   ]
 }
-</data>
-4. 日本語で回答し、数値は小数点第2位まで含めてください。`;
+5. 日本語で回答し、数値は小数点第2位まで含めてください。
+${fastMode ? '【重要】説明文は一切不要です。挨拶も不要です。<data>タグで囲まれたJSON文字列のみを絶対に出力してください。他の文章が含まれるとシステムがクラッシュします。' : ''}`;
 
   const modelId = 'gemini-1.5-flash';
   const analysis = await callWithFallback(modelId, `あなたは${assetSpecificGoal}のスペシャリストです。`, prompt);
@@ -174,7 +174,7 @@ ${sentimentSummary}
 /**
  * Agent 2: Fund Manager (Risk/Volatility)
  */
-async function runFundManagerAgent(context: MarketContext, ticker: string, userPlan: string, assetClass: string): Promise<AgentResponse> {
+async function runFundManagerAgent(context: MarketContext, ticker: string, userPlan: string, assetClass: string, fastMode: boolean = false): Promise<AgentResponse> {
   if (isMockMode()) {
     return {
       agentName: 'Fund Manager',
@@ -203,8 +203,8 @@ ${getAgentKnowledge('fundManager')}
   "volatility": 0.45,
   "expectedAtr": 0.85
 }
-</data>
-4. 日本語で回答し、数値は小数点第2位まで含めてください。`;
+5. 日本語で回答し、数値は小数点第2位まで含めてください。
+${fastMode ? '【重要】説明文は一切不要です。挨拶も不要です。<data>タグで囲まれたJSON文字列のみを絶対に出力してください。他の文章が含まれるとシステムがクラッシュします。' : ''}`;
 
   const modelId = 'gemini-1.5-flash';
   const analysis = await callWithFallback(modelId, "あなたはヘッジファンドのリスクマネージャーです。", prompt);
@@ -218,7 +218,7 @@ ${getAgentKnowledge('fundManager')}
 /**
  * Agent 3: Prop Trader (Sentiment/Liquidity)
  */
-async function runPropTraderAgent(context: MarketContext, ticker: string, userPlan: string, assetClass: string): Promise<AgentResponse> {
+async function runPropTraderAgent(context: MarketContext, ticker: string, userPlan: string, assetClass: string, fastMode: boolean = false): Promise<AgentResponse> {
   if (isMockMode()) {
     return {
       agentName: 'Prop Trader',
@@ -253,8 +253,8 @@ ${getAgentKnowledge('propTrader')}
     {"price": 152.80, "strength": 0.95}
   ]
 }
-</data>
-4. 日本語で回答し、数値は小数点第2位まで含めてください。`;
+5. 日本語で回答し、数値は小数点第2位まで含めてください。
+${fastMode ? '【重要】説明文は一切不要です。挨拶も不要です。<data>タグで囲まれたJSON文字列のみを絶対に出力してください。他の文章が含まれるとシステムがクラッシュします。' : ''}`;
 
   const modelId = 'gemini-1.5-flash';
   const analysis = await callWithFallback(modelId, "あなたは鋭い視点を持つプロップトレーダーです。", prompt);
@@ -268,7 +268,7 @@ ${getAgentKnowledge('propTrader')}
 /**
  * Agent 4: Leader Agent (Synthesis)
  */
-async function runLeaderAgent(expertAnalyses: AgentResponse[], userPlan: string): Promise<string> {
+async function runLeaderAgent(expertAnalyses: AgentResponse[], userPlan: string, fastMode: boolean = false): Promise<string> {
   if (isMockMode()) {
     return `【総合診断（モック）】市場は重要指標を前にした様子見ムードです。分析の結果、短期的なテクニカルな優位性は認められますが、マクロ的な不確実性が残ります。
 <data>
@@ -312,7 +312,8 @@ ${analysesSummary}
   "consensusSummary": "委員会内での主な議論ポイントの要約"
 }
 </data>
-4. 数値はすべて小数点第2位まで表示してください。挨拶は不要です。直接レポートを開始してください。`;
+4. 数値はすべて小数点第2位まで表示してください。挨拶は不要です。直接レポートを開始してください。
+${fastMode ? '【重要・最優先事項】あなたは現在超高速バッチ処理モードです。レポート本文、見出し、説明文は**一切不要**です。<data>タグで囲まれたJSON文字列のみを絶対に出力してください。他の文章が1文字でも含まれるとシステムがクラッシュします。必ず、`entry`, `tp`, `sl` の具体的な数値価格をJSON内に含めてください。' : ''}`;
 
   const modelId = 'gemini-1.5-pro';
   const analysis = await callWithFallback(modelId, "あなたは「シナプス・キャピタル」の最高投資責任者（CIO）です。", prompt);
@@ -327,20 +328,21 @@ export async function runMultiAgentAnalysis(
   ticker: string,
   userPlan: string,
   context: MarketContext,
-  assetClass: 'FX' | 'STOCK' | 'CRYPTO' = 'FX'
+  assetClass: 'FX' | 'STOCK' | 'CRYPTO' = 'FX',
+  fastMode: boolean = false
 ): Promise<FinalAnalysis> {
   
   // Parallel Execution of Expert Agents
   const expertPromises = [
-    runAnalystAgent(context, userPlan, assetClass),
-    runFundManagerAgent(context, ticker, userPlan, assetClass),
-    runPropTraderAgent(context, ticker, userPlan, assetClass),
+    runAnalystAgent(context, userPlan, assetClass, fastMode),
+    runFundManagerAgent(context, ticker, userPlan, assetClass, fastMode),
+    runPropTraderAgent(context, ticker, userPlan, assetClass, fastMode),
   ];
 
   const expertAnalyses = await Promise.all(expertPromises);
 
   // Leader synthesis
-  const leaderSynthesis = await runLeaderAgent(expertAnalyses, userPlan);
+  const leaderSynthesis = await runLeaderAgent(expertAnalyses, userPlan, fastMode);
 
   return {
     expertAnalyses,

@@ -2,48 +2,33 @@ import { NextRequest, NextResponse } from 'next/server';
 export const runtime = 'edge';
 import { getMarketContext } from '@/lib/market';
 import { runMultiAgentAnalysis } from '@/lib/agents';
+import { getTopMovers } from '@/lib/market/screener';
 
-// Ticker Sets by Asset Class
-const ASSET_TICKERS: Record<string, { ticker: string; symbol: string }[]> = {
-  FX: [
-    { ticker: 'USDJPY=X', symbol: 'USD/JPY' },
-    { ticker: 'EURUSD=X', symbol: 'EUR/USD' },
-    { ticker: 'GBPUSD=X', symbol: 'GBP/USD' },
-    { ticker: 'AUDUSD=X', symbol: 'AUD/USD' },
-    { ticker: 'USDCHF=X', symbol: 'USD/CHF' }
-  ],
-  STOCKS: [
-    { ticker: 'AAPL', symbol: 'Apple' },
-    { ticker: 'TSLA', symbol: 'Tesla' },
-    { ticker: 'NVDA', symbol: 'NVIDIA' },
-    { ticker: 'MSFT', symbol: 'Microsoft' },
-    { ticker: 'META', symbol: 'Meta' }
-  ],
-  CRYPTO: [
-    { ticker: 'BTC-USD', symbol: 'BTC/USD' },
-    { ticker: 'ETH-USD', symbol: 'ETH/USD' },
-    { ticker: 'SOL-USD', symbol: 'SOL/USD' },
-    { ticker: 'DOGE-USD', symbol: 'DOGE/USD' },
-    { ticker: 'XRP-USD', symbol: 'XRP/USD' }
-  ]
+// Maintain static lists here for export to screener fallback
+export const ASSET_TICKERS: Record<string, { ticker: string; symbol: string }[]> = {
+    // defined in screener fallback
 };
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
   const assetClass = (searchParams.get('assetClass') || 'FX').toUpperCase();
   
-  const tickers = ASSET_TICKERS[assetClass] || ASSET_TICKERS.FX;
+  // 1. Level 1 Filter: Get dynamic trending stocks/crypto to limit AI burden
+  const trendingTickers = await getTopMovers(assetClass, 5); // Scan top 5 for speed
   
   try {
     const results = await Promise.all(
-      tickers.map(async (pair) => {
+      trendingTickers.map(async (pair) => {
         try {
-          const context = await getMarketContext(pair.ticker);
+          const context = await getMarketContext(pair.ticker, assetClass);
+          
+          // 2. Level 2 Filter: Run fast-mode AI analysis ONLY on pre-filtered candidates
           const analysis = await runMultiAgentAnalysis(
             pair.ticker, 
             "Identify the absolute best entry, stop loss, and target for a 24-48h horizon. Be definitive.", 
             context, 
-            assetClass as any
+            assetClass as any,
+            true // Enable FAST MODE
           );
 
           const signalJson = extractSignalData(analysis.leaderSynthesis);
