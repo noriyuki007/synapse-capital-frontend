@@ -239,7 +239,8 @@ export const ReportRenderer = ({ text }: { text: string }) => {
         const highlights = [
           "現状分析", "戦略", "最終結論", "現状分析とリスク評価", "代替案", "総合評価",
           "推奨戦略", "合意事項（メリット・強み）", "否定・懸念事項（リスク・弱点）", "結論",
-          "総合分析", "委員会内での議論", "時間軸でのアドバイス (JST)", "推奨するアクション"
+          "総合分析", "委員会内での議論", "時間軸でのアドバイス (JST)", "推奨するアクション",
+          "プランの妥当性に関する最終評決", "最終評決"
         ];
         
         // Check if the line strictly constitutes one of the major headers
@@ -254,8 +255,8 @@ export const ReportRenderer = ({ text }: { text: string }) => {
 
         if (isHeader) {
           return (
-            <div key={i} className="pt-8 pb-3 border-b border-royal-navy/15 mb-4">
-              <span className="text-royal-navy font-bold text-base tracking-tight">{trimmed}</span>
+            <div key={i} className="pt-8 pb-4 border-y border-royal-navy/20 mb-6 mt-4 bg-slate-50/50 px-4 -mx-4 first:mt-0">
+              <span className="text-royal-navy font-black text-sm uppercase tracking-widest">{trimmed}</span>
             </div>
           );
         }

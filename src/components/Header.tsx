@@ -44,8 +44,7 @@ export const Header = () => {
                     </div>
                     <div className="text-base font-black tracking-tighter text-black uppercase font-sans leading-none flex items-center gap-2">
                         SYNAPSE CAPITAL
-                        <span className="text-[8px] bg-champagne-gold/10 text-champagne-gold border border-champagne-gold/20 px-1 py-0.5 rounded tracking-widest font-black uppercase">v1.0.1-PRO</span>
-                        <span className="text-[10px] text-red-600 animate-pulse font-black px-2 py-0.5 border-2 border-red-600 bg-red-50">DEPLOYMENT_SYNC_TEST</span>
+                        <span className="text-[8px] bg-emerald-500/10 text-emerald-600 border border-emerald-500/20 px-1 py-0.5 rounded tracking-widest font-black uppercase tracking-tighter">LIVE</span>
                     </div>
                 </Link>
 
