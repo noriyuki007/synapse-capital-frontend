@@ -24,9 +24,10 @@ export default function PositionCheckerPage() {
     const [assetClass, setAssetClass] = useState<'FX' | 'STOCK' | 'CRYPTO'>('FX');
     const [ticker, setTicker] = useState('USD/JPY');
     const [direction, setDirection] = useState<'BUY' | 'SELL'>('BUY');
-    const [entryPrice, setEntryPrice] = useState('150.25');
-    const [stopLoss, setStopLoss] = useState('149.50');
-    const [settlement, setSettlement] = useState('152.50');
+    const [entryPrice, setEntryPrice] = useState('');
+    const [stopLoss, setStopLoss] = useState('');
+    const [settlement, setSettlement] = useState('');
+    const [validationError, setValidationError] = useState<string | null>(null);
 
     // Analysis results
     const [analysisResult, setAnalysisResult] = useState<any>(null);
@@ -38,16 +39,42 @@ export default function PositionCheckerPage() {
         "💎 プレミアム・戦略シナリオ生成中..."
     ];
 
-    const handleCheck = async (e: React.FormEvent) => {
-        e.preventDefault();
-        setIsLoading(true);
-        setLoadingStep(0);
-        setShowResults(false);
-        setError(null);
+        const entry = parseFloat(entryPrice);
+        const sl = parseFloat(stopLoss);
+        const tp = parseFloat(settlement);
 
-        const interval = setInterval(() => {
-            setLoadingStep(prev => (prev < loadingTexts.length - 1 ? prev + 1 : prev));
-        }, 2000);
+        if (isNaN(entry) || isNaN(sl) || isNaN(tp)) {
+            setError('有効な数値を入力してください。');
+            setIsLoading(false);
+            return;
+        }
+
+        // Logical Validation
+        if (direction === 'BUY') {
+            if (tp <= entry) {
+                setValidationError('買い注文では、利確目標（決済価格）はエントリー価格より高い必要があります。');
+                setIsLoading(false);
+                return;
+            }
+            if (sl >= entry) {
+                setValidationError('買い注文では、損切り価格はエントリー価格より低い必要があります。');
+                setIsLoading(false);
+                return;
+            }
+        } else {
+            if (tp >= entry) {
+                setValidationError('売り注文では、利確目標（決済価格）はエントリー価格より低い必要があります。');
+                setIsLoading(false);
+                return;
+            }
+            if (sl <= entry) {
+                setValidationError('売り注文では、損切り価格はエントリー価格より高い必要があります。');
+                setIsLoading(false);
+                return;
+            }
+        }
+
+        setValidationError(null);
 
         try {
             const userPlan = `${direction} on ${assetClass}:${ticker} from ${entryPrice} with SL at ${stopLoss} and target (settlement) at ${settlement}`;
@@ -103,6 +130,29 @@ export default function PositionCheckerPage() {
             try { return JSON.parse(match[1].trim()); } catch (e) { return null; }
         }
         return null;
+    };
+
+    const getPlaceholder = (field: 'entry' | 'sl' | 'tp') => {
+        if (assetClass === 'FX') {
+            if (field === 'entry') return '150.50';
+            if (field === 'sl') return direction === 'BUY' ? '149.80' : '151.20';
+            return direction === 'BUY' ? '152.00' : '148.50';
+        }
+        if (assetClass === 'CRYPTO') {
+            if (field === 'entry') return '95000';
+            if (field === 'sl') return direction === 'BUY' ? '92000' : '98000';
+            return direction === 'BUY' ? '105000' : '85000';
+        }
+        // STOCKS
+        if (field === 'entry') return '250.00';
+        if (field === 'sl') return direction === 'BUY' ? '245.00' : '255.00';
+        return direction === 'BUY' ? '270.00' : '230.00';
+    };
+
+    const getUnit = () => {
+        if (assetClass === 'FX') return ticker.includes('JPY') ? 'JPY' : 'USD';
+        if (assetClass === 'CRYPTO') return 'USD';
+        return ticker.match(/^\d+$/) ? 'JPY' : 'USD'; // 7203 etc are JPY
     };
 
     const cleanText = (text?: string) => {
@@ -230,18 +280,34 @@ export default function PositionCheckerPage() {
                                         </div>
                                     </div>
                                     <div className="space-y-2">
-                                        <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">エントリー目標</label>
-                                        <input type="text" value={entryPrice} onChange={(e) => setEntryPrice(e.target.value)} className="w-full h-14 px-5 bg-slate-50 border-none rounded-xl text-royal-navy outline-none font-black text-sm" />
+                                        <div className="flex justify-between items-end">
+                                            <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">エントリー目標</label>
+                                            <span className="text-[10px] font-bold text-slate-300 uppercase">{getUnit()}</span>
+                                        </div>
+                                        <input type="number" step="any" placeholder={getPlaceholder('entry')} value={entryPrice} onChange={(e) => setEntryPrice(e.target.value)} className="w-full h-14 px-5 bg-slate-50 border-none rounded-xl text-royal-navy outline-none font-black text-sm" required />
                                     </div>
                                     <div className="space-y-2">
-                                        <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">損切り目安</label>
-                                        <input type="text" value={stopLoss} onChange={(e) => setStopLoss(e.target.value)} className="w-full h-14 px-5 bg-slate-50 border-none rounded-xl text-royal-navy outline-none font-black text-sm" />
+                                        <div className="flex justify-between items-end">
+                                            <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">損切り目安</label>
+                                            <span className="text-[10px] font-bold text-slate-300 uppercase">{getUnit()}</span>
+                                        </div>
+                                        <input type="number" step="any" placeholder={getPlaceholder('sl')} value={stopLoss} onChange={(e) => setStopLoss(e.target.value)} className="w-full h-14 px-5 bg-slate-50 border-none rounded-xl text-royal-navy outline-none font-black text-sm" required />
                                     </div>
                                     <div className="space-y-2">
-                                        <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">利確/決済目標</label>
-                                        <input type="text" value={settlement} onChange={(e) => setSettlement(e.target.value)} className="w-full h-14 px-5 bg-slate-50 border-none rounded-xl text-royal-navy outline-none font-black text-sm" />
+                                        <div className="flex justify-between items-end">
+                                            <label className="text-[10px] font-black text-slate-400 uppercase tracking-widest">利確/決済目標</label>
+                                            <span className="text-[10px] font-bold text-slate-300 uppercase">{getUnit()}</span>
+                                        </div>
+                                        <input type="number" step="any" placeholder={getPlaceholder('tp')} value={settlement} onChange={(e) => setSettlement(e.target.value)} className="w-full h-14 px-5 bg-slate-50 border-none rounded-xl text-royal-navy outline-none font-black text-sm" required />
                                     </div>
                                 </div>
+
+                                {validationError && (
+                                    <div className="p-4 bg-rose-50 border border-rose-100 rounded-xl flex items-center gap-3 animate-in fade-in slide-in-from-top-2 duration-300">
+                                        <AlertTriangle className="w-5 h-5 text-rose-500 shrink-0" />
+                                        <p className="text-xs font-bold text-rose-600">{validationError}</p>
+                                    </div>
+                                )}
                                 <button type="submit" className="w-full h-16 bg-royal-navy text-white font-black text-sm tracking-widest flex items-center justify-center gap-3 rounded-xl transition-all hover:bg-black hover:scale-[1.01] active:scale-[0.99] group shadow-lg shadow-royal-navy/20">
                                     <Zap className="w-4 h-4 text-champagne-gold fill-current group-hover:animate-pulse" />
                                     プランの妥当性を検証する
