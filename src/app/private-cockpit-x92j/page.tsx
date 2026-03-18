@@ -1,15 +1,10 @@
+'use client';
+
 import React from 'react';
 import { ShieldAlert, TrendingUp, Target, ShieldCheck, Activity, ChevronRight } from 'lucide-react';
-import { Metadata } from 'next';
 
 // SECRET PAGE - NOT INDEXED
-export const metadata: Metadata = {
-    title: 'Synapse Internal Cockpit - FX Deep Intel',
-    robots: {
-        index: false,
-        follow: false,
-    },
-};
+// (Metadata removed from Client Component to fix build error. Use a parent layout or separate file if needed.)
 
 const SecretCockpit = () => {
     return (
