@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+/** Triggered build with .next output directory setting */
 export const runtime = 'edge';
 import { getMarketContext } from '@/lib/market';
 import { runMultiAgentAnalysis } from '@/lib/agents';
