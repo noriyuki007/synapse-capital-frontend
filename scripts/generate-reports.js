@@ -192,14 +192,26 @@ excerpt: "120文字程度の要約。"
     return result.response.text();
 }
 
+// --- ONLY FREE MODELS ---
 const FREE_MODELS = [
-    "google/gemini-2.0-flash-001",
+    "google/gemini-2.0-flash-001", // This is currently free on OpenRouter
     "meta-llama/llama-3.3-70b-instruct:free",
-    "google/gemini-flash-1.5-8b"
+    "google/gemini-flash-1.5-8b:free",
+    "qwen/qwen-2.5-72b-instruct:free",
+    "mistralai/mistral-7b-instruct:free"
 ];
 
-async function generateWithOpenRouter(genre, titles, marketData, modelId = FREE_MODELS[0]) {
+async function generateWithOpenRouter(genre, titles, marketData, modelId = FREE_MODELS[1]) {
     if (!OPENROUTER_API_KEY) throw new Error('OPENROUTER_API_KEY is not set.');
+
+    // ⛔️ TRIPLE CHECK: Ensure we only ever call free models
+    const isExplicitlyFree = modelId.endsWith(':free');
+    const isGeminiFlash2 = modelId === "google/gemini-2.0-flash-001"; // Known free during beta
+    
+    if (!isExplicitlyFree && !isGeminiFlash2) {
+        console.error(`⚠️ SECURITY ALERT: Blocking non-free model call: ${modelId}`);
+        throw new Error(`Permission Denied: Model ${modelId} is not verified as FREE.`);
+    }
 
     const jstDateStr = getJSTDateStr();
     const persona = PERSONAS[genre];
