@@ -273,6 +273,8 @@ async function main() {
             */
 
             let markdown;
+            try {
+                markdown = await generateWithGemini(genre, allTitles, marketData);
             } catch (e) {
                 console.warn(`[${genre}] ⚠️ Gemini generation failed, will try fallback: ${e.message}`);
                 console.log(`[${genre}] Gemini failed. Starting OpenRouter fallback chain...`);
