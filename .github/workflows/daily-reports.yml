@@ -31,6 +31,9 @@ jobs:
       - name: Install Python dependencies
         run: pip install yfinance mplfinance pandas
 
+      - name: Install dependencies
+        run: npm ci
+
       - name: Environment Diagnostics
         run: |
           echo "Node version: $(node -v)"
