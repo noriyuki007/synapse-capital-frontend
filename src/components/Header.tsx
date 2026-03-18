@@ -44,13 +44,13 @@ export const Header = () => {
                     </div>
                     <div className="text-base font-black tracking-tighter text-black uppercase font-sans leading-none flex items-center gap-2">
                         SYNAPSE CAPITAL
-                        <span className="text-[8px] bg-champagne-gold/10 text-champagne-gold border border-champagne-gold/20 px-1 py-0.5 rounded tracking-widest font-black uppercase">Beta</span>
+                        <span className="text-[8px] bg-champagne-gold/10 text-champagne-gold border border-champagne-gold/20 px-1 py-0.5 rounded tracking-widest font-black uppercase">v1.0.1-PRO</span>
                     </div>
                 </Link>
 
                 <nav className="hidden lg:flex items-center gap-1 text-[13px] font-black text-slate-500 uppercase tracking-widest h-full">
                     {menuItems.map((menu) => (
-                        <div key={menu.id} className="relative py-2 px-4 group lowercase">
+                        <div key={menu.id} className="relative py-2 px-4 group">
                              <div className="flex items-center h-full">
                                 <button className="flex items-center gap-1.5 hover:text-black transition-colors focus:outline-none uppercase py-2 h-full">
                                     {menu.label}
@@ -59,7 +59,7 @@ export const Header = () => {
                              </div>
 
                             {/* Dropdown Menu (Pure CSS Hover) */}
-                            <div className="absolute top-full left-0 w-64 pt-2 opacity-0 translate-y-2 invisible pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible group-hover:pointer-events-auto transition-all duration-300 z-[510]">
+                            <div className="absolute top-[80%] left-0 w-64 pt-4 opacity-0 translate-y-2 invisible pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible group-hover:pointer-events-auto transition-all duration-300 z-[999]">
                                 <div className="bg-white border border-slate-100 rounded-none shadow-2xl shadow-slate-200/60 overflow-hidden p-2">
                                     {menu.items.map((item) => (
                                         <Link 
