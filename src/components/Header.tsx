@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Activity, Globe, ChevronDown, BarChart3, Bitcoin, ShieldCheck, Cpu, LayoutGrid, FileText, TrendingUp, Users, Menu, X } from 'lucide-react';
+import { Activity, ChevronDown, BarChart3, Bitcoin, ShieldCheck, FileText, TrendingUp, Users, Menu, X } from 'lucide-react';
 import Link from 'next/link';
 
 export const Header = () => {
@@ -36,16 +36,13 @@ export const Header = () => {
         }
     ];
 
-    const toggleDropdown = (id: string) => {
-        if (openDropdown === id) {
-            setOpenDropdown(null);
-        } else {
-            setOpenDropdown(id);
-        }
+    const toggleDropdown = (id: string, e: React.MouseEvent) => {
+        e.stopPropagation();
+        setOpenDropdown(prev => prev === id ? null : id);
     };
 
     return (
-        <header className="sticky top-0 z-[100] bg-white/95 border-b border-slate-100 px-4 md:px-8 py-3 flex items-center justify-between backdrop-blur-md">
+        <header className="sticky top-0 z-[100] bg-white border-b border-slate-100 px-4 md:px-8 py-3 flex items-center justify-between backdrop-blur-md bg-opacity-95">
             <div className="flex items-center gap-12">
                 <Link href="/" className="flex items-center gap-3 group" onClick={() => setOpenDropdown(null)}>
                     <div className="w-8 h-8 bg-black rounded-none flex items-center justify-center text-white shrink-0 group-hover:bg-indigo-600 transition-all duration-300">
@@ -57,50 +54,54 @@ export const Header = () => {
                     </div>
                 </Link>
 
-                <nav className="hidden lg:flex items-center gap-1 text-[13px] font-black text-slate-500 uppercase tracking-widest">
-                    {menuItems.map((menu) => (
-                        <div 
-                            key={menu.id} 
-                            className="relative py-2 px-4 h-full flex items-center"
-                            onMouseEnter={() => setOpenDropdown(menu.id)}
-                            onMouseLeave={() => setOpenDropdown(null)}
-                        >
-                            <button 
-                                onClick={(e) => {
-                                    e.preventDefault();
-                                    toggleDropdown(menu.id);
-                                }}
-                                className="flex items-center gap-1.5 hover:text-black transition-colors focus:outline-none uppercase py-2 h-full"
-                            >
-                                {menu.label}
-                                <ChevronDown className={`w-3 h-3 transition-transform duration-300 ${openDropdown === menu.id ? 'rotate-180' : ''}`} />
-                            </button>
-
-                            {/* Dropdown Menu */}
+                <nav className="hidden lg:flex items-center gap-1 text-[13px] font-black text-slate-500 uppercase tracking-widest h-full">
+                    {menuItems.map((menu) => {
+                        const isOpen = openDropdown === menu.id;
+                        return (
                             <div 
-                                className={`absolute top-full left-0 w-64 pt-1 transition-all duration-300 z-[110] ${openDropdown === menu.id ? 'opacity-100 translate-y-0 pointer-events-auto' : 'opacity-0 translate-y-2 pointer-events-none'}`}
+                                key={menu.id} 
+                                className="relative py-2 px-4 group"
                                 onMouseEnter={() => setOpenDropdown(menu.id)}
+                                onMouseLeave={() => setOpenDropdown(null)}
                             >
-                                <div className="bg-white border border-slate-100 rounded-none shadow-2xl shadow-slate-200/50 overflow-hidden p-2">
-                                    {menu.items.map((item) => (
-                                        <Link 
-                                            key={item.href} 
-                                            href={item.href}
-                                            className="flex items-start gap-4 p-3 rounded-none hover:bg-slate-50 transition-colors group/item"
-                                        >
-                                            <div className="mt-0.5 w-8 h-8 bg-slate-50 rounded-none flex items-center justify-center text-slate-400 group-hover/item:bg-indigo-50 group-hover/item:text-indigo-600 transition-colors">
-                                                <item.icon className="w-4 h-4" />
-                                            </div>
-                                            <div className="space-y-0.5">
-                                                <div className="text-[10px] font-black text-slate-900 uppercase tracking-widest">{item.label}</div>
-                                                <div className="text-[9px] font-bold text-slate-400">{item.desc}</div>
-                                            </div>
-                                        </Link>
-                                    ))}
+                                <button 
+                                    onClick={(e) => toggleDropdown(menu.id, e)}
+                                    className="flex items-center gap-1.5 hover:text-black transition-colors focus:outline-none uppercase py-2"
+                                >
+                                    {menu.label}
+                                    <ChevronDown className={`w-3 h-3 transition-transform duration-300 ${isOpen ? 'rotate-180' : 'group-hover:rotate-180'}`} />
+                                </button>
+
+                                {/* Dropdown Menu */}
+                                <div 
+                                    className={`absolute top-full left-0 w-64 pt-2 transition-all duration-200 z-[110] 
+                                        ${isOpen 
+                                            ? 'opacity-100 translate-y-0 visible pointer-events-auto' 
+                                            : 'opacity-0 translate-y-1 invisible pointer-events-none group-hover:opacity-100 group-hover:translate-y-0 group-hover:visible group-hover:pointer-events-auto'
+                                        }`}
+                                >
+                                    <div className="bg-white border border-slate-100 rounded-none shadow-2xl shadow-slate-200/60 overflow-hidden p-2">
+                                        {menu.items.map((item) => (
+                                            <Link 
+                                                key={item.href} 
+                                                href={item.href}
+                                                onClick={() => setOpenDropdown(null)}
+                                                className="flex items-start gap-4 p-3 rounded-none hover:bg-slate-50 transition-colors group/item"
+                                            >
+                                                <div className="mt-0.5 w-8 h-8 bg-slate-50 rounded-none flex items-center justify-center text-slate-400 group-hover/item:bg-indigo-50 group-hover/item:text-indigo-600 transition-colors">
+                                                    <item.icon className="w-4 h-4" />
+                                                </div>
+                                                <div className="space-y-0.5">
+                                                    <div className="text-[10px] font-black text-slate-900 uppercase tracking-widest">{item.label}</div>
+                                                    <div className="text-[9px] font-bold text-slate-400">{item.desc}</div>
+                                                </div>
+                                            </Link>
+                                        ))}
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    ))}
+                        );
+                    })}
                 </nav>
             </div>
 
@@ -112,7 +113,10 @@ export const Header = () => {
                 
                 {/* Hamburger Menu Button */}
                 <button 
-                    onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                    onClick={(e) => {
+                        e.stopPropagation();
+                        setIsMobileMenuOpen(!isMobileMenuOpen);
+                    }}
                     className="lg:hidden p-2.5 -mr-1 text-slate-900 focus:outline-none hover:bg-slate-50 rounded-none transition-colors"
                     aria-label="Menu"
                 >
