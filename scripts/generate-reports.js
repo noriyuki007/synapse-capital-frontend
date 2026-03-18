@@ -264,6 +264,9 @@ async function generateWithOpenRouter(genre, titles, marketData, modelId = FREE_
         throw new Error('OPENROUTER_API_KEY is not set.');
     }
 
+    const jstDateObj = new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Tokyo' }));
+    const jstDateStr = jstDateObj.toISOString().split('T')[0];
+
     const persona = PERSONAS[genre];
     const broker = RECOMMENDED_BROKERS[genre];
     
@@ -312,8 +315,8 @@ ${titles.map(t => `- ${t}`).join('\n')}
 【Frontmatter (厳守)】
 ---
 title: "プロ仕様の記事タイトル"
-date: "\${new Date(new Date().toLocaleString('en-US', {timeZone: 'Asia/Tokyo'})).toISOString().split('T')[0]}"
-genre: "\${genre}"
+date: "${jstDateStr}"
+genre: "${genre}"
 target_pair: "銘柄名（USD/JPYなど）"
 prediction_direction: "UP/DOWN/FLAT"
 recommended_broker: "\${broker}"
