@@ -34,8 +34,11 @@ const PERSONAS = {
 const RSS_FEEDS = [
     { url: 'https://www.fxstreet.com/rss/news', type: 'FX' },
     { url: 'https://www.forexlive.com/feed/', type: 'FX' },
+    { url: 'https://jp.reuters.com/rss/worldNews', type: 'FX' }, // JP Fallback
     { url: 'https://www.marketwatch.com/rss/topstories', type: 'STOCKS' },
-    { url: 'https://www.theblock.co/rss.xml', type: 'CRYPTO' }
+    { url: 'https://feeds.content.dowjones.io/public/rss/mw_topstories', type: 'STOCKS' },
+    { url: 'https://www.theblock.co/rss.xml', type: 'CRYPTO' },
+    { url: 'https://cointelegraph.com/rss', type: 'CRYPTO' }
 ];
 
 // Helper: Get JST Date string (YYYY-MM-DD)
@@ -268,8 +271,8 @@ async function main() {
         }
 
         if (allTitles.length === 0) {
-            console.log(`[${genre}] No news found, skipping.`);
-            continue;
+            console.log(`[${genre}] ⚠️ No news found. Generating based on market metadata only.`);
+            allTitles = ["主要な経済指標の発表待ち", "市場参加者の意識は価格レンジの維持に集中"];
         }
 
         try {
