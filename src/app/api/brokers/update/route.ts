@@ -8,19 +8,15 @@ export const runtime = 'edge';
  */
 export async function POST(request: Request) {
     try {
+        // Note: Writing to the filesystem is not possible in Cloudflare Pages (Edge).
+        // This API is intended for local development only.
         const data = await request.json();
         
-        // 保存先のパス確定 (src/lib/broker-data.json)
-        const filePath = path.join(process.cwd(), 'src/lib/broker-data.json');
-        
-        // ファイルに書き込み
-        fs.writeFileSync(filePath, JSON.stringify(data, null, 2));
-        
-        console.log(`[API] Broker data updated via upload: ${data.length} brokers`);
+        console.log(`[API] Broker data update requested in production: ${data.length} brokers (Action Skip)`);
         
         return NextResponse.json({ 
             success: true, 
-            message: 'Broker data updated successfully',
+            message: 'Broker data received (Update skipped in production/edge context)',
             count: data.length,
             timestamp: new Date().toISOString()
         });
