@@ -54,8 +54,8 @@ export const Sidebar = ({ latestReports = [], stats = { total: 0, winRate: 0 }, 
                 <div className="text-[13px] font-black text-slate-400 uppercase tracking-widest relative z-10">グローバル分析実績</div>
                 <div className="space-y-6 relative z-10">
                     <div className="flex items-end gap-3 leading-none">
-                        <span className="text-6xl font-black tracking-tighter text-slate-900">{stats.winRate}%</span>
-                        <span className="text-xs font-bold text-slate-500 mb-2 uppercase tracking-widest">的中率</span>
+                        <span className="text-4xl sm:text-6xl font-black tracking-tighter text-slate-900">{stats.winRate}%</span>
+                        <span className="text-[10px] sm:text-xs font-bold text-slate-500 mb-2 uppercase tracking-widest">的中率</span>
                     </div>
                     <div className="w-full bg-slate-200 h-1.5 rounded-none overflow-hidden">
                         <div className="h-full bg-indigo-600 transition-all duration-1000" style={{ width: `${stats.winRate}%` }} />

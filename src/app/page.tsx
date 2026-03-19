@@ -48,13 +48,13 @@ export default async function SynapseMarketLanding() {
                              <div className="inline-flex items-center gap-2.5 px-3 py-1 bg-indigo-50 border border-indigo-100/50 rounded-none text-[13px] font-black text-indigo-600 uppercase tracking-widest leading-none">
                                 AI インテリジェンス v2.4 稼働中
                             </div>
-                            <h1 className="text-2xl md:text-3xl font-black text-slate-900 tracking-tighter leading-none font-sans whitespace-nowrap">
-                                人工知能が深層から解析する、金融マーケットの真実。
+                            <h1 className="text-xl md:text-3xl font-black text-slate-900 tracking-tighter leading-tight font-sans">
+                                人工知能が深層から解析する、<br className="md:hidden" />金融マーケットの真実。
                             </h1>
                         </div>
                         
                         <div className="space-y-8">
-                            <p className="text-sm md:text-base font-bold text-slate-500 max-w-2xl leading-relaxed uppercase border-l-2 border-slate-100 pl-8">
+                            <p className="text-sm md:text-base font-bold text-slate-500 max-w-2xl leading-relaxed uppercase border-l-2 border-slate-100 pl-4 md:pl-8">
                                 高度な独自アルゴリズムによるリアルタイム多角市場分析。私たちは、価格変動の表面的な動きではなく、オンチェーンデータ、マクロ経済指標、そして機関投資家のセンチメントを統合し、透明性の極めて高いインテリジェンスを提供します。
                             </p>
                             <div className="flex flex-wrap gap-4">
@@ -68,7 +68,7 @@ export default async function SynapseMarketLanding() {
                         </div>
 
                         {/* Visual Asset In-line */}
-                        <div className="relative h-[300px] md:h-[400px] rounded-none overflow-hidden border border-slate-100 shadow-sm bg-slate-50">
+                        <div className="relative h-[240px] md:h-[400px] rounded-none overflow-hidden border border-slate-100 shadow-sm bg-slate-50">
                             <img 
                                 src="/images/hero_visual.png" 
                                 alt="Market Analysis Visual" 
@@ -96,21 +96,21 @@ export default async function SynapseMarketLanding() {
 
                     {/* Feature Grid Section */}
                     <section className="grid grid-cols-1 md:grid-cols-2 gap-px bg-slate-100 border border-slate-100 rounded-none overflow-hidden shadow-sm">
-                        <div className="p-10 md:p-14 bg-white space-y-8 group hover:bg-slate-50 transition-all cursor-default">
+                        <div className="p-8 md:p-14 bg-white space-y-8 group hover:bg-slate-50 transition-all cursor-default">
                             <div className="w-12 h-12 bg-indigo-50 rounded-none flex items-center justify-center">
                                 <Zap className="w-6 h-6 text-indigo-600" />
                             </div>
-                            <h3 className="text-2xl font-black tracking-tight text-slate-900 font-sans uppercase">マーケット・ターミナル</h3>
+                            <h3 className="text-xl md:text-2xl font-black tracking-tight text-slate-900 font-sans uppercase">マーケット・ターミナル</h3>
                             <p className="text-sm font-bold leading-relaxed text-slate-400 uppercase">
                                 ミリ秒単位でのティックデータ更新とAI予測。プロフェッショナルが必要とする全てのインフラを、洗練された単一のインターフェースへ統合しました。
                             </p>
                             <Link href="/ja/pro/stocks" className="inline-flex items-center gap-2 text-[12px] font-black uppercase tracking-widest text-indigo-600 group-hover:gap-3 transition-all">詳細を見る <ArrowRight className="w-3 h-3" /></Link>
                         </div>
-                        <div className="p-10 md:p-14 bg-white space-y-8 group hover:bg-slate-50 transition-all cursor-default">
+                        <div className="p-8 md:p-14 bg-white space-y-8 group hover:bg-slate-50 transition-all cursor-default">
                             <div className="w-12 h-12 bg-emerald-50 rounded-none flex items-center justify-center">
                                 <Shield className="w-6 h-6 text-emerald-600" />
                             </div>
-                            <h3 className="text-2xl font-black tracking-tight text-slate-900 font-sans uppercase">リスク管理プロトコル</h3>
+                            <h3 className="text-xl md:text-2xl font-black tracking-tight text-slate-900 font-sans uppercase">リスク管理プロトコル</h3>
                             <p className="text-sm font-bold leading-relaxed text-slate-400 uppercase">
                                 AIによる優位性の高いエントリーだけでなく、多重化された損切りアルゴリズムによりドローダウンを極小化。安定した成長を支える盤石の基盤。
                             </p>

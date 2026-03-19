@@ -12,7 +12,7 @@ export const MarketTicker = () => {
     ];
 
     return (
-        <div className="w-full bg-[#f8fafc] border-b border-slate-100 py-1.5 overflow-hidden">
+        <div className="w-full max-w-full bg-[#f8fafc] border-b border-slate-100 py-1.5 overflow-hidden select-none">
             <div className="flex animate-ticker whitespace-nowrap">
                 {[...items, ...items, ...items].map((item, i) => (
                     <div key={i} className="flex items-center gap-4 px-6 text-[9px] font-bold tracking-tighter">

@@ -61,13 +61,13 @@ export default function ReportsPage() {
                              <div className="inline-flex items-center gap-2.5 px-3 py-1 bg-indigo-50 border border-indigo-100/50 rounded-none text-[9px] font-black text-indigo-600 uppercase tracking-widest leading-none">
                                 インテリジェンス・ハブ
                             </div>
-                            <h1 className="text-2xl md:text-3xl font-black text-slate-900 tracking-tighter leading-none font-sans uppercase whitespace-nowrap">
+                            <h1 className="text-xl md:text-3xl font-black text-slate-900 tracking-tighter leading-tight font-sans uppercase">
                                 インテリジェンス・レポート
                             </h1>
                         </div>
                         
                         <div className="space-y-8">
-                            <p className="text-sm md:text-base font-bold text-slate-500 max-w-2xl leading-relaxed uppercase border-l-2 border-slate-100 pl-8">
+                            <p className="text-sm md:text-base font-bold text-slate-500 max-w-2xl leading-relaxed uppercase border-l-2 border-slate-100 pl-4 md:pl-8">
                                 Synapse AIが導き出す、最新のマーケット・インサイト。テクニカル分析、ファンダメンタルズ、オンチェーンデータを統合した多角的な視点を提供します。
                             </p>
                         </div>

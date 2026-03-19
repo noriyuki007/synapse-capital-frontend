@@ -66,12 +66,12 @@ export default async function ExchangeDetailPage({ params }: { params: Promise<{
                                         公式検証済み
                                     </span>
                                 </div>
-                                <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-slate-900 tracking-tighter leading-none font-sans uppercase">
+                                <h1 className="text-3xl md:text-5xl lg:text-6xl font-black text-slate-900 tracking-tighter leading-none font-sans uppercase">
                                     {exchange.name}
                                 </h1>
                             </div>
                             
-                            <p className="text-sm md:text-base font-bold text-slate-500 max-w-xl mx-auto lg:mx-0 leading-relaxed uppercase border-l-2 border-slate-100 pl-8">
+                            <p className="text-sm md:text-base font-bold text-slate-500 max-w-xl mx-auto lg:mx-0 leading-relaxed uppercase border-l-2 border-slate-100 pl-4 md:pl-8">
                                 {exchange.description} 当プラットフォームとAI連携することで、ミリ秒レベルの約定データと高度なセンチメント分析を統合。プロフェッショナルな取引環境を実現します。
                             </p>
 

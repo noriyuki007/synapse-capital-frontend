@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export const Footer = () => {
     return (
-        <footer className="bg-slate-50/50 border-t border-slate-100 pt-32 pb-16 px-6 relative overflow-hidden">
+        <footer className="bg-slate-50/50 border-t border-slate-100 pt-16 md:pt-32 pb-16 px-6 relative overflow-hidden">
             {/* Background Accent */}
             <div className="absolute -bottom-1/4 -right-1/4 w-[600px] h-[600px] bg-indigo-50/30 rounded-none blur-[120px] pointer-events-none" />
             
