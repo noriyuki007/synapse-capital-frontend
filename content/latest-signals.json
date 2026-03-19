@@ -2,68 +2,90 @@
   "FX": {
     "signals": [
       {
-        "currency_pair": "USD/JPY",
-        "signal_type": "Short-term Bearish, Long-term Bullish",
-        "rationale": "BoJ policy uncertainty and geopolitical tensions",
-        "confidence_level": "Medium"
+        "instrument": "EUR/GBP",
+        "signal": "Neutral",
+        "reason": "BoE and ECB policy decisions pending; range-bound trading around 0.8640"
       },
       {
-        "currency_pair": "USD/CAD",
-        "signal_type": "Bearish",
-        "rationale": "Oil rallies on Middle East tensions",
-        "confidence_level": "High"
+        "instrument": "AUD/USD",
+        "signal": "Neutral",
+        "reason": "Holding gains around mid-0.7000s; 200-EMA on H4 acts as resistance"
       },
       {
-        "currency_pair": "AUD/USD",
-        "signal_type": "Neutral",
-        "rationale": "Jobs data mixed with RBA caution",
-        "confidence_level": "Medium"
+        "instrument": "XAU/USD",
+        "signal": "Bullish",
+        "reason": "Rebound from one-month low due to geopolitical tensions and softer USD"
+      },
+      {
+        "instrument": "WTI Crude Oil",
+        "signal": "Bullish",
+        "reason": "Trump's threat on Iran's gas field could disrupt supply and increase prices"
       }
-    ]
+    ],
+    "disclaimer": "This is not financial advice. Trade at your own risk."
   },
   "STOCKS": {
-    "signals": [
-      {
-        "signal_name": "Consumer_Spending_Shift",
-        "direction": "Neutral",
-        "strength": "Medium",
-        "rationale": "Mixed signals from Five Below's success and concerns about Starbucks' appeal to youth suggest a consumer spending shift, but the overall impact is unclear."
-      },
-      {
-        "signal_name": "Technology_Optimism",
-        "direction": "Positive",
-        "strength": "High",
-        "rationale": "Lumentum's strong revenue forecast reinforces optimism in the technology sector, driving its stock price higher."
-      },
-      {
-        "signal_name": "Social_Media_Impact",
-        "direction": "Negative",
-        "strength": "Medium",
-        "rationale": "Reports of social media eroding young people's happiness, especially among low-income teens, pose a potential long-term risk to consumer behavior."
-      },
-      {
-        "signal_name": "Market_Volatility_Warning",
-        "direction": "Negative",
-        "strength": "Low",
-        "rationale": "The caution against letting March Madness affect stock portfolios indicates a potential for event-driven market distortions and the need for rational investment decisions."
-      }
-    ]
+    "date": "2026-03-19",
+    "market_sentiment": "Cautious",
+    "key_sectors": [
+      "Consumer Discretionary",
+      "Financial",
+      "Technology"
+    ],
+    "risk_factors": [
+      "Consumer slowdown",
+      "Regulatory risks (social media)",
+      "Failed corporate strategies (e.g., Starbucks)"
+    ],
+    "investment_strategy": "Diversification, Risk assessment, Focus on low-price goods and retirement savings products"
   },
   "CRYPTO": {
     "date": "2026-03-19",
-    "price": 71253.0234375,
-    "sentiment": "Neutral",
-    "key_events": [
-      "Fed leaves rates unchanged, cautious outlook.",
-      "Large ETH purchase by whale investor.",
-      "Algorand Foundation layoffs.",
-      "SEC approves Nasdaq tokenized equities pilot.",
-      "FTX creditor distribution."
-    ],
-    "signals": {
-      "price_momentum": "Bullish (data suggests holding)",
-      "regulatory_environment": "Positive (tokenized equities pilot)",
-      "funding_environment": "Mixed (Algorand vs FTX distribution)"
-    }
+    "price": {
+      "BTC": 70807.609375
+    },
+    "signals": [
+      {
+        "type": "Investment",
+        "entity": "Whale Investor",
+        "asset": "Ethereum",
+        "value": 111000000,
+        "sentiment": "bullish",
+        "description": "A whale investor purchased $111 million worth of Ethereum, indicating continued confidence in the asset."
+      },
+      {
+        "type": "Regulatory",
+        "entity": "SEC",
+        "action": "approved",
+        "asset": "Tokenized Equities",
+        "platform": "Nasdaq",
+        "impact": "positive",
+        "details": "SEC approved Nasdaq's tokenized equities trading pilot, signaling a move towards integrating traditional finance with digital assets."
+      },
+      {
+        "type": "Acquisition",
+        "entity": "Polymarket",
+        "target": "Brahma",
+        "sector": "DeFi",
+        "impact": "neutral",
+        "description": "Polymarket acquired DeFi startup Brahma, highlighting the ongoing consolidation in the DeFi sector."
+      },
+      {
+        "type": "Layoff",
+        "entity": "Algorand Foundation",
+        "percentage": 25,
+        "reason": "Macro Uncertainty and Crypto Market Downturn",
+        "impact": "negative",
+        "description": "Algorand Foundation's layoffs reflect the impact of global macro uncertainty and crypto market conditions on the industry."
+      },
+      {
+        "type": "Distribution",
+        "entity": "FTX",
+        "amount": 2200000000,
+        "recipient": "Creditors",
+        "impact": "positive",
+        "description": "FTX plans to distribute $2.2 billion to creditors starting March 31, representing progress in the bankruptcy proceedings."
+      }
+    ]
   }
 }
