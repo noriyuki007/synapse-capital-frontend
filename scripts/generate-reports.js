@@ -34,7 +34,7 @@ const PERSONAS = {
 const RSS_FEEDS = [
     { url: 'https://www.fxstreet.com/rss/news', type: 'FX' },
     { url: 'https://www.forexlive.com/feed/', type: 'FX' },
-    { url: 'https://jp.reuters.com/rss/worldNews', type: 'FX' }, // JP Fallback
+    { url: 'https://www.reuters.com/rssfeed/worldNews', type: 'FX' }, // Updated from jp.reuters
     { url: 'https://www.marketwatch.com/rss/topstories', type: 'STOCKS' },
     { url: 'https://feeds.content.dowjones.io/public/rss/mw_topstories', type: 'STOCKS' },
     { url: 'https://www.theblock.co/rss.xml', type: 'CRYPTO' },
@@ -121,7 +121,7 @@ async function generateWithGemini(genre, titles, marketData) {
     const jstDateStr = getJSTDateStr();
     const persona = PERSONAS[genre];
     const broker = RECOMMENDED_BROKERS[genre];
-    const modelId = 'gemini-1.5-flash-latest';
+    const modelId = 'gemini-1.5-flash';
     
     const model = genAI.getGenerativeModel({ 
         model: modelId,
