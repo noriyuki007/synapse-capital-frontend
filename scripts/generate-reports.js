@@ -303,7 +303,32 @@ async function main() {
                 }
             }
 
-            if (!markdown) throw new Error('All generation methods failed.');
+            if (!markdown) {
+                console.warn(`[${genre}] ⚠️ All AI generation failed. Using emergency fallback template.`);
+                markdown = `---
+title: "${genre} 市場状況アップデート"
+date: "${dateStr}"
+genre: "${genre}"
+target_pair: "${TICKER_MAP[genre].symbol}"
+prediction_direction: "FLAT"
+recommended_broker: "${RECOMMENDED_BROKERS[genre]}"
+tldr_points: ["AI分析システム一時停止中", "テクニカル指標の確認推奨", "ボラティリティ警戒"]
+excerpt: "現在、AI解析データの取得に遅延が発生しています。市場データに基づき、慎重な取引を推奨します。"
+---
+現在、レポート生成システムがメンテナンス中または高負荷の状態です。
+最新の市場データおよび${TICKER_MAP[genre].symbol}の価格動向を直接ご確認ください。
+\`\`\`json
+{
+  "pair": "${TICKER_MAP[genre].symbol}",
+  "status": "NEUTRAL",
+  "comment": "AI System Offline",
+  "entry": "---",
+  "tp": "---",
+  "sl": "---",
+  "reliability": "LOW"
+}
+\`\`\``;
+            }
 
             fs.writeFileSync(filePath, markdown);
             console.log(`✅ Saved: ${filePath}`);
