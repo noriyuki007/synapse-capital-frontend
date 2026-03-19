@@ -1,29 +1,69 @@
 {
   "FX": {
-    "pair": "MOCK",
-    "status": "FLAT",
-    "comment": "モックデータです",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "LOW"
+    "signals": [
+      {
+        "currency_pair": "USD/JPY",
+        "signal_type": "Short-term Bearish, Long-term Bullish",
+        "rationale": "BoJ policy uncertainty and geopolitical tensions",
+        "confidence_level": "Medium"
+      },
+      {
+        "currency_pair": "USD/CAD",
+        "signal_type": "Bearish",
+        "rationale": "Oil rallies on Middle East tensions",
+        "confidence_level": "High"
+      },
+      {
+        "currency_pair": "AUD/USD",
+        "signal_type": "Neutral",
+        "rationale": "Jobs data mixed with RBA caution",
+        "confidence_level": "Medium"
+      }
+    ]
   },
   "STOCKS": {
-    "pair": "MOCK",
-    "status": "FLAT",
-    "comment": "モックデータです",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "LOW"
+    "signals": [
+      {
+        "signal_name": "Consumer_Spending_Shift",
+        "direction": "Neutral",
+        "strength": "Medium",
+        "rationale": "Mixed signals from Five Below's success and concerns about Starbucks' appeal to youth suggest a consumer spending shift, but the overall impact is unclear."
+      },
+      {
+        "signal_name": "Technology_Optimism",
+        "direction": "Positive",
+        "strength": "High",
+        "rationale": "Lumentum's strong revenue forecast reinforces optimism in the technology sector, driving its stock price higher."
+      },
+      {
+        "signal_name": "Social_Media_Impact",
+        "direction": "Negative",
+        "strength": "Medium",
+        "rationale": "Reports of social media eroding young people's happiness, especially among low-income teens, pose a potential long-term risk to consumer behavior."
+      },
+      {
+        "signal_name": "Market_Volatility_Warning",
+        "direction": "Negative",
+        "strength": "Low",
+        "rationale": "The caution against letting March Madness affect stock portfolios indicates a potential for event-driven market distortions and the need for rational investment decisions."
+      }
+    ]
   },
   "CRYPTO": {
-    "pair": "MOCK",
-    "status": "FLAT",
-    "comment": "モックデータです",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "LOW"
+    "date": "2026-03-19",
+    "price": 71253.0234375,
+    "sentiment": "Neutral",
+    "key_events": [
+      "Fed leaves rates unchanged, cautious outlook.",
+      "Large ETH purchase by whale investor.",
+      "Algorand Foundation layoffs.",
+      "SEC approves Nasdaq tokenized equities pilot.",
+      "FTX creditor distribution."
+    ],
+    "signals": {
+      "price_momentum": "Bullish (data suggests holding)",
+      "regulatory_environment": "Positive (tokenized equities pilot)",
+      "funding_environment": "Mixed (Algorand vs FTX distribution)"
+    }
   }
 }
