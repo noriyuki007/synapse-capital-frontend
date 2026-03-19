@@ -1,61 +1,46 @@
 {
   "FX": {
-    "reportDate": "2026-03-19",
-    "marketSentiment": "Neutral to Cautious",
-    "keyCurrencies": [
-      "EUR",
-      "USD",
-      "JPY",
-      "GBP",
-      "CHF"
+    "date": "2026-03-20",
+    "market_sentiment": "risk_off",
+    "key_themes": [
+      "US_yield_spike",
+      "Iran_geopolitical_risk",
+      "global_recession_fears",
+      "ECB_rate_hike_possibility"
     ],
-    "keyThemes": [
-      "Geopolitical Risk",
-      "Central Bank Indecision",
-      "Inflation Concerns",
-      "Safe-Haven Flows",
-      "Energy Price Volatility"
-    ],
-    "recommendedAction": "Risk Management and Diversification",
-    "priceData": {
-      "Silver": {
-        "price": 159.13699340820312,
-        "unit": "USD/ounce",
-        "source": "FXStreet Data"
-      }
+    "currency_pair_signals": {
+      "NZDUSD": "neutral",
+      "USDCAD": "resistance_at_100_hour_MA"
     },
-    "disclaimer": "This report is for informational purposes only and should not be considered as financial advice. Trading in the FX market involves significant risk and may not be suitable for all investors."
+    "precious_metals": {
+      "gold": "bearish",
+      "silver": "bearish"
+    }
   },
   "STOCKS": {
-    "date": "2026-03-19",
-    "index": "STOCKS",
-    "value": 6624.7001953125,
-    "signals": {
-      "geopolitical_risk": "High",
-      "consumer_sentiment": "Negative",
-      "inflation_risk": "Increasing",
-      "sector_rotation": "Energy Outperforming, Consumer Discretionary Underperforming"
-    }
+    "date": "2026-03-20",
+    "market_sentiment": "Neutral to Negative",
+    "key_factors": [
+      "Political Uncertainty (FRB Chair Transition)",
+      "Sector Rotation (Software Exodus)",
+      "Geopolitical Risk (Iran Conflict, Oil Prices)"
+    ],
+    "recommendation": "Exercise Caution, Diversify Portfolio, Monitor Key Economic Indicators"
   },
   "CRYPTO": {
-    "date": "2026-03-19",
-    "BitcoinPrice": 70474.5859375,
-    "MarketSentiment": "Neutral to Cautious",
-    "KeyEvents": [
-      "Bitcoin wobbles around $70,000",
-      "South Korean crypto tax abolition push",
-      "OpenClaw phishing campaign",
-      "Flow Traders enters tokenized assets",
-      "Bitcoin OG sells $72 million in BTC",
-      "ECB explores digital euro integration",
-      "Canada revokes crypto licenses",
-      "Tempo unveils AI payment tools"
-    ],
-    "Signals": {
-      "Regulatory": "Mixed",
-      "Security": "Negative",
-      "Institutional": "Positive",
-      "Technological": "Positive"
-    }
+    "report_date": "2026-03-20",
+    "market_sentiment": "Neutral",
+    "btc_price_trend": "Bearish",
+    "eth_price_trend": "Bullish",
+    "defi_activity": "Increasing",
+    "regulatory_environment": "Becoming Clearer",
+    "institutional_adoption": "Growing",
+    "key_events": [
+      "Bitcoin price drop",
+      "Ethereum whale accumulation",
+      "Corporate Bitcoin adoption",
+      "DeFi platform launches and partnerships",
+      "Regulatory developments in MLB and Polymarket"
+    ]
   }
 }
