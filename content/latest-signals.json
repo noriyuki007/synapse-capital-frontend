@@ -1,91 +1,61 @@
 {
   "FX": {
-    "signals": [
-      {
-        "instrument": "EUR/GBP",
-        "signal": "Neutral",
-        "reason": "BoE and ECB policy decisions pending; range-bound trading around 0.8640"
-      },
-      {
-        "instrument": "AUD/USD",
-        "signal": "Neutral",
-        "reason": "Holding gains around mid-0.7000s; 200-EMA on H4 acts as resistance"
-      },
-      {
-        "instrument": "XAU/USD",
-        "signal": "Bullish",
-        "reason": "Rebound from one-month low due to geopolitical tensions and softer USD"
-      },
-      {
-        "instrument": "WTI Crude Oil",
-        "signal": "Bullish",
-        "reason": "Trump's threat on Iran's gas field could disrupt supply and increase prices"
-      }
+    "reportDate": "2026-03-19",
+    "marketSentiment": "Neutral to Cautious",
+    "keyCurrencies": [
+      "EUR",
+      "USD",
+      "JPY",
+      "GBP",
+      "CHF"
     ],
-    "disclaimer": "This is not financial advice. Trade at your own risk."
+    "keyThemes": [
+      "Geopolitical Risk",
+      "Central Bank Indecision",
+      "Inflation Concerns",
+      "Safe-Haven Flows",
+      "Energy Price Volatility"
+    ],
+    "recommendedAction": "Risk Management and Diversification",
+    "priceData": {
+      "Silver": {
+        "price": 159.13699340820312,
+        "unit": "USD/ounce",
+        "source": "FXStreet Data"
+      }
+    },
+    "disclaimer": "This report is for informational purposes only and should not be considered as financial advice. Trading in the FX market involves significant risk and may not be suitable for all investors."
   },
   "STOCKS": {
     "date": "2026-03-19",
-    "market_sentiment": "Cautious",
-    "key_sectors": [
-      "Consumer Discretionary",
-      "Financial",
-      "Technology"
-    ],
-    "risk_factors": [
-      "Consumer slowdown",
-      "Regulatory risks (social media)",
-      "Failed corporate strategies (e.g., Starbucks)"
-    ],
-    "investment_strategy": "Diversification, Risk assessment, Focus on low-price goods and retirement savings products"
+    "index": "STOCKS",
+    "value": 6624.7001953125,
+    "signals": {
+      "geopolitical_risk": "High",
+      "consumer_sentiment": "Negative",
+      "inflation_risk": "Increasing",
+      "sector_rotation": "Energy Outperforming, Consumer Discretionary Underperforming"
+    }
   },
   "CRYPTO": {
     "date": "2026-03-19",
-    "price": {
-      "BTC": 70807.609375
-    },
-    "signals": [
-      {
-        "type": "Investment",
-        "entity": "Whale Investor",
-        "asset": "Ethereum",
-        "value": 111000000,
-        "sentiment": "bullish",
-        "description": "A whale investor purchased $111 million worth of Ethereum, indicating continued confidence in the asset."
-      },
-      {
-        "type": "Regulatory",
-        "entity": "SEC",
-        "action": "approved",
-        "asset": "Tokenized Equities",
-        "platform": "Nasdaq",
-        "impact": "positive",
-        "details": "SEC approved Nasdaq's tokenized equities trading pilot, signaling a move towards integrating traditional finance with digital assets."
-      },
-      {
-        "type": "Acquisition",
-        "entity": "Polymarket",
-        "target": "Brahma",
-        "sector": "DeFi",
-        "impact": "neutral",
-        "description": "Polymarket acquired DeFi startup Brahma, highlighting the ongoing consolidation in the DeFi sector."
-      },
-      {
-        "type": "Layoff",
-        "entity": "Algorand Foundation",
-        "percentage": 25,
-        "reason": "Macro Uncertainty and Crypto Market Downturn",
-        "impact": "negative",
-        "description": "Algorand Foundation's layoffs reflect the impact of global macro uncertainty and crypto market conditions on the industry."
-      },
-      {
-        "type": "Distribution",
-        "entity": "FTX",
-        "amount": 2200000000,
-        "recipient": "Creditors",
-        "impact": "positive",
-        "description": "FTX plans to distribute $2.2 billion to creditors starting March 31, representing progress in the bankruptcy proceedings."
-      }
-    ]
+    "BitcoinPrice": 70474.5859375,
+    "MarketSentiment": "Neutral to Cautious",
+    "KeyEvents": [
+      "Bitcoin wobbles around $70,000",
+      "South Korean crypto tax abolition push",
+      "OpenClaw phishing campaign",
+      "Flow Traders enters tokenized assets",
+      "Bitcoin OG sells $72 million in BTC",
+      "ECB explores digital euro integration",
+      "Canada revokes crypto licenses",
+      "Tempo unveils AI payment tools"
+    ],
+    "Signals": {
+      "Regulatory": "Mixed",
+      "Security": "Negative",
+      "Institutional": "Positive",
+      "Technological": "Positive"
+    }
   }
 }
