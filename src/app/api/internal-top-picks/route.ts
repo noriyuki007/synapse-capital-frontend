@@ -38,7 +38,11 @@ export async function GET(req: NextRequest) {
             ticker: pair.ticker,
             analysis,
             signal: signalJson,
-            score: signalJson.score || 0
+            score: signalJson.score || 0,
+            // Include real-time metrics from context
+            lastPrice: context.price || 0,
+            change24h: context.changePercent || 0,
+            timestamp: new Date().toISOString()
           };
         } catch (e) {
           console.error(`Failed to analyze ${pair.symbol}:`, e);
@@ -71,14 +75,16 @@ function extractSignalData(synthesis: string) {
     if (match) {
         const data = JSON.parse(match[1]);
         return {
-            decision: data.decision,
-            score: data.totalScore || 0,
-            summary: data.summary,
+            decision: data.decision || 'WAIT',
+            score: data.totalScore || data.score || 0,
+            summary: data.summary || '解析完了。',
             entry: data.entry || '---',
             tp: data.tp || '---',
             sl: data.sl || '---'
         };
     }
-  } catch (e) {}
-  return { decision: 'WAIT', score: 0, summary: '分析エラー' };
+  } catch (e) {
+    console.error('Extraction error:', e);
+  }
+  return { decision: 'WAIT', score: 0, summary: 'データ解析中...' };
 }

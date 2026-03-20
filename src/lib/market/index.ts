@@ -60,6 +60,47 @@ async function fetchTwelveData(symbol: string) {
 }
 
 /**
+ * Fallback: Fetch price from Yahoo Finance Chart API
+ */
+async function fetchYahooPrice(symbol: string) {
+    try {
+        // Normalize symbol for Yahoo
+        let yahooSym = symbol;
+        if (symbol.includes('/')) {
+            // FX: EUR/USD -> EURUSD=X
+            // Crypto: BTC/USD -> BTC-USD
+            const [base, quote] = symbol.split('/');
+            if (base.length <= 3 && quote.length <= 3) { // Likely FX
+                yahooSym = base + quote + '=X';
+            } else { // Likely Crypto
+                yahooSym = base + '-' + quote;
+            }
+        }
+            
+        const response = await fetch(
+            `https://query1.finance.yahoo.com/v8/finance/chart/${yahooSym}?interval=1d&range=1d`
+        );
+        const data = await response.json();
+        const meta = data.chart?.result?.[0]?.meta;
+        
+        if (meta && meta.regularMarketPrice) {
+            const price = meta.regularMarketPrice;
+            const prevClose = meta.previousClose;
+            const changePercent = prevClose ? ((price - prevClose) / prevClose) * 100 : 0;
+            return {
+                price,
+                changePercent,
+                high: meta.dayHigh,
+                low: meta.dayLow
+            };
+        }
+    } catch (e) {
+        console.error('Yahoo Price Fallback Error:', e);
+    }
+    return null;
+}
+
+/**
  * Fetch economic calendar and market news from FMP
  */
 async function fetchFMPData(symbol: string) {
@@ -280,6 +321,15 @@ export async function getMarketContext(ticker: string, assetClass: string = 'FX'
         context.high = parseFloat(quote.high);
         context.low = parseFloat(quote.low);
         context.volume = parseInt(quote.volume);
+    } else {
+        // Fallback to Yahoo
+        const yahoo = await fetchYahooPrice(normalizedTicker);
+        if (yahoo) {
+            context.price = yahoo.price;
+            context.changePercent = yahoo.changePercent;
+            context.high = yahoo.high;
+            context.low = yahoo.low;
+        }
     }
 
     return context;
