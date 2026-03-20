@@ -15,33 +15,14 @@ export function MarketPriceWidget({ genre, targetPair }: MarketPriceWidgetProps)
     useEffect(() => {
         const fetchPrice = async () => {
             try {
-                if (genre === 'CRYPTO') {
-                    const coinId = targetPair.toLowerCase().includes('btc') ? 'bitcoin' : 
-                                  targetPair.toLowerCase().includes('sol') ? 'solana' : 
-                                  targetPair.toLowerCase().includes('eth') ? 'ethereum' : 'bitcoin';
-                    
-                    const res = await fetch(`https://api.coingecko.com/api/v3/simple/price?ids=${coinId}&vs_currencies=usd&include_24hr_change=true`);
-                    const data = await res.json();
-                    if (data[coinId]) {
-                        setPrice(data[coinId].usd);
-                        setChange(data[coinId].usd_24h_change || 0);
-                    }
-                } else if (genre === 'FX') {
-                    // Standard mock for live feel if we don't have a free reliable FX API handy
-                    // In a real app, we'd use a broker API or specialized FX feed
-                    const basePrice = targetPair.includes('150') ? 150.25 : 150.80;
-                    const randomFlux = (Math.random() - 0.5) * 0.1;
-                    setPrice(basePrice + randomFlux);
-                    setChange(0.12);
-                } else {
-                    // Stocks mock
-                    const basePrice = targetPair.includes('NASDAQ') ? 21350 : 5100;
-                    const randomFlux = (Math.random() - 0.5) * 15;
-                    setPrice(basePrice + randomFlux);
-                    setChange(0.85);
+                const res = await fetch(`/api/market/price?symbol=${encodeURIComponent(targetPair)}&genre=${genre}`);
+                const data = await res.json();
+                if (data.price !== undefined) {
+                    setPrice(data.price);
+                    setChange(data.change || 0);
                 }
             } catch (e) {
-                console.error('Failed to fetch price', e);
+                console.error('Failed to fetch price via proxy', e);
             }
         };
 

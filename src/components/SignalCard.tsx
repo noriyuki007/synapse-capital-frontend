@@ -17,8 +17,12 @@ export const SignalCard = ({ pair, status, comment, entry, tp, sl, reliability, 
                     <div className="text-[11px] font-bold text-slate-400 uppercase tracking-widest">分析対象</div>
                     <div className="text-base md:text-lg font-black text-black tracking-tighter tabular-nums truncate">{pair}</div>
                 </div>
-                <div className={`px-2.5 py-1 rounded-none text-[12px] font-black tracking-widest ${status === 'BUY' ? 'bg-emerald-50 text-emerald-600 border border-emerald-100' : 'bg-rose-50 text-rose-600 border border-rose-100'}`}>
-                    {status === 'BUY' ? '買い推奨' : '売り推奨'}
+                <div className={`px-2.5 py-1 rounded-none text-[12px] font-black tracking-widest ${
+                    status === 'BUY' ? 'bg-emerald-50 text-emerald-600 border border-emerald-100' : 
+                    status === 'SELL' ? 'bg-rose-50 text-rose-600 border border-rose-100' : 
+                    'bg-slate-50 text-slate-600 border border-slate-200'
+                }`}>
+                    {status === 'BUY' ? '買い推奨' : status === 'SELL' ? '売り推奨' : '中立・様子見'}
                 </div>
             </div>
 
@@ -66,7 +70,9 @@ export const SignalCard = ({ pair, status, comment, entry, tp, sl, reliability, 
                     <div className="grid grid-cols-2 gap-6">
                         <div className="space-y-2">
                             <div className="text-[11px] font-black text-slate-400 uppercase tracking-widest">現在のトレンド</div>
-                            <div className="text-xl font-black text-slate-900">{status === 'BUY' ? '上昇トレンド強' : '下落トレンド強'}</div>
+                             <div className="text-xl font-black text-slate-900">
+                                {status === 'BUY' ? '上昇トレンド強' : status === 'SELL' ? '下落トレンド強' : 'レンジ・持ち合い'}
+                            </div>
                         </div>
                         <div className="space-y-2 text-right">
                             <div className="text-[11px] font-black text-slate-400 uppercase tracking-widest">AI信頼スコア</div>

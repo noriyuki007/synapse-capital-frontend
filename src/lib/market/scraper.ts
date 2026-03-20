@@ -108,3 +108,37 @@ export async function getCryptoSentiment(): Promise<MarketSentiment | null> {
         return null;
     }
 }
+
+/**
+ * Fetch Macro Benchmarks (VIX, DXY, TNX) from Yahoo Finance Query API
+ */
+export async function getMacroBenchmarks(): Promise<{ dxy?: number; vix?: number; us10y?: number } | null> {
+    const symbols = {
+        vix: '^VIX',
+        dxy: 'DX-Y.NYB',
+        us10y: '^TNX'
+    };
+    
+    const results: any = {};
+    
+    try {
+        await Promise.all(Object.entries(symbols).map(async ([key, sym]) => {
+            try {
+                const url = `https://query1.finance.yahoo.com/v8/finance/chart/${sym}?interval=1d&range=1d`;
+                const res = await fetch(url, { next: { revalidate: 300 } });
+                const data = await res.json();
+                const price = data.chart?.result?.[0]?.meta?.regularMarketPrice;
+                if (price !== undefined) {
+                    results[key] = price;
+                }
+            } catch (e) {
+                console.warn(`Failed to fetch macro benchmark for ${sym}`, e);
+            }
+        }));
+        
+        return Object.keys(results).length > 0 ? results : null;
+    } catch (e) {
+        console.error('Macro Scrape Error:', e);
+        return null;
+    }
+}

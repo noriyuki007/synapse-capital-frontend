@@ -1,46 +1,68 @@
 {
   "FX": {
-    "date": "2026-03-20",
-    "market_sentiment": "risk_off",
-    "key_themes": [
-      "US_yield_spike",
-      "Iran_geopolitical_risk",
-      "global_recession_fears",
-      "ECB_rate_hike_possibility"
+    "title": "USD/JPY：本日のAI解析が示す上昇シナリオとリスク管理",
+    "date": "2026-03-19",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "tldr_points": [
+      "金利相関（近似）: 0.21で正相関傾向",
+      "テクニカル: 現在価格 158.40 と MA20 157.58 の位置関係が主導",
+      "需給: 上限帯 160.75 / 下限帯 154.40 / 直近高値 159.82 / 直近安値 153.99 によるターゲット設計"
     ],
-    "currency_pair_signals": {
-      "NZDUSD": "neutral",
-      "USDCAD": "resistance_at_100_hour_MA"
-    },
-    "precious_metals": {
-      "gold": "bearish",
-      "silver": "bearish"
-    }
+    "chart_image": "/images/market-analysis-fx.png",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 158.40、RSI(60.21)、MA20(157.58)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "pair": "USD/JPY",
+    "status": "BUY",
+    "comment": "本日のAI解析（シナプス解析）: 金利相関 0.21 とテクニカルの整合性に基づく戦略設計。",
+    "entry": "158.40",
+    "tp": "159.82",
+    "sl": "153.99",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "date": "2026-03-20",
-    "market_sentiment": "Neutral to Negative",
-    "key_factors": [
-      "Political Uncertainty (FRB Chair Transition)",
-      "Sector Rotation (Software Exodus)",
-      "Geopolitical Risk (Iran Conflict, Oil Prices)"
+    "title": "S&P 500：本日のAI解析が示す下落シナリオと防御策",
+    "date": "2026-03-19",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "moomoo-securities",
+    "tldr_points": [
+      "金利相関（近似）: 0.06で正相関傾向",
+      "テクニカル: 現在価格 6606.49 と MA20 6790.72 の位置関係が主導",
+      "需給: 上限帯 6999.08 / 下限帯 6582.36 / 直近高値 6952.51 / 直近安値 6557.82 によるターゲット設計"
     ],
-    "recommendation": "Exercise Caution, Diversify Portfolio, Monitor Key Economic Indicators"
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 6606.49、RSI(29.47)、MA20(6790.72)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "本日のAI解析（シナプス解析）: 金利相関 0.06 とテクニカルの整合性に基づく戦略設計。",
+    "entry": "6606.49",
+    "tp": "6557.82",
+    "sl": "6952.51",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "report_date": "2026-03-20",
-    "market_sentiment": "Neutral",
-    "btc_price_trend": "Bearish",
-    "eth_price_trend": "Bullish",
-    "defi_activity": "Increasing",
-    "regulatory_environment": "Becoming Clearer",
-    "institutional_adoption": "Growing",
-    "key_events": [
-      "Bitcoin price drop",
-      "Ethereum whale accumulation",
-      "Corporate Bitcoin adoption",
-      "DeFi platform launches and partnerships",
-      "Regulatory developments in MLB and Polymarket"
-    ]
+    "title": "BTC/USD：本日のAI解析が示すレンジ警戒と実行戦略",
+    "date": "2026-03-19",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "bitflyer",
+    "tldr_points": [
+      "金利相関（近似）: 0.25で正相関傾向",
+      "テクニカル: 現在価格 70795.77 と MA20 69977.97 の位置関係が主導",
+      "需給: 上限帯 75025.91 / 下限帯 64930.03 / 直近高値 75988.40 / 直近安値 63062.22 によるターゲット設計"
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 70795.77、RSI(49.87)、MA20(69977.97)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "pair": "BTC/USD",
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析（シナプス解析）: 金利相関 0.25 とテクニカルの整合性に基づく戦略設計。",
+    "entry": "70795.77",
+    "tp": "75025.91",
+    "sl": "64930.03",
+    "reliability": "HIGH"
   }
 }

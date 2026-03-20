@@ -4,35 +4,50 @@ import html from 'remark-html';
 
 // Report files are pre-defined for Edge runtime compatibility
 // In a real production app, these would come from an API or a pre-built JSON index
-const REPORT_FILES = [
-  '2026-03-19-crypto',
-  '2026-03-19-fx',
-  '2026-03-19-stocks',
-  '2026-03-18-crypto',
-  '2026-03-18-fx',
-  '2026-03-18-stocks',
-  '2026-03-17-crypto',
-  '2026-03-17-fx',
-  '2026-03-17-stocks',
-  '2026-03-16-crypto',
-  '2026-03-16-fx',
-  '2026-03-16-stocks',
-  '2026-03-15-crypto',
-  '2026-03-15-fx',
-  '2026-03-15-stocks',
-  '2026-03-11-crypto',
-  '2026-03-11-fx',
-  '2026-03-11-stocks',
-  '2026-03-10-fx'
-];
+import reportIndexLocal from '../../content/reports-index.json';
+
+/**
+ * Fetch the dynamic report index
+ */
+async function getReportIndex(): Promise<any[]> {
+    // In development and for local changes, use the imported local JSON
+    if (reportIndexLocal && Array.isArray(reportIndexLocal)) {
+        return reportIndexLocal;
+    }
+
+    try {
+        const response = await fetch('https://raw.githubusercontent.com/noriyuki007/synapse-capital-frontend/main/content/reports-index.json', { next: { revalidate: 60 } });
+        if (response.ok) return await response.json();
+    } catch (e) {
+        console.error("Failed to fetch report index:", e);
+    }
+    
+    return [];
+}
 
 /**
  * Helper to get report content (This is a workaround for Edge Runtime's lack of fs)
  */
 async function getRawReportContent(id: string) {
     try {
-        // We use dynamic imports or fetch to get the content in a way that works in Edge
-        // For simplicity and speed in this context, we'll try to use the raw GitHub content or a local fetch
+        // Prefer local filesystem so newly generated reports are visible immediately.
+        // If the local file doesn't exist (or runtime doesn't allow fs), fall back to GitHub raw.
+        if (typeof window === 'undefined') {
+            const fsMod = await import('fs/promises');
+            const localPath = `${process.cwd()}/content/reports/${id}.md`;
+            const localText = await fsMod.readFile(localPath, 'utf8');
+            if (localText && localText.trim().length > 0) return localText;
+        }
+        // Browser-side: read via internal API route (server reads local fs).
+        if (typeof window !== 'undefined') {
+            const res = await fetch(`/api/reports/content/${id}`);
+            if (res.ok) return await res.text();
+        }
+    } catch (e) {
+        // ignore and fall back
+    }
+
+    try {
         const response = await fetch(`https://raw.githubusercontent.com/noriyuki007/synapse-capital-frontend/main/content/reports/${id}.md`);
         if (response.ok) return await response.text();
     } catch (e) {
@@ -42,26 +57,42 @@ async function getRawReportContent(id: string) {
 }
 
 export async function getSortedReportsData() {
-    // In Edge runtime, we can't scan the filesystem.
-    // We Map over our hardcoded list and fetch/process them.
-    const allReportsData = await Promise.all(REPORT_FILES.map(async (id) => {
-        const fileContents = await getRawReportContent(id);
-        if (!fileContents) return null;
+    const reportIndex = await getReportIndex();
+    
+    const allReportsData = await Promise.all(reportIndex.map(async (item) => {
+        const id = item.id;
+        let fileContents = await getRawReportContent(id);
+        if (!fileContents || fileContents.length < 50) return null; // Filter empty/malformed
+
+        // Fuzzy cleaning: AI sometimes wraps frontmatter in a code block
+        fileContents = fileContents.replace(/^```markdown\n/i, '').replace(/^```\n/i, '');
+        if (fileContents.startsWith('---')) {
+            // Check for nested triple backticks inside the matter and strip them
+            const parts = fileContents.split('---');
+            if (parts.length >= 3) {
+                parts[1] = parts[1].replace(/```markdown\n/gi, '').replace(/```\n/gi, '').replace(/```/g, '');
+                fileContents = parts.join('---');
+            }
+        }
 
         const matterResult = matter(fileContents);
+        const data = matterResult.data as any;
+
+        // Ensure date is a string (gray-matter sometimes returns Date objects)
+        const dateStr = data.date instanceof Date 
+            ? data.date.toISOString().split('T')[0] 
+            : String(data.date || item.date);
 
         return {
             id,
-            ...(matterResult.data as { 
-                date: string, 
-                title: string, 
-                genre: string, 
-                excerpt: string,
-                target_pair: string,
-                prediction_direction: string,
-                result: string,
-                recommended_broker: string
-            }),
+            date: dateStr,
+            title: (data.title || item.title || 'Untitled Report').trim(),
+            genre: (data.genre || item.genre || 'FX').trim(),
+            excerpt: (data.excerpt || '').trim(),
+            target_pair: (data.target_pair || item.target_pair || '').trim(),
+            prediction_direction: (data.prediction_direction || item.prediction_direction || 'FLAT').trim(),
+            result: (data.result || item.result || 'PENDING').trim(),
+            recommended_broker: (data.recommended_broker || '').trim()
         };
     }));
 
@@ -116,7 +147,7 @@ export async function getReportData(id: string) {
 
     // Extract AI Conclusion & Next Steps using regex
     const contentBeforeJson = matterResult.content.split('```json')[0];
-    const sectionTitleRegex = /## 5\. AI結論とアクションプラン/i;
+    const sectionTitleRegex = /## 5\.\s*(?:AI結論とアクションプラン|結論とアクションプラン)|##\s*結論とアクションプラン/i;
     const sectionIndex = contentBeforeJson.search(sectionTitleRegex);
     
     let conclusionText = "";
@@ -124,7 +155,9 @@ export async function getReportData(id: string) {
 
     if (sectionIndex !== -1) {
         const sectionContent = contentBeforeJson.substring(sectionIndex);
-        const summaryMatch = sectionContent.match(/- 結論サマリー: (.*?)\n/i) || sectionContent.match(/## 5\. AI結論とアクションプラン\n(.*?)\n/i);
+        const summaryMatch =
+            sectionContent.match(/[*-]\s*\*?\*?結論サマリー\*?\*?:\s*(.+?)(?=\n[*-]|\n##|\n*$)/is) ||
+            sectionContent.match(/## 5\.[^\n]*\n+([^\n#]+)/i);
         conclusionText = summaryMatch ? summaryMatch[1].trim() : "";
         
         const stepsLines = sectionContent.split('\n');
@@ -200,12 +233,64 @@ export async function getTrackRecordStats() {
     return stats;
 }
 
+import latestSignalsJson from '../../content/latest-signals.json';
+
+/**
+ * Normalizes varied AI JSON structures into consistent SignalCard props
+ */
+function normalizeSignalData(genre: string, raw: any) {
+    const defaults = {
+        FX: { pair: "USD/JPY", status: "NEUTRAL", comment: "分析中", entry: "---", tp: "---", sl: "---", reliability: "MEDIUM" },
+        STOCKS: { pair: "S&P 500", status: "NEUTRAL", comment: "分析中", entry: "---", tp: "---", sl: "---", reliability: "MEDIUM" },
+        CRYPTO: { pair: "BTC/USD", status: "NEUTRAL", comment: "分析中", entry: "---", tp: "---", sl: "---", reliability: "MEDIUM" }
+    } as any;
+
+    const data = { ...defaults[genre] };
+    if (!raw) return data;
+
+    // Common field mapping (if already correct)
+    if (raw.pair) data.pair = raw.pair;
+    else if (raw.target_pair) data.pair = raw.target_pair;
+    if (raw.status) data.status = raw.status;
+    if (raw.comment) data.comment = raw.comment;
+    if (raw.entry) data.entry = raw.entry;
+    if (raw.tp) data.tp = raw.tp;
+    if (raw.sl) data.sl = raw.sl;
+    if (raw.reliability) data.reliability = raw.reliability;
+
+    // Structural deviation handling
+    if (genre === 'FX') {
+        if (raw.market_sentiment) data.status = raw.market_sentiment.toUpperCase();
+        if (raw.key_themes) data.comment = raw.key_themes.join(' / ');
+        if (raw.currency_pair_signals) {
+            const firstPair = Object.keys(raw.currency_pair_signals)[0];
+            if (firstPair) {
+                data.pair = firstPair;
+                data.comment = `${raw.currency_pair_signals[firstPair]} | ${data.comment}`;
+            }
+        }
+    } else if (genre === 'STOCKS') {
+        if (raw.market_sentiment) data.status = raw.market_sentiment.toUpperCase();
+        if (raw.recommendation) data.comment = raw.recommendation;
+        else if (raw.key_factors) data.comment = raw.key_factors.join(' / ');
+    } else if (genre === 'CRYPTO') {
+        if (raw.market_sentiment) data.status = raw.market_sentiment.toUpperCase();
+        if (raw.btc_price_trend) data.comment = `BTC: ${raw.btc_price_trend} | ${raw.key_events?.slice(0, 2).join(', ') || ''}`;
+    }
+
+    return data;
+}
+
 export async function getLatestSignals() {
     try {
-        const response = await fetch('https://raw.githubusercontent.com/noriyuki007/synapse-capital-frontend/main/content/latest-signals.json');
-        if (response.ok) return await response.json();
+        const rawSignals = latestSignalsJson as any;
+        return {
+            FX: normalizeSignalData('FX', rawSignals.FX),
+            STOCKS: normalizeSignalData('STOCKS', rawSignals.STOCKS),
+            CRYPTO: normalizeSignalData('CRYPTO', rawSignals.CRYPTO)
+        };
     } catch (e) {
-        console.error("Failed to fetch latest signals in Edge Runtime:", e);
+        console.error("Failed to process latest signals:", e);
     }
     
     return {

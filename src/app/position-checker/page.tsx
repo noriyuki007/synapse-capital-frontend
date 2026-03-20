@@ -136,10 +136,27 @@ export default function PositionCheckerPage() {
 
     const extractData = (text?: string) => {
         if (!text) return null;
-        const match = text.match(/<data>([\s\S]*?)<\/data>/);
-        if (match && match[1]) {
-            try { return JSON.parse(match[1].trim()); } catch (e) { return null; }
+        
+        // 1. Try standard <data> tag with improved greediness handling
+        const dataMatch = text.match(/<data>([\s\S]*?)(?:<\/data>|$)/i);
+        const contentToParse = dataMatch ? dataMatch[1] : text;
+
+        try {
+            // Find the first/best JSON-like block
+            const jsonMatch = contentToParse.match(/\{[\s\S]*\}/);
+            if (jsonMatch) {
+                return JSON.parse(jsonMatch[0]);
+            }
+        } catch (e) {
+            console.warn("Soft JSON parse failed, trying fallback", e);
         }
+
+        // 2. Fallback: Search for any JSON block if no <data> tag exists or parsing failed
+        const rawJsonMatch = text.match(/\{[\s\S]*?\}(?=[^}]*$)/);
+        if (rawJsonMatch) {
+            try { return JSON.parse(rawJsonMatch[0]); } catch (e) { return null; }
+        }
+        
         return null;
     };
 
@@ -168,8 +185,13 @@ export default function PositionCheckerPage() {
 
     const cleanText = (text?: string) => {
         if (!text) return '';
-        return text.replace(/<data>[\s\S]*?<\/data>/g, '')
-                   .replace(/```[\s\S]*?```/g, '')
+        return text.replace(/<data>[\s\S]*?(?:<\/data>|$)/gi, '') // Remove <data> blocks
+                   .replace(/```[\s\S]*?```/g, '') // Remove triple backtick blocks
+                   .replace(/```(json|markdown|)/gi, '') // Remove unclosed markers
+                   .replace(/\{[\s\S]*?\}(?=[^}]*$)/g, '') // Remove trailing JSON
+                   .replace(/\{[\s\S]*\}/g, '') // Remove any remaining large JSON blocks
+                   .replace(/[`]/g, '') // Remove remaining backticks
+                   .replace(/\sjson\s|(?:\s|^)json(?:\s|$)/gi, ' ') // Remove literal word "json"
                    .replace(/\*\*/g, '')
                    .replace(/シナプス・キャピタル(各位|の皆様|の皆さま|チーム|メンバー)/g, '')
                    .replace(/^.*様、?\s*/g, '')
@@ -197,6 +219,29 @@ export default function PositionCheckerPage() {
 
             <main className="max-w-7xl mx-auto px-6 py-12 md:py-20 text-slate-900">
                 
+                ### 3. Dynamic Report Indexing & Infrastructure
+-   **Issue**: Historical reports and track records were hardcoded, making it impossible for new AI-generated content to appear without code changes.
+-   **Fix**: 
+    -   Implemented a dynamic indexing system (`reports-index.json`) that is automatically updated by the generator script.
+    -   Refactored the `reports` library to fetch and parse this index with fuzzy logic that survives AI formatting errors.
+-   **Result**: New market intelligence now appears instantly across the entire platform.
+
+### 4. Automated Result Evaluation (Track Record)
+-   **Issue**: Tracking hits and misses was a manual, slow process.
+-   **Fix**: 
+    -   Created an automated evaluation script (`evaluate-results.js`) that verifies AI predictions against real historical price data.
+    -   Integrated this into the daily CI/CD pipeline.
+-   **Result**: The Track Record is now a living, honest ledger of AI performance.
+
+## Final Verification Results
+
+### Track Record (Fixed & Dynamic)
+Asset names and titles are now correctly mapped and displayed from the dynamic index.
+![Track Record Fixed](file:///Users/ishii/.gemini/antigravity/brain/cc249146-8aa7-4bdc-9355-7ee39eda1849/track_record_verification_1773972697202.png)
+
+### Clean AI Analysis
+The "Tactical Execution AI" (Prop Trader) and other personas are now 100% free of JSON and backticks.
+![Position Checker Clean](file:///Users/ishii/.gemini/antigravity/brain/cc249146-8aa7-4bdc-9355-7ee39eda1849/analysis_results_03_head_of_trading.png)
                 {/* 1. App Introduction & Scenario Analysis Header */}
                 {!showResults && (
                     <div className="mb-16 space-y-12 animate-in fade-in duration-1000">
