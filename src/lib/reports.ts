@@ -156,7 +156,7 @@ export async function getReportData(id: string) {
     if (sectionIndex !== -1) {
         const sectionContent = contentBeforeJson.substring(sectionIndex);
         const summaryMatch =
-            sectionContent.match(/[*-]\s*\*?\*?結論サマリー\*?\*?:\s*(.+?)(?=\n[*-]|\n##|\n*$)/is) ||
+            sectionContent.match(/[*-]\s*\*?\*?結論サマリー\*?\*?:\s*([\s\S]+?)(?=\n[*-]|\n##|\n*$)/i) ||
             sectionContent.match(/## 5\.[^\n]*\n+([^\n#]+)/i);
         conclusionText = summaryMatch ? summaryMatch[1].trim() : "";
         
