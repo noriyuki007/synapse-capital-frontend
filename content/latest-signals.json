@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY：ECBタカ派発言とテクニカル指標が示唆する上昇トレンド",
-    "date": "2026-03-20",
+    "title": "FX 市場状況アップデート",
+    "date": "2026-03-21",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "ECBのタカ派姿勢が円安を支援",
-      "テクニカル指標は上昇トレンドを示唆",
-      "リスクオンセンチメントがUSD/JPYを押し上げ"
+      "AI生成パイプライン一時停止",
+      "公開テクニカル: 終値 159.22",
+      "リスク管理の優先"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはECB高官の発言やテクニカル指標から上昇トレンドが示唆される。リスクオンセンチメントも支援材料。MA20を上回り、RSIも過熱感は限定的。",
+    "excerpt": "シナプス解析データの自動生成に遅延が発生しています。公開指標のみ参照し、慎重な判断を推奨します。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "ECBタカ派、テクニカル指標強気、リスクオン",
-    "entry": "158.86",
-    "tp": "159.50",
-    "sl": "158.20",
-    "reliability": "MEDIUM"
+    "status": "NEUTRAL",
+    "comment": "自動生成フォールバック",
+    "entry": "159.22",
+    "tp": "159.22",
+    "sl": "159.22",
+    "reliability": "LOW"
   },
   "STOCKS": {
-    "title": "S&P 500：原油高騰とAI懸念の中、押し目買い戦略を検討",
-    "date": "2026-03-20",
+    "title": "STOCKS 市場状況アップデート",
+    "date": "2026-03-21",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "moomoo-securities",
     "tldr_points": [
-      "原油価格高騰によるインフレ懸念と株式市場への影響",
-      "AI関連銘柄への過度な警戒感は後退の可能性",
-      "テクニカル指標は売られすぎを示唆"
+      "AI生成パイプライン一時停止",
+      "公開テクニカル: 終値 6540.90",
+      "リスク管理の優先"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500は、原油価格の高騰とAI関連銘柄への警戒感から下落基調。しかし、RSIは売られすぎ水準にあり、押し目買いのチャンスを示唆。GuggenheimによるADPの買い推奨も市場心理を改善する可能性。",
+    "excerpt": "シナプス解析データの自動生成に遅延が発生しています。公開指標のみ参照し、慎重な判断を推奨します。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "RSI売られすぎ、短期反発期待",
-    "entry": "6606.49",
-    "tp": "6750.00",
-    "sl": "6550.00",
-    "reliability": "MEDIUM"
+    "status": "NEUTRAL",
+    "comment": "自動生成フォールバック",
+    "entry": "6540.90",
+    "tp": "6540.90",
+    "sl": "6540.90",
+    "reliability": "LOW"
   },
   "CRYPTO": {
-    "title": "ビットコイン市場分析：強気トレンド継続か、70,000ドル突破後の戦略",
-    "date": "2026-03-20",
+    "title": "CRYPTO 市場状況アップデート",
+    "date": "2026-03-21",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "ビットコインは20日移動平均線を上回り強気トレンドを維持",
-      "機関投資家の関心高まる、モルガン・スタンレーがビットコインETF申請",
-      "71,500ドルをターゲット、69,500ドルで損切り設定"
+      "AI生成パイプライン一時停止",
+      "公開テクニカル: 終値 69753.91",
+      "リスク管理の優先"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "ビットコインは70,000ドルを超え強気トレンド継続。モルガン・スタンレーのETF申請等、機関投資家の関心も高まっている。テクニカル分析では20日移動平均線を上回りRSIも堅調。71,500ドルをターゲット、69,500ドルで損切りを設定し、さらなる上昇に備える戦略が有効。",
+    "excerpt": "シナプス解析データの自動生成に遅延が発生しています。公開指標のみ参照し、慎重な判断を推奨します。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "20日MA支持、RSI堅調、71500ドル目標",
-    "entry": "70570.66",
-    "tp": "71500.00",
-    "sl": "69500.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "自動生成フォールバック",
+    "entry": "69753.91",
+    "tp": "69753.91",
+    "sl": "69753.91",
+    "reliability": "LOW"
   }
 }

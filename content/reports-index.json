@@ -1,5 +1,38 @@
 [
   {
+    "id": "2026-03-21-stocks",
+    "date": "2026-03-21",
+    "title": "STOCKS 市場状況アップデート",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "moomoo-securities",
+    "excerpt": "シナプス解析データの自動生成に遅延が発生しています。公開指標のみ参照し、慎重な判断を推奨します。",
+    "result": "PENDING"
+  },
+  {
+    "id": "2026-03-21-fx",
+    "date": "2026-03-21",
+    "title": "FX 市場状況アップデート",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "シナプス解析データの自動生成に遅延が発生しています。公開指標のみ参照し、慎重な判断を推奨します。",
+    "result": "PENDING"
+  },
+  {
+    "id": "2026-03-21-crypto",
+    "date": "2026-03-21",
+    "title": "CRYPTO 市場状況アップデート",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "bitflyer",
+    "excerpt": "シナプス解析データの自動生成に遅延が発生しています。公開指標のみ参照し、慎重な判断を推奨します。",
+    "result": "PENDING"
+  },
+  {
     "id": "2026-03-20-stocks",
     "date": "2026-03-20",
     "title": "S&P 500：原油高騰とAI懸念の中、押し目買い戦略を検討",
