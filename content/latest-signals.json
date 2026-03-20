@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY：本日のAI解析が示す上昇シナリオとリスク管理",
-    "date": "2026-03-19",
+    "title": "USD/JPY 堅調推移、20日MA突破で強気シグナル点灯",
+    "date": "2026-03-20",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "金利相関（近似）: 0.21で正相関傾向",
-      "テクニカル: 現在価格 158.40 と MA20 157.58 の位置関係が主導",
-      "需給: 上限帯 160.75 / 下限帯 154.40 / 直近高値 159.82 / 直近安値 153.99 によるターゲット設計"
+      "USD/JPYは20日MAを上抜け強気トレンドを示唆",
+      "RSIは過熱感なく、上昇余地を残す",
+      "主要テクニカル指標は買いシグナル点灯"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 158.40、RSI(60.21)、MA20(157.58)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "USD/JPYは20日移動平均線を明確に上抜け、RSIも上昇余地を残しており、テクニカル的には強気な展開。主要指標は買いシグナルを示唆し、今後の上昇に期待。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "本日のAI解析（シナプス解析）: 金利相関 0.21 とテクニカルの整合性に基づく戦略設計。",
-    "entry": "158.40",
-    "tp": "159.82",
-    "sl": "153.99",
-    "reliability": "HIGH"
+    "comment": "20日MA上抜け、RSI上昇余地あり",
+    "entry": "158.10",
+    "tp": "159.50",
+    "sl": "157.80",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500：本日のAI解析が示す下落シナリオと防御策",
-    "date": "2026-03-19",
+    "title": "S&P 500：弱気相場継続か、RSIと移動平均線からの分析",
+    "date": "2026-03-20",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "moomoo-securities",
     "tldr_points": [
-      "金利相関（近似）: 0.06で正相関傾向",
-      "テクニカル: 現在価格 6606.49 と MA20 6790.72 の位置関係が主導",
-      "需給: 上限帯 6999.08 / 下限帯 6582.36 / 直近高値 6952.51 / 直近安値 6557.82 によるターゲット設計"
+      "S&P 500は弱気相場継続の兆候。",
+      "RSIは売られ過ぎ水準に接近。",
+      "主要テクニカル指標は弱気シグナルを示唆。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 6606.49、RSI(29.47)、MA20(6790.72)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "S&P 500は20日移動平均線を下回り、RSIも低い水準にあることから、弱気トレンドが継続する可能性が高い。ただし、RSIが売られ過ぎ水準に近づいているため、短期的な反発にも注意が必要。市場センチメントは引き続き弱気であり、慎重な取引戦略が求められる。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "本日のAI解析（シナプス解析）: 金利相関 0.06 とテクニカルの整合性に基づく戦略設計。",
+    "status": "NEUTRAL",
+    "comment": "テクニカル指標は弱気だが、RSIが売られすぎ水準のため中立。",
     "entry": "6606.49",
-    "tp": "6557.82",
-    "sl": "6952.51",
-    "reliability": "HIGH"
+    "tp": "6700.00",
+    "sl": "6500.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD：本日のAI解析が示すレンジ警戒と実行戦略",
-    "date": "2026-03-19",
+    "title": "Bitcoin市場分析：強気トレンド継続の可能性とリスク要因",
+    "date": "2026-03-20",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "金利相関（近似）: 0.25で正相関傾向",
-      "テクニカル: 現在価格 70795.77 と MA20 69977.97 の位置関係が主導",
-      "需給: 上限帯 75025.91 / 下限帯 64930.03 / 直近高値 75988.40 / 直近安値 63062.22 によるターゲット設計"
+      "BTCはMA20を上回り強気トレンドを維持",
+      "オーダーブック分析で71000ドル付近に抵抗線を確認",
+      "テクニカル指標は過熱感なく上昇余地を示唆"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 70795.77、RSI(49.87)、MA20(69977.97)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "Bitcoinは70,000ドル台を維持し、強気トレンド継続の可能性を示唆。ただし、71,000ドル付近の抵抗線、市場心理の過熱、規制動向の変化には注意が必要。テクニカル分析とオンチェーンデータを基に、慎重なロング戦略を推奨。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析（シナプス解析）: 金利相関 0.25 とテクニカルの整合性に基づく戦略設計。",
-    "entry": "70795.77",
-    "tp": "75025.91",
-    "sl": "64930.03",
-    "reliability": "HIGH"
+    "status": "BUY",
+    "comment": "MA20を上回り強気トレンド継続。71000ドル付近の抵抗線突破に期待。",
+    "entry": "70752.66",
+    "tp": "71450.00",
+    "sl": "69500.00",
+    "reliability": "MEDIUM"
   }
 }

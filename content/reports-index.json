@@ -2,34 +2,34 @@
   {
     "id": "2026-03-20-stocks",
     "date": "2026-03-20",
-    "title": "S&P 500：本日のAI解析が示す下落シナリオと防御策",
+    "title": "S&P 500：弱気相場継続か、RSIと移動平均線からの分析",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "moomoo-securities",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 6606.49、RSI(29.47)、MA20(6790.72)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "S&P 500は20日移動平均線を下回り、RSIも低い水準にあることから、弱気トレンドが継続する可能性が高い。ただし、RSIが売られ過ぎ水準に近づいているため、短期的な反発にも注意が必要。市場センチメントは引き続き弱気であり、慎重な取引戦略が求められる。",
     "result": "PENDING"
   },
   {
     "id": "2026-03-20-fx",
     "date": "2026-03-20",
-    "title": "USD/JPY：本日のAI解析が示す上昇シナリオとリスク管理",
+    "title": "USD/JPY 堅調推移、20日MA突破で強気シグナル点灯",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 158.31、RSI(59.58)、MA20(157.57)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "result": "PENDING"
+    "excerpt": "USD/JPYは20日移動平均線を明確に上抜け、RSIも上昇余地を残しており、テクニカル的には強気な展開。主要指標は買いシグナルを示唆し、今後の上昇に期待。",
+    "result": "MISS"
   },
   {
     "id": "2026-03-20-crypto",
     "date": "2026-03-20",
-    "title": "BTC/USD：本日のAI解析が示すレンジ警戒と実行戦略",
+    "title": "Bitcoin市場分析：強気トレンド継続の可能性とリスク要因",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 70608.07、RSI(49.35)、MA20(69968.58)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "Bitcoinは70,000ドル台を維持し、強気トレンド継続の可能性を示唆。ただし、71,000ドル付近の抵抗線、市場心理の過熱、規制動向の変化には注意が必要。テクニカル分析とオンチェーンデータを基に、慎重なロング戦略を推奨。",
     "result": "PENDING"
   },
   {
@@ -52,7 +52,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "本日のAI解析では、USD/JPYの現在価格 158.40、RSI(60.21)、MA20(157.58)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "result": "PENDING"
+    "result": "HIT"
   },
   {
     "id": "2026-03-19-crypto",
@@ -118,7 +118,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "excerpt": "イランを巡る地政学的緊張が金融市場を覆い、EUR/USDは主要な長期移動平均線を割り込みました。本日のAI解析では、この下落トレンドの持続性を徹底分析します。",
-    "result": "PENDING"
+    "result": "MISS"
   },
   {
     "id": "2026-03-15-crypto",
@@ -162,7 +162,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "米雇用統計のサプライズを受け、日米金利差拡大のシナリオが再燃。150円台の定着から152円を目指す強気相場をAIが解析します。",
-    "result": "PENDING"
+    "result": "HIT"
   },
   {
     "id": "2026-03-17-stocks",
