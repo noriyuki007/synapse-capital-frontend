@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY 堅調推移、20日MA突破で強気シグナル点灯",
+    "title": "USD/JPY：ECBタカ派発言とテクニカル指標が示唆する上昇トレンド",
     "date": "2026-03-20",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "USD/JPYは20日MAを上抜け強気トレンドを示唆",
-      "RSIは過熱感なく、上昇余地を残す",
-      "主要テクニカル指標は買いシグナル点灯"
+      "ECBのタカ派姿勢が円安を支援",
+      "テクニカル指標は上昇トレンドを示唆",
+      "リスクオンセンチメントがUSD/JPYを押し上げ"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは20日移動平均線を明確に上抜け、RSIも上昇余地を残しており、テクニカル的には強気な展開。主要指標は買いシグナルを示唆し、今後の上昇に期待。",
+    "excerpt": "USD/JPYはECB高官の発言やテクニカル指標から上昇トレンドが示唆される。リスクオンセンチメントも支援材料。MA20を上回り、RSIも過熱感は限定的。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "20日MA上抜け、RSI上昇余地あり",
-    "entry": "158.10",
+    "comment": "ECBタカ派、テクニカル指標強気、リスクオン",
+    "entry": "158.86",
     "tp": "159.50",
-    "sl": "157.80",
+    "sl": "158.20",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500：弱気相場継続か、RSIと移動平均線からの分析",
+    "title": "S&P 500：原油高騰とAI懸念の中、押し目買い戦略を検討",
     "date": "2026-03-20",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "moomoo-securities",
     "tldr_points": [
-      "S&P 500は弱気相場継続の兆候。",
-      "RSIは売られ過ぎ水準に接近。",
-      "主要テクニカル指標は弱気シグナルを示唆。"
+      "原油価格高騰によるインフレ懸念と株式市場への影響",
+      "AI関連銘柄への過度な警戒感は後退の可能性",
+      "テクニカル指標は売られすぎを示唆"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500は20日移動平均線を下回り、RSIも低い水準にあることから、弱気トレンドが継続する可能性が高い。ただし、RSIが売られ過ぎ水準に近づいているため、短期的な反発にも注意が必要。市場センチメントは引き続き弱気であり、慎重な取引戦略が求められる。",
+    "excerpt": "S&P 500は、原油価格の高騰とAI関連銘柄への警戒感から下落基調。しかし、RSIは売られすぎ水準にあり、押し目買いのチャンスを示唆。GuggenheimによるADPの買い推奨も市場心理を改善する可能性。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "テクニカル指標は弱気だが、RSIが売られすぎ水準のため中立。",
+    "status": "BUY",
+    "comment": "RSI売られすぎ、短期反発期待",
     "entry": "6606.49",
-    "tp": "6700.00",
-    "sl": "6500.00",
+    "tp": "6750.00",
+    "sl": "6550.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "Bitcoin市場分析：強気トレンド継続の可能性とリスク要因",
+    "title": "ビットコイン市場分析：強気トレンド継続か、70,000ドル突破後の戦略",
     "date": "2026-03-20",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTCはMA20を上回り強気トレンドを維持",
-      "オーダーブック分析で71000ドル付近に抵抗線を確認",
-      "テクニカル指標は過熱感なく上昇余地を示唆"
+      "ビットコインは20日移動平均線を上回り強気トレンドを維持",
+      "機関投資家の関心高まる、モルガン・スタンレーがビットコインETF申請",
+      "71,500ドルをターゲット、69,500ドルで損切り設定"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Bitcoinは70,000ドル台を維持し、強気トレンド継続の可能性を示唆。ただし、71,000ドル付近の抵抗線、市場心理の過熱、規制動向の変化には注意が必要。テクニカル分析とオンチェーンデータを基に、慎重なロング戦略を推奨。",
+    "excerpt": "ビットコインは70,000ドルを超え強気トレンド継続。モルガン・スタンレーのETF申請等、機関投資家の関心も高まっている。テクニカル分析では20日移動平均線を上回りRSIも堅調。71,500ドルをターゲット、69,500ドルで損切りを設定し、さらなる上昇に備える戦略が有効。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20を上回り強気トレンド継続。71000ドル付近の抵抗線突破に期待。",
-    "entry": "70752.66",
-    "tp": "71450.00",
+    "comment": "20日MA支持、RSI堅調、71500ドル目標",
+    "entry": "70570.66",
+    "tp": "71500.00",
     "sl": "69500.00",
-    "reliability": "MEDIUM"
+    "reliability": "HIGH"
   }
 }
