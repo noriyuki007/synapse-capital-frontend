@@ -2,7 +2,7 @@
   {
     "id": "2026-03-21-stocks",
     "date": "2026-03-21",
-    "title": "STOCKS：最新マーケット分析インテリジェンス",
+    "title": "S&P 500 指数：テクニカル弱気圏とファンダメンタル・ヘッジの評価",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "FLAT",
@@ -13,7 +13,7 @@
   {
     "id": "2026-03-21-fx",
     "date": "2026-03-21",
-    "title": "FX：最新マーケット分析インテリジェンス",
+    "title": "USD/JPY マーケット分析：地政学リスクと利上げ観測の影響",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
@@ -24,7 +24,7 @@
   {
     "id": "2026-03-21-crypto",
     "date": "2026-03-21",
-    "title": "CRYPTO：オンチェーン・テクニカル統合分析",
+    "title": "ビットコイン(BTC/USD)：規制枠組みの前進とテクニカルレンジの攻防",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
@@ -52,7 +52,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "USD/JPYはECB高官の発言やテクニカル指標から上昇トレンドが示唆される。リスクオンセンチメントも支援材料。MA20を上回り、RSIも過熱感は限定的。",
-    "result": "MISS"
+    "result": "PENDING"
   },
   {
     "id": "2026-03-20-crypto",
@@ -85,7 +85,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "本日のAI解析では、USD/JPYの現在価格 158.40、RSI(60.21)、MA20(157.58)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "result": "HIT"
+    "result": "PENDING"
   },
   {
     "id": "2026-03-19-crypto",
@@ -96,6 +96,25 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "excerpt": "本日のAI解析では、BTC/USDの現在価格 70795.77、RSI(49.87)、MA20(69977.97)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING"
+  },
+  {
+    "id": "2026-03-17-stocks",
+    "result": "PENDING"
+  },
+  {
+    "id": "2026-03-17-fx",
+    "date": "2024-01-24",
+    "title": "円安基調継続か？日銀政策と原油価格がドル円相場を左右する",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "OANDA",
+    "excerpt": "ドル円は日銀の金融政策と原油価格に注目が集まる。テクニカル分析では強気シグナルが点灯しており、円安トレンドが継続する可能性が高い。短期的な上昇を見込む戦略を提案。",
+    "result": "PENDING"
+  },
+  {
+    "id": "2026-03-17-crypto",
     "result": "PENDING"
   },
   {
@@ -151,7 +170,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "excerpt": "イランを巡る地政学的緊張が金融市場を覆い、EUR/USDは主要な長期移動平均線を割り込みました。本日のAI解析では、この下落トレンドの持続性を徹底分析します。",
-    "result": "MISS"
+    "result": "PENDING"
   },
   {
     "id": "2026-03-15-crypto",
@@ -196,38 +215,5 @@
     "recommended_broker": "dmm-fx",
     "excerpt": "米雇用統計のサプライズを受け、日米金利差拡大のシナリオが再燃。150円台の定着から152円を目指す強気相場をAIが解析します。",
     "result": "HIT"
-  },
-  {
-    "id": "2026-03-17-stocks",
-    "date": "2024-07-24",
-    "title": "弱気市場の兆候と戦略的対応：SynapseCapital株式専門AIアナリスト「AntiGravity」による分析",
-    "genre": "Market Analysis",
-    "target_pair": "DOW/USD",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
-    "excerpt": "ダウ平均は20日移動平均線を下回り、弱気トレンドが鮮明になっています。本日のAI解析では、金利相関、オーダーブック、センチメント分析を通じて、市場の現状を詳細に分析し、プロトレーダー向けの戦略を提案します。",
-    "result": "PENDING"
-  },
-  {
-    "id": "2026-03-17-crypto",
-    "date": "2024-05-16",
-    "title": "BTC/USD：強気トレンド継続か、PayPalとMastercardの動きが示唆する未来",
-    "genre": "Crypto",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "Binance",
-    "excerpt": "BTC/USDは強気トレンドを維持。PayPalとMastercardの暗号資産市場への参入はポジティブな兆候。ただし、ベトナムやアルゼンチンの規制強化の動きには注意が必要です。",
-    "result": "PENDING"
-  },
-  {
-    "id": "2026-03-17-fx",
-    "date": "2024-01-24",
-    "title": "円安基調継続か？日銀政策と原油価格がドル円相場を左右する",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "OANDA",
-    "excerpt": "ドル円は日銀の金融政策と原油価格に注目が集まる。テクニカル分析では強気シグナルが点灯しており、円安トレンドが継続する可能性が高い。短期的な上昇を見込む戦略を提案。",
-    "result": "PENDING"
   }
 ]
