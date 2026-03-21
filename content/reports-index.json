@@ -1,36 +1,75 @@
 [
   {
-    "id": "2026-03-21-crypto",
-    "date": "2026-03-21 23:43",
-    "title": "BTC/USD：オンチェーンETF申請とテクニカル強気シグナル",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bitflyer",
-    "excerpt": "BTCは米ドルに対して強気トレンドを維持。GrayscaleのHyperliquid ETF申請がオンチェーン流動性を押し上げ、テクニカル指標も買いサポート。短期目標72500ドル、損切り70300ドル。",
-    "result": "PENDING"
-  },
-  {
-    "id": "2026-03-21-stocks",
-    "date": "2026-03-21 23:42",
-    "title": "STOCKS：マルチフレームワーク・マーケット・インテリジェンス",
+    "id": "2026-03-21-stocks-ja",
+    "date": "2026-03-21 23:18",
+    "title": "S&P 500：本日のAI解析が示す下落シナリオと防御策",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "moomoo-securities",
-    "excerpt": "S&P500は終値6506.48でMA20(6770.57)を下回り弱気圏。RSI14=25.34は売られすぎを示すが、主要流動性帯の下値支持線密度から反発力は限定的と判断。地政学リスク緩和観測も材料尽き感が優勢。",
-    "result": "PENDING"
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 6506.48、RSI(25.34)、MA20(6770.57)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
-    "id": "2026-03-21-fx",
-    "date": "2026-03-21 23:41",
-    "title": "FX：最新マーケット分析インテリジェンス",
+    "id": "2026-03-21-stocks-en",
+    "date": "2026-03-21 23:18",
+    "title": "S&P 500: Bearish Outlook & Defense Strategies",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "interactive-brokers",
+    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 6506.48, RSI(25.34), and MA20(6770.57).",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-03-21-fx-ja",
+    "date": "2026-03-21 23:18",
+    "title": "USD/JPY：本日のAI解析が示す上昇シナリオとリスク管理",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "USD/JPYはテクニカル的に強気兆候を示すが、地政学リスクと金利変動要因が相場を複雑化。AI解析は上昇方向を指向し、159.50突破に注目。",
-    "result": "PENDING"
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 159.22、RSI(60.01)、MA20(157.80)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-03-21-fx-en",
+    "date": "2026-03-21 23:18",
+    "title": "USD/JPY: Bullish Scenario & AI Risk Management",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 159.22, RSI(60.01), and MA20(157.80).",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-03-21-crypto-ja",
+    "date": "2026-03-21 23:18",
+    "title": "BTC/USD：本日のAI解析が示す上昇シナリオとリスク管理",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 70995.09、RSI(61.47)、MA20(70373.01)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-03-21-crypto-en",
+    "date": "2026-03-21 23:18",
+    "title": "BTC/USD: Bullish Scenario & AI Risk Management",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 70995.09, RSI(61.47), and MA20(70373.01).",
+    "result": "PENDING",
+    "locale": "en"
   },
   {
     "id": "2026-03-20-stocks",
@@ -41,7 +80,8 @@
     "prediction_direction": "UP",
     "recommended_broker": "moomoo-securities",
     "excerpt": "S&P 500は、原油価格の高騰とAI関連銘柄への警戒感から下落基調。しかし、RSIは売られすぎ水準にあり、押し目買いのチャンスを示唆。GuggenheimによるADPの買い推奨も市場心理を改善する可能性。",
-    "result": "PENDING"
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-03-20-fx",
@@ -52,7 +92,8 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "USD/JPYはECB高官の発言やテクニカル指標から上昇トレンドが示唆される。リスクオンセンチメントも支援材料。MA20を上回り、RSIも過熱感は限定的。",
-    "result": "MISS"
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-03-20-crypto",
@@ -63,7 +104,8 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "ビットコインは70,000ドルを超え強気トレンド継続。モルガン・スタンレーのETF申請等、機関投資家の関心も高まっている。テクニカル分析では20日移動平均線を上回りRSIも堅調。71,500ドルをターゲット、69,500ドルで損切りを設定し、さらなる上昇に備える戦略が有効。",
-    "result": "PENDING"
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-03-19-stocks",
@@ -74,7 +116,8 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "moomoo-securities",
     "excerpt": "本日のAI解析では、S&P 500の現在価格 6606.49、RSI(29.47)、MA20(6790.72)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "result": "PENDING"
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-03-19-fx",
@@ -85,7 +128,8 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "本日のAI解析では、USD/JPYの現在価格 158.40、RSI(60.21)、MA20(157.58)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "result": "HIT"
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-03-19-crypto",
@@ -96,7 +140,8 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "excerpt": "本日のAI解析では、BTC/USDの現在価格 70795.77、RSI(49.87)、MA20(69977.97)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "result": "PENDING"
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-03-16-stocks",
@@ -107,7 +152,8 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "moomoo-securities",
     "excerpt": "本日のAI解析では、主要株価指数が20日・50日移動平均線を下回り、短期的な下降トレンドが継続していることを指摘。RSIは売られすぎ水準に接近中だが、反発の兆候はまだ見られない。Goldman Sachsの弱気見通しが市場を覆う中、今後の戦略をAntiGravityが分析します。",
-    "result": "PENDING"
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-03-16-fx",
@@ -118,7 +164,8 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "地政学リスクと米ドル高圧力がUSD/JPYを押し上げ、高値圏で推移。RSIは過熱感を示すも、中銀政策の思惑が交錯し、介入警戒感が強まる中、次の動向が注目されます。",
-    "result": "PENDING"
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-03-16-crypto",
@@ -129,7 +176,8 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "ビットコインは機関投資家からの資金流入に支えられ7万3千ドル台を維持。テクニカル指標も強気を示唆しており、さらなる上昇に期待が高まる。本日のAI解析が詳細な戦略を提示。",
-    "result": "PENDING"
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-03-15-stocks",
@@ -140,7 +188,8 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "moomoo-securities",
     "excerpt": "原油価格の急騰とNvidiaのGTCイベントが市場の二極化を招く中、個人投資家と機関投資家の戦略的乖離が顕著。今後の市場の方向性を探る。",
-    "result": "PENDING"
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-03-15-fx",
@@ -151,7 +200,8 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "excerpt": "イランを巡る地政学的緊張が金融市場を覆い、EUR/USDは主要な長期移動平均線を割り込みました。本日のAI解析では、この下落トレンドの持続性を徹底分析します。",
-    "result": "MISS"
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-03-15-crypto",
@@ -162,7 +212,8 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "excerpt": "暗号市場は規制強化とDeFiプロトコルリスクが重なり、本質的価値の再評価が進むフェーズに突入。ETHはレンジ相場で推移する見込み。",
-    "result": "PENDING"
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-03-11-stocks",
@@ -173,7 +224,8 @@
     "prediction_direction": "UP",
     "recommended_broker": "moomoo-securities",
     "excerpt": "ハイテク株を中心とした強気相場が継続。NVIDIAの圧倒的な成長力が市場を牽引し、NASDAQ100は史上最高値を更新。AI関連銘柄への資金流入が止まらない現状を詳細に分析します。",
-    "result": "PENDING"
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-03-11-crypto",
@@ -184,7 +236,8 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "ビットコインが歴史的な節目を迎えています。ETFを通じた機関投資家の資金流入が止まらず、価格は異次元のステージへ。オンチェーンデータから見える強気相場の本質を解析します。",
-    "result": "PENDING"
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-03-10-fx",
@@ -195,7 +248,8 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "米雇用統計のサプライズを受け、日米金利差拡大のシナリオが再燃。150円台の定着から152円を目指す強気相場をAIが解析します。",
-    "result": "HIT"
+    "result": "HIT",
+    "locale": "ja"
   },
   {
     "id": "2026-03-17-stocks",
@@ -206,7 +260,8 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "ダウ平均は20日移動平均線を下回り、弱気トレンドが鮮明になっています。本日のAI解析では、金利相関、オーダーブック、センチメント分析を通じて、市場の現状を詳細に分析し、プロトレーダー向けの戦略を提案します。",
-    "result": "PENDING"
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-03-17-crypto",
@@ -217,7 +272,8 @@
     "prediction_direction": "UP",
     "recommended_broker": "Binance",
     "excerpt": "BTC/USDは強気トレンドを維持。PayPalとMastercardの暗号資産市場への参入はポジティブな兆候。ただし、ベトナムやアルゼンチンの規制強化の動きには注意が必要です。",
-    "result": "PENDING"
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-03-17-fx",
@@ -228,6 +284,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "OANDA",
     "excerpt": "ドル円は日銀の金融政策と原油価格に注目が集まる。テクニカル分析では強気シグナルが点灯しており、円安トレンドが継続する可能性が高い。短期的な上昇を見込む戦略を提案。",
-    "result": "PENDING"
+    "result": "PENDING",
+    "locale": "ja"
   }
 ]

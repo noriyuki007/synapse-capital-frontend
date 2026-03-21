@@ -47,9 +47,16 @@ const RSS_FEEDS = [
 ];
 
 const RECOMMENDED_BROKERS = {
-    FX: 'dmm-fx',
-    STOCKS: 'moomoo-securities',
-    CRYPTO: 'bitflyer',
+    ja: {
+        FX: 'dmm-fx',
+        STOCKS: 'moomoo-securities',
+        CRYPTO: 'bitflyer',
+    },
+    en: {
+        FX: 'xm-trading',
+        STOCKS: 'interactive-brokers',
+        CRYPTO: 'bybit',
+    }
 };
 
 const TICKER_MAP = {
@@ -206,79 +213,118 @@ function stripLeadingCodeFenceAroundFrontmatter(md) {
     return s;
 }
 
-function buildArticlePrompt(genre, newsHeadlines, marketData, jstDateStr) {
-    const broker = RECOMMENDED_BROKERS[genre];
+function buildArticlePrompt(genre, newsHeadlines, marketData, jstDateStr, locale = 'ja') {
     const symbol = TICKER_MAP[genre].symbol;
-    const cp = marketData?.current_price != null ? parseFloat(marketData.current_price).toFixed(2) : null;
-    const ma20 = marketData?.ma20 != null ? parseFloat(marketData.ma20).toFixed(2) : null;
-    const rsi = marketData?.rsi != null ? parseFloat(marketData.rsi).toFixed(2) : null;
-    const maComment =
-        cp && ma20
-            ? parseFloat(cp) > parseFloat(ma20)
-                ? '終値が20日移動平均線を上回っており強気圏'
-                : '終値が20日移動平均線を下回っており弱気圏'
-            : '20日線との位置関係を価格データから判断すること';
+    const isCrypto = genre === 'CRYPTO';
+    const broker = RECOMMENDED_BROKERS[locale] ? RECOMMENDED_BROKERS[locale][genre] : RECOMMENDED_BROKERS.ja[genre];
 
-    const headlinesBlock =
-        newsHeadlines.length > 0
-            ? newsHeadlines.map((t, i) => {
-                const title = typeof t === 'string' ? t : t.title;
-                return `${i + 1}. ${title}`;
-            }).join('\n')
-            : '（RSSからの取得は空でした。ファンダメンタルズはマクロ・センチメントの一般論に留め、不確実性を明記すること）';
+    const cp = marketData?.current_price ?? (locale === 'ja' ? '不明' : 'Unknown');
+    const ma20 = marketData?.ma20 ?? (locale === 'ja' ? '不明' : 'Unknown');
+    const rsi = marketData?.rsi_14 ?? (locale === 'ja' ? '不明' : 'Unknown');
 
-    return `
-以下の「最新ニュース見出し」と「API/チャート由来の数値」を必ず本文に反映し、日本語でマーケット分析レポートを完成させてください。
+    const headlinesBlock = newsHeadlines.map(n => `- ${n.title}`).join('\n');
 
-## 厳守ルール（AIインテリジェンス・ガイドライン）
-- トーン: 機関投資家向け金融メディア。個人的感想・会話文・挨拶（「承知しました」等）は禁止。
-- 呼称: 「検証隊」禁止。「本日のAI解析」「シナプス解析」を使用。
-- Frontmatter: ファイル先頭に YAML をそのまま置く。**絶対に** Markdown のコードフェンス（\`\`\`）で囲まない。
-- タイトル: **タイトルに日付や「本日」「2026年」などの時期表現を絶対に含めないこと**（例：「USD/JPY：テクニカル指標と金利相関が示唆する上昇トレンド」のように専門的に）。
-- シグナルJSON: 記事の**末尾**にのみ \`\`\`json ... \`\`\` ブロックを1つ置く。pair, status(BUY|SELL|NEUTRAL), comment, entry, tp, sl, reliability を含む。
-- prediction_direction（YAML）: **UP / DOWN / FLAT** のいずれか（シグナルの status とは別概念）。
-- 価格: 利確・損切り・エントリーは**小数点第2位まで**明示（指数・為替に応じた桁）。
-- ニュース: 下記見出しのうち**少なくとも3本**を、本文「市場環境とファンダメンタルズ」付近で箇条書きまたは短い引用として明示。
-
-## 構成（見出しはこの文言を用いること）
-
-## 1. 市場環境とファンダメンタルズ
-- **キーワード**: \`#タグ\` 形式で3〜5個（例: \`#利上げ観測\`）
-- **サマリー**: 2〜4文。重要語は HTML の <strong>タグ</strong> で強調。
-
-## 2. AI多角分析（シナプス解析）
-- **金利相関解析**: 具体的な数値・水準と相関の傾向を1〜2段落で。
-- **オーダーブック解析**: 主要な価格帯の流動性・板厚の示唆（推定でもよいが推定と明記）。
-- **センチメント解析**: 市場心理指数・ポジション観の評価。
-
-## 3. テクニカル分析
-- **参照データ（必ず本文で言及）**: 終値（現在価格） ${cp ?? '（データ未取得の場合は未取得と明記）'}、RSI(14) ${rsi ?? '---'}、20日移動平均 MA20 ${ma20 ?? '---'}。
-- **MA20との関係**: ${maComment}
-- **分析ポイント**: 箇条書きで2〜4点。上記の数値に根拠づけること。
-
-## 4. プロ・トレーディング戦略
-- **全体方針**: 1行で定義。
-- **利確ターゲット**: 数値（小数点第2位まで）
-- **損切りライン**: 数値（小数点第2位まで）
-
-## 5. 結論とアクションプラン
-- **結論サマリー**: 約150文字。挨拶なし。
-- **Next Step**: 箇条書きで**3つ**（具体的な監視項目・水準・リスク管理）。
+    if (locale === 'en') {
+        return `You are a top-tier financial analyst. Write a tactical market report for ${symbol} based on the data below.
 
 ---
+## Style & Tone
+- Extremely professional, institutional tone (like Goldman Sachs/Bloomberg Terminal).
+- No fluff, no introductory pleasantries, highly actionable.
+- Focus strictly on technical levels and fundamental catalysts.
+- Respond in ENGLISH only.
+- Output MUST be **Markdown ONLY**, starting with the YAML Frontmatter.
 
-## 入力: 最新ニュース見出し（スクレイピング/RSS）
+---
+## Output Structure
+1. **YAML Frontmatter** (MUST be at the very top, no code fences before it)
+2. **Executive Summary** (1 short paragraph)
+3. **Technical Framework** (Price action vs MA20, RSI momentum)
+4. **Professional Trading Strategy** (Directional bias, TP, SL)
+5. **JSON Signal Block** (MUST be the final element, exactly as requested)
+
+---
+## Required Affiliate Link
+Integrate the following recommended broker seamlessly into your strategy section or conclusion:
+Broker: ${broker}
+Integration Example: "For executing this specific setup, we recommend utilizing [${broker}] due to optimal liquidity."
+
+---
+## Input: Latest News (RSS/Scraping)
 ${headlinesBlock}
 
-## 入力: チャート・テクニカル（yfinance 日足・直近バー）
-- 現在価格（終値）: ${cp ?? '不明'}
-- MA20: ${ma20 ?? '不明'}
-- RSI(14): ${rsi ?? '不明'}
-- チャート画像パス（YAML用）: /images/market-analysis-${genre.toLowerCase()}.png
+## Input: Chart/Technical Data
+- Current Price: ${cp}
+- MA20: ${ma20}
+- RSI(14): ${rsi}
+- Chart Image Path (for YAML): /images/market-analysis-${genre.toLowerCase()}.png
 
 ---
+## YAML Frontmatter Template (Place at the START, no code fences)
+---
+title: "${genre}: Institutional Market Intelligence"
+date: "${jstDateStr}"
+genre: "${genre}"
+target_pair: "${symbol}"
+prediction_direction: "UP or DOWN or FLAT"
+recommended_broker: "${broker}"
+tldr_points: ["Key point 1", "Key point 2", "Key point 3"]
+chart_image: "/images/market-analysis-${genre.toLowerCase()}.png"
+excerpt: "120 character summary (no greetings)"
+---
 
-## YAML Frontmatter テンプレート（この形でファイル**先頭**に配置、フェンス禁止）
+## Technical Framework & Strategy
+... (Your analysis here) ...
+
+## Final Signal JSON Template (1 block at the very end of the article)
+\`\`\`json
+{
+  "pair": "${symbol}",
+  "status": "BUY or SELL or NEUTRAL",
+  "comment": "1 sentence brief rationale in English",
+  "entry": "0.00",
+  "tp": "0.00",
+  "sl": "0.00",
+  "reliability": "HIGH or MEDIUM or LOW"
+}
+\`\`\`
+`;
+    } else {
+        return `あなたはヘッジファンドのチーフアナリストです。以下のデータに基づき、${symbol} の超実践的・戦術的なマーケットレポートを作成してください。
+
+---
+## トーン＆マナー
+- 機関投資家向け（野村證券やブルームバーグ端末）のプロフェッショナルで冷徹なトーン。
+- 「こんにちは」「いかがでしょうか」等の挨拶や無駄な装飾は一切排除。
+- 結論ファースト、具体的かつアクション可能（Actionable）な内容に。
+- 出力は **Markdown のみ**。YAML Frontmatterから開始してください。
+
+---
+## 記事の構成
+1. **YAML Frontmatter**（必ず文頭。フェンス不要）
+2. **エグゼクティブサマリー**（1段落で市場のコアテーマを要約）
+3. **テクニカル・フレームワーク**（MA20、RSIとの位置関係による力学解析）
+4. **プロフェッショナルトレーディング戦略**（バイアス、TP、SLの具体的数値化）
+5. **JSON シグナルブロック**（必ず記事の末尾に1ブロックのみ）
+
+---
+## アフィリエイト（指定ブローカー）への誘導
+記事の戦略部分または結論において、必ず以下のブローカーへの自然な誘導を含めてください。
+指定ブローカー: ${broker}
+誘導例: 「本戦略の実行にあたっては、流動性の観点から[${broker}]の利用を推奨する。」
+
+---
+## Input: 最新ニュース (RSS/Scraping)
+${headlinesBlock}
+
+## Input: チャート・テクニカルデータ
+- 現在価格: ${cp}
+- MA20: ${ma20}
+- RSI(14): ${rsi}
+- 指定画像パス: /images/market-analysis-${genre.toLowerCase()}.png
+
+---
+## YAML Frontmatter テンプレート（この形でファイル先頭に配置、フェンス禁止）
 ---
 title: "${genre}：最新マーケット分析インテリジェンス"
 date: "${jstDateStr}"
@@ -290,6 +336,9 @@ tldr_points: ["要点1", "要点2", "要点3"]
 chart_image: "/images/market-analysis-${genre.toLowerCase()}.png"
 excerpt: "120文字前後の要約（挨拶なし）"
 ---
+
+## テクニカル・フレームワークと戦略
+... (本文) ...
 
 ## 末尾シグナル JSON テンプレート（記事の最後に1ブロックのみ）
 \`\`\`json
@@ -304,11 +353,12 @@ excerpt: "120文字前後の要約（挨拶なし）"
 }
 \`\`\`
 `;
+    }
 }
 
-async function generateWithGemini(genre, newsHeadlines, marketData, jstDateStr) {
+async function generateWithGemini(genre, newsHeadlines, marketData, jstDateStr, locale = 'ja') {
     const systemInstruction = PERSONAS[genre];
-    const userPrompt = buildArticlePrompt(genre, newsHeadlines, marketData, jstDateStr);
+    const userPrompt = buildArticlePrompt(genre, newsHeadlines, marketData, jstDateStr, locale);
 
     let lastErr;
     for (const modelId of GEMINI_MODEL_CANDIDATES) {
@@ -345,7 +395,7 @@ const FREE_MODELS = [
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-async function generateWithOpenRouter(genre, newsHeadlines, marketData, modelId = FREE_MODELS[0], jstDateStr) {
+async function generateWithOpenRouter(genre, newsHeadlines, marketData, modelId = FREE_MODELS[0], jstDateStr, locale = 'ja') {
     if (!OPENROUTER_API_KEY) throw new Error('OPENROUTER_API_KEY is not set.');
 
     const isExplicitlyFree = modelId.endsWith(':free');
@@ -356,7 +406,7 @@ async function generateWithOpenRouter(genre, newsHeadlines, marketData, modelId 
         throw new Error(`Permission Denied: Model ${modelId} is not verified as FREE.`);
     }
 
-    const userPrompt = buildArticlePrompt(genre, newsHeadlines, marketData, jstDateStr);
+    const userPrompt = buildArticlePrompt(genre, newsHeadlines, marketData, jstDateStr, locale);
 
     console.log(`[${genre}] OpenRouter fallback (${modelId})...`);
 
@@ -516,8 +566,10 @@ function rebuildReportsIndexFromReportsDir() {
         }
 
         const entryDate = data.date ? String(data.date) : (file.match(/^(\d{4}-\d{2}-\d{2})-/)?.[1] || '');
-        const genreFromFile = String(file.match(/-(fx|stocks|crypto)\.md$/i)?.[1] || '').toUpperCase();
+        const genreFromFile = String(file.match(/-(fx|stocks|crypto)[-.](ja|en)\.md$/i)?.[1] || file.match(/-(fx|stocks|crypto)\.md$/i)?.[1] || '').toUpperCase();
         const genre = String(data.genre || genreFromFile || 'FX').trim().toUpperCase();
+        const localeMatch = file.match(/[-.](ja|en)\.md$/i);
+        const locale = localeMatch ? localeMatch[1].toLowerCase() : 'ja';
 
         return {
             id,
@@ -529,6 +581,7 @@ function rebuildReportsIndexFromReportsDir() {
             recommended_broker: String(data.recommended_broker || '').trim(),
             excerpt: String(data.excerpt || '').trim(),
             result: String(existingById.get(id)?.result || 'PENDING').trim(),
+            locale
         };
     });
 
@@ -575,8 +628,9 @@ async function fetchCryptoFearGreed() {
     }
 }
 
-async function generateDeterministicReport(genre, newsHeadlines, marketData, jstDateStr) {
-    const broker = RECOMMENDED_BROKERS[genre];
+async function generateDeterministicReport(genre, newsHeadlines, marketData, jstDateStr, locale = 'ja') {
+    const isEn = locale === 'en';
+    const broker = (RECOMMENDED_BROKERS[locale] || RECOMMENDED_BROKERS.ja)[genre];
     const symbol = TICKER_MAP[genre].symbol;
 
     const cpNum = marketData?.current_price;
@@ -693,21 +747,26 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
         return parts.join(' / ');
     })();
 
-    // Titles / TLDR (Japanese, professional)
-    const title =
-        status === 'BUY'
-            ? `${symbol}：本日のAI解析が示す上昇シナリオとリスク管理`
-            : status === 'SELL'
-                ? `${symbol}：本日のAI解析が示す下落シナリオと防御策`
-                : `${symbol}：本日のAI解析が示すレンジ警戒と実行戦略`;
+    // Titles / TLDR
+    const title = isEn
+        ? (status === 'BUY' ? `${symbol}: Bullish Scenario & AI Risk Management`
+           : status === 'SELL' ? `${symbol}: Bearish Outlook & Defense Strategies`
+           : `${symbol}: Range Cautiousness & Tactical Execution`)
+        : (status === 'BUY' ? `${symbol}：本日のAI解析が示す上昇シナリオとリスク管理`
+           : status === 'SELL' ? `${symbol}：本日のAI解析が示す下落シナリオと防御策`
+           : `${symbol}：本日のAI解析が示すレンジ警戒と実行戦略`);
 
-    const tldr_points = [
-        `金利相関（近似）: ${corrStr}で${corr != null && corr >= 0 ? '正相関' : '負相関'}傾向`,
-        `テクニカル: 現在価格 ${cp ?? '---'} と MA20 ${ma20 ?? '---'} の位置関係が主導`,
-        `需給: ${liquidityLine || '重要帯の確認が必要'} によるターゲット設計`,
-    ];
+    const tldr_points = isEn 
+        ? [ `Interest Correlation (Approx): ${corrStr} (${corr != null && corr >= 0 ? 'Positive' : 'Negative'})`,
+            `Technical: Driven by Price ${cp ?? '---'} vs MA20 ${ma20 ?? '---'}`,
+            `Liquidity: Targets based on ${liquidityLine || 'critical levels'}` ]
+        : [ `金利相関（近似）: ${corrStr}で${corr != null && corr >= 0 ? '正相関' : '負相関'}傾向`,
+            `テクニカル: 現在価格 ${cp ?? '---'} と MA20 ${ma20 ?? '---'} の位置関係が主導`,
+            `需給: ${liquidityLine || '重要帯の確認が必要'} によるターゲット設計` ];
 
-    const excerpt = `本日のAI解析では、${symbol}の現在価格 ${cp ?? '不明'}、RSI(${rsi ?? '---'})、MA20(${ma20 ?? '---'})を軸に、金利相関と需給帯から実行プランを整理する。`;
+    const excerpt = isEn
+        ? `Today's AI analysis outlines the execution plan for ${symbol} around Price ${cp ?? 'Unknown'}, RSI(${rsi ?? '---'}), and MA20(${ma20 ?? '---'}).`
+        : `本日のAI解析では、${symbol}の現在価格 ${cp ?? '不明'}、RSI(${rsi ?? '---'})、MA20(${ma20 ?? '---'})を軸に、金利相関と需給帯から実行プランを整理する。`;
 
     const maRel =
         cp && ma20
@@ -809,146 +868,110 @@ async function main() {
         if (allNews.length === 0) {
             console.log(`[${genre}] ⚠️ No news found. Using neutral placeholders.`);
             allNews = [
-                { title: '主要中央銀行の政策正常化観測が市場ボラティリティを左右', link: '' },
-                { title: '地政学・サプライチェーンがリスクプレミアムに影響', link: '' },
-                { title: '実質金利とドル動向がクロスアセットに波及', link: '' },
+                { title: 'Market volatility driven by central bank policy expectations', link: '' },
+                { title: 'Geopolitical and supply chain factors impacting risk premiums', link: '' },
+                { title: 'Real interest rates and USD trends affecting cross-asset flows', link: '' },
             ];
         }
 
         const newsForPrompt = allNews.slice(0, 5);
+        const marketData = generateChart(genre);
+        const dateStr = getJSTDateStr(TARGET_DATE_RAW);
+        const displayDateStr = getJSTDateStr(TARGET_DATE_RAW, true);
 
-        try {
-            const marketData = generateChart(genre);
-            const dateStr = getJSTDateStr(TARGET_DATE_RAW);
-            const displayDateStr = getJSTDateStr(TARGET_DATE_RAW, true);
-            const filePath = path.join(REPORTS_DIR, `${dateStr}-${genre.toLowerCase()}.md`);
+        // --- AI Generation Loop for both Locales ---
+        for (const locale of ['ja', 'en']) {
+            console.log(`[${genre}:${locale}] 🚀 Starting generation for ${dateStr}...`);
+            let markdown = '';
 
-            console.log(`[${genre}] 🚀 Starting generation for ${dateStr}...`);
-
-            let markdown;
-            if (deterministicOnly) {
-                markdown = await generateDeterministicReport(genre, newsForPrompt, marketData, displayDateStr);
-            } else {
-                if (GEMINI_API_KEY && GEMINI_API_KEY !== 'dummy_key') {
-                    try {
-                        markdown = await generateWithGemini(genre, newsForPrompt, marketData, displayDateStr);
-                    } catch (e) {
-                        console.warn(`[${genre}] ⚠️ Gemini generation failed: ${e.message}`);
-                    }
-                }
-
-                if (!markdown && OPENROUTER_API_KEY) {
-                    console.log(`[${genre}] Trying OpenRouter fallback chain...`);
-                    for (const mId of FREE_MODELS) {
+            try {
+                if (deterministicOnly) {
+                    markdown = await generateDeterministicReport(genre, newsForPrompt, marketData, displayDateStr, locale);
+                } else {
+                    if (GEMINI_API_KEY && GEMINI_API_KEY !== 'dummy_key') {
                         try {
-                            markdown = await generateWithOpenRouter(genre, newsForPrompt, marketData, mId, displayDateStr);
-                            if (markdown) {
-                                console.log(`[${genre}] ✅ Fallback successful with ${mId}`);
-                                break;
+                            markdown = await generateWithGemini(genre, newsForPrompt, marketData, displayDateStr, locale);
+                        } catch (e) {
+                            console.warn(`[${genre}:${locale}] ⚠️ Gemini generation failed: ${e.message}`);
+                        }
+                    }
+
+                    if (!markdown && OPENROUTER_API_KEY) {
+                        console.log(`[${genre}:${locale}] Trying OpenRouter fallback chain...`);
+                        for (const mId of FREE_MODELS) {
+                            try {
+                                markdown = await generateWithOpenRouter(genre, newsForPrompt, marketData, mId, displayDateStr, locale);
+                                if (markdown) {
+                                    console.log(`[${genre}:${locale}] ✅ Fallback successful with ${mId}`);
+                                    break;
+                                }
+                            } catch (e2) {
+                                console.error(`[${genre}:${locale}] ❌ OpenRouter ${mId}: ${e2.message}`);
                             }
-                        } catch (e2) {
-                            console.error(`[${genre}] ❌ OpenRouter ${mId}: ${e2.message}`);
                         }
                     }
                 }
-            }
 
-            if (!markdown) {
-                console.warn(`[${genre}] ⚠️ All AI generation failed. Using emergency template.`);
-                const symbol = TICKER_MAP[genre].symbol;
-                const cp = marketData?.current_price != null ? parseFloat(marketData.current_price).toFixed(2) : '---';
-                markdown = `---
-title: "${genre} 市場状況アップデート"
+                if (!markdown) {
+                    console.warn(`[${genre}:${locale}] ⚠️ All AI generation failed. Using emergency template.`);
+                    const symbol = TICKER_MAP[genre].symbol;
+                    const cp = marketData?.current_price != null ? parseFloat(marketData.current_price).toFixed(2) : '---';
+                    const brokerFallback = (RECOMMENDED_BROKERS[locale] || RECOMMENDED_BROKERS.ja)[genre];
+                    markdown = `---
+title: "${genre} Market Update"
 date: "${dateStr}"
 genre: "${genre}"
 target_pair: "${symbol}"
 prediction_direction: "FLAT"
-recommended_broker: "${RECOMMENDED_BROKERS[genre]}"
-tldr_points: ["AI生成パイプライン一時停止", "公開テクニカル: 終値 ${cp}", "リスク管理の優先"]
+recommended_broker: "${brokerFallback}"
+tldr_points: ["AI pipeline issue", "Price: ${cp}", "Risk management prioritized"]
 chart_image: "/images/market-analysis-${genre.toLowerCase()}.png"
-excerpt: "シナプス解析データの自動生成に遅延が発生しています。公開指標のみ参照し、慎重な判断を推奨します。"
+excerpt: "Market analysis generation is temporarily delayed. Please refer to live prices."
 ---
-
-## 1. 市場環境とファンダメンタルズ
-- **キーワード**: \`#ボラティリティ\` \`#流動性\` \`#マクロ\`
-- **サマリー**: <strong>自動生成システム</strong>が一時的に完全な解析を返せない状態です。ニュースフローは各情報源で直接確認してください。
-
-## 2. AI多角分析（シナプス解析）
-- **金利相関解析**: データ不足のため記述を省略。政策金利・実質金利の方向をモニタリングしてください。
-- **オーダーブック解析**: 板情報は取引所・ブローカー画面で確認してください。
-- **センチメント解析**: 極度の楽観・悲観は反転リスクとして扱うべきです。
-
-## 3. テクニカル分析
-- **参照データ**: 終値 ${cp}、RSI(14) ${marketData?.rsi != null ? parseFloat(marketData.rsi).toFixed(2) : '---'}、MA20 ${marketData?.ma20 != null ? parseFloat(marketData.ma20).toFixed(2) : '---'}
-- **分析ポイント**: 主要移動平均との位置関係を確認 / 直近高値・安値のブレイク可否を監視
-
-## 4. プロ・トレーディング戦略
-- **全体方針**: 新規エントリーは控えめにし、既存ポジションのリスク上限を優先する。
-- **利確ターゲット**: 0.00
-- **損切りライン**: 0.00
-
-## 5. 結論とアクションプラン
-- **結論サマリー**: 本日のAI解析はシステム制約により完全版を提供できません。数値はツール出力を優先し、ファンダとテクニカルの両面で独自検証してください。
-- **Next Step**:
-- 経済カレンダー上の重要イベントを確認する
-- 想定シナリオ別の損益分岐を整理する
-- ポジションサイズをボラティリティに合わせて再評価する
+Market data is currently being processed manually due to high volatility.
+Current Price: ${cp}
+MA20: ${marketData?.ma20 != null ? parseFloat(marketData.ma20).toFixed(2) : '---'}
 
 \`\`\`json
 {
   "pair": "${symbol}",
   "status": "NEUTRAL",
-  "comment": "自動生成フォールバック",
+  "comment": "${locale === 'ja' ? '自動生成フォールバック' : 'Emergency fallback'}",
   "entry": "${cp}",
   "tp": "${cp}",
   "sl": "${cp}",
   "reliability": "LOW"
 }
 \`\`\``;
-            }
-
-            markdown = stripLeadingCodeFenceAroundFrontmatter(markdown);
-
-            fs.writeFileSync(filePath, markdown);
-            console.log(`✅ Saved: ${filePath}`);
-
-            const indexPath = './content/reports-index.json';
-            let index = [];
-            if (fs.existsSync(indexPath)) {
-                try {
-                    index = JSON.parse(fs.readFileSync(indexPath, 'utf8'));
-                } catch {
-                    index = [];
                 }
-            }
 
-            const newEntry = extractIndexEntry(markdown, genre, dateStr);
-            const existingIdx = index.findIndex((item) => item.id === newEntry.id);
-            if (existingIdx !== -1) index[existingIdx] = { ...index[existingIdx], ...newEntry };
-            else index.unshift(newEntry);
-            if (index.length > 100) index = index.slice(0, 100);
-            fs.writeFileSync(indexPath, JSON.stringify(index, null, 2));
-            console.log(`✅ Updated reports-index.json`);
+                markdown = stripLeadingCodeFenceAroundFrontmatter(markdown);
+                const fileName = `${dateStr}-${genre.toLowerCase()}-${locale}.md`;
+                const filePath = path.join(REPORTS_DIR, fileName);
 
-            const sigPath = './content/latest-signals.json';
-            let sigs = {};
-            if (fs.existsSync(sigPath)) {
-                try {
-                    sigs = JSON.parse(fs.readFileSync(sigPath, 'utf8'));
-                } catch {
-                    sigs = {};
+                fs.writeFileSync(filePath, markdown);
+                console.log(`✅ [${genre}:${locale}] Saved: ${filePath}`);
+
+                // Update signal JSON with the ja version (primary)
+                if (locale === 'ja') {
+                    const sigPath = './content/latest-signals.json';
+                    let sigs = {};
+                    if (fs.existsSync(sigPath)) {
+                        try { sigs = JSON.parse(fs.readFileSync(sigPath, 'utf8')); } catch { sigs = {}; }
+                    }
+                    sigs[genre] = buildMergedSignalForGenre(genre, markdown, marketData);
+                    fs.writeFileSync(sigPath, JSON.stringify(sigs, null, 2));
+                    console.log(`✅ Updated latest-signals.json (${genre})`);
                 }
+
+            } catch (err) {
+                console.error(`❌ [${genre}:${locale}] Critical error:`, err.message);
             }
-            sigs[genre] = buildMergedSignalForGenre(genre, markdown, marketData);
-            fs.writeFileSync(sigPath, JSON.stringify(sigs, null, 2));
-            console.log(`✅ Updated latest-signals.json (${genre})`);
-        } catch (e) {
-            console.error(`❌ Failed ${genre}:`, e.message);
         }
     }
 
     // Index should be derived from the existing markdown files,
-    // so older articles never “disappear” due to partial/failed runs.
+    // so older articles never "disappear" due to partial/failed runs.
     rebuildReportsIndexFromReportsDir();
 }
 

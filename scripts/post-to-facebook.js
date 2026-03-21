@@ -44,7 +44,6 @@ async function postToMakeWebhook() {
             .sort((a, b) => b.localeCompare(a)); // Sort descending (latest first)
 
         if (allFiles.length > 0) {
-            // Get the date string from the latest file (e.g., "2026-03-15")
             const latestFile = allFiles[0];
             const dateMatch = latestFile.match(/^(\d{4}-\d{2}-\d{2})/);
             
@@ -52,7 +51,6 @@ async function postToMakeWebhook() {
                 targetDate = dateMatch[1];
                 console.log(`ℹ️ Most recent reports found for date: ${targetDate}`);
                 
-                // Get ALL reports for that specific date to ensure all genres are covered
                 reportsToPost = allFiles
                     .filter(f => f.startsWith(targetDate))
                     .map(f => ({ name: f, path: path.join(reportsDir, f) }));
@@ -67,8 +65,26 @@ async function postToMakeWebhook() {
     console.log(`🚀 Found ${reportsToPost.length} report(s) for ${targetDate} to process.`);
 
     for (const report of reportsToPost) {
-        const reportId = report.name.replace(/\.md$/, '');
-        const reportUrl = `${BASE_URL}/ja/reports/${reportId}/`;
+        // [Requirement 1] Extract locale (ja/en) and genre from filename
+        // Matches e.g., 2026-03-21-fx.ja.md or 2026-03-21-crypto-en.md
+        const filenameRegex = /^\d{4}-\d{2}-\d{2}-([a-zA-Z0-9]+)[-.](ja|en)\.md$/i;
+        const match = report.name.match(filenameRegex);
+        
+        let extractedGenre = 'MARKET';
+        let extractedLocale = 'ja';
+        
+        if (match) {
+            extractedGenre = match[1].toUpperCase();
+            extractedLocale = match[2].toLowerCase();
+        } else {
+            // Fallback for non-compliant filenames just in case
+            const localeFallback = report.name.match(/[-.](ja|en)\.md$/i);
+            if (localeFallback) extractedLocale = localeFallback[1].toLowerCase();
+        }
+
+        // Generate ID URL slug by stripping locale suffix
+        const reportId = report.name.replace(/[-.](ja|en)\.md$/i, '').replace(/\.md$/i, '');
+        const reportUrl = `${BASE_URL}/${extractedLocale}/reports/${reportId}/`;
         const GITHUB_REPO = process.env.GITHUB_REPOSITORY || 'noriyuki007/synapse-capital-frontend';
 
         // Read markdown to get basic metadata
@@ -77,8 +93,8 @@ async function postToMakeWebhook() {
         const genreMatch = content.match(/genre:\s*"(.*?)"/);
         const chartImageMatch = content.match(/chart_image:\s*"(.+?)"/);
         
-        const title = titleMatch ? titleMatch[1] : '最新のマーケットレポート';
-        const genre = genreMatch ? genreMatch[1] : 'MARKET';
+        const title = titleMatch ? titleMatch[1] : (extractedLocale === 'ja' ? '最新のマーケットレポート' : 'Latest Market Report');
+        const genre = genreMatch ? genreMatch[1] : extractedGenre;
         const chartImagePath = chartImageMatch ? chartImageMatch[1] : '';
 
         // GitHub Raw URLへの変換
@@ -89,34 +105,45 @@ async function postToMakeWebhook() {
             imageUrl = `https://raw.githubusercontent.com/${GITHUB_REPO}/main/${repoFilePath}`;
         }
 
-        console.log(`🚀 Sending to Make [${genre}]: ${title}`);
+        // [Requirement 4] ログ出力の強化
+        console.log(`🚀 Sending to Make [${genre} (${extractedLocale})]: ${title}`);
         console.log(`📸 Image URL: ${imageUrl}`);
         console.log(`🔗 Report URL: ${reportUrl}`);
 
-        try {
-            const response = await fetch(MAKE_WEBHOOK_URL, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({
-                    title: title,
-                    content: content,
-                    image_url: imageUrl,
-                    url: reportUrl,
-                    report_url: reportUrl,
-                    genre: genre,
-                    message: `【最新レポート更新：${genre}】\n${title}\n\nAIによる最新のマーケット解析を公開しました。詳細はサイトをご確認ください。\n\n${reportUrl}`,
-                    status: "success"
-                })
-            });
+        const message = extractedLocale === 'ja' 
+            ? `【最新レポート更新：${genre}】\n${title}\n\nAIによる最新のマーケット解析を公開しました。詳細はサイトをご確認ください。\n\n${reportUrl}`
+            : `【Market Report: ${genre}】\n${title}\n\nOur AI-driven market analysis has been updated. Check the full report on our terminal.\n\n${reportUrl}`;
 
-            if (response.ok) {
-                console.log(`✅ Successfully posted ${genre} report.`);
+        // [Requirement 2] Webhook送信処理 (Both languages loop over automatically since fs.readdirSync picks up all files)
+        try {
+            if (MAKE_WEBHOOK_URL) {
+                const response = await fetch(MAKE_WEBHOOK_URL, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        title: title,
+                        content: content,
+                        image_url: imageUrl,
+                        url: reportUrl,
+                        report_url: reportUrl,
+                        genre: genre,
+                        locale: extractedLocale, // [Requirement 3] Payloadへの追加
+                        message: message,
+                        status: "success"
+                    })
+                });
+
+                if (response.ok) {
+                    console.log(`✅ Successfully posted ${genre} (${extractedLocale}) report.`);
+                } else {
+                    const errorBody = await response.text();
+                    console.error(`❌ Failed to post ${genre} (${extractedLocale}). Status: ${response.status}, Body: ${errorBody}`);
+                }
             } else {
-                const errorBody = await response.text();
-                console.error(`❌ Failed to post ${genre}. Status: ${response.status}, Body: ${errorBody}`);
+                console.log(`ℹ️ [Dry Run] Would POST: ${genre} (${extractedLocale}) -> ${reportUrl}`);
             }
         } catch (error) {
-            console.error(`❌ Error posting ${genre}:`, error.message);
+            console.error(`❌ Error posting ${genre} (${extractedLocale}):`, error.message);
         }
     }
 }

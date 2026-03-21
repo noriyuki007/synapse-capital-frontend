@@ -13,6 +13,8 @@ function rebuild() {
         const content = fs.readFileSync(`${REPORTS_DIR}/${file}`, 'utf8');
         const { data } = matter(content);
         const id = file.replace('.md', '');
+        const localeMatch = file.match(/[-.](ja|en)\.md$/i);
+        const locale = localeMatch ? localeMatch[1].toLowerCase() : 'ja';
         
         index.push({
             id: id,
@@ -23,7 +25,8 @@ function rebuild() {
             prediction_direction: (data.prediction_direction || 'FLAT').trim(),
             recommended_broker: (data.recommended_broker || '').trim(),
             excerpt: (data.excerpt || '').trim(),
-            result: (data.result || 'PENDING').trim()
+            result: (data.result || 'PENDING').trim(),
+            locale: locale
         });
     });
 
