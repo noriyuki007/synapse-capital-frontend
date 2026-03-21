@@ -67,23 +67,30 @@ async function postToMakeWebhook() {
     console.log(`🚀 Found ${reportsToPost.length} report(s) for ${targetDate} to process.`);
 
     for (const report of reportsToPost) {
-        const slug = report.name.replace('.md', '');
-        const url = `${BASE_URL}/ja/reports/${slug}/`;
-        
+        const reportId = report.name.replace(/\.md$/, '');
+        const reportUrl = `${BASE_URL}/ja/reports/${reportId}/`;
+        const GITHUB_REPO = process.env.GITHUB_REPOSITORY || 'noriyuki007/synapse-capital-frontend';
+
         // Read markdown to get basic metadata
         const content = fs.readFileSync(report.path, 'utf8');
         const titleMatch = content.match(/title:\s*"(.*?)"/);
         const genreMatch = content.match(/genre:\s*"(.*?)"/);
+        const chartImageMatch = content.match(/chart_image:\s*"(.+?)"/);
         
         const title = titleMatch ? titleMatch[1] : '最新のマーケットレポート';
         const genre = genreMatch ? genreMatch[1] : 'MARKET';
+        const chartImagePath = chartImageMatch ? chartImageMatch[1] : '';
 
-        const reportId = report.name.replace(/\.md$/, '');
-        // next.config.ts で trailingSlash: true が設定されているため、末尾にスラッシュを追加します
-        const reportUrl = `${BASE_URL}/ja/reports/${reportId}/`;
+        // GitHub Raw URLへの変換
+        let imageUrl = '';
+        if (chartImagePath) {
+            const cleanPath = chartImagePath.startsWith('/') ? chartImagePath.slice(1) : chartImagePath;
+            const repoFilePath = `public/${cleanPath}`;
+            imageUrl = `https://raw.githubusercontent.com/${GITHUB_REPO}/main/${repoFilePath}`;
+        }
 
-        console.log(`🚀 Sending to Make: ${title}`);
-        // console.log(`📸 Image URL: ${imageUrl}`); // imageUrl is not defined in the original code
+        console.log(`🚀 Sending to Make [${genre}]: ${title}`);
+        console.log(`📸 Image URL: ${imageUrl}`);
         console.log(`🔗 Report URL: ${reportUrl}`);
 
         try {
@@ -92,25 +99,24 @@ async function postToMakeWebhook() {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     title: title,
-                    // content: content, // content is not part of the original payload
-                    // image_url: imageUrl, // imageUrl is not defined in the original code
-                    url: reportUrl,          // 一般的な 'url' という項目名に変更（または追加）
-                    report_url: reportUrl,   // 互換性のため残す
-                    // status: "success", // status is not part of the original payload
-                    genre: genre, // Keep existing genre
-                    message: `【最新レポート更新：${genre}】\n${title}\n\nAIによる最新のマーケット分析を公開しました。詳細はサイトをご確認ください。\n\n${reportUrl}` // Update message with reportUrl
+                    content: content,
+                    image_url: imageUrl,
+                    url: reportUrl,
+                    report_url: reportUrl,
+                    genre: genre,
+                    message: `【最新レポート更新：${genre}】\n${title}\n\nAIによる最新のマーケット解析を公開しました。詳細はサイトをご確認ください。\n\n${reportUrl}`,
+                    status: "success"
                 })
             });
 
             if (response.ok) {
-                console.log(`Successfully posted ${genre} report.`);
+                console.log(`✅ Successfully posted ${genre} report.`);
             } else {
-                console.error(`Failed to post ${genre}. Status: ${response.status}`);
-                const text = await response.text();
-                console.error(text);
+                const errorBody = await response.text();
+                console.error(`❌ Failed to post ${genre}. Status: ${response.status}, Body: ${errorBody}`);
             }
         } catch (error) {
-            console.error(`Error posting ${genre}:`, error.message);
+            console.error(`❌ Error posting ${genre}:`, error.message);
         }
     }
 }
