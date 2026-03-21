@@ -100,7 +100,7 @@
       "security": 4.9,
       "support": 4.4
     },
-    "affiliateLink": "https://h.accesstrade.net/sp/cc?rk=0100mve100oow9",
+    "affiliateLink": "https://h.accesstrade.net/sp/cc?rk=0100mkk300oow9",
     "affiliateLink_en": "",
     "rating": 4.6,
     "scores": {
@@ -109,63 +109,6 @@
       "speed": 4.5,
       "security": 4.9,
       "support": 4.4
-    },
-    "lastCalculated": "2026-03-17T13:30:38.474Z",
-    "integrityCertified": true
-  },
-  {
-    "id": "moomoo-securities",
-    "name": "moomoo証券",
-    "name_en": "moomoo Securities",
-    "supportedLocales": ["ja", "en"],
-    "description": "次世代の投資体験を提供する。プロ級の分析ツールと、業界最安水準の手数料が魅力。",
-    "description_en": "Delivers a next-generation investment experience with pro-grade analysis tools and ultra-low commissions.",
-    "features": [
-      "プロ級の分析ツールが無料",
-      "米国株の24時間取引",
-      "低い取引コスト"
-    ],
-    "features_en": [
-      "Free pro-grade analysis tools",
-      "24-hour US stock trading",
-      "Low transaction costs"
-    ],
-    "pros": [
-      "情報量が圧倒的に多い",
-      "UIがモダンで使いやすい"
-    ],
-    "pros_en": [
-      "Vast amount of market information",
-      "Modern and easy-to-use UI"
-    ],
-    "cons": [
-      "ツールが多機能すぎて迷うことがある",
-      "歴史が浅い"
-    ],
-    "cons_en": [
-      "Extensive features can be overwhelming",
-      "Relatively short history"
-    ],
-    "targetAudience": "データ重視の個人投資家・米国株トレーダー",
-    "targetAudience_en": "Data-driven individual investors and US stock traders",
-    "recommendation": "高度なチャート分析と、豊富なマーケット情報を求めるアクティブ投資家に。",
-    "recommendation_en": "Perfect for active investors demanding advanced charting and deep market data.",
-    "rawScores": {
-      "cost": 4.9,
-      "platform": 5,
-      "speed": 4.6,
-      "security": 4.5,
-      "support": 4.3
-    },
-    "affiliateLink": "https://h.accesstrade.net/sp/cc?rk=0100pge400oow9",
-    "affiliateLink_en": "",
-    "rating": 4.6,
-    "scores": {
-      "cost": 4.9,
-      "platform": 5,
-      "speed": 4.6,
-      "security": 4.5,
-      "support": 4.3
     },
     "lastCalculated": "2026-03-17T13:30:38.474Z",
     "integrityCertified": true
@@ -346,7 +289,7 @@
     "id": "tossy",
     "name": "TOSSY",
     "name_en": "TOSSY",
-    "supportedLocales": ["ja", "en"],
+    "supportedLocales": ["ja"],
     "description": "「FUN & POP」を掲げる新世代投資アプリ。株・FX・仮想通貨をシームレスに取引可能。",
     "description_en": "A next-gen investment app themed 'FUN & POP'. Seamlessly trade stocks, FX, and crypto.",
     "features": [
@@ -387,8 +330,8 @@
       "security": 4.1,
       "support": 4.3
     },
-    "affiliateLink": "https://tossy.io/",
-    "affiliateLink_en": "https://tossy.io/",
+    "affiliateLink": "https://h.accesstrade.net/sp/cc?rk=0100q1qf00oow9",
+    "affiliateLink_en": "",
     "rating": 4.3,
     "scores": {
       "cost": 4,
