@@ -1,9 +1,9 @@
 import React from 'react';
+export const runtime = 'edge';
 import { getDictionary } from '@/locales/dictionaries';
 import FXProClient from '@/components/FXProClient';
 import { Metadata } from 'next';
 
-export const dynamicParams = false;
 export async function generateStaticParams() {
     return [{ locale: 'en' }, { locale: 'ja' }];
 }

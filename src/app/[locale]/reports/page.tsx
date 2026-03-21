@@ -1,4 +1,5 @@
 import React from 'react';
+export const runtime = 'edge';
 import { getSortedReportsData, getTrackRecordStats } from '@/lib/reports';
 import { Header } from '@/components/Header';
 import { Sidebar } from '@/components/Sidebar';
@@ -9,7 +10,6 @@ import { Activity, Clock } from 'lucide-react';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
-export const dynamicParams = false;
 export async function generateStaticParams() {
     return [{ locale: 'en' }, { locale: 'ja' }];
 }

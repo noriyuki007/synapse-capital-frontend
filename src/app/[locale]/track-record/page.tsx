@@ -1,4 +1,5 @@
 import React from 'react';
+export const runtime = 'edge';
 import { getSortedReportsData, getTrackRecordStats } from '@/lib/reports';
 import { Header } from '@/components/Header';
 import { Sidebar } from '@/components/Sidebar';
@@ -7,7 +8,6 @@ import { Activity, ShieldCheck, CheckCircle2, XCircle } from 'lucide-react';
 import { getDictionary } from '@/locales/dictionaries';
 import { Metadata } from 'next';
 
-export const dynamicParams = false;
 export async function generateStaticParams() {
     return [{ locale: 'en' }, { locale: 'ja' }];
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+export const runtime = 'edge';
 import { Activity, Zap, Shield, TrendingUp, ArrowRight, Globe } from 'lucide-react';
 import Link from 'next/link';
 import { SignalCard } from '@/components/SignalCard';

@@ -1,4 +1,5 @@
 import React from 'react';
+export const runtime = 'edge';
 import { getExchanges } from '@/lib/microcms';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
@@ -7,7 +8,6 @@ import { Shield, ArrowRight, Zap, Trophy, Star, ShieldCheck } from 'lucide-react
 import Link from 'next/link';
 import { Metadata } from 'next';
 
-export const dynamicParams = false;
 export async function generateStaticParams() {
     return [{ locale: 'en' }, { locale: 'ja' }];
 }

@@ -1,4 +1,5 @@
 import React from 'react';
+export const runtime = 'edge';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { getDictionary } from '@/locales/dictionaries';
@@ -6,7 +7,6 @@ import { TermsJA } from '@/components/legal/TermsJA';
 import { TermsEN } from '@/components/legal/TermsEN';
 import { Metadata } from 'next';
 
-export const dynamicParams = false;
 export async function generateStaticParams() {
     return [{ locale: 'en' }, { locale: 'ja' }];
 }

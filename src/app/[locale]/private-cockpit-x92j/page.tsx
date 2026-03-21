@@ -1,6 +1,6 @@
+export const runtime = 'edge';
 import SecretCockpit from '@/components/SecretCockpit';
 
-export const dynamicParams = false;
 export async function generateStaticParams() {
     return [{ locale: 'en' }, { locale: 'ja' }];
 }
