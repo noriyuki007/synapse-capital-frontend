@@ -11,6 +11,7 @@ const REPORTS_DIR = './content/reports';
 
 const CLI_DATE_ARG = process.argv.find((a) => a.startsWith('--date='));
 const TARGET_DATE_RAW = process.env.TARGET_DATE || (CLI_DATE_ARG ? CLI_DATE_ARG.split('=')[1] : '');
+const REBUILD_ONLY = process.argv.includes('--rebuild-only');
 
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY || 'dummy_key');
 
@@ -238,6 +239,7 @@ function buildArticlePrompt(genre, newsHeadlines, marketData, jstDateStr, locale
 ---
 ## Output Structure
 1. **YAML Frontmatter** (MUST be at the very top, no code fences before it)
+   - **title**: Create a high-impact, professional, and SEO-friendly title that hooks the reader (e.g., "Countdown to 160? AI Analytics Identifies Target for USD/JPY Breakout" instead of a generic header).
 2. **Executive Summary** (1 short paragraph)
 3. **Technical Framework** (Price action vs MA20, RSI momentum)
 4. **Professional Trading Strategy** (Directional bias, TP, SL)
@@ -302,6 +304,7 @@ excerpt: "120 character summary (no greetings)"
 ---
 ## 記事の構成
 1. **YAML Frontmatter**（必ず文頭。フェンス不要）
+   - **title**: 読者の目を引き、SEOを意識したプロフェッショナルなタイトルを作成してください（例：「160円突破は秒読みか？AI需給解析が導き出した円安・ドル高の『到達点』」など、具体的でフックのある表現）。
 2. **エグゼクティブサマリー**（1段落で市場のコアテーマを要約）
 3. **テクニカル・フレームワーク**（MA20、RSIとの位置関係による力学解析）
 4. **プロフェッショナルトレーディング戦略**（バイアス、TP、SLの具体的数値化）
@@ -748,13 +751,51 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
     })();
 
     // Titles / TLDR
-    const title = isEn
-        ? (status === 'BUY' ? `${symbol}: Bullish Scenario & AI Risk Management`
-           : status === 'SELL' ? `${symbol}: Bearish Outlook & Defense Strategies`
-           : `${symbol}: Range Cautiousness & Tactical Execution`)
-        : (status === 'BUY' ? `${symbol}：本日のAI解析が示す上昇シナリオとリスク管理`
-           : status === 'SELL' ? `${symbol}：本日のAI解析が示す下落シナリオと防御策`
-           : `${symbol}：本日のAI解析が示すレンジ警戒と実行戦略`);
+    // Improved Titles / TLDR
+    const getDeterministicTitle = (symbol, status, locale) => {
+        const isEn = locale === 'en';
+        const templates = {
+            BUY: isEn 
+                ? [
+                    `${symbol}: AI Analysis Identifies High-Probability Bullish Scenario`,
+                    `${symbol} Outlook: Strategic Upside Potential and Risk Evaluation`,
+                    `Tactical Intelligence: ${symbol} Positioning for Growth Phase`
+                  ]
+                : [
+                    `${symbol}：AI解析が示す上昇シナリオと戦略的リスク管理`,
+                    `${symbol}の見通し：需給バランスから見る「押し目買い」の優位性`,
+                    `インテリジェンス：${symbol}の強気相場における利益確定ポイント`
+                  ],
+            SELL: isEn 
+                ? [
+                    `${symbol}: AI Analytics Detects Bearish Structural Shift`,
+                    `${symbol} Strategy: Defense and Risk Mitigation in Downtrend`,
+                    `Critical Alert: ${symbol} Navigating Potential Correction Phase`
+                  ]
+                : [
+                    `${symbol}：AI解析が示す下落シナリオと防御的ポジション管理`,
+                    `警戒アラート：${symbol}の構造的変化と下落リスクの徹底検証`,
+                    `${symbol}戦略：ベア相場におけるドローダウン極小化プロトコル`
+                  ],
+            NEUTRAL: isEn 
+                ? [
+                    `${symbol}: Range-Bound Cautiousness and Tactical Execution`,
+                    `${symbol} Framework: Analyzing Liquidity Zones in Consolidation`,
+                    `Professional Outlook: ${symbol} Equilibrium and Breakout Triggers`
+                  ]
+                : [
+                    `${symbol}：レンジ圏内での警戒感とプロフェッショナル実行戦略`,
+                    `${symbol}分析：持ち合い局面における流動性ゾーンの特定`,
+                    `戦術的インサイト：${symbol}の均衡状態とブレイク条件の定義`
+                  ]
+        };
+        const list = templates[status] || templates.NEUTRAL;
+        // Deterministic pick based on date to avoid daily identical titles for same status
+        const day = new Date(jstDateStr).getDate() || 0;
+        return list[day % list.length];
+    };
+
+    const title = getDeterministicTitle(symbol, status, locale);
 
     const tldr_points = isEn 
         ? [ `Interest Correlation (Approx): ${corrStr} (${corr != null && corr >= 0 ? 'Positive' : 'Negative'})`,
@@ -976,6 +1017,12 @@ MA20: ${marketData?.ma20 != null ? parseFloat(marketData.ma20).toFixed(2) : '---
     // Index should be derived from the existing markdown files,
     // so older articles never "disappear" due to partial/failed runs.
     rebuildReportsIndexFromReportsDir();
+}
+
+if (REBUILD_ONLY) {
+    console.log('🔄 Running index rebuild only...');
+    rebuildReportsIndexFromReportsDir();
+    process.exit(0);
 }
 
 main();
