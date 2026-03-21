@@ -10,7 +10,7 @@ import {
 // --------------------------------------------------------------------------
 // 1. 市場警戒レベル (Market Alert Gauge)
 // --------------------------------------------------------------------------
-export const MarketAlertGauge = ({ level = 3 }: { level: number }) => {
+export const MarketAlertGauge = ({ level = 3, label }: { level: number, label?: string }) => {
   const colors = [
     'bg-emerald-500', // 1: Low Risk
     'bg-emerald-400', // 2
@@ -20,6 +20,7 @@ export const MarketAlertGauge = ({ level = 3 }: { level: number }) => {
   ];
 
   const labels = ["低リスク", "安定", "警戒", "高リスク", "極めて危険"];
+  const enLabels = ["Low Risk", "Stable", "Caution", "High Risk", "Extreme"];
 
   return (
     <div className="flex flex-col items-center gap-4">
@@ -33,9 +34,9 @@ export const MarketAlertGauge = ({ level = 3 }: { level: number }) => {
         ))}
       </div>
       <div className="flex flex-col items-center">
-        <span className="text-[10px] font-black text-royal-navy opacity-40 uppercase tracking-widest mb-1">現在のリスク状態</span>
+        <span className="text-[10px] font-black text-royal-navy opacity-40 uppercase tracking-widest mb-1">{label || "現在のリスク状態"}</span>
         <span className={`text-sm font-black px-3 py-1 rounded-full text-white ${colors[level-1]}`}>
-          {labels[level-1]}
+          {label ? enLabels[level-1] : labels[level-1]}
         </span>
       </div>
     </div>
@@ -45,7 +46,7 @@ export const MarketAlertGauge = ({ level = 3 }: { level: number }) => {
 // --------------------------------------------------------------------------
 // 2. センチメント・インジケーター (Sentiment Gauge)
 // --------------------------------------------------------------------------
-export const SentimentGauge = ({ score = 50 }: { score: number }) => {
+export const SentimentGauge = ({ score = 50, label }: { score: number, label?: string }) => {
   const rotation = (score / 100) * 180 - 90;
   
   return (
@@ -59,7 +60,7 @@ export const SentimentGauge = ({ score = 50 }: { score: number }) => {
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1 h-8 bg-royal-navy origin-bottom" style={{ transform: `rotate(${rotation}deg)` }} />
       </div>
       <div className="mt-2 flex flex-col items-center">
-        <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest">センチメント指数</span>
+        <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest">{label || "センチメント指数"}</span>
         <span className="text-xl font-black text-royal-navy">{score}%</span>
       </div>
     </div>
@@ -123,12 +124,12 @@ export const MetricBar = ({ label, value }: { label: string, value: number }) =>
 // --------------------------------------------------------------------------
 // 5. テクニカル・チェックリスト (Technical Checklist)
 // --------------------------------------------------------------------------
-export const TechnicalChecklist = () => {
+export const TechnicalChecklist = ({ dict }: { dict?: any }) => {
   const items = [
-    { label: "RSI (過熱感なし)", status: "OK" },
-    { label: "移動平均線乖離", status: "OK" },
-    { label: "ボリンジャーバンド領域", status: "NG" },
-    { label: "一目均衡表 (転換線)", status: "OK" }
+    { label: dict ? "RSI (No Overbought)" : "RSI (過熱感なし)", status: "OK" },
+    { label: dict ? "MA Deviation" : "移動平均線乖離", status: "OK" },
+    { label: dict ? "Bollinger Bands" : "ボリンジャーバンド領域", status: "NG" },
+    { label: dict ? "Ichimoku (Conversion)" : "一目均衡表 (転換線)", status: "OK" }
   ];
 
   return (

@@ -8,7 +8,7 @@ interface ShareButtonsProps {
     url: string;
 }
 
-export function ShareButtons({ title, url }: ShareButtonsProps) {
+export function ShareButtons({ title, url, dict }: { title: string, url: string, dict: any }) {
     const [copied, setCopied] = useState(false);
     
     // Custom X icon (X logo)
@@ -51,7 +51,7 @@ export function ShareButtons({ title, url }: ShareButtonsProps) {
         <div className="flex flex-col gap-6 py-12 border-t border-slate-100">
             <div className="flex items-center gap-3">
                 <Share2 className="w-5 h-5 text-slate-400" />
-                <h3 className="text-sm font-black uppercase tracking-widest text-slate-900">このレポートをシェアする</h3>
+                <h3 className="text-sm font-black uppercase tracking-widest text-slate-900">{dict.common.share_this_report}</h3>
             </div>
             <div className="flex flex-wrap gap-4">
                 {shareTargets.map((target) => (
@@ -72,7 +72,7 @@ export function ShareButtons({ title, url }: ShareButtonsProps) {
                     className="flex items-center gap-3 px-6 py-3 rounded-full font-bold text-sm bg-white border border-slate-200 text-slate-900 transition-all hover:bg-slate-50 hover:scale-105 active:scale-95 shadow-lg shadow-slate-100"
                 >
                     {copied ? <Check className="w-5 h-5 text-emerald-500" /> : <Link2 className="w-5 h-5 text-slate-400" />}
-                    <span>{copied ? 'コピーされました' : 'リンクをコピー'}</span>
+                    <span>{copied ? dict.common.link_copied : dict.common.copy_link}</span>
                 </button>
             </div>
         </div>

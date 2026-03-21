@@ -2,11 +2,11 @@
 
 import React from 'react';
 
-export const MarketTicker = () => {
+export const MarketTicker = ({ dict }: { dict: any }) => {
     const items = [
         { label: "EUR/USD", val: "1.0820", chg: "+0.05%", up: true },
         { label: "BTC/USD", val: "96,200.00", chg: "+1.20%", up: true },
-        { label: "GOLD", val: "2,024.10", chg: "+0.15%", up: true },
+        { label: dict.ticker.gold, val: "2,024.10", chg: "+0.15%", up: true },
         { label: "US 10Y", val: "4.28%", chg: "-0.02", up: false },
         { label: "S&P 500", val: "5,026.61", chg: "+0.57%", up: true },
     ];

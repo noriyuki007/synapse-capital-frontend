@@ -4,7 +4,7 @@ import React from 'react';
 import { Activity, ShieldCheck, Mail, ArrowRight, Globe, Twitter, Github } from 'lucide-react';
 import Link from 'next/link';
 
-export const Footer = () => {
+export const Footer = ({ locale, dict }: { locale: string, dict: any }) => {
     return (
         <footer className="bg-slate-50/50 border-t border-slate-100 pt-16 md:pt-32 pb-16 px-6 relative overflow-hidden">
             {/* Background Accent */}
@@ -16,7 +16,7 @@ export const Footer = () => {
                     {/* Brand Section */}
                     <div className="lg:col-span-5 space-y-12">
                         <div className="space-y-6">
-                            <Link href="/" className="flex items-center gap-3 group">
+                            <Link href={`/${locale}/`} className="flex items-center gap-3 group">
                                 <div className="w-10 h-10 bg-black rounded-none flex items-center justify-center text-white shrink-0 group-hover:bg-indigo-600 transition-all duration-500 shadow-xl shadow-black/5">
                                     <Activity className="w-6 h-6" />
                                 </div>
@@ -25,7 +25,7 @@ export const Footer = () => {
                                 </div>
                             </Link>
                             <p className="text-sm font-bold text-slate-400 leading-relaxed max-w-sm uppercase tracking-tight">
-                                AIによる多角的な市場解析と次世代金融インテリジェンスの融合。私たちは、不確実なマーケットにおいて「根拠ある予測」を追求し続けます。
+                                {dict.footer.tagline}
                             </p>
                         </div>
                         
@@ -64,26 +64,26 @@ export const Footer = () => {
                     {/* Navigation Columns */}
                     <div className="lg:col-span-7 grid grid-cols-2 md:grid-cols-3 gap-12">
                         <div className="space-y-8">
-                            <h5 className="text-[10px] font-black text-slate-900 uppercase tracking-[0.3em] leading-none">プラットフォーム</h5>
+                            <h5 className="text-[10px] font-black text-slate-900 uppercase tracking-[0.3em] leading-none">{dict.footer.col_platform}</h5>
                             <nav className="flex flex-col gap-5 text-xs font-black text-slate-400 uppercase tracking-widest">
-                                <Link href="/ja/pro" className="hover:text-indigo-600 transition-colors">FX プロ</Link>
-                                <Link href="/ja/pro/stocks" className="hover:text-indigo-600 transition-colors">株式プロ</Link>
-                                <Link href="/ja/pro/crypto" className="hover:text-indigo-600 transition-colors">暗号資産プロ</Link>
+                                <Link href={`/${locale}/pro/`} className="hover:text-indigo-600 transition-colors">{dict.header.fx_pro}</Link>
+                                <Link href={`/${locale}/pro/stocks/`} className="hover:text-indigo-600 transition-colors">{dict.header.stocks_pro}</Link>
+                                <Link href={`/${locale}/pro/crypto/`} className="hover:text-indigo-600 transition-colors">{dict.header.crypto_pro}</Link>
                             </nav>
                         </div>
                         <div className="space-y-8">
-                            <h5 className="text-[10px] font-black text-slate-900 uppercase tracking-[0.3em] leading-none">インテリジェンス</h5>
+                            <h5 className="text-[10px] font-black text-slate-900 uppercase tracking-[0.3em] leading-none">{dict.footer.col_intelligence}</h5>
                             <nav className="flex flex-col gap-5 text-xs font-black text-slate-400 uppercase tracking-widest">
-                                <Link href="/ja/reports" className="hover:text-indigo-600 transition-colors">最新レポート</Link>
-                                <Link href="/ja/track-record" className="hover:text-indigo-600 transition-colors">運用実績</Link>
-                                <Link href="/ja/exchange" className="hover:text-indigo-600 transition-colors">推奨パートナー</Link>
+                                <Link href={`/${locale}/reports/`} className="hover:text-indigo-600 transition-colors">{dict.common.reports}</Link>
+                                <Link href={`/${locale}/track-record/`} className="hover:text-indigo-600 transition-colors">{dict.header.track_record}</Link>
+                                <Link href={`/${locale}/exchange/`} className="hover:text-indigo-600 transition-colors">{dict.header.exchange_partners}</Link>
                             </nav>
                         </div>
                         <div className="space-y-8">
-                            <h5 className="text-[10px] font-black text-slate-900 uppercase tracking-[0.3em] leading-none">信頼性 / 規約</h5>
+                            <h5 className="text-[10px] font-black text-slate-900 uppercase tracking-[0.3em] leading-none">{dict.footer.col_trust}</h5>
                             <nav className="flex flex-col gap-5 text-xs font-black text-slate-400 uppercase tracking-widest">
-                                <Link href="/terms" className="hover:text-indigo-600 transition-colors">利用規約</Link>
-                                <Link href="/privacy" className="hover:text-indigo-600 transition-colors">プライバシーポリシー</Link>
+                                <Link href={`/${locale}/terms/`} className="hover:text-indigo-600 transition-colors">{dict.footer.terms}</Link>
+                                <Link href={`/${locale}/privacy/`} className="hover:text-indigo-600 transition-colors">{dict.footer.privacy}</Link>
                             </nav>
                         </div>
                     </div>
@@ -97,7 +97,7 @@ export const Footer = () => {
                             <span className="text-[8px] border border-slate-200 px-1.5 py-0.5 opacity-50">v1.0.1-PRO</span>
                         </div>
                         <p className="text-[9px] font-bold text-slate-300 uppercase tracking-widest max-w-2xl leading-relaxed">
-                            免責事項：全ての金融予測はAIによって生成されたものであり、投資助言を構成するものではありません。取引には実質的なリスクが伴います。
+                            {dict.footer.disclaimer}
                         </p>
                     </div>
                     

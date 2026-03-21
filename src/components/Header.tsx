@@ -1,39 +1,49 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Activity, ChevronDown, BarChart3, Bitcoin, ShieldCheck, FileText, TrendingUp, Users, Menu, X } from 'lucide-react';
+import { Activity, ChevronDown, BarChart3, Bitcoin, ShieldCheck, FileText, TrendingUp, Users, Menu, X, Globe } from 'lucide-react';
 import Link from 'next/link';
+import { usePathname, useRouter } from 'next/navigation';
 
-export const Header = () => {
+export const Header = ({ locale, dict }: { locale: string; dict: any }) => {
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const pathname = usePathname();
+    const router = useRouter();
 
     const menuItems = [
         {
-            label: "マーケット・ターミナル",
+            label: dict.header.markets,
             id: "markets",
             items: [
-                { label: "FX プロ", href: "/ja/pro", icon: Activity, desc: "外国為替市場のAI解析" },
-                { label: "株式 プロ", href: "/ja/pro/stocks", icon: BarChart3, desc: "グローバル株式ターミナル" },
-                { label: "暗号資産 プロ", href: "/ja/pro/crypto", icon: Bitcoin, desc: "オンチェーン・インサイト" },
+                { label: dict.header.fx_pro, href: `/${locale}/pro`, icon: Activity, desc: dict.header.fx_desc },
+                { label: dict.header.stocks_pro, href: `/${locale}/pro/stocks`, icon: BarChart3, desc: dict.header.stocks_desc },
+                { label: dict.header.crypto_pro, href: `/${locale}/pro/crypto`, icon: Bitcoin, desc: dict.header.crypto_desc },
             ]
         },
         {
-            label: "インテリジェンス",
+            label: dict.header.intelligence,
             id: "intelligence",
             items: [
-                { label: "AI戦略検証", href: "/position-checker", icon: ShieldCheck, desc: "機関投資家級AIによる戦略検証" },
-                { label: "最新レポート", href: "/ja/reports", icon: FileText, desc: "AIマーケット分析レポート" },
-                { label: "運用実績", href: "/ja/track-record", icon: TrendingUp, desc: "透明性の高い的中率公開" },
+                { label: dict.header.strategy_check, href: `/${locale}/position-checker`, icon: ShieldCheck, desc: dict.header.strategy_desc },
+                { label: dict.header.reports, href: `/${locale}/reports`, icon: FileText, desc: dict.header.reports_desc },
+                { label: dict.header.track_record, href: `/${locale}/track-record`, icon: TrendingUp, desc: dict.header.track_desc },
             ]
         },
         {
-            label: "パートナー・連携",
+            label: dict.header.partners,
             id: "partners",
             items: [
-                { label: "パートナー連携", href: "/ja/exchange", icon: Users, desc: "推奨取引プラットフォーム一覧" },
+                { label: dict.header.exchange_partners, href: `/${locale}/exchange`, icon: Users, desc: dict.header.exchange_desc },
             ]
         }
     ];
+
+    const toggleLanguage = () => {
+        const newLocale = locale === 'ja' ? 'en' : 'ja';
+        const segments = pathname.split('/');
+        segments[1] = newLocale;
+        router.push(segments.join('/') || `/${newLocale}/`);
+    };
 
     return (
         <>
@@ -44,7 +54,7 @@ export const Header = () => {
                     <div className="p-6 md:p-8 space-y-12 overflow-y-auto h-full scrollbar-hide">
                         <div className="flex items-center justify-between">
                             <div className="flex items-center gap-3 shrink-0">
-                                <Link href="/" onClick={() => setIsMobileMenuOpen(false)} className="flex items-center gap-3">
+                                <Link href={`/${locale}/`} onClick={() => setIsMobileMenuOpen(false)} className="flex items-center gap-3">
                                     <div className="w-9 h-9 bg-black rounded-none flex items-center justify-center text-white">
                                         <Activity className="w-5 h-5" />
                                     </div>
@@ -85,10 +95,17 @@ export const Header = () => {
                             ))}
                         </nav>
 
-                        <div className="pt-8 border-t border-slate-100">
+                        <div className="pt-8 border-t border-slate-100 space-y-4">
+                             <button 
+                                onClick={toggleLanguage}
+                                className="w-full flex items-center gap-3 px-4 py-3 bg-slate-50 border border-slate-100 rounded-none text-[11px] font-black text-slate-900 uppercase tracking-widest hover:bg-slate-100 transition-colors"
+                             >
+                                <Globe className="w-4 h-4 text-indigo-600" />
+                                {locale === 'ja' ? 'English' : '日本語'} に切り替え
+                             </button>
                              <div className="flex items-center gap-2 px-3 py-3 bg-slate-50 border border-slate-100 text-[11px] font-black text-slate-500 uppercase tracking-widest justify-center">
                                 <div className="w-1.5 h-1.5 rounded-none bg-emerald-500 animate-pulse" />
-                                システム稼動中
+                                {dict.common.system_active}
                             </div>
                         </div>
                     </div>
@@ -97,14 +114,14 @@ export const Header = () => {
 
             <header className="sticky top-0 z-[500] bg-white border-b border-slate-100 px-4 md:px-8 py-3 flex items-center justify-between backdrop-blur-md bg-opacity-95">
                 <div className="flex items-center gap-4 md:gap-12 flex-1 min-w-0">
-                    <Link href="/" className="flex items-center gap-3 group shrink-0">
+                    <Link href={`/${locale}/`} className="flex items-center gap-3 group shrink-0">
                         <div className="w-8 h-8 bg-black rounded-none flex items-center justify-center text-white shrink-0 group-hover:bg-indigo-600 transition-all duration-300">
                             <Activity className="w-5 h-5" />
                         </div>
                         <div className="text-sm md:text-base font-black tracking-tighter text-black uppercase font-sans leading-none flex items-center gap-2">
                             <span className="hidden min-[380px]:inline">SYNAPSE CAPITAL</span>
                             <span className="min-[380px]:hidden">SYNAPSE</span>
-                            <span className="text-[8px] bg-emerald-500/10 text-emerald-600 border border-emerald-500/20 px-1 py-0.5 rounded tracking-widest font-black uppercase tracking-tighter shrink-0">LIVE</span>
+                            <span className="text-[8px] bg-emerald-500/10 text-emerald-600 border border-emerald-500/20 px-1 py-0.5 rounded tracking-widest font-black uppercase tracking-tighter shrink-0">{dict.common.live}</span>
                         </div>
                     </Link>
 
@@ -143,10 +160,18 @@ export const Header = () => {
                     </nav>
                 </div>
 
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-2 md:gap-4">
+                    <button 
+                        onClick={toggleLanguage}
+                        className="hidden md:flex items-center gap-2 px-3 py-1.5 border border-slate-200 text-slate-900 text-[11px] font-black shadow-sm uppercase tracking-widest hover:bg-slate-50 transition-colors"
+                    >
+                        <Globe className="w-3.5 h-3.5 text-indigo-600" />
+                        {locale === 'ja' ? 'EN' : 'JA'}
+                    </button>
+
                     <div className="hidden sm:flex items-center gap-2 px-3 py-1.5 bg-slate-50 border border-slate-100 rounded-none text-[11px] font-black text-slate-500 uppercase tracking-widest">
                         <div className="w-1.5 h-1.5 rounded-none bg-emerald-500 animate-pulse" />
-                        システム稼動中
+                        {dict.common.system_active}
                     </div>
                     
                     {/* Hamburger Menu Button */}
