@@ -9,6 +9,7 @@ import { Activity, Clock } from 'lucide-react';
 import Link from 'next/link';
 import { Metadata } from 'next';
 
+export const dynamicParams = false;
 export async function generateStaticParams() {
     return [{ locale: 'en' }, { locale: 'ja' }];
 }

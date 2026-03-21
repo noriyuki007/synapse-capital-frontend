@@ -3,6 +3,7 @@ import { getDictionary } from '@/locales/dictionaries';
 import PositionCheckerClient from '@/components/PositionCheckerClient';
 import { Metadata } from 'next';
 
+export const dynamicParams = false;
 export async function generateStaticParams() {
     return [{ locale: 'en' }, { locale: 'ja' }];
 }

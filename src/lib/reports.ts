@@ -32,17 +32,9 @@ async function getRawReportContent(id: string) {
     try {
         // Prefer local filesystem so newly generated reports are visible immediately.
         // If the local file doesn't exist (or runtime doesn't allow fs), fall back to GitHub raw.
-        if (typeof window === 'undefined' && process.env.NODE_ENV === 'development') {
-            try {
-                const innerPromises = 'promises';
-                const fsMod = await import(`fs/${innerPromises}`);
-                const localPath = `${process.cwd()}/content/reports/${id}.md`;
-                const localText = await fsMod.readFile(localPath, 'utf8');
-                if (localText && localText.trim().length > 0) return localText;
-            } catch (innerE) {
-                // local fs failed, which is expected in production build
-            }
-        }
+        // Edge context: Local filesystem readout restricted for stability.
+        // Client-side or GitHub fallback will be used.
+
         // Browser-side: read via internal API route (server reads local fs).
         if (typeof window !== 'undefined') {
             const res = await fetch(`/api/reports/content/${id}`);
@@ -282,21 +274,8 @@ function normalizeSignalData(genre: string, raw: any, locale: string = 'ja') {
 
 export async function getLatestSignals(locale: string = 'ja') {
     try {
-        let rawSignals;
-        if (process.env.NODE_ENV === 'development') {
-            try {
-                const innerPromises = 'promises';
-                const fsMod = await import(`fs/${innerPromises}`);
-                const path = await import('path');
-                const sigPath = path.join(process.cwd(), `content/latest-signals-${locale}.json`);
-                const content = await fsMod.readFile(sigPath, 'utf8');
-                rawSignals = JSON.parse(content);
-            } catch (e) {
-                rawSignals = latestSignalsJson;
-            }
-        } else {
-            rawSignals = latestSignalsJson;
-        }
+        const rawSignals = latestSignalsJson;
+
 
         return {
             FX: normalizeSignalData('FX', rawSignals.FX, locale),

@@ -3,6 +3,7 @@ import { getDictionary } from '@/locales/dictionaries';
 import StocksProClient from '@/components/StocksProClient';
 import { Metadata } from 'next';
 
+export const dynamicParams = false;
 export async function generateStaticParams() {
     return [{ locale: 'en' }, { locale: 'ja' }];
 }

@@ -1,6 +1,6 @@
 import { NextRequest } from 'next/server';
 
-// export const runtime = 'edge';
+export const runtime = 'edge';
 
 export async function GET(
     _req: NextRequest,
@@ -9,27 +9,12 @@ export async function GET(
     const params = await props.params;
     const id = params?.id;
 
-    // fs is ONLY for local development. We check both NODE_ENV and prevent any top-level imports.
-    if (process.env.NODE_ENV === 'development') {
-        try {
-            // Dynamic import inside the condition to hide it from some static analyzers
-            const promises = 'promises';
-            const fs = await import(`fs/${promises}`);
-            const path = await import('path');
-            const reportsPath = path.join(process.cwd(), 'content', 'reports', `${id}.md`);
-            const text = await fs.readFile(reportsPath, 'utf8');
-            
-            if (text && text.trim().length > 0) {
-                return new Response(text, {
-                    status: 200,
-                    headers: { 'Content-Type': 'text/markdown; charset=utf-8' },
-                });
-            }
-        } catch (e) {
-            console.warn(`[API] Local file read failed for ${id}:`, e);
-        }
-    }
-
-    // 本番環境（Edge）またはファイル不在時は404を返し、クライアント側のGitHub Fallbackを促す
-    return new Response('Not found or unsupported in Edge context', { status: 404 });
+    // Cloudflare Edge context: We MUST NOT use 'fs' or 'path'.
+    // Development fallback is removed to ensure absolute build stability on Cloudflare.
+    // The client-side already has a fallback to fetch from GitHub if this endpoint returns 404.
+    
+    return new Response(`Intelligence layer [${id}] not found in Edge cache. Redirecting to distributed storage.`, { 
+        status: 404,
+        headers: { 'Content-Type': 'text/plain; charset=utf-8' }
+    });
 }

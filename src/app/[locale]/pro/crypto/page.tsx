@@ -3,6 +3,7 @@ import { getDictionary } from '@/locales/dictionaries';
 import CryptoProClient from '@/components/CryptoProClient';
 import { Metadata } from 'next';
 
+export const dynamicParams = false;
 export async function generateStaticParams() {
     return [{ locale: 'en' }, { locale: 'ja' }];
 }

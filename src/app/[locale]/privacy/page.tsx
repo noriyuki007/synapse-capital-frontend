@@ -6,6 +6,7 @@ import { getDictionary } from '@/locales/dictionaries';
 import { PrivacyJA } from '@/components/legal/PrivacyJA';
 import { PrivacyEN } from '@/components/legal/PrivacyEN';
 
+export const dynamicParams = false;
 export async function generateStaticParams() {
     return [{ locale: 'en' }, { locale: 'ja' }];
 }

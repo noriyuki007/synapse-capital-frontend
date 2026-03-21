@@ -7,6 +7,7 @@ import { Activity, ShieldCheck, CheckCircle2, XCircle } from 'lucide-react';
 import { getDictionary } from '@/locales/dictionaries';
 import { Metadata } from 'next';
 
+export const dynamicParams = false;
 export async function generateStaticParams() {
     return [{ locale: 'en' }, { locale: 'ja' }];
 }
