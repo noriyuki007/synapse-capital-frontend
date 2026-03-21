@@ -1,35 +1,35 @@
 [
   {
     "id": "2026-03-21-crypto",
-    "date": "2026-03-21 23:24",
+    "date": "2026-03-21 23:33",
     "title": "CRYPTO：最新マーケット分析インテリジェンス",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "BTC/USDは終値70960.98が20日移動平均(70371.30)を上回り、RSI(14)61.39で中立～強気域。米国安定コイン法案の進捗やGrayscaleのETF申請が市場心理を改善。短期上昇余地あり。",
+    "excerpt": "BTC/USDはMA20を実体で上回り70369-70921のレンジを突破。GrayscaleのHYPE ETF申請やStablecoin法案合意で規制不確実性が後退。RSIは61.3と中立域にあり、90500-92000ゾーンへ上拡大する可能性が高い。",
     "result": "PENDING"
   },
   {
     "id": "2026-03-21-stocks",
-    "date": "2026-03-21 23:23",
-    "title": "STOCKS：S&P 500のテクニカル弱気圏とシナプス解析による反発評価",
+    "date": "2026-03-21 23:31",
+    "title": "STOCKS：最新マーケット分析インテリジェンス",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "moomoo-securities",
-    "excerpt": "S&P 500指数はRSI25.34と賣られすぎ水準ながらMA20下回り弱気圏。地政学リスク緩和観測とAI株好調で反発余地も、短期は戻り売り戦略が推奨される。監視項目はMA20回復と地政学ニュース。",
+    "excerpt": "S&P 500はMA20下回り弱気もRSI25.34で売られ過ぎ。AI株関連や新興国アウトパフォームの環境下で短期リバウンドを想定。MA20突破が焦点。",
     "result": "PENDING"
   },
   {
     "id": "2026-03-21-fx",
-    "date": "2026-03-21 23:22",
-    "title": "FX：最新マーケット分析インテリジェンス",
+    "date": "2026-03-21 23:30",
+    "title": "FX：マーケット分析インテリジェンス",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "USD/JPYはMA20上回りテクニカル強気も、米利上げ観測と中東地政学リスクが相場の重荷に。オーダーブックは159.00上値抵抗帯で売りオーダー厚み。",
+    "excerpt": "USD/JPYは終値159.22がMA20を上回り強気圏。RSIは60.01で中立。米株下落と利上げ確率30%は重荷となるが、地政学リスクの安全逃避が限定的な上昇を支撑。短期は160.00を視野にロング推奨。",
     "result": "PENDING"
   },
   {
