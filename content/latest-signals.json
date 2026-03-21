@@ -52,7 +52,7 @@
     "recommended_broker": "bitflyer",
     "tldr_points": [
       "AI生成パイプライン一時停止",
-      "公開テクニカル: 終値 70634.06",
+      "公開テクニカル: 終値 70586.72",
       "リスク管理の優先"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
@@ -60,9 +60,9 @@
     "pair": "BTC/USD",
     "status": "NEUTRAL",
     "comment": "自動生成フォールバック",
-    "entry": "70634.06",
-    "tp": "70634.06",
-    "sl": "70634.06",
+    "entry": "70586.72",
+    "tp": "70586.72",
+    "sl": "70586.72",
     "reliability": "LOW"
   }
 }
