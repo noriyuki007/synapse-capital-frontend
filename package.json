@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:cf": "npx @opennextjs/cloudflare build --skipWranglerConfigCheck && rm -rf deploy && mkdir -p deploy && cp -r .open-next/assets/* deploy/ && cp .open-next/worker.js deploy/_worker.js && cp -r .open-next/server-functions deploy/ && cp -r .open-next/middleware deploy/ || true",
+    "build:cf": "npx @opennextjs/cloudflare build --skipWranglerConfigCheck && rm -rf deploy && mkdir -p deploy && cp -r .open-next/assets/* deploy/ && cp .open-next/worker.js deploy/_worker.js && cp -r .open-next/server-functions deploy/ && cp -r .open-next/middleware deploy/ && cp -r .open-next/cloudflare deploy/ && cp -r .open-next/.build deploy/ || true",
     "start": "next start",
     "lint": "eslint",
     "generate-report": "node scripts/generate-reports.js",
