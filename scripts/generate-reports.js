@@ -323,11 +323,11 @@ async function generateWithGemini(genre, newsHeadlines, marketData) {
 }
 
 const FREE_MODELS = [
-    'google/gemini-2.0-flash-001',
     'meta-llama/llama-3.3-70b-instruct:free',
-    'google/gemini-flash-1.5-8b:free',
-    'qwen/qwen-2.5-72b-instruct:free',
-    'mistralai/mistral-7b-instruct:free',
+    'meta-llama/llama-3.2-3b-instruct:free',
+    'google/gemma-3-27b-it:free',
+    'nousresearch/hermes-3-llama-3.1-405b:free',
+    'qwen/qwen3-coder:free',
 ];
 
 async function generateWithOpenRouter(genre, newsHeadlines, marketData, modelId = FREE_MODELS[0]) {

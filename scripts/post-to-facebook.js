@@ -78,7 +78,13 @@ async function postToMakeWebhook() {
         const title = titleMatch ? titleMatch[1] : '最新のマーケットレポート';
         const genre = genreMatch ? genreMatch[1] : 'MARKET';
 
-        console.log(`Sending to Make Webhook [${genre}]: ${title}`);
+        const reportId = report.name.replace(/\.md$/, '');
+        // next.config.ts で trailingSlash: true が設定されているため、末尾にスラッシュを追加します
+        const reportUrl = `${BASE_URL}/ja/reports/${reportId}/`;
+
+        console.log(`🚀 Sending to Make: ${title}`);
+        // console.log(`📸 Image URL: ${imageUrl}`); // imageUrl is not defined in the original code
+        console.log(`🔗 Report URL: ${reportUrl}`);
 
         try {
             const response = await fetch(MAKE_WEBHOOK_URL, {
@@ -86,9 +92,13 @@ async function postToMakeWebhook() {
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     title: title,
-                    url: url,
-                    genre: genre,
-                    message: `【最新レポート更新：${genre}】\n${title}\n\nAIによる最新のマーケット分析を公開しました。詳細はサイトをご確認ください。\n\n${url}`
+                    // content: content, // content is not part of the original payload
+                    // image_url: imageUrl, // imageUrl is not defined in the original code
+                    url: reportUrl,          // 一般的な 'url' という項目名に変更（または追加）
+                    report_url: reportUrl,   // 互換性のため残す
+                    // status: "success", // status is not part of the original payload
+                    genre: genre, // Keep existing genre
+                    message: `【最新レポート更新：${genre}】\n${title}\n\nAIによる最新のマーケット分析を公開しました。詳細はサイトをご確認ください。\n\n${reportUrl}` // Update message with reportUrl
                 })
             });
 
