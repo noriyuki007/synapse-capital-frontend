@@ -30,7 +30,7 @@
     "recommended_broker": "moomoo-securities",
     "tldr_points": [
       "AI生成パイプライン一時停止",
-      "公開テクニカル: 終値 6540.90",
+      "公開テクニカル: 終値 6506.48",
       "リスク管理の優先"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
@@ -38,9 +38,9 @@
     "pair": "S&P 500",
     "status": "NEUTRAL",
     "comment": "自動生成フォールバック",
-    "entry": "6540.90",
-    "tp": "6540.90",
-    "sl": "6540.90",
+    "entry": "6506.48",
+    "tp": "6506.48",
+    "sl": "6506.48",
     "reliability": "LOW"
   },
   "CRYPTO": {
@@ -52,7 +52,7 @@
     "recommended_broker": "bitflyer",
     "tldr_points": [
       "AI生成パイプライン一時停止",
-      "公開テクニカル: 終値 69753.91",
+      "公開テクニカル: 終値 70634.06",
       "リスク管理の優先"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
@@ -60,9 +60,9 @@
     "pair": "BTC/USD",
     "status": "NEUTRAL",
     "comment": "自動生成フォールバック",
-    "entry": "69753.91",
-    "tp": "69753.91",
-    "sl": "69753.91",
+    "entry": "70634.06",
+    "tp": "70634.06",
+    "sl": "70634.06",
     "reliability": "LOW"
   }
 }
