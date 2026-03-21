@@ -323,15 +323,17 @@ async function generateWithGemini(genre, newsHeadlines, marketData) {
 }
 
 const FREE_MODELS = [
-    'meta-llama/llama-3.3-70b-instruct:free',
-    'meta-llama/llama-3.2-3b-instruct:free',
+    'minimax/minimax-m2.5:free',
+    'stepfun/step-3.5-flash:free',
+    'arcee-ai/trinity-large-preview:free',
     'google/gemma-3-27b-it:free',
-    'nousresearch/hermes-3-llama-3.1-405b:free',
+    'meta-llama/llama-3.3-70b-instruct:free',
     'qwen/qwen3-coder:free',
     'mistralai/mistral-small-3.1-24b-instruct:free',
     'google/gemma-3-12b-it:free',
     'nvidia/nemotron-3-super-120b-a12b:free',
     'liquid/lfm-2.5-1.2b-instruct:free',
+    'meta-llama/llama-3.2-3b-instruct:free',
 ];
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
