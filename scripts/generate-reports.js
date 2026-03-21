@@ -466,7 +466,7 @@ async function generateWithOpenRouter(genre, newsHeadlines, marketData, modelId 
 /**
  * Frontmatter + シグナルJSON をマージして SignalCard / ランディング用オブジェクトにする
  */
-function buildMergedSignalForGenre(genre, markdown, marketData) {
+function buildMergedSignalForGenre(genre, markdown, marketData, locale = 'ja') {
     const prepared = stripLeadingCodeFenceAroundFrontmatter(markdown);
     let fm = {};
     try {
@@ -496,7 +496,7 @@ function buildMergedSignalForGenre(genre, markdown, marketData) {
         genre: fm.genre || genre,
         target_pair: fm.target_pair || pair,
         prediction_direction: fm.prediction_direction || 'FLAT',
-        recommended_broker: fm.recommended_broker || RECOMMENDED_BROKERS[genre],
+        recommended_broker: fm.recommended_broker || (RECOMMENDED_BROKERS[locale] || RECOMMENDED_BROKERS.ja)[genre],
         tldr_points: Array.isArray(fm.tldr_points) ? fm.tldr_points : [],
         chart_image: fm.chart_image || chartPath,
         excerpt: (fm.excerpt || '').trim(),
@@ -952,16 +952,19 @@ MA20: ${marketData?.ma20 != null ? parseFloat(marketData.ma20).toFixed(2) : '---
                 fs.writeFileSync(filePath, markdown);
                 console.log(`✅ [${genre}:${locale}] Saved: ${filePath}`);
 
-                // Update signal JSON with the ja version (primary)
+                // Update signal JSON with the localized version
+                const sigPath = `./content/latest-signals-${locale}.json`;
+                let sigs = {};
+                if (fs.existsSync(sigPath)) {
+                    try { sigs = JSON.parse(fs.readFileSync(sigPath, 'utf8')); } catch { sigs = {}; }
+                }
+                sigs[genre] = buildMergedSignalForGenre(genre, markdown, marketData, locale);
+                fs.writeFileSync(sigPath, JSON.stringify(sigs, null, 2));
+                console.log(`✅ Updated latest-signals-${locale}.json (${genre})`);
+
+                // For backward compatibility/legacy support, also keep latest-signals.json synced with JA
                 if (locale === 'ja') {
-                    const sigPath = './content/latest-signals.json';
-                    let sigs = {};
-                    if (fs.existsSync(sigPath)) {
-                        try { sigs = JSON.parse(fs.readFileSync(sigPath, 'utf8')); } catch { sigs = {}; }
-                    }
-                    sigs[genre] = buildMergedSignalForGenre(genre, markdown, marketData);
-                    fs.writeFileSync(sigPath, JSON.stringify(sigs, null, 2));
-                    console.log(`✅ Updated latest-signals.json (${genre})`);
+                    fs.writeFileSync('./content/latest-signals.json', JSON.stringify(sigs, null, 2));
                 }
 
             } catch (err) {

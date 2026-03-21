@@ -2,22 +2,39 @@
   {
     "id": "dmm-fx",
     "name": "DMM FX",
+    "name_en": "DMM FX",
     "description": "国内FX業界のスタンダード。高い操作性と安定したスプレッドを誇る大手資本。",
+    "description_en": "A standard in the Japanese FX industry. Large capital backing with high usability and stable spreads.",
     "features": [
       "最短1時間で取引開始",
       "スマホアプリの操作性が抜群",
       "24時間安心サポート"
     ],
+    "features_en": [
+      "Start trading in as little as 1 hour",
+      "Excellent mobile app usability",
+      "24/7 reliable support"
+    ],
     "pros": [
       "業界最狭水準のスプレッド",
       "取引ツールが直感的で使いやすい"
+    ],
+    "pros_en": [
+      "Industry-leading tight spreads",
+      "Intuitive and easy-to-use trading tools"
     ],
     "cons": [
       "1万通貨単位からの取引（少額は不可）",
       "メンテナンス時間がやや長い"
     ],
+    "cons_en": [
+      "Trading starts from 10,000 units (no micro lots)",
+      "Relatively long maintenance hours"
+    ],
     "targetAudience": "FX中上級者・スマホメインのトレーダー",
+    "targetAudience_en": "Intermediate to advanced FX traders, mobile-first users",
     "recommendation": "高い約定力と低スプレッドを重視する、アクティブ派に最適です。",
+    "recommendation_en": "Ideal for active traders who prioritize high execution power and low spreads.",
     "rawScores": {
       "cost": 4.8,
       "platform": 4.6,
@@ -26,6 +43,7 @@
       "support": 4.5
     },
     "affiliateLink": "https://h.accesstrade.net/sp/cc?rk=01004ixl00oow9",
+    "affiliateLink_en": "https://h.accesstrade.net/sp/cc?rk=01004ixl00oow9",
     "rating": 4.7,
     "scores": {
       "cost": 4.8,
@@ -40,22 +58,39 @@
   {
     "id": "dmm-kabu",
     "name": "DMM 株",
+    "name_en": "DMM Stocks",
     "description": "業界最安水準の手数料と、米国株取引の利便性が高い株式専門プラットフォーム。",
+    "description_en": "Stock-specialized platform with industry-leading low commissions and high convenience for US stock trading.",
     "features": [
       "米国株の手数料が無料（条件あり）",
       "DMMポイントが貯まる",
       "高性能なPC版ツール"
     ],
+    "features_en": [
+      "Zero commission on US stocks (cond.)",
+      "Earn DMM Points",
+      "High-performance PC tools"
+    ],
     "pros": [
       "国内・米国株の両方に強い",
       "手数料体系がシンプルで安い"
+    ],
+    "pros_en": [
+      "Strong in both domestic and US stocks",
+      "Simple and low commission structure"
     ],
     "cons": [
       "単元未満株の取り扱いがない",
       "IPOの取扱数が少ない"
     ],
+    "cons_en": [
+      "No fractional share trading",
+      "Relatively few IPO offerings"
+    ],
     "targetAudience": "米国株を低コストで取引したい株式メインの投資家",
+    "targetAudience_en": "Stock-focused investors seeking low-cost US market access",
     "recommendation": "特に米国株の手数料体系が優秀で、株をメインにFXも触りたい方に。",
+    "recommendation_en": "Excellent for stock-focused traders wanting to experiment with FX using their assets.",
     "rawScores": {
       "cost": 4.9,
       "platform": 4.3,
@@ -64,6 +99,7 @@
       "support": 4.4
     },
     "affiliateLink": "https://h.accesstrade.net/sp/cc?rk=0100mve100oow9",
+    "affiliateLink_en": "https://h.accesstrade.net/sp/cc?rk=0100mve100oow9",
     "rating": 4.6,
     "scores": {
       "cost": 4.9,
@@ -78,22 +114,39 @@
   {
     "id": "moomoo-securities",
     "name": "moomoo証券",
+    "name_en": "moomoo Securities",
     "description": "次世代の投資体験を提供する。プロ級の分析ツールと、業界最安水準の手数料が魅力。",
+    "description_en": "Delivers a next-generation investment experience with pro-grade analysis tools and ultra-low commissions.",
     "features": [
       "プロ級の分析ツールが無料",
       "米国株の24時間取引",
       "低い取引コスト"
     ],
+    "features_en": [
+      "Free pro-grade analysis tools",
+      "24-hour US stock trading",
+      "Low transaction costs"
+    ],
     "pros": [
       "情報量が圧倒的に多い",
       "UIがモダンで使いやすい"
+    ],
+    "pros_en": [
+      "Vast amount of market information",
+      "Modern and easy-to-use UI"
     ],
     "cons": [
       "ツールが多機能すぎて迷うことがある",
       "歴史が浅い"
     ],
+    "cons_en": [
+      "Extensive features can be overwhelming",
+      "Relatively short history"
+    ],
     "targetAudience": "データ重視の個人投資家・米国株トレーダー",
+    "targetAudience_en": "Data-driven individual investors and US stock traders",
     "recommendation": "高度なチャート分析と、豊富なマーケット情報を求めるアクティブ投資家に。",
+    "recommendation_en": "Perfect for active investors demanding advanced charting and deep market data.",
     "rawScores": {
       "cost": 4.9,
       "platform": 5,
@@ -102,6 +155,7 @@
       "support": 4.3
     },
     "affiliateLink": "https://h.accesstrade.net/sp/cc?rk=0100pge400oow9",
+    "affiliateLink_en": "https://h.accesstrade.net/sp/cc?rk=0100pge400oow9",
     "rating": 4.6,
     "scores": {
       "cost": 4.9,
@@ -116,22 +170,39 @@
   {
     "id": "matsui-securities",
     "name": "松井証券",
+    "name_en": "Matsui Securities",
     "description": "100年以上の歴史を持つ老舗。圧倒的なサポート体制と、1通貨からの少額取引が魅力。",
+    "description_en": "An established broker with over 100 years of history. Features a massive support system and micro-investing from 1 unit.",
     "features": [
       "1通貨から取引可能",
       "創業100年以上の信頼",
       "充実した学習コンテンツ"
     ],
+    "features_en": [
+      "Trade from just 1 unit",
+      "Reliability of 100+ years in business",
+      "Rich educational content"
+    ],
     "pros": [
       "少額投資に最適",
       "コールセンターの対応が非常に丁寧"
+    ],
+    "pros_en": [
+      "Best for micro-investing",
+      "Exceptional call center support"
     ],
     "cons": [
       "スプレッドが他社より広い場合がある",
       "ツールの機能がシンプルめ"
     ],
+    "cons_en": [
+      "Spreads can be wider than specialists",
+      "Trading tools are relatively simple"
+    ],
     "targetAudience": "投資初心者・少額から始めたい方",
+    "targetAudience_en": "Beginner investors starting with small capital",
     "recommendation": "1円単位からの取引が可能で、手厚いサポートを求める初心者に最も推奨。",
+    "recommendation_en": "Highly recommended for beginners seeking 1-yen unit trading and robust support.",
     "isBeginner": true,
     "rawScores": {
       "cost": 4.3,
@@ -141,6 +212,7 @@
       "support": 5
     },
     "affiliateLink": "https://h.accesstrade.net/sp/cc?rk=01000t2p00oow9",
+    "affiliateLink_en": "https://h.accesstrade.net/sp/cc?rk=01000t2p00oow9",
     "rating": 4.5,
     "scores": {
       "cost": 4.3,
@@ -155,22 +227,39 @@
   {
     "id": "monex-fx",
     "name": "マネックス証券 FXPLUS",
+    "name_en": "Monex Securities FXPLUS",
     "description": "クリーンな運営と高度な分析ツール。米国株との連携も強力な総合証券。",
+    "description_en": "Clean operations and advanced analysis tools. A top-tier broker with strong US stock integration.",
     "features": [
       "米国株投資との親和性",
       "TraderVics等の高度なツール",
       "マネックスカードでの還元"
     ],
+    "features_en": [
+      "Seamless US stock integration",
+      "Advanced tools like TraderVics",
+      "Rewards via Monex Card"
+    ],
     "pros": [
       "分析ツールの質が高い",
       "大手ネット証券の安心感"
+    ],
+    "pros_en": [
+      "High-quality analysis tools",
+      "Safety of a major online brokerage"
     ],
     "cons": [
       "スプレッドが特化型より広い",
       "アプリが少し重い"
     ],
+    "cons_en": [
+      "Spreads wider than specialist firms",
+      "Mobile app can be slightly heavy"
+    ],
     "targetAudience": "米国株・投資信託も並行して行いたい兼業投資家",
+    "targetAudience_en": "Side-investors managing stocks and mutual funds together",
     "recommendation": "高度な分析ツールと、FX以外の資産運用も一元管理したい方に最適。",
+    "recommendation_en": "Ideal for those who value advanced tooling and unified asset management.",
     "rawScores": {
       "cost": 4.2,
       "platform": 4.5,
@@ -179,6 +268,7 @@
       "support": 4.6
     },
     "affiliateLink": "https://h.accesstrade.net/sp/cc?rk=0100pldr00oow9",
+    "affiliateLink_en": "https://h.accesstrade.net/sp/cc?rk=0100pldr00oow9",
     "rating": 4.5,
     "scores": {
       "cost": 4.2,
@@ -193,22 +283,39 @@
   {
     "id": "bitflyer",
     "name": "bitFlyer",
+    "name_en": "bitFlyer",
     "description": "国内最大級の暗号資産取引所。高いセキュリティと、使いやすさが定評。",
+    "description_en": "One of Japan's largest crypto exchanges. Renowned for high security and user-friendliness.",
     "features": [
       "ビットコイン取引量 6年連続No.1",
       "強固なセキュリティ",
       "1円から買える"
     ],
+    "features_en": [
+      "No.1 in BTC volume for 6 years",
+      "Robust security infrastructure",
+      "Buy from just 1 yen"
+    ],
     "pros": [
       "信頼性が極めて高い",
       "アプリの完成度が高い"
+    ],
+    "pros_en": [
+      "Extremely high reliability",
+      "Highly polished mobile app"
     ],
     "cons": [
       "スプレッドが広め（販売所）",
       "レバレッジ取引の制限がある"
     ],
+    "cons_en": [
+      "Wider spreads (Exchange Shop)",
+      "Strict leverage trading limits"
+    ],
     "targetAudience": "暗号資産初心者から上級者まで",
+    "targetAudience_en": "From crypto beginners to advanced traders",
     "recommendation": "安全性と信頼性を最優先し、まずはビットコインから始めたい方に最適。",
+    "recommendation_en": "Best for those prioritizing safety and starting with Bitcoin.",
     "rawScores": {
       "cost": 3.5,
       "platform": 4.8,
@@ -217,6 +324,7 @@
       "support": 4.4
     },
     "affiliateLink": "https://bitflyer.com/",
+    "affiliateLink_en": "https://bitflyer.com/en-jp/",
     "rating": 4.5,
     "scores": {
       "cost": 3.5,
@@ -231,22 +339,39 @@
   {
     "id": "tossy",
     "name": "TOSSY",
+    "name_en": "TOSSY",
     "description": "「FUN & POP」を掲げる新世代投資アプリ。株・FX・仮想通貨をシームレスに取引可能。",
+    "description_en": "A next-gen investment app themed 'FUN & POP'. Seamlessly trade stocks, FX, and crypto.",
     "features": [
       "UI/UXが非常に現代的",
       "コミュニティ機能あり",
       "複数アセットを一元管理"
     ],
+    "features_en": [
+      "Modern UI/UX design",
+      "Active community features",
+      "Unified multi-asset management"
+    ],
     "pros": [
       "初心者でもハードルが低い",
       "デザインが秀逸"
+    ],
+    "pros_en": [
+      "Low entry barrier for beginners",
+      "Exquisite modern design"
     ],
     "cons": [
       "歴史が浅く信頼性に課題",
       "スプレッドが不透明な部分がある"
     ],
+    "cons_en": [
+      "Short history; reliability being proven",
+      "Some opacity in spread calculations"
+    ],
     "targetAudience": "ミレニアル・Z世代のトレンドに敏感な個人投資家",
+    "targetAudience_en": "Trend-sensitive Millennial and Gen Z investors",
     "recommendation": "ゲーム感覚で楽しく、ソーシャルに投資を始めたい若年層向け。",
+    "recommendation_en": "Perfect for younger users wanting a fun, social trading experience.",
     "isBeginner": true,
     "rawScores": {
       "cost": 4,
@@ -256,6 +381,7 @@
       "support": 4.3
     },
     "affiliateLink": "https://tossy.io/",
+    "affiliateLink_en": "https://tossy.io/",
     "rating": 4.3,
     "scores": {
       "cost": 4,
@@ -270,22 +396,39 @@
   {
     "id": "fujitomi-securities",
     "name": "シストレセレクト365",
+    "name_en": "Systre Select 365",
     "description": "取引所FX「くりっく365」を採用。透明性の高い価格形成とAI自動売買が特徴。",
+    "description_en": "Utilizes 'Click 365' exchange FX. Features high transparency and AI-driven automated trading.",
     "features": [
       "くりっく365公式採用",
       "AIによる自動売買戦略",
       "電話サポートの充実"
     ],
+    "features_en": [
+      "Official Click 365 adoption",
+      "AI automated trading strategies",
+      "Comprehensive phone support"
+    ],
     "pros": [
       "取引所ならではの透明性",
       "自動売買の選択肢が豊富"
+    ],
+    "pros_en": [
+      "Exchange-grade pricing transparency",
+      "Wide variety of automated strategies"
     ],
     "cons": [
       "手数料が発生する場合がある",
       "スプレッドが固定ではない"
     ],
+    "cons_en": [
+      "Commissions may apply",
+      "Spreads are not fixed"
+    ],
     "targetAudience": "AI自動売買・システムトレードに関心がある合理派",
+    "targetAudience_en": "Logical investors interested in AI and system trading",
     "recommendation": "取引所FXの透明性と、AIによるシストレを体験したいプロ志向の方へ。",
+    "recommendation_en": "For pro-oriented traders seeking transparency and AI sys-trading.",
     "rawScores": {
       "cost": 3.8,
       "platform": 4.7,
@@ -294,6 +437,7 @@
       "support": 4.2
     },
     "affiliateLink": "https://h.accesstrade.net/sp/cc?rk=0100ms9100oow9",
+    "affiliateLink_en": "https://h.accesstrade.net/sp/cc?rk=0100ms9100oow9",
     "rating": 4.3,
     "scores": {
       "cost": 3.8,
@@ -306,24 +450,97 @@
     "integrityCertified": true
   },
   {
-    "id": "xmtrading",
+    "id": "interactive-brokers",
+    "name": "Interactive Brokers",
+    "name_en": "Interactive Brokers",
+    "description": "世界中の機関投資家が利用する最高峰のプラットフォーム。",
+    "description_en": "A premier platform used by institutional investors worldwide.",
+    "features": [
+      "世界各国の市場にアクセス",
+      "極めて低い取引コスト",
+      "高度なAPI連携"
+    ],
+    "features_en": [
+      "Access to global markets",
+      "Ultra-low transaction costs",
+      "Advanced API integration"
+    ],
+    "pros": [
+      "プロ仕様のツール群",
+      "金利や貸株サービスの充実"
+    ],
+    "pros_en": [
+      "Professional-grade toolkits",
+      "Excellent interest and stock lending"
+    ],
+    "cons": [
+      "ツールが複雑で初心者には不向き",
+      "日本語サポートが限定的"
+    ],
+    "cons_en": [
+      "Complex tools; not for beginners",
+      "Limited localized support"
+    ],
+    "targetAudience": "プロ・セミプロ・世界市場を狙う投資家",
+    "targetAudience_en": "Pros, semi-pros, and global market investors",
+    "recommendation": "真のグローバル投資環境を求めるなら。AI分析との相性も最高です。",
+    "recommendation_en": "For those seeking a true global environment. High affinity with AI analysis.",
+    "rawScores": {
+      "cost": 5,
+      "platform": 4.9,
+      "speed": 4.8,
+      "security": 5,
+      "support": 3.5
+    },
+    "affiliateLink": "https://www.interactivebrokers.com/",
+    "affiliateLink_en": "https://www.interactivebrokers.com/",
+    "rating": 4.8,
+    "scores": {
+      "cost": 5,
+      "platform": 4.9,
+      "speed": 4.8,
+      "security": 5,
+      "support": 3.5
+    },
+    "lastCalculated": "2026-03-17T13:30:38.474Z",
+    "integrityCertified": true
+  },
+  {
+    "id": "xm-trading",
     "name": "XMTrading",
+    "name_en": "XMTrading",
     "description": "世界最大級の海外FX。追証なしのゼロカットと最大1000倍のレバレッジが特徴。",
+    "description_en": "Global giant in Forex. Features zero-cut (no margin call) and up to 1000x leverage.",
     "features": [
       "最大1000倍のレバレッジ",
       "豊富なボーナスプログラム",
       "MT4/MT5対応"
     ],
+    "features_en": [
+      "Up to 1000x leverage",
+      "Abundant bonus programs",
+      "MT4/MT5 support"
+    ],
     "pros": [
       "少額から大きな利益を狙える",
       "ゼロカットで借金リスクなし"
+    ],
+    "pros_en": [
+      "High profit potential with small capital",
+      "Zero-cut protects against debt"
     ],
     "cons": [
       "スプレッドが国内社より広い",
       "国内の金融ライセンスではない"
     ],
+    "cons_en": [
+      "Wider spreads than domestic firms",
+      "Not licensed by Japanese authorities"
+    ],
     "targetAudience": "ハイレバレッジでの短期トレードを好むリスク許向者",
+    "targetAudience_en": "Risk-tolerant short-term leverage traders",
     "recommendation": "極小資金からハイレバレッジで攻めたい、海外FX特有の利点を求める方に補足。",
+    "recommendation_en": "For those seeking overseas FX advantages with high leverage and small capital.",
     "rawScores": {
       "cost": 2.8,
       "platform": 4.8,
@@ -332,6 +549,7 @@
       "support": 4.4
     },
     "affiliateLink": "https://www.xmtrading.com/",
+    "affiliateLink_en": "https://www.xmtrading.com/",
     "rating": 4.1,
     "scores": {
       "cost": 2.8,
@@ -339,6 +557,62 @@
       "speed": 4.9,
       "security": 3.5,
       "support": 4.4
+    },
+    "lastCalculated": "2026-03-17T13:30:38.474Z",
+    "integrityCertified": true
+  },
+  {
+    "id": "bybit",
+    "name": "Bybit",
+    "name_en": "Bybit",
+    "description": "世界的に人気の高い暗号資産取引所。多機能な取引環境と高い流動性が魅力。",
+    "description_en": "Globally popular crypto exchange. Features multi-functional trading and high liquidity.",
+    "features": [
+      "豊富な通貨ペア",
+      "高速な約定エンジン",
+      "直感的なUI"
+    ],
+    "features_en": [
+      "Vast selection of trading pairs",
+      "High-speed execution engine",
+      "Intuitive and sleek UI"
+    ],
+    "pros": [
+      "取扱い銘柄が非常に多い",
+      "キャンペーンが頻繁に開催される"
+    ],
+    "pros_en": [
+      "Extensive range of supported tokens",
+      "Frequent promotional campaigns"
+    ],
+    "cons": [
+      "日本の金融庁認可ではない",
+      "機能が多く使いこなすのに時間がかかる"
+    ],
+    "cons_en": [
+      "Not licensed by Japanese FSA",
+      "Broad features take time to master"
+    ],
+    "targetAudience": "アルトコイン取引・レバレッジ取引を楽しみたい中上級者",
+    "targetAudience_en": "Intermediate to advanced traders in Alts and leverage",
+    "recommendation": "あらゆる暗号資産ニーズに応える万能型取引所。AI解析との親和性も高いです。",
+    "recommendation_en": "All-in-one exchange for every crypto need. Great affinity with AI analysis.",
+    "rawScores": {
+      "cost": 4.0,
+      "platform": 4.9,
+      "speed": 4.8,
+      "security": 4.2,
+      "support": 4.3
+    },
+    "affiliateLink": "https://www.bybit.com/",
+    "affiliateLink_en": "https://www.bybit.com/en-US/",
+    "rating": 4.4,
+    "scores": {
+      "cost": 4.0,
+      "platform": 4.9,
+      "speed": 4.8,
+      "security": 4.2,
+      "support": 4.3
     },
     "lastCalculated": "2026-03-17T13:30:38.474Z",
     "integrityCertified": true

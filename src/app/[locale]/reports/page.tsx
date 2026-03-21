@@ -11,8 +11,8 @@ import Link from 'next/link';
 export default async function ReportsPage({ params }: { params: Promise<{ locale: string }> }) {
     const { locale } = await params;
     const dict = await getDictionary(locale);
-    const allReportsData = await getSortedReportsData();
-    const stats = await getTrackRecordStats();
+    const allReportsData = await getSortedReportsData(locale);
+    const stats = await getTrackRecordStats(locale);
 
     return (
         <div className="min-h-screen bg-white text-slate-900 selection:bg-indigo-100 selection:text-indigo-900">

@@ -31,35 +31,65 @@ export type Exchange = {
     };
 };
 
-export async function getExchanges() {
+export async function getExchanges(locale: string = 'ja') {
+    const isEn = locale === 'en';
     try {
         const data = await client.get({
             endpoint: 'exchanges',
             queries: { limit: 10 },
         });
-        return data.contents as Exchange[];
+        // Note: microCMS doesn't support built-in localization in this schema,
+        // so we map contents similarly to local fallback if needed, or 
+        // assume microCMS has _en fields.
+        return (data.contents as any[]).map(b => ({
+            ...b,
+            name: isEn ? (b.name_en || b.name) : b.name,
+            description: isEn ? (b.description_en || b.description) : b.description,
+            affiliateLink: isEn ? (b.affiliateLink_en || b.affiliateLink) : b.affiliateLink,
+            features: isEn ? (b.features_en || b.features || []) : (b.features || []),
+            pros: isEn ? (b.pros_en || b.pros || []) : (b.pros || []),
+            cons: isEn ? (b.cons_en || b.cons || []) : (b.cons || []),
+            targetAudience: isEn ? (b.targetAudience_en || b.targetAudience) : b.targetAudience,
+            recommendation: isEn ? (b.recommendation_en || b.recommendation) : b.recommendation,
+        })) as Exchange[];
     } catch (e) {
         console.warn("microCMS getExchanges failed, using unbiased local data.");
         
-        // Map local data to match Exchange type
         return (brokerData as any[]).map(b => ({
             ...b,
-            features: b.features || [],
-            pros: b.pros || [],
-            cons: b.cons || []
+            name: isEn ? (b.name_en || b.name) : b.name,
+            description: isEn ? (b.description_en || b.description) : b.description,
+            affiliateLink: isEn ? (b.affiliateLink_en || b.affiliateLink) : b.affiliateLink,
+            features: isEn ? (b.features_en || b.features || []) : (b.features || []),
+            pros: isEn ? (b.pros_en || b.pros || []) : (b.pros || []),
+            cons: isEn ? (b.cons_en || b.cons || []) : (b.cons || []),
+            targetAudience: isEn ? (b.targetAudience_en || b.targetAudience) : b.targetAudience,
+            recommendation: isEn ? (b.recommendation_en || b.recommendation) : b.recommendation,
         })) as Exchange[];
     }
 }
 
-export async function getExchangeById(id: string) {
+export async function getExchangeById(id: string, locale: string = 'ja') {
     try {
         const data = await client.get({
             endpoint: 'exchanges',
             contentId: id,
         });
-        return data as Exchange;
+        const b = data as any;
+        const isEn = locale === 'en';
+        return {
+            ...b,
+            name: isEn ? (b.name_en || b.name) : b.name,
+            description: isEn ? (b.description_en || b.description) : b.description,
+            affiliateLink: isEn ? (b.affiliateLink_en || b.affiliateLink) : b.affiliateLink,
+            features: isEn ? (b.features_en || b.features || []) : (b.features || []),
+            pros: isEn ? (b.pros_en || b.pros || []) : (b.pros || []),
+            cons: isEn ? (b.cons_en || b.cons || []) : (b.cons || []),
+            targetAudience: isEn ? (b.targetAudience_en || b.targetAudience) : b.targetAudience,
+            recommendation: isEn ? (b.recommendation_en || b.recommendation) : b.recommendation,
+        } as Exchange;
     } catch (e) {
-        const mocks = await getExchanges();
+        const mocks = await getExchanges(locale);
         return mocks.find(m => m.id === id) || mocks[0];
     }
 }

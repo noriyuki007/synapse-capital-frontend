@@ -23,9 +23,9 @@ export default async function SynapseMarketLanding({ params }: { params: Promise
     let latestReports: any[] = [];
 
     try {
-        signals = await getLatestSignals();
-        stats = await getTrackRecordStats();
-        const allReports = await getSortedReportsData();
+        signals = await getLatestSignals(locale);
+        stats = await getTrackRecordStats(locale);
+        const allReports = await getSortedReportsData(locale);
         latestReports = allReports.slice(0, 4);
     } catch (e) {
         console.error("Failed to read data:", e);

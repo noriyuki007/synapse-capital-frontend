@@ -56,10 +56,15 @@ async function getRawReportContent(id: string) {
     return '';
 }
 
-export async function getSortedReportsData() {
+export async function getSortedReportsData(locale?: string) {
     const reportIndex = await getReportIndex();
     
-    const allReportsData = await Promise.all(reportIndex.map(async (item) => {
+    // Filter by locale if provided
+    const filteredIndex = locale 
+        ? reportIndex.filter(item => item.locale === locale)
+        : reportIndex;
+
+    const allReportsData = await Promise.all(filteredIndex.map(async (item) => {
         const id = item.id;
         let fileContents = await getRawReportContent(id);
         if (!fileContents || fileContents.length < 50) return null; // Filter empty/malformed
@@ -92,7 +97,8 @@ export async function getSortedReportsData() {
             target_pair: (data.target_pair || item.target_pair || '').trim(),
             prediction_direction: (data.prediction_direction || item.prediction_direction || 'FLAT').trim(),
             result: (data.result || item.result || 'PENDING').trim(),
-            recommended_broker: (data.recommended_broker || '').trim()
+            recommended_broker: (data.recommended_broker || '').trim(),
+            locale: data.locale || item.locale || 'ja'
         };
     }));
 
@@ -142,12 +148,13 @@ export async function getReportData(id: string) {
         result?: string,
         recommended_broker?: string,
         tldr_points?: string[],
-        chart_image?: string
+        chart_image?: string,
+        locale?: string
     };
 
     // Extract AI Conclusion & Next Steps using regex
     const contentBeforeJson = matterResult.content.split('```json')[0];
-    const sectionTitleRegex = /## 5\.\s*(?:AI結論とアクションプラン|結論とアクションプラン)|##\s*結論とアクションプラン/i;
+    const sectionTitleRegex = /## 5\.\s*(?:AI結論とアクションプラン|結論とアクションプラン|AI Conclusion & Action Plan)|##\s*(?:結論とアクションプラン|AI Conclusion & Action Plan)/i;
     const sectionIndex = contentBeforeJson.search(sectionTitleRegex);
     
     let conclusionText = "";
@@ -156,7 +163,7 @@ export async function getReportData(id: string) {
     if (sectionIndex !== -1) {
         const sectionContent = contentBeforeJson.substring(sectionIndex);
         const summaryMatch =
-            sectionContent.match(/[*-]\s*\*?\*?結論サマリー\*?\*?:\s*([\s\S]+?)(?=\n[*-]|\n##|\n*$)/i) ||
+            sectionContent.match(/[*-]\s*\*?\*?(?:結論サマリー|Conclusion Summary)\*?\*?:\s*([\s\S]+?)(?=\n[*-]|\n##|\n*$)/i) ||
             sectionContent.match(/## 5\.[^\n]*\n+([^\n#]+)/i);
         conclusionText = summaryMatch ? summaryMatch[1].trim() : "";
         
@@ -177,8 +184,11 @@ export async function getReportData(id: string) {
         }
     }
 
-    if (conclusionText === "") conclusionText = "現在の市場環境に基づき、AIは慎重かつ戦略的な取引を推奨します。";
-    if (nextSteps.length === 0) nextSteps = ["主要なサポート・レジスタンスラインの監視", "経済指標発表時のボラティリティ警戒", "資金管理の徹底とリスク分散"];
+    const isEn = data.locale === 'en' || id.includes('-en');
+    if (conclusionText === "") conclusionText = isEn ? "Based on current market conditions, AI recommends cautious and strategic trading." : "現在の市場環境に基づき、AIは慎重かつ戦略的な取引を推奨します。";
+    if (nextSteps.length === 0) nextSteps = isEn 
+        ? ["Monitor key support/resistance levels", "Stay alert during economic data releases", "Maintain disciplined risk management"]
+        : ["主要なサポート・レジスタンスラインの監視", "経済指標発表時のボラティリティ警戒", "資金管理の徹底とリスク分散"];
 
     return {
         id,
@@ -197,11 +207,12 @@ export async function getReportData(id: string) {
         tldr_points: data.tldr_points || [],
         chart_image: data.chart_image || '',
         excerpt: data.excerpt || '',
+        locale: data.locale || (isEn ? 'en' : 'ja')
     };
 }
 
-export async function getTrackRecordStats() {
-    const reports = await getSortedReportsData();
+export async function getTrackRecordStats(locale?: string) {
+    const reports = await getSortedReportsData(locale);
     const stats = {
         total: reports.length,
         hits: reports.filter(r => r.result === 'HIT').length,
@@ -240,11 +251,12 @@ import latestSignalsJson from '../../content/latest-signals.json';
 /**
  * Normalizes varied AI JSON structures into consistent SignalCard props
  */
-function normalizeSignalData(genre: string, raw: any) {
+function normalizeSignalData(genre: string, raw: any, locale: string = 'ja') {
+    const isEn = locale === 'en';
     const defaults = {
-        FX: { pair: "USD/JPY", status: "NEUTRAL", comment: "分析中", entry: "---", tp: "---", sl: "---", reliability: "MEDIUM" },
-        STOCKS: { pair: "S&P 500", status: "NEUTRAL", comment: "分析中", entry: "---", tp: "---", sl: "---", reliability: "MEDIUM" },
-        CRYPTO: { pair: "BTC/USD", status: "NEUTRAL", comment: "分析中", entry: "---", tp: "---", sl: "---", reliability: "MEDIUM" }
+        FX: { pair: "USD/JPY", status: "NEUTRAL", comment: isEn ? "Analyzing" : "分析中", entry: "---", tp: "---", sl: "---", reliability: "MEDIUM" },
+        STOCKS: { pair: "S&P 500", status: "NEUTRAL", comment: isEn ? "Analyzing" : "分析中", entry: "---", tp: "---", sl: "---", reliability: "MEDIUM" },
+        CRYPTO: { pair: "BTC/USD", status: "NEUTRAL", comment: isEn ? "Analyzing" : "分析中", entry: "---", tp: "---", sl: "---", reliability: "MEDIUM" }
     } as any;
 
     const data = { ...defaults[genre] };
@@ -260,39 +272,35 @@ function normalizeSignalData(genre: string, raw: any) {
     if (raw.sl) data.sl = raw.sl;
     if (raw.reliability) data.reliability = raw.reliability;
 
-    // Structural deviation handling
-    if (genre === 'FX') {
-        if (raw.market_sentiment) data.status = raw.market_sentiment.toUpperCase();
-        if (raw.key_themes) data.comment = raw.key_themes.join(' / ');
-        if (raw.currency_pair_signals) {
-            const firstPair = Object.keys(raw.currency_pair_signals)[0];
-            if (firstPair) {
-                data.pair = firstPair;
-                data.comment = `${raw.currency_pair_signals[firstPair]} | ${data.comment}`;
-            }
-        }
-    } else if (genre === 'STOCKS') {
-        if (raw.market_sentiment) data.status = raw.market_sentiment.toUpperCase();
-        if (raw.recommendation) data.comment = raw.recommendation;
-        else if (raw.key_factors) data.comment = raw.key_factors.join(' / ');
-    } else if (genre === 'CRYPTO') {
-        if (raw.market_sentiment) data.status = raw.market_sentiment.toUpperCase();
-        if (raw.btc_price_trend) data.comment = `BTC: ${raw.btc_price_trend} | ${raw.key_events?.slice(0, 2).join(', ') || ''}`;
-    }
-
     return data;
 }
 
-export async function getLatestSignals() {
+export async function getLatestSignals(locale: string = 'ja') {
     try {
-        const rawSignals = latestSignalsJson as any;
+        let rawSignals;
+        if (typeof window === 'undefined') {
+            const fsMod = await import('fs/promises');
+            const path = await import('path');
+            const sigPath = path.join(process.cwd(), `content/latest-signals-${locale}.json`);
+            try {
+                const content = await fsMod.readFile(sigPath, 'utf8');
+                rawSignals = JSON.parse(content);
+            } catch (e) {
+                // Fallback to non-suffixed if localized doesn't exist yet
+                rawSignals = latestSignalsJson;
+            }
+        } else {
+             // Basic fetch fallback for client-side
+             rawSignals = latestSignalsJson;
+        }
+
         return {
-            FX: normalizeSignalData('FX', rawSignals.FX),
-            STOCKS: normalizeSignalData('STOCKS', rawSignals.STOCKS),
-            CRYPTO: normalizeSignalData('CRYPTO', rawSignals.CRYPTO)
+            FX: normalizeSignalData('FX', rawSignals.FX, locale),
+            STOCKS: normalizeSignalData('STOCKS', rawSignals.STOCKS, locale),
+            CRYPTO: normalizeSignalData('CRYPTO', rawSignals.CRYPTO, locale)
         };
     } catch (e) {
-        console.error("Failed to process latest signals:", e);
+        console.error(`Failed to process latest signals for ${locale}:`, e);
     }
     
     return {

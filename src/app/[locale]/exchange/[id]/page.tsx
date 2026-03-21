@@ -19,7 +19,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string, locale: string }> }): Promise<Metadata> {
     const { id, locale } = await params;
-    const exchange = await getExchangeById(id);
+    const exchange = await getExchangeById(id, locale);
     if (!exchange) return { title: 'Not Found' };
     return {
         title: locale === 'ja' ? `${exchange.name} | AIインテグリティ・インサイト` : `${exchange.name} | AI Integrity Insight`,
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
 export default async function ExchangeDetailPage({ params }: { params: Promise<{ id: string, locale: string }> }) {
     const { id, locale } = await params;
     const dict = await getDictionary(locale);
-    const exchange = await getExchangeById(id);
+    const exchange = await getExchangeById(id, locale);
 
     if (!exchange) {
         notFound();

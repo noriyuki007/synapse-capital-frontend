@@ -64,8 +64,8 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
     }
 
     const { title, date, genre, target_pair, prediction_direction, contentHtml, signalData, tldr_points, chart_image, excerpt, conclusionText, nextSteps } = reportData;
-    const allReports = await getSortedReportsData();
-    const stats = await getTrackRecordStats();
+    const allReports = await getSortedReportsData(locale);
+    const stats = await getTrackRecordStats(locale);
 
     // Remove the markdown section specifically so it doesn't double render if it's in the main body
     const cleanContentHtml = contentHtml.replace(/<h2 id="[^"]*ai結論[^"]*">[\s\S]*?<\/h2>[\s\S]*?(?=<h2|$)/i, '');
