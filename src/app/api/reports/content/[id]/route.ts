@@ -4,9 +4,10 @@ import { NextRequest } from 'next/server';
 
 export async function GET(
     _req: NextRequest,
-    { params }: { params: Promise<{ id: string }> }
+    props: { params: Promise<{ id: string }> }
 ) {
-    const { id } = await params;
+    const params = await props.params;
+    const id = params?.id;
 
     // fs is ONLY for local development. We check both NODE_ENV and prevent any top-level imports.
     if (process.env.NODE_ENV === 'development') {

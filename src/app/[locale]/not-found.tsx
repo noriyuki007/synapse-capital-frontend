@@ -1,13 +1,23 @@
+'use client';
+
 import React from 'react';
 import Link from 'next/link';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { getDictionary } from '@/locales/dictionaries';
 import { ArrowLeft, AlertCircle } from 'lucide-react';
+import { usePathname } from 'next/navigation';
 
-export default async function NotFound({ params }: { params: Promise<{ locale: string }> }) {
-  const { locale } = await params;
-  const dict = await getDictionary(locale);
+export default function NotFound() {
+  const pathname = usePathname();
+  const locale = pathname?.startsWith('/en') ? 'en' : 'ja';
+  const [dict, setDict] = React.useState<any>(null);
+
+  React.useEffect(() => {
+    getDictionary(locale).then(setDict);
+  }, [locale]);
+
+  if (!dict) return null;
 
   return (
     <div className="min-h-screen bg-white text-slate-900 selection:bg-indigo-100 selection:text-indigo-900">
