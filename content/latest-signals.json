@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "FX：マーケット分析インテリジェンス",
-    "date": "2026-03-21 23:30",
+    "title": "FX：最新マーケット分析インテリジェンス",
+    "date": "2026-03-21 23:41",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20上回る強気圏で上昇トレンド継続",
-      "米利上げ確率30%は抑制的だが、地政学リスクが混在",
-      "160.00突破でトレンド加速の可能性"
+      "MA20上回り強気圏",
+      "RSIは60で中立",
+      "地政学リスクと利上げ観測が交錯"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは終値159.22がMA20を上回り強気圏。RSIは60.01で中立。米株下落と利上げ確率30%は重荷となるが、地政学リスクの安全逃避が限定的な上昇を支撑。短期は160.00を視野にロング推奨。",
+    "excerpt": "USD/JPYはテクニカル的に強気兆候を示すが、地政学リスクと金利変動要因が相場を複雑化。AI解析は上昇方向を指向し、159.50突破に注目。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20上回る強気圏でロング推奨。地政学リスクは限定的な上昇を支撑も、160.00突破でトレンド加速。",
+    "comment": "MA20上回り強気圏、RSI中立で上昇余地。オーダー解析で159.30突破シグナル。地政学リスクは懸念材料。",
     "entry": "159.22",
-    "tp": "160.00",
-    "sl": "157.50",
+    "tp": "159.50",
+    "sl": "157.70",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "STOCKS：最新マーケット分析インテリジェンス",
-    "date": "2026-03-21 23:31",
+    "title": "STOCKS：マルチフレームワーク・マーケット・インテリジェンス",
+    "date": "2026-03-21 23:42",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "moomoo-securities",
     "tldr_points": [
-      "S&P 500テクニカルは弱気圏、RSI25.34で売られ過ぎ",
-      "AI関連株が買いポイント、新興国株アウトパフォーム",
-      "短期リバウンド期待も、MA20突破でトレンド確認"
+      "RSI14=25.34・明確な売られすぎ圏、終値はMA20下回る",
+      "地政学リスク緩和観測も指数反発力限定的",
+      "主要流動性帯の下値支持線は6650-6700域に集中"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20下回り弱気もRSI25.34で売られ過ぎ。AI株関連や新興国アウトパフォームの環境下で短期リバウンドを想定。MA20突破が焦点。",
+    "excerpt": "S&P500は終値6506.48でMA20(6770.57)を下回り弱気圏。RSI14=25.34は売られすぎを示すが、主要流動性帯の下値支持線密度から反発力は限定的と判断。地政学リスク緩和観測も材料尽き感が優勢。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "RSI売られ過ぎで短期リバウンドを想定、MA20へ回帰可能性。",
-    "entry": "6506.48",
-    "tp": "6770.00",
-    "sl": "6400.00",
+    "status": "NEUTRAL",
+    "comment": "RSI売られすぎもMA20下回る弱気トレンド継続。主要流動性帯サポートで下値限定可能性あるが、反転にはVOLUP必須。現状はレンジ下限背攻めで様子見。",
+    "entry": "0.00",
+    "tp": "6650.00",
+    "sl": "6450.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "CRYPTO：最新マーケット分析インテリジェンス",
-    "date": "2026-03-21 23:33",
+    "title": "BTC/USD：オンチェーンETF申請とテクニカル強気シグナル",
+    "date": "2026-03-21 23:43",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20上値抵抗線突破で90500ドル zone指向",
-      "HYPE ETF申請とStablecoin法案で規制リスク後退",
-      "RSI61.3で過熱感なく上昇余地あり"
+      "GrayscaleのHYPE ETF申請でオンチェーン活性化期待",
+      "米規制法案進展も地域別異動",
+      "MA20上回りRSI61で上昇トレンド継続"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を実体で上回り70369-70921のレンジを突破。GrayscaleのHYPE ETF申請やStablecoin法案合意で規制不確実性が後退。RSIは61.3と中立域にあり、90500-92000ゾーンへ上拡大する可能性が高い。",
+    "excerpt": "BTCは米ドルに対して強気トレンドを維持。GrayscaleのHyperliquid ETF申請がオンチェーン流動性を押し上げ、テクニカル指標も買いサポート。短期目標72500ドル、損切り70300ドル。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20実体突破、規制リスク後退、RSI過熱せず。上値目標91200。",
-    "entry": "70921.88",
-    "tp": "91200.00",
+    "comment": "MA20上回りRSI61で強気、オンチェーンETF申請が流動性サポート",
+    "entry": "70800.00",
+    "tp": "72500.00",
     "sl": "70200.00",
-    "reliability": "MEDIUM"
+    "reliability": "HIGH"
   }
 }
