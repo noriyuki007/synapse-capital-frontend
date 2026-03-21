@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "functions": {
+    "/api/brokers/update": {},
+    "/api/check-position": {},
+    "/api/internal-top-picks": {},
+    "/api/market/price": {},
+    "/api/reports/content/[id]": {}
+  }
+}

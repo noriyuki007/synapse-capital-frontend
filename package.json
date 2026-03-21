@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "build:cf": "npx @opennextjs/cloudflare build && cp .open-next/worker.js .open-next/_worker.js",
+    "build:cf": "npx @opennextjs/cloudflare build && cp .open-next/worker.js .open-next/assets/_worker.js && cp -r .open-next/server-functions .open-next/assets/ && cp -r .open-next/middleware .open-next/assets/ || true",
     "start": "next start",
     "lint": "eslint",
     "generate-report": "node scripts/generate-reports.js",

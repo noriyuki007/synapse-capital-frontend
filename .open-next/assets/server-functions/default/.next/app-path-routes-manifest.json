@@ -1,0 +1,23 @@
+{
+  "/[locale]/exchange/[id]/page": "/[locale]/exchange/[id]",
+  "/[locale]/exchange/page": "/[locale]/exchange",
+  "/[locale]/page": "/[locale]",
+  "/[locale]/position-checker/page": "/[locale]/position-checker",
+  "/[locale]/privacy/page": "/[locale]/privacy",
+  "/[locale]/private-cockpit-x92j/page": "/[locale]/private-cockpit-x92j",
+  "/[locale]/pro/crypto/page": "/[locale]/pro/crypto",
+  "/[locale]/pro/page": "/[locale]/pro",
+  "/[locale]/pro/stocks/page": "/[locale]/pro/stocks",
+  "/[locale]/reports/[id]/page": "/[locale]/reports/[id]",
+  "/[locale]/reports/page": "/[locale]/reports",
+  "/[locale]/terms/page": "/[locale]/terms",
+  "/[locale]/track-record/page": "/[locale]/track-record",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/brokers/update/route": "/api/brokers/update",
+  "/api/check-position/route": "/api/check-position",
+  "/api/internal-top-picks/route": "/api/internal-top-picks",
+  "/api/market/price/route": "/api/market/price",
+  "/api/reports/content/[id]/route": "/api/reports/content/[id]",
+  "/icon.png/route": "/icon.png"
+}

@@ -1,0 +1,23 @@
+{
+  "/[locale]/exchange/[id]/page": "app/[locale]/exchange/[id]/page.js",
+  "/[locale]/exchange/page": "app/[locale]/exchange/page.js",
+  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/position-checker/page": "app/[locale]/position-checker/page.js",
+  "/[locale]/privacy/page": "app/[locale]/privacy/page.js",
+  "/[locale]/private-cockpit-x92j/page": "app/[locale]/private-cockpit-x92j/page.js",
+  "/[locale]/pro/crypto/page": "app/[locale]/pro/crypto/page.js",
+  "/[locale]/pro/page": "app/[locale]/pro/page.js",
+  "/[locale]/pro/stocks/page": "app/[locale]/pro/stocks/page.js",
+  "/[locale]/reports/[id]/page": "app/[locale]/reports/[id]/page.js",
+  "/[locale]/reports/page": "app/[locale]/reports/page.js",
+  "/[locale]/terms/page": "app/[locale]/terms/page.js",
+  "/[locale]/track-record/page": "app/[locale]/track-record/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/brokers/update/route": "app-edge-has-no-entrypoint",
+  "/api/check-position/route": "app-edge-has-no-entrypoint",
+  "/api/internal-top-picks/route": "app-edge-has-no-entrypoint",
+  "/api/market/price/route": "app-edge-has-no-entrypoint",
+  "/api/reports/content/[id]/route": "app-edge-has-no-entrypoint",
+  "/icon.png/route": "app/icon.png/route.js"
+}
