@@ -278,7 +278,10 @@
     "status_divergent": "Divergent",
     "cons_high": "High",
     "cons_mid": "Mid",
-    "cons_low": "Low"
+    "cons_low": "Low",
+    "diagnosis_text": "The Synapse AI engine has analyzed {pair} with a synchronization rate of {sync}%. The current diagnosis indicates: {detail}",
+    "usd_theme_desc_title": "US Rate Expectations",
+    "jpy_theme_desc_title": "BoJ Policy Pivot"
   },
   "crypto_pro": {
     "hero_badge": "Crypto Intelligence v2.4 Live",
@@ -318,7 +321,8 @@
     "vola_stable": "Stable",
     "ai_onchain_diagnosis": "AI On-chain Diagnosis Report",
     "onchain_high": "Low noise, in a region where technical rebound can be expected.",
-    "onchain_low": "Overall market volatility is rising, caution for sudden slippage is needed."
+    "onchain_low": "Overall market volatility is rising, caution for sudden slippage is needed.",
+    "onchain_diagnosis_text": "Currently, {pair} shows a synchronization of {sync}% between on-chain behavior and price action. {detail}"
   },
   "stocks_pro": {
     "hero_badge": "Global Equities Terminal v2.4 Live",

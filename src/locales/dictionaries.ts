@@ -1,4 +1,4 @@
-import 'server-only';
+
 
 const dictionaries = {
   en: () => import('./en.json').then((module) => module.default),

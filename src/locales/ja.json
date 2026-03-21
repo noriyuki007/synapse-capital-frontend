@@ -278,7 +278,10 @@
     "status_divergent": "逆行中",
     "cons_high": "高",
     "cons_mid": "中",
-    "cons_low": "低"
+    "cons_low": "低",
+    "diagnosis_text": "Synapse AIエンジンは{pair}を同期率{sync}%で解析しました。現在の診断結果：{detail}",
+    "usd_theme_desc_title": "米利下げ期待の後退",
+    "jpy_theme_desc_title": "マイナス金利解除の模索"
   },
   "crypto_pro": {
     "hero_badge": "クリプト・インテリジェンス V2.4 ライブ",
