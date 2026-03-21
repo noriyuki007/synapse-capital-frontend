@@ -328,7 +328,13 @@ const FREE_MODELS = [
     'google/gemma-3-27b-it:free',
     'nousresearch/hermes-3-llama-3.1-405b:free',
     'qwen/qwen3-coder:free',
+    'mistralai/mistral-small-3.1-24b-instruct:free',
+    'google/gemma-3-12b-it:free',
+    'nvidia/nemotron-3-super-120b-a12b:free',
+    'liquid/lfm-2.5-1.2b-instruct:free',
 ];
+
+const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
 async function generateWithOpenRouter(genre, newsHeadlines, marketData, modelId = FREE_MODELS[0]) {
     if (!OPENROUTER_API_KEY) throw new Error('OPENROUTER_API_KEY is not set.');
@@ -346,30 +352,57 @@ async function generateWithOpenRouter(genre, newsHeadlines, marketData, modelId 
 
     console.log(`[${genre}] OpenRouter fallback (${modelId})...`);
 
-    const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-        method: 'POST',
-        headers: {
-            Authorization: `Bearer ${OPENROUTER_API_KEY}`,
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-            model: modelId,
-            messages: [
-                { role: 'system', content: PERSONAS[genre] },
-                { role: 'user', content: userPrompt },
-            ],
-        }),
-    });
+    let lastError;
+    for (let attempt = 1; attempt <= 3; attempt++) {
+        try {
+            const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+                method: 'POST',
+                headers: {
+                    Authorization: `Bearer ${OPENROUTER_API_KEY}`,
+                    'Content-Type': 'application/json',
+                    'HTTP-Referer': 'https://synapsecapital.net',
+                    'X-Title': 'Synapse Capital'
+                },
+                body: JSON.stringify({
+                    model: modelId,
+                    messages: [
+                        { role: 'system', content: PERSONAS[genre] },
+                        { role: 'user', content: userPrompt },
+                    ],
+                }),
+            });
 
-    if (!response.ok) {
-        const errorText = await response.text();
-        throw new Error(`OpenRouter API Error: ${response.status} - ${errorText}`);
+            if (response.status === 429) {
+                console.warn(`[${genre}] ⏳ Rate limited (429) on ${modelId}. Attempt ${attempt}/3. Waiting...`);
+                await sleep(2000 * attempt); // Exponential backoff
+                continue;
+            }
+
+            if (!response.ok) {
+                const errorText = await response.text();
+                throw new Error(`OpenRouter API Error: ${response.status} - ${errorText}`);
+            }
+
+            const data = await response.json();
+            if (data.error) {
+                if (data.error.code === 429) {
+                    console.warn(`[${genre}] ⏳ Business rate limited (429) on ${modelId}. Attempt ${attempt}/3.`);
+                    await sleep(2000 * attempt);
+                    continue;
+                }
+                throw new Error(`OpenRouter API Business Error: ${JSON.stringify(data.error)}`);
+            }
+
+            return data.choices[0]?.message?.content;
+
+        } catch (e) {
+            lastError = e;
+            console.warn(`[${genre}] ⚠️ Attempt ${attempt} failed for ${modelId}: ${e.message}`);
+            if (attempt < 3) await sleep(1000);
+        }
     }
-    const data = await response.json();
-    if (data.error) {
-        throw new Error(`OpenRouter API Business Error: ${JSON.stringify(data.error)}`);
-    }
-    return data.choices[0]?.message?.content;
+
+    throw lastError || new Error(`Failed to generate with ${modelId} after 3 attempts`);
 }
 
 /**
