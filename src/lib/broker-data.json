@@ -3,6 +3,7 @@
     "id": "dmm-fx",
     "name": "DMM FX",
     "name_en": "DMM FX",
+    "supportedLocales": ["ja"],
     "description": "国内FX業界のスタンダード。高い操作性と安定したスプレッドを誇る大手資本。",
     "description_en": "A standard in the Japanese FX industry. Large capital backing with high usability and stable spreads.",
     "features": [
@@ -43,7 +44,7 @@
       "support": 4.5
     },
     "affiliateLink": "https://h.accesstrade.net/sp/cc?rk=01004ixl00oow9",
-    "affiliateLink_en": "https://h.accesstrade.net/sp/cc?rk=01004ixl00oow9",
+    "affiliateLink_en": "",
     "rating": 4.7,
     "scores": {
       "cost": 4.8,
@@ -59,6 +60,7 @@
     "id": "dmm-kabu",
     "name": "DMM 株",
     "name_en": "DMM Stocks",
+    "supportedLocales": ["ja"],
     "description": "業界最安水準の手数料と、米国株取引の利便性が高い株式専門プラットフォーム。",
     "description_en": "Stock-specialized platform with industry-leading low commissions and high convenience for US stock trading.",
     "features": [
@@ -99,7 +101,7 @@
       "support": 4.4
     },
     "affiliateLink": "https://h.accesstrade.net/sp/cc?rk=0100mve100oow9",
-    "affiliateLink_en": "https://h.accesstrade.net/sp/cc?rk=0100mve100oow9",
+    "affiliateLink_en": "",
     "rating": 4.6,
     "scores": {
       "cost": 4.9,
@@ -115,6 +117,7 @@
     "id": "moomoo-securities",
     "name": "moomoo証券",
     "name_en": "moomoo Securities",
+    "supportedLocales": ["ja", "en"],
     "description": "次世代の投資体験を提供する。プロ級の分析ツールと、業界最安水準の手数料が魅力。",
     "description_en": "Delivers a next-generation investment experience with pro-grade analysis tools and ultra-low commissions.",
     "features": [
@@ -155,7 +158,7 @@
       "support": 4.3
     },
     "affiliateLink": "https://h.accesstrade.net/sp/cc?rk=0100pge400oow9",
-    "affiliateLink_en": "https://h.accesstrade.net/sp/cc?rk=0100pge400oow9",
+    "affiliateLink_en": "",
     "rating": 4.6,
     "scores": {
       "cost": 4.9,
@@ -171,7 +174,8 @@
     "id": "matsui-securities",
     "name": "松井証券",
     "name_en": "Matsui Securities",
-    "description": "100年以上の歴史を持つ老舗。圧倒的なサポート体制と、1通貨からの少額取引が魅力。",
+    "supportedLocales": ["ja"],
+    "description": "100年以上の歴史を持つ老舗. 圧倒的なサポート体制と、1通貨からの少額取引が魅力。",
     "description_en": "An established broker with over 100 years of history. Features a massive support system and micro-investing from 1 unit.",
     "features": [
       "1通貨から取引可能",
@@ -212,7 +216,7 @@
       "support": 5
     },
     "affiliateLink": "https://h.accesstrade.net/sp/cc?rk=01000t2p00oow9",
-    "affiliateLink_en": "https://h.accesstrade.net/sp/cc?rk=01000t2p00oow9",
+    "affiliateLink_en": "",
     "rating": 4.5,
     "scores": {
       "cost": 4.3,
@@ -228,6 +232,7 @@
     "id": "monex-fx",
     "name": "マネックス証券 FXPLUS",
     "name_en": "Monex Securities FXPLUS",
+    "supportedLocales": ["ja"],
     "description": "クリーンな運営と高度な分析ツール。米国株との連携も強力な総合証券。",
     "description_en": "Clean operations and advanced analysis tools. A top-tier broker with strong US stock integration.",
     "features": [
@@ -268,7 +273,7 @@
       "support": 4.6
     },
     "affiliateLink": "https://h.accesstrade.net/sp/cc?rk=0100pldr00oow9",
-    "affiliateLink_en": "https://h.accesstrade.net/sp/cc?rk=0100pldr00oow9",
+    "affiliateLink_en": "",
     "rating": 4.5,
     "scores": {
       "cost": 4.2,
@@ -284,6 +289,7 @@
     "id": "bitflyer",
     "name": "bitFlyer",
     "name_en": "bitFlyer",
+    "supportedLocales": ["ja", "en"],
     "description": "国内最大級の暗号資産取引所。高いセキュリティと、使いやすさが定評。",
     "description_en": "One of Japan's largest crypto exchanges. Renowned for high security and user-friendliness.",
     "features": [
@@ -340,6 +346,7 @@
     "id": "tossy",
     "name": "TOSSY",
     "name_en": "TOSSY",
+    "supportedLocales": ["ja", "en"],
     "description": "「FUN & POP」を掲げる新世代投資アプリ。株・FX・仮想通貨をシームレスに取引可能。",
     "description_en": "A next-gen investment app themed 'FUN & POP'. Seamlessly trade stocks, FX, and crypto.",
     "features": [
@@ -397,6 +404,7 @@
     "id": "fujitomi-securities",
     "name": "シストレセレクト365",
     "name_en": "Systre Select 365",
+    "supportedLocales": ["ja"],
     "description": "取引所FX「くりっく365」を採用。透明性の高い価格形成とAI自動売買が特徴。",
     "description_en": "Utilizes 'Click 365' exchange FX. Features high transparency and AI-driven automated trading.",
     "features": [
@@ -437,7 +445,7 @@
       "support": 4.2
     },
     "affiliateLink": "https://h.accesstrade.net/sp/cc?rk=0100ms9100oow9",
-    "affiliateLink_en": "https://h.accesstrade.net/sp/cc?rk=0100ms9100oow9",
+    "affiliateLink_en": "",
     "rating": 4.3,
     "scores": {
       "cost": 3.8,
@@ -453,6 +461,7 @@
     "id": "interactive-brokers",
     "name": "Interactive Brokers",
     "name_en": "Interactive Brokers",
+    "supportedLocales": ["ja", "en"],
     "description": "世界中の機関投資家が利用する最高峰のプラットフォーム。",
     "description_en": "A premier platform used by institutional investors worldwide.",
     "features": [
@@ -509,6 +518,7 @@
     "id": "xm-trading",
     "name": "XMTrading",
     "name_en": "XMTrading",
+    "supportedLocales": ["ja", "en"],
     "description": "世界最大級の海外FX。追証なしのゼロカットと最大1000倍のレバレッジが特徴。",
     "description_en": "Global giant in Forex. Features zero-cut (no margin call) and up to 1000x leverage.",
     "features": [
@@ -565,6 +575,7 @@
     "id": "bybit",
     "name": "Bybit",
     "name_en": "Bybit",
+    "supportedLocales": ["ja", "en"],
     "description": "世界的に人気の高い暗号資産取引所。多機能な取引環境と高い流動性が魅力。",
     "description_en": "Globally popular crypto exchange. Features multi-functional trading and high liquidity.",
     "features": [
@@ -615,6 +626,120 @@
       "support": 4.3
     },
     "lastCalculated": "2026-03-17T13:30:38.474Z",
+    "integrityCertified": true
+  },
+  {
+    "id": "fx-broadnet",
+    "name": "FXブロードネット",
+    "name_en": "FX Broadnet",
+    "supportedLocales": ["ja"],
+    "description": "リピート系自動売買「トラッキングトレード」が最大の特徴。初心者でも設定しやすい。",
+    "description_en": "Features the 'Tracking Trade' automated system. Easy for beginners to set up and follow.",
+    "features": [
+      "トラッキングトレード搭載",
+      "1,000通貨からの少額取引",
+      "業界最狭水準のスプレッド"
+    ],
+    "features_en": [
+      "Tracking Trade automation",
+      "Micro lots from 1,000 units",
+      "Ultra-tight spreads"
+    ],
+    "pros": [
+      "自動売買の再現性が高い",
+      "コストを抑えた取引が可能"
+    ],
+    "pros_en": [
+      "High reproducibility in automation",
+      "Low-cost trading infrastructure"
+    ],
+    "cons": [
+      "高度なカスタマイズには不向き",
+      "プラットフォームがややシンプル"
+    ],
+    "cons_en": [
+      "Not for hyper-custom logic",
+      "UI might feel too simple for pros"
+    ],
+    "targetAudience": "忙しいサラリーマン・自動売買を手軽に始めたい方",
+    "targetAudience_en": "Busy professionals and automated trading beginners",
+    "recommendation": "「トラッキングトレード」による効率的な投資を求める方に最適。",
+    "recommendation_en": "Ideal for those seeking efficiency through automated Tracking Trades.",
+    "rawScores": {
+      "cost": 4.7,
+      "platform": 4.4,
+      "speed": 4.5,
+      "security": 4.8,
+      "support": 4.3
+    },
+    "affiliateLink": "https://h.accesstrade.net/sp/cc?rk=0100167100oow9",
+    "affiliateLink_en": "",
+    "rating": 4.5,
+    "scores": {
+      "cost": 4.7,
+      "platform": 4.4,
+      "speed": 4.5,
+      "security": 4.8,
+      "support": 4.3
+    },
+    "lastCalculated": "2026-03-22T03:22:56.000Z",
+    "integrityCertified": true
+  },
+  {
+    "id": "hirose-fx",
+    "name": "ヒロセ通商 LION FX",
+    "name_en": "Hirose Financial LION FX",
+    "supportedLocales": ["ja"],
+    "description": "54種類もの豊富な通貨ペアと、充実した「食品キャンペーン」で知られるユニークな会社。",
+    "description_en": "Unique broker offering 54 currency pairs and famous for its generous food-gift campaigns.",
+    "features": [
+      "54種類の超多機能通貨ペア",
+      "1,000通貨対応",
+      "毎月の食品プレゼント"
+    ],
+    "features_en": [
+      "54 diverse currency pairs",
+      "1,000 unit trading",
+      "Monthly gourmet food rewards"
+    ],
+    "pros": [
+      "取扱い通貨が圧倒的に多い",
+      "スワップポイントが魅力的"
+    ],
+    "pros_en": [
+      "Vast selection of currencies",
+      "Attractive swap point rates"
+    ],
+    "cons": [
+      "情報発信がやや個性的",
+      "ツールが若干テクニカル寄り"
+    ],
+    "cons_en": [
+      "Marketing is very unconventional",
+      "Tools can feel a bit cluttered"
+    ],
+    "targetAudience": "マイナー通貨を扱いたい方・多機能なツールを好む方",
+    "targetAudience_en": "Minor currency pair enthusiasts and power users",
+    "recommendation": "豊富な銘柄と、他社にはないユニークな特典を重視するトレーダーに。",
+    "recommendation_en": "For traders seeking variety and unique lifestyle rewards with their trading.",
+    "rawScores": {
+      "cost": 4.6,
+      "platform": 4.5,
+      "speed": 4.7,
+      "security": 4.9,
+      "support": 4.4
+    },
+    "affiliateLink": "https://h.accesstrade.net/sp/cc?rk=01002x0c00oow9",
+    "affiliateLink_en": "",
+    "rating": 4.6,
+    "scores": {
+      "cost": 4.6,
+      "platform": 4.5,
+      "speed": 4.7,
+      "security": 4.9,
+      "support": 4.4
+    },
+    "lastCalculated": "2026-03-22T03:22:56.000Z",
     "integrityCertified": true
   }
 ]
