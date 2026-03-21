@@ -8,11 +8,6 @@ import { Shield, ArrowRight, Zap, Trophy, Star, ShieldCheck } from 'lucide-react
 import Link from 'next/link';
 import { Metadata } from 'next';
 
-
-// export async function generateStaticParams() {
-//     return [{ locale: 'en' }, { locale: 'ja' }];
-// }
-
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }): Promise<Metadata> {
     const params = await props.params;
     const locale = params?.locale || 'ja';

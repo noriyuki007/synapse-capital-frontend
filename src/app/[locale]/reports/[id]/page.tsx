@@ -1,5 +1,4 @@
 import React from 'react';
-export const runtime = 'edge';
 import { notFound } from 'next/navigation';
 import { getReportData, getSortedReportsData, getTrackRecordStats } from '@/lib/reports';
 import { Header } from '@/components/Header';
@@ -12,18 +11,18 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 
-// export async function generateStaticParams() {
-//     const locales = ['en', 'ja'];
-//     const reports = await getSortedReportsData();
-//     
-//     const params: { id: string, locale: string }[] = [];
-//     locales.forEach(locale => {
-//         reports.forEach(report => {
-//             params.push({ id: report.id, locale });
-//         });
-//     });
-//     return params;
-// }
+export async function generateStaticParams() {
+    const locales = ['en', 'ja'];
+    const reports = await getSortedReportsData();
+    
+    const params: { id: string, locale: string }[] = [];
+    locales.forEach(locale => {
+        reports.forEach(report => {
+            params.push({ id: report.id, locale });
+        });
+    });
+    return params;
+}
 
 export async function generateMetadata(props: { params: Promise<{ id: string, locale: string }> }): Promise<Metadata> {
     const params = await props.params;

@@ -16,7 +16,7 @@ async function getReportIndex(): Promise<any[]> {
     }
 
     try {
-        const response = await fetch('https://raw.githubusercontent.com/noriyuki007/synapse-capital-frontend/main/content/reports-index.json', { next: { revalidate: 60 } });
+        const response = await fetch('https://raw.githubusercontent.com/noriyuki007/synapse-capital-frontend/main/content/reports-index.json', { cache: 'force-cache' });
         if (response.ok) return await response.json();
     } catch (e) {
         console.error("Failed to fetch report index:", e);
