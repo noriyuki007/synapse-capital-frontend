@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "FX 市場状況アップデート",
+    "title": "USD/JPY上昇期待とリスクオフの二極化",
     "date": "2026-03-21",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "AI生成パイプライン一時停止",
-      "公開テクニカル: 終値 159.22",
-      "リスク管理の優先"
+      "米金利観測がドル支援",
+      "トランプ発言で地政学リスク高まる",
+      "テクニカルはMA20上抜けで買いシグナル"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "シナプス解析データの自動生成に遅延が発生しています。公開指標のみ参照し、慎重な判断を推奨します。",
+    "excerpt": "本日はトランプ発言とFRB利上げ期待が交錯し、USD/JPYは買い圧力が優位。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "自動生成フォールバック",
-    "entry": "159.22",
-    "tp": "159.22",
-    "sl": "159.22",
-    "reliability": "LOW"
+    "status": "BUY",
+    "comment": "トランプ発言とFRB利上げ期待がドルを支え、テクニカルはMA20上抜け・RSI60で買いシグナル",
+    "entry": "159.20",
+    "tp": "160.50",
+    "sl": "158.50",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "STOCKS 市場状況アップデート",
+    "title": "プロフェッショナルな日本語タイトル",
     "date": "2026-03-21",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "moomoo-securities",
     "tldr_points": [
-      "AI生成パイプライン一時停止",
-      "公開テクニカル: 終値 6506.48",
-      "リスク管理の優先"
+      "S&P500は20日MAを下抜け、RSIは超売り圏",
+      "利上げ観測と原油高が下押し圧力を強化",
+      "売りエントリーを検討し、利確6300.00・損切り6600.00"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "シナプス解析データの自動生成に遅延が発生しています。公開指標のみ参照し、慎重な判断を推奨します。",
+    "excerpt": "S&P500は20日移動平均を下抜け、RSIは25.3と深い超売り圏を示す。利上げ観測が高まる中、トランプ政権下での原油高と消費財セクターの動向が市場の重石となり、下押し圧力が強まっている。",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "自動生成フォールバック",
-    "entry": "6506.48",
-    "tp": "6506.48",
-    "sl": "6506.48",
-    "reliability": "LOW"
+    "comment": "S&P500は20日移動平均を下抜け、RSIは25.3と深い超売り圏を示す。利上げ観測が高まる中、トランプ政権下での原油高と消費財セクターの動向が市場の重石となり、下押し圧力が強まっている。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "CRYPTO 市場状況アップデート",
+    "title": "BTC/USD 市場分析レポート 2026-03-21",
     "date": "2026-03-21",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "AI生成パイプライン一時停止",
-      "公開テクニカル: 終値 70644.17",
-      "リスク管理の優先"
+      "価格はMA20を上抜け、強気基調が続く",
+      "規制進展と機関商品の申請が需給を支える",
+      "テクニカル指標は過熱感が限定的で上値余地あり"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "シナプス解析データの自動生成に遅延が発生しています。公開指標のみ参照し、慎重な判断を推奨します。",
+    "excerpt": "MA20上抜けとRSI60.48が示す強気基調に、機関ETF申請とステーブルコイン規制合意が追い風となり、上値試しが期待される。さらに、ハイパーリキッド関連ETFの申請が機関投資家の参入を促し、市場流動性の改善が見込まれる。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "自動生成フォールバック",
-    "entry": "70644.17",
-    "tp": "70644.17",
-    "sl": "70644.17",
-    "reliability": "LOW"
+    "status": "BUY",
+    "comment": "MA20上抜けと機関需給支援が上値を後押し",
+    "entry": "70588.37",
+    "tp": "73000.00",
+    "sl": "68000.00",
+    "reliability": "MEDIUM"
   }
 }

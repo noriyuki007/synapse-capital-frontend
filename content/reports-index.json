@@ -2,34 +2,34 @@
   {
     "id": "2026-03-21-stocks",
     "date": "2026-03-21",
-    "title": "STOCKS 市場状況アップデート",
+    "title": "プロフェッショナルな日本語タイトル",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "moomoo-securities",
-    "excerpt": "シナプス解析データの自動生成に遅延が発生しています。公開指標のみ参照し、慎重な判断を推奨します。",
+    "excerpt": "S&P500は20日移動平均を下抜け、RSIは25.3と深い超売り圏を示す。利上げ観測が高まる中、トランプ政権下での原油高と消費財セクターの動向が市場の重石となり、下押し圧力が強まっている。",
     "result": "PENDING"
   },
   {
     "id": "2026-03-21-fx",
     "date": "2026-03-21",
-    "title": "FX 市場状況アップデート",
+    "title": "USD/JPY上昇期待とリスクオフの二極化",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "シナプス解析データの自動生成に遅延が発生しています。公開指標のみ参照し、慎重な判断を推奨します。",
+    "excerpt": "本日はトランプ発言とFRB利上げ期待が交錯し、USD/JPYは買い圧力が優位。",
     "result": "PENDING"
   },
   {
     "id": "2026-03-21-crypto",
     "date": "2026-03-21",
-    "title": "CRYPTO 市場状況アップデート",
+    "title": "BTC/USD 市場分析レポート 2026-03-21",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "シナプス解析データの自動生成に遅延が発生しています。公開指標のみ参照し、慎重な判断を推奨します。",
+    "excerpt": "MA20上抜けとRSI60.48が示す強気基調に、機関ETF申請とステーブルコイン規制合意が追い風となり、上値試しが期待される。さらに、ハイパーリキッド関連ETFの申請が機関投資家の参入を促し、市場流動性の改善が見込まれる。",
     "result": "PENDING"
   },
   {
