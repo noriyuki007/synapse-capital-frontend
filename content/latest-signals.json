@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY上昇期待とリスクオフの二極化",
+    "title": "FX：最新マーケット分析インテリジェンス",
     "date": "2026-03-21",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米金利観測がドル支援",
-      "トランプ発言で地政学リスク高まる",
-      "テクニカルはMA20上抜けで買いシグナル"
+      "地政学リスクと利上げ観測がUSD高をサポート",
+      "テクニカルは終値＞MA20・RSI60で強気圏",
+      "リスク管理：損切り158.50、RSI過熱警戒"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "本日はトランプ発言とFRB利上げ期待が交錯し、USD/JPYは買い圧力が優位。",
+    "excerpt": "USD/JPYはイラン情勢紧张と米利上げ観測から上昇圧力。テクニカルも強気を示唆するが、RSI60で過熱注意。159.22ロング推奨、利確160.50、損切り158.50。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "トランプ発言とFRB利上げ期待がドルを支え、テクニカルはMA20上抜け・RSI60で買いシグナル",
-    "entry": "159.20",
+    "comment": "地政学リスク・利上げ観測がUSD高をサポート。終値＞MA20で強気、RSI60は過熱注意。",
+    "entry": "159.22",
     "tp": "160.50",
     "sl": "158.50",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "プロフェッショナルな日本語タイトル",
+    "title": "STOCKS：最新マーケット分析インテリジェンス",
     "date": "2026-03-21",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "moomoo-securities",
     "tldr_points": [
-      "S&P500は20日MAを下抜け、RSIは超売り圏",
-      "利上げ観測と原油高が下押し圧力を強化",
-      "売りエントリーを検討し、利確6300.00・損切り6600.00"
+      "RSI卖られすぎからの短期反弹可能性",
+      "MA20が上値抵抗として強固",
+      "地政学リスクと金利動向が不透明"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500は20日移動平均を下抜け、RSIは25.3と深い超売り圏を示す。利上げ観測が高まる中、トランプ政権下での原油高と消費財セクターの動向が市場の重石となり、下押し圧力が強まっている。",
+    "excerpt": "S&P 500は終値6506.48がMA20 6770.57を下回り弱気圏。RSI25.34は卖られすぎを示すが、トレンド転換にはMA20突破が必要。金融セクター強気と地政学リスクが混在する市場環境。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P500は20日移動平均を下抜け、RSIは25.3と深い超売り圏を示す。利上げ観測が高まる中、トランプ政権下での原油高と消費財セクターの動向が市場の重石となり、下押し圧力が強まっている。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "RSI卖られすぎからの短期反弹シナリオ。利確はMA20付近。",
+    "entry": "6506.48",
+    "tp": "6770.57",
+    "sl": "6450.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD 市場分析レポート 2026-03-21",
+    "title": "CRYPTO：オンチェーン・テクニカル統合分析",
     "date": "2026-03-21",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を上抜け、強気基調が続く",
-      "規制進展と機関商品の申請が需給を支える",
-      "テクニカル指標は過熱感が限定的で上値余地あり"
+      "MA20上回りで強気圏",
+      "規制ニュースに注意",
+      "上昇トレンド継続も利確・損切り線を明確化"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20上抜けとRSI60.48が示す強気基調に、機関ETF申請とステーブルコイン規制合意が追い風となり、上値試しが期待される。さらに、ハイパーリキッド関連ETFの申請が機関投資家の参入を促し、市場流動性の改善が見込まれる。",
+    "excerpt": "BTC/USDはテクニカル面で強気を示し、MA20上回りとRSIの中立〜強気域から上昇継続が期待される。一方、規制関連ニュースが市場に不確実性をもたらすため、リスク管理が重要。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上抜けと機関需給支援が上値を後押し",
-    "entry": "70588.37",
-    "tp": "73000.00",
-    "sl": "68000.00",
+    "comment": "MA20上回り、RSI強気域でテクニカルBuyサイン。規制リスクはあるが短期上昇トレンド。",
+    "entry": "70634.96",
+    "tp": "71000.00",
+    "sl": "70200.00",
     "reliability": "MEDIUM"
   }
 }

@@ -2,34 +2,34 @@
   {
     "id": "2026-03-21-stocks",
     "date": "2026-03-21",
-    "title": "プロフェッショナルな日本語タイトル",
+    "title": "STOCKS：最新マーケット分析インテリジェンス",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "moomoo-securities",
-    "excerpt": "S&P500は20日移動平均を下抜け、RSIは25.3と深い超売り圏を示す。利上げ観測が高まる中、トランプ政権下での原油高と消費財セクターの動向が市場の重石となり、下押し圧力が強まっている。",
+    "excerpt": "S&P 500は終値6506.48がMA20 6770.57を下回り弱気圏。RSI25.34は卖られすぎを示すが、トレンド転換にはMA20突破が必要。金融セクター強気と地政学リスクが混在する市場環境。",
     "result": "PENDING"
   },
   {
     "id": "2026-03-21-fx",
     "date": "2026-03-21",
-    "title": "USD/JPY上昇期待とリスクオフの二極化",
+    "title": "FX：最新マーケット分析インテリジェンス",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "本日はトランプ発言とFRB利上げ期待が交錯し、USD/JPYは買い圧力が優位。",
+    "excerpt": "USD/JPYはイラン情勢紧张と米利上げ観測から上昇圧力。テクニカルも強気を示唆するが、RSI60で過熱注意。159.22ロング推奨、利確160.50、損切り158.50。",
     "result": "PENDING"
   },
   {
     "id": "2026-03-21-crypto",
     "date": "2026-03-21",
-    "title": "BTC/USD 市場分析レポート 2026-03-21",
+    "title": "CRYPTO：オンチェーン・テクニカル統合分析",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "MA20上抜けとRSI60.48が示す強気基調に、機関ETF申請とステーブルコイン規制合意が追い風となり、上値試しが期待される。さらに、ハイパーリキッド関連ETFの申請が機関投資家の参入を促し、市場流動性の改善が見込まれる。",
+    "excerpt": "BTC/USDはテクニカル面で強気を示し、MA20上回りとRSIの中立〜強気域から上昇継続が期待される。一方、規制関連ニュースが市場に不確実性をもたらすため、リスク管理が重要。",
     "result": "PENDING"
   },
   {

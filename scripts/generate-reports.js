@@ -227,6 +227,7 @@ function buildArticlePrompt(genre, newsHeadlines, marketData, jstDateStr) {
 - トーン: 機関投資家向け金融メディア。個人的感想・会話文・挨拶（「承知しました」等）は禁止。
 - 呼称: 「検証隊」禁止。「本日のAI解析」「シナプス解析」を使用。
 - Frontmatter: ファイル先頭に YAML をそのまま置く。**絶対に** Markdown のコードフェンス（\`\`\`）で囲まない。
+- タイトル: **タイトルに日付や「本日」「2026年」などの時期表現を絶対に含めないこと**（例：「USD/JPY：テクニカル指標と金利相関が示唆する上昇トレンド」のように専門的に）。
 - シグナルJSON: 記事の**末尾**にのみ \`\`\`json ... \`\`\` ブロックを1つ置く。pair, status(BUY|SELL|NEUTRAL), comment, entry, tp, sl, reliability を含む。
 - prediction_direction（YAML）: **UP / DOWN / FLAT** のいずれか（シグナルの status とは別概念）。
 - 価格: 利確・損切り・エントリーは**小数点第2位まで**明示（指数・為替に応じた桁）。
@@ -272,7 +273,7 @@ ${headlinesBlock}
 
 ## YAML Frontmatter テンプレート（この形でファイル**先頭**に配置、フェンス禁止）
 ---
-title: "プロフェッショナルな日本語タイトル"
+title: "${genre}：最新マーケット分析インテリジェンス"
 date: "${jstDateStr}"
 genre: "${genre}"
 target_pair: "${symbol}"
