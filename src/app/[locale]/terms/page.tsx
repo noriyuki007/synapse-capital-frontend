@@ -6,16 +6,22 @@ import { TermsJA } from '@/components/legal/TermsJA';
 import { TermsEN } from '@/components/legal/TermsEN';
 import { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
-    const { locale } = await params;
+export async function generateStaticParams() {
+    return [{ locale: 'en' }, { locale: 'ja' }];
+}
+
+export async function generateMetadata(props: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+    const params = await props.params;
+    const locale = params?.locale || 'ja';
     return {
         title: locale === 'ja' ? '利用規約 | Synapse Capital' : 'Terms of Service | Synapse Capital',
         description: locale === 'ja' ? 'Synapse Capitalの利用規約について。' : 'Terms of Service for Synapse Capital.'
     };
 }
 
-const TermsOfService = async ({ params }: { params: Promise<{ locale: string }> }) => {
-    const { locale } = await params;
+const TermsOfService = async (props: { params: Promise<{ locale: string }> }) => {
+    const params = await props.params;
+    const locale = params?.locale || 'ja';
     const dict = await getDictionary(locale);
 
     return (

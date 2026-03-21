@@ -3,8 +3,13 @@ import { getDictionary } from '@/locales/dictionaries';
 import FXProClient from '@/components/FXProClient';
 import { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
-    const { locale } = await params;
+export async function generateStaticParams() {
+    return [{ locale: 'en' }, { locale: 'ja' }];
+}
+
+export async function generateMetadata(props: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+    const params = await props.params;
+    const locale = params?.locale || 'ja';
     const isJa = locale === 'ja';
     
     return {
@@ -15,8 +20,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     };
 }
 
-export default async function FXProPage({ params }: { params: Promise<{ locale: string }> }) {
-    const { locale } = await params;
+export default async function FXProPage(props: { params: Promise<{ locale: string }> }) {
+    const params = await props.params;
+    const locale = params?.locale || 'ja';
     const dict = await getDictionary(locale);
 
     return <FXProClient locale={locale} dict={dict} />;

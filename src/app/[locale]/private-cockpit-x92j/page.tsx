@@ -3,6 +3,11 @@
 import React from 'react';
 import { ShieldAlert, TrendingUp, Target, ShieldCheck, Activity, ChevronRight, Globe, Layers, Zap } from 'lucide-react';
 
+export async function generateStaticParams() {
+    return [{ locale: 'en' }, { locale: 'ja' }];
+}
+
+
 const SecretCockpit = () => {
     const [assetClass, setAssetClass] = React.useState<'FX' | 'STOCKS' | 'CRYPTO'>('FX');
     const [mounted, setMounted] = React.useState(false);

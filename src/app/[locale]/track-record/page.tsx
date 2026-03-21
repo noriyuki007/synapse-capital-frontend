@@ -7,8 +7,13 @@ import { Activity, ShieldCheck, CheckCircle2, XCircle } from 'lucide-react';
 import { getDictionary } from '@/locales/dictionaries';
 import { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
-    const { locale } = await params;
+export async function generateStaticParams() {
+    return [{ locale: 'en' }, { locale: 'ja' }];
+}
+
+export async function generateMetadata(props: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+    const params = await props.params;
+    const locale = params?.locale || 'ja';
     const isJa = locale === 'ja';
     
     return {
@@ -19,8 +24,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     };
 }
 
-export default async function TrackRecordPage({ params }: { params: Promise<{ locale: string }> }) {
-    const { locale } = await params;
+export default async function TrackRecordPage(props: { params: Promise<{ locale: string }> }) {
+    const params = await props.params;
+    const locale = params?.locale || 'ja';
     const dict = await getDictionary(locale);
     const reports = await getSortedReportsData();
     const stats = await getTrackRecordStats();

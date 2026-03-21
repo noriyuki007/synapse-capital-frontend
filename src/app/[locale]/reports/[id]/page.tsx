@@ -23,8 +23,12 @@ export async function generateStaticParams() {
     return params;
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ id: string, locale: string }> }): Promise<Metadata> {
-    const { id, locale } = await params;
+export async function generateMetadata(props: { params: Promise<{ id: string, locale: string }> }): Promise<Metadata> {
+    const params = await props.params;
+    const id = params?.id;
+    const locale = params?.locale || 'ja';
+    
+    if (!id) return { title: 'Not Found' };
     const report = await getReportData(id);
     const baseUrl = 'https://synapsecapital.net'; 
     
@@ -56,8 +60,13 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
     };
 }
 
-export default async function ReportDetailPage({ params }: { params: Promise<{ id: string, locale: string }> }) {
-    const { id, locale } = await params;
+export default async function ReportDetailPage(props: { params: Promise<{ id: string, locale: string }> }) {
+    const params = await props.params;
+    const id = params?.id;
+    const locale = params?.locale || 'ja';
+    
+    if (!id) notFound();
+
     const dict = await getDictionary(locale);
     let reportData;
 

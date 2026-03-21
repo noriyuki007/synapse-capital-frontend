@@ -36,19 +36,17 @@ export async function generateStaticParams() {
     return [{ locale: 'en' }, { locale: 'ja' }];
 }
 
-export default async function RootLayout({
-    children,
-    params,
-}: {
+export default async function RootLayout(props: {
     children: React.ReactNode;
     params: Promise<{ locale: string }>;
 }) {
-    const { locale } = await params;
+    const params = await props.params;
+    const locale = params?.locale || 'ja';
     
     return (
         <html lang={locale}>
             <body className={`${inter.variable} ${noto.variable} font-sans antialiased bg-white text-slate-900`}>
-                {children}
+                {props.children}
             </body>
         </html>
     );

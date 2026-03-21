@@ -7,8 +7,13 @@ import { Shield, ArrowRight, Zap, Trophy, Star, ShieldCheck } from 'lucide-react
 import Link from 'next/link';
 import { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
-    const { locale } = await params;
+export async function generateStaticParams() {
+    return [{ locale: 'en' }, { locale: 'ja' }];
+}
+
+export async function generateMetadata(props: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+    const params = await props.params;
+    const locale = params?.locale || 'ja';
     return {
         title: locale === 'ja' ? '推奨ブローカー連携 | Synapse Capital' : 'Recommended Brokers | Synapse Capital',
         description: locale === 'ja' 
@@ -17,8 +22,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     };
 }
 
-export default async function ExchangeListPage({ params }: { params: Promise<{ locale: string }> }) {
-    const { locale } = await params;
+export default async function ExchangeListPage(props: { params: Promise<{ locale: string }> }) {
+    const params = await props.params;
+    const locale = params?.locale || 'ja';
     const dict = await getDictionary(locale);
     const exchanges = await getExchanges(locale);
 

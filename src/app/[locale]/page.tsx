@@ -13,9 +13,28 @@ import { Footer } from '@/components/Footer';
 
 
 import { getDictionary } from '@/locales/dictionaries';
+import { Metadata } from 'next';
 
-export default async function SynapseMarketLanding({ params }: { params: Promise<{ locale: string }> }) {
-    const { locale } = await params;
+export async function generateStaticParams() {
+    return [{ locale: 'en' }, { locale: 'ja' }];
+}
+
+export async function generateMetadata(props: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+    const params = await props.params;
+    const locale = params?.locale || 'ja';
+    const isJa = locale === 'ja';
+    
+    return {
+        title: isJa ? "Synapse Capital | AI 投資インテリジェンス" : "Synapse Capital | AI Investment Intelligence",
+        description: isJa 
+            ? "AIが市場を24時間監視し、高精度な投資戦略を提供。FX・株式・暗号資産の次世代解析プラットフォーム。" 
+            : "AI monitors markets 24/7 to provide high-precision investment strategies. Next-gen analysis for FX, Stocks, and Crypto.",
+    };
+}
+
+export default async function SynapseMarketLanding(props: { params: Promise<{ locale: string }> }) {
+    const params = await props.params;
+    const locale = params?.locale || 'ja';
     const dict = await getDictionary(locale);
 
     let signals;

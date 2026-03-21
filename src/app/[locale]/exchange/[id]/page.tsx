@@ -23,8 +23,10 @@ export async function generateStaticParams() {
     return params;
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ id: string, locale: string }> }): Promise<Metadata> {
-    const { id, locale } = await params;
+export async function generateMetadata(props: { params: Promise<{ id: string, locale: string }> }): Promise<Metadata> {
+    const params = await props.params;
+    const id = params?.id;
+    const locale = params?.locale || 'ja';
     const exchange = await getExchangeById(id, locale);
     if (!exchange) return { title: 'Not Found' };
     return {
@@ -32,9 +34,13 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
     };
 }
 
-export default async function ExchangeDetailPage({ params }: { params: Promise<{ id: string, locale: string }> }) {
-    const { id, locale } = await params;
+export default async function ExchangeDetailPage(props: { params: Promise<{ id: string, locale: string }> }) {
+    const params = await props.params;
+    const id = params?.id;
+    const locale = params?.locale || 'ja';
     const dict = await getDictionary(locale);
+    
+    if (!id) notFound();
     const exchange = await getExchangeById(id, locale);
 
     if (!exchange) {

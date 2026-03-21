@@ -6,16 +6,22 @@ import { getDictionary } from '@/locales/dictionaries';
 import { PrivacyJA } from '@/components/legal/PrivacyJA';
 import { PrivacyEN } from '@/components/legal/PrivacyEN';
 
-export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
-    const { locale } = await params;
+export async function generateStaticParams() {
+    return [{ locale: 'en' }, { locale: 'ja' }];
+}
+
+export async function generateMetadata(props: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+    const params = await props.params;
+    const locale = params?.locale || 'ja';
     return {
         title: locale === 'ja' ? 'プライバシーポリシー | Synapse Capital' : 'Privacy Policy | Synapse Capital',
         description: locale === 'ja' ? 'Synapse Capitalのプライバシーポリシーについて。' : 'Privacy Policy for Synapse Capital.'
     };
 }
 
-const PrivacyPolicy = async ({ params }: { params: Promise<{ locale: string }> }) => {
-    const { locale } = await params;
+const PrivacyPolicy = async (props: { params: Promise<{ locale: string }> }) => {
+    const params = await props.params;
+    const locale = params?.locale || 'ja';
     const dict = await getDictionary(locale);
 
     return (
