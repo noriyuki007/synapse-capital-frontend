@@ -11,10 +11,16 @@ import { getDictionary } from '@/locales/dictionaries';
 import { Metadata } from 'next';
 
 export async function generateStaticParams() {
-    const exchanges = await getExchanges();
-    return exchanges.map((exchange) => ({
-        id: exchange.id,
-    }));
+    const locales = ['en', 'ja'];
+    const params: { id: string, locale: string }[] = [];
+    
+    for (const locale of locales) {
+        const exchanges = await getExchanges(locale);
+        exchanges.forEach(exchange => {
+            params.push({ id: exchange.id, locale });
+        });
+    }
+    return params;
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string, locale: string }> }): Promise<Metadata> {

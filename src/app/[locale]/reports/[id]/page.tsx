@@ -11,12 +11,16 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export async function generateStaticParams() {
+    const locales = ['en', 'ja'];
     const reports = await getSortedReportsData();
-    // For static generation, we should include both locales if we want full static support
-    // But for now, let's keep it simple.
-    return reports.map((report) => ({
-        id: report.id,
-    }));
+    
+    const params: { id: string, locale: string }[] = [];
+    locales.forEach(locale => {
+        reports.forEach(report => {
+            params.push({ id: report.id, locale });
+        });
+    });
+    return params;
 }
 
 export async function generateMetadata({ params }: { params: Promise<{ id: string, locale: string }> }): Promise<Metadata> {

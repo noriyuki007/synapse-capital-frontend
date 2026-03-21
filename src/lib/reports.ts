@@ -32,11 +32,16 @@ async function getRawReportContent(id: string) {
     try {
         // Prefer local filesystem so newly generated reports are visible immediately.
         // If the local file doesn't exist (or runtime doesn't allow fs), fall back to GitHub raw.
-        if (typeof window === 'undefined') {
-            const fsMod = await import('fs/promises');
-            const localPath = `${process.cwd()}/content/reports/${id}.md`;
-            const localText = await fsMod.readFile(localPath, 'utf8');
-            if (localText && localText.trim().length > 0) return localText;
+        if (typeof window === 'undefined' && process.env.NODE_ENV === 'development') {
+            try {
+                const innerPromises = 'promises';
+                const fsMod = await import(`fs/${innerPromises}`);
+                const localPath = `${process.cwd()}/content/reports/${id}.md`;
+                const localText = await fsMod.readFile(localPath, 'utf8');
+                if (localText && localText.trim().length > 0) return localText;
+            } catch (innerE) {
+                // local fs failed, which is expected in production build
+            }
         }
         // Browser-side: read via internal API route (server reads local fs).
         if (typeof window !== 'undefined') {
@@ -278,20 +283,19 @@ function normalizeSignalData(genre: string, raw: any, locale: string = 'ja') {
 export async function getLatestSignals(locale: string = 'ja') {
     try {
         let rawSignals;
-        if (typeof window === 'undefined') {
-            const fsMod = await import('fs/promises');
-            const path = await import('path');
-            const sigPath = path.join(process.cwd(), `content/latest-signals-${locale}.json`);
+        if (process.env.NODE_ENV === 'development') {
             try {
+                const innerPromises = 'promises';
+                const fsMod = await import(`fs/${innerPromises}`);
+                const path = await import('path');
+                const sigPath = path.join(process.cwd(), `content/latest-signals-${locale}.json`);
                 const content = await fsMod.readFile(sigPath, 'utf8');
                 rawSignals = JSON.parse(content);
             } catch (e) {
-                // Fallback to non-suffixed if localized doesn't exist yet
                 rawSignals = latestSignalsJson;
             }
         } else {
-             // Basic fetch fallback for client-side
-             rawSignals = latestSignalsJson;
+            rawSignals = latestSignalsJson;
         }
 
         return {
@@ -301,11 +305,10 @@ export async function getLatestSignals(locale: string = 'ja') {
         };
     } catch (e) {
         console.error(`Failed to process latest signals for ${locale}:`, e);
+        return {
+            FX: normalizeSignalData('FX', null, locale),
+            STOCKS: normalizeSignalData('STOCKS', null, locale),
+            CRYPTO: normalizeSignalData('CRYPTO', null, locale)
+        };
     }
-    
-    return {
-        FX: { pair: "USD/JPY", status: "BUY", comment: "...", entry: "---", tp: "---", sl: "---", reliability: "LOW" },
-        STOCKS: { pair: "S&P 500", status: "BUY", comment: "...", entry: "---", tp: "---", sl: "---", reliability: "LOW" },
-        CRYPTO: { pair: "BTC/USD", status: "BUY", comment: "...", entry: "---", tp: "---", sl: "---", reliability: "LOW" }
-    };
 }
