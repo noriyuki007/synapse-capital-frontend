@@ -58,13 +58,20 @@ const TICKER_MAP = {
     CRYPTO: { symbol: 'BTC/USD', ticker: 'BTC-USD' },
 };
 
-function getJSTDateStr(dateOverride) {
-    if (dateOverride && /^\d{4}-\d{2}-\d{2}$/.test(dateOverride)) return dateOverride;
-    const jstDate = new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Tokyo' }));
-    const y = jstDate.getFullYear();
-    const m = String(jstDate.getMonth() + 1).padStart(2, '0');
-    const d = String(jstDate.getDate()).padStart(2, '0');
-    return `${y}-${m}-${d}`;
+function getJSTDateStr(dateOverride, includeTime = false) {
+    const jstNow = new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Tokyo' }));
+    const y = jstNow.getFullYear();
+    const m = String(jstNow.getMonth() + 1).padStart(2, '0');
+    const d = String(jstNow.getDate()).padStart(2, '0');
+    const hh = String(jstNow.getHours()).padStart(2, '0');
+    const mm = String(jstNow.getMinutes()).padStart(2, '0');
+    
+    const baseDate = (dateOverride && /^\d{4}-\d{2}-\d{2}$/.test(dateOverride)) ? dateOverride : `${y}-${m}-${d}`;
+    if (!includeTime) return baseDate;
+    
+    // If override is today, use current time, else use 00:00
+    const isToday = baseDate === `${y}-${m}-${d}`;
+    return `${baseDate} ${isToday ? hh : '00'}:${isToday ? mm : '00'}`;
 }
 
 function decodeXmlEntities(s) {
@@ -299,8 +306,7 @@ excerpt: "120文字前後の要約（挨拶なし）"
 `;
 }
 
-async function generateWithGemini(genre, newsHeadlines, marketData) {
-    const jstDateStr = getJSTDateStr(TARGET_DATE_RAW);
+async function generateWithGemini(genre, newsHeadlines, marketData, jstDateStr) {
     const systemInstruction = PERSONAS[genre];
     const userPrompt = buildArticlePrompt(genre, newsHeadlines, marketData, jstDateStr);
 
@@ -339,7 +345,7 @@ const FREE_MODELS = [
 
 const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-async function generateWithOpenRouter(genre, newsHeadlines, marketData, modelId = FREE_MODELS[0]) {
+async function generateWithOpenRouter(genre, newsHeadlines, marketData, modelId = FREE_MODELS[0], jstDateStr) {
     if (!OPENROUTER_API_KEY) throw new Error('OPENROUTER_API_KEY is not set.');
 
     const isExplicitlyFree = modelId.endsWith(':free');
@@ -350,7 +356,6 @@ async function generateWithOpenRouter(genre, newsHeadlines, marketData, modelId 
         throw new Error(`Permission Denied: Model ${modelId} is not verified as FREE.`);
     }
 
-    const jstDateStr = getJSTDateStr(TARGET_DATE_RAW);
     const userPrompt = buildArticlePrompt(genre, newsHeadlines, marketData, jstDateStr);
 
     console.log(`[${genre}] OpenRouter fallback (${modelId})...`);
@@ -461,10 +466,13 @@ function extractIndexEntry(markdown, genre, dateStr) {
         const { data } = matter(prepared);
         return {
             id: `${dateStr}-${genre.toLowerCase()}`,
-            date: dateStr,
-            title: data.title || `${genre} Analysis`,
+            date: data.date ? String(data.date) : dateStr,
+            title: (data.title || `${genre} Analysis`).trim(),
             genre,
             target_pair: data.target_pair || TICKER_MAP[genre].symbol,
+            prediction_direction: data.prediction_direction || 'FLAT',
+            recommended_broker: data.recommended_broker || RECOMMENDED_BROKERS[genre],
+            excerpt: data.excerpt || '',
             result: 'PENDING',
         };
     } catch {
@@ -507,13 +515,13 @@ function rebuildReportsIndexFromReportsDir() {
             data = {};
         }
 
-        const dateFromFile = String(file.match(/^(\d{4}-\d{2}-\d{2})-/)?.[1] || data.date || '');
-        const genreFromFile = String(file.match(/-(fx|stocks|crypto)\.md$/i)?.[1] || data.genre || '').toUpperCase();
-        const genre = String(data.genre || genreFromFile || 'FX').trim();
+        const entryDate = data.date ? String(data.date) : (file.match(/^(\d{4}-\d{2}-\d{2})-/)?.[1] || '');
+        const genreFromFile = String(file.match(/-(fx|stocks|crypto)\.md$/i)?.[1] || '').toUpperCase();
+        const genre = String(data.genre || genreFromFile || 'FX').trim().toUpperCase();
 
         return {
             id,
-            date: String(data.date || dateFromFile || '').trim(),
+            date: String(data.date || entryDate || '').trim(),
             title: String(data.title || `${genre} Analysis`).trim(),
             genre,
             target_pair: String(data.target_pair || '').trim(),
@@ -812,17 +820,18 @@ async function main() {
         try {
             const marketData = generateChart(genre);
             const dateStr = getJSTDateStr(TARGET_DATE_RAW);
+            const displayDateStr = getJSTDateStr(TARGET_DATE_RAW, true);
             const filePath = path.join(REPORTS_DIR, `${dateStr}-${genre.toLowerCase()}.md`);
 
             console.log(`[${genre}] 🚀 Starting generation for ${dateStr}...`);
 
             let markdown;
             if (deterministicOnly) {
-                markdown = await generateDeterministicReport(genre, newsForPrompt, marketData, dateStr);
+                markdown = await generateDeterministicReport(genre, newsForPrompt, marketData, displayDateStr);
             } else {
                 if (GEMINI_API_KEY && GEMINI_API_KEY !== 'dummy_key') {
                     try {
-                        markdown = await generateWithGemini(genre, newsForPrompt, marketData);
+                        markdown = await generateWithGemini(genre, newsForPrompt, marketData, displayDateStr);
                     } catch (e) {
                         console.warn(`[${genre}] ⚠️ Gemini generation failed: ${e.message}`);
                     }
@@ -832,7 +841,7 @@ async function main() {
                     console.log(`[${genre}] Trying OpenRouter fallback chain...`);
                     for (const mId of FREE_MODELS) {
                         try {
-                            markdown = await generateWithOpenRouter(genre, newsForPrompt, marketData, mId);
+                            markdown = await generateWithOpenRouter(genre, newsForPrompt, marketData, mId, displayDateStr);
                             if (markdown) {
                                 console.log(`[${genre}] ✅ Fallback successful with ${mId}`);
                                 break;

@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { Activity, TrendingUp, ArrowRight } from 'lucide-react';
+import { Activity, TrendingUp, ArrowRight, Clock } from 'lucide-react';
 import Link from 'next/link';
 
 export const Sidebar = ({ latestReports = [], stats = { total: 0, winRate: 0 }, className = "" }: any) => {
@@ -22,7 +22,10 @@ export const Sidebar = ({ latestReports = [], stats = { total: 0, winRate: 0 }, 
                                         <span className="text-[11px] font-black uppercase px-2 py-0.5 bg-white border border-slate-200 rounded-none text-slate-400 tracking-widest">
                                             {report.genre === 'FX' ? '為替' : report.genre === 'CRYPTO' ? '暗号資産' : '株式'}
                                         </span>
-                                        <span className="text-[11px] font-bold text-slate-400 uppercase tracking-widest">{report.date}</span>
+                                        <span className="text-[11px] font-bold text-slate-400 uppercase tracking-widest flex items-center gap-1">
+                                            <Clock className="w-3 h-3" />
+                                            {report.date.replace(/-/g, '.')}
+                                        </span>
                                     </div>
                                     <h4 className="text-lg font-black leading-tight text-slate-900 group-hover:text-indigo-600 transition-colors uppercase font-sans">
                                         {report.title}

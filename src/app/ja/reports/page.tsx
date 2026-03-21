@@ -98,7 +98,10 @@ export default function ReportsPage() {
                                     <Link key={report.id} href={`/ja/reports/${report.id}`} className="group block">
                                         <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
                                             <div className="md:col-span-2 space-y-2">
-                                                <div className="text-[10px] font-black text-slate-300 uppercase tracking-widest">{report.date}</div>
+                                                <div className="text-[10px] font-black text-slate-300 uppercase tracking-widest flex items-center gap-1">
+                                                    <Clock className="w-3 h-3" />
+                                                    {report.date.replace(/-/g, '.')}
+                                                </div>
                                                 <span className={`inline-block px-2 py-0.5 rounded-none text-[9px] font-black tracking-widest uppercase border ${
                                                     report.genre === 'FX' ? 'bg-indigo-50 border-indigo-100 text-indigo-600' :
                                                     report.genre === 'CRYPTO' ? 'bg-amber-50 border-amber-100 text-amber-600' :
@@ -196,7 +199,10 @@ export default function ReportsPage() {
                                     <h3 className="text-sm font-black text-slate-900 group-hover:text-indigo-600 transition-colors leading-snug line-clamp-2 uppercase">
                                         {report.title}
                                     </h3>
-                                    <div className="text-[9px] font-bold text-slate-400 uppercase tracking-tighter">{report.date}</div>
+                                    <div className="text-[9px] font-bold text-slate-400 uppercase tracking-tighter flex items-center gap-1">
+                                        <Clock className="w-2.5 h-2.5" />
+                                        {report.date.replace(/-/g, '.')}
+                                    </div>
                                 </Link>
                             ))}
                         </div>

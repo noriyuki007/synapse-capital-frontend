@@ -1,5 +1,16 @@
 [
   {
+    "id": "2026-03-21-fx",
+    "date": "2026-03-21 21:15",
+    "title": "USD/JPY マーケット分析：地政学リスクと利上げ観測の影響",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYはイラン情勢紧张と米利上げ観測から上昇圧力。テクニカルも強気を示唆するが、RSI60で過熱注意。159.22ロング推奨、利確160.50、損切り158.50。",
+    "result": "PENDING"
+  },
+  {
     "id": "2026-03-21-stocks",
     "date": "2026-03-21",
     "title": "S&P 500 指数：テクニカル弱気圏とファンダメンタル・ヘッジの評価",
@@ -8,17 +19,6 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "moomoo-securities",
     "excerpt": "S&P 500は終値6506.48がMA20 6770.57を下回り弱気圏。RSI25.34は卖られすぎを示すが、トレンド転換にはMA20突破が必要。金融セクター強気と地政学リスクが混在する市場環境。",
-    "result": "PENDING"
-  },
-  {
-    "id": "2026-03-21-fx",
-    "date": "2026-03-21",
-    "title": "USD/JPY マーケット分析：地政学リスクと利上げ観測の影響",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "dmm-fx",
-    "excerpt": "USD/JPYはイラン情勢紧张と米利上げ観測から上昇圧力。テクニカルも強気を示唆するが、RSI60で過熱注意。159.22ロング推奨、利確160.50、損切り158.50。",
     "result": "PENDING"
   },
   {
@@ -100,21 +100,24 @@
   },
   {
     "id": "2026-03-17-stocks",
-    "result": "PENDING"
-  },
-  {
-    "id": "2026-03-17-fx",
-    "date": "2024-01-24",
-    "title": "円安基調継続か？日銀政策と原油価格がドル円相場を左右する",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "OANDA",
-    "excerpt": "ドル円は日銀の金融政策と原油価格に注目が集まる。テクニカル分析では強気シグナルが点灯しており、円安トレンドが継続する可能性が高い。短期的な上昇を見込む戦略を提案。",
+    "date": "2026-03-17",
+    "title": "",
+    "genre": "",
+    "target_pair": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "",
     "result": "PENDING"
   },
   {
     "id": "2026-03-17-crypto",
+    "date": "2026-03-17",
+    "title": "",
+    "genre": "",
+    "target_pair": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "",
     "result": "PENDING"
   },
   {
@@ -215,5 +218,16 @@
     "recommended_broker": "dmm-fx",
     "excerpt": "米雇用統計のサプライズを受け、日米金利差拡大のシナリオが再燃。150円台の定着から152円を目指す強気相場をAIが解析します。",
     "result": "HIT"
+  },
+  {
+    "id": "2026-03-17-fx",
+    "date": "2024-01-24",
+    "title": "円安基調継続か？日銀政策と原油価格がドル円相場を左右する",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "OANDA",
+    "excerpt": "ドル円は日銀の金融政策と原油価格に注目が集まる。テクニカル分析では強気シグナルが点灯しており、円安トレンドが継続する可能性が高い。短期的な上昇を見込む戦略を提案。",
+    "result": "PENDING"
   }
 ]

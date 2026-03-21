@@ -80,7 +80,7 @@ export async function getSortedReportsData() {
 
         // Ensure date is a string (gray-matter sometimes returns Date objects)
         const dateStr = data.date instanceof Date 
-            ? data.date.toISOString().split('T')[0] 
+            ? data.date.toISOString().replace('T', ' ').substring(0, 16) 
             : String(data.date || item.date);
 
         return {
@@ -133,7 +133,7 @@ export async function getReportData(id: string) {
     });
 
     const data = matterResult.data as { 
-        date: string, 
+        date: string | Date, 
         title: string, 
         genre?: string, 
         excerpt?: string,
@@ -187,7 +187,9 @@ export async function getReportData(id: string) {
         conclusionText,
         nextSteps,
         title: data.title,
-        date: data.date,
+        date: data.date instanceof Date 
+            ? data.date.toISOString().replace('T', ' ').substring(0, 16) 
+            : String(data.date || ''),
         genre: data.genre || 'FX',
         target_pair: data.target_pair || '',
         prediction_direction: data.prediction_direction || 'FLAT',

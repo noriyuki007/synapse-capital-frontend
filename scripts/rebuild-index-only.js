@@ -16,14 +16,14 @@ function rebuild() {
         
         index.push({
             id: id,
-            date: data.date,
-            title: data.title,
-            genre: data.genre,
-            target_pair: data.target_pair,
-            prediction_direction: data.prediction_direction,
-            recommended_broker: data.recommended_broker,
-            excerpt: data.excerpt,
-            result: data.result || 'PENDING'
+            date: data.date ? String(data.date).trim() : id.substring(0, 10),
+            title: (data.title || '').trim(),
+            genre: (data.genre || '').trim().toUpperCase(),
+            target_pair: (data.target_pair || '').trim(),
+            prediction_direction: (data.prediction_direction || 'FLAT').trim(),
+            recommended_broker: (data.recommended_broker || '').trim(),
+            excerpt: (data.excerpt || '').trim(),
+            result: (data.result || 'PENDING').trim()
         });
     });
 

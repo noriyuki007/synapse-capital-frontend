@@ -117,7 +117,7 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
                                         {genre === 'FX' ? '為替分析' : genre === 'CRYPTO' ? '暗号資産' : '株式市場'}
                                     </span>
                                     <span className="text-[10px] font-black text-white/40 uppercase tracking-widest flex items-center gap-2">
-                                        <Clock className="w-4 h-4" /> {date}
+                                        <Clock className="w-4 h-4" /> {date.replace(/-/g, '.')}
                                     </span>
                                 </div>
                                 <h1 className="text-2xl md:text-3xl lg:text-4xl font-black text-white tracking-tighter leading-[1.2] font-sans uppercase">
@@ -336,7 +336,10 @@ export default async function ReportDetailPage({ params }: { params: Promise<{ i
                                         <Link key={i} href={`/ja/reports/${r.id}`} className="block group space-y-2">
                                             <div className="text-[10px] font-black text-indigo-600 uppercase tracking-widest">{r.genre}</div>
                                             <h4 className="font-bold text-slate-900 group-hover:text-indigo-600 transition-colors leading-tight">{r.title}</h4>
-                                            <div className="text-[10px] text-slate-400">{r.date}</div>
+                                            <div className="text-[10px] text-slate-400 flex items-center gap-1">
+                                                <Clock className="w-2.5 h-2.5" />
+                                                {r.date.replace(/-/g, '.')}
+                                            </div>
                                         </Link>
                                     ))}
                                 </div>
