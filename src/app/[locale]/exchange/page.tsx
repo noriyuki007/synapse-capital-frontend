@@ -1,5 +1,4 @@
 import React from 'react';
-export const runtime = 'edge';
 import { getExchanges } from '@/lib/microcms';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
@@ -7,6 +6,11 @@ import { getDictionary } from '@/locales/dictionaries';
 import { Shield, ArrowRight, Zap, Trophy, Star, ShieldCheck } from 'lucide-react';
 import Link from 'next/link';
 import { Metadata } from 'next';
+
+
+export async function generateStaticParams() {
+    return [{ locale: 'en' }, { locale: 'ja' }];
+}
 
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }): Promise<Metadata> {
     const params = await props.params;

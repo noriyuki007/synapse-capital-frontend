@@ -1,0 +1,3 @@
+export const production = {"GEMINI_API_KEY":"your_gemini_api_key_here","OPENAI_API_KEY":"your_openai_api_key_here","TWELVE_DATA_API_KEY":"9bb988e9af8b4b91954d67aab6f3a89f","FMP_API_KEY":"vkN1zFvdbZ7BThT4psNlFZPhNmGFUcUo","EXCHANGE_RATE_API_KEY":"cf42f8ebf7660d572614fd9e","OPENROUTER_API_KEY":"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"};
+export const development = {"GEMINI_API_KEY":"your_gemini_api_key_here","OPENAI_API_KEY":"your_openai_api_key_here","TWELVE_DATA_API_KEY":"9bb988e9af8b4b91954d67aab6f3a89f","FMP_API_KEY":"vkN1zFvdbZ7BThT4psNlFZPhNmGFUcUo","EXCHANGE_RATE_API_KEY":"cf42f8ebf7660d572614fd9e","OPENROUTER_API_KEY":"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"};
+export const test = {};

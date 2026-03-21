@@ -1,5 +1,4 @@
 import React from 'react';
-export const runtime = 'edge';
 import { getSortedReportsData, getTrackRecordStats } from '@/lib/reports';
 import { Header } from '@/components/Header';
 import { Sidebar } from '@/components/Sidebar';
@@ -9,6 +8,11 @@ import { getDictionary } from '@/locales/dictionaries';
 import { Activity, Clock } from 'lucide-react';
 import Link from 'next/link';
 import { Metadata } from 'next';
+
+
+export async function generateStaticParams() {
+    return [{ locale: 'en' }, { locale: 'ja' }];
+}
 
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }): Promise<Metadata> {
     const params = await props.params;

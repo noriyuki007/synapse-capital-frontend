@@ -1,5 +1,4 @@
 import React from 'react';
-export const runtime = 'edge';
 import { notFound } from 'next/navigation';
 import { getExchangeById } from '@/lib/microcms';
 import { Header } from '@/components/Header';
@@ -10,6 +9,20 @@ import Link from 'next/link';
 import { getExchanges } from '@/lib/microcms';
 import { getDictionary } from '@/locales/dictionaries';
 import { Metadata } from 'next';
+
+
+export async function generateStaticParams() {
+    const locales = ['en', 'ja'];
+    const params: { id: string, locale: string }[] = [];
+    
+    for (const locale of locales) {
+        const exchanges = await getExchanges(locale);
+        exchanges.forEach(exchange => {
+            params.push({ id: exchange.id, locale });
+        });
+    }
+    return params;
+}
 
 export async function generateMetadata(props: { params: Promise<{ id: string, locale: string }> }): Promise<Metadata> {
     const params = await props.params;

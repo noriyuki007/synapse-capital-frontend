@@ -1,5 +1,4 @@
 import type { Metadata, Viewport } from "next";
-export const runtime = 'edge';
 import { Inter, Noto_Sans_JP } from "next/font/google";
 import "./../globals.css";
 

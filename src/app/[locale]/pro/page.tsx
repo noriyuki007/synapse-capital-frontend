@@ -1,8 +1,12 @@
 import React from 'react';
-export const runtime = 'edge';
 import { getDictionary } from '@/locales/dictionaries';
 import FXProClient from '@/components/FXProClient';
 import { Metadata } from 'next';
+
+
+export async function generateStaticParams() {
+    return [{ locale: 'en' }, { locale: 'ja' }];
+}
 
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }): Promise<Metadata> {
     const params = await props.params;
