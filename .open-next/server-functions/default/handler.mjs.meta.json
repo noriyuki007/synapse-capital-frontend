@@ -3611,13 +3611,13 @@
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/[locale]/pro/page_client-reference-manifest.js": {
-      "bytes": 7883,
+    ".open-next/server-functions/default/.next/server/app/[locale]/reports/page_client-reference-manifest.js": {
+      "bytes": 9303,
       "imports": [],
       "format": "cjs"
     },
-    ".open-next/server-functions/default/.next/server/app/[locale]/reports/page_client-reference-manifest.js": {
-      "bytes": 9303,
+    ".open-next/server-functions/default/.next/server/app/[locale]/pro/page_client-reference-manifest.js": {
+      "bytes": 7883,
       "imports": [],
       "format": "cjs"
     },
@@ -3641,6 +3641,11 @@
       "imports": [],
       "format": "cjs"
     },
+    ".open-next/server-functions/default/.next/server/app/[locale]/reports/[id]/page_client-reference-manifest.js": {
+      "bytes": 9840,
+      "imports": [],
+      "format": "cjs"
+    },
     ".open-next/server-functions/default/.next/server/app/[locale]/pro/stocks/page_client-reference-manifest.js": {
       "bytes": 7976,
       "imports": [],
@@ -3648,11 +3653,6 @@
     },
     ".open-next/server-functions/default/.next/server/app/[locale]/pro/crypto/page_client-reference-manifest.js": {
       "bytes": 7981,
-      "imports": [],
-      "format": "cjs"
-    },
-    ".open-next/server-functions/default/.next/server/app/[locale]/reports/[id]/page_client-reference-manifest.js": {
-      "bytes": 9840,
       "imports": [],
       "format": "cjs"
     },
@@ -3710,14 +3710,14 @@
           "original": "/Users/ishii/Documents/Antigravity/SynapseCapital/sc-frontend/.open-next/server-functions/default/.next/server/app/[locale]/terms/page_client-reference-manifest.js"
         },
         {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/pro/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/ishii/Documents/Antigravity/SynapseCapital/sc-frontend/.open-next/server-functions/default/.next/server/app/[locale]/pro/page_client-reference-manifest.js"
-        },
-        {
           "path": ".open-next/server-functions/default/.next/server/app/[locale]/reports/page_client-reference-manifest.js",
           "kind": "require-call",
           "original": "/Users/ishii/Documents/Antigravity/SynapseCapital/sc-frontend/.open-next/server-functions/default/.next/server/app/[locale]/reports/page_client-reference-manifest.js"
+        },
+        {
+          "path": ".open-next/server-functions/default/.next/server/app/[locale]/pro/page_client-reference-manifest.js",
+          "kind": "require-call",
+          "original": "/Users/ishii/Documents/Antigravity/SynapseCapital/sc-frontend/.open-next/server-functions/default/.next/server/app/[locale]/pro/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/[locale]/private-cockpit-x92j/page_client-reference-manifest.js",
@@ -3740,6 +3740,11 @@
           "original": "/Users/ishii/Documents/Antigravity/SynapseCapital/sc-frontend/.open-next/server-functions/default/.next/server/app/[locale]/exchange/page_client-reference-manifest.js"
         },
         {
+          "path": ".open-next/server-functions/default/.next/server/app/[locale]/reports/[id]/page_client-reference-manifest.js",
+          "kind": "require-call",
+          "original": "/Users/ishii/Documents/Antigravity/SynapseCapital/sc-frontend/.open-next/server-functions/default/.next/server/app/[locale]/reports/[id]/page_client-reference-manifest.js"
+        },
+        {
           "path": ".open-next/server-functions/default/.next/server/app/[locale]/pro/stocks/page_client-reference-manifest.js",
           "kind": "require-call",
           "original": "/Users/ishii/Documents/Antigravity/SynapseCapital/sc-frontend/.open-next/server-functions/default/.next/server/app/[locale]/pro/stocks/page_client-reference-manifest.js"
@@ -3748,11 +3753,6 @@
           "path": ".open-next/server-functions/default/.next/server/app/[locale]/pro/crypto/page_client-reference-manifest.js",
           "kind": "require-call",
           "original": "/Users/ishii/Documents/Antigravity/SynapseCapital/sc-frontend/.open-next/server-functions/default/.next/server/app/[locale]/pro/crypto/page_client-reference-manifest.js"
-        },
-        {
-          "path": ".open-next/server-functions/default/.next/server/app/[locale]/reports/[id]/page_client-reference-manifest.js",
-          "kind": "require-call",
-          "original": "/Users/ishii/Documents/Antigravity/SynapseCapital/sc-frontend/.open-next/server-functions/default/.next/server/app/[locale]/reports/[id]/page_client-reference-manifest.js"
         },
         {
           "path": ".open-next/server-functions/default/.next/server/app/[locale]/exchange/[id]/page_client-reference-manifest.js",
@@ -9320,11 +9320,11 @@
         ".open-next/server-functions/default/.next/server/app/[locale]/terms/page_client-reference-manifest.js": {
           "bytesInOutput": 7811
         },
-        ".open-next/server-functions/default/.next/server/app/[locale]/pro/page_client-reference-manifest.js": {
-          "bytesInOutput": 7489
-        },
         ".open-next/server-functions/default/.next/server/app/[locale]/reports/page_client-reference-manifest.js": {
           "bytesInOutput": 8769
+        },
+        ".open-next/server-functions/default/.next/server/app/[locale]/pro/page_client-reference-manifest.js": {
+          "bytesInOutput": 7489
         },
         ".open-next/server-functions/default/.next/server/app/[locale]/private-cockpit-x92j/page_client-reference-manifest.js": {
           "bytesInOutput": 7404
@@ -9338,14 +9338,14 @@
         ".open-next/server-functions/default/.next/server/app/[locale]/exchange/page_client-reference-manifest.js": {
           "bytesInOutput": 8314
         },
+        ".open-next/server-functions/default/.next/server/app/[locale]/reports/[id]/page_client-reference-manifest.js": {
+          "bytesInOutput": 9264
+        },
         ".open-next/server-functions/default/.next/server/app/[locale]/pro/stocks/page_client-reference-manifest.js": {
           "bytesInOutput": 7590
         },
         ".open-next/server-functions/default/.next/server/app/[locale]/pro/crypto/page_client-reference-manifest.js": {
           "bytesInOutput": 7595
-        },
-        ".open-next/server-functions/default/.next/server/app/[locale]/reports/[id]/page_client-reference-manifest.js": {
-          "bytesInOutput": 9264
         },
         ".open-next/server-functions/default/.next/server/app/[locale]/exchange/[id]/page_client-reference-manifest.js": {
           "bytesInOutput": 8792
