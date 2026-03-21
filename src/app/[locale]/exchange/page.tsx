@@ -191,29 +191,27 @@ export default async function ExchangeListPage(props: { params: Promise<{ locale
                     </div>
 
                     {/* Additional Promo Banners */}
-                    <div className="space-y-6">
-                        <div className="bg-white border border-slate-100 p-4 rounded-none space-y-3">
-                            <a href="https://h.accesstrade.net/sp/cc?rk=0100p78p00oow9" rel="nofollow" referrerPolicy="no-referrer-when-downgrade" target="_blank" className="block overflow-hidden">
-                                <img src="https://h.accesstrade.net/sp/rr?rk=0100p78p00oow9" alt="ザイFX！投資戦略メルマガ" className="w-full transition-all" />
-                            </a>
-                            <p className="text-[8px] font-bold text-slate-400 uppercase leading-relaxed">
-                                {locale === 'ja' 
-                                    ? '志摩力男、西原宏一ら一線級プロの戦略を、あなたのマーケット・ターミナルへ統合。'
-                                    : 'Integrate the strategies of top-tier pros like Rikio Shima and Koichi Nishihara into your market terminal.'}
-                            </p>
-                        </div>
+                    {locale === 'ja' && (
+                        <div className="space-y-6">
+                            <div className="bg-white border border-slate-100 p-4 rounded-none space-y-3">
+                                <a href="https://h.accesstrade.net/sp/cc?rk=0100p78p00oow9" rel="nofollow" referrerPolicy="no-referrer-when-downgrade" target="_blank" className="block overflow-hidden">
+                                    <img src="https://h.accesstrade.net/sp/rr?rk=0100p78p00oow9" alt="ザイFX！投資戦略メルマガ" className="w-full transition-all" />
+                                </a>
+                                <p className="text-[8px] font-bold text-slate-400 uppercase leading-relaxed">
+                                    志摩力男、西原宏一ら一線級プロの戦略を、あなたのマーケット・ターミナルへ統合。
+                                </p>
+                            </div>
 
-                        <div className="bg-white border border-slate-100 p-4 rounded-none space-y-3">
-                            <a href="https://h.accesstrade.net/sp/cc?rk=0100orcv00oow9" rel="nofollow" referrerPolicy="no-referrer-when-downgrade" target="_blank" className="block overflow-hidden">
-                                <img src="https://h.accesstrade.net/sp/rr?rk=0100orcv00oow9" alt="お金の教養講座" className="w-full transition-all" />
-                            </a>
-                            <p className="text-[8px] font-bold text-slate-400 uppercase leading-relaxed">
-                                {locale === 'ja' 
-                                    ? '資産運用の基礎から応用までを、体系的に学ぶプロトコルを開始。'
-                                    : 'Begin a protocol to systematically learn asset management from basics to advanced levels.'}
-                            </p>
+                            <div className="bg-white border border-slate-100 p-4 rounded-none space-y-3">
+                                <a href="https://h.accesstrade.net/sp/cc?rk=0100orcv00oow9" rel="nofollow" referrerPolicy="no-referrer-when-downgrade" target="_blank" className="block overflow-hidden">
+                                    <img src="https://h.accesstrade.net/sp/rr?rk=0100orcv00oow9" alt="お金の教養講座" className="w-full transition-all" />
+                                </a>
+                                <p className="text-[8px] font-bold text-slate-400 uppercase leading-relaxed">
+                                    資産運用の基礎から応用までを、体系的に学ぶプロトコルを開始。
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    )}
                 </aside>
             </main>
 

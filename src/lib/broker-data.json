@@ -232,7 +232,7 @@
     "id": "bitflyer",
     "name": "bitFlyer",
     "name_en": "bitFlyer",
-    "supportedLocales": ["ja", "en"],
+    "supportedLocales": ["ja"],
     "description": "国内最大級の暗号資産取引所。高いセキュリティと、使いやすさが定評。",
     "description_en": "One of Japan's largest crypto exchanges. Renowned for high security and user-friendliness.",
     "features": [
@@ -289,7 +289,9 @@
     "id": "tossy",
     "name": "TOSSY",
     "name_en": "TOSSY",
-    "supportedLocales": ["ja"],
+    "supportedLocales": [
+      "ja"
+    ],
     "description": "「FUN & POP」を掲げる新世代投資アプリ。株・FX・仮想通貨をシームレスに取引可能。",
     "description_en": "A next-gen investment app themed 'FUN & POP'. Seamlessly trade stocks, FX, and crypto.",
     "features": [

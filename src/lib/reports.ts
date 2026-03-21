@@ -28,27 +28,23 @@ async function getReportIndex(): Promise<any[]> {
 /**
  * Helper to get report content (This is a workaround for Edge Runtime's lack of fs)
  */
-async function getRawReportContent(id: string) {
-    try {
-        // Prefer local filesystem so newly generated reports are visible immediately.
-        // If the local file doesn't exist (or runtime doesn't allow fs), fall back to GitHub raw.
-        // Edge context: Local filesystem readout restricted for stability.
-        // Client-side or GitHub fallback will be used.
+async function getRawReportContent(id: string, locale?: string) {
+    const filenames = locale ? [`${id}-${locale}`, id] : [id];
+    
+    for (const filename of filenames) {
+        try {
+            // Browser-side check
+            if (typeof window !== 'undefined') {
+                const res = await fetch(`/api/reports/content/${filename}`);
+                if (res.ok) return await res.text();
+            }
+        } catch (e) {}
 
-        // Browser-side: read via internal API route (server reads local fs).
-        if (typeof window !== 'undefined') {
-            const res = await fetch(`/api/reports/content/${id}`);
-            if (res.ok) return await res.text();
-        }
-    } catch (e) {
-        // ignore and fall back
-    }
-
-    try {
-        const response = await fetch(`https://raw.githubusercontent.com/noriyuki007/synapse-capital-frontend/main/content/reports/${id}.md`);
-        if (response.ok) return await response.text();
-    } catch (e) {
-        console.error(`Failed to fetch report ${id} from GitHub:`, e);
+        try {
+            // GitHub Fallback
+            const response = await fetch(`https://raw.githubusercontent.com/noriyuki007/synapse-capital-frontend/main/content/reports/${filename}.md`);
+            if (response.ok) return await response.text();
+        } catch (e) {}
     }
     return '';
 }
@@ -63,8 +59,16 @@ export async function getSortedReportsData(locale?: string) {
 
     const allReportsData = await Promise.all(filteredIndex.map(async (item) => {
         const id = item.id;
-        let fileContents = await getRawReportContent(id);
-        if (!fileContents || fileContents.length < 50) return null; // Filter empty/malformed
+        const itemLocale = item.locale || 'ja';
+        // If ID ends with locale, remove it to get the base ID
+        const baseId = id.replace(/-(ja|en)$/, '');
+        
+        let fileContents = await getRawReportContent(baseId, itemLocale);
+        if (!fileContents || fileContents.length < 50) {
+            // Try with original ID as fallback
+            fileContents = await getRawReportContent(id);
+        }
+        if (!fileContents || fileContents.length < 50) return null;
 
         // Fuzzy cleaning: AI sometimes wraps frontmatter in a code block
         fileContents = fileContents.replace(/^```markdown\n/i, '').replace(/^```\n/i, '');
@@ -104,10 +108,23 @@ export async function getSortedReportsData(locale?: string) {
         .sort((a, b) => (a.date < b.date ? 1 : -1));
 }
 
-export async function getReportData(id: string) {
-    const fileContents = await getRawReportContent(id);
-    if (!fileContents) throw new Error(`Report ${id} not found`);
+export async function getReportData(id: string, locale?: string) {
+    // If ID ends with -ja or -en, extract base ID and locale
+    let baseId = id.replace(/-(ja|en)$/, '');
+    const detectedLocale = id.endsWith('-ja') ? 'ja' : id.endsWith('-en') ? 'en' : locale || 'ja';
 
+    const fileContents = await getRawReportContent(baseId, detectedLocale);
+    if (!fileContents) {
+        // Fallback to original ID
+        const fallbackContents = await getRawReportContent(id);
+        if (!fallbackContents) throw new Error(`Report ${id} not found`);
+        return processMarkdown(id, fallbackContents, detectedLocale);
+    }
+
+    return processMarkdown(baseId, fileContents, detectedLocale);
+}
+
+async function processMarkdown(id: string, fileContents: string, locale: string) {
     const matterResult = matter(fileContents);
     
     // Extract signal JSON

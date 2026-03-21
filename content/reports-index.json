@@ -6,7 +6,7 @@
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "moomoo-securities",
+    "recommended_broker": "",
     "excerpt": "本日のAI解析では、S&P 500の現在価格 6506.48、RSI(25.34)、MA20(6770.57)を軸に、金利相関と需給帯から実行プランを整理する。",
     "result": "PENDING",
     "locale": "ja"
@@ -79,7 +79,7 @@
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "BTC/USDは70667でMA20(70356)を実体で維持。価格ベースの上昇シグナルは明確だが、RSI欠落により内部勢の過熱度は不明。規制ニュースは Andreessen Horowitz の.common の動向を含め複雑。",
+    "excerpt": "BTC/USDは70667でMA20(70356)を実体で維持。価格ベースの上昇シグナルは明確だが、RSI欠落により内部勢の過熱度は不明。規制ニュースは Andreessen Horowitz の一般的な動向を含め複雑。",
     "result": "PENDING",
     "locale": "ja"
   },
@@ -102,7 +102,7 @@
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "moomoo-securities",
+    "recommended_broker": "",
     "excerpt": "S&P 500はMA20を下回り下降トレンド。地政学リスクとAIセクターの非対称性を考慮し、戦術的ショートポジションを推奨。",
     "result": "PENDING",
     "locale": "ja"
@@ -150,7 +150,7 @@
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "moomoo-securities",
+    "recommended_broker": "",
     "excerpt": "S&P 500は、原油価格の高騰とAI関連銘柄への警戒感から下落基調。しかし、RSIは売られすぎ水準にあり、押し目買いのチャンスを示唆。GuggenheimによるADPの買い推奨も市場心理を改善する可能性。",
     "result": "PENDING",
     "locale": "ja"
@@ -186,7 +186,7 @@
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "moomoo-securities",
+    "recommended_broker": "",
     "excerpt": "本日のAI解析では、S&P 500の現在価格 6606.49、RSI(29.47)、MA20(6790.72)を軸に、金利相関と需給帯から実行プランを整理する。",
     "result": "PENDING",
     "locale": "ja"
@@ -222,7 +222,7 @@
     "genre": "STOCKS",
     "target_pair": "主要株価指数",
     "prediction_direction": "DOWN",
-    "recommended_broker": "moomoo-securities",
+    "recommended_broker": "",
     "excerpt": "本日のAI解析では、主要株価指数が20日・50日移動平均線を下回り、短期的な下降トレンドが継続していることを指摘。RSIは売られすぎ水準に接近中だが、反発の兆候はまだ見られない。Goldman Sachsの弱気見通しが市場を覆う中、今後の戦略をAntiGravityが分析します。",
     "result": "PENDING",
     "locale": "ja"
@@ -258,7 +258,7 @@
     "genre": "STOCKS",
     "target_pair": "US Market Index (S&P 500 Futures)",
     "prediction_direction": "FLAT",
-    "recommended_broker": "moomoo-securities",
+    "recommended_broker": "",
     "excerpt": "原油価格の急騰とNvidiaのGTCイベントが市場の二極化を招く中、個人投資家と機関投資家の戦略的乖離が顕著。今後の市場の方向性を探る。",
     "result": "PENDING",
     "locale": "ja"
@@ -294,7 +294,7 @@
     "genre": "STOCKS",
     "target_pair": "NASDAQ100",
     "prediction_direction": "UP",
-    "recommended_broker": "moomoo-securities",
+    "recommended_broker": "",
     "excerpt": "ハイテク株を中心とした強気相場が継続。NVIDIAの圧倒的な成長力が市場を牽引し、NASDAQ100は史上最高値を更新。AI関連銘柄への資金流入が止まらない現状を詳細に分析します。",
     "result": "PENDING",
     "locale": "ja"

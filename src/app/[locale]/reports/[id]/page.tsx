@@ -15,22 +15,23 @@ export async function generateStaticParams() {
     const locales = ['en', 'ja'];
     const reports = await getSortedReportsData();
     
+    // Create base IDs (without -ja/-en suffix if any) to match URL param structure
+    const baseIds = Array.from(new Set(reports.map(r => r.id.replace(/-(ja|en)$/, ''))));
+    
     const params: { id: string, locale: string }[] = [];
     locales.forEach(locale => {
-        reports.forEach(report => {
-            params.push({ id: report.id, locale });
+        baseIds.forEach(id => {
+            params.push({ id, locale });
         });
     });
     return params;
 }
 
 export async function generateMetadata(props: { params: Promise<{ id: string, locale: string }> }): Promise<Metadata> {
-    const params = await props.params;
-    const id = params?.id;
-    const locale = params?.locale || 'ja';
+    const { id, locale = 'ja' } = await props.params;
     
     if (!id) return { title: 'Not Found' };
-    const report = await getReportData(id);
+    const report = await getReportData(id, locale);
     const baseUrl = 'https://synapsecapital.net'; 
     
     return {
@@ -62,9 +63,7 @@ export async function generateMetadata(props: { params: Promise<{ id: string, lo
 }
 
 export default async function ReportDetailPage(props: { params: Promise<{ id: string, locale: string }> }) {
-    const params = await props.params;
-    const id = params?.id;
-    const locale = params?.locale || 'ja';
+    const { id, locale = 'ja' } = await props.params;
     
     if (!id) notFound();
 
@@ -72,7 +71,7 @@ export default async function ReportDetailPage(props: { params: Promise<{ id: st
     let reportData;
 
     try {
-        reportData = await getReportData(id);
+        reportData = await getReportData(id, locale);
     } catch (e) {
         notFound();
     }

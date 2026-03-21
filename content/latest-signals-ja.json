@@ -27,7 +27,7 @@
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "moomoo-securities",
+    "recommended_broker": "dmm-kabu",
     "tldr_points": [
       "金利相関（近似）: -0.13で負相関傾向",
       "テクニカル: 現在価格 6506.48 と MA20 6770.57 の位置関係が主導",

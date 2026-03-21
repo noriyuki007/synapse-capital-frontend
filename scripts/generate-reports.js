@@ -809,45 +809,82 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
         ? `Today's AI analysis outlines the execution plan for ${symbol} around Price ${cp ?? 'Unknown'}, RSI(${rsi ?? '---'}), and MA20(${ma20 ?? '---'}).`
         : `本日のAI解析では、${symbol}の現在価格 ${cp ?? '不明'}、RSI(${rsi ?? '---'})、MA20(${ma20 ?? '---'})を軸に、金利相関と需給帯から実行プランを整理する。`;
 
-    const maRel =
-        cp && ma20
-            ? (Number(cp) > Number(ma20) ? '強気圏' : '弱気圏')
-            : '位置関係は未取得';
-
-    const conclusion =
-        status === 'BUY'
-            ? `本日のAI解析では、金利相関の方向性とテクニカルの整合性が確認され、押し目買いを優先する。上値は主要帯で利確し、損切りは直近の下支えを基準に厳格運用する。`
-            : status === 'SELL'
-                ? `本日のAI解析では、金利相関の方向性とテクニカルの整合性が下方向に傾き、防御的な売り戦略が妥当となる。反転リスクを想定し、損切りは直近の上支え基準で即時執行する。`
-                : `本日のAI解析では、トレンド優位が限定的でレンジ警戒が合理的となる。金利相関と需給帯のブレイク条件を待ち、エントリーは選別してリスク上限を最優先する。`;
-
-    const nextSteps = (() => {
-        const steps = [];
-        if (status === 'BUY') {
-            if (slStr) steps.push(`損切り帯（SL ${slStr}）を維持できるか監視。`);
-            if (tpStr) steps.push(`利確ターゲット（TP ${tpStr}）到達時は段階的に収益確定。`);
-            if (hi20) steps.push(`直近高値 ${hi20} の上抜け可否を判断材料にする。`);
-        } else if (status === 'SELL') {
-            if (slStr) steps.push(`上値の防御ライン（SL ${slStr}）を超えないか監視。`);
-            if (tpStr) steps.push(`利確ターゲット（TP ${tpStr}）到達時は迅速にポジション調整。`);
-            if (lo20) steps.push(`直近安値 ${lo20} 近辺の反応を確認。`);
-        } else {
-            if (tpStr) steps.push(`ブレイク方向を確認（TP ${tpStr} / SL ${slStr} のどちら側か）。`);
-            if (rsi) steps.push(`RSI(14)が ${rsi} から明確に乖離するかを追跡。`);
-            if (ma20) steps.push(`MA20（${ma20}）を跨ぐ終値の有無で次の判断を行う。`);
+    const LOCALIZATION = {
+        ja: {
+            maRel: { UP: '強気圏', DOWN: '弱気圏', FLAT: '位置関係は未取得' },
+            conclusion: {
+                BUY: '本日のAI解析では、金利相関の方向性とテクニカルの整合性が確認され、押し目買いを優先する。上値は主要帯で利確し、損切りは直近の下支えを基準に厳格運用する。',
+                SELL: '本日のAI解析では、金利相関の方向性とテクニカルの整合性が下方向に傾き、防御的な売り戦略が妥当となる。反転リスクを想定し、損切りは直近の上支え基準で即時執行する。',
+                NEUTRAL: '本日のAI解析では、トレンド優位が限定的でレンジ警戒が合理的となる。金利相関と需給帯のブレイク条件を待ち、エントリーは選別してリスク上限を最優先する。'
+            },
+            nextSteps: {
+                BUY: [
+                    `損切り帯（SL ${slStr}）を維持できるか監視。`,
+                    `利確ターゲット（TP ${tpStr}）到達時は段階的に収益確定。`,
+                    hi20 ? `直近高値 ${hi20} の上抜け可否を判断材料にする。` : `ボラティリティの拡大に注意しつつポジションを管理。`
+                ],
+                SELL: [
+                    `上値の防御ライン（SL ${slStr}）を超えないか監視。`,
+                    `利確ターゲット（TP ${tpStr}）到達時は迅速にポジション調整。`,
+                    lo20 ? `直近安値 ${lo20} 近辺の反応を確認。` : `下落速度を監視し、段階的な利確を検討。`
+                ],
+                NEUTRAL: [
+                    `ブレイク方向を確認（TP ${tpStr} / SL ${slStr} のどちら側か）。`,
+                    rsi ? `RSI(14)が ${rsi} から明確に乖離するかを追跡。` : `主要な需給帯での反転・突破を監視。`,
+                    ma20 ? `MA20（${ma20}）を跨ぐ終値の有無で次の判断を行う。` : `価格のボラティリティ縮小後の拡大を待機。`
+                ]
+            },
+            fallbackSteps: [
+                `主要帯（${tpStr ?? 'TP'}, ${slStr ?? 'SL'}）の反応を確認。`,
+                `RSIとMA20の位置関係を日次で再評価。`,
+                `金利相関の変化（相関係数 ${corrStr}）をモニタリング。`
+            ],
+            jsonComment: `本日のAI解析（シナプス解析）: 金利相関 ${corrStr} とテクニカルの整合性に基づく戦略設計。`
+        },
+        en: {
+            maRel: { UP: 'Bullish Zone', DOWN: 'Bearish Zone', FLAT: 'Position context not acquired' },
+            conclusion: {
+                BUY: "Today's AI analysis confirms alignment between interest rate correlation and technical indicators, prioritizing a 'buy on dips' strategy. Profit-taking is advised at key dynamic resistance levels, with strict stop-loss management based on recent support.",
+                SELL: "Today's AI analysis shows a downward shift in both interest rate correlation and technical alignment, making a defensive selling strategy appropriate. Anticipating reversal risks, immediate stop-loss execution based on recent resistance is recommended.",
+                NEUTRAL: "Today's AI analysis indicates limited trend dominance, making range-bound caution rational. Wait for breakout conditions in interest correlations and liquidity zones, selecting entries with the highest priority on risk caps."
+            },
+            nextSteps: {
+                BUY: [
+                    `Monitor if the stop-loss zone (SL ${slStr}) can be maintained.`,
+                    `Execute phased profit-taking once the target (TP ${tpStr}) is reached.`,
+                    hi20 ? `Use the breakout of the recent high ${hi20} as a primary decision factor.` : `Manage positions while monitoring for increased volatility.`
+                ],
+                SELL: [
+                    `Monitor that the upper defensive line (SL ${slStr}) is not breached.`,
+                    `Adjust positions rapidly upon reaching the take-profit target (TP ${tpStr}).`,
+                    lo20 ? `Verify reaction around the recent low ${lo20}.` : `Monitor downside velocity and consider phased profit-taking.`
+                ],
+                NEUTRAL: [
+                    `Confirm breakout direction (whether TP ${tpStr} or SL ${slStr} is tested).`,
+                    rsi ? `Track if RSI(14) diverges significantly from ${rsi}.` : `Monitor for reversals or breakouts at major liquidity zones.`,
+                    ma20 ? `Base next decisions on daily closes crossing the MA20 (${ma20}).` : `Wait for post-consolidation volatility expansion.`
+                ]
+            },
+            fallbackSteps: [
+                `Confirm price reaction at major zones (${tpStr ?? 'TP'}, ${slStr ?? 'SL'}).`,
+                `Re-evaluate daily the relationship between RSI and MA20.`,
+                `Monitor changes in interest correlation (Coefficient: ${corrStr}).`
+            ],
+            jsonComment: `AI Synapse Analysis: Strategy designed based on interest correlation ${corrStr} and technical alignment.`
         }
-        // Ensure exactly 3
-        return steps.slice(0, 3);
-    })();
+    };
 
-    // Safety: NextSteps fallback
-    const nextSteps3 = nextSteps.length === 3 ? nextSteps : [
-        `主要帯（${tpStr ?? 'TP'}, ${slStr ?? 'SL'}）の反応を確認。`,
-        `RSIとMA20の位置関係を日次で再評価。`,
-        `金利相関の変化（相関係数 ${corrStr}）をモニタリング。`,
-    ];
+    const L = LOCALIZATION[locale] || LOCALIZATION.ja;
 
-    const jsonBlock = `\`\`\`json\n{\n  "pair": "${symbol}",\n  "status": "${status}",\n  "comment": "本日のAI解析（シナプス解析）: 金利相関 ${corrStr} とテクニカルの整合性に基づく戦略設計。",\n  "entry": "${entryStr ?? '0.00'}",\n  "tp": "${tpStr ?? '0.00'}",\n  "sl": "${slStr ?? '0.00'}",\n  "reliability": "${relScore === 'HIGH' ? 'HIGH' : 'MEDIUM'}"\n}\n\`\`\``;
+    const maRelText = cp && ma20
+        ? (Number(cp) > Number(ma20) ? L.maRel.UP : L.maRel.DOWN)
+        : L.maRel.FLAT;
+
+    const conclusionText = L.conclusion[status] || L.conclusion.NEUTRAL;
+    const finalNextSteps = (L.nextSteps[status] || L.nextSteps.NEUTRAL).slice(0, 3);
+    const nextSteps3 = finalNextSteps.length === 3 ? finalNextSteps : L.fallbackSteps;
+
+    const jsonBlock = `\`\`\`json\n{\n  "pair": "${symbol}",\n  "status": "${status}",\n  "comment": "${L.jsonComment}",\n  "entry": "${entryStr ?? '0.00'}",\n  "tp": "${tpStr ?? '0.00'}",\n  "sl": "${slStr ?? '0.00'}",\n  "reliability": "${relScore === 'HIGH' ? 'HIGH' : 'MEDIUM'}"\n}\n\`\`\``;
 
     // Compose markdown following the required section order.
     return `---\n` +

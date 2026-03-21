@@ -21,6 +21,7 @@ export type Exchange = {
     rating: number;
     targetAudience?: string;
     recommendation?: string;
+    isBeginner?: boolean;
     supportedLocales?: string[];
     scores: {
         cost: number;

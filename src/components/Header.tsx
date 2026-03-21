@@ -147,10 +147,10 @@ export const Header = ({ locale, dict }: { locale: string; dict: any }) => {
                                                 <div className="mt-0.5 w-8 h-8 bg-slate-50 rounded-none flex items-center justify-center text-slate-400 group-hover/item:bg-indigo-50 group-hover/item:text-indigo-600 transition-colors">
                                                     <item.icon className="w-4 h-4" />
                                                 </div>
-                                                <div className="space-y-0.5">
-                                                    <div className="text-[10px] font-black text-slate-900 uppercase tracking-widest">{item.label}</div>
-                                                    <div className="text-[9px] font-bold text-slate-400">{item.desc}</div>
-                                                </div>
+                                                 <div className="space-y-0.5">
+                                                     <div className={`text-[10px] uppercase tracking-widest ${item.label === dict.header.reports ? 'font-black text-indigo-600' : 'font-black text-slate-900'}`}>{item.label}</div>
+                                                     <div className="text-[9px] font-bold text-slate-400">{item.desc}</div>
+                                                 </div>
                                             </Link>
                                         ))}
                                     </div>
