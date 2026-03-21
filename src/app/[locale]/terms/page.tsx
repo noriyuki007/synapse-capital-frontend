@@ -7,9 +7,10 @@ import { TermsJA } from '@/components/legal/TermsJA';
 import { TermsEN } from '@/components/legal/TermsEN';
 import { Metadata } from 'next';
 
-export async function generateStaticParams() {
-    return [{ locale: 'en' }, { locale: 'ja' }];
-}
+
+// export async function generateStaticParams() {
+//     return [{ locale: 'en' }, { locale: 'ja' }];
+// }
 
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }): Promise<Metadata> {
     const params = await props.params;

@@ -33,9 +33,10 @@ export const metadata: Metadata = {
     }
 };
 
-export async function generateStaticParams() {
-    return [{ locale: 'en' }, { locale: 'ja' }];
-}
+
+// export async function generateStaticParams() {
+//     return [{ locale: 'en' }, { locale: 'ja' }];
+// }
 
 export default async function RootLayout(props: {
     children: React.ReactNode;
