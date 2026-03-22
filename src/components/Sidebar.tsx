@@ -3,6 +3,7 @@
 import React from 'react';
 import { Activity, TrendingUp, ArrowRight, Clock } from 'lucide-react';
 import Link from 'next/link';
+import { AdSense } from './AdSense';
 
 export const Sidebar = ({ 
     latestReports = [], 
@@ -54,6 +55,8 @@ export const Sidebar = ({
                     {dict.common.all_reports} <ArrowRight className="w-4 h-4" />
                 </Link>
             </div>
+
+            <AdSense adSlot="2355795749" className="mb-10" />
 
             {/* Stats Widget */}
             <div className="p-10 bg-slate-50 border border-slate-100 rounded-none space-y-8 relative overflow-hidden group">
