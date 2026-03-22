@@ -1,7 +1,7 @@
 {
   "FX": {
     "title": "USD/JPY Outlook: Strategic Upside Potential and Risk Evaluation",
-    "date": "2026-03-22 09:53",
+    "date": "2026-03-22 09:59",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
@@ -9,7 +9,7 @@
     "tldr_points": [
       "Interest Correlation (Approx): 0.07 (Positive)",
       "Technical: Driven by Price 159.22 vs MA20 157.80",
-      "Liquidity: Targets based on 上限帯 160.65 / 下限帯 154.95 / 直近高値 159.82 / 直近安値 154.62"
+      "Liquidity: Targets based on Upper Band 160.65 / Lower Band 154.95 / Recent High 159.82 / Recent Low 154.62"
     ],
     "chart_image": "/images/market-analysis-fx.png",
     "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 159.22, RSI(60.01), and MA20(157.80).",
@@ -23,7 +23,7 @@
   },
   "STOCKS": {
     "title": "S&P 500 Strategy: Defense and Risk Mitigation in Downtrend",
-    "date": "2026-03-22 09:53",
+    "date": "2026-03-22 10:00",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
@@ -31,7 +31,7 @@
     "tldr_points": [
       "Interest Correlation (Approx): -0.13 (Negative)",
       "Technical: Driven by Price 6506.48 vs MA20 6770.57",
-      "Liquidity: Targets based on 上限帯 7006.67 / 下限帯 6534.47 / 直近高値 6952.51 / 直近安値 6473.52"
+      "Liquidity: Targets based on Upper Band 7006.67 / Lower Band 6534.47 / Recent High 6952.51 / Recent Low 6473.52"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
     "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 6506.48, RSI(25.34), and MA20(6770.57).",
@@ -45,24 +45,24 @@
   },
   "CRYPTO": {
     "title": "BTC/USD Framework: Analyzing Liquidity Zones in Consolidation",
-    "date": "2026-03-22 09:53",
+    "date": "2026-03-22 10:00",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "tldr_points": [
       "Interest Correlation (Approx): 0.10 (Positive)",
-      "Technical: Driven by Price 69053.79 vs MA20 70275.94",
-      "Liquidity: Targets based on 上限帯 74697.88 / 下限帯 65854.00 / 直近高値 75988.40 / 直近安値 65303.14"
+      "Technical: Driven by Price 68885.47 vs MA20 70267.53",
+      "Liquidity: Targets based on Upper Band 74699.88 / Lower Band 65835.17 / Recent High 75988.40 / Recent Low 65303.14"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 69053.79, RSI(55.17), and MA20(70275.94).",
+    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 68885.47, RSI(54.64), and MA20(70267.53).",
     "pair": "BTC/USD",
     "status": "NEUTRAL",
     "comment": "AI Synapse Analysis: Strategy designed based on interest correlation 0.10 and technical alignment.",
-    "entry": "69053.79",
-    "tp": "74697.88",
-    "sl": "65854.00",
+    "entry": "68885.47",
+    "tp": "74699.88",
+    "sl": "65835.17",
     "reliability": "HIGH"
   }
 }

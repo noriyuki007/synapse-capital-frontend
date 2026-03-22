@@ -692,20 +692,20 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
     // Keywords (3-5 tags)
     const keywordsByGenre = {
         FX: status === 'BUY'
-            ? ['#金利差', '#リスクオン', '#ドル買い', '#流動性']
+            ? (isEn ? ['#RateDiff', '#RiskOn', '#USD_Buy', '#Liquidity'] : ['#金利差', '#リスクオン', '#ドル買い', '#流動性'])
             : status === 'SELL'
-                ? ['#円高圧力', '#金利差縮小', '#リスクオフ', '#ボラティリティ']
-                : ['#レンジ', '#金利観測', '#流動性', '#不確実性'],
+                ? (isEn ? ['#JPY_Strong', '#NarrowingDiff', '#RiskOff', '#Volatility'] : ['#円高圧力', '#金利差縮小', '#リスクオフ', '#ボラティリティ'])
+                : (isEn ? ['#Range', '#RateWatch', '#Liquidity', '#Uncertainty'] : ['#レンジ', '#金利観測', '#流動性', '#不確実性']),
         STOCKS: status === 'BUY'
-            ? ['#利回り低下', '#リスクオン', '#セクターローテ', '#流動性']
+            ? (isEn ? ['#FallingYields', '#RiskOn', '#Rotation', '#Liquidity'] : ['#利回り低下', '#リスクオン', '#セクターローテ', '#流動性'])
             : status === 'SELL'
-                ? ['#利回り上昇', '#リスクオフ', '#ディフェンシブ', '#ボラティリティ']
-                : ['#中立', '#金利観測', '#需給', '#警戒'],
+                ? (isEn ? ['#RisingYields', '#RiskOff', '#Defensive', '#Volatility'] : ['#利回り上昇', '#リスクオフ', '#ディフェンシブ', '#ボラティリティ'])
+                : (isEn ? ['#Neutral', '#RateWatch', '#SupplyDemand', '#Caution'] : ['#中立', '#金利観測', '#需給', '#警戒']),
         CRYPTO: status === 'BUY'
-            ? ['#BitcoinETF', '#流動性回復', '#トレンド継続', '#オンチェーン']
+            ? (isEn ? ['#BitcoinETF', '#LiquidityRecovery', '#TrendCont', '#OnChain'] : ['#BitcoinETF', '#流動性回復', '#トレンド継続', '#オンチェーン'])
             : status === 'SELL'
-                ? ['#ボラティリティ上昇', '#リスクオフ', '#需給悪化', '#規制警戒']
-                : ['#レンジ', '#ポジション調整', '#流動性', '#警戒'],
+                ? (isEn ? ['#VolatilityUp', '#RiskOff', '#PoorSupply', '#Regulation'] : ['#ボラティリティ上昇', '#リスクオフ', '#需給悪化', '#規制警戒'])
+                : (isEn ? ['#Range', '#Adjustment', '#Liquidity', '#Caution'] : ['#レンジ', '#ポジション調整', '#流動性', '#警戒']),
     };
     const keywords = keywordsByGenre[genre].slice(0, 5).join(' ');
 
@@ -714,17 +714,27 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
     if (genre === 'CRYPTO') {
         const fng = await fetchCryptoFearGreed();
         if (fng?.score != null) {
-            sentimentText = `恐怖・強欲指数（F&G）: ${fng.score}（${fng.label}）。極端な偏りはリバーサル余地として評価する。`;
+            sentimentText = isEn 
+                ? `Fear & Greed Index (F&G): ${fng.score} (${fng.label}). Extreme bias is evaluated as room for reversal.`
+                : `恐怖・強欲指数（F&G）: ${fng.score}（${fng.label}）。極端な偏りはリバーサル余地として評価する。`;
         } else {
-            sentimentText = `恐怖・強欲指数: 算出できず。代替としてRSIと直近レンジの需給を通じて心理を評価する。`;
+            sentimentText = isEn
+                ? `Fear & Greed Index: Calculation failed. Evaluating sentiment via RSI and supply/demand.`
+                : `恐怖・強欲指数: 算出できず。代替としてRSIと直近レンジの需給を通じて心理を評価する。`;
         }
     } else {
         const vixNum = vix != null ? Number(vix) : null;
         if (vixNum != null) {
-            const bucket = vixNum >= 25 ? '恐怖' : vixNum <= 18 ? '安心' : '中立';
-            sentimentText = `VIX相当のリスク心理: ${vixNum.toFixed(2)}（${bucket}）。`;
+            const bucket = isEn
+                ? (vixNum >= 25 ? 'Fear' : vixNum <= 18 ? 'Greed/Calm' : 'Neutral')
+                : (vixNum >= 25 ? '恐怖' : vixNum <= 18 ? '安心' : '中立');
+            sentimentText = isEn
+                ? `VIX-Equivalent Risk Sentiment: ${vixNum.toFixed(2)} (${bucket}).`
+                : `VIX相当のリスク心理: ${vixNum.toFixed(2)}（${bucket}）。`;
         } else {
-            sentimentText = 'VIX相当のリスク心理: 算出できず。代替としてRSIの位置づけを心理指標として扱う。';
+            sentimentText = isEn
+                ? 'VIX-Equivalent Risk Sentiment: Calculation failed. Using RSI positioning as psychological indicator.'
+                : 'VIX相当のリスク心理: 算出できず。代替としてRSIの位置づけを心理指標として扱う。';
         }
     }
 
@@ -743,10 +753,10 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
 
     const liquidityLine = (() => {
         const parts = [];
-        if (bbU) parts.push(`上限帯 ${bbU}`);
-        if (bbL) parts.push(`下限帯 ${bbL}`);
-        if (hi20) parts.push(`直近高値 ${hi20}`);
-        if (lo20) parts.push(`直近安値 ${lo20}`);
+        if (bbU) parts.push(isEn ? `Upper Band ${bbU}` : `上限帯 ${bbU}`);
+        if (bbL) parts.push(isEn ? `Lower Band ${bbL}` : `下限帯 ${bbL}`);
+        if (hi20) parts.push(isEn ? `Recent High ${hi20}` : `直近高値 ${hi20}`);
+        if (lo20) parts.push(isEn ? `Recent Low ${lo20}` : `直近安値 ${lo20}`);
         return parts.join(' / ');
     })();
 
@@ -809,6 +819,10 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
         ? `Today's AI analysis outlines the execution plan for ${symbol} around Price ${cp ?? 'Unknown'}, RSI(${rsi ?? '---'}), and MA20(${ma20 ?? '---'}).`
         : `本日のAI解析では、${symbol}の現在価格 ${cp ?? '不明'}、RSI(${rsi ?? '---'})、MA20(${ma20 ?? '---'})を軸に、金利相関と需給帯から実行プランを整理する。`;
 
+    const maRelKey = cp && ma20
+        ? (Number(cp) > Number(ma20) ? 'UP' : 'DOWN')
+        : 'FLAT';
+
     const LOCALIZATION = {
         ja: {
             maRel: { UP: '強気圏', DOWN: '弱気圏', FLAT: '位置関係は未取得' },
@@ -839,7 +853,38 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
                 `RSIとMA20の位置関係を日次で再評価。`,
                 `金利相関の変化（相関係数 ${corrStr}）をモニタリング。`
             ],
-            jsonComment: `本日のAI解析（シナプス解析）: 金利相関 ${corrStr} とテクニカルの整合性に基づく戦略設計。`
+            jsonComment: `本日のAI解析（シナプス解析）: 金利相関 ${corrStr} とテクニカルの整合性に基づく戦略設計。`,
+            deterministic: {
+                s1Title: "市場環境とファンダメンタルズ",
+                s1Keywords: "キーワード",
+                s1Summary: "サマリー",
+                s1Text: `<strong>本日のAI解析</strong>では、${symbol}の需給が主要移動平均（MA20）と整合しており、<strong>${status === 'BUY' ? '上方向の優位' : status === 'SELL' ? '下方向の優位' : '方向性の限定'}</strong>を示す。加えて<strong>金利相関</strong>の変化が、トレンドの継続可否を規定する。`,
+                s1NewsTitle: "最新ニュース見出し",
+                s2Title: "AI多角分析（シナプス解析）",
+                s2CorrTitle: "金利相関解析",
+                s2CorrText: `金利（US10Y proxy）と${symbol}の近似相関は相関係数${corrStr}で、${corr != null && corr >= 0 ? '正の方向' : '負の方向'}が観測される。これは<strong>金利の方向</strong>が価格の優先ドライバーになりやすいことを意味する。`,
+                s2OrderTitle: "オーダーブック解析",
+                s2OrderText: `${liquidityLine || '主要帯の観測'}が、短期の流動性集約点として機能する可能性が高い。特に${status === 'BUY' ? '上限帯での利確' : status === 'SELL' ? '下限帯での利確' : 'ブレイク前の押し引き'}を想定する。`,
+                s2SentimentTitle: "センチメント解析",
+                s2SentimentText: `${sentimentText} そのため<strong>過熱と反転</strong>の双方を前提に、損切りを早めに設定するのが合理的となる。`,
+                s3Title: "テクニカル分析",
+                s3RefData: "参照データ",
+                s3Price: "現在価格",
+                s3MARel: "MA20との関係",
+                s3MARelTextPrefix: "終値は",
+                s3MARelTextSuffix: "に位置する。",
+                s3PointsTitle: "分析ポイント",
+                s3Point1: `${cp ?? '---'}がMA20 ${ma20 ?? '---'}を維持し続ける限り、優位側のシナリオが優先される。`,
+                s3Point2: `RSI(14) ${rsi ?? '---'}がレンジを抜けるタイミングは、需給帯（BB/直近高安）への再評価を促す。`,
+                s3Point3: `${status === 'BUY' ? (tpStr ? `利確ターゲット TP ${tpStr} 近辺で収益確定を検討。` : '上限帯への接近で利確を検討。') : status === 'SELL' ? (tpStr ? `利確ターゲット TP ${tpStr} 近辺で反応を確認。` : '下限帯への接近で利確を検討。') : `TP ${tpStr ?? '---'} と SL ${slStr ?? '---'} のどちら側にブレイクするかを観測。`}`,
+                s4Title: "プロ・トレーディング戦略",
+                s4PolicyTitle: "全体方針",
+                s4Policy: `${status === 'NEUTRAL' ? 'レンジのブレイク待ちと選別エントリー' : status === 'BUY' ? '押し目での優位側エントリーを優先' : '反転待ちではなく下方向を先行する防御的売り'}`,
+                s4TP: "利確ターゲット",
+                s4SL: "損切りライン",
+                s5Title: "結論とアクションプラン",
+                s5Summary: "結論サマリー"
+            }
         },
         en: {
             maRel: { UP: 'Bullish Zone', DOWN: 'Bearish Zone', FLAT: 'Position context not acquired' },
@@ -870,16 +915,47 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
                 `Re-evaluate daily the relationship between RSI and MA20.`,
                 `Monitor changes in interest correlation (Coefficient: ${corrStr}).`
             ],
-            jsonComment: `AI Synapse Analysis: Strategy designed based on interest correlation ${corrStr} and technical alignment.`
+            jsonComment: `AI Synapse Analysis: Strategy designed based on interest correlation ${corrStr} and technical alignment.`,
+            deterministic: {
+                s1Title: "1. Market Environment & Fundamentals",
+                s1Keywords: "Keywords",
+                s1Summary: "Executive Summary",
+                s1Text: `<strong>Today's AI analysis</strong> indicates that supply and demand for ${symbol} are aligned with the major moving average (MA20), showing <strong>${status === 'BUY' ? 'upward dominance' : status === 'SELL' ? 'downward dominance' : 'limited directional bias'}</strong>. Furthermore, shifts in <strong>interest rate correlation</strong> will dictate whether the trend remains sustainable.`,
+                s1NewsTitle: "Latest News Headlines",
+                s2Title: "2. AI Multi-Angle Analysis (Synapse Analysis)",
+                s2CorrTitle: "Interest Rate Correlation Analysis",
+                s2CorrText: `The approximate correlation between interest rates (US10Y proxy) and ${symbol} shows a coefficient of ${corrStr}, with a <strong>${corr != null && corr >= 0 ? 'positive direction' : 'negative direction'}</strong> observed. This implies that the <strong>direction of interest rates</strong> is likely to be a primary driver for price movement.`,
+                s2OrderTitle: "Order Book Analysis",
+                s2OrderText: `The ${liquidityLine || 'monitoring of major zones'} is likely to serve as a short-term liquidity concentration point. Specifically, we anticipate <strong>${status === 'BUY' ? 'profit-taking at upper levels' : status === 'SELL' ? 'profit-taking at lower levels' : 'shuffling before a breakout'}</strong>.`,
+                s2SentimentTitle: "Sentiment Analysis",
+                s2SentimentText: `${sentimentText} Therefore, it is rational to set stop-losses early, assuming both <strong>overheating and potential reversal</strong>.`,
+                s3Title: "3. Technical Analysis",
+                s3RefData: "Reference Data",
+                s3Price: "Current Price",
+                s3RSI: "RSI(14)",
+                s3MA20: "20-Day Moving Average (MA20)",
+                s3MARel: "Relationship with MA20",
+                s3MARelTextPrefix: "The price is currently in the ",
+                s3MARelTextSuffix: ".",
+                s3PointsTitle: "Analysis Points",
+                s3Point1: `As long as ${cp ?? '---'} stays ${Number(cp) > Number(ma20) ? 'above' : 'below'} MA20 ${ma20 ?? '---'}, the dominant side's scenario remains prioritized.`,
+                s3Point2: `The timing of RSI(14) ${rsi ?? '---'} breaking its range will trigger a re-evaluation of liquidity zones (BB/recent highs and lows).`,
+                s3Point3: `${status === 'BUY' ? (tpStr ? `Consider securing profits near TP ${tpStr}.` : 'Consider profit-taking as it approaches upper levels.') : status === 'SELL' ? (tpStr ? `Monitor reaction near TP ${tpStr}.` : 'Consider profit-taking as it approaches lower levels.') : `Observe whether it breaks towards TP ${tpStr ?? '---'} or SL ${slStr ?? '---'}.`}`,
+                s4Title: "4. Professional Trading Strategy",
+                s4PolicyTitle: "Overall Policy",
+                s4Policy: `${status === 'NEUTRAL' ? 'Wait for range breakout and selective entries' : status === 'BUY' ? 'Prioritize entries on the dominant side during pullbacks' : 'Defensive selling rather than waiting for a reversal'}`,
+                s4TP: "Take Profit Target",
+                s4SL: "Stop Loss Line",
+                s5Title: "5. Conclusion & Action Plan",
+                s5Summary: "Executive Summary"
+            }
         }
     };
 
     const L = LOCALIZATION[locale] || LOCALIZATION.ja;
+    const D = L.deterministic;
 
-    const maRelText = cp && ma20
-        ? (Number(cp) > Number(ma20) ? L.maRel.UP : L.maRel.DOWN)
-        : L.maRel.FLAT;
-
+    const maRelText = L.maRel[maRelKey];
     const conclusionText = L.conclusion[status] || L.conclusion.NEUTRAL;
     const finalNextSteps = (L.nextSteps[status] || L.nextSteps.NEUTRAL).slice(0, 3);
     const nextSteps3 = finalNextSteps.length === 3 ? finalNextSteps : L.fallbackSteps;
@@ -898,28 +974,28 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
         `chart_image: "/images/market-analysis-${genre.toLowerCase()}.png"\n` +
         `excerpt: "${excerpt}"\n` +
         `---\n\n` +
-        `## 1. 市場環境とファンダメンタルズ\n` +
-        `- **キーワード**: ${keywords}\n` +
-        `- **サマリー**: <strong>本日のAI解析</strong>では、${symbol}の需給が主要移動平均（MA20）と整合しており、<strong>${status === 'BUY' ? '上方向の優位' : status === 'SELL' ? '下方向の優位' : '方向性の限定'}</strong>を示す。加えて<strong>金利相関</strong>の変化が、トレンドの継続可否を規定する。\n\n` +
-        `* 最新ニュース見出し\n` +
+        `## ${D.s1Title}\n` +
+        `- **${D.s1Keywords}**: ${keywords}\n` +
+        `- **${D.s1Summary}**: ${D.s1Text}\n\n` +
+        `* ${D.s1NewsTitle}\n` +
         `${newsBlockLines}\n\n` +
-        `## 2. AI多角分析（シナプス解析）\n` +
-        `- **金利相関解析**: 金利（US10Y proxy）と${symbol}の近似相関は相関係数${corrStr}で、${corr != null && corr >= 0 ? '正の方向' : '負の方向'}が観測される。これは<strong>金利の方向</strong>が価格の優先ドライバーになりやすいことを意味する。\n` +
-        `- **オーダーブック解析**: ${liquidityLine || '主要帯の観測'}が、短期の流動性集約点として機能する可能性が高い。特に${status === 'BUY' ? '上限帯での利確' : status === 'SELL' ? '下限帯での利確' : 'ブレイク前の押し引き'}を想定する。\n` +
-        `- **センチメント解析**: ${sentimentText} そのため<strong>過熱と反転</strong>の双方を前提に、損切りを早めに設定するのが合理的となる。\n\n` +
-        `## 3. テクニカル分析\n` +
-        `- **参照データ**: 終値（現在価格） ${cp ?? '---'}、RSI(14) ${rsi ?? '---'}、20日移動平均 MA20 ${ma20 ?? '---'}。\n` +
-        `- **MA20との関係**: 終値は${maRelText}に位置する。\n` +
-        `**分析ポイント**:\n` +
-        `* ${cp ?? '---'}がMA20 ${ma20 ?? '---'}を維持し続ける限り、優位側のシナリオが優先される。\n` +
-        `* RSI(14) ${rsi ?? '---'}がレンジを抜けるタイミングは、需給帯（BB/直近高安）への再評価を促す。\n` +
-        `* ${status === 'BUY' ? (tpStr ? `利確ターゲット TP ${tpStr} 近辺で収益確定を検討。` : '上限帯への接近で利確を検討。') : status === 'SELL' ? (tpStr ? `利確ターゲット TP ${tpStr} 近辺で反応を確認。` : '下限帯への接近で利確を検討。') : `TP ${tpStr ?? '---'} と SL ${slStr ?? '---'} のどちら側にブレイクするかを観測。`}\n\n` +
-        `## 4. プロ・トレーディング戦略\n` +
-        `- **全体方針**: ${status === 'NEUTRAL' ? 'レンジのブレイク待ちと選別エントリー' : status === 'BUY' ? '押し目での優位側エントリーを優先' : '反転待ちではなく下方向を先行する防御的売り'}。\n` +
-        `- **利確ターゲット**: ${tpStr ?? '0.00'}\n` +
-        `- **損切りライン**: ${slStr ?? '0.00'}\n\n` +
-        `## 5. 結論とアクションプラン\n` +
-        `- **結論サマリー**: ${conclusionText}\n` +
+        `## ${D.s2Title}\n` +
+        `- **${D.s2CorrTitle}**: ${D.s2CorrText}\n` +
+        `- **${D.s2OrderTitle}**: ${D.s2OrderText}\n` +
+        `- **${D.s2SentimentTitle}**: ${D.s2SentimentText}\n\n` +
+        `## ${D.s3Title}\n` +
+        `- **${D.s3RefData}**: ${D.s3Price} ${cp ?? '---'}, RSI(14) ${rsi ?? '---'}, ${D.s3MA20} ${ma20 ?? '---'}.\n` +
+        `- **${D.s3MARel}**: ${D.s3MARelTextPrefix}${maRelText}${D.s3MARelTextSuffix}\n` +
+        `**${D.s3PointsTitle}**:\n` +
+        `* ${D.s3Point1}\n` +
+        `* ${D.s3Point2}\n` +
+        `* ${D.s3Point3}\n\n` +
+        `## ${D.s4Title}\n` +
+        `- **${D.s4PolicyTitle}**: ${D.s4Policy}.\n` +
+        `- **${D.s4TP}**: ${tpStr ?? '0.00'}\n` +
+        `- **${D.s4SL}**: ${slStr ?? '0.00'}\n\n` +
+        `## ${D.s5Title}\n` +
+        `- **${D.s5Summary}**: ${conclusionText}\n` +
         `- **Next Step**:\n` +
         `${nextSteps3.map((s) => `  * ${s}`).join('\n')}\n\n` +
         `${jsonBlock}\n`;
