@@ -686,5 +686,125 @@
     },
     "lastCalculated": "2026-03-22T03:22:56.000Z",
     "integrityCertified": true
+  },
+  {
+    "id": "hfm",
+    "name": "HFM",
+    "name_en": "HFM",
+    "supportedLocales": [
+      "ja",
+      "en"
+    ],
+    "description": "世界規模で展開する大手ブローカー。追証なしのゼロカットと多彩な口座タイプ、業界最高水準のレバレッジが特徴。",
+    "description_en": "A leading global broker featuring zero-cut protection, diverse account types, and industry-leading leverage.",
+    "features": [
+      "最大2000倍のレバレッジ",
+      "魅力的な入金ボーナス",
+      "MT4/MT5のフルサポート"
+    ],
+    "features_en": [
+      "Up to 2000x leverage",
+      "Attractive deposit bonuses",
+      "Full MT4/MT5 support"
+    ],
+    "pros": [
+      "グローバルな信頼性と実績",
+      "豊富な学習リソースとツール"
+    ],
+    "pros_en": [
+      "Global reliability and track record",
+      "Abundant educational resources and tools"
+    ],
+    "cons": [
+      "一部の口座タイプでスプレッドが広め",
+      "ボーナス対象外の口座がある"
+    ],
+    "cons_en": [
+      "Wider spreads on certain account types",
+      "Some accounts ineligible for bonuses"
+    ],
+    "targetAudience": "レバレッジ取引とボーナスを重視するアクティブトレーダー",
+    "targetAudience_en": "Active traders prioritizing leverage and bonuses",
+    "recommendation": "多彩なキャンペーンと高いレバレッジで、資金効率を最大化したい方に最適。",
+    "recommendation_en": "Ideal for those seeking to maximize capital efficiency via campaigns and high leverage.",
+    "rawScores": {
+      "cost": 3.5,
+      "platform": 4.7,
+      "speed": 4.6,
+      "security": 4.8,
+      "support": 4.5
+    },
+    "affiliateLink": "https://www.hfm.com/sv/jp/?refid=30515730",
+    "affiliateLink_en": "https://www.hfm.com/sv/jp/?refid=30515730",
+    "rating": 4.4,
+    "scores": {
+      "cost": 3.5,
+      "platform": 4.7,
+      "speed": 4.6,
+      "security": 4.8,
+      "support": 4.5
+    },
+    "lastCalculated": "2026-03-22T03:22:56.000Z",
+    "integrityCertified": true
+  },
+  {
+    "id": "exness",
+    "name": "Exness",
+    "name_en": "Exness",
+    "supportedLocales": [
+      "ja",
+      "en"
+    ],
+    "description": "無制限レバレッジや即時出金など、圧倒的なスペックと透明性を誇る業界のリーダー。",
+    "description_en": "An industry leader boasting overwhelming specs and transparency, including unlimited leverage and instant withdrawals.",
+    "features": [
+      "レバレッジ無制限（条件付き）",
+      "業界最速水準の即時出金",
+      "ストップアウトレベル0%"
+    ],
+    "features_en": [
+      "Unlimited leverage (under conditions)",
+      "Instant withdrawals at industry-leading speeds",
+      "0% stop-out level"
+    ],
+    "pros": [
+      "スプレッドが極めて狭い",
+      "24時間365日の安定した約定"
+    ],
+    "pros_en": [
+      "Extremely tight spreads",
+      "Stable 24/7 execution"
+    ],
+    "cons": [
+      "会員ページが若干複雑",
+      "日本国内のライセンスではない"
+    ],
+    "cons_en": [
+      "Member area can be slightly complex",
+      "Not licensed by Japanese authorities"
+    ],
+    "targetAudience": "コスト効率と出金スピードを重視するプロトレーダー",
+    "targetAudience_en": "Pro traders prioritizing cost efficiency and withdrawal speed",
+    "recommendation": "低スプレッドと即時出金を求める、全ての合理的なトレーダーに強く推奨。",
+    "recommendation_en": "Strongly recommended for rational traders seeking low spreads and instant withdrawals.",
+    "rawScores": {
+      "cost": 4.9,
+      "platform": 4.6,
+      "speed": 5.0,
+      "security": 4.5,
+      "support": 4.2
+    },
+    "affiliateLink": "https://one.exnessonelink.com/a/bq36gcoqwp",
+    "affiliateLink_en": "https://one.exnessonelink.com/a/bq36gcoqwp",
+    "rating": 4.6,
+    "scores": {
+      "cost": 4.9,
+      "platform": 4.6,
+      "speed": 5.0,
+      "security": 4.5,
+      "support": 4.2
+    },
+    "lastCalculated": "2026-03-22T03:22:56.000Z",
+    "integrityCertified": true
   }
 ]
