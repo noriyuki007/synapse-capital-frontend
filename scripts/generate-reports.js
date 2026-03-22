@@ -909,7 +909,7 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
         `- **センチメント解析**: ${sentimentText} そのため<strong>過熱と反転</strong>の双方を前提に、損切りを早めに設定するのが合理的となる。\n\n` +
         `## 3. テクニカル分析\n` +
         `- **参照データ**: 終値（現在価格） ${cp ?? '---'}、RSI(14) ${rsi ?? '---'}、20日移動平均 MA20 ${ma20 ?? '---'}。\n` +
-        `- **MA20との関係**: 終値は${maRel}に位置する。\n` +
+        `- **MA20との関係**: 終値は${maRelText}に位置する。\n` +
         `**分析ポイント**:\n` +
         `* ${cp ?? '---'}がMA20 ${ma20 ?? '---'}を維持し続ける限り、優位側のシナリオが優先される。\n` +
         `* RSI(14) ${rsi ?? '---'}がレンジを抜けるタイミングは、需給帯（BB/直近高安）への再評価を促す。\n` +
@@ -919,7 +919,7 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
         `- **利確ターゲット**: ${tpStr ?? '0.00'}\n` +
         `- **損切りライン**: ${slStr ?? '0.00'}\n\n` +
         `## 5. 結論とアクションプラン\n` +
-        `- **結論サマリー**: ${conclusion}\n` +
+        `- **結論サマリー**: ${conclusionText}\n` +
         `- **Next Step**:\n` +
         `${nextSteps3.map((s) => `  * ${s}`).join('\n')}\n\n` +
         `${jsonBlock}\n`;

@@ -148,7 +148,7 @@ export const Header = ({ locale, dict }: { locale: string; dict: any }) => {
                                                     <item.icon className="w-4 h-4" />
                                                 </div>
                                                  <div className="space-y-0.5">
-                                                     <div className={`text-[10px] uppercase tracking-widest ${item.label === dict.header.reports ? 'font-black text-indigo-600' : 'font-black text-slate-900'}`}>{item.label}</div>
+                                                     <div className={`text-[10px] uppercase tracking-widest font-black text-slate-900`}>{item.label}</div>
                                                      <div className="text-[9px] font-bold text-slate-400">{item.desc}</div>
                                                  </div>
                                             </Link>

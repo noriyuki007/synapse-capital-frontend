@@ -1,7 +1,7 @@
 {
   "FX": {
-    "title": "USD/JPY: Bullish Scenario & AI Risk Management",
-    "date": "2026-03-22 00:51",
+    "title": "USD/JPY Outlook: Strategic Upside Potential and Risk Evaluation",
+    "date": "2026-03-22 09:53",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
@@ -15,15 +15,15 @@
     "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 159.22, RSI(60.01), and MA20(157.80).",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "本日のAI解析（シナプス解析）: 金利相関 0.07 とテクニカルの整合性に基づく戦略設計。",
+    "comment": "AI Synapse Analysis: Strategy designed based on interest correlation 0.07 and technical alignment.",
     "entry": "159.22",
     "tp": "159.82",
     "sl": "154.62",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500: Bearish Outlook & Defense Strategies",
-    "date": "2026-03-22 00:51",
+    "title": "S&P 500 Strategy: Defense and Risk Mitigation in Downtrend",
+    "date": "2026-03-22 09:53",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
@@ -37,32 +37,32 @@
     "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 6506.48, RSI(25.34), and MA20(6770.57).",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "本日のAI解析（シナプス解析）: 金利相関 -0.13 とテクニカルの整合性に基づく戦略設計。",
+    "comment": "AI Synapse Analysis: Strategy designed based on interest correlation -0.13 and technical alignment.",
     "entry": "6506.48",
     "tp": "6473.52",
     "sl": "6952.51",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "BTC/USD: Bullish Scenario & AI Risk Management",
-    "date": "2026-03-22 00:51",
+    "title": "BTC/USD Framework: Analyzing Liquidity Zones in Consolidation",
+    "date": "2026-03-22 09:53",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "tldr_points": [
       "Interest Correlation (Approx): 0.10 (Positive)",
-      "Technical: Driven by Price 70624.45 vs MA20 70354.47",
-      "Liquidity: Targets based on 上限帯 74740.67 / 下限帯 65968.28 / 直近高値 75988.40 / 直近安値 65303.14"
+      "Technical: Driven by Price 69053.79 vs MA20 70275.94",
+      "Liquidity: Targets based on 上限帯 74697.88 / 下限帯 65854.00 / 直近高値 75988.40 / 直近安値 65303.14"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 70624.45, RSI(60.57), and MA20(70354.47).",
+    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 69053.79, RSI(55.17), and MA20(70275.94).",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "本日のAI解析（シナプス解析）: 金利相関 0.10 とテクニカルの整合性に基づく戦略設計。",
-    "entry": "70624.45",
-    "tp": "75988.40",
-    "sl": "65303.14",
+    "status": "NEUTRAL",
+    "comment": "AI Synapse Analysis: Strategy designed based on interest correlation 0.10 and technical alignment.",
+    "entry": "69053.79",
+    "tp": "74697.88",
+    "sl": "65854.00",
     "reliability": "HIGH"
   }
 }
