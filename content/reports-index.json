@@ -6,7 +6,7 @@
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "moomoo-securities",
+    "recommended_broker": "",
     "excerpt": "本日のAI解析では、S&P 500の現在価格 6506.48、RSI(25.34)、MA20(6770.57)を軸に、金利相関と需給帯から実行プランを整理する。",
     "result": "PENDING",
     "locale": "ja"
@@ -18,7 +18,7 @@
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "interactive-brokers",
+    "recommended_broker": "",
     "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 6506.48, RSI(25.34), and MA20(6770.57).",
     "result": "PENDING",
     "locale": "en"
@@ -114,7 +114,7 @@
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "interactive-brokers",
+    "recommended_broker": "",
     "excerpt": "S&P 500 below MA20 signals short-term bearish momentum. Key support at 6450. Monitor for confirmation.",
     "result": "PENDING",
     "locale": "en"
@@ -330,7 +330,7 @@
     "genre": "MARKET ANALYSIS",
     "target_pair": "DOW/USD",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "excerpt": "ダウ平均は20日移動平均線を下回り、弱気トレンドが鮮明になっています。本日のAI解析では、金利相関、オーダーブック、センチメント分析を通じて、市場の現状を詳細に分析し、プロトレーダー向けの戦略を提案します。",
     "result": "PENDING",
     "locale": "ja"

@@ -50,12 +50,12 @@ const RSS_FEEDS = [
 const RECOMMENDED_BROKERS = {
     ja: {
         FX: 'dmm-fx',
-        STOCKS: 'moomoo-securities',
+        STOCKS: '',
         CRYPTO: 'bitflyer',
     },
     en: {
         FX: 'xm-trading',
-        STOCKS: 'interactive-brokers',
+        STOCKS: '',
         CRYPTO: 'bybit',
     }
 };

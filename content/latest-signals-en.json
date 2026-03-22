@@ -27,7 +27,7 @@
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "interactive-brokers",
+    "recommended_broker": "",
     "tldr_points": [
       "Interest Correlation (Approx): -0.13 (Negative)",
       "Technical: Driven by Price 6506.48 vs MA20 6770.57",

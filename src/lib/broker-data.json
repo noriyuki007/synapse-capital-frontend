@@ -403,63 +403,6 @@
     "integrityCertified": true
   },
   {
-    "id": "interactive-brokers",
-    "name": "Interactive Brokers",
-    "name_en": "Interactive Brokers",
-    "supportedLocales": ["ja", "en"],
-    "description": "世界中の機関投資家が利用する最高峰のプラットフォーム。",
-    "description_en": "A premier platform used by institutional investors worldwide.",
-    "features": [
-      "世界各国の市場にアクセス",
-      "極めて低い取引コスト",
-      "高度なAPI連携"
-    ],
-    "features_en": [
-      "Access to global markets",
-      "Ultra-low transaction costs",
-      "Advanced API integration"
-    ],
-    "pros": [
-      "プロ仕様のツール群",
-      "金利や貸株サービスの充実"
-    ],
-    "pros_en": [
-      "Professional-grade toolkits",
-      "Excellent interest and stock lending"
-    ],
-    "cons": [
-      "ツールが複雑で初心者には不向き",
-      "日本語サポートが限定的"
-    ],
-    "cons_en": [
-      "Complex tools; not for beginners",
-      "Limited localized support"
-    ],
-    "targetAudience": "プロ・セミプロ・世界市場を狙う投資家",
-    "targetAudience_en": "Pros, semi-pros, and global market investors",
-    "recommendation": "真のグローバル投資環境を求めるなら。AI分析との相性も最高です。",
-    "recommendation_en": "For those seeking a true global environment. High affinity with AI analysis.",
-    "rawScores": {
-      "cost": 5,
-      "platform": 4.9,
-      "speed": 4.8,
-      "security": 5,
-      "support": 3.5
-    },
-    "affiliateLink": "https://www.interactivebrokers.com/",
-    "affiliateLink_en": "https://www.interactivebrokers.com/",
-    "rating": 4.8,
-    "scores": {
-      "cost": 5,
-      "platform": 4.9,
-      "speed": 4.8,
-      "security": 5,
-      "support": 3.5
-    },
-    "lastCalculated": "2026-03-17T13:30:38.474Z",
-    "integrityCertified": true
-  },
-  {
     "id": "xm-trading",
     "name": "XMTrading",
     "name_en": "XMTrading",
