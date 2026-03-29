@@ -64,7 +64,9 @@ async function postToMakeWebhook() {
     }
     console.log(`🚀 Found ${reportsToPost.length} report(s) for ${targetDate} to process.`);
 
-    for (const report of reportsToPost) {
+    const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+    for (let i = 0; i < reportsToPost.length; i++) {
+        const report = reportsToPost[i];
         // [Requirement 1] Extract locale (ja/en) and genre from filename
         // Matches e.g., 2026-03-21-fx.ja.md or 2026-03-21-crypto-en.md
         const filenameRegex = /^\d{4}-\d{2}-\d{2}-([a-zA-Z0-9]+)[-.](ja|en)\.md$/i;

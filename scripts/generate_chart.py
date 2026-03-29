@@ -3,29 +3,90 @@ matplotlib.use('Agg') # Use non-interactive backend for server environments
 import yfinance as yf
 import mplfinance as mpf
 import pandas as pd
+import requests
+import os
 import sys
 import json
 import time
 
+# Setup a session for yfinance to avoid blocking
+session = requests.Session()
+session.headers.update({
+    'User-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36'
+})
+
 def emit_market_json(stats):
     print(f"MARKET_DATA_JSON:{json.dumps(stats)}", flush=True)
+
+def fetch_from_twelve_data(ticker, api_key):
+    """Fallback data fetcher using Twelve Data API"""
+    if not api_key or api_key == "demo":
+        return None
+    
+    print(f"Attempting Twelve Data fallback for {ticker}...", flush=True)
+    # Map Yahoo symbols to Twelve Data if needed
+    symbol = ticker.replace('=X', '') # USDJPY=X -> USDJPY
+    if '^' in symbol: symbol = symbol.replace('^', '') # ^GSPC -> GSPC
+
+    url = f"https://api.twelvedata.com/time_series?symbol={symbol}&interval=1day&outputsize=60&apikey={api_key}"
+    try:
+        res = requests.get(url)
+        res.raise_for_status()
+        data_json = res.json()
+        
+        if data_json.get("status") != "ok":
+            print(f"Twelve Data Error: {data_json.get('message')}", flush=True)
+            return None
+            
+        values = data_json.get("values", [])
+        if not values: return None
+        
+        df = pd.DataFrame(values)
+        df['datetime'] = pd.to_datetime(df['datetime'])
+        df = df.set_index('datetime').sort_index()
+        
+        # Rename columns to match yfinance
+        df = df.rename(columns={
+            'open': 'Open', 'high': 'High', 'low': 'Low', 'close': 'Close', 'volume': 'Volume'
+        })
+        
+        # Convert to numeric
+        for col in ['Open', 'High', 'Low', 'Close', 'Volume']:
+            if col in df.columns:
+                df[col] = pd.to_numeric(df[col], errors='coerce')
+        
+        return df.dropna(subset=['Open', 'High', 'Low', 'Close'])
+    except Exception as e:
+        print(f"Twelve Data Fetch Exception: {e}", flush=True)
+        return None
 
 def generate_chart(ticker, filename, title_name):
     print(f"Fetching data for {ticker}...", flush=True)
 
     data = None
     last_err = None
-    for attempt in range(3):
-        try:
-            data = yf.download(ticker, period="3mo", interval="1d", auto_adjust=True, progress=False, threads=False)
-            if data is not None and not data.empty:
-                break
-        except Exception as e:
-            last_err = e
-        time.sleep(2 * (attempt + 1))
+    twelve_data_key = os.environ.get("TWELVE_DATA_API_KEY")
+
+    # 1. Try Twelve Data first (Primary for stability)
+    if twelve_data_key:
+        data = fetch_from_twelve_data(ticker, twelve_data_key)
+        if data is not None and not data.empty:
+            print(f"Successfully fetched data for {ticker} from Twelve Data.", flush=True)
+
+    # 2. Fallback to Yahoo Finance (Secondary)
+    if data is None or data.empty:
+        print(f"Twelve Data unavailable or failed. Trying Yahoo Finance fallback for {ticker}...", flush=True)
+        for attempt in range(2):
+            try:
+                data = yf.download(ticker, period="3mo", interval="1d", auto_adjust=True, progress=False, threads=False, session=session)
+                if data is not None and not data.empty:
+                    break
+            except Exception as e:
+                last_err = e
+            time.sleep(2 * (attempt + 1))
 
     if data is None or data.empty:
-        print(f"Error: No data found for {ticker} after retries: {last_err}", flush=True)
+        print(f"Error: No data found for {ticker} after all attempts. Last Yahoo Err: {last_err}", flush=True)
         emit_market_json({
             "current_price": None,
             "ma20": None,

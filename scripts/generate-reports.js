@@ -654,7 +654,6 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
 
     const { status, prediction_direction } = decideSignal(marketData);
 
-    // Entry/TP/SL: ensure 2 decimals and basic inequality consistency.
     const entryBase = cpNum != null ? Number(cpNum) : null;
     let entry = entryBase != null ? entryBase : 0;
     let tp = null;
@@ -709,7 +708,6 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
     };
     const keywords = keywordsByGenre[genre].slice(0, 5).join(' ');
 
-    // Sentiment (FX/Stocks: VIX proxy, Crypto: Fear & Greed if available)
     let sentimentText = '';
     if (genre === 'CRYPTO') {
         const fng = await fetchCryptoFearGreed();
@@ -745,7 +743,6 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
         return `* ${title}`;
     }).join('\n');
 
-    // Order book / liquidity zones
     const bbU = bbUpper != null ? fmt2(bbUpper) : null;
     const bbL = bbLower != null ? fmt2(bbLower) : null;
     const hi20 = recentHigh != null ? fmt2(recentHigh) : null;
@@ -760,8 +757,6 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
         return parts.join(' / ');
     })();
 
-    // Titles / TLDR
-    // Improved Titles / TLDR
     const getDeterministicTitle = (symbol, status, locale) => {
         const isEn = locale === 'en';
         const templates = {
@@ -800,7 +795,6 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
                   ]
         };
         const list = templates[status] || templates.NEUTRAL;
-        // Deterministic pick based on date to avoid daily identical titles for same status
         const day = new Date(jstDateStr).getDate() || 0;
         return list[day % list.length];
     };
@@ -860,13 +854,6 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
                 s1Summary: "サマリー",
                 s1Text: `<strong>本日のAI解析</strong>では、${symbol}の需給が主要移動平均（MA20）と整合しており、<strong>${status === 'BUY' ? '上方向の優位' : status === 'SELL' ? '下方向の優位' : '方向性の限定'}</strong>を示す。加えて<strong>金利相関</strong>の変化が、トレンドの継続可否を規定する。`,
                 s1NewsTitle: "最新ニュース見出し",
-                s2Title: "AI多角分析（シナプス解析）",
-                s2CorrTitle: "金利相関解析",
-                s2CorrText: `金利（US10Y proxy）と${symbol}の近似相関は相関係数${corrStr}で、${corr != null && corr >= 0 ? '正の方向' : '負の方向'}が観測される。これは<strong>金利の方向</strong>が価格の優先ドライバーになりやすいことを意味する。`,
-                s2OrderTitle: "オーダーブック解析",
-                s2OrderText: `${liquidityLine || '主要帯の観測'}が、短期の流動性集約点として機能する可能性が高い。特に${status === 'BUY' ? '上限帯での利確' : status === 'SELL' ? '下限帯での利確' : 'ブレイク前の押し引き'}を想定する。`,
-                s2SentimentTitle: "センチメント解析",
-                s2SentimentText: `${sentimentText} そのため<strong>過熱と反転</strong>の双方を前提に、損切りを早めに設定するのが合理的となる。`,
                 s3Title: "テクニカル分析",
                 s3RefData: "参照データ",
                 s3Price: "現在価格",
@@ -875,7 +862,7 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
                 s3MARelTextSuffix: "に位置する。",
                 s3PointsTitle: "分析ポイント",
                 s3Point1: `${cp ?? '---'}がMA20 ${ma20 ?? '---'}を維持し続ける限り、優位側のシナリオが優先される。`,
-                s3Point2: `RSI(14) ${rsi ?? '---'}がレンジを抜けるタイミングは、需給帯（BB/直近高安）への再評価を促す。`,
+                s3Point2: `${rsi ?? '---'}がレンジを抜けるタイミングは、需給帯（BB/直近高安）への再評価を促す。`,
                 s3Point3: `${status === 'BUY' ? (tpStr ? `利確ターゲット TP ${tpStr} 近辺で収益確定を検討。` : '上限帯への接近で利確を検討。') : status === 'SELL' ? (tpStr ? `利確ターゲット TP ${tpStr} 近辺で反応を確認。` : '下限帯への接近で利確を検討。') : `TP ${tpStr ?? '---'} と SL ${slStr ?? '---'} のどちら側にブレイクするかを観測。`}`,
                 s4Title: "プロ・トレーディング戦略",
                 s4PolicyTitle: "全体方針",
@@ -927,8 +914,6 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
                 s2CorrText: `The approximate correlation between interest rates (US10Y proxy) and ${symbol} shows a coefficient of ${corrStr}, with a <strong>${corr != null && corr >= 0 ? 'positive direction' : 'negative direction'}</strong> observed. This implies that the <strong>direction of interest rates</strong> is likely to be a primary driver for price movement.`,
                 s2OrderTitle: "Order Book Analysis",
                 s2OrderText: `The ${liquidityLine || 'monitoring of major zones'} is likely to serve as a short-term liquidity concentration point. Specifically, we anticipate <strong>${status === 'BUY' ? 'profit-taking at upper levels' : status === 'SELL' ? 'profit-taking at lower levels' : 'shuffling before a breakout'}</strong>.`,
-                s2SentimentTitle: "Sentiment Analysis",
-                s2SentimentText: `${sentimentText} Therefore, it is rational to set stop-losses early, assuming both <strong>overheating and potential reversal</strong>.`,
                 s3Title: "3. Technical Analysis",
                 s3RefData: "Reference Data",
                 s3Price: "Current Price",
@@ -962,43 +947,7 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
 
     const jsonBlock = `\`\`\`json\n{\n  "pair": "${symbol}",\n  "status": "${status}",\n  "comment": "${L.jsonComment}",\n  "entry": "${entryStr ?? '0.00'}",\n  "tp": "${tpStr ?? '0.00'}",\n  "sl": "${slStr ?? '0.00'}",\n  "reliability": "${relScore === 'HIGH' ? 'HIGH' : 'MEDIUM'}"\n}\n\`\`\``;
 
-    // Compose markdown following the required section order.
-    return `---\n` +
-        `title: "${title}"\n` +
-        `date: "${jstDateStr}"\n` +
-        `genre: "${genre}"\n` +
-        `target_pair: "${symbol}"\n` +
-        `prediction_direction: "${prediction_direction}"\n` +
-        `recommended_broker: "${broker}"\n` +
-        `tldr_points: ["${tldr_points[0]}", "${tldr_points[1]}", "${tldr_points[2]}"]\n` +
-        `chart_image: "/images/market-analysis-${genre.toLowerCase()}.png"\n` +
-        `excerpt: "${excerpt}"\n` +
-        `---\n\n` +
-        `## ${D.s1Title}\n` +
-        `- **${D.s1Keywords}**: ${keywords}\n` +
-        `- **${D.s1Summary}**: ${D.s1Text}\n\n` +
-        `* ${D.s1NewsTitle}\n` +
-        `${newsBlockLines}\n\n` +
-        `## ${D.s2Title}\n` +
-        `- **${D.s2CorrTitle}**: ${D.s2CorrText}\n` +
-        `- **${D.s2OrderTitle}**: ${D.s2OrderText}\n` +
-        `- **${D.s2SentimentTitle}**: ${D.s2SentimentText}\n\n` +
-        `## ${D.s3Title}\n` +
-        `- **${D.s3RefData}**: ${D.s3Price} ${cp ?? '---'}, RSI(14) ${rsi ?? '---'}, ${D.s3MA20} ${ma20 ?? '---'}.\n` +
-        `- **${D.s3MARel}**: ${D.s3MARelTextPrefix}${maRelText}${D.s3MARelTextSuffix}\n` +
-        `**${D.s3PointsTitle}**:\n` +
-        `* ${D.s3Point1}\n` +
-        `* ${D.s3Point2}\n` +
-        `* ${D.s3Point3}\n\n` +
-        `## ${D.s4Title}\n` +
-        `- **${D.s4PolicyTitle}**: ${D.s4Policy}.\n` +
-        `- **${D.s4TP}**: ${tpStr ?? '0.00'}\n` +
-        `- **${D.s4SL}**: ${slStr ?? '0.00'}\n\n` +
-        `## ${D.s5Title}\n` +
-        `- **${D.s5Summary}**: ${conclusionText}\n` +
-        `- **Next Step**:\n` +
-        `${nextSteps3.map((s) => `  * ${s}`).join('\n')}\n\n` +
-        `${jsonBlock}\n`;
+    return `---\ntitle: "${title}"\ndate: "${jstDateStr}"\ngenre: "${genre}"\ntarget_pair: "${symbol}"\nprediction_direction: "${prediction_direction}"\nrecommended_broker: "${broker}"\ntldr_points: ["${tldr_points[0]}", "${tldr_points[1]}", "${tldr_points[2]}"]\nchart_image: "/images/market-analysis-${genre.toLowerCase()}.png"\nexcerpt: "${excerpt}"\n---\n\n## ${D.s1Title}\n- **${D.s1Keywords}**: ${keywords}\n- **${D.s1Summary}**: ${D.s1Text}\n\n* ${D.s1NewsTitle}\n${newsBlockLines}\n\n## ${D.s3Title}\n- **${D.s3RefData}**: ${D.s3Price} ${cp ?? '---'}, RSI(14) ${rsi ?? '---'}, ${D.s3MA20} ${ma20 ?? '---'}.\n- **${D.s3MARel}**: ${D.s3MARelTextPrefix}${maRelText}${D.s3MARelTextSuffix}\n**${D.s3PointsTitle}**:\n* ${D.s3Point1}\n* ${D.s3Point2}\n* ${D.s3Point3}\n\n## ${D.s4Title}\n- **${D.s4PolicyTitle}**: ${D.s4Policy}.\n- **${D.s4TP}**: ${tpStr ?? '0.00'}\n- **${D.s4SL}**: ${slStr ?? '0.00'}\n\n## ${D.s5Title}\n- **${D.s5Summary}**: ${conclusionText}\n- **Next Step**:\n${nextSteps3.map((s) => `  * ${s}`).join('\n')}\n\n${jsonBlock}\n`;
 }
 
 async function main() {
@@ -1016,7 +965,6 @@ async function main() {
             allNews = allNews.concat(news);
         }
 
-        // Deduplicate by title
         allNews = [...new Map(allNews.map((n) => [n.title, n])).values()].slice(0, 8);
 
         if (allNews.length === 0) {
@@ -1033,7 +981,6 @@ async function main() {
         const dateStr = getJSTDateStr(TARGET_DATE_RAW);
         const displayDateStr = getJSTDateStr(TARGET_DATE_RAW, true);
 
-        // --- AI Generation Loop for both Locales ---
         for (const locale of ['ja', 'en']) {
             console.log(`[${genre}:${locale}] 🚀 Starting generation for ${dateStr}...`);
             let markdown = '';
@@ -1067,36 +1014,8 @@ async function main() {
                 }
 
                 if (!markdown) {
-                    console.warn(`[${genre}:${locale}] ⚠️ All AI generation failed. Using emergency template.`);
-                    const symbol = TICKER_MAP[genre].symbol;
-                    const cp = marketData?.current_price != null ? parseFloat(marketData.current_price).toFixed(2) : '---';
-                    const brokerFallback = (RECOMMENDED_BROKERS[locale] || RECOMMENDED_BROKERS.ja)[genre];
-                    markdown = `---
-title: "${genre} Market Update"
-date: "${dateStr}"
-genre: "${genre}"
-target_pair: "${symbol}"
-prediction_direction: "FLAT"
-recommended_broker: "${brokerFallback}"
-tldr_points: ["AI pipeline issue", "Price: ${cp}", "Risk management prioritized"]
-chart_image: "/images/market-analysis-${genre.toLowerCase()}.png"
-excerpt: "Market analysis generation is temporarily delayed. Please refer to live prices."
----
-Market data is currently being processed manually due to high volatility.
-Current Price: ${cp}
-MA20: ${marketData?.ma20 != null ? parseFloat(marketData.ma20).toFixed(2) : '---'}
-
-\`\`\`json
-{
-  "pair": "${symbol}",
-  "status": "NEUTRAL",
-  "comment": "${locale === 'ja' ? '自動生成フォールバック' : 'Emergency fallback'}",
-  "entry": "${cp}",
-  "tp": "${cp}",
-  "sl": "${cp}",
-  "reliability": "LOW"
-}
-\`\`\``;
+                    console.warn(`[${genre}:${locale}] ⚠️ All AI generation failed. Using high-quality Deterministic fallback.`);
+                    markdown = await generateDeterministicReport(genre, newsForPrompt, marketData, displayDateStr, locale);
                 }
 
                 markdown = stripLeadingCodeFenceAroundFrontmatter(markdown);
@@ -1106,7 +1025,6 @@ MA20: ${marketData?.ma20 != null ? parseFloat(marketData.ma20).toFixed(2) : '---
                 fs.writeFileSync(filePath, markdown);
                 console.log(`✅ [${genre}:${locale}] Saved: ${filePath}`);
 
-                // Update signal JSON with the localized version
                 const sigPath = `./content/latest-signals-${locale}.json`;
                 let sigs = {};
                 if (fs.existsSync(sigPath)) {
@@ -1116,7 +1034,6 @@ MA20: ${marketData?.ma20 != null ? parseFloat(marketData.ma20).toFixed(2) : '---
                 fs.writeFileSync(sigPath, JSON.stringify(sigs, null, 2));
                 console.log(`✅ Updated latest-signals-${locale}.json (${genre})`);
 
-                // For backward compatibility/legacy support, also keep latest-signals.json synced with JA
                 if (locale === 'ja') {
                     fs.writeFileSync('./content/latest-signals.json', JSON.stringify(sigs, null, 2));
                 }
@@ -1125,10 +1042,15 @@ MA20: ${marketData?.ma20 != null ? parseFloat(marketData.ma20).toFixed(2) : '---
                 console.error(`❌ [${genre}:${locale}] Critical error:`, err.message);
             }
         }
+
+        rebuildReportsIndexFromReportsDir();
+
+        if (Object.keys(TICKER_MAP).indexOf(genre) < Object.keys(TICKER_MAP).length - 1) {
+            console.log(`[Queue] Waiting 10s for next genre...`);
+            await sleep(10000);
+        }
     }
 
-    // Index should be derived from the existing markdown files,
-    // so older articles never "disappear" due to partial/failed runs.
     rebuildReportsIndexFromReportsDir();
 }
 
