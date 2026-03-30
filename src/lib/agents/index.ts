@@ -276,6 +276,9 @@ async function runLeaderAgent(expertAnalyses: AgentResponse[], userPlan: string,
   "decision": "CAUTION",
   "totalScore": 65.50,
   "summary": "様子見を推奨",
+  "entry": "150.00",
+  "tp": "152.00",
+  "sl": "148.50",
   "agreedPoints": ["短期的な下値の堅さ", "ボラティリティの低下傾向"],
   "rejectedPoints": ["長期的なトレンドの転換点", "深夜帯の流動性リスク"],
   "consensusSummary": "テクニカル的には買いだが、マクロ指標待ちで合意。"
@@ -307,13 +310,16 @@ ${analysesSummary}
   "decision": "GO / NO GO / CAUTION",
   "totalScore": 82.00,
   "summary": "15文字以内のタイトル",
+  "entry": "150.25",
+  "tp": "152.50",
+  "sl": "148.75",
   "agreedPoints": ["合意事項1", "合意事項2"],
   "rejectedPoints": ["否定・懸念事項1", "否定・懸念事項2"],
   "consensusSummary": "委員会内での主な議論ポイントの要約"
 }
 </data>
 4. 数値はすべて小数点第2位まで表示してください。挨拶は不要です。直接レポートを開始してください。
-${fastMode ? '【重要・最優先事項】あなたは現在超高速バッチ処理モードです。レポート本文、見出し、説明文は**一切不要**です。<data>タグで囲まれたJSON文字列のみを絶対に出力してください。他の文章が1文字でも含まれるとシステムがクラッシュします。必ず、`entry`, `tp`, `sl` の具体的な数値価格をJSON内に含めてください。' : ''}`;
+${fastMode ? '【重要・最優先事項】あなたは現在超高速バッチ処理モードです。レポート本文、見出し、説明文は**一切不要**です。<data>タグで囲まれたJSON文字列のみを絶対に出力してください。他の文章が1文字でも含まれるとシステムがクラッシュします。entry, tp, sl には必ず具体的な数値価格を含めてください。' : ''}`;
 
   const modelId = 'gemini-1.5-pro';
   const analysis = await callWithFallback(modelId, "あなたは「シナプス・キャピタル」の最高投資責任者（CIO）です。", prompt);

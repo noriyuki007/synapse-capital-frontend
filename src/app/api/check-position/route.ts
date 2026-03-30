@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 import { getMarketContext } from '@/lib/market';
 import { runMultiAgentAnalysis } from '@/lib/agents';
 import { checkRateLimit } from '@/lib/rate-limit';
