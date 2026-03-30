@@ -62,11 +62,25 @@ async function postToMakeWebhook() {
         console.error('❌ No reports found to post (neither for today nor any past date).');
         return;
     }
-    console.log(`🚀 Found ${reportsToPost.length} report(s) for ${targetDate} to process.`);
+    console.log(`📋 Found ${reportsToPost.length} report(s) for ${targetDate}.`);
 
-    const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-    for (let i = 0; i < reportsToPost.length; i++) {
-        const report = reportsToPost[i];
+    // Group reports by genre, then randomly select 1 genre and post both ja/en versions
+    const genreRegex = /^\d{4}-\d{2}-\d{2}-([a-zA-Z0-9]+)[-.](ja|en)\.md$/i;
+    const genreGroups = {};
+    for (const r of reportsToPost) {
+        const m = r.name.match(genreRegex);
+        const genre = m ? m[1].toLowerCase() : 'unknown';
+        if (!genreGroups[genre]) genreGroups[genre] = [];
+        genreGroups[genre].push(r);
+    }
+
+    const genres = Object.keys(genreGroups);
+    const selectedGenre = genres[Math.floor(Math.random() * genres.length)];
+    const selectedReports = genreGroups[selectedGenre];
+    console.log(`🎲 Selected genre: ${selectedGenre.toUpperCase()} (${selectedReports.length} locale(s))`);
+
+    for (let i = 0; i < selectedReports.length; i++) {
+        const report = selectedReports[i];
         // [Requirement 1] Extract locale (ja/en) and genre from filename
         // Matches e.g., 2026-03-21-fx.ja.md or 2026-03-21-crypto-en.md
         const filenameRegex = /^\d{4}-\d{2}-\d{2}-([a-zA-Z0-9]+)[-.](ja|en)\.md$/i;
