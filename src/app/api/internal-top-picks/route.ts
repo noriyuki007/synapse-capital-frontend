@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-export const runtime = 'edge';
+export const runtime = 'nodejs';
 import { getMarketContext } from '@/lib/market';
 import { runMultiAgentAnalysis } from '@/lib/agents';
 import { getTopMovers } from '@/lib/market/screener';
@@ -11,23 +11,26 @@ export const ASSET_TICKERS: Record<string, { ticker: string; symbol: string }[]>
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
-  const assetClass = (searchParams.get('assetClass') || 'FX').toUpperCase();
-  
+  const rawAssetClass = (searchParams.get('assetClass') || 'FX').toUpperCase();
+  // Normalize: screener uses 'STOCKS', agents use 'STOCK'
+  const screenerAssetClass = rawAssetClass === 'STOCK' ? 'STOCKS' : rawAssetClass;
+  const agentAssetClass = rawAssetClass === 'STOCKS' ? 'STOCK' : rawAssetClass;
+
   // 1. Level 1 Filter: Get dynamic trending stocks/crypto to limit AI burden
-  const trendingTickers = await getTopMovers(assetClass, 5); // Scan top 5 for speed
+  const trendingTickers = await getTopMovers(screenerAssetClass, 5); // Scan top 5 for speed
   
   try {
     const results = await Promise.all(
       trendingTickers.map(async (pair) => {
         try {
-          const context = await getMarketContext(pair.ticker, assetClass);
-          
+          const context = await getMarketContext(pair.ticker, screenerAssetClass);
+
           // 2. Level 2 Filter: Run fast-mode AI analysis ONLY on pre-filtered candidates
           const analysis = await runMultiAgentAnalysis(
-            pair.ticker, 
-            "Identify the absolute best entry, stop loss, and target for a 24-48h horizon. Be definitive.", 
-            context, 
-            assetClass as any,
+            pair.ticker,
+            "Identify the absolute best entry, stop loss, and target for a 24-48h horizon. Be definitive.",
+            context,
+            agentAssetClass as any,
             true // Enable FAST MODE
           );
 
@@ -59,7 +62,7 @@ export async function GET(req: NextRequest) {
 
     return NextResponse.json({
       timestamp: new Date().toISOString(),
-      assetClass,
+      assetClass: rawAssetClass,
       topPicks: top3
     });
 
@@ -83,8 +86,10 @@ function extractSignalData(synthesis: string) {
             sl: data.sl || '---'
         };
     }
+    console.error('[extractSignalData] No <data> tag found. Raw synthesis (first 500 chars):', synthesis.substring(0, 500));
   } catch (e) {
-    console.error('Extraction error:', e);
+    console.error('[extractSignalData] Parse error:', e);
+    console.error('[extractSignalData] Raw synthesis (first 500 chars):', synthesis.substring(0, 500));
   }
-  return { decision: 'WAIT', score: 0, summary: 'データ解析中...' };
+  return { decision: 'WAIT', score: 0, summary: 'データ解析中...', entry: '---', tp: '---', sl: '---' };
 }
