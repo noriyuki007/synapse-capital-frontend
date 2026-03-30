@@ -51,11 +51,28 @@ async function main() {
 
     const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
     const pendingItems = index.filter(item => item.result === 'PENDING');
-    
+
+    // Track evaluated date-genre combos to avoid duplicate API calls for ja/en variants
+    const evaluatedKeys = new Map(); // "2026-03-30-fx" -> { result, signal }
+
     for (let i = 0; i < pendingItems.length; i++) {
         const item = pendingItems[i];
         console.log(`Evaluating [${i+1}/${pendingItems.length}] ${item.id}...`);
-        
+
+        // Derive the base key (strip locale suffix) to detect ja/en duplicates
+        const baseKey = item.id.replace(/-(ja|en)$/, '');
+
+        // If we already evaluated the other locale variant, reuse its result
+        if (evaluatedKeys.has(baseKey)) {
+            const cached = evaluatedKeys.get(baseKey);
+            if (cached.result) {
+                item.result = cached.result;
+                updatedCount++;
+                console.log(`♻️ ${item.id} -> ${cached.result} (reused from ${baseKey})`);
+            }
+            continue;
+        }
+
         // Read the report file to get Entry/TP/SL
         const reportPath = path.join('./content/reports', `${item.id}.md`);
         if (!fs.existsSync(reportPath)) continue;
@@ -69,11 +86,12 @@ async function main() {
             const entry = parseFloat(signal.entry);
             const tp = parseFloat(signal.tp);
             const sl = parseFloat(signal.sl);
-            
+
             if (isNaN(entry) || isNaN(tp) || isNaN(sl)) continue;
 
             const history = await fetchPriceHistory(item.id.includes('fx') ? `${signal.pair.replace('/', '')}=X` : signal.pair, item.date);
-            
+
+            let evalResult = null;
             if (history.length > 0) {
                 let hit = false;
                 let missed = false;
@@ -89,15 +107,20 @@ async function main() {
                 }
 
                 if (hit) {
+                    evalResult = 'HIT';
                     item.result = 'HIT';
                     updatedCount++;
                     console.log(`✅ ${item.id} -> HIT`);
                 } else if (missed) {
+                    evalResult = 'MISS';
                     item.result = 'MISS';
                     updatedCount++;
                     console.log(`❌ ${item.id} -> MISS`);
                 }
             }
+
+            // Cache result so the other locale variant can reuse it
+            evaluatedKeys.set(baseKey, { result: evalResult });
 
             // Respect Twelve Data Rate Limit (8/min) -> ~8s delay
             if (i < pendingItems.length - 1) {
