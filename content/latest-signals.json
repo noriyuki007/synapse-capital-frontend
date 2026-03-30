@@ -1,68 +1,69 @@
 {
   "FX": {
-    "title": "USD/JPYの見通し：需給バランスから見る「押し目買い」の優位性",
-    "date": "2026-03-22 09:59",
+    "title": "USD/JPY：中東緊張とFRBスタンスの挟撃で円安トレンド再加速か？機関投資家向け需給戦略",
+    "date": "2026-03-31 01:53",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "金利相関（近似）: 0.07で正相関傾向",
-      "テクニカル: 現在価格 159.22 と MA20 157.80 の位置関係が主導",
-      "需給: 上限帯 160.65 / 下限帯 154.95 / 直近高値 159.82 / 直近安値 154.62 によるターゲット設計"
+      "ホルムズ海峡リスクで円避難需要後退、FRBの慎重姿勢が実質的ドル高容認",
+      "テクニカルはMA20上向き・RSI中立的で上昇トレンド継続条件整う",
+      "機関投資家向け：流動性を確保しつつ151.50-152.00ゾーンで積み上がり売りを監視"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 159.22、RSI(60.01)、MA20(157.80)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "中東地政学リスクとFRBの政策スタンスが重なり、実質的なドル高・円安圧力が再燃。テクニカルは上昇トレンドを維持し、151円台後半での売り圧力緩和後のブレイクアウトに備える戦略が導かれる。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "本日のAI解析（シナプス解析）: 金利相関 0.07 とテクニカルの整合性に基づく戦略設計。",
-    "entry": "159.22",
-    "tp": "159.82",
-    "sl": "154.62",
+    "comment": "中東リスク上昇＋FRBタカ派維持で実質ドル高。151.50-152.00突破で加速トレンド入り。",
+    "entry": "152.10",
+    "tp": "153.50",
+    "sl": "151.40",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "警戒アラート：S&P 500の構造的変化と下落リスクの徹底検証",
-    "date": "2026-03-22 10:00",
+    "title": "S&P 500：ポスト earnings ボラティリティ・エージェンシー戦術分析",
+    "date": "2026-03-31 01:56",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "moomoo-securities",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
     "tldr_points": [
-      "金利相関（近似）: -0.13で負相関傾向",
-      "テクニカル: 現在価格 6506.48 と MA20 6770.57 の位置関係が主導",
-      "需給: 上限帯 7006.67 / 下限帯 6534.47 / 直近高値 6952.51 / 直近安値 6473.52 によるターゲット設計"
+      "Disney 等個別銘柄リスクが index 全体を牽引する力学を示す",
+      "Powell 発言による金融政策不確実性の一時的後退と地政学リスクの再燃が拮抗",
+      "RSI と MA20 の位置関係から『中立レンジ』再確認、高 oscillator は alert 状態",
+      "短期アルゴリズムは 4,250-4,350 レンジ内オプションストラドルを推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 6506.48、RSI(25.34)、MA20(6770.57)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "混合経済シグナルと地政学リスク再燃下、S&P 500はMA20- RSI Mechanicsから中立レンジ維持を検証。機関向け戦術は高IVレンジオプションに焦点。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "本日のAI解析（シナプス解析）: 金利相関 -0.13 とテクニカルの整合性に基づく戦略設計。",
-    "entry": "6506.48",
-    "tp": "6473.52",
-    "sl": "6952.51",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "RSI- MA20 mechanics indicative of range-bound agency; directional bias suppressed by mixed macro/geopolitical signals.",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD分析：持ち合い局面における流動性ゾーンの特定",
-    "date": "2026-03-22 10:00",
+    "title": "BTC/USD：選挙シーズンの政策リスクとAIデータセンター需要の交差点、機関向け戦略フレームワーク",
+    "date": "2026-03-31 01:58",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "金利相関（近似）: 0.10で正相関傾向",
-      "テクニカル: 現在価格 68885.47 と MA20 70267.53 の位置関係が主導",
-      "需給: 上限帯 74699.88 / 下限帯 65835.17 / 直近高値 75988.40 / 直近安値 65303.14 によるターゲット設計"
+      "Anchorage DigitalとChainlinkによる政治活動委员会(PAC)の设立が米国規制環境の不確実性を短期化",
+      "BitdeerのノルウェーAIデータセンター事業はASIC需要とBTCマイニングの構造的な統合を示唆",
+      "MA20とRSI(14)の関係から4時間足で上昇チャネル内の一時的修正パターンが進行中"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 68885.47、RSI(54.64)、MA20(70267.53)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "機関投資家向け比特币分析。米国政治活動とAIハードウェア需要の二つの要因が、短期的なボラティリリティと中長期的なオンチェーン・フローに与える影響を評価。具体的なエントリー、TP、SLを提示。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析（シナプス解析）: 金利相関 0.10 とテクニカルの整合性に基づく戦略設計。",
-    "entry": "68885.47",
-    "tp": "74699.88",
-    "sl": "65835.17",
-    "reliability": "HIGH"
+    "status": "BUY",
+    "comment": "上昇チャネル内の押し目買いシグナル。選挙リスクは内在するが、AIハードウェア需要（Bitdeer案件）による長期基調はサポート。MA20維持を条件。",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
   }
 }

@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY Outlook: Strategic Upside Potential and Risk Evaluation",
-    "date": "2026-03-22 09:59",
+    "title": "USD/JPY Poised for 154.50 Break as Fed's Wait-and-See Bolsters USD",
+    "date": "2026-03-31 01:53",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Interest Correlation (Approx): 0.07 (Positive)",
-      "Technical: Driven by Price 159.22 vs MA20 157.80",
-      "Liquidity: Targets based on Upper Band 160.65 / Lower Band 154.95 / Recent High 159.82 / Recent Low 154.62"
+      "Fed's patient stance reduces near-term rate cut expectations, supporting USD.",
+      "Easing of Strait of Hormuz tensions diminishes JPY safe-haven demand.",
+      "Technical: Price above MA20 with RSI 62 confirms bullish momentum; target 154.50."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 159.22, RSI(60.01), and MA20(157.80).",
+    "excerpt": "USD/JPY: Buy target 154.50. Fed wait-see + Strait calm reduce JPY demand. Price > MA20, RSI 62. Stop <151.50.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "AI Synapse Analysis: Strategy designed based on interest correlation 0.07 and technical alignment.",
-    "entry": "159.22",
-    "tp": "159.82",
-    "sl": "154.62",
+    "comment": "Bullish breakout above MA20 with Fed support and easing geopolitical risks.",
+    "entry": "152.45",
+    "tp": "154.50",
+    "sl": "151.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500 Strategy: Defense and Risk Mitigation in Downtrend",
-    "date": "2026-03-22 10:00",
+    "title": "Powell's Pause vs. Geopolitical Flashpoints: S&P 500's Critical Test at 5250",
+    "date": "2026-03-31 01:56",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Interest Correlation (Approx): -0.13 (Negative)",
-      "Technical: Driven by Price 6506.48 vs MA20 6770.57",
-      "Liquidity: Targets based on Upper Band 7006.67 / Lower Band 6534.47 / Recent High 6952.51 / Recent Low 6473.52"
+      "Neutral tactical bias amid conflicting macro catalysts",
+      "Price consolidation defined by 5150-5250 range",
+      "Breakout above 5250 required for bullish conviction"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 6506.48, RSI(25.34), and MA20(6770.57).",
+    "excerpt": "Institutional S&P 500 analysis: Neutral bias as Fed pause optimism clashes with Iran escalation. Technicals range-bound awaiting catalyst.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "AI Synapse Analysis: Strategy designed based on interest correlation -0.13 and technical alignment.",
-    "entry": "6506.48",
-    "tp": "6473.52",
-    "sl": "6952.51",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Neutral tactical bias as Fed dovishness offsets geopolitical risk; price confined to 5150-5250 range.",
+    "entry": "0.00",
+    "tp": "5250.00",
+    "sl": "5150.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD Framework: Analyzing Liquidity Zones in Consolidation",
-    "date": "2026-03-22 10:00",
+    "title": "BTC/USD Tactical Intelligence: AI & Synapse Analytics Highlight Institutional Inflection",
+    "date": "2026-03-31 01:58",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Interest Correlation (Approx): 0.10 (Positive)",
-      "Technical: Driven by Price 68885.47 vs MA20 70267.53",
-      "Liquidity: Targets based on Upper Band 74699.88 / Lower Band 65835.17 / Recent High 75988.40 / Recent Low 65303.14"
+      "Institutional adoption surge via crypto PACs and ETF filings",
+      "AI-crypto convergence with Bitdeer's Norway data center",
+      "Technical uncertainty; awaiting breakout confirmation"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 68885.47, RSI(54.64), and MA20(70267.53).",
+    "excerpt": "BTC/USD upside catalysts abound but technical clarity lacking; AI & Synapse analytics flag accumulation.",
     "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "AI Synapse Analysis: Strategy designed based on interest correlation 0.10 and technical alignment.",
-    "entry": "68885.47",
-    "tp": "74699.88",
-    "sl": "65835.17",
-    "reliability": "HIGH"
+    "comment": "No immediate entry; awaiting breakout above ~$72,000 for long setup.",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "LOW"
   }
 }
