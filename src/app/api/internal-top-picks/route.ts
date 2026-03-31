@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-export const runtime = 'nodejs';
+export const runtime = 'edge';
 import { getMarketContext } from '@/lib/market';
 import { runMultiAgentAnalysis } from '@/lib/agents';
 import { getTopMovers } from '@/lib/market/screener';
@@ -49,7 +49,30 @@ export async function GET(req: NextRequest) {
           };
         } catch (e) {
           console.error(`Failed to analyze ${pair.symbol}:`, e);
-          return null;
+          // Return fallback signal when AI fails, using market context if available
+          try {
+            const ctx = await getMarketContext(pair.ticker, screenerAssetClass);
+            const price = ctx.price || 0;
+            return {
+              symbol: pair.symbol,
+              ticker: pair.ticker,
+              analysis: null,
+              signal: {
+                decision: 'CAUTION',
+                score: 50,
+                summary: 'AI解析に失敗。市場データに基づく参考シグナル。',
+                entry: price ? price.toFixed(2) : '---',
+                tp: price ? (price * 1.01).toFixed(2) : '---',
+                sl: price ? (price * 0.99).toFixed(2) : '---',
+              },
+              score: 50,
+              lastPrice: price,
+              change24h: ctx.changePercent || 0,
+              timestamp: new Date().toISOString()
+            };
+          } catch {
+            return null;
+          }
         }
       })
     );
