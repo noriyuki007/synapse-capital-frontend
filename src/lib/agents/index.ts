@@ -1,8 +1,7 @@
-import { GoogleGenerativeAI } from '@google/generative-ai';
 import { MarketContext } from '../market';
 import { getAgentKnowledge } from './knowledge';
 
-const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY || 'dummy_key');
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
 
 const FREE_MODELS = [
@@ -13,9 +12,34 @@ const FREE_MODELS = [
   "mistralai/mistral-7b-instruct:free"
 ];
 
+/** Call Gemini REST API directly (Edge Runtime compatible, no SDK needed) */
+async function callGeminiREST(modelId: string, systemPrompt: string, userPrompt: string): Promise<string> {
+  if (!GEMINI_API_KEY || GEMINI_API_KEY.includes('your_') || GEMINI_API_KEY === 'dummy_key' || GEMINI_API_KEY === 'mock') {
+    throw new Error('GEMINI_API_KEY is not configured');
+  }
+
+  const url = `https://generativelanguage.googleapis.com/v1beta/models/${modelId}:generateContent?key=${GEMINI_API_KEY}`;
+  const response = await fetch(url, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      system_instruction: { parts: [{ text: systemPrompt }] },
+      contents: [{ parts: [{ text: userPrompt }] }],
+    }),
+  });
+
+  if (!response.ok) {
+    const text = await response.text();
+    throw new Error(`Gemini REST Error: ${response.status} - ${text}`);
+  }
+
+  const data = await response.json();
+  return data.candidates?.[0]?.content?.parts?.[0]?.text || '';
+}
+
 async function callOpenRouter(modelId: string, systemPrompt: string, userPrompt: string): Promise<string> {
   if (!OPENROUTER_API_KEY) throw new Error('OPENROUTER_API_KEY is missing');
-  
+
   const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
     method: "POST",
     headers: {
@@ -43,21 +67,23 @@ async function callOpenRouter(modelId: string, systemPrompt: string, userPrompt:
 }
 
 async function callWithFallback(geminiModel: string, systemPrompt: string, userPrompt: string): Promise<string> {
+  // Try Gemini REST API first
   try {
-    const model = genAI.getGenerativeModel({ model: geminiModel, systemInstruction: systemPrompt });
-    const result = await model.generateContent(userPrompt);
-    return result.response.text();
-  } catch (err) {
-    console.warn(`Gemini (${geminiModel}) failed, trying OpenRouter fallback chain...`);
-    for (const modelId of FREE_MODELS) {
-      try {
-        return await callOpenRouter(modelId, systemPrompt, userPrompt);
-      } catch (orErr) {
-        console.warn(`OpenRouter ${modelId} failed, trying next...`);
-      }
-    }
-    throw new Error("All AI models (Gemini and OpenRouter) failed.");
+    const result = await callGeminiREST(geminiModel, systemPrompt, userPrompt);
+    if (result) return result;
+  } catch (err: any) {
+    console.warn(`Gemini REST (${geminiModel}) failed: ${err.message}. Trying OpenRouter fallback chain...`);
   }
+
+  // Try OpenRouter fallback chain
+  for (const modelId of FREE_MODELS) {
+    try {
+      return await callOpenRouter(modelId, systemPrompt, userPrompt);
+    } catch (orErr) {
+      console.warn(`OpenRouter ${modelId} failed, trying next...`);
+    }
+  }
+  throw new Error("All AI models (Gemini and OpenRouter) failed.");
 }
 
 export interface AgentResponse {
