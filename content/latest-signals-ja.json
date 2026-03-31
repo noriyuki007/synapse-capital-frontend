@@ -1,69 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY：中東緊張とFRBスタンスの挟撃で円安トレンド再加速か？機関投資家向け需給戦略",
-    "date": "2026-03-31 01:53",
+    "title": "USD/JPY 156円突破へのカウントダウン：AI需給解析が浮かび上がらせる戦略的ロングエリア",
+    "date": "2026-03-31 11:06",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "ホルムズ海峡リスクで円避難需要後退、FRBの慎重姿勢が実質的ドル高容認",
-      "テクニカルはMA20上向き・RSI中立的で上昇トレンド継続条件整う",
-      "機関投資家向け：流動性を確保しつつ151.50-152.00ゾーンで積み上がり売りを監視"
+      "中国PMI改善でグローバルリスク tolerances上昇、リスクオン再加速",
+      "東京インフレ減速も日銀緩和維持観測強く、金利差プレミアムが円安を主導",
+      "RBA追加利固化路線でAUD高、クロス円を通じた間接的上昇圧力"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "中東地政学リスクとFRBの政策スタンスが重なり、実質的なドル高・円安圧力が再燃。テクニカルは上昇トレンドを維持し、151円台後半での売り圧力緩和後のブレイクアウトに備える戦略が導かれる。",
+    "excerpt": "中国3月公式PMIが予想上回り経済改善を示唆。RBA議事録で追加利上げ確実視されAUD高。地政学リスク低下も重なりUSD/JPYは156円試す展開。AI解析は155.80-156.00を明確なロングゾーンと判断。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "中東リスク上昇＋FRBタカ派維持で実質ドル高。151.50-152.00突破で加速トレンド入り。",
-    "entry": "152.10",
-    "tp": "153.50",
-    "sl": "151.40",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "S&P 500：ポスト earnings ボラティリティ・エージェンシー戦術分析",
-    "date": "2026-03-31 01:56",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "tldr_points": [
-      "Disney 等個別銘柄リスクが index 全体を牽引する力学を示す",
-      "Powell 発言による金融政策不確実性の一時的後退と地政学リスクの再燃が拮抗",
-      "RSI と MA20 の位置関係から『中立レンジ』再確認、高 oscillator は alert 状態",
-      "短期アルゴリズムは 4,250-4,350 レンジ内オプションストラドルを推奨"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "混合経済シグナルと地政学リスク再燃下、S&P 500はMA20- RSI Mechanicsから中立レンジ維持を検証。機関向け戦術は高IVレンジオプションに焦点。",
-    "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "RSI- MA20 mechanics indicative of range-bound agency; directional bias suppressed by mixed macro/geopolitical signals.",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "comment": "中国PMI改善・RBA追加利固化でリスクオン再加速。日銀緩和維持で円安継続。15600心理的抵抗線への体系的アプローチ中。",
+    "entry": "155.60",
+    "tp": "156.00",
+    "sl": "155.10",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "S&P 500：原油高・AIローテーションdual shock下的战术看跌框架",
+    "date": "2026-03-31 11:08",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "主要流動性プロバイダー",
+    "tldr_points": [
+      "原油価格上昇による企業コスト増と景気減速懸念の再燃",
+      "AI関連株からバリュー/ディフェンシブへの資金ローテーション加速",
+      "テクニカルはMA20下回りRSIは売られ過ぎゾーンへ移行、下落フレームワーク再確認"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "ブレント原油$115突破とAI株からの資金流出が重なり、S&P 500はMA20を下回る下落圧力を再構築。インフレ再燃と金利上昇リスクが同時進行する『デュアルショック』環境下において、短期は売り圧力が優勢と判断。",
+    "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "原油高とAIローテーションによるdual shockが、MA20下回りとRSI40割れで形成された弱気テクニカルを強化。短期売り圧力が支配的。",
+    "entry": "5200.00",
+    "tp": "4950.00",
+    "sl": "5250.00",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "BTC/USD：選挙シーズンの政策リスクとAIデータセンター需要の交差点、機関向け戦略フレームワーク",
-    "date": "2026-03-31 01:58",
+    "title": "ビットコイン戦略的備蓄法案が加速：米規制環境の構造的転換とBTC/USDの tactial エントリーポイント",
+    "date": "2026-03-31 11:10",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "Anchorage DigitalとChainlinkによる政治活動委员会(PAC)の设立が米国規制環境の不確実性を短期化",
-      "BitdeerのノルウェーAIデータセンター事業はASIC需要とBTCマイニングの構造的な統合を示唆",
-      "MA20とRSI(14)の関係から4時間足で上昇チャネル内の一時的修正パターンが進行中"
+      "GOP『Mined in America Act』が戦略的ビットコイン備蓄を法制化する動きを具体化",
+      "SECの執行方針転換シグナルが規制不確実性のピークアウトを示唆",
+      "オンチェーン・ホデリング指標は蓄積フェーズ継続を示すが、短期RSI過熱リスクは警戒"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "機関投資家向け比特币分析。米国政治活動とAIハードウェア需要の二つの要因が、短期的なボラティリリティと中長期的なオンチェーン・フローに与える影響を評価。具体的なエントリー、TP、SLを提示。",
+    "excerpt": "米国における Crypto 政策の構造的転換と、蓄積フェーズ進入後の tactial 調整局面を分析。機関投資家向けの具体 Entry/Exit レンジを提示。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "上昇チャネル内の押し目買いシグナル。選挙リスクは内在するが、AIハードウェア需要（Bitdeer案件）による長期基調はサポート。MA20維持を条件。",
+    "status": "NEUTRAL",
+    "comment": "政策追い風は中長期強気材料だが、短期テクニカルはレンジ内振動を示す。方向性バイアスは不在。",
     "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "tp": "72000.00",
+    "sl": "63000.00",
     "reliability": "MEDIUM"
   }
 }

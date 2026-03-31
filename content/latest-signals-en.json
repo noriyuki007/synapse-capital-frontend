@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY Poised for 154.50 Break as Fed's Wait-and-See Bolsters USD",
-    "date": "2026-03-31 01:53",
+    "title": "USD/JPY Target 155: AI Analytics Highlights Breakout Catalyst Amid Central Bank Divergence",
+    "date": "2026-03-31 11:06",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Fed's patient stance reduces near-term rate cut expectations, supporting USD.",
-      "Easing of Strait of Hormuz tensions diminishes JPY safe-haven demand.",
-      "Technical: Price above MA20 with RSI 62 confirms bullish momentum; target 154.50."
+      "China PMI beat fuels risk appetite",
+      "BOJ's dovish stance persists despite Tokyo inflation",
+      "RBA hawkish shift supports USD broader strength"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY: Buy target 154.50. Fed wait-see + Strait calm reduce JPY demand. Price > MA20, RSI 62. Stop <151.50.",
+    "excerpt": "AI Analytics projects USD/JPY breakout to 155 as Fed-BOJ divergence widens on solid China data and sticky price pressures.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish breakout above MA20 with Fed support and easing geopolitical risks.",
-    "entry": "152.45",
-    "tp": "154.50",
-    "sl": "151.50",
+    "comment": "AI Analytics projects breakout to 155.00 as Fed-BOJ yield gap widens on resilient China data and Tokyo inflation.",
+    "entry": "151.25",
+    "tp": "155.00",
+    "sl": "150.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "Powell's Pause vs. Geopolitical Flashpoints: S&P 500's Critical Test at 5250",
-    "date": "2026-03-31 01:56",
+    "title": "S&P 500 Downside Target 4,800: Oil Spike and AI Rotations Trigger Technical Breakdown",
+    "date": "2026-03-31 11:08",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Neutral tactical bias amid conflicting macro catalysts",
-      "Price consolidation defined by 5150-5250 range",
-      "Breakout above 5250 required for bullish conviction"
+      "Brent crude at $115/barrel fuels inflation and rate hike fears",
+      "Rotation out of AI stocks undermines tech sector weighting",
+      "Price breakdown below MA20 confirms bearish momentum; RSI(14) negative"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Institutional S&P 500 analysis: Neutral bias as Fed pause optimism clashes with Iran escalation. Technicals range-bound awaiting catalyst.",
+    "excerpt": "Oil surge and AI sector rotation drive S&P 500 below key moving average; correction toward 4,800 imminent.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Neutral tactical bias as Fed dovishness offsets geopolitical risk; price confined to 5150-5250 range.",
-    "entry": "0.00",
-    "tp": "5250.00",
-    "sl": "5150.00",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Oil shock and AI rotation drive technical breakdown below MA20 toward 200-day SMA.",
+    "entry": "5050.00",
+    "tp": "4800.00",
+    "sl": "5120.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "BTC/USD Tactical Intelligence: AI & Synapse Analytics Highlight Institutional Inflection",
-    "date": "2026-03-31 01:58",
+    "title": "BTC/USD Institutional Accumulation Surge: U.S. Mining Legislation Triggers Breakout Path to $72K",
+    "date": "2026-03-31 11:10",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Institutional adoption surge via crypto PACs and ETF filings",
-      "AI-crypto convergence with Bitdeer's Norway data center",
-      "Technical uncertainty; awaiting breakout confirmation"
+      "GOP 'Mined in America Act' formalizes strategic bitcoin reserve, boosting mining sector",
+      "Regulatory overhang lifts as SEC enforcement shifts reduce immediate litigation risks",
+      "Technical breakout above 20-MA confirms momentum with RSI at 62 supporting upside"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD upside catalysts abound but technical clarity lacking; AI & Synapse analytics flag accumulation.",
+    "excerpt": "Pro-mining U.S. policy and regulatory clarity drive BTC/USD bullish momentum, targeting $72,000 breakout.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "No immediate entry; awaiting breakout above ~$72,000 for long setup.",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "LOW"
+    "status": "BUY",
+    "comment": "Breakout above 20-MA confirmed with RSI momentum; U.S. policy shift provides fundamental catalyst.",
+    "entry": "68500.00",
+    "tp": "72000.00",
+    "sl": "65000.00",
+    "reliability": "HIGH"
   }
 }
