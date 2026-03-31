@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY 156円突破へのカウントダウン：AI需給解析が浮かび上がらせる戦略的ロングエリア",
-    "date": "2026-03-31 11:06",
+    "title": "USD/JPY 上昇加速：AI解析が示す151円台での具体的戦術とリスク管理",
+    "date": "2026-03-31 17:56",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "中国PMI改善でグローバルリスク tolerances上昇、リスクオン再加速",
-      "東京インフレ減速も日銀緩和維持観測強く、金利差プレミアムが円安を主導",
-      "RBA追加利固化路線でAUD高、クロス円を通じた間接的上昇圧力"
+      "地政学リスク後退とリスクオン再燃でUSD/JPY短期上昇バイアス",
+      "151.00サポートzoneでの押し目買いを優先",
+      "TP151.40/SL150.80の具体的pips管理を推奨"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "中国3月公式PMIが予想上回り経済改善を示唆。RBA議事録で追加利上げ確実視されAUD高。地政学リスク低下も重なりUSD/JPYは156円試す展開。AI解析は155.80-156.00を明確なロングゾーンと判断。",
+    "excerpt": "中東情勢緩和観測とNasdaq反発が重なり、USD/JPYは151円台で上昇圧力強化。AI需給解析は短期BUY姿勢を明示。具体的エントリー、TP/SL数値を告。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "中国PMI改善・RBA追加利固化でリスクオン再加速。日銀緩和維持で円安継続。15600心理的抵抗線への体系的アプローチ中。",
-    "entry": "155.60",
-    "tp": "156.00",
-    "sl": "155.10",
+    "comment": "地政学リスク後退・リスクオン再燃で151.00サポートzone上向き。米国株反発がドル高バイアスを強化。",
+    "entry": "151",
+    "tp": "151.4",
+    "sl": "150.8",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500：原油高・AIローテーションdual shock下的战术看跌框架",
-    "date": "2026-03-31 11:08",
+    "title": "S&P 500 tactical stance: Nasdaqq 是正・地政学リスク下での対応戦略と精密スキャルピング推奨",
+    "date": "2026-03-31 17:58",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "主要流動性プロバイダー",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "原油価格上昇による企業コスト増と景気減速懸念の再燃",
-      "AI関連株からバリュー/ディフェンシブへの資金ローテーション加速",
-      "テクニカルはMA20下回りRSIは売られ過ぎゾーンへ移行、下落フレームワーク再確認"
+      "Nasdaq 是正もS&P 500は依然としてMA20上限圏で推移",
+      "RSI(14)含む主要テクニカル指標の欠落により精密なエントリー判断不能",
+      "地政学リスクと四半期パフォーマンス悪化を受けた高ボラティリティ環境下では小刻みな指値戦略が最適化"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "ブレント原油$115突破とAI株からの資金流出が重なり、S&P 500はMA20を下回る下落圧力を再構築。インフレ再燃と金利上昇リスクが同時進行する『デュアルショック』環境下において、短期は売り圧力が優勢と判断。",
+    "excerpt": "Nasdaq是正と地政学リスクが重なる市場環境下、S&P 500はレンジ内で推移。主要テクニカルデータ欠落のためプライスアクションと指値注文を中心とした精密戦略を提案。流動性の高いInteractive Brokersの利用を推奨する。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "原油高とAIローテーションによるdual shockが、MA20下回りとRSI40割れで形成された弱気テクニカルを強化。短期売り圧力が支配的。",
-    "entry": "5200.00",
-    "tp": "4950.00",
-    "sl": "5250.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "主要テクニカル指標欠落および地政学リスク高まりにより方向性判断不能。レンジ内スキャルピング推奨。",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "ビットコイン戦略的備蓄法案が加速：米規制環境の構造的転換とBTC/USDの tactial エントリーポイント",
-    "date": "2026-03-31 11:10",
+    "title": "量子脅威と規制砲撃：BTC/USDの機関資金capex分析と戦術的撤退水準",
+    "date": "2026-03-31 18:00",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "GOP『Mined in America Act』が戦略的ビットコイン備蓄を法制化する動きを具体化",
-      "SECの執行方針転換シグナルが規制不確実性のピークアウトを示唆",
-      "オンチェーン・ホデリング指標は蓄積フェーズ継続を示すが、短期RSI過熱リスクは警戒"
+      "Keyrockへの1.1Bドル資金調達とKB CardのAvalanche活用が示す機関采用的成熟化",
+      "KuCoinのCFTC制裁とGoogleの量子警告が生む短期規制リスク・長期技術リスクの二重圧力",
+      "技術指標不足のためオンチェーン流動性・安定coin供給量を代替メトリックとして監視"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "米国における Crypto 政策の構造的転換と、蓄積フェーズ進入後の tactial 調整局面を分析。機関投資家向けの具体 Entry/Exit レンジを提示。",
+    "excerpt": "1.1BドルKeyrock資金調達とKB CardのAvalanche採用が進展する一方、KuCoin制裁とGoogle量子警告が短期・長期リスクを形成。技術データ不足のためオンチェーン流動性と安定coin供給量を監視し、bitflyerの流動性を活用した戦術的ポジション管理が推奨。",
     "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "政策追い風は中長期強気材料だが、短期テクニカルはレンジ内振動を示す。方向性バイアスは不在。",
-    "entry": "0.00",
-    "tp": "72000.00",
-    "sl": "63000.00",
+    "comment": "MA20/RSIデータ不足のためNEUTRAL。Keyrock資金調達とKB Card採用は長期強気材料、KuCoin制裁とGoogle量子警告は短期・長期リスク。価格は78k vicinityでレンジ مولti. オンチェーン・流動性指標でエッジを探る。",
+    "entry": "78000.00",
+    "tp": "82000.00",
+    "sl": "76000.00",
     "reliability": "MEDIUM"
   }
 }
