@@ -383,16 +383,16 @@ async function generateWithGemini(genre, newsHeadlines, marketData, jstDateStr, 
 }
 
 const FREE_MODELS = [
+    'openrouter/free',                                // Auto-routes to best available free model
     'minimax/minimax-m2.5:free',
     'stepfun/step-3.5-flash:free',
+    'nvidia/nemotron-3-super-120b-a12b:free',
+    'nousresearch/hermes-3-llama-3.1-405b:free',
     'arcee-ai/trinity-large-preview:free',
     'google/gemma-3-27b-it:free',
     'meta-llama/llama-3.3-70b-instruct:free',
     'qwen/qwen3-coder:free',
-    'mistralai/mistral-small-3.1-24b-instruct:free',
     'google/gemma-3-12b-it:free',
-    'nvidia/nemotron-3-super-120b-a12b:free',
-    'liquid/lfm-2.5-1.2b-instruct:free',
     'meta-llama/llama-3.2-3b-instruct:free',
 ];
 
@@ -402,9 +402,9 @@ async function generateWithOpenRouter(genre, newsHeadlines, marketData, modelId 
     if (!OPENROUTER_API_KEY) throw new Error('OPENROUTER_API_KEY is not set.');
 
     const isExplicitlyFree = modelId.endsWith(':free');
-    const isGeminiFlash2 = modelId === 'google/gemini-2.0-flash-001';
+    const isFreeRouter = modelId === 'openrouter/free';
 
-    if (!isExplicitlyFree && !isGeminiFlash2) {
+    if (!isExplicitlyFree && !isFreeRouter) {
         console.error(`⚠️ SECURITY ALERT: Blocking non-free model call: ${modelId}`);
         throw new Error(`Permission Denied: Model ${modelId} is not verified as FREE.`);
     }
