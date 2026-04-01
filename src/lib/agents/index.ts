@@ -5,11 +5,11 @@ const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
 
 const FREE_MODELS = [
-  "google/gemini-2.0-flash-001",
-  "meta-llama/llama-3.3-70b-instruct:free",
-  "google/gemini-flash-1.5-8b",
-  "qwen/qwen-2.5-72b-instruct",
-  "mistralai/mistral-7b-instruct:free"
+  "openrouter/free",                                    // Auto-routes to best available free model
+  "nvidia/nemotron-3-super-120b-a12b:free",             // 120B params, 262k ctx
+  "nousresearch/hermes-3-llama-3.1-405b:free",          // 405B params, 131k ctx
+  "meta-llama/llama-3.3-70b-instruct:free",             // 70B params, 65k ctx
+  "google/gemma-3-27b-it:free",                         // 27B params, 131k ctx
 ];
 
 /** Call Gemini REST API directly (Edge Runtime compatible, no SDK needed) */
@@ -37,8 +37,12 @@ async function callGeminiREST(modelId: string, systemPrompt: string, userPrompt:
   return data.candidates?.[0]?.content?.parts?.[0]?.text || '';
 }
 
+/** Track if OpenRouter key has been verified as invalid to avoid repeated 401s */
+let openRouterKeyInvalid = false;
+
 async function callOpenRouter(modelId: string, systemPrompt: string, userPrompt: string): Promise<string> {
   if (!OPENROUTER_API_KEY) throw new Error('OPENROUTER_API_KEY is missing');
+  if (openRouterKeyInvalid) throw new Error('OPENROUTER_API_KEY was previously rejected (401)');
 
   const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
     method: "POST",
@@ -59,11 +63,18 @@ async function callOpenRouter(modelId: string, systemPrompt: string, userPrompt:
 
   if (!response.ok) {
     const text = await response.text();
+    // Mark key as invalid on auth errors to avoid retrying with every model
+    if (response.status === 401 || response.status === 403) {
+      openRouterKeyInvalid = true;
+      throw new Error(`OpenRouter Auth Error: ${response.status} - key is invalid`);
+    }
     throw new Error(`OpenRouter Error: ${response.status} - ${text}`);
   }
 
   const data = await response.json();
-  return data.choices?.[0]?.message?.content || '';
+  const content = data.choices?.[0]?.message?.content;
+  if (!content) throw new Error('OpenRouter returned empty response');
+  return content;
 }
 
 async function callWithFallback(geminiModel: string, systemPrompt: string, userPrompt: string): Promise<string> {
@@ -75,14 +86,19 @@ async function callWithFallback(geminiModel: string, systemPrompt: string, userP
     console.warn(`Gemini REST (${geminiModel}) failed: ${err.message}. Trying OpenRouter fallback chain...`);
   }
 
-  // Try OpenRouter fallback chain
-  for (const modelId of FREE_MODELS) {
-    try {
-      return await callOpenRouter(modelId, systemPrompt, userPrompt);
-    } catch (orErr) {
-      console.warn(`OpenRouter ${modelId} failed, trying next...`);
+  // Try OpenRouter fallback chain (skip entirely if key is missing or already known invalid)
+  if (OPENROUTER_API_KEY && !openRouterKeyInvalid) {
+    for (const modelId of FREE_MODELS) {
+      try {
+        return await callOpenRouter(modelId, systemPrompt, userPrompt);
+      } catch (orErr: any) {
+        console.warn(`OpenRouter ${modelId} failed: ${orErr.message}`);
+        // If auth error, no point trying other models
+        if (openRouterKeyInvalid) break;
+      }
     }
   }
+
   throw new Error("All AI models (Gemini and OpenRouter) failed.");
 }
 

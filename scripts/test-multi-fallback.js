@@ -18,8 +18,9 @@ if (!OPENROUTER_API_KEY) {
 }
 
 const FREE_MODELS = [
-    "invalid/model-fallback-test", // Should fail
-    "google/gemini-2.0-flash-001" // Should succeed
+    "invalid/model-fallback-test",                   // Should fail (tests fallback)
+    "openrouter/free",                                // Auto-routes to best available free model
+    "nvidia/nemotron-3-super-120b-a12b:free",         // Should succeed
 ];
 
 async function testFallbackChain() {
