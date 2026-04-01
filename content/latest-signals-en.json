@@ -1,20 +1,24 @@
 {
   "FX": {
-    "title": "USD/JPY 市場分析",
-    "date": "2026-04-02",
+    "title": "Countdown to 160? AI Analytics Identifies Target for USD/JPY Breakout",
+    "date": "2026-04-02 01:51",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "tldr_points": [],
+    "tldr_points": [
+      "USD/JPY poised for breakout above key resistance",
+      "RSI momentum building with positive divergence",
+      "Trade war resolution timeline supports USD strength"
+    ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "",
+    "excerpt": "USD/JPY technical framework signals bullish breakout potential toward 160.00 as RSI momentum builds",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "RSI divergence + MA20 convergence validates 160.00 breakout",
-    "entry": "159.80",
-    "tp": "162.30",
-    "sl": "158.50",
+    "comment": "Bullish breakout setup with RSI momentum building above MA20 resistance",
+    "entry": "154.50",
+    "tp": "160.00",
+    "sl": "152.00",
     "reliability": "HIGH"
   },
   "STOCKS": {
@@ -28,33 +32,33 @@
     "chart_image": "/images/market-analysis-stocks.png",
     "excerpt": "",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Geopolitical risk volatility and sector rotation create breakout potential above 160.00 with RSI(14) neutral momentum.",
-    "entry": "155.50",
-    "tp": "160.00",
-    "sl": "153.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD Technical Outlook: Retracing to Critical MA20 Amid CEO Shifts at Zodia Markets",
-    "date": "2026-04-02 00:57",
+    "title": "BTC/USD Breakout Outlook: AI Analytics Targets 75K Upside",
+    "date": "2026-04-02 01:55",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD trading at critical MA20 resistance level after 8% weekly decline",
-      "Zodia Markets CEO departure amplifies volatility amid crypto sector uncertainty",
-      "RSI(14) signals bullish divergence despite breakdown below 20-period MA"
+      "AI models flag BTC/USD at 72K, targeting 75K amid bullish RSI",
+      "Volume sustains above MA20, reinforcing momentum",
+      "Entry recommended via bybit with defined TP/SL"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD faces pivotal MA20 test as Zodia CEO exodus triggers sector-wide downturn. RSI divergence suggests potential reversal despite bearish momentum.",
+    "excerpt": "AI models flag BTC/USD at 72K, targeting 75K amid bullish RSI and sustained volume, with optimal entry via bybit.",
     "pair": "BTC/USD",
-    "status": "FLAT",
-    "comment": "Exhausted accumulation suggests consolidation phase ahead of nonlinear move",
-    "entry": "68200",
-    "tp": "72500",
-    "sl": "65000",
+    "status": "NEUTRAL",
+    "comment": "AI models flag BTC/USD at 72K, targeting 75K amid bullish RSI and sustained volume, with optimal entry via bybit.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }

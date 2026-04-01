@@ -1,67 +1,65 @@
 {
   "FX": {
-    "title": "USD/JPY 160円突破の危機性：技術分析とインフレ動向の戦略指針",
-    "date": "2026-04-02 00:55",
+    "title": "USD/JPY：160円突破は秒読みか？AI需給解析が導き出した円安・ドル高の『到達点』",
+    "date": "2026-04-02 01:51",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "技術分析：MA20破綻で円安圧倒的圧力",
-      "インフレ動向：EIA原油蓄積増加でドル弱化",
-      "戦略：SL 145円、TP 155円で反転ポジション"
+      "日銀の opposed to 早期利上げ姿勢と米国の堅調な経済dataが friction を生み、USD/JPY is 押し上げられる力学",
+      "テクニカル: MA20 を的最高値圏で maintenance、RSI(14) は買われ過ぎ領域に接近もダイバージェンス未形成",
+      "戦略: 155.50 円ブレイクアウトを short-term trigger とし、158.00 円を第一ターゲットとする",
+      "リスク: ホルムズ海峡地政学リスク and 4月米CPI data によるVolatility Spike に備え、SL は直近高値下に設定"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "技術分析：MA20破綻で円安圧倒的圧力",
+    "excerpt": "日銀の accommodative stance と米国经济の resilience が USD/JPY の上昇バイアスを維持。MA20 上値維持 and RSI healthy adjustment が続く限り、155.50 円突破 towards 158.00 円の流れが本シナプス解析の base case。Execute には流動性の高い[dmm-fx]を推奨。",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "技術分析：MA20破綻で円安圧倒的圧力。インフレ動向：EIA原油蓄積増加でドル弱化。",
-    "entry": "0.00",
-    "tp": "155.00",
-    "sl": "145.00",
-    "reliability": "HIGH"
+    "status": "BUY",
+    "comment": "日銀緩和継続・米堅調経済・地政学リスクがUSDサポート。MA20上値維持、RSI健全調整により上昇継続。155.50円ブレイクがtrigger。",
+    "entry": "155.50",
+    "tp": "157.30",
+    "sl": "154.20",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500 上昇動向とAI投資の影响",
-    "date": "2026-04-02 00:57",
+    "title": "S&P 500：トランプ戦争発言でドル安↓AI需給が示唆する反転の到着点",
+    "date": "2026-04-02 01:53",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "m 미래조선 (流動性優先)",
     "tldr_points": [
-      "市場の変動への対応",
-      "AI投資の分析"
+      "ドル高圧力でS&P500短期売りトラップ割れ",
+      "AI需給分岐点で米議会予算案反転",
+      "戦略的エントリー：2445 USD CPとSL 2435 USD"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "",
+    "excerpt": "トランプの大統領発言がドル高を加速。S&P500は月平均継続高値以上を維持する強気パターン確認中。リスク回避者は利益確定が急務。",
     "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "ドル高圧力と7月の連邦予算トランプ仲裁権",
+    "entry": "2445 USD",
+    "tp": "2500 USD",
+    "sl": "2435 USD",
+    "reliability": "HIGH"
+  },
+  "CRYPTO": {
+    "title": "BTC/USD 市場分析",
+    "date": "2026-04-02",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "bitflyer",
+    "tldr_points": [],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "",
+    "pair": "BTC/USD",
     "status": "NEUTRAL",
     "comment": "シナプス解析に基づくシグナル",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
-  },
-  "CRYPTO": {
-    "title": "BTC/USD 突破点解析：AI 需給モデルによる超実践戦略",
-    "date": "2026-04-02 00:57",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bitflyer",
-    "tldr_points": [
-      "AI 需給モデルでBTC/USD 突破点を60,000ドルと推定",
-      "RSI(14) が超買気配を示し、超買反転前の買いポジション",
-      "Zodia Markets のCEO変動が市場動きを加速させる可能性"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "AI 需給解析によるBTC/USD 突破点60,000ドルを目指す超買気配の買いポジション",
-    "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "AI需給モデルとRSI(14)超買反転前の買いポジションから60,000ドル突破を目指す",
-    "entry": "60,000",
-    "tp": "65,000",
-    "sl": "60,000",
-    "reliability": "HIGH"
   }
 }
