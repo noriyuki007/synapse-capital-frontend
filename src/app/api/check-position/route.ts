@@ -33,7 +33,7 @@ export async function POST(req: NextRequest) {
     }
 
     // 1. Fetch real-time market context (Price, News, Calendar)
-    const context = await getMarketContext(ticker);
+    const context = await getMarketContext(ticker, assetClass || 'FX');
 
     // 2. Run the 4-agent AI system with real-market data
     const result = await runMultiAgentAnalysis(ticker, userPlan, context, assetClass);
