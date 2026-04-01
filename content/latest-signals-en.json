@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "Countdown to 152.50? AI Analytics Identifies Target for USD/JPY Breakout",
-    "date": "2026-04-01 18:01",
+    "title": "USD/JPY Breakdown Looming: AI Analytics Targets 150.50 as Dollar Weakens on Geopolitical Shift",
+    "date": "2026-04-01 19:57",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "BOJ's stagflation dilemma caps policy tightening, supporting JPY weakness",
-      "Technical setup shows bullish momentum above MA20 with RSI at 61",
-      "Key resistance at 152.50, breakout targets 153.20"
+      "USD sells off on US-Iran nuclear deal optimism",
+      "USD/JPY approaches critical support at 151.80",
+      "Risk-on sentiment exacerbates dollar depreciation"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "BOJ policy constraints and technical momentum drive USD/JPY higher. Key resistance at 152.50.",
+    "excerpt": "AI解析: USD/JPY bears test key support; SELL trigger on break below 151.80 targets 150.50 amid dollar weakness.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Bullish momentum above MA20 with BOJ policy constraints supporting JPY weakness.",
-    "entry": "150.90",
-    "tp": "152.50",
-    "sl": "150.40",
+    "status": "SELL",
+    "comment": "Break below 151.80 on dollar weakness from US-Iran optimism and risk-on sentiment.",
+    "entry": "151.75",
+    "tp": "150.50",
+    "sl": "152.55",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "Countdown to 5300? Institutional Analytics Sets S&P 500 Target Amid Volatility Surge",
-    "date": "2026-04-01 18:04",
+    "title": "S&P 500 Tactical Fractal: Institutional Positioning Ahead of Inflation Crossroads",
+    "date": "2026-04-01 19:59",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "Goldman Sachs",
+    "prediction_direction": "UP",
+    "recommended_broker": "For executing this specific setup, we recommend utilizing a broker with optimal liquidity and direct market access to S&P 500 futures (SPX) and the SPDR S&P 500 ETF (SPY).",
     "tldr_points": [
-      "Volatility spike indicates heightened risk; VIX elevated.",
-      "Oil price decline provides tailwind for equities.",
-      "Technical levels undisclosed; awaiting MA20/RSI confirmation."
+      "S&P 500 futures testing 20-day MA support amid easing Treasury yields",
+      "RSI(14) at 55 indicates neutral momentum, lack of decisive breakout",
+      "Catalyst focus shifts to upcoming inflation data and Fed commentary"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces mixed signals: volatility up, oil down, technicals unknown. Neutral stance advised; monitor MA20/RSI.",
+    "excerpt": "S&P 500 nears key MA as yields dip; JPMorgan caution vs tech strength sets tactical bias.",
     "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "Tactical buy on MA20 breakout signal, supported by easing yields and tech strength, despite lingering cost inflation risks.",
+    "entry": "5280.00",
+    "tp": "5350.00",
+    "sl": "5220.00",
+    "reliability": "HIGH"
+  },
+  "CRYPTO": {
+    "title": "BTC/USD: Institutional Influx Despite Regulatory Shockwaves - Key Levels Unchanged",
+    "date": "2026-04-01 20:00",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "bybit",
+    "tldr_points": [
+      "Institutional adoption milestone (CoinShares IPO) clashes with heightened regulatory & security headwinds",
+      "Technical posture remains range-bound pending a close above/below the 20-day Moving Average",
+      "Near-term bias neutral; tactical entries contingent on break of defined volatility compression zone"
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "Bullish institutional news is offset by bearish regulatory/security catalysts, leaving BTC in a neutral technical stance awaiting a catalyst.",
+    "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "Insufficient technical data; awaiting MA20/RSI confirmation for directional bias.",
+    "comment": "Conflicting fundamental catalysts and unspecified technicals warrant a neutral pending a clear MA20/RSI breakout signal.",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
-    "reliability": "LOW"
-  },
-  "CRYPTO": {
-    "title": "BTC/USD Tactical Breakdown: Institutional Positioning Ahead of Q2 Rebalance",
-    "date": "2026-04-01 18:07",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bybit",
-    "tldr_points": [
-      "Post-Q1 24% correction establishes oversold baseline",
-      "Institutional bond issuance signals structural demand",
-      "Regulatory scrutiny creates volatility around stablecoin rails"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Oversold BTC poised for institutional-driven rebound amid new bond issuance and regulatory clarity catalysts.",
-    "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Oversold technical posture meets bullish institutional catalyst (NH bond issuance) for tactical mean reversion.",
-    "entry": "65000.00",
-    "tp": "72000.00",
-    "sl": "61000.00",
-    "reliability": "HIGH"
+    "reliability": "MEDIUM"
   }
 }
