@@ -29,8 +29,8 @@ export default async function TrackRecordPage(props: { params: Promise<{ locale:
     const params = await props.params;
     const locale = params?.locale || 'ja';
     const dict = await getDictionary(locale);
-    const reports = await getSortedReportsData();
-    const stats = await getTrackRecordStats();
+    const reports = await getSortedReportsData(locale);
+    const stats = await getTrackRecordStats(locale);
 
     return (
         <div className="min-h-screen bg-white text-slate-900 selection:bg-indigo-100 selection:text-indigo-900">

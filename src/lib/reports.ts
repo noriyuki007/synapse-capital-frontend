@@ -147,9 +147,12 @@ async function processMarkdown(id: string, fileContents: string, locale: string)
     let contentHtml = processedContent.toString();
 
     // Inject IDs into H2 tags for TOC
+    let h2Counter = 0;
     contentHtml = contentHtml.replace(/<h2>(.*?)<\/h2>/g, (match, title) => {
-        const id = title.toLowerCase().replace(/[^\w\u4e00-\u9fa5]+/g, '-');
-        return `<h2 id="${id}">${title}</h2>`;
+        h2Counter++;
+        const slug = title.toLowerCase().replace(/[^\w\u4e00-\u9fa5]+/g, '-').replace(/^-+|-+$/g, '');
+        const id = slug || `section-${h2Counter}`;
+        return `<h2 id="s${h2Counter}-${id}">${title}</h2>`;
     });
 
     const data = matterResult.data as { 
