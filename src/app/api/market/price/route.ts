@@ -13,6 +13,17 @@ export async function GET(req: NextRequest) {
         return NextResponse.json({ error: 'Symbol is required' }, { status: 400 });
     }
 
+    // Normalize special symbols
+    const SYMBOL_MAP: Record<string, { twelve: string; yahoo: string }> = {
+        'S&P 500': { twelve: 'SPX', yahoo: '^GSPC' },
+        'S&P500':  { twelve: 'SPX', yahoo: '^GSPC' },
+        'SP500':   { twelve: 'SPX', yahoo: '^GSPC' },
+        'NIKKEI':  { twelve: 'NKY', yahoo: '^N225' },
+    };
+    const mapped = SYMBOL_MAP[symbol] || SYMBOL_MAP[decodeURIComponent(symbol)];
+    const twelveSymbol = mapped?.twelve || symbol;
+    const yahooSymbolOverride = mapped?.yahoo;
+
     try {
         // 1. Crypto handled via CoinGecko (Public API is fine for client, but we can proxy too)
         if (genre === 'CRYPTO') {
@@ -32,9 +43,9 @@ export async function GET(req: NextRequest) {
 
         // 2. FX and Stocks via Twelve Data
         if (TWELVE_DATA_KEY) {
-            const res = await fetch(`https://api.twelvedata.com/quote?symbol=${symbol}&apikey=${TWELVE_DATA_KEY}`);
+            const res = await fetch(`https://api.twelvedata.com/quote?symbol=${twelveSymbol}&apikey=${TWELVE_DATA_KEY}`);
             const data = await res.json();
-            
+
             if (data && !data.code && data.price) {
                 return NextResponse.json({
                     price: parseFloat(data.close || data.price),
@@ -44,7 +55,7 @@ export async function GET(req: NextRequest) {
         }
 
         // 3. Fallback to Yahoo Query (Scraping equivalent) if API fails
-        const yahooSym = genre === 'FX' ? `${symbol.replace('/', '')}=X` : symbol;
+        const yahooSym = yahooSymbolOverride || (genre === 'FX' ? `${symbol.replace('/', '')}=X` : symbol);
         const yahooRes = await fetch(`https://query1.finance.yahoo.com/v8/finance/chart/${yahooSym}?interval=1d&range=1d`);
         const yahooData = await yahooRes.json();
         const price = yahooData.chart?.result?.[0]?.meta?.regularMarketPrice;

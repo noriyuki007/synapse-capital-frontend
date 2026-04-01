@@ -52,7 +52,7 @@ function parseRSS(xml: string, source: string): ScrapedNews[] {
  */
 export async function getForexNews(): Promise<ScrapedNews[]> {
     try {
-        const res = await fetch('https://www.forexlive.com/rss', { next: { revalidate: 300 } });
+        const res = await fetch('https://www.forexlive.com/rss', { cache: 'no-store' });
         const xml = await res.text();
         return parseRSS(xml, 'ForexLive');
     } catch (e) {
@@ -66,7 +66,7 @@ export async function getForexNews(): Promise<ScrapedNews[]> {
  */
 export async function getStockNews(ticker: string = 'market'): Promise<ScrapedNews[]> {
     try {
-        const res = await fetch(`https://finance.yahoo.com/news/rssindex`, { next: { revalidate: 600 } });
+        const res = await fetch(`https://finance.yahoo.com/news/rssindex`, { cache: 'no-store' });
         const xml = await res.text();
         return parseRSS(xml, 'Yahoo Finance');
     } catch (e) {
@@ -80,7 +80,7 @@ export async function getStockNews(ticker: string = 'market'): Promise<ScrapedNe
  */
 export async function getCryptoNews(): Promise<ScrapedNews[]> {
     try {
-        const res = await fetch('https://www.coindesk.com/arc/outboundfeeds/rss/', { next: { revalidate: 600 } });
+        const res = await fetch('https://www.coindesk.com/arc/outboundfeeds/rss/', { cache: 'no-store' });
         const xml = await res.text();
         return parseRSS(xml, 'CoinDesk');
     } catch (e) {
@@ -125,7 +125,7 @@ export async function getMacroBenchmarks(): Promise<{ dxy?: number; vix?: number
         await Promise.all(Object.entries(symbols).map(async ([key, sym]) => {
             try {
                 const url = `https://query1.finance.yahoo.com/v8/finance/chart/${sym}?interval=1d&range=1d`;
-                const res = await fetch(url, { next: { revalidate: 300 } });
+                const res = await fetch(url, { cache: 'no-store' });
                 const data = await res.json();
                 const price = data.chart?.result?.[0]?.meta?.regularMarketPrice;
                 if (price !== undefined) {

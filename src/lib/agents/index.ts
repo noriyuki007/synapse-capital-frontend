@@ -100,11 +100,142 @@ export interface FinalAnalysis {
 }
 
 /**
- * Helper to check for mock mode
+ * Helper to check for mock mode - returns true only when NO AI backends are available
  */
 function isMockMode() {
-  const apiKey = process.env.GEMINI_API_KEY;
-  return (!apiKey || apiKey.includes('your_') || apiKey === 'mock') && !process.env.OPENROUTER_API_KEY;
+  const geminiKey = process.env.GEMINI_API_KEY;
+  const openRouterKey = process.env.OPENROUTER_API_KEY;
+  const hasGemini = geminiKey && !geminiKey.includes('your_') && geminiKey !== 'mock' && geminiKey !== 'dummy_key';
+  const hasOpenRouter = !!openRouterKey;
+  return !hasGemini && !hasOpenRouter;
+}
+
+/**
+ * Generate deterministic analysis when all AI models fail
+ * Uses market data to provide rule-based analysis
+ */
+function generateDeterministicAnalysis(
+  context: MarketContext,
+  ticker: string,
+  userPlan: string,
+  assetClass: string
+): FinalAnalysis {
+  const price = context.price || 0;
+  const changePercent = context.changePercent || 0;
+  const rsi = context.indicators?.rsi ? parseFloat(context.indicators.rsi) : 50;
+  const isBullish = changePercent > 0;
+  const isOverbought = rsi > 70;
+  const isOversold = rsi < 30;
+
+  // Parse user plan direction
+  const isBuy = userPlan.toUpperCase().includes('BUY');
+
+  // Simple scoring
+  let score = 50;
+  if (isBuy && isBullish) score += 15;
+  if (isBuy && isOversold) score += 10;
+  if (!isBuy && !isBullish) score += 15;
+  if (!isBuy && isOverbought) score += 10;
+  if (isBuy && isOverbought) score -= 15;
+  if (!isBuy && isOversold) score -= 15;
+  score = Math.max(20, Math.min(90, score));
+
+  const trendText = isBullish ? '上昇トレンド' : '下降トレンド';
+  const rsiText = isOverbought ? '買われすぎゾーン(RSI>70)' : isOversold ? '売られすぎゾーン(RSI<30)' : '中立ゾーン';
+  const direction = isBuy ? '買い' : '売り';
+  const decision = score >= 65 ? 'GO' : score >= 45 ? 'CAUTION' : 'NO GO';
+
+  const analystAnalysis = `【${assetClass}マーケット分析 - データベース自動解析】
+
+現在の${ticker}は${price > 0 ? price.toFixed(2) : '取得中'}で取引されており、直近の変動率は${changePercent.toFixed(2)}%です。
+
+市場トレンド: ${trendText}
+テクニカル指標: RSI(14) = ${rsi.toFixed(1)} → ${rsiText}
+マクロ環境: DXY ${context.macroContext?.dxy || 'N/A'}, VIX ${context.macroContext?.vix || 'N/A'}
+
+${context.calendar && context.calendar.length > 0 ? '今後の重要イベント: ' + context.calendar.slice(0, 3).map((e: any) => e.event).join(', ') : '直近の重要経済指標は限定的です。'}
+
+<data>
+{"shortSummary":"${trendText}・${rsiText}","sentimentScore":${score},"correlations":[{"pair":"${ticker}","value":1.00}]}
+</data>`;
+
+  const managerAnalysis = `【リスク管理評価 - データベース自動解析】
+
+${ticker}の現在のボラティリティ状況を評価します。
+
+直近変動率: ${Math.abs(changePercent).toFixed(2)}%
+VIX水準: ${context.macroContext?.vix || 'N/A'}
+リスクレベル: ${Math.abs(changePercent) > 1.5 ? '高い変動性が観測されています。ポジションサイズの慎重な管理が推奨されます。' : '適正範囲内の変動性です。'}
+
+${direction}ポジションのリスクリワード比率を確認し、ストップロスの適切な設定が重要です。
+
+<data>
+{"shortSummary":"ボラティリティ${Math.abs(changePercent) > 1.5 ? '高' : '適正'}","riskLevel":${Math.abs(changePercent) > 1.5 ? 4 : 3},"volatility":${(Math.abs(changePercent) / 100).toFixed(4)},"expectedAtr":${(Math.abs(changePercent) * 0.8).toFixed(2)}}
+</data>`;
+
+  const traderAnalysis = `【テクニカル・センチメント分析 - データベース自動解析】
+
+${ticker}のテクニカル分析に基づくポジション評価です。
+
+RSI(14): ${rsi.toFixed(1)} - ${rsiText}
+SMA(20): ${context.indicators?.sma20 || 'N/A'}
+${context.deepData?.cot ? `COTレポート: 投機筋ネットポジション ${context.deepData.cot.speculatorNet} (${context.deepData.cot.sentiment})` : 'COTデータ: 取得待ち'}
+
+価格アクションは${isBullish ? '強気' : '弱気'}の傾向を示しています。
+
+<data>
+{"shortSummary":"${isBullish ? '強気' : '弱気'}テクニカル","targetPrice":${price > 0 ? (price * (isBuy ? 1.015 : 0.985)).toFixed(2) : 0},"liquidityLevels":[{"price":${price > 0 ? (price * 1.01).toFixed(2) : 0},"strength":0.80}]}
+</data>`;
+
+  const leaderSynthesis = `## 総合分析
+
+${ticker}のデータベース駆動型分析に基づき、以下の結論を提示します。現在の市場環境は${trendText}を示し、RSIは${rsiText}にあります。
+
+## 委員会内での議論
+
+テクニカル分析とリスク管理の観点から、${direction}プランの妥当性を検討しました。変動率${changePercent.toFixed(2)}%の現在環境において、${Math.abs(changePercent) > 1 ? 'ボラティリティが高い状況で慎重なアプローチが必要' : '比較的安定した環境でエントリーの条件は整っている'}と評価します。
+
+## 合意事項（メリット・強み）
+
+1. ${isBuy && isBullish ? 'トレンド方向と一致したエントリー' : !isBuy && !isBullish ? 'トレンド方向と一致したエントリー' : 'リバーサル戦略としての期待値'}
+2. テクニカル指標の確認が完了
+
+## 否定・懸念事項（リスク・弱点）
+
+1. ${isOverbought ? '買われすぎの水準であり、短期的な調整リスク' : isOversold ? '売られすぎの水準であり、反発リスク' : '明確なトレンド転換シグナルが不足'}
+2. 外部イベントリスク（経済指標発表など）への注意が必要
+
+## 時間軸でのアドバイス (JST)
+
+東京時間（9:00-15:00 JST）およびロンドン時間（16:00-25:00 JST）の主要セッションでの執行を推奨します。
+
+## 推奨するアクション
+
+総合スコア: ${score}/100 → **${decision}**
+
+## プランの妥当性に関する最終評決
+
+お客様の${direction}プランは、${decision === 'GO' ? '現在の市場環境と整合性があり、実行を推奨します' : decision === 'CAUTION' ? '一定の条件付きで検討の余地がありますが、追加確認を推奨します' : '現在の市場環境との整合性が低く、見送りを推奨します'}。
+
+## 結論
+
+データに基づく客観的評価として、${decision === 'GO' ? '条件付きでGO' : decision === 'CAUTION' ? '慎重な判断（CAUTION）' : '見送り（NO GO）'}を結論とします。
+
+<data>
+{"decision":"${decision}","totalScore":${score.toFixed(2)},"summary":"${trendText}・${decision}","entry":"${price > 0 ? price.toFixed(2) : 'N/A'}","tp":"${price > 0 ? (price * (isBuy ? 1.015 : 0.985)).toFixed(2) : 'N/A'}","sl":"${price > 0 ? (price * (isBuy ? 0.99 : 1.01)).toFixed(2) : 'N/A'}","agreedPoints":["テクニカル分析に基づく方向性の確認","リスクリワード比の妥当性"],"rejectedPoints":["${isOverbought || isOversold ? 'RSIの極端な水準' : '明確なブレイクアウト未確認'}","外部イベントリスク"],"consensusSummary":"${trendText}のなか、${direction}プランは${decision === 'GO' ? '有効' : '要検討'}と判断。"}
+</data>`;
+
+  return {
+    expertAnalyses: [
+      { agentName: 'Analyst', analysis: analystAnalysis },
+      { agentName: 'Fund Manager', analysis: managerAnalysis },
+      { agentName: 'Prop Trader', analysis: traderAnalysis },
+    ],
+    leaderSynthesis,
+    timestamp: context.timestamp || new Date().toISOString(),
+    ticker,
+    userPlan
+  };
 }
 
 /**
@@ -363,24 +494,35 @@ export async function runMultiAgentAnalysis(
   assetClass: 'FX' | 'STOCK' | 'CRYPTO' = 'FX',
   fastMode: boolean = false
 ): Promise<FinalAnalysis> {
-  
-  // Parallel Execution of Expert Agents
-  const expertPromises = [
-    runAnalystAgent(context, userPlan, assetClass, fastMode),
-    runFundManagerAgent(context, ticker, userPlan, assetClass, fastMode),
-    runPropTraderAgent(context, ticker, userPlan, assetClass, fastMode),
-  ];
 
-  const expertAnalyses = await Promise.all(expertPromises);
+  // If in mock mode, use deterministic analysis directly
+  if (isMockMode()) {
+    console.log('[Position Checker] No AI keys configured. Using deterministic analysis.');
+    return generateDeterministicAnalysis(context, ticker, userPlan, assetClass);
+  }
 
-  // Leader synthesis
-  const leaderSynthesis = await runLeaderAgent(expertAnalyses, userPlan, fastMode);
+  try {
+    // Parallel Execution of Expert Agents
+    const expertPromises = [
+      runAnalystAgent(context, userPlan, assetClass, fastMode),
+      runFundManagerAgent(context, ticker, userPlan, assetClass, fastMode),
+      runPropTraderAgent(context, ticker, userPlan, assetClass, fastMode),
+    ];
 
-  return {
-    expertAnalyses,
-    leaderSynthesis,
-    timestamp: context.timestamp || new Date().toISOString(),
-    ticker,
-    userPlan
-  };
+    const expertAnalyses = await Promise.all(expertPromises);
+
+    // Leader synthesis
+    const leaderSynthesis = await runLeaderAgent(expertAnalyses, userPlan, fastMode);
+
+    return {
+      expertAnalyses,
+      leaderSynthesis,
+      timestamp: context.timestamp || new Date().toISOString(),
+      ticker,
+      userPlan
+    };
+  } catch (err: any) {
+    console.warn(`[Position Checker] AI analysis failed: ${err.message}. Falling back to deterministic analysis.`);
+    return generateDeterministicAnalysis(context, ticker, userPlan, assetClass);
+  }
 }
