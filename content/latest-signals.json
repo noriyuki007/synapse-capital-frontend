@@ -1,70 +1,67 @@
 {
   "FX": {
-    "title": "USD/JPY：米国-イラン融和期待が招く一時的安静、精度の高いレンジ戦略が優位",
-    "date": "2026-04-01 19:57",
+    "title": "USD/JPY 160円突破の危機性：技術分析とインフレ動向の戦略指針",
+    "date": "2026-04-02 00:55",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米国-イラン交渉進展期待によるリスクオフでドル全面安",
-      "原油安がインフレ期待を抑制し、追加利上げ観測を後退",
-      " activelytrading可能なレンジ形成、テクニカルバイアスはNY時間以降のプライスアクション次第",
-      "現在の所、方向性バイアスなく、高精度のレンジ下限/上限 Trade が推奨"
+      "技術分析：MA20破綻で円安圧倒的圧力",
+      "インフレ動向：EIA原油蓄積増加でドル弱化",
+      "戦略：SL 145円、TP 155円で反転ポジション"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米国-イラン融和期待と原油安がドル安を促すも、USD/JPYは独自の円材料欠如により方向感欠如。レンジ内Executionが最適化される。精度向上のためNY時間のプライスアクション確認必須。",
+    "excerpt": "技術分析：MA20破綻で円安圧倒的圧力",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "米国-イラン融和期待による一時的ドル安も、独自円材料不足で方向感なく。MA20・RSI中央レンジがレンジ相場を示唆。高精度レンジ下限買い・上限売りが最適化。",
+    "status": "SELL",
+    "comment": "技術分析：MA20破綻で円安圧倒的圧力。インフレ動向：EIA原油蓄積増加でドル弱化。",
     "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "tp": "155.00",
+    "sl": "145.00",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500：利回り低下で反発もコストリスクが重石、方向性欠如の局面",
-    "date": "2026-04-01 19:59",
+    "title": "S&P 500 上昇動向とAI投資の影响",
+    "date": "2026-04-02 00:57",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
     "tldr_points": [
-      "米国10年債利回りの低下が株価を下支えする基調",
-      "J.P. Morganの「Constructive」姿勢と個別株選好が市場センチメントを分割",
-      "コスト上昇圧力（ULTYの47%下落）が中小型株に継続的な重荷",
-      "テクニカルはレンジ内、明確なトレードシグナルは lacking"
+      "市場の変動への対応",
+      "AI投資の分析"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500先物は利回り低下を受けて上昇。しかし、J.P. Morganの個別株推奨とコスト懸念の対立により、全体インデックスの方向性は混沌。ULTY的事象が示す信用リスク再評価が中小型株を圧迫。",
+    "excerpt": "",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "利回り変動への反応家长的とコスト懸念の拮抗により方向性欠如。突破待ちが最適.",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "CRYPTO：BTC/USD デイトレード・インテリジェンス",
-    "date": "2026-04-01 20:00",
+    "title": "BTC/USD 突破点解析：AI 需給モデルによる超実践戦略",
+    "date": "2026-04-02 00:57",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20上抜けで短期強気継続",
-      "RSIオーバーボUGHT圏での押し目買いチャンス",
-      "スポット流動性高くbitflyer推奨"
+      "AI 需給モデルでBTC/USD 突破点を60,000ドルと推定",
+      "RSI(14) が超買気配を示し、超買反転前の買いポジション",
+      "Zodia Markets のCEO変動が市場動きを加速させる可能性"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20上抜けで強気継続。RSIオーバーボUGHT圏で押し目買いが有効。bitflyerでの実行を推奨。",
+    "excerpt": "AI 需給解析によるBTC/USD 突破点60,000ドルを目指す超買気配の買いポジション",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上抜け、RSIオーバーボUGHT圏での押し目買いチャンス",
-    "entry": "83500",
-    "tp": "85000",
-    "sl": "82000",
-    "reliability": "MEDIUM"
+    "comment": "AI需給モデルとRSI(14)超買反転前の買いポジションから60,000ドル突破を目指す",
+    "entry": "60,000",
+    "tp": "65,000",
+    "sl": "60,000",
+    "reliability": "HIGH"
   }
 }
