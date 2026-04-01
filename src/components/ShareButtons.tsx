@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Facebook, Linkedin, Link2, Check, Share2 } from 'lucide-react';
 
 interface ShareButtonsProps {
@@ -10,15 +10,18 @@ interface ShareButtonsProps {
 
 export function ShareButtons({ title, url, dict }: { title: string, url: string, dict: any }) {
     const [copied, setCopied] = useState(false);
-    
+    const [fullUrl, setFullUrl] = useState(`https://synapsecapital.net${url}`);
+
+    useEffect(() => {
+        setFullUrl(`${window.location.origin}${url}`);
+    }, [url]);
+
     // Custom X icon (X logo)
     const XIcon = () => (
         <svg viewBox="0 0 24 24" className="w-5 h-5 fill-current" aria-hidden="true">
             <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path>
         </svg>
     );
-
-    const fullUrl = typeof window !== 'undefined' ? `${window.location.origin}${url}` : url;
 
     const shareTargets = [
         {

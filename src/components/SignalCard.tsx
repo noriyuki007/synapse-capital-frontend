@@ -1,12 +1,41 @@
 'use client';
 
-import React from 'react';
-import { Activity, Zap, ArrowRight, Info } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import { Activity, Zap, ArrowRight, Info, TrendingUp, TrendingDown } from 'lucide-react';
 import Link from 'next/link';
 import { Modal } from './Modal';
 
+const GENRE_MAP: Record<string, string> = {
+    'USD/JPY': 'FX', 'EUR/USD': 'FX', 'GBP/USD': 'FX',
+    'S&P 500': 'STOCKS', '^GSPC': 'STOCKS',
+    'BTC/USD': 'CRYPTO', 'ETH/USD': 'CRYPTO',
+};
+
 export const SignalCard = ({ pair, status, comment, entry, tp, sl, reliability, recommended_broker, locale, dict }: any) => {
     const [isModalOpen, setIsModalOpen] = React.useState(false);
+    const [livePrice, setLivePrice] = useState<number | null>(null);
+
+    useEffect(() => {
+        const genre = GENRE_MAP[pair] || 'FX';
+        const symbol = pair.replace('/', '');
+        const fetchPrice = async () => {
+            try {
+                const res = await fetch(`/api/market/price?symbol=${encodeURIComponent(symbol)}&genre=${genre}`);
+                if (res.ok) {
+                    const data = await res.json();
+                    if (data.price) setLivePrice(data.price);
+                }
+            } catch {}
+        };
+        fetchPrice();
+        const interval = setInterval(fetchPrice, 30000);
+        return () => clearInterval(interval);
+    }, [pair]);
+
+    const entryNum = parseFloat(entry);
+    const pnl = livePrice && !isNaN(entryNum) && entryNum > 0
+        ? ((status === 'SELL' ? entryNum - livePrice : livePrice - entryNum) / entryNum) * 100
+        : null;
 
     return (
         <div className="bg-white border border-slate-200 rounded-none p-5 hover:border-black transition-all group flex flex-col gap-4 shadow-sm hover:shadow-md">
@@ -14,10 +43,21 @@ export const SignalCard = ({ pair, status, comment, entry, tp, sl, reliability, 
                 <div className="space-y-1 overflow-hidden flex-1 mr-2">
                     <div className="text-[11px] font-bold text-slate-400 uppercase tracking-widest">{dict.signals.target}</div>
                     <div className="text-base md:text-lg font-black text-black tracking-tighter tabular-nums truncate">{pair}</div>
+                    {livePrice != null && (
+                        <div className="flex items-center gap-2 mt-1">
+                            <span className="text-xs font-bold text-slate-500 tabular-nums">{livePrice.toLocaleString(undefined, { minimumFractionDigits: 2, maximumFractionDigits: pair.includes('BTC') ? 2 : pair.includes('JPY') ? 3 : 4 })}</span>
+                            {pnl != null && (
+                                <span className={`text-[10px] font-black tabular-nums flex items-center gap-0.5 ${pnl >= 0 ? 'text-emerald-600' : 'text-rose-500'}`}>
+                                    {pnl >= 0 ? <TrendingUp className="w-3 h-3" /> : <TrendingDown className="w-3 h-3" />}
+                                    {pnl >= 0 ? '+' : ''}{pnl.toFixed(2)}%
+                                </span>
+                            )}
+                        </div>
+                    )}
                 </div>
                 <div className={`px-2.5 py-1 rounded-none text-[12px] font-black tracking-widest ${
-                    status === 'BUY' ? 'bg-emerald-50 text-emerald-600 border border-emerald-100' : 
-                    status === 'SELL' ? 'bg-rose-50 text-rose-600 border border-rose-100' : 
+                    status === 'BUY' ? 'bg-emerald-50 text-emerald-600 border border-emerald-100' :
+                    status === 'SELL' ? 'bg-rose-50 text-rose-600 border border-rose-100' :
                     'bg-slate-50 text-slate-600 border border-slate-200'
                 }`}>
                     {status === 'BUY' ? dict.signals.buy : status === 'SELL' ? dict.signals.sell : dict.signals.neutral}

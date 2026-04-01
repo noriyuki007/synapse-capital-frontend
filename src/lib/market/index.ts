@@ -121,7 +121,7 @@ async function fetchFMPData(symbol: string) {
             news = await newsRes.json();
         }
 
-        return { calendar: calendar.slice(0, 5), news: news.slice(0, 5) };
+        return { calendar: Array.isArray(calendar) ? calendar.slice(0, 5) : [], news: Array.isArray(news) ? news.slice(0, 5) : [] };
     } catch (error) {
         console.error('FMP Data Error:', error);
         return null;
@@ -158,9 +158,10 @@ async function fetchCOTData(symbol: string) {
             `https://financialmodelingprep.com/api/v4/commitment_of_traders_report/analysis/${cotSymbol}?apikey=${FMP_KEY}`
         );
         const data = await response.json();
-        if (!data || data.length === 0) return null;
-        
+        if (!Array.isArray(data) || data.length === 0) return null;
+
         const latest = data[0];
+        if (!latest || latest.commercialNet === undefined) return null;
         return {
             commercialNet: latest.commercialNet,
             speculatorNet: latest.speculatorNet,
