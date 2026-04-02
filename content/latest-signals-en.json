@@ -1,68 +1,69 @@
 {
   "FX": {
-    "title": "USD/JPY Breakout Alert: Institutional Analysis Points to 160 Target",
-    "date": "2026-04-02 17:54",
+    "title": "Yield Divergence & Geopolitical Normalization: シナプス解析 Validates USD/JPY Upside Breakout",
+    "date": "2026-04-03 01:54",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Dollar strength resumes after Trump speech",
-      "Crude oil surge above $100 supports USD",
-      "Technical setup favors upside continuation"
+      "Persistent Fed hawkishness expands US-JP yield differentials",
+      "Strait of Hormuz traffic protocol drafting reduces JPY safe-haven premium",
+      "USDCHF structural bounce confirms broad greenback bid conditions",
+      "Execution calibrated to MA20 dynamic equilibrium and RSI momentum thresholds"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY breakout setup targets 160 as dollar strength resumes amid Trump speech impact and oil price surge",
+    "excerpt": "Institutional framework maps macro catalyst convergence and technical momentum regimes to validate asymmetric long positioning in USD/JPY.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Dollar strength resumes after Trump speech, targeting 160 resistance",
-    "entry": "157.80",
-    "tp": "160.00",
-    "sl": "156.50",
+    "comment": "Hawkish Fed stance and reduced JPY safe-haven demand confirm yield-driven upside bias validated by MA20 support and RSI expansion.",
+    "entry": "158.40",
+    "tp": "163.25",
+    "sl": "156.10",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "Geopolitical Shockwaves: S&P 500 Tests Key Support as Oil Spike Implicates Growth",
-    "date": "2026-04-02 17:56",
+    "title": "S&P 500 Treads Water as Oil-Driven Volatility Offsets Diplomatic Relief",
+    "date": "2026-04-03 01:56",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Iranian geopolitical风险 premiums drive oil surge, pressuring equity risk multiples",
-      "S&P 500 price action validates breakdown below pivotal MA20",
-      "Institutional momentum shifts to SELL with defined risk parameters"
+      "Oil price rally introduces inflationary pressure and sector rotation",
+      "Diplomatic efforts regarding Strait of Hormuz provide marginal risk-off relief",
+      "Technical levels indeterminate pending resolution of key moving average"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces correction as oil-driven inflation fears override technical support. SELL signal activated.",
+    "excerpt": "S&P 500 faces conflicting catalysts from energy costs and geopolitical de-escalation; technical levels unclear.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Geopolitical risk premium via oil spike invalidates bullish technical structure, initiating correction toward 5,150 support.",
-    "entry": "5275.00",
-    "tp": "5150.00",
-    "sl": "5305.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Fundamental catalysts are offsetting; decisive price action required beyond 4,850/4,950 for directional signal.",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "LOW"
   },
   "CRYPTO": {
-    "title": "BTC/USD: Regulatory Maturation & Deepening Liquidity Pools Drive Structural Accumulation",
-    "date": "2026-04-02 17:59",
+    "title": "BTC/USD Institutional Dispatch: Regulatory Tailwinds and Liquidity Compression Signal Directional Expansion",
+    "date": "2026-04-03 01:58",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Stablecoin yield & trust charter progress accelerates institutional balance-sheet allocation",
-      "State-level DAO frameworks & NY market expansion reduce regulatory overhang",
-      "On-chain supply constraints and declining exchange reserves signal bullish regime shift"
+      "OCC conditional charter approval accelerates institutional custody integration",
+      "Decentralized perpetual liquidity migration reduces systemic exchange concentration",
+      "Price action consolidates below dynamic mean reversion threshold with RSI preparing for momentum breakout"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Regulatory tailwinds and institutional liquidity normalization position BTC/USD for a tactical upside breakout with defined volatility parameters.",
+    "excerpt": "Regulatory catalysts and on-chain liquidity compression converge, positioning BTC for a measured upward breakout pending moving average confirmation.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Regulatory clarity and declining exchange reserves confirm structural accumulation, targeting immediate resistance with defined downside invalidation.",
-    "entry": "97.500",
-    "tp": "104.200",
-    "sl": "94.800",
-    "reliability": "HIGH"
+    "comment": "Regulatory catalysts and compressed volatility structure support a conditional long bias targeting mean reclamation and momentum expansion.",
+    "entry": "84500.00",
+    "tp": "89750.00",
+    "sl": "81900.00",
+    "reliability": "MEDIUM"
   }
 }
