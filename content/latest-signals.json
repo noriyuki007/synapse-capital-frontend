@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY：地政学リスク再燃で150円挑戦、AI需給解析が示す短期上昇バイアスの検証",
-    "date": "2026-04-02 11:03",
+    "title": "160円突破は秒読みか？AI需給解析が導き出した円安・ドル高の『到達点』",
+    "date": "2026-04-02 17:54",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "トランプのイラン発言で中東リスク高まり、USD安全通貨買いが再燃",
-      "PBOCの人民元政策がドル高を抑制するカウンター要因として機能",
-      "149円後半サポート solid、150円突破で上昇加速メカニズム発動"
+      "トランプ演説後、ドル全面高・円全面安の流れ加速",
+      "原油高と米CPI控え、リスクオン継続で円売り圧力強まる",
+      "160円台トライは時間の問題、短期的には161円視野"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "地政学リスク上昇と米ドル安全通貨需要でUSD/JPYは上昇バイアス。AI需給解析では149円台後半が堅固サポート、150円心理的レンジ突破で加速トレンドへの移行が示唆される。",
+    "excerpt": "トランプ演説後のドル全面高と原油高を受け、USD/JPYは上昇トレンドを再確認。短期的には161円トライのシナリオが優位に。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "地政学リスクでUSD安全通貨需要が再燃、MA20サポート維持下で上昇バイアス。150円突破で加速トレンドへ。",
-    "entry": "149.50",
-    "tp": "150.50",
-    "sl": "148.80",
-    "reliability": "MEDIUM"
+    "comment": "トランプ演説後のドル高・円安継続、160円突破で161円トライ",
+    "entry": "159.80",
+    "tp": "161.00",
+    "sl": "158.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500：3,000pt突破後の戦術的ポジショニング分析",
-    "date": "2026-04-02 11:05",
+    "title": "STOCKS：地政学リスクプレミアムと原油高騰が交差する中、S&P 500の防戦ラインと機関執行戦略",
+    "date": "2026-04-02 17:56",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "IG証券",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "RSI過熱圏からの調整波、短期反発の可能性",
-      "原油高・ハイテク堅調でセクター別強弱顕著",
-      "MA20レベルでの支持確認が次の焦点"
+      "トランプ政権の対イラン演説が先物市場のリスクオフを加速",
+      "エネルギーセクターの反発とハイテク・ヘルスケアの資金流出がクロスオーバー",
+      "MA20下回りとRSI(14)のオシレーションが短期的な売り圧力を形成"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500は原油高とハイテク強さで上昇トレンド継続。調整後の反発を想定し、3,000pt水準を支持線として戦術的ロングを検討。",
+    "excerpt": "中東情勢の緊迫化と原油価格の急伸が先物市場のリスク回避姿勢を明確化。テクニカル防衛線の検証と機関執行に向けた戦術的配置を示す。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "RSI調整後の反発を想定し、3,000pt支持線でロング",
-    "entry": "3000",
-    "tp": "3100",
-    "sl": "2950",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "地政学リスクの高まりとエネルギー価格上昇が先物市場を圧迫。MA20下回りとRSI弱含みの同期が短期的な売り圧力を確定。",
+    "entry": "5790.00",
+    "tp": "5730.00",
+    "sl": "5830.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "BTC/USD: オンチェーン指標とMA20力学が示唆する長期的変化点の到来",
-    "date": "2023-04-14 09:30",
+    "title": "機関マネーが bitcoin を買い戻す理由：規制明確化と代替チェーン流出のパラドックス",
+    "date": "2026-04-02 17:59",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20を支点とした力学的変化の兆候",
-      "オンチェーン指標が長期的なBUYシグナルを示唆",
-      "RSIによる過熱感の確認とともに戦略構築"
+      "米国規制の前進が機関投資家の短期心理をサポート",
+      "MA20 Rövat 状態はレンジ上限を試す動きに直結",
+      "alto チェーンへの資本流出は BTC の短期的な過剰リスクを示唆"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDが過去20日間の移動平均線を上回る中、オンチェーン指標が買いシグナルを見せています。",
+    "excerpt": "規制開発の進展が短期ムードを押し上げる中、オンチェーンデータはaltoチェーンへの資金流入とBTCのslow bleedを示唆。レンジ上限での戦術的判断が求められる局面。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20による力学的変化点、オンチェーン指標のBUYシグナルを根拠に",
-    "entry": "xx,xxx",
-    "tp": "xx,xxx",
-    "sl": "xx,xxx",
+    "status": "NEUTRAL",
+    "comment": "規制newsは短期サポートも、alto rotationは長期的重荷。レンジ上限でのショートリスク/リワードが優位。",
+    "entry": "待機（レンジ上限想定価格）",
+    "tp": "MA20 -0.5%",
+    "sl": "エントリー +1.0%",
     "reliability": "MEDIUM"
   }
 }
