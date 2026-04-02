@@ -1,6 +1,5 @@
 import { NextResponse } from 'next/server';
-export const runtime = 'edge';
-// Note: fs/path will not work in Edge runtime. This API is intended for local use.
+// Note: This API is intended for local use.
 
 /**
  * ブローカー評価データの更新を受け取るAPIエンドポイント
