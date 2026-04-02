@@ -1,7 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
 
-export const runtime = 'edge';
-
 const TWELVE_DATA_KEY = process.env.TWELVE_DATA_API_KEY;
 
 export async function GET(req: NextRequest) {
