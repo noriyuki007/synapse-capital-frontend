@@ -528,7 +528,16 @@ export async function runMultiAgentAnalysis(
     const expertAnalyses = await Promise.all(expertPromises);
 
     // Leader synthesis
-    const leaderSynthesis = await runLeaderAgent(expertAnalyses, userPlan, fastMode);
+    let leaderSynthesis = await runLeaderAgent(expertAnalyses, userPlan, fastMode);
+
+    // Validate leader response — if it lacks structured sections or <data> tag, use deterministic fallback
+    const hasDataTag = /<data>/i.test(leaderSynthesis);
+    const hasStructuredSections = /総合分析|推奨するアクション|結論/.test(leaderSynthesis);
+    if (!hasDataTag || (!hasStructuredSections && leaderSynthesis.length < 200)) {
+      console.warn('[Position Checker] Leader synthesis was malformed. Using deterministic fallback for leader.');
+      const fallback = generateDeterministicAnalysis(context, ticker, userPlan, assetClass);
+      leaderSynthesis = fallback.leaderSynthesis;
+    }
 
     return {
       expertAnalyses,

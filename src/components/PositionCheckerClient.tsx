@@ -93,7 +93,7 @@ export default function PositionCheckerClient({ locale, dict }: PositionCheckerC
 
         try {
             const userPlan = `${direction} on ${assetClass}:${ticker} from ${entryPrice} with SL at ${stopLoss} and target (settlement) at ${settlement}`;
-            const response = await fetch('/api/check-position', {
+            const response = await fetch('/api/check-position/', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ ticker, assetClass, userPlan })
