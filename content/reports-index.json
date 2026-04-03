@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-04-04-crypto-ja",
+    "date": "2026-04-04 01:39",
+    "title": "BTC/USD：MA20レジスタンス再テストで短期トレンド転換の可能性",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "NEUTRAL",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USDはMA20レジスタンスで上値の重さが確認され、RSIも中立圏で方向感に欠ける。短期はレンジ内でのもみ合い継続か。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-04-crypto-en",
+    "date": "2026-04-04 01:39",
+    "title": "CRYPTO: BTC/USD Liquidity Reclamation and Macro Convergence Analysis",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "Institutional liquidity mapping identifies BTC/USD structural upside catalysts amid macro risk recalibration and on-chain accumulation phases.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-04-stocks-ja",
+    "date": "2026-04-04 01:38",
+    "title": "S&P 500の最新動向：技術指標の収束から即時行動案",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Webull",
+    "excerpt": "S&P 500が技術指標の収束から即時Bullishシグナル。RSI中立域域挙動でエントリ defining moment。Webullのスペースデリミット注文必携。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-04-stocks-en",
+    "date": "2026-04-04 01:38",
+    "title": "S&P 500 Tactical Update: Institutional Technical Analysis Signals Breakout Potential",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 technical analysis shows bullish momentum with price trading above MA20 and RSI at 62.4",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-04-fx-en",
+    "date": "2026-04-04 01:37",
+    "title": "USD/JPY: NFP Catalysts Drive Institutional Outlook to 160",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY poised for breakout above 155.50 on NFP momentum",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-04-fx-ja",
+    "date": "2026-04-04",
+    "title": "FX Analysis",
+    "genre": "FX",
+    "target_pair": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
     "id": "2026-04-03-crypto-en",
     "date": "2026-04-03 17:55",
     "title": "Countdown to 160? AI Analytics Identifies Target for BTC/USD Breakout",

@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY Poised for 160? Technical Confluence Zones and Fed/BOJ Policy Divergence (Apr 3 2026)",
-    "date": "2026-04-03 17:51",
+    "title": "USD/JPY: NFP Catalysts Drive Institutional Outlook to 160",
+    "date": "2026-04-04 01:37",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Key support levels tested at 147.00–147.80; break confirms bullish bias",
-      "160.00 – high-impact psychological/resistance; short-term target for USD/JPY",
-      "US NFP and BoC policy divergence likely to drive 1–2% volatility swings"
+      "Strong US NFP +178K vs +60K expected",
+      "USMCA review delays, Hormuz tensions elevate USD/JPY",
+      "Technical resistance at 155.50"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Technical and fundamental catalyst analysis on USD/JPY with actionable levels.",
+    "excerpt": "USD/JPY poised for breakout above 155.50 on NFP momentum",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Break above 149.20 confirms bullish continuation; confluence at 160.00 offers asymmetric reward",
-    "entry": "149.20",
-    "tp": "160.00",
-    "sl": "146.50",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPY poised for breakout above 155.50 on NFP momentum",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500 Bearish Momentum Accelerates as Fundamental Headwinds Mount",
-    "date": "2026-04-03 17:52",
+    "title": "S&P 500 Tactical Update: Institutional Technical Analysis Signals Breakout Potential",
+    "date": "2026-04-04 01:38",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Persistent 'Trump Slump' driven by policy uncertainty weighs on market sentiment.",
-      "Record US household equity exposure increases vulnerability to corrections.",
-      "Surge in oil prices adds inflation pressure, prompting hawkish Fed expectations."
+      "S&P 500 trading above MA20 signals bullish momentum",
+      "RSI(14) at 62.4 indicates moderate bullish momentum",
+      "Breakout above 4,750 could target 4,850 resistance"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 nears key support as Trump slump, household leverage, and oil inflation weigh. Technicals show breakdown.",
+    "excerpt": "S&P 500 technical analysis shows bullish momentum with price trading above MA20 and RSI at 62.4",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Fundamental catalysts and technical breakdown signal further downside.",
-    "entry": "4969.50",
-    "tp": "4850.00",
-    "sl": "5025.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Price trading above MA20 with moderate RSI momentum signals bullish continuation potential",
+    "entry": "4,750",
+    "tp": "4,850",
+    "sl": "4,700",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "Countdown to 160? AI Analytics Identifies Target for BTC/USD Breakout",
-    "date": "2026-04-03 17:55",
+    "title": "CRYPTO: BTC/USD Liquidity Reclamation and Macro Convergence Analysis",
+    "date": "2026-04-04 01:39",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "NEUTRAL",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "AI token rally fuels BTC demand",
-      "On-chain equity integration signals institutional adoption",
-      "RSI divergence warns of near-term consolidation"
+      "Mining sell-flow absorption validates institutional bid layers",
+      "Stablecoin friction and AI-sector rotation drive structural liquidity shifts",
+      "Mean-reversion setup activated upon dynamic support retest"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "AI-driven demand and on-chain developments create bullish bias, but RSI divergence suggests caution.",
+    "excerpt": "Institutional liquidity mapping identifies BTC/USD structural upside catalysts amid macro risk recalibration and on-chain accumulation phases.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "RSI divergence and consolidation suggest range-bound action near $160k support",
-    "entry": "155000.00",
-    "tp": "160000.00",
-    "sl": "152000.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Structural absorption of institutional sell-flow and RSI neutralization establish high-probability mean-reversion conditions.",
+    "entry": "86800.00",
+    "tp": "91250.00",
+    "sl": "84100.00",
+    "reliability": "HIGH"
   }
 }
