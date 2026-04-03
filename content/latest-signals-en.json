@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY at 150: Technical Resistance and Fed Policy Divergence Create High Volatility Scenario",
-    "date": "2026-04-03 11:05",
+    "title": "USD/JPY Poised for 160? Technical Confluence Zones and Fed/BOJ Policy Divergence (Apr 3 2026)",
+    "date": "2026-04-03 17:51",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Japan Services PMI contraction heightens JPY vulnerability",
-      "Fed's inflation caution delays rate-cut expectations",
-      "Critical RSI divergence precedes 150 key level test"
+      "Key support levels tested at 147.00–147.80; break confirms bullish bias",
+      "160.00 – high-impact psychological/resistance; short-term target for USD/JPY",
+      "US NFP and BoC policy divergence likely to drive 1–2% volatility swings"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY faces pivotal resistance at 150 as Fed policy divergence and mixed PMI data fuel divergent risk appetite.",
+    "excerpt": "Technical and fundamental catalyst analysis on USD/JPY with actionable levels.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Confluence of Fed-driven USD strength and technical resistance creates high probability breakout scenario.",
-    "entry": "149.80",
-    "tp": "152.50",
-    "sl": "148.20",
+    "comment": "Break above 149.20 confirms bullish continuation; confluence at 160.00 offers asymmetric reward",
+    "entry": "149.20",
+    "tp": "160.00",
+    "sl": "146.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500 Institutional Tactical Outlook: Bullish Structure Confirmed by MA20 Hold and RSI Momentum",
-    "date": "2026-04-03 11:08",
+    "title": "S&P 500 Bearish Momentum Accelerates as Fundamental Headwinds Mount",
+    "date": "2026-04-03 17:52",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Resilient futures amid oil rally",
-      "Key pivot at 4,520 supports upside",
-      "RSI momentum aligns with bullish bias"
+      "Persistent 'Trump Slump' driven by policy uncertainty weighs on market sentiment.",
+      "Record US household equity exposure increases vulnerability to corrections.",
+      "Surge in oil prices adds inflation pressure, prompting hawkish Fed expectations."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Resilient futures amid oil rally and mixed earnings; key technical pivot at 4,520 marks upside bias for S&P 500. 2026 NY",
+    "excerpt": "S&P 500 nears key support as Trump slump, household leverage, and oil inflation weigh. Technicals show breakdown.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Bullish bias confirmed by price holding above MA20 and RSI momentum.",
-    "entry": "4520.00",
-    "tp": "4580.00",
-    "sl": "4470.00",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "Fundamental catalysts and technical breakdown signal further downside.",
+    "entry": "4969.50",
+    "tp": "4850.00",
+    "sl": "5025.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "Bitcoin Technicals Signal Imminent Breakout Amid AI and On-Chain Developments",
-    "date": "2026-04-03 11:10",
+    "title": "Countdown to 160? AI Analytics Identifies Target for BTC/USD Breakout",
+    "date": "2026-04-03 17:55",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "NEUTRAL",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Technical confluence suggests bullish momentum build-up",
-      "AI ecosystem growth and on-chain fund transfers accelerate inflows",
-      "Resistance at $68K remains critical catalyst for outperformance"
+      "AI token rally fuels BTC demand",
+      "On-chain equity integration signals institutional adoption",
+      "RSI divergence warns of near-term consolidation"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Bitcoin nears key resistance as AI and institutional developments converge. MA20 slope confirms bullish bias despite RSI divergence.",
+    "excerpt": "AI-driven demand and on-chain developments create bullish bias, but RSI divergence suggests caution.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "RSI divergence + AI narrative strengthens accumulation case ahead of resistance test",
-    "entry": "66500",
-    "tp": "68500",
-    "sl": "62000",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "RSI divergence and consolidation suggest range-bound action near $160k support",
+    "entry": "155000.00",
+    "tp": "160000.00",
+    "sl": "152000.00",
+    "reliability": "MEDIUM"
   }
 }
