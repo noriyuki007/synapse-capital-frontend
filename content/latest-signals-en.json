@@ -1,68 +1,64 @@
 {
   "FX": {
-    "title": "USD/JPY on the Brink: NFP and Geopolitics Drive 160-Breakout",
-    "date": "2026-04-04 10:26",
+    "title": "USD/JPY 市場分析",
+    "date": "2026-04-04",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
-    "tldr_points": [
-      "Strong March NFP (+178K vs +60K expected) reinforces USD dominance",
-      "Iran Hormuz opening threatens oil prices, adding volatility to USD/JPY",
-      "Technical confluence suggests high probability of 160-level breakout"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Strong NFP and Iran developments set stage for USD/JPY to test 160. Key resistance now critical.",
+    "excerpt": "",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Breakout confirmed by NFP-driven USD strength and technical momentum above 160",
-    "entry": "159.25",
-    "tp": "160.50",
-    "sl": "158.75",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "S&P 500: Institutional Analysis Reveals Bullish Divergence Amid Macro Uncertainty",
-    "date": "2026-04-04 10:27",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "https://www.brokerexample.com",
-    "tldr_points": [
-      "MA20 crosses above current price",
-      "RSI(14) bullish divergence",
-      "Trump-related fiscal risks in 2026 priced in"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 technicals show bullish momentum despite macro headwinds. Key resistance at 5030.",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Bullish breakout confirmed above MA20 with RSI divergence; high-reliability setup.",
-    "entry": "5015.00",
-    "tp": "5080.00",
-    "sl": "4950.00",
-    "reliability": "HIGH"
-  },
-  "CRYPTO": {
-    "title": "BTC/USD Market Catalyst Analysis: Strategic Brief",
-    "date": "2026-04-04",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "BUY",
-    "recommended_broker": "bybit",
-    "tldr_points": [
-      "Market Dynamics",
-      "Liquidity",
-      "Institutional Focus"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD exhibits heightened volatility linked to macroeconomic shifts.",
-    "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "BTC/USD exhibits heightened volatility linked to macroeconomic shifts.",
+    "comment": "シナプス解析に基づくシグナル",
     "entry": "---",
     "tp": "---",
     "sl": "---",
+    "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "S&P 500 Technical Outlook: MA20 Alignment, RSI Momentum, and Trade Setup",
+    "date": "2026-04-04 10:57",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "MA20 support aligns with bullish price structure",
+      "RSI shows upward momentum confirming strength",
+      "Defined entry‑TP‑SL framework enables precise risk‑reward positioning"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 technical view: MA20 alignment, RSI momentum, and defined entry-TP-SL framework for decisive positioning today!!!",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "Bullish setup confirmed by MA20 support and RSI upturn",
+    "entry": "4500.00",
+    "tp": "4520.00",
+    "sl": "4480.00",
+    "reliability": "HIGH"
+  },
+  "CRYPTO": {
+    "title": "BTC/USD: Institutional Outlook Shifts Bullish Amid Liquidity Rotation",
+    "date": "2026-04-04 10:59",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "tldr_points": [
+      "RSI signals bullish divergence above MA20",
+      "Institutional capital flows stabilizing",
+      "ETH staking surge indicates ecosystem strength"
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "Bitcoin technicals show bullish momentum as RSI breaks above MA20 with improving liquidity signals.",
+    "pair": "BTC/USD",
+    "status": "BUY",
+    "comment": "RSI bullish crossover above MA20 signals near-term upside potential.",
+    "entry": "60500",
+    "tp": "63000",
+    "sl": "57500",
     "reliability": "MEDIUM"
   }
 }
