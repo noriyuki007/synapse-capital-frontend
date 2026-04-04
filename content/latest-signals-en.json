@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "FX: USD/JPY Analysis",
-    "date": "2026-04-04",
+    "title": "USD/JPY Poised for 155 Breakout Amid Fed Policy Divergence and Japan’s Growth Dilemma",
+    "date": "2026-04-05 01:33",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "tldr_points": [],
+    "tldr_points": [
+      "Fed rate cut delays heighten USD strength relative to yen amid Japan’s growth concerns.",
+      "Key resistance at 157.50 aligns with critical chart formation; RSI(14) suggests bullish momentum.",
+      "xm-trading offers optimal conditions for leveraged exposure to yen weakness."
+    ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "",
+    "excerpt": "USD/JPY's bullish momentum hinges on Fed-Japan policy divergence and Japan's economic crossroads.",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
+    "comment": "USD/JPY's bullish momentum hinges on Fed-Japan policy divergence and Japan's economic crossroads.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500: Critical Technical Levels and Strategic Positioning",
-    "date": "2026-04-04 17:39",
+    "title": "S&P 500: Structural Resistance at 5,400 Suggests Bearish Path Amid Midterm Election Risks",
+    "date": "2026-04-05 01:34",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "NEUTRAL",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 trading near key MA20 resistance",
-      "RSI(14) at neutral territory",
-      "No clear directional bias without price confirmation"
+      "Technical resistance at 5,400 likely to trigger profit-taking",
+      "Midterm election cycle historically correlated with 2-3% drawdowns",
+      "AI-driven momentum in small caps may outperform but not offset institutional risk aversion"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 technical analysis reveals neutral positioning with critical resistance at MA20",
+    "excerpt": "S&P 500 faces critical resistance at 5,400 with bearish catalysts from elections and Fed policy shifts dominating near-term outlook.",
     "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "Structural resistance at 5,400 and election-driven risk aversion override AI momentum bullishness",
+    "entry": "5300",
+    "tp": "5250",
+    "sl": "5620",
+    "reliability": "HIGH"
+  },
+  "CRYPTO": {
+    "title": "BTC/USD: Critical Technical Confluence Amid Institutional Flow Shifts",
+    "date": "2026-04-05 01:35",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "NEUTRAL",
+    "recommended_broker": "bybit",
+    "tldr_points": [
+      "Bitcoin consolidates below $44k resistance",
+      "Institutional flows decline 67% YoY",
+      "Ethereum staking expansion supports sentiment"
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "Bitcoin faces technical resistance as institutional flows decline but Ethereum staking developments provide positive sentiment.",
+    "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "S&P 500 trading near MA20 with neutral RSI, awaiting directional confirmation",
+    "comment": "Bitcoin consolidating below key resistance with neutral momentum indicators, awaiting directional catalyst",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
-    "reliability": "LOW"
-  },
-  "CRYPTO": {
-    "title": "BTC/USD Institutional Tactical Outlook: AI Analytics Project $68,200 Target Amid Bullish Momentum",
-    "date": "2026-04-04 17:40",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bybit",
-    "tldr_points": [
-      "AI analytics detect sustained momentum above MA20",
-      "RSI poised for breakout to 70+ territory",
-      "TP set at $68,200 with SL at $61,500"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "AI-driven analysis spots bullish divergence; key resistance at $66k, target $68.2k.",
-    "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "AI‑driven trend confirms bullish breakout with high reliability.",
-    "entry": "63400.00",
-    "tp": "68200.00",
-    "sl": "61500.00",
-    "reliability": "HIGH"
+    "reliability": "MEDIUM"
   }
 }
