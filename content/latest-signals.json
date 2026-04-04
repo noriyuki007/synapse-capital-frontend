@@ -1,6 +1,6 @@
 {
   "FX": {
-    "title": "USD/JPY 市場分析",
+    "title": "USD/JPY市場動向の決定的指針",
     "date": "2026-04-04",
     "genre": "FX",
     "target_pair": "USD/JPY",
@@ -18,46 +18,47 @@
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500: 7月22日トレンド分析　トランプ政権の影響下で浮上市場にポジティブダイバージェンス",
-    "date": "2025-07-22 15:44",
+    "title": "S&P 500 Bulls Poised for Breakout: Technical Signals Confirm Intraday Momentum",
+    "date": "2026-04-04 10:57",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "mcmillen",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "7月サポート: 6150 | レジスタンス: 6450 | RSI: 82(過買い区域)"
+      "Dow Futures bullish divergence signals intraday rally potential",
+      "Trump 2026 policy risks create short-term volatility backdrop",
+      "Technical indicators show divergence between price and momentum oscillators"
     ],
-    "chart_image": "/images/snp500-trend.png",
-    "excerpt": "トランプの政策リスクとAI需給バランスで、短期的なS&P500下落が高確率とトレードシグナルをSNSで共有",
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 shows bullish momentum amid mixed fundamentals. Key technical levels to watch.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "トランプのAI政策リスクとSPDR AI製品の割引阻害を根拠としたSHORTシグナル",
-    "entry": "6320.00",
-    "tp": "5950.00",
-    "sl": "6400.00",
+    "status": "BUY",
+    "comment": "Dow Futures の強勢買いとRSIのobo patternから短期リターンの可能性",
+    "entry": "0.95%",
+    "tp": "1.05%",
+    "sl": "0.93%",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "BTC/USD：AI-Driven Technical Analysis Reveals Key Levels for 2026",
-    "date": "2026-04-04 10:29",
+    "title": "BTC/USD：流動性枯渇とマクロ減速が交差する『収斂相場』の戦術的攻略",
+    "date": "2026-04-04 10:59",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "NEUTRAL",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "JPMorgan's Q1 crypto flow drop signals institutional caution",
-      "Ethereum staking progress nears 70,000 ETH target",
-      "HypurrFi domain hijacking creates short-term volatility",
-      "Cosmos ecosystem consolidation expected post-Leap Wallet shutdown"
+      "Q1機関資金フロー前年比67%減を反映した流動性シフトが進行",
+      "オンチェーンステーキング増加とDeFiドメインハイジャックが需給を二分化",
+      "MA20付近の攻防とRSIダイバージェンスがブレイクアウトのトリガーを形成"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Institutional outflows and Ethereum staking progress create conflicting signals for BTC/USD",
+    "excerpt": "機関資金フローの構造的縮小とDeFiセキュリティ懸念が需給を圧縮。MA20収斂局面における流動性プールとシナプス解析に基づく戦術的エントリー戦略を提示する。",
     "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "Institutional outflows (-67% Q1) offset by Ethereum staking progress (66% target). Neutral bias with $55,000-$65,000 range. Bitflyer recommended for execution due to superior liquidity in this range.",
-    "entry": "55000",
-    "tp": "62000",
-    "sl": "52000",
+    "comment": "機関フロー減少とオンチェーン懸念により流動性収斂。MA20付近の攻防が方向性を決定。ブレイク未確認時はレンジフェード優位。",
+    "entry": "88500",
+    "tp": "93200",
+    "sl": "85800",
     "reliability": "MEDIUM"
   }
 }
