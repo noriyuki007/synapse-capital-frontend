@@ -1,61 +1,37 @@
 [
   {
     "id": "2026-04-04-crypto-ja",
-    "date": "2026-04-04 01:39",
-    "title": "BTC/USD：MA20レジスタンス再テストで短期トレンド転換の可能性",
+    "date": "2026-04-04 10:29",
+    "title": "BTC/USD：AI-Driven Technical Analysis Reveals Key Levels for 2026",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "NEUTRAL",
     "recommended_broker": "bitflyer",
-    "excerpt": "BTC/USDはMA20レジスタンスで上値の重さが確認され、RSIも中立圏で方向感に欠ける。短期はレンジ内でのもみ合い継続か。",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-04-04-crypto-en",
-    "date": "2026-04-04 01:39",
-    "title": "CRYPTO: BTC/USD Liquidity Reclamation and Macro Convergence Analysis",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bybit",
-    "excerpt": "Institutional liquidity mapping identifies BTC/USD structural upside catalysts amid macro risk recalibration and on-chain accumulation phases.",
-    "result": "PENDING",
-    "locale": "en"
-  },
-  {
-    "id": "2026-04-04-stocks-ja",
-    "date": "2026-04-04 01:38",
-    "title": "S&P 500の最新動向：技術指標の収束から即時行動案",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Webull",
-    "excerpt": "S&P 500が技術指標の収束から即時Bullishシグナル。RSI中立域域挙動でエントリ defining moment。Webullのスペースデリミット注文必携。",
+    "excerpt": "Institutional outflows and Ethereum staking progress create conflicting signals for BTC/USD",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-04-04-stocks-en",
-    "date": "2026-04-04 01:38",
-    "title": "S&P 500 Tactical Update: Institutional Technical Analysis Signals Breakout Potential",
+    "date": "2026-04-04 10:27",
+    "title": "S&P 500: Institutional Analysis Reveals Bullish Divergence Amid Macro Uncertainty",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "excerpt": "S&P 500 technical analysis shows bullish momentum with price trading above MA20 and RSI at 62.4",
+    "recommended_broker": "https://www.brokerexample.com",
+    "excerpt": "S&P 500 technicals show bullish momentum despite macro headwinds. Key resistance at 5030.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-04-04-fx-en",
-    "date": "2026-04-04 01:37",
-    "title": "USD/JPY: NFP Catalysts Drive Institutional Outlook to 160",
+    "date": "2026-04-04 10:26",
+    "title": "USD/JPY on the Brink: NFP and Geopolitics Drive 160-Breakout",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY poised for breakout above 155.50 on NFP momentum",
+    "excerpt": "Strong NFP and Iran developments set stage for USD/JPY to test 160. Key resistance now critical.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -70,6 +46,18 @@
     "excerpt": "",
     "result": "PENDING",
     "locale": "ja"
+  },
+  {
+    "id": "2026-04-04-crypto-en",
+    "date": "2026-04-04",
+    "title": "BTC/USD Market Catalyst Analysis: Strategic Brief",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "BUY",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD exhibits heightened volatility linked to macroeconomic shifts.",
+    "result": "PENDING",
+    "locale": "en"
   },
   {
     "id": "2026-04-03-crypto-en",
@@ -164,7 +152,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "Regulatory tailwinds and institutional liquidity normalization position BTC/USD for a tactical upside breakout with defined volatility parameters.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -176,7 +164,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "中東情勢の緊迫化と原油価格の急伸が先物市場のリスク回避姿勢を明確化。テクニカル防衛線の検証と機関執行に向けた戦術的配置を示す。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -188,7 +176,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500 faces correction as oil-driven inflation fears override technical support. SELL signal activated.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -200,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "トランプ演説後のドル全面高と原油高を受け、USD/JPYは上昇トレンドを再確認。短期的には161円トライのシナリオが優位に。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -212,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY breakout setup targets 160 as dollar strength resumes amid Trump speech impact and oil price surge",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -681,6 +669,18 @@
     "recommended_broker": "dmm-fx",
     "excerpt": "米雇用統計のサプライズを受け、日米金利差拡大のシナリオが再燃。150円台の定着から152円を目指す強気相場をAIが解析します。",
     "result": "HIT",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-04-stocks-ja",
+    "date": "2025-07-22 15:44",
+    "title": "S&P 500: 7月22日トレンド分析　トランプ政権の影響下で浮上市場にポジティブダイバージェンス",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "mcmillen",
+    "excerpt": "トランプの政策リスクとAI需給バランスで、短期的なS&P500下落が高確率とトレードシグナルをSNSで共有",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
