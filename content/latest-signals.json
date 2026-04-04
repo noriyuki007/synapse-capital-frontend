@@ -18,47 +18,46 @@
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500の最新動向：技術指標の収束から即時行動案",
-    "date": "2026-04-04 01:38",
+    "title": "S&P 500: 7月22日トレンド分析　トランプ政権の影響下で浮上市場にポジティブダイバージェンス",
+    "date": "2025-07-22 15:44",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Webull",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "mcmillen",
     "tldr_points": [
-      "技術指標の収束でBullishシグナル",
-      "RSI(14)=52.3で中立域域",
-      "Webullのスペースデリミット注文推奨"
+      "7月サポート: 6150 | レジスタンス: 6450 | RSI: 82(過買い区域)"
     ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500が技術指標の収束から即時Bullishシグナル。RSI中立域域挙動でエントリ defining moment。Webullのスペースデリミット注文必携。",
+    "chart_image": "/images/snp500-trend.png",
+    "excerpt": "トランプの政策リスクとAI需給バランスで、短期的なS&P500下落が高確率とトレードシグナルをSNSで共有",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20上抜き+RSI中立域域正相関から成立",
-    "entry": "3975.5",
-    "tp": "3990",
-    "sl": "3940",
+    "status": "SELL",
+    "comment": "トランプのAI政策リスクとSPDR AI製品の割引阻害を根拠としたSHORTシグナル",
+    "entry": "6320.00",
+    "tp": "5950.00",
+    "sl": "6400.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "BTC/USD：MA20レジスタンス再テストで短期トレンド転換の可能性",
-    "date": "2026-04-04 01:39",
+    "title": "BTC/USD：AI-Driven Technical Analysis Reveals Key Levels for 2026",
+    "date": "2026-04-04 10:29",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "NEUTRAL",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20レジスタンスで反落の兆し",
-      "RSIは中立圏で方向感乏しい",
-      "短期はレンジ内での攻防に"
+      "JPMorgan's Q1 crypto flow drop signals institutional caution",
+      "Ethereum staking progress nears 70,000 ETH target",
+      "HypurrFi domain hijacking creates short-term volatility",
+      "Cosmos ecosystem consolidation expected post-Leap Wallet shutdown"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20レジスタンスで上値の重さが確認され、RSIも中立圏で方向感に欠ける。短期はレンジ内でのもみ合い継続か。",
+    "excerpt": "Institutional outflows and Ethereum staking progress create conflicting signals for BTC/USD",
     "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "MA20レジスタンスで上値の重さ、RSI中立圏で方向感乏しい",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "comment": "Institutional outflows (-67% Q1) offset by Ethereum staking progress (66% target). Neutral bias with $55,000-$65,000 range. Bitflyer recommended for execution due to superior liquidity in this range.",
+    "entry": "55000",
+    "tp": "62000",
+    "sl": "52000",
     "reliability": "MEDIUM"
   }
 }
