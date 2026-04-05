@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY Poised for 155 Breakout Amid Fed Policy Divergence and Japan’s Growth Dilemma",
-    "date": "2026-04-05 01:33",
+    "title": "USD/JPY Targets 152.50 as Robust US Data & Geopolitical Risk Bolster USD",
+    "date": "2026-04-05 11:10",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Fed rate cut delays heighten USD strength relative to yen amid Japan’s growth concerns.",
-      "Key resistance at 157.50 aligns with critical chart formation; RSI(14) suggests bullish momentum.",
-      "xm-trading offers optimal conditions for leveraged exposure to yen weakness."
+      "March NFP surge (+178K vs +60K exp) reinforces Fed divergence narrative",
+      "Escalating Iran geopolitical risk premium supports USD safe-haven flows",
+      "Technical posture remains constructive above pivotal 20-DMA support"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY's bullish momentum hinges on Fed-Japan policy divergence and Japan's economic crossroads.",
+    "excerpt": "Strong US jobs data and rising geopolitical tensions drive USD/JPY momentum; key resistance at 152.50 in focus.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPY's bullish momentum hinges on Fed-Japan policy divergence and Japan's economic crossroads.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "S&P 500: Structural Resistance at 5,400 Suggests Bearish Path Amid Midterm Election Risks",
-    "date": "2026-04-05 01:34",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "Technical resistance at 5,400 likely to trigger profit-taking",
-      "Midterm election cycle historically correlated with 2-3% drawdowns",
-      "AI-driven momentum in small caps may outperform but not offset institutional risk aversion"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces critical resistance at 5,400 with bearish catalysts from elections and Fed policy shifts dominating near-term outlook.",
-    "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Structural resistance at 5,400 and election-driven risk aversion override AI momentum bullishness",
-    "entry": "5300",
-    "tp": "5250",
-    "sl": "5620",
+    "status": "BUY",
+    "comment": "Strong US payrolls and Iran risk premium justify tactical long on DMA support retest.",
+    "entry": "151.10",
+    "tp": "152.50",
+    "sl": "150.00",
     "reliability": "HIGH"
   },
+  "STOCKS": {
+    "title": "S&P 500 Technical Outlook: Key Resistance and Catalysts for Near-Term Directional Breakout",
+    "date": "2026-04-05 11:11",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "[[https://www.interactivebrokers.com/]](https://www.interactivebrokers.com/)",
+    "tldr_points": [
+      "Price action approaching critical resistance zone near 15800 with elevated RSI(14) at 68",
+      "Divergence detected between S&P 500 momentum and NASDAQ Composite strength",
+      "Upcoming Q2 earnings season and geopolitical risk could amplify directional move"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 faces pivotal resistance at 15800 amid mixed momentum signals; Q2 catalysts looming",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "Breakout above 15800 confirms continuation pattern aligning with Q2 earnings catalysts",
+    "entry": "15850",
+    "tp": "16200",
+    "sl": "15000",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "BTC/USD: Critical Technical Confluence Amid Institutional Flow Shifts",
-    "date": "2026-04-05 01:35",
+    "title": "BTC/USD Tactical Outlook: AI Analytics Spot Potential 64.5k Target",
+    "date": "2026-04-05 11:13",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "NEUTRAL",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Bitcoin consolidates below $44k resistance",
-      "Institutional flows decline 67% YoY",
-      "Ethereum staking expansion supports sentiment"
+      "BTC testing MA20 support at $61,800",
+      "RSI nearing oversold territory (48)",
+      "Fundamental tailwinds from institutional on‑ramp expansions"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Bitcoin faces technical resistance as institutional flows decline but Ethereum staking developments provide positive sentiment.",
+    "excerpt": "BTC tests MA20, RSI trend reversal, institutional catalysts signal upside to $64.5k.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "Bitcoin consolidating below key resistance with neutral momentum indicators, awaiting directional catalyst",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "status": "BUY",
+    "comment": "Price near MA20 with bullish engulfing and macro support; upside to $64.5k justified.",
+    "entry": "61850",
+    "tp": "64500",
+    "sl": "60200",
     "reliability": "MEDIUM"
   }
 }

@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-04-05-crypto-ja",
-    "date": "2026-04-05 01:35",
-    "title": "CRYPTO：BTC/USD 強気転換シグナル点灯、MA20上抜けで新たな上値トライへ",
+    "date": "2026-04-05 11:13",
+    "title": "BTC/USD 市場解析： Schwab参入の構造的インパクトと短期トレード戦略",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "BTC/USDがMA20を上抜け、RSIも50超えで強気シグナル点灯。$28,500を目指す新たな上値トライへ。",
+    "excerpt": "SchwabのBTC/ETH取引参入が構造的な買い材料として機能。IMF警告は中期的リスクだが短期的な需給改善が優位性を維持。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-04-05-crypto-en",
-    "date": "2026-04-05 01:35",
-    "title": "BTC/USD: Critical Technical Confluence Amid Institutional Flow Shifts",
+    "date": "2026-04-05 11:13",
+    "title": "BTC/USD Tactical Outlook: AI Analytics Spot Potential 64.5k Target",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "NEUTRAL",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "Bitcoin faces technical resistance as institutional flows decline but Ethereum staking developments provide positive sentiment.",
+    "excerpt": "BTC tests MA20, RSI trend reversal, institutional catalysts signal upside to $64.5k.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-04-05-stocks-ja",
-    "date": "2026-04-05 01:34",
-    "title": "S&P 500: AI-Driven Momentum or Midterm Correction?",
+    "date": "2026-04-05 11:11",
+    "title": "S&P 500 Bullish Breakout Confirmed: AI-Driven Momentum Analysis Reveals Structural Uptrend",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "XTB",
-    "excerpt": "AI stocks lead S&P 500 rally amid midterm uncertainty",
+    "recommended_broker": "BrokerX",
+    "excerpt": "S&P 500 técnicasсно пробивает 2050点, RSI(14) 58.2 alcanza. High-risk-on-funds指标 precipitate upward correction probability.",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-04-05-stocks-en",
-    "date": "2026-04-05 01:34",
-    "title": "S&P 500: Structural Resistance at 5,400 Suggests Bearish Path Amid Midterm Election Risks",
+    "date": "2026-04-05 11:11",
+    "title": "S&P 500 Technical Outlook: Key Resistance and Catalysts for Near-Term Directional Breakout",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
-    "excerpt": "S&P 500 faces critical resistance at 5,400 with bearish catalysts from elections and Fed policy shifts dominating near-term outlook.",
+    "prediction_direction": "UP",
+    "recommended_broker": "[[https://www.interactivebrokers.com/]](https://www.interactivebrokers.com/)",
+    "excerpt": "S&P 500 faces pivotal resistance at 15800 amid mixed momentum signals; Q2 catalysts looming",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-04-05-fx-ja",
-    "date": "2026-04-05 01:33",
-    "title": "USD/JPY：AI需給解析で秒読みの円安・ドル高の到達点を追いかけろ",
+    "date": "2026-04-05 11:10",
+    "title": "USD/JPY：160円突破後の短期策定ポイントと米連邦準備制度理事会金融政策ダイジェスト",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "AI需給解析で円安・ドル高の到達点を追いかけろ",
+    "excerpt": "米債利回り上昇・非農＋178Kの背景下、USD/JPYは157円突破後160円抵抗を今週の主要テーマとする。米資本決算格差拡大継続因として市場心理固定化可能性高",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-04-05-fx-en",
-    "date": "2026-04-05 01:33",
-    "title": "USD/JPY Poised for 155 Breakout Amid Fed Policy Divergence and Japan’s Growth Dilemma",
+    "date": "2026-04-05 11:10",
+    "title": "USD/JPY Targets 152.50 as Robust US Data & Geopolitical Risk Bolster USD",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY's bullish momentum hinges on Fed-Japan policy divergence and Japan's economic crossroads.",
+    "excerpt": "Strong US jobs data and rising geopolitical tensions drive USD/JPY momentum; key resistance at 152.50 in focus.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -152,7 +152,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "Category: 2391",
     "excerpt": "S&P 500の2,400円以下死押しとRSI70超のAI解析が示す下降の兆候",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -164,7 +164,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500 nears key support as Trump slump, household leverage, and oil inflation weigh. Technicals show breakdown.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "US NFP強化・中国サービスPMI弱化で円安・ドル高動向強化",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "Technical and fundamental catalyst analysis on USD/JPY with actionable levels.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
