@@ -1,28 +1,29 @@
 {
   "FX": {
-    "title": "FX Catalyst Analysis: USD/JPY Dynamics",
-    "date": "2026-04-05 17:39",
-    "genre": "FX Intelligence",
+    "title": "Countdown to 160? AI Analytics Identifies Target for USD/JPY Breakout",
+    "date": "2026-04-06 01:34",
+    "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "BALLOY",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "OYUNI-ROP",
-      "DYNASYSE"
+      "Bullish MA20 alignment signals upward momentum",
+      "RSI(14) above 60 confirms strong buyer control",
+      "Trump Iran deadline and FOMC Minutes create volatility catalysts"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Key catalysts drive uncertainty.",
+    "excerpt": "USD/JPY technicals align with bullish fundamentals as key macro events approach",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Divergence in Fed/BOJ sentiment demands immediate reaction.",
-    "entry": "0.025",
-    "tp": "0.01",
-    "sl": "1.2",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Bullish MA20 alignment and RSI momentum support upside target of 160.00",
+    "entry": "153.50",
+    "tp": "160.00",
+    "sl": "152.00",
+    "reliability": "HIGH"
   },
   "STOCKS": {
     "title": "S&P 500 市場分析",
-    "date": "2026-04-05",
+    "date": "2026-04-06",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "FLAT",
@@ -39,25 +40,25 @@
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD Tactical Brief: Institutional Liquidity Repricing & Regulatory Catalysts Ahead",
-    "date": "2026-04-05 17:42",
+    "title": "BTC/USD Outlook: AI Analytics Pinpoints $60K Breakout Amid Institutional Inflows",
+    "date": "2026-04-06 01:37",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Schwab on-ramp pipeline signals institutional absorption capacity",
-      "Tokenized settlement policy shifts accelerate flight to base-layer liquidity",
-      "On-chain supply illiquidity validates structural support and breakout asymmetry"
+      "Charles Schwab's upcoming BTC/Ether offering adds institutional tailwinds",
+      "On‑chain net inflows and reduced exchange outflows signal accumulation",
+      "Technical chart targets breach of $60,000 resistance"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Macro liquidity shifts and custodial expansions establish asymmetric upside parameters. Technical structure confirms momentum inflection above dynamic moving average confluence.",
+    "excerpt": "Institutional demand, on‑chain accumulation, and AI‑driven technical bias push BTC/USD toward a $60k breakout.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Institutional custodial expansion and on-chain supply deficits override near-term regulatory friction, validating momentum expansion above dynamic support.",
-    "entry": "104500.00",
-    "tp": "112500.00",
-    "sl": "98200.00",
+    "comment": "AI‑driven technical confluence and institutional inflows justify a breakout above $60k",
+    "entry": "57200",
+    "tp": "60000",
+    "sl": "54800",
     "reliability": "HIGH"
   }
 }
