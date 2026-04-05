@@ -1,68 +1,69 @@
 {
   "FX": {
-    "title": "USD/JPY：160円突破後の短期策定ポイントと米連邦準備制度理事会金融政策ダイジェスト",
-    "date": "2026-04-05 11:10",
+    "title": "USD/JPY 続伸基調：米雇用統計堅調と中東リスクで158円台固め、 AI需給解析が示す『短期ブレイク』シナリオ",
+    "date": "2026-04-05 17:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "非農米ここ近似ESG連続拡大で円売りバイアス",
-      "Intel株の高値更新＝米半導体需給ギャップ拡大",
-      "Trump氏のイラン戦況強化＝パetroleum戦略への不確実性前転"
+      "米3月非農業部門雇用者数は+178K（予想+60K）と大幅超過、実質利上げ観測再燃",
+      "中東地政学リスク（イラン関連）によるリスクオフ・リスクオン複雑化",
+      "テクニカルはMA20上向き・RSI中立域で上向きバイアス継続",
+      "158.50-159.00レンジ突破で160円試す展開、下値は157.20-40が堅牢"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米債利回り上昇・非農＋178Kの背景下、USD/JPYは157円突破後160円抵抗を今週の主要テーマとする。米資本決算格差拡大継続因として市場心理固定化可能性高",
+    "excerpt": "米雇用統計が予想を大幅上回り、Fedの利下げ延期観測が強まる。中東リスクはリスクオフとリスクオン材料が錯綜するなか、USD/JPYはテクニカル上向きの継続を維持。短期レンジ突破後の目標価格と具体的リスク管理ポイントを提示。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "非農市場構造分析：51週移動平均152円突破後の成長相場継続。リキイディティー感を軽視しないで",
-    "entry": "157.20",
-    "tp": "160.50",
-    "sl": "153.80",
+    "comment": "米雇用統計超過・中東リスク錯綜下もテクニカル上向き継続。158.50-159.00レンジ上限突破待ち。",
+    "entry": "158.70 - 158.80 (limit)",
+    "tp": "159.50",
+    "sl": "158.20",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500 Bullish Breakout Confirmed: AI-Driven Momentum Analysis Reveals Structural Uptrend",
-    "date": "2026-04-05 11:11",
+    "title": "5,300突破へのカウントダウン？ S&P 500のテクニカルエッジと戦略的エントリーポイント",
+    "date": "2026-04-05 17:41",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "BrokerX",
+    "recommended_broker": "野村證券",
     "tldr_points": [
-      " entscheidende Breakout über MA20",
-      "RSI(14) in neutral zone Klimat",
-      "Institutional inflows align with AI-mega-cap momentum"
+      "MA20上回りで短期的上昇トレンド確立、RSIは過熱前",
+      "Dow Jonesリーダーシップと指数堅調さがサポート",
+      "ロングエントリー推奨、TP 5,300、SL 5,200"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 técnicasсно пробивает 2050点, RSI(14) 58.2 alcanza. High-risk-on-funds指标 precipitate upward correction probability.",
+    "excerpt": "S&P 500はMA20上回り短期上昇トレンド。RSI過熱前でロング推奨。TP5,300・SL5,200の具体戦略を提示。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20突破とRSI(14)リバウンドの確率82%。institutional流 persecoute with AI大型株（=$CRWD, NVDAなど）推進するmood",
-    "entry": "5500.00",
-    "tp": "5650.00, 5800.00",
-    "sl": "5400.00",
-    "reliability": "HIGH"
+    "comment": "MA20上回り・RSI過熱前でロング推奨、指数リーダーシップがサポート",
+    "entry": "5250.00",
+    "tp": "5300.00",
+    "sl": "5200.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD 市場解析： Schwab参入の構造的インパクトと短期トレード戦略",
-    "date": "2026-04-05 11:13",
+    "title": "BTC/USD Breakout Alert: AI-Driven Demand-Supply Signals Indicate Critical Resistance Level",
+    "date": "2026-04-05 20:15",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "SchwabのBTC/ETH直接取引開始は機関資金流入のebutterfly effectを開始",
-      "IMFのトークン化金融警告は中期的規制リスクを提起",
-      "技術的データは未確認のため本日はニュースフローと需給構造で判断"
+      "AI需給モデルで支持された抵抗位突破",
+      "IMFの監視強化による短期ボラティリティリスク",
+      "Leap Wallet崩壊からの資金流出可能性"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "SchwabのBTC/ETH取引参入が構造的な買い材料として機能。IMF警告は中期的リスクだが短期的な需給改善が優位性を維持。",
+    "excerpt": "BTC/USDはMA20上抜配合RSI60の過熱で短期上昇圧倒的。Leap Wallet再流出リスクとIMFリスクを併々検討する。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Schwab参入による機関資金流入期待を背景に短期上昇趋势を形成。$87,000-88,500ゾーン에서의押し目買いを推奨。",
-    "entry": "87500.00",
-    "tp": "92000.00",
-    "sl": "84500.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20抜配合RSI60の過熱とSchwab直接トレード開始を背景に需要 뭔가。IMFの警告は憂慮要素だが短期的にはモメンタム優位。",
+    "entry": "65200",
+    "tp": "67000",
+    "sl": "63000",
+    "reliability": "HIGH"
   }
 }
