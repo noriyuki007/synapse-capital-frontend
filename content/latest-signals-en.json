@@ -1,68 +1,63 @@
 {
   "FX": {
-    "title": "USD/JPY Targets 152.50 as Robust US Data & Geopolitical Risk Bolster USD",
-    "date": "2026-04-05 11:10",
-    "genre": "FX",
+    "title": "FX Catalyst Analysis: USD/JPY Dynamics",
+    "date": "2026-04-05 17:39",
+    "genre": "FX Intelligence",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "BALLOY",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "March NFP surge (+178K vs +60K exp) reinforces Fed divergence narrative",
-      "Escalating Iran geopolitical risk premium supports USD safe-haven flows",
-      "Technical posture remains constructive above pivotal 20-DMA support"
+      "OYUNI-ROP",
+      "DYNASYSE"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Strong US jobs data and rising geopolitical tensions drive USD/JPY momentum; key resistance at 152.50 in focus.",
+    "excerpt": "Key catalysts drive uncertainty.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Strong US payrolls and Iran risk premium justify tactical long on DMA support retest.",
-    "entry": "151.10",
-    "tp": "152.50",
-    "sl": "150.00",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "Divergence in Fed/BOJ sentiment demands immediate reaction.",
+    "entry": "0.025",
+    "tp": "0.01",
+    "sl": "1.2",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500 Technical Outlook: Key Resistance and Catalysts for Near-Term Directional Breakout",
-    "date": "2026-04-05 11:11",
+    "title": "S&P 500 市場分析",
+    "date": "2026-04-05",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "[[https://www.interactivebrokers.com/]](https://www.interactivebrokers.com/)",
-    "tldr_points": [
-      "Price action approaching critical resistance zone near 15800 with elevated RSI(14) at 68",
-      "Divergence detected between S&P 500 momentum and NASDAQ Composite strength",
-      "Upcoming Q2 earnings season and geopolitical risk could amplify directional move"
-    ],
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces pivotal resistance at 15800 amid mixed momentum signals; Q2 catalysts looming",
+    "excerpt": "",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Breakout above 15800 confirms continuation pattern aligning with Q2 earnings catalysts",
-    "entry": "15850",
-    "tp": "16200",
-    "sl": "15000",
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD Tactical Outlook: AI Analytics Spot Potential 64.5k Target",
-    "date": "2026-04-05 11:13",
+    "title": "BTC/USD Tactical Brief: Institutional Liquidity Repricing & Regulatory Catalysts Ahead",
+    "date": "2026-04-05 17:42",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC testing MA20 support at $61,800",
-      "RSI nearing oversold territory (48)",
-      "Fundamental tailwinds from institutional on‑ramp expansions"
+      "Schwab on-ramp pipeline signals institutional absorption capacity",
+      "Tokenized settlement policy shifts accelerate flight to base-layer liquidity",
+      "On-chain supply illiquidity validates structural support and breakout asymmetry"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC tests MA20, RSI trend reversal, institutional catalysts signal upside to $64.5k.",
+    "excerpt": "Macro liquidity shifts and custodial expansions establish asymmetric upside parameters. Technical structure confirms momentum inflection above dynamic moving average confluence.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Price near MA20 with bullish engulfing and macro support; upside to $64.5k justified.",
-    "entry": "61850",
-    "tp": "64500",
-    "sl": "60200",
-    "reliability": "MEDIUM"
+    "comment": "Institutional custodial expansion and on-chain supply deficits override near-term regulatory friction, validating momentum expansion above dynamic support.",
+    "entry": "104500.00",
+    "tp": "112500.00",
+    "sl": "98200.00",
+    "reliability": "HIGH"
   }
 }
