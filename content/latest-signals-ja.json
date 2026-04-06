@@ -1,47 +1,47 @@
 {
   "FX": {
-    "title": "USD/JPY 160円突破のタイミングはどこか？AI需給解析が示す次の動きと戦術",
-    "date": "2026-04-06 01:34",
+    "title": "USD/JPY：100ピップのブレークアウトチャンス AI需給図による分岐点の再考",
+    "date": "2026-04-06 11:11",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米インフレ指標が堅調でドルが上値を狙う",
-      "RSIは過熱ゾーン（62）だがMA20上に位置し上昇トレンド継続",
-      "エントリーレベル158.90、TP162.00、SL157.00でリスク管理"
+      "伊ラン危機で円高圧力",
+      "米議会CPIでドル示範点検",
+      "RSI過買売りシグナル"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米CPIとFOMC議事録が示すドル高基調と、RSI62・MA20上のテクニカル構造から、USD/JPYは160円突破を狙える上昇局面が続くと判断される。",
+    "excerpt": "イラン危機の長期没収と米CPIの予想外フィードバックが円高の過熱燃料、RSI28においての売圧を解明する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20上でRSI62、米インフレ堅調と利上げ期待が支える上昇トレンド。160円突破が近い。",
-    "entry": "158.90",
-    "tp": "162.00",
-    "sl": "157.00",
+    "status": "SELL",
+    "comment": "RSI過買売りシグナルとイラングリッド危機による円高圧力の確率配分拡大",
+    "entry": "126.80",
+    "tp": "125.10",
+    "sl": "127.80",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500 rally at risk: Tariff tensions and Fed signals create volatile mix",
-    "date": "2026-04-06 01:36",
+    "title": "S&P 500: 160円突破は秒読みか？AI需給解析が示す円安・ドル高の「到達点」",
+    "date": "2026-04-06 11:12",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "[指定ブローカー]",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Iran port threat escalates pressure",
-      "Tariff rhetoric fuels uncertainty",
-      "Fed rate pause provides short-term support"
+      "円安・ドル高がS&P 500を上押し、MA20突破とRSI過熱が買いシグナルを支持",
+      "次の抵抗は約5,350ドル、TPは5,400ドル、SLは5,250ドルを提示",
+      "流動性確保のため対応力のあるブローカーを推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces dual headwinds from Iran conflicts and trade rhetoric. A technical breakout above $5,050 hinges on geopolitical resolution.",
+    "excerpt": "円安・ドル高がS&P 500を上押し、MA20突破とRSI過熱が買いシグナルを裏付け、次の抵抗水準は約5,350ドルでTP5,400・SL5,250を提示",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P 500 faces dual headwinds from Iran conflicts and trade rhetoric. A technical breakout above $5,050 hinges on geopolitical resolution.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "上昇トレンド継続、MA20突破とRSI過熱が支撓",
+    "entry": "5300.00",
+    "tp": "5400.00",
+    "sl": "5250.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
     "title": "BTC/USD 市場分析",
@@ -54,11 +54,11 @@
     "chart_image": "/images/market-analysis-crypto.png",
     "excerpt": "",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "価格はMA20 below、RSI45で弱心理、下押し期待",
-    "entry": "68300",
-    "tp": "66500",
-    "sl": "70200",
+    "status": "BUY",
+    "comment": "AI adoption catalysts + $62K breakout invalidates bear case",
+    "entry": "61500",
+    "tp": "63500",
+    "sl": "60000",
     "reliability": "HIGH"
   }
 }

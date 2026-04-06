@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "Countdown to 160? AI Analytics Identifies Target for USD/JPY Breakout",
-    "date": "2026-04-06 01:34",
+    "title": "USD/JPY 市場分析",
+    "date": "2026-04-06 11:11",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Bullish MA20 alignment signals upward momentum",
-      "RSI(14) above 60 confirms strong buyer control",
-      "Trump Iran deadline and FOMC Minutes create volatility catalysts"
+      "RSI divergence signals bullish reversal",
+      "MA20 support at 159.50",
+      "FOMC minutes catalyst for USD strength"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY technicals align with bullish fundamentals as key macro events approach",
+    "excerpt": "RSI divergence confirms bullish reversal; MA20 support at 159.50; FOMC minutes to drive USD strength",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish MA20 alignment and RSI momentum support upside target of 160.00",
-    "entry": "153.50",
-    "tp": "160.00",
-    "sl": "152.00",
+    "comment": "RSI divergence + MA20 rejection confirms bullish reversal; FOMC risk narrative supports USD strength",
+    "entry": "160.00",
+    "tp": "162.00",
+    "sl": "158.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500 市場分析",
-    "date": "2026-04-06",
+    "title": "S&P 500: Geopolitical Crosswinds Create Technical Inflection Point",
+    "date": "2026-04-06 11:12",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "tldr_points": [],
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "Iran tensions elevate volatility and oil prices",
+      "Technical indicators show consolidation around 4,950",
+      "Defensive positioning recommended amid uncertainty"
+    ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "",
+    "excerpt": "S&P 500 faces critical technical test as geopolitical tensions drive market volatility.",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "comment": "Geopolitical tensions and oil price movements create balanced technical signals around 4,950",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD Outlook: AI Analytics Pinpoints $60K Breakout Amid Institutional Inflows",
-    "date": "2026-04-06 01:37",
+    "title": "COUNTDOWN TO $30K: AI-Driven Analysis Pinpoints BTC/USD Breakout Path",
+    "date": "2026-04-06 11:15",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Charles Schwab's upcoming BTC/Ether offering adds institutional tailwinds",
-      "On‑chain net inflows and reduced exchange outflows signal accumulation",
-      "Technical chart targets breach of $60,000 resistance"
+      "BTC poised above key SMA20 rebound",
+      "RSI nearing neutral but trending upward",
+      "Macro catalysts: institutional entry & regulatory clarity"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Institutional demand, on‑chain accumulation, and AI‑driven technical bias push BTC/USD toward a $60k breakout.",
+    "excerpt": "BTC/USD likely to accelerate higher as technical support consolidates and macro fundamentals shift toward institutional adoption.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "AI‑driven technical confluence and institutional inflows justify a breakout above $60k",
-    "entry": "57200",
-    "tp": "60000",
-    "sl": "54800",
-    "reliability": "HIGH"
+    "comment": "Bullish breakout expected above 30,650 after MA20 support holds.",
+    "entry": "29995",
+    "tp": "30650",
+    "sl": "29600",
+    "reliability": "MEDIUM"
   }
 }

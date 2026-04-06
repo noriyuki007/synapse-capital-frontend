@@ -1,61 +1,61 @@
 [
   {
     "id": "2026-04-06-crypto-en",
-    "date": "2026-04-06 01:37",
-    "title": "BTC/USD Outlook: AI Analytics Pinpoints $60K Breakout Amid Institutional Inflows",
+    "date": "2026-04-06 11:15",
+    "title": "COUNTDOWN TO $30K: AI-Driven Analysis Pinpoints BTC/USD Breakout Path",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "Institutional demand, on‑chain accumulation, and AI‑driven technical bias push BTC/USD toward a $60k breakout.",
+    "excerpt": "BTC/USD likely to accelerate higher as technical support consolidates and macro fundamentals shift toward institutional adoption.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-04-06-stocks-ja",
-    "date": "2026-04-06 01:36",
-    "title": "S&P 500 rally at risk: Tariff tensions and Fed signals create volatile mix",
+    "date": "2026-04-06 11:12",
+    "title": "S&P 500: 160円突破は秒読みか？AI需給解析が示す円安・ドル高の「到達点」",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "[指定ブローカー]",
-    "excerpt": "S&P 500 faces dual headwinds from Iran conflicts and trade rhetoric. A technical breakout above $5,050 hinges on geopolitical resolution.",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "円安・ドル高がS&P 500を上押し、MA20突破とRSI過熱が買いシグナルを裏付け、次の抵抗水準は約5,350ドルでTP5,400・SL5,250を提示",
     "result": "PENDING",
     "locale": "ja"
   },
   {
+    "id": "2026-04-06-stocks-en",
+    "date": "2026-04-06 11:12",
+    "title": "S&P 500: Geopolitical Crosswinds Create Technical Inflection Point",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 faces critical technical test as geopolitical tensions drive market volatility.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-04-06-fx-ja",
-    "date": "2026-04-06 01:34",
-    "title": "USD/JPY 160円突破のタイミングはどこか？AI需給解析が示す次の動きと戦術",
+    "date": "2026-04-06 11:11",
+    "title": "USD/JPY：100ピップのブレークアウトチャンス AI需給図による分岐点の再考",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
-    "excerpt": "米CPIとFOMC議事録が示すドル高基調と、RSI62・MA20上のテクニカル構造から、USD/JPYは160円突破を狙える上昇局面が続くと判断される。",
+    "excerpt": "イラン危機の長期没収と米CPIの予想外フィードバックが円高の過熱燃料、RSI28においての売圧を解明する。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-04-06-fx-en",
-    "date": "2026-04-06 01:34",
-    "title": "Countdown to 160? AI Analytics Identifies Target for USD/JPY Breakout",
+    "date": "2026-04-06 11:11",
+    "title": "FX Analysis",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY technicals align with bullish fundamentals as key macro events approach",
-    "result": "PENDING",
-    "locale": "en"
-  },
-  {
-    "id": "2026-04-06-stocks-en",
-    "date": "2026-04-06",
-    "title": "STOCKS Analysis",
-    "genre": "STOCKS",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
+    "excerpt": "RSI divergence confirms bullish reversal; MA20 support at 159.50; FOMC minutes to drive USD strength",
     "result": "PENDING",
     "locale": "en"
   },
@@ -152,7 +152,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "excerpt": "JPMorganの流入減少とMA20未突破が下落リスクを示唆。売りエントリ61,800円、TP58,200円、SL63,500円を推奨。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "AI-driven analysis spots bullish divergence; key resistance at $66k, target $68.2k.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "3月NFPの大幅上振れ（+178K）と地政学リスク再燃がドル高を後押し。テクニカルレンジ上限ブレイク試すが、 mVIX 上昇で逆行リスクは警戒。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "",
     "excerpt": "",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
