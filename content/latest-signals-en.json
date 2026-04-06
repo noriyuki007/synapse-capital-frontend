@@ -1,7 +1,7 @@
 {
   "FX": {
     "title": "USD/JPY 市場分析",
-    "date": "2026-04-06",
+    "date": "2026-04-07",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "FLAT",
@@ -10,55 +10,51 @@
     "chart_image": "/images/market-analysis-fx.png",
     "excerpt": "",
     "pair": "USD/JPY",
+    "status": "BUY",
+    "comment": "Breakout above 158.27 confirms cup-and-handle completion, targeting 160.50",
+    "entry": "158.30",
+    "tp": "160.50",
+    "sl": "156.50",
+    "reliability": "HIGH"
+  },
+  "STOCKS": {
+    "title": "S&P500 on Critical Threshold: Technicals Decide Next Move Amid Iran Uncertainty",
+    "date": "2026-04-07 01:45",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP or DOWN or FLAT",
+    "recommended_broker": "For executing this specific setup, we recommend utilizing [Interactive Brokers] due to optimal liquidity.",
+    "tldr_points": [
+      "Iran ceasefire dynamics weigh on market sentiment",
+      "MA20 resistance at $5,250 pivotal",
+      "RSI(14) divergence suggests short-term volatility"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 faces critical technical bifurcation as geopolitical news masks mixed fundamentals",
+    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
+    "comment": "Breakout confirmation required at MA20; pending geopolitical catalyst resolution.",
+    "entry": "5250.00",
+    "tp": "5400.00",
+    "sl": "5050.00",
+    "reliability": "MEDIUM"
+  },
+  "CRYPTO": {
+    "title": "BTC/USD 市場分析",
+    "date": "2026-04-07",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "bybit",
+    "tldr_points": [],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "Key trends point to a potential BTC/USD rebound, pending RSI divergence.",
+    "pair": "BTC/USD",
+    "status": "NEUTRAL",
+    "comment": "Key trends point to a potential BTC/USD rebound, pending RSI divergence.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "S&P 500: Institutional Intelligence Report - Tactical Positioning Ahead of Tech Rotation",
-    "date": "2026-04-06 18:06",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "NEUTRAL",
-    "recommended_broker": "",
-    "tldr_points": [
-      "Tech rotation dynamics evolving",
-      "Vanguard index funds showing relative strength",
-      "Ceasefire developments supporting risk sentiment"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 technical framework neutral with mixed signals amid semiconductor rotation and geopolitical developments.",
-    "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Consolidation phase with mixed technical signals amid sector rotation and geopolitical developments",
-    "entry": "5,500",
-    "tp": "5,600",
-    "sl": "5,450",
-    "reliability": "MEDIUM"
-  },
-  "CRYPTO": {
-    "title": "BTC/USD: Institutional Momentum Targets 160k Resistance",
-    "date": "2026-04-06 18:08",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bybit",
-    "tldr_points": [
-      "RSI divergence signals bullish momentum",
-      "160k resistance critical for breakout",
-      "Charles Schwab ETF waitlist may drive institutional inflows"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD poised for 160k breakout on RSI divergence and institutional catalysts",
-    "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "RSI divergence + MA20 break signals institutional momentum toward 160k resistance",
-    "entry": "0.00",
-    "tp": "160000.00",
-    "sl": "149000.00",
-    "reliability": "HIGH"
   }
 }
