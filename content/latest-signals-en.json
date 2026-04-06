@@ -1,68 +1,64 @@
 {
   "FX": {
     "title": "USD/JPY 市場分析",
-    "date": "2026-04-06 11:11",
+    "date": "2026-04-06",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
-    "tldr_points": [
-      "RSI divergence signals bullish reversal",
-      "MA20 support at 159.50",
-      "FOMC minutes catalyst for USD strength"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "RSI divergence confirms bullish reversal; MA20 support at 159.50; FOMC minutes to drive USD strength",
+    "excerpt": "",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "RSI divergence + MA20 rejection confirms bullish reversal; FOMC risk narrative supports USD strength",
-    "entry": "160.00",
-    "tp": "162.00",
-    "sl": "158.50",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500: Geopolitical Crosswinds Create Technical Inflection Point",
-    "date": "2026-04-06 11:12",
+    "title": "S&P 500: Institutional Intelligence Report - Tactical Positioning Ahead of Tech Rotation",
+    "date": "2026-04-06 18:06",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "NEUTRAL",
+    "recommended_broker": "",
     "tldr_points": [
-      "Iran tensions elevate volatility and oil prices",
-      "Technical indicators show consolidation around 4,950",
-      "Defensive positioning recommended amid uncertainty"
+      "Tech rotation dynamics evolving",
+      "Vanguard index funds showing relative strength",
+      "Ceasefire developments supporting risk sentiment"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces critical technical test as geopolitical tensions drive market volatility.",
+    "excerpt": "S&P 500 technical framework neutral with mixed signals amid semiconductor rotation and geopolitical developments.",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "Geopolitical tensions and oil price movements create balanced technical signals around 4,950",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "comment": "Consolidation phase with mixed technical signals amid sector rotation and geopolitical developments",
+    "entry": "5,500",
+    "tp": "5,600",
+    "sl": "5,450",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "COUNTDOWN TO $30K: AI-Driven Analysis Pinpoints BTC/USD Breakout Path",
-    "date": "2026-04-06 11:15",
+    "title": "BTC/USD: Institutional Momentum Targets 160k Resistance",
+    "date": "2026-04-06 18:08",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC poised above key SMA20 rebound",
-      "RSI nearing neutral but trending upward",
-      "Macro catalysts: institutional entry & regulatory clarity"
+      "RSI divergence signals bullish momentum",
+      "160k resistance critical for breakout",
+      "Charles Schwab ETF waitlist may drive institutional inflows"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD likely to accelerate higher as technical support consolidates and macro fundamentals shift toward institutional adoption.",
+    "excerpt": "BTC/USD poised for 160k breakout on RSI divergence and institutional catalysts",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Bullish breakout expected above 30,650 after MA20 support holds.",
-    "entry": "29995",
-    "tp": "30650",
-    "sl": "29600",
-    "reliability": "MEDIUM"
+    "comment": "RSI divergence + MA20 break signals institutional momentum toward 160k resistance",
+    "entry": "0.00",
+    "tp": "160000.00",
+    "sl": "149000.00",
+    "reliability": "HIGH"
   }
 }
