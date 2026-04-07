@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-04-08-crypto-ja",
+    "date": "2026-04-08 01:57",
+    "title": "BTC/USD：CME 24/7 デリバティブ開始と資金流入が示す上昇シナリオ",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "CME の 24/7 デリバティブ提供と暗号資金のリスクオン流入が合致し、BTC/USD は MA20 上抜けと RSI 57 に裏打ちされた上昇トレンドが継続。実行は流動性の高い bitflyer を推奨。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-08-crypto-en",
+    "date": "2026-04-08 01:57",
+    "title": "Bitcoin Technicals: Key Resistance and Oversold Conditions Signal Potential Reversal",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD teeters between reversal and breakdown as institutional catalysts converge on technical pivotal points.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-08-stocks-en",
+    "date": "2026-04-08 01:56",
+    "title": "S&P 500 Institutional Analysis",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "NEUTRAL",
+    "recommended_broker": "Institutional Liquidity Broker",
+    "excerpt": "120 character summary",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-08-fx-ja",
+    "date": "2026-04-08 01:55",
+    "title": "USD/JPY突破の鍵は米インフレ期待か？AI需給解析が示す次の抵抗帯とエントリーポイント",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "米国の1年インフレ期待が3.4%に上昇し、ドル指数が堅調。USD/JPYはMA20を上抜け、RSIが55へ回復。短期的な買いポジションを154.30でエントリーし、156.20を目標に設定。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-08-fx-en",
+    "date": "2026-04-08 01:55",
+    "title": "FX: Institutional Market Intelligence",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY eyes 157.0 target as upside momentum strengthens amid rising US inflation expectations",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-08-stocks-ja",
+    "date": "2026-04-08",
+    "title": "STOCKS Analysis",
+    "genre": "STOCKS",
+    "target_pair": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
     "id": "2026-04-07-crypto-ja",
     "date": "2026-04-07 18:02",
     "title": "BTC/USD需給分析：ETF大規模流入とクジラの売り意向が衝突─今週の攻防ポイントを直言",
