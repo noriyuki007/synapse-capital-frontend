@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY、160円攻防の分岐点か？AI需給解析が示す円安・ドル高の『到達点』と戦略的エントリー水準",
-    "date": "2026-04-07 11:07",
+    "title": "FX：160円突破の行方は円安トレード危機か？市場構造分岐点の警告サイン",
+    "date": "2026-04-05 16:45",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "人民銀がUSD/CNY想定上回る設定でドル需要を示唆",
-      "イラン合意交渉の期限切れで地政学リスク再燃、円逃避買い抑制",
-      "160円台攻防の核心水準158.50-160.00のレンジブレイクが短期方向性を決定"
+      "UK3月PMI50.5連動の円売りヘッジ強化",
+      "ユーロ圏信頼感-19.2で米国セントラルバンク優位性突出",
+      "金スタジメント終了寸前で日経225円差圧力"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "人民銀の人民元設定レートが市場予想を0.8銭上回りドル需要の底堅さを示唆。イラン合意の今週期限切れでリスクオフ再燃の可能性も。158.50-160.00のレンジブレイクが短期方向性を決定する。",
+    "excerpt": "円高需要の兆候強まる米高金利ペテンバレのングループ、技術崩れの危機点分析を連載。最新ニュースバイアスとMACDの背伸びリスクを連動的に解読。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "人民銀の参考レート設定がドル需要を示唆。158.50 поддержка維持で160.00レジスタンスブレイク目指す。",
-    "entry": "159.80",
-    "tp": "160.80",
-    "sl": "158.00",
-    "reliability": "MEDIUM"
+    "comment": "米国CPI高値追求と日銀の流動性制約が背景。MACDゴールデンクロス構造が継続指標を支える",
+    "entry": "161.8",
+    "tp": "165.0",
+    "sl": "158.5",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500：イラン合意期限通過後の需給バランスの変化を読み解く　タカ派ハト派双方のシナリオ分析",
-    "date": "2026-04-07 11:09",
+    "title": "S&P 500 が再び上昇軌道へ：AI・マーケットデータ駆動の短期戦術",
+    "date": "2026-04-07 18:00",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "IG証券",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "イラン合意期限通過で地政学リスク一旦後退、株高サポート",
-      "Casey'sのS&P500採用で小型株セクターの資金流入期待",
-      "5,900-6,000ドルのレンジ突破が次のトレンド確定の条件"
+      "主要テクノロジー巨頭の警告が買い圧力を後押し",
+      "RSIは上昇トレンドに進入し、MA20でのゴールデンクロスが形成",
+      "シンプルなトレード構造で1.5%のTPと1%のSLを設定"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "地政学リスク緩和を背景にS&P500は上値切り上げ展開。Casey'sのS&P500採用が小型株セクターを刺激し、需給バランスは買い優勢へ転換。",
+    "excerpt": "最新ニュースとAI解析により、S&P 500は短期的に上昇基調にあると判断。MA20クロスとRSI上昇を筋書きに、BUY戦略を提案します。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "イランリスク後退・Casey'sのS&P500採用を背景に需給バランスは買い優勢。5,920-5,940ドルで押し目買いエントリー、6,050ドルをTP、5,850ドルをSLに設定。",
-    "entry": "5920-5940",
-    "tp": "6050",
-    "sl": "5850",
-    "reliability": "MEDIUM"
+    "comment": "MA20上昇クロスとRSI上昇が示す短期上昇モメンタム",
+    "entry": "4280",
+    "tp": "4305",
+    "sl": "4242",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "BTC/USD 市場分析",
-    "date": "2026-04-07",
+    "title": "BTC/USD需給分析：ETF大規模流入とクジラの売り意向が衝突─今週の攻防ポイントを直言",
+    "date": "2026-04-07 18:02",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "tldr_points": [],
+    "tldr_points": [
+      "Spot BTC ETFが6週間ぶり 대규모流入（4.71億ドル）を記録、機関投資家の買い戻しが鮮明",
+      "約2000万ドルのBTCがBinanceへ移動、クジラによる売り圧力示唆も、流動性観点から影響限定的",
+      "テクニカルではMA20上を維持しRSI(14)は60台後半でモメンタム継続、押し目買い戦略が有効"
+    ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "",
+    "excerpt": "ETF大規模流入で機関投資家の買い戻しが加速、クジラのBinance移動は売り意向だが流動性観点から影響限定的。MA20上での維持を確認し押し目買いでエントリー。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "AI需給シナプスがRSI58を底支え、MA20上抜けで上昇トレンド継続。",
-    "entry": "71000",
-    "tp": "73500",
-    "sl": "69400",
+    "comment": "ETF大規模流入（4.71億USD）がクジラの売り意向（20M USD）を大幅に上回り、需給バランスは買い優勢。MA20上での保ち合い継続を確認。",
+    "entry": "82500",
+    "tp": "86500",
+    "sl": "80500",
     "reliability": "HIGH"
   }
 }
