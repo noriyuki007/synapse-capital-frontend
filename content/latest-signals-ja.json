@@ -1,68 +1,64 @@
 {
   "FX": {
-    "title": "USD/JPY市場の変動分析と市場影響の解析",
-    "date": "2026-04-08 17:58",
+    "title": "USD/JPY：Fed政権崩壊の断層線か？AI信号解析から提示される円安ドル高の包括図",
+    "date": "2026-04-09 01:58",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "主요要項",
-      "データ分析",
-      "戦略提言"
+      "Fedの量的緩和シフトシグナル確認後、短期的には円高バイアス",
+      "108.50円下抜けでTP開始、ストップゲージ110.20円",
+      "RSI乖離(14)は空頭発散を指摘"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "市場の複雑性の下での分岐点分析が推し出せました",
+    "excerpt": "Fedの資産増拡スケジュールとドル円のチクカパスを分岐したテクンロジーで、大陸と米市場の信頼バランスが劇的な変化を起こす展望。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "需給変動に基づきの方向性の判断",
-    "entry": "0.02",
-    "tp": "0.08",
-    "sl": "0.01",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Fedの量的緩和シフト確認後、トランプの地政学介入リスクをヘッジ。RSI(14)の過熱パターン到達",
+    "entry": "108.90",
+    "tp": "108.50, 108.15",
+    "sl": "110.20",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P500米国株高止まる－Relative Strength Index解析が示す次なる局面",
-    "date": "2026-04-08 17:59",
+    "title": "S&P 500 市場分析",
+    "date": "2026-04-09",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "ABC証券",
-    "tldr_points": [
-      "RSIが70超え局面で上値抵抗",
-      "MA20を上回る上昇トレンド継続",
-      "リスク許容度を考慮した短期的仕込み推奨"
-    ],
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はRSI70超え、MA20を上回り続ける中、短期的仕込み機会が顕在化。リスク管理を徹底した上で、流動性の高いABC証券を活用せよ。",
+    "excerpt": "",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P500はRSI70超え、MA20を上回り続ける中、短期的仕込み機会が顕在化。リスク管理を徹底した上で、流動性の高いABC証券を活用せよ。",
+    "comment": "シナプス解析に基づくシグナル",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD 短期上昇シナリオ：MA20突破とRSI急上昇が示す10%上昬目標",
-    "date": "2026-04-08 18:00",
+    "title": "BTC/USD：米国安定コイン規制と量子アップグレード後の上昇シナリオ",
+    "date": "2026-04-09 02:01",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20超えで上値余地確保",
-      "RSI14が70超えに接近",
-      "10%上昬のTP設定でリスク回避"
+      "米国安定コイン規制が流動性拡大を促す",
+      "量子耐性アップグレードでリスクプレミアム低減",
+      "MA20上抜けとRSI回復でロングエントリー根拠"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "円安期待と米国金利低下の余地がBTC/USDを上押し、MA20が突破しRSI(14)が70超えに接近、10%上昬の目標達成が技術的に支持される可能性が高い",
+    "excerpt": "米国の安定コイン規制とビットコインの量子耐性アップグレードが市場リスクを低減し、BTC/USD の上昇トリガーとなる。MA20上抜けとRSI回復を根拠に、35,200‑35,800 のエントリーレンジを狙うロング戦略を提示。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "円安期待と米国金利低下の余地がBTC/USDを上押し、MA20が突破しRSI(14)が70超えに接近、10%上昬の目標達成が技術的に支持される可能性が高い",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20上抜け＋RSI回復がロング根拠。安定コイン規制でリスク低減、量子アップグレードでプレミアム縮小。",
+    "entry": "35200-35800",
+    "tp": "36500-38200-40000",
+    "sl": "34650",
+    "reliability": "HIGH"
   }
 }
