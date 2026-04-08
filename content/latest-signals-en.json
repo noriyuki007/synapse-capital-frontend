@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY 市場分析",
-    "date": "2026-04-08",
+    "title": "Countdown to 150? Synapse Analytics Charts Downside Path for USD/JPY as Risk-Off Accelerates",
+    "date": "2026-04-09 01:58",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
-    "tldr_points": [],
+    "tldr_points": [
+      "Geopolitical tensions and equity market weakness boost JPY safe-haven demand",
+      "Upcoming US Treasury auction adds volatility but risk sentiment dominates",
+      "Technical break below MA20 and RSI dip confirm bearish bias"
+    ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "",
+    "excerpt": "USD/JPY bears target 150 as risk aversion intensifies; technicals reinforce downside.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Bullish breakout above RSI momentum and MA20 support",
-    "entry": "158.10",
-    "tp": "160.50",
-    "sl": "155.80",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "Bearish tactical setup on risk-off sentiment and technical breakdown below MA20.",
+    "entry": "155.50",
+    "tp": "152.50",
+    "sl": "157.00",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500 Technical Outlook: Near‑Term Bullish Momentum",
-    "date": "2026-04-08 17:59",
+    "title": "S&P 500 Bullish Breakout Targets 5,300 Amid Geopolitical Easing",
+    "date": "2026-04-09 02:00",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price holds above MA20 support at 4,480",
-      "RSI(14) at 66, signaling strengthening momentum",
-      "Key resistance at 4,560 poised for breakout"
+      "Resistance at 5,300 tested as Iran ceasefire reduces risk premium",
+      "MA20 support holds, price trading 1.5% above trend",
+      "RSI(14) at 68 – bullish but approaching overbought threshold"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 eyes upside continuation as technicals align and macro catalysts support bullish bias.",
+    "excerpt": "S&P 500 rallies on Iran ceasefire, eyeing resistance; RSI near overbought, bullish bias persists.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Bullish momentum confirmed above MA20 with RSI at 66, targeting 4,620.",
-    "entry": "4512",
-    "tp": "4620",
-    "sl": "4440",
+    "comment": "Upward momentum supported by geopolitical easing and price above MA20",
+    "entry": "5250.00",
+    "tp": "5300.00",
+    "sl": "5200.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "CRYPTO: Institutional Market Intelligence",
-    "date": "2026-04-08 18:00",
+    "title": "BTC/USD Tactical Outlook: Capital Flow & Regulatory Pulse",
+    "date": "2026-04-09 02:01",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "NEUTRAL",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Mixed macro catalysts create range-bound bias",
-      "RSI divergence signals potential consolidation",
-      "Swiss stablecoin developments impact USD liquidity"
+      "Stablecoin regulation tightening may rein in speculative inflows",
+      "ETH's strategic shift to stablecoins signals broader institutional shift",
+      "Bitcoin payments for Iranian tanker tolls could boost on‑chain activity"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD consolidates near MA20 amid regulatory and macro uncertainty",
+    "excerpt": "Key catalysts and technical drivers point to a bullish bias for BTC/USD with a target near $87,500.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USD consolidates near MA20 amid regulatory and macro uncertainty",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Technical breakout above MA20 coupled with institutional flow signals a medium‑term rally.",
+    "entry": "86300",
+    "tp": "87500",
+    "sl": "85500",
+    "reliability": "HIGH"
   }
 }
