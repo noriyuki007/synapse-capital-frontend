@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY 市場分析",
-    "date": "2026-04-08 11:08",
+    "title": "USD/JPY市場の変動分析と市場影響の解析",
+    "date": "2026-04-08 17:58",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "AI解析が示す上値シナリオ",
-      "MA20とRSIに基むエントリーポイント",
-      "具体的TP・SL設定"
+      "主요要項",
+      "データ分析",
+      "戦略提言"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "AIシナプス解析が示すUSD/JPYの上昇トレンドとリスク許容範囲。",
+    "excerpt": "市場の複雑性の下での分岐点分析が推し出せました",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "上値抵抗は156.00、支持線は154.00。RSI66で過熱感なし。",
-    "entry": "155.30",
-    "tp": "156.00",
-    "sl": "154.00",
-    "reliability": "HIGH"
+    "comment": "需給変動に基づきの方向性の判断",
+    "entry": "0.02",
+    "tp": "0.08",
+    "sl": "0.01",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500：地政学リスク後退で勢い加速、テクニカルは強気サイン点灯",
-    "date": "2026-04-08 11:12",
+    "title": "S&P500米国株高止まる－Relative Strength Index解析が示す次なる局面",
+    "date": "2026-04-08 17:59",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "IG証券",
+    "recommended_broker": "ABC証券",
     "tldr_points": [
-      "地政学リスク後退で買い戻し加速",
-      "RSIは強気圏、MA20突破で上値余地拡大",
-      "短期ターゲット4,200、ストップ4,100"
+      "RSIが70超え局面で上値抵抗",
+      "MA20を上回る上昇トレンド継続",
+      "リスク許容度を考慮した短期的仕込み推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "イラン停戦合意で地政学リスク後退、テクニカルは強気サイン点灯。RSIは強気圏、MA20突破で上値余地拡大。短期ターゲット4,200、ストップ4,100。",
+    "excerpt": "S&P500はRSI70超え、MA20を上回り続ける中、短期的仕込み機会が顕在化。リスク管理を徹底した上で、流動性の高いABC証券を活用せよ。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "地政学リスク後退で買い戻し加速、RSI強気圏でMA20突破視野",
-    "entry": "4150",
-    "tp": "4200",
-    "sl": "4100",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P500はRSI70超え、MA20を上回り続ける中、短期的仕込み機会が顕在化。リスク管理を徹底した上で、流動性の高いABC証券を活用せよ。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "地政学リスク緩和と制度化の加速：BTC/USD、短期的なボラティリティを伴う上昇トレンドへの回帰",
-    "date": "2024-05-22 10:00",
+    "title": "BTC/USD 短期上昇シナリオ：MA20突破とRSI急上昇が示す10%上昬目標",
+    "date": "2026-04-08 18:00",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "米イラン停戦協議によるリスクオンへの転換",
-      "FDICによるステーブルコイン規制枠組みの提示で制度的信頼性が向上",
-      "資産運用会社による少額エクスポージャーの正当化が流入を加速"
+      "MA20超えで上値余地確保",
+      "RSI14が70超えに接近",
+      "10%上昬のTP設定でリスク回避"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "地政学的緊張の緩和と米当局によるステーブルコイン規制の具体化が、BTCの底堅さを支持。短期的な調整リスクはあるが、中長期的には機関投資家のポートフォリオ組み入れが進む強気相場を想定。",
+    "excerpt": "円安期待と米国金利低下の余地がBTC/USDを上押し、MA20が突破しRSI(14)が70超えに接近、10%上昬の目標達成が技術的に支持される可能性が高い",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "地政学リスク緩和によるリスクオン転換と、米規制当局による制度化の進展を根拠とする強気相場。",
-    "entry": "Current Market Price (Wait for MA20 pullback)",
-    "tp": "Targeting previous All-Time High / Extension levels",
-    "sl": "Below recent swing low",
+    "status": "NEUTRAL",
+    "comment": "円安期待と米国金利低下の余地がBTC/USDを上押し、MA20が突破しRSI(14)が70超えに接近、10%上昬の目標達成が技術的に支持される可能性が高い",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
