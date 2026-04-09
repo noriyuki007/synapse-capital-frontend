@@ -1,24 +1,24 @@
 {
   "FX": {
-    "title": "USD/JPY：Fed政権崩壊の断層線か？AI信号解析から提示される円安ドル高の包括図",
-    "date": "2026-04-09 01:58",
+    "title": "USD/JPY 155円突破が示す円安・ドル高の到達点―本日のAI解析が示す戦術的エントリー",
+    "date": "2026-04-09 11:00",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "Fedの量的緩和シフトシグナル確認後、短期的には円高バイアス",
-      "108.50円下抜けでTP開始、ストップゲージ110.20円",
-      "RSI乖離(14)は空頭発散を指摘"
+      "円安・ドル高の勢いが再燃",
+      "RSIが過熱区域に接近",
+      "MA20上抜けが新たな支持線に転換"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Fedの資産増拡スケジュールとドル円のチクカパスを分岐したテクンロジーで、大陸と米市場の信頼バランスが劇的な変化を起こす展望。",
+    "excerpt": "USD/JPYが155円を突破、円安·ドル高の流れが加速。RSI過熱で上値余地縮小、MA20が支援線へ転換。戦略は[dmm-fx]推奨",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Fedの量的緩和シフト確認後、トランプの地政学介入リスクをヘッジ。RSI(14)の過熱パターン到達",
-    "entry": "108.90",
-    "tp": "108.50, 108.15",
-    "sl": "110.20",
+    "status": "BUY",
+    "comment": "MA20上抜けとRSI過熱が上昇トレンドを裏付け",
+    "entry": "155.20",
+    "tp": "156.00",
+    "sl": "154.30",
     "reliability": "HIGH"
   },
   "STOCKS": {
@@ -40,25 +40,25 @@
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD：米国安定コイン規制と量子アップグレード後の上昇シナリオ",
-    "date": "2026-04-09 02:01",
+    "title": "BTC/USD 市場分析",
+    "date": "2026-04-09 11:01",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "米国安定コイン規制が流動性拡大を促す",
-      "量子耐性アップグレードでリスクプレミアム低減",
-      "MA20上抜けとRSI回復でロングエントリー根拠"
+      "ETF inflows spike $34M on MSBT",
+      "USDC overtakes USDT in card payments",
+      "RSI(14) at historic lows"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "米国の安定コイン規制とビットコインの量子耐性アップグレードが市場リスクを低減し、BTC/USD の上昇トリガーとなる。MA20上抜けとRSI回復を根拠に、35,200‑35,800 のエントリーレンジを狙うロング戦略を提示。",
+    "excerpt": "Bitcoin’s technicals align with macro liquidity as ETFs drain $34M first-day volume. Stablecoin shifts to USDC create liquidity divergence. RSI(14) confirms oversold exhaustion. Catalysts for $67k retest imminent.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上抜け＋RSI回復がロング根拠。安定コイン規制でリスク低減、量子アップグレードでプレミアム縮小。",
-    "entry": "35200-35800",
-    "tp": "36500-38200-40000",
-    "sl": "34650",
+    "comment": "MS BT ETF liquidity + USDC dominance convergence. RSI(14) divergence invalidates shorts.",
+    "entry": "62.90",
+    "tp": "67.50",
+    "sl": "60.80",
     "reliability": "HIGH"
   }
 }

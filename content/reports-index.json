@@ -1,61 +1,61 @@
 [
   {
+    "id": "2026-04-09-stocks-en",
+    "date": "2026-04-09 11:01",
+    "title": "S&P 500: Institutional Market Intelligence - Countdown to 160?",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "NEUTRAL",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "Iran ceasefire claims causing S&P 500 pause near MA20 support; neutral RSI momentum suggests consolidation ahead.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-04-09-crypto-ja",
-    "date": "2026-04-09 02:01",
-    "title": "BTC/USD：米国安定コイン規制と量子アップグレード後の上昇シナリオ",
+    "date": "2026-04-09 11:01",
+    "title": "CRYPTO Analysis",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "米国の安定コイン規制とビットコインの量子耐性アップグレードが市場リスクを低減し、BTC/USD の上昇トリガーとなる。MA20上抜けとRSI回復を根拠に、35,200‑35,800 のエントリーレンジを狙うロング戦略を提示。",
+    "excerpt": "Bitcoin’s technicals align with macro liquidity as ETFs drain $34M first-day volume. Stablecoin shifts to USDC create liquidity divergence. RSI(14) confirms oversold exhaustion. Catalysts for $67k retest imminent.",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-04-09-crypto-en",
-    "date": "2026-04-09 02:01",
-    "title": "BTC/USD Tactical Outlook: Capital Flow & Regulatory Pulse",
+    "date": "2026-04-09 11:01",
+    "title": "BTC/USD Institutional Outlook: AI-Driven Technical Confluence Signals Breakout Opportunity",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "Key catalysts and technical drivers point to a bullish bias for BTC/USD with a target near $87,500.",
-    "result": "PENDING",
-    "locale": "en"
-  },
-  {
-    "id": "2026-04-09-stocks-en",
-    "date": "2026-04-09 02:00",
-    "title": "S&P 500 Bullish Breakout Targets 5,300 Amid Geopolitical Easing",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "excerpt": "S&P 500 rallies on Iran ceasefire, eyeing resistance; RSI near overbought, bullish bias persists.",
+    "excerpt": "Institutional inflows and macro stability create BTC bull case despite technical ambiguity.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-04-09-fx-ja",
-    "date": "2026-04-09 01:58",
-    "title": "USD/JPY：Fed政権崩壊の断層線か？AI信号解析から提示される円安ドル高の包括図",
+    "date": "2026-04-09 11:00",
+    "title": "USD/JPY 155円突破が示す円安・ドル高の到達点―本日のAI解析が示す戦術的エントリー",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "Fedの資産増拡スケジュールとドル円のチクカパスを分岐したテクンロジーで、大陸と米市場の信頼バランスが劇的な変化を起こす展望。",
+    "excerpt": "USD/JPYが155円を突破、円安·ドル高の流れが加速。RSI過熱で上値余地縮小、MA20が支援線へ転換。戦略は[dmm-fx]推奨",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-04-09-fx-en",
-    "date": "2026-04-09 01:58",
-    "title": "Countdown to 150? Synapse Analytics Charts Downside Path for USD/JPY as Risk-Off Accelerates",
+    "date": "2026-04-09 11:00",
+    "title": "FX: Institutional Market Intelligence",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP or DOWN or FLAT",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY bears target 150 as risk aversion intensifies; technicals reinforce downside.",
+    "excerpt": "120 character summary (no greetings)",
     "result": "PENDING",
     "locale": "en"
   },
@@ -152,7 +152,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "ETF大規模流入で機関投資家の買い戻しが加速、クジラのBinance移動は売り意向だが流動性観点から影響限定的。MA20上での維持を確認し押し目買いでエントリー。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -164,7 +164,7 @@
     "prediction_direction": "NEUTRAL",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD faces critical $160 resistance with mixed technical signals",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "最新ニュースとAI解析により、S&P 500は短期的に上昇基調にあると判断。MA20クロスとRSI上昇を筋書きに、BUY戦略を提案します。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "Mixed signals warrant caution; historical patterns favor bulls but near-term tech headwinds persist",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {

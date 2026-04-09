@@ -1,68 +1,69 @@
 {
   "FX": {
-    "title": "Countdown to 150? Synapse Analytics Charts Downside Path for USD/JPY as Risk-Off Accelerates",
-    "date": "2026-04-09 01:58",
+    "title": "FX: Institutional Market Intelligence",
+    "date": "2026-04-09 11:00",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP or DOWN or FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Geopolitical tensions and equity market weakness boost JPY safe-haven demand",
-      "Upcoming US Treasury auction adds volatility but risk sentiment dominates",
-      "Technical break below MA20 and RSI dip confirm bearish bias"
+      "Key point 1",
+      "Key point 2",
+      "Key point 3"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bears target 150 as risk aversion intensifies; technicals reinforce downside.",
+    "excerpt": "120 character summary (no greetings)",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Bearish tactical setup on risk-off sentiment and technical breakdown below MA20.",
-    "entry": "155.50",
-    "tp": "152.50",
-    "sl": "157.00",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "S&P 500 Bullish Breakout Targets 5,300 Amid Geopolitical Easing",
-    "date": "2026-04-09 02:00",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "Resistance at 5,300 tested as Iran ceasefire reduces risk premium",
-      "MA20 support holds, price trading 1.5% above trend",
-      "RSI(14) at 68 – bullish but approaching overbought threshold"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 rallies on Iran ceasefire, eyeing resistance; RSI near overbought, bullish bias persists.",
-    "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Upward momentum supported by geopolitical easing and price above MA20",
-    "entry": "5250.00",
-    "tp": "5300.00",
-    "sl": "5200.00",
+    "comment": "Upward bias supported by MA20 alignment and RSI decay.",
+    "entry": "0.0850",
+    "tp": "1.0820",
+    "sl": "1.0150",
     "reliability": "HIGH"
   },
+  "STOCKS": {
+    "title": "S&P 500: Institutional Market Intelligence - Countdown to 160?",
+    "date": "2026-04-09 11:01",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "NEUTRAL",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "Iran ceasefire news causing short-term pause",
+      "S&P 500 near MA20 support",
+      "RSI neutral momentum",
+      "Potential breakout above MA20 for upside"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "Iran ceasefire claims causing S&P 500 pause near MA20 support; neutral RSI momentum suggests consolidation ahead.",
+    "pair": "S&P 500",
+    "status": "NEUTRAL",
+    "comment": "Consolidation near MA20 with neutral RSI; breakout above 160.00 for upside, breakdown below 155.00 for weakness.",
+    "entry": "0.00",
+    "tp": "160.00",
+    "sl": "155.00",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "BTC/USD Tactical Outlook: Capital Flow & Regulatory Pulse",
-    "date": "2026-04-09 02:01",
+    "title": "BTC/USD Institutional Outlook: AI-Driven Technical Confluence Signals Breakout Opportunity",
+    "date": "2026-04-09 11:01",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Stablecoin regulation tightening may rein in speculative inflows",
-      "ETH's strategic shift to stablecoins signals broader institutional shift",
-      "Bitcoin payments for Iranian tanker tolls could boost on‑chain activity"
+      "Morgan Stanley's $34M BTC ETF inflow boosts institutional credibility",
+      "USDC's rise challenges USDT dominance, signaling deeper retail adoption",
+      "Polygon's $100M stablecoin fundraising reinforces BTC ecosystem infrastructure"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Key catalysts and technical drivers point to a bullish bias for BTC/USD with a target near $87,500.",
+    "excerpt": "Institutional inflows and macro stability create BTC bull case despite technical ambiguity.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Technical breakout above MA20 coupled with institutional flow signals a medium‑term rally.",
-    "entry": "86300",
-    "tp": "87500",
-    "sl": "85500",
+    "comment": "Strong institutional inflows justify risk above $145K",
+    "entry": "145000",
+    "tp": "160000",
+    "sl": "145000",
     "reliability": "HIGH"
   }
 }
