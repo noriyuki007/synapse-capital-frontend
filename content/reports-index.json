@@ -1,54 +1,30 @@
 [
   {
-    "id": "2026-04-10-crypto-ja",
-    "date": "2026-04-10 02:07",
-    "title": "CRYPTO：最新マーケット分析インテリジェンス",
+    "id": "2026-04-10-crypto-en",
+    "date": "2026-04-10 11:14",
+    "title": "BTC/USD: Institutional Analysis - Breakout Confirmation & Tactical Entry",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "bitflyer",
-    "excerpt": "BTC/USDはオンチェーン・流動性・マクロ統合観点から、緩やかな上昇圧力が続くが、短期的にはフラットレベルを維持する見通し。戦術的エントリーは0.01ドル単位で設計。",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-04-10-stocks-ja",
-    "date": "2026-04-10 02:06",
-    "title": "S&P500 5,200円突破の行方―RSIとMA20が示す最適エントリ戦略",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
-    "excerpt": "イラン緩和合意が米株式指数を上昇させ、S&P500は20日移動平均線上で上抜け、RSIは70に近づくも過買い懸念は低い。年初来最高値に迫り、エネルギー株比率も上昇、テクニカル的に上昇トレンドは継続を見込む。",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-04-10-fx-ja",
-    "date": "2026-04-10 02:05",
-    "title": "USD/JPY突破か？米長期国債利回り上昇が示す円安ブレイクのシナリオ",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "dmm-fx",
-    "excerpt": "米30年国債利回りが4.876%と史上高水準に達したことから、ドルの長期金利支えが強化。USD/JPYはMA20上抜けとRSI回復を確認し、149.80付近でロングエントリー、149.95を目標にする短期戦術を提示。",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-04-10-fx-en",
-    "date": "2026-04-10 02:05",
-    "title": "USD/JPY Breakout Outlook: Institutional AI Signal Indicates UP Move",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY poised for upside breakout above 152.5 as US Treasury yields rise, with MA20 support and bullish momentum.",
+    "recommended_broker": "bybit",
+    "excerpt": "Bitcoin breaks key resistance with strong technical confirmation and institutional backing",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-04-10-stocks-en",
+    "date": "2026-04-10 11:13",
+    "title": "S&P 500 Tactical Outlook: Geopolitical Tension Meets AI‑Driven Earnings – Target 4,300",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "For executing this specific setup, we recommend utilizing Interactive Brokers due to optimal liquidity.",
+    "excerpt": "Geopolitical risk tempers short‑term bias, but AI earnings drive a bullish breakout target of 4,300 for the S&P 500.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-10-stocks-ja",
     "date": "2026-04-10",
     "title": "STOCKS Analysis",
     "genre": "STOCKS",
@@ -57,19 +33,43 @@
     "recommended_broker": "",
     "excerpt": "",
     "result": "PENDING",
-    "locale": "en"
+    "locale": "ja"
   },
   {
-    "id": "2026-04-10-crypto-en",
+    "id": "2026-04-10-fx-ja",
     "date": "2026-04-10",
-    "title": "CRYPTO Analysis",
-    "genre": "CRYPTO",
+    "title": "FX Analysis",
+    "genre": "FX",
+    "target_pair": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-10-fx-en",
+    "date": "2026-04-10",
+    "title": "FX Analysis",
+    "genre": "FX",
     "target_pair": "",
     "prediction_direction": "FLAT",
     "recommended_broker": "",
     "excerpt": "",
     "result": "PENDING",
     "locale": "en"
+  },
+  {
+    "id": "2026-04-10-crypto-ja",
+    "date": "2026-04-10",
+    "title": "BTC/USD 技術レポート",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "25文字以後の要約",
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-04-09-crypto-ja",
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500 eyes upside continuation as technicals align and macro catalysts support bullish bias.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "市場の複雑性の下での分岐点分析が推し出せました",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "",
     "excerpt": "",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
