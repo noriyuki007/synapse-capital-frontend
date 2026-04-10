@@ -1,5 +1,17 @@
 [
   {
+    "id": "2026-04-11-fx-ja",
+    "date": "Sat Apr 11 2026 00:00:00 GMT+0000 (Coordinated Universal Time)",
+    "title": "USD/JPY市場動向分析とAI解析",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "市場変化の分析結果",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
     "id": "2026-04-10-crypto-ja",
     "date": "2026-05-03 09:23",
     "title": "BTC/USD：ショートトレードの到達点か？RSICROSS & INSTITUTIONAL OPEN INTEREST",
@@ -10,6 +22,66 @@
     "excerpt": "BTC/USD、安値売り壊し後の買い控えが継続。RSI(14)の強力逆張がテクニカル設定の鍵に。",
     "result": "PENDING",
     "locale": "ja"
+  },
+  {
+    "id": "2026-04-11-stocks-ja",
+    "date": "2026-04-11 01:50",
+    "title": "S&P500の超実践的マーケット解析報告",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "ブルームバーグ",
+    "excerpt": "",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-11-stocks-en",
+    "date": "2026-04-11 01:50",
+    "title": "AI Infrastructure Pivot: S&P 500 Bull Case Sustained by Nvidia's 'AI Factory' Paradigm",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "XM",
+    "excerpt": "S&P 500 outlook remains bullish as Nvidia evolves AI compute into a revenue-generating industrial asset.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-11-crypto-ja",
+    "date": "2026-04-11 01:50",
+    "title": "BTC/USD 超実践的レイトレード：ONチェーン + RSI 光源の統合戦略",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USDはNY市場の残基盤を支え、RSIは過熱傾向に。特定トレードノードを利用し、$90,500エントリーで$91,500 TP $88,500 SLを推奨。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-11-crypto-en",
+    "date": "2026-04-11 01:50",
+    "title": "BTC/USD Tactical Outlook: AI Analytics Spot Potential Upside Amid Macro Turbulence",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC nears key $28.2k level; AI flags bullish bias despite oil‑driven macro risk.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-11-fx-en",
+    "date": "2026-04-11 01:47",
+    "title": "AI-Driven Technical Outlook for USD/JPY Amid Macro Instability",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY faces 155.00 resistance ahead of automation sentiment amid Trump's geopolitical stance",
+    "result": "PENDING",
+    "locale": "en"
   },
   {
     "id": "2026-04-10-crypto-en",

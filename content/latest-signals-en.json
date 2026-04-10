@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "Countdownto 160? US-Iran Dynamics and AI Analytics Signal USD/JPY Breakout Potential",
-    "date": "2026-04-10 18:06",
+    "title": "AI-Driven Technical Outlook for USD/JPY Amid Macro Instability",
+    "date": "2026-04-11 01:47",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "MA20 at 158.50 inverse support coincides with US-Iran talks catalyst",
-      "AI risk sentiment models show 68% probability of 160+ move",
-      "Oil market volatility offsetting FX liquidity constraints"
+      "Key Resistance at 155.00 presents short-term opportunity",
+      "RSI(14) near 50 indicates potential bullish momentum",
+      "Geopolitical risks underscore USD/JPY's safe-haven bias"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY technical rebound aligns with geopolitical upside catalysts in US-Iran negotiations.",
+    "excerpt": "USD/JPY faces 155.00 resistance ahead of automation sentiment amid Trump's geopolitical stance",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish midpoint breakout confirmed by AI risk sentiment model 68% probability",
-    "entry": "158.50",
-    "tp": "160.00",
-    "sl": "157.50",
+    "comment": "Tighter convergent support at MA20 combined with geopolitical risk premium justifies long exposure.",
+    "entry": "154.85",
+    "tp": "157.20",
+    "sl": "153.90",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "STOCKS: Institutional Market Intelligence",
-    "date": "2026-04-10 18:08",
+    "title": "AI Infrastructure Pivot: S&P 500 Bull Case Sustained by Nvidia's 'AI Factory' Paradigm",
+    "date": "2026-04-11 01:50",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "BrokerExample",
+    "prediction_direction": "UP",
+    "recommended_broker": "XM",
     "tldr_points": [
-      "Markets consolidating",
-      "Danger zone for leverage",
-      "Immediate caution required"
+      "Nvidia's shift toward AI Factories provides long-term fundamental support",
+      "Nasdaq strength suggests positive spillover into S&P 500 index",
+      "Institutional focus shifting from generic AI hype to revenue-generating compute"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Short-term sell-off forces rapid rebalancing",
+    "excerpt": "S&P 500 outlook remains bullish as Nvidia evolves AI compute into a revenue-generating industrial asset.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Markets consolidating post-weekly breakdown forces tighter risk controls",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "status": "BUY",
+    "comment": "Fundamental pivot to AI Factories sustains tech-led index growth despite industrial headwinds.",
+    "entry": "Market",
+    "tp": "5450.00",
+    "sl": "5120.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD Bull Run Catalyzed by Japanese Regulatory Shift and Institutional On‑Chain Flow",
-    "date": "2026-04-10 18:09",
+    "title": "BTC/USD Tactical Outlook: AI Analytics Spot Potential Upside Amid Macro Turbulence",
+    "date": "2026-04-11 01:50",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Japan's new crypto classification boosts institutional demand",
-      "On‑chain data shows surge in long perpetual futures",
-      "Technical bias remains bullish; MA20 support holds"
+      "BTC approaching $28,200 resistance",
+      "RSI approaching oversold/overbought threshold",
+      "Institutional inflow signals support"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Japanese regulatory approval and fresh long futures push BTC/USD toward new highs; MA20 support intact.",
+    "excerpt": "BTC nears key $28.2k level; AI flags bullish bias despite oil‑driven macro risk.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Regulatory approval in Japan and rising long futures positions create a clear upside bias.",
-    "entry": "39950.00",
-    "tp": "42800.00",
-    "sl": "38300.00",
-    "reliability": "HIGH"
+    "comment": "Price above MA20 with RSI recovery; macro backdrop supports risk‑off demand.",
+    "entry": "27850.00",
+    "tp": "28200.00",
+    "sl": "27600.00",
+    "reliability": "MEDIUM"
   }
 }
