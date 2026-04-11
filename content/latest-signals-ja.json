@@ -1,63 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY市場変動のAI解析と市場反応分析",
-    "date": "2026-04-11",
+    "title": "USD/JPY：160円突破秒読み AI需給解析が導くドル高・円安の到達点",
+    "date": "2026-04-11 17:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "市場の即時解知",
-      "リスク評価的高精度"
+      "米国株の100日MA突破でリスク選好回復",
+      "イラン・パキスタン緊張緩和で地政学リスク後退",
+      "RSI過熱圏でも買い勢力が支配"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "分析指標の組み合わせによる市場動向予測",
+    "excerpt": "米国株高・地政学リスク後退でUSD/JPYは160円トライへ。MA20・RSIの位置関係から強い上昇トレンド継続を示唆。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "AIデータ統合の進化に応じた行動指示",
-    "entry": "0.001",
-    "tp": "0.005",
-    "sl": "0.0001",
+    "comment": "米株高・地政学リスク後退で強い上昇トレンド継続。160円トライへ。",
+    "entry": "159.50",
+    "tp": "161.00",
+    "sl": "158.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P500 直近の上昇シナリオ：戦術的エントリーポイントとリスク管理",
-    "date": "2026-04-11 11:02",
+    "title": "S&P 500: AI Outperformance by 112% Signals Structural Shift – Strategic Entry Points Emerge",
+    "date": "2026-04-11 18:15",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "XYZ Broker",
     "tldr_points": [
-      "上昇トレンド継続の可能性が高く, MA20支援が有効",
-      "RSIは過熱局面ながら still bullish",
-      "TP=5,300, SL=5,150でリスク/リターン1:2を目指す"
+      "AI-driven names dominate S&P 500 gains",
+      "Khanna ETF outperformance reflects sector rotation",
+      "Trump-era fiscal policies could accelerate tech dominance"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500は直近の上昇トレンドが継続しやすく、RSIはやや過熱 while MA20支援が確認された場合、TP=5,300、SL=5,150でエントリー推奨、流動性の観点からInteractive Brokersを利用",
+    "excerpt": "S&P 500 nears critical support at 5,000 amid AI euphoria. Khanna’s 112% outperformance signals sector rotation away from cyclicals. Execution required prior to Fed signaling.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20支援とRSI過熱を背景に上昇余地あり",
-    "entry": "5250",
-    "tp": "5300",
-    "sl": "5150",
-    "reliability": "HIGH"
-  },
-  "CRYPTO": {
-    "title": "BTC/USD 市場分析",
-    "date": "2026-04-11",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "bitflyer",
-    "tldr_points": [],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "",
-    "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
+    "comment": "S&P 500 nears critical support at 5,000 amid AI euphoria. Khanna’s 112% outperformance signals sector rotation away from cyclicals. Execution required prior to Fed signaling.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
+    "reliability": "MEDIUM"
+  },
+  "CRYPTO": {
+    "title": "BTC/USD：政府保有BTC釋放・立法化進展で読み解く中長期強気シナリオ～來週の分岐點を分析する",
+    "date": "2026-04-11 18:18",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "tldr_points": [
+      "政府保有BTCの市場流入が短期賣壓となるも、需要側の制度投資が相殺",
+      "今週のステーブルコイン立法化交渉が成立すれば+$5Bの新興資金流入を予想",
+      "AIエージェント×ETH・Telegramの決済統合がQ3以降の構造的好材料"
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "政府保有BTC釋放と立法化進展が中長期上昇トレンドを形成。需要と供給のバランスが制度投資家に有利に傾き、2026年後半の新たな inúmer突破へ向かう需給構造が明確化しつつある。",
+    "pair": "BTC/USD",
+    "status": "BUY",
+    "comment": "政府BTC釋放の短期的賣壓は中期需給好転で相殺。立法化進展による制度資金流入期待で中長期UP方向。$100,000-101,500押し目買い、SLは$98,000",
+    "entry": "100000-112000",
+    "tp": "108000-115000",
+    "sl": "98000",
     "reliability": "MEDIUM"
   }
 }
