@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY Breakout Target: 160? AI Analytics Forecasts Directional Move",
-    "date": "2026-04-11 11:01",
+    "title": "USD/JPY Breakout Watch: Geopolitical Easing Fuels Bullish Technical Setup",
+    "date": "2026-04-11 17:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "U.S. equity indices close above 100‑day MA, reinforcing risk‑on bias",
-      "RSI(14) at 68 suggests bullish momentum but nearing overbought",
-      "Key resistance at 154.0; stop below 150.5 for risk management"
+      "Risk-on sentiment dominates as geopolitical tensions ease",
+      "Technical structure favors bullish breakout above 150.00",
+      "MA20 support intact with RSI momentum constructive"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "AI-driven analysis flags upside target near 160 with stop‑loss at 150.5.",
+    "excerpt": "Geopolitical easing and strong US equities drive USD/JPY toward key resistance",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish momentum targets 154.0 with risk defined at 150.5.",
-    "entry": "152.6",
-    "tp": "154.0",
-    "sl": "150.5",
+    "comment": "Risk-on sentiment and technical support above MA20 favor bullish breakout toward 151.50",
+    "entry": "150.35",
+    "tp": "151.50",
+    "sl": "149.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500 市場分析",
-    "date": "2026-04-11 11:02",
+    "title": "S&P 500: Institutional Market Intelligence",
+    "date": "2026-04-11 18:15",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "https://www.broker.com",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
     "tldr_points": [
-      "NVIDIA's price parity with S&P 500 reflects tech-driven momentum",
-      "MA20/RSI convergence suggests short-term overbought conditions",
-      "Institutional-grade execution advised via optimized brokers"
+      "Market volatility increasing under Trump administration",
+      "Jamie Dimon echoes Buffett's 1998 warning on derivatives",
+      "Casey's addition to S&P 500 expands investor base"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 technicals align with AI-driven tech rally; resistance breaches could trigger institutional entry.",
+    "excerpt": "S&P 500 faces mixed signals with technical neutrality amid political uncertainty and fundamental concerns.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "AI-driven tech momentum supports directional bias with MA20/RSI alignment",
-    "entry": "5150.00",
-    "tp": "5400.00",
-    "sl": "5050.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Technical neutrality amid conflicting fundamental catalysts and elevated political uncertainty",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "LOW"
   },
   "CRYPTO": {
-    "title": "BTC/USD Institutional Outlook: Regulatory Turbulence and AI-Driven Momentum Converge",
-    "date": "2026-04-11 11:04",
+    "title": "CRYPTO: BTC/USD Tactical Outlook – AI Analytics Spot Potential Upside Break",
+    "date": "2026-04-11 18:18",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "US BTC-linked steroid conspiracy risks short-term volatility",
-      "AI agent advancements drive institutional adoption tailwinds",
-      "WLD token supply consolidation strengthens crypto ecosystem"
+      "BTC poised near 31.2k support; MA20 bullish cross",
+      "RSI steady in neutral‑mid range, room for upside",
+      "Regulatory tailwinds from U.S. crypto bill could trigger risk‑on flow"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD faces pivotal crossroads as regulatory developments and AI integration reshape crypto dynamics ahead of key levels.",
+    "excerpt": "BTC/USD near 31.2k with bullish MA20 alignment and supportive regulatory backdrop.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Breakout above $160 validates bullish momentum amid regulatory noise",
-    "entry": "159.50",
-    "tp": "164.75",
-    "sl": "152.00",
+    "comment": "Price above MA20, neutral RSI and supportive regulatory backdrop justify a bullish stance.",
+    "entry": "31,250",
+    "tp": "33,800",
+    "sl": "30,000",
     "reliability": "HIGH"
   }
 }
