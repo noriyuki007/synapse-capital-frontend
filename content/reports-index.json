@@ -12,6 +12,78 @@
     "locale": "ja"
   },
   {
+    "id": "2026-04-13-stocks-ja",
+    "date": "2026-04-14 09:15",
+    "title": "S&P 500: AI Demand Surge Clashes With Tariff Risks - Technical Inflection Point Emerges",
+    "genre": "STOCKS",
+    "target_pair": "SPX",
+    "prediction_direction": "UP",
+    "recommended_broker": "Greenside Securities",
+    "excerpt": "S&P 500 breaks three-week downtrend with AAPL/NVDA AI-driven rally; Trump tariffs spark volatility. Key MACD crossover confirms short-term bullish bias despite White House policy risks.",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-13-stocks-en",
+    "date": "2026-04-13 01:37",
+    "title": "S&P 500 Technical Outlook: AI Demand and Tariff Risks Shape April Momentum",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500’s AI-driven rally faces headwinds from Trump-driven tariffs and geopolitical risks. Key resistance at $5,450.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-13-fx-ja",
+    "date": "2026-04-13 01:36",
+    "title": "米中東緊張激化が円高ドル安を牽引：USD/JPY 短期戦略",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "米伊朗交渉の破綻とホルムズ海峡封鎖がドル需給を揺るがし、円が安全資産として買われる局面。テクニカル指標は売りシグナルを示唆し、短期的な円高ドル安が見込まれる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-13-fx-en",
+    "date": "2026-04-13 01:36",
+    "title": "FX: Geopolitical Shockwave – USD/JPY Target 147.30 Amid Middle East Escalation",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "xm-trading",
+    "excerpt": "Risk‑off surge after US‑Iran talks collapse drives USD/JPY lower; target 147.30, SL 148.80.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-13-crypto-ja",
+    "date": "2026-04-13",
+    "title": "CRYPTO Analysis",
+    "genre": "CRYPTO",
+    "target_pair": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-13-crypto-en",
+    "date": "2026-04-13",
+    "title": "CRYPTO Analysis",
+    "genre": "CRYPTO",
+    "target_pair": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-04-12-crypto-ja",
     "date": "2026-04-12 17:47",
     "title": "BTC/USD クルーシアルレベル変動分析：AI需給の「到達点」と流動性割り当て戦略",
