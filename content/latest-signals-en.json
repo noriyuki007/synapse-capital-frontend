@@ -1,33 +1,33 @@
 {
   "FX": {
-    "title": "USD/JPY Breakout Outlook: 156 Target Amid Iran-U.S Tensions",
-    "date": "2026-04-12 01:34",
+    "title": "USD/JPY Breakout Targets 160.50: AI‑Driven Technical Outlook",
+    "date": "2026-04-12 11:15",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Geopolitical shock lifts risk aversion, supporting USD/JPY upside",
-      "Price respects MA20 at 154.9, eyeing 156.0 resistance",
-      "RSI(14) at 62, momentum favors further advance"
+      "Price respects MA20 support, suggesting upside continuation",
+      "RSI momentum stays below overbought, allowing further gains",
+      "Key resistance at 160.50 aligns with recent swing high"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY heads toward 156 as Iran tensions spike and technicals align, targeting a bullish breakout.",
+    "excerpt": "USD/JPY eyes 160.50 resistance; MA20 support intact, RSI modest upside, bias remains bullish, trend remains aligned.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish breakout confirmed above MA20 with room to 156.0",
-    "entry": "155.30",
-    "tp": "156.00",
-    "sl": "154.70",
+    "comment": "Price holds above MA20 with RSI supportive of further gains.",
+    "entry": "159.9",
+    "tp": "160.5",
+    "sl": "159.4",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500 市場分析",
+    "title": "SPEED ANALYSIS FOR S&P 500: Geopolitical Sensitivity Over Technical Indicators",
     "date": "2026-04-12",
-    "genre": "STOCKS",
+    "genre": "STOCKS ANALYSIS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
+    "prediction_direction": "NEUTRAL",
+    "recommended_broker": "Integration Example: Using [BrokerX] for optimal execution",
     "tldr_points": [],
     "chart_image": "/images/market-analysis-stocks.png",
     "excerpt": "",
@@ -40,25 +40,25 @@
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD Tactical Outlook: AI‑Driven Target Zone Near $38,200 Amid Regulatory Flux",
-    "date": "2026-04-12 01:36",
+    "title": "BTC/USD: Critical Technical Junction with Regulatory Catalysts",
+    "date": "2026-04-12 11:17",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC testing $37,700 resistance",
-      "RSI edging bullish on weekly",
-      "US policy and AI‑driven infrastructure boost demand"
+      "ETF amendment adds institutional counterparties",
+      "Crypto bill negotiations entering critical phase",
+      "AI agents reshaping crypto development landscape"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC eyes $38.2k as AI analytics align technical strength with favorable regulatory cues.",
+    "excerpt": "BTC faces critical technical level as institutional flows and regulatory catalysts converge",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Technical bullish alignment with regulatory and AI‑driven fundamentals suggests upside to $38.2k.",
-    "entry": "37.72",
-    "tp": "38.20",
-    "sl": "36.60",
-    "reliability": "HIGH"
+    "comment": "Bullish technical structure with institutional accumulation and regulatory catalysts",
+    "entry": "68500",
+    "tp": "72000",
+    "sl": "67000",
+    "reliability": "MEDIUM"
   }
 }
