@@ -1,47 +1,42 @@
 {
   "FX": {
-    "title": "米軍ホルムズ進入でリスク低減、USD/JPYは下落トリガーへ　AI需給解析が示す次の抵抗帯",
-    "date": "2026-04-12 01:34",
+    "title": "USD/JPY 市場分析",
+    "date": "2026-04-12",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
-    "tldr_points": [
-      "米軍ホルムズへの進出で中東リスク低減",
-      "リスクオフが円買いへ転換",
-      "USD/JPYは159.80付近でロングポジション縮小、短期的に159.00付近まで下落見込み"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米軍艦船のホルムズ進入と中東緊張緩和が円買い材料に転換。テクニカル指標はRSIが過熱域から下降、MA20を下抜けたことで下値ブレイクが顕在化。短期的には159.00付近が主要支持、162.00が上値抵抗と見込む。",
+    "excerpt": "",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "米軍ホルムズ進入でリスク低減、RSI下降とMA20下抜けが売りシグナルを形成",
-    "entry": "159.80",
-    "tp": "159.00",
-    "sl": "162.10",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500：トレーダー必見！AI解析が示す強気シグナルと戦術的エントリーポイント",
-    "date": "2026-04-12 01:34",
+    "title": "S&P 500：Surrender Point or Strategic Buying Opportunity Amid AI騒ぎ？2,000点移動の鍵を解く",
+    "date": "2026-04-12 11:16",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "GMOクリック証券",
+    "recommended_broker": "marginal.io",
     "tldr_points": [
-      "AI関連株の買い需要継続",
-      "直接対話開始で地政学リスク後退",
-      "小口売り越しは先行調整の可能性",
-      "RSI上昇トレンド維持で買い圧力優勢"
+      "MA20突破後の無理な押し買いが反転リスク",
+      "AI需給の過剰拡大でRSIが回復しない危険性",
+      "尾部ポジション構築を際立つタイミング"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はAI関連株の強さと地政学リスクの後退を背景に上昇トレンドを維持。戦術的買い戦略を推奨。",
+    "excerpt": "AI株の暴騰がS&P 500を支えるか？技術面と需給の相関性を掘り下げる",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "AI関連株の強さと地政学リスク後退で上昇トレンド継続",
-    "entry": "5180",
-    "tp": "5250",
-    "sl": "5150",
+    "comment": "MA20再テスト後のバウンス依存性とRSIの過剰売却回避",
+    "entry": "4150",
+    "tp": "4350",
+    "sl": "4050",
     "reliability": "HIGH"
   },
   "CRYPTO": {
@@ -55,11 +50,11 @@
     "chart_image": "/images/market-analysis-crypto.png",
     "excerpt": "",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20上抜とRSI抵抗一時突破の後、AIエージェント採用拡大で需要通貨要因が追加費用可能",
+    "entry": "61800",
+    "tp": "64000,66500",
+    "sl": "59200",
+    "reliability": "HIGH"
   }
 }
