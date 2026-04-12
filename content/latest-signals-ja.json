@@ -1,15 +1,37 @@
 {
   "FX": {
-    "title": "USD/JPY 市場分析",
-    "date": "2026-04-12",
+    "title": "USD/JPYの暴走リスク：Hormuz航海によるドル強希のテクニカルブレイクポイント分析",
+    "date": "2026-04-12 17:44",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "tldr_points": [],
+    "tldr_points": [
+      "米軍艦隊中東突入＝ドル需要ов段開拓",
+      "RSI(14)>60で陽aksバイアス強化",
+      "MA20線突破がエントリートriggers"
+    ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "",
+    "excerpt": "Hormuz事象と継続的上昇指標の融合でUSD/JPYの急騰信号が形成。約160円突破のズームアウト分析を提案。",
     "pair": "USD/JPY",
+    "status": "BUY",
+    "comment": "ホルムズ航海によるドル需要段開拓とRSI超過状態の融合。160円突破確率上昇",
+    "entry": "158.3",
+    "tp": "160.5",
+    "sl": "155.5",
+    "reliability": "HIGH"
+  },
+  "STOCKS": {
+    "title": "S&P 500 市場分析",
+    "date": "2026-04-12",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "tldr_points": [],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "",
+    "pair": "S&P 500",
     "status": "NEUTRAL",
     "comment": "シナプス解析に基づくシグナル",
     "entry": "---",
@@ -17,44 +39,26 @@
     "sl": "---",
     "reliability": "MEDIUM"
   },
-  "STOCKS": {
-    "title": "S&P 500：Surrender Point or Strategic Buying Opportunity Amid AI騒ぎ？2,000点移動の鍵を解く",
-    "date": "2026-04-12 11:16",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "marginal.io",
-    "tldr_points": [
-      "MA20突破後の無理な押し買いが反転リスク",
-      "AI需給の過剰拡大でRSIが回復しない危険性",
-      "尾部ポジション構築を際立つタイミング"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "AI株の暴騰がS&P 500を支えるか？技術面と需給の相関性を掘り下げる",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20再テスト後のバウンス依存性とRSIの過剰売却回避",
-    "entry": "4150",
-    "tp": "4350",
-    "sl": "4050",
-    "reliability": "HIGH"
-  },
   "CRYPTO": {
-    "title": "BTC/USD 市場分析",
-    "date": "2026-04-12",
+    "title": "BTC/USD クルーシアルレベル変動分析：AI需給の「到達点」と流動性割り当て戦略",
+    "date": "2026-04-12 17:47",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "tldr_points": [],
+    "tldr_points": [
+      "超短期チャート（1H）でMA20崩れ後の再突破サイン",
+      "RSI(14)が準オーバーセルド65レンジで流動性壁形成中",
+      "50日のMAとの互換関係が Bottom-Down Breakdown を示唆"
+    ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "",
+    "excerpt": "BTC/USDは技術面指標の分岐点に突入。AI関連の資金流動とレバレッジ駆動による短期ポジショニングリスクが高まっている。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上抜とRSI抵抗一時突破の後、AIエージェント採用拡大で需要通貨要因が追加費用可能",
-    "entry": "61800",
-    "tp": "64000,66500",
-    "sl": "59200",
-    "reliability": "HIGH"
+    "comment": "MA20再突破後にRSI再突破がETF売買自動化システムに強制トリガー",
+    "entry": "67200",
+    "tp": "71200",
+    "sl": "63800",
+    "reliability": "MEDIUM"
   }
 }
