@@ -13,49 +13,61 @@
   },
   {
     "id": "2026-04-13-stocks-ja",
-    "date": "2026-04-14 09:15",
-    "title": "S&P 500: AI Demand Surge Clashes With Tariff Risks - Technical Inflection Point Emerges",
+    "date": "2026-04-13 11:29",
+    "title": "STOCKS：最新マーケット分析インテリジェンス",
     "genre": "STOCKS",
-    "target_pair": "SPX",
+    "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Greenside Securities",
-    "excerpt": "S&P 500 breaks three-week downtrend with AAPL/NVDA AI-driven rally; Trump tariffs spark volatility. Key MACD crossover confirms short-term bullish bias despite White House policy risks.",
+    "recommended_broker": "推奨なし",
+    "excerpt": "",
     "result": "PENDING",
     "locale": "ja"
   },
   {
-    "id": "2026-04-13-stocks-en",
-    "date": "2026-04-13 01:37",
-    "title": "S&P 500 Technical Outlook: AI Demand and Tariff Risks Shape April Momentum",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "excerpt": "S&P 500’s AI-driven rally faces headwinds from Trump-driven tariffs and geopolitical risks. Key resistance at $5,450.",
+    "id": "2026-04-13-crypto-en",
+    "date": "2026-04-13 11:29",
+    "title": "CRYPTO Analysis",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "Bitcoin drops to $71,000 amid Strait of Hormuz tension; price below MA20, RSI bearish, eyes $68k support 2025!! bullish!",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-04-13-fx-ja",
-    "date": "2026-04-13 01:36",
-    "title": "米中東緊張激化が円高ドル安を牽引：USD/JPY 短期戦略",
+    "date": "2026-04-13 11:27",
+    "title": "USD/JPY 152円突破は近い？機関投資家向けAI需給解析で明るみ",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "米伊朗交渉の破綻とホルムズ海峡封鎖がドル需給を揺るがし、円が安全資産として買われる局面。テクニカル指標は売りシグナルを示唆し、短期的な円高ドル安が見込まれる。",
+    "excerpt": "アジアのリトレースメントギャップと人民幣為替の軟性が示すUSD/JPYの152円突破確率は高い。本稿ではテクニカル地形と戦術的エントリー・リスク管理を解説。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-04-13-fx-en",
-    "date": "2026-04-13 01:36",
-    "title": "FX: Geopolitical Shockwave – USD/JPY Target 147.30 Amid Middle East Escalation",
+    "date": "2026-04-13 11:27",
+    "title": "USD/JPY Poised for Breakout: AI‑Driven Target at 156.20",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "excerpt": "Risk‑off surge after US‑Iran talks collapse drives USD/JPY lower; target 147.30, SL 148.80.",
+    "excerpt": "AI‑driven analytics forecast a 156.20 upside target for USD/JPY, aligning MA20 support with rising RSI momentum bullish!",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-13-stocks-en",
+    "date": "2026-04-13",
+    "title": "STOCKS Analysis",
+    "genre": "STOCKS",
+    "target_pair": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "",
     "result": "PENDING",
     "locale": "en"
   },
@@ -70,18 +82,6 @@
     "excerpt": "",
     "result": "PENDING",
     "locale": "ja"
-  },
-  {
-    "id": "2026-04-13-crypto-en",
-    "date": "2026-04-13",
-    "title": "CRYPTO Analysis",
-    "genre": "CRYPTO",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "PENDING",
-    "locale": "en"
   },
   {
     "id": "2026-04-12-crypto-ja",
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "政府保有BTC釋放と立法化進展が中長期上昇トレンドを形成。需要と供給のバランスが制度投資家に有利に傾き、2026年後半の新たな inúmer突破へ向かう需給構造が明確化しつつある。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD near 31.2k with bullish MA20 alignment and supportive regulatory backdrop.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "米国株高・地政学リスク後退でUSD/JPYは160円トライへ。MA20・RSIの位置関係から強い上昇トレンド継続を示唆。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -224,7 +224,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "Geopolitical easing and strong US equities drive USD/JPY toward key resistance",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
