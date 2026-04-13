@@ -1,37 +1,15 @@
 {
   "FX": {
-    "title": "USD/JPY Poised for Breakout: AI‑Driven Target at 156.20",
-    "date": "2026-04-13 11:27",
+    "title": "USD/JPY 市場分析",
+    "date": "2026-04-13",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "xm-trading",
-    "tldr_points": [
-      "AI‑driven momentum points to 156.20 upside target",
-      "MA20 support aligns at 154.90, reinforcing bullish bias",
-      "RSI(14) at 62 shows sustained upward pressure"
-    ],
-    "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "AI‑driven analytics forecast a 156.20 upside target for USD/JPY, aligning MA20 support with rising RSI momentum bullish!",
-    "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "AI‑driven analytics forecast a 156.20 upside target for USD/JPY, aligning MA20 support with rising RSI momentum bullish!",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "S&P 500 市場分析",
-    "date": "2026-04-13",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
     "prediction_direction": "FLAT",
-    "recommended_broker": "",
+    "recommended_broker": "xm-trading",
     "tldr_points": [],
-    "chart_image": "/images/market-analysis-stocks.png",
+    "chart_image": "/images/market-analysis-fx.png",
     "excerpt": "",
-    "pair": "S&P 500",
+    "pair": "USD/JPY",
     "status": "NEUTRAL",
     "comment": "シナプス解析に基づくシグナル",
     "entry": "---",
@@ -39,26 +17,48 @@
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "Create a high-impact, SEO-friendly headline (e.g. 'Countdown to 160? AI Analytics Identifies Target for USD/JPY Breakout')",
+    "date": "2026-04-13 18:55",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "AI‑driven breakout targets S&P 500 near 5,200",
+      "Inflation data spikes fed tightening expectations",
+      "Key support at 5,100 remains pivotal"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "AI-driven breakout targets S&P 500 near 5,200; inflation data fuels Fed tightening fears; key support at 5,100. now!2026",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "Breakout supported by AI multi‑factor signals and bullish momentum near 5,200",
+    "entry": "5150",
+    "tp": "5250",
+    "sl": "5080",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "BTC/USD 市場分析",
-    "date": "2026-04-13 11:29",
+    "title": "Geopolitical Friction Triggers BTC Retreat: Assessing Support at $71,000 Amid Macro Uncertainty",
+    "date": "2026-04-13 18:56",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Bitcoin slides to $71k amid geopolitical tension; price below MA20 with bearish RSI, targeting $68k support.",
-      "MA20 remains flat, offering no dynamic support.",
-      "RSI(14) at 38 signals continued downside momentum."
+      "Geopolitical tension in the Strait of Hormuz driving risk-off sentiment",
+      "Bitcoin price testing critical $71,000 support level",
+      "Increased security concerns following major bridge exploits and phishing incidents"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Bitcoin drops to $71,000 amid Strait of Hormuz tension; price below MA20, RSI bearish, eyes $68k support 2025!! bullish!",
+    "excerpt": "BTC slides to $71,000 following Trump's blockade order; geopolitical risk and ecosystem vulnerabilities weigh on price.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "Price breaking below MA20 with bearish RSI targets $68k support.",
-    "entry": "71000",
-    "tp": "68000",
-    "sl": "73000",
-    "reliability": "HIGH"
+    "comment": "Geopolitical risk and technical breakdown necessitate a bearish tactical stance.",
+    "entry": "71500.00",
+    "tp": "68500.00",
+    "sl": "73200.00",
+    "reliability": "MEDIUM"
   }
 }
