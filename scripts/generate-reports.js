@@ -228,43 +228,33 @@ function buildArticlePrompt(genre, newsHeadlines, marketData, jstDateStr, locale
     if (locale === 'en') {
         return `You are a top-tier financial analyst. Write a tactical market report for ${symbol} based on the data below.
 
----
-## Style & Tone
+Style & Tone:
 - Extremely professional, institutional tone (like Goldman Sachs/Bloomberg Terminal).
 - No fluff, no introductory pleasantries, highly actionable.
 - Focus strictly on technical levels and fundamental catalysts.
 - Respond in ENGLISH only.
-- Output MUST be **Markdown ONLY**, starting with the YAML Frontmatter.
+- Output MUST be **Markdown ONLY**, starting with the YAML Frontmatter (no code fences).
 
----
-## Output Structure
-1. **YAML Frontmatter** (MUST be at the very top, no code fences before it)
-   - **title**: Create a high-impact, professional, and SEO-friendly title that hooks the reader (e.g., "Countdown to 160? AI Analytics Identifies Target for USD/JPY Breakout" instead of a generic header).
-2. **Executive Summary** (1 short paragraph)
-3. **Technical Framework** (Price action vs MA20, RSI momentum)
-4. **Professional Trading Strategy** (Directional bias, TP, SL)
-5. **JSON Signal Block** (MUST be the final element, exactly as requested)
-
----
-## Required Affiliate Link
-Integrate the following recommended broker seamlessly into your strategy section or conclusion:
+Required Affiliate Link:
+Integrate the following recommended broker seamlessly into your strategy section or conclusion.
 Broker: ${broker}
 Integration Example: "For executing this specific setup, we recommend utilizing [${broker}] due to optimal liquidity."
 
----
-## Input: Latest News (RSS/Scraping)
+Input — Latest News (RSS/Scraping):
 ${headlinesBlock}
 
-## Input: Chart/Technical Data
+Input — Chart/Technical Data:
 - Current Price: ${cp}
 - MA20: ${ma20}
 - RSI(14): ${rsi}
 - Chart Image Path (for YAML): /images/market-analysis-${genre.toLowerCase()}.png
 
+======================================================================
+OUTPUT FORMAT — FOLLOW EXACTLY. Output ONLY what is between the BEGIN/END markers (exclusive). Do NOT output the markers themselves.
+======================================================================
+BEGIN OUTPUT
 ---
-## YAML Frontmatter Template (Place at the START, no code fences)
----
-title: "${genre}: Institutional Market Intelligence"
+title: "Create a high-impact, SEO-friendly headline (e.g. 'Countdown to 160? AI Analytics Identifies Target for USD/JPY Breakout')"
 date: "${jstDateStr}"
 genre: "${genre}"
 target_pair: "${symbol}"
@@ -272,64 +262,86 @@ prediction_direction: "UP or DOWN or FLAT"
 recommended_broker: "${broker}"
 tldr_points: ["Key point 1", "Key point 2", "Key point 3"]
 chart_image: "/images/market-analysis-${genre.toLowerCase()}.png"
-excerpt: "120 character summary (no greetings)"
+excerpt: "120-character summary (no greetings)"
 ---
 
-## Technical Framework & Strategy
-... (Your analysis here) ...
+## 1. Market Environment & Fundamentals
 
-## Final Signal JSON Template (1 block at the very end of the article)
+Two to three paragraphs covering macro backdrop, key catalysts from the news headlines above, and the fundamental thesis. Institutional prose only.
+
+## 2. AI Multi-Factor Analysis
+
+Exactly THREE bullet points in this format (each one label + colon + one-sentence explanation). No sub-bullets.
+
+- **Rates Correlation**: One-sentence finding on yield/rate dynamics driving the pair.
+- **Order Flow**: One-sentence finding on liquidity, positioning, or order book structure.
+- **Sentiment**: One-sentence finding on market sentiment, CoT data, or news tone.
+
+## 3. Technical Analysis
+
+Two to three paragraphs of technical breakdown citing the current price (${cp}), MA20 (${ma20}), and RSI-14 (${rsi}). Discuss trend structure, key levels, and momentum.
+
+## 4. Professional Trading Strategy
+
+Open with ONE italicized sentence stating the directional bias in quotation form (this sentence will be pulled into a highlighted card), e.g. *"Buy the dip toward MA20 with tight risk control."* Then a short paragraph naming the entry, take-profit, and stop-loss levels explicitly, and naturally recommending [${broker}] for execution.
+
+## 5. AI Conclusion & Action Plan
+
+- **Conclusion Summary**: One to two sentences summarizing the trade thesis.
+- Next Step:
+    - First concrete action for the trader
+    - Second concrete action
+    - Third concrete action
+
 \`\`\`json
 {
   "pair": "${symbol}",
   "status": "BUY or SELL or NEUTRAL",
-  "comment": "1 sentence brief rationale in English",
+  "comment": "1-sentence rationale",
   "entry": "0.00",
   "tp": "0.00",
   "sl": "0.00",
   "reliability": "HIGH or MEDIUM or LOW"
 }
 \`\`\`
+END OUTPUT
+
+Hard rules:
+- The article body MUST contain exactly five H2 headings: "## 1. ...", "## 2. ...", "## 3. ...", "## 4. ...", "## 5. ...". No other H2.
+- Section 2 MUST contain exactly three bullet items in the "- **Label**: description" format.
+- Section 4 MUST start with one italicized sentence wrapped in asterisks.
+- Section 5 MUST contain the "**Conclusion Summary**:" line and a "Next Step:" block with bullet items.
+- The JSON block MUST be the final element and MUST NOT be preceded by its own H2 heading.
 `;
     } else {
         return `あなたはヘッジファンドのチーフアナリストです。以下のデータに基づき、${symbol} の超実践的・戦術的なマーケットレポートを作成してください。
 
----
-## トーン＆マナー
+トーン＆マナー:
 - 機関投資家向け（野村證券やブルームバーグ端末）のプロフェッショナルで冷徹なトーン。
 - 「こんにちは」「いかがでしょうか」等の挨拶や無駄な装飾は一切排除。
 - 結論ファースト、具体的かつアクション可能（Actionable）な内容に。
-- 出力は **Markdown のみ**。YAML Frontmatterから開始してください。
+- 出力は **Markdown のみ**。YAML Frontmatterから開始（フェンス禁止）。
 
----
-## 記事の構成
-1. **YAML Frontmatter**（必ず文頭。フェンス不要）
-   - **title**: 読者の目を引き、SEOを意識したプロフェッショナルなタイトルを作成してください（例：「160円突破は秒読みか？AI需給解析が導き出した円安・ドル高の『到達点』」など、具体的でフックのある表現）。
-2. **エグゼクティブサマリー**（1段落で市場のコアテーマを要約）
-3. **テクニカル・フレームワーク**（MA20、RSIとの位置関係による力学解析）
-4. **プロフェッショナルトレーディング戦略**（バイアス、TP、SLの具体的数値化）
-5. **JSON シグナルブロック**（必ず記事の末尾に1ブロックのみ）
-
----
-## アフィリエイト（指定ブローカー）への誘導
+アフィリエイト（指定ブローカー）への誘導:
 記事の戦略部分または結論において、必ず以下のブローカーへの自然な誘導を含めてください。
 指定ブローカー: ${broker}
 誘導例: 「本戦略の実行にあたっては、流動性の観点から[${broker}]の利用を推奨する。」
 
----
-## Input: 最新ニュース (RSS/Scraping)
+Input — 最新ニュース (RSS/Scraping):
 ${headlinesBlock}
 
-## Input: チャート・テクニカルデータ
+Input — チャート・テクニカルデータ:
 - 現在価格: ${cp}
 - MA20: ${ma20}
 - RSI(14): ${rsi}
 - 指定画像パス: /images/market-analysis-${genre.toLowerCase()}.png
 
+======================================================================
+出力フォーマット — 以下の BEGIN/END マーカーの間（マーカー自身は含めない）だけを、この構造通りに出力してください。
+======================================================================
+BEGIN OUTPUT
 ---
-## YAML Frontmatter テンプレート（この形でファイル先頭に配置、フェンス禁止）
----
-title: "${genre}：最新マーケット分析インテリジェンス"
+title: "読者の目を引き、SEOを意識したプロフェッショナルなタイトル（例：「160円突破は秒読みか？AI需給解析が導き出した円安・ドル高の『到達点』」）"
 date: "${jstDateStr}"
 genre: "${genre}"
 target_pair: "${symbol}"
@@ -340,10 +352,34 @@ chart_image: "/images/market-analysis-${genre.toLowerCase()}.png"
 excerpt: "120文字前後の要約（挨拶なし）"
 ---
 
-## テクニカル・フレームワークと戦略
-... (本文) ...
+## 1. 市場環境とファンダメンタルズ分析
 
-## 末尾シグナル JSON テンプレート（記事の最後に1ブロックのみ）
+2〜3段落でマクロ環境、上記ニュースから読み取れる主要カタリスト、ファンダメンタルズの主張を記述。機関投資家向けの散文のみ。
+
+## 2. AIによる多角市場分析（シナプス解析）
+
+以下の形式で **必ず3つ** の箇条書き（各行：ラベル + コロン + 1文）。サブ箇条書き禁止。
+
+- **金利相関解析**: 金利・利回りがペアに与えている動きを1文で。
+- **オーダーフロー解析**: 流動性・ポジショニング・板状況の所見を1文で。
+- **センチメント解析**: 市場心理・投機筋動向・報道トーンの所見を1文で。
+
+## 3. テクニカル分析
+
+現在価格（${cp}）、MA20（${ma20}）、RSI(14)（${rsi}）を引用しながら、2〜3段落でトレンド構造・主要節目・モメンタムを分析。
+
+## 4. プロフェッショナルトレーディング戦略
+
+冒頭に1文だけ、方向性バイアスをアスタリスクで囲んだイタリック文で宣言してください（このイタリック文はハイライトカードに抽出されます）。例：*「MA20付近までの押し目買いを、厳格なリスク管理下で推奨する。」* その後、短い段落でエントリー、TP、SLの具体的数値を明示し、流動性の観点から [${broker}] の利用を自然に推奨すること。
+
+## 5. AI結論とアクションプラン
+
+- **結論サマリー**: トレードの根拠を1〜2文で要約。
+- Next Step:
+    - 具体的なアクション1
+    - 具体的なアクション2
+    - 具体的なアクション3
+
 \`\`\`json
 {
   "pair": "${symbol}",
@@ -355,6 +391,14 @@ excerpt: "120文字前後の要約（挨拶なし）"
   "reliability": "HIGH または MEDIUM または LOW"
 }
 \`\`\`
+END OUTPUT
+
+厳守事項:
+- 本文には H2 見出しを **正確に5つ** だけ含めること：「## 1. ...」「## 2. ...」「## 3. ...」「## 4. ...」「## 5. ...」。これ以外の H2 を出力しない。
+- 2章は必ず「- **ラベル**: 説明」形式の箇条書きを3項目。
+- 4章は必ず *アスタリスクで囲んだイタリック宣言文* から開始。
+- 5章は必ず「**結論サマリー**:」行と、「Next Step:」以下の箇条書きを含める。
+- JSON ブロックは記事末尾に1つだけ。JSON ブロックの直前に H2 見出しを置かない。
 `;
     }
 }
@@ -849,28 +893,19 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
             ],
             jsonComment: `本日のAI解析（シナプス解析）: 金利相関 ${corrStr} とテクニカルの整合性に基づく戦略設計。`,
             deterministic: {
-                s1Title: "市場環境とファンダメンタルズ",
-                s1Keywords: "キーワード",
-                s1Summary: "サマリー",
-                s1Text: `<strong>本日のAI解析</strong>では、${symbol}の需給が主要移動平均（MA20）と整合しており、<strong>${status === 'BUY' ? '上方向の優位' : status === 'SELL' ? '下方向の優位' : '方向性の限定'}</strong>を示す。加えて<strong>金利相関</strong>の変化が、トレンドの継続可否を規定する。`,
+                s1Title: "1. 市場環境とファンダメンタルズ分析",
+                s1Text: `<strong>本日のAI解析</strong>では、${symbol}の需給が主要移動平均（MA20 ${ma20 ?? '---'}）と整合しており、<strong>${status === 'BUY' ? '上方向の優位' : status === 'SELL' ? '下方向の優位' : '方向性の限定'}</strong>を示す。金利相関 ${corrStr} の推移がトレンドの継続可否を規定し、当日のニュースフローは以下の主要トピックに集約される。`,
                 s1NewsTitle: "最新ニュース見出し",
-                s3Title: "テクニカル分析",
-                s3RefData: "参照データ",
-                s3Price: "現在価格",
-                s3MARel: "MA20との関係",
-                s3MARelTextPrefix: "終値は",
-                s3MARelTextSuffix: "に位置する。",
-                s3PointsTitle: "分析ポイント",
-                s3Point1: `${cp ?? '---'}がMA20 ${ma20 ?? '---'}を維持し続ける限り、優位側のシナリオが優先される。`,
-                s3Point2: `${rsi ?? '---'}がレンジを抜けるタイミングは、需給帯（BB/直近高安）への再評価を促す。`,
-                s3Point3: `${status === 'BUY' ? (tpStr ? `利確ターゲット TP ${tpStr} 近辺で収益確定を検討。` : '上限帯への接近で利確を検討。') : status === 'SELL' ? (tpStr ? `利確ターゲット TP ${tpStr} 近辺で反応を確認。` : '下限帯への接近で利確を検討。') : `TP ${tpStr ?? '---'} と SL ${slStr ?? '---'} のどちら側にブレイクするかを観測。`}`,
-                s4Title: "プロ・トレーディング戦略",
-                s4PolicyTitle: "全体方針",
-                s4Policy: `${status === 'NEUTRAL' ? 'レンジのブレイク待ちと選別エントリー' : status === 'BUY' ? '押し目での優位側エントリーを優先' : '反転待ちではなく下方向を先行する防御的売り'}`,
-                s4TP: "利確ターゲット",
-                s4SL: "損切りライン",
-                s5Title: "結論とアクションプラン",
-                s5Summary: "結論サマリー"
+                s2Title: "2. AIによる多角市場分析（シナプス解析）",
+                s2Corr: `**金利相関解析**: 米10年債利回りと${symbol}の相関係数は ${corrStr}。${corr != null && corr >= 0 ? '正相関' : '負相関'}傾向が${status === 'BUY' ? '上値追い' : status === 'SELL' ? '下値試し' : 'レンジ継続'}を規定している。`,
+                s2Order: `**オーダーフロー解析**: ${liquidityLine || '主要帯の監視'} が短期的な流動性の集中点として機能し、${status === 'BUY' ? '上値での利確売りを吸収しながら押し目買い' : status === 'SELL' ? '戻り売りを伴う下値トライ' : 'ブレイク前の玉整理'}が進行中。`,
+                s2Sentiment: `**センチメント解析**: ${sentimentText || '心理指標は取得できず、RSIと需給帯で代替評価。'}`,
+                s3Title: "3. テクニカル分析",
+                s3Body: `現在価格 ${cp ?? '---'}、RSI(14) ${rsi ?? '---'}、20日移動平均 ${ma20 ?? '---'}。終値は${maRelText}に位置する。${cp && ma20 ? (Number(cp) > Number(ma20) ? `${cp}がMA20 ${ma20}を維持し続ける限り、優位側のシナリオが優先される。` : `${cp}がMA20 ${ma20}を下回る状態が続く限り、下方向の優位が維持される。`) : 'MA20との位置関係は未取得。'} RSI(14) ${rsi ?? '---'} がレンジを抜けるタイミングで、需給帯（BB/直近高安）の再評価を促す。${status === 'BUY' ? (tpStr ? `利確ターゲット TP ${tpStr} 近辺で段階的な収益確定を検討。` : '上限帯への接近で利確を検討。') : status === 'SELL' ? (tpStr ? `利確ターゲット TP ${tpStr} 近辺での反応を確認。` : '下限帯への接近で利確を検討。') : `TP ${tpStr ?? '---'} と SL ${slStr ?? '---'} のどちら側にブレイクするかを観測する。`}`,
+                s4Title: "4. プロフェッショナルトレーディング戦略",
+                s4Italic: `*「${status === 'BUY' ? `${symbol}は MA20 ${ma20 ?? '---'} を支持に、TP ${tpStr ?? '---'} 方向への優位側ロングを選別実行する。` : status === 'SELL' ? `${symbol}は反転待ちではなく、TP ${tpStr ?? '---'} 方向への防御的ショートを先行する。` : `${symbol}はレンジ内で選別エントリーに徹し、TP ${tpStr ?? '---'} / SL ${slStr ?? '---'} のブレイク方向を待つ。`}」*`,
+                s4Body: `戦略のエントリー基準価格は ${entryStr ?? '---'}、利確ターゲット TP は ${tpStr ?? '---'}、損切りライン SL は ${slStr ?? '---'} とする。本戦略の執行にあたっては、流動性とスプレッドの観点から [${broker || '推奨ブローカー'}] の利用を推奨する。`,
+                s5Title: "5. AI結論とアクションプラン"
             }
         },
         en: {
@@ -905,34 +940,18 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
             jsonComment: `AI Synapse Analysis: Strategy designed based on interest correlation ${corrStr} and technical alignment.`,
             deterministic: {
                 s1Title: "1. Market Environment & Fundamentals",
-                s1Keywords: "Keywords",
-                s1Summary: "Executive Summary",
-                s1Text: `<strong>Today's AI analysis</strong> indicates that supply and demand for ${symbol} are aligned with the major moving average (MA20), showing <strong>${status === 'BUY' ? 'upward dominance' : status === 'SELL' ? 'downward dominance' : 'limited directional bias'}</strong>. Furthermore, shifts in <strong>interest rate correlation</strong> will dictate whether the trend remains sustainable.`,
+                s1Text: `<strong>Today's AI analysis</strong> indicates that supply and demand for ${symbol} are aligned with the 20-day moving average (MA20 ${ma20 ?? '---'}), showing <strong>${status === 'BUY' ? 'upward dominance' : status === 'SELL' ? 'downward dominance' : 'limited directional bias'}</strong>. Shifts in the interest rate correlation coefficient ${corrStr} will dictate whether the trend remains sustainable, and the current news flow is summarized in the headlines below.`,
                 s1NewsTitle: "Latest News Headlines",
-                s2Title: "2. AI Multi-Angle Analysis (Synapse Analysis)",
-                s2CorrTitle: "Interest Rate Correlation Analysis",
-                s2CorrText: `The approximate correlation between interest rates (US10Y proxy) and ${symbol} shows a coefficient of ${corrStr}, with a <strong>${corr != null && corr >= 0 ? 'positive direction' : 'negative direction'}</strong> observed. This implies that the <strong>direction of interest rates</strong> is likely to be a primary driver for price movement.`,
-                s2OrderTitle: "Order Book Analysis",
-                s2OrderText: `The ${liquidityLine || 'monitoring of major zones'} is likely to serve as a short-term liquidity concentration point. Specifically, we anticipate <strong>${status === 'BUY' ? 'profit-taking at upper levels' : status === 'SELL' ? 'profit-taking at lower levels' : 'shuffling before a breakout'}</strong>.`,
+                s2Title: "2. AI Multi-Factor Analysis",
+                s2Corr: `**Rates Correlation**: The correlation coefficient between US 10Y yields and ${symbol} prints at ${corrStr} — a ${corr != null && corr >= 0 ? 'positive' : 'negative'} regime that currently governs ${status === 'BUY' ? 'upside continuation' : status === 'SELL' ? 'downside pressure' : 'range behavior'}.`,
+                s2Order: `**Order Flow**: ${liquidityLine || 'Major reference zones'} serve as a short-term liquidity concentration point, where ${status === 'BUY' ? 'bids absorb offers on dips' : status === 'SELL' ? 'offers fade rallies' : 'flows rotate ahead of a breakout'}.`,
+                s2Sentiment: `**Sentiment**: ${sentimentText || 'Sentiment metrics unavailable; falling back to RSI positioning and liquidity-zone behavior.'}`,
                 s3Title: "3. Technical Analysis",
-                s3RefData: "Reference Data",
-                s3Price: "Current Price",
-                s3RSI: "RSI(14)",
-                s3MA20: "20-Day Moving Average (MA20)",
-                s3MARel: "Relationship with MA20",
-                s3MARelTextPrefix: "The price is currently in the ",
-                s3MARelTextSuffix: ".",
-                s3PointsTitle: "Analysis Points",
-                s3Point1: `As long as ${cp ?? '---'} stays ${Number(cp) > Number(ma20) ? 'above' : 'below'} MA20 ${ma20 ?? '---'}, the dominant side's scenario remains prioritized.`,
-                s3Point2: `The timing of RSI(14) ${rsi ?? '---'} breaking its range will trigger a re-evaluation of liquidity zones (BB/recent highs and lows).`,
-                s3Point3: `${status === 'BUY' ? (tpStr ? `Consider securing profits near TP ${tpStr}.` : 'Consider profit-taking as it approaches upper levels.') : status === 'SELL' ? (tpStr ? `Monitor reaction near TP ${tpStr}.` : 'Consider profit-taking as it approaches lower levels.') : `Observe whether it breaks towards TP ${tpStr ?? '---'} or SL ${slStr ?? '---'}.`}`,
+                s3Body: `Current price ${cp ?? '---'}, RSI(14) ${rsi ?? '---'}, 20-day MA ${ma20 ?? '---'}. Price is currently in the ${maRelText}. ${cp && ma20 ? (Number(cp) > Number(ma20) ? `As long as ${cp} holds above MA20 ${ma20}, the dominant bullish scenario remains prioritized.` : `As long as ${cp} trades below MA20 ${ma20}, the dominant bearish scenario remains in force.`) : 'The relationship with MA20 has not been acquired.'} The moment RSI(14) ${rsi ?? '---'} decisively breaks its range will trigger a re-evaluation of liquidity zones (BB / recent highs & lows). ${status === 'BUY' ? (tpStr ? `Consider scaling out of longs near TP ${tpStr}.` : 'Consider profit-taking as price approaches upper bands.') : status === 'SELL' ? (tpStr ? `Monitor reaction near TP ${tpStr}.` : 'Consider profit-taking as price approaches lower bands.') : `Observe whether price breaks toward TP ${tpStr ?? '---'} or SL ${slStr ?? '---'}.`}`,
                 s4Title: "4. Professional Trading Strategy",
-                s4PolicyTitle: "Overall Policy",
-                s4Policy: `${status === 'NEUTRAL' ? 'Wait for range breakout and selective entries' : status === 'BUY' ? 'Prioritize entries on the dominant side during pullbacks' : 'Defensive selling rather than waiting for a reversal'}`,
-                s4TP: "Take Profit Target",
-                s4SL: "Stop Loss Line",
-                s5Title: "5. Conclusion & Action Plan",
-                s5Summary: "Executive Summary"
+                s4Italic: `*"${status === 'BUY' ? `${symbol} rides MA20 ${ma20 ?? '---'} as support; execute selective longs toward TP ${tpStr ?? '---'}.` : status === 'SELL' ? `${symbol} leads with a defensive short bias toward TP ${tpStr ?? '---'} rather than waiting for a reversal.` : `${symbol} stays selective inside the range, waiting on a confirmed break between TP ${tpStr ?? '---'} and SL ${slStr ?? '---'}.`}"*`,
+                s4Body: `The trigger entry is set at ${entryStr ?? '---'}, with take-profit at TP ${tpStr ?? '---'} and stop-loss at SL ${slStr ?? '---'}. For executing this specific setup, we recommend utilizing [${broker || 'the recommended broker'}] due to optimal liquidity and tight spreads.`,
+                s5Title: "5. AI Conclusion & Action Plan"
             }
         }
     };
@@ -947,7 +966,51 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
 
     const jsonBlock = `\`\`\`json\n{\n  "pair": "${symbol}",\n  "status": "${status}",\n  "comment": "${L.jsonComment}",\n  "entry": "${entryStr ?? '0.00'}",\n  "tp": "${tpStr ?? '0.00'}",\n  "sl": "${slStr ?? '0.00'}",\n  "reliability": "${relScore === 'HIGH' ? 'HIGH' : 'MEDIUM'}"\n}\n\`\`\``;
 
-    return `---\ntitle: "${title}"\ndate: "${jstDateStr}"\ngenre: "${genre}"\ntarget_pair: "${symbol}"\nprediction_direction: "${prediction_direction}"\nrecommended_broker: "${broker}"\ntldr_points: ["${tldr_points[0]}", "${tldr_points[1]}", "${tldr_points[2]}"]\nchart_image: "/images/market-analysis-${genre.toLowerCase()}.png"\nexcerpt: "${excerpt}"\n---\n\n## ${D.s1Title}\n- **${D.s1Keywords}**: ${keywords}\n- **${D.s1Summary}**: ${D.s1Text}\n\n* ${D.s1NewsTitle}\n${newsBlockLines}\n\n## ${D.s3Title}\n- **${D.s3RefData}**: ${D.s3Price} ${cp ?? '---'}, RSI(14) ${rsi ?? '---'}, ${D.s3MA20} ${ma20 ?? '---'}.\n- **${D.s3MARel}**: ${D.s3MARelTextPrefix}${maRelText}${D.s3MARelTextSuffix}\n**${D.s3PointsTitle}**:\n* ${D.s3Point1}\n* ${D.s3Point2}\n* ${D.s3Point3}\n\n## ${D.s4Title}\n- **${D.s4PolicyTitle}**: ${D.s4Policy}.\n- **${D.s4TP}**: ${tpStr ?? '0.00'}\n- **${D.s4SL}**: ${slStr ?? '0.00'}\n\n## ${D.s5Title}\n- **${D.s5Summary}**: ${conclusionText}\n- **Next Step**:\n${nextSteps3.map((s) => `  * ${s}`).join('\n')}\n\n${jsonBlock}\n`;
+    const summaryLabel = isEn ? 'Conclusion Summary' : '結論サマリー';
+
+    return `---
+title: "${title}"
+date: "${jstDateStr}"
+genre: "${genre}"
+target_pair: "${symbol}"
+prediction_direction: "${prediction_direction}"
+recommended_broker: "${broker}"
+tldr_points: ["${tldr_points[0]}", "${tldr_points[1]}", "${tldr_points[2]}"]
+chart_image: "/images/market-analysis-${genre.toLowerCase()}.png"
+excerpt: "${excerpt}"
+---
+
+## ${D.s1Title}
+
+${D.s1Text}
+
+${D.s1NewsTitle}:
+${newsBlockLines}
+
+## ${D.s2Title}
+
+- ${D.s2Corr}
+- ${D.s2Order}
+- ${D.s2Sentiment}
+
+## ${D.s3Title}
+
+${D.s3Body}
+
+## ${D.s4Title}
+
+${D.s4Italic}
+
+${D.s4Body}
+
+## ${D.s5Title}
+
+- **${summaryLabel}**: ${conclusionText}
+- Next Step:
+${nextSteps3.map((s) => `    - ${s}`).join('\n')}
+
+${jsonBlock}
+`;
 }
 
 async function main() {

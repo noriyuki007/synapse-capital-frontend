@@ -80,12 +80,20 @@ export default async function ReportDetailPage(props: { params: Promise<{ id: st
     const allReports = await getSortedReportsData(locale);
     const stats = await getTrackRecordStats(locale);
 
-    // Remove the markdown section specifically so it doesn't double render if it's in the main body
-    const cleanContentHtml = contentHtml.replace(/<h2 id="[^"]*ai結論[^"]*">[\s\S]*?<\/h2>[\s\S]*?(?=<h2|$)/i, '');
+    // Remove the AI Conclusion H2 section from main body so it doesn't double render
+    // (it's re-rendered separately below in the emerald card).
+    const cleanContentHtml = contentHtml.replace(
+        /<h2 id="[^"]*(?:ai結論|結論とアクションプラン|ai-conclusion|conclusion-action-plan|conclusion-and-action-plan)[^"]*">[\s\S]*?<\/h2>[\s\S]*?(?=<h2|$)/i,
+        ''
+    );
 
     // Extract H2 for TOC and content splitting
     const h2Matches = Array.from(cleanContentHtml.matchAll(/<h2 id="([^"]+)">([\s\S]*?)<\/h2>/g));
     const toc = h2Matches.map(match => ({ id: match[1], text: match[2].replace(/<[^>]*>/g, '') }));
+
+    // Helper: does an HTML fragment contain any visible content?
+    const hasVisibleContent = (frag: string) =>
+        frag && frag.replace(/<[^>]*>/g, '').replace(/&nbsp;/g, ' ').trim().length > 0;
 
     // JSON-LD for SEO
     const jsonLd = {
@@ -188,7 +196,15 @@ export default async function ReportDetailPage(props: { params: Promise<{ id: st
                                 const titleHtml = h2Matches[idx]?.[2] || '';
                                 const content = sectionHtml.split('</h2>')[1] || '';
                                 const sectionId = h2Matches[idx]?.[1] || '';
-                                
+
+                                // If a section has no visible body content (e.g. AI emitted a bare
+                                // template heading), skip rendering it entirely rather than showing
+                                // an empty card. idx === 3 is allowed through because the trading
+                                // card can still render from signalData alone.
+                                if (!hasVisibleContent(content) && idx !== 3) {
+                                  return null;
+                                }
+
                                 if (idx === 0) {
                                   return (
                                     <section id={sectionId} key={idx} className="space-y-10 scroll-mt-24">
@@ -200,19 +216,31 @@ export default async function ReportDetailPage(props: { params: Promise<{ id: st
  
                                 if (idx === 1) {
                                   const listItems = content.match(/<li>([\s\S]*?)<\/li>/g) || [];
+                                  // Fallback: if the section doesn't contain a bullet list,
+                                  // render as prose instead of trying to force a 3-card grid.
+                                  if (listItems.length === 0) {
+                                    return (
+                                      <section id={sectionId} key={idx} className="space-y-10 scroll-mt-24">
+                                        <h2 className="text-3xl font-black tracking-tight border-l-8 border-slate-900 pl-6">{titleHtml.replace(/^\d+\.\s*/, '')}</h2>
+                                        <div className="prose prose-slate max-w-none prose-p:font-bold prose-p:text-slate-700" dangerouslySetInnerHTML={{ __html: content }} />
+                                      </section>
+                                    );
+                                  }
                                   return (
                                     <section id={sectionId} key={idx} className="space-y-10 scroll-mt-24">
                                       <h2 className="text-3xl font-black tracking-tight border-l-8 border-slate-900 pl-6">{titleHtml.replace(/^\d+\.\s*/, '')}</h2>
                                       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                                        {listItems.map((item, i) => {
+                                        {listItems.slice(0, 3).map((item, i) => {
                                             const itemText = item.replace(/<[^>]*>/g, '').trim();
-                                            const [label, desc] = itemText.split(':');
+                                            const colonIdx = itemText.search(/[:：]/);
+                                            const label = colonIdx >= 0 ? itemText.slice(0, colonIdx).trim() : itemText;
+                                            const desc = colonIdx >= 0 ? itemText.slice(colonIdx + 1).trim() : '';
                                             const icons = [<TrendingUp key="1" />, <Target key="2" />, <Activity key="3" />];
                                             return (
                                                 <div key={i} className="p-8 border border-slate-100 space-y-4">
                                                     <div className="text-blue-600">{icons[i] || <Activity />}</div>
                                                     <h4 className="text-[10px] font-black uppercase tracking-widest text-slate-400">{label}</h4>
-                                                    <p className="font-bold text-slate-900 leading-relaxed">{desc || 'Analyzing...'}</p>
+                                                    <p className="font-bold text-slate-900 leading-relaxed">{desc || (locale === 'ja' ? '分析中...' : 'Analyzing...')}</p>
                                                 </div>
                                             );
                                         })}
@@ -240,13 +268,26 @@ export default async function ReportDetailPage(props: { params: Promise<{ id: st
                                 }
 
                                 if (idx === 3) {
+                                  // Prefer an italicized opener (<em>...</em>) as the trade card quote.
+                                  // Fallback chain: first <em> → first <p> → signalData.comment → localized default.
+                                  const emMatch = content.match(/<em>([\s\S]*?)<\/em>/);
+                                  const firstPara = content.match(/<p>([\s\S]*?)<\/p>/);
+                                  const quoteHtml =
+                                    (emMatch && emMatch[1]) ||
+                                    (firstPara && firstPara[1]) ||
+                                    (signalData?.comment as string | undefined) ||
+                                    (locale === 'ja' ? '戦略を解析中...' : 'Analyzing strategy...');
+                                  // Remaining prose after the quote, so context isn't lost.
+                                  const restHtml = content
+                                    .replace(/<p>[\s\S]*?<\/p>/, '')
+                                    .trim();
                                   return (
                                     <section id={sectionId} key={idx} className="space-y-10 scroll-mt-24">
                                       <h2 className="text-3xl font-black tracking-tight border-l-8 border-indigo-600 pl-6">{titleHtml.replace(/^\d+\.\s*/, '')}</h2>
                                       <div className="bg-slate-900 text-white p-10 md:p-16 space-y-12 shadow-2xl">
                                         <div className="space-y-4">
                                           <div className="text-[10px] font-black uppercase tracking-widest text-indigo-400">Trading Action Card</div>
-                                          <div className="prose prose-invert max-w-none text-xl font-bold italic" dangerouslySetInnerHTML={{ __html: content.split('<p>')[1]?.split('</p>')[0] || '' }} />
+                                          <div className="prose prose-invert max-w-none text-xl font-bold italic" dangerouslySetInnerHTML={{ __html: quoteHtml }} />
                                         </div>
                                         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 pt-8 border-t border-white/10">
                                           <div className="space-y-2">
@@ -259,6 +300,9 @@ export default async function ReportDetailPage(props: { params: Promise<{ id: st
                                           </div>
                                         </div>
                                       </div>
+                                      {hasVisibleContent(restHtml) && (
+                                        <div className="prose prose-slate max-w-none prose-p:font-bold prose-p:text-slate-700" dangerouslySetInnerHTML={{ __html: restHtml }} />
+                                      )}
                                     </section>
                                   );
                                 }
