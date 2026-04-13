@@ -1,10 +1,14 @@
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
+import fs from 'fs';
+import path from 'path';
 
 // Report files are pre-defined for Edge runtime compatibility
 // In a real production app, these would come from an API or a pre-built JSON index
 import reportIndexLocal from '../../content/reports-index.json';
+
+const reportsDirectory = path.join(process.cwd(), 'content', 'reports');
 
 /**
  * Fetch the dynamic report index
@@ -26,12 +30,23 @@ async function getReportIndex(): Promise<any[]> {
 }
 
 /**
- * Helper to get report content (This is a workaround for Edge Runtime's lack of fs)
+ * Helper to get report content
+ * Priority: local filesystem (build/SSR) > browser API > GitHub fallback
  */
 async function getRawReportContent(id: string, locale?: string) {
     const filenames = locale ? [`${id}-${locale}`, id] : [id];
-    
+
     for (const filename of filenames) {
+        // Server-side: read from local filesystem (works during build and SSR)
+        if (typeof window === 'undefined') {
+            try {
+                const filePath = path.join(reportsDirectory, `${filename}.md`);
+                if (fs.existsSync(filePath)) {
+                    return fs.readFileSync(filePath, 'utf8');
+                }
+            } catch (e) {}
+        }
+
         try {
             // Browser-side check
             if (typeof window !== 'undefined') {
@@ -41,7 +56,7 @@ async function getRawReportContent(id: string, locale?: string) {
         } catch (e) {}
 
         try {
-            // GitHub Fallback
+            // GitHub Fallback (for Edge Runtime or when local file not found)
             const response = await fetch(`https://raw.githubusercontent.com/noriyuki007/synapse-capital-frontend/main/content/reports/${filename}.md`);
             if (response.ok) return await response.text();
         } catch (e) {}
@@ -70,18 +85,15 @@ export async function getSortedReportsData(locale?: string) {
         }
         if (!fileContents || fileContents.length < 50) return null;
 
-        // Fuzzy cleaning: AI sometimes wraps frontmatter in a code block
-        fileContents = fileContents.replace(/^```markdown\n/i, '').replace(/^```\n/i, '');
-        if (fileContents.startsWith('---')) {
-            // Check for nested triple backticks inside the matter and strip them
-            const parts = fileContents.split('---');
-            if (parts.length >= 3) {
-                parts[1] = parts[1].replace(/```markdown\n/gi, '').replace(/```\n/gi, '').replace(/```/g, '');
-                fileContents = parts.join('---');
-            }
-        }
+        fileContents = cleanFrontmatter(fileContents);
 
-        const matterResult = matter(fileContents);
+        let matterResult;
+        try {
+            matterResult = matter(fileContents);
+        } catch (e) {
+            console.warn(`[reports] Failed to parse frontmatter for ${id}:`, (e as Error).message);
+            return null;
+        }
         const data = matterResult.data as any;
 
         // Ensure date is a string (gray-matter sometimes returns Date objects)
@@ -113,19 +125,57 @@ export async function getReportData(id: string, locale?: string) {
     let baseId = id.replace(/-(ja|en)$/, '');
     const detectedLocale = id.endsWith('-ja') ? 'ja' : id.endsWith('-en') ? 'en' : locale || 'ja';
 
-    const fileContents = await getRawReportContent(baseId, detectedLocale);
+    let fileContents = await getRawReportContent(baseId, detectedLocale);
     if (!fileContents) {
         // Fallback to original ID
-        const fallbackContents = await getRawReportContent(id);
-        if (!fallbackContents) throw new Error(`Report ${id} not found`);
-        return processMarkdown(id, fallbackContents, detectedLocale);
+        fileContents = await getRawReportContent(id);
     }
+    if (!fileContents) throw new Error(`Report ${id} not found`);
 
-    return processMarkdown(baseId, fileContents, detectedLocale);
+    try {
+        return await processMarkdown(baseId, fileContents, detectedLocale);
+    } catch (e) {
+        console.warn(`[reports] processMarkdown failed for ${id}:`, (e as Error).message);
+        // Return minimal data so the build doesn't crash
+        const isEn = detectedLocale === 'en';
+        return {
+            id: baseId,
+            contentHtml: `<p>${isEn ? 'This report could not be rendered.' : 'このレポートの表示に失敗しました。'}</p>`,
+            signalData: null,
+            conclusionText: '',
+            nextSteps: [],
+            title: id,
+            date: '',
+            genre: 'FX',
+            target_pair: '',
+            prediction_direction: 'FLAT',
+            recommended_broker: '',
+            tldr_points: [],
+            chart_image: '',
+            excerpt: '',
+            locale: detectedLocale
+        };
+    }
+}
+
+function cleanFrontmatter(raw: string): string {
+    // Fuzzy cleaning: AI sometimes wraps frontmatter in a code block
+    let cleaned = raw.replace(/^```markdown\n/i, '').replace(/^```\n/i, '');
+    if (cleaned.startsWith('---')) {
+        const parts = cleaned.split('---');
+        if (parts.length >= 3) {
+            parts[1] = parts[1].replace(/```markdown\n/gi, '').replace(/```\n/gi, '').replace(/```/g, '');
+            // Remove "YAML Frontmatter" or similar preamble lines
+            parts[1] = parts[1].replace(/^YAML Frontmatter:?\n/i, '');
+            cleaned = parts.join('---');
+        }
+    }
+    return cleaned;
 }
 
 async function processMarkdown(id: string, fileContents: string, locale: string) {
-    const matterResult = matter(fileContents);
+    const cleaned = cleanFrontmatter(fileContents);
+    const matterResult = matter(cleaned);
     
     // Extract signal JSON
     const signalMatch = matterResult.content.match(/```json\n([\s\S]*?)\n```/);
