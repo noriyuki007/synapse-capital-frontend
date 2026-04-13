@@ -1,16 +1,12 @@
 {
   "FX": {
-    "title": "ドル/円ボラティリー増大と安全策の見直し",
-    "date": "2026-04-13 18:53",
+    "title": "USD/JPY 市場分析",
+    "date": "2026-04-14",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "BUY",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
-    "tldr_points": [
-      "指数移動平均の相関から上昇動向を示唆。",
-      "RSIがクロスして回復傾向が見込まれる。",
-      "中国の融資動向が市場圧迫要因と見つかる。"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-fx.png",
     "excerpt": "",
     "pair": "USD/JPY",
@@ -23,7 +19,7 @@
   },
   "STOCKS": {
     "title": "S&P 500 市場分析",
-    "date": "2026-04-13",
+    "date": "2026-04-14",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "FLAT",
@@ -32,21 +28,25 @@
     "chart_image": "/images/market-analysis-stocks.png",
     "excerpt": "",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "テクノロジー株反発と好決算を背景に上昇トレンド継続、押し目買いを推奨",
+    "entry": "5195-5200",
+    "tp": "5280",
+    "sl": "5150",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "BTC/USD 市場分析",
-    "date": "2026-04-13",
+    "title": "BTC/USD 超実践的戦略：リスクを克服する入りのトレード",
+    "date": "2026-04-14 02:09",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "tldr_points": [],
+    "tldr_points": [
+      "機関投資家の視点での流動性強化",
+      "技術指標の即時的允理解释",
+      "センチメントとマクロの整合性検証"
+    ],
     "chart_image": "/images/market-analysis-crypto.png",
     "excerpt": "",
     "pair": "BTC/USD",
