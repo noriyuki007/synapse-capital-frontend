@@ -1,7 +1,7 @@
 {
   "FX": {
     "title": "USD/JPY 市場分析",
-    "date": "2026-04-14",
+    "date": "2026-04-15",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "FLAT",
@@ -10,16 +10,16 @@
     "chart_image": "/images/market-analysis-fx.png",
     "excerpt": "",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "US-Iran楽観感接触訴求射程より深宇宙資源関連のエネルギートレード事業に反映可能。",
-    "entry": "137.70",
-    "tp": "135.00",
-    "sl": "139.55",
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
     "title": "S&P 500 市場分析",
-    "date": "2026-04-14",
+    "date": "2026-04-15",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "FLAT",
@@ -28,29 +28,33 @@
     "chart_image": "/images/market-analysis-stocks.png",
     "excerpt": "",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "イラン平和イベントとヘルスケアセクターの流通量増からの潜在的資金流入に%",
+    "entry": "2520.00",
+    "tp": "2650.00 / 2750.00",
+    "sl": "2475.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "BTC/USD 市場分析",
-    "date": "2026-04-14",
+    "title": "Goldman SachsのETF申請とSaylor資金流入が示すBTC上昇シナリオ：機関投資家向け実践指針",
+    "date": "2026-04-15 02:08",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "tldr_points": [],
+    "tldr_points": [
+      "Goldman SachsのETF申請が需給拡大を示唆",
+      "Saylorファンドの継続的資金投入で買い圧力増大",
+      "Ethereum Foundationの監査資金がエコシステムの安全性向上に寄与"
+    ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "",
+    "excerpt": "Goldman SachsのビットコインETF申請とSaylorファンドの大量買いが相乗的にBTC上昇圧力を形成。機関投資家はリスク管理下で段階的ロングを実行し、流動性確保のためbitflyer利用を推奨する。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "ETF申請とSaylor資金流入が需要拡大、テクニカルは押し目買いが有利",
+    "entry": "31200",
+    "tp": "33600",
+    "sl": "29700",
+    "reliability": "HIGH"
   }
 }
