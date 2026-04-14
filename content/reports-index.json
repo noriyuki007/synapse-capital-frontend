@@ -12,58 +12,58 @@
     "locale": "ja"
   },
   {
-    "id": "2026-04-14-crypto-ja",
-    "date": "2026-04-14 02:09",
-    "title": "BTC/USD 超実践的戦略：リスクを克服する入りのトレード",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bitflyer",
-    "excerpt": "",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
     "id": "2026-04-14-crypto-en",
-    "date": "2026-04-14 02:09",
-    "title": "Bitcoin Poised for Upside: AI Analytics Spot Potential Breakout Above $32,000",
+    "date": "2026-04-14 11:23",
+    "title": "Bitcoin at Critical Juncture: On-Chain Data Signals Bullish Catalyst",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "Bullish fundamentals and chart patterns suggest BTC/USD could reclaim $32k, with tight risk management.",
-    "result": "PENDING",
-    "locale": "en"
-  },
-  {
-    "id": "2026-04-14-stocks-en",
-    "date": "2026-04-14 02:02",
-    "title": "S&P 500 Poised for Bullish Breakout Amid Oil Surge and Tech Resilience",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "For executing this specific setup, we recommend utilizing Interactive Brokers due to optimal liquidity.",
-    "excerpt": "Oil rally and tech earnings combine to push S&P 500 toward a bullish breakout.",
-    "result": "PENDING",
-    "locale": "en"
-  },
-  {
-    "id": "2026-04-14-fx-en",
-    "date": "2026-04-14 02:01",
-    "title": "USD/JPY Cross-Level Dynamics Post-Iran Updates",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "xm-trading",
-    "excerpt": "Key points highlighting MA20 support, RSI compression below 30, and a tight RSI-bound pullback.",
+    "excerpt": "Bitcoin poised for upside move as regulatory clarity and institutional adoption converge",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-04-14-stocks-ja",
-    "date": "2026-04-14",
-    "title": "STOCKS Analysis",
+    "date": "2026-04-14 11:16",
+    "title": "160円突破は秒読みか？AI需給解析が導き出した円安・ドル高の『到達点』",
     "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "TradeNext",
+    "excerpt": "米国債入札で金利見通しが下押しし、リスク資金が流入。イラン情勢緩和期待で原油が下落、ドル高が縮小。S&P 500は上昇トレンドに転換し、投資家は押し目買いを検討中。金融緩和期待が高まり、リスク資産への資金流入が加速する見込み。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-14-stocks-en",
+    "date": "2026-04-14 11:16",
+    "title": "S&P 500: Technical Breakout Signals Amid Iran War Cycle Resolution",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 shows bullish momentum as geopolitical tensions ease, with technical indicators pointing toward potential breakout above resistance levels.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-14-fx-en",
+    "date": "2026-04-14 11:13",
+    "title": "PBOC's 6.8593 USD/CNY Peg Drives USD/JPY to Critical Resistance: AI Breakout Signal",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "PBOC's unconventional yuan peg and Iran geopolitical risks drive USD/JPY to critical technical level.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-14-fx-ja",
+    "date": "2026-04-14",
+    "title": "FX Analysis",
+    "genre": "FX",
     "target_pair": "",
     "prediction_direction": "FLAT",
     "recommended_broker": "",
@@ -72,10 +72,10 @@
     "locale": "ja"
   },
   {
-    "id": "2026-04-14-fx-ja",
+    "id": "2026-04-14-crypto-ja",
     "date": "2026-04-14",
-    "title": "FX Analysis",
-    "genre": "FX",
+    "title": "CRYPTO Analysis",
+    "genre": "CRYPTO",
     "target_pair": "",
     "prediction_direction": "FLAT",
     "recommended_broker": "",
@@ -176,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "BTC/USDは技術面指標の分岐点に突入。AI関連の資金流動とレバレッジ駆動による短期ポジショニングリスクが高まっている。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD poised for a modest rally as Hyperliquid ETF approval injects liquidity into the market.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "Hormuz事象と継続的上昇指標の融合でUSD/JPYの急騰信号が形成。約160円突破のズームアウト分析を提案。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -224,7 +224,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "AI-driven analysis flags 158.5 as pivotal resistance, with bullish momentum building; key support at 155 today session",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {

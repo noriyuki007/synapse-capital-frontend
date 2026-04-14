@@ -1,69 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY Cross-Level Dynamics Post-Iran Updates",
-    "date": "2026-04-14 02:01",
+    "title": "PBOC's 6.8593 USD/CNY Peg Drives USD/JPY to Critical Resistance: AI Breakout Signal",
+    "date": "2026-04-14 11:13",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Rates are aligning with central bank policy divergences.",
-      "IRAN’s reported progress heightens volatility sensitivity.",
-      "US naval posture adds macro uncertainty.",
-      "Broader tech sentiment supports risk-on bias."
+      "PBOC's elevated USD/CNY peg reinforces USD strength",
+      "Iran war risks amplify USD/JPY volatility",
+      "AI models highlight 160.00 as pivotal resistance level"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Key points highlighting MA20 support, RSI compression below 30, and a tight RSI-bound pullback.",
+    "excerpt": "PBOC's unconventional yuan peg and Iran geopolitical risks drive USD/JPY to critical technical level.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "Key points highlighting MA20 support, RSI compression below 30, and a tight RSI-bound pullback.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "PBOC's USD/CNY peg and Iran risks create asymmetric upside risk.",
+    "entry": "158.50",
+    "tp": "160.00",
+    "sl": "157.75",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500 Poised for Bullish Breakout Amid Oil Surge and Tech Resilience",
-    "date": "2026-04-14 02:02",
+    "title": "S&P 500: Technical Breakout Signals Amid Iran War Cycle Resolution",
+    "date": "2026-04-14 11:16",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "For executing this specific setup, we recommend utilizing Interactive Brokers due to optimal liquidity.",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Oil price > $100 supports risk‑on sentiment",
-      "Tech earnings beat lifts Nasdaq, spilling into S&P",
-      "Key technical support at 4,500 and bullish RSI momentum"
+      "Stocks gain on US-Iran resolution hopes",
+      "Oil and dollar retreat boosting risk appetite",
+      "Technical setup suggests breakout confirmation above key resistance"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Oil rally and tech earnings combine to push S&P 500 toward a bullish breakout.",
+    "excerpt": "S&P 500 shows bullish momentum as geopolitical tensions ease, with technical indicators pointing toward potential breakout above resistance levels.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Oil price strength and tech earnings drive a bullish bias with clean technical support.",
-    "entry": "4505",
-    "tp": "4610",
-    "sl": "4485",
-    "reliability": "HIGH"
+    "comment": "Technical breakout confirmed by geopolitical resolution and improving liquidity conditions",
+    "entry": "Unknown",
+    "tp": "Unknown",
+    "sl": "Unknown",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "Bitcoin Poised for Upside: AI Analytics Spot Potential Breakout Above $32,000",
-    "date": "2026-04-14 02:09",
+    "title": "Bitcoin at Critical Juncture: On-Chain Data Signals Bullish Catalyst",
+    "date": "2026-04-14 11:23",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "USDC growth improves risk sentiment",
-      "SEC guidance eases compliance pressure",
-      "Technical chart shows bullish divergence"
+      "Regulatory momentum building as White House advisory notes progress",
+      "Institutional adoption accelerating through tokenized equities models",
+      "Technical structure forming for sustained upside momentum"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Bullish fundamentals and chart patterns suggest BTC/USD could reclaim $32k, with tight risk management.",
+    "excerpt": "Bitcoin poised for upside move as regulatory clarity and institutional adoption converge",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Bullish technical pattern coupled with supportive macro and regulatory catalysts.",
-    "entry": "29,400",
-    "tp": "32,000",
-    "sl": "28,200",
+    "comment": "Fundamental catalysts converging with technical support creating favorable risk-reward profile",
+    "entry": "Current Price",
+    "tp": "Previous Swing High + 5%",
+    "sl": "20-day MA - 2%",
     "reliability": "HIGH"
   }
 }
