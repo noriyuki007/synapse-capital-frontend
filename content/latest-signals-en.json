@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "Countdown to 162? AI Analytics Signals USD/JPY Upside Amid Geopolitical De‑Escalation",
-    "date": "2026-04-15 11:11",
+    "title": "USD/JPY Bullish Setup: Oil Labour Pays Dividends Amid Geopolitical Tensions",
+    "date": "2026-04-15 18:17",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Iran cease‑fire talks ease risk premium",
-      "USD strength supported by resilient yields",
-      "Breakout above 161.80 tests 162‑164 corridor"
+      "Iran's alternative ports limit USD downside",
+      "Japan's oil reserves boost intervention scope",
+      "EUR crosses erase war premiums but JPY-linked carry remains intact"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised for upside as geopolitical risk fades and yields diverge, targeting 162‑164 range.",
+    "excerpt": "USD/JPY contrarian rally may accelerate as oil supply solves Iran standoff.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Yield spread and reduced geopolitical risk favor a bullish breakout above 161.80.",
-    "entry": "161.35",
-    "tp": "162.20",
-    "sl": "161.05",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "Market Outlook: S&P 500 Upside Catalysts Identified",
-    "date": "2026-04-15 11:15",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": [],
-    "tldr_points": [
-      "Rate environment tightening reinforcing premium positions.",
-      "Continued earnings momentum supports directional bias.",
-      "Short-term retest of key support levels increases probability."
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Key indicators point to a favorable shift for the index.",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "Key indicators point to a favorable shift for the index.",
+    "comment": "USD/JPY contrarian rally may accelerate as oil supply solves Iran standoff.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "S&P 500 Awaits Fed Pivot or Crash: Technical And Geopolitical Equilibrium Test",
+    "date": "2026-04-15 18:18",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "tldr_points": [
+      "Fed rate uncertainty dominates short-term outlook",
+      "Oil price dynamics influence energy sector volatility",
+      "Historical April volatility suggests choppy price action"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 faces mixed signals as Fed uncertainty and geopolitical risks clash with risk appetite ahead of critical April jobs data.",
+    "pair": "S&P 500",
+    "status": "NEUTRAL",
+    "comment": "Insufficient technical confirmation amid mixed Fed rate and oil price dynamics",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "BTC/USD Poised for Asymmetrical Breakout Amid AI Mining Surge and ETF Catalysts",
-    "date": "2026-04-15 11:16",
+    "title": "Bullish Momentum Intensifies: AI Analytics Pinpoints BTC/USD Breakout Above $31,500",
+    "date": "2026-04-15 18:25",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "AI-driven crypto sector surge reinforces BTC’s institutional retail hybrid demand",
-      "Goldman Sachs Bitcoin ETF filing lowers regulatory uncertainty risk",
-      "Order book imbalance favors bulls at $70,000–$73,000 zone"
+      "Positive regulatory drift in Europe and Asia",
+      "On‑chain liquidity tightening supports upward bias",
+      "Technical framework shows bullish breakout potential"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD trims above $72,000 amid AI miner rally; key trendline confluences amplify short-term upside potential. Ethereum ETF delays narrow focus on Bitcoin’s $75k resistance.",
+    "excerpt": "AI-driven synthesis of macro, on‑chain and technical data signals a BTC/USD upside thrust toward $33k.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Asymmetric risk-reward ratio from AI mining-driven demand and ETF catalyst tailwinds.",
-    "entry": "72000",
-    "tp": "75000",
-    "sl": "69800",
+    "comment": "Fundamental tailwinds and a bullish technical breakout pattern support a long exposure.",
+    "entry": "30800",
+    "tp": "33200",
+    "sl": "29900",
     "reliability": "HIGH"
   }
 }
