@@ -12,50 +12,50 @@
     "locale": "ja"
   },
   {
-    "id": "2026-04-15-crypto-ja",
-    "date": "2026-04-15 02:08",
-    "title": "Goldman SachsのETF申請とSaylor資金流入が示すBTC上昇シナリオ：機関投資家向け実践指針",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bitflyer",
-    "excerpt": "Goldman SachsのビットコインETF申請とSaylorファンドの大量買いが相乗的にBTC上昇圧力を形成。機関投資家はリスク管理下で段階的ロングを実行し、流動性確保のためbitflyer利用を推奨する。",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
     "id": "2026-04-15-crypto-en",
-    "date": "2026-04-15 02:08",
-    "title": "Create a high-impact, SEO-friendly headline (e.g. 'Countdown to 160? AI Analytics Identifies Target for USD/JPY Breakout')",
+    "date": "2026-04-15 11:16",
+    "title": "BTC/USD Poised for Asymmetrical Breakout Amid AI Mining Surge and ETF Catalysts",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "BTC/USD poised for upside as AI analytics spot bullish breakout amid Fed policy pivot and Coinbase ETF momentum strongly.",
+    "excerpt": "BTC/USD trims above $72,000 amid AI miner rally; key trendline confluences amplify short-term upside potential. Ethereum ETF delays narrow focus on Bitcoin’s $75k resistance.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-04-15-stocks-en",
-    "date": "2026-04-15 02:04",
-    "title": "S&P 500 Rallies on Iran Peace Hopes as Crude Oil Slumps",
+    "date": "2026-04-15 11:15",
+    "title": "Market Outlook: S&P 500 Upside Catalysts Identified",
     "genre": "STOCKS",
-    "target_pair": "S&P 500",
+    "target_pair": "",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "excerpt": "S&P 500 rises amid Iran peace talks speculation and crude oil weakness",
+    "recommended_broker": "",
+    "excerpt": "Key indicators point to a favorable shift for the index.",
     "result": "PENDING",
     "locale": "en"
   },
   {
+    "id": "2026-04-15-fx-ja",
+    "date": "2026-04-15 11:11",
+    "title": "米国・イラン緊張緩和と人民元安定でドル円反発の可能性、AI需給解析が示唆する上値目途",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "米国・イラン緊張緩和と人民元安定を受け、ドル円反発の可能性。AI需給解析とテクニカル分析から上値目途を探る。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
     "id": "2026-04-15-fx-en",
-    "date": "2026-04-15 02:03",
-    "title": "Countdown to 160? AI Analytics Identifies Target for USD/JPY Breakout",
+    "date": "2026-04-15 11:11",
+    "title": "Countdown to 162? AI Analytics Signals USD/JPY Upside Amid Geopolitical De‑Escalation",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY poised for upside as yield spread widens and risk sentiment improves.",
+    "excerpt": "USD/JPY poised for upside as geopolitical risk fades and yields diverge, targeting 162‑164 range.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -72,10 +72,10 @@
     "locale": "ja"
   },
   {
-    "id": "2026-04-15-fx-ja",
+    "id": "2026-04-15-crypto-ja",
     "date": "2026-04-15",
-    "title": "FX Analysis",
-    "genre": "FX",
+    "title": "CRYPTO Analysis",
+    "genre": "CRYPTO",
     "target_pair": "",
     "prediction_direction": "FLAT",
     "recommended_broker": "",
@@ -116,7 +116,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "",
     "excerpt": "",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -128,7 +128,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "",
     "excerpt": "",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -164,7 +164,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "excerpt": "BTC slides to $71,000 following Trump's blockade order; geopolitical risk and ecosystem vulnerabilities weigh on price.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "AI-driven breakout targets S&P 500 near 5,200; inflation data fuels Fed tightening fears; key support at 5,100. now!2026",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "",
     "excerpt": "",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -224,7 +224,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "",
     "excerpt": "",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
