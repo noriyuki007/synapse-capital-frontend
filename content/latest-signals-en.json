@@ -1,68 +1,60 @@
 {
   "FX": {
-    "title": "USD/JPY Poised for Upside: AI Analytics Targets 158.0 Amid Diverging Rate Paths",
-    "date": "2026-04-16 11:27",
+    "title": "USD/JPY 市場分析",
+    "date": "2026-04-16",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
-    "tldr_points": [
-      "US‑Japan rate differential widening",
-      "Risk‑off sentiment from China data bolsters yen demand",
-      "Technical support at MA20 and bullish break of 155‑157 zone"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY likely to climb toward 158 as US yields stay higher than Japan's, supported by fragile Chinese recovery.",
+    "excerpt": "",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Rate divergence and bullish technicals point to a move toward 158.",
-    "entry": "155.50",
-    "tp": "158.00",
-    "sl": "154.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500 Technicals Hint at Near-Term Breakout: Neo-Bullish Pattern Emerge",
-    "date": "2026-04-16 11:28",
+    "title": "S&P 500 Technical Analysis: Key Levels and Trading Strategy",
+    "date": "2026-04-16 18:18",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Earnings momentum and Fed policy dovishness support upside",
-      "Key resistance at converging Fibonacci levels aligns with historical pattern",
-      "RSI divergence suggests imminent normalization"
+      "S&P 500 shows bullish momentum driven by tech sector gains",
+      "Key resistance levels identified for potential breakout",
+      "Risk management crucial for optimal position sizing"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 nears pivotal breakout amid Q1 strength; technicals favor bulls as earnings season kicks off",
+    "excerpt": "S&P 500 technical analysis reveals bullish momentum with key resistance levels identified for potential breakout",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Technical breakout confirmed via AI pattern analysis with earnings catalyst support",
-    "entry": "4910",
-    "tp": "5030",
-    "sl": "4650",
-    "reliability": "HIGH"
+    "comment": "Bullish technical structure supported by positive sector rotation",
+    "entry": "Unknown",
+    "tp": "Unknown",
+    "sl": "Unknown",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "Bitcoin Poised for 60,000 Resistance as Inflows Signal Bullish Catalysts",
-    "date": "2023-10-12 15:42",
+    "title": "BTC/USD 市場分析",
+    "date": "2026-04-16",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
-    "tldr_points": [
-      "BTC consolidating near 29,000 key support level",
-      "Exchange inflows suggest accumulation ahead of potential 60,000 breakout",
-      "On-chain ETF-related inflows dominate despite profit-taking risks"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD faces critical resistance at 60,000 amid conflicting signals between inflows and on-chain profit-taking; AI models favor upside continuation.",
+    "excerpt": "",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Bullish confluence of ETF inflows and Tether ecosystem developments validates technical breakout pattern",
-    "entry": "29500",
-    "tp": "60000",
-    "sl": "25000",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }

@@ -10,12 +10,12 @@
     "chart_image": "/images/market-analysis-fx.png",
     "excerpt": "",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "ECBの利上げ停止とドルAINPRESSIOによる流動性集中",
+    "entry": "155.50",
+    "tp": "160.00",
+    "sl": "153.00",
+    "reliability": "HIGH"
   },
   "STOCKS": {
     "title": "S&P 500 市場分析",
@@ -36,25 +36,25 @@
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "AI解析によるBTC/USDの市場動向と展望：運用戦略とリスク管理のポイント",
-    "date": "2026-04-16 11:29",
+    "title": "需給バランスに変化の兆し：CryptoQuantが警告する利益確定リスクと構造的強気の対立軸",
+    "date": "2026-04-16 18:19",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "ビットコインの利益実現リスクが高まりつつある",
-      "テザーの影響力が市場に大きい",
-      "流動性の観点からbitflyerの利用を推奨"
+      "Exchange流入増加が利益確定リスクを示唆するも、構造的強気トレンドは維持",
+      "韓国・韓国の規制進展と人民元ステーブルコイン拡大が中長期カタリストに",
+      "MA20攻防が短期的なエントリータイミングを提供"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "ビットコインの価格動向は利益実現リスクが高まりつつあるにもかかわらず、テザーの影響力により上昇傾向が見込まれる。",
+    "excerpt": "CryptoQuantが警告する利益確定リスクとexchange流入増加。但し構造的な強気トレンドは維持されており、短期的な押し目を買い場として捉える。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20付近での押し目買いが推奨される",
-    "entry": "不明",
-    "tp": "25%",
-    "sl": "5%",
+    "status": "NEUTRAL",
+    "comment": "CryptoQuantが警告する利益確定リスクとexchange流入増加。但し構造的な強気トレンドは維持されており、短期的な押し目を買い場として捉える。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
