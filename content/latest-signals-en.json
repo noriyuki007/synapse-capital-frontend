@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY Bullish Setup: Oil Labour Pays Dividends Amid Geopolitical Tensions",
-    "date": "2026-04-15 18:17",
+    "title": "USD/JPY Poised for Upside: AI Analytics Targets 158.0 Amid Diverging Rate Paths",
+    "date": "2026-04-16 11:27",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Iran's alternative ports limit USD downside",
-      "Japan's oil reserves boost intervention scope",
-      "EUR crosses erase war premiums but JPY-linked carry remains intact"
+      "US‑Japan rate differential widening",
+      "Risk‑off sentiment from China data bolsters yen demand",
+      "Technical support at MA20 and bullish break of 155‑157 zone"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY contrarian rally may accelerate as oil supply solves Iran standoff.",
+    "excerpt": "USD/JPY likely to climb toward 158 as US yields stay higher than Japan's, supported by fragile Chinese recovery.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPY contrarian rally may accelerate as oil supply solves Iran standoff.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Rate divergence and bullish technicals point to a move toward 158.",
+    "entry": "155.50",
+    "tp": "158.00",
+    "sl": "154.00",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500 Awaits Fed Pivot or Crash: Technical And Geopolitical Equilibrium Test",
-    "date": "2026-04-15 18:18",
+    "title": "S&P 500 Technicals Hint at Near-Term Breakout: Neo-Bullish Pattern Emerge",
+    "date": "2026-04-16 11:28",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Fed rate uncertainty dominates short-term outlook",
-      "Oil price dynamics influence energy sector volatility",
-      "Historical April volatility suggests choppy price action"
+      "Earnings momentum and Fed policy dovishness support upside",
+      "Key resistance at converging Fibonacci levels aligns with historical pattern",
+      "RSI divergence suggests imminent normalization"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces mixed signals as Fed uncertainty and geopolitical risks clash with risk appetite ahead of critical April jobs data.",
+    "excerpt": "S&P 500 nears pivotal breakout amid Q1 strength; technicals favor bulls as earnings season kicks off",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Insufficient technical confirmation amid mixed Fed rate and oil price dynamics",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Technical breakout confirmed via AI pattern analysis with earnings catalyst support",
+    "entry": "4910",
+    "tp": "5030",
+    "sl": "4650",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "Bullish Momentum Intensifies: AI Analytics Pinpoints BTC/USD Breakout Above $31,500",
-    "date": "2026-04-15 18:25",
+    "title": "Bitcoin Poised for 60,000 Resistance as Inflows Signal Bullish Catalysts",
+    "date": "2023-10-12 15:42",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Positive regulatory drift in Europe and Asia",
-      "On‑chain liquidity tightening supports upward bias",
-      "Technical framework shows bullish breakout potential"
+      "BTC consolidating near 29,000 key support level",
+      "Exchange inflows suggest accumulation ahead of potential 60,000 breakout",
+      "On-chain ETF-related inflows dominate despite profit-taking risks"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "AI-driven synthesis of macro, on‑chain and technical data signals a BTC/USD upside thrust toward $33k.",
+    "excerpt": "BTC/USD faces critical resistance at 60,000 amid conflicting signals between inflows and on-chain profit-taking; AI models favor upside continuation.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Fundamental tailwinds and a bullish technical breakout pattern support a long exposure.",
-    "entry": "30800",
-    "tp": "33200",
-    "sl": "29900",
+    "comment": "Bullish confluence of ETF inflows and Tether ecosystem developments validates technical breakout pattern",
+    "entry": "29500",
+    "tp": "60000",
+    "sl": "25000",
     "reliability": "HIGH"
   }
 }

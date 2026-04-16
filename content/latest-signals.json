@@ -18,47 +18,43 @@
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500急落の深層分析：4月の歴史的変動と戦術的エントリーポイント",
-    "date": "2026-04-15 18:18",
+    "title": "S&P 500 市場分析",
+    "date": "2026-04-16",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Saxo Bank",
-    "tldr_points": [
-      "4月の歴史的変動性を勘案し慎重なエントリーを推奨",
-      "連邦準備制度の政策変更が市場心理に影響",
-      "短期的な調整局面を活用した押し目買い戦略"
-    ],
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "4月の歴史的変動性と連邦準備制度の政策変更を受け、S&P 500の短期戦術的トレード戦略を分析。",
+    "excerpt": "",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "4月の歴史的反発傾向と連邦準備制度の政策変更期待を背景とした押し目買い戦略",
-    "entry": "4150",
-    "tp": "4300",
-    "sl": "3950",
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "ETF申請ラッシュと機関投資家参入でBTC強気相場再燃か？AI需給解析が示す『次の上昇ターゲット』",
-    "date": "2026-04-15 18:25",
+    "title": "AI解析によるBTC/USDの市場動向と展望：運用戦略とリスク管理のポイント",
+    "date": "2026-04-16 11:29",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "21Sharesが2度目のHyperliquid ETF修正申請",
-      "Rippleと韓国Kyobo生命がトークン化債券決済で提携",
-      "欧州SIXグループがChainlinkにデータ供給開始"
+      "ビットコインの利益実現リスクが高まりつつある",
+      "テザーの影響力が市場に大きい",
+      "流動性の観点からbitflyerの利用を推奨"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "21SharesのHyperliquid ETF再申請とRippleの韓国トークン化債券決済提携が機関投資家参入を加速。AI需給解析では買い圧力が継続中。",
+    "excerpt": "ビットコインの価格動向は利益実現リスクが高まりつつあるにもかかわらず、テザーの影響力により上昇傾向が見込まれる。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "ETF申請ラッシュと機関投資家参入の加速が上昇トレンドを支える",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "HIGH"
+    "comment": "MA20付近での押し目買いが推奨される",
+    "entry": "不明",
+    "tp": "25%",
+    "sl": "5%",
+    "reliability": "MEDIUM"
   }
 }
