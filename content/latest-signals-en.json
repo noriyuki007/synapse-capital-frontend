@@ -1,7 +1,7 @@
 {
   "FX": {
     "title": "USD/JPY 市場分析",
-    "date": "2026-04-16",
+    "date": "2026-04-17",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "FLAT",
@@ -18,43 +18,47 @@
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500 Technical Analysis: Key Levels and Trading Strategy",
-    "date": "2026-04-16 18:18",
+    "title": "S&P 500 at Critical Juncture: AI Analytics Identifies Breakout Opportunity",
+    "date": "2026-04-17 02:12",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 shows bullish momentum driven by tech sector gains",
-      "Key resistance levels identified for potential breakout",
-      "Risk management crucial for optimal position sizing"
+      "Bank of America warns on S&P 500 valuation",
+      "Tech leadership drives market momentum",
+      "Defensive positioning recommended near key support"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 technical analysis reveals bullish momentum with key resistance levels identified for potential breakout",
+    "excerpt": "AI analysis identifies S&P 500 breakout opportunity with defensive positioning near support",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Bullish technical structure supported by positive sector rotation",
-    "entry": "Unknown",
-    "tp": "Unknown",
-    "sl": "Unknown",
+    "comment": "Technical setup with defensive positioning near support",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD 市場分析",
-    "date": "2026-04-16",
+    "title": "BTC/USD poised for upside bias as institutional demand accelerates",
+    "date": "2026-04-17 02:16",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "tldr_points": [],
+    "tldr_points": [
+      "Spot BTC launch by Charles Schwab expands retail access",
+      "X Money disrupts payments, creating macro tailwinds for crypto",
+      "Technical support at $30,200 aligns with MA20 bounce"
+    ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "",
+    "excerpt": "Institutional inflows and payment‑network news lift BTC, targeting a breakout above $31k.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Fundamental inflows and technical MA20 support justify a bullish entry.",
+    "entry": "30200",
+    "tp": "31200",
+    "sl": "29600",
+    "reliability": "HIGH"
   }
 }
