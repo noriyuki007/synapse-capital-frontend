@@ -12,52 +12,40 @@
     "locale": "ja"
   },
   {
-    "id": "2026-04-17-crypto-ja",
-    "date": "2026-04-17 02:16",
-    "title": "円高・ドル安の流れに乗れ？AI需給解析が示すBTC/USD超短期戦略",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bitflyer",
-    "excerpt": "AI需給とオーダーフローが示すBTC/USD上昇トレンドと、bitflyerでの実践的なエントリー戦略を提示。",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
     "id": "2026-04-17-crypto-en",
-    "date": "2026-04-17 02:16",
-    "title": "BTC/USD poised for upside bias as institutional demand accelerates",
+    "date": "2026-04-17 11:17",
+    "title": "BTC/USD Poised for Breakout Above $45k? AI Analytics Highlights Structural Bullish Bias",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "Institutional inflows and payment‑network news lift BTC, targeting a breakout above $31k.",
+    "excerpt": "BTC/USD gains on favorable macro tailwinds and tightening order flow; target $48k‑$52k.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-04-17-stocks-en",
-    "date": "2026-04-17 02:12",
-    "title": "S&P 500 at Critical Juncture: AI Analytics Identifies Breakout Opportunity",
+    "date": "2026-04-17 11:15",
+    "title": "S&P 500 Poised Near 4,800? AI Analytics Highlights Bullish Breakout",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
-    "excerpt": "AI analysis identifies S&P 500 breakout opportunity with defensive positioning near support",
+    "excerpt": "AI-driven analysis points to a bullish S&P 500 swing toward 4,800 as macro tailwinds coalesce.",
     "result": "PENDING",
     "locale": "en"
   },
   {
-    "id": "2026-04-17-fx-ja",
-    "date": "2026-04-17 02:12",
-    "title": "米利下げペース減速と地政学リスクの沈静化：USD/JPYの強気バイアス継続と押し目買い戦略",
+    "id": "2026-04-17-fx-en",
+    "date": "2026-04-17 11:14",
+    "title": "Create a high-impact, SEO-friendly headline (e.g. 'Countdown to 160? AI Analytics Identifies Target for USD/JPY Breakout')",
     "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "dmm-fx",
-    "excerpt": "米連邦準備制度の利下げ見通し下方修正と中東情勢の停戦合意を受け、USD/JPYはドル買い・円売り圧力が優位な展開となる。地政学リスクの緩和は円のキャリー・トレードを再活性化させる要因となり、押し目買い戦略が有効な局面である。",
+    "target_pair": "",
+    "prediction_direction": "BUY",
+    "recommended_broker": "xm-trading",
+    "excerpt": "Key signals indicate a favorable setup for a controlled attack.",
     "result": "PENDING",
-    "locale": "ja"
+    "locale": "en"
   },
   {
     "id": "2026-04-17-stocks-ja",
@@ -72,7 +60,7 @@
     "locale": "ja"
   },
   {
-    "id": "2026-04-17-fx-en",
+    "id": "2026-04-17-fx-ja",
     "date": "2026-04-17",
     "title": "FX Analysis",
     "genre": "FX",
@@ -81,7 +69,19 @@
     "recommended_broker": "",
     "excerpt": "",
     "result": "PENDING",
-    "locale": "en"
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-17-crypto-ja",
+    "date": "2026-04-17",
+    "title": "CRYPTO Analysis",
+    "genre": "CRYPTO",
+    "target_pair": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "",
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-04-16-crypto-ja",
@@ -128,7 +128,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "",
     "excerpt": "",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -140,7 +140,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "",
     "excerpt": "",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "21SharesのHyperliquid ETF再申請とRippleの韓国トークン化債券決済提携が機関投資家参入を加速。AI需給解析では買い圧力が継続中。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "AI-driven synthesis of macro, on‑chain and technical data signals a BTC/USD upside thrust toward $33k.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Saxo Bank",
     "excerpt": "4月の歴史的変動性と連邦準備制度の政策変更を受け、S&P 500の短期戦術的トレード戦略を分析。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "",
     "excerpt": "S&P 500 faces mixed signals as Fed uncertainty and geopolitical risks clash with risk appetite ahead of critical April jobs data.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {

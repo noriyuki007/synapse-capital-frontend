@@ -1,24 +1,20 @@
 {
   "FX": {
-    "title": "米利下げペース減速と地政学リスクの沈静化：USD/JPYの強気バイアス継続と押し目買い戦略",
-    "date": "2026-04-17 02:12",
+    "title": "USD/JPY 市場分析",
+    "date": "2026-04-17",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
-    "tldr_points": [
-      "Fed Miran氏による利下げ回数下方修正がドル買い圧力へ",
-      "中東情勢の停戦合意によるリスクオフ・円買い需要の減退",
-      "エネルギーステップへの資金シフトに伴うセクター間ローテーション"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米連邦準備制度の利下げ見通し下方修正と中東情勢の停戦合意を受け、USD/JPYはドル買い・円売り圧力が優位な展開となる。地政学リスクの緩和は円のキャリー・トレードを再活性化させる要因となり、押し目買い戦略が有効な局面である。",
+    "excerpt": "",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "米利下げ見通しの下方修正と中東停戦による円売り圧力の増大",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
@@ -40,22 +36,18 @@
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "円高・ドル安の流れに乗れ？AI需給解析が示すBTC/USD超短期戦略",
-    "date": "2026-04-17 02:16",
+    "title": "BTC/USD 市場分析",
+    "date": "2026-04-17",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
-    "tldr_points": [
-      "AI需給が示す上昇局面",
-      "オーダーフローでの流動性確保",
-      "リスク管理を徹底した押し目買い推奨"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "AI需給とオーダーフローが示すBTC/USD上昇トレンドと、bitflyerでの実践的なエントリー戦略を提示。",
+    "excerpt": "",
     "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "AI需給とオーダーフローが示すBTC/USD上昇トレンドと、bitflyerでの実践的なエントリー戦略を提示。",
+    "comment": "シナプス解析に基づくシグナル",
     "entry": "---",
     "tp": "---",
     "sl": "---",
