@@ -1,29 +1,29 @@
 {
   "FX": {
-    "title": "AI Analytics Flags Intervention Risk: USD/JPY Breakout Targets 157.50 Amid Fed Neutrality",
-    "date": "2026-04-17 18:15",
+    "title": "USD/JPY Outlook: Geopolitical De-escalation and Equity Record Highs Signal Bullish Momentum",
+    "date": "2026-04-18 01:53",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Fed neutrality caps momentum",
-      "Japan intervention risk rising",
-      "Technical support at MA20 intact"
+      "US equity record highs reflect risk-on appetite",
+      "Geopolitical cooling in Middle East reduces JPY safe-haven demand",
+      "Fed's Daly indicates cautious business optimism supporting USD stability"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY trades near key resistance with intervention risk rising as Fed remains neutral; technical setup favors upside continuation.",
+    "excerpt": "Analysis of USD/JPY amid US equity highs and Middle East de-escalation; AI identifies upside potential.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Technical support intact with intervention risk as upside catalyst",
-    "entry": "157.00",
-    "tp": "157.50",
-    "sl": "156.50",
-    "reliability": "HIGH"
+    "comment": "Risk-on sentiment and geopolitical cooling reduce JPY safe-haven demand.",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
     "title": "S&P 500 市場分析",
-    "date": "2026-04-17",
+    "date": "2026-04-18",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "FLAT",
@@ -32,33 +32,29 @@
     "chart_image": "/images/market-analysis-stocks.png",
     "excerpt": "",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Energy rebound and Iran deal dynamics favor a move toward $160.",
-    "entry": "151.50",
-    "tp": "160.00",
-    "sl": "149.50",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "Market‑Analysis AI Detects BTC/USD Strengthening Zone Near 26,500",
-    "date": "2026-04-17 18:20",
+    "title": "BTC/USD 市場分析",
+    "date": "2026-04-18",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
-    "tldr_points": [
-      "Macroeconomic shifts buoy BTC",
-      "Onchain credit growth signals institutional inflow",
-      "Momentum near key resistance suggests breakout potential"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD poised to breach 26,500 on rising onchain credit and solid liquidity.",
+    "excerpt": "",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Onchain credit inflows and a bullish macro backdrop suggest upside momentum.",
-    "entry": "26.520",
-    "tp": "27.350",
-    "sl": "26.100",
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
