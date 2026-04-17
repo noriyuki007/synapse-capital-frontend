@@ -1,68 +1,64 @@
 {
   "FX": {
-    "title": "Create a high-impact, SEO-friendly headline (e.g. 'Countdown to 160? AI Analytics Identifies Target for USD/JPY Breakout')",
-    "date": "2026-04-17 11:14",
+    "title": "AI Analytics Flags Intervention Risk: USD/JPY Breakout Targets 157.50 Amid Fed Neutrality",
+    "date": "2026-04-17 18:15",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "BUY",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Ratio divergence above RSI confers potential pullback.",
-      "Support formation near 110 suggests tight range entry.",
-      "Fibonacci retracement alignment points at key levels."
+      "Fed neutrality caps momentum",
+      "Japan intervention risk rising",
+      "Technical support at MA20 intact"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Key signals indicate a favorable setup for a controlled attack.",
+    "excerpt": "USD/JPY trades near key resistance with intervention risk rising as Fed remains neutral; technical setup favors upside continuation.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "Key signals indicate a favorable setup for a controlled attack.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Technical support intact with intervention risk as upside catalyst",
+    "entry": "157.00",
+    "tp": "157.50",
+    "sl": "156.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500 Poised Near 4,800? AI Analytics Highlights Bullish Breakout",
-    "date": "2026-04-17 11:15",
+    "title": "S&P 500 市場分析",
+    "date": "2026-04-17",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "Yield curve flattening supports equity risk-on",
-      "Order flow shows net long bias across CME futures",
-      "RSI approaching oversold zone suggests upside momentum"
-    ],
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "AI-driven analysis points to a bullish S&P 500 swing toward 4,800 as macro tailwinds coalesce.",
+    "excerpt": "",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Rate easing and net long futures bias create a favorable risk‑reward setup.",
-    "entry": "4,720",
-    "tp": "4,800",
-    "sl": "4,640",
+    "comment": "Energy rebound and Iran deal dynamics favor a move toward $160.",
+    "entry": "151.50",
+    "tp": "160.00",
+    "sl": "149.50",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "BTC/USD Poised for Breakout Above $45k? AI Analytics Highlights Structural Bullish Bias",
-    "date": "2026-04-17 11:17",
+    "title": "Market‑Analysis AI Detects BTC/USD Strengthening Zone Near 26,500",
+    "date": "2026-04-17 18:20",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Macro risk offset by crypto‑centric regulatory clarity",
-      "Order flow shows net long accumulation on major exchanges",
-      "Technical profile supports a retest of the 20‑day MA before upside move"
+      "Macroeconomic shifts buoy BTC",
+      "Onchain credit growth signals institutional inflow",
+      "Momentum near key resistance suggests breakout potential"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD gains on favorable macro tailwinds and tightening order flow; target $48k‑$52k.",
+    "excerpt": "BTC/USD poised to breach 26,500 on rising onchain credit and solid liquidity.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Macro risk off and order flow tilt create a favourable environment for a breakout above $45k.",
-    "entry": "42900",
-    "tp": "45200",
-    "sl": "42200",
-    "reliability": "HIGH"
+    "comment": "Onchain credit inflows and a bullish macro backdrop suggest upside momentum.",
+    "entry": "26.520",
+    "tp": "27.350",
+    "sl": "26.100",
+    "reliability": "MEDIUM"
   }
 }

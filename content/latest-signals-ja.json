@@ -10,12 +10,12 @@
     "chart_image": "/images/market-analysis-fx.png",
     "excerpt": "",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "マクロ経済圧力とAI検知の技術高値の狭間で介入リスクなし方向へ形成",
+    "entry": "155.0",
+    "tp": "158.0",
+    "sl": "154.0",
+    "reliability": "HIGH"
   },
   "STOCKS": {
     "title": "S&P 500 市場分析",
@@ -28,12 +28,12 @@
     "chart_image": "/images/market-analysis-stocks.png",
     "excerpt": "",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Geopolitical de-escalation and energy sector momentum justify directional position",
+    "entry": "5450",
+    "tp": "5600",
+    "sl": "5300",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
     "title": "BTC/USD 市場分析",
