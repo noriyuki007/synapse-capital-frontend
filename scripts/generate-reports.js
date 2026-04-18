@@ -238,7 +238,7 @@ function stripLeadingCodeFenceAroundFrontmatter(md) {
  * Quality Check Logic
  * Returns { ok: boolean, violations: string[] }
  */
-function checkQuality(markdownText, genre, locale) {
+function checkQuality(markdownText, genre, locale, expectedDateStr) {
     const violations = [];
     const text = markdownText.trim();
 
@@ -271,6 +271,14 @@ function checkQuality(markdownText, genre, locale) {
             if (text.includes(char)) {
                 violations.push(`Banned character detected: "${char}"`);
             }
+        }
+    }
+
+    // 5. Frontmatter date vs filename date consistency
+    if (expectedDateStr) {
+        const fmDateMatch = text.match(/^date:\s*"?(\d{4}-\d{2}-\d{2})/m);
+        if (fmDateMatch && fmDateMatch[1] !== expectedDateStr) {
+            violations.push(`Frontmatter date mismatch: frontmatter="${fmDateMatch[1]}" expected="${expectedDateStr}"`);
         }
     }
 
@@ -1100,7 +1108,7 @@ async function generateReportForGenre(genre, newsForPrompt, marketData, dateStr,
                     for (const modelId of GEMINI_MODEL_CANDIDATES) {
                         try {
                             const raw = await generateWithGemini(genre, newsForPrompt, marketData, displayDateStr, locale);
-                            const q = checkQuality(raw, genre, locale);
+                            const q = checkQuality(raw, genre, locale, dateStr);
                             if (q.ok) {
                                 markdown = raw;
                                 break;
@@ -1117,7 +1125,7 @@ async function generateReportForGenre(genre, newsForPrompt, marketData, dateStr,
                     for (const mId of FREE_MODELS) {
                         try {
                             const raw = await generateWithOpenRouter(genre, newsForPrompt, marketData, mId, displayDateStr, locale);
-                            const q = checkQuality(raw, genre, locale);
+                            const q = checkQuality(raw, genre, locale, dateStr);
                             if (q.ok) {
                                 markdown = raw;
                                 console.log(`[${genre}:${locale}] ✅ Fallback successful with ${mId}`);
