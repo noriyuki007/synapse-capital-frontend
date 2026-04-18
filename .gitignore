@@ -17,6 +17,13 @@
 /.next/
 /out/
 
+# build artifacts (do not commit)
+/.open-next/
+/deploy/
+
+# local IDE / tooling
+/.claude/
+
 # production
 /build
 
