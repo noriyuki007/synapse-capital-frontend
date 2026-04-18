@@ -1,24 +1,20 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-04-18 20:13",
+    "title": "USD/JPY 市場分析",
+    "date": "2026-04-18",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
-    "tldr_points": [
-      "Iran Strait tensions easing, oil prices falling",
-      "Fed's Waller signals neutral job market outlook",
-      "AI identifies MA20 support level for buying opportunity"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised for upside as geopolitical tensions ease and Fed signals stability, with AI targeting MA20 support for strategic entries.",
+    "excerpt": "",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "AI detects support at MA20 with improving fundamentals and sentiment favoring dollar strength.",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {

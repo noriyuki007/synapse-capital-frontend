@@ -1,46 +1,42 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: イラン情勢の不透明さとファンダメンタルズの整合性で下押し圧力を確認",
-    "date": "2026-04-18 20:13",
+    "title": "[USD/JPY] NEUTRAL: ファンダメンタルズの不透明感とテクニカルな方向感欠如",
+    "date": "2026-04-18 21:18",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "イランによるホルムズ海峡の再閉鎖発言がリスクオフを誘発",
-      "Fedのウォーラー氏が実質金利ゼロ近傍を示唆し米ドルの上値を制限",
-      "テクニカルではMA20付近での売り圧力が顕在化"
+      "ホルムズ海峡情勢の二転三転",
+      "ウォラーFRB理事の雇用市場見解",
+      "イラン核開発の進展懸念"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "イラン情勢の不透明さとファンダメンタルズの弱さがUSD/JPYを下押し、売り戦略を推奨。",
+    "excerpt": "地政学リスクと米金融政策の不確実性がUSD/JPYの方向性を曇らせている。",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "イランリスクとファンダメンタルズの弱さが米ドルを下押し、MA20付近での売り圧力が確認されたため",
-    "entry": "150.45",
-    "tp": "148.95",
-    "sl": "151.15",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] FLAT: マクロ不透明感とテクニカルレンジ相場の継続を予想",
-    "date": "2026-04-18 20:17",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "DMM FX",
-    "tldr_points": [
-      "マクロ不透明感継続",
-      "テクニカルレンジ相場",
-      "押し目買い・戻り売り戦略"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はマクロ不透明感継続で方向感に欠け、テクニカル的にレンジ相場継続の可能性が高い。",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "マクロ不透明感継続で方向感に欠け、テクニカル的にレンジ相場継続の可能性が高い",
+    "comment": "地政学リスクと米金融政策の不透明感が相殺し合い、方向感を欠いた展開を予想。",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
+    "reliability": "LOW"
+  },
+  "STOCKS": {
+    "title": "S&P 500 市場分析",
+    "date": "2026-04-18",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "tldr_points": [],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "",
+    "pair": "S&P 500",
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
