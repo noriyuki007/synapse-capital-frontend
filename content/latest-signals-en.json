@@ -1,21 +1,25 @@
 {
   "FX": {
-    "title": "USD/JPY 市場分析",
-    "date": "2026-04-18",
+    "title": "USD/JPY Breakout Signals: AI Analytics Targets 160 as Oil Plunge Fuels Dollar Strength",
+    "date": "2026-04-18 17:45",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "tldr_points": [],
+    "tldr_points": [
+      "Oil price plunge supports USD strength",
+      "Fed's Waller signals hawkish pivot",
+      "Iran tensions create safe-haven demand for USD"
+    ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "",
+    "excerpt": "AI analytics identifies USD/JPY breakout toward 160 as oil price collapse and Fed signals boost dollar demand",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Oil price plunge and Fed signals support USD strength toward 160",
+    "entry": "156.50",
+    "tp": "160.00",
+    "sl": "154.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
     "title": "S&P 500 市場分析",
@@ -29,32 +33,28 @@
     "excerpt": "",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "Range-bound action until election season volatility",
-    "entry": "5,140 S",
-    "tp": "5,110 and 5,120 CC",
-    "sl": "5,100",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "Bitcoin Momentum Builds as Legal Clarity and DeFi Expansion Fuel Upside",
-    "date": "2026-04-18 11:09",
+    "title": "BTC/USD 市場分析",
+    "date": "2026-04-18",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
-    "tldr_points": [
-      "Caitlyn Jenner memecoin ruling reduces legal overhang",
-      "Solana-based XRP wrapper expands BTC ecosystem access",
-      "Technical setup points to bullish continuation above MA20"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Bitcoin poised for upside as legal clarity, DeFi expansion, and bullish technicals converge",
+    "excerpt": "",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Bullish technicals supported by improving fundamentals and positive sentiment shift",
-    "entry": "58500",
-    "tp": "65000",
-    "sl": "57000",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
