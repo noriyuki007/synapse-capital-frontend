@@ -10,11 +10,6 @@ const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
 const REPORTS_DIR = './content/reports';
 
 const CLI_DATE_ARG = process.argv.find((a) => a.startsWith('--date='));
-const TARGET_DATE_RAW = process.env.TARGET_DATE || (CLI_DATE_ARG ? CLI_DATE_ARG.split('=')[1] : '');
-const REBUILD_ONLY = process.argv.includes('--rebuild-only');
-const DRY_RUN = process.argv.includes('--dry-run');
-const GENRES_TO_PROCESS = process.env.GENRES ? process.env.GENRES.split(',').map(g => g.trim().toUpperCase()) : Object.keys(TICKER_MAP);
-
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY || 'dummy_key');
 
 // --- Quality Rules ---
@@ -85,6 +80,11 @@ const TICKER_MAP = {
     STOCKS: { symbol: 'S&P 500', ticker: '^GSPC' },
     CRYPTO: { symbol: 'BTC/USD', ticker: 'BTC-USD' },
 };
+
+const TARGET_DATE_RAW = process.env.FORCE_DATE || process.env.TARGET_DATE || (CLI_DATE_ARG ? CLI_DATE_ARG.split('=')[1] : '');
+const REBUILD_ONLY = process.argv.includes('--rebuild-only');
+const DRY_RUN = process.argv.includes('--dry-run');
+const GENRES_TO_PROCESS = process.env.GENRES ? process.env.GENRES.split(',').map(g => g.trim().toUpperCase()) : Object.keys(TICKER_MAP);
 
 function getJSTDateStr(dateOverride, includeTime = false) {
     const jstNow = new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Tokyo' }));
