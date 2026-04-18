@@ -1,25 +1,25 @@
 {
   "FX": {
-    "title": "USD/JPY Breakout Signals: AI Analytics Targets 160 as Oil Plunge Fuels Dollar Strength",
-    "date": "2026-04-18 17:45",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-04-18 20:13",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Oil price plunge supports USD strength",
-      "Fed's Waller signals hawkish pivot",
-      "Iran tensions create safe-haven demand for USD"
+      "Iran Strait tensions easing, oil prices falling",
+      "Fed's Waller signals neutral job market outlook",
+      "AI identifies MA20 support level for buying opportunity"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "AI analytics identifies USD/JPY breakout toward 160 as oil price collapse and Fed signals boost dollar demand",
+    "excerpt": "USD/JPY poised for upside as geopolitical tensions ease and Fed signals stability, with AI targeting MA20 support for strategic entries.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Oil price plunge and Fed signals support USD strength toward 160",
-    "entry": "156.50",
-    "tp": "160.00",
-    "sl": "154.80",
-    "reliability": "HIGH"
+    "comment": "AI detects support at MA20 with improving fundamentals and sentiment favoring dollar strength.",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
     "title": "S&P 500 市場分析",
@@ -32,29 +32,33 @@
     "chart_image": "/images/market-analysis-stocks.png",
     "excerpt": "",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "Technical reversal at MA20 combined with dividend strength creates 12-15% upside potential",
+    "entry": "4305",
+    "tp": "4420",
+    "sl": "4280",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD 市場分析",
-    "date": "2026-04-18",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-04-18 20:19",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "tldr_points": [],
+    "tldr_points": [
+      "Judge rules JENNER memecoin is not a security, reducing regulatory overhang",
+      "Rhea Finance post-mortem doubles exploit losses to $18.4M, raising security concerns in DeFi",
+      "Wrapped XRP launches on Solana, expanding cross-chain liquidity and adoption"
+    ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "",
+    "excerpt": "BTC/USD shows bullish technical structure with support at MA20 amid improving regulatory clarity and expanding cross-chain liquidity.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Support at MA20 with improving regulatory clarity and cross-chain expansion catalysts",
+    "entry": "61000",
+    "tp": "65000",
+    "sl": "58500",
+    "reliability": "HIGH"
   }
 }

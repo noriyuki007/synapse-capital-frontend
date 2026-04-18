@@ -12,40 +12,52 @@
     "locale": "ja"
   },
   {
-    "id": "2026-04-18-crypto-ja",
-    "date": "2026-04-18 17:47",
-    "title": "AI戦略裏見通し：BTC/USDの超実践的動向",
+    "id": "2026-04-18-crypto-en",
+    "date": "2026-04-18 20:19",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "uphill または stable",
-    "recommended_broker": "bitflyer",
-    "excerpt": "最新ニュースとAI解析を統合し、アクションフォーカスへ",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-04-18-fx-en",
-    "date": "2026-04-18 17:45",
-    "title": "USD/JPY Breakout Signals: AI Analytics Targets 160 as Oil Plunge Fuels Dollar Strength",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
     "prediction_direction": "UP",
-    "recommended_broker": "xm-trading",
-    "excerpt": "AI analytics identifies USD/JPY breakout toward 160 as oil price collapse and Fed signals boost dollar demand",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD shows bullish technical structure with support at MA20 amid improving regulatory clarity and expanding cross-chain liquidity.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-04-18-stocks-ja",
-    "date": "2026-04-18",
-    "title": "STOCKS Analysis",
+    "date": "2026-04-18 20:17",
+    "title": "[S&P 500] FLAT: マクロ不透明感とテクニカルレンジ相場の継続を予想",
     "genre": "STOCKS",
-    "target_pair": "",
+    "target_pair": "S&P 500",
     "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
+    "recommended_broker": "DMM FX",
+    "excerpt": "S&P 500はマクロ不透明感継続で方向感に欠け、テクニカル的にレンジ相場継続の可能性が高い。",
     "result": "PENDING",
     "locale": "ja"
+  },
+  {
+    "id": "2026-04-18-fx-ja",
+    "date": "2026-04-18 20:13",
+    "title": "[USD/JPY] DOWN: イラン情勢の不透明さとファンダメンタルズの整合性で下押し圧力を確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "イラン情勢の不透明さとファンダメンタルズの弱さがUSD/JPYを下押し、売り戦略を推奨。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-18-fx-en",
+    "date": "2026-04-18 20:13",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY poised for upside as geopolitical tensions ease and Fed signals stability, with AI targeting MA20 support for strategic entries.",
+    "result": "PENDING",
+    "locale": "en"
   },
   {
     "id": "2026-04-18-stocks-en",
@@ -60,19 +72,7 @@
     "locale": "en"
   },
   {
-    "id": "2026-04-18-fx-ja",
-    "date": "2026-04-18",
-    "title": "FX Analysis",
-    "genre": "FX",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-04-18-crypto-en",
+    "id": "2026-04-18-crypto-ja",
     "date": "2026-04-18",
     "title": "CRYPTO Analysis",
     "genre": "CRYPTO",
@@ -81,7 +81,7 @@
     "recommended_broker": "",
     "excerpt": "",
     "result": "PENDING",
-    "locale": "en"
+    "locale": "ja"
   },
   {
     "id": "2026-04-17-crypto-en",
