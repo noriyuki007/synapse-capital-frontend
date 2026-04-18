@@ -1,87 +1,27 @@
 [
   {
-    "id": "2026-04-10-crypto-ja",
-    "date": "2026-05-03 09:23",
-    "title": "BTC/USD：ショートトレードの到達点か？RSICROSS & INSTITUTIONAL OPEN INTEREST",
+    "id": "2026-04-18-crypto-ja",
+    "date": "2026-04-18 17:47",
+    "title": "AI戦略裏見通し：BTC/USDの超実践的動向",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "NEUTRAL",
+    "prediction_direction": "uphill または stable",
     "recommended_broker": "bitflyer",
-    "excerpt": "BTC/USD、安値売り壊し後の買い控えが継続。RSI(14)の強力逆張がテクニカル設定の鍵に。",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-04-18-crypto-en",
-    "date": "2026-04-18 20:19",
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bybit",
-    "excerpt": "BTC/USD shows bullish technical structure with support at MA20 amid improving regulatory clarity and expanding cross-chain liquidity.",
-    "result": "PENDING",
-    "locale": "en"
-  },
-  {
-    "id": "2026-04-18-stocks-ja",
-    "date": "2026-04-18 20:17",
-    "title": "[S&P 500] FLAT: マクロ不透明感とテクニカルレンジ相場の継続を予想",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "DMM FX",
-    "excerpt": "S&P 500はマクロ不透明感継続で方向感に欠け、テクニカル的にレンジ相場継続の可能性が高い。",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-04-18-fx-ja",
-    "date": "2026-04-18 20:13",
-    "title": "[USD/JPY] DOWN: イラン情勢の不透明さとファンダメンタルズの整合性で下押し圧力を確認",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "dmm-fx",
-    "excerpt": "イラン情勢の不透明さとファンダメンタルズの弱さがUSD/JPYを下押し、売り戦略を推奨。",
+    "excerpt": "最新ニュースとAI解析を統合し、アクションフォーカスへ",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-04-18-fx-en",
-    "date": "2026-04-18 20:13",
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-04-18 17:45",
+    "title": "USD/JPY Breakout Signals: AI Analytics Targets 160 as Oil Plunge Fuels Dollar Strength",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY poised for upside as geopolitical tensions ease and Fed signals stability, with AI targeting MA20 support for strategic entries.",
+    "excerpt": "AI analytics identifies USD/JPY breakout toward 160 as oil price collapse and Fed signals boost dollar demand",
     "result": "PENDING",
     "locale": "en"
-  },
-  {
-    "id": "2026-04-18-stocks-en",
-    "date": "2026-04-18",
-    "title": "STOCKS Analysis",
-    "genre": "STOCKS",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "PENDING",
-    "locale": "en"
-  },
-  {
-    "id": "2026-04-18-crypto-ja",
-    "date": "2026-04-18",
-    "title": "CRYPTO Analysis",
-    "genre": "CRYPTO",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "PENDING",
-    "locale": "ja"
   },
   {
     "id": "2026-04-17-crypto-en",
@@ -108,54 +48,6 @@
     "locale": "en"
   },
   {
-    "id": "2026-04-17-stocks-ja",
-    "date": "2026-04-17",
-    "title": "STOCKS Analysis",
-    "genre": "STOCKS",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "HIT",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-04-17-stocks-en",
-    "date": "2026-04-17",
-    "title": "STOCKS Analysis",
-    "genre": "STOCKS",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "HIT",
-    "locale": "en"
-  },
-  {
-    "id": "2026-04-17-fx-ja",
-    "date": "2026-04-17",
-    "title": "FX Analysis",
-    "genre": "FX",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-04-17-crypto-ja",
-    "date": "2026-04-17",
-    "title": "CRYPTO Analysis",
-    "genre": "CRYPTO",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
     "id": "2026-04-16-crypto-ja",
     "date": "2026-04-16 18:19",
     "title": "需給バランスに変化の兆し：CryptoQuantが警告する利益確定リスクと構造的強気の対立軸",
@@ -180,54 +72,6 @@
     "locale": "en"
   },
   {
-    "id": "2026-04-16-stocks-ja",
-    "date": "2026-04-16",
-    "title": "STOCKS Analysis",
-    "genre": "STOCKS",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-04-16-fx-ja",
-    "date": "2026-04-16",
-    "title": "FX Analysis",
-    "genre": "FX",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "HIT",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-04-16-fx-en",
-    "date": "2026-04-16",
-    "title": "FX Analysis",
-    "genre": "FX",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "HIT",
-    "locale": "en"
-  },
-  {
-    "id": "2026-04-16-crypto-en",
-    "date": "2026-04-16",
-    "title": "CRYPTO Analysis",
-    "genre": "CRYPTO",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "HIT",
-    "locale": "en"
-  },
-  {
     "id": "2026-04-15-crypto-ja",
     "date": "2026-04-15 18:25",
     "title": "ETF申請ラッシュと機関投資家参入でBTC強気相場再燃か？AI需給解析が示す『次の上昇ターゲット』",
@@ -236,7 +80,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "21SharesのHyperliquid ETF再申請とRippleの韓国トークン化債券決済提携が機関投資家参入を加速。AI需給解析では買い圧力が継続中。",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -248,7 +92,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "AI-driven synthesis of macro, on‑chain and technical data signals a BTC/USD upside thrust toward $33k.",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -260,7 +104,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Saxo Bank",
     "excerpt": "4月の歴史的変動性と連邦準備制度の政策変更を受け、S&P 500の短期戦術的トレード戦略を分析。",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -272,7 +116,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "",
     "excerpt": "S&P 500 faces mixed signals as Fed uncertainty and geopolitical risks clash with risk appetite ahead of critical April jobs data.",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -288,90 +132,6 @@
     "locale": "en"
   },
   {
-    "id": "2026-04-15-fx-ja",
-    "date": "2026-04-15",
-    "title": "FX Analysis",
-    "genre": "FX",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-04-14-stocks-ja",
-    "date": "2026-04-14",
-    "title": "STOCKS Analysis",
-    "genre": "STOCKS",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-04-14-stocks-en",
-    "date": "2026-04-14",
-    "title": "STOCKS Analysis",
-    "genre": "STOCKS",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "PENDING",
-    "locale": "en"
-  },
-  {
-    "id": "2026-04-14-fx-ja",
-    "date": "2026-04-14",
-    "title": "FX Analysis",
-    "genre": "FX",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "MISS",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-04-14-fx-en",
-    "date": "2026-04-14",
-    "title": "FX Analysis",
-    "genre": "FX",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "MISS",
-    "locale": "en"
-  },
-  {
-    "id": "2026-04-14-crypto-ja",
-    "date": "2026-04-14",
-    "title": "CRYPTO Analysis",
-    "genre": "CRYPTO",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-04-14-crypto-en",
-    "date": "2026-04-14",
-    "title": "CRYPTO Analysis",
-    "genre": "CRYPTO",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "PENDING",
-    "locale": "en"
-  },
-  {
     "id": "2026-04-13-crypto-en",
     "date": "2026-04-13 18:56",
     "title": "Geopolitical Friction Triggers BTC Retreat: Assessing Support at $71,000 Amid Macro Uncertainty",
@@ -380,7 +140,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "excerpt": "BTC slides to $71,000 following Trump's blockade order; geopolitical risk and ecosystem vulnerabilities weigh on price.",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -392,7 +152,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "AI-driven breakout targets S&P 500 near 5,200; inflation data fuels Fed tightening fears; key support at 5,100. now!2026",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -405,42 +165,6 @@
     "recommended_broker": "dmm-fx",
     "excerpt": "",
     "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-04-13-stocks-ja",
-    "date": "2026-04-13",
-    "title": "STOCKS Analysis",
-    "genre": "STOCKS",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "HIT",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-04-13-fx-en",
-    "date": "2026-04-13",
-    "title": "FX Analysis",
-    "genre": "FX",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "PENDING",
-    "locale": "en"
-  },
-  {
-    "id": "2026-04-13-crypto-ja",
-    "date": "2026-04-13",
-    "title": "CRYPTO Analysis",
-    "genre": "CRYPTO",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
-    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -464,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "BTC/USDは技術面指標の分岐点に突入。AI関連の資金流動とレバレッジ駆動による短期ポジショニングリスクが高まっている。",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -476,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD poised for a modest rally as Hyperliquid ETF approval injects liquidity into the market.",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -500,7 +224,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "Hormuz事象と継続的上昇指標の融合でUSD/JPYの急騰信号が形成。約160円突破のズームアウト分析を提案。",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -512,7 +236,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "AI-driven analysis flags 158.5 as pivotal resistance, with bullish momentum building; key support at 155 today session",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -524,7 +248,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "政府保有BTC釋放と立法化進展が中長期上昇トレンドを形成。需要と供給のバランスが制度投資家に有利に傾き、2026年後半の新たな inúmer突破へ向かう需給構造が明確化しつつある。",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -536,7 +260,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD near 31.2k with bullish MA20 alignment and supportive regulatory backdrop.",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -572,7 +296,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "米国株高・地政学リスク後退でUSD/JPYは160円トライへ。MA20・RSIの位置関係から強い上昇トレンド継続を示唆。",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -584,7 +308,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "Geopolitical easing and strong US equities drive USD/JPY toward key resistance",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -632,7 +356,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "US-Iran交渉の正味需給＋CPI予想ボラティリティが円高押し、技術指標で抵抗線の動向を目視",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -644,8 +368,20 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY technical rebound aligns with geopolitical upside catalysts in US-Iran negotiations.",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "en"
+  },
+  {
+    "id": "2026-04-10-crypto-ja",
+    "date": "2026-04-10 09:23",
+    "title": "BTC/USD：ショートトレードの到達点か？RSICROSS & INSTITUTIONAL OPEN INTEREST",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "NEUTRAL",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USD、安値売り壊し後の買い控えが継続。RSI(14)の強力逆張がテクニカル設定の鍵に。",
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-04-09-crypto-ja",
@@ -656,7 +392,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "BTC/USD は超買状態にあり、ETF 出金と Security 事件のニュアンスを踏まえた戦略を適用する。",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -668,7 +404,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD poised for a bullish rally to $34k amid institutional ETF inflows and muted retail pressure.",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -680,7 +416,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "AI関連株の急騰と地政学的リスクがS&P 500を牽引。テクノロジーセクターが主要指標を押し上げ、新たな買い機会を創出。",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -692,7 +428,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500 shows bullish technical structure with RSI momentum and resistance breakout signals.",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -704,7 +440,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "BOJの緩和姿勢維持と地政学的不確実性の中、USD/JPYの市場ダイナミクスを分析。",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -716,7 +452,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY poised to push 155.5 as BoJ dovish signals linger and US dollar strength accelerates.",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -764,7 +500,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500 eyes upside continuation as technicals align and macro catalysts support bullish bias.",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -776,7 +512,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "市場の複雑性の下での分岐点分析が推し出せました",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -788,7 +524,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "Bullish USD/JPY breakout pattern forms as risk sentiment rebounds post-US-Iran talks. Key levels at 158.10 (key resistance) and 160.50 (target) with 155.80 stop-loss.",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -800,7 +536,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "ETF大規模流入で機関投資家の買い戻しが加速、クジラのBinance移動は売り意向だが流動性観点から影響限定的。MA20上での維持を確認し押し目買いでエントリー。",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -812,7 +548,7 @@
     "prediction_direction": "NEUTRAL",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD faces critical $160 resistance with mixed technical signals",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -824,7 +560,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "最新ニュースとAI解析により、S&P 500は短期的に上昇基調にあると判断。MA20クロスとRSI上昇を筋書きに、BUY戦略を提案します。",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -836,7 +572,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "Mixed signals warrant caution; historical patterns favor bulls but near-term tech headwinds persist",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -848,8 +584,20 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "excerpt": "Bearish bias emerges as Eurozone and UK services PMIs miss expectations; watch 155.00 for breakout.",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "en"
+  },
+  {
+    "id": "2026-04-07-fx-ja",
+    "date": "2026-04-07 09:23",
+    "title": "FX：160円突破の行方は円安トレード危機か？市場構造分岐点の警告サイン",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "円高需要の兆候強まる米高金利ペテンバレのングループ、技術崩れの危機点分析を連載。最新ニュースバイアスとMACDの背伸びリスクを連動的に解読。",
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-04-06-crypto-ja",
@@ -860,7 +608,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "トークン市場の流動性選別と米国伝統金融のQ2本格参入待機を背景に、AI需給モデルは上昇トレンド継続を算出。機関レベルの流動性分布とテクニカル支持帯を統合した戦術的ポジショニングを提示。",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -872,7 +620,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD poised for 160k breakout on RSI divergence and institutional catalysts",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -932,7 +680,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "BTC/USDはMA20上抜配合RSI60の過熱で短期上昇圧倒的。Leap Wallet再流出リスクとIMFリスクを併々検討する。",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -944,7 +692,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "Macro liquidity shifts and custodial expansions establish asymmetric upside parameters. Technical structure confirms momentum inflection above dynamic moving average confluence.",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -956,7 +704,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "野村證券",
     "excerpt": "S&P 500はMA20上回り短期上昇トレンド。RSI過熱前でロング推奨。TP5,300・SL5,200の具体戦略を提示。",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -968,7 +716,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "",
     "excerpt": "Key structural shifts driving directional bias.",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -980,7 +728,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "米雇用統計が予想を大幅上回り、Fedの利下げ延期観測が強まる。中東リスクはリスクオフとリスクオン材料が錯綜するなか、USD/JPYはテクニカル上向きの継続を維持。短期レンジ突破後の目標価格と具体的リスク管理ポイントを提示。",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -992,20 +740,8 @@
     "prediction_direction": "BALLOY",
     "recommended_broker": "xm-trading",
     "excerpt": "Key catalysts drive uncertainty.",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "en"
-  },
-  {
-    "id": "2026-04-07-fx-ja",
-    "date": "2026-04-05 16:45",
-    "title": "FX：160円突破の行方は円安トレード危機か？市場構造分岐点の警告サイン",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "dmm-fx",
-    "excerpt": "円高需要の兆候強まる米高金利ペテンバレのングループ、技術崩れの危機点分析を連載。最新ニュースバイアスとMACDの背伸びリスクを連動的に解読。",
-    "result": "MISS",
-    "locale": "ja"
   },
   {
     "id": "2026-04-04-fx-en",
@@ -1016,7 +752,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "excerpt": "Ongoing geopolitical tensions and mixed US economic data present a volatile environment for USD/JPY.",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -1028,7 +764,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "excerpt": "JPMorganの流入減少とMA20未突破が下落リスクを示唆。売りエントリ61,800円、TP58,200円、SL63,500円を推奨。",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -1040,7 +776,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "AI-driven analysis spots bullish divergence; key resistance at $66k, target $68.2k.",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -1064,7 +800,19 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "3月NFPの大幅上振れ（+178K）と地政学リスク再燃がドル高を後押し。テクニカルレンジ上限ブレイク試すが、 mVIX 上昇で逆行リスクは警戒。",
-    "result": "HIT",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-04-stocks-ja",
+    "date": "2026-04-04 09:23",
+    "title": "S&P 500 米国株高・円安の到達点：MA20・RSI解析が示す戦略的エッジ",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "円安・ドル高が続くと予想される米国株は、MA20突破とRSI低位沈滞が示す上昇シナリオが成立。投資戦略はTP 4,600、SL 4,300で設定",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -1100,7 +848,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "interactive-brokers",
     "excerpt": "政策不透明感・家計レバレッジ・原油高という三重の逆風。MA20割れと需給悪化からAIは下降シナリオを優先。",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -1112,7 +860,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "interactive-brokers",
     "excerpt": "Policy uncertainty, household leverage, and oil inflation converge into a textbook breakdown below MA20 with 4,850 in sight.",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -1124,7 +872,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "強い米雇用統計と低調な中国サービスPMIが円安方向を後押し。RSIとMA20の位相から158.00円への経路をAIが解析。",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -1136,7 +884,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "Resilient US data and sluggish China services strengthen the dollar-yen uptrend; RSI and MA20 dynamics point to 158.00.",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -1160,7 +908,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "Regulatory tailwinds and institutional liquidity normalization position BTC/USD for a tactical upside breakout with defined volatility parameters.",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -1172,7 +920,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "中東情勢の緊迫化と原油価格の急伸が先物市場のリスク回避姿勢を明確化。テクニカル防衛線の検証と機関執行に向けた戦術的配置を示す。",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -1184,7 +932,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500 faces correction as oil-driven inflation fears override technical support. SELL signal activated.",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -1196,7 +944,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "トランプ演説後のドル全面高と原油高を受け、USD/JPYは上昇トレンドを再確認。短期的には161円トライのシナリオが優位に。",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -1208,7 +956,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY breakout setup targets 160 as dollar strength resumes amid Trump speech impact and oil price surge",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -1220,7 +968,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "BTC/USDはMA20上抜けで強気継続。RSIオーバーボUGHT圏で押し目買いが有効。bitflyerでの実行を推奨。",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -1232,7 +980,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "excerpt": "Bullish institutional news is offset by bearish regulatory/security catalysts, leaving BTC in a neutral technical stance awaiting a catalyst.",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -1340,7 +1088,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "中東情勢緩和観測とNasdaq反発が重なり、USD/JPYは151円台で上昇圧力強化。AI需給解析は短期BUY姿勢を明示。具体的エントリー、TP/SL数値を告。",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -1352,7 +1100,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY tactical BUY on Fed-BoJ divergence and risk-off sentiment, target 156.50 with stop below 154.50.",
-    "result": "HIT",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -1364,7 +1112,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "excerpt": "本日のAI解析では、S&P 500の現在価格 6506.48、RSI(25.34)、MA20(6770.57)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -1376,7 +1124,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 6506.48, RSI(25.34), and MA20(6770.57).",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -1412,7 +1160,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "本日のAI解析では、USD/JPYの現在価格 159.22、RSI(60.01)、MA20(157.80)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -1424,7 +1172,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 159.22, RSI(60.01), and MA20(157.80).",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "en"
   },
   {
@@ -1436,7 +1184,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "BTC/USDは70667でMA20(70356)を実体で維持。価格ベースの上昇シグナルは明確だが、RSI欠落により内部勢の過熱度は不明。規制ニュースは Andreessen Horowitz の一般的な動向を含め複雑。",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "ja"
   },
   {
@@ -1448,283 +1196,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC holds above MA20 ($70,357) as institutional product filings and U.S. stablecoin bill progress provide fundamental support.",
-    "result": "MISS",
+    "result": "PENDING",
     "locale": "en"
-  },
-  {
-    "id": "2026-03-21-stocks-ja",
-    "date": "2026-03-21 23:56",
-    "title": "米セクター強弱感に地殻変動。利下げ期待の後退をチャンスに変えるAI投資戦略",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
-    "excerpt": "S&P 500はMA20を下回り下降トレンド。地政学リスクとAIセクターの非対称性を考慮し、戦術的ショートポジションを推奨。",
-    "result": "MISS",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-03-21-stocks-en",
-    "date": "2026-03-21 23:56",
-    "title": "Sector Rotation Paradigm Shift. Turning Receding Rate Cut Hopes into Dividends",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
-    "excerpt": "S&P 500 below MA20 signals short-term bearish momentum. Key support at 6450. Monitor for confirmation.",
-    "result": "MISS",
-    "locale": "en"
-  },
-  {
-    "id": "2026-03-21-fx-ja",
-    "date": "2026-03-21 23:55",
-    "title": "【緊急解析】ドル円159円台突入。金利相関と投機筋の動向から見える「介入リスク」の真実",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "dmm-fx",
-    "excerpt": "地政学リスクの高まりと米国利下げ確率後退が円キャリートレードを助長。テクニカルは明確な上向きバイアスを示し、具体的なエントリー・エグジットレベルを提示。",
-    "result": "MISS",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-03-21-fx-en",
-    "date": "2026-03-21 23:55",
-    "title": "Urgent: USD/JPY Hits 159. The Truth About Intervention Risks and Bond Yields",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY bullish continuation favored on geopolitical risk, Fed pricing, and technical positioning above MA20.",
-    "result": "MISS",
-    "locale": "en"
-  },
-  {
-    "id": "2026-03-20-stocks",
-    "date": "2026-03-20",
-    "title": "S&P 500：原油高騰とAI懸念の中、押し目買い戦略を検討",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "excerpt": "S&P 500は、原油価格の高騰とAI関連銘柄への警戒感から下落基調。しかし、RSIは売られすぎ水準にあり、押し目買いのチャンスを示唆。GuggenheimによるADPの買い推奨も市場心理を改善する可能性。",
-    "result": "MISS",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-03-20-fx",
-    "date": "2026-03-20",
-    "title": "USD/JPY：ECBタカ派発言とテクニカル指標が示唆する上昇トレンド",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "dmm-fx",
-    "excerpt": "USD/JPYはECB高官の発言やテクニカル指標から上昇トレンドが示唆される。リスクオンセンチメントも支援材料。MA20を上回り、RSIも過熱感は限定的。",
-    "result": "MISS",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-03-20-crypto",
-    "date": "2026-03-20",
-    "title": "ビットコイン市場分析：強気トレンド継続か、70,000ドル突破後の戦略",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bitflyer",
-    "excerpt": "ビットコインは70,000ドルを超え強気トレンド継続。モルガン・スタンレーのETF申請等、機関投資家の関心も高まっている。テクニカル分析では20日移動平均線を上回りRSIも堅調。71,500ドルをターゲット、69,500ドルで損切りを設定し、さらなる上昇に備える戦略が有効。",
-    "result": "MISS",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-03-19-stocks",
-    "date": "2026-03-19",
-    "title": "S&P 500：本日のAI解析が示す下落シナリオと防御策",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 6606.49、RSI(29.47)、MA20(6790.72)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "result": "HIT",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-03-19-fx",
-    "date": "2026-03-19",
-    "title": "USD/JPY：本日のAI解析が示す上昇シナリオとリスク管理",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "dmm-fx",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 158.40、RSI(60.21)、MA20(157.58)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "result": "HIT",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-03-19-crypto",
-    "date": "2026-03-19",
-    "title": "BTC/USD：本日のAI解析が示すレンジ警戒と実行戦略",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "bitflyer",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 70795.77、RSI(49.87)、MA20(69977.97)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-03-16-stocks",
-    "date": "2026-03-16",
-    "title": "主要指数、弱気トレンド継続か？AIが示す次なる戦略",
-    "genre": "STOCKS",
-    "target_pair": "主要株価指数",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
-    "excerpt": "本日のAI解析では、主要株価指数が20日・50日移動平均線を下回り、短期的な下降トレンドが継続していることを指摘。RSIは売られすぎ水準に接近中だが、反発の兆候はまだ見られない。Goldman Sachsの弱気見通しが市場を覆う中、今後の戦略をAntiGravityが分析します。",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-03-16-fx",
-    "date": "2026-03-16",
-    "title": "地政学リスクと中銀政策が交錯する円相場：USD/JPYは高値圏で介入警戒か",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "dmm-fx",
-    "excerpt": "地政学リスクと米ドル高圧力がUSD/JPYを押し上げ、高値圏で推移。RSIは過熱感を示すも、中銀政策の思惑が交錯し、介入警戒感が強まる中、次の動向が注目されます。",
-    "result": "MISS",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-03-16-crypto",
-    "date": "2026-03-16",
-    "title": "ビットコイン、機関投資家流入と強気シグナルで7万3千ドル台を維持：シンプス解析",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bitflyer",
-    "excerpt": "ビットコインは機関投資家からの資金流入に支えられ7万3千ドル台を維持。テクニカル指標も強気を示唆しており、さらなる上昇に期待が高まる。本日のAI解析が詳細な戦略を提示。",
-    "result": "HIT",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-03-15-stocks",
-    "date": "2026-03-15",
-    "title": "Nvidiaイベントと原油高騰が市場を二分：次なる潮流は？",
-    "genre": "STOCKS",
-    "target_pair": "US Market Index (S&P 500 Futures)",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "原油価格の急騰とNvidiaのGTCイベントが市場の二極化を招く中、個人投資家と機関投資家の戦略的乖離が顕著。今後の市場の方向性を探る。",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-03-15-fx",
-    "date": "2026-03-15",
-    "title": "地政学リスク高まる中、EUR/USDは200-DMA割れで下落圧力継続か？",
-    "genre": "FX",
-    "target_pair": "EUR/USD",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "dmm-fx",
-    "excerpt": "イランを巡る地政学的緊張が金融市場を覆い、EUR/USDは主要な長期移動平均線を割り込みました。本日のAI解析では、この下落トレンドの持続性を徹底分析します。",
-    "result": "MISS",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-03-15-crypto",
-    "date": "2026-03-15",
-    "title": "規制とDeFiリスクが交錯する暗号市場：本質的価値の再評価フェーズ",
-    "genre": "CRYPTO",
-    "target_pair": "ETH/USD",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "bitflyer",
-    "excerpt": "暗号市場は規制強化とDeFiプロトコルリスクが重なり、本質的価値の再評価が進むフェーズに突入。ETHはレンジ相場で推移する見込み。",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-03-11-stocks",
-    "date": "2026-03-11",
-    "title": "NVIDIAの独走とNASDAQ100の史上最高値圏での攻防解析",
-    "genre": "STOCKS",
-    "target_pair": "NASDAQ100",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "excerpt": "ハイテク株を中心とした強気相場が継続。NVIDIAの圧倒的な成長力が市場を牽引し、NASDAQ100は史上最高値を更新。AI関連銘柄への資金流入が止まらない現状を詳細に分析します。",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-03-11-crypto",
-    "date": "2026-03-11",
-    "title": "ビットコイン現物ETFへの巨額流入と暗号資産市場のパラボリックな上昇",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "bitflyer",
-    "excerpt": "ビットコインが歴史的な節目を迎えています。ETFを通じた機関投資家の資金流入が止まらず、価格は異次元のステージへ。オンチェーンデータから見える強気相場の本質を解析します。",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-03-10-fx",
-    "date": "2026-03-10",
-    "title": "【AI予測】ドル円(USD/JPY)の押し目買い戦略：強気トレンドの継続性を探る",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "dmm-fx",
-    "excerpt": "米雇用統計のサプライズを受け、日米金利差拡大のシナリオが再燃。150円台の定着から152円を目指す強気相場をAIが解析します。",
-    "result": "HIT",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-04-04-stocks-ja",
-    "date": "2025-11-03 12:00",
-    "title": "S&P 500 米国株高・円安の到達点：MA20・RSI解析が示す戦略的エッジ",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "excerpt": "円安・ドル高が続くと予想される米国株は、MA20突破とRSI低位沈滞が示す上昇シナリオが成立。投資戦略はTP 4,600、SL 4,300で設定",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-03-17-stocks",
-    "date": "2024-07-24",
-    "title": "弱気市場の兆候と戦略的対応：SynapseCapital株式専門AIアナリスト「AntiGravity」による分析",
-    "genre": "STOCKS",
-    "target_pair": "DOW/USD",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
-    "excerpt": "ダウ平均は20日移動平均線を下回り、弱気トレンドが鮮明になっています。本日のAI解析では、金利相関、オーダーブック、センチメント分析を通じて、市場の現状を詳細に分析し、プロトレーダー向けの戦略を提案します。",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-03-17-crypto",
-    "date": "2024-05-16",
-    "title": "BTC/USD：強気トレンド継続か、PayPalとMastercardの動きが示唆する未来",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bitflyer",
-    "excerpt": "BTC/USDは強気トレンドを維持。PayPalとMastercardの暗号資産市場への参入はポジティブな兆候。ただし、ベトナムやアルゼンチンの規制強化の動きには注意が必要です。",
-    "result": "MISS",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-03-17-fx",
-    "date": "2024-01-24",
-    "title": "円安基調継続か？日銀政策と原油価格がドル円相場を左右する",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "OANDA",
-    "excerpt": "ドル円は日銀の金融政策と原油価格に注目が集まる。テクニカル分析では強気シグナルが点灯しており、円安トレンドが継続する可能性が高い。短期的な上昇を見込む戦略を提案。",
-    "result": "MISS",
-    "locale": "ja"
   }
 ]
