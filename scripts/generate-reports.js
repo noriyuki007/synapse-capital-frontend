@@ -242,6 +242,49 @@ function checkQuality(markdownText, genre, locale, expectedDateStr) {
     const violations = [];
     const text = markdownText.trim();
 
+    // 0. Structure check (run FIRST — other checks assume valid frontmatter)
+
+    // Strip optional leading code fence (```markdown / ```md / ```yaml)
+    let s = text.replace(/^```(?:markdown|md|yaml|yml)?\s*\n/i, '').trim();
+
+    // Reject if not starting with ---
+    if (!s.startsWith('---')) {
+        violations.push("Structure: does not start with '---' frontmatter delimiter");
+    }
+
+    // Require at least 2 '---' delimiters (open + close)
+    const delimiters = s.match(/^---\s*$/gm) || [];
+    if (delimiters.length < 2) {
+        violations.push("Structure: missing closing '---' for frontmatter block");
+    }
+
+    // Reject prompt-leakage markers anywhere in the first 500 chars
+    const head = s.slice(0, 500);
+    const forbiddenMarkers = [
+        /BEGIN\s*OUTPUT/i,
+        /END\s*OUTPUT/i,
+        /^BEGIN\s*$/im,
+        /^END\s*$/im,
+        /^OUTPUT:?\s*$/im
+    ];
+    for (const re of forbiddenMarkers) {
+        if (re.test(head)) {
+            violations.push(`Structure: contains prompt marker /${re.source}/`);
+            break;
+        }
+    }
+
+    // Required frontmatter fields (only check if structure is otherwise OK)
+    if (delimiters.length >= 2 && s.startsWith('---')) {
+        const fmBlock = s.slice(3, s.indexOf('\n---', 3));
+        for (const field of ['title', 'date', 'genre']) {
+            const re = new RegExp(`^${field}\\s*:`, 'm');
+            if (!re.test(fmBlock)) {
+                violations.push(`Structure: missing required field "${field}"`);
+            }
+        }
+    }
+
     // 1. Length Check
     if (text.length < QUALITY_RULES.min_length_chars) {
         violations.push(`Length too short: ${text.length} < ${QUALITY_RULES.min_length_chars}`);
@@ -937,6 +980,12 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
         ? (Number(cp) > Number(ma20) ? 'UP' : 'DOWN')
         : 'FLAT';
 
+    const MA_REL_MAP = {
+        ja: { UP: '強気圏', DOWN: '弱気圏', FLAT: '位置関係は未取得' },
+        en: { UP: 'Bullish Zone', DOWN: 'Bearish Zone', FLAT: 'Position context not acquired' }
+    };
+    const maRelText = MA_REL_MAP[locale][maRelKey];
+
     const LOCALIZATION = {
         ja: {
             maRel: { UP: '強気圏', DOWN: '弱気圏', FLAT: '位置関係は未取得' },
@@ -1035,7 +1084,6 @@ async function generateDeterministicReport(genre, newsHeadlines, marketData, jst
     const L = LOCALIZATION[locale] || LOCALIZATION.ja;
     const D = L.deterministic;
 
-    const maRelText = L.maRel[maRelKey];
     const conclusionText = L.conclusion[status] || L.conclusion.NEUTRAL;
     const finalNextSteps = (L.nextSteps[status] || L.nextSteps.NEUTRAL).slice(0, 3);
     const nextSteps3 = finalNextSteps.length === 3 ? finalNextSteps : L.fallbackSteps;
