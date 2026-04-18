@@ -12,40 +12,40 @@
     "locale": "ja"
   },
   {
-    "id": "2026-04-18-stocks-ja",
-    "date": "2026-04-18 01:55",
-    "title": "S&P500上昇シナリオとAI需給解析が示す円安・ドル高の到達点",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "XYZ証券",
-    "excerpt": "S&P500は上昇トレンドが続いており、AI解析が円安・ドル高の到達点を示唆している。",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
     "id": "2026-04-18-crypto-ja",
-    "date": "2026-04-18 01:55",
-    "title": "78,000ドル回復は継続か？AIが導き出したBTC/USDの『次の節点』",
+    "date": "2026-04-18 11:09",
+    "title": "リスクオフ環境下のBTC/USD：AI解析が示す反転シグナルと次の節点",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "ビットコインが78,000ドルを回復し、地政学的要因と主流金融との統合が進む中、本稿はAI分析を基に戦略的なエントリー機会を解説する。",
+    "excerpt": "メムコイン判例とDeFiセキュリティ問題が与える影響、XRPソラナ展開から読み取れる流動性変化をAI解析。BTC/USDは中期的な上昇トレンド継続の可能性が高い。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
-    "id": "2026-04-18-fx-en",
-    "date": "2026-04-18 01:53",
-    "title": "USD/JPY Outlook: Geopolitical De-escalation and Equity Record Highs Signal Bullish Momentum",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
+    "id": "2026-04-18-crypto-en",
+    "date": "2026-04-18 11:09",
+    "title": "Bitcoin Momentum Builds as Legal Clarity and DeFi Expansion Fuel Upside",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
     "prediction_direction": "UP",
-    "recommended_broker": "xm-trading",
-    "excerpt": "Analysis of USD/JPY amid US equity highs and Middle East de-escalation; AI identifies upside potential.",
+    "recommended_broker": "bybit",
+    "excerpt": "Bitcoin poised for upside as legal clarity, DeFi expansion, and bullish technicals converge",
     "result": "PENDING",
     "locale": "en"
+  },
+  {
+    "id": "2026-04-18-stocks-ja",
+    "date": "2026-04-18 11:06",
+    "title": "S&P 500の崩壊信号：ハーバード経済学の懸念とストラト・ホルムズ開通リスクが示す必勝ルート",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "S&P 500は1999年のクライシスと類似パターンを形成。ホルムズ開通によりエネルギー供給リスクが高まる中、技術的銜定が下落方向にシフト。",
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-04-18-stocks-en",
@@ -72,10 +72,10 @@
     "locale": "ja"
   },
   {
-    "id": "2026-04-18-crypto-en",
+    "id": "2026-04-18-fx-en",
     "date": "2026-04-18",
-    "title": "CRYPTO Analysis",
-    "genre": "CRYPTO",
+    "title": "FX Analysis",
+    "genre": "FX",
     "target_pair": "",
     "prediction_direction": "FLAT",
     "recommended_broker": "",
@@ -116,7 +116,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "",
     "excerpt": "",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -128,7 +128,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "",
     "excerpt": "",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {

@@ -1,24 +1,20 @@
 {
   "FX": {
-    "title": "USD/JPY Outlook: Geopolitical De-escalation and Equity Record Highs Signal Bullish Momentum",
-    "date": "2026-04-18 01:53",
+    "title": "USD/JPY 市場分析",
+    "date": "2026-04-18",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
-    "tldr_points": [
-      "US equity record highs reflect risk-on appetite",
-      "Geopolitical cooling in Middle East reduces JPY safe-haven demand",
-      "Fed's Daly indicates cautious business optimism supporting USD stability"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Analysis of USD/JPY amid US equity highs and Middle East de-escalation; AI identifies upside potential.",
+    "excerpt": "",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Risk-on sentiment and geopolitical cooling reduce JPY safe-haven demand.",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
@@ -33,28 +29,32 @@
     "excerpt": "",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "comment": "Range-bound action until election season volatility",
+    "entry": "5,140 S",
+    "tp": "5,110 and 5,120 CC",
+    "sl": "5,100",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD 市場分析",
-    "date": "2026-04-18",
+    "title": "Bitcoin Momentum Builds as Legal Clarity and DeFi Expansion Fuel Upside",
+    "date": "2026-04-18 11:09",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "tldr_points": [],
+    "tldr_points": [
+      "Caitlyn Jenner memecoin ruling reduces legal overhang",
+      "Solana-based XRP wrapper expands BTC ecosystem access",
+      "Technical setup points to bullish continuation above MA20"
+    ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "",
+    "excerpt": "Bitcoin poised for upside as legal clarity, DeFi expansion, and bullish technicals converge",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Bullish technicals supported by improving fundamentals and positive sentiment shift",
+    "entry": "58500",
+    "tp": "65000",
+    "sl": "57000",
+    "reliability": "HIGH"
   }
 }

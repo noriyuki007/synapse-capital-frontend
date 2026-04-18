@@ -18,47 +18,47 @@
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P500上昇シナリオとAI需給解析が示す円安・ドル高の到達点",
-    "date": "2026-04-18 01:55",
+    "title": "S&P 500の崩壊信号：ハーバード経済学の懸念とストラト・ホルムズ開通リスクが示す必勝ルート",
+    "date": "2026-04-18 11:06",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "XYZ証券",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
     "tldr_points": [
-      "S&P500は上昇トレンド継続の可能性",
-      "主要セクターに浮田買いシグナル",
-      "金利上昇がリスク資産を支援"
+      "ハーバードの研究が警鐘：1999 cuentourカウンターパーティ riskとの類似パターン",
+      "ストラト・ホルムズ開通の影響によるエネルギー市場の分岐",
+      "3銘柄の産業部補酸化反応の消失点分析"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500は上昇トレンドが続いており、AI解析が円安・ドル高の到達点を示唆している。",
+    "excerpt": "S&P 500は1999年のクライシスと類似パターンを形成。ホルムズ開通によりエネルギー供給リスクが高まる中、技術的銜定が下落方向にシフト。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P500は上昇トレンドが続いており、AI解析が円安・ドル高の到達点を示唆している。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "テクニカルダウントレンドとストラト・ホルムズリスクの重ね合わせ",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "78,000ドル回復は継続か？AIが導き出したBTC/USDの『次の節点』",
-    "date": "2026-04-18 01:55",
+    "title": "リスクオフ環境下のBTC/USD：AI解析が示す反転シグナルと次の節点",
+    "date": "2026-04-18 11:09",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTC/USDは78,000ドル回復基盤に上昇トレンドを維持",
-      "地政学的要因と規制環境の変化が短期的な価格変動を誘発",
-      "流動性を考慮したbitflyerでのエントリーが最適"
+      "メムコイン判例は規制環境の緩和を示唆",
+      "DeFiセキュリティ問題が流動性に圧力",
+      "XRPソラナ展開はクロスチェーン利用拡大"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "ビットコインが78,000ドルを回復し、地政学的要因と主流金融との統合が進む中、本稿はAI分析を基に戦略的なエントリー機会を解説する。",
+    "excerpt": "メムコイン判例とDeFiセキュリティ問題が与える影響、XRPソラナ展開から読み取れる流動性変化をAI解析。BTC/USDは中期的な上昇トレンド継続の可能性が高い。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "78,000ドル回復基盤とポジティブなファンダメンタルズから上昇継続を予測",
-    "entry": "78000",
-    "tp": "79500",
-    "sl": "76500",
+    "comment": "メムコイン判例とXRPソラナ展開による規制緩和期待と流動性改善",
+    "entry": "49200",
+    "tp": "50800",
+    "sl": "47500",
     "reliability": "MEDIUM"
   }
 }
