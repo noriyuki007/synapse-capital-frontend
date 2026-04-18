@@ -10,10 +10,25 @@ const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
 const REPORTS_DIR = './content/reports';
 
 const CLI_DATE_ARG = process.argv.find((a) => a.startsWith('--date='));
-const TARGET_DATE_RAW = process.env.TARGET_DATE || (CLI_DATE_ARG ? CLI_DATE_ARG.split('=')[1] : '');
-const REBUILD_ONLY = process.argv.includes('--rebuild-only');
-
 const genAI = new GoogleGenerativeAI(GEMINI_API_KEY || 'dummy_key');
+
+// --- Quality Rules ---
+let QUALITY_RULES = {
+    forbidden_phrases: [],
+    forbidden_regex: [],
+    banned_chinese_chars: false,
+    banned_char_list: [],
+    min_length_chars: 0,
+    max_length_chars: 100000
+};
+try {
+    const rulesPath = path.join(process.cwd(), 'scripts/quality-rules.json');
+    if (fs.existsSync(rulesPath)) {
+        QUALITY_RULES = JSON.parse(fs.readFileSync(rulesPath, 'utf8'));
+    }
+} catch (e) {
+    console.warn('⚠️ Failed to load quality-rules.json, using defaults.');
+}
 
 /** Prefer newer IDs; first successful model wins */
 const GEMINI_MODEL_CANDIDATES = [
@@ -65,6 +80,11 @@ const TICKER_MAP = {
     STOCKS: { symbol: 'S&P 500', ticker: '^GSPC' },
     CRYPTO: { symbol: 'BTC/USD', ticker: 'BTC-USD' },
 };
+
+const TARGET_DATE_RAW = process.env.FORCE_DATE || process.env.TARGET_DATE || (CLI_DATE_ARG ? CLI_DATE_ARG.split('=')[1] : '');
+const REBUILD_ONLY = process.argv.includes('--rebuild-only');
+const DRY_RUN = process.argv.includes('--dry-run');
+const GENRES_TO_PROCESS = process.env.GENRES ? process.env.GENRES.split(',').map(g => g.trim().toUpperCase()) : Object.keys(TICKER_MAP);
 
 function getJSTDateStr(dateOverride, includeTime = false) {
     const jstNow = new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Tokyo' }));
@@ -208,10 +228,58 @@ function stripLeadingCodeFenceAroundFrontmatter(md) {
         }
     }
     
-    // Ensure no trailing fence remains at the top
+// Ensure no trailing fence remains at the top
     s = s.replace(/^([\s\S]*?)\n```\s*\n/m, '$1\n---\n');
     
     return s;
+}
+
+/**
+ * Quality Check Logic
+ * Returns { ok: boolean, violations: string[] }
+ */
+function checkQuality(markdownText, genre, locale) {
+    const violations = [];
+    const text = markdownText.trim();
+
+    // 1. Length Check
+    if (text.length < QUALITY_RULES.min_length_chars) {
+        violations.push(`Length too short: ${text.length} < ${QUALITY_RULES.min_length_chars}`);
+    }
+    if (text.length > QUALITY_RULES.max_length_chars) {
+        violations.push(`Length too long: ${text.length} > ${QUALITY_RULES.max_length_chars}`);
+    }
+
+    // 2. Forbidden Phrases
+    for (const phrase of QUALITY_RULES.forbidden_phrases) {
+        if (text.includes(phrase)) {
+            violations.push(`Forbidden phrase detected: "${phrase}"`);
+        }
+    }
+
+    // 3. Forbidden Regex
+    for (const pattern of QUALITY_RULES.forbidden_regex) {
+        const re = new RegExp(pattern, 'i');
+        if (re.test(text)) {
+            violations.push(`Forbidden regex match: "${pattern}"`);
+        }
+    }
+
+    // 4. Banned Characters (Chinese etc.)
+    if (QUALITY_RULES.banned_chinese_chars && QUALITY_RULES.banned_char_list) {
+        for (const char of QUALITY_RULES.banned_char_list) {
+            if (text.includes(char)) {
+                violations.push(`Banned character detected: "${char}"`);
+            }
+        }
+    }
+
+    const ok = violations.length === 0;
+    if (!ok) {
+        console.warn(`[Quality] [${genre}:${locale}] VIOLATIONS:\n- ${violations.join('\n- ')}`);
+    }
+
+    return { ok, violations };
 }
 
 function buildArticlePrompt(genre, newsHeadlines, marketData, jstDateStr, locale = 'ja') {
@@ -254,7 +322,7 @@ OUTPUT FORMAT — FOLLOW EXACTLY. Output ONLY what is between the BEGIN/END mark
 ======================================================================
 BEGIN OUTPUT
 ---
-title: "Create a high-impact, SEO-friendly headline (e.g. 'Countdown to 160? AI Analytics Identifies Target for USD/JPY Breakout')"
+title: "[${symbol}] [Direction] [Rationale] (e.g. '[${symbol}] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish')"
 date: "${jstDateStr}"
 genre: "${genre}"
 target_pair: "${symbol}"
@@ -341,7 +409,7 @@ Input — チャート・テクニカルデータ:
 ======================================================================
 BEGIN OUTPUT
 ---
-title: "読者の目を引き、SEOを意識したプロフェッショナルなタイトル（例：「160円突破は秒読みか？AI需給解析が導き出した円安・ドル高の『到達点』」）"
+title: "[${symbol}] [方向性] [根拠] （例：「[${symbol}] UP: MA20での反発と強気ファンダメンタルズの整合性を確認」）"
 date: "${jstDateStr}"
 genre: "${genre}"
 target_pair: "${symbol}"
@@ -1013,78 +1081,67 @@ ${jsonBlock}
 `;
 }
 
-async function main() {
-    const deterministicOnly = !GEMINI_API_KEY && !OPENROUTER_API_KEY;
+async function generateReportForGenre(genre, newsForPrompt, marketData, dateStr, displayDateStr) {
+    const localeResults = [];
+    for (const locale of ['ja', 'en']) {
+        console.log(`[${genre}:${locale}] 🚀 Starting generation for ${dateStr}...`);
+        let markdown = '';
+        let isFallback = false;
 
-    if (!fs.existsSync(REPORTS_DIR)) fs.mkdirSync(REPORTS_DIR, { recursive: true });
+        const deterministicOnly = !GEMINI_API_KEY && !OPENROUTER_API_KEY;
 
-    for (const genre of Object.keys(TICKER_MAP)) {
-        console.log(`--- Processing genre: ${genre} ---`);
-
-        const feeds = RSS_FEEDS.filter((f) => f.type === genre);
-        let allNews = [];
-        for (const f of feeds) {
-            const news = await fetchRSS(f.url);
-            allNews = allNews.concat(news);
-        }
-
-        allNews = [...new Map(allNews.map((n) => [n.title, n])).values()].slice(0, 8);
-
-        if (allNews.length === 0) {
-            console.log(`[${genre}] ⚠️ No news found. Using neutral placeholders.`);
-            allNews = [
-                { title: 'Market volatility driven by central bank policy expectations', link: '' },
-                { title: 'Geopolitical and supply chain factors impacting risk premiums', link: '' },
-                { title: 'Real interest rates and USD trends affecting cross-asset flows', link: '' },
-            ];
-        }
-
-        const newsForPrompt = allNews.slice(0, 5);
-        const marketData = generateChart(genre);
-        const dateStr = getJSTDateStr(TARGET_DATE_RAW);
-        const displayDateStr = getJSTDateStr(TARGET_DATE_RAW, true);
-
-        for (const locale of ['ja', 'en']) {
-            console.log(`[${genre}:${locale}] 🚀 Starting generation for ${dateStr}...`);
-            let markdown = '';
-
-            try {
-                if (deterministicOnly) {
-                    markdown = await generateDeterministicReport(genre, newsForPrompt, marketData, displayDateStr, locale);
-                } else {
-                    if (GEMINI_API_KEY && GEMINI_API_KEY !== 'dummy_key') {
+        try {
+            if (deterministicOnly) {
+                markdown = await generateDeterministicReport(genre, newsForPrompt, marketData, displayDateStr, locale);
+                isFallback = true;
+            } else {
+                // Priority: Gemini
+                if (GEMINI_API_KEY && GEMINI_API_KEY !== 'dummy_key') {
+                    for (const modelId of GEMINI_MODEL_CANDIDATES) {
                         try {
-                            markdown = await generateWithGemini(genre, newsForPrompt, marketData, displayDateStr, locale);
-                        } catch (e) {
-                            console.warn(`[${genre}:${locale}] ⚠️ Gemini generation failed: ${e.message}`);
-                        }
-                    }
-
-                    if (!markdown && OPENROUTER_API_KEY) {
-                        console.log(`[${genre}:${locale}] Trying OpenRouter fallback chain...`);
-                        for (const mId of FREE_MODELS) {
-                            try {
-                                markdown = await generateWithOpenRouter(genre, newsForPrompt, marketData, mId, displayDateStr, locale);
-                                if (markdown) {
-                                    console.log(`[${genre}:${locale}] ✅ Fallback successful with ${mId}`);
-                                    break;
-                                }
-                            } catch (e2) {
-                                console.error(`[${genre}:${locale}] ❌ OpenRouter ${mId}: ${e2.message}`);
+                            const raw = await generateWithGemini(genre, newsForPrompt, marketData, displayDateStr, locale);
+                            const q = checkQuality(raw, genre, locale);
+                            if (q.ok) {
+                                markdown = raw;
+                                break;
                             }
+                        } catch (e) {
+                            console.warn(`[${genre}:${locale}] ⚠️ Gemini ${modelId} failed: ${e.message}`);
                         }
                     }
                 }
 
-                if (!markdown) {
-                    console.warn(`[${genre}:${locale}] ⚠️ All AI generation failed. Using high-quality Deterministic fallback.`);
-                    markdown = await generateDeterministicReport(genre, newsForPrompt, marketData, displayDateStr, locale);
+                // Fallback: OpenRouter
+                if (!markdown && OPENROUTER_API_KEY) {
+                    console.log(`[${genre}:${locale}] Trying OpenRouter fallback chain...`);
+                    for (const mId of FREE_MODELS) {
+                        try {
+                            const raw = await generateWithOpenRouter(genre, newsForPrompt, marketData, mId, displayDateStr, locale);
+                            const q = checkQuality(raw, genre, locale);
+                            if (q.ok) {
+                                markdown = raw;
+                                console.log(`[${genre}:${locale}] ✅ Fallback successful with ${mId}`);
+                                break;
+                            }
+                        } catch (e2) {
+                            console.error(`[${genre}:${locale}] ❌ OpenRouter ${mId}: ${e2.message}`);
+                        }
+                    }
                 }
+            }
 
-                markdown = stripLeadingCodeFenceAroundFrontmatter(markdown);
-                const fileName = `${dateStr}-${genre.toLowerCase()}-${locale}.md`;
-                const filePath = path.join(REPORTS_DIR, fileName);
+            if (!markdown) {
+                console.warn(`[${genre}:${locale}] ⚠️ All AI/Quality checks failed. Using Deterministic fallback.`);
+                markdown = await generateDeterministicReport(genre, newsForPrompt, marketData, displayDateStr, locale);
+                isFallback = true;
+                markdown += '\n\n<!-- fallback-template -->';
+            }
 
+            markdown = stripLeadingCodeFenceAroundFrontmatter(markdown);
+            const fileName = `${dateStr}-${genre.toLowerCase()}-${locale}.md`;
+            const filePath = path.join(REPORTS_DIR, fileName);
+
+            if (!DRY_RUN) {
                 fs.writeFileSync(filePath, markdown);
                 console.log(`✅ [${genre}:${locale}] Saved: ${filePath}`);
 
@@ -1100,21 +1157,79 @@ async function main() {
                 if (locale === 'ja') {
                     fs.writeFileSync('./content/latest-signals.json', JSON.stringify(sigs, null, 2));
                 }
-
-            } catch (err) {
-                console.error(`❌ [${genre}:${locale}] Critical error:`, err.message);
+            } else {
+                console.log(`[DRY-RUN] [${genre}:${locale}] Would save to: ${filePath}`);
             }
+            localeResults.push(true);
+
+        } catch (err) {
+            console.error(`❌ [${genre}:${locale}] Error:`, err.message);
+            localeResults.push(false);
         }
+    }
+    return localeResults.some(r => r === true);
+}
 
-        rebuildReportsIndexFromReportsDir();
+async function main() {
+    if (!fs.existsSync(REPORTS_DIR)) fs.mkdirSync(REPORTS_DIR, { recursive: true });
 
-        if (Object.keys(TICKER_MAP).indexOf(genre) < Object.keys(TICKER_MAP).length - 1) {
-            console.log(`[Queue] Waiting 10s for next genre...`);
-            await sleep(10000);
+    let successCount = 0;
+    let totalGenres = 0;
+
+    for (const genre of GENRES_TO_PROCESS) {
+        if (!TICKER_MAP[genre]) continue;
+        totalGenres++;
+        console.log(`--- Processing genre: ${genre} ---`);
+
+        try {
+            const feeds = RSS_FEEDS.filter((f) => f.type === genre);
+            let allNews = [];
+            for (const f of feeds) {
+                const news = await fetchRSS(f.url);
+                allNews = allNews.concat(news);
+            }
+
+            allNews = [...new Map(allNews.map((n) => [n.title, n])).values()].slice(0, 8);
+
+            if (allNews.length === 0) {
+                console.log(`[${genre}] ⚠️ No news found. Using neutral placeholders.`);
+                allNews = [
+                    { title: 'Market volatility driven by central bank policy expectations', link: '' },
+                    { title: 'Geopolitical and supply chain factors impacting risk premiums', link: '' },
+                    { title: 'Real interest rates and USD trends affecting cross-asset flows', link: '' },
+                ];
+            }
+
+            const newsForPrompt = allNews.slice(0, 5);
+            const marketData = generateChart(genre);
+            const dateStr = getJSTDateStr(TARGET_DATE_RAW);
+            const displayDateStr = getJSTDateStr(TARGET_DATE_RAW, true);
+
+            const isSuccess = await generateReportForGenre(genre, newsForPrompt, marketData, dateStr, displayDateStr);
+            if (isSuccess) successCount++;
+
+            rebuildReportsIndexFromReportsDir();
+
+            if (GENRES_TO_PROCESS.indexOf(genre) < GENRES_TO_PROCESS.length - 1) {
+                console.log(`[Queue] Waiting 10s for next genre...`);
+                await sleep(10000);
+            }
+        } catch (genreErr) {
+            console.error(`[FAIL] genre=${genre.toLowerCase()} reason=${genreErr.message}`);
         }
     }
 
-    rebuildReportsIndexFromReportsDir();
+    if (!DRY_RUN) {
+        rebuildReportsIndexFromReportsDir();
+    }
+
+    if (totalGenres > 0 && successCount === 0) {
+        console.error('❌ All genres failed.');
+        process.exit(1);
+    } else {
+        console.log(`✅ Generation completed (${successCount}/${totalGenres} genres succeeded).`);
+        process.exit(0);
+    }
 }
 
 if (REBUILD_ONLY) {

@@ -1,0 +1,18 @@
+{
+  "forbidden_phrases": [
+    "人民幣",
+    "交通障害",
+    "170インジケータ",
+    "RPA",
+    "交通障害リトレースメント",
+    "前レジスタンス27円"
+  ],
+  "forbidden_regex": [
+    "\\d+円レベル",
+    "\\bRPA\\b"
+  ],
+  "banned_chinese_chars": true,
+  "banned_char_list": ["幣", "币", "軟性"],
+  "min_length_chars": 400,
+  "max_length_chars": 6000
+}
