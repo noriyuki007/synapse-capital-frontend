@@ -23,7 +23,7 @@ export const Sidebar = ({
                 <div className="space-y-10">
                     {latestReports.length > 0 ? (
                         latestReports.map((report: any) => (
-                            <Link key={report.id} href={`/${locale}/reports/${report.id}`} className="block group">
+                            <Link key={report.id} href={`/${locale}/reports/${report.id.replace(/-(ja|en)$/, '')}`} className="block group">
                                 <article className="space-y-4">
                                     <div className="flex items-center gap-4">
                                         <span className="text-[11px] font-black uppercase px-2 py-0.5 bg-white border border-slate-200 rounded-none text-slate-400 tracking-widest">
