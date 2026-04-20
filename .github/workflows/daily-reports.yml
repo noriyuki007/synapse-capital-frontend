@@ -53,11 +53,15 @@ jobs:
           if [ -z "${{ secrets.MAKE_WEBHOOK_URL }}" ]; then echo "❌ MAKE_WEBHOOK_URL is missing"; else echo "✅ MAKE_WEBHOOK_URL is set"; fi
           if [ -z "${{ secrets.TWELVE_DATA_API_KEY }}" ]; then echo "❌ TWELVE_DATA_API_KEY is missing"; else echo "✅ TWELVE_DATA_API_KEY is set"; fi
           if [ -z "${{ secrets.GH_PAT }}" ]; then echo "❌ GH_PAT is missing"; else echo "✅ GH_PAT is set"; fi
+          if [ -z "${{ secrets.NOTION_API_KEY }}" ]; then echo "⚠️ NOTION_API_KEY is missing (will fallback to RSS)"; else echo "✅ NOTION_API_KEY is set"; fi
+          if [ -z "${{ secrets.NOTION_DB_ID }}" ]; then echo "⚠️ NOTION_DB_ID is missing (will fallback to RSS)"; else echo "✅ NOTION_DB_ID is set"; fi
 
       - name: Generate Reports
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DB_ID: ${{ secrets.NOTION_DB_ID }}
           FORCE_DATE: ${{ github.event.inputs.force_date }}
           GENRES: ${{ github.event.inputs.genres }}
         run: node scripts/generate-reports.js
