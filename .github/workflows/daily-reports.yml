@@ -63,6 +63,13 @@ jobs:
         run: node scripts/fetch-notion-news.js
         continue-on-error: true
 
+      - name: Generate News-Driven Reports
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+        run: node scripts/generate-news-reports.js
+        continue-on-error: true
+
       - name: Generate Reports
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
@@ -91,7 +98,7 @@ jobs:
         run: |
           git config --global user.name "Synapse AI Bot"
           git config --global user.email "bot@synapsecapital.net"
-          git add content/reports/*.md content/latest-signals.json content/latest-signals-ja.json content/latest-signals-en.json content/reports-index.json content/notion-news.json public/images/*.png
+          git add content/reports/*.md content/latest-signals.json content/latest-signals-ja.json content/latest-signals-en.json content/reports-index.json content/notion-news.json content/news-reports-state.json public/images/*.png
           if [ -n "$(git status --porcelain)" ]; then
             git commit -m "chore: automated daily market report update [skip ci]"
             git pull --rebase origin main
