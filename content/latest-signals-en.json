@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] NEUTRAL: AI Detects Range-Bound Structure Amid Mixed Fundamental Signals",
-    "date": "2026-04-20 11:28",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-04-20 18:56",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Mixed fundamental catalysts create indecision",
-      "Technical structure shows range-bound behavior",
-      "AI analysis suggests tactical patience"
+      "Geopolitical tensions amplify USD strength via Iran ceasefire uncertainty",
+      "BOJ’s rate hawk signaling contrasts with JPY weakness from tsunami risk",
+      "AI identifies MA20 as critical support level post-volatility clustering"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY remains range-bound as Canadian trade concerns and PBOC policy offset US-Iran tensions, with technical structure suggesting tactical patience.",
+    "excerpt": "USD/JPY bullish via geopolitical catalysts and MA20 support. BOJ pause widens USD/JPY rally.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "Range-bound structure with mixed fundamental drivers suggests tactical patience",
-    "entry": "158.50",
-    "tp": "160.00",
-    "sl": "157.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Geopolitical catalysts and MA20 alignment drive high-conviction above-trend trade",
+    "entry": "151.00",
+    "tp": "155.00",
+    "sl": "149.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Geopolitical Risks Cap Re-Rallies as Technicals Signal Short Opportunities",
-    "date": "2026-04-20 11:39",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-04-20 19:04",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "[]",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 trading at resistance amid escalating Strait of Hormuz geopolitical risks",
-      "Bond market detachment creates divergent liquidity providers",
-      "AI-driven analysis identifies pattern continuation toward channel support at 4300"
+      "S&P 500 nears critical support at MA20 ahead of mixed earnings season",
+      "Geopolitical risks from US-Iran standoff and OPEC+ tensions create volatility",
+      "Institutional order flow suggests accumulation ahead of resistance breakout"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces bearish pressure from heightened Iran tensions and overbought RSI amid all-time highs.",
+    "excerpt": "S&P 500 faces MA20 support test amid geopolitical risks and earnings season. Mixed sentiment ahead.",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500 faces bearish pressure from heightened Iran tensions and overbought RSI amid all-time highs.",
+    "comment": "S&P 500 faces MA20 support test amid geopolitical risks and earnings season. Mixed sentiment ahead.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Infrastructure Build-Out Offsets Security Volatility as Support Framework Intact",
-    "date": "2026-04-20 11:41",
+    "title": "[BTC/USD] UP: AI Signals Support at MA20 as ETF Flows Strengthen",
+    "date": "2026-04-20 19:09",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Security breaches remain isolated incidents, not systemic failures",
-      "Agentic wallet deployment signals deepening institutional onchain capability",
-      "Technical structure favors buyers; await confirmation at key moving average support"
+      "Key point 1",
+      "Key point 2",
+      "Key point 3"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD positioned for upside as institutional infrastructure accelerates despite headline volatility",
+    "excerpt": "BTC rallies on $1B ETF inflows; AI flags MA20 support; bullish bias confirmed by technical structure and macro flow now.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Await MA20 confirmation; enter on pullback with tight stops",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "MEDIUM"
+    "comment": "AI detects support at MA20 amid bullish ETF inflows",
+    "entry": "30000",
+    "tp": "32000",
+    "sl": "28500",
+    "reliability": "HIGH"
   }
 }
