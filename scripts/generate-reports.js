@@ -1,8 +1,8 @@
 import fs from 'fs';
 import path from 'path';
 import { execSync } from 'child_process';
-import { GoogleGenerativeAI } from '@google/generative-ai';
 import matter from 'gray-matter';
+import { generateWithGemini, generateWithOpenRouter, FREE_MODELS, GEMINI_MODEL_CANDIDATES, sleep } from './lib/llm-client.js';
 
 // --- Configuration ---
 const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
@@ -10,7 +10,6 @@ const OPENROUTER_API_KEY = process.env.OPENROUTER_API_KEY;
 const REPORTS_DIR = './content/reports';
 
 const CLI_DATE_ARG = process.argv.find((a) => a.startsWith('--date='));
-const genAI = new GoogleGenerativeAI(GEMINI_API_KEY || 'dummy_key');
 
 // --- Quality Rules ---
 let QUALITY_RULES = {
@@ -29,14 +28,6 @@ try {
 } catch (e) {
     console.warn('⚠️ Failed to load quality-rules.json, using defaults.');
 }
-
-/** Prefer newer IDs; first successful model wins */
-const GEMINI_MODEL_CANDIDATES = [
-    'gemini-2.0-flash',
-    'gemini-2.0-flash-001',
-    'gemini-1.5-flash',
-    'gemini-1.5-flash-8b',
-];
 
 const PERSONAS = {
     FX: `あなたは機関投資家・ヘッジファンド向け金融メディアのシニアマクロストラテジストです。
@@ -520,113 +511,6 @@ END OUTPUT
 - JSON ブロックは記事末尾に1つだけ。JSON ブロックの直前に H2 見出しを置かない。
 `;
     }
-}
-
-async function generateWithGemini(genre, newsHeadlines, marketData, jstDateStr, locale = 'ja') {
-    const systemInstruction = PERSONAS[genre];
-    const userPrompt = buildArticlePrompt(genre, newsHeadlines, marketData, jstDateStr, locale);
-
-    let lastErr;
-    for (const modelId of GEMINI_MODEL_CANDIDATES) {
-        try {
-            const model = genAI.getGenerativeModel({
-                model: modelId,
-                systemInstruction,
-            });
-            console.log(`[${genre}] Generating with ${modelId}...`);
-            const result = await model.generateContent(userPrompt);
-            const text = result.response.text();
-            if (text && text.length > 200) return text;
-        } catch (e) {
-            lastErr = e;
-            console.warn(`[${genre}] ⚠️ Gemini ${modelId} failed: ${e.message}`);
-        }
-    }
-    throw lastErr || new Error('All Gemini models failed');
-}
-
-const FREE_MODELS = [
-    'openrouter/free',                                // Auto-routes to best available free model
-    'minimax/minimax-m2.5:free',
-    'stepfun/step-3.5-flash:free',
-    'nvidia/nemotron-3-super-120b-a12b:free',
-    'nousresearch/hermes-3-llama-3.1-405b:free',
-    'arcee-ai/trinity-large-preview:free',
-    'google/gemma-3-27b-it:free',
-    'meta-llama/llama-3.3-70b-instruct:free',
-    'qwen/qwen3-coder:free',
-    'google/gemma-3-12b-it:free',
-    'meta-llama/llama-3.2-3b-instruct:free',
-];
-
-const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
-
-async function generateWithOpenRouter(genre, newsHeadlines, marketData, modelId = FREE_MODELS[0], jstDateStr, locale = 'ja') {
-    if (!OPENROUTER_API_KEY) throw new Error('OPENROUTER_API_KEY is not set.');
-
-    const isExplicitlyFree = modelId.endsWith(':free');
-    const isFreeRouter = modelId === 'openrouter/free';
-
-    if (!isExplicitlyFree && !isFreeRouter) {
-        console.error(`⚠️ SECURITY ALERT: Blocking non-free model call: ${modelId}`);
-        throw new Error(`Permission Denied: Model ${modelId} is not verified as FREE.`);
-    }
-
-    const userPrompt = buildArticlePrompt(genre, newsHeadlines, marketData, jstDateStr, locale);
-
-    console.log(`[${genre}] OpenRouter fallback (${modelId})...`);
-
-    let lastError;
-    for (let attempt = 1; attempt <= 3; attempt++) {
-        try {
-            const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-                method: 'POST',
-                headers: {
-                    Authorization: `Bearer ${OPENROUTER_API_KEY}`,
-                    'Content-Type': 'application/json',
-                    'HTTP-Referer': 'https://synapsecapital.net',
-                    'X-Title': 'Synapse Capital'
-                },
-                body: JSON.stringify({
-                    model: modelId,
-                    messages: [
-                        { role: 'system', content: PERSONAS[genre] },
-                        { role: 'user', content: userPrompt },
-                    ],
-                }),
-            });
-
-            if (response.status === 429) {
-                console.warn(`[${genre}] ⏳ Rate limited (429) on ${modelId}. Attempt ${attempt}/3. Waiting...`);
-                await sleep(2000 * attempt); // Exponential backoff
-                continue;
-            }
-
-            if (!response.ok) {
-                const errorText = await response.text();
-                throw new Error(`OpenRouter API Error: ${response.status} - ${errorText}`);
-            }
-
-            const data = await response.json();
-            if (data.error) {
-                if (data.error.code === 429) {
-                    console.warn(`[${genre}] ⏳ Business rate limited (429) on ${modelId}. Attempt ${attempt}/3.`);
-                    await sleep(2000 * attempt);
-                    continue;
-                }
-                throw new Error(`OpenRouter API Business Error: ${JSON.stringify(data.error)}`);
-            }
-
-            return data.choices[0]?.message?.content;
-
-        } catch (e) {
-            lastError = e;
-            console.warn(`[${genre}] ⚠️ Attempt ${attempt} failed for ${modelId}: ${e.message}`);
-            if (attempt < 3) await sleep(1000);
-        }
-    }
-
-    throw lastError || new Error(`Failed to generate with ${modelId} after 3 attempts`);
 }
 
 /**
@@ -1155,7 +1039,13 @@ async function generateReportForGenre(genre, newsForPrompt, marketData, dateStr,
                 if (GEMINI_API_KEY && GEMINI_API_KEY !== 'dummy_key') {
                     for (const modelId of GEMINI_MODEL_CANDIDATES) {
                         try {
-                            const raw = await generateWithGemini(genre, newsForPrompt, marketData, displayDateStr, locale);
+                            const systemInstruction = PERSONAS[genre];
+                            const userPrompt = buildArticlePrompt(genre, newsForPrompt, marketData, displayDateStr, locale);
+                            const raw = await generateWithGemini({
+                                systemInstruction,
+                                userPrompt,
+                                logPrefix: `[${genre}]`
+                            });
                             const q = checkQuality(raw, genre, locale, dateStr);
                             if (q.ok) {
                                 markdown = raw;
@@ -1172,7 +1062,14 @@ async function generateReportForGenre(genre, newsForPrompt, marketData, dateStr,
                     console.log(`[${genre}:${locale}] Trying OpenRouter fallback chain...`);
                     for (const mId of FREE_MODELS) {
                         try {
-                            const raw = await generateWithOpenRouter(genre, newsForPrompt, marketData, mId, displayDateStr, locale);
+                            const systemInstruction = PERSONAS[genre];
+                            const userPrompt = buildArticlePrompt(genre, newsForPrompt, marketData, displayDateStr, locale);
+                            const raw = await generateWithOpenRouter({
+                                systemInstruction,
+                                userPrompt,
+                                modelId: mId,
+                                logPrefix: `[${genre}]`
+                            });
                             const q = checkQuality(raw, genre, locale, dateStr);
                             if (q.ok) {
                                 markdown = raw;
