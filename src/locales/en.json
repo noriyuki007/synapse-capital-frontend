@@ -58,7 +58,9 @@
     "track_desc": "Transparent Performance",
     "partners": "Partners",
     "exchange_partners": "Exchange Partners",
-    "exchange_desc": "Recommended Platforms"
+    "exchange_desc": "Recommended Platforms",
+    "news": "News",
+    "news_desc": "Market-moving news"
   },
   "footer": {
     "tagline": "A fusion of multi-faceted AI market analysis and next-generation financial intelligence. We continue to pursue 'evidence-based predictions' in uncertain markets.",
@@ -375,5 +377,17 @@
     "prev_day_ratio": "Prev Day Ratio",
     "ai_investment_verdict": "AI Investment Verdict",
     "investment_verdict_text": "{ticker} currently maintains an extremely high relative advantage in the {type} sector. AI algorithm judges the recent rise with volume as 'accumulation by large investors'. A breakout of the upper resistance line is likely in the short term, suggestively transitioning to a medium-to-long term growth phase."
+  },
+  "news": {
+    "title": "Market News",
+    "subtitle": "Curated news from the Notion InvestmentDB",
+    "filter_all": "All",
+    "filter_3": "★★★+",
+    "filter_4": "★★★★+",
+    "filter_5": "★★★★★",
+    "result_count": "Results",
+    "source_label": "Source",
+    "source_link": "Original",
+    "empty": "No news matches the selected filter"
   }
 }
