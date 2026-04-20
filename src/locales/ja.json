@@ -58,7 +58,9 @@
     "track_desc": "透明性の高い的中率公開",
     "partners": "パートナー・連携",
     "exchange_partners": "パートナー連携",
-    "exchange_desc": "推奨取引プラットフォーム一覧"
+    "exchange_desc": "推奨取引プラットフォーム一覧",
+    "news": "ニュース",
+    "news_desc": "市場に影響する重要ニュース"
   },
   "footer": {
     "tagline": "AIによる多角的な市場解析と次世代金融インテリジェンスの融合。私たちは、不確実なマーケットにおいて「根拠ある予測」を追求し続けます。",
@@ -375,5 +377,17 @@
     "prev_day_ratio": "前日比",
     "ai_investment_verdict": "AI 投資判断概要",
     "investment_verdict_text": "{ticker}は現在、{type}セクターにおいて極めて高い相対的優位性を維持しています。AIアルゴリズムは、直近の出来増を伴う上昇を「大口投資家による蓄積」と判断。短期的には上値抵抗線のブレイクが濃厚であり、中長期的な成長フェーズへの移行が示唆されています。"
+  },
+  "news": {
+    "title": "市場ニュース",
+    "subtitle": "Notion InvestmentDB より抽出した重要ニュース一覧",
+    "filter_all": "すべて",
+    "filter_3": "★★★ 以上",
+    "filter_4": "★★★★ 以上",
+    "filter_5": "★★★★★",
+    "result_count": "該当件数",
+    "source_label": "情報ソース",
+    "source_link": "元記事",
+    "empty": "該当するニュースはありません"
   }
 }
