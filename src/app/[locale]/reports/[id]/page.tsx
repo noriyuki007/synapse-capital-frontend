@@ -12,26 +12,34 @@ import { Metadata } from 'next';
 
 
 export async function generateStaticParams() {
-    const locales = ['en', 'ja'];
     const reports = await getSortedReportsData();
-    
-    // Create base IDs (without -ja/-en suffix if any) to match URL param structure
-    const baseIds = Array.from(new Set(reports.map(r => r.id.replace(/-(ja|en)$/, ''))));
-    
+
+    // Only emit params for (baseId, locale) combinations that actually have a
+    // corresponding file — derived from the index's per-entry `locale` field.
+    // Prevents prerender failures when a locale variant is missing/quarantined.
+    const seen = new Set<string>();
     const params: { id: string, locale: string }[] = [];
-    locales.forEach(locale => {
-        baseIds.forEach(id => {
-            params.push({ id, locale });
-        });
-    });
+    for (const r of reports) {
+        const baseId = r.id.replace(/-(ja|en)$/, '');
+        const locale = r.locale || 'ja';
+        const key = `${locale}:${baseId}`;
+        if (seen.has(key)) continue;
+        seen.add(key);
+        params.push({ id: baseId, locale });
+    }
     return params;
 }
 
 export async function generateMetadata(props: { params: Promise<{ id: string, locale: string }> }): Promise<Metadata> {
     const { id, locale = 'ja' } = await props.params;
-    
+
     if (!id) return { title: 'Not Found' };
-    const report = await getReportData(id, locale);
+    let report;
+    try {
+        report = await getReportData(id, locale);
+    } catch {
+        return { title: 'Not Found' };
+    }
     const baseUrl = 'https://synapsecapital.net'; 
     
     return {
