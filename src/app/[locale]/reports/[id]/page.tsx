@@ -345,7 +345,7 @@ export default async function ReportDetailPage(props: { params: Promise<{ id: st
                             </div>
                         </section>
 
-                        <ShareButtons title={title} url={`/${locale}/reports/${id}`} dict={dict} />
+                        <ShareButtons title={title} url={`/${locale}/reports/${id.replace(/-(ja|en)$/, '')}`} dict={dict} />
 
                         <nav className="flex items-center justify-between pt-16 border-t border-slate-100">
                             <Link href={`/${locale}/reports`} className="flex items-center gap-2 text-sm font-bold text-slate-400 hover:text-slate-900 transition-colors">
@@ -378,7 +378,7 @@ export default async function ReportDetailPage(props: { params: Promise<{ id: st
                                 <h3 className="text-lg font-black tracking-tight">{dict.reports.latest_insights}</h3>
                                 <div className="space-y-6">
                                     {allReports.filter(r => r.id !== id).slice(0, 3).map((r, i) => (
-                                        <Link key={i} href={`/${locale}/reports/${r.id}`} className="block group space-y-2">
+                                        <Link key={i} href={`/${locale}/reports/${r.id.replace(/-(ja|en)$/, '')}`} className="block group space-y-2">
                                             <div className="text-[10px] font-black text-indigo-600 uppercase tracking-widest">{r.genre}</div>
                                             <h4 className="font-bold text-slate-900 group-hover:text-indigo-600 transition-colors leading-tight">{r.title}</h4>
                                             <div className="text-[10px] text-slate-400 flex items-center gap-1">

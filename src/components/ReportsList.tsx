@@ -38,7 +38,7 @@ export function ReportsList({ allReportsData, locale, dict }: ReportsListProps) 
             <div className="grid grid-cols-1 gap-12">
                 {currentReports.length > 0 ? (
                     currentReports.map((report: any) => (
-                        <Link key={report.id} href={`/${locale}/reports/${report.id}`} className="group block">
+                        <Link key={report.id} href={`/${locale}/reports/${report.id.replace(/-(ja|en)$/, '')}`} className="group block">
                             <div className="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
                                 <div className="md:col-span-2 space-y-2">
                                     <div className="text-[10px] font-black text-slate-300 uppercase tracking-widest flex items-center gap-1">

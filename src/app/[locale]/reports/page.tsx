@@ -88,7 +88,7 @@ export default async function ReportsPage(props: { params: Promise<{ locale: str
                         
                         <div className="space-y-6">
                             {allReportsData.slice(0, 3).map((report: any) => (
-                                <Link key={report.id} href={`/${locale}/reports/${report.id}`} className="group block space-y-2">
+                                <Link key={report.id} href={`/${locale}/reports/${report.id.replace(/-(ja|en)$/, '')}`} className="group block space-y-2">
                                     <div className="text-[9px] font-black text-indigo-600 uppercase tracking-widest">Editor&apos;s Pick</div>
                                     <h3 className="text-sm font-black text-slate-900 group-hover:text-indigo-600 transition-colors leading-snug line-clamp-2 uppercase">
                                         {report.title}

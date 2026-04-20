@@ -121,9 +121,12 @@ export async function getSortedReportsData(locale?: string) {
 }
 
 export async function getReportData(id: string, locale?: string) {
-    // If ID ends with -ja or -en, extract base ID and locale
+    // Strip any legacy -ja/-en suffix from the ID. The URL's locale param is
+    // the source of truth — we no longer let the suffix override it, so that
+    // /en/reports/<id>/ always shows English and /ja/reports/<id>/ always
+    // shows Japanese regardless of which variant the link was built from.
     let baseId = id.replace(/-(ja|en)$/, '');
-    const detectedLocale = id.endsWith('-ja') ? 'ja' : id.endsWith('-en') ? 'en' : locale || 'ja';
+    const detectedLocale = locale || (id.endsWith('-ja') ? 'ja' : id.endsWith('-en') ? 'en' : 'ja');
 
     let fileContents = await getRawReportContent(baseId, detectedLocale);
     if (!fileContents) {
