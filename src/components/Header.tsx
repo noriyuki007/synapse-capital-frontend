@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { Activity, ChevronDown, BarChart3, Bitcoin, ShieldCheck, FileText, TrendingUp, Users, Menu, X, Globe } from 'lucide-react';
+import { Activity, ChevronDown, BarChart3, Bitcoin, ShieldCheck, FileText, TrendingUp, Users, Menu, X, Globe, Newspaper } from 'lucide-react';
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
 
@@ -24,6 +24,7 @@ export const Header = ({ locale, dict }: { locale: string; dict: any }) => {
             label: dict.header.intelligence,
             id: "intelligence",
             items: [
+                { label: dict.header.news, href: `/${locale}/news`, icon: Newspaper, desc: dict.header.news_desc },
                 { label: dict.header.strategy_check, href: `/${locale}/position-checker`, icon: ShieldCheck, desc: dict.header.strategy_desc },
                 { label: dict.header.reports, href: `/${locale}/reports`, icon: FileText, desc: dict.header.reports_desc },
                 { label: dict.header.track_record, href: `/${locale}/track-record`, icon: TrendingUp, desc: dict.header.track_desc },
