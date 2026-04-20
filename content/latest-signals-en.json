@@ -1,68 +1,69 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-04-20 18:56",
+    "title": "[USD/JPY] UP: Risk-Off from US-Iran Tensions Supports Greenback Amid Stagnant Japanese Yen Rally",
+    "date": "2026-04-20 21:32",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Geopolitical tensions amplify USD strength via Iran ceasefire uncertainty",
-      "BOJ’s rate hawk signaling contrasts with JPY weakness from tsunami risk",
-      "AI identifies MA20 as critical support level post-volatility clustering"
+      "US-Iran diplomatic setbacks trigger risk-off flows, supporting USD against JPY",
+      "Weaker Canada CPI adds to global growth concerns, indirectly favoring Dollar strength",
+      "Technical setup shows potential for mean-reversion toward key moving averages"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish via geopolitical catalysts and MA20 support. BOJ pause widens USD/JPY rally.",
+    "excerpt": "Risk-off environment from US-Iran tensions provides tactical USD support vs JPY",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Geopolitical catalysts and MA20 alignment drive high-conviction above-trend trade",
-    "entry": "151.00",
-    "tp": "155.00",
-    "sl": "149.50",
-    "reliability": "HIGH"
+    "comment": "Risk-off fundamentals and yield differentials support tactical long on MA20 dips",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-04-20 19:04",
+    "title": "[S&P 500] DOWN: Geopolitical Tensions and Tech Weakness Pressure Major Indices",
+    "date": "2026-04-20 21:44",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 nears critical support at MA20 ahead of mixed earnings season",
-      "Geopolitical risks from US-Iran standoff and OPEC+ tensions create volatility",
-      "Institutional order flow suggests accumulation ahead of resistance breakout"
+      "U.S.-Iran tensions spike oil prices and risk-off sentiment",
+      "Tech heavyweights decline on geopolitical uncertainty",
+      "S&P 500 breaks below key support levels"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces MA20 support test amid geopolitical risks and earnings season. Mixed sentiment ahead.",
+    "excerpt": "S&P 500 faces downward pressure as geopolitical risks escalate and tech sector weakness intensifies",
     "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "Geopolitical tensions and tech weakness driving market lower with technical confirmation",
+    "entry": "Unknown",
+    "tp": "Unknown",
+    "sl": "Unknown",
+    "reliability": "MEDIUM"
+  },
+  "CRYPTO": {
+    "title": "[BTC/USD] [Direction] [Rationale] (e.g. 'Buy the dip toward MA20 as Fundamentals Turn Bullish')",
+    "date": "2026-04-20 21:46",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP or DOWN or FLAT",
+    "recommended_broker": "bybit",
+    "tldr_points": [
+      "BIS warns fragmentation of stablecoins undermines ETF comparisons.",
+      "Major funds attracted $1.4B weekly amid Bitcoin rebound.",
+      "AI signals increased institutional interest via large-scale purchases.",
+      "Technical levels indicate tension between sideways containment and breakout risks."
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "120-character summary (no greetings)",
+    "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "S&P 500 faces MA20 support test amid geopolitical risks and earnings season. Mixed sentiment ahead.",
+    "comment": "120-character summary (no greetings)",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
-  },
-  "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Signals Support at MA20 as ETF Flows Strengthen",
-    "date": "2026-04-20 19:09",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bybit",
-    "tldr_points": [
-      "Key point 1",
-      "Key point 2",
-      "Key point 3"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC rallies on $1B ETF inflows; AI flags MA20 support; bullish bias confirmed by technical structure and macro flow now.",
-    "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "AI detects support at MA20 amid bullish ETF inflows",
-    "entry": "30000",
-    "tp": "32000",
-    "sl": "28500",
-    "reliability": "HIGH"
   }
 }
