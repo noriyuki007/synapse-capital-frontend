@@ -1,29 +1,29 @@
 {
   "FX": {
-    "title": "USD/JPY: Range-Bound Cautiousness and Tactical Execution",
-    "date": "2026-04-21 02:02",
+    "title": "[USD/JPY] UP: Middle East Tensions Support Dollar While ECB Dovishness Limits Yen Strength",
+    "date": "2026-04-22 22:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Interest Correlation (Approx): 0.00 (Negative)",
-      "Technical: Driven by Price --- vs MA20 ---",
-      "Liquidity: Targets based on critical levels"
+      "Geopolitical risk premium from Iran tensions favors USD over JPY",
+      "ECB's Simkus rules out April rate hike, weakening euro and supporting USD/JPY cross",
+      "Technical setup shows bullish reversal potential at key support zones"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price Unknown, RSI(---), and MA20(---).",
+    "excerpt": "USD/JPY positioned to appreciate as Middle East risk and ECB dovishness create favorable conditions for dollar strength.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for USD/JPY around Price Unknown, RSI(---), and MA20(---).",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "Geopolitical risk premium favors USD over JPY while ECB dovishness reinforces dollar strength",
+    "entry": "149.20-149.50",
+    "tp": "150.80",
+    "sl": "148.80",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500: Range-Bound Cautiousness and Tactical Execution",
-    "date": "2026-04-21 02:06",
+    "title": "S&P 500 Framework: Analyzing Liquidity Zones in Consolidation",
+    "date": "2026-04-22 22:44",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "FLAT",
@@ -44,8 +44,8 @@
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD: Range-Bound Cautiousness and Tactical Execution",
-    "date": "2026-04-21 02:11",
+    "title": "BTC/USD Framework: Analyzing Liquidity Zones in Consolidation",
+    "date": "2026-04-22 22:49",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "FLAT",
