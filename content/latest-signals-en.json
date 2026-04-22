@@ -1,29 +1,29 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Middle East Tensions Support Dollar While ECB Dovishness Limits Yen Strength",
-    "date": "2026-04-22 22:39",
+    "title": "Professional Outlook: USD/JPY Equilibrium and Breakout Triggers",
+    "date": "2026-04-23 01:56",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Geopolitical risk premium from Iran tensions favors USD over JPY",
-      "ECB's Simkus rules out April rate hike, weakening euro and supporting USD/JPY cross",
-      "Technical setup shows bullish reversal potential at key support zones"
+      "Interest Correlation (Approx): 0.00 (Negative)",
+      "Technical: Driven by Price --- vs MA20 ---",
+      "Liquidity: Targets based on critical levels"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY positioned to appreciate as Middle East risk and ECB dovishness create favorable conditions for dollar strength.",
+    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price Unknown, RSI(---), and MA20(---).",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Geopolitical risk premium favors USD over JPY while ECB dovishness reinforces dollar strength",
-    "entry": "149.20-149.50",
-    "tp": "150.80",
-    "sl": "148.80",
+    "status": "NEUTRAL",
+    "comment": "Today's AI analysis outlines the execution plan for USD/JPY around Price Unknown, RSI(---), and MA20(---).",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500 Framework: Analyzing Liquidity Zones in Consolidation",
-    "date": "2026-04-22 22:44",
+    "title": "Professional Outlook: S&P 500 Equilibrium and Breakout Triggers",
+    "date": "2026-04-23 02:02",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "FLAT",
@@ -44,8 +44,8 @@
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD Framework: Analyzing Liquidity Zones in Consolidation",
-    "date": "2026-04-22 22:49",
+    "title": "Professional Outlook: BTC/USD Equilibrium and Breakout Triggers",
+    "date": "2026-04-23 02:06",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "FLAT",

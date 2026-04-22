@@ -1,29 +1,29 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: イラン情勢緩和と米金利見通しの整合性を確認",
-    "date": "2026-04-22 22:39",
+    "title": "戦術的インサイト：USD/JPYの均衡状態とブレイク条件の定義",
+    "date": "2026-04-23 01:56",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "イラン情勢の緩和がリスクオンを支援",
-      "米金利は据え置き観測が継続",
-      "テクニカルはMA20付近での反発を示唆"
+      "金利相関（近似）: 0.00で負相関傾向",
+      "テクニカル: 現在価格 --- と MA20 --- の位置関係が主導",
+      "需給: 重要帯の確認が必要 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "イラン関連ニュースでリスクオンが強まり、USD/JPYは上昇バイアス。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "イラン情勢緩和と米金利据え置き観測、MA20付近の反発が上昇を支える",
-    "entry": "151.20",
-    "tp": "152.00",
-    "sl": "150.80",
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500分析：持ち合い局面における流動性ゾーンの特定",
-    "date": "2026-04-22 22:44",
+    "title": "戦術的インサイト：S&P 500の均衡状態とブレイク条件の定義",
+    "date": "2026-04-23 02:02",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "FLAT",
@@ -44,8 +44,8 @@
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD分析：持ち合い局面における流動性ゾーンの特定",
-    "date": "2026-04-22 22:49",
+    "title": "戦術的インサイト：BTC/USDの均衡状態とブレイク条件の定義",
+    "date": "2026-04-23 02:06",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "FLAT",
