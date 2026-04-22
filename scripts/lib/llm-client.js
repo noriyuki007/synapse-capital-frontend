@@ -9,15 +9,12 @@ const genAI = new GoogleGenerativeAI(GEMINI_API_KEY || 'dummy_key');
 export const GEMINI_MODEL_CANDIDATES = [
   'gemini-2.0-flash',
   'gemini-2.0-flash-001',
-  'gemini-1.5-flash',
-  'gemini-1.5-flash-8b',
 ];
 
 /** OpenRouter free models for fallback */
 export const FREE_MODELS = [
   'openrouter/free',
   'minimax/minimax-m2.5:free',
-  'stepfun/step-3.5-flash:free',
   'nvidia/nemotron-3-super-120b-a12b:free',
   'nousresearch/hermes-3-llama-3.1-405b:free',
   'arcee-ai/trinity-large-preview:free',
