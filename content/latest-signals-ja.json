@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP:  Fed利下げ遅延と中東リスクによるドル優位を確認する",
-    "date": "2026-04-23 11:25",
+    "title": "[USD/JPY] UP: 英国サービスPMIの強さとリスクオン_sentimentがドル円を押し上げ",
+    "date": "2026-04-23 18:25",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "Fed利下げ観測が2026年後半へ延期され、ドル地基強が継続",
-      "中東緊張によるリスクオフで安全通貨需要もドルシフト優勢",
-      "日本製造業PMI堅調もサービス減速で日銀金融政策は更难"
+      "英国March flashサービスPMIが予想を上回りリスクオン傾向",
+      "ユーロ圏April flashサービスPMIが予想を下振れ、リスクオフ要因も存在",
+      "金利・オーダーフロー・センチメントの総合評価からドル円は上方バイアス"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米連邦準備制度理事会の利下げ遅延観測と中東の地政学リスクがドルを当面サポート。USD/JPYは上値指向を継続と判断。",
+    "excerpt": "英国サービスPMIの好結果とリスクオン_sentimentがドル円を支え、上値余地を探る局面。",
     "pair": "USD/JPY",
+    "status": "BUY",
+    "comment": "英国サービスPMIの好結果とリスクオン_sentimentがドル円を支えるため",
+    "entry": "149.50",
+    "tp": "151.50",
+    "sl": "149.00",
+    "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] DOWN: イラン緊張でリスクオフ、原油上昇が警戒",
+    "date": "2026-04-23 18:32",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "野村證券",
+    "tldr_points": [
+      "イラン情勢悪化によりリスクオフ傾向が強まる",
+      "原油価格の上昇がインフレ懸念を再燃させる",
+      "テクニカルではMA20下抜けが視野に入る"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "イラン緊張を背景に株価は下押し圧力が強まると見込まれ、原油高とリスクオフが相まってS&P 500は下落基準となる。",
+    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "米連邦準備制度理事会の利下げ遅延観測と中東の地政学リスクがドルを当面サポート。USD/JPYは上値指向を継続と判断。",
+    "comment": "イラン緊張を背景に株価は下押し圧力が強まると見込まれ、原油高とリスクオフが相まってS&P 500は下落基準となる。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: フューチャーズ下落とテスラ売り・ETF減資が重し",
-    "date": "2026-04-23 11:27",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Nomura Securities",
-    "tldr_points": [
-      "ナスダク高値後のダウ先物下落がリスクオフを示唆",
-      "テスラ株のエルムスク発言による売りがハイテクセクターに圧力",
-      "MRA アドバイザーがナスダク‑100 ETF保有を削減、機関の利食い姿勢が鮮明"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "ナスダクの上昇にもかかわらずダウ先物が下落、テスラの弱さと機関のETF減資がS&P 500に下押し圧力をかけている。",
-    "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "ナスダクの上昇とダウ先物の下落、テスラ売り・ETF減資が下押し圧力を形成。MA20下抜け後の戻り売りが有効。",
-    "entry": "5280",
-    "tp": "5200",
-    "sl": "5340",
-    "reliability": "MEDIUM"
-  },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: マクロ頭windsと規制強化が重し",
-    "date": "2026-04-23 11:35",
+    "title": "BTC/USD 超実践的トレード提案",
+    "date": "2026-04-23 18:57",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "規制当局の予測市場監視強化が需給に下方圧力",
-      "SBFの新たな裁判延期要請撤回が市場心理を悪化",
-      "テクニカルではMA20を下抜けるとさらなる下落リスク"
+      "流動性の強化と機関投資家の参加促進",
+      "RSIの異常値なしで市場タイマーとしての位置付け",
+      "最新政策動向を踏まえたリスク軽減"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "規制強化とネガティブニュースが重なり、BTC/USDは下押しリスクが高まる。MA20割れを確認し、戻り売りを検討。",
+    "excerpt": "",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "規制強化とネガティブニュースによる需給下押し、MA20割れを確認すれば戻り売りが有利",
-    "entry": "27500",
-    "tp": "26000",
-    "sl": "28200",
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
