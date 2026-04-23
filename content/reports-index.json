@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-04-24-crypto-ja",
+    "date": "2026-04-24 02:25",
+    "title": "[BTC/USD] UP: $80,000レジステストと機関流入の整合性を確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USDは$80,000レジステストを挟む展開で、機関流入とテクニカルな押し目買いが上昇を支える見込み。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-24-crypto-en",
+    "date": "2026-04-24 02:25",
+    "title": "[BTC/USD] UP: Regulatory Clarity and ETF-Driven Volatility Position for Breakout",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD faces critical $80k test with institutional buyers dominating volatility; fundamental shifts in DeFi and清算 dynamics favor breakout.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-24-stocks-ja",
+    "date": "2026-04-24 02:21",
+    "title": "[S&P 500] DOWN: 地政学リスクの高まりとテスラCapEx驚きが重石",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "野村證券",
+    "excerpt": "地政学リスクとテスラCapExが重石となり、S&P 500は下押し基調を維持。流動性の観点から野村證券の利用を推奨。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-24-stocks-en",
+    "date": "2026-04-24 02:21",
+    "title": "[S&P 500] UP: Market Resilience Defies Geopolitical Risk as Technical Support Holds",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 bullish on support hold; geopolitical risk contained, small caps lead recovery",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-24-fx-ja",
+    "date": "2026-04-24 02:17",
+    "title": "[USD/JPY] UP: 米サービス業PMI上振れと米株最高値更新を背景とした上昇バイアス維持",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "米4月S&Pグローバルサービス業PMIが予想50.3を上回る51.3に達し、米株最高値更新を背景にUSD/JPYは上昇バイアスを維持。テクニカル指標未確定もファンダメンタルズが後押し。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-24-fx-en",
+    "date": "2026-04-24 02:17",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Services PMI Exceeds Expectations",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "Services PMI beat fuels USD strength; MA20 support intact; buy the dip setup activated.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-04-23-crypto-ja",
     "date": "2026-04-23 18:57",
     "title": "BTC/USD 超実践的トレード提案",
