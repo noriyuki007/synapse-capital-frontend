@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: 中東情勢リスクオフと日財務相の介入警戒で円買い優勢",
-    "date": "2026-04-24 11:26",
+    "title": "[USD/JPY] UP: 米イラン緊張がドルを支え、テクニカルはMA20付近での押し目買いを示唆",
+    "date": "2026-04-24 18:29",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "中東緊張がリスクオフを誘発し、安全資産としての円が買われる",
-      "中国元の対ドル弱含みはドル全体の上値を重くし、クロス円にも影響",
-      "日本財務相の介入警戒が投機的な円売りを抑制し、下値リスクを増大"
+      "米イラン stalemate がドルを押し上げ、USD/JPY は 160.00 ハンドルに向かう",
+      "独 IFO 下振れとフランス消費者信頼低下でユーロ圏は弱含み",
+      "テクニカル的には MA20 付近での押し目買いが有効"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "中東情勢の悪化と財務相の介入警戒によりリスクオフが強まり、米ドル/円は下押し圧力が高まっている。",
+    "excerpt": "米イラン stalemate がドルを押し上げ、USD/JPY は 160.00 ハンドルに向かう。独 IFO 下振れとフランス消費者信頼低調でユーロ圏は弱含み、リスクオフがドルを支える。テクニカルでは現在価格不明だが MA20 付近での押し目買いが有効であり、RSI(14) も中立圏を示唆。",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "中東情勢の悪化と財務相の介入警戒によりリスクオフが強まり、米ドル/円は下押し圧力が高まっている。",
+    "comment": "米イラン stalemate がドルを押し上げ、USD/JPY は 160.00 ハンドルに向かう。独 IFO 下振れとフランス消費者信頼低調でユーロ圏は弱含み、リスクオフがドルを支える。テクニカルでは現在価格不明だが MA20 付近での押し目買いが有効であり、RSI(14) も中立圏を示唆。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: エネルギー・セクター強化とテクノロジー再評価による上値支持",
-    "date": "2026-04-24 11:30",
+    "title": "[S&P 500] UP: 大型テック決算と原油高が支え、バフェット買いが後押し",
+    "date": "2026-04-24 18:35",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "地政学的プレミアムの組み込みとエネルギーセクターの収益改善が上値を支える",
-      "GAFAを中心とするテクノロジー超小型株の見直し買いが流動性を牽引",
-      "半導体選別局面においてエクスポージャー調整が構造上の上昇余地を担保"
+      "原油高がインフレ懸念を和らげ、景気敏感株に支援",
+      "ビッグテックの決算期待がナスダック牽引、S&P 500へ波及",
+      "バフェットの買い増しと機関のリスクオン姿勢が上押し"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "地政学的リスクと業績見直し要因が交差する中、セクター間の相対価値ギャップが埋まる動きが顕在化。エネルギー強化とテクノロジー再評価がS&P 500の上値支持を形成する。",
+    "excerpt": "原油高とテック決算期待が市場を押し上げ、バフェットの買いが後押し。S&P 500は短期的な上昇バイアスが強い。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "地政学的ヘッジ需要と半導体選別買いが上値支持を形成し、テクノロジー再評価が押し目買いの根拠となる。",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "MEDIUM"
+    "comment": "原油高・テック決算期待・バフェット買いが上昇を後押し、テクニカルも押し目買いのタイミングを示唆",
+    "entry": "5150",
+    "tp": "5250",
+    "sl": "5080",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: ETF純流入再開とLido対応策が流動性底上げ",
-    "date": "2026-04-24 11:34",
+    "title": "[BTC/USD] UP: Spot bitcoin ETFs draw $2 billion (基礎情報不足) （例：「[BTC/USD] UP: Spot bitcoin ETFs draw $2 billion (基礎情報不足)」）",
+    "date": "2026-04-24 18:39",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "米国ETFの年間ネットフローがプラス転換で機関買いが再開",
-      "Lidoのプール割当てによるKelp対応でETHステーキング・システミックリスクを限定",
-      "政治イベント関連の投機リスクが相対的に低下しリスク資産に資金回転"
+      "Spot bitcoin ETFs引き続き買われている",
+      "多角市場分析とAI解析が強気",
+      "MA20付近までの押し目買いを推奨する。"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "ETF純流入の年間プラス転換とLidoによる600万ドル規模のプール割当てにより、マクロ流動性とステーキング・エコシステムの安定性が同時に向上。政治的センシティブな出来事が外れることで、リスク資産回転が加速する局面。",
+    "excerpt": "Spot bitcoin ETFs引き続き買われている。多角市場分析とAI解析が強気と見られ、MA20付近を注目する。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "ETF純流入プラス転換とLido対応で流動性・エコシステム安定化が上値を支える",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Spot bitcoin ETFs引き続き買われている。多角市場分析とAI解析が強気と見られ、MA20付近を注目する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }

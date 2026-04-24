@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-04-24 11:26",
+    "title": "[USD/JPY] UP: Geopolitical Stalemate and Policy Divergence Sustain Structural Bid",
+    "date": "2026-04-24 18:29",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "AI multi-factor model confirms bullish bias despite yen volatility",
-      "PBOC's yen-pressured context could amplify dollar strength",
-      "Energy supply risks from Gulf rebound create cross-market USD buying momentum"
+      "US-Iran stalemate reinforces safe-haven USD structural bid versus JPY",
+      "SNB policy flexibility and weak EUR/CHF data underscore G10 FX volatility skew favoring USD",
+      "Technicals track grind toward 160.00 handle with contained JPY volatility"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish signal from MA20 support and energy-driven USD demand. Buy with xm-trading.",
+    "excerpt": "Geopolitical inertia and SNB flexibility sustain USD/JPY grind toward 160.00; tactical longs favored on pullbacks.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "AI model confirms MA20 support with energy-driven USD demand",
-    "entry": "150.50",
-    "tp": "152.00,153.50",
-    "sl": "148.75",
-    "reliability": "HIGH"
+    "comment": "Geopolitical inertia and SNB flexibility sustain grind toward 160.00 with upside skew on break.",
+    "entry": "159.20",
+    "tp": "161.50",
+    "sl": "158.20",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Goldman Sachs Signals Caution Amid Geopolitical Tensions",
-    "date": "2026-04-24 11:30",
+    "title": "[S&P 500] UP: AI Detects Bullish Momentum from Big Tech Earnings and Oil Strength",
+    "date": "2026-04-24 18:35",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "Iran-driven risk-off sentiment weighs on equities.",
-      "Intel's late-session strength contrasts with broad tech weakness.",
-      "Goldman Sachs warns of near-term S&P 500 downside."
+      "Big tech earnings driving optimism, oil remains supportive.",
+      "Inflation data benign, Fed stance steady, supporting risk assets.",
+      "Technical setup shows price near MA20 with RSI indicating room to rise."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Geopolitical risk and mixed tech performance suggest near-term downside for the S&P 500.",
+    "excerpt": "Markets buoyed by strong tech earnings and steady oil; bias toward upside with defined risk.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Geopolitical risk and mixed tech performance suggest near-term downside for the S&P 500.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "Bullish bias driven by strong tech earnings, steady rates, and technical support at MA20.",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: ETF Inflows and Rate-Easing Bias Overcome Event-Driven Noise",
-    "date": "2026-04-24 11:34",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-04-24 18:39",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "US spot ETF flows turned positive for the year, establishing a structural bid under spot exposure",
-      "Geopolitical headline (DOJ arrest) increases tail-risk demand for non-sovereign stores while rate easing bias persists",
-      "Absorbing sell-side supply via Lido/Terraform-related capital recycling sustains liquidity depth around key retracement zones"
+      "Spot bitcoin ETFs draw $2 billion in net inflows over 8-day positive streak",
+      "Mantle proposes up to 30,000 ETH loan to address Aave bad debt",
+      "Metaplanet issues $50 million in zero-interest bonds to buy more bitcoin"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "ETF inflows and rate-easing tilt lift BTC/USD above fragmented liquidity as event risk reinforces non-sovereign demand.",
+    "excerpt": "Spot bitcoin ETFs drive inflows; Mantle and Metaplanet bolster BTC with new funding",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "ETF inflow inflection and rate easing sustain higher-low structure, favouring upside on MA20 retests.",
+    "comment": "AI detects support at MA20 as funds flow into bitcoin ETFs",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
-    "reliability": "HIGH"
+    "reliability": "MEDIUM"
   }
 }
