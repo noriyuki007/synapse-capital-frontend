@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Services PMI Exceeds Expectations",
-    "date": "2026-04-24 02:17",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-04-24 11:26",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US April S&P Global services index 51.3 beats 50.3 forecast, signaling economic resilience",
-      "US equities at fresh record high reinforces risk-on sentiment favorable to USD/JPY upside",
-      "Technical structure shows MA20 acting as dynamic support amid declining volatility"
+      "AI multi-factor model confirms bullish bias despite yen volatility",
+      "PBOC's yen-pressured context could amplify dollar strength",
+      "Energy supply risks from Gulf rebound create cross-market USD buying momentum"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Services PMI beat fuels USD strength; MA20 support intact; buy the dip setup activated.",
+    "excerpt": "USD/JPY bullish signal from MA20 support and energy-driven USD demand. Buy with xm-trading.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Services PMI beat and equity highs support bullish bias; buy on MA20 dips",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "comment": "AI model confirms MA20 support with energy-driven USD demand",
+    "entry": "150.50",
+    "tp": "152.00,153.50",
+    "sl": "148.75",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Market Resilience Defies Geopolitical Risk as Technical Support Holds",
-    "date": "2026-04-24 02:21",
+    "title": "[S&P 500] DOWN: Goldman Sachs Signals Caution Amid Geopolitical Tensions",
+    "date": "2026-04-24 11:30",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
     "tldr_points": [
-      "Geopolitical risk elevates volatility but fails to break key support levels",
-      "Small cap strength signals underlying bullish conviction despite headline headwinds",
-      "Technical structure remains intact with MA20 providing critical algorithmic anchor"
+      "Iran-driven risk-off sentiment weighs on equities.",
+      "Intel's late-session strength contrasts with broad tech weakness.",
+      "Goldman Sachs warns of near-term S&P 500 downside."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 bullish on support hold; geopolitical risk contained, small caps lead recovery",
+    "excerpt": "Geopolitical risk and mixed tech performance suggest near-term downside for the S&P 500.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Technical support intact with geopolitical risk contained; small caps lead suggests structural bullishness",
-    "entry": "0.00",
-    "tp": "5200.00",
-    "sl": "4950.00",
+    "status": "NEUTRAL",
+    "comment": "Geopolitical risk and mixed tech performance suggest near-term downside for the S&P 500.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Regulatory Clarity and ETF-Driven Volatility Position for Breakout",
-    "date": "2026-04-24 02:25",
+    "title": "[BTC/USD] UP: ETF Inflows and Rate-Easing Bias Overcome Event-Driven Noise",
+    "date": "2026-04-24 11:34",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Institutional inflows from ETFs and whale accumulation signal structural bullishness",
-      "Technical confluence at $80,000 alignment with historical resistance-turning support",
-      "Micro-Efficient Market Hypothesis suggests undervaluation despite short-term volatility"
+      "US spot ETF flows turned positive for the year, establishing a structural bid under spot exposure",
+      "Geopolitical headline (DOJ arrest) increases tail-risk demand for non-sovereign stores while rate easing bias persists",
+      "Absorbing sell-side supply via Lido/Terraform-related capital recycling sustains liquidity depth around key retracement zones"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD faces critical $80k test with institutional buyers dominating volatility; fundamental shifts in DeFi and清算 dynamics favor breakout.",
+    "excerpt": "ETF inflows and rate-easing tilt lift BTC/USD above fragmented liquidity as event risk reinforces non-sovereign demand.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Asymmetric risk-reward from ETF inflows and technical confluence at $80k",
-    "entry": "75500",
-    "tp": "80000",
-    "sl": "72000",
-    "reliability": "MEDIUM"
+    "comment": "ETF inflow inflection and rate easing sustain higher-low structure, favouring upside on MA20 retests.",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "HIGH"
   }
 }
