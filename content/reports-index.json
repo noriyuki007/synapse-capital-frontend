@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-04-25-crypto-ja",
-    "date": "2026-04-25 02:00",
-    "title": "[BTC/USD] UP: フレンドリーなFed見通しとChainlink統合が上押しを支える",
+    "date": "2026-04-25 11:23",
+    "title": "[BTC/USD] DOWN: 資金規制強化と流動性逼迫による下押し圧力",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
-    "excerpt": "Fedの政策転換とChainlinkの統合が上押しを支え、MA20付近での押し目買いを推奨。流動性はbitflyerを活用。",
+    "excerpt": "規制ヘッドウィンドと流動性逼迫が重なり、BTC/USDは短期的に下押し圧力が強まると見込む。機関投資家向けの売り戦略を示唆する。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-04-25-crypto-en",
-    "date": "2026-04-25 02:00",
-    "title": "CRYPTO Analysis",
+    "date": "2026-04-25 11:23",
+    "title": "[BTC/USD] FLAT: Regulatory Fragmentation Contrasts Institutional Momentum",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
-    "excerpt": "AI spots MA20 support, Powell-Warsh Fed shift, Chainlink integration as bullish catalysts for BTC/USD driving momentum.",
+    "excerpt": "Regulatory headwinds clash with institutional narrative; tactical neutrality warranted",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-04-25-stocks-ja",
-    "date": "2026-04-25 01:56",
-    "title": "[S&P 500] FLAT: セクター間格差と地政学リスクの相殺を確認",
+    "date": "2026-04-25 11:09",
+    "title": "[S&P 500] FLAT: 警告サインとセクター tilted の混在で方向感欠く",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "S&P 500は半導体セクターの過熱感とイラン情勢によるエネルギー株の混乱が相殺し、レンジ推移が予想。セクター別の選別投資と利益確定を推奨する。",
+    "recommended_broker": "Nomura Securities",
+    "excerpt": "産業株の警告とボーイングの予想修正が重しとなり、個別株の急騰は指数に波及しにくいことから S&P 500 はレンジ推移が予想される。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
-    "id": "2026-04-25-stocks-en",
-    "date": "2026-04-25 01:56",
-    "title": "[S&P 500] NEUTRAL: Mixed Signals Amid Sector Rotation and Geopolitical Tensions",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "Interactive Brokers",
-    "excerpt": "S&P 500 shows resilience amid sector rotation; technicals lack clear direction while fundamentals remain supportive.",
-    "result": "PENDING",
-    "locale": "en"
-  },
-  {
     "id": "2026-04-25-fx-ja",
-    "date": "2026-04-25 01:53",
-    "title": "[USD/JPY] DOWN: 安値反発と不確実性の増幅に注意",
+    "date": "2026-04-25 11:07",
+    "title": "[USD/JPY] DOWN: リスクオン主導のUSD安圧力と来週の主要中銀イベント前のポジション調整",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
-    "excerpt": "USD/JPYはドッペルガガントック円安反発、政治的不確実性がリスクを再分配。市場の不安感がShortボリューム増にプラスに作用。dmm-fxの流動性を活用し、利益率を追求する仕組みを設ける。",
+    "excerpt": "リスクオンによるUSD安と来週の主要中銀決定会合を控えたポジション調整を背景にUSD/JPYは下押し圧力が強まる。成長優先の米経済政策が下支えとなるが、ボラティリティ拡大に警戒。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-04-25-fx-en",
-    "date": "2026-04-25 01:53",
-    "title": "[USD/JPY] DOWN: AI Detects Bearish Momentum as Price Retests 100‑Hour MA",
+    "date": "2026-04-25 11:07",
+    "title": "[USD/JPY] DOWN: Risk‑On Equity Rally Weakens Dollar, Supports Yen",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY declines to new lows, testing 100‑hour MA amid easing geopolitical risk and softening fundamentals.",
+    "excerpt": "Risk‑on equity surge drags USD, creating short bias on USD/JPY amid yield compression.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-25-stocks-en",
+    "date": "2026-04-25",
+    "title": "STOCKS Analysis",
+    "genre": "STOCKS",
+    "target_pair": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "",
     "result": "PENDING",
     "locale": "en"
   },
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "Institutional inflows outweigh regulatory noise; tactical long setup on support test.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "Geopolitical tailwinds reverse equity rally; oil surge creates headwinds for S&P 500.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "英国サービスPMIの好結果とリスクオン_sentimentがドル円を支え、上値余地を探る局面。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "EUR weakness from PMI miss creates tactical USD/JPY long opportunity at MA support",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
