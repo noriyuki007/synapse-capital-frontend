@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: リスクオン継続と米国成長戦略を背景とした円安バイアスの確認",
-    "date": "2026-04-25 17:50",
+    "title": "[USD/JPY] DOWN: リスクオンムードによる全面ドル安とマクロカタリストの弱気傾向",
+    "date": "2026-04-26 01:38",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "NASDAQ・S&Pが史上最高値を更新し、リスクオン姿勢が継続",
-      "ベネット財務長官のGrowth-first戦略がドル買い材料として機能",
-      "来週の主要中銀決定を控え、USD/JPYは145円台での推移を想定"
+      "リスクオンムードによる全面ドル安でUSD/JPYは下押し圧力を受ける",
+      "米イラン協議の遅延が地政学的変動要因として残る",
+      "高流動性の[dmm-fx]を利用したショート戦略を推奨"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米国株高・リスクオン環境継続によりドル安地进行が抑制される中、ベネット財務長官の成長優先戦略がドルの底値を担保。145円台での推移を想定。",
+    "excerpt": "リスクオンムードによる全面ドル安と米イラン協議の遅延を背景にUSD/JPYは下押し圧力が強まる。テクニカル指標は不透明だがマクロカタリストに基づく実践的トレーディング戦略を策定。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "リスクオン継続と米国成長戦略を背景に145円台での買いエントリーを推奨",
-    "entry": "145.20-145.50",
-    "tp": "148.00",
-    "sl": "143.50",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: 長期リターン予測と歴史的サイクルが上値を支持",
-    "date": "2026-04-25 17:52",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "tldr_points": [
-      "2026年S&P 500リターンが30年平均を上回る予測が優位",
-      "155年史ツールはクレショナルスクリナリを否定し上昇トレンド維持",
-      "超小型株・セキュリティ強気代替が相場流動性とセンチメントを底上げ"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "長期リターン予測と155年史ツールが上値支持を確認。超小型株バイアウトやセキュリティ強気代替が流動性およびセンチメントを補完し、リスク調整後リターンを上方修正する。",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "長期リターン予測と歴史ツールが上値支持を示し、流動性強化がリスク調整後リターンを押し上げる。",
+    "status": "SELL",
+    "comment": "リスクオンムードによる全面ドル安とマクロカタリストの弱気傾向を反映",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
+    "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-04-26 01:42",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "指定ブローカー",
+    "tldr_points": [
+      "決算ハイパフォーマンスが全体需給を支える",
+      "金利敏感セクターの相対的強さが示唆される",
+      "流動性環境は依然豊かで指数押し上げ力がある"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "米主要企業の好決算と金利環境の安定がS&P500を押し上げ、MA20付近での押し目買いが有効と判断。",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "決算ハイパフォーマンスと金利安定が上昇を支持、MA20付近の押し目が買い場",
+    "entry": "5200",
+    "tp": "5400",
+    "sl": "5050",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: 規制強化の一時的反応と流動性回復による反発を想定",
-    "date": "2026-04-25 17:53",
+    "title": "[BTC/USD] UP: 規制明確化と機関投資家流入の構造的強気を確認",
+    "date": "2026-04-26 01:49",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "米・ブラジル・テネシーでの規制強化は短期的な売り材料だが、JPMorganのトークン化言及は中長期の構造的強気を示唆",
-      "米制裁とテザンの凍結表明はステーブルコインのコンプライアンス強化を促進し、健全な流動性供給に寄与",
-      "技術的にはMA20水準での反発パターンが確認されており、オーダーフローは買い示唆"
+      "JPMorganのトークン化レポートは機関資金流入の構造的カタリスト",
+      "米制裁とブラジル規制は短期的な需給撹乱要因も、中長期の規制明確化に寄与",
+      "DeFiセクターの自己修復能力はエコシステム健全性の証左"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "規制強化の一時的売り圧力を消化しつつ、構造的強気材料が優勢。MA20水準での反発から上方トレンド再開を想定。",
+    "excerpt": "JPMorganのトークン化展望を背景に、規制明確化による機関投資家参入加速を評価。DeFi流動性改善もサポート要因となり、押し目買い戦略を推奨。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20水準での反発と規制材料の一時的消化を確認。中長期上昇トレンド再開を想定",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "comment": "JPMorganトークン化レポートを背景に機関投資家流入期待、DeFiセクターの健全性改善もサポート要因",
+    "entry": "94000-95000",
+    "tp": "100000",
+    "sl": "90000",
     "reliability": "MEDIUM"
   }
 }
