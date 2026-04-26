@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-04-26-crypto-ja",
-    "date": "2026-04-26 01:49",
-    "title": "[BTC/USD] UP: 規制明確化と機関投資家流入の構造的強気を確認",
+    "date": "2026-04-26 11:43",
+    "title": "[BTC/USD] DOWN: 規制強化とオンチェーン流動性逼迫が重し",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
-    "excerpt": "JPMorganのトークン化展望を背景に、規制明確化による機関投資家参入加速を評価。DeFi流動性改善もサポート要因となり、押し目買い戦略を推奨。",
+    "excerpt": "規制強化とオンチェーン脆弱性が重なり、BTC/USDは短期的下押しリスクが高まっている。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-04-26-crypto-en",
-    "date": "2026-04-26 01:49",
-    "title": "[BTC/USD] FLAT: Regulatory Headwinds Offset Institutional Tailwinds",
+    "date": "2026-04-26 11:43",
+    "title": "[BTC/USD] UP: Institutional Inflows and Macro Tailwinds Support Bullish Continuation",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "Regulatory noise from Brazil and US sanctions tempers bullish tokenization narrative; tactical patience warranted",
+    "excerpt": "BTC/USD positioned for upside as institutional flows and macro conditions outweigh regulatory noise.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-04-26-stocks-ja",
-    "date": "2026-04-26 01:42",
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-04-26 11:36",
+    "title": "戦術的インサイト：S&P 500の均衡状態とブレイク条件の定義",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "指定ブローカー",
-    "excerpt": "米主要企業の好決算と金利環境の安定がS&P500を押し上げ、MA20付近での押し目買いが有効と判断。",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-04-26-stocks-en",
-    "date": "2026-04-26 01:42",
-    "title": "[S&P 500] UP: Big Tech Earnings Wave and No U.S.-Iran Talks Drive Bullish Bias",
+    "date": "2026-04-26 11:36",
+    "title": "[S&P 500] UP: Earnings Momentum and Tech Sector Strength Offset Geopolitical Risk",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "[]",
-    "excerpt": "Bullish S&P 500 tactical view driven by big tech earnings and no U.S.-Iran talks, offsetting unknown technicals.",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 positioned for upside as tech earnings accelerate and geopolitical risk remains contained",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-04-26-fx-ja",
-    "date": "2026-04-26 01:38",
-    "title": "[USD/JPY] DOWN: リスクオンムードによる全面ドル安とマクロカタリストの弱気傾向",
+    "date": "2026-04-26 11:31",
+    "title": "[USD/JPY] DOWN: リスクオンに伴うUSD安と米イラン協議遅延が円買い圧力を強める",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
-    "excerpt": "リスクオンムードによる全面ドル安と米イラン協議の遅延を背景にUSD/JPYは下押し圧力が強まる。テクニカル指標は不透明だがマクロカタリストに基づく実践的トレーディング戦略を策定。",
+    "excerpt": "4月24日の米株式市場はリスクオンで主要指数が最高値を更新した一方、USDは全般的に軟化。米イラン協議の遅延による地政学的リスク上昇も円買いを促し、USD/JPYは短期的に下値を試す展開が予想される。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-04-26-fx-en",
-    "date": "2026-04-26 01:38",
-    "title": "[USD/JPY] UP: Risk-On Sentiment and Record Equities Support Bullish Bias",
+    "date": "2026-04-26 11:31",
+    "title": "[USD/JPY] DOWN: Risk-On Dollar Weakness as US-Iran Stalemate Extends",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY positioned for upside as risk-on sentiment undermines JPY safe-haven demand.",
+    "excerpt": "USD/JPY underperforms on delayed US–Iran dialogue and equity-led risk-on; structure favors downside toward lower MA tiers.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "Spot bitcoin ETFs drive inflows; Mantle and Metaplanet bolster BTC with new funding",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "",
     "excerpt": "原油高とテック決算期待が市場を押し上げ、バフェットの買いが後押し。S&P 500は短期的な上昇バイアスが強い。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "",
     "excerpt": "Markets buoyed by strong tech earnings and steady oil; bias toward upside with defined risk.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "Geopolitical inertia and SNB flexibility sustain USD/JPY grind toward 160.00; tactical longs favored on pullbacks.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {

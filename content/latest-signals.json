@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: リスクオンムードによる全面ドル安とマクロカタリストの弱気傾向",
-    "date": "2026-04-26 01:38",
+    "title": "[USD/JPY] DOWN: リスクオンに伴うUSD安と米イラン協議遅延が円買い圧力を強める",
+    "date": "2026-04-26 11:31",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "リスクオンムードによる全面ドル安でUSD/JPYは下押し圧力を受ける",
-      "米イラン協議の遅延が地政学的変動要因として残る",
-      "高流動性の[dmm-fx]を利用したショート戦略を推奨"
+      "4月24日の米市場はリスクオンで株価最高値更新、USDが全般的に軟化",
+      "米イラン協議の開始が週明けまで遅延、地政学的リスクが円需要を支える",
+      "USD/JPYは短期的に下値を試す展開、戻り売りを推奨"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "リスクオンムードによる全面ドル安と米イラン協議の遅延を背景にUSD/JPYは下押し圧力が強まる。テクニカル指標は不透明だがマクロカタリストに基づく実践的トレーディング戦略を策定。",
+    "excerpt": "4月24日の米株式市場はリスクオンで主要指数が最高値を更新した一方、USDは全般的に軟化。米イラン協議の遅延による地政学的リスク上昇も円買いを促し、USD/JPYは短期的に下値を試す展開が予想される。",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "リスクオンムードによる全面ドル安とマクロカタリストの弱気傾向を反映",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "comment": "リスクオンに伴うUSD安と米イラン協議遅延による円買い圧力で下落が予想される",
+    "entry": "149.80",
+    "tp": "147.50",
+    "sl": "150.30",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-04-26 01:42",
+    "title": "戦術的インサイト：S&P 500の均衡状態とブレイク条件の定義",
+    "date": "2026-04-26 11:36",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "指定ブローカー",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
     "tldr_points": [
-      "決算ハイパフォーマンスが全体需給を支える",
-      "金利敏感セクターの相対的強さが示唆される",
-      "流動性環境は依然豊かで指数押し上げ力がある"
+      "金利相関（近似）: 0.00で負相関傾向",
+      "テクニカル: 現在価格 --- と MA20 --- の位置関係が主導",
+      "需給: 重要帯の確認が必要 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "米主要企業の好決算と金利環境の安定がS&P500を押し上げ、MA20付近での押し目買いが有効と判断。",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "決算ハイパフォーマンスと金利安定が上昇を支持、MA20付近の押し目が買い場",
-    "entry": "5200",
-    "tp": "5400",
-    "sl": "5050",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、S&P 500の現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: 規制明確化と機関投資家流入の構造的強気を確認",
-    "date": "2026-04-26 01:49",
+    "title": "[BTC/USD] DOWN: 規制強化とオンチェーン流動性逼迫が重し",
+    "date": "2026-04-26 11:43",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "JPMorganのトークン化レポートは機関資金流入の構造的カタリスト",
-      "米制裁とブラジル規制は短期的な需給撹乱要因も、中長期の規制明確化に寄与",
-      "DeFiセクターの自己修復能力はエコシステム健全性の証左"
+      "規制当局による予測市場制限がリスクオン資産への圧力を強める",
+      "オンチェーンプライバシー層の攻撃歴がアルトコイン全体の信用を揺るがす",
+      "フロー分析から機関の売り圧力がMA20近辺で顕在化"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "JPMorganのトークン化展望を背景に、規制明確化による機関投資家参入加速を評価。DeFi流動性改善もサポート要因となり、押し目買い戦略を推奨。",
+    "excerpt": "規制強化とオンチェーン脆弱性が重なり、BTC/USDは短期的下押しリスクが高まっている。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "JPMorganトークン化レポートを背景に機関投資家流入期待、DeFiセクターの健全性改善もサポート要因",
-    "entry": "94000-95000",
-    "tp": "100000",
-    "sl": "90000",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "規制強化とオンチェーン脆弱性による下押し圧力",
+    "entry": "27800",
+    "tp": "26200",
+    "sl": "28500",
+    "reliability": "HIGH"
   }
 }

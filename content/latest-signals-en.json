@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Risk-On Sentiment and Record Equities Support Bullish Bias",
-    "date": "2026-04-26 01:38",
+    "title": "[USD/JPY] DOWN: Risk-On Dollar Weakness as US-Iran Stalemate Extends",
+    "date": "2026-04-26 11:31",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Risk-on environment drives JPY weakness as equities reach record highs",
-      "USD weakness moderates amid positive risk sentiment",
-      "Technical setup favors buying on dips toward key moving averages"
+      "Broad USD sold as US–Iran talks deferred elevates geopolitical uncertainty and stalls safe-haven repatriation into JPY shorts",
+      "US equity record closes and risk-on tone compress long-dollar positioning, weakening USD/JPY technical structure",
+      "Policy cancellation and diplomatic delays reduce near-term conviction for US fiscal or geopolitical catalysts supporting the dollar"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY positioned for upside as risk-on sentiment undermines JPY safe-haven demand.",
+    "excerpt": "USD/JPY underperforms on delayed US–Iran dialogue and equity-led risk-on; structure favors downside toward lower MA tiers.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Risk-on environment and record equities support JPY weakness; buy on MA20 dips",
+    "status": "SELL",
+    "comment": "Risk-on equity strength and delayed US–Iran resolution favor USD/JPY downside toward MA support.",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Big Tech Earnings Wave and No U.S.-Iran Talks Drive Bullish Bias",
-    "date": "2026-04-26 01:42",
+    "title": "[S&P 500] UP: Earnings Momentum and Tech Sector Strength Offset Geopolitical Risk",
+    "date": "2026-04-26 11:36",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "[]",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Mega-cap tech earnings (Apple, Amazon, Google) provide near-term fundamental support for S&P 500",
-      "Absence of scheduled U.S.-Iran talks eliminates immediate geopolitical risk premium",
-      "VGIT vs IEI maturity gap favors equity allocation over intermediate-duration fixed income"
+      "Major tech earnings (AAPL, AMZN, GOOGL) provide fundamental catalyst amid Q1 reporting season",
+      "Tech sector rotation continues with semiconductor volatility (NVTS +31% vs TEL -12%)",
+      "Iran geopolitical risk elevated but contained; market pricing in diplomatic resolution"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Bullish S&P 500 tactical view driven by big tech earnings and no U.S.-Iran talks, offsetting unknown technicals.",
+    "excerpt": "S&P 500 positioned for upside as tech earnings accelerate and geopolitical risk remains contained",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Big tech earnings and absent geopolitical risk drive bullish bias despite unknown technical metrics",
-    "entry": "Unknown",
-    "tp": "Unknown",
-    "sl": "Unknown",
+    "comment": "Earnings catalyst and intact technical structure support upside; geopolitical risk contained",
+    "entry": "MA20 zone",
+    "tp": "Recent swing high",
+    "sl": "Prior swing low",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: Regulatory Headwinds Offset Institutional Tailwinds",
-    "date": "2026-04-26 01:49",
+    "title": "[BTC/USD] UP: Institutional Inflows and Macro Tailwinds Support Bullish Continuation",
+    "date": "2026-04-26 11:43",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Mixed regulatory landscape with Brazil ban and US sanctions creating short-term friction",
-      "JPMorgan tokenization thesis validates long-term institutional demand",
-      "Technical setup lacks clear momentum signal pending price discovery"
+      "Institutional adoption accelerates via tokenization narrative despite JPMorgan's cautious outlook",
+      "Regulatory headwinds for prediction markets signal increased scrutiny but do not impact BTC fundamentals",
+      "Technical structure remains constructive with MA20 acting as dynamic support"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Regulatory noise from Brazil and US sanctions tempers bullish tokenization narrative; tactical patience warranted",
+    "excerpt": "BTC/USD positioned for upside as institutional flows and macro conditions outweigh regulatory noise.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "Awaiting technical breakout or fundamental catalyst to establish directional bias; range-bound discipline preferred",
+    "status": "BUY",
+    "comment": "Bullish structure intact; buy dips toward MA20 support with defined risk",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
-    "reliability": "LOW"
+    "reliability": "MEDIUM"
   }
 }
