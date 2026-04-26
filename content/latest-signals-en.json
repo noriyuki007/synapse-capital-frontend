@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] FLAT: AI Detects Mid‑Range Congestion Amidst Geopolitical Uncertainty",
-    "date": "2026-04-26 17:57",
+    "title": "[USD/JPY] UP: Geopolitical Risks and Fed Policy Divergence Drive Dollar-Yen Rally",
+    "date": "2026-04-27 01:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US risk‑on sentiment outweighs short‑term JPY support",
-      "Geopolitical spikes create a tight trade range",
-      "MA20 & RSI await decisive break to trigger a move"
+      "Geopolitical risks revive USD/JPY demand amid Iran tensions",
+      "Fed's dovish tilt clashes with BoJ's potential easing",
+      "Technical resistance breaks align with bullish multi-asset backdrop"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "US risk sentiment lifts USD, JPY trades in a tight, flat range awaiting a clear directional break.",
+    "excerpt": "Geopolitical tensions and Fed-BOJ policy divergence fuel USD/JPY upside; near-term break of 152.50 confirms bullish bias.",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "Market is in a tight, flat consolidation awaiting a clear catalyst.",
-    "entry": "151.75",
-    "tp": "152.55",
-    "sl": "150.90",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: Technical Support at MA20 and Strong Tech Earnings Momentum",
-    "date": "2026-04-26 18:01",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Integration Example: For executing this specific setup, we recommend utilizing [Interactive Brokers] due to optimal liquidity.",
-    "tldr_points": [
-      "S&P 500 poised for bounce as tech earnings validate AI-driven momentum",
-      "MA20 holds critical support with 5% buffer above prior swing low",
-      "RSI divergence suggests short-term weakness masking underlying strength"
-    ],
-    "chart_image": "/images/market-analysis-sp500.png",
-    "excerpt": "S&P 500 approaches key multi-year trendline support amid divergent tech sector performance.",
-    "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P 500 approaches key multi-year trendline support amid divergent tech sector performance.",
+    "comment": "Geopolitical tensions and Fed-BOJ policy divergence fuel USD/JPY upside; near-term break of 152.50 confirms bullish bias.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: AI Optimism and Dividend Stability Underpin Technical Bounce",
+    "date": "2026-04-27 01:43",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "[]",
+    "tldr_points": [
+      "AI-driven sector rotation into quality names",
+      "Strong dividend resilience amid macro uncertainty",
+      "Technical setup favors MA20 retest on RSI stabilization"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "AI optimism and dividend stability underpin S&P 500 technical bounce toward MA20.",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "AI optimism and dividend resilience support a retest of MA20 with controlled risk.",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] BUY: Overbought RSI Divergence Signals Short-Term Consolidation",
-    "date": "2026-04-26 18:10",
+    "title": "[BTC/USD] UP: Tokenization Catalysts Offset Regulatory Friction Near MA20",
+    "date": "2026-04-27 01:49",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD nears critical MA20 support with positive RSI divergence",
-      "CFTC-Kalshi lawsuit and Brazil ban introduce regulatory uncertainty",
-      "Aave/Chainlink liquidations and JPMorgan’s tokenization thesis provide crypto-specific tailwinds"
+      "JPMorgan tokenization thesis tilts long-term demand curve rightward despite multi-year rollout horizon",
+      "Brazil/Kalshi-Polymarket clampdown introduces tactical headline volatility but reinforces BTC’s non-custodial relative value",
+      "L1/L2 recovery coordination (Arbitrum $71M ETH unfreeze) stabilizes cross-chain collateral and supports BTC as pristine collateral proxy"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "",
+    "excerpt": "Macro liquidity and tokenization tailwinds outweigh near-term regulatory noise, underpinning a measured rebound toward MA20 with BTC as the liquidity magnet.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "RSI divergence and regulatory uncertainty create asymmetric risk-reward toward MA20 support",
-    "entry": "62500",
-    "tp": "66500",
-    "sl": "60000",
-    "reliability": "HIGH"
+    "comment": "Structural demand from tokenization and cross-chain collateral normalization outweighs episodic regulatory drag, favoring reversion toward MA20.",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
   }
 }

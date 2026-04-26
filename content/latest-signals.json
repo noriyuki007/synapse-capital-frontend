@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: risk‑on sentiment weighs on USD, technicals show bearish bias",
-    "date": "2026-04-26 17:57",
+    "title": "[USD/JPY] UP: リスクオン環境と米金利プレミアムによる上昇トレンドの継続",
+    "date": "2026-04-27 01:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "リスクオン mood が株価を押し上げ、ドル売り圧力が強まる",
-      "イラン・米国会談の延期が地政学的不安を和らげ、円の安全需要を支援",
-      "テクニカルではMA20未満での推移とRSI下降が下目線を示す"
+      "リスクオン環境がUSD/JPYを支持",
+      "米国金利プレミアムが拡大傾向",
+      "テクニカル面では上昇トレンド継続中"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "リスクオン相場でドルが弱含み、円買いが優勢。テクニカルもMA20割れとRSI低下で下目線。",
+    "excerpt": "リスクオン環境と米国金利差拡大がUSD/JPYを支持。テクニカル面でも上昇トレンドが継続中。",
     "pair": "USD/JPY",
+    "status": "BUY",
+    "comment": "リスクオン環境と米金利差がUSD/JPYを支持",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "HIGH"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] UP: AI関連楽観とディヴィデンド株の堅調が上昇バイアスを支える",
+    "date": "2026-04-27 01:43",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Nomura Securities",
+    "tldr_points": [
+      "AI関連銘柄への資金流入が市場全体のリスクオンを後押し",
+      "ディヴィデンド株の堅調が下値支持ラインを形成",
+      "テクニカル的にはMA20付近での押し目買いが有効"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "AI銘柄への楽観とディヴィデンド株の堅調がS&P 500の上昇を後押し、MA20付近での押し目買いを推奨。",
+    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "リスクオン相場でドルが弱含み、円買いが優勢。テクニカルもMA20割れとRSI低下で下目線。",
+    "comment": "AI銘柄への楽観とディヴィデンド株の堅調がS&P 500の上昇を後押し、MA20付近での押し目買いを推奨。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
-  "STOCKS": {
-    "title": "[S&P 500] UP: テクニカルな押し目とファンダメンタルズの整合性を確認",
-    "date": "2026-04-26 18:01",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "tldr_points": [
-      "Apple、Amazon、Googleの決算が好調でハイテクセクターが牽引",
-      "イラン協議の決裂は地政学的リスクをやや高めるが、全体的な需給は依然として堅調",
-      "半導体関連のナビタスが急騰し、産業セクターの一部弱さを相殺"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500は上向きバイアスが強く、テクニカルな押し目買いとファンダメンタルズの改善が支持。",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "ハイテク決算の強さとMA20付近の押し目が買いシグナル",
-    "entry": "5250",
-    "tp": "5350",
-    "sl": "5200",
-    "reliability": "HIGH"
-  },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: 規制ヘッドウィンドとトークン化期待が拮角し、レンジ推移を示唆",
-    "date": "2026-04-26 18:10",
+    "title": "[BTC/USD] DOWN: REGULATORY HEADWINDS AND WEAK ON-CHAIN LIQUIDITY",
+    "date": "2026-04-27 01:49",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "規制強化が短期的に重し、トークン化長期期待は支え",
-      "オーダーフローは薄く、ボラティリティ低下",
-      "テクニカルはMA20付近で推移、RSI中立"
+      "規制強化が市場心理を悪化させ、下押し圧力が継続",
+      "オンチェーン流動性の低下が売りポジションの構築を助長",
+      "テクニカルではMA20を下抜けたら売りが優位"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "規制ヘッドウィンドとトークン化期待が交錯し、BTC/USDはレンジ推移を示唆。",
+    "excerpt": "規制ネガティブと流動性逼迫によりBTC/USDは下押し基調。MA20割れを売りシグナルとする。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "規制ヘッドウィンドとトークン化期待が拮角し、レンジ推移を示唆",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "status": "SELL",
+    "comment": "規制ネガティブと流動性低下によりMA20下抜けが売りシグナル",
+    "entry": "27500",
+    "tp": "26000",
+    "sl": "28500",
     "reliability": "MEDIUM"
   }
 }
