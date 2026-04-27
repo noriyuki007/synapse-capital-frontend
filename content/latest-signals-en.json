@@ -1,68 +1,69 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Geopolitical-Risk Premium and Rate Differential Support Tiered Long Structure",
-    "date": "2026-04-27 19:12",
+    "title": "[USD/JPY] FLAT: Mixed Fundamentals Awaiting Clear Technical Signal",
+    "date": "2026-04-28 02:20",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Geopolitical-risk premium and safe-haven asymmetry favor USD strength against JPY",
-      "Sticky US inflation and ECB hold tilt rate differentials toward USD carry retention",
-      "Technical posture remains constructive despite choppy risk tone, with dips absorbed near key MA structure"
+      "US 5‑year yield slightly lower, weighing on USD",
+      "Strong US earnings and Iran talks boost risk‑on sentiment",
+      "Dallas Fed manufacturing contraction adds downside pressure"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY retains upside bias as US-Iran friction and hawkish Fed tilt widen rate spreads while technicals absorb JPY safe-haven flows.",
+    "excerpt": "Conflicting data leaves USD/JPY directionless; await breakout of key technical levels.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Geopolitical risk and Fed-ECB divergence support USD/JPY upside on dips toward MA20.",
+    "status": "NEUTRAL",
+    "comment": "Mixed fundamentals and indecisive technicals warrant a neutral stance pending breakout confirmation.",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
-    "reliability": "HIGH"
+    "reliability": "LOW"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-04-27 19:15",
+    "title": "[S&P 500] BUY: Rally Signal Confirmed on Valuation Dips",
+    "date": "2026-04-28 02:32",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "[Interactive Brokers]",
+    "recommended_broker": [],
     "tldr_points": [
-      "Key macro tailwinds from Fed policy easing",
-      "Technical support at MA20 underpins momentum",
-      "Positive earnings outlook fuels upside Thesis"
+      "Rate compression amplifying institutional demand.",
+      "Volume divergence reinforcing short-term pull-up.",
+      "MACD alignment with breakout potential."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 poised for an uptrend as Fed forecasts soften and technical support consolidates at MA20.",
+    "excerpt": "The data suggests a structural shift favoring long-term accumulation.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Positive Fed outlook, earnings momentum, and MA20 support drive bullish stance.",
-    "entry": "N/A",
-    "tp": "4395",
-    "sl": "4250",
+    "status": "NEUTRAL",
+    "comment": "The data suggests a structural shift favoring long-term accumulation.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Inflows and Mining Sector Expansion Drive Bullish Momentum",
-    "date": "2026-04-27 19:19",
+    "title": "[BTC/USD] UP: Institutional Adoption Accelerates as Technical Base Forms",
+    "date": "2026-04-28 02:33",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "CoinShares reports $1.2B weekly net inflows to crypto funds led by BTC, signaling sustained institutional accumulation",
-      "Luxor and MicroBT finalize $100M mining rig deal with planned investment, bolstering network fundamentals",
-      "French prosecutors charge 88 individuals in crypto wrench attacks, reducing long-term systemic risk for institutions"
+      "Institutional crypto adoption accelerates with Aven's $1M BTC-backed credit line",
+      "DeFi TVL surge to $300M signals renewed capital inflows into Ethereum ecosystem",
+      "Technical structure remains constructive with MA20 acting as dynamic support",
+      "AI-driven trading via Gemini's Agentic Trading platform expands retail sophistication"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD bullish on $1.2B weekly institutional inflows and mining sector expansion, offsetting security risks",
+    "excerpt": "BTC/USD poised for breakout as institutional catalysts converge with constructive technicals",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Sustained institutional inflows and mining sector expansion drive bullish momentum",
+    "comment": "Institutional adoption catalysts align with constructive technical base at MA20 support",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
-    "reliability": "MEDIUM"
+    "reliability": "HIGH"
   }
 }

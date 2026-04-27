@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-04-28-crypto-ja",
+    "date": "2026-04-28 02:33",
+    "title": "[BTC/USD] UP: BTC担保信用枠拡大とAIトレーディング普及に伴う上昇トレンドの確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "機関向けBTC担保最大100万ドル信用枠の提供、DeFiエコシステムへの3億ドル規模資金流入、AIトレーディング機能の普及、アジア市場の強気見通しを背景にBTC/USDの上昇トレンドを確認。戦術的エントリー水準とリスク管理指針を提示する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-28-crypto-en",
+    "date": "2026-04-28 02:33",
+    "title": "[BTC/USD] UP: Institutional Adoption Accelerates as Technical Base Forms",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD poised for breakout as institutional catalysts converge with constructive technicals",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-28-stocks-ja",
+    "date": "2026-04-28 02:32",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "MyBroker",
+    "excerpt": "S&P 500はMA20で支えられ上昇トレンド転換、金利低下期待と業績強さが支える。リスク管理必須。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-28-stocks-en",
+    "date": "2026-04-28 02:32",
+    "title": "[S&P 500] BUY: Rally Signal Confirmed on Valuation Dips",
+    "genre": "STOCKS",
+    "target_pair": "",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "The data suggests a structural shift favoring long-term accumulation.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-28-fx-ja",
+    "date": "2026-04-28 02:20",
+    "title": "[USD/JPY] DOWN: 製造業指数悪化と利回り低下が米ドルに下押し圧力",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "製造業指数の悪化と米長期金利の低下がドルを圧迫し、USD/JPYは下押しリスクが高まる。エントリーは150.30付近、TP 150.00、SL 150.80を推奨。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-28-fx-en",
+    "date": "2026-04-28 02:20",
+    "title": "[USD/JPY] FLAT: Mixed Fundamentals Awaiting Clear Technical Signal",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "xm-trading",
+    "excerpt": "Conflicting data leaves USD/JPY directionless; await breakout of key technical levels.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-04-27-crypto-ja",
     "date": "2026-04-27 19:19",
     "title": "BTC/USD：レンジ圏内での警戒感とプロフェッショナル実行戦略",
