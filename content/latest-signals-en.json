@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Dollar Selling Pressure and BoJ Dissent Create Bearish Bias",
-    "date": "2026-04-28 19:11",
+    "title": "[USD/JPY] UP: Geopolitical Tensions and Strong US Consumer Confidence Support Bullish Outlook",
+    "date": "2026-04-29 02:45",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Month-end dollar selling pressure from institutional flows",
-      "BoJ policy divergence creates yen support despite Ueda's dovishness",
-      "Technical breakdown below critical support validates bearish thesis"
+      "US consumer confidence beats forecasts, underpinning USD strength",
+      "Geopolitical frictions heighten safe‑haven demand for JPY, yet risk‑off bias favors USD in short‑term",
+      "Technical profile shows bullish bias with support at 158.50 and upside potential toward 162.00"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Dollar weakness and BoJ policy divergence fuel USD/JPY downside; target support at 147.50",
+    "excerpt": "USD/JPY bullish on strong US confidence, geopolitical risk, and technical support near 158.5.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Dollar selling pressure and BoJ divergence create bearish setup; target 147.50 support",
-    "entry": "148.80",
-    "tp": "147.50",
-    "sl": "149.30",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Bullish on strong US confidence, rate differential, and technical support at MA20.",
+    "entry": "158.60",
+    "tp": "161.00",
+    "sl": "158.10",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Geopolitical Tension & Mixed Earnings Tilt Bias Bearish",
-    "date": "2026-04-28 19:16",
+    "title": "[S&P 500] UP: Fundamental Momentum Outweighs Tech Sell-Off",
+    "date": "2026-04-29 02:49",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "prediction_direction": "UP",
+    "recommended_broker": "[]",
     "tldr_points": [
-      "Geopolitical risk from Iran peace talks depresses risk assets",
-      "Earnings dispersion widens; defensive sectors outperform",
-      "Technical momentum turning negative amid absent support"
+      "Coca-Cola earnings signal resilience amid macro uncertainty",
+      "AI-driven tech sell-off creates dislocation in high-float tech",
+      "Semiconductor weakness temporarily lowers volatility premium"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Geopolitical strain and uneven earnings pressure the S&P 500 lower; technical signals turn bearish.",
+    "excerpt": "Fundamental strength in earnings and growth stocks supports S&P 500 despite tech headwinds.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Technical breach of MA20 and negative macro catalysts justify a short bias.",
-    "entry": "4560.00",
-    "tp": "4470.00",
-    "sl": "4600.00",
+    "status": "NEUTRAL",
+    "comment": "Fundamental strength in earnings and growth stocks supports S&P 500 despite tech headwinds.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Accrual and Positive Macro Catalysts Reinforce Bullish Outlook",
-    "date": "2026-04-28 19:20",
+    "title": "[BTC/USD] UP: Regulatory Tailwinds and Infrastructure Scaling Offset Near-Term Earnings Volatility",
+    "date": "2026-04-29 02:51",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Block’s $2.2B BTC balance signals institutional demand",
-      "Japan’s crypto‑linked credit card expands retail exposure",
-      "Technical profile shows support near $27,300 and upside bias"
+      "CFTC-Polymarket discussions signal advancing US regulatory clarity for crypto derivatives",
+      "Lightning Network upgrades and AI trading agents expand Bitcoin utility and retail order flow",
+      "Institutional bullishness on crypto data centers offsets near-term earnings volatility at major players"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Institutional inflows and solid technical support drive a bullish case for BTC/USD.",
+    "excerpt": "BTC/USD bullish on CFTC talks, Lightning scaling, and institutional infra bets despite Q1 earnings volatility.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Institutional balance sheet buildup and a clean MA20 support make a long bias compelling.",
-    "entry": "27300",
-    "tp": "28800",
-    "sl": "26200",
-    "reliability": "HIGH"
+    "comment": "Cautiously bullish on CFTC regulatory talks, Lightning Network scaling, and institutional data center bullishness, pending technical data validation.",
+    "entry": "Unknown",
+    "tp": "Unknown",
+    "sl": "Unknown",
+    "reliability": "MEDIUM"
   }
 }

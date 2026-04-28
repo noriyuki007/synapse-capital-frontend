@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 日銀植田総裁のハト派発言による円安基調と月末ドル売りの一時化",
-    "date": "2026-04-28 19:11",
+    "title": "戦術的インサイト：USD/JPYの均衡状態とブレイク条件の定義",
+    "date": "2026-04-29 02:45",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "日銀植田総裁のハト派発言で円の一時的な上げ幅が消え、USD/JPYは上昇基調を回復",
-      "月末の強いドル売り観測は一時的なフローに留まり、日米金利差の拡大が継続",
-      "本戦略実行には流動性確保のため[dmm-fx]の利用を推奨"
+      "金利相関（近似）: 0.00で負相関傾向",
+      "テクニカル: 現在価格 --- と MA20 --- の位置関係が主導",
+      "需給: 重要帯の確認が必要 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "日銀植田総裁のハト派発言で円の上げ幅を消し、USD/JPYは上昇基調を回復。月末のドル売り圧力は一時的フローに留まり、日米金利差を背景とした円安・ドル高が継続する見込み。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "日銀ハト派継続と月末ドル売りの一時化を背景とした円安・ドル高",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: 地政学・決算を背景とする方向感欠如とレコード高ラリーの踊り場を確認",
-    "date": "2026-04-28 19:16",
+    "title": "[S&P 500] DOWN: セミコンダクター売りとテクノロジー銘柄の下落圧力が株価を牽引",
+    "date": "2026-04-29 02:49",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "野村證券",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "SBI証券",
     "tldr_points": [
-      "S&P 500先物はイラン和平協議や決算シーズンの不透明感から方向感を欠き、足元で停滞",
-      "地政学リスクやエネルギーセクターの好業績が指数のモメンタムを抑制・下支えする均衡状態",
-      "テクニカル指標が不明な現状、ポジションの過度な傾斜を避けレンジ対応を優先すべき"
+      "セミコンダクター株の下落がS&P 500を牽引",
+      "テクノロジーセクターの売りがファンダメンタルズに影響",
+      "RSIがオーバーバート状態で買われすぎ感が強い"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はイラン和平協議や決算シーズンの不透明感から方向感を欠き、レコード高ラリーが踊り場を迎えている。現状は過度なポジション傾斜を避け、レンジ内の短期取引を推奨する。",
+    "excerpt": "S&P 500はセミコンダクター株の大幅下落とテクノロジー株の売りを受け、テクニカル的にも売られすぎ状態が続いている。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "方向感欠くレンジ相場が継続、短期取引を推奨",
-    "entry": "5220.00",
-    "tp": "5380.00",
-    "sl": "5180.00",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "セミコンダクターとテクノロジー株の売りがS&P 500を牽引し、売られすぎ状態が続いている",
+    "entry": "不明",
+    "tp": "不明",
+    "sl": "不明",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-04-28 19:20",
+    "title": "[BTC/USD] UP: Polymarket規制動向とRWA台頭がファンダメンタルズを支える",
+    "date": "2026-04-29 02:51",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "多角市場分析による上昇圏判定",
-      "技術構造的な反発能力",
-      "流動性が良好な環境での安全なエントリー推奨"
+      "PolymarketとCFTCとの調整で米国での取引基盤強化が期待される",
+      "RWA台頭により機関ポートフォリオへの新たな流動性供給が視野に入る",
+      "データセンター成長を訴えるGalaxyの戦略が間接的にBTC需要を支える"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDがMA20を回復し、強気ファンダメンタルズに支持される。流動性の観点から、bitflyerを利用して安全にエントリーを実行する。",
+    "excerpt": "規制環境の正常化と機関が求める実資産連動型インフラの拡大により、先物流動性が強化される構図。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USDがMA20を回復し、強気ファンダメンタルズに支持される。流動性の観点から、bitflyerを利用して安全にエントリーを実行する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "規制環境の正常化とRWA流動性拡大により先物流動性が強化される構図。",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "HIGH"
   }
 }
