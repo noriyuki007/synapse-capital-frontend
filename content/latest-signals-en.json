@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: AI Detects Bearish Momentum as Dollar Risks Materialize",
-    "date": "2026-04-28 11:40",
+    "title": "[USD/JPY] DOWN: Dollar Selling Pressure and BoJ Dissent Create Bearish Bias",
+    "date": "2026-04-28 19:11",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Morgan Stanley sees dollar risks skewed to downside as energy shock sensitivity fades",
-      "Iran naval blockade escalates export collapse, triggering risk-off flows",
-      "Technical momentum shifts bearish with key support zones under pressure"
+      "Month-end dollar selling pressure from institutional flows",
+      "BoJ policy divergence creates yen support despite Ueda's dovishness",
+      "Technical breakdown below critical support validates bearish thesis"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYBearish as dollar outlook weakens and Middle East risk premium expands",
+    "excerpt": "Dollar weakness and BoJ policy divergence fuel USD/JPY downside; target support at 147.50",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "Bearish on dollar weakness and risk-off flows; target support at 148.50",
-    "entry": "150.50",
-    "tp": "148.50",
-    "sl": "152.00",
-    "reliability": "HIGH"
+    "comment": "Dollar selling pressure and BoJ divergence create bearish setup; target 147.50 support",
+    "entry": "148.80",
+    "tp": "147.50",
+    "sl": "149.30",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Data Center Capex and Large-Cap Quality Sustain Rotation into Beta",
-    "date": "2026-04-28 11:46",
+    "title": "[S&P 500] DOWN: Geopolitical Tension & Mixed Earnings Tilt Bias Bearish",
+    "date": "2026-04-28 19:16",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "Data center capex and optical/IP demand reinforce MAG-7 earnings momentum",
-      "Exxon Mobil’s asset-backed cash flow supports energy dividend stability within the index",
-      "Macro liquidity and positioning favor tactical beta lift absent immediate negative catalysts"
+      "Geopolitical risk from Iran peace talks depresses risk assets",
+      "Earnings dispersion widens; defensive sectors outperform",
+      "Technical momentum turning negative amid absent support"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Data center capex and MAG-7 earnings reinforce quality bias; energy dividends and liquidity tilt risk/reward toward upside continuation.",
+    "excerpt": "Geopolitical strain and uneven earnings pressure the S&P 500 lower; technical signals turn bearish.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Quality earnings momentum, stable energy dividends, and constructive technicals favor upside continuation.",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "status": "SELL",
+    "comment": "Technical breach of MA20 and negative macro catalysts justify a short bias.",
+    "entry": "4560.00",
+    "tp": "4470.00",
+    "sl": "4600.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Macro tailwinds and institutional support amplify bullish outlook",
-    "date": "2026-04-28 11:47",
+    "title": "[BTC/USD] UP: Institutional Accrual and Positive Macro Catalysts Reinforce Bullish Outlook",
+    "date": "2026-04-28 19:20",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "White House signals imminent large‑scale BTC reserve",
-      "MARA Foundation backs long‑term security & quantum resilience",
-      "Order‑flow shows net long accumulation amid tightening liquidity"
+      "Block’s $2.2B BTC balance signals institutional demand",
+      "Japan’s crypto‑linked credit card expands retail exposure",
+      "Technical profile shows support near $27,300 and upside bias"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Macro support, policy optimism, and institutional demand position BTC/USD for upside bias.",
+    "excerpt": "Institutional inflows and solid technical support drive a bullish case for BTC/USD.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Macro and institutional catalysts outweigh sector‑specific negatives, suggesting upside potential.",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "comment": "Institutional balance sheet buildup and a clean MA20 support make a long bias compelling.",
+    "entry": "27300",
+    "tp": "28800",
+    "sl": "26200",
     "reliability": "HIGH"
   }
 }
