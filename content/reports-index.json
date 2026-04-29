@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-04-29-crypto-ja",
-    "date": "2026-04-29 02:51",
-    "title": "[BTC/USD] UP: Polymarket規制動向とRWA台頭がファンダメンタルズを支える",
+    "date": "2026-04-29 11:52",
+    "title": "[BTC/USD] UP: Pump.fun burn and institutional liquidity support bullish bias",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "規制環境の正常化と機関が求める実資産連動型インフラの拡大により、先物流動性が強化される構図。",
+    "excerpt": "BTC/USD shows upward bias as token burns and institutional liquidity improve fundamentals, despite retail volume softness.",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-04-29-crypto-en",
-    "date": "2026-04-29 02:51",
-    "title": "[BTC/USD] UP: Regulatory Tailwinds and Infrastructure Scaling Offset Near-Term Earnings Volatility",
+    "date": "2026-04-29 11:52",
+    "title": "[BTC/USD] FLAT: AI Detects Indecision Amid Mixed Catalyst Environment",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
-    "excerpt": "BTC/USD bullish on CFTC talks, Lightning scaling, and institutional infra bets despite Q1 earnings volatility.",
+    "excerpt": "BTC/USD likely to remain range‑bound as catalysts surface but do not breach key technical barriers.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-04-29-stocks-ja",
-    "date": "2026-04-29 02:49",
-    "title": "[S&P 500] DOWN: セミコンダクター売りとテクノロジー銘柄の下落圧力が株価を牽引",
+    "date": "2026-04-29 11:42",
+    "title": "[S&P 500] FLAT: 混合材料と神経質な市場心理、明確な方向性見えず",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "SBI証券",
-    "excerpt": "S&P 500はセミコンダクター株の大幅下落とテクノロジー株の売りを受け、テクニカル的にも売られすぎ状態が続いている。",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "好決算ハイテク株と公益事業への慎重な見通しが綱引き、今週の大型決算を前に神経質な展開続く",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-04-29-stocks-en",
-    "date": "2026-04-29 02:49",
-    "title": "[S&P 500] UP: Fundamental Momentum Outweighs Tech Sell-Off",
+    "date": "2026-04-29 11:42",
+    "title": "[S&P 500] UP: AI-Driven Tech Momentum and Industrial Strength Support Bullish Bias",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "[]",
-    "excerpt": "Fundamental strength in earnings and growth stocks supports S&P 500 despite tech headwinds.",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "AI momentum and industrial resilience support S&P 500 upside despite sector rotation",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-04-29-fx-ja",
-    "date": "2026-04-29 02:45",
-    "title": "戦術的インサイト：USD/JPYの均衡状態とブレイク条件の定義",
+    "date": "2026-04-29 11:40",
+    "title": "[USD/JPY] UP: リスクオフと円高進行の整合性崩れる、ドル円反発の構造的根拠",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "中東緊張と中国元切り上げでリスクオフ継続も、ドルインデックス高値維持が円高を抑制。MA20水準での反発構造を形成しており、押し目買いが正解。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-04-29-fx-en",
-    "date": "2026-04-29 02:45",
-    "title": "[USD/JPY] UP: Geopolitical Tensions and Strong US Consumer Confidence Support Bullish Outlook",
+    "date": "2026-04-29 11:40",
+    "title": "[USD/JPY] FLAT: AI Detects Geopolitical Risk Weighing on Risk Sentiment Amid Mixed APAC Fundamentals",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY bullish on strong US confidence, geopolitical risk, and technical support near 158.5.",
+    "excerpt": "USD/JPY trades sideways as geopolitical risk tempers risk appetite and APAC fundamentals show divergence.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD bullish on $1.2B weekly institutional inflows and mining sector expansion, offsetting security risks",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "Nomura Securities",
     "excerpt": "ファンダメンタルズの混乱とテクニカルな売りサインが重なり、S&P 500は短期的に下落余地が広がると見込む。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "[Interactive Brokers]",
     "excerpt": "S&P 500 poised for an uptrend as Fed forecasts soften and technical support consolidates at MA20.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "Fedのよりタカ派的な姿勢とECBの今週据え置き見通しを背景にUSD/JPYの長期的な上昇基調を維持。米イラン対立の膠着による原油高が地政学的リスクプレミアムを通じドル買いを支援、押し目買い戦略を推奨する。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY retains upside bias as US-Iran friction and hawkish Fed tilt widen rate spreads while technicals absorb JPY safe-haven flows.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {

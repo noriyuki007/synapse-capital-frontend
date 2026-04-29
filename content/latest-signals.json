@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "戦術的インサイト：USD/JPYの均衡状態とブレイク条件の定義",
-    "date": "2026-04-29 02:45",
+    "title": "[USD/JPY] UP: リスクオフと円高進行の整合性崩れる、ドル円反発の構造的根拠",
+    "date": "2026-04-29 11:40",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "金利相関（近似）: 0.00で負相関傾向",
-      "テクニカル: 現在価格 --- と MA20 --- の位置関係が主導",
-      "需給: 重要帯の確認が必要 によるターゲット設計"
+      "中東地政学リスク再燃で安全通貨需要発生も、ドルインデックス高値がサポート",
+      "中国人民元切り上げ示唆でアジア通貨安進行、円独歩高は限定的",
+      "テクニカルでMA20接近、RSIは中立域で反発余地あり"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "中東緊張と中国元切り上げでリスクオフ継続も、ドルインデックス高値維持が円高を抑制。MA20水準での反発構造を形成しており、押し目買いが正解。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、USD/JPYの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "地政学リスクと中国元切り上げでリスクオフも、ドルインデックス高値と日米金利差がサポート。MA20反発構造で買い",
+    "entry": "149.00-149.20",
+    "tp": "149.80 / 150.50",
+    "sl": "147.50",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: セミコンダクター売りとテクノロジー銘柄の下落圧力が株価を牽引",
-    "date": "2026-04-29 02:49",
+    "title": "[S&P 500] FLAT: 混合材料と神経質な市場心理、明確な方向性見えず",
+    "date": "2026-04-29 11:42",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "SBI証券",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
     "tldr_points": [
-      "セミコンダクター株の下落がS&P 500を牽引",
-      "テクノロジーセクターの売りがファンダメンタルズに影響",
-      "RSIがオーバーバート状態で買われすぎ感が強い"
+      "AI・ハイテクセクターの好決算が短期的な支えとなるも、公益事業セクターへの慎重な見通しが重石",
+      "Morgan StanleyによるEIX下方修正がエネルギー・公益事業株の弱気バイアスを強化",
+      "今週の大型決算（Titan企業）を控え、機関投資家のポジション調整が加速"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はセミコンダクター株の大幅下落とテクノロジー株の売りを受け、テクニカル的にも売られすぎ状態が続いている。",
+    "excerpt": "好決算ハイテク株と公益事業への慎重な見通しが綱引き、今週の大型決算を前に神経質な展開続く",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "セミコンダクターとテクノロジー株の売りがS&P 500を牽引し、売られすぎ状態が続いている",
-    "entry": "不明",
-    "tp": "不明",
-    "sl": "不明",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "混合材料と大型決算控えており明確な方向性なし、サポート反発確認後に小口エントリー",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Polymarket規制動向とRWA台頭がファンダメンタルズを支える",
-    "date": "2026-04-29 02:51",
+    "title": "[BTC/USD] UP: Pump.fun burn and institutional liquidity support bullish bias",
+    "date": "2026-04-29 11:52",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "PolymarketとCFTCとの調整で米国での取引基盤強化が期待される",
-      "RWA台頭により機関ポートフォリオへの新たな流動性供給が視野に入る",
-      "データセンター成長を訴えるGalaxyの戦略が間接的にBTC需要を支える"
+      "Pump.fun's $370M token burn signals strong deflationary pressure.",
+      "Robinhood's crypto revenue drop highlights retail caution, shifting focus to institutional flows.",
+      "LayerZero's ETH commitment and Ostium's institutional liquidity upgrade bolster DeFi infrastructure."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "規制環境の正常化と機関が求める実資産連動型インフラの拡大により、先物流動性が強化される構図。",
+    "excerpt": "BTC/USD shows upward bias as token burns and institutional liquidity improve fundamentals, despite retail volume softness.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "規制環境の正常化とRWA流動性拡大により先物流動性が強化される構図。",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "HIGH"
+    "comment": "機関流動性の拡充とトークン供給側の引き締めが需給を支え、上方向へのバイアスが継続。",
+    "entry": "61500",
+    "tp": "66000",
+    "sl": "59000",
+    "reliability": "MEDIUM"
   }
 }
