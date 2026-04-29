@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 金利差の有利な展開と機会の瞬間的捉えを錬磨",
-    "date": "2026-04-29 19:03",
+    "title": "[USD/JPY] UP: 買い優勢の160.00付近でのブレイクと原油高がサポート",
+    "date": "2026-04-30 02:26",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "欧州の高水準インフレがJPYを圧迫",
-      "金利差の有利な展開がUSD/JPYに推進力を付与",
-      "短期の機会は流動性が向上する[展望]下で捉える"
+      "USD/JPYは160.00付近で買いが優勢、ブレイクの可能性が高まる",
+      "原油価格の上昇はインフレ懸念を和らげ、リスクオン傾向を支援",
+      "トランプ発言は海軍封鎖継続を示唆し、地政学リスクは限定的"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "欧州の高水準インフレがJPYを圧迫。金利差の有利な展開に伴いUSD/JPYは上昇圧力に。短期の機会は流動性が良好な[dmm-fx]で捉える。",
+    "excerpt": "USD/JPYは160.00付近で買いが優勢となり、原油高と地政学的リスクが限定的であることから上昇余地が見込まれる。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "オーダーディーリングと技術資格に着目して、穏やかな円買いの投資戦略を確立する。",
-    "entry": "130.50",
-    "tp": "135.00",
-    "sl": "129.00",
+    "comment": "買いオーダー集中・原油高・リスクオンが上昇を後押し",
+    "entry": "160.05",
+    "tp": "161.30",
+    "sl": "159.20",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "戦術的インサイト：S&P 500の均衡状態とブレイク条件の定義",
-    "date": "2026-04-29 19:04",
+    "title": "[S&P 500] UP: 金融政策安定とテクノロジーセクターのモメンタムを統合的に評価",
+    "date": "2026-04-30 03:21",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "金利相関（近似）: 0.00で負相関傾向",
-      "テクニカル: 現在価格 --- と MA20 --- の位置関係が主導",
-      "需給: 重要帯の確認が必要 によるターゲット設計"
+      "FRBは金利据え置きを継続、年内利下げ観測の後退が市場心理を安定させた",
+      "テクノロジーセクターではIntel+10%、F5急騰など構造的な買い材料が継続",
+      "MA20水準での押し目を捉える戦術的エントリーを推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "FRBの慎重な金融政策とテクノロジーセクターの企業業績改善が統合的にS&P 500をサポート。短期的な押し目を中期上昇トレンドのエントリー機会として捉える。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、S&P 500の現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "FRBの金利安定とテクノロジーセクターのモメンタムが中期上昇トレンドをサポート。短期押し目をエントリー機会として捉える",
+    "entry": "MA20水準または現在値-2%",
+    "tp": "エントリー価格+5-7%",
+    "sl": "エントリー価格-3%",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: フィロシアポスタンダード下での浮気買いと機関調達の賭け",
-    "date": "2026-04-29 19:13",
+    "title": "[BTC/USD] UP: Visaステーブルコイン拡大と機関向けサービス強化が価格を支える",
+    "date": "2026-04-30 03:24",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "フィロシアポスタンダード下でのサポート確保",
-      "機関投資家のビットコイン保有ロールアウト",
-      "テクニカル的には上値エグジット戦略"
+      "Visaのステーブルコイン決済が9ブロックチェーンに拡大、実需増加を見込む",
+      "MoonPayが機関向けビジネスを立ち上げ、CFTC元議長が率いることでコンプライアンス需要が高まる",
+      "テクニカルはMA20付近での押し目買いが望ましく、リスク管理を厳守すれば上昇余地がある"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "フィロシアポスタンダード下でテクニカル的な反発を確認。機関投資家のビットコイン保有志向と併せて、浮気買いの機会を提供している。",
+    "excerpt": "機関向けサービス拡大とステーブルコイン決済の拡大がBTC/USDを下支えし、押し目買い戦略が有効。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "フィロシアポスタンダード下での浮気買いの機会。",
-    "entry": "60000.00",
-    "tp": "66000.00",
-    "sl": "58800.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "機関向けサービス拡大とステーブルコイン決済の拡大がBTC/USDを下支えし、押し目買い戦略が有効。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }

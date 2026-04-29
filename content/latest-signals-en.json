@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] FLAT: Technical consolidation amidst mixed economic signals",
-    "date": "2026-04-29 19:03",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-04-30 02:26",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US policy focus on Powell’s finale",
-      "Euro inflation surge weighs on USD",
-      "JPY buoyed by safe‑haven demand amid uncertainties"
+      "AI capex fuels global growth expectations",
+      "USD/JPY holds above 160.00 with buyer dominance",
+      "Crude oil surge supports commodity-linked currencies"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY expected to trade sideways as Fed’s neutral stance and Eurozone inflation pressure create a friction zone.",
+    "excerpt": "USD/JPY poised for extension above 160.00 as AI capex drives risk appetite and yield differentials favor USD.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPY lacks clear catalyst, remain flat until breakout.",
-    "entry": "Unknown",
-    "tp": "Unknown",
-    "sl": "Unknown",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Bullish momentum and support at MA20 favor upside extension.",
+    "entry": "160.00",
+    "tp": "162.00",
+    "sl": "158.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-04-29 19:04",
+    "title": "[S&P 500] DOWN: AI Flags Resistance at MA20 Amid Fed Pause (Fundamentals Softening)",
+    "date": "2026-04-30 03:21",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "TradePro",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
     "tldr_points": [
-      "Support intact near MA20",
-      "Earnings season fuels sector momentum",
-      "Fed stance remains accommodative"
+      "AI flags near-term downside risk as S&P 500 stalls near MA20, with Fed rates frozen and tech ETFs mixed rate pause now.",
+      "Fed's steady policy caps upside catalysts",
+      "Tech ETF momentum remains mixed"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Technical support aligns with bullish earnings outlook, suggesting a modest upside toward 5,350 amid Fed caution.",
+    "excerpt": "AI flags near-term downside risk as S&P 500 stalls near MA20, with Fed rates frozen and tech ETFs mixed rate pause now.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Technical support aligns with bullish earnings outlook, suggesting a modest upside toward 5,350 amid Fed caution.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "AI detects bearish setup near MA20 with weakening fundamentals",
+    "entry": "4450",
+    "tp": "4650",
+    "sl": "4350",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Backing Accelerates as Technicals Signal Oversold Correction",
-    "date": "2026-04-29 19:13",
+    "title": "[BTC/USD] UP: AI Detects Bullish Confluence from Stablecoin Adoption and Institutional Crypto Infrastructure",
+    "date": "2026-04-30 03:24",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Czech central bank advocates BTC in sovereign reserves",
-      "Bernstein’s $130 BTC target priced in",
-      "RSI(14) dips to oversold, signaling near-term bounce"
+      "Visa stablecoin settlement expands to nine blockchains, signaling growing on‑chain payments demand.",
+      "MoonPay’s institutional launch led by former CFTC acting chair boosts professional inflow.",
+      "Technical price holds above MA20 with RSI-14 showing nascent upside momentum."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Bitcoin’s technicals align with institutional bullish calls amid macro uncertainty; key resistance at $68,000.",
+    "excerpt": "BTC/USD eyes upside as stablecoin adoption and institutional crypto infra boost fundamentals, technicals turn bullish.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Bullish divergence on RSI and strategic institutional narrative offset short-term volatility risks.",
-    "entry": "Current",
-    "tp": "80000",
-    "sl": "62000",
+    "comment": "Bullish fundamentals from stablecoin adoption and institutional infrastructure align with technical support at MA20 and rising RSI.",
+    "entry": "28100",
+    "tp": "29500",
+    "sl": "27400",
     "reliability": "HIGH"
   }
 }

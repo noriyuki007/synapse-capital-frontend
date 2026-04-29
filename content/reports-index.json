@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-04-30-crypto-ja",
+    "date": "2026-04-30 03:24",
+    "title": "[BTC/USD] UP: Visaステーブルコイン拡大と機関向けサービス強化が価格を支える",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "機関向けサービス拡大とステーブルコイン決済の拡大がBTC/USDを下支えし、押し目買い戦略が有効。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-30-crypto-en",
+    "date": "2026-04-30 03:24",
+    "title": "[BTC/USD] UP: AI Detects Bullish Confluence from Stablecoin Adoption and Institutional Crypto Infrastructure",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD eyes upside as stablecoin adoption and institutional crypto infra boost fundamentals, technicals turn bullish.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-30-stocks-ja",
+    "date": "2026-04-30 03:21",
+    "title": "[S&P 500] UP: 金融政策安定とテクノロジーセクターのモメンタムを統合的に評価",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "FRBの慎重な金融政策とテクノロジーセクターの企業業績改善が統合的にS&P 500をサポート。短期的な押し目を中期上昇トレンドのエントリー機会として捉える。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-30-stocks-en",
+    "date": "2026-04-30 03:21",
+    "title": "[S&P 500] DOWN: AI Flags Resistance at MA20 Amid Fed Pause (Fundamentals Softening)",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "AI flags near-term downside risk as S&P 500 stalls near MA20, with Fed rates frozen and tech ETFs mixed rate pause now.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-04-30-fx-ja",
+    "date": "2026-04-30 02:26",
+    "title": "[USD/JPY] UP: 買い優勢の160.00付近でのブレイクと原油高がサポート",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYは160.00付近で買いが優勢となり、原油高と地政学的リスクが限定的であることから上昇余地が見込まれる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-04-30-fx-en",
+    "date": "2026-04-30 02:26",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY poised for extension above 160.00 as AI capex drives risk appetite and yield differentials favor USD.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-04-29-crypto-ja",
     "date": "2026-04-29 19:13",
     "title": "[BTC/USD] UP: フィロシアポスタンダード下での浮気買いと機関調達の賭け",
