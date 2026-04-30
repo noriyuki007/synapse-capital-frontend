@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-04-30 02:26",
+    "title": "[USD/JPY] DOWN: AI Detects Support at MA20 as China PMI Strengthens JPY Appeal",
+    "date": "2026-04-30 11:41",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "AI capex fuels global growth expectations",
-      "USD/JPY holds above 160.00 with buyer dominance",
-      "Crude oil surge supports commodity-linked currencies"
+      "China PMI surge strengthens JPY",
+      "Central bank gold buying supports USD",
+      "NZ data creates risk aversion"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised for extension above 160.00 as AI capex drives risk appetite and yield differentials favor USD.",
+    "excerpt": "JPY gains on China manufacturing strength, USD pressured by gold-buying central banks",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Bullish momentum and support at MA20 favor upside extension.",
-    "entry": "160.00",
-    "tp": "162.00",
-    "sl": "158.50",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "Resistance at 155.00 with improving Chinese PMI supporting JPY",
+    "entry": "154.70",
+    "tp": "153.50",
+    "sl": "155.80",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: AI Flags Resistance at MA20 Amid Fed Pause (Fundamentals Softening)",
-    "date": "2026-04-30 03:21",
+    "title": "[S&P 500] UP: Earnings Momentum and Fed Pause Support Bullish Continuation",
+    "date": "2026-04-30 11:44",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "AI flags near-term downside risk as S&P 500 stalls near MA20, with Fed rates frozen and tech ETFs mixed rate pause now.",
-      "Fed's steady policy caps upside catalysts",
-      "Tech ETF momentum remains mixed"
+      "Big tech earnings (GOOGL, AMZN, META, MSFT) driving index momentum higher",
+      "Fed signals pause on further hikes, reducing rate volatility headwind",
+      "Technical structure remains constructive with price holding above key moving averages"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "AI flags near-term downside risk as S&P 500 stalls near MA20, with Fed rates frozen and tech ETFs mixed rate pause now.",
+    "excerpt": "S&P 500 positioned for upside as earnings beat and Fed pause align",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "AI detects bearish setup near MA20 with weakening fundamentals",
-    "entry": "4450",
-    "tp": "4650",
-    "sl": "4350",
+    "status": "BUY",
+    "comment": "Earnings momentum and Fed pause support continued upside toward all-time highs",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Bullish Confluence from Stablecoin Adoption and Institutional Crypto Infrastructure",
-    "date": "2026-04-30 03:24",
+    "title": "[BTC/USD] DOWN: AI Identifies Bearish Divergence as Fed Holds Rates",
+    "date": "2026-04-30 11:50",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Visa stablecoin settlement expands to nine blockchains, signaling growing on‑chain payments demand.",
-      "MoonPay’s institutional launch led by former CFTC acting chair boosts professional inflow.",
-      "Technical price holds above MA20 with RSI-14 showing nascent upside momentum."
+      "BTC slides to $75k as Fed holds rates, creating downward pressure.",
+      "On-chain sell pressure intensifies near $75k resistance while volume wanes.",
+      "AI payment protocol rollout and ZEC trust volume gains provide modest upside catalysts."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD eyes upside as stablecoin adoption and institutional crypto infra boost fundamentals, technicals turn bullish.",
+    "excerpt": "BTC falls to $75k on Fed hold; sell pressure rises, MA20 flat, RSI neutral, AI-driven infrastructure offers limited upside.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Bullish fundamentals from stablecoin adoption and institutional infrastructure align with technical support at MA20 and rising RSI.",
-    "entry": "28100",
-    "tp": "29500",
-    "sl": "27400",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTC falls to $75k on Fed hold; sell pressure rises, MA20 flat, RSI neutral, AI-driven infrastructure offers limited upside.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
