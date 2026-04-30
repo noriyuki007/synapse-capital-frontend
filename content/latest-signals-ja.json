@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: China PMI上昇と黄金買い枷による日銀買入の可能性",
-    "date": "2026-04-30 11:41",
+    "title": "[USD/JPY] DOWN: 円介入警戒とユーロ圏インフレ鈍化が重し",
+    "date": "2026-04-30 19:04",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "China private PMI 52.2は2020年末以来の高水準",
-      "中央銀による黄金買いは安全資産需要を反映",
-      "ニュージーランド景況指数急落はリスクオフの兆し"
+      "イタリアおよびユーロ圏のCPIが予想を上回りインフレ根強さを示す",
+      "ユーロ圏Q1 GDPが予想下回り成長鈍化が鮮明に",
+      "日本の為替当局が介入警告を発し円買い圧力が高まる"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Chinaの製造業PMI上昇と黄金買いが日銀の買入を促し、NZの景況悪化がリスクオフ基調を強化。USD/JPYは短期的に下方を意識。",
+    "excerpt": "インフレの粘り強さと成長鈍化が対照的で、円介入警戒がUSD/JPY下押しを促す環境。",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "日銀介入の可能性があり、黄金買いの影響で円買い圧力強化",
-    "entry": "150.00",
-    "tp": "148.00",
-    "sl": "152.50",
+    "comment": "円介入警戒とユーロ圏成長鈍化が下押し要因",
+    "entry": "155.30",
+    "tp": "154.20",
+    "sl": "155.80",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: 決算強調と原油高が上げリスクを後押し",
-    "date": "2026-04-30 11:44",
+    "title": "[S&P 500] FLAT: 地政学的リスクの緩和とファンダメンタルズの混在を反映",
+    "date": "2026-04-30 19:15",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
     "tldr_points": [
-      "決算シーズンでハイテク・消費関連が堅調",
-      "原油価格上昇がエネルギーセクターを支援",
-      "Fedの発言は中立で金利ヘッドウィンドは限定的"
+      "地政学的緊張の緩和がリスクオフ圧力を緩和",
+      "マイクロソフトの決算失望がハイテクセクターに重石",
+      "FRB議長候補の発言が金融政策の方向性を示唆"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500は決算好調と原油高を背景に上げ幅を拡大し、ファンド流入が継続すれば上抜けの可能性が高まる。",
+    "excerpt": "地政学的リスクの緩和と決算・金融政策の混在から、S&P 500は方向感の欠く推移が予想される。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "決算強調と原油高が上げを後押し、MA20付近での反発が買いシグナル",
+    "status": "NEUTRAL",
+    "comment": "地政学的リスク緩和と決算・金融政策の混在により方向感が限定的",
     "entry": "5180",
     "tp": "5260",
     "sl": "5140",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Fed据え置きとマクロ圧迫が下押しを示唆",
-    "date": "2026-04-30 11:50",
+    "title": "[BTC/USD] DOWN: アーク・インサイトのETF売却と韓国規制強化が重し",
+    "date": "2026-04-30 19:31",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "Fedの金利据え置きがリスクオフを強め、BTCは75k付近で下押し圧力",
-      "テクニカルではMA20未知だが価格は短期移動平均を下抜け、下目線のモメンタム",
-      "流動性はbitflyerで深い板が期待でき、売り戦略の実行に適す"
+      "アーク・インサイトがビットコインETFを600万ドル分売却し、需給に下押し圧力",
+      "韓国がDelio CEOに20年刑を求めるなど規制強化が進み、リスクオフムードが高まる",
+      "テザーがStrike・Elektronとの合併を推進も、全体的には需給悪化が優先"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Fedの据え置きとマクロ圧迫でBTC/USDは下押し傾向。テクニカルとオーダーフローから売りシナリオを構築。",
+    "excerpt": "アーク・インサイトがビットコインETFを600万ドル分売却し、韓国がDelio CEOに20年刑を求めるなど規制強化が進む中、市場はリスクオフとなりBTC/USDは下押し圧力が強まっている。",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "Fed据え置きとマクロ圧迫に加え、テクニカルが下抜けを示唆し売りバイアスが強い",
-    "entry": "74800",
-    "tp": "72000",
-    "sl": "76500",
+    "comment": "アーク・インサイトのETF売却と韓国規制強化が需給を悪化させ、テクニカルでもMA20下抜けリスクが高まるため売り推奨",
+    "entry": "68200",
+    "tp": "65500",
+    "sl": "69200",
     "reliability": "MEDIUM"
   }
 }

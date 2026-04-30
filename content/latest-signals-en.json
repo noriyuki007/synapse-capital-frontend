@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: AI Detects Support at MA20 as China PMI Strengthens JPY Appeal",
-    "date": "2026-04-30 11:41",
+    "title": "[USD/JPY] DOWN: Japan FX Intervention Warning Drives Bearish Fundamental Shift",
+    "date": "2026-04-30 19:04",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "China PMI surge strengthens JPY",
-      "Central bank gold buying supports USD",
-      "NZ data creates risk aversion"
+      "Japan FX officials issue final warning ahead of potential intervention to strengthen JPY, pressuring USD/JPY lower",
+      "Eurozone April preliminary CPI prints above consensus, but ECB policy constraints limit cross-asset spillover",
+      "Technical structure shows key support levels exposed to intervention-driven downside breaks"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "JPY gains on China manufacturing strength, USD pressured by gold-buying central banks",
+    "excerpt": "Bearish USD/JPY thesis driven by Japan’s pre-intervention FX warning, offsetting mixed Eurozone macro prints.",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "Resistance at 155.00 with improving Chinese PMI supporting JPY",
-    "entry": "154.70",
-    "tp": "153.50",
-    "sl": "155.80",
-    "reliability": "MEDIUM"
+    "comment": "Japan’s pre-intervention FX warning introduces asymmetric downside risk, overriding rate and technical drivers",
+    "entry": "Unknown",
+    "tp": "152.50",
+    "sl": "155.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Earnings Momentum and Fed Pause Support Bullish Continuation",
-    "date": "2026-04-30 11:44",
+    "title": "[S&P 500] UP: Technical Support Emerges as Fed Policy Clarity Looms",
+    "date": "2026-04-30 19:15",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Big tech earnings (GOOGL, AMZN, META, MSFT) driving index momentum higher",
-      "Fed signals pause on further hikes, reducing rate volatility headwind",
-      "Technical structure remains constructive with price holding above key moving averages"
+      "Fed chair nominee Warsh signals potential policy continuity, reducing tail risk",
+      "Tech earnings remain mixed with Microsoft cloud strength overshadowed by broader concerns",
+      "Oil spike adds inflationary pressure but market shows resilience at key support levels"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 positioned for upside as earnings beat and Fed pause align",
+    "excerpt": "S&P 500 poised for bounce as technical support aligns with Fed policy clarity",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Earnings momentum and Fed pause support continued upside toward all-time highs",
+    "comment": "Technical support at MA20 aligns with reduced Fed policy uncertainty",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
-    "reliability": "HIGH"
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Identifies Bearish Divergence as Fed Holds Rates",
-    "date": "2026-04-30 11:50",
+    "title": "[BTC/USD] UP: Stablecoin Adoption Outpaces Regulatory Pressure Despite ETF Flows",
+    "date": "2026-04-30 19:31",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC slides to $75k as Fed holds rates, creating downward pressure.",
-      "On-chain sell pressure intensifies near $75k resistance while volume wanes.",
-      "AI payment protocol rollout and ZEC trust volume gains provide modest upside catalysts."
+      "South Korea's regulatory actions offset by increasing institutional adoption",
+      "Stablecoin real-world applications driving utility beyond speculative trading",
+      "ETF flows remain positive despite selective profit-taking"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC falls to $75k on Fed hold; sell pressure rises, MA20 flat, RSI neutral, AI-driven infrastructure offers limited upside.",
+    "excerpt": "BTC shows resilience as stablecoin adoption accelerates despite regulatory headwinds.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC falls to $75k on Fed hold; sell pressure rises, MA20 flat, RSI neutral, AI-driven infrastructure offers limited upside.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "Accumulation toward support justified by stablecoin adoption and institutional flows",
+    "entry": "68500.00",
+    "tp": "73500.00",
+    "sl": "66200.00",
     "reliability": "MEDIUM"
   }
 }
