@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Japan FX Intervention Warning Drives Bearish Fundamental Shift",
-    "date": "2026-04-30 19:04",
+    "title": "[USD/JPY] FLAT: AI Detects Sideways Range Amid Divergent Fed-ECB Policy Expectations",
+    "date": "2026-05-01 02:18",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Japan FX officials issue final warning ahead of potential intervention to strengthen JPY, pressuring USD/JPY lower",
-      "Eurozone April preliminary CPI prints above consensus, but ECB policy constraints limit cross-asset spillover",
-      "Technical structure shows key support levels exposed to intervention-driven downside breaks"
+      "ECB June hike probability lifts EUR/USD, capping USD strength",
+      "AI infrastructure capex wave supports USD liquidity backdrop",
+      "MA20/RSI unknown, range-bound until breakout confirmation"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Bearish USD/JPY thesis driven by Japan’s pre-intervention FX warning, offsetting mixed Eurozone macro prints.",
+    "excerpt": "USD/JPY consolidates amid ECB policy divergence and AI-driven USD liquidity dynamics.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Japan’s pre-intervention FX warning introduces asymmetric downside risk, overriding rate and technical drivers",
-    "entry": "Unknown",
-    "tp": "152.50",
-    "sl": "155.50",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Range-bound between 140.00-155.00 pending Fed-BoJ or ECB catalyst",
+    "entry": "142.00",
+    "tp": "148.00",
+    "sl": "139.50",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Technical Support Emerges as Fed Policy Clarity Looms",
-    "date": "2026-04-30 19:15",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-01 02:19",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Fed chair nominee Warsh signals potential policy continuity, reducing tail risk",
-      "Tech earnings remain mixed with Microsoft cloud strength overshadowed by broader concerns",
-      "Oil spike adds inflationary pressure but market shows resilience at key support levels"
+      "S&P 500 finds technical support at moving average",
+      "AI infrastructure driving market leadership",
+      "Apple guidance to be key catalyst next week"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 poised for bounce as technical support aligns with Fed policy clarity",
+    "excerpt": "S&P 500 finds support as AI infrastructure leadership drives market higher",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Technical support at MA20 aligns with reduced Fed policy uncertainty",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "MEDIUM"
+    "comment": "Technical support aligns with fundamental AI catalysts",
+    "entry": "4150.00",
+    "tp": "4200.00",
+    "sl": "4100.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Stablecoin Adoption Outpaces Regulatory Pressure Despite ETF Flows",
-    "date": "2026-04-30 19:31",
+    "title": "[BTC/USD] BUY: AI Detects Acceleration at Volume Levels Amid Fundamental Strength]",
+    "date": "2026-05-01 02:22",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "South Korea's regulatory actions offset by increasing institutional adoption",
-      "Stablecoin real-world applications driving utility beyond speculative trading",
-      "ETF flows remain positive despite selective profit-taking"
+      "RATES ARE BISHORTING TO SUPPORT A SUPPORTIVE SHIFT.",
+      "INSTITUTIONAL COT DIRECTIVES STRENGTHEN THE MOUNTAIN.",
+      "ON-CHAIN BRAIDING AND VALIDATION SIGNAL PROPER COMEBACK."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC shows resilience as stablecoin adoption accelerates despite regulatory headwinds.",
+    "excerpt": "Market consolidation tightens around key zones; AI signals imminent reinforcement.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Accumulation toward support justified by stablecoin adoption and institutional flows",
-    "entry": "68500.00",
-    "tp": "73500.00",
-    "sl": "66200.00",
+    "status": "NEUTRAL",
+    "comment": "Market consolidation tightens around key zones; AI signals imminent reinforcement.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }

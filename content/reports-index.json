@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-05-01-crypto-ja",
+    "date": "2026-05-01 02:22",
+    "title": "[BTC/USD] UP: マイナー資本支出増加と流動性底堅さが上値重視の構造を支える",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "マイナーの資本支出拡大と非代替型流動性の定着が上値を支え、小口USDT保有層の薄さが急落時の売り圧を制限する構造から方向性は上昇。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-01-crypto-en",
+    "date": "2026-05-01 02:22",
+    "title": "[BTC/USD] BUY: AI Detects Acceleration at Volume Levels Amid Fundamental Strength]",
+    "genre": "CRYPTO",
+    "target_pair": "",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "Market consolidation tightens around key zones; AI signals imminent reinforcement.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-01-stocks-ja",
+    "date": "2026-05-01 02:19",
+    "title": "[S&P 500] UP: AIデータセンター需要の再加速と大型株への資金回帰を確認",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "AIインフラ需要の拡大と好調な企業業績が指数を下支え。ハイテクから景気敏感株への物色拡大が進んでおり、短期的には上昇トレンドの継続を想定。Appleのガイダンスが次なるトリガーとなる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-01-stocks-en",
+    "date": "2026-05-01 02:19",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 finds support as AI infrastructure leadership drives market higher",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-01-fx-ja",
+    "date": "2026-05-01 02:18",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYは金利差とリスクオンの流れで上昇トレンドを維持、MA20付近でサポートが観測され反発が期待できる。今後の米国株の個別動向やECBの金利政策が焦点となり、短期的には買いシグナルが現れやすい状況だ。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-01-fx-en",
+    "date": "2026-05-01 02:18",
+    "title": "[USD/JPY] FLAT: AI Detects Sideways Range Amid Divergent Fed-ECB Policy Expectations",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY consolidates amid ECB policy divergence and AI-driven USD liquidity dynamics.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-04-30-crypto-ja",
     "date": "2026-04-30 19:31",
     "title": "[BTC/USD] DOWN: アーク・インサイトのETF売却と韓国規制強化が重し",
