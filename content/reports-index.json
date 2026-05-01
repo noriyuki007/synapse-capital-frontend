@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-05-02-crypto-ja",
+    "date": "2026-05-02 01:58",
+    "title": "CRYPTO Analysis",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "金利上昇と機関投資家の資金流入がBTCを支え、MA20付近での上昇余地と流動性をbitflyerで活用する兆候が明確に現れつつある。今後の価格は技術的節目とマクロ環境の相関で左右され、投資家のリスク許容度も上昇トレンドを支えると分析している。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-02-crypto-en",
+    "date": "2026-05-02 01:58",
+    "title": "[BTC/USD] UP: Institutional Inflows and Strong Reserve Buffers Support Bullish Thesis",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "Institutional capital flows and strong fundamental backdrop support tactical long positioning",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-02-stocks-ja",
+    "date": "2026-05-02 01:57",
+    "title": "[S&P 500] UP: テクノロジー主導の新高値形成と低成長バリューの相対的優位",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "テクノロジー主導でS&P 500が新高値を更新し、低成長バリュー銘柄が相対的にアウトパフォーム。流動性偏重の資金配分とボラティリティの沈静化が上値を支持する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-02-stocks-en",
+    "date": "2026-05-02 01:57",
+    "title": "STOCKS Analysis",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 shows technical strength with MA20 alignment as fundamentals shift to defensive stability.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-02-fx-ja",
+    "date": "2026-05-02 01:56",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYは上昇トレンドが継続し、108.50付近で仕掛け型の買い浸透が観測されている。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-02-fx-en",
+    "date": "2026-05-02 01:56",
+    "title": "[USD/JPY] DOWN: Tariff Escalation and Yield Decline Drive Yen Strength",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY poised for decline as tariff war escalates and yield differentials compress",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-05-01-crypto-ja",
     "date": "2026-05-01 18:52",
     "title": "[BTC/USD] UP: 韓国法院判断とETF流入の統合的カタリストを視界に捉える",

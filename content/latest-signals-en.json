@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Intervention Euphoria Fades as Bearish Momentum Resumes",
-    "date": "2026-05-01 18:43",
+    "title": "[USD/JPY] DOWN: Tariff Escalation and Yield Decline Drive Yen Strength",
+    "date": "2026-05-02 01:56",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY reverses entire intervention-driven rally, erasing speculative gains",
-      "MOF suspected back in market as yen buying intensifies",
-      "Technical breakdown accelerates with key support levels breached"
+      "USD pressured by declining oil and yields",
+      "EU auto tariffs trigger risk-off flows favoring JPY",
+      "Technical breakdown suggests testing key support zones"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Intervention-driven rally fully unwound; bearish momentum resumes as MOF intervention speculation grows",
+    "excerpt": "USD/JPY poised for decline as tariff war escalates and yield differentials compress",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "Intervention rally fully unwound; bearish momentum resumes with MOF suspected back in market",
-    "entry": "150.50",
-    "tp": "148.00",
-    "sl": "151.50",
+    "comment": "Tariff-driven risk-off and yield compression create structural USD weakness",
+    "entry": "149.50-150.00",
+    "tp": "147.50",
+    "sl": "150.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Record High Momentum Persists as Earnings Season Exceeds Expectations",
-    "date": "2026-05-01 18:48",
+    "title": "S&P 500 市場分析",
+    "date": "2026-05-02 01:57",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 maintains bullish momentum following fresh record highs",
-      "Q1 earnings season delivering upside surprises across multiple sectors",
-      "Iran geopolitical risk remains a monitored headwind but not yet price-disruptive"
+      "Tech sector leads rally with 3.2% MoM gains",
+      "Dividend King beats Magnificents by 12% YTD",
+      "Vanguard ETFs highlight crash protection demand"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Bullish bias intact as earnings strength overrides geopolitical premium",
+    "excerpt": "S&P 500 shows technical strength with MA20 alignment as fundamentals shift to defensive stability.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Bullish on dips toward moving average support as earnings strength validates elevated valuations",
-    "entry": "5450.00",
-    "tp": "5650.00",
-    "sl": "5300.00",
+    "status": "NEUTRAL",
+    "comment": "S&P 500 shows technical strength with MA20 alignment as fundamentals shift to defensive stability.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Inflows Persist Despite Regulatory Ambiguity and Security Headwinds",
-    "date": "2026-05-01 18:52",
+    "title": "[BTC/USD] UP: Institutional Inflows and Strong Reserve Buffers Support Bullish Thesis",
+    "date": "2026-05-02 01:58",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Macro tailwinds support continued upside as institutional adoption accelerates",
-      "Technical structure remains constructive with MA20 acting as dynamic support",
-      "Regulatory clarity in US expected by May provides fundamental catalyst"
+      "Institutional adoption accelerates with $7.4B AUM filing and $137M ETPE inflows",
+      "Tether's record $8.2B reserve buffer signals robust stablecoin backing",
+      "Technical setup favors dip-buying toward key moving average support"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC positioned for breakout as institutional flows offset regulatory and security concerns",
+    "excerpt": "Institutional capital flows and strong fundamental backdrop support tactical long positioning",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20 support hold confirms uptrend; institutional inflows and pending regulatory clarity provide fundamental catalyst",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "MEDIUM"
+    "comment": "Institutional inflows and strong fundamental backdrop support bullish continuation; buy dips toward MA20 support",
+    "entry": "84500.00",
+    "tp": "93500.00",
+    "sl": "80500.00",
+    "reliability": "HIGH"
   }
 }
