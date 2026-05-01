@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] FLAT: AI Detects Sideways Range Amid Divergent Fed-ECB Policy Expectations",
-    "date": "2026-05-01 02:18",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-01 11:47",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "ECB June hike probability lifts EUR/USD, capping USD strength",
-      "AI infrastructure capex wave supports USD liquidity backdrop",
-      "MA20/RSI unknown, range-bound until breakout confirmation"
+      "CPI miss fuels BoJ hold stance",
+      "Middle East tension lifts safe‑haven demand",
+      "USD/JPY edges higher on risk aversion"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY consolidates amid ECB policy divergence and AI-driven USD liquidity dynamics.",
+    "excerpt": "Japan CPI miss lifts BoJ hold hopes; Middle East strain lifts safe‑haven demand, nudging USD/JPY modestly higher now!!!!",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "Range-bound between 140.00-155.00 pending Fed-BoJ or ECB catalyst",
-    "entry": "142.00",
-    "tp": "148.00",
-    "sl": "139.50",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-01 02:19",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "S&P 500 finds technical support at moving average",
-      "AI infrastructure driving market leadership",
-      "Apple guidance to be key catalyst next week"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 finds support as AI infrastructure leadership drives market higher",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Technical support aligns with fundamental AI catalysts",
-    "entry": "4150.00",
-    "tp": "4200.00",
-    "sl": "4100.00",
-    "reliability": "HIGH"
-  },
-  "CRYPTO": {
-    "title": "[BTC/USD] BUY: AI Detects Acceleration at Volume Levels Amid Fundamental Strength]",
-    "date": "2026-05-01 02:22",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bybit",
-    "tldr_points": [
-      "RATES ARE BISHORTING TO SUPPORT A SUPPORTIVE SHIFT.",
-      "INSTITUTIONAL COT DIRECTIVES STRENGTHEN THE MOUNTAIN.",
-      "ON-CHAIN BRAIDING AND VALIDATION SIGNAL PROPER COMEBACK."
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Market consolidation tightens around key zones; AI signals imminent reinforcement.",
-    "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "Market consolidation tightens around key zones; AI signals imminent reinforcement.",
+    "comment": "Japan CPI miss lifts BoJ hold hopes; Middle East strain lifts safe‑haven demand, nudging USD/JPY modestly higher now!!!!",
     "entry": "---",
     "tp": "---",
     "sl": "---",
+    "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] UP: Bullish Tech Momentum and Fed stability drive S&P 500 toward 5,300",
+    "date": "2026-05-01 11:56",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "For executing this specific setup, we recommend utilizing [Interactive Brokers] due to optimal liquidity.",
+    "tldr_points": [
+      "Mega-tech earnings and AI capex momentum underpin broad S&P 500 strength",
+      "Fed policy stability amid transition supports risk asset rotation",
+      "RSI divergence suggests short-term accumulation at key 5,250 support zone"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 bullish trend continues as tech earnings and Fed stability drive momentum toward 5,300 resistance.",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "Technical and fundamental alignment in tech-dominated S&P 500 favors breakout continuation above 5,300.",
+    "entry": "5250",
+    "tp": "5300",
+    "sl": "5200",
+    "reliability": "HIGH"
+  },
+  "CRYPTO": {
+    "title": "[BTC/USD] FLAT: Mixed Fundamentals Await Catalyst Clarity",
+    "date": "2026-05-01 11:57",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "bybit",
+    "tldr_points": [
+      "Regulatory news and hack concerns weigh on sentiment.",
+      "ETH unlock via Arbitrum DAO offers modest upside.",
+      "No clear macro driver keeps BTC/USD range-bound."
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "BTC/USD flat as mixed regulatory news and hack concerns offset ETH unlock optimism, awaiting clearer macro catalyst.",
+    "pair": "BTC/USD",
+    "status": "NEUTRAL",
+    "comment": "Price is consolidating with no clear catalyst; maintain range‑bound tactics.",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
     "reliability": "MEDIUM"
   }
 }
