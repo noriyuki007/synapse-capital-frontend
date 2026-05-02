@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-05-02 01:56",
+    "title": "[USD/JPY] UP: トランプ関税発表とリスクオン環境が米ドルを支える",
+    "date": "2026-05-02 11:29",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "強気トレンドが技術的反発点に接近",
-      "米金利低下と欧州リスク低減が円安圧力を支援",
-      "エントリーは108.50付近、TPは110.00、SLは107.80に設定"
+      "トランプの欧州自動車への追加関税がリスクオンを助長し、米ドル買いを促す",
+      "イラン問題の緩和観測が安全資産需要を抑え、円売り圧力となる",
+      "テクニカルはMA20付近での押し目買いを示唆し、エントリーは155.00付近、TP 156.50、SL 154.20を推奨"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは上昇トレンドが継続し、108.50付近で仕掛け型の買い浸透が観測されている。",
+    "excerpt": "トランプによる欧州自動車への追加関税とイラン危機の緩和がリスクオンを醸成、米ドル買いを促す。テクニカルはMA20付近での押し目買いを示唆し、流動性の観点から[dmm-fx]を推奨。",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "USD/JPYは上昇トレンドが継続し、108.50付近で仕掛け型の買い浸透が観測されている。",
+    "comment": "トランプによる欧州自動車への追加関税とイラン危機の緩和がリスクオンを醸成、米ドル買いを促す。テクニカルはMA20付近での押し目買いを示唆し、流動性の観点から[dmm-fx]を推奨。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: テクノロジー主導の新高値形成と低成長バリューの相対的優位",
-    "date": "2026-05-02 01:57",
+    "title": "[S&P 500] UP: Nvidia・Appleの好決済と成長株ETFの相対優位性を確認",
+    "date": "2026-05-02 11:34",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "野村證券",
     "tldr_points": [
-      "Magnificent Sevenの押し目買いと低成長バリューのローテーションが上値を支える",
-      "流動性偏重の資金配分構造がブレイクの前提にある",
-      "ボラティリティ抑制と下落ヘッジの薄れがレンジ拡大を許容する"
+      "Nvidiaが時価総額5兆ドルを回復し、半導体セグメントの需給が改善",
+      "Appleの記録的四半期と1000億ドル自社株買いが資本還元期待を喚起",
+      "成長株ETF（VOOG/VUG）のパフォーマンス差が市場のリスクオン志向を示唆"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "テクノロジー主導でS&P 500が新高値を更新し、低成長バリュー銘柄が相対的にアウトパフォーム。流動性偏重の資金配分とボラティリティの沈静化が上値を支持する。",
+    "excerpt": "半導体と大型テックの好決済がS&P 500の上押しを支え、成長株優位の環境が継続中。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "テクノロジー主導の新高値形成と低成長バリューの相対的優位が上昇シナリオを支持し、流動性偏重の配分サイクルが上値ブレイクを後押す。",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "status": "NEUTRAL",
+    "comment": "半導体と大型テックの好決済がS&P 500の上押しを支え、成長株優位の環境が継続中。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD 市場分析",
-    "date": "2026-05-02 01:58",
+    "title": "[BTC/USD] UP: 予測市場規制緩和と機関向け商品拡大が中長期サポート",
+    "date": "2026-05-02 11:38",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "上昇余地あり、MA20で反発の兆し",
-      "機関資金流入とヨーロッパAUM拡大が支える",
-      "bitflyerでの流動性活用を推奨"
+      "A16zのCFTC支援表明が予測市場の連邦統一規制を促進",
+      " Polymarket/Kalshiの150Bドル取引量は衍生品市場の成熟を示唆",
+      "ETH現物販売は短期的な売り圧力をもたらすもETF承認後の構造的需要が優位"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "金利上昇と機関投資家の資金流入がBTCを支え、MA20付近での上昇余地と流動性をbitflyerで活用する兆候が明確に現れつつある。今後の価格は技術的節目とマクロ環境の相関で左右され、投資家のリスク許容度も上昇トレンドを支えると分析している。",
+    "excerpt": "予測市場の規制明確化と衍生品取引高の急増がBTCの中長期需要を裏付け、量子コンピューティング脅威は理論上のリスクにとどまる。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "金利上昇と機関投資家の資金流入がBTCを支え、MA20付近での上昇余地と流動性をbitflyerで活用する兆候が明確に現れつつある。今後の価格は技術的節目とマクロ環境の相関で左右され、投資家のリスク許容度も上昇トレンドを支えると分析している。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "予測市場規制明確化と衍生品取引量拡大が中長期需要をサポート、押し目買いを推奨",
+    "entry": "support_level",
+    "tp": "recent_high",
+    "sl": "below_support",
     "reliability": "MEDIUM"
   }
 }

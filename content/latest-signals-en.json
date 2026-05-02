@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Tariff Escalation and Yield Decline Drive Yen Strength",
-    "date": "2026-05-02 01:56",
+    "title": "[USD/JPY] UP: Risk-On Macro Backdrop Supports Bullish Bias; Technical Structure Remains Constructive",
+    "date": "2026-05-02 11:29",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD pressured by declining oil and yields",
-      "EU auto tariffs trigger risk-off flows favoring JPY",
-      "Technical breakdown suggests testing key support zones"
+      "Risk-on sentiment dominates on Trump-Iran de-escalation and strong US equity momentum",
+      "Tariff escalation on European autos strengthens USD relative to EUR,间接ly supporting USD/JPY",
+      "Technical structure shows intact uptrend with MA20 acting as dynamic support"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised for decline as tariff war escalates and yield differentials compress",
+    "excerpt": "USD/JPY positioned for upside as risk appetite surges on Iran de-escalation and strong US equities.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Tariff-driven risk-off and yield compression create structural USD weakness",
-    "entry": "149.50-150.00",
-    "tp": "147.50",
-    "sl": "150.50",
+    "status": "BUY",
+    "comment": "Risk-on macro thesis supported by technical uptrend structure; buy dips toward MA20",
+    "entry": "149.50",
+    "tp": "152.00",
+    "sl": "148.00",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500 市場分析",
-    "date": "2026-05-02 01:57",
+    "title": "[S&P 500] UP: AI Detects Support as Tech Earnings Drive Momentum",
+    "date": "2026-05-02 11:34",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Tech sector leads rally with 3.2% MoM gains",
-      "Dividend King beats Magnificents by 12% YTD",
-      "Vanguard ETFs highlight crash protection demand"
+      "Tech earnings exceeding estimates driving market",
+      "Nvidia's $5T valuation supporting index",
+      "Share buybacks providing price support"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 shows technical strength with MA20 alignment as fundamentals shift to defensive stability.",
+    "excerpt": "S&P 500 poised for gains as strong tech earnings and buyback programs support market",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P 500 shows technical strength with MA20 alignment as fundamentals shift to defensive stability.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Strong earnings from tech constituents and institutional support at key moving averages",
+    "entry": "5350",
+    "tp": "5500",
+    "sl": "5250",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Inflows and Strong Reserve Buffers Support Bullish Thesis",
-    "date": "2026-05-02 01:58",
+    "title": "[BTC/USD] UP: Regulatory Clarity and Institutional Adoption Bolster Bullish Thesis",
+    "date": "2026-05-02 11:38",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Institutional adoption accelerates with $7.4B AUM filing and $137M ETPE inflows",
-      "Tether's record $8.2B reserve buffer signals robust stablecoin backing",
-      "Technical setup favors dip-buying toward key moving average support"
+      "Regulatory tailwinds intensify as A16z supports unified CFTC oversight",
+      "Prediction market volumes hit $150B, signaling mainstream crypto integration",
+      "Technical setup favors upside with MA20 support under observation"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Institutional capital flows and strong fundamental backdrop support tactical long positioning",
+    "excerpt": "Regulatory clarity and $150B prediction market volumes drive BTC/USD bullish thesis",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Institutional inflows and strong fundamental backdrop support bullish continuation; buy dips toward MA20 support",
-    "entry": "84500.00",
-    "tp": "93500.00",
-    "sl": "80500.00",
-    "reliability": "HIGH"
+    "comment": "Regulatory clarity and institutional adoption support bullish thesis; enter on MA20 pullbacks",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
   }
 }
