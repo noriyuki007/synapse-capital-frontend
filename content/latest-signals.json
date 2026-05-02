@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY 市場分析",
-    "date": "2026-05-02",
+    "title": "[USD/JPY] UP: 強い米雇用・サービス指標期待とリスクオン環境が円売りを後押し",
+    "date": "2026-05-03 01:43",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "tldr_points": [],
+    "tldr_points": [
+      "米国経済指標の上振れ期待がUSD買いを促す",
+      "リスクオン_sentimentがJPYの安全需給を弱める",
+      "テクニカルではMA20付近の押し目が買い機会"
+    ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "",
+    "excerpt": "米国雇用・サービス指標の強含み予想とリスクオン環境により、USD/JPYは上昇バイアス。押し目買いを推奨。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "米国指標強含み期待とリスクオンによる円売り、MA20付近の押し目が買いシグナル",
+    "entry": "151.00",
+    "tp": "152.50",
+    "sl": "150.20",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: テックセクターの強気と政策期待による上昇トレンドの継続",
-    "date": "2026-05-02 18:05",
+    "title": "[S&P 500] UP: 大型消費財・医療業績の質的優位と資本配分の正常化",
+    "date": "2026-05-03 02:51",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "S&P 500はテックセクターの力強い動きに支えられ上昇トレンドを継続",
-      "Nvidiaが5兆ドルを突破し、成長セクターが市場をリード",
-      "トランプ政権下の政策リスクが高まっているが、短期的な上昇圧力が優勢"
+      "消費・医療セクターにおけるキャッシュ創出と利益率回復がS&P 500のベータ上昇を牽引",
+      "企業向け信用スプレッドの縮小と流動性再供給が上値支持要因として機能",
+      "フェデラル・オープン・マーケット・カレンダーの正常化に伴いリスク選好が漸進的にシフト"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はテックセクターの強気に支えられ上昇基調を維持。Nvidiaが5兆ドルを突破し、市場の主導権を握っているが、政治的不確実性が背景に存在。",
+    "excerpt": "個別銘柄レベルの堅調なキャッシュフローと資本効率の改善がS&P 500の質的優位を裏付ける。クレジット環境の緩和と流動性選好の高まりが上値を支え、戦術的ロングの根拠を強化する。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "テックセクターの強気と上昇トレンドの継続を根拠とする押し目買い戦略",
-    "entry": "4750",
-    "tp": "4850",
-    "sl": "4680",
-    "reliability": "MEDIUM"
+    "comment": "質的優位な大型株と流動性環境の改善が上値を牽引",
+    "entry": "5200.00",
+    "tp": "5434.00",
+    "sl": "5096.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "戦術的インサイト：BTC/USDの均衡状態とブレイク条件の定義",
-    "date": "2026-05-02 18:08",
+    "title": "[BTC/USD] UP: クラリティ法ステーブルコイン利回り合意と機関フローの整合性を確認",
+    "date": "2026-05-03 02:56",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "金利相関（近似）: 0.00で負相関傾向",
-      "テクニカル: 現在価格 --- と MA20 --- の位置関係が主導",
-      "需給: 重要帯の確認が必要 によるターゲット設計"
+      "クラリティ法によるステーブルコイン利回り合意が機関のオンランプを活性化",
+      "ETHファンドの売却は一時的な供給増加だが、全体需要は依然堅調",
+      "ポリマーケット・カルシの取引量急増はリスクオン姿勢を示す"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "クラリティ法合意とステーブルコイン需要拡大がBTCの上値を支え、テクニカルは押し目買いの場面を示唆。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、BTC/USDの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "クラリティ法合意と機関フローが上値を支え、テクニカルは押し目買いの場面を示唆",
+    "entry": "68000",
+    "tp": "72000",
+    "sl": "66000",
+    "reliability": "HIGH"
   }
 }

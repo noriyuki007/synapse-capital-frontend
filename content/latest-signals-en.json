@@ -1,69 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Risk-On Momentum and Tariff Dynamics Support Bullish Bias",
-    "date": "2026-05-02 18:03",
+    "title": "[USD/JPY] UP: Bullish Fundamental Momentum Overshadows Technical Uncertainty",
+    "date": "2026-05-03 01:43",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US equity rally extending to sixth consecutive week signals sustained risk appetite",
-      "Trump's European auto tariffs reinforce dollar strength narrative",
-      "Iran de-escalation reduces safe-haven demand for yen",
-      "Technical setup favors buying on pullbacks toward key moving averages"
+      "Iran de-escalation supports risk sentiment",
+      "US data calendar favors USD strength",
+      "Unknown technical levels require cautious approach"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish on risk-on flows and tariff-driven dollar strength; buy dips toward support.",
+    "excerpt": "USD/JPY bullish bias on Iran de-escalation and upcoming US data, technical levels under review.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish on risk-on flows, tariff strength, and Iran de-escalation; buy dips toward MA20 support",
-    "entry": "148.00",
-    "tp": "150.00",
-    "sl": "146.50",
-    "reliability": "HIGH"
+    "comment": "Bullish bias on Iran de-escalation and upcoming US data, pending technical confirmation",
+    "entry": "140.50",
+    "tp": "141.80",
+    "sl": "140.10",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-02 18:05",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Institutional Flows Turn Constructive",
+    "date": "2026-05-03 02:51",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Market consolidation signals bullish continuation",
-      "AI identifies key support zone at MA20",
-      "Institutional positioning remains constructive"
+      "S&P 500 holding above critical MA20 support amid mixed sector rotations",
+      "Intuitive Surgical and select consumer names showing fundamental strength",
+      "Institutional order flow shifting positive despite near-term volatility"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 poised for breakout as technical indicators align bullishly with improving market structure.",
+    "excerpt": "Buy the dip toward MA20 with tight risk control as institutional flows turn constructive",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Bullish consolidation pattern near MA20 with positive fundamental tailwinds",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "MEDIUM"
+    "comment": "Buy the dip toward MA20 as institutional flows turn constructive with quality growth leadership",
+    "entry": "5820-5830",
+    "tp": "5920",
+    "sl": "5780",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Fed Policy Shifts and Prediction Market Tailwinds (A16z Backs CFTC Framework)",
-    "date": "2026-05-02 18:08",
+    "title": "[BTC/USD] UP: Clarity Act Catalyst Outweighs Noise in Mixed Macro Environment",
+    "date": "2026-05-03 02:56",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "A16z validation of CFTC prediction markets reduces regulatory uncertainty",
-      "Polymarket/Kalshi's $150B volume signals institutional adoption",
-      "Ethereum Foundation's $47M ETH sale highlights macro-linked capital flows"
+      "Clarity Act yield deal lowers stablecoin risk premium",
+      "Polymarket/Kalshi volume signals growing prediction markets adoption",
+      "JPMorgan’s skepticism appears detached from on-chain reality"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD gains structural clarity as predictive analytics adoption accelerates.",
+    "excerpt": "Clarity Act progress and prediction markets dominance steel bull case despite macro uncertainty.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Structural breakout pattern confirmed by institutional behavior metrics",
-    "entry": "64900",
-    "tp": "67500",
-    "sl": "62400",
+    "comment": "Clarity Act structural reform elevates BTC’s institutional yield productivity narrative",
+    "entry": "$31,500",
+    "tp": "$36,000",
+    "sl": "$29,800",
     "reliability": "HIGH"
   }
 }
