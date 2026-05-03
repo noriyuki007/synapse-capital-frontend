@@ -1,68 +1,64 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Technical Signal Confirms Bullish Reversal Amidst Resilient USD Fundamentals",
-    "date": "2026-05-03 18:20",
+    "title": "USD/JPY 市場分析",
+    "date": "2026-05-04",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
-    "tldr_points": [
-      "Key Support at MA20 aligns with 200-day Trendline",
-      "RSI-14 Divergence Signals Bullish Reversal",
-      "USD Strength Driven by Fed Rate Cut Concerns"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish setup confirmed by MA20 support and RSI divergence ahead of Fed-driven volatility.",
+    "excerpt": "",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Bullish reversal pattern confirmed by technical divergence and robust USD fundamentals",
-    "entry": "152.00",
-    "tp": "154.50",
-    "sl": "150.80",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: AI Signals Bullish Momentum Amid Macro Shifts",
-    "date": "2026-05-03 18:24",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Goldman Sachs",
-    "tldr_points": [
-      "AI signals bullish turn as fundamentals falter; monitor MA20 support with disciplined risk limits amid rising rates now!",
-      "AI-driven earnings upside expected in technology and industrials",
-      "Risk management advises tight stops near MA20 support"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "AI signals bullish turn as fundamentals falter; monitor MA20 support with disciplined risk limits amid rising rates now!",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "AI signals bullish turn as fundamentals falter; monitor MA20 support with disciplined risk limits amid rising rates now!",
+    "comment": "シナプス解析に基づくシグナル",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: AI Detects Accumulation Amidst Defensive Positioning",
+    "date": "2026-05-04 01:47",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "tldr_points": [
+      "Defensive positioning creates near-term support",
+      "Earnings resilience in industrials signals underlying strength",
+      "Volatility compression precedes potential breakout"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 poised for recovery as defensive positioning meets resilient earnings trends.",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "Support test at MA20 offers high-probability entry with defined risk parameters",
+    "entry": "5200.00",
+    "tp": "5250.00",
+    "sl": "5180.00",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: Regulatory Progress Meets Speculative Exhaustion Risk",
-    "date": "2026-05-03 18:28",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-04 01:58",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Regulatory catalysts from BlackRock and Coinbase offset by weak spot demand",
-      "CryptoQuant flags speculative April surge amid demand concerns",
-      "Technical bias neutral pending momentum confirmation"
+      "BlackRock urges OCC to drop tokenized reserve cap",
+      "CryptoQuant warns of correction risk for Bitcoin",
+      "Coinbase and 16z advance stablecoin regulations"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Mixed regulatory backdrop with weak fundamentals pressures Bitcoin between key technical levels.",
+    "excerpt": "DOJI on chart indicates uncertainty. High interest in Coinbase, BlackRock, and A16z developments boost speculation.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "Range-bound technical structure amid conflicting fundamental catalysts warrants patient observation",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "LOW"
+    "status": "BUY",
+    "comment": "Institutional gains and regulatory support look set to catalyze a bullish move.",
+    "entry": "MA20",
+    "tp": "10%",
+    "sl": "previous swing low",
+    "reliability": "MEDIUM"
   }
 }
