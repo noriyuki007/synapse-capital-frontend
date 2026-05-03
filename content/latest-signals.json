@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: NFP強化とトランプ関税発表がドル買いを支援",
-    "date": "2026-05-03 11:39",
+    "title": "[USD/JPY] UP: 地政学緩和と米株6週連続上昇を背景としたUSD優位とJPYの安全資産需要低下の整合性を確認",
+    "date": "2026-05-03 18:20",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米雇用統計が予想を上回りドル買いが強まる",
-      "トランプが欧州自動車に追加関税を表明しリスクオン志向が後退",
-      "イラン和平合意が原油価格を下押し、円安圧力が緩和"
+      "中東情勢の緩和と米株6週連続上昇を背景にUSD/JPYは上昇バイアスが支配的",
+      "今週発表の米NFP・ISM非製造業PMIが強含めばUSDをさらに下支え",
+      "流動性確保のため執行ブローカーにdmm-fxを推奨"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "NFP好調と関税発表がドル買いを後押し、USD/JPYは上昇バイアスが続く見込み。",
+    "excerpt": "中東情勢の緩和と米株6週連続上昇を背景にUSD/JPYは上昇バイアスを強める。今週の米雇用統計やISM非製造業PMIが強含めばUSDをさらに支援し、JPYの安全資産需要は低下する見込み。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "米雇用統計好調とリスクオン志向の後退がドル買いを支え、MA20付近での押し目買いが有利",
-    "entry": "150.45",
-    "tp": "152.00",
-    "sl": "150.00",
-    "reliability": "HIGH"
+    "comment": "地政学緩和と米経済指標の強含みを背景としたUSD優位",
+    "entry": "140.50",
+    "tp": "145.00",
+    "sl": "139.80",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: フロート警告と技術的弱気サインの整合",
-    "date": "2026-05-03 11:43",
+    "title": "[S&P 500] DOWN: Powell警戒とファンダメンタルズ悪化を反映",
+    "date": "2026-05-03 18:24",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "",
     "tldr_points": [
-      "Goldman Sachsのフロート警告が下押し圧力を強める",
-      "ボーイングの雇用動向は産業セクターの停滞を示唆",
-      "Wixの株価下落が成長株へのリスクオフを示す"
+      "FRB議長の緊急警告がリスクオフを誘発",
+      "著名投資家が10年マイナスリターンを予想",
+      "新興市場の好調は米国株への資金シフトを抑制"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "フロート警告とマイナスセクター動向が重なり、S&P 500は短期的下押しリスクが高まっている。特に成長株の弱さと産業セクターの停滞が下値を支える要因となる。投資家はリスクオフへのシフトを警戒し、流動性の観点からNomura Securitiesの利用を検討すべきである。",
+    "excerpt": "FRBの警戒感と有名投資家の悲観予測が重なり、S&P 500は下押しリスクが高まっている。",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "フロート警告と下降トレンドが一致",
-    "entry": "7080",
-    "tp": "6950",
-    "sl": "7130",
+    "comment": "FRB警戒と投資家悲観がファンダ・テクニカルで下押しを示唆",
+    "entry": "5050",
+    "tp": "5350",
+    "sl": "5000",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Speculative factors override technicals despite positive macro news",
-    "date": "2026-05-03 12:01",
+    "title": "[BTC/USD] FLAT: 規制進展と投機的な調整リスクの均衡",
+    "date": "2026-05-03 18:28",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "Weak spot demand persists despite BlackRock's GENIUS Act progress",
-      "CryptoQuant highlights speculative April rally",
-      "No confirmed support near MA20, increasing downside risk"
+      "規制緩和の期待と投機的な資金流入が混在",
+      "スポット需要の弱さが価格裏付けを問う",
+      "近期はレンジ内での機会を狙う戦略が適切"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD faces correction risk as spot demand remains anemic despite regulatory tailwinds. Technicals show MA20 resistance under pressure, with no signs of stabilization.",
+    "excerpt": "規制環境の改善と投機的な上昇のリスクが拮抗中だが、現時点でのトレードはレンジショッピングが戦略として適切。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Speculative demand exhaustion and MA20 resistance invalidation",
-    "entry": "61500",
-    "tp": "59000",
-    "sl": "62000",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "現在のレンジ内での機会を狙う",
+    "entry": "95000",
+    "tp": "102000",
+    "sl": "92500",
+    "reliability": "MEDIUM"
   }
 }

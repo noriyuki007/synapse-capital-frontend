@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-03 11:39",
+    "title": "[USD/JPY] UP: Technical Signal Confirms Bullish Reversal Amidst Resilient USD Fundamentals",
+    "date": "2026-05-03 18:20",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Bullish sentiment from US economic data.",
-      "Support at MA20.",
-      "Positive domestic policy news."
+      "Key Support at MA20 aligns with 200-day Trendline",
+      "RSI-14 Divergence Signals Bullish Reversal",
+      "USD Strength Driven by Fed Rate Cut Concerns"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY could rise to 150.00 with support at 148.50 on positive fundamentals and technical alignment.",
+    "excerpt": "USD/JPY bullish setup confirmed by MA20 support and RSI divergence ahead of Fed-driven volatility.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish on fundamentals and technicals with support at MA20.",
-    "entry": "148.50",
-    "tp": "150.00",
-    "sl": "147.00",
+    "comment": "Bullish reversal pattern confirmed by technical divergence and robust USD fundamentals",
+    "entry": "152.00",
+    "tp": "154.50",
+    "sl": "150.80",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] NEUTRAL: Overvalued Levels Goldman Flags 'Froth' Condition",
-    "date": "2026-05-03 11:43",
+    "title": "[S&P 500] UP: AI Signals Bullish Momentum Amid Macro Shifts",
+    "date": "2026-05-03 18:24",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "UP",
+    "recommended_broker": "Goldman Sachs",
     "tldr_points": [
-      "Goldman warns S&P 500 above 7,100 shows 'froth' characteristics",
-      "Historical precedent suggests potential correction following similar warnings",
-      "Technical indicators suggest mixed signals with cautious bias"
+      "AI signals bullish turn as fundamentals falter; monitor MA20 support with disciplined risk limits amid rising rates now!",
+      "AI-driven earnings upside expected in technology and industrials",
+      "Risk management advises tight stops near MA20 support"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Goldman identifies froth conditions in S&P 500 with historical crash precedent.",
+    "excerpt": "AI signals bullish turn as fundamentals falter; monitor MA20 support with disciplined risk limits amid rising rates now!",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "Overvalued levels with froth conditions suggest increased downside risk despite technically intact trend",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "comment": "AI signals bullish turn as fundamentals falter; monitor MA20 support with disciplined risk limits amid rising rates now!",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Regulatory Tailwinds Offset Correction Risk as AI Detects Support Structure",
-    "date": "2026-05-03 12:01",
+    "title": "[BTC/USD] FLAT: Regulatory Progress Meets Speculative Exhaustion Risk",
+    "date": "2026-05-03 18:28",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BlackRock's GENIUS Act push expands institutional access runway",
-      "CryptoQuant warns of speculative rally but spot demand weakness is price-contained",
-      "Technical support matrix intact despite overbought RSI"
+      "Regulatory catalysts from BlackRock and Coinbase offset by weak spot demand",
+      "CryptoQuant flags speculative April surge amid demand concerns",
+      "Technical bias neutral pending momentum confirmation"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD positioned for upside as regulatory clarity compounds; monitor MA20 support",
+    "excerpt": "Mixed regulatory backdrop with weak fundamentals pressures Bitcoin between key technical levels.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Regulatory tailwinds support bullish structure; enter on MA20 support tests",
+    "status": "NEUTRAL",
+    "comment": "Range-bound technical structure amid conflicting fundamental catalysts warrants patient observation",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
-    "reliability": "MEDIUM"
+    "reliability": "LOW"
   }
 }
