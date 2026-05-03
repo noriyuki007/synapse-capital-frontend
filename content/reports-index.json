@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-05-03-crypto-ja",
-    "date": "2026-05-03 02:56",
-    "title": "[BTC/USD] UP: クラリティ法ステーブルコイン利回り合意と機関フローの整合性を確認",
+    "date": "2026-05-03 12:01",
+    "title": "[BTC/USD] DOWN: Speculative factors override technicals despite positive macro news",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
-    "excerpt": "クラリティ法合意とステーブルコイン需要拡大がBTCの上値を支え、テクニカルは押し目買いの場面を示唆。",
+    "excerpt": "BTC/USD faces correction risk as spot demand remains anemic despite regulatory tailwinds. Technicals show MA20 resistance under pressure, with no signs of stabilization.",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-03-crypto-en",
-    "date": "2026-05-03 02:56",
-    "title": "[BTC/USD] UP: Clarity Act Catalyst Outweighs Noise in Mixed Macro Environment",
+    "date": "2026-05-03 12:01",
+    "title": "[BTC/USD] UP: Regulatory Tailwinds Offset Correction Risk as AI Detects Support Structure",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "Clarity Act progress and prediction markets dominance steel bull case despite macro uncertainty.",
+    "excerpt": "BTC/USD positioned for upside as regulatory clarity compounds; monitor MA20 support",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-05-03-stocks-ja",
-    "date": "2026-05-03 02:51",
-    "title": "[S&P 500] UP: 大型消費財・医療業績の質的優位と資本配分の正常化",
+    "date": "2026-05-03 11:43",
+    "title": "[S&P 500] DOWN: フロート警告と技術的弱気サインの整合",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "excerpt": "個別銘柄レベルの堅調なキャッシュフローと資本効率の改善がS&P 500の質的優位を裏付ける。クレジット環境の緩和と流動性選好の高まりが上値を支え、戦術的ロングの根拠を強化する。",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Nomura Securities",
+    "excerpt": "フロート警告とマイナスセクター動向が重なり、S&P 500は短期的下押しリスクが高まっている。特に成長株の弱さと産業セクターの停滞が下値を支える要因となる。投資家はリスクオフへのシフトを警戒し、流動性の観点からNomura Securitiesの利用を検討すべきである。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-03-stocks-en",
-    "date": "2026-05-03 02:51",
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Institutional Flows Turn Constructive",
+    "date": "2026-05-03 11:43",
+    "title": "[S&P 500] NEUTRAL: Overvalued Levels Goldman Flags 'Froth' Condition",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "Interactive Brokers",
-    "excerpt": "Buy the dip toward MA20 with tight risk control as institutional flows turn constructive",
+    "excerpt": "Goldman identifies froth conditions in S&P 500 with historical crash precedent.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-05-03-fx-ja",
-    "date": "2026-05-03 01:43",
-    "title": "[USD/JPY] UP: 強い米雇用・サービス指標期待とリスクオン環境が円売りを後押し",
+    "date": "2026-05-03 11:39",
+    "title": "[USD/JPY] UP: NFP強化とトランプ関税発表がドル買いを支援",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "米国雇用・サービス指標の強含み予想とリスクオン環境により、USD/JPYは上昇バイアス。押し目買いを推奨。",
+    "excerpt": "NFP好調と関税発表がドル買いを後押し、USD/JPYは上昇バイアスが続く見込み。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-03-fx-en",
-    "date": "2026-05-03 01:43",
-    "title": "[USD/JPY] UP: Bullish Fundamental Momentum Overshadows Technical Uncertainty",
+    "date": "2026-05-03 11:39",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY bullish bias on Iran de-escalation and upcoming US data, technical levels under review.",
+    "excerpt": "USD/JPY could rise to 150.00 with support at 148.50 on positive fundamentals and technical alignment.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC positioned for breakout as institutional flows offset regulatory and security concerns",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "",
     "excerpt": "S&P 500は過去の高値を更新し、強気ファンダメンタルズとテクニカルサポートが重なり、上昇トレンドを継続すると予測される。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "Bullish bias intact as earnings strength overrides geopolitical premium",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "USD/JPYは介入期待の後退と米金利見通しの変化で上昇余地が拡大し、押し目買いが有望。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "excerpt": "Intervention-driven rally fully unwound; bearish momentum resumes as MOF intervention speculation grows",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {

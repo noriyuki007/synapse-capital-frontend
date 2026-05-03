@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Bullish Fundamental Momentum Overshadows Technical Uncertainty",
-    "date": "2026-05-03 01:43",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-03 11:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Iran de-escalation supports risk sentiment",
-      "US data calendar favors USD strength",
-      "Unknown technical levels require cautious approach"
+      "Bullish sentiment from US economic data.",
+      "Support at MA20.",
+      "Positive domestic policy news."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish bias on Iran de-escalation and upcoming US data, technical levels under review.",
+    "excerpt": "USD/JPY could rise to 150.00 with support at 148.50 on positive fundamentals and technical alignment.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish bias on Iran de-escalation and upcoming US data, pending technical confirmation",
-    "entry": "140.50",
-    "tp": "141.80",
-    "sl": "140.10",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Institutional Flows Turn Constructive",
-    "date": "2026-05-03 02:51",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "S&P 500 holding above critical MA20 support amid mixed sector rotations",
-      "Intuitive Surgical and select consumer names showing fundamental strength",
-      "Institutional order flow shifting positive despite near-term volatility"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Buy the dip toward MA20 with tight risk control as institutional flows turn constructive",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Buy the dip toward MA20 as institutional flows turn constructive with quality growth leadership",
-    "entry": "5820-5830",
-    "tp": "5920",
-    "sl": "5780",
+    "comment": "Bullish on fundamentals and technicals with support at MA20.",
+    "entry": "148.50",
+    "tp": "150.00",
+    "sl": "147.00",
     "reliability": "HIGH"
   },
+  "STOCKS": {
+    "title": "[S&P 500] NEUTRAL: Overvalued Levels Goldman Flags 'Froth' Condition",
+    "date": "2026-05-03 11:43",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "Goldman warns S&P 500 above 7,100 shows 'froth' characteristics",
+      "Historical precedent suggests potential correction following similar warnings",
+      "Technical indicators suggest mixed signals with cautious bias"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "Goldman identifies froth conditions in S&P 500 with historical crash precedent.",
+    "pair": "S&P 500",
+    "status": "NEUTRAL",
+    "comment": "Overvalued levels with froth conditions suggest increased downside risk despite technically intact trend",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Clarity Act Catalyst Outweighs Noise in Mixed Macro Environment",
-    "date": "2026-05-03 02:56",
+    "title": "[BTC/USD] UP: Regulatory Tailwinds Offset Correction Risk as AI Detects Support Structure",
+    "date": "2026-05-03 12:01",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Clarity Act yield deal lowers stablecoin risk premium",
-      "Polymarket/Kalshi volume signals growing prediction markets adoption",
-      "JPMorgan’s skepticism appears detached from on-chain reality"
+      "BlackRock's GENIUS Act push expands institutional access runway",
+      "CryptoQuant warns of speculative rally but spot demand weakness is price-contained",
+      "Technical support matrix intact despite overbought RSI"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Clarity Act progress and prediction markets dominance steel bull case despite macro uncertainty.",
+    "excerpt": "BTC/USD positioned for upside as regulatory clarity compounds; monitor MA20 support",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Clarity Act structural reform elevates BTC’s institutional yield productivity narrative",
-    "entry": "$31,500",
-    "tp": "$36,000",
-    "sl": "$29,800",
-    "reliability": "HIGH"
+    "comment": "Regulatory tailwinds support bullish structure; enter on MA20 support tests",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
   }
 }
