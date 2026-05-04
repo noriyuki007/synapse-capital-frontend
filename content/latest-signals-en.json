@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Temporary Intervention Fade as ECB Hawkishness Dominates",
-    "date": "2026-05-04 19:11",
+    "title": "[USD/JPY] FLIGHT ON RELEASE FROM GEOPOLITICAL UPDATES",
+    "date": "2026-05-05 02:28",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "ECB hawkishness supports USD",
-      "Japanese intervention appears temporary",
-      "Geopolitical tensions favor USD safe-haven"
+      "Rate pressure from elevated USD yields is pushing the pair downward.",
+      "Market sentiment remains cautious amid evolving geopolitical narratives.",
+      "Recent regulatory whispers show increased order imbalance favoring sell."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY regains post-intervention footing as ECB signals June rate hike amid geopolitical tensions.",
+    "excerpt": "2026 strategic shifts in FX trends driven by policy, news, and market psychology.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "ECB hawkishness and geopolitical tensions favor USD despite Japanese intervention",
-    "entry": "152.80",
-    "tp": "154.50",
-    "sl": "151.80",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "2026 strategic shifts in FX trends driven by policy, news, and market psychology.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: Geopolitical Risks Counterbalance AI-Driven Tech Momentum",
-    "date": "2026-05-04 20:18",
+    "title": "[S&P 500] FLAT: Geopolitical Tensions Offset AI-Driven Upside Potential",
+    "date": "2026-05-05 02:35",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "FLAT",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Iran geopolitical risk pressures futures; crypto-linked equities rally on Bitcoin surge",
-      "Tech sector strength from AI narrative collides with macro uncertainty",
-      "Technical picture suggests consolidation; await clear break of current range"
+      "Geopolitical tensions in Middle East create downside pressure",
+      "Citi data suggests fundamental strength at current levels",
+      "Technical indicators show mixed signals with support near MA20"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces dual forces: geopolitical escalation vs. AI/crypto momentum. Range-bound near-term.",
+    "excerpt": "S&P 500 consolidates as geopolitical tensions offset AI-driven upside potential.",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "Conflicting geopolitical and crypto catalysts produce neutral bias; await range resolution",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "comment": "Geopolitical tensions offset AI-driven upside potential",
+    "entry": "4,800",
+    "tp": "4,900",
+    "sl": "4,700",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at Psychological $80k as Fundamentals Turn Bullish",
-    "date": "2026-05-04 21:09",
+    "title": "[BTC/USD] UP: Institutional Adoption Accelerates as Tokenization Narrative Gains Momentum",
+    "date": "2026-05-05 02:42",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Bitcoin breaches $80k psychological resistance, signaling bullish momentum.",
-      "Kraken's Bitnomial acquisition expands US crypto derivatives access, boosting institutional demand.",
-      "Saylor's pause on BTC purchases introduces short-term caution but longer-term accumulation outlook remains intact."
+      "Institutional infrastructure deployment intensifies with Haun Ventures $1B raise and Western Union USDPT launch",
+      "Base network zk-tech integration signals Layer 2 scalability thesis strengthening",
+      "Technical setup favors upside with MA20 support intact and RSI in neutral territory"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD breaks $80k resistance amid derivative inflows; bias upward with defined entry, TP, SL levels.",
+    "excerpt": "Institutional capital inflows and tokenization acceleration drive bullish BTC thesis amid constructive technicals",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "BTC/USD breached $80k resistance with bullish order flow and supportive derivatives news; upward bias remains intact.",
-    "entry": "80200",
-    "tp": "85500",
-    "sl": "78800",
-    "reliability": "MEDIUM"
+    "comment": "Institutional adoption acceleration and constructive technicals support bullish bias toward MA20 support",
+    "entry": "MA20",
+    "tp": "Recent Highs",
+    "sl": "Below Recent Swing Low",
+    "reliability": "HIGH"
   }
 }

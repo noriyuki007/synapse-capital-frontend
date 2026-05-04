@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-05-05-crypto-en",
+    "date": "2026-05-05 02:42",
+    "title": "[BTC/USD] UP: Institutional Adoption Accelerates as Tokenization Narrative Gains Momentum",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "Institutional capital inflows and tokenization acceleration drive bullish BTC thesis amid constructive technicals",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-05-stocks-ja",
+    "date": "2026-05-05 02:35",
+    "title": "[S&P 500] DOWN: 中東リスクと原油高が下押し圧力を強め、MA20付近での戻り売りが視野に",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "野村證券",
+    "excerpt": "中東情勢の緊張と原油高がリスクオフを誘い、S&P 500は下押し圧力が強まる。テクニカルではMA20付近での戻り売りが視野に。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-05-stocks-en",
+    "date": "2026-05-05 02:35",
+    "title": "[S&P 500] FLAT: Geopolitical Tensions Offset AI-Driven Upside Potential",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 consolidates as geopolitical tensions offset AI-driven upside potential.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-05-fx-ja",
+    "date": "2026-05-05 02:28",
+    "title": "[USD/JPY] DOWN: 中東リスク高まりとファンダメンタルズの乖離を反映",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "中東の緊張高まりとファンダメンタルズの矛盾がUSD/JPYに下押し圧力を与え、売り戦略が有効。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-05-fx-en",
+    "date": "2026-05-05 02:28",
+    "title": "[USD/JPY] FLIGHT ON RELEASE FROM GEOPOLITICAL UPDATES",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "2026 strategic shifts in FX trends driven by policy, news, and market psychology.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-05-crypto-ja",
+    "date": "2026-05-05",
+    "title": "CRYPTO Analysis",
+    "genre": "CRYPTO",
+    "target_pair": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
     "id": "2026-05-04-crypto-ja",
     "date": "2026-05-04 21:09",
     "title": "BTC/USD分析：持ち合い局面における流動性ゾーンの特定",
@@ -128,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "中東情勢の緩和と米株6週連続上昇を背景にUSD/JPYは上昇バイアスを強める。今週の米雇用統計やISM非製造業PMIが強含めばUSDをさらに支援し、JPYの安全資産需要は低下する見込み。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -140,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY bullish setup confirmed by MA20 support and RSI divergence ahead of Fed-driven volatility.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
