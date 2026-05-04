@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-05-04-crypto-ja",
-    "date": "2026-05-04 01:58",
-    "title": "[BTC/USD] UP: 規制明確化と機関資金流入の構造的カタリストを確認",
+    "date": "2026-05-04 11:48",
+    "title": "[BTC/USD] DOWN: 弱い現物需要と規制強化が重石",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
-    "excerpt": "規制明確化とBlackRockの積極姿勢が中長期の構造的サポートに。短期的な投機的過熱による調整リスクは認識しつつも、方向性は上看り。",
+    "excerpt": "弱い現物需要と規制・地政学的リスクが重なり、BTC/USDは下方リスクが高まっている。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-04-crypto-en",
-    "date": "2026-05-04 01:58",
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-04 11:48",
+    "title": "[BTC/USD] FLAT: Mixed Signals as Regulatory Headwinds Offset Institutional Momentum",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
-    "excerpt": "DOJI on chart indicates uncertainty. High interest in Coinbase, BlackRock, and A16z developments boost speculation.",
+    "excerpt": "BTC/USD navigates regulatory crosscurrents as enforcement actions clash with institutional adoption",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-05-04-stocks-ja",
-    "date": "2026-05-04 01:47",
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-05-04 11:38",
+    "title": "[S&P 500] UP: テクニカル反発とハイテク株の強気ファンダメンタルズの整合性",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
-    "excerpt": "決算好調と消費関連株の強さからS&P 500は上昇余地があり、押し目買いを推奨。",
+    "recommended_broker": "野村證券",
+    "excerpt": "トランプのホルムズ海域航行指示と半導体株の急騰が上方バイアスを形成し、テクニカル反発とファンダメンタルズの整合性を確認。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-04-stocks-en",
-    "date": "2026-05-04 01:47",
-    "title": "[S&P 500] UP: AI Detects Accumulation Amidst Defensive Positioning",
+    "date": "2026-05-04 11:38",
+    "title": "[S&P 500] BUY: Catalysts Outweight Volatility",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
-    "excerpt": "S&P 500 poised for recovery as defensive positioning meets resilient earnings trends.",
+    "excerpt": "120-character summary (no greetings)",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-05-04-fx-ja",
-    "date": "2026-05-04 01:45",
-    "title": "[USD/JPY] DOWN: Iran De-escalation and Trade Tensions Weigh on Dollar",
+    "date": "2026-05-04 11:37",
+    "title": "[USD/JPY] 戦略的推進: サーバー観測に基づくアクション",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP または FLAT",
     "recommended_broker": "dmm-fx",
-    "excerpt": "USD/JPY faces downward pressure following improved risk appetite and trade-related headwinds. Key support levels and short-term momentum suggest a bearish bias ahead of US data events.",
+    "excerpt": "",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-04-fx-en",
-    "date": "2026-05-04",
-    "title": "FX Analysis",
+    "date": "2026-05-04 11:37",
+    "title": "[USD/JPY] UP: AI Detects Breakout Above MA20 Amid Tightening US Yield Curve",
     "genre": "FX",
-    "target_pair": "",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY poised for upside as US rates tighten and price breaches MA20, supported by risk‑off dynamics.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD gains structural clarity as predictive analytics adoption accelerates.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500はテックセクターの強気に支えられ上昇基調を維持。Nvidiaが5兆ドルを突破し、市場の主導権を握っているが、政治的不確実性が背景に存在。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500 poised for breakout as technical indicators align bullishly with improving market structure.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY bullish on risk-on flows and tariff-driven dollar strength; buy dips toward support.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "",
     "excerpt": "",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {

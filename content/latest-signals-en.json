@@ -1,64 +1,69 @@
 {
   "FX": {
-    "title": "USD/JPY 市場分析",
-    "date": "2026-05-04",
+    "title": "[USD/JPY] UP: AI Detects Breakout Above MA20 Amid Tightening US Yield Curve",
+    "date": "2026-05-04 11:37",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "tldr_points": [],
+    "tldr_points": [
+      "US Treasury yields compressing, favoring USD strength",
+      "Order flow shows net long USD bias in CME futures",
+      "Technical breakout above MA20 with RSI confirming momentum"
+    ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "",
+    "excerpt": "USD/JPY poised for upside as US rates tighten and price breaches MA20, supported by risk‑off dynamics.",
     "pair": "USD/JPY",
+    "status": "BUY",
+    "comment": "Yield differential and technical breakout support an upside bias.",
+    "entry": "155.00",
+    "tp": "156.40",
+    "sl": "154.45",
+    "reliability": "HIGH"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] BUY: Catalysts Outweight Volatility",
+    "date": "2026-05-04 11:38",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": [],
+    "tldr_points": [
+      "Market rate dynamics are pressuring the index bullishly.",
+      "News headlines highlight liquidity concerns with oil futures.",
+      "AI signals persist despite moderate RSI readings.",
+      "Order flow patterns suggest accumulation ahead."
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "120-character summary (no greetings)",
+    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
+    "comment": "120-character summary (no greetings)",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
-  "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Accumulation Amidst Defensive Positioning",
-    "date": "2026-05-04 01:47",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "tldr_points": [
-      "Defensive positioning creates near-term support",
-      "Earnings resilience in industrials signals underlying strength",
-      "Volatility compression precedes potential breakout"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 poised for recovery as defensive positioning meets resilient earnings trends.",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Support test at MA20 offers high-probability entry with defined risk parameters",
-    "entry": "5200.00",
-    "tp": "5250.00",
-    "sl": "5180.00",
-    "reliability": "HIGH"
-  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-04 01:58",
+    "title": "[BTC/USD] FLAT: Mixed Signals as Regulatory Headwinds Offset Institutional Momentum",
+    "date": "2026-05-04 11:48",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BlackRock urges OCC to drop tokenized reserve cap",
-      "CryptoQuant warns of correction risk for Bitcoin",
-      "Coinbase and 16z advance stablecoin regulations"
+      "Regulatory enforcement actions create short-term selling pressure",
+      "BlackRock's GENIUS Act engagement signals long-term institutional tailwinds",
+      "CryptoQuant's speculative warning suggests caution despite price strength"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "DOJI on chart indicates uncertainty. High interest in Coinbase, BlackRock, and A16z developments boost speculation.",
+    "excerpt": "BTC/USD navigates regulatory crosscurrents as enforcement actions clash with institutional adoption",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Institutional gains and regulatory support look set to catalyze a bullish move.",
-    "entry": "MA20",
-    "tp": "10%",
-    "sl": "previous swing low",
-    "reliability": "MEDIUM"
+    "status": "NEUTRAL",
+    "comment": "Await technical confirmation given speculative rally and unknown current levels",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "LOW"
   }
 }
