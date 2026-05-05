@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] FLIGHT ON RELEASE FROM GEOPOLITICAL UPDATES",
-    "date": "2026-05-05 02:28",
+    "title": "[USD/JPY] UP: Hormuz Crisis Spurs Oil Shock Fears; Yen Vulnerability Intensifies",
+    "date": "2026-05-05 11:31",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Rate pressure from elevated USD yields is pushing the pair downward.",
-      "Market sentiment remains cautious amid evolving geopolitical narratives.",
-      "Recent regulatory whispers show increased order imbalance favoring sell."
+      "Hormuz Strait confrontation triggers 1970s-style oil shock fears",
+      "Japan's oil import dependency renders yen structurally vulnerable",
+      "Geopolitical risk premium supports USD against risk-sensitive yen"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "2026 strategic shifts in FX trends driven by policy, news, and market psychology.",
+    "excerpt": "Oil shock risk drives USD/JPY higher as Hormuz crisis mirrors 1970s supply shocks",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "2026 strategic shifts in FX trends driven by policy, news, and market psychology.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Oil shock risk from Hormuz crisis favors USD over energy-import-dependent yen",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: Geopolitical Tensions Offset AI-Driven Upside Potential",
-    "date": "2026-05-05 02:35",
+    "title": "[S&P 500] FLAT: Market Holds as AI Leaders and Geopolitical Risks Dominate",
+    "date": "2026-05-05 11:40",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "FLAT",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "Geopolitical tensions in Middle East create downside pressure",
-      "Citi data suggests fundamental strength at current levels",
-      "Technical indicators show mixed signals with support near MA20"
+      "AI stock movements dominate the news",
+      "Iran war developments keep S&P 500 in a holding pattern",
+      "Bank of America’s warning adds caution"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 consolidates as geopolitical tensions offset AI-driven upside potential.",
+    "excerpt": "S&P 500 remains flat amid AI sector gains and geopolitical uncertainties, with prospects of a breakout pending event-driven catalysts.",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "Geopolitical tensions offset AI-driven upside potential",
-    "entry": "4,800",
-    "tp": "4,900",
-    "sl": "4,700",
+    "comment": "Market remains flat amid AI sector gains and geopolitical uncertainties; wait for a catalyst to drive a directional move.",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Adoption Accelerates as Tokenization Narrative Gains Momentum",
-    "date": "2026-05-05 02:42",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-05 11:42",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Institutional infrastructure deployment intensifies with Haun Ventures $1B raise and Western Union USDPT launch",
-      "Base network zk-tech integration signals Layer 2 scalability thesis strengthening",
-      "Technical setup favors upside with MA20 support intact and RSI in neutral territory"
+      "BTC consolidates near MA20 with rising volume",
+      "Circle's 20% rally signals liquidity inflow",
+      "RSI remains bullish despite overbought concerns"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Institutional capital inflows and tokenization acceleration drive bullish BTC thesis amid constructive technicals",
+    "excerpt": "BTC trades near MA20 as Circle's 20% surge and stablecoin reforms boost liquidity, indicating upside potential.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Institutional adoption acceleration and constructive technicals support bullish bias toward MA20 support",
-    "entry": "MA20",
-    "tp": "Recent Highs",
-    "sl": "Below Recent Swing Low",
+    "comment": "BTC shows bullish bias as fundamentals improve and technicals hold above MA20.",
+    "entry": "30200",
+    "tp": "32500",
+    "sl": "29500",
     "reliability": "HIGH"
   }
 }
