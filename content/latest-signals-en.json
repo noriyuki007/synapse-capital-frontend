@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Hormuz Crisis Spurs Oil Shock Fears; Yen Vulnerability Intensifies",
-    "date": "2026-05-05 11:31",
+    "title": "[USD/JPY] FLAT: Intervention Risk Offsets Safe-Haven USD Demand Amid Geopolitical Tensions",
+    "date": "2026-05-05 19:00",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Hormuz Strait confrontation triggers 1970s-style oil shock fears",
-      "Japan's oil import dependency renders yen structurally vulnerable",
-      "Geopolitical risk premium supports USD against risk-sensitive yen"
+      "Intervention risk caps USD/JPY upside despite safe-haven USD bid from US-Iran stalemate",
+      "Core technical metrics (MA20, RSI-14, spot) unavailable, limiting directional bias",
+      "Neutral range positioning advised with tight stops, executable via xm-trading"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Oil shock risk drives USD/JPY higher as Hormuz crisis mirrors 1970s supply shocks",
+    "excerpt": "USD/JPY rangebound: intervention risk offsets safe-haven USD demand from US-Iran stalemate; core technicals unknown.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Oil shock risk from Hormuz crisis favors USD over energy-import-dependent yen",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Intervention risk offsets safe-haven USD bid, core technical metrics unavailable",
+    "entry": "158.75",
+    "tp": "159.80",
+    "sl": "157.70",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: Market Holds as AI Leaders and Geopolitical Risks Dominate",
-    "date": "2026-05-05 11:40",
+    "title": "[S&P 500] UP: Earnings Resilience Offsets Transport Weakness, AI Flags Sentiment Support",
+    "date": "2026-05-05 19:02",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "AI stock movements dominate the news",
-      "Iran war developments keep S&P 500 in a holding pattern",
-      "Bank of America’s warning adds caution"
+      "S&P 500 extends post-earnings rebound, shrugging off Iran tensions and diverging from near-bear-market Dow Transports",
+      "AI multi-factor analysis identifies neutral rate correlation and stable institutional order flow supporting large caps",
+      "Tactical long setup targets undefined resistance levels, with execution recommended via optimal liquidity provider"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 remains flat amid AI sector gains and geopolitical uncertainties, with prospects of a breakout pending event-driven catalysts.",
+    "excerpt": "S&P 500 rebounds on solid earnings, diverging from weak Dow Transports; AI flags sentiment support for tactical longs.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Market remains flat amid AI sector gains and geopolitical uncertainties; wait for a catalyst to drive a directional move.",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "status": "BUY",
+    "comment": "Earnings resilience and positive AI sentiment analysis support tactical long bias despite transport sector weakness",
+    "entry": "Unknown",
+    "tp": "Unknown",
+    "sl": "Unknown",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-05 11:42",
+    "date": "2026-05-05 19:12",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC consolidates near MA20 with rising volume",
-      "Circle's 20% rally signals liquidity inflow",
-      "RSI remains bullish despite overbought concerns"
+      "ETF inflows sustain bullish momentum",
+      "Regulatory clarity boosts crypto equities",
+      "Technical bias favors buying near MA20"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC trades near MA20 as Circle's 20% surge and stablecoin reforms boost liquidity, indicating upside potential.",
+    "excerpt": "Strong ETF inflows and regulatory tailwinds back a bullish BTC/USD view, targeting upside toward key resistance levels..",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "BTC shows bullish bias as fundamentals improve and technicals hold above MA20.",
-    "entry": "30200",
-    "tp": "32500",
-    "sl": "29500",
-    "reliability": "HIGH"
+    "comment": "Bullish fundamentals and technical support at MA20 support a long bias",
+    "entry": "Unknown",
+    "tp": "Unknown",
+    "sl": "Unknown",
+    "reliability": "MEDIUM"
   }
 }
