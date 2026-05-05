@@ -1,68 +1,69 @@
 {
   "FX": {
-    "title": "[USD/JPY] FLAT: Intervention Risk Offsets Safe-Haven USD Demand Amid Geopolitical Tensions",
-    "date": "2026-05-05 19:00",
+    "title": "[USD/JPY] [Direction] [Rationale] (e.g. 'Buy the dip toward MA20 as Fundamentals Turn Bullish')",
+    "date": "2026-05-06 02:21",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Intervention risk caps USD/JPY upside despite safe-haven USD bid from US-Iran stalemate",
-      "Core technical metrics (MA20, RSI-14, spot) unavailable, limiting directional bias",
-      "Neutral range positioning advised with tight stops, executable via xm-trading"
+      "Rising exchange rates paired with limited U.S. liquidity may signal consolidation.",
+      "GBPUSD technical strength could support further consolidation.",
+      "Strong Fed input and China-CHI dialogue add narrative depth.",
+      "AI signals the pair remains sensitive to central bank signals."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY rangebound: intervention risk offsets safe-haven USD demand from US-Iran stalemate; core technicals unknown.",
+    "excerpt": "Key catalysts indicate a potential mean reversion with trade near MA20.",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "Intervention risk offsets safe-haven USD bid, core technical metrics unavailable",
-    "entry": "158.75",
-    "tp": "159.80",
-    "sl": "157.70",
+    "comment": "Key catalysts indicate a potential mean reversion with trade near MA20.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Earnings Resilience Offsets Transport Weakness, AI Flags Sentiment Support",
-    "date": "2026-05-05 19:02",
+    "title": "[S&P 500] UP: Energy Sector Momentum Offsets Tech Weakness as Index Maintains Bullish Structure",
+    "date": "2026-05-06 02:22",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 extends post-earnings rebound, shrugging off Iran tensions and diverging from near-bear-market Dow Transports",
-      "AI multi-factor analysis identifies neutral rate correlation and stable institutional order flow supporting large caps",
-      "Tactical long setup targets undefined resistance levels, with execution recommended via optimal liquidity provider"
+      "Energy sector strength (CVX, APA) driving index higher amid oil price surge",
+      "Tech weakness contained (ORCL, FISV) without broader market contagion",
+      "MA20 support zone intact; RSI in neutral territory suggesting room for extension"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 rebounds on solid earnings, diverging from weak Dow Transports; AI flags sentiment support for tactical longs.",
+    "excerpt": "Energy-led rally offsets tech caution; technicals support upside continuation",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Earnings resilience and positive AI sentiment analysis support tactical long bias despite transport sector weakness",
-    "entry": "Unknown",
-    "tp": "Unknown",
-    "sl": "Unknown",
+    "comment": "Energy-led rally offsets tech weakness; MA20 support zone provides tactical entry",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-05 19:12",
+    "title": "[BTC/USD] UP: Institutional Adoption Catalysts Outweigh Regulatory Concerns",
+    "date": "2026-05-06 02:27",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "ETF inflows sustain bullish momentum",
-      "Regulatory clarity boosts crypto equities",
-      "Technical bias favors buying near MA20"
+      "Institutional inflows accelerating via traditional finance partnerships",
+      "Regulatory timeline creating near-term volatility with positive long-term catalysts",
+      "Technical structure forming higher lows with key MA20 support intact"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Strong ETF inflows and regulatory tailwinds back a bullish BTC/USD view, targeting upside toward key resistance levels..",
+    "excerpt": "Institutional adoption accelerating as regulatory clarity approaches, supporting BTC upside.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Bullish fundamentals and technical support at MA20 support a long bias",
-    "entry": "Unknown",
-    "tp": "Unknown",
-    "sl": "Unknown",
-    "reliability": "MEDIUM"
+    "comment": "Institutional adoption accelerating with regulatory clarity on horizon",
+    "entry": "67500.00",
+    "tp": "71500.00",
+    "sl": "66000.00",
+    "reliability": "HIGH"
   }
 }

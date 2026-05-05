@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-05-06-crypto-ja",
+    "date": "2026-05-06 02:27",
+    "title": "[BTC/USD] UP: Solanaエコシステム拡張と機関流入が価格を押し上げる見込み",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "機関によるSolana関連の投資拡大と決済インフラの整備が、BTC/USDに上昇圧力をかけている。規制リスクは短期的には注意が必要だが、ファンダメンタルズは依然強い。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-06-crypto-en",
+    "date": "2026-05-06 02:27",
+    "title": "[BTC/USD] UP: Institutional Adoption Catalysts Outweigh Regulatory Concerns",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "Institutional adoption accelerating as regulatory clarity approaches, supporting BTC upside.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-06-stocks-ja",
+    "date": "2026-05-06 02:22",
+    "title": "[S&P 500] UP: 原油高と地政学的安定が株価を支える",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Nomura Securities",
+    "excerpt": "原油価格の上昇とイラン停火合意の維持によりエネルギー株が買われ、S&P 500は上げ幅を拡大。AI関連支出への懸念は一部ハイテク株に限定され、全体としてリスクオンの地合いが継続する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-06-stocks-en",
+    "date": "2026-05-06 02:22",
+    "title": "[S&P 500] UP: Energy Sector Momentum Offsets Tech Weakness as Index Maintains Bullish Structure",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "Energy-led rally offsets tech caution; technicals support upside continuation",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-06-fx-ja",
+    "date": "2026-05-06 02:21",
+    "title": "[USD/JPY] UP: 米GDP強さとG10通貨連動上昇が円安を牽引",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "米GDP強さと主要通貨連動でUSD/JPYは明確な上昇軌道を形成。GBPUSD上昇を伴うG10リスク選好とFed・ECB政策差が円安圧を強め、上値重い展開が鮮明。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-06-fx-en",
+    "date": "2026-05-06 02:21",
+    "title": "[USD/JPY] [Direction] [Rationale] (e.g. 'Buy the dip toward MA20 as Fundamentals Turn Bullish')",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "Key catalysts indicate a potential mean reversion with trade near MA20.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-05-05-crypto-ja",
     "date": "2026-05-05 19:12",
     "title": "[BTC/USD] UP: ETF流入拡大とClarity Act期待で強気基調を確認",

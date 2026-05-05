@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] FLAT: Geopolitical Risk and Intervention Constraints Weigh on Pair",
-    "date": "2026-05-05 19:00",
+    "title": "[USD/JPY] UP: 米GDP強さとG10通貨連動上昇が円安を牽引",
+    "date": "2026-05-06 02:21",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "Geopolitical risk supports JPY safe-haven flows",
-      "Intervention concerns cap upside momentum",
-      "Range-bound trade likely amid data void"
+      "米GDPNow 3.7%がドル強を支えG10連動でUSD/JPY上昇",
+      "GBPUSD強気構造がリスク選好とUSD/JPY買い連動を加速",
+      "ECB緩和スタンスとFed金利差拡大が円安圧力を持続させる"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY remains constrained by conflicting macro forces: JPY safe-haven demand amid US-Iran tensions offset by intervention risks. Technicals suggest range-bound dynamics pending clearer directional catalysts.",
+    "excerpt": "米GDP強さと主要通貨連動でUSD/JPYは明確な上昇軌道を形成。GBPUSD上昇を伴うG10リスク選好とFed・ECB政策差が円安圧を強め、上値重い展開が鮮明。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "レンジトレードが有効、両方向にポジショニング",
-    "entry": "108.50",
-    "tp": "109.50",
-    "sl": "108.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "米GDP強さとG10通貨連動で円安圧力増大、GBPUSD上昇が買い連鎖を加速",
+    "entry": "155.20",
+    "tp": "1990.00",
+    "sl": "153.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: 運輸株の調整と決算底堅さが示す短期反発の整合性",
-    "date": "2026-05-05 19:02",
+    "title": "[S&P 500] UP: 原油高と地政学的安定が株価を支える",
+    "date": "2026-05-06 02:22",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "運輸セクターの調整は一時的であり、全体の需給は底堅い",
-      "決算シーズンの好調が指数を支える可能性",
-      "流動性豊かなブローカーを用いた押し目買いが有効"
+      "原油価格上昇とイラン停火合意がエネルギー株を牽引",
+      "米株式指数は上昇基調だが、AI関連銘柄の警戒感が残る",
+      "流動性の観点からNomura Securitiesの活用が有効"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "運輸株の調整が続く中、決算底堅さと市場のリスクオン傾向がS&P 500の短期反発を支えると見込む。",
+    "excerpt": "原油価格の上昇とイラン停火合意の維持によりエネルギー株が買われ、S&P 500は上げ幅を拡大。AI関連支出への懸念は一部ハイテク株に限定され、全体としてリスクオンの地合いが継続する。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "運輸株調整は一時的、決算底堅さとMA20サポートが短期上昇を後押し",
-    "entry": "5050",
-    "tp": "5300",
-    "sl": "5000",
-    "reliability": "MEDIUM"
+    "comment": "原油高と地政学的安定がエネルギー株を支え、指数全体を押し上げる",
+    "entry": "5180",
+    "tp": "5260",
+    "sl": "5140",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: ETF流入拡大とClarity Act期待で強気基調を確認",
-    "date": "2026-05-05 19:12",
+    "title": "[BTC/USD] UP: Solanaエコシステム拡張と機関流入が価格を押し上げる見込み",
+    "date": "2026-05-06 02:27",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "米国スポットビットコインETFへの連続3日間の資金流入が5.32億ドルを記録",
-      "Clarity Act関連の立法進展が機関のクリプト株への需給を押し上げ",
-      "オーダーフローとセンチメントが買い優勢を示唆し、短期的に上抜け余地がある"
+      "State StreetとGalaxyのSolanaファンドがステーブルコインを生産的資産に転換",
+      "MoonPayがDFlowを買収しSolanaの実行層を強化",
+      "RippleCEOが立法の正念場を警告も、全体的な資金流入は依然強気"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "ETF資金流入と規制明確化がビットコインの上昇リスクを支える。",
+    "excerpt": "機関によるSolana関連の投資拡大と決済インフラの整備が、BTC/USDに上昇圧力をかけている。規制リスクは短期的には注意が必要だが、ファンダメンタルズは依然強い。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "ETF流入と規制明確化が強気のファンダメンタルズを支え、MA20付近の押し目買いが有利",
-    "entry": "67500",
-    "tp": "70000",
-    "sl": "66000",
+    "comment": "Solana関連の機関流入とインフラ拡張が上昇バイアスを支えるため",
+    "entry": "66500",
+    "tp": "68500",
+    "sl": "65500",
     "reliability": "HIGH"
   }
 }
