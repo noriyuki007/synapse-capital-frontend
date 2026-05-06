@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: 欧州製造業クラストフォレーションと日銀の利率政策圧力が軋轄する",
-    "date": "2026-05-06 19:14",
+    "title": "[USD/JPY] DOWN: 50%レベルでの押し目売りの可能性と米金利低下期待がリスクオフを誘発",
+    "date": "2026-05-07 02:28",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "欧州製造業PMIは景気落差を示唆",
-      "日銀の利率政策修正観測で円買い圧力",
-      "米イランdeal Frameworkはリスクオン候候"
+      "要点1",
+      "要点2",
+      "要点3"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは欧州のディフレーション圧力と日銀の利率政策修正観測、米中緊張の減化に応じて下方を試す。MA20は150.00付近に位置し、リスク OFFの構造が優勢。",
+    "excerpt": "米金利低下期待と米国政局リスクがUSD/JPYを下押し、50%抵抗帯での売りシグナルが浮上し、短期的な下落トレンドが再燃する可能性が高まっている。これによりリスクオフが続き、円高局面が再構築される余地が出てくる。今後の米国債券利回りやFedの姿勢次第で、さらなる下落余地が生じる可能性がある。",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "欧州ディフレーションと日銀利率修正、売られ過ぎのRSI",
-    "entry": "150.00",
-    "tp": "149.00",
-    "sl": "150.50",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: マクロ催化とテクニカル反発の整合性",
-    "date": "2026-05-06 19:16",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "tldr_points": [
-      "米国債利回り低下とイラン合意期待でリスクオン",
-      "AI関連銘柄の決算好調がセクター牽引",
-      "テクニカルではMA20付近での押し目買い機会"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "米国債利回りの低下とイラン合意期待がリスクオンを誘導し、AI関連決算好調がS&P 500を押し上げる。テクニカルではMA20付近での押し目買いが有効。",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "米国債利回りの低下とイラン合意期待がリスクオンを誘導し、AI関連決算好調がS&P 500を押し上げる。テクニカルではMA20付近での押し目買いが有効。",
+    "comment": "米金利低下期待と米国政局リスクがUSD/JPYを下押し、50%抵抗帯での売りシグナルが浮上し、短期的な下落トレンドが再燃する可能性が高まっている。これによりリスクオフが続き、円高局面が再構築される余地が出てくる。今後の米国債券利回りやFedの姿勢次第で、さらなる下落余地が生じる可能性がある。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: U.S.-Iran Deal Hopes and Tech Momentum Confirm Bullish Bias",
+    "date": "2026-05-07 02:59",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "U.S.-Iran Deal Hopes Fuel Risk-On Sentiment",
+      "Tech Stocks Lead Record-Breaking Rally",
+      "Midterm Warnings Signal Caution Amid Fundamentals"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 extends gains amid U.S.-Iran deal optimism and tech-driven momentum. While fundamentals show resilience, midterm warnings suggest caution. Key resistance at 5,200 remains critical. Recommend monitoring volatility and liquidity for tactical entries.",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "U.S.-Iran deal optimism and tech momentum support bullish bias despite midterm risks.",
+    "entry": "5180",
+    "tp": "5250",
+    "sl": "5100",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: 安定コイン供給拡大とマイニングハブ形成によるファンダメンタルズ支援",
-    "date": "2026-05-06 19:19",
+    "title": "[BTC/USD] UP: 流動性リスクプレミアム低下と機関需要の定着",
+    "date": "2026-05-07 03:00",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "ビットワイズCIOが大手テックのステーブルコイン実験を挙げ、2030年までに4兆ドル規模の供給拡大を予測",
-      "コロンビア大統領がカリブ海をビットコインマイニング拠点に変える構想を表明",
-      "マイクロストラテジーのマイケル・セイラー氏がSTRC配当の補填のためビットコイン売却を示唆"
+      "米系金融機関の暗号資産取引拡大に伴う需要再定義",
+      "XRP Ledgerを活用した国際決済基盤整備によるリスク資産選好",
+      "機関投資家のSolanaステーキング拡大がポートフォリオ・ベータ上昇を牽引"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "安定コイン需要拡大とマイニングインフラ整備が下支えとなり、BTC/USDは上昇余地を探る展開。機関向けにエントリー・TP・SLを具体示す。",
+    "excerpt": "RippleとJPMorganによるXRP Ledgerの国際キャッシュアウト基盤構築とMorgan StanleyのE*Tradeを通じた暗号資産取引開始が流動性リスクプレミアムを再定義し、機関投資家によるBTC/USDの割高要因を強固にする。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "ファンダメンタルズの上昇要因とテクニカルな押し目サポートを根拠に買い",
-    "entry": "27500",
-    "tp": "30000",
-    "sl": "26500",
-    "reliability": "MEDIUM"
+    "comment": "機関投資家の暗号資産取引拡大と国際決済基盤整備が価格の下支えと上昇要因を強固にする。",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "HIGH"
   }
 }
