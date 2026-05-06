@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 米GDP強さとG10通貨連動上昇が円安を牽引",
-    "date": "2026-05-06 02:21",
+    "title": "[USD/JPY] UP: PBOCのUSD/CNY高め設定に伴う広範なUSD強気バイアスの反映",
+    "date": "2026-05-06 11:35",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米GDPNow 3.7%がドル強を支えG10連動でUSD/JPY上昇",
-      "GBPUSD強気構造がリスク選好とUSD/JPY買い連動を加速",
-      "ECB緩和スタンスとFed金利差拡大が円安圧力を持続させる"
+      "PBOCのUSD/CNY基準レートが市場予想を上回り広範なUSD買い圧力が顕在化",
+      "RBAの利上げ休止観測によりG10通貨のUSD需要先安感が後退",
+      "テクニカル面では上昇バイアスを維持し、ファンダメンタルズ主導のロングを推奨"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米GDP強さと主要通貨連動でUSD/JPYは明確な上昇軌道を形成。GBPUSD上昇を伴うG10リスク選好とFed・ECB政策差が円安圧を強め、上値重い展開が鮮明。",
+    "excerpt": "PBOCが設定したUSD/CNY基準レートが市場予想を上回り広範なUSD強気地合いが強まる。RBAの利上げ休止観測を背景にUSD/JPYは上昇バイアスを維持、厳格なリスク管理下で戦術的ロングを推奨。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "米GDP強さとG10通貨連動で円安圧力増大、GBPUSD上昇が買い連鎖を加速",
-    "entry": "155.20",
-    "tp": "1990.00",
+    "comment": "PBOCのUSD/CNY高め設定とRBA利上げ休止観測に伴うUSD強気バイアス",
+    "entry": "155.00",
+    "tp": "157.50",
     "sl": "153.50",
-    "reliability": "HIGH"
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: 原油高と地政学的安定が株価を支える",
-    "date": "2026-05-06 02:22",
+    "title": "[S&P 500] UP: テック決算好調とファンダメンタルズの整合性を確認",
+    "date": "2026-05-06 11:38",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "野村證券",
     "tldr_points": [
-      "原油価格上昇とイラン停火合意がエネルギー株を牽引",
-      "米株式指数は上昇基調だが、AI関連銘柄の警戒感が残る",
-      "流動性の観点からNomura Securitiesの活用が有効"
+      "テック決算が堅調で上方修正が続く",
+      "マクロは利下げ期待が強まるが、インフレは落ち着きつつある",
+      "チャートはMA20付近で反発の兆候"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "原油価格の上昇とイラン停火合意の維持によりエネルギー株が買われ、S&P 500は上げ幅を拡大。AI関連支出への懸念は一部ハイテク株に限定され、全体としてリスクオンの地合いが継続する。",
+    "excerpt": "テック決算の好調とマクロ環境の改善によりS&P500は上昇 bias。エントリーは押し目買いを推奨。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "原油高と地政学的安定がエネルギー株を支え、指数全体を押し上げる",
-    "entry": "5180",
-    "tp": "5260",
-    "sl": "5140",
+    "comment": "テック決算好調と利下げ期待が上昇を後押し、MA20付近からの反発を狙う",
+    "entry": "5180.00",
+    "tp": "5260.00",
+    "sl": "5120.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Solanaエコシステム拡張と機関流入が価格を押し上げる見込み",
-    "date": "2026-05-06 02:27",
+    "title": "[BTC/USD] DOWN: Strategyの資金調達需要が売り圧となる中、テクニカル要因で反発を試みる",
+    "date": "2026-05-06 12:32",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "State StreetとGalaxyのSolanaファンドがステーブルコインを生産的資産に転換",
-      "MoonPayがDFlowを買収しSolanaの実行層を強化",
-      "RippleCEOが立法の正念場を警告も、全体的な資金流入は依然強気"
+      "StrategyのSBRC配当のためのBTC売却圧",
+      "CFTCの非保管型開発者保護策",
+      "Kelp DAOのChainlinkへのインフラシフト"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "機関によるSolana関連の投資拡大と決済インフラの整備が、BTC/USDに上昇圧力をかけている。規制リスクは短期的には注意が必要だが、ファンダメンタルズは依然強い。",
+    "excerpt": "Strategyの資金調達需要が売り圧となり、BTC/USDはテクニカル反発を試みるも下方向へのトレンド構造を維持。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Solana関連の機関流入とインフラ拡張が上昇バイアスを支えるため",
-    "entry": "66500",
-    "tp": "68500",
-    "sl": "65500",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "Strategyの資金調達需要とリスク回避気分が売り圧を維持。",
+    "entry": "0.00",
+    "tp": "60000",
+    "sl": "62500",
+    "reliability": "MEDIUM"
   }
 }

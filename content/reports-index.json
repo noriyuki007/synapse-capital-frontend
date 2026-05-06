@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-05-06-crypto-ja",
-    "date": "2026-05-06 02:27",
-    "title": "[BTC/USD] UP: Solanaエコシステム拡張と機関流入が価格を押し上げる見込み",
+    "date": "2026-05-06 12:32",
+    "title": "[BTC/USD] DOWN: Strategyの資金調達需要が売り圧となる中、テクニカル要因で反発を試みる",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
-    "excerpt": "機関によるSolana関連の投資拡大と決済インフラの整備が、BTC/USDに上昇圧力をかけている。規制リスクは短期的には注意が必要だが、ファンダメンタルズは依然強い。",
+    "excerpt": "Strategyの資金調達需要が売り圧となり、BTC/USDはテクニカル反発を試みるも下方向へのトレンド構造を維持。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-06-crypto-en",
-    "date": "2026-05-06 02:27",
-    "title": "[BTC/USD] UP: Institutional Adoption Catalysts Outweigh Regulatory Concerns",
+    "date": "2026-05-06 12:32",
+    "title": "[BTC/USD] UP: Macro Liquidity and Technical Base Formation Offset Corporate Headwinds",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "Institutional adoption accelerating as regulatory clarity approaches, supporting BTC upside.",
+    "excerpt": "Macro liquidity backstop and cross-chain infrastructure upgrade underpin BTC technical basing; corporate overhang priced contained.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-05-06-stocks-ja",
-    "date": "2026-05-06 02:22",
-    "title": "[S&P 500] UP: 原油高と地政学的安定が株価を支える",
+    "date": "2026-05-06 11:38",
+    "title": "[S&P 500] UP: テック決算好調とファンダメンタルズの整合性を確認",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
-    "excerpt": "原油価格の上昇とイラン停火合意の維持によりエネルギー株が買われ、S&P 500は上げ幅を拡大。AI関連支出への懸念は一部ハイテク株に限定され、全体としてリスクオンの地合いが継続する。",
+    "recommended_broker": "野村證券",
+    "excerpt": "テック決算の好調とマクロ環境の改善によりS&P500は上昇 bias。エントリーは押し目買いを推奨。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-06-stocks-en",
-    "date": "2026-05-06 02:22",
-    "title": "[S&P 500] UP: Energy Sector Momentum Offsets Tech Weakness as Index Maintains Bullish Structure",
+    "date": "2026-05-06 11:38",
+    "title": "[S&P500] UP: AI-Driven Momentum Converges with Macro Resilience",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "excerpt": "Energy-led rally offsets tech caution; technicals support upside continuation",
+    "recommended_broker": "For executing this specific setup, we recommend utilizing Daniels Trading due to optimal liquidity.",
+    "excerpt": "S&P 500 ascends on AI earnings resilience and mature macro tailwinds.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-05-06-fx-ja",
-    "date": "2026-05-06 02:21",
-    "title": "[USD/JPY] UP: 米GDP強さとG10通貨連動上昇が円安を牽引",
+    "date": "2026-05-06 11:35",
+    "title": "[USD/JPY] UP: PBOCのUSD/CNY高め設定に伴う広範なUSD強気バイアスの反映",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "米GDP強さと主要通貨連動でUSD/JPYは明確な上昇軌道を形成。GBPUSD上昇を伴うG10リスク選好とFed・ECB政策差が円安圧を強め、上値重い展開が鮮明。",
+    "excerpt": "PBOCが設定したUSD/CNY基準レートが市場予想を上回り広範なUSD強気地合いが強まる。RBAの利上げ休止観測を背景にUSD/JPYは上昇バイアスを維持、厳格なリスク管理下で戦術的ロングを推奨。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-06-fx-en",
-    "date": "2026-05-06 02:21",
-    "title": "[USD/JPY] [Direction] [Rationale] (e.g. 'Buy the dip toward MA20 as Fundamentals Turn Bullish')",
+    "date": "2026-05-06 11:35",
+    "title": "[USD/JPY] FLAT: AI Detects Minor Consolidation on Neutral Trendline",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
-    "excerpt": "Key catalysts indicate a potential mean reversion with trade near MA20.",
+    "excerpt": "USD/JPY consolidates between 140.00 and 142.00, awaiting clearer rate signals from RBA and PBOC.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD breaks $80k resistance amid derivative inflows; bias upward with defined entry, TP, SL levels.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "excerpt": "イランによる米軍艦攻撃報道でリスクオフが強まり、S&P 500は下押し pressure を受ける。テクニカル的にはMA20未下抜けが売りシグナルを示す。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500 faces dual forces: geopolitical escalation vs. AI/crypto momentum. Range-bound near-term.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "excerpt": "イランの軍事行動がリスクオフを誘発し、円の安全資産需要が高まる中、ECBの利上げ期待でドルが相対的に弱体化。USD/JPYは介入後の下落を埋め戻すが、上値は重く、戻り売りが有利と判断。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY regains post-intervention footing as ECB signals June rate hike amid geopolitical tensions.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
