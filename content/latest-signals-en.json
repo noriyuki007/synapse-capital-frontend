@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY 市場分析",
-    "date": "2026-05-07",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-07 11:37",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "tldr_points": [],
+    "tldr_points": [
+      "PBOC's USD/CNY hike signals CNY weakening, supporting USD/JPY",
+      "Australia's trade deficit reinforces risk-off USD demand",
+      "Geopolitical tensions provide safe-haven tailwinds"
+    ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "",
+    "excerpt": "AI flags USD/JPY for upside as CNY weakness and risk aversion align. Key support at MA20 offers tactical entry with tight risk.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Short bias based on resistance at 50% retracement and weakening momentum.",
-    "entry": "150.00",
-    "tp": "148.50",
-    "sl": "151.20",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "PBOC's CNY weakening and Australia's trade deficit create a bullish USD/JPY setup with MA20 support.",
+    "entry": "157.20",
+    "tp": "158.50",
+    "sl": "156.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Iran Deal Optimism Coupled with Tech Strength Supports Bullish Outlook",
-    "date": "2026-05-07 02:59",
+    "title": "[S&P 500] UP: AI Momentum and Iran-Deal Optimism Drive Breakout Above Key Resistance",
+    "date": "2026-05-07 12:26",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "For executing this specific setup, we recommend utilizing [] due to optimal liquidity.",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Iran peace‑deal expectations lift risk sentiment",
-      "Tech leaders (AMD, Apple, Nvidia) breaking out",
-      "Fundamentals align with supportive rate environment"
+      "S&P 500 surges on Iran-deal hopes and AI sector leadership",
+      "Nvidia and ARM earnings momentum drive tech sector breadth",
+      "Technical setup favors buying dips toward MA20 with defined risk"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Iran deal optimism and tech breakout drive S&P 500 higher amid supportive macro backdrop.",
+    "excerpt": "AI-driven rally and geopolitical tailwinds push index toward record highs; tactical long bias warranted",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Geopolitical de‑escalation and tech breakout generate bullish bias.",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "comment": "Uptrend intact with AI earnings momentum and geopolitical tailwinds supporting further upside; buy dips toward MA20",
+    "entry": "MA20 zone",
+    "tp": "prior resistance/all-time highs",
+    "sl": "below recent swing low (1.5-2.0% risk)",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "BTC/USD 市場分析",
-    "date": "2026-05-07 03:00",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-07 12:36",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "AI flags MA20 support as technical bounce",
-      "Rising institutional inflows signal renewed demand",
-      "Regulatory clarity eases risk premium"
+      "White House targets July 4 crypto bill passage",
+      "1inch exploit drains $6M but Aave liquidations contained",
+      "Institutional mining losses offset by record production"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "AI flags MA20 support, RSI shows oversold bounce; macro catalysts from Treasury tokenization and moves favor upside strong.",
+    "excerpt": "BTC positioned for recovery as regulatory clarity emerges and technicals signal oversold rebound.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "AI flags MA20 support, RSI shows oversold bounce; macro catalysts from Treasury tokenization and moves favor upside strong.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Regulatory clarity and technical oversold condition support upward momentum.",
+    "entry": "60000",
+    "tp": "68000",
+    "sl": "55000",
+    "reliability": "HIGH"
   }
 }

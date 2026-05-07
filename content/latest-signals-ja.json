@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: 50%レベルでの押し目売りの可能性と米金利低下期待がリスクオフを誘発",
-    "date": "2026-05-07 02:28",
+    "title": "[USD/JPY] DOWN: 中東リスクと豪州貿易悪化が円買いを誘発",
+    "date": "2026-05-07 11:37",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "要点1",
-      "要点2",
-      "要点3"
+      "サウジ基地禁止によるホルムズ海峡操作停止がリスクオフを誘発",
+      "豪州3月貿易赤字が予想外に拡大、リスク資産に圧力",
+      "人民元基準値が予想以上に弱含み、ドルの上値が重い"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米金利低下期待と米国政局リスクがUSD/JPYを下押し、50%抵抗帯での売りシグナルが浮上し、短期的な下落トレンドが再燃する可能性が高まっている。これによりリスクオフが続き、円高局面が再構築される余地が出てくる。今後の米国債券利回りやFedの姿勢次第で、さらなる下落余地が生じる可能性がある。",
+    "excerpt": "中東緊張と豪州貿易悪化がリスクオフを誘発し、米ドル/円は下押し圧力が強まる見込み。",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "米金利低下期待と米国政局リスクがUSD/JPYを下押し、50%抵抗帯での売りシグナルが浮上し、短期的な下落トレンドが再燃する可能性が高まっている。これによりリスクオフが続き、円高局面が再構築される余地が出てくる。今後の米国債券利回りやFedの姿勢次第で、さらなる下落余地が生じる可能性がある。",
+    "comment": "中東緊張と豪州貿易悪化がリスクオフを誘発し、米ドル/円は下押し圧力が強まる見込み。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: U.S.-Iran Deal Hopes and Tech Momentum Confirm Bullish Bias",
-    "date": "2026-05-07 02:59",
+    "title": "S&P 500分析：持ち合い局面における流動性ゾーンの特定",
+    "date": "2026-05-07 12:26",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
     "tldr_points": [
-      "U.S.-Iran Deal Hopes Fuel Risk-On Sentiment",
-      "Tech Stocks Lead Record-Breaking Rally",
-      "Midterm Warnings Signal Caution Amid Fundamentals"
+      "金利相関（近似）: 0.00で負相関傾向",
+      "テクニカル: 現在価格 --- と MA20 --- の位置関係が主導",
+      "需給: 重要帯の確認が必要 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 extends gains amid U.S.-Iran deal optimism and tech-driven momentum. While fundamentals show resilience, midterm warnings suggest caution. Key resistance at 5,200 remains critical. Recommend monitoring volatility and liquidity for tactical entries.",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "U.S.-Iran deal optimism and tech momentum support bullish bias despite midterm risks.",
-    "entry": "5180",
-    "tp": "5250",
-    "sl": "5100",
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、S&P 500の現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: 流動性リスクプレミアム低下と機関需要の定着",
-    "date": "2026-05-07 03:00",
+    "title": "[BTC/USD] DOWN: 規制不透明と流動性悪化が重し",
+    "date": "2026-05-07 12:36",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "米系金融機関の暗号資産取引拡大に伴う需要再定義",
-      "XRP Ledgerを活用した国際決済基盤整備によるリスク資産選好",
-      "機関投資家のSolanaステーキング拡大がポートフォリオ・ベータ上昇を牽引"
+      "規制法案の期限迫り不透明感が売り圧力",
+      "大規模盗難・エクスプロイトが発生しリスクオフ",
+      "マイニング損失が需給に下向き圧力"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "RippleとJPMorganによるXRP Ledgerの国際キャッシュアウト基盤構築とMorgan StanleyのE*Tradeを通じた暗号資産取引開始が流動性リスクプレミアムを再定義し、機関投資家によるBTC/USDの割高要因を強固にする。",
+    "excerpt": "規制期限迫る中、盗難エクスプロイトとマイニング損失が重なり、BTC/USDは下押しリスクが高まる。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "機関投資家の暗号資産取引拡大と国際決済基盤整備が価格の下支えと上昇要因を強固にする。",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "規制不透明と流動性悪化が下押し圧力を強め、MA20上抜け失敗時の戻り売りが有効",
+    "entry": "27800",
+    "tp": "26500",
+    "sl": "28500",
+    "reliability": "MEDIUM"
   }
 }
