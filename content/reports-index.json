@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-05-08-crypto-ja",
+    "date": "2026-05-08 02:57",
+    "title": "[BTC/USD] UP: ETF流入加速と金利逆転局面での強気ファンダメンタルズ",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTCはETF流入と金利緩和で$85K上方に向かい、短期的に押し目買いが有効と判断。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-08-crypto-en",
+    "date": "2026-05-08 02:57",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC targets $85K resistance as $1.69B ETF inflows fuel bullish momentum",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-08-stocks-ja",
+    "date": "2026-05-08 02:49",
+    "title": "[S&P 500] DOWN: イラン情勢とレイオフ増加が下押し圧力を強める",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "イラン情勢とレイオフ増加が需給を悪化させ、S&P 500は下押しリスクが高まると見込む。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-08-stocks-en",
+    "date": "2026-05-08 02:49",
+    "title": "[S&P 500] DOWN: Yield Curve Steepening and Momentum Weakness Signal Further Decline",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "Yield curve stress, waning momentum and mixed macro data suggest further downside for the S&P 500.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-08-fx-ja",
+    "date": "2026-05-08 02:46",
+    "title": "[USD/JPY] UP: 金利上昇とリスクオフの調整で買い優位",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "米軍基地制限緩和とフィラデルフィア連銀総裁のハト派発言が米ドルを支え、原油の下値切り上げと中東緊張がリスクオフを誘発し、USD/JPYは上昇余地がある。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-08-fx-en",
+    "date": "2026-05-08 02:46",
+    "title": "[USD/JPY] UP: Rising Yields and Geopolitical Risk Premium Drive Bullish Momentum",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY gains momentum as rising yields and crude oil recovery toward $95 bolster the USD against the Yen.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-05-07-crypto-ja",
     "date": "2026-05-07 20:06",
     "title": "[BTC/USD] UP: インスタティューショナル・エラーの到来とETF連続流入が抵抗転換を確認",
