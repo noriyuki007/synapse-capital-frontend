@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: 中東リスクと豪州貿易悪化が円買いを誘発",
-    "date": "2026-05-07 11:37",
+    "title": "[USD/JPY] DOWN: 植田総裁発言と米雇用悪化で円高圧力が増強",
+    "date": "2026-05-07 19:22",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "サウジ基地禁止によるホルムズ海峡操作停止がリスクオフを誘発",
-      "豪州3月貿易赤字が予想外に拡大、リスク資産に圧力",
-      "人民元基準値が予想以上に弱含み、ドルの上値が重い"
+      "BoJによる市場介入観測が円買いを加速",
+      "米国求人件数38%増でドル売り圧力",
+      "IMF警告も日本の追加介入を正当化"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "中東緊張と豪州貿易悪化がリスクオフを誘発し、米ドル/円は下押し圧力が強まる見込み。",
+    "excerpt": "米雇用市場の減速と日銀の介入姿勢が明確化し、USD/JPYは155円台攻防の様相。介入リスク的高まる中で円高バイアスが優勢。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "中東緊張と豪州貿易悪化がリスクオフを誘発し、米ドル/円は下押し圧力が強まる見込み。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "米雇用悪化と日銀介入観測による円高トレンドに乗る",
+    "entry": "155.00-155.20",
+    "tp": "154.50",
+    "sl": "155.50",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500分析：持ち合い局面における流動性ゾーンの特定",
-    "date": "2026-05-07 12:26",
+    "title": "[S&P 500] UP: トランプ政策リスク許容と金利正常化下でのEPS底堅さによる上振れバイアス",
+    "date": "2026-05-07 20:04",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "金利相関（近似）: 0.00で負相関傾向",
-      "テクニカル: 現在価格 --- と MA20 --- の位置関係が主導",
-      "需給: 重要帯の確認が必要 によるターゲット設計"
+      "Sell in Mayの実効性低下と政策リスク許容が上値支持要因",
+      "10年債利回り4.6%突破シナリオにおけるバリュエーション耐性の検証",
+      "過去20年クラスの好決算期における質とマクロ・ミクロの整合性"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "トランプ期特有のリスク許容とインフレ後退期待がS&P 500へ上振れ圧力を加えている。金利正常化下でもEPSの底堅さがバリュエーションを支え、Sell in Mayの定石は瓦解しつつある。10年債利回り4.6%超はバッファーとして機能すると見込む。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、S&P 500の現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "政策リスク許容と好決算が下値を支え、金利上昇リスクは織り込み済みのため上値支持が優位。",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: 規制不透明と流動性悪化が重し",
-    "date": "2026-05-07 12:36",
+    "title": "[BTC/USD] UP: インスタティューショナル・エラーの到来とETF連続流入が抵抗転換を確認",
+    "date": "2026-05-07 20:06",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "規制法案の期限迫り不透明感が売り圧力",
-      "大規模盗難・エクスプロイトが発生しリスクオフ",
-      "マイニング損失が需給に下向き圧力"
+      "ETFからの5日連続流入総額1.7億ドルがトレンドを後押し",
+      "パンテラが示す3210億ドルのトークナイゼーション市場は前期に爆発の可能性",
+      "コアサイエンティフィックの業績悪化はマイニングセクターの構造的調整を示唆"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "規制期限迫る中、盗難エクスプロイトとマイニング損失が重なり、BTC/USDは下押しリスクが高まる。",
+    "excerpt": "インスタティューショナル・エラーの確証とETFの継続的な資金流入がBTCを上向きに推進。テクニカル面も底値からの反発構造を示している。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "規制不透明と流動性悪化が下押し圧力を強め、MA20上抜け失敗時の戻り売りが有効",
-    "entry": "27800",
-    "tp": "26500",
-    "sl": "28500",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "20日移動平均反発とETF資金流入の信頼性の高いシグナル",
+    "entry": "26500.00",
+    "tp": "30000.00",
+    "sl": "25000.00",
+    "reliability": "HIGH"
   }
 }
