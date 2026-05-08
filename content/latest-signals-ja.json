@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 介入効果の剥落とマクロ環境の負の継続を背景とした円安再燃",
-    "date": "2026-05-08 18:16",
+    "title": "[USD/JPY] DOWN: Risk‑off sentiment and dovish Fed weigh on dollar while safe‑haven yen gains",
+    "date": "2026-05-09 02:14",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "日本円は介入主導の上昇を削りマクロ背景の弱さが再燃",
-      "本日のAI解析は金利差拡大と円の構造的弱さを確認",
-      "押し目買い戦略を推奨、実行には[dmm-fx]の流動性を活用"
+      "リスクオフ環境が円買いを支える",
+      "ECBのエネルギー価格抑制姿勢はドルに中立的",
+      "米雇用の安定とインフレ鈍化はドル下押し圧力"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは日本当局の介入効果が薄れる中、マクロ環境の負の背景を材料に円安基調が再燃。本日のシナプス解析は金利差とセンチメントの円安バイアスを検出。流動性の観点から[dmm-fx]を通じた押し目買いを推奨する。",
+    "excerpt": "リスクオフとダブルハトのファンダメンタルズが円を支え、USD/JPYは下押し圧力にさらされている。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "介入効果剥落とマクロ環境の負の背景を背景とした円安再燃",
-    "entry": "150.00",
-    "tp": "152.50",
-    "sl": "149.00",
+    "status": "SELL",
+    "comment": "リスクオフとドルの上昇余地限定が円買いを促す",
+    "entry": "155.00",
+    "tp": "153.50",
+    "sl": "155.80",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: ファイナンシャル・ポリシー転換とハイパースケーラーのフリーキャッシュフロー悪化が重し",
-    "date": "2026-05-08 18:20",
+    "title": "[S&P500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-05-09 02:23",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Nomura Securities",
+    "prediction_direction": "UP",
+    "recommended_broker": "楽天証券",
     "tldr_points": [
-      "連邦準備制度の政策転換が株価に下押し圧力をかけている",
-      "ハイパースケーラーのフリーキャッシュフロー減少がセクター全体のvaluationを圧迫",
-      "雇用指数改善にもかかわらず、リスクオフムードが優勢"
+      "テクノロジー主導の上昇相場がS&P500を押し上げ",
+      "ガス価格上昇によるインフレ懸念が利上げリスクを高幅",
+      "短期的押し目買い場が形成され、リスク管理を徹底したロング推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "FRBの政策転換とハイパースケーラーのキャッシュフロー悪化がS&P 500に下押し圧力を与え、売り方向の戦略が有力。",
+    "excerpt": "ガス価格上昇とテクノロジー主導の上昇相場がS&P500を押し上げ、短期的な買い場が形成中。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "FRB政策転換期待とハイパースケーラーのフリーキャッシュフロー減少が下押し圧力、テクニカルでもMA20付近での戻り売りが有効",
-    "entry": "5180",
-    "tp": "5050",
-    "sl": "5250",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "テクニカル指標とマクロカタルシスの一致から短期的な上昇余地が確認でき、BUY推奨",
+    "entry": "4150",
+    "tp": "4565",
+    "sl": "4050",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: 韓国規制強化とCoinbase復旧が需給改善、テクニカルはMA20付近での反発を示唆",
-    "date": "2026-05-08 18:26",
+    "title": "[BTC/USD] UP: インデックスファンド流入とマイニング収益シフトによる支持基盤の強化",
+    "date": "2026-05-09 02:52",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "韓国の海外送金規制強化が機関フローを抑制し、需給の引き締まりを示唆",
-      "CoinbaseのAWS障害復旧で取引活動が正常化、短期的な買い圧力が期待",
-      "ArbitrumDAOのETH放出とAptosのエコシステム投資がレイヤー2需要を底上げ"
+      "Coinbaseの「すべての取引所」戦略が traction を獲得",
+      "TeraWulfのHPC収益がマイニングを上回る構造変化",
+      "ETF流出とイラン緊張が一時的な抵抗帯を形成"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "韓国規制強化とCoinbase復旧が需給を改善、テクニカルはMA20付近での反発を示唆し、押し目買い戦略を推奨。",
+    "excerpt": "BTCはCoinbaseの戦略的進展とマイニングセクターの収益構造変化による支持基盤を維持。中期的にはインデックスファンドの流入が値動きを牽引する可能性が高い。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "韓国規制強需給引き締めとCoinbase流動性回復によりMA20付近での反発が期待され、押し目買いが有利",
-    "entry": "27500",
-    "tp": "29000",
-    "sl": "26950",
-    "reliability": "HIGH"
+    "comment": "Coinbaseの戦略的進展とマイニングセクターの収益構造変化による支持基盤を維持",
+    "entry": "68000",
+    "tp": "72000",
+    "sl": "65000",
+    "reliability": "MEDIUM"
   }
 }

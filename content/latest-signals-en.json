@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Yen Unwinds Intervention Gains Amid Negative Macro Fundamentals",
-    "date": "2026-05-08 18:16",
+    "title": "[USD/JPY] DOWN: AI Detects Safe-Haven Flows as Fed Tone Dovens",
+    "date": "2026-05-09 02:14",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Japanese yen continues to erase intervention-driven gains as domestic macro backdrop remains negative",
-      "USD/JPY retains upside bias amid steady global risk sentiment and wide US-Japan yield differentials",
-      "Technical structure favors bullish momentum as transitory intervention support fades"
+      "Geopolitical tensions boost JPY safe-haven appeal",
+      "Fed's dovish tone weighs on USD fundamentals",
+      "Technical resistance confirms bearish momentum"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish bias as yen erodes intervention gains; macro fundamentals favor upside amid steady risk.",
+    "excerpt": "USD/JPY pressured by safe-haven flows and dovish Fed tone.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Yen erases intervention gains amid negative macro backdrop, favoring USD/JPY upside",
+    "status": "SELL",
+    "comment": "Safe-haven flows and dovish Fed favor JPY strength",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
-    "reliability": "MEDIUM"
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500 市場分析",
-    "date": "2026-05-08 18:20",
+    "title": "[S&P 500] UP: Tech Leadership Drives Index Higher Amid Broad Risk-On Sentiment",
+    "date": "2026-05-09 02:23",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "AI earnings surge meets Fed pause; S&P 500 tests MA20 support",
-      "Bullish bias solidifies as macro risk fades",
-      "Technical structure shows MA20 support with rising momentum"
+      "Tech sector leadership propels S&P 500 higher with Nasdaq outperforming Dow",
+      "K-shaped recovery in equities continues as technology stocks decouple from labor market weakness",
+      "Momentum favors upside despite overbought signals; buy dips toward moving average support"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "AI earnings surge meets Fed pause; S&P 500 tests MA20 support, bullish bias solidifies as macro risk fades today still.",
+    "excerpt": "Tech-driven rally continues; target pullbacks to MA20 for institutional long entries.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "AI earnings surge meets Fed pause; S&P 500 tests MA20 support, bullish bias solidifies as macro risk fades today still.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
-  },
-  "CRYPTO": {
-    "title": "[BTC/USD] FLAT: Mixed Regulatory Signals Offset Ecosystem Catalysts",
-    "date": "2026-05-08 18:26",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "bybit",
-    "tldr_points": [
-      "Mixed regulatory developments limit near-term directional conviction for BTC/USD",
-      "Operational restoration at Coinbase alleviates short-term liquidity constraints",
-      "Layer 2 and altcoin ecosystem funding provides no direct catalyst for BTC price action"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD trades rangebound as mixed regulatory headlines offset selective ecosystem funding tailwinds.",
-    "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "Mixed regulatory signals and unavailable technical data preclude directional conviction",
+    "status": "BUY",
+    "comment": "Tech-led rally favors upside; buy dips to MA20 support",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
-    "reliability": "LOW"
+    "reliability": "MEDIUM"
+  },
+  "CRYPTO": {
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-09 02:52",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "tldr_points": [
+      "AI-driven institutional demand offsets macro headwinds",
+      "MA20 acts as critical support level with RSI oversold bounce",
+      "ETF outflows temper near-term momentum but structural buying emerges"
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "BTC finds support at MA20 amid AI-driven institutional adoption and ETF-driven volatility.",
+    "pair": "BTC/USD",
+    "status": "BUY",
+    "comment": "MA20 support with AI-driven institutional demand offsets ETF outflows",
+    "entry": "67000",
+    "tp": "72000",
+    "sl": "64000",
+    "reliability": "HIGH"
   }
 }
