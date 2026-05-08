@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 金利上昇とリスクオフの調整で買い優位",
-    "date": "2026-05-08 02:46",
+    "title": "[USD/JPY] UP: サービスPMI低迷と米金利見通しの整合性",
+    "date": "2026-05-08 11:43",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米軍基地使用制限緩和が米ドル需要を支える",
-      "フィラデルフィア連銀総裁のインフレ目標再確認で金利上昇期待",
-      "原油価格の下値切り上げと中東リスクがリスクオフを誘発し円買いを抑制"
+      "日本サービスPMIが11ヶ月低下し円売り圧力が高まる",
+      "米金利据え置き・利下げ観測がドルを下支え、リスクオン傾向が続く",
+      "トランプ関税リスクは限定的との見方がドル円の上押しを後押し"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米軍基地制限緩和とフィラデルフィア連銀総裁のハト派発言が米ドルを支え、原油の下値切り上げと中東緊張がリスクオフを誘発し、USD/JPYは上昇余地がある。",
+    "excerpt": "日本サービスPMIの低迷と米金利据え置きがドル円を押し上げ、上昇バイアスが形成されている。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "金利上昇とリスクオフ調整による買い優位、テクニカル的に押し目買いが妥当",
-    "entry": "154.80",
-    "tp": "156.20",
-    "sl": "154.00",
+    "comment": "サービスPMI低迷と米金利据え置きがドル円を押し上げる",
+    "entry": "155.00",
+    "tp": "156.50",
+    "sl": "154.30",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: イラン情勢とレイオフ増加が下押し圧力を強める",
-    "date": "2026-05-08 02:49",
+    "title": "[S&P 500] DOWN: 地政学的リスクと小型株弱含みが重し",
+    "date": "2026-05-08 11:47",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "recommended_broker": "野村證券",
     "tldr_points": [
-      "イラン和平交渉の進展とレイオフ増加が需給悪化を示唆",
-      "エネルギーコスト上昇はセクター別でのボラティリティを誘発",
-      "テクニカル的にはMA20未満での推移が下落トレンドを示す"
+      "米イラン対立が原油価格を押し上げ、インフレ懸念が再燃",
+      "小型株の急落がリスクオフムードを助長、S&P 500への波及が懸念",
+      "テクニカルはMA20付近での売り圧力が顕著"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "イラン情勢とレイオフ増加が需給を悪化させ、S&P 500は下押しリスクが高まると見込む。",
+    "excerpt": "地政学的緊張と小型株弱含みがS&P 500に下押し圧力をかけ、MA20付近での売りが視野に入る。",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "イラン情勢とレイオフ増加による需給悪化およびMA20未満の下落トレンドが根拠",
-    "entry": "5300",
-    "tp": "5150",
-    "sl": "5400",
+    "comment": "米イラン対立による原油上昇とインフレ懸念、MA20付近の売りオーダーフロー集中が下押しリスクを強化",
+    "entry": "5180",
+    "tp": "5050",
+    "sl": "5260",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: ETF流入加速と金利逆転局面での強気ファンダメンタルズ",
-    "date": "2026-05-08 02:57",
+    "title": "[BTC/USD] UP: マクロの緩和と機関需要の強化を反映",
+    "date": "2026-05-08 11:59",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "金利環境が緩和方向に傾く中、BTCは$85K節目を意識し上昇トレンド維持。",
-      "ETF流入連続1.69B$、JPMorganはStrategyの買い額30B$と予測。",
-      "流動性確保の観点で[bitflyer]の利用を推奨。"
+      "Solv ProtocolがLayerZeroからChainlinkへ移行、トークン化ビットコイン需要が拡大",
+      "DorseyのBlockがビットコイン再評価損失を記録も全年ガイダンス上方修正",
+      "機関の現物依存低下が進む中、代替流動性プラットフォームへ資金流入"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCはETF流入と金利緩和で$85K上方に向かい、短期的に押し目買いが有効と判断。",
+    "excerpt": "マクロ環境の緩和と機関の代替需要がBTCを下支えし、上昇バイアスが形成される見込み。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "ETF流入加速と金利緩和で$85K上方に向かう強気トレンドを利用し、押し目買いを実行。",
-    "entry": "82000",
-    "tp": "85500",
-    "sl": "79500",
-    "reliability": "HIGH"
+    "comment": "マクロ緩和と機関代需要増加、テクニカルな押し目が買いシグナル",
+    "entry": "68500",
+    "tp": "73000",
+    "sl": "67500",
+    "reliability": "MEDIUM"
   }
 }
