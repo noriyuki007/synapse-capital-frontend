@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Flags MA20 Support Amid Tariff‑Driven Fed Cuts",
-    "date": "2026-05-08 11:43",
+    "title": "[USD/JPY] UP: Yen Unwinds Intervention Gains Amid Negative Macro Fundamentals",
+    "date": "2026-05-08 18:16",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "AI identifies bullish support at MA20 as technical momentum aligns with Fed cut expectations.",
-      "Rising US‑Japan rate divergence reinforces upside bias.",
-      "Tariff‑driven policy risk adds uncertainty, but current ordering flow favors buying."
+      "Japanese yen continues to erase intervention-driven gains as domestic macro backdrop remains negative",
+      "USD/JPY retains upside bias amid steady global risk sentiment and wide US-Japan yield differentials",
+      "Technical structure favors bullish momentum as transitory intervention support fades"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "AI flags bullish USD/JPY setup as tech shows support at MA20, RSI low, and tariff‑driven Fed cuts loom. in Asian session.",
+    "excerpt": "USD/JPY bullish bias as yen erodes intervention gains; macro fundamentals favor upside amid steady risk.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "AI‑confirmed bullish setup with strong risk‑reward profile.",
-    "entry": "152.30",
-    "tp": "153.20",
-    "sl": "151.80",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: Oil‑Price Spike and Small‑Cap Weakness Pressure Major Index",
-    "date": "2026-05-08 11:47",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "For executing this short‑bias setup, we recommend utilizing [] due to optimal liquidity.",
-    "tldr_points": [
-      "Oil price surge from U.S.–Iran tensions drags risk assets",
-      "Small‑cap sell‑off amplifies breadth weakness",
-      "Technicals signal breach of key support around MA20"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Oil‑price shock and small‑cap sell‑off push S&P 500 below MA20, opening short‑bias trade.",
-    "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Oil price shock and breadth deterioration justify a short bias below MA20.",
-    "entry": "5045",
-    "tp": "5000",
-    "sl": "5075",
-    "reliability": "HIGH"
-  },
-  "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Adoption Accelerates Despite Near-Term Volatility",
-    "date": "2026-05-08 11:59",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bybit",
-    "tldr_points": [
-      "Institutional tokenization momentum continues with Solv Protocol's $700M Chainlink integration",
-      "Corporate treasury adoption remains robust as Block raises full-year guidance",
-      "Technical structure favors dip-buying on pullbacks toward key moving averages"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD positioned for upside as corporate treasury adoption accelerates and institutional infrastructure matures",
-    "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Institutional adoption thesis intact; technical setup favors dip-buying toward MA20 support",
+    "comment": "Yen erases intervention gains amid negative macro backdrop, favoring USD/JPY upside",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
     "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "S&P 500 市場分析",
+    "date": "2026-05-08 18:20",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "AI earnings surge meets Fed pause; S&P 500 tests MA20 support",
+      "Bullish bias solidifies as macro risk fades",
+      "Technical structure shows MA20 support with rising momentum"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "AI earnings surge meets Fed pause; S&P 500 tests MA20 support, bullish bias solidifies as macro risk fades today still.",
+    "pair": "S&P 500",
+    "status": "NEUTRAL",
+    "comment": "AI earnings surge meets Fed pause; S&P 500 tests MA20 support, bullish bias solidifies as macro risk fades today still.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
+  },
+  "CRYPTO": {
+    "title": "[BTC/USD] FLAT: Mixed Regulatory Signals Offset Ecosystem Catalysts",
+    "date": "2026-05-08 18:26",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "bybit",
+    "tldr_points": [
+      "Mixed regulatory developments limit near-term directional conviction for BTC/USD",
+      "Operational restoration at Coinbase alleviates short-term liquidity constraints",
+      "Layer 2 and altcoin ecosystem funding provides no direct catalyst for BTC price action"
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "BTC/USD trades rangebound as mixed regulatory headlines offset selective ecosystem funding tailwinds.",
+    "pair": "BTC/USD",
+    "status": "NEUTRAL",
+    "comment": "Mixed regulatory signals and unavailable technical data preclude directional conviction",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "LOW"
   }
 }
