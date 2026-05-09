@@ -1,68 +1,74 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: AI Detects Safe-Haven Flows as Fed Tone Dovens",
-    "date": "2026-05-09 02:14",
+    "title": "[USD/JPY] [Direction] [Rationale] (e.g. 'Buy the dip toward MA20 as AI Detects Support at Key Fib as Fundamentals Turn Bullish']",
+    "date": "2026-05-09 11:37",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Geopolitical tensions boost JPY safe-haven appeal",
-      "Fed's dovish tone weighs on USD fundamentals",
-      "Technical resistance confirms bearish momentum"
+      {
+        "Key point 1": "Rates show attenuation with recent monetary policy signals."
+      },
+      {
+        "Key point 2": "Order flow indicates accumulation near critical support zones."
+      },
+      {
+        "Key point 3": "RSI suggests overbought conditions, prompting cautious entry."
+      }
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY pressured by safe-haven flows and dovish Fed tone.",
+    "excerpt": "Analyze the recent breakdown in USD/JPY dynamics amid shifting macro fundamentals.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Safe-haven flows and dovish Fed favor JPY strength",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Analyze the recent breakdown in USD/JPY dynamics amid shifting macro fundamentals.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Tech Leadership Drives Index Higher Amid Broad Risk-On Sentiment",
-    "date": "2026-05-09 02:23",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-09 11:38",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Tech sector leadership propels S&P 500 higher with Nasdaq outperforming Dow",
-      "K-shaped recovery in equities continues as technology stocks decouple from labor market weakness",
-      "Momentum favors upside despite overbought signals; buy dips toward moving average support"
+      "AI signals upward momentum",
+      "MA20 holds as key support",
+      "Positive earnings outlook fuels rally"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Tech-driven rally continues; target pullbacks to MA20 for institutional long entries.",
+    "excerpt": "AI identifies MA20 support and bullish fundamentals, recommending a cautious long stance.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Tech-led rally favors upside; buy dips to MA20 support",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "comment": "AI signals bullish momentum once MA20 is confirmed.",
+    "entry": "Unknown",
+    "tp": "Unknown",
+    "sl": "Unknown",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-09 02:52",
+    "title": "[BTC/USD] UP: Senate Legislation & Stablecoin Revival Drive Resilience Amid Profit-Taking Risks",
+    "date": "2026-05-09 11:39",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "AI-driven institutional demand offsets macro headwinds",
-      "MA20 acts as critical support level with RSI oversold bounce",
-      "ETF outflows temper near-term momentum but structural buying emerges"
+      "Senate crypto legislation vote fuels institutional demand",
+      "Stablecoin deal reduces liquidity fragmentation risks",
+      "Profit-taking capped by AI-detected $63k psychological level"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC finds support at MA20 amid AI-driven institutional adoption and ETF-driven volatility.",
+    "excerpt": "BTC/USD rebounding from $61,200 as Senate crypto bill gains traction and stablecoin reforms boost confidence amid lingering profit-taking pressure.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20 support with AI-driven institutional demand offsets ETF outflows",
-    "entry": "67000",
-    "tp": "72000",
-    "sl": "64000",
+    "comment": "Institutional-grade catalysts and technical resistance levels favor short-term long positioning",
+    "entry": "60900",
+    "tp": "63500",
+    "sl": "59300",
     "reliability": "HIGH"
   }
 }

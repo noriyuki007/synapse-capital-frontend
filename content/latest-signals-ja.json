@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Risk‑off sentiment and dovish Fed weigh on dollar while safe‑haven yen gains",
-    "date": "2026-05-09 02:14",
+    "title": "[USD/JPY] UP: 米雇用統計好調とリスクオンセントメントがドル円上昇を支持",
+    "date": "2026-05-09 11:37",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "リスクオフ環境が円買いを支える",
-      "ECBのエネルギー価格抑制姿勢はドルに中立的",
-      "米雇用の安定とインフレ鈍化はドル下押し圧力"
+      "米雇用統計の好調がドル高圧力",
+      "原油高とリスクオンセントメント継続",
+      "145.00前後でエントリーし147.00を目標"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "リスクオフとダブルハトのファンダメンタルズが円を支え、USD/JPYは下押し圧力にさらされている。",
+    "excerpt": "米雇用統計の好調とリスクオンセントメントがUSD/JPY上昇を支持。145.00でエントリーし147.00をTPとする買いシグナル。",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "リスクオフとドルの上昇余地限定が円買いを促す",
-    "entry": "155.00",
-    "tp": "153.50",
-    "sl": "155.80",
-    "reliability": "HIGH"
+    "status": "BUY",
+    "comment": "米雇用統計好調とリスクオンセントメントで買いシグナル",
+    "entry": "145.00",
+    "tp": "147.00",
+    "sl": "143.00",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-05-09 02:23",
+    "title": "[S&P 500] UP: メガキャップテックとエネルギー株の好材料がブル相場を牽引",
+    "date": "2026-05-09 11:38",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "楽天証券",
+    "recommended_broker": "",
     "tldr_points": [
-      "テクノロジー主導の上昇相場がS&P500を押し上げ",
-      "ガス価格上昇によるインフレ懸念が利上げリスクを高幅",
-      "短期的押し目買い場が形成され、リスク管理を徹底したロング推奨"
+      "ADP・エネルギーセクターの上方修正がS&P 500構成銘株の業績期待を底上げ",
+      "テックメガキャップ（GOOGクラウド好調、AMD選定買い）が上値を支え",
+      "構成銘柄のポジティブなファンダメンタルズ集約によりS&P 500は上昇圏内推移が優勢"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "ガス価格上昇とテクノロジー主導の上昇相場がS&P500を押し上げ、短期的な買い場が形成中。",
+    "excerpt": "ADPのEBITDA上方修正、GOOGクラウド見通し強化、AMD・MCHPの選定買い推奨がS&P 500を上方支持。構成銘柄ファンダメンタルズの集約は上昇バイアスを示唆。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "テクニカル指標とマクロカタルシスの一致から短期的な上昇余地が確認でき、BUY推奨",
-    "entry": "4150",
-    "tp": "4565",
-    "sl": "4050",
-    "reliability": "HIGH"
+    "comment": "ADP・エネルギー株の上方修正とGOOG・AMD・MCHPの選定買い推奨がS&P500構成銘株のファンダメンタルズを総合的に支持。上昇バイアスが優勢。",
+    "entry": "確認待ち（現値orMA20反発）",
+    "tp": "直近高値+1.5〜2.0%",
+    "sl": "直近安値-1.0%",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: インデックスファンド流入とマイニング収益シフトによる支持基盤の強化",
-    "date": "2026-05-09 02:52",
+    "title": "[BTC/USD] FLAT: 米国立法進展と利益確定圧力の拮抗",
+    "date": "2026-05-09 11:39",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "Coinbaseの「すべての取引所」戦略が traction を獲得",
-      "TeraWulfのHPC収益がマイニングを上回る構造変化",
-      "ETF流出とイラン緊張が一時的な抵抗帯を形成"
+      "米国上院で暗号資産立法の日程が設定",
+      "利益確定圧力がベア市場ラリーの中で増加",
+      "規制進展とセキュリティリスクが両面要因"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCはCoinbaseの戦略的進展とマイニングセクターの収益構造変化による支持基盤を維持。中期的にはインデックスファンドの流入が値動きを牽引する可能性が高い。",
+    "excerpt": "米国での立法進展とセキュリティ問題が暗号資産市場に影響を与えつつ、利益確定圧力で方向性が混迷。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Coinbaseの戦略的進展とマイニングセクターの収益構造変化による支持基盤を維持",
-    "entry": "68000",
-    "tp": "72000",
-    "sl": "65000",
+    "status": "NEUTRAL",
+    "comment": "米国立法進展と利益確定圧力が拮抗し、方向性が不確実",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
     "reliability": "MEDIUM"
   }
 }

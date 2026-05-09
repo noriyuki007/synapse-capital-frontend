@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-05-09-crypto-ja",
-    "date": "2026-05-09 02:52",
-    "title": "[BTC/USD] UP: インデックスファンド流入とマイニング収益シフトによる支持基盤の強化",
+    "date": "2026-05-09 11:39",
+    "title": "[BTC/USD] FLAT: 米国立法進展と利益確定圧力の拮抗",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
-    "excerpt": "BTCはCoinbaseの戦略的進展とマイニングセクターの収益構造変化による支持基盤を維持。中期的にはインデックスファンドの流入が値動きを牽引する可能性が高い。",
+    "excerpt": "米国での立法進展とセキュリティ問題が暗号資産市場に影響を与えつつ、利益確定圧力で方向性が混迷。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-09-crypto-en",
-    "date": "2026-05-09 02:52",
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-09 11:39",
+    "title": "[BTC/USD] UP: Senate Legislation & Stablecoin Revival Drive Resilience Amid Profit-Taking Risks",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "BTC finds support at MA20 amid AI-driven institutional adoption and ETF-driven volatility.",
+    "excerpt": "BTC/USD rebounding from $61,200 as Senate crypto bill gains traction and stablecoin reforms boost confidence amid lingering profit-taking pressure.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-05-09-stocks-ja",
-    "date": "2026-05-09 02:23",
-    "title": "[S&P500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-05-09 11:38",
+    "title": "[S&P 500] UP: メガキャップテックとエネルギー株の好材料がブル相場を牽引",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "楽天証券",
-    "excerpt": "ガス価格上昇とテクノロジー主導の上昇相場がS&P500を押し上げ、短期的な買い場が形成中。",
+    "recommended_broker": "",
+    "excerpt": "ADPのEBITDA上方修正、GOOGクラウド見通し強化、AMD・MCHPの選定買い推奨がS&P 500を上方支持。構成銘柄ファンダメンタルズの集約は上昇バイアスを示唆。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-09-stocks-en",
-    "date": "2026-05-09 02:23",
-    "title": "[S&P 500] UP: Tech Leadership Drives Index Higher Amid Broad Risk-On Sentiment",
+    "date": "2026-05-09 11:38",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
-    "excerpt": "Tech-driven rally continues; target pullbacks to MA20 for institutional long entries.",
+    "excerpt": "AI identifies MA20 support and bullish fundamentals, recommending a cautious long stance.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-05-09-fx-ja",
-    "date": "2026-05-09 02:14",
-    "title": "[USD/JPY] DOWN: Risk‑off sentiment and dovish Fed weigh on dollar while safe‑haven yen gains",
+    "date": "2026-05-09 11:37",
+    "title": "[USD/JPY] UP: 米雇用統計好調とリスクオンセントメントがドル円上昇を支持",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "リスクオフとダブルハトのファンダメンタルズが円を支え、USD/JPYは下押し圧力にさらされている。",
+    "excerpt": "米雇用統計の好調とリスクオンセントメントがUSD/JPY上昇を支持。145.00でエントリーし147.00をTPとする買いシグナル。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-09-fx-en",
-    "date": "2026-05-09 02:14",
-    "title": "[USD/JPY] DOWN: AI Detects Safe-Haven Flows as Fed Tone Dovens",
+    "date": "2026-05-09 11:37",
+    "title": "[USD/JPY] [Direction] [Rationale] (e.g. 'Buy the dip toward MA20 as AI Detects Support at Key Fib as Fundamentals Turn Bullish']",
     "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "target_pair": "",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY pressured by safe-haven flows and dovish Fed tone.",
+    "excerpt": "Analyze the recent breakdown in USD/JPY dynamics amid shifting macro fundamentals.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -152,7 +152,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "インスタティューショナル・エラーの確証とETFの継続的な資金流入がBTCを上向きに推進。テクニカル面も底値からの反発構造を示している。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "Institutional flows dominate as ETF capital accelerates; support structure holds",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "",
     "excerpt": "トランプ期特有のリスク許容とインフレ後退期待がS&P 500へ上振れ圧力を加えている。金利正常化下でもEPSの底堅さがバリュエーションを支え、Sell in Mayの定石は瓦解しつつある。10年債利回り4.6%超はバッファーとして機能すると見込む。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "",
     "excerpt": "Inflation eases, earnings surge; S&P 500 poised for upside with key technical support intact.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "excerpt": "米雇用市場の減速と日銀の介入姿勢が明確化し、USD/JPYは155円台攻防の様相。介入リスク的高まる中で円高バイアスが優勢。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY Bearish: BOJ intervention return and US labor data weakness create downward pressure",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
