@@ -1,74 +1,64 @@
 {
   "FX": {
-    "title": "[USD/JPY] [Direction] [Rationale] (e.g. 'Buy the dip toward MA20 as AI Detects Support at Key Fib as Fundamentals Turn Bullish']",
-    "date": "2026-05-09 11:37",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-09 18:17",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      {
-        "Key point 1": "Rates show attenuation with recent monetary policy signals."
-      },
-      {
-        "Key point 2": "Order flow indicates accumulation near critical support zones."
-      },
-      {
-        "Key point 3": "RSI suggests overbought conditions, prompting cautious entry."
-      }
+      "Strong US Jobs Data Supports USD Strength",
+      "MA20 Acts as Near-Term Support Level",
+      "Oil Prices Rise Amid Geopolitical Tensions"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Analyze the recent breakdown in USD/JPY dynamics amid shifting macro fundamentals.",
+    "excerpt": "USD/JPY poised for upside on robust US data and technical support at MA20. Buy dips with tight risk control.",
     "pair": "USD/JPY",
+    "status": "BUY",
+    "comment": "Bullish setup confirmed by strong US data and MA20 support.",
+    "entry": "155.50",
+    "tp": "157.25",
+    "sl": "154.75",
+    "reliability": "HIGH"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] FLAT: AI Detects Equilibrium Amid Fed Shuffle and Retail Rally",
+    "date": "2026-05-09 18:23",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "https://broker.com",
+    "tldr_points": [
+      "Fed leadership pivot to a former keystone regulator may tighten rates",
+      "Retail momentum from Amazon excites but is offset by sector rotation",
+      "Technical profile shows a consolidation near MA20 with RSI near 50"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 trades in a squeeze around MA20, with neutral trade calls due to mixed macro and sector signals.",
+    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "Analyze the recent breakdown in USD/JPY dynamics amid shifting macro fundamentals.",
+    "comment": "Await breakout confirmation before taking directional bets",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
+  },
+  "CRYPTO": {
+    "title": "BTC/USD 市場分析",
+    "date": "2026-05-09",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "bybit",
+    "tldr_points": [],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "",
+    "pair": "BTC/USD",
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-09 11:38",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "AI signals upward momentum",
-      "MA20 holds as key support",
-      "Positive earnings outlook fuels rally"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "AI identifies MA20 support and bullish fundamentals, recommending a cautious long stance.",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "AI signals bullish momentum once MA20 is confirmed.",
-    "entry": "Unknown",
-    "tp": "Unknown",
-    "sl": "Unknown",
-    "reliability": "MEDIUM"
-  },
-  "CRYPTO": {
-    "title": "[BTC/USD] UP: Senate Legislation & Stablecoin Revival Drive Resilience Amid Profit-Taking Risks",
-    "date": "2026-05-09 11:39",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bybit",
-    "tldr_points": [
-      "Senate crypto legislation vote fuels institutional demand",
-      "Stablecoin deal reduces liquidity fragmentation risks",
-      "Profit-taking capped by AI-detected $63k psychological level"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD rebounding from $61,200 as Senate crypto bill gains traction and stablecoin reforms boost confidence amid lingering profit-taking pressure.",
-    "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Institutional-grade catalysts and technical resistance levels favor short-term long positioning",
-    "entry": "60900",
-    "tp": "63500",
-    "sl": "59300",
-    "reliability": "HIGH"
   }
 }
