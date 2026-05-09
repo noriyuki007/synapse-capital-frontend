@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-05-10-crypto-ja",
+    "date": "2026-05-10 01:54",
+    "title": "[BTC/USD] DOWN: セナト委員会と利益確定圧力が重なり下落リスクを示唆",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "立法リスクと利益確定圧力が重なり、BTC/USDは下落バイアスが強まる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-10-crypto-en",
+    "date": "2026-05-10 01:54",
+    "title": "CRYPTO Analysis",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC maintains MA20 support as Senate crypto bill advances; AI identifies bullish momentum amid mixed exploit fallout!!!",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-10-stocks-ja",
+    "date": "2026-05-10 01:53",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 trends upward amid AI-driven materials sector gains and defense spending optimism. Fed's inflation concerns create volatility but reinforce risk-on positioning. Technical analysis highlights MA20 support and momentum alignment.",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-10-stocks-en",
+    "date": "2026-05-10 01:53",
+    "title": "[S&P 500] NEUTRAL/VOLATILE: Macro Headwinds Counterbalance AI-Driven Sector Rotation",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "Inflationary concerns collide with high-growth AI catalysts, creating a high-volatility sideways regime.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-10-fx-ja",
+    "date": "2026-05-10 01:52",
+    "title": "[USD/JPY] UP: US jobs surpriseと原油高がドルを支持、短期上昇トレンド継続",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "米雇用データの上方サプライズと原油価格上昇がドルを支持、USD/JPYは短期上昇トレンドを継続。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-10-fx-en",
+    "date": "2026-05-10 01:52",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY bullish signal with MA20 support aligns with robust US economic data.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-05-09-crypto-ja",
     "date": "2026-05-09 19:40",
     "title": "[BTC/USD] FLAT: 法規制の進展と利確圧力の拮抗によるレンジ推移",
