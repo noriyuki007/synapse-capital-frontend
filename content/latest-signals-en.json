@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Yield Differentials and Risk-On Sentiment Align",
-    "date": "2026-05-10 18:26",
+    "title": "[USD/JPY] FLAT: Mixed Signals in Rate Correlation and Order Flow (AI Finds Equally Strong Bullish & Bearish Catalysts)",
+    "date": "2026-05-11 01:52",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US payrolls surprise to upside reinforces Fed hawkish bias, supporting USD",
-      "Risk-on sentiment from equity gains and Bitcoin bullishness weakens JPY safe-haven demand",
-      "Technical setup shows price holding above key moving average with positive momentum"
+      "US inflation and retail sales data highlight mixed signals",
+      "Trump-Xi meeting and US jobs growth add uncertainty",
+      "AI analysis shows equally strong bullish and bearish catalysts"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY positioned for upside as US data outpaces expectations and risk appetite strengthens",
+    "excerpt": "USD/JPY sees equal strength in fundamental catalysts, leading to a flat outlook with mixed macro and technical signals",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Long bias on yield differential support and risk-on sentiment, buy on dips toward MA20",
-    "entry": "147.50",
-    "tp": "149.50",
-    "sl": "145.50",
+    "status": "NEUTRAL",
+    "comment": "Mixed fundamental factors lead to a neutral outlook with potential for either direction.",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Bullish Momentum Sustained by AI Catalysts and Institutional Target Revisions",
-    "date": "2026-05-10 18:32",
+    "title": "[S&P 500] UP: AI Infrastructure Momentum to Drive Index Higher Through 2026",
+    "date": "2026-05-11 01:57",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "AI sector momentum (NVDA) driving broad index strength",
-      "RBC's 2026 target revision signals institutional confidence",
-      "Trump's market rhetoric reinforces bullish sentiment despite Fed tensions"
+      "AI infrastructure stocks forecast to outperform S&P 500 by significant margin in 2026",
+      "Dividend stocks present defensive opportunity amid tariff headwinds",
+      "Institutional price target cuts on select financials signal sector rotation"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 positioned for continued upside as AI beneficiaries and institutional re-rating dominate.",
+    "excerpt": "AI infrastructure secular tailwind to override near-term tariff concerns",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Bullish setup supported by AI catalysts, institutional target revisions, and constructive political sentiment",
+    "comment": "AI infrastructure secular tailwinds provide fundamental support; technical setup favors long on MA20 pullback",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
-    "reliability": "HIGH"
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Flow Aligns with Positive Macro and Technical Bias",
-    "date": "2026-05-10 18:41",
+    "title": "[BTC/USD] UP: Macro tailwinds and on‑chain liquidity support a bullish outlook",
+    "date": "2026-05-11 02:03",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Stablecoin regulatory clarity emerging in UK",
-      "Order‑flow shows net long accumulation",
-      "Technical chart respects MA20 and bullish RSI"
+      "Stable‑coin regulatory clarity in the UK could boost risk‑on capital",
+      "LayerZero‑Kelp DAO incident underlines security focus, limiting systemic risk",
+      "On‑chain liquidity remains robust, supporting upside targets"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Bullish bias on BTC/USD driven by regulatory outlook, net long order flow, and MA20‑aligned technicals.",
+    "excerpt": "Bullish BTC thesis driven by regulatory clarity, resilient on‑chain liquidity, and supportive macro dynamics.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Regulatory clarity and bullish order flow support upside potential.",
-    "entry": "70,950",
-    "tp": "73,500",
-    "sl": "68,350",
+    "comment": "Regulatory tailwinds and strong on‑chain liquidity underpin a bullish outlook.",
+    "entry": "73,000",
+    "tp": "78,500",
+    "sl": "68,000",
     "reliability": "HIGH"
   }
 }

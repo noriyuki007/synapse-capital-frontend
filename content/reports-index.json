@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-05-11-crypto-ja",
+    "date": "2026-05-11 02:03",
+    "title": "戦術的インサイト：BTC/USDの均衡状態とブレイク条件の定義",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "bitflyer",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-11-crypto-en",
+    "date": "2026-05-11 02:03",
+    "title": "[BTC/USD] UP: Macro tailwinds and on‑chain liquidity support a bullish outlook",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "Bullish BTC thesis driven by regulatory clarity, resilient on‑chain liquidity, and supportive macro dynamics.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-11-stocks-ja",
+    "date": "2026-05-11 01:57",
+    "title": "[S&P 500] UP: AIインフラストラクチャーとエネルギー株の底上げが全体を押し上げる",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "AIインフラとエネルギー株の強さがS&P500を押し上げ、上昇トレンドが継続すると予測。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-11-stocks-en",
+    "date": "2026-05-11 01:57",
+    "title": "[S&P 500] UP: AI Infrastructure Momentum to Drive Index Higher Through 2026",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "AI infrastructure secular tailwind to override near-term tariff concerns",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-11-fx-ja",
+    "date": "2026-05-11 01:52",
+    "title": "[USD/JPY] UP: 米雇用サプライズとインフレ懸念が円売りを促す",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "米雇用のサプライズとインフレ懸念がドル買いを後押しし、USD/JPYは上昇トレンドが続く見込み。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-11-fx-en",
+    "date": "2026-05-11 01:52",
+    "title": "[USD/JPY] FLAT: Mixed Signals in Rate Correlation and Order Flow (AI Finds Equally Strong Bullish & Bearish Catalysts)",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY sees equal strength in fundamental catalysts, leading to a flat outlook with mixed macro and technical signals",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-05-10-crypto-ja",
     "date": "2026-05-10 18:41",
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
