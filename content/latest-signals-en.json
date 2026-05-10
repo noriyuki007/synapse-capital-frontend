@@ -1,43 +1,49 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-10 01:52",
+    "title": "[USD/JPY] [Direction] [Rationale] (e.g. 'Buy the dip toward MA20 as AI Detects Support at MA20 as Fundamentals Turn Bullish']",
+    "date": "2026-05-10 11:41",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "AI identifies convergent Bullish pattern near MA20",
-      "Positive US labor data supports USD strength",
-      "AUDUSD weakness reduces AUD headwind"
+      {
+        "Key point 1": "Rate strength reinforces yen depreciation bias."
+      },
+      {
+        "Key point 2": "RSI divergence fuels bullish momentum."
+      },
+      {
+        "Key point 3": "Order flow shows accumulation ahead."
+      }
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish signal with MA20 support aligns with robust US economic data.",
+    "excerpt": "120-character summary",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Convergent technical and fundamental signals validate directional bias",
-    "entry": "150.50",
-    "tp": "153.25",
-    "sl": "149.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "120-character summary",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] NEUTRAL/VOLATILE: Macro Headwinds Counterbalance AI-Driven Sector Rotation",
-    "date": "2026-05-10 01:53",
+    "title": "[S&P 500] UP: All-Time High Momentum Confirmed as AI Rally Amplifies Institutional Flows",
+    "date": "2026-05-10 11:45",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Inflationary pressure from the Fed's May forecast creates macro uncertainty",
-      "Nvidia earnings anticipation acts as a primary volatility driver for Tech",
-      "Materials sector shows strength from AI and defense demand nexus"
+      "S&P 500 maintains all-time high structure amid bullish macro backdrop",
+      "AI sector momentum continues drivingMega Cap outperformance vs. QQQ",
+      "Technical trend remains intact with RSI in bullish territory above 50"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Inflationary concerns collide with high-growth AI catalysts, creating a high-volatility sideways regime.",
+    "excerpt": "Bullish momentum persists as AI-driven earnings accelerateMega Cap growth",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Inflationary macro concerns are neutralizing the bullish momentum from AI-related semiconductor demand.",
+    "status": "BUY",
+    "comment": "All-time high momentum supported by AI sector strength and constructive macro backdrop",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
@@ -45,21 +51,21 @@
   },
   "CRYPTO": {
     "title": "BTC/USD 市場分析",
-    "date": "2026-05-10 01:54",
+    "date": "2026-05-10 11:57",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "LayerZero apology underscores regulatory risk but limited price impact",
-      "Senate crypto legislation momentum could lift market sentiment",
-      "MA20 support aligns with bullish technical pattern"
+      "Bullish momentum from upcoming crypto legislation",
+      "Stablecoin regulatory tension could tighten liquidity",
+      "On‑chain support aligns with Fed easing narrative"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC maintains MA20 support as Senate crypto bill advances; AI identifies bullish momentum amid mixed exploit fallout!!!",
+    "excerpt": "BTC holds near $62k as on‑chain support aligns with Fed easing hopes; technical bias remains bullish amid policy shifts!!",
     "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "BTC maintains MA20 support as Senate crypto bill advances; AI identifies bullish momentum amid mixed exploit fallout!!!",
+    "comment": "BTC holds near $62k as on‑chain support aligns with Fed easing hopes; technical bias remains bullish amid policy shifts!!",
     "entry": "---",
     "tp": "---",
     "sl": "---",
