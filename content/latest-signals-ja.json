@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: リスクオフと日本の財政ジレンマが円買いをサポート",
-    "date": "2026-05-11 11:51",
+    "title": "[USD/JPY] UP: イラン・米協議の不透明感とリスクオフによるドル買い優勢",
+    "date": "2026-05-11 19:59",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "中東リスク回避で円安全通貨需要増加",
-      "日本のエネルギー補助金の財政負担が円売り圧力",
-      "中国CPI好感も人民元安誘導でアジア通貨安傾向"
+      "BoEの利上げ見送り観測でポンドは横ばい、ドルの相対的強さが意識される",
+      "イラン・米協議の不透明感がリスクオフを誘発、ドル・円への安全資産需要が高まる",
+      "トランプ・習近平サミット以降のリスクオン転換は限定的と見られ、上値は150.00付近が目処"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "地政学リスクと日本の財政悪化が円高トレンドを形成。リスク回避局面での円買い優勢を継続視する。",
+    "excerpt": "イラン・米協議の行方とBoEの利上げ待機姿勢がドル買いを支え、USD/JPYは上昇バイアス。",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "リスクオフと日本の財政問題を背景に円高トレンドを形成、147.50円サポート跌破で下落加速を想定",
-    "entry": "148.00",
-    "tp": "146.50",
+    "status": "BUY",
+    "comment": "BoEの利上げ待機とイラン・米協議不透明感によるドル買い優勢",
+    "entry": "150.00",
+    "tp": "151.00",
     "sl": "149.00",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: イラン情勢悪化とリスクオフによる下値リスク",
-    "date": "2026-05-11 11:59",
+    "title": "戦術的インサイト：S&P 500の均衡状態とブレイク条件の定義",
+    "date": "2026-05-11 20:04",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Nomura Securities",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
     "tldr_points": [
-      "イラン和平提案の拒否がリスクオフを誘発",
-      "米金利先高観が続く中で資金逃避が顕著",
-      "テクニカル的にMA20下抜けが売りシグナル"
+      "金利相関（近似）: 0.00で負相関傾向",
+      "テクニカル: 現在価格 --- と MA20 --- の位置関係が主導",
+      "需給: 重要帯の確認が必要 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "イラン情勢悪化とリスクオフがS&P 500に下値圧力をかけ、MA20割れを売りシグナルとして捉える。",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "イラン情勢悪化とリスクオフ、MA20下抜けが売りシグナル",
-    "entry": "5250",
-    "tp": "5150",
-    "sl": "5350",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、S&P 500の現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: 改善するマクロと機関流入が価格を支える",
-    "date": "2026-05-11 12:18",
+    "title": "[BTC/USD] UP: インフロー継続と機関ベーシスの強化がサポート",
+    "date": "2026-05-11 20:17",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "マクロ改善と機関ETF流入が上昇を後押し",
-      "クジラの大口移動は供給側のタイト化を示唆",
-      "テクニカルはMA20付近での反発を示唆し、押し目買いが有効"
+      "機関ファンドの6週連続流入が需給を支える",
+      "Saylorの買い増し方針が上値余地を示唆",
+      "テクニカルはMA20付近での反発を示唆"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "マクロ改善と機関資金流入によりBTC/USDは上昇余地が拡大、押し目買いを推奨。",
+    "excerpt": "機関流入とSaylor発言が上昇を後押しし、MA20付近での押し目買いが有効。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "マクロ改善・機関流入およびテクニカル反発が上昇を支える",
-    "entry": "81000.00",
-    "tp": "84500.00",
-    "sl": "79500.00",
+    "comment": "機関フローとセイラー買い増しが上値を支え、MA20付近での反発が期待される",
+    "entry": "68500",
+    "tp": "72000",
+    "sl": "66500",
     "reliability": "HIGH"
   }
 }
