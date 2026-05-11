@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 米雇用サプライズとインフレ懸念が円売りを促す",
-    "date": "2026-05-11 01:52",
+    "title": "[USD/JPY] DOWN: リスクオフと日本の財政ジレンマが円買いをサポート",
+    "date": "2026-05-11 11:51",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米雇用統計が予想を上回り、ドル買い圧力が強まる",
-      "米インフレ再燃警戒がFRBのタカ派姿勢を裏付ける",
-      "テクニカル的にはMA20付近での押し目買いが有利"
+      "中東リスク回避で円安全通貨需要増加",
+      "日本のエネルギー補助金の財政負担が円売り圧力",
+      "中国CPI好感も人民元安誘導でアジア通貨安傾向"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米雇用のサプライズとインフレ懸念がドル買いを後押しし、USD/JPYは上昇トレンドが続く見込み。",
+    "excerpt": "地政学リスクと日本の財政悪化が円高トレンドを形成。リスク回避局面での円買い優勢を継続視する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "米雇用サプライズとインフレ懸念がドル買いを後押し、テクニカル的にも押し目買いが有利",
-    "entry": "150.80",
-    "tp": "152.00",
-    "sl": "150.30",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "リスクオフと日本の財政問題を背景に円高トレンドを形成、147.50円サポート跌破で下落加速を想定",
+    "entry": "148.00",
+    "tp": "146.50",
+    "sl": "149.00",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AIインフラストラクチャーとエネルギー株の底上げが全体を押し上げる",
-    "date": "2026-05-11 01:57",
+    "title": "[S&P 500] DOWN: イラン情勢悪化とリスクオフによる下値リスク",
+    "date": "2026-05-11 11:59",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "AI関連インフラ株が2026年にS&P500を上回る見込み",
-      "Devon Energyのバリュエーションが魅力的で下値リスク限定的",
-      "米金利の緩やかな低下がリスク資産に追い風"
+      "イラン和平提案の拒否がリスクオフを誘発",
+      "米金利先高観が続く中で資金逃避が顕著",
+      "テクニカル的にMA20下抜けが売りシグナル"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "AIインフラとエネルギー株の強さがS&P500を押し上げ、上昇トレンドが継続すると予測。",
+    "excerpt": "イラン情勢悪化とリスクオフがS&P 500に下値圧力をかけ、MA20割れを売りシグナルとして捉える。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "AIインフラとエネルギー株のファンダメンタルズおよびテクニカルが上昇を支持",
-    "entry": "5200",
-    "tp": "5400",
-    "sl": "5050",
+    "status": "SELL",
+    "comment": "イラン情勢悪化とリスクオフ、MA20下抜けが売りシグナル",
+    "entry": "5250",
+    "tp": "5150",
+    "sl": "5350",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "戦術的インサイト：BTC/USDの均衡状態とブレイク条件の定義",
-    "date": "2026-05-11 02:03",
+    "title": "[BTC/USD] UP: 改善するマクロと機関流入が価格を支える",
+    "date": "2026-05-11 12:18",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "金利相関（近似）: 0.00で負相関傾向",
-      "テクニカル: 現在価格 --- と MA20 --- の位置関係が主導",
-      "需給: 重要帯の確認が必要 によるターゲット設計"
+      "マクロ改善と機関ETF流入が上昇を後押し",
+      "クジラの大口移動は供給側のタイト化を示唆",
+      "テクニカルはMA20付近での反発を示唆し、押し目買いが有効"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "マクロ改善と機関資金流入によりBTC/USDは上昇余地が拡大、押し目買いを推奨。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、BTC/USDの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "マクロ改善・機関流入およびテクニカル反発が上昇を支える",
+    "entry": "81000.00",
+    "tp": "84500.00",
+    "sl": "79500.00",
+    "reliability": "HIGH"
   }
 }
