@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] FLAT: AI Detects Mixed Signals as Geopolitical Risk Offsets Yield Differentials",
-    "date": "2026-05-11 19:59",
+    "title": "[USD/JPY] UP: Yield Surge and Iran De-escalation Fuel Rally",
+    "date": "2026-05-12 02:53",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Geopolitical headwinds (Iran tensions, Trump-Xi summit) counterbalance BoJ/Yield dynamics",
-      "Technical posture suggests consolidation between key support and resistance envelopes",
-      "Order flow remains ambiguous with no clear institutional accumulation/distribution signal"
+      "Iran's uranium dilution reduces JPY safe-haven demand",
+      "3-year Treasury yield at 3.965% supports USD",
+      "Technical bias bullish above 20-period MA"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY range-bound as macro crosscurrents offset; await catalytic trigger for directional break.",
+    "excerpt": "USD/JPY upside likely as Iran dilutes uranium, US 3-year yield hits 3.965%, and price trades above 20-period MA. Buy dips!",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "Range-bound as geopolitical risk offsets yield dynamics; await catalyst for directional bias",
-    "entry": "149.30",
-    "tp": "149.80",
-    "sl": "148.90",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Buy the dip towards 20-MA on Iran de-escalation and high US yields.",
+    "entry": "154.80",
+    "tp": "156.85",
+    "sl": "154.20",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI-Driven Momentum Sustains as Powell Shifts Rate Narrative",
-    "date": "2026-05-11 20:04",
+    "title": "[S&P 500] UP: Corporate Earnings Surge and Chip Momentum Support Near-Term Rally",
+    "date": "2026-05-12 02:56",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "ABC Brokerage",
     "tldr_points": [
-      "AI sector concentration driving near-vertical S&P 500 gains, creating single-sector dependency risk",
-      "Powell's hawkish pivot shifts rate expectations, pressuring growth valuations but supporting financials",
-      "Technical trend remains intact despite overbought conditions; pullbacks present accumulation opportunities"
+      "Corporate profits at multi‑year highs",
+      "Chip sector strength offsets oil‑price concerns",
+      "Technical bias remains bullish pending MA20 support"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "AI concentration fuels S&P 500 while Powell's hawkish tone introduces volatility; buy dips",
+    "excerpt": "Profit surge, chip gains and bullish technicals point to short‑term upside on the S&P 500.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "AI concentration creates vulnerability but trend remains intact; buy dips with tight stops",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "MEDIUM"
+    "comment": "Profit surge and chip rally underpin a bullish near‑term outlook.",
+    "entry": "4,940",
+    "tp": "5,150",
+    "sl": "4,900",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Inflows Accelerate as Regulatory Clarity Improves",
-    "date": "2026-05-11 20:17",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-12 03:01",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Sixth consecutive week of $858M crypto fund inflows signals sustained institutional demand",
-      "Clarity Act progress and UAE licensing signal regulatory tailwinds turning bullish",
-      "Corporate treasury adoption accelerates with Capital B raise and Saylor's aggressive buyback thesis"
+      "Sharplink Q1 revenue exceeds $12M, indicating strong DeFi activity.",
+      "Galaxy-backed USBD stablecoin launch signals institutional confidence in stablecoins.",
+      "MoonPay AI agent tool expands prediction market participation, supporting BTC demand."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Bullish momentum builds on institutional inflows and regulatory clarity; tactical long preferred.",
+    "excerpt": "",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Bullish trend intact with institutional inflows and regulatory clarity providing structural support",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
