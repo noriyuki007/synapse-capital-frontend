@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: インターベンション耐性の限界と米指標の底堅さが示す上昇バイアス",
-    "date": "2026-05-12 19:29",
+    "title": "[USD/JPY] DOWN: 米長期債利回り上昇とインフレ警戒の統合的リスクを確認",
+    "date": "2026-05-13 02:57",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米NFIB指数は予想を下回るもドル円は介入効果薄れでリバウンド",
-      "ドイツZEWは横ばい、ユーロ圏の下振れリスクは限定的",
-      "キーレジスタント突破後の押し目買いを検討"
+      "米10年債利回り4.468%の 高水準がUSD/JPYの上値を抑制",
+      "Goolsbee理事のインフレ警告がリスクオフを加速",
+      "関税裁定の一時停止が貿易摩擦リスクを再燃"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米NFIB指数は予想を下回るも米ドルは円安への介入効果が薄れ、キーレジスタントへのリバウンドが観測される。短期的な上昇バイアスが形成中。",
+    "excerpt": "米長期債の高利回り維持とFedのインフレ警戒姿勢がUSD/JPYの下落リスクを構成。関税裁定の一時停止も円買い材料となりうる。",
     "pair": "USD/JPY",
+    "status": "SELL",
+    "comment": "米長期債利回り4.468%とGoolsbee理事のインフレ警告がドル安材料。関税裁定の一時停止も円買いを Support。",
+    "entry": "148.50",
+    "tp": "147.80",
+    "sl": "149.00",
+    "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] ULTRA PRACTICAL MARKET REPORT",
+    "date": "2026-05-13 03:05",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "tldr_points": [
+      "S&P 500 予備値を機関投資家向けに提示",
+      "0.00レベルでの介入を強力に促進",
+      "3つのAI解析でストレートストレート性のエントリーを推奨"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500は明確な方向性を持つ上、2026年の残りが持値増。買われてない部分から介入が有効である。",
+    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "米NFIB指数は予想を下回るも米ドルは円安への介入効果が薄れ、キーレジスタントへのリバウンドが観測される。短期的な上昇バイアスが形成中。",
+    "comment": "S&P 500は明確な方向性を持つ上、2026年の残りが持値増。買われてない部分から介入が有効である。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: Inflation jitters and rate hikes cap upside momentum",
-    "date": "2026-05-12 19:36",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "Inflation concerns weigh on S&P 500 futures ahead of CPI",
-      "Rate hike expectations support bearish bias",
-      "Technical indicators show momentum deterioration"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces downward pressure from persistent inflation worries and tightening rate expectations, with technical momentum confirming bearish bias ahead of key CPI release.",
-    "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "インフレ懸念と金利上昇圧力下の空売り推奨",
-    "entry": "5120.00",
-    "tp": "5020.00",
-    "sl": "4950.00",
-    "reliability": "MEDIUM"
-  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: ブータン政府の大量出金とXRP ETF流入が需給バランスを改善し上昇余地を示唆",
-    "date": "2026-05-12 19:40",
+    "title": "[BTC/USD] UP: 規模拡大する機関参入基調と好転する規制環境が価格押し上げ要因に",
+    "date": "2026-05-13 03:10",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "ブータン政府が100 BTCを追加移動、2026年の outflow が2.3億ドルに達し売り圧力が一服",
-      "XRP現物ETFへの2600万ドルの一日間流入はリスクオンシグナルとして他アルトに波及しBTCにも波及",
-      "マクロでは利上げペース緩和が観測され、リスク資産への資金流入余地が拡大"
+      "米司法省のグローバル暗号サービス管轄論に対するBitcoin Fog判例がBTC法的地位を後押し",
+      "CoinbaseのSolana連動レンディング参入により暗号金融エコシステムの拡大加速",
+      "欧州規制整備（ポーランド法案議論）が機関投資家のBTC配置意欲を刺激"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "ブータンのBTC移動停滞とXRP ETF流入が需給を改善、利上げ停止観測でBTCは上昇余地を示す。",
+    "excerpt": "規制面・エコシステム双方の好材料が重なり、BTC/USDは上方向バイアスを強める。現物ポジションの構築窗口が開かれつつある。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "ブータンのoutflow減速とXRP ETF流入が需給を改善、MA20付近の支持とRSI回復が上昇バイアスを支持",
-    "entry": "26800",
-    "tp": "28500",
-    "sl": "24200",
-    "reliability": "HIGH"
+    "comment": "規制・エコシステム双方の好材料が重なり上方向バイアスが強まる。現物ポジションの段階的構築が妥当。",
+    "entry": "現行水準（分割建て）",
+    "tp": "直近高値＋1.0FIB延長",
+    "sl": "直近安値の1%〜2%下",
+    "reliability": "MEDIUM"
   }
 }
