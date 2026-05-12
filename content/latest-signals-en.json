@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] FLAT: Mixed Signals from Yen Bond Issuance and Currency Cooperation",
-    "date": "2026-05-12 11:43",
+    "title": "[USD/JPY] UP: Intervention Failures Sustain Yen Weakness as Technical Resistance Looms",
+    "date": "2026-05-12 19:29",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Alphabet's maiden yen bond sale signals institutional demand for yen-denominated debt",
-      "US-Japan currency cooperation limits downside for USD/JPY volatility",
-      "PBOC yuan fix weaker than expected introduces cross-currency complexity"
+      "BoJ/MOF intervention attempts fail to arrest yen depreciation",
+      "US-Japan consensus on volatility suppression limits downside tail risk",
+      "Technical rebound off key support validates bullish structure"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Yen bond issuance and currency cooperation create offsetting forces; tactical range-bound play warranted",
+    "excerpt": "Yen slide persists despite intervention rhetoric; buy dips toward structural support.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "Range-bound bias warranted as yen bond issuance and US-Japan cooperation create offsetting forces",
-    "entry": "151.00",
-    "tp": "152.50",
-    "sl": "149.50",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Intervention failures sustain yen weakness; buy dips into MA20 support",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] BUY: AI Drives Brookfield Strength and Infrastructure Catalysts Amid Institutional Accumulation",
-    "date": "2026-05-12 11:48",
+    "title": "[S&P 500] DOWN: Inflation Jitters Drive Technical Breakdown",
+    "date": "2026-05-12 19:36",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "Brookfield's May 14 earnings catalysts outweigh AI-driven tech weakness",
-      "Infrastructure rally validates Q1 optimism despite macro volatility",
-      "CPI inflation likely transient as AI profit-taking sustains broad market liquidity"
+      "Inflation concerns and rate hike expectations driving market pressure",
+      "S&P 500 futures showing bearish momentum ahead of CPI report",
+      "Growth tech stocks facing mixed sentiment amid broader market uncertainty"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Brookfield's earnings and infrastructure gains counter AI-driven tech selloffs, favoring long-term S&P 500 bullishness.",
+    "excerpt": "Market pressured by inflation jitters, rate concerns, and pre-CPI weakness. S&P 500 shows bearish technical structure.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Brookfield's earnings and infrastructure gains counter AI-driven tech selloffs, favoring long-term S&P 500 bullishness.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Inflation pressures and technical breakdown signal downside potential",
+    "entry": "4180.00",
+    "tp": "3950.00",
+    "sl": "4250.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-12 11:52",
+    "title": "[BTC/USD] UP: ETF Inflows and Circle Target Signal Recovery (Source: Arkham, Bernstein)",
+    "date": "2026-05-12 19:40",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Miners' struggles create supply overhang but reduce long-term holder pressure",
-      "Regulatory uncertainty persists amid positive Ethereum ecosystem developments",
-      "AI detects potential reversal signal near key moving average cluster"
+      "Bhutan outflows top $230M but XRP ETF inflows hit $26M",
+      "Bernstein maintains $190 Circle target amid ARC presale",
+      "Exodus Q1 loss widens as revenue falls 37%"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC shows signs of stabilization near key moving averages despite miner headwinds and regulatory uncertainty.",
+    "excerpt": "BTC/USD poised for upside on XRP ETF inflows and Circle price target amid mixed outflows.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Technical support at MA20 cluster combined with miner capitulation creates favorable risk/reward for long exposure",
-    "entry": "67500.00",
-    "tp": "71200.00",
-    "sl": "65800.00",
-    "reliability": "HIGH"
+    "comment": "ETF inflows and Circle target offset outflows, supporting upside recovery.",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
   }
 }
