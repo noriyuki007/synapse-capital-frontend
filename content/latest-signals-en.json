@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Yield Surge and Iran De-escalation Fuel Rally",
-    "date": "2026-05-12 02:53",
+    "title": "[USD/JPY] FLAT: Mixed Signals from Yen Bond Issuance and Currency Cooperation",
+    "date": "2026-05-12 11:43",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Iran's uranium dilution reduces JPY safe-haven demand",
-      "3-year Treasury yield at 3.965% supports USD",
-      "Technical bias bullish above 20-period MA"
+      "Alphabet's maiden yen bond sale signals institutional demand for yen-denominated debt",
+      "US-Japan currency cooperation limits downside for USD/JPY volatility",
+      "PBOC yuan fix weaker than expected introduces cross-currency complexity"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY upside likely as Iran dilutes uranium, US 3-year yield hits 3.965%, and price trades above 20-period MA. Buy dips!",
+    "excerpt": "Yen bond issuance and currency cooperation create offsetting forces; tactical range-bound play warranted",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Buy the dip towards 20-MA on Iran de-escalation and high US yields.",
-    "entry": "154.80",
-    "tp": "156.85",
-    "sl": "154.20",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Range-bound bias warranted as yen bond issuance and US-Japan cooperation create offsetting forces",
+    "entry": "151.00",
+    "tp": "152.50",
+    "sl": "149.50",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Corporate Earnings Surge and Chip Momentum Support Near-Term Rally",
-    "date": "2026-05-12 02:56",
+    "title": "[S&P 500] BUY: AI Drives Brookfield Strength and Infrastructure Catalysts Amid Institutional Accumulation",
+    "date": "2026-05-12 11:48",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "ABC Brokerage",
+    "recommended_broker": "",
     "tldr_points": [
-      "Corporate profits at multi‑year highs",
-      "Chip sector strength offsets oil‑price concerns",
-      "Technical bias remains bullish pending MA20 support"
+      "Brookfield's May 14 earnings catalysts outweigh AI-driven tech weakness",
+      "Infrastructure rally validates Q1 optimism despite macro volatility",
+      "CPI inflation likely transient as AI profit-taking sustains broad market liquidity"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Profit surge, chip gains and bullish technicals point to short‑term upside on the S&P 500.",
+    "excerpt": "Brookfield's earnings and infrastructure gains counter AI-driven tech selloffs, favoring long-term S&P 500 bullishness.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Profit surge and chip rally underpin a bullish near‑term outlook.",
-    "entry": "4,940",
-    "tp": "5,150",
-    "sl": "4,900",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Brookfield's earnings and infrastructure gains counter AI-driven tech selloffs, favoring long-term S&P 500 bullishness.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-12 03:01",
+    "date": "2026-05-12 11:52",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Sharplink Q1 revenue exceeds $12M, indicating strong DeFi activity.",
-      "Galaxy-backed USBD stablecoin launch signals institutional confidence in stablecoins.",
-      "MoonPay AI agent tool expands prediction market participation, supporting BTC demand."
+      "Miners' struggles create supply overhang but reduce long-term holder pressure",
+      "Regulatory uncertainty persists amid positive Ethereum ecosystem developments",
+      "AI detects potential reversal signal near key moving average cluster"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "",
+    "excerpt": "BTC shows signs of stabilization near key moving averages despite miner headwinds and regulatory uncertainty.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Technical support at MA20 cluster combined with miner capitulation creates favorable risk/reward for long exposure",
+    "entry": "67500.00",
+    "tp": "71200.00",
+    "sl": "65800.00",
+    "reliability": "HIGH"
   }
 }

@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-05-12 02:53",
+    "title": "[USD/JPY] FLAT: MA20での方向感定めと地緣政治リスクの抵抗",
+    "date": "2026-05-12 11:43",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米国債券利回り上昇がドル下支え、イランの核合意不透明性は安全選好を後押し",
-      "MA20圏での技術的な抵抗転換点を確認",
-      "GBP/USDとUSD/CHFの円安基調は日経225との相関を介してUSD/JPYに波及"
+      "Alphabet円債発行で一時的ドル優位",
+      "日米通貨協力の抵抗節目",
+      "MA20周辺での様子見推奨"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米国債券市場の利回り上昇とドル Safe Haven への需要、グーロンディウム緊張の影響で USD/JPY は MA20 圏での技術的買い機会を確認。ただし、連立形成の不透明性や欧州経済の減速懸念が平均視れ本格的な反発は限定的となり、押し目買いを厳密に定義する必要がある。",
+    "excerpt": "Alphabet円債発行と日米通貨協力声明の抵力構造におけるUSD/JPY現在値149.50前後の様子見シナリオ。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20での技術的買い機会と米債利回りの整合性",
-    "entry": "144.50",
-    "tp": "146.50",
-    "sl": "143.00",
+    "status": "NEUTRAL",
+    "comment": "MA20付近でのストラドル推奨、オリジンレンジ内で推行",
+    "entry": "149.50",
+    "tp": "150.30",
+    "sl": "149.20",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: 企業利益の堅調と半導体セクターの強さを背景に上昇バイアス",
-    "date": "2026-05-12 02:56",
+    "title": "[S&P 500] UP: CPIインフレーション警戒もテクノロジー株の調整と新高維持で底堅い地合い",
+    "date": "2026-05-12 11:48",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "企業利益が過去数年で最高水準に達し、需給環境が改善",
-      "半導体関連株が中盤で上げ幅を拡大、景気敏感セクターのリードを示す",
-      "デルのダウングレードは個別株の利益確定圧力に留まり、指数全体への影響は限定的"
+      "CPI発表を控えインフレ懸念が残るが、市場は新高を維持し底堅さを示す。",
+      "テクノロジー株の一時的な調整は全体指数に限定的な影響。",
+      "Brookfieldやインフラ関連株の好決算が下支えとなり、上方バイアスが形成。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "企業利益の急伸と半導体株の牽引でS&P 500は上昇余地が広がり、押し目買いが有効と見込む。",
+    "excerpt": "インフレリスクとテクノロジー調整の中、S&P500は底堅い地合いで上方バイアスが優位。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "企業利益の最高水準と半導体セクターのリードが上昇を支える",
-    "entry": "5180",
-    "tp": "5300",
-    "sl": "5100",
-    "reliability": "HIGH"
+    "comment": "インフレ警戒の中でも底堅い地合いとセクター別好材料が上値を支え、MA20付近の押し目買いが有効",
+    "entry": "5120",
+    "tp": "5350",
+    "sl": "5050",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: 機関資金流入と技術革新による中期的上昇トレンドの継続",
-    "date": "2026-05-12 03:01",
+    "title": "[BTC/USD] DOWN: マイナー収益悪化と規制不透明感が重し、マクロ環境が重石",
+    "date": "2026-05-12 11:52",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "機関投資家向けサービス拡張が上昇材料",
-      "規制リスクが短期的な変動要因に",
-      "AI技術の暗号資産分野への応用が加速中"
+      "マイナー収益の減少が下押し圧力となる",
+      "規制審議の遅延がリスクオン姿勢を抑制",
+      "テクニカルはMA20付近での反発が限定的で下目線"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "機関投資家向けサービスの拡大と技術革新がBTC/USDの中期的上昇トレンドを支える一方で、規制リスクが短期的な変動要因に。",
+    "excerpt": "マイナー収益悪化と規制不透明感が重し、BTC/USDは下目線。エントリーは押し目売りを推奨。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "機関資金流入と技術革新が中期的上昇トレンドを支え、32,000ドル付近で押し目買いの好機",
-    "entry": "32000",
-    "tp": "38000",
-    "sl": "28500",
+    "status": "NEUTRAL",
+    "comment": "マイナー収益悪化と規制不透明感が重し、BTC/USDは下目線。エントリーは押し目売りを推奨。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }

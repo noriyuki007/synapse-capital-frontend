@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-05-12-crypto-ja",
-    "date": "2026-05-12 03:01",
-    "title": "[BTC/USD] UP: 機関資金流入と技術革新による中期的上昇トレンドの継続",
+    "date": "2026-05-12 11:52",
+    "title": "[BTC/USD] DOWN: マイナー収益悪化と規制不透明感が重し、マクロ環境が重石",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
-    "excerpt": "機関投資家向けサービスの拡大と技術革新がBTC/USDの中期的上昇トレンドを支える一方で、規制リスクが短期的な変動要因に。",
+    "excerpt": "マイナー収益悪化と規制不透明感が重し、BTC/USDは下目線。エントリーは押し目売りを推奨。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-12-crypto-en",
-    "date": "2026-05-12 03:01",
+    "date": "2026-05-12 11:52",
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "",
+    "excerpt": "BTC shows signs of stabilization near key moving averages despite miner headwinds and regulatory uncertainty.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-05-12-stocks-ja",
-    "date": "2026-05-12 02:56",
-    "title": "[S&P 500] UP: 企業利益の堅調と半導体セクターの強さを背景に上昇バイアス",
+    "date": "2026-05-12 11:48",
+    "title": "[S&P 500] UP: CPIインフレーション警戒もテクノロジー株の調整と新高維持で底堅い地合い",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Nomura Securities",
-    "excerpt": "企業利益の急伸と半導体株の牽引でS&P 500は上昇余地が広がり、押し目買いが有効と見込む。",
+    "excerpt": "インフレリスクとテクノロジー調整の中、S&P500は底堅い地合いで上方バイアスが優位。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-12-stocks-en",
-    "date": "2026-05-12 02:56",
-    "title": "[S&P 500] UP: Corporate Earnings Surge and Chip Momentum Support Near-Term Rally",
+    "date": "2026-05-12 11:48",
+    "title": "[S&P 500] BUY: AI Drives Brookfield Strength and Infrastructure Catalysts Amid Institutional Accumulation",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "ABC Brokerage",
-    "excerpt": "Profit surge, chip gains and bullish technicals point to short‑term upside on the S&P 500.",
+    "recommended_broker": "",
+    "excerpt": "Brookfield's earnings and infrastructure gains counter AI-driven tech selloffs, favoring long-term S&P 500 bullishness.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-05-12-fx-ja",
-    "date": "2026-05-12 02:53",
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-05-12 11:43",
+    "title": "[USD/JPY] FLAT: MA20での方向感定めと地緣政治リスクの抵抗",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
-    "excerpt": "米国債券市場の利回り上昇とドル Safe Haven への需要、グーロンディウム緊張の影響で USD/JPY は MA20 圏での技術的買い機会を確認。ただし、連立形成の不透明性や欧州経済の減速懸念が平均視れ本格的な反発は限定的となり、押し目買いを厳密に定義する必要がある。",
+    "excerpt": "Alphabet円債発行と日米通貨協力声明の抵力構造におけるUSD/JPY現在値149.50前後の様子見シナリオ。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-12-fx-en",
-    "date": "2026-05-12 02:53",
-    "title": "[USD/JPY] UP: Yield Surge and Iran De-escalation Fuel Rally",
+    "date": "2026-05-12 11:43",
+    "title": "[USD/JPY] FLAT: Mixed Signals from Yen Bond Issuance and Currency Cooperation",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY upside likely as Iran dilutes uranium, US 3-year yield hits 3.965%, and price trades above 20-period MA. Buy dips!",
+    "excerpt": "Yen bond issuance and currency cooperation create offsetting forces; tactical range-bound play warranted",
     "result": "PENDING",
     "locale": "en"
   },
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "Bullish bias on BTC/USD driven by regulatory outlook, net long order flow, and MA20‑aligned technicals.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Nomura Securities",
     "excerpt": "ポジティブなファンダメンタルズとテクニカル指標が整合し、S&P 500は上昇余地が残ると判断。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500 positioned for continued upside as AI beneficiaries and institutional re-rating dominate.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "米雇用統計の上振れと米国株市場の強いパフォーマンスを背景に、USD/JPYは上方向へのモメンタムを形成中。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY positioned for upside as US data outpaces expectations and risk appetite strengthens",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
