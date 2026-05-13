@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Dollar's Firmness and Risk-On Sentiment Align",
-    "date": "2026-05-13 19:23",
+    "title": "[USD/JPY] UP: カシュカリ発言と長期利回り上昇が円売りを後押し",
+    "date": "2026-05-14 02:59",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "Dollar strength persists amid hawkish Fed narrative",
-      "Geopolitical tensions cap yen safe-haven demand",
-      "Technical structure favors upside extension toward 159.00"
+      "カシュカリのインフレ過熱発言が米金利上昇期待を強化",
+      "30年債利回り5.046%が米ドルの魅力を向上",
+      "製造業生産性の向上はインフレ緩和材料だが、全体としてはドル買い優位"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY edges toward 158.00 as dollar firmness outweighs yen safe-haven flows. Fundamental alignment supports further upside, with key resistance at 159.00. Recommend long exposure with strict risk controls.",
+    "excerpt": "米国のインフレ懸念と長期利回り上昇が円売りを促し、USD/JPYは上昇余地が残る。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Dollar's interest rate advantage and risk-on sentiment align with technical structure",
-    "entry": "157.90",
-    "tp": "159.00",
-    "sl": "157.20",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "米国のインフレ懸念と長期利回り上昇が円売りを促し、USD/JPYは上昇余地が残る。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-05-13 19:25",
+    "title": "[S&P 500] UP: テクノロジーセクターの強気動向と地政学的リスク緩和を背景に",
+    "date": "2026-05-14 03:42",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "米国株式市場は金利の持ち上げ観測による押し目を経て再上昇",
-      "MA20近辺からのテクニカルリバウンドが確認される可能性",
-      "AI分析によるセンチメントの改善と利幅拡大"
+      "テクノロジーセクターが市場を牽引",
+      "トランプ氏の中国訪問が地政学的リスク緩和へ",
+      "流動性の観点からInteractive Brokers利用を推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20付近での押し目からの反発を見込み、金利環境と上振れクオリティ銘柄の支持を背景にしている。",
+    "excerpt": "S&P 500が高値更新、テクノロジーセクターが強気基調、地政的要因が市場に与える影響を分析。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20での押し目反発と金利環境の改善",
-    "entry": "4300",
-    "tp": "4400",
-    "sl": "4240",
+    "comment": "テクノロジーセクターの強気動向と地政学的リスク緩和が上昇トレンドを支持",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: マクロ緩和と機関流入がサポート",
-    "date": "2026-05-13 19:29",
+    "title": "[BTC/USD] UP: FRB議長交代期待による緩和的転換と規制環境の明確化",
+    "date": "2026-05-14 04:27",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "米機関の現物BTC取引開始が需要を押し上げ",
-      "トークナイゼーション関連法案が資金調達環境を改善",
-      "テクニカルはMA20付近で反発の可能性"
+      "ケビン・ウォーシュ氏のFRB議長指名による金融政策緩和期待の増大",
+      "米上院におけるステーブルコイン規制議論の進展による法的明確化",
+      "オンチェーン収益の分散化とDeFiエコシステムの構造的強化"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "米機関の現物取引開始と法整備進展が需給を支え、MA20付近での反発が期待される。",
+    "excerpt": "FRB次期議長候補としてケビン・ウォーシュ氏が指名されたことで、市場は緩和的な金融政策へのシフトを織り込み始めている。上院でのステーブルコイン規制議論も、暗号資産の機関投資家流入を後押しする構造的変化として捉えるべきである。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "米機関の現物取引開始と法整備進展が需給を支え、MA20付近での反発が期待される。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "FRB議長指名による金融緩和期待と規制の明確化が相まって、強気相場が継続する見込み。",
+    "entry": "TBD",
+    "tp": "TBD",
+    "sl": "TBD",
+    "reliability": "HIGH"
   }
 }
