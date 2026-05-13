@@ -1,68 +1,64 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: 米長期債利回り上昇とインフレ警戒の統合的リスクを確認",
-    "date": "2026-05-13 02:57",
+    "title": "USD/JPY 市場分析",
+    "date": "2026-05-13",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
-    "tldr_points": [
-      "米10年債利回り4.468%の 高水準がUSD/JPYの上値を抑制",
-      "Goolsbee理事のインフレ警告がリスクオフを加速",
-      "関税裁定の一時停止が貿易摩擦リスクを再燃"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米長期債の高利回り維持とFedのインフレ警戒姿勢がUSD/JPYの下落リスクを構成。関税裁定の一時停止も円買い材料となりうる。",
+    "excerpt": "",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "米長期債利回り4.468%とGoolsbee理事のインフレ警告がドル安材料。関税裁定の一時停止も円買いを Support。",
-    "entry": "148.50",
-    "tp": "147.80",
-    "sl": "149.00",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] ULTRA PRACTICAL MARKET REPORT",
-    "date": "2026-05-13 03:05",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "tldr_points": [
-      "S&P 500 予備値を機関投資家向けに提示",
-      "0.00レベルでの介入を強力に促進",
-      "3つのAI解析でストレートストレート性のエントリーを推奨"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500は明確な方向性を持つ上、2026年の残りが持値増。買われてない部分から介入が有効である。",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500は明確な方向性を持つ上、2026年の残りが持値増。買われてない部分から介入が有効である。",
+    "comment": "シナプス解析に基づくシグナル",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-05-13 11:50",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "野村證券",
+    "tldr_points": [
+      "ナビディアの中国訪問がハイテク株に追い風",
+      "長期金利の安定がバリュエーションを支える",
+      "オーダーフローは買い優勢で上げ余地あり"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "ナビディア関連のポジティブニュースと金利環境の安定がS&P 500の上押しを支え、押し目買いが有利と見込まれます。",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "ナビディア関連のポジティブニュースと金利安定が上昇を支え、MA20付近での押し目買いが有利",
+    "entry": "5200",
+    "tp": "5450",
+    "sl": "5150",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: 規模拡大する機関参入基調と好転する規制環境が価格押し上げ要因に",
-    "date": "2026-05-13 03:10",
+    "title": "[BTC/USD] UP: 機関資金流入加速とDeFi復活の複合的カタリストを確認",
+    "date": "2026-05-13 11:56",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "米司法省のグローバル暗号サービス管轄論に対するBitcoin Fog判例がBTC法的地位を後押し",
-      "CoinbaseのSolana連動レンディング参入により暗号金融エコシステムの拡大加速",
-      "欧州規制整備（ポーランド法案議論）が機関投資家のBTC配置意欲を刺激"
+      "JPMorganのETH上トークン化ファンド、Hyperliquid ETF上場が機関資金流入を裏付ける",
+      "Kelp DAO/AaveのrsETH再開はDeFi信頼回復の直接的シグナル",
+      "Coinbase Buy維持とCFTCの規制支持が中期的フレーム向上"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "規制面・エコシステム双方の好材料が重なり、BTC/USDは上方向バイアスを強める。現物ポジションの構築窗口が開かれつつある。",
+    "excerpt": "機関資金のブロックチェーン導入（JPMorgan、ETF）とDeFi復活により、BTCの上値牽引力が構造的に強化。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "規制・エコシステム双方の好材料が重なり上方向バイアスが強まる。現物ポジションの段階的構築が妥当。",
-    "entry": "現行水準（分割建て）",
-    "tp": "直近高値＋1.0FIB延長",
-    "sl": "直近安値の1%〜2%下",
-    "reliability": "MEDIUM"
+    "comment": "機関資金流入とDeFi復活による上昇カタリスト、テクニカル節目でのロングを推奨",
+    "entry": "現価格 -1.5%〜2%",
+    "tp": "現価格 +3%〜4%",
+    "sl": "エントリー -2.5%",
+    "reliability": "HIGH"
   }
 }

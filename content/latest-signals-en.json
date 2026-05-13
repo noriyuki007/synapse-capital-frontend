@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-13 02:57",
+    "title": "[USD/JPY] DOWN: Geopolitical Risks and BOJ Tightening Outlook Pressure the Pair",
+    "date": "2026-05-13 11:49",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Hawkish Fed supports USD",
-      "Tariffs lift inflation expectations",
-      "Bullish MA20 alignment"
+      "Middle East escalation fuels safe-haven demand for JPY",
+      "OECD BOJ rate forecast to 2% by 2027 supports JPY carry trade unwinding",
+      "Risk-off from oil shock scenarios reinforces downside bias"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY upside on Fed hawkishness, tariffs; buy near MA20 with stop below, target 157.20, via xm-trading (Risk: high)!!",
+    "excerpt": "Geopolitical tensions and BOJ tightening outlook create bearish structure for USD/JPY",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPY upside on Fed hawkishness, tariffs; buy near MA20 with stop below, target 157.20, via xm-trading (Risk: high)!!",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Bearish on geopolitical risks and BOJ tightening outlook",
+    "entry": "145.80-146.20",
+    "tp": "144.00",
+    "sl": "147.00",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Institutional Targets Raised as Support Levels Hold Despite Near-Term Volatility",
-    "date": "2026-05-13 03:05",
+    "title": "[S&P 500] UP: Nvidia China Catalyst Signals Tech-Led Rally; Support Emerging at MA20",
+    "date": "2026-05-13 11:50",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Multiple institutional targets reset to 5600-5800 for end-2026",
-      "Support structure intact at 5200-5250 zone despite Nasdaq-100 weakness",
-      "Buy-side positioning remains constructive despite recent pullback"
+      "Nvidia CEO Huang's Trump China trip signals strategic tech support, semiconductor sector momentum",
+      "Semiconductor leadership spilling into broader S&P 500; risk-on sentiment prevails",
+      "MA20 support intact; RSI in bullish territory below overbought threshold"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 poised for recovery as institutional targets rise and support holds",
+    "excerpt": "Tech catalyst from Nvidia China diplomatic link drives S&P 500 higher; buy on dips toward key support.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Institutional target resets and support integrity support long positioning on pullbacks",
-    "entry": "5320-5380",
-    "tp": "5500",
-    "sl": "5220",
+    "comment": "Nvidia catalyst provides fundamental catalyst for tech-led upside; buy on dip toward MA20 support",
+    "entry": "5945.00",
+    "tp": "6015.00",
+    "sl": "5910.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish (Ethereum FG & Morpheo Govt. Dig Cert Grants)",
-    "date": "2026-05-13 03:10",
+    "title": "[BTC/USD] UP: Institutional Adoption Wave Drives Bullish Setup as Technical Levels Approach",
+    "date": "2026-05-13 11:56",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Strong security enhancement.",
-      "Borrowing fund added bridge to crypto finance.",
-      "The new advancement will reinforce the compatible combinations necessary to support ETF regulated Windfall Legislated Funding."
+      "JPMorgan's second tokenized MMF on Ethereum signals accelerating institutional crypto allocation",
+      "CFTC backing Kalshi validates regulated prediction markets, expanding crypto utility",
+      "Technical structure remains constructive; monitor MA20 support for entry"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "AI detects bullish sentiment with alarming emergence of robust support at MA20 on a technical basis.",
+    "excerpt": "Institutional catalysts align; await pullback to key moving average for tactical long entry.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "AI detects bullish sentiment with alarming emergence of robust support at MA20 on a technical basis.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Await pullback to MA20 for tactical long entry; institutional catalysts remain strongly bullish",
+    "entry": "MA20 Zone (Pending Price Confirmation)",
+    "tp": "Recent Swing High",
+    "sl": "Below Recent Structural Low",
+    "reliability": "HIGH"
   }
 }

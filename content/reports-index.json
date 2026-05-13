@@ -1,75 +1,75 @@
 [
   {
     "id": "2026-05-13-crypto-ja",
-    "date": "2026-05-13 03:10",
-    "title": "[BTC/USD] UP: 規模拡大する機関参入基調と好転する規制環境が価格押し上げ要因に",
+    "date": "2026-05-13 11:56",
+    "title": "[BTC/USD] UP: 機関資金流入加速とDeFi復活の複合的カタリストを確認",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "規制面・エコシステム双方の好材料が重なり、BTC/USDは上方向バイアスを強める。現物ポジションの構築窗口が開かれつつある。",
+    "excerpt": "機関資金のブロックチェーン導入（JPMorgan、ETF）とDeFi復活により、BTCの上値牽引力が構造的に強化。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-13-crypto-en",
-    "date": "2026-05-13 03:10",
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish (Ethereum FG & Morpheo Govt. Dig Cert Grants)",
+    "date": "2026-05-13 11:56",
+    "title": "[BTC/USD] UP: Institutional Adoption Wave Drives Bullish Setup as Technical Levels Approach",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "AI detects bullish sentiment with alarming emergence of robust support at MA20 on a technical basis.",
+    "excerpt": "Institutional catalysts align; await pullback to key moving average for tactical long entry.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-05-13-stocks-ja",
-    "date": "2026-05-13 03:05",
-    "title": "[S&P 500] ULTRA PRACTICAL MARKET REPORT",
+    "date": "2026-05-13 11:50",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
-    "excerpt": "S&P 500は明確な方向性を持つ上、2026年の残りが持値増。買われてない部分から介入が有効である。",
+    "recommended_broker": "野村證券",
+    "excerpt": "ナビディア関連のポジティブニュースと金利環境の安定がS&P 500の上押しを支え、押し目買いが有利と見込まれます。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-13-stocks-en",
-    "date": "2026-05-13 03:05",
-    "title": "[S&P 500] UP: Institutional Targets Raised as Support Levels Hold Despite Near-Term Volatility",
+    "date": "2026-05-13 11:50",
+    "title": "[S&P 500] UP: Nvidia China Catalyst Signals Tech-Led Rally; Support Emerging at MA20",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
-    "excerpt": "S&P 500 poised for recovery as institutional targets rise and support holds",
+    "excerpt": "Tech catalyst from Nvidia China diplomatic link drives S&P 500 higher; buy on dips toward key support.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-13-fx-en",
+    "date": "2026-05-13 11:49",
+    "title": "[USD/JPY] DOWN: Geopolitical Risks and BOJ Tightening Outlook Pressure the Pair",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "xm-trading",
+    "excerpt": "Geopolitical tensions and BOJ tightening outlook create bearish structure for USD/JPY",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-05-13-fx-ja",
-    "date": "2026-05-13 02:57",
-    "title": "[USD/JPY] DOWN: 米長期債利回り上昇とインフレ警戒の統合的リスクを確認",
+    "date": "2026-05-13",
+    "title": "FX Analysis",
     "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "dmm-fx",
-    "excerpt": "米長期債の高利回り維持とFedのインフレ警戒姿勢がUSD/JPYの下落リスクを構成。関税裁定の一時停止も円買い材料となりうる。",
+    "target_pair": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "",
     "result": "PENDING",
     "locale": "ja"
-  },
-  {
-    "id": "2026-05-13-fx-en",
-    "date": "2026-05-13 02:57",
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY upside on Fed hawkishness, tariffs; buy near MA20 with stop below, target 157.20, via xm-trading (Risk: high)!!",
-    "result": "PENDING",
-    "locale": "en"
   },
   {
     "id": "2026-05-12-crypto-ja",
@@ -152,7 +152,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "機関流入とSaylor発言が上昇を後押しし、MA20付近での押し目買いが有効。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "Bullish momentum builds on institutional inflows and regulatory clarity; tactical long preferred.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "AI concentration fuels S&P 500 while Powell's hawkish tone introduces volatility; buy dips",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "イラン・米協議の行方とBoEの利上げ待機姿勢がドル買いを支え、USD/JPYは上昇バイアス。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY range-bound as macro crosscurrents offset; await catalytic trigger for directional break.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
