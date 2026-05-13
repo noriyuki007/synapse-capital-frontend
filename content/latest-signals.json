@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY 市場分析",
-    "date": "2026-05-13",
+    "title": "[USD/JPY] UP: Dollar's Firmness and Risk-On Sentiment Align",
+    "date": "2026-05-13 19:23",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "tldr_points": [],
+    "tldr_points": [
+      "Dollar strength persists amid hawkish Fed narrative",
+      "Geopolitical tensions cap yen safe-haven demand",
+      "Technical structure favors upside extension toward 159.00"
+    ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "",
+    "excerpt": "USD/JPY edges toward 158.00 as dollar firmness outweighs yen safe-haven flows. Fundamental alignment supports further upside, with key resistance at 159.00. Recommend long exposure with strict risk controls.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Dollar's interest rate advantage and risk-on sentiment align with technical structure",
+    "entry": "157.90",
+    "tp": "159.00",
+    "sl": "157.20",
+    "reliability": "HIGH"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-05-13 11:50",
+    "date": "2026-05-13 19:25",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "野村證券",
+    "recommended_broker": "",
     "tldr_points": [
-      "ナビディアの中国訪問がハイテク株に追い風",
-      "長期金利の安定がバリュエーションを支える",
-      "オーダーフローは買い優勢で上げ余地あり"
+      "米国株式市場は金利の持ち上げ観測による押し目を経て再上昇",
+      "MA20近辺からのテクニカルリバウンドが確認される可能性",
+      "AI分析によるセンチメントの改善と利幅拡大"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "ナビディア関連のポジティブニュースと金利環境の安定がS&P 500の上押しを支え、押し目買いが有利と見込まれます。",
+    "excerpt": "S&P 500はMA20付近での押し目からの反発を見込み、金利環境と上振れクオリティ銘柄の支持を背景にしている。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "ナビディア関連のポジティブニュースと金利安定が上昇を支え、MA20付近での押し目買いが有利",
-    "entry": "5200",
-    "tp": "5450",
-    "sl": "5150",
-    "reliability": "MEDIUM"
+    "comment": "MA20での押し目反発と金利環境の改善",
+    "entry": "4300",
+    "tp": "4400",
+    "sl": "4240",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: 機関資金流入加速とDeFi復活の複合的カタリストを確認",
-    "date": "2026-05-13 11:56",
+    "title": "[BTC/USD] UP: マクロ緩和と機関流入がサポート",
+    "date": "2026-05-13 19:29",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "JPMorganのETH上トークン化ファンド、Hyperliquid ETF上場が機関資金流入を裏付ける",
-      "Kelp DAO/AaveのrsETH再開はDeFi信頼回復の直接的シグナル",
-      "Coinbase Buy維持とCFTCの規制支持が中期的フレーム向上"
+      "米機関の現物BTC取引開始が需要を押し上げ",
+      "トークナイゼーション関連法案が資金調達環境を改善",
+      "テクニカルはMA20付近で反発の可能性"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "機関資金のブロックチェーン導入（JPMorgan、ETF）とDeFi復活により、BTCの上値牽引力が構造的に強化。",
+    "excerpt": "米機関の現物取引開始と法整備進展が需給を支え、MA20付近での反発が期待される。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "機関資金流入とDeFi復活による上昇カタリスト、テクニカル節目でのロングを推奨",
-    "entry": "現価格 -1.5%〜2%",
-    "tp": "現価格 +3%〜4%",
-    "sl": "エントリー -2.5%",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "米機関の現物取引開始と法整備進展が需給を支え、MA20付近での反発が期待される。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }

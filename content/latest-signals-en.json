@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Geopolitical Risks and BOJ Tightening Outlook Pressure the Pair",
-    "date": "2026-05-13 11:49",
+    "title": "[USD/JPY] UP: Dollar Holds Firmer as JPY Weakens on Risk-On Tone",
+    "date": "2026-05-13 19:23",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Middle East escalation fuels safe-haven demand for JPY",
-      "OECD BOJ rate forecast to 2% by 2027 supports JPY carry trade unwinding",
-      "Risk-off from oil shock scenarios reinforces downside bias"
+      "Dollar firm on hawkish Fed risk",
+      "JPY pressured by risk-on flows and gold consolidation",
+      "USD/JPY targeting 158.00 with upside bias"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Geopolitical tensions and BOJ tightening outlook create bearish structure for USD/JPY",
+    "excerpt": "USD/JPY nudges higher to 158.00 as dollar holds firm amid hawkish Fed and risk-on tone.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Bearish on geopolitical risks and BOJ tightening outlook",
-    "entry": "145.80-146.20",
-    "tp": "144.00",
-    "sl": "147.00",
+    "status": "BUY",
+    "comment": "Dollar firm on hawkish Fed and risk-on tone, targeting 158.00+",
+    "entry": "157.50",
+    "tp": "158.50",
+    "sl": "157.00",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Nvidia China Catalyst Signals Tech-Led Rally; Support Emerging at MA20",
-    "date": "2026-05-13 11:50",
+    "title": "[S&P 500] NEUTRAL: Mixed Signals Amid Fed Warning and Tech Trade Developments",
+    "date": "2026-05-13 19:25",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
     "tldr_points": [
-      "Nvidia CEO Huang's Trump China trip signals strategic tech support, semiconductor sector momentum",
-      "Semiconductor leadership spilling into broader S&P 500; risk-on sentiment prevails",
-      "MA20 support intact; RSI in bullish territory below overbought threshold"
+      "Fed warning raises caution despite tech trade optimism",
+      "Michael Burry's warning adds contrarian perspective",
+      "Technical levels remain undefined amid uncertainty"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Tech catalyst from Nvidia China diplomatic link drives S&P 500 higher; buy on dips toward key support.",
+    "excerpt": "Fed warning counters tech optimism as S&P 500 faces mixed signals.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Nvidia catalyst provides fundamental catalyst for tech-led upside; buy on dip toward MA20 support",
-    "entry": "5945.00",
-    "tp": "6015.00",
-    "sl": "5910.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Mixed signals between Fed warning and tech trade developments warrant caution",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Adoption Wave Drives Bullish Setup as Technical Levels Approach",
-    "date": "2026-05-13 11:56",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-13 19:29",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "JPMorgan's second tokenized MMF on Ethereum signals accelerating institutional crypto allocation",
-      "CFTC backing Kalshi validates regulated prediction markets, expanding crypto utility",
-      "Technical structure remains constructive; monitor MA20 support for entry"
+      "AI detects MA20 support aligning with bullish tokenization catalysts",
+      "RSI(14) shows oversold rebound with buying pressure",
+      "Volume surge on spot BTC/ETF launch fuels upside momentum"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Institutional catalysts align; await pullback to key moving average for tactical long entry.",
+    "excerpt": "AI spots MA20 support; bullish tokenization news; RSI oversold rebound; volume spikes on ETF launch, signaling upside.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Await pullback to MA20 for tactical long entry; institutional catalysts remain strongly bullish",
-    "entry": "MA20 Zone (Pending Price Confirmation)",
-    "tp": "Recent Swing High",
-    "sl": "Below Recent Structural Low",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "AI spots MA20 support; bullish tokenization news; RSI oversold rebound; volume spikes on ETF launch, signaling upside.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
