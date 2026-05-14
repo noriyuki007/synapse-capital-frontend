@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20付近の押し目と金利差拡大が支撑",
-    "date": "2026-05-14 19:12",
+    "title": "[USD/JPY] FLAT: 地政学的緊張とリスクオフ・リスクオンの混在で方向感欠く",
+    "date": "2026-05-15 02:47",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "USD/JPYはMA20付近でサポートし、リスクオンシナリオで上昇が期待できる",
-      "ECBのインフレ固定策と米金利差拡大がUSDを支援し、テクニカル指標は上値余地を示唆",
-      "流動性確保のためdmm-fx利用を推奨し、取引コストを最小化"
+      "中東の秘密打撃がリスクオフを誘発しつつ、トランプ発言でリスクオンの逆風も。",
+      "BOEピルの発言はインフレ第二ラウンド強化を示唆し、ポンドよりドルへの影響は限定的。",
+      "テクニカルはMA20付近でもみ合い、RSIは中立域かつ方向性不明。"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "本レポートはUSD/JPYの上昇トレンドを根拠に、MA20付近の押し目買いを推奨し、流動性確保のためdmm-fx利用を提言する。欧州中央銀行のインフレ固定策と米金利差拡大がUSDを支援し、テクニカル指標は上値余地を示唆。",
+    "excerpt": "地政学的リスクとマクロデータが混在し、USD/JPYは明確なトレンドを示さずレンジ相場が予想される。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20付近の押し目と金利差拡大が支撑し、リスクオンシナリオで上昇が期待できる。",
-    "entry": "150.00",
-    "tp": "152.00",
-    "sl": "148.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "ファンダメンタルズとテクニカルが方向感を欠き、レンジ相場が継続すると判断",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: テックリーダーの強さと内部買いが下支え",
-    "date": "2026-05-14 19:15",
+    "title": "[S&P 500] UP: マーケット上昇のカタリストとテクニカルの整合性を確認",
+    "date": "2026-05-15 02:58",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "野村證券",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "テックセクターの堅調な上昇が指数を押し上げる",
-      "内部者買いが小型株の割安性を示唆し広がりを示す",
-      "債券利回りの上昇とトランプ関連不透明感が上値を制約"
+      "ナスダックとダウが史上最高値を更新、Nvidia・Broadcomが牽引",
+      "ETF資金流入が米国株全体の上昇を後押し",
+      "コロンビアのベネズエラ補完経済発言はリスク限定的"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "テック株の上昇と内部買いがS&P500の下支えになる一方で、債券市場の警戒感やトランプ政策への不透明感が上値を重くし、方向性は限定的な上昇に留まると見込む。",
+    "excerpt": "ナスダック・ダウの最高値更新と半導体株の強さがS&P 500の上昇基盤を形成、テクニカルはMA20を支えに押し目買いが有利。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "テックセクターの上昇と内部買いが下支え、債券利回りと政策不透明感が上値を抑制",
-    "entry": "5150",
+    "comment": "ナスダック・ダウの最高値更新と半導体株の強さがファンダメンタルズを支え、MA20付近でのサポートがテクニカル的に買いを示す。",
+    "entry": "5230",
     "tp": "5300",
-    "sl": "5050",
-    "reliability": "MEDIUM"
+    "sl": "5200",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: UK stablecoin rule easing and CFTC no-action offset Nakamoto loss",
-    "date": "2026-05-14 19:19",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-05-15 03:07",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BoE stablecoin rule easing and CFTC no‑action letter lift macro tailwinds for crypto.",
-      "Nakamoto’s $239 m Q1 loss signals BTC treasury de‑rating risk.",
-      "BitGo revenue up but net loss widening; SOL‑centric DeFi shows robust growth."
+      "機関投資家の流入が継続し、上値余地が残る",
+      "米上院のcrypto市場構造法案進展で規制リスクが低減",
+      "テクニカルはMA20付近での押し目買いシグナルを示唆"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "UK stablecoin regulation easing and CFTC no‑action support a bullish backdrop, yet Nakamoto’s loss and BitGo’s widening deficit temper upside; BTC remains range‑bound.",
+    "excerpt": "規制緩和と機関需要の高まりによりBTC/USDは上昇バイアスが強まる見込み。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "マクロ緩和と規制対応が上値を支援するが、トレジャー損失と業界赤字が押し目を強化しレンジ相場が継続。",
-    "entry": "現価格 ±1.5%",
-    "tp": "現価格 +2.5%",
-    "sl": "現価格 -1.8%",
+    "status": "BUY",
+    "comment": "規制緩和と機関需要の継続およびMA20付近の押し目買いシグナルが根拠",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
     "reliability": "MEDIUM"
   }
 }
