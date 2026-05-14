@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 中国人民元急騰と米中協議期待を背景とした円安バイアス",
-    "date": "2026-05-14 11:51",
+    "title": "[USD/JPY] UP: MA20付近の押し目と金利差拡大が支撑",
+    "date": "2026-05-14 19:12",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "CNHが2023年2月以来のドル安水準、人民元全面高の円への波及効果",
-      "米中首脳会谈控え貿易摩擦緩和期待でリスクオン",
-      "PBOC的人民元切り上げ示唆が円売りを加速"
+      "USD/JPYはMA20付近でサポートし、リスクオンシナリオで上昇が期待できる",
+      "ECBのインフレ固定策と米金利差拡大がUSDを支援し、テクニカル指標は上値余地を示唆",
+      "流動性確保のためdmm-fx利用を推奨し、取引コストを最小化"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "中国人民元が2023年2月以来のドル安水準を観測。米中首脳会谈控え貿易摩擦緩和期待が円安を加速させており、戦略的な買いエントリーが有効。",
+    "excerpt": "本レポートはUSD/JPYの上昇トレンドを根拠に、MA20付近の押し目買いを推奨し、流動性確保のためdmm-fx利用を提言する。欧州中央銀行のインフレ固定策と米金利差拡大がUSDを支援し、テクニカル指標は上値余地を示唆。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "人民元高と米中協議期待を背景とした円安バイアス、押し目買い戦略",
-    "entry": "148.20-148.40",
-    "tp": "149.00/149.50",
-    "sl": "147.50",
+    "comment": "MA20付近の押し目と金利差拡大が支撑し、リスクオンシナリオで上昇が期待できる。",
+    "entry": "150.00",
+    "tp": "152.00",
+    "sl": "148.00",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: トランプ‑シージンピン会合によるリスクオフ緩和とテック集中リスクの相殺",
-    "date": "2026-05-14 11:53",
+    "title": "[S&P 500] UP: テックリーダーの強さと内部買いが下支え",
+    "date": "2026-05-14 19:15",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "野村證券",
     "tldr_points": [
-      "トランプ大統領が北京で習近平主席と会談し、地政学的リスクが後退",
-      "マグニフィセント・セブンの下落は過剰反応であり、バリュエーション魅力が顕在化",
-      "S&P 500は短期的に5,250付近での押し目買いが有効"
+      "テックセクターの堅調な上昇が指数を押し上げる",
+      "内部者買いが小型株の割安性を示唆し広がりを示す",
+      "債券利回りの上昇とトランプ関連不透明感が上値を制約"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "トランプ‑習会談で地政学的不安が後退し、テック株の過剰売り込みが修正される見通し。S&P 500は5,250付近での押し目買いを推奨。",
+    "excerpt": "テック株の上昇と内部買いがS&P500の下支えになる一方で、債券市場の警戒感やトランプ政策への不透明感が上値を重くし、方向性は限定的な上昇に留まると見込む。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "トランプ‑習会談で地政学的不安が後退し、テック株の過剰売り込みが修正される見通し。S&P 500は5,250付近での押し目買いを推奨。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "テックセクターの上昇と内部買いが下支え、債券利回りと政策不透明感が上値を抑制",
+    "entry": "5150",
+    "tp": "5300",
+    "sl": "5050",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: ファンダメンタルズの強化とマクロ環境の整合性を確認",
-    "date": "2026-05-14 11:56",
+    "title": "[BTC/USD] FLAT: UK stablecoin rule easing and CFTC no-action offset Nakamoto loss",
+    "date": "2026-05-14 19:19",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "FidelityのトークンファンドがAAA-mf取得、機関需要の底上げ",
-      "Solanaエコシステムの急成長がアルトコイン市場に波及",
-      "Fed議長人選がややタカ派傾向だが、流動性環境は依然緩やか"
+      "BoE stablecoin rule easing and CFTC no‑action letter lift macro tailwinds for crypto.",
+      "Nakamoto’s $239 m Q1 loss signals BTC treasury de‑rating risk.",
+      "BitGo revenue up but net loss widening; SOL‑centric DeFi shows robust growth."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "機関向けファンダメンタルズの改善とオーダーフローの回復がBTC/USDの上昇を支える見込み。",
+    "excerpt": "UK stablecoin regulation easing and CFTC no‑action support a bullish backdrop, yet Nakamoto’s loss and BitGo’s widening deficit temper upside; BTC remains range‑bound.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "ファンダメンタルズ改善とオーダーフロー回復が上昇を支える",
-    "entry": "27500",
-    "tp": "30000",
-    "sl": "26500",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "マクロ緩和と規制対応が上値を支援するが、トレジャー損失と業界赤字が押し目を強化しレンジ相場が継続。",
+    "entry": "現価格 ±1.5%",
+    "tp": "現価格 +2.5%",
+    "sl": "現価格 -1.8%",
+    "reliability": "MEDIUM"
   }
 }
