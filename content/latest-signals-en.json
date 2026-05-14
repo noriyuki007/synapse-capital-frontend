@@ -1,68 +1,64 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Signals Bullish Momentum on Yield Surge and Fed Hawkish Bias",
-    "date": "2026-05-14 02:59",
+    "title": "[USD/JPY] UP: AI Detects Support Formation as US-China Meeting Approaches",
+    "date": "2026-05-14 11:51",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Yield surge lifts USD",
-      "Fed hawkish bias persists",
-      "MA20 support aligns with bullish bias"
+      "USD strength emerges as CNH hits 16-month high",
+      "PBOC reference rate signals continued yuan pressure",
+      "Key technical levels forming ahead of US-China meeting"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY eyes upside as Treasury yields hit 5.05%, Fed stays hawkish, while MA20 offers technical support in near termly.",
+    "excerpt": "USD/JPY poised for upside momentum as yuan weakness supports dollar ahead of pivotal US-China talks",
     "pair": "USD/JPY",
+    "status": "BUY",
+    "comment": "Technical support forming with USD strength against Asian currencies",
+    "entry": "158.65",
+    "tp": "160.30",
+    "sl": "157.95",
+    "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-14 11:53",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Goldman Sachs",
+    "tldr_points": [
+      "AI spots MA20 support, tech weight eases; target entry ~4,800, TP 4,950, SL 4,720.",
+      "Magnificent Seven pullback reduces concentration risk.",
+      "Macro catalysts supportive with upcoming Fed commentary."
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "AI spots MA20 support, tech weight eases; target entry ~4,800, TP 4,950, SL 4,720.",
+    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "USD/JPY eyes upside as Treasury yields hit 5.05%, Fed stays hawkish, while MA20 offers technical support in near termly.",
+    "comment": "AI spots MA20 support, tech weight eases; target entry ~4,800, TP 4,950, SL 4,720.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
-  "STOCKS": {
-    "title": "[S&P 500] UP: Tech Boost and China Visit Lift Intraday Highs",
-    "date": "2026-05-14 03:42",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "S&P 500 tests intraday highs amid tech sector strength.",
-      "Trump’s China visit adds optimism to trade‑related stocks.",
-      "RSI approaching overbought warns of near‑term pullback risk."
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 gains on tech boost and Trump‑China trade hopes probing 5,300 resistance as RSI climbs into overbought territory",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Bullish momentum with technical support near MA20.",
-    "entry": "5250",
-    "tp": "5350",
-    "sl": "5200",
-    "reliability": "MEDIUM"
-  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Fed Chair Confirmation Fuels Risk Appetite, On‑Chain Liquidity Rises",
-    "date": "2026-05-14 04:27",
+    "title": "BTC/USD 市場分析",
+    "date": "2026-05-14",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
-    "tldr_points": [
-      "Senate confirmation of Warsh signals accommodative monetary policy",
-      "Hyperliquid fee surge reflects strengthening on‑chain liquidity",
-      "Technical framework points to bullish bias above recent swing high"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Fed chair pick, on‑chain fee growth, and bullish technicals combine for a near‑term BTC upside thesis.",
+    "excerpt": "",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Dovish Fed policy and strengthening on‑chain liquidity create a bullish trade setup.",
-    "entry": "66200",
-    "tp": "71500",
-    "sl": "63800",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }

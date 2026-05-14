@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: カシュカリ発言と長期利回り上昇が円売りを後押し",
-    "date": "2026-05-14 02:59",
+    "title": "[USD/JPY] UP: 中国人民元急騰と米中協議期待を背景とした円安バイアス",
+    "date": "2026-05-14 11:51",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "カシュカリのインフレ過熱発言が米金利上昇期待を強化",
-      "30年債利回り5.046%が米ドルの魅力を向上",
-      "製造業生産性の向上はインフレ緩和材料だが、全体としてはドル買い優位"
+      "CNHが2023年2月以来のドル安水準、人民元全面高の円への波及効果",
+      "米中首脳会谈控え貿易摩擦緩和期待でリスクオン",
+      "PBOC的人民元切り上げ示唆が円売りを加速"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米国のインフレ懸念と長期利回り上昇が円売りを促し、USD/JPYは上昇余地が残る。",
+    "excerpt": "中国人民元が2023年2月以来のドル安水準を観測。米中首脳会谈控え貿易摩擦緩和期待が円安を加速させており、戦略的な買いエントリーが有効。",
     "pair": "USD/JPY",
+    "status": "BUY",
+    "comment": "人民元高と米中協議期待を背景とした円安バイアス、押し目買い戦略",
+    "entry": "148.20-148.40",
+    "tp": "149.00/149.50",
+    "sl": "147.50",
+    "reliability": "HIGH"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] UP: トランプ‑シージンピン会合によるリスクオフ緩和とテック集中リスクの相殺",
+    "date": "2026-05-14 11:53",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Nomura Securities",
+    "tldr_points": [
+      "トランプ大統領が北京で習近平主席と会談し、地政学的リスクが後退",
+      "マグニフィセント・セブンの下落は過剰反応であり、バリュエーション魅力が顕在化",
+      "S&P 500は短期的に5,250付近での押し目買いが有効"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "トランプ‑習会談で地政学的不安が後退し、テック株の過剰売り込みが修正される見通し。S&P 500は5,250付近での押し目買いを推奨。",
+    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "米国のインフレ懸念と長期利回り上昇が円売りを促し、USD/JPYは上昇余地が残る。",
+    "comment": "トランプ‑習会談で地政学的不安が後退し、テック株の過剰売り込みが修正される見通し。S&P 500は5,250付近での押し目買いを推奨。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
-  "STOCKS": {
-    "title": "[S&P 500] UP: テクノロジーセクターの強気動向と地政学的リスク緩和を背景に",
-    "date": "2026-05-14 03:42",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "テクノロジーセクターが市場を牽引",
-      "トランプ氏の中国訪問が地政学的リスク緩和へ",
-      "流動性の観点からInteractive Brokers利用を推奨"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500が高値更新、テクノロジーセクターが強気基調、地政的要因が市場に与える影響を分析。",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "テクノロジーセクターの強気動向と地政学的リスク緩和が上昇トレンドを支持",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "HIGH"
-  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: FRB議長交代期待による緩和的転換と規制環境の明確化",
-    "date": "2026-05-14 04:27",
+    "title": "[BTC/USD] UP: ファンダメンタルズの強化とマクロ環境の整合性を確認",
+    "date": "2026-05-14 11:56",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "ケビン・ウォーシュ氏のFRB議長指名による金融政策緩和期待の増大",
-      "米上院におけるステーブルコイン規制議論の進展による法的明確化",
-      "オンチェーン収益の分散化とDeFiエコシステムの構造的強化"
+      "FidelityのトークンファンドがAAA-mf取得、機関需要の底上げ",
+      "Solanaエコシステムの急成長がアルトコイン市場に波及",
+      "Fed議長人選がややタカ派傾向だが、流動性環境は依然緩やか"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "FRB次期議長候補としてケビン・ウォーシュ氏が指名されたことで、市場は緩和的な金融政策へのシフトを織り込み始めている。上院でのステーブルコイン規制議論も、暗号資産の機関投資家流入を後押しする構造的変化として捉えるべきである。",
+    "excerpt": "機関向けファンダメンタルズの改善とオーダーフローの回復がBTC/USDの上昇を支える見込み。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "FRB議長指名による金融緩和期待と規制の明確化が相まって、強気相場が継続する見込み。",
-    "entry": "TBD",
-    "tp": "TBD",
-    "sl": "TBD",
+    "comment": "ファンダメンタルズ改善とオーダーフロー回復が上昇を支える",
+    "entry": "27500",
+    "tp": "30000",
+    "sl": "26500",
     "reliability": "HIGH"
   }
 }

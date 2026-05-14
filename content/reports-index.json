@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-05-14-crypto-ja",
-    "date": "2026-05-14 04:27",
-    "title": "[BTC/USD] UP: FRB議長交代期待による緩和的転換と規制環境の明確化",
+    "date": "2026-05-14 11:56",
+    "title": "[BTC/USD] UP: ファンダメンタルズの強化とマクロ環境の整合性を確認",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "FRB次期議長候補としてケビン・ウォーシュ氏が指名されたことで、市場は緩和的な金融政策へのシフトを織り込み始めている。上院でのステーブルコイン規制議論も、暗号資産の機関投資家流入を後押しする構造的変化として捉えるべきである。",
+    "excerpt": "機関向けファンダメンタルズの改善とオーダーフローの回復がBTC/USDの上昇を支える見込み。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
-    "id": "2026-05-14-crypto-en",
-    "date": "2026-05-14 04:27",
-    "title": "[BTC/USD] UP: Fed Chair Confirmation Fuels Risk Appetite, On‑Chain Liquidity Rises",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bybit",
-    "excerpt": "Fed chair pick, on‑chain fee growth, and bullish technicals combine for a near‑term BTC upside thesis.",
-    "result": "PENDING",
-    "locale": "en"
-  },
-  {
     "id": "2026-05-14-stocks-ja",
-    "date": "2026-05-14 03:42",
-    "title": "[S&P 500] UP: テクノロジーセクターの強気動向と地政学的リスク緩和を背景に",
+    "date": "2026-05-14 11:53",
+    "title": "[S&P 500] UP: トランプ‑シージンピン会合によるリスクオフ緩和とテック集中リスクの相殺",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "excerpt": "S&P 500が高値更新、テクノロジーセクターが強気基調、地政的要因が市場に与える影響を分析。",
+    "recommended_broker": "Nomura Securities",
+    "excerpt": "トランプ‑習会談で地政学的不安が後退し、テック株の過剰売り込みが修正される見通し。S&P 500は5,250付近での押し目買いを推奨。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-14-stocks-en",
-    "date": "2026-05-14 03:42",
-    "title": "[S&P 500] UP: Tech Boost and China Visit Lift Intraday Highs",
+    "date": "2026-05-14 11:53",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "excerpt": "S&P 500 gains on tech boost and Trump‑China trade hopes probing 5,300 resistance as RSI climbs into overbought territory",
+    "recommended_broker": "Goldman Sachs",
+    "excerpt": "AI spots MA20 support, tech weight eases; target entry ~4,800, TP 4,950, SL 4,720.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-05-14-fx-ja",
-    "date": "2026-05-14 02:59",
-    "title": "[USD/JPY] UP: カシュカリ発言と長期利回り上昇が円売りを後押し",
+    "date": "2026-05-14 11:51",
+    "title": "[USD/JPY] UP: 中国人民元急騰と米中協議期待を背景とした円安バイアス",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "米国のインフレ懸念と長期利回り上昇が円売りを促し、USD/JPYは上昇余地が残る。",
+    "excerpt": "中国人民元が2023年2月以来のドル安水準を観測。米中首脳会谈控え貿易摩擦緩和期待が円安を加速させており、戦略的な買いエントリーが有効。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-14-fx-en",
-    "date": "2026-05-14 02:59",
-    "title": "[USD/JPY] UP: AI Signals Bullish Momentum on Yield Surge and Fed Hawkish Bias",
+    "date": "2026-05-14 11:51",
+    "title": "[USD/JPY] UP: AI Detects Support Formation as US-China Meeting Approaches",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY eyes upside as Treasury yields hit 5.05%, Fed stays hawkish, while MA20 offers technical support in near termly.",
+    "excerpt": "USD/JPY poised for upside momentum as yuan weakness supports dollar ahead of pivotal US-China talks",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-14-crypto-en",
+    "date": "2026-05-14",
+    "title": "CRYPTO Analysis",
+    "genre": "CRYPTO",
+    "target_pair": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "",
     "result": "PENDING",
     "locale": "en"
   },
@@ -152,7 +152,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "ブータンのBTC移動停滞とXRP ETF流入が需給を改善、利上げ停止観測でBTCは上昇余地を示す。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD poised for upside on XRP ETF inflows and Circle price target amid mixed outflows.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500 faces downward pressure from persistent inflation worries and tightening rate expectations, with technical momentum confirming bearish bias ahead of key CPI release.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "excerpt": "Market pressured by inflation jitters, rate concerns, and pre-CPI weakness. S&P 500 shows bearish technical structure.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "Yen slide persists despite intervention rhetoric; buy dips toward structural support.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
