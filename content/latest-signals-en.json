@@ -1,68 +1,69 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Geopolitical Tensions Drive Safe-Haven Flows as BOJ Policy Divergence Persists",
-    "date": "2026-05-15 02:47",
+    "title": "[USD/JPY] DOWN: AI Detects Bearish Pressure as Japan Inflation Data Outpaces Expectations",
+    "date": "2026-05-15 11:52",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Middle East escalation fuels safe-haven demand for JPY",
-      "BOJ dovish stance contrasts with Fed hawkish hold",
-      "Technical setup favors long positions on pullbacks"
+      "Japan wholesale prices surge 4.9% YoY, signaling inflationary pressure supporting JPY",
+      "Iran geopolitical risk drives energy costs higher, fueling safe-haven flows into yen",
+      "Technical setup shows price rejection at MA20 resistance with negative momentum divergence"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Geopolitical risk premium supports JPY longs; BOJ policy divergence remains structural tailwind for USD/JPY",
+    "excerpt": "USD/JPY bearish on Japan inflation surge and Iran risk; sell rallies toward 150.50",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Geopolitical risk and policy divergence support bullish thesis; enter on MA20 pullback",
-    "entry": "147.80",
-    "tp": "149.50",
-    "sl": "146.80",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "Bearish on Japan inflation surge and Iran risk; sell rallies toward MA20 resistance",
+    "entry": "151.50",
+    "tp": "150.00",
+    "sl": "152.50",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-15 02:58",
+    "title": "[S&P 500] NEUTRAL: Tech Strength Offset by Yield Headwinds and Concentration Risk",
+    "date": "2026-05-15 12:04",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Dow Jones breaches 50,000 milestone as tech rally accelerates",
-      "Nvidia and Broadcom lead index higher amid AI sector strength",
-      "Institutional flows into ETFs signal sustained buying pressure"
+      "Yields at 4.5% create headwinds for equity valuations",
+      "Nvidia-driven AI rally shows signs of exhaustion with fund exits",
+      "Technical support at MA20 critical; breach signals deeper correction",
+      "Large-cap stability preferred over Russell 2000 growth amid uncertainty"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 bullish as Dow hits 50K; tech leadership drives momentum higher",
+    "excerpt": "S&P 500 flatline as 4.5% yields counter AI momentum; tactical range play warranted.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Bullish trend intact; buy dips toward MA20 support",
-    "entry": "5930.00",
-    "tp": "6050.00",
-    "sl": "5880.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Range-bound as 4.5% yields counter AI momentum; MA20 breach dictates next directional move",
+    "entry": "5900.00",
+    "tp": "6100.00",
+    "sl": "5810.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Senate Crypto Bill Advancement Fuels Technical Dip-Buying Opportunity",
-    "date": "2026-05-15 03:07",
+    "title": "[BTC/USD] UP: Institutional Inflows and Regulatory Clarity Fuel Bullish Momentum",
+    "date": "2026-05-15 12:08",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Senate crypto bill progress provides regulatory clarity",
-      "Technical setup offers dip-buying at MA20",
-      "RSI indicates room for upside without overbought conditions"
+      "Institutional demand accelerates as Trump discloses strategic crypto holdings",
+      "Regulatory clarity via Clarity Act reduces compliance risk premium",
+      "Technical setup favors dip-buying toward moving average support"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD bullish bias as Senate advances crypto bill; technical dip at MA20 offers entry with tight stop.",
+    "excerpt": "Institutional accumulation and regulatory progress create constructive backdrop for BTC longs",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USD bullish bias as Senate advances crypto bill; technical dip at MA20 offers entry with tight stop.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Institutional inflows and regulatory clarity support bullish thesis; buy at MA20 support",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "HIGH"
   }
 }

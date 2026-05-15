@@ -1,68 +1,70 @@
 {
   "FX": {
-    "title": "[USD/JPY] FLAT: 地政学的緊張とリスクオフ・リスクオンの混在で方向感欠く",
-    "date": "2026-05-15 02:47",
+    "title": "[USD/JPY] DOWN: イラン緊張と日本卸売物価上昇が円買いを後押し",
+    "date": "2026-05-15 11:52",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "中東の秘密打撃がリスクオフを誘発しつつ、トランプ発言でリスクオンの逆風も。",
-      "BOEピルの発言はインフレ第二ラウンド強化を示唆し、ポンドよりドルへの影響は限定的。",
-      "テクニカルはMA20付近でもみ合い、RSIは中立域かつ方向性不明。"
+      "イラン情勢悪化でリスクオフが強まり、安全資産として円が買われる",
+      "日本の卸売物価が4.9%上昇し、金融政策の正常化期待が円を支える",
+      "米中貿易摩擦の再燃と原油高が米国ドルの上値を重くする"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "地政学的リスクとマクロデータが混在し、USD/JPYは明確なトレンドを示さずレンジ相場が予想される。",
+    "excerpt": "イラン緊張と日本の卸売物価上昇が円買いを促し、USD/JPYは下押しリスクが高まる。機関投資家は戻り売りを検討すべき。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "ファンダメンタルズとテクニカルが方向感を欠き、レンジ相場が継続すると判断",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "イラン緊張と日本卸売物価上昇が円買いを後押し、レジスタンスでの戻り売りが有利",
+    "entry": "156.30",
+    "tp": "154.00",
+    "sl": "156.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: マーケット上昇のカタリストとテクニカルの整合性を確認",
-    "date": "2026-05-15 02:58",
+    "title": "[S&P 500] UP: AI半導体強気と米国長期債利回り上昇が構造的押し上げ力を形成",
+    "date": "2026-05-15 12:04",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "トレンドフォロー型アルゴリズムの実行にあたっては、流動性の観点から[]の利用を推奨する。",
     "tldr_points": [
-      "ナスダックとダウが史上最高値を更新、Nvidia・Broadcomが牽引",
-      "ETF資金流入が米国株全体の上昇を後押し",
-      "コロンビアのベネズエラ補完経済発言はリスク限定的"
+      "Dow Jones先物下落、NVIDIA記録高、Cerebras IPO急騰がAI半導体リサイクルを強化",
+      "長期債利回り4.5%超、金利上昇がリスク資産への資金流入を促進",
+      "GitLab内線、小型成長株対決大型安定株——スモールキャップ成長株の脆弱性露呈"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "ナスダック・ダウの最高値更新と半導体株の強さがS&P 500の上昇基盤を形成、テクニカルはMA20を支えに押し目買いが有利。",
+    "excerpt": "NVIDIA記録高とCerebras IPO急騰がAI半導体最前線を再評価。長期債利回り4.5%超で金利リスクを正当化しつつ、S&P 500の上昇トレンド維持を見据える。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "ナスダック・ダウの最高値更新と半導体株の強さがファンダメンタルズを支え、MA20付近でのサポートがテクニカル的に買いを示す。",
-    "entry": "5230",
-    "tp": "5300",
-    "sl": "5200",
-    "reliability": "HIGH"
+    "comment": "AI半導体強気と金利上昇が上昇トレンドを維持、MA20回帰での押し目買いが有効",
+    "entry": "MA20回帰価格",
+    "tp": "直近高値ゾーン",
+    "sl": "MA20割れ",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-05-15 03:07",
+    "title": "[BTC/USD] UP: 機関買い需要急増・規制明確化・ETF承認加速がバリュエーションを牽引",
+    "date": "2026-05-15 12:08",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "機関投資家の流入が継続し、上値余地が残る",
-      "米上院のcrypto市場構造法案進展で規制リスクが低減",
-      "テクニカルはMA20付近での押し目買いシグナルを示唆"
+      "Trump関連エンティティのQ1大口購入が機関需要加速を示唆",
+      "Clarity Act進展とHyperliquid ETF上場で規制フレームワーク整備",
+      "Gemini決算の42%成長が暗号業界収益拡大トレンドを確認",
+      "DeFi攻撃のAI化は中長期的なセキュリティ・プレミアム要因",
+      "流動性観点からbitflyerでの執行を推奨"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "規制緩和と機関需要の高まりによりBTC/USDは上昇バイアスが強まる見込み。",
+    "excerpt": "機関買い需要増加・規制明確化・ETF承認加速がBTC/USDを押し上げる局面。ただしDeFi脅威のAI化はリスク要因として織り込む必要あり。押し目買い戦略を推奨。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "規制緩和と機関需要の継続およびMA20付近の押し目買いシグナルが根拠",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "comment": "機関買い需要急増・規制明確化・ETF承認加速の三重カタリスト。MA20押し目買いでリスク・リワード1:2.2を狙う。DeFi AI攻撃リスクはサイジング上限を規定。",
+    "entry": "104500.00",
+    "tp": "115000.00",
+    "sl": "99800.00",
     "reliability": "MEDIUM"
   }
 }

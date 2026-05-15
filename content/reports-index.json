@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-05-15-crypto-ja",
-    "date": "2026-05-15 03:07",
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-05-15 12:08",
+    "title": "[BTC/USD] UP: 機関買い需要急増・規制明確化・ETF承認加速がバリュエーションを牽引",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "規制緩和と機関需要の高まりによりBTC/USDは上昇バイアスが強まる見込み。",
+    "excerpt": "機関買い需要増加・規制明確化・ETF承認加速がBTC/USDを押し上げる局面。ただしDeFi脅威のAI化はリスク要因として織り込む必要あり。押し目買い戦略を推奨。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-15-crypto-en",
-    "date": "2026-05-15 03:07",
-    "title": "[BTC/USD] UP: Senate Crypto Bill Advancement Fuels Technical Dip-Buying Opportunity",
+    "date": "2026-05-15 12:08",
+    "title": "[BTC/USD] UP: Institutional Inflows and Regulatory Clarity Fuel Bullish Momentum",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "BTC/USD bullish bias as Senate advances crypto bill; technical dip at MA20 offers entry with tight stop.",
+    "excerpt": "Institutional accumulation and regulatory progress create constructive backdrop for BTC longs",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-05-15-stocks-ja",
-    "date": "2026-05-15 02:58",
-    "title": "[S&P 500] UP: マーケット上昇のカタリストとテクニカルの整合性を確認",
+    "date": "2026-05-15 12:04",
+    "title": "[S&P 500] UP: AI半導体強気と米国長期債利回り上昇が構造的押し上げ力を形成",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
-    "excerpt": "ナスダック・ダウの最高値更新と半導体株の強さがS&P 500の上昇基盤を形成、テクニカルはMA20を支えに押し目買いが有利。",
+    "recommended_broker": "トレンドフォロー型アルゴリズムの実行にあたっては、流動性の観点から[]の利用を推奨する。",
+    "excerpt": "NVIDIA記録高とCerebras IPO急騰がAI半導体最前線を再評価。長期債利回り4.5%超で金利リスクを正当化しつつ、S&P 500の上昇トレンド維持を見据える。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-15-stocks-en",
-    "date": "2026-05-15 02:58",
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-15 12:04",
+    "title": "[S&P 500] NEUTRAL: Tech Strength Offset by Yield Headwinds and Concentration Risk",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "Interactive Brokers",
-    "excerpt": "S&P 500 bullish as Dow hits 50K; tech leadership drives momentum higher",
+    "excerpt": "S&P 500 flatline as 4.5% yields counter AI momentum; tactical range play warranted.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-05-15-fx-ja",
-    "date": "2026-05-15 02:47",
-    "title": "[USD/JPY] FLAT: 地政学的緊張とリスクオフ・リスクオンの混在で方向感欠く",
+    "date": "2026-05-15 11:52",
+    "title": "[USD/JPY] DOWN: イラン緊張と日本卸売物価上昇が円買いを後押し",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
-    "excerpt": "地政学的リスクとマクロデータが混在し、USD/JPYは明確なトレンドを示さずレンジ相場が予想される。",
+    "excerpt": "イラン緊張と日本の卸売物価上昇が円買いを促し、USD/JPYは下押しリスクが高まる。機関投資家は戻り売りを検討すべき。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-15-fx-en",
-    "date": "2026-05-15 02:47",
-    "title": "[USD/JPY] UP: Geopolitical Tensions Drive Safe-Haven Flows as BOJ Policy Divergence Persists",
+    "date": "2026-05-15 11:52",
+    "title": "[USD/JPY] DOWN: AI Detects Bearish Pressure as Japan Inflation Data Outpaces Expectations",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
-    "excerpt": "Geopolitical risk premium supports JPY longs; BOJ policy divergence remains structural tailwind for USD/JPY",
+    "excerpt": "USD/JPY bearish on Japan inflation surge and Iran risk; sell rallies toward 150.50",
     "result": "PENDING",
     "locale": "en"
   },
@@ -176,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "",
     "excerpt": "S&P 500はMA20付近での押し目からの反発を見込み、金利環境と上振れクオリティ銘柄の支持を背景にしている。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "",
     "excerpt": "Fed warning counters tech optimism as S&P 500 faces mixed signals.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "USD/JPY edges toward 158.00 as dollar firmness outweighs yen safe-haven flows. Fundamental alignment supports further upside, with key resistance at 159.00. Recommend long exposure with strict risk controls.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY nudges higher to 158.00 as dollar holds firm amid hawkish Fed and risk-on tone.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
