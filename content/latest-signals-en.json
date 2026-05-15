@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Yield Support Drives Pair Despite Geopolitical Tensions",
-    "date": "2026-05-15 19:20",
+    "title": "[USD/JPY] UP: AI Detects Support Formation as USD Strength Outweighs JPY Safe-Haven Demand",
+    "date": "2026-05-16 02:25",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US Treasury yields hit near one-year high",
-      "Geopolitical tensions in Middle East support JPY",
-      "Technical structure favors USD bulls above 155.00"
+      "USD strength across complex supports JPY",
+      "Silver breakdown confirms USD momentum",
+      "European equities pressure maintaining USD bid"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY finding support as rising yields outweigh safe-haven JPY demand.",
+    "excerpt": "USD strength persists as JPY safe-haven appeal fades, technicals forming bullish base.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Yield differentials support USD strength outweighing safe-haven JPY demand",
-    "entry": "155.15",
-    "tp": "156.50",
-    "sl": "154.75",
-    "reliability": "HIGH"
+    "comment": "USD strength overshadows JPY safe-haven appeal with technical support forming",
+    "entry": "155.80",
+    "tp": "158.75",
+    "sl": "155.30",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-15 19:22",
+    "title": "[S&P 500] DOWN: Oil Surge and Yield Spike Trigger Risk-Off as Tech Rally Fades",
+    "date": "2026-05-16 02:30",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Fed policy shift fuels optimism",
-      "MA20 acts as dynamic support",
-      "RSI nearing 70 signals potential reversal"
+      "Oil and yields surge triggering broad market unwinding",
+      "Tech rally loses steam as risk-off sentiment dominates",
+      "Defensive posturing warranted with tight stops"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 poised to break through MA20 as Fed pivot and technical indicators converge.",
+    "excerpt": "Risk-off accelerates as oil and yields spike; fade rallies toward key moving averages.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Breakout above MA20 supported by Fed pivot and bullish fundamentals",
-    "entry": "Unknown",
-    "tp": "Unknown",
-    "sl": "Unknown",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "Risk-off environment driven by oil and yields; fade rallies toward broken support",
+    "entry": "5340.00",
+    "tp": "5220.00",
+    "sl": "5400.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Bullish Divergence at MA20 Despite Fundamental Headwinds",
-    "date": "2026-05-15 19:23",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-16 03:29",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "AI模型 signals bullish bias via MA20 support alignment",
-      "Fundamental narrative strengthens post-OKX acquisition",
-      "Risk/reward ratio optimized by descending channel formation"
+      "Bullish ETF inflows",
+      "Regulatory clarity in Poland",
+      "Potential short-term selling from note retirement"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD bullish bias via MA20 support and OKX acquisition catalyst",
+    "excerpt": "BTC/USD bullish on ETF inflows, regulatory progress; dip-buying near MA20 recommended.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USD bullish bias via MA20 support and OKX acquisition catalyst",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "Bullish bias supported by ETF inflows and regulatory progress; technical dip-buying at MA20 offers favorable risk/reward.",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
     "reliability": "MEDIUM"
   }
 }

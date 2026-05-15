@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 米債利回り上昇とUAEパイプラインとの複合的ドル強要因を確認",
-    "date": "2026-05-15 19:20",
+    "title": "[USD/JPY] UP: リスクオフ構造と米ドル強気ファンダメンタルズの一致",
+    "date": "2026-05-16 02:25",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米10年債利回りが1年近い高値、ドル高圧力が強化",
-      "イラン交渉の信頼欠如はJPY買い要因だが、UAEパイプラインが供給リスクを軽減",
-      "構造的にはドル高方向で、押し目買いを推奨"
+      "EUR/USD急落と石油リグカウント増加がUSD/JPY上押し",
+      "テクニカルは100日線ブレイクアウト継続中",
+      "dmm-fxでの流動性確保が推奨"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米債利回り上昇とUAE石油パイプライン加速がUSD/JPYのドル高方向を支持。リスク管理下での押し目買いを推奨。",
+    "excerpt": "USD/JPYはリスクオフ構造と米ドル強気ファンダメンタルズの一致から上昇トレンドを継続中。EUR/USD急落と石油リグカウント増加が根拠。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "米債利回り上昇が主導しドル高方向、供給リスクは軽減",
-    "entry": "MA20水準",
-    "tp": "直近高値水準",
-    "sl": "エントリーから40-50pips下方",
-    "reliability": "MEDIUM"
+    "comment": "リスクオフ+米ドル強気の一致、148.50押し目買い",
+    "entry": "148.65",
+    "tp": "150.00",
+    "sl": "147.65",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: 近期レジーム転換と金利リスクを踏まえた逆張りリスクの回避",
-    "date": "2026-05-15 19:22",
+    "title": "[S&P 500] FLAT: マクロヘッドウィンドとセクター別ローテーションが均衡を示唆",
+    "date": "2026-05-16 02:30",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "金利・油価上昇が先導し、先物が下落基調",
-      "FOMCの分断が政策不透明性を拡大",
-      "テクニカル指標は不明だが、現レジーム転換への警戒が優先される"
+      "油価と米長期金利の上昇が全体上値を重しに",
+      "アルファベットなどハイテクは依然強含み、ディフェンシブは軟調",
+      "トランプ・シアン会談とイーコマースIPOがセクター別ローテーションを誘発"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500は金利上昇と油価上昇によるリスクオフが先行し、FOMCの分断が政策不透明性を拡大。短期下落リスクを優先管理。",
+    "excerpt": "油価上昇と利回り上昇がS&P 500の上値を抑える一方で、ハイテクの強さが下値を支え、方向感の薄い展開が続く見込み。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "金利上昇・油価リスクとFOMC分断による短期下落リスクが先行",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "status": "NEUTRAL",
+    "comment": "マクロヘッドウィンドとセクターローテーションが相殺されレンジ相場継続の見込み",
+    "entry": "5250",
+    "tp": "5350",
+    "sl": "5200",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-05-15 19:23",
+    "title": "[BTC/USD] UP: Hyperliquid ETF inflowsとMiCA法案のポジティブファンダメンタルズ",
+    "date": "2026-05-16 03:29",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "マクロ不安の中でもオンチェーン流動性が底堅い",
-      "THORChainの一時停止はアルトコインへのリスクオフを示唆",
-      "テクニカル的にMA20付近での買い圧力が顕在化"
+      "Hyperliquid ETFが5百万ドルの記録的流入、機関需要の高まりを示す",
+      "ポーランドがMiCA法案を成立、ヨーロッパ規模の規模拡大が期待",
+      "金利環境がやや緩和傾向にあり、リスク資産へのシフトが続く"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "マクロ不安と流動性逼迫の中、テクニカル反発シグナルが観測され、上抜けの機会を捉える。",
+    "excerpt": "機関向けETF流入と規制進展がビットコインを押し上げ、テクニカルは押し目買いの好機を示す。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20付近での押し目買いとファンダメンタルズの整合性による上値期待",
-    "entry": "68500",
-    "tp": "71000,75000",
-    "sl": "66000",
-    "reliability": "MEDIUM"
+    "comment": "機関ETF流入と規制前向きが需給を支え、テクニカルは押し目買いの好機",
+    "entry": "27800",
+    "tp": "29500",
+    "sl": "27200",
+    "reliability": "HIGH"
   }
 }

@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-05-16-crypto-ja",
+    "date": "2026-05-16 03:29",
+    "title": "[BTC/USD] UP: Hyperliquid ETF inflowsとMiCA法案のポジティブファンダメンタルズ",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "機関向けETF流入と規制進展がビットコインを押し上げ、テクニカルは押し目買いの好機を示す。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-16-crypto-en",
+    "date": "2026-05-16 03:29",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD bullish on ETF inflows, regulatory progress; dip-buying near MA20 recommended.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-16-stocks-ja",
+    "date": "2026-05-16 02:30",
+    "title": "[S&P 500] FLAT: マクロヘッドウィンドとセクター別ローテーションが均衡を示唆",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "Nomura Securities",
+    "excerpt": "油価上昇と利回り上昇がS&P 500の上値を抑える一方で、ハイテクの強さが下値を支え、方向感の薄い展開が続く見込み。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-16-stocks-en",
+    "date": "2026-05-16 02:30",
+    "title": "[S&P 500] DOWN: Oil Surge and Yield Spike Trigger Risk-Off as Tech Rally Fades",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "Risk-off accelerates as oil and yields spike; fade rallies toward key moving averages.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-16-fx-ja",
+    "date": "2026-05-16 02:25",
+    "title": "[USD/JPY] UP: リスクオフ構造と米ドル強気ファンダメンタルズの一致",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYはリスクオフ構造と米ドル強気ファンダメンタルズの一致から上昇トレンドを継続中。EUR/USD急落と石油リグカウント増加が根拠。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-16-fx-en",
+    "date": "2026-05-16 02:25",
+    "title": "[USD/JPY] UP: AI Detects Support Formation as USD Strength Outweighs JPY Safe-Haven Demand",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD strength persists as JPY safe-haven appeal fades, technicals forming bullish base.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-05-15-crypto-ja",
     "date": "2026-05-15 19:23",
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
