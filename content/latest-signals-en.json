@@ -1,69 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: AI Detects Bearish Pressure as Japan Inflation Data Outpaces Expectations",
-    "date": "2026-05-15 11:52",
+    "title": "[USD/JPY] UP: Yield Support Drives Pair Despite Geopolitical Tensions",
+    "date": "2026-05-15 19:20",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Japan wholesale prices surge 4.9% YoY, signaling inflationary pressure supporting JPY",
-      "Iran geopolitical risk drives energy costs higher, fueling safe-haven flows into yen",
-      "Technical setup shows price rejection at MA20 resistance with negative momentum divergence"
+      "US Treasury yields hit near one-year high",
+      "Geopolitical tensions in Middle East support JPY",
+      "Technical structure favors USD bulls above 155.00"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bearish on Japan inflation surge and Iran risk; sell rallies toward 150.50",
+    "excerpt": "USD/JPY finding support as rising yields outweigh safe-haven JPY demand.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Bearish on Japan inflation surge and Iran risk; sell rallies toward MA20 resistance",
-    "entry": "151.50",
-    "tp": "150.00",
-    "sl": "152.50",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Yield differentials support USD strength outweighing safe-haven JPY demand",
+    "entry": "155.15",
+    "tp": "156.50",
+    "sl": "154.75",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] NEUTRAL: Tech Strength Offset by Yield Headwinds and Concentration Risk",
-    "date": "2026-05-15 12:04",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-15 19:22",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
     "tldr_points": [
-      "Yields at 4.5% create headwinds for equity valuations",
-      "Nvidia-driven AI rally shows signs of exhaustion with fund exits",
-      "Technical support at MA20 critical; breach signals deeper correction",
-      "Large-cap stability preferred over Russell 2000 growth amid uncertainty"
+      "Fed policy shift fuels optimism",
+      "MA20 acts as dynamic support",
+      "RSI nearing 70 signals potential reversal"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 flatline as 4.5% yields counter AI momentum; tactical range play warranted.",
+    "excerpt": "S&P 500 poised to break through MA20 as Fed pivot and technical indicators converge.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Range-bound as 4.5% yields counter AI momentum; MA20 breach dictates next directional move",
-    "entry": "5900.00",
-    "tp": "6100.00",
-    "sl": "5810.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Breakout above MA20 supported by Fed pivot and bullish fundamentals",
+    "entry": "Unknown",
+    "tp": "Unknown",
+    "sl": "Unknown",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Inflows and Regulatory Clarity Fuel Bullish Momentum",
-    "date": "2026-05-15 12:08",
+    "title": "[BTC/USD] UP: AI Detects Bullish Divergence at MA20 Despite Fundamental Headwinds",
+    "date": "2026-05-15 19:23",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Institutional demand accelerates as Trump discloses strategic crypto holdings",
-      "Regulatory clarity via Clarity Act reduces compliance risk premium",
-      "Technical setup favors dip-buying toward moving average support"
+      "AI模型 signals bullish bias via MA20 support alignment",
+      "Fundamental narrative strengthens post-OKX acquisition",
+      "Risk/reward ratio optimized by descending channel formation"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Institutional accumulation and regulatory progress create constructive backdrop for BTC longs",
+    "excerpt": "BTC/USD bullish bias via MA20 support and OKX acquisition catalyst",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Institutional inflows and regulatory clarity support bullish thesis; buy at MA20 support",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTC/USD bullish bias via MA20 support and OKX acquisition catalyst",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
