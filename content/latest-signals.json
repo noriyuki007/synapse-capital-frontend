@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Powell離脱とインフレ懸念によるドル買い優勢",
-    "date": "2026-05-16 11:40",
+    "title": "[USD/JPY] UP: Powell離脱と利回り上昇による米ドル強含みを確認",
+    "date": "2026-05-16 18:28",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      " Powell氏の離脱とインフレ再燃懸念がドル買いを後押し",
-      " 金利上昇とリスクオフが円売りを誘発",
-      " テクニカルはMA20付近での押し目買いシグナルを示唆"
+      " Powell議長退任でインフレ懸念が再燃し、米長期金利が上昇基調に",
+      " 金利上昇とリスクオフが同時に進み、米ドルは対円で堅調に推移",
+      " テクニカルではMA20付近での押し目買いが機能しやすい環境が続く"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Powell離脱とインフレ懸念がドル買いを強め、USD/JPYは上昇バイアス。エントリー155.00、TP156.50、SL154.00で[dmm-fx]推奨。",
+    "excerpt": "Powell離脱と米利回り上昇が米ドルを押し上げ、USD/JPYは上バイアスが優位。エントリーは押し目狙い、リスク管理は厳守。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "Powell離脱とインフレ懸念がドル買いを強め、USD/JPYは上昇バイアス。エントリー155.00、TP156.50、SL154.00で[dmm-fx]推奨。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Powell離脱と利回り上昇による米ドル強含みおよびMA20付近の押し目買いシグナルが根拠",
+    "entry": "150.40",
+    "tp": "152.80",
+    "sl": "149.70",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-05-16 11:44",
+    "title": "[S&P 500] DOWN: 歴史的ダブルウォームとマクロリスクの整合性",
+    "date": "2026-05-16 19:42",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "野村證券",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "Vontierへの追加投資が産業セクターの需給を支援",
-      "Ares Capitalの高利回り配当がインカム志向資金を引き寄せ",
-      "AI関連株の頭打ち懸念が全体の上値を制限"
+      "マクロリスクが株価下押し圧力を強めている",
+      "テクニカルはMA20付近で売りシグナルが発生",
+      "流動性観点からNomura Securitiesの利用を推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500は産業セクターの買い増しと高配当株への資金流入で底堅く、AI株の調整が上値を抑える中で、MA20付近での押し目買いを視野に入れる。短期的にはレンジブレイクを狙うよりも、押し目での長期保有を推奨し、流動性の高い野村證券を通じた執行が望ましい。",
+    "excerpt": "マクロ的なダブルウォームと売りシグナルが重なり、S&P 500は下押しリスクが高まっている。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "産業・高配当株への資金流入が下値を支え、MA20付近での押し目買いがリスクリワード良好",
-    "entry": "5250",
-    "tp": "5350",
-    "sl": "5200",
+    "status": "SELL",
+    "comment": "歴史的ダブルウォームと売りシグナルが下押しリスクを強化",
+    "entry": "5200.00",
+    "tp": "5000.00",
+    "sl": "5300.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-05-16 11:50",
+    "title": "[BTC/USD] UP: 規制進展と機関投資家関心の高まりを背景とした押し目買い戦略",
+    "date": "2026-05-16 19:48",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MiCA法施行による制度的需要の拡大",
-      "NFT市場のトークン化資産拡張が需給を支える",
-      "オンチェーン perp 効率化が機関フローを引き寄せる"
+      "米国・欧州で暗号資産規制の明確化が進み、市場構造の改善と機関投資家参入を促進",
+      "HyperliquidやJitoなどオンチェーン派生商品の台頭が新たな流動性層を形成",
+      "テクニカル指標は不明だが、標準的なバリュエーションと押し目買いの好機を示唆"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "米国の規制慎重さと欧州のMiCA進展が混在し、オンチェーンデリバティブの効率化がBTCの上押し要因となる。",
+    "excerpt": "米国暗号資産市場構造法案の進展やポーランドMiCA可決により規制環境が改善。Hyperliquid等のオンチェーンperpsの台頭も需給を強め、BTC/USDは押し目買いの好機。bitflyerでの執行を推奨。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "米欧規制環境の混在とオンチェーン perp 効率化が需給を支えるため、押し目買いが有効",
-    "entry": "27300",
-    "tp": "28500",
-    "sl": "26800",
-    "reliability": "MEDIUM"
+    "comment": "規制進展と機関需要拡大による強気ファンダメンタルズ、MA20付近での押し目買い戦略",
+    "entry": "59500",
+    "tp": "65000",
+    "sl": "57000",
+    "reliability": "HIGH"
   }
 }
