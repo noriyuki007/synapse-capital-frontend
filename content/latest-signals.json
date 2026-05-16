@@ -1,68 +1,64 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Powell離脱と利回り上昇による米ドル強含みを確認",
-    "date": "2026-05-16 18:28",
+    "title": "USD/JPY 市場分析",
+    "date": "2026-05-17",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
-    "tldr_points": [
-      " Powell議長退任でインフレ懸念が再燃し、米長期金利が上昇基調に",
-      " 金利上昇とリスクオフが同時に進み、米ドルは対円で堅調に推移",
-      " テクニカルではMA20付近での押し目買いが機能しやすい環境が続く"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Powell離脱と米利回り上昇が米ドルを押し上げ、USD/JPYは上バイアスが優位。エントリーは押し目狙い、リスク管理は厳守。",
+    "excerpt": "",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Powell離脱と利回り上昇による米ドル強含みおよびMA20付近の押し目買いシグナルが根拠",
-    "entry": "150.40",
-    "tp": "152.80",
-    "sl": "149.70",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: 歴史的ダブルウォームとマクロリスクの整合性",
-    "date": "2026-05-16 19:42",
+    "title": "[S&P 500] DOWN: ニュースベースのセクター圧力とテクニカルな戻り売りシグナルの整合性",
+    "date": "2026-05-17 02:03",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "野村證券",
     "tldr_points": [
-      "マクロリスクが株価下押し圧力を強めている",
-      "テクニカルはMA20付近で売りシグナルが発生",
-      "流動性観点からNomura Securitiesの利用を推奨"
+      "ニュースからADUS、R、FFIN、BFHのネガティブが全体株価に重石となる可能性",
+      "マクロでは利上げ期待の残滓が株価上値を抑制",
+      "テクニカルはMA20近辺での売り圧力が顕在化"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "マクロ的なダブルウォームと売りシグナルが重なり、S&P 500は下押しリスクが高まっている。",
+    "excerpt": "S&P 500はセクター別悪材料と利上げ観測により下落リスクが高まっており、戻り売り戦略を推奨する。",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "歴史的ダブルウォームと売りシグナルが下押しリスクを強化",
-    "entry": "5200.00",
-    "tp": "5000.00",
-    "sl": "5300.00",
-    "reliability": "HIGH"
+    "comment": "セクター悪材料と利上げ観測、MA20付近の売り圧力が下落を支持",
+    "entry": "4250",
+    "tp": "4100",
+    "sl": "4350",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: 規制進展と機関投資家関心の高まりを背景とした押し目買い戦略",
-    "date": "2026-05-16 19:48",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-05-17 02:09",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "米国・欧州で暗号資産規制の明確化が進み、市場構造の改善と機関投資家参入を促進",
-      "HyperliquidやJitoなどオンチェーン派生商品の台頭が新たな流動性層を形成",
-      "テクニカル指標は不明だが、標準的なバリュエーションと押し目買いの好機を示唆"
+      "ポーランドのMiCA承認と米国の暗号規制進展が制度的安定感を強化",
+      "HyperliquidやOpenSeaの機関導入がオンチェーン活動を拡大",
+      "欠如するテクニカルデータの中、ファンダメンタルズの整合性が買い圧力を支える"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "米国暗号資産市場構造法案の進展やポーランドMiCA可決により規制環境が改善。Hyperliquid等のオンチェーンperpsの台頭も需給を強め、BTC/USDは押し目買いの好機。bitflyerでの執行を推奨。",
+    "excerpt": "ポーランドのMiCA承認やHyperliquidの機関導入が制度的安定を強化。欠如するテクニカルデータの中、ファンダメンタルズの整合性が買い圧力を支える。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "規制進展と機関需要拡大による強気ファンダメンタルズ、MA20付近での押し目買い戦略",
-    "entry": "59500",
+    "comment": "規制進展と機関導入が買い圧力を強化",
+    "entry": "62000",
     "tp": "65000",
-    "sl": "57000",
-    "reliability": "HIGH"
+    "sl": "60000",
+    "reliability": "MEDIUM"
   }
 }

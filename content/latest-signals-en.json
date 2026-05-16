@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-16 18:28",
+    "title": "[USD/JPY] UP: AI Detects USD Strength Amid Fed Transition and Inflation Fears",
+    "date": "2026-05-17 01:56",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD strength persists as inflation fears dominate",
-      "Technical support emerging near key moving average",
-      "Geopolitical tensions add to USD safe-haven appeal"
+      "USD gaining strength on Fed transition and inflation fears",
+      "US yields supporting dollar against safe-haven yen",
+      "Geopolitical tensions adding to USD buying pressure"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY finds support as inflation fears boost USD amid Powell transition and geopolitical tensions.",
+    "excerpt": "USD/JPY poised for upside as Fed uncertainty boosts dollar while yen faces pressure.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "USD strength persists on inflation fears and geopolitical tensions",
-    "entry": "158.20",
-    "tp": "160.50",
-    "sl": "157.50",
+    "comment": "USD strength expected amid Fed transition and inflation concerns",
+    "entry": "157.50",
+    "tp": "159.75",
+    "sl": "156.75",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Technical Support Aligns with Institutional Accumulation Amid Policy Uncertainty",
-    "date": "2026-05-16 19:42",
+    "title": "[S&P 500] FLAT: Mixed Catalysts Offset as Technical Uncertainty Dominates",
+    "date": "2026-05-17 02:03",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Institutional buyers accumulating CCC and Vontier signal risk-on sentiment",
-      "Unknown MA20 provides critical inflection point for momentum",
-      "Policy uncertainty creates volatility but not necessarily bearish trajectory"
+      "Mixed fundamental signals create range-bound environment",
+      "Technical indicators unavailable due to missing price data",
+      "Watch for resolution above/below key volatility bands"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 shows technical resilience near MA20 amid institutional accumulation despite political headwinds.",
+    "excerpt": "S&P 500 faces conflicting catalysts amid data gaps; neutral stance warranted pending technical confirmation.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Long bias on MA20 hold with institutional backing",
-    "entry": "Unknown (awaiting MA20 confirmation)",
-    "tp": "Previous swing high + 1%",
-    "sl": "Recent swing low - 0.5%",
-    "reliability": "MEDIUM"
-  },
-  "CRYPTO": {
-    "title": "[BTC/USD] FLAT: Regulatory Uncertainty Offsets Institutional Tailwinds; Price Action Awaited",
-    "date": "2026-05-16 19:48",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "bybit",
-    "tldr_points": [
-      "US crypto legislation faces Senate hurdles despite committee progress, introducing regulatory uncertainty",
-      "Jito consumer expansion and Hyperliquid onchain perps signal institutional-grade infrastructure maturation",
-      "Technical levels undefined; await price confirmation at key moving averages before committing directional exposure"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD navigates mixed signals as US regulatory headwinds collide with infrastructure tailwinds; neutral stance warranted.",
-    "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "Await technical confirmation; regulatory uncertainty and undefined price levels preclude directional conviction",
+    "comment": "Await technical data confirmation before directional commitment amid mixed fundamental catalysts",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
     "reliability": "LOW"
+  },
+  "CRYPTO": {
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-17 02:09",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "tldr_points": [
+      "Regulatory clarity in Poland signals expanding European adoption",
+      "Onchain perps innovation enhances institutional appeal",
+      "MA20 serves as dynamic support for near-term rebound"
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "BTC poised for recovery as regulatory tailwinds offset short-term volatility.",
+    "pair": "BTC/USD",
+    "status": "BUY",
+    "comment": "Bullish setup at MA20 with positive fundamental backdrop",
+    "entry": "60000.00",
+    "tp": "65000.00",
+    "sl": "58000.00",
+    "reliability": "HIGH"
   }
 }
