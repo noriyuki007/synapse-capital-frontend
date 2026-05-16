@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-05-16-crypto-ja",
-    "date": "2026-05-16 03:29",
-    "title": "[BTC/USD] UP: Hyperliquid ETF inflowsとMiCA法案のポジティブファンダメンタルズ",
+    "date": "2026-05-16 11:50",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "機関向けETF流入と規制進展がビットコインを押し上げ、テクニカルは押し目買いの好機を示す。",
+    "excerpt": "米国の規制慎重さと欧州のMiCA進展が混在し、オンチェーンデリバティブの効率化がBTCの上押し要因となる。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-16-crypto-en",
-    "date": "2026-05-16 03:29",
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-16 11:50",
+    "title": "[BTC/USD] UP: Legislative Momentum and On‑Chain Efficiencies Reinforce Bull Bias",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "BTC/USD bullish on ETF inflows, regulatory progress; dip-buying near MA20 recommended.",
+    "excerpt": "Bullish bias on BTC/USD driven by policy wins, on‑chain perp efficiency, and supportive technicals.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-05-16-stocks-ja",
-    "date": "2026-05-16 02:30",
-    "title": "[S&P 500] FLAT: マクロヘッドウィンドとセクター別ローテーションが均衡を示唆",
+    "date": "2026-05-16 11:44",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "Nomura Securities",
-    "excerpt": "油価上昇と利回り上昇がS&P 500の上値を抑える一方で、ハイテクの強さが下値を支え、方向感の薄い展開が続く見込み。",
+    "prediction_direction": "UP",
+    "recommended_broker": "野村證券",
+    "excerpt": "S&P 500は産業セクターの買い増しと高配当株への資金流入で底堅く、AI株の調整が上値を抑える中で、MA20付近での押し目買いを視野に入れる。短期的にはレンジブレイクを狙うよりも、押し目での長期保有を推奨し、流動性の高い野村證券を通じた執行が望ましい。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-16-stocks-en",
-    "date": "2026-05-16 02:30",
-    "title": "[S&P 500] DOWN: Oil Surge and Yield Spike Trigger Risk-Off as Tech Rally Fades",
+    "date": "2026-05-16 11:44",
+    "title": "[S&P 500] UP: Technical Support Aligns with Improving Risk Appetite Amid AI-Driven Momentum",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
-    "excerpt": "Risk-off accelerates as oil and yields spike; fade rallies toward key moving averages.",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "Technical indicators suggest upward momentum as institutional flows normalize post-volatility period.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-05-16-fx-ja",
-    "date": "2026-05-16 02:25",
-    "title": "[USD/JPY] UP: リスクオフ構造と米ドル強気ファンダメンタルズの一致",
+    "date": "2026-05-16 11:40",
+    "title": "[USD/JPY] UP: Powell離脱とインフレ懸念によるドル買い優勢",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
-    "excerpt": "USD/JPYはリスクオフ構造と米ドル強気ファンダメンタルズの一致から上昇トレンドを継続中。EUR/USD急落と石油リグカウント増加が根拠。",
+    "excerpt": "Powell離脱とインフレ懸念がドル買いを強め、USD/JPYは上昇バイアス。エントリー155.00、TP156.50、SL154.00で[dmm-fx]推奨。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-16-fx-en",
-    "date": "2026-05-16 02:25",
-    "title": "[USD/JPY] UP: AI Detects Support Formation as USD Strength Outweighs JPY Safe-Haven Demand",
+    "date": "2026-05-16 11:40",
+    "title": "[USD/JPY] DOWN: Yield Spread Compression and Dovish Fed Signals Pressure Yen",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD strength persists as JPY safe-haven appeal fades, technicals forming bullish base.",
+    "excerpt": "Yield spread compression and Powell’s exit tilt USD/JPY lower amid bearish technical framework.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -176,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "野村證券",
     "excerpt": "テック株の上昇と内部買いがS&P500の下支えになる一方で、債券市場の警戒感やトランプ政策への不透明感が上値を重くし、方向性は限定的な上昇に留まると見込む。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "",
     "excerpt": "S&P 500 to test MA20 support as earnings boom faces headwinds but fundamentals show bullish signs.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "本レポートはUSD/JPYの上昇トレンドを根拠に、MA20付近の押し目買いを推奨し、流動性確保のためdmm-fx利用を提言する。欧州中央銀行のインフレ固定策と米金利差拡大がUSDを支援し、テクニカル指標は上値余地を示唆。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "AI finds MA20 support aligns with bullish macro catalysts; target 151.5, stop 149.0, execute via [xm-trading] now!!!!???!",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {

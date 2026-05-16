@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support Formation as USD Strength Outweighs JPY Safe-Haven Demand",
-    "date": "2026-05-16 02:25",
+    "title": "[USD/JPY] DOWN: Yield Spread Compression and Dovish Fed Signals Pressure Yen",
+    "date": "2026-05-16 11:40",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD strength across complex supports JPY",
-      "Silver breakdown confirms USD momentum",
-      "European equities pressure maintaining USD bid"
+      "Fed chair Powell’s exit fuels USD weakness",
+      "US‑Japan yield spread narrowing",
+      "Technical structure suggests lower‑half of range"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD strength persists as JPY safe-haven appeal fades, technicals forming bullish base.",
+    "excerpt": "Yield spread compression and Powell’s exit tilt USD/JPY lower amid bearish technical framework.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "USD strength overshadows JPY safe-haven appeal with technical support forming",
-    "entry": "155.80",
-    "tp": "158.75",
-    "sl": "155.30",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Yield spread compression and Powell’s exit create bearish pressure on USD/JPY.",
+    "entry": "148.45",
+    "tp": "147.20",
+    "sl": "149.30",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Oil Surge and Yield Spike Trigger Risk-Off as Tech Rally Fades",
-    "date": "2026-05-16 02:30",
+    "title": "[S&P 500] UP: Technical Support Aligns with Improving Risk Appetite Amid AI-Driven Momentum",
+    "date": "2026-05-16 11:44",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
     "tldr_points": [
-      "Oil and yields surge triggering broad market unwinding",
-      "Tech rally loses steam as risk-off sentiment dominates",
-      "Defensive posturing warranted with tight stops"
+      "MA20 alignment suggests near-term support",
+      "RSI recovery indicates momentum shift",
+      "Institutional flows favoring equities"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Risk-off accelerates as oil and yields spike; fade rallies toward key moving averages.",
+    "excerpt": "Technical indicators suggest upward momentum as institutional flows normalize post-volatility period.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Risk-off environment driven by oil and yields; fade rallies toward broken support",
-    "entry": "5340.00",
-    "tp": "5220.00",
-    "sl": "5400.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Technical support alignment with improving institutional flows justifies bullish bias",
+    "entry": "5720.00",
+    "tp": "5850.00",
+    "sl": "5650.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-16 03:29",
+    "title": "[BTC/USD] UP: Legislative Momentum and On‑Chain Efficiencies Reinforce Bull Bias",
+    "date": "2026-05-16 11:50",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Bullish ETF inflows",
-      "Regulatory clarity in Poland",
-      "Potential short-term selling from note retirement"
+      "US crypto‑friendly legislation gains traction",
+      "On‑chain perps liquidity improves execution",
+      "Technical profile supports higher highs"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD bullish on ETF inflows, regulatory progress; dip-buying near MA20 recommended.",
+    "excerpt": "Bullish bias on BTC/USD driven by policy wins, on‑chain perp efficiency, and supportive technicals.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Bullish bias supported by ETF inflows and regulatory progress; technical dip-buying at MA20 offers favorable risk/reward.",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "MEDIUM"
+    "comment": "Policy clarity and on‑chain perp liquidity create a bullish environment, with technicals supporting higher highs.",
+    "entry": "26950",
+    "tp": "28500",
+    "sl": "26150",
+    "reliability": "HIGH"
   }
 }
