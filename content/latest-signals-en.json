@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects USD Strength Amid Fed Transition and Inflation Fears",
-    "date": "2026-05-17 01:56",
+    "title": "[USD/JPY] UP: Powell Departure and Rising Yields Drive USD Strength",
+    "date": "2026-05-17 11:48",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD gaining strength on Fed transition and inflation fears",
-      "US yields supporting dollar against safe-haven yen",
-      "Geopolitical tensions adding to USD buying pressure"
+      "Powell exit signals policy uncertainty, supporting USD safe-haven flows",
+      "Rising US yields and gold weakness confirm dollar strength thesis",
+      "Technical setup favors buying on dips toward key moving averages"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised for upside as Fed uncertainty boosts dollar while yen faces pressure.",
+    "excerpt": "USD/JPY poised to extend gains as Powell departure fuels inflation fears and yield-driven dollar demand",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "USD strength expected amid Fed transition and inflation concerns",
-    "entry": "157.50",
-    "tp": "159.75",
-    "sl": "156.75",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] FLAT: Mixed Catalysts Offset as Technical Uncertainty Dominates",
-    "date": "2026-05-17 02:03",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "Mixed fundamental signals create range-bound environment",
-      "Technical indicators unavailable due to missing price data",
-      "Watch for resolution above/below key volatility bands"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces conflicting catalysts amid data gaps; neutral stance warranted pending technical confirmation.",
-    "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Await technical data confirmation before directional commitment amid mixed fundamental catalysts",
+    "comment": "Powell exit and rising yields create USD strength thesis; buy on MA20 dips",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
-    "reliability": "LOW"
+    "reliability": "HIGH"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] UP: Technical Support Holds as Earnings Season Approaches",
+    "date": "2026-05-17 11:53",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "S&P 500 maintains position near all-time highs with MA20 support intact",
+      "Upcoming Nvidia and Walmart earnings represent key fundamental catalysts",
+      "Institutional flows remain constructive with no major distribution days"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "Buy the dip toward MA20 support; earnings catalysts provide near-term tailwind.",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "Technical support at MA20 intact; earnings catalysts provide near-term upside potential",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-17 02:09",
+    "title": "[BTC/USD] UP: Institutional Rotation Toward Bitcoin Amid Regulatory Clarity Push",
+    "date": "2026-05-17 11:55",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Regulatory clarity in Poland signals expanding European adoption",
-      "Onchain perps innovation enhances institutional appeal",
-      "MA20 serves as dynamic support for near-term rebound"
+      "CFTC commissioner appointment pressure signals regulatory pathway",
+      "Abu Dhabi sovereign fund accumulation while Harvard exits ether ETF",
+      "BNB ETF amendments accelerate altcoin spot ETF timeline"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC poised for recovery as regulatory tailwinds offset short-term volatility.",
+    "excerpt": "Institutional Bitcoin accumulation meets regulatory clarity momentum amid altcoin ETF acceleration.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Bullish setup at MA20 with positive fundamental backdrop",
-    "entry": "60000.00",
-    "tp": "65000.00",
-    "sl": "58000.00",
-    "reliability": "HIGH"
+    "comment": "Institutional accumulation meets regulatory clarity momentum",
+    "entry": "Unknown",
+    "tp": "Unknown",
+    "sl": "Unknown",
+    "reliability": "MEDIUM"
   }
 }

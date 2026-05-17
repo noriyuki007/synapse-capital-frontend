@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY 市場分析",
-    "date": "2026-05-17",
+    "title": "[USD/JPY] UP: Powell退任とインフレ懸念がドル買いを後押し、金利環境が円売りを促進",
+    "date": "2026-05-17 11:48",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "tldr_points": [],
+    "tldr_points": [
+      "Powell議長退任後にインフレ懸念が再燃し、米長期金利が上昇",
+      "金利上昇とドル買いが同時に進行し、USD/JPYに上方圧力",
+      "リスクオフ気分の高まりが円売りを誘発し、テクニカルも押し目買いを示唆"
+    ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "",
+    "excerpt": "Powell議長退任とインフレ懸念が高まる中、米長期金利上昇とドル強気感がUSD/JPYを押し上げ、リスクオフの金利環境が円売りを促進する。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "金利上昇とドル買いが円売りを後押し、テクニカルも押し目買いを示唆",
+    "entry": "154.80",
+    "tp": "156.20",
+    "sl": "154.30",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: ニュースベースのセクター圧力とテクニカルな戻り売りシグナルの整合性",
-    "date": "2026-05-17 02:03",
+    "title": "[S&P 500] FLAT: 高値圏での慎重なポジショニングと決算イベント待ち",
+    "date": "2026-05-17 11:53",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "野村證券",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "[]",
     "tldr_points": [
-      "ニュースからADUS、R、FFIN、BFHのネガティブが全体株価に重石となる可能性",
-      "マクロでは利上げ期待の残滓が株価上値を抑制",
-      "テクニカルはMA20近辺での売り圧力が顕在化"
+      "S&P500は高値圏で一進一退、Nvidia・Walmart決算が近くボラティリティ拡大リスク",
+      "恐怖に基づく売りは非合理的とされ、機関投資家の動きは中小型株への選別に注目",
+      "MA20付近での値固めが確認されれば押し目買い機会だが、現状は様子見が賢明"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はセクター別悪材料と利上げ観測により下落リスクが高まっており、戻り売り戦略を推奨する。",
+    "excerpt": "S&P500は高値圏で方向感を欠き、Nvidia・Walmart決算を前にポジション調整が進行。テクニカル的にはMA20がサポートとして機能するかが焦点。恐怖に基づく売りは非生産的であり、ファンダメンタルズの確認を待つ戦略を推奨。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "セクター悪材料と利上げ観測、MA20付近の売り圧力が下落を支持",
-    "entry": "4250",
-    "tp": "4100",
-    "sl": "4350",
+    "status": "NEUTRAL",
+    "comment": "決算通過まで方向性は不明、押し目買い準備とリスク管理が優先",
+    "entry": "5250",
+    "tp": "5450",
+    "sl": "5200",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-05-17 02:09",
+    "title": "[BTC/USD] UP: 規制の明確化と機関需要の高まりが価格を支える見込み",
+    "date": "2026-05-17 11:55",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "ポーランドのMiCA承認と米国の暗号規制進展が制度的安定感を強化",
-      "HyperliquidやOpenSeaの機関導入がオンチェーン活動を拡大",
-      "欠如するテクニカルデータの中、ファンダメンタルズの整合性が買い圧力を支える"
+      "規制明確化が機関投資家の参入を後押し",
+      "アブダビ系 sovereign fund がビットコインへシフト",
+      "テクニカルは押し目買いの機会を示唆"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "ポーランドのMiCA承認やHyperliquidの機関導入が制度的安定を強化。欠如するテクニカルデータの中、ファンダメンタルズの整合性が買い圧力を支える。",
+    "excerpt": "規制進展と機関需要の高まりがBTC/USDを押し上げ、押し目買い戦略が有効と判断。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "規制進展と機関導入が買い圧力を強化",
-    "entry": "62000",
-    "tp": "65000",
-    "sl": "60000",
-    "reliability": "MEDIUM"
+    "comment": "規制進展と機関需要の上昇に加え、テクニカルは押し目買いの好機を示す",
+    "entry": "27200.00",
+    "tp": "28500.00",
+    "sl": "26800.00",
+    "reliability": "HIGH"
   }
 }
