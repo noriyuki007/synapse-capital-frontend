@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Powell Departure and Rising Yields Drive USD Strength",
-    "date": "2026-05-17 11:48",
+    "title": "[USD/JPY] UP: Inflation Fears and Fed Leadership Transition Bolster Dollar Strength",
+    "date": "2026-05-17 18:45",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Powell exit signals policy uncertainty, supporting USD safe-haven flows",
-      "Rising US yields and gold weakness confirm dollar strength thesis",
-      "Technical setup favors buying on dips toward key moving averages"
+      "Powell departure fuels uncertainty, supporting USD bid",
+      "Rising Treasury yields reinforce dollar carry advantage",
+      "Risk-off flows from equity weakness favor USD over JPY"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised to extend gains as Powell departure fuels inflation fears and yield-driven dollar demand",
+    "excerpt": "Dollar strengthens on Fed uncertainty and yield differential expansion; tactical long bias warranted",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Powell exit and rising yields create USD strength thesis; buy on MA20 dips",
+    "comment": "Dollar strength driven by yield differentials and Fed uncertainty; buy dips toward MA20 support",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Technical Support Holds as Earnings Season Approaches",
-    "date": "2026-05-17 11:53",
+    "title": "[S&P 500] UP: Bullish Structure Intact Despite Policy Uncertainty",
+    "date": "2026-05-17 18:48",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 maintains position near all-time highs with MA20 support intact",
-      "Upcoming Nvidia and Walmart earnings represent key fundamental catalysts",
-      "Institutional flows remain constructive with no major distribution days"
+      "S&P 500 maintains constructive technical structure above key moving averages",
+      "Fed policy pivot under new leadership creates opportunity rather than threat",
+      "Sector rotation favors quality fundamentals despite headline uncertainty"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Buy the dip toward MA20 support; earnings catalysts provide near-term tailwind.",
+    "excerpt": "Bullish bias remains as institutional flows support equities; enter on pullbacks toward support",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Technical support at MA20 intact; earnings catalysts provide near-term upside potential",
+    "comment": "Bullish structure intact; enter on pullback toward MA20 support",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Rotation Toward Bitcoin Amid Regulatory Clarity Push",
-    "date": "2026-05-17 11:55",
+    "title": "[BTC/USD] UP: Regulatory Progress & Institutional Adoption Drive Bullish Momentum",
+    "date": "2026-05-17 19:06",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "CFTC commissioner appointment pressure signals regulatory pathway",
-      "Abu Dhabi sovereign fund accumulation while Harvard exits ether ETF",
-      "BNB ETF amendments accelerate altcoin spot ETF timeline"
+      "CFTC advancement signals regulatory clarity",
+      "Harvard's shift to BTC while Abu Dhabi increases exposure",
+      "Altcoin ETF race intensifies with BNB filings"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Institutional Bitcoin accumulation meets regulatory clarity momentum amid altcoin ETF acceleration.",
+    "excerpt": "BTC poised for upside as regulatory clarity improves and institutional BTC exposure grows",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Institutional accumulation meets regulatory clarity momentum",
-    "entry": "Unknown",
-    "tp": "Unknown",
-    "sl": "Unknown",
-    "reliability": "MEDIUM"
+    "comment": "Regulatory clarity and institutional accumulation support bullish technical structure",
+    "entry": "64,500",
+    "tp": "69,800",
+    "sl": "62,000",
+    "reliability": "HIGH"
   }
 }

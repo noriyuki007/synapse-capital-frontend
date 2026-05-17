@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Powell退任とインフレ懸念がドル買いを後押し、金利環境が円売りを促進",
-    "date": "2026-05-17 11:48",
+    "title": "[USD/JPY] UP: 金利上昇とリスクオフがドル買いを後押し",
+    "date": "2026-05-17 18:45",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "Powell議長退任後にインフレ懸念が再燃し、米長期金利が上昇",
-      "金利上昇とドル買いが同時に進行し、USD/JPYに上方圧力",
-      "リスクオフ気分の高まりが円売りを誘発し、テクニカルも押し目買いを示唆"
+      "Powell退任とインフレ懸念がドル買いを誘発",
+      "米株下落と金利上昇がリスクオフを強める",
+      "テクニカルではMA20付近での押し目買いが有効"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Powell議長退任とインフレ懸念が高まる中、米長期金利上昇とドル強気感がUSD/JPYを押し上げ、リスクオフの金利環境が円売りを促進する。",
+    "excerpt": "Powellの退任とインフレ懸念がドル買いを促し、米株下落と金利上昇がリスクオフを強める中、USD/JPYは上昇余地があると見る。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "金利上昇とドル買いが円売りを後押し、テクニカルも押し目買いを示唆",
-    "entry": "154.80",
-    "tp": "156.20",
-    "sl": "154.30",
-    "reliability": "HIGH"
+    "comment": "金利上昇とリスクオフがドル買いを後押し、MA20付近での押し目買いが有効",
+    "entry": "155.00",
+    "tp": "156.50",
+    "sl": "154.00",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: 高値圏での慎重なポジショニングと決算イベント待ち",
-    "date": "2026-05-17 11:53",
+    "title": "[S&P 500] DOWN: トランプ政権の2つの決定とウォーシュFRB議長の政策転換が下押しリスクを示唆",
+    "date": "2026-05-17 18:48",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "[]",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "野村證券",
     "tldr_points": [
-      "S&P500は高値圏で一進一退、Nvidia・Walmart決算が近くボラティリティ拡大リスク",
-      "恐怖に基づく売りは非合理的とされ、機関投資家の動きは中小型株への選別に注目",
-      "MA20付近での値固めが確認されれば押し目買い機会だが、現状は様子見が賢明"
+      "トランプ大統領の2つの政策決定が株価上昇期待を削ぐ可能性",
+      "新FRB議長ケビン・ウォーシュが従来の金融緩和プランを見直す意向",
+      "エネルギー・サービスセクターの混在したファンダメンタルズが全体指数に重石となる"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500は高値圏で方向感を欠き、Nvidia・Walmart決算を前にポジション調整が進行。テクニカル的にはMA20がサポートとして機能するかが焦点。恐怖に基づく売りは非生産的であり、ファンダメンタルズの確認を待つ戦略を推奨。",
+    "excerpt": "トランプ政権の政策転換と新FRB議長の政策見直しが S&P 500 の下押しリスクを高め、短期的な売り圧力が予想される。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "決算通過まで方向性は不明、押し目買い準備とリスク管理が優先",
+    "status": "SELL",
+    "comment": "トランプ政策転換とFRB正常化が下押し圧力を強め、テクニカルでもMA20付近での売りサインが予想されるため",
     "entry": "5250",
-    "tp": "5450",
-    "sl": "5200",
+    "tp": "5150",
+    "sl": "5300",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: 規制の明確化と機関需要の高まりが価格を支える見込み",
-    "date": "2026-05-17 11:55",
+    "title": "[BTC/USD] UP: 米国農業委員会のCFTC委員任命圧力と機関流入の整合性を確認",
+    "date": "2026-05-17 19:06",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "規制明確化が機関投資家の参入を後押し",
-      "アブダビ系 sovereign fund がビットコインへシフト",
-      "テクニカルは押し目買いの機会を示唆"
+      "農業委員会がCFTC委員任命を求める動きが規制確実性を高める",
+      "機関のビットコイン保有増加とイーサリアムETF売却が需給を支える",
+      "テクニカルは押し目買いのタイミングを示唆"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "規制進展と機関需要の高まりがBTC/USDを押し上げ、押し目買い戦略が有効と判断。",
+    "excerpt": "米国農業委員会のCFTC委員任命圧力とCLARITY法案進展が規制確実性を高め、機関投資家のビットコイン保有増加と需給改善が上押しを支える。押し目買いを推奨。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "規制進展と機関需要の上昇に加え、テクニカルは押し目買いの好機を示す",
-    "entry": "27200.00",
-    "tp": "28500.00",
-    "sl": "26800.00",
+    "comment": "規制の明確化と機関フロー増加が上押しを支え、テクニカルは押し目買いのタイミングを示す",
+    "entry": "27300",
+    "tp": "28500",
+    "sl": "27000",
     "reliability": "HIGH"
   }
 }
