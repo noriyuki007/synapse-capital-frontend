@@ -2,13 +2,38 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getMarketContext } from '@/lib/market';
 import { runMultiAgentAnalysis } from '@/lib/agents';
 import { getTopMovers } from '@/lib/market/screener';
+import { COCKPIT_COOKIE, verifyCockpitToken } from '@/lib/cockpit-auth';
 
 // Maintain static lists here for export to screener fallback
 export const ASSET_TICKERS: Record<string, { ticker: string; symbol: string }[]> = {
     // defined in screener fallback
 };
 
+// Best-effort per-IP throttle. In-memory only (not shared across Worker isolates);
+// authentication is the primary protection — this just caps runaway loops.
+const RL_WINDOW_MS = 10 * 60 * 1000;
+const RL_MAX = 30;
+const rlHits = new Map<string, { count: number; windowStart: number }>();
+
 export async function GET(req: NextRequest) {
+  // Auth: this is a billed multi-agent AI endpoint — require a valid cockpit session.
+  const authed = await verifyCockpitToken(req.cookies.get(COCKPIT_COOKIE)?.value);
+  if (!authed) {
+    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  }
+
+  const ip =
+    req.headers.get('cf-connecting-ip') ||
+    req.headers.get('x-forwarded-for')?.split(',')[0]?.trim() ||
+    'unknown';
+  const now = Date.now();
+  const rec = rlHits.get(ip);
+  if (!rec || now - rec.windowStart > RL_WINDOW_MS) {
+    rlHits.set(ip, { count: 1, windowStart: now });
+  } else if (++rec.count > RL_MAX) {
+    return NextResponse.json({ error: 'Too many requests' }, { status: 429 });
+  }
+
   const { searchParams } = new URL(req.url);
   const rawAssetClass = (searchParams.get('assetClass') || 'FX').toUpperCase();
   // Normalize: screener uses 'STOCKS', agents use 'STOCK'
@@ -88,9 +113,9 @@ export async function GET(req: NextRequest) {
       topPicks: top3
     });
 
-  } catch (error: any) {
+  } catch (error) {
     console.error('API Error in internal-top-picks:', error);
-    return NextResponse.json({ error: error.message }, { status: 500 });
+    return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
   }
 }
 
