@@ -5,6 +5,7 @@ import { Sidebar } from '@/components/Sidebar';
 import { Footer } from '@/components/Footer';
 import { Activity, ShieldCheck, CheckCircle2, XCircle } from 'lucide-react';
 import { getDictionary } from '@/locales/dictionaries';
+import { pageSeo } from '@/lib/seo';
 import { Metadata } from 'next';
 
 
@@ -17,12 +18,14 @@ export async function generateMetadata(props: { params: Promise<{ locale: string
     const locale = params?.locale || 'ja';
     const isJa = locale === 'ja';
     
-    return {
+    return pageSeo({
+        locale,
+        path: 'track-record',
         title: isJa ? "AI予測トラックレコード | Synapse Capital" : "AI Prediction Track Record | Synapse Capital",
         description: isJa 
             ? "嘘のないAI投資の世界を目指して。不都合な結果もすべて含めた、ありのままの予測実績をリアルタイムで公開します。" 
             : "Aiming for a world of AI investment without lies. Disclosing raw prediction performance in real time.",
-    };
+    });
 }
 
 export default async function TrackRecordPage(props: { params: Promise<{ locale: string }> }) {

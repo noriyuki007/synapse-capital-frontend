@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import { Metadata } from 'next';
 import { getDictionary } from '@/locales/dictionaries';
+import { pageSeo } from '@/lib/seo';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import NewsList from '@/components/NewsList';
@@ -50,12 +51,14 @@ export async function generateStaticParams() {
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await props.params;
   const isJa = locale === 'ja';
-  return {
+  return pageSeo({
+    locale,
+    path: 'news',
     title: isJa ? '市場ニュース | Synapse Capital' : 'Market News | Synapse Capital',
     description: isJa
       ? 'Notion InvestmentDB から抽出した、市場に影響する重要ニュースの一覧。'
       : 'Curated market-moving news from the Notion InvestmentDB.',
-  };
+  });
 }
 
 export default async function NewsPage(props: { params: Promise<{ locale: string }> }) {

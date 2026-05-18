@@ -3,6 +3,7 @@ import { getExchanges } from '@/lib/microcms';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { getDictionary } from '@/locales/dictionaries';
+import { pageSeo } from '@/lib/seo';
 import { Shield, ArrowRight, Zap, Trophy, Star, ShieldCheck } from 'lucide-react';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -15,12 +16,14 @@ export async function generateStaticParams() {
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }): Promise<Metadata> {
     const params = await props.params;
     const locale = params?.locale || 'ja';
-    return {
+    return pageSeo({
+        locale,
+        path: 'exchange',
         title: locale === 'ja' ? '推奨ブローカー連携 | Synapse Capital' : 'Recommended Brokers | Synapse Capital',
         description: locale === 'ja' 
             ? 'AI分析シグナルを最大限に活かすために、最適な機能を持つ取引所を厳選して紹介します。'
             : 'We carefully select and introduce exchanges with optimal features to make the most of AI analysis signals.',
-    };
+    });
 }
 
 export default async function ExchangeListPage(props: { params: Promise<{ locale: string }> }) {

@@ -6,6 +6,7 @@ import { Footer } from '@/components/Footer';
 import { MarketPriceWidget } from '@/components/MarketPriceWidget';
 import { ShareButtons } from '@/components/ShareButtons';
 import { getDictionary } from '@/locales/dictionaries';
+import { localeAlternates } from '@/lib/seo';
 import { Activity, Clock, ShieldCheck, TrendingUp, TrendingDown, Target, ArrowLeft, ArrowRight, Bookmark, List, Zap, MessageSquare, AlertCircle } from 'lucide-react';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -47,9 +48,11 @@ export async function generateMetadata(props: { params: Promise<{ id: string, lo
             ? `${report.title} | AI分析レポート | Synapse Capital`
             : `${report.title} | AI Analysis Report | Synapse Capital`,
         description: report.excerpt,
+        alternates: localeAlternates(locale, `reports/${id}`),
         openGraph: {
             title: report.title,
             description: report.excerpt,
+            url: `/${locale}/reports/${id}/`,
             type: 'article',
             publishedTime: report.date,
             authors: ['AntiGravity AI'],

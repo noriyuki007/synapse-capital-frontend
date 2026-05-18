@@ -3,6 +3,7 @@ import { Metadata } from 'next';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { getDictionary } from '@/locales/dictionaries';
+import { pageSeo } from '@/lib/seo';
 import { PrivacyJA } from '@/components/legal/PrivacyJA';
 import { PrivacyEN } from '@/components/legal/PrivacyEN';
 
@@ -14,10 +15,12 @@ export async function generateStaticParams() {
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }): Promise<Metadata> {
     const params = await props.params;
     const locale = params?.locale || 'ja';
-    return {
+    return pageSeo({
+        locale,
+        path: 'privacy',
         title: locale === 'ja' ? 'プライバシーポリシー | Synapse Capital' : 'Privacy Policy | Synapse Capital',
         description: locale === 'ja' ? 'Synapse Capitalのプライバシーポリシーについて。' : 'Privacy Policy for Synapse Capital.'
-    };
+    });
 }
 
 const PrivacyPolicy = async (props: { params: Promise<{ locale: string }> }) => {
