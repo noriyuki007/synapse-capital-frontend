@@ -8,6 +8,7 @@ import { CheckCircle2, XCircle, ArrowRight, Shield, Clock, ShieldCheck, Target, 
 import Link from 'next/link';
 import { getExchanges } from '@/lib/microcms';
 import { getDictionary } from '@/locales/dictionaries';
+import { pageSeo } from '@/lib/seo';
 import { Metadata } from 'next';
 
 
@@ -30,9 +31,14 @@ export async function generateMetadata(props: { params: Promise<{ id: string, lo
     const locale = params?.locale || 'ja';
     const exchange = await getExchangeById(id, locale);
     if (!exchange) return { title: 'Not Found' };
-    return {
+    return pageSeo({
+        locale,
+        path: `exchange/${id}`,
         title: locale === 'ja' ? `${exchange.name} | AIインテグリティ・インサイト` : `${exchange.name} | AI Integrity Insight`,
-    };
+        description: locale === 'ja'
+            ? `${exchange.name}のAIによる公平性分析と詳細レビュー。`
+            : `AI-driven integrity analysis and detailed review of ${exchange.name}.`,
+    });
 }
 
 export default async function ExchangeDetailPage(props: { params: Promise<{ id: string, locale: string }> }) {

@@ -5,6 +5,7 @@ import { Sidebar } from '@/components/Sidebar';
 import { Footer } from '@/components/Footer';
 import { ReportsList } from '@/components/ReportsList';
 import { getDictionary } from '@/locales/dictionaries';
+import { pageSeo } from '@/lib/seo';
 import { Activity, Clock } from 'lucide-react';
 import Link from 'next/link';
 import { Metadata } from 'next';
@@ -19,12 +20,14 @@ export async function generateMetadata(props: { params: Promise<{ locale: string
     const locale = params?.locale || 'ja';
     const isJa = locale === 'ja';
     
-    return {
+    return pageSeo({
+        locale,
+        path: 'reports',
         title: isJa ? "AI予測レポート一覧 | Synapse Capital" : "AI Prediction Reports | Synapse Capital",
         description: isJa 
             ? "最新の市場動向をAIが多角的に分析。FX・暗号資産・株式の具体的な予測シナリオを公開しています。" 
             : "AI multi-dimensionally analyzes the latest market trends. Disclosing specific prediction scenarios for FX, Crypto, and Stocks.",
-    };
+    });
 }
 
 export default async function ReportsPage(props: { params: Promise<{ locale: string }> }) {

@@ -2,6 +2,7 @@ import React from 'react';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { getDictionary } from '@/locales/dictionaries';
+import { pageSeo } from '@/lib/seo';
 import { TermsJA } from '@/components/legal/TermsJA';
 import { TermsEN } from '@/components/legal/TermsEN';
 import { Metadata } from 'next';
@@ -14,10 +15,12 @@ export async function generateStaticParams() {
 export async function generateMetadata(props: { params: Promise<{ locale: string }> }): Promise<Metadata> {
     const params = await props.params;
     const locale = params?.locale || 'ja';
-    return {
+    return pageSeo({
+        locale,
+        path: 'terms',
         title: locale === 'ja' ? '利用規約 | Synapse Capital' : 'Terms of Service | Synapse Capital',
         description: locale === 'ja' ? 'Synapse Capitalの利用規約について。' : 'Terms of Service for Synapse Capital.'
-    };
+    });
 }
 
 const TermsOfService = async (props: { params: Promise<{ locale: string }> }) => {

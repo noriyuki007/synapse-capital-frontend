@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { SITE_URL } from "@/lib/seo";
 import { Inter, Noto_Sans_JP } from "next/font/google";
 import "./../globals.css";
 import Script from "next/script";
@@ -26,6 +27,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
+    metadataBase: new URL(SITE_URL),
     title: "Synapse Capital | AIマーケット分析・情報ターミナル",
     description: "高度なAIが常時市場を監視。透明性の高いデータと分析結果を提供する情報ターミナル。",
     icons: {
