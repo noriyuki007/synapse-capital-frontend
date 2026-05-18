@@ -122,7 +122,7 @@ jobs:
           echo "Building for Cloudflare..."
           npm run build:cf
           echo "Deploying to Cloudflare Pages..."
-          npx wrangler pages deploy deploy --project-name synapse-capital --branch main --commit-dirty=true
+          npx wrangler pages deploy deploy --project-name synapse-capital-frontend --branch main --commit-dirty=true
 
       - name: Notify on failure
         if: failure()
