@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY 市場分析",
-    "date": "2026-05-18",
+    "title": "[USD/JPY] DOWN: 中国経済減速とリスクオフによる円買い圧力",
+    "date": "2026-05-18 11:58",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
-    "tldr_points": [],
+    "tldr_points": [
+      "中国4月小売売上高が予想を大幅に下回り需要後退を示唆",
+      "イラン情勢悪化と世界原油在庫枯渇がリスクオフを誘発",
+      "日本国債利回り上昇と追加財政出動が円買いを支援"
+    ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "",
+    "excerpt": "中国の需要鈍化と地政学的リスクが円の安全資産需要を高め、米ドル円は下落バイアスが強まると見込む。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "中国需要低迷・地政学リスク・円買いフローが下押し",
+    "entry": "155.30",
+    "tp": "153.80",
+    "sl": "155.90",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-05-18 01:56",
+    "title": "[S&P 500] UP: AIセクターの強気とファンダメンタルズの整合性を確認",
+    "date": "2026-05-18 12:05",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Schwab",
+    "recommended_broker": "",
     "tldr_points": [
-      "S&P 500、Fedのマカロロン supplyとの戦いで上昇傾向",
-      "ユーザー＆システムのポジションが厳しくなりつつある",
-      "NvidiaやOil Shocksがモメンタムを継続"
+      "AI関連株の上昇が全体指数を押し上げ",
+      "金利環境は依然緩やかでリスクオンを支える",
+      "テクニカルはMA20付近での反発サイン"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はFedの利率見通しやNvidiaの earns 、原油価格のサプライショックを背景に、MA20付近での反発を確認。機関投資家はシナプス解析にて、金利連動性とポジショニングの転換点を検知。厳重なリスク管理の下、押し目買いを推奨する。",
+    "excerpt": "AI株の強含みと緩やかな金利環境がS&P 500の上押しを支える見込み。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20での技術的買い機会と、テクノロジとエネルギーのファンダメンタルドライバー",
-    "entry": "4500",
-    "tp": "4600",
-    "sl": "4455",
-    "reliability": "MEDIUM"
+    "comment": "AI株の強含みと緩やかな金利環境が上押しを支え、テクニカルはMA20付近での反発を示す",
+    "entry": "5200",
+    "tp": "5350",
+    "sl": "5100",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "BTC/USD：レンジ圏内での警戒感とプロフェッショナル実行戦略",
-    "date": "2026-05-18 01:56",
+    "title": "[BTC/USD] UP: SpaceX上場期待と国内機関のcryptoファンド拡大が強気基調を支える",
+    "date": "2026-05-18 12:08",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "金利相関（近似）: 0.00で負相関傾向",
-      "テクニカル: 現在価格 --- と MA20 --- の位置関係が主導",
-      "需給: 重要帯の確認が必要 によるターゲット設計"
+      "SpaceXの上場近づきリスクオン sentiment が高まる",
+      "日本のSBI・楽天が自社crypto投資信託を構築中で機関需要が底上げ",
+      "Verus‑Ethereum ブリッジのハッキングは短期的なリスク材料だが全体影響は限定的"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "SpaceX上場期待と国内機関のcryptoファンド拡大がBTCを押し上げ、 Verusブリッジハッキングは一時的な下振れ要因にとどまる。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、BTC/USDの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "SpaceX上場期待と国内機関ファンドがファンダメンタルズを支え、28,500ドルブレイクアウトが上昇シグナル",
+    "entry": "28550",
+    "tp": "30000",
+    "sl": "27900",
+    "reliability": "HIGH"
   }
 }

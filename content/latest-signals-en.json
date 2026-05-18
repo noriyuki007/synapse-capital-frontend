@@ -1,64 +1,75 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Yield Spread Tightening Dominates Usua",
-    "date": "2026-05-18 01:55",
+    "title": "[USD/JPY] BUY: Deeper Support Valid Beneath Recent Catalysts",
+    "date": "2026-05-18 11:58",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Fed policy shift weakens USD",
-      "Yield curve compression fuels JPY inflows",
-      "Key resistance at 140.50 fragile"
+      {
+        "Key point 1": "China retail sales remain subdued despite macroeconomic easing pressures."
+      },
+      {
+        "Key point 2": "Iran escalation continues to weigh on oil-dependent economies."
+      },
+      {
+        "Key point 3": "Japanese bond market pushes yields to historic highs amid new sustainability plans."
+      }
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY likely to rotate lower as Fed exits aggressive stance, tightening yields and supporting Japanese safe‑haven demand.",
+    "excerpt": "120-character summary analyzing rate environment, order flow divergence, and AI signal alignment",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Yield spread tightening and institutional buying of JPY push the pair lower.",
-    "entry": "140.75",
-    "tp": "139.25",
-    "sl": "141.05",
+    "status": "NEUTRAL",
+    "comment": "120-character summary analyzing rate environment, order flow divergence, and AI signal alignment",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500 市場分析",
-    "date": "2026-05-18",
+    "title": "[S&P 500] BUY: AI Signals Momentum Post-COLLEGE-SEASON Releases",
+    "date": "2026-05-18 12:05",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "tldr_points": [],
+    "prediction_direction": "UP",
+    "recommended_broker": [],
+    "tldr_points": [
+      "Elevated AI signals post-Q2 earnings could accelerate UBS-side momentum.",
+      "Volume spike near 20-day moving average may validate breakout.",
+      "Short-term overbought RSI environment favors controlled entries.",
+      "Institutional sentiment improving despite broader market volatility."
+    ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "",
+    "excerpt": "S&P 500 faces tight pressures but AI-driven signals suggest new foundation for bullish persistence.",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
+    "comment": "S&P 500 faces tight pressures but AI-driven signals suggest new foundation for bullish persistence.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Sovereign Fund Accumulation and Regulatory Clarity Signal Bullish Momentum",
-    "date": "2026-05-18 01:56",
+    "title": "[BTC/USD] UP: Institutional Adoption and Regulatory Clarity Fuel Bullish Momentum",
+    "date": "2026-05-18 12:08",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Abu Dhabi sovereign fund continues BTC accumulation amid institutional diversification trend",
-      "CFTC commissioner appointment advances CLARITY Act, reducing regulatory uncertainty premium",
-      "Technical setup favors buyers on pullbacks toward key moving average support"
+      "Institutional crypto trusts from SBI and Rakuten signal mainstream capital deployment",
+      "CFTC commissioner appointment pressure underscores regulatory clarity trajectory",
+      "Technical setup favors long positions with MA20 as critical support inflection"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Sovereign inflows and regulatory clarity support bullish BTC thesis; buy dips toward MA.",
+    "excerpt": "Institutional inflows and regulatory clarity drive BTC/USD bullish thesis; MA20 support key",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Sovereign inflows and regulatory clarity support bullish thesis; buy dips at MA20 support",
+    "comment": "Institutional inflows and regulatory clarity support bullish thesis; MA20 key support",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
-    "reliability": "HIGH"
+    "reliability": "MEDIUM"
   }
 }
