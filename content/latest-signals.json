@@ -1,29 +1,29 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 米国実質利回り上昇とFedタカ派姿勢の統合的評価",
-    "date": "2026-05-18 20:42",
+    "title": "USD/JPY分析：持ち合い局面における流動性ゾーンの特定",
+    "date": "2026-05-19 02:59",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米国実質利回りの急上昇がUSD/JPYをサポート",
-      "Fedの追加利上げリスクがドル買いを後押し",
-      "リスクオフ局面での円買い圧力は限定的"
+      "金利相関（近似）: 0.00で負相関傾向",
+      "テクニカル: 現在価格 --- と MA20 --- の位置関係が主導",
+      "需給: 重要帯の確認が必要 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米国実質利回りの上昇とFedタカ派姿勢がUSD/JPYをサポート。155.50水準までの上昇を想定し、押し目買い戦略を推奨。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "米国実質利回り上昇とFedタカ派姿勢によるドル買い優勢",
-    "entry": "155.10",
-    "tp": "155.80",
-    "sl": "154.50",
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500：レンジ圏内での警戒感とプロフェッショナル実行戦略",
-    "date": "2026-05-18 20:50",
+    "title": "S&P 500分析：持ち合い局面における流動性ゾーンの特定",
+    "date": "2026-05-19 03:02",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "FLAT",
@@ -44,25 +44,25 @@
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: 規制明確化と法人BTC採用の構造的強気を確認",
-    "date": "2026-05-18 20:53",
+    "title": "BTC/USD分析：持ち合い局面における流動性ゾーンの特定",
+    "date": "2026-05-19 03:06",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "英FCA・BoEがトークン化市場に関する協議を開始し、規制明確化が進展",
-      "CircleのUSDC優位性がClarity Actで確定、法人BTC採用が加速",
-      "Bitcoin Depotの破綻はATMというニッチ市場の淘汰であり、需給への影響は限定的"
+      "金利相関（近似）: 0.00で負相関傾向",
+      "テクニカル: 現在価格 --- と MA20 --- の位置関係が主導",
+      "需給: 重要帯の確認が必要 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "英規制当局のトークン化市場協議開始とCircleの規制優位確定、法人BTC採用の拡大が構造的な強気を示唆。短期的なATMセクターの淘汰は需給に影響せず。",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "規制明確化と法人BTC採用の構造的強気を確認。短期調整を押し目として捉える。",
-    "entry": "MA20水準±2%",
-    "tp": "過去高値またはエントリー価格+15%",
-    "sl": "エントリー価格-8%",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、BTC/USDの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
