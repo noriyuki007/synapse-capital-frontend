@@ -1,75 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] BUY: Deeper Support Valid Beneath Recent Catalysts",
-    "date": "2026-05-18 11:58",
+    "title": "[USD/JPY] UP: Yield Differential Expansion Fuels Bullish Bias; Technical Support Intact",
+    "date": "2026-05-18 16:20",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      {
-        "Key point 1": "China retail sales remain subdued despite macroeconomic easing pressures."
-      },
-      {
-        "Key point 2": "Iran escalation continues to weigh on oil-dependent economies."
-      },
-      {
-        "Key point 3": "Japanese bond market pushes yields to historic highs amid new sustainability plans."
-      }
+      "Surging global bond yields widen rate differential, supporting USD against JPY",
+      "Technical structure remains constructive with MA20 acting as dynamic support",
+      "FX option expiry at 10am NY cut may induce volatility; positioning for directional move"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "120-character summary analyzing rate environment, order flow divergence, and AI signal alignment",
+    "excerpt": "Yield spread expansion drives USD/JPY higher; buy dips toward MA20 support",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "120-character summary analyzing rate environment, order flow divergence, and AI signal alignment",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Yield spread expansion and technical support at MA20 support bullish bias",
+    "entry": "152.95",
+    "tp": "154.50",
+    "sl": "151.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] BUY: AI Signals Momentum Post-COLLEGE-SEASON Releases",
-    "date": "2026-05-18 12:05",
+    "title": "[S&P 500] FLAT: Technical Plateaus Amid Stagnant Economic Drivers",
+    "date": "2026-05-18 16:30",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": [],
     "tldr_points": [
-      "Elevated AI signals post-Q2 earnings could accelerate UBS-side momentum.",
-      "Volume spike near 20-day moving average may validate breakout.",
-      "Short-term overbought RSI environment favors controlled entries.",
-      "Institutional sentiment improving despite broader market volatility."
+      "S&P 500 consolidating on flat technical grounds",
+      "Macro data shows weak upside potential",
+      "Trading strategy focuses on neutral entry with tight risk"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces tight pressures but AI-driven signals suggest new foundation for bullish persistence.",
+    "excerpt": "Flat outlook for the S&P 500 due to technical consolidation and muted fundamental growth.",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500 faces tight pressures but AI-driven signals suggest new foundation for bullish persistence.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "comment": "Flat technical environment with weak fundamental catalysts",
+    "entry": "Unknown",
+    "tp": "Unknown",
+    "sl": "Unknown",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Adoption and Regulatory Clarity Fuel Bullish Momentum",
-    "date": "2026-05-18 12:08",
+    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 Amid Macro Pressure",
+    "date": "2026-05-18 16:34",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Institutional crypto trusts from SBI and Rakuten signal mainstream capital deployment",
-      "CFTC commissioner appointment pressure underscores regulatory clarity trajectory",
-      "Technical setup favors long positions with MA20 as critical support inflection"
+      "Geo‑political risks weigh on BTC",
+      "MA20 shows a key resistance zone",
+      "RSI signals potential overbought state"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Institutional inflows and regulatory clarity drive BTC/USD bullish thesis; MA20 support key",
+    "excerpt": "BTC/USD faces a likely pullback to MA20 amid heightened geopolitical risk and bullish RSI signals.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Institutional inflows and regulatory clarity support bullish thesis; MA20 key support",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "status": "SELL",
+    "comment": "Expected pullback to MA20 amid risk‑off sentiment",
+    "entry": "Unknown",
+    "tp": "Unknown",
+    "sl": "Unknown",
     "reliability": "MEDIUM"
   }
 }
