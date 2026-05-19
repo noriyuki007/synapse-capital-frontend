@@ -1,69 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Intervention Threat Meets Risk-Off Macro Backdrop",
-    "date": "2026-05-19 11:55",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-19 20:00",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "BOJ intervention signals create immediate downside pressure",
-      "Risk-off flows from Middle East tensions favor JPY",
-      "Q1 GDP strength offset by energy shock vulnerability"
+      "Barclays flags potential strong dollar rally amid oil-driven risk-off",
+      "Nasdaq stalling confirms USD safe-haven bid",
+      "AI identifies MA20 as key technical support level"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Intervention threat and geopolitical risk converge to pressurize USD/JPY lower.",
+    "excerpt": "USD/JPY bullish catalysts converge: oil risk, Nasdaq weakness, Barclays dollar call.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Intervention risk combined with risk-off flows favors yen strength",
-    "entry": "144.50",
-    "tp": "143.20",
-    "sl": "145.80",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-19 12:03",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "AI detects bullish divergence at MA20",
-      "Institutional buying accelerates in key sectors",
-      "International exposure provides diversification tailwind"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 poised for rebound as technicals align with improving fundamentals and institutional flows strengthen.",
-    "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Bullish divergence at MA20 with improving fundamentals",
+    "comment": "Fundamental catalysts (oil risk, Nasdaq weakness) align with technical support at MA20",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
     "reliability": "HIGH"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: AI Momentum Offsets Tech Selloff Amid Geopolitical De-Risking",
+    "date": "2026-05-19 20:07",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "Nvidia earnings and AI momentum drive tech sector recovery potential",
+      "Geopolitical de-risking from Iran talks supports risk appetite",
+      "Key support at MA20 with RSI recovery signaling bullish divergence"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 shows recovery potential as AI momentum counters tech selloff amid favorable geopolitical developments.",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "MA20 support with oversold RSI and AI momentum presents tactical long entry",
+    "entry": "5200.00",
+    "tp": "5320.00",
+    "sl": "5150.00",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] TACTICAL HOG: Signal from AI and Market Imbalance (e.g. MA20 Breaking Out)",
-    "date": "2026-05-19 12:05",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-19 20:12",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Rate correlation intensifies as yield dynamics shift.",
-      "Order flow suggests accumulation near key support levels.",
-      "RSI suggests overbought conditions transferring to EUR/USD.",
-      "Sentiment from news drives short-term rally potential."
+      "AI-driven miner demand accelerates institutional adoption",
+      "ETF outflows signal short-term profit-taking",
+      "Japan's blockchain-AI initiative signals regulatory tailwinds"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "120-character summary (no greetings)",
+    "excerpt": "AI miners surge; ETF outflows persist. Technicals eye MA20 support. Strategy: Buy dip, target resistance.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "120-character summary (no greetings)",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "AI demand supports MA20 dip buy with ETF outflows stabilizing.",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "HIGH"
   }
 }
