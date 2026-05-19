@@ -1,68 +1,64 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-19 20:00",
+    "title": "[USD/JPY] UP: Safe Haven Demand Meets Intervention Risk",
+    "date": "2026-05-20 03:03",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Barclays flags potential strong dollar rally amid oil-driven risk-off",
-      "Nasdaq stalling confirms USD safe-haven bid",
-      "AI identifies MA20 as key technical support level"
+      "USD/JPY bullish on geopolitical risk premium",
+      "MA20 support likely to hold amid intervention threat",
+      "RSI oversold conditions favor mean reversion"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish catalysts converge: oil risk, Nasdaq weakness, Barclays dollar call.",
+    "excerpt": "USD/JPY targets 145.00 as Iran tensions boost dollar demand; intervention risk caps upside.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Fundamental catalysts (oil risk, Nasdaq weakness) align with technical support at MA20",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "HIGH"
+    "comment": "Bullish on geopolitical risk premium with intervention risk capping extended downside",
+    "entry": "143.20",
+    "tp": "145.80",
+    "sl": "141.80",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Momentum Offsets Tech Selloff Amid Geopolitical De-Risking",
-    "date": "2026-05-19 20:07",
+    "title": "[S&P 500] FLAT: Yield Pressure and Chip Sell‑off Offset AI Upside",
+    "date": "2026-05-20 03:11",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Nvidia earnings and AI momentum drive tech sector recovery potential",
-      "Geopolitical de-risking from Iran talks supports risk appetite",
-      "Key support at MA20 with RSI recovery signaling bullish divergence"
+      "Yield climb stokes sell‑off",
+      "Chip sector drag outweighs AI rally",
+      "Consensus points to consolidation"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 shows recovery potential as AI momentum counters tech selloff amid favorable geopolitical developments.",
+    "excerpt": "Yield rise and chip sell‑off keep the S&P 500 in a consolidation phase despite AI gains.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20 support with oversold RSI and AI momentum presents tactical long entry",
-    "entry": "5200.00",
-    "tp": "5320.00",
-    "sl": "5150.00",
-    "reliability": "HIGH"
-  },
-  "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-19 20:12",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bybit",
-    "tldr_points": [
-      "AI-driven miner demand accelerates institutional adoption",
-      "ETF outflows signal short-term profit-taking",
-      "Japan's blockchain-AI initiative signals regulatory tailwinds"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "AI miners surge; ETF outflows persist. Technicals eye MA20 support. Strategy: Buy dip, target resistance.",
-    "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "AI demand supports MA20 dip buy with ETF outflows stabilizing.",
+    "status": "SELL",
+    "comment": "Yield rise and chip sell‑off support a neutral consolidation",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
-    "reliability": "HIGH"
+    "reliability": "MEDIUM"
+  },
+  "CRYPTO": {
+    "title": "BTC/USD 市場分析",
+    "date": "2026-05-20",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "bybit",
+    "tldr_points": [],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "",
+    "pair": "BTC/USD",
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }

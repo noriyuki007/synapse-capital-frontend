@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Barclaysの強気ドル予測とリスクオフ要因の整合性",
-    "date": "2026-05-19 20:00",
+    "title": "[USD/JPY] UP: リスクオンの回復と日本財務当局の介入観測が上押しを支える",
+    "date": "2026-05-20 03:03",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "Barclaysが今週の強気ドル rally を予測",
-      "ナスダックの上昇鈍化と原油高がリスクオフを誘発",
-      "テクニカルではMA20付近での押し目買いが有効"
+      "米株の反発とナスダックのサポート反跳がリスクオン sentiment を醸成",
+      "イラン情勢の進展は安全資産需要を抑制し、円安圧力となる",
+      "日本財務省の為替介入準備が示唆され、USD/JPY の上値余地を広げる"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Barclaysが今週の強気ドル rally を予測し、ナスダックの上昇鈍化と原油高、欧州貿易黒字縮小がリスクオフを強め、ドル需要を押し上げるため USD/JPY は上昇傾向が期待され、MA20付近の押し目買いを推奨。",
+    "excerpt": "リスクオンの回復と日本当局の介入観測が重なり、USD/JPY は上押し Bias を示す。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Barclaysの強気ドル予測とリスクオフ、MA20付近の押し目が買いシグナル",
-    "entry": "155.00",
-    "tp": "155.80",
-    "sl": "154.50",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: テクニカル横ばいとリスクオフ感、オイル上昇が限定的",
-    "date": "2026-05-19 20:07",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "楽天証券",
-    "tldr_points": [
-      "テクニカル横ばい、マクロリスクオフとオイル上昇が交錯",
-      "短期下値リスクが残るがAI・エネルギー関連は相対強さ",
-      "投資家は流動性確保とリスクヘッジを徹底すべき"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はテクニカル横ばい、マクロリスクオフとオイル上昇が交錯し、短期下値リスクが残るが、AI・エネルギー関連は相対強さ。投資家は流動性確保とリスクヘッジを徹底しつつ、ポジション調整を検討すべき。市場のボラティリティ管理が重要です。",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P500はテクニカル横ばい、マクロリスクオフとオイル上昇が交錯し、短期下値リスクが残るが、AI・エネルギー関連は相対強さ。投資家は流動性確保とリスクヘッジを徹底しつつ、ポジション調整を検討すべき。市場のボラティリティ管理が重要です。",
+    "comment": "リスクオンの回復と日本当局の介入観測が重なり、USD/JPY は上押し Bias を示す。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] DOWN: 金利上昇とテク売りが重しとなり下押しリスクを示唆",
+    "date": "2026-05-20 03:11",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "tldr_points": [
+      "米長期金利の上昇がテク株に圧力、Nasdaqは弱含み。",
+      "AMD、Broadcom、Qualcommなど半導体株がNvidia決算前に売り込まれ、セクター全体に波及。",
+      "VYMの高配当にもかかわらず退職者がスルーし、防御的資金の流入が鈍化。"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "金利上昇と半導体売りがS&P 500の下押しを促し、短期的な売り bias を示唆。",
+    "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "金利上昇と半導体売りが下押しリスクを強め、テクニカルもMA20下抜けでベアリッシュ",
+    "entry": "5150",
+    "tp": "5050",
+    "sl": "5250",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: ETF流出の短期調整と構造的強気のファンダメンタルズ乖離を確認",
-    "date": "2026-05-19 20:12",
+    "title": "[BTC/USD] UP: インフラ強化とマクロ懸念の混在の中で上方バイアスを示唆",
+    "date": "2026-05-20 03:17",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "ETF流出$649Mは1月以来の最大幅だが、日本の国家ブロックチェーン計画など構造的カタリストが下値を支える",
-      "ビットコイン採掘企業のAIデータセンター向け電力供給契約$90Bはセクター全体のバリュエーション再評価材料",
-      "米Minnesota州の銀行による暗号資産カストディサービス合法化など制度整備が機関資金流入の経路を拡張"
+      "インフラ関連ニュースが流動性支援を示唆",
+      "マクロ・規制懸念は下値を支える",
+      "テクニカルは押し目買いのシグナル"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "ETF流出による短期調整局面においても、日本の国家ブロックチェーン計画や採掘企業のAI関連需要など構造的強材料が下値を限定的にする",
+    "excerpt": "インフラ強化と規制リスクが交錯する中、BTC/USDは押し目買いの機会を呈する。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "ETF流出による短期調整局面で構造的強材料が下値を支える",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "comment": "インフラ関連ニュースが流動性を支え、テクニカルは押し目を示唆",
+    "entry": "27800",
+    "tp": "29200",
+    "sl": "27000",
     "reliability": "MEDIUM"
   }
 }
