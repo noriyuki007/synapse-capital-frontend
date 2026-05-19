@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-05-19-crypto-ja",
-    "date": "2026-05-19 03:06",
-    "title": "BTC/USD分析：持ち合い局面における流動性ゾーンの特定",
+    "date": "2026-05-19 12:05",
+    "title": "[BTC/USD] DOWN: SECのイノベーション免除が期待材料を一時的に支えるも、資金流出とマクロ不安定が重なり、BTCは短期的に下押し、DOWNトレンドが支配的で、今後数週間での下落余地が残ると見込まれる、市場は依然として流動性リスクを顕在化させ、リスクオンシナリオは限定的である",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "SECのイノベーション免除が期待材料を一時的に支えるも、資金流出とマクロ不安定が重なり、BTCは短期的に下押し、DOWNトレンドが支配的で、今後数週間での下落余地が残ると見込まれる、市場は依然として流動性リスクを顕在化させ、リスクオンシナリオは限定的である",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-19-crypto-en",
-    "date": "2026-05-19 03:06",
-    "title": "[BTC/USD] UP: Institutional Adoption Accelerates as Macro Tailwinds Align",
+    "date": "2026-05-19 12:05",
+    "title": "[BTC/USD] TACTICAL HOG: Signal from AI and Market Imbalance (e.g. MA20 Breaking Out)",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "Institutional adoption accelerates as payment infrastructure and remittance use cases expand",
+    "excerpt": "120-character summary (no greetings)",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-05-19-stocks-ja",
-    "date": "2026-05-19 03:02",
-    "title": "S&P 500分析：持ち合い局面における流動性ゾーンの特定",
+    "date": "2026-05-19 12:03",
+    "title": "[S&P 500] UP: 強固な企業業績とテクニカルサポートの整合性を確認",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500は強固な企業業績とテクニカルサポートにより上昇トレンドを継続。インダストリアルセクターが特に注目され、厳格なリスク管理下でポジションを構築すべき。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-19-stocks-en",
-    "date": "2026-05-19 03:02",
-    "title": "[S&P 500] UP: Technical Support Intact as Fundamental Catalysts Turn Constructive",
+    "date": "2026-05-19 12:03",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
-    "excerpt": "Index poised for upside as technical support holds and fundamental backdrop improves",
+    "excerpt": "S&P 500 poised for rebound as technicals align with improving fundamentals and institutional flows strengthen.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-05-19-fx-ja",
-    "date": "2026-05-19 02:59",
-    "title": "USD/JPY分析：持ち合い局面における流動性ゾーンの特定",
+    "date": "2026-05-19 11:55",
+    "title": "[USD/JPY] UP: 米国債市場防衛のための介入準備と日本GDP強気を根拠に上昇バイアス",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "日本当局の介入姿勢とGDP上振れが円安圧力を緩和し、ドル円は中期的に上昇余地を示唆。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-05-19-fx-en",
-    "date": "2026-05-19 02:59",
-    "title": "[USD/JPY] UP: Technical Pressure Mounts as Bank of Japan Policy Uncertainty Persists",
+    "date": "2026-05-19 11:55",
+    "title": "[USD/JPY] DOWN: Intervention Threat Meets Risk-Off Macro Backdrop",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY poised for a breakout above 152.00 after BoJ signal and Fed dovish expectations weigh on yen.",
+    "excerpt": "Intervention threat and geopolitical risk converge to pressurize USD/JPY lower.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -152,7 +152,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "米国農業委員会のCFTC委員任命圧力とCLARITY法案進展が規制確実性を高め、機関投資家のビットコイン保有増加と需給改善が上押しを支える。押し目買いを推奨。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC poised for upside as regulatory clarity improves and institutional BTC exposure grows",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "野村證券",
     "excerpt": "トランプ政権の政策転換と新FRB議長の政策見直しが S&P 500 の下押しリスクを高め、短期的な売り圧力が予想される。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "Bullish bias remains as institutional flows support equities; enter on pullbacks toward support",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "Powellの退任とインフレ懸念がドル買いを促し、米株下落と金利上昇がリスクオフを強める中、USD/JPYは上昇余地があると見る。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "Dollar strengthens on Fed uncertainty and yield differential expansion; tactical long bias warranted",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {

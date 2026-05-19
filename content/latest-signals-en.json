@@ -1,68 +1,69 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Technical Pressure Mounts as Bank of Japan Policy Uncertainty Persists",
-    "date": "2026-05-19 02:59",
+    "title": "[USD/JPY] DOWN: Intervention Threat Meets Risk-Off Macro Backdrop",
+    "date": "2026-05-19 11:55",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "JPY under speculative pressure amid BoJ policy ambiguity",
-      "USD gains on higher US economic data and Fed market expectations",
-      "Technical break above key swing high signals potential upside"
+      "BOJ intervention signals create immediate downside pressure",
+      "Risk-off flows from Middle East tensions favor JPY",
+      "Q1 GDP strength offset by energy shock vulnerability"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised for a breakout above 152.00 after BoJ signal and Fed dovish expectations weigh on yen.",
+    "excerpt": "Intervention threat and geopolitical risk converge to pressurize USD/JPY lower.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Upward bias due to BoJ decisiveness and Fed dovish signals",
-    "entry": "152.60",
-    "tp": "154.20",
-    "sl": "152.10",
+    "status": "SELL",
+    "comment": "Intervention risk combined with risk-off flows favors yen strength",
+    "entry": "144.50",
+    "tp": "143.20",
+    "sl": "145.80",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Technical Support Intact as Fundamental Catalysts Turn Constructive",
-    "date": "2026-05-19 03:02",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-19 12:03",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 maintains critical support zones amid mixed sector rotation",
-      "Tech sector tailwinds from AI outperform thesis providing structural support",
-      "Historical data suggests index resilience through geopolitical uncertainty periods"
+      "AI detects bullish divergence at MA20",
+      "Institutional buying accelerates in key sectors",
+      "International exposure provides diversification tailwind"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Index poised for upside as technical support holds and fundamental backdrop improves",
+    "excerpt": "S&P 500 poised for rebound as technicals align with improving fundamentals and institutional flows strengthen.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Technical support intact with favorable risk-reward; fundamental backdrop constructive",
-    "entry": "5850.00",
-    "tp": "5980.00",
-    "sl": "5760.00",
+    "comment": "Bullish divergence at MA20 with improving fundamentals",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Adoption Accelerates as Macro Tailwinds Align",
-    "date": "2026-05-19 03:06",
+    "title": "[BTC/USD] TACTICAL HOG: Signal from AI and Market Imbalance (e.g. MA20 Breaking Out)",
+    "date": "2026-05-19 12:05",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Physical crypto card launches signal mainstream payment integration",
-      "Exchange revenue resilience ($507M Kraken) validates institutional demand thesis",
-      "Tether's remittance expansion ($1.8T market) reinforces USDT as settlement infrastructure"
+      "Rate correlation intensifies as yield dynamics shift.",
+      "Order flow suggests accumulation near key support levels.",
+      "RSI suggests overbought conditions transferring to EUR/USD.",
+      "Sentiment from news drives short-term rally potential."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Institutional adoption accelerates as payment infrastructure and remittance use cases expand",
+    "excerpt": "120-character summary (no greetings)",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Institutional adoption catalysts align with constructive technical structure",
-    "entry": "104500-105000",
-    "tp": "108500",
-    "sl": "102500",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "120-character summary (no greetings)",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
