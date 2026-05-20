@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: リスクオンの回復と日本財務当局の介入観測が上押しを支える",
-    "date": "2026-05-20 03:03",
+    "title": "[USD/JPY] UP: 原油高とリスクオン環境がドル円を押し上げる見込み",
+    "date": "2026-05-20 11:55",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米株の反発とナスダックのサポート反跳がリスクオン sentiment を醸成",
-      "イラン情勢の進展は安全資産需要を抑制し、円安圧力となる",
-      "日本財務省の為替介入準備が示唆され、USD/JPY の上値余地を広げる"
+      "原油価格上昇が日本の輸入コストを押し上げ、ドル円を支える",
+      "米中関係の緩和とEUの関税削減がリスク選好を醸成",
+      "PBOCの人民元安誘導がドル強化を示唆"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "リスクオンの回復と日本当局の介入観測が重なり、USD/JPY は上押し Bias を示す。",
+    "excerpt": "原油高とリスクオン環境がドル円を押し上げ、PBOCの元安誘導もドル支援となる見込み。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "リスクオンの回復と日本当局の介入観測が重なり、USD/JPY は上押し Bias を示す。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "原油高・リスクオン・人民元安によるドル支援と押し目買いのテクニカル条件が一致",
+    "entry": "155.00",
+    "tp": "156.50",
+    "sl": "154.20",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: 金利上昇とテク売りが重しとなり下押しリスクを示唆",
-    "date": "2026-05-20 03:11",
+    "title": "[S&P 500] DOWN: 短期下落の勢いが続く",
+    "date": "2026-05-20 12:08",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "米長期金利の上昇がテク株に圧力、Nasdaqは弱含み。",
-      "AMD、Broadcom、Qualcommなど半導体株がNvidia決算前に売り込まれ、セクター全体に波及。",
-      "VYMの高配当にもかかわらず退職者がスルーし、防御的資金の流入が鈍化。"
+      "Nvidia決算反動でダウ先物下落",
+      "Micron・Sandisk・Astera上昇",
+      "S&P500は下落圧力が残存"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "金利上昇と半導体売りがS&P 500の下押しを促し、短期的な売り bias を示唆。",
+    "excerpt": "Nvidia決算反動でダウ先物下落、Micron・Sandisk・Astera上昇。リスクオフが続く中、S&P500は下落圧力が残ると判断。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "金利上昇と半導体売りが下押しリスクを強め、テクニカルもMA20下抜けでベアリッシュ",
-    "entry": "5150",
-    "tp": "5050",
-    "sl": "5250",
+    "status": "NEUTRAL",
+    "comment": "Nvidia決算反動でダウ先物下落、Micron・Sandisk・Astera上昇。リスクオフが続く中、S&P500は下落圧力が残ると判断。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: インフラ強化とマクロ懸念の混在の中で上方バイアスを示唆",
-    "date": "2026-05-20 03:17",
+    "title": "[BTC/USD] DOWN: SECのビットコインETF撤退と機関流動性のシフトを確認",
+    "date": "2026-05-20 12:09",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "インフラ関連ニュースが流動性支援を示唆",
-      "マクロ・規制懸念は下値を支える",
-      "テクニカルは押し目買いのシグナル"
+      "SECがビットコインETF申請を撤回、短期的な需給悪化を示唆",
+      "トークン化株式の日次取引高が過去最高、機関資金の代替先へシフト",
+      "流動性が集中する取引所での売り圧力が顕在化しやすい環境"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "インフラ強化と規制リスクが交錯する中、BTC/USDは押し目買いの機会を呈する。",
+    "excerpt": "SECのETF撤退と機関のトークン化株式への資金流れがBTC/USDに下押し圧力をかけ、売り戦略を検討すべき状況。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "インフラ関連ニュースが流動性を支え、テクニカルは押し目を示唆",
-    "entry": "27800",
-    "tp": "29200",
-    "sl": "27000",
+    "status": "NEUTRAL",
+    "comment": "SECのETF撤退と機関のトークン化株式への資金流れがBTC/USDに下押し圧力をかけ、売り戦略を検討すべき状況。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
