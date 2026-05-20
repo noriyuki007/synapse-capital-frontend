@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 米金利上昇とリスクオフ縮小がドル買いを後押し",
-    "date": "2026-05-20 19:48",
+    "title": "[USD/JPY] UP: FOMCハーコッシュ傾向と長期金利上昇がドルを支える",
+    "date": "2026-05-21 03:14",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米長期金利の上昇がドル需給を押し上げる",
-      "介入だけでは円買い圧力を十分に相殺できず",
-      "ドルロングポジションの増加が上方バイアスを形成"
+      "FOMC minutesでは緩和バイアス解除への傾向が示唆され、ドル上昇圧力が強まる",
+      "20年債入札の高利回り5.122%は長期金利の上昇を示し、ドル支持要因となる",
+      "米10年利回りが10bp低下しているものの、全体として金利環境はドルに有利"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米金利上昇とインフレ懸念がドルを支え、介入だけでは円買い圧力を十分に相殺できず、USD/JPYは上昇基調を維持見込み。",
+    "excerpt": "FOMCのハーコッシュ傾向と長期金利の上昇がドルを支え、円買い圧力は限定的。短期的にUSD/JPYは上昇バイアスが優位。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "米金利上昇とドルロングフローが上方バイアスを形成",
-    "entry": "152.00",
-    "tp": "155.00",
-    "sl": "150.50",
+    "comment": "FOMCハーコッシュと長期金利上昇がドルを支え、154.30サポートからの反発を期待",
+    "entry": "154.80",
+    "tp": "156.00",
+    "sl": "154.30",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: マicron・Nvidiaの好決済とAIインフラ投資拡大が上値を支える",
-    "date": "2026-05-20 19:57",
+    "title": "[S&P 500] UP: Nvidia牽引の上値余地とファンダメンタルズの整合性",
+    "date": "2026-05-21 03:20",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "米国長期金利の安定がリスクオンを後押し",
-      "Nvidiaおよび半導体関連の好決済がセクター全体を底上げ",
-      "機関投資家のAIインフラ銘柄へのシフトが需給を改善"
+      "Nvidiaの決算期待が半導体セクターを牽引し、S&P 500の上値リスクを支える",
+      "Fed議事録待ちのポジション調整が一時的なボラティリティを生むが、トレンドは上向き",
+      "Vanguard国際ETFのS&P 500上回りは米ドル相対的弱まりを示し、セクターローテーションに注意"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "米国株は長期金利の落ち着きと半導体・AI関連の強い決済を背景に、S&P 500は上昇トレンドが継続すると見込む。",
+    "excerpt": "Nvidiaの上昇とFed議事録待ちのポジション調整がS&P 500に上値余地をもたらすが、国際ETFの出現はセクターローテーションリスクを示唆する。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "米国株は長期金利の落ち着きと半導体・AI関連の強い決済を背景に、S&P 500は上昇トレンドが継続すると見込む。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "Nvidia牽引の上値余地とMA20サポートの整合性により買い bias",
+    "entry": "5200",
+    "tp": "5350",
+    "sl": "5050",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "戦術的インサイト：BTC/USDの均衡状態とブレイク条件の定義",
-    "date": "2026-05-20 20:01",
+    "title": "[BTC/USD] UP: Tokenized Assets拡大とETF流入の構造的ロジック",
+    "date": "2026-05-21 03:28",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "金利相関（近似）: 0.00で負相関傾向",
-      "テクニカル: 現在価格 --- と MA20 --- の位置関係が主導",
-      "需給: 重要帯の確認が必要 によるターゲット設計"
+      "Tokenized assets AUM $3.4B、ETF流入 $22.3Mで機関参入加速",
+      "Arbitrum系デリバティブ venue $50M調達でオンチェーン派生品拡大",
+      "センチメント強気偏向、流動性リスク管理を優先"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "トークン化資産管理残高急拡大、ETF早期流入、規制ライセンス取得など構造的利多が重なり、BTC/USDは中期的強気を維持。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、BTC/USDの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "トークン化資産拡大、ETF流入、規制環境整備による構造的強気",
+    "entry": "現在価格-1-2%",
+    "tp": "現在価格+5-8%",
+    "sl": "現在価格-3-5%",
+    "reliability": "HIGH"
   }
 }

@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Rising Treasury Yields Boost USD Amid Yen Intervention Limits",
-    "date": "2026-05-20 19:48",
+    "title": "[USD/JPY] UP: Hawkish FOMC Tone Supports Dollar Amid Mixed Yield Moves",
+    "date": "2026-05-21 03:14",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Higher U.S. Treasury yields underpin USD strength despite FX intervention skepticism.",
-      "Eurozone inflation pressures support EUR, but USD/JPY remains driven by dollar momentum.",
-      "Technical bias favors upside with near‑term resistance around the 20‑day MA."
+      "FOMC minutes show hawkish tilt, supporting USD strength.",
+      "20‑year bond auction at 5.122% yield indicates solid demand for US debt.",
+      "US 10‑year yields down ~10bps, creating a mixed rate backdrop."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised to rise as Fed‑driven yields outweigh yen intervention; watch for break above MA20 with tight risk.",
+    "excerpt": "Hawkish FOMC tone and strong bond auction underpin USD upside despite slight yield softening.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Fed‑driven yield strength and bullish order flow support a long bias toward USD/JPY.",
-    "entry": "150.00",
-    "tp": "151.00",
-    "sl": "149.50",
+    "status": "NEUTRAL",
+    "comment": "Hawkish FOMC tone and strong bond auction underpin USD upside despite slight yield softening.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Infrastructure Momentum Drives Breakout Above MA20",
-    "date": "2026-05-20 19:57",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-21 03:20",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "AI chip rally, strong earnings, and technical support drive S&P 500 toward 4,650, with upside and further upside now and.",
-      "Technical momentum aligns with strong AI fundamentals, suggesting upside toward key resistance.",
-      "Institutional positioning and order flow indicate continued buying pressure into the upcoming earnings season."
+      "Nvidia's AI-driven rally lifts equities ahead of Fed minutes",
+      "Vanguard international ETF outperformance signals global risk-on sentiment",
+      "Technical alignment: price holding near MA20 with RSI indicating room for upside"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "AI chip rally, strong earnings, and technical support drive S&P 500 toward 4,650, with upside and further upside now and.",
+    "excerpt": "S&P 500 poised for upside as Nvidia leads AI rally, Fed minutes awaited, and technical support aligns with bullish bias.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Technical momentum aligns with strong AI fundamentals, suggesting upside toward key resistance.",
-    "entry": "4500.00",
-    "tp": "4650.00",
-    "sl": "4450.00",
+    "comment": "Bullish setup based on AI-driven earnings, rate tailwinds, and MA20 support",
+    "entry": "5190",
+    "tp": "5260",
+    "sl": "5150",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-20 20:01",
+    "title": "[BTC/USD] UP: Institutional Adoption Surge and Derivative Inflows Signal Breakout Potential",
+    "date": "2026-05-21 03:28",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BoE and Ark Invest signal institutional demand acceleration.",
-      "500 BTC seized by Europol reduces liquid supply.",
-      "Technical support at MA20 aligns with bullish catalysts."
+      "Record tokenized assets and stablecoin infrastructure expand real‐world use cases for Bitcoin",
+      "$22.3M early inflows into Hyperliquid ETFs reflect growing institutional appetite for crypto derivatives",
+      "Technical setup remains neutral but bullish catalysts could push price above resistance"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds above MA20 as institutional inflows and supply shocks drive upward momentum.",
+    "excerpt": "Fundamentals turn bullish as tokenization, regulated vaults, and ETF inflows signal institutional confidence in BTC.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Bullish confluence of institutional flows and supply shock validates long entry on MA20 support.",
-    "entry": "93500",
-    "tp": "98500",
-    "sl": "91800",
-    "reliability": "HIGH"
+    "comment": "Fundamental catalysts from tokenization, stablecoins, and ETF inflows support upside, with MA20 as entry zone.",
+    "entry": "64500.00",
+    "tp": "72500.00",
+    "sl": "62000.00",
+    "reliability": "MEDIUM"
   }
 }
