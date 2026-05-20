@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-20 11:55",
+    "title": "[USD/JPY] UP: AI Detects Rising Treasury Yields Boost USD Amid Yen Intervention Limits",
+    "date": "2026-05-20 19:48",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "PBOC sets USD/CNY above estimate, signaling USD strength",
-      "Oil supply fears sustain elevated Brent, supporting USD via risk-off flows",
-      "EU-US tariff truce reduces trade war risk, bolstering risk appetite"
+      "Higher U.S. Treasury yields underpin USD strength despite FX intervention skepticism.",
+      "Eurozone inflation pressures support EUR, but USD/JPY remains driven by dollar momentum.",
+      "Technical bias favors upside with near‑term resistance around the 20‑day MA."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised higher as PBOC weakens CNY, oil supply fears sustain USD strength.",
+    "excerpt": "USD/JPY poised to rise as Fed‑driven yields outweigh yen intervention; watch for break above MA20 with tight risk.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "PBOC weakens CNY and oil supply fears sustain USD strength against JPY",
-    "entry": "155.00",
-    "tp": "155.50",
-    "sl": "154.70",
-    "reliability": "HIGH"
+    "comment": "Fed‑driven yield strength and bullish order flow support a long bias toward USD/JPY.",
+    "entry": "150.00",
+    "tp": "151.00",
+    "sl": "149.50",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Earnings Catalysts Emerge",
-    "date": "2026-05-20 12:08",
+    "title": "[S&P 500] UP: AI Infrastructure Momentum Drives Breakout Above MA20",
+    "date": "2026-05-20 19:57",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Nvidia earnings catalyst may drive upside",
-      "S&P finds support at 20-day moving average",
-      "Technology sector outperformance expected"
+      "AI chip rally, strong earnings, and technical support drive S&P 500 toward 4,650, with upside and further upside now and.",
+      "Technical momentum aligns with strong AI fundamentals, suggesting upside toward key resistance.",
+      "Institutional positioning and order flow indicate continued buying pressure into the upcoming earnings season."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 poised for upside move as earnings season provides technical support at key levels",
+    "excerpt": "AI chip rally, strong earnings, and technical support drive S&P 500 toward 4,650, with upside and further upside now and.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Technical support at MA20 coupled with earnings catalysts favor upside",
-    "entry": "4180",
-    "tp": "4320",
-    "sl": "4120",
-    "reliability": "MEDIUM"
+    "comment": "Technical momentum aligns with strong AI fundamentals, suggesting upside toward key resistance.",
+    "entry": "4500.00",
+    "tp": "4650.00",
+    "sl": "4450.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional RWA Inflows and Tokenization Boom Drive Bullish Bias",
-    "date": "2026-05-20 12:09",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-20 20:01",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "RWA tokenization volume hits record $3.57B, driving institutional crypto demand",
-      "Ethereum capturing $65B tokenization flows as blockchain competition intensifies",
-      "Technical structure favors dip-buying toward key moving averages"
+      "BoE and Ark Invest signal institutional demand acceleration.",
+      "500 BTC seized by Europol reduces liquid supply.",
+      "Technical support at MA20 aligns with bullish catalysts."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "RWA tokenization surge and institutional flows support BTC upside despite ETF withdrawal noise",
+    "excerpt": "BTC holds above MA20 as institutional inflows and supply shocks drive upward momentum.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "RWA tokenization momentum and constructive technical structure support upside",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "MEDIUM"
+    "comment": "Bullish confluence of institutional flows and supply shock validates long entry on MA20 support.",
+    "entry": "93500",
+    "tp": "98500",
+    "sl": "91800",
+    "reliability": "HIGH"
   }
 }
