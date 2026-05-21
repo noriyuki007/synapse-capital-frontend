@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-21 11:59",
+    "date": "2026-05-21 20:20",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Japan exports beat forecasts, signaling economic resilience",
-      "Australia unemployment rises, pressuring AUD/USD",
-      "BoJ's inflation confirmation supports yen carry trades"
+      "Geopolitical risk from Iran lifts safe-haven USD",
+      "UK economic slump reinforces dollar strength",
+      "Technical structure suggests dip-buying opportunity"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised for upside amid Japan's export strength and dovish BoJ signals.",
+    "excerpt": "USD/JPY bullish on Iran tensions, UK slowdown; buy MA20 dip with tight stops.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish setup at MA20 with fundamental tailwinds from Japan exports and dovish BoJ",
-    "entry": "150.00",
-    "tp": "158.50",
+    "comment": "Bullish bias driven by geopolitical risk and yield differentials, with technical support at MA20",
+    "entry": "149.50",
+    "tp": "151.80",
     "sl": "149.20",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Positive Earnings Momentum and Inflation Hedge Demand Support Rally",
-    "date": "2026-05-21 12:01",
+    "title": "[S&P 500] DOWN: Technical Weakness Amid Oil Shock and Earnings Drag",
+    "date": "2026-05-21 20:24",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "Tech and Energy sectors drive positive earnings revision cycle",
-      "Inflation narrative shifts from cash hoarding to equity allocation",
-      "Isolated Phreesia selloff does not signal broad weakness"
+      "Oil above $100 weighing on equities, Nvidia earnings disappoint",
+      "Geopolitical risk in Persian Gulf adds to risk-off sentiment",
+      "Technical breakdown below MA20 with RSI weakening suggests further downside"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Institutional flows and earnings momentum align for S&P 500 upside; dip buying recommended.",
+    "excerpt": "S&P 500 faces downside pressure as oil spikes, earnings miss and geopolitical risks undermine risk appetite.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Inflation hedge demand and positive earnings outlook support tactical long.",
-    "entry": "MA20 (unknown)",
-    "tp": "Prior high +2.5%",
-    "sl": "MA20 minus 1.5%",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "Technical breakdown below MA20 with bearish macro backdrop supports further downside.",
+    "entry": "5200",
+    "tp": "5100",
+    "sl": "5250",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-21 12:06",
+    "title": "[BTC/USD] DOWN: Regulatory Headwinds Intensify as Law Enforcement Targets Crypto Ecosystem",
+    "date": "2026-05-21 20:30",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Fed master account expansion signals institutional influx",
-      "SpaceX's $1.45B BTC holding underpins long-term demand",
-      "CryptoQuant bearish pattern may indicate contrarian reversal"
+      "Regulatory crackdown accelerates with AG lawsuits and cartel sanctions",
+      "Kidnapping targeting crypto executive signals heightened security risks",
+      "Weakness in altcoin/rollup sector suggests broader crypto risk-off"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD shows bullish bias as institutional catalysts align; buy dip toward MA20 with tight risk control.",
+    "excerpt": "Regulatory escalation and security threats pressure BTC as market faces structural headwinds",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USD shows bullish bias as institutional catalysts align; buy dip toward MA20 with tight risk control.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "Regulatory headwinds and security risks create unfavorable risk-reward for long positions",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
     "reliability": "MEDIUM"
   }
 }
