@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Bullish Momentum Amid Easing Geopolitical Risks and Hawkish Inflation Outlook",
-    "date": "2026-05-22 02:54",
+    "title": "[USD/JPY] UP: AI Detects Breakout Above MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-22 11:59",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US-Iran draft agreement reduces Middle East tensions, lessening safe‑haven JPY demand.",
-      "Fed officials signal inflation persistence, supporting a hawkish bias for USD.",
-      "Technical setup shows price approaching MA20 with RSI indicating room for upside."
+      "AI highlights support at MA20 aligning with bullish fundamentals",
+      "Oil near $100 stabilizes risk appetite",
+      "PBOC USD/CNY rate at 6.8373 signals yen depreciation pressure"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY tipped to rise as geopolitical risk eases and Fed inflation concerns bolster dollar.",
+    "excerpt": "AI flags bullish USD/JPY momentum as MA20 support aligns with softer Chinese policy tone and stabilizing oil markets!.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Bullish bias driven by easing geopolitical risk and hawkish inflation outlook, with technical alignment near MA20 support.",
-    "entry": "150.30",
-    "tp": "151.00",
-    "sl": "149.80",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] FLAT: Mixed AI Signals Offset by Broad Market Strength",
-    "date": "2026-05-22 02:57",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "AI-driven chip stocks show rebound while mega‑cap software faces spending concerns.",
-      "Defensive buying in distressed names such as Planet Fitness signals selective value interest.",
-      "Technical backdrop remains range‑bound with key moving averages undefined due to data lag."
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Mixed AI headlines and defensive buying keep S&P 500 range‑bound near current levels.",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "Mixed AI headlines and defensive buying keep S&P 500 range‑bound near current levels.",
+    "comment": "AI flags bullish USD/JPY momentum as MA20 support aligns with softer Chinese policy tone and stabilizing oil markets!.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: AI‑Driven Earnings Momentum and Positive Rate Outlook",
+    "date": "2026-05-22 12:02",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "tldr_points": [
+      "Dow futures rally on AI‑stock strength",
+      "Rate curve flattening supports equity risk‑on",
+      "Technical bias bullish despite missing price inputs"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "AI‑stock rally, flattening yields and bullish structure drive S&P 500 higher.",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "Bullish on AI earnings momentum, flattening yields and technical support at MA20.",
+    "entry": "5050.00",
+    "tp": "5250.00",
+    "sl": "5030.00",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Regulatory Tailwinds as Ecosystem Matures",
-    "date": "2026-05-22 03:05",
+    "title": "[BTC/USD] [Direction] [Rationale] (e.g. 'Buy the dip toward MA20 with tight risk control')",
+    "date": "2026-05-22 12:04",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Everclear shutdown erodes DeFi sentiment but limited BTC impact",
-      "Chainlink PAC gains bipartisan support signaling regulatory thaw",
-      "MoonPay Trade expansion and HYPE surge reflect institutional demand"
+      "Rates are converging with key support levels testing tolerance.",
+      "RSI suggests potential overbought conditions brewing.",
+      "Order flow patterns indicate accumulation ahead."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Regulatory endorsements and MoonPay expansion outweigh DeFi shakeout; BTC set for upside.",
+    "excerpt": "120-character summary",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Regulatory endorsements and institutional adoption support upside.",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "status": "NEUTRAL",
+    "comment": "120-character summary",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }

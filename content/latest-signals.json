@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] FLAT: 地政学的リスク緩和とFRB高止まり懸念の相殺によるレンジ推移",
-    "date": "2026-05-22 02:54",
+    "title": "[USD/JPY] UP: 金利環境とリスクオン傾向が裏付ける上昇バイアス",
+    "date": "2026-05-22 11:59",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米イラン間の合意進展による地政学的リスクの減退とリスクオン傾向",
-      "FRB高官によるインフレ問題への懸念が米金利の下限を支持",
-      "相反するファンダメンタルズにより方向感に欠ける中立相場へ移行"
+      "中国テク投資の姿勢緩和がリスクオンを後押しし、円売り圧力を強化",
+      "人民元基準値の上昇はドル強含みを示唆し、USD/JPYへ波及",
+      "テクニカル的には押し目買いが機能し、151.00付近から152.50を目指す"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米イラン間の合意進展という地政学的緩和要因と、FRB高官が示す粘着的なインフレ懸念が拮抗。USD/JPYは方向感を持たないレンジ相場に移行したと判断し、中立的なスタンスを推奨する。",
+    "excerpt": "リスクオン環境と人民元高がドルを支え、USD/JPYは押し目買いで152.50を目指すシナリオが有力。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "地政学リスク緩和とFRBタカ派姿勢の相殺によるレンジ推移",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "リスクオンとドル強含みが上昇を支える",
+    "entry": "151.00",
+    "tp": "152.50",
+    "sl": "150.20",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: AI関連懸念とマイクロソフト下落が重し",
-    "date": "2026-05-22 02:57",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性",
+    "date": "2026-05-22 12:02",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "野村證券",
+    "prediction_direction": "UP",
+    "recommended_broker": "AlphaBroker",
     "tldr_points": [
-      "マイクロソフトのAI支出懸念が株価を12%押し下げ、全体指数に下方圧力",
-      "半導体セクターはマイクロンの反発で一時的に支えられるも、持続性に疑問",
-      "オーダーフローは売り優勢、流動性の観点から野村證券の利用を推奨"
+      "米国株高が続くと同時に、AI関連銘柄の買いシグナルが顕在化",
+      "ファンダメンタルズは堅調で利益成長が期待",
+      "短期的な調整局面でもテクニカル的に買い圧力が残存"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "AI関連株の明暗が分かれ、S&P 500は下押しリスクが高まっている。",
+    "excerpt": "S&P500は上昇トレンドが継続、AI関連株の買いシグナルと強固な決算が支えになる。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "マイクロソフトのAI支出懸念と売り優勢のオーダーフローが下押しリスクを示唆",
-    "entry": "5180",
-    "tp": "5100",
-    "sl": "5220",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "上昇余地とリスク管理が明確",
+    "entry": "4200",
+    "tp": "4350",
+    "sl": "4150",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: マクロ不透明性に対応するための機関向けヘッジポジション推奨",
-    "date": "2026-05-22 03:05",
+    "title": "BTC/USD分析：持ち合い局面における流動性ゾーンの特定",
+    "date": "2026-05-22 12:04",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "CLEAR token暴落による暗号資産全体のリスクオフ圧力",
-      "JPMorgan金融商品化懐疑的見解が機関投資家の姿勢に影響",
-      "HYPE高値の反面、BTCは機関資金の動向を待ち構える局面"
+      "金利相関（近似）: 0.00で負相関傾向",
+      "テクニカル: 現在価格 --- と MA20 --- の位置関係が主導",
+      "需給: 重要帯の確認が必要 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "CLEAR token前日比48%暴落と連携し、暗号資産市場全体がリスクオフ圧力を受けている。一方でHYPEの高値を示す通り、一部の機関投資家は関係ありません",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "マクロ不透明性とテクニカル的方向感欠如のためヘッジポジション",
-    "entry": "不明",
-    "tp": "直近レンジ高値",
-    "sl": "直近レンジ安値",
+    "comment": "本日のAI解析では、BTC/USDの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
