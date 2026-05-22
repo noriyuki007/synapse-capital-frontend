@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] SIDESIDE: ECB Hawkish Pivot Meets BOJ Caution Amid Middle East Risk",
-    "date": "2026-05-22 19:47",
+    "title": "[USD/JPY] UP: AI Detects Support Amid Rising US Rates as Fed Signals Hawkish Shift",
+    "date": "2026-05-23 02:49",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "ECB June hike probability supports USD",
-      "BOJ cautious stance caps upside momentum",
-      "Middle East tensions create volatility floor"
+      "US Fed signaling hawkish shift",
+      "Iran nuclear deal easing geopolitical risks",
+      "Oil supply increasing from US drilling"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Range-bound USD/JPY as ECB hawkishness offsets BOJ dovishness with geopolitical risk premium.",
+    "excerpt": "USD/JPY poised to break resistance as Fed policy diverges from BoJ.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "Range-bound awaiting ECB June policy clarity against BOJ caution",
-    "entry": "142.00",
-    "tp": "143.50",
-    "sl": "141.20",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Hawkish Fed signaling and BoJ divergence creating yield differential advantage",
+    "entry": "146.50",
+    "tp": "148.50",
+    "sl": "145.75",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Iran Peace Hopes Boost Semiconductor Momentum",
-    "date": "2026-05-22 19:56",
+    "title": "[S&P 500] UP: Iran Peace Agreement Catalyst and Tech Sector Strength",
+    "date": "2026-05-23 02:53",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "Brokers like IBKR for large-cap liquidity",
     "tldr_points": [
-      "Iran peace hopes reduce geopolitical risk, supporting risk‑on sentiment.",
-      "Healthcare ETF resilience signals defensive strength amid sector rotation.",
-      "Semiconductor rally reflects strong tech fundamentals and improving supply chain dynamics."
+      "Iran deal reduces geopolitical risk",
+      "Tech sector outperforms AI-driven rally",
+      "Dow’s Fed-driven momentum sustains breadth"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Iran peace hopes and tech strength lift S&P 500 outlook; look for long entry near current levels with risk control.",
+    "excerpt": "S&P 500 gains on Iran peace prospects and tech sector strength amid favorable fundamental shifts.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Geopolitical easing and tech strength support a bullish bias with defined risk levels.",
-    "entry": "5200",
-    "tp": "5350",
-    "sl": "5050",
-    "reliability": "MEDIUM"
+    "comment": "Bullish catalysts from Iran deal and tech leadership outweigh short-term noise.",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "BTC/USD 市場分析",
-    "date": "2026-05-22",
+    "title": "[BTC/USD] UP: AI-Driven Risk Appetite and Liquidity Surge Support Bullish Outlook",
+    "date": "2026-05-23 02:54",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "tldr_points": [],
+    "tldr_points": [
+      "Macro risk‑on bias from easing yield curves",
+      "Order‑flow imbalance favors long side on major venues",
+      "Technical cluster around $28,200‑$28,800 provides entry window"
+    ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "",
+    "excerpt": "Bullish case for BTC/USD built on macro risk‑on, order‑flow skew and technical support near $28k.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Macro risk‑on, strong long order flow and technical support near $27.6k drive bullish bias.",
+    "entry": "27,500",
+    "tp": "28,800",
+    "sl": "26,800",
+    "reliability": "HIGH"
   }
 }

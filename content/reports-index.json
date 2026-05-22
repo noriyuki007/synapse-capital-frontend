@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-05-23-crypto-ja",
+    "date": "2026-05-23 02:54",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "AI関連リスクオンと規制圧力が現物ビットコインに向かう流れを形成し、MA20付近からの反発を狙う戦略を提示。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-23-crypto-en",
+    "date": "2026-05-23 02:54",
+    "title": "[BTC/USD] UP: AI-Driven Risk Appetite and Liquidity Surge Support Bullish Outlook",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "Bullish case for BTC/USD built on macro risk‑on, order‑flow skew and technical support near $28k.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-23-stocks-ja",
+    "date": "2026-05-23 02:53",
+    "title": "[S&P 500] UP: Fed政策転換とセミナ剤株のバッフル型買い意欲の整合",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500はFedの新ポスト立ち上げとセミナ剤株の急騰、さらにイラン関係の焼け砖合意の3要因が同時に強気ムードを補強。技術的にはMA20付近の反発が期待され、押し目買いの機会として捉える視点で分析を進める。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-23-stocks-en",
+    "date": "2026-05-23 02:53",
+    "title": "[S&P 500] UP: Iran Peace Agreement Catalyst and Tech Sector Strength",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Brokers like IBKR for large-cap liquidity",
+    "excerpt": "S&P 500 gains on Iran peace prospects and tech sector strength amid favorable fundamental shifts.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-23-fx-ja",
+    "date": "2026-05-23 02:49",
+    "title": "[USD/JPY] UP: 地政学的リスク緩和と米金利上昇がUSD支持",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-23-fx-en",
+    "date": "2026-05-23 02:49",
+    "title": "[USD/JPY] UP: AI Detects Support Amid Rising US Rates as Fed Signals Hawkish Shift",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY poised to break resistance as Fed policy diverges from BoJ.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-05-22-crypto-ja",
     "date": "2026-05-22 20:04",
     "title": "BTC/USD分析：持ち合い局面における流動性ゾーンの特定",
