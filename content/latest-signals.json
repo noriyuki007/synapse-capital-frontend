@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 地政学的リスク緩和と米金利上昇がUSD支持",
-    "date": "2026-05-23 02:49",
+    "title": "[USD/JPY] UP: Iran De-escalation and Yield Curve Inversion Create BUY Opportunity",
+    "date": "2026-05-23 11:44",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "テヘラン核合意で中東リスク緩和",
-      "Bakers Hughesデータでドル支持",
-      "144.75ブレイクで上昇継続の可能性"
+      "Iran nuclear talks ease safe-haven demand for JPY",
+      "Fedspeak reinforces USD carry trade favorability",
+      "Technical resistance at 152.00 poised for breakout"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "",
+    "excerpt": "USD/JPY poised for near-term upside as geopolitical risk premium unwinds and Fed rhetoric supports dollar funding. Key resistance at 152.00 offers structured entry with tight risk parameters.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "地政学的リスク緩和と米国金利上昇によるUSD/JPY上昇を支持",
-    "entry": "144.75",
-    "tp": "145.25",
-    "sl": "144.20",
-    "reliability": "MEDIUM"
+    "comment": "Iran de-escalation and yield curve dynamics support USD upside",
+    "entry": "152.00",
+    "tp": "153.20",
+    "sl": "151.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Fed政策転換とセミナ剤株のバッフル型買い意欲の整合",
-    "date": "2026-05-23 02:53",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-05-23 11:48",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "Fed Warsh Era開始による利率政策の極右転換期待",
-      "セミコンダクター関連株の急騰が技術Sectorのバッファー効果",
-      "イラン平和合意の焼け砖によるリスクオンムード強化"
+      "AI関連銘柄の買いポイントが再燃",
+      "エンオヴィス株の機関買い増加",
+      "グーグルの目標株価上方修正が市場心理を改善"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はFedの新ポスト立ち上げとセミナ剤株の急騰、さらにイラン関係の焼け砖合意の3要因が同時に強気ムードを補強。技術的にはMA20付近の反発が期待され、押し目買いの機会として捉える視点で分析を進める。",
+    "excerpt": "MA20付近での反発が期待され、AI関連と機関買いが上昇を支える見込み。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20押し目の構造的買い機会",
-    "entry": "3850.00",
-    "tp": "3890.00",
-    "sl": "3820.00",
+    "comment": "MA20付近のサポートと機関買い・AI関連ニュースが上昇を支える",
+    "entry": "5450",
+    "tp": "5550",
+    "sl": "5400",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-05-23 02:54",
+    "title": "[BTC/USD] UP: Strategic Reserve BillとAI叙事が上値材料、流動性拘束は買方優位に",
+    "date": "2026-05-23 11:55",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "NEARの急騰はAI関連リスクオンを示唆し、BTCにも波及の可能性",
-      "規制当局のHyperliquidへの圧力はデリバティブ市場の流動性を絞るが、現物へのシフトを促す",
-      "Kalshi関連の内部取引調査は予測市場の信用低下を招き、代替ヘッジとしてBTCの需要を底支え"
+      "米議会、ビットコイン戦略リザーブ法案で20年ロックアップを追加、1M BTC目標は下方修正",
+      "SEC、トークン化資産の免除を延期、第三者トークンリスクに慎重姿勢",
+      "NEAR 30%急騰でAI連動資産の資金流入が明確化"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "AI関連リスクオンと規制圧力が現物ビットコインに向かう流れを形成し、MA20付近からの反発を狙う戦略を提示。",
+    "excerpt": "戦略リザーブとAI叙事がBTの上値材料に。SECの規制遅延は短期に流動性引き締め要因だが、ロックアップ期間が長期需給に寄与する見通し。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20付近のサポート反発とファンダメンタルズの上方バイアスを根拠とするロング戦略",
-    "entry": "27150",
-    "tp": "29000",
-    "sl": "26800",
+    "comment": "戦略リザーブロックアップとAI叙事が上値材料、MA20での押し目買いが優位",
+    "entry": "MA20水準",
+    "tp": "直近高値＋3%",
+    "sl": "MA20下方5%",
     "reliability": "MEDIUM"
   }
 }

@@ -1,68 +1,74 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support Amid Rising US Rates as Fed Signals Hawkish Shift",
-    "date": "2026-05-23 02:49",
+    "title": "[USD/JPY] UP: AI Detects Support Formation Amid Fed Shift",
+    "date": "2026-05-23 11:44",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US Fed signaling hawkish shift",
-      "Iran nuclear deal easing geopolitical risks",
-      "Oil supply increasing from US drilling"
+      "Fed signals potential pivot, supporting USD",
+      "USD/JPY finds support near key technical levels",
+      "Iran nuclear deal may boost risk appetite"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised to break resistance as Fed policy diverges from BoJ.",
+    "excerpt": "USD/JPY poised for upside as technical support aligns with Fed shift",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Hawkish Fed signaling and BoJ divergence creating yield differential advantage",
-    "entry": "146.50",
-    "tp": "148.50",
-    "sl": "145.75",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: Iran Peace Agreement Catalyst and Tech Sector Strength",
-    "date": "2026-05-23 02:53",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Brokers like IBKR for large-cap liquidity",
-    "tldr_points": [
-      "Iran deal reduces geopolitical risk",
-      "Tech sector outperforms AI-driven rally",
-      "Dow’s Fed-driven momentum sustains breadth"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 gains on Iran peace prospects and tech sector strength amid favorable fundamental shifts.",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Bullish catalysts from Iran deal and tech leadership outweigh short-term noise.",
+    "comment": "Technical support aligns with Fed shift",
     "entry": "0.00",
     "tp": "0.00",
     "sl": "0.00",
+    "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] UP: AI Detects Accumulation as Fundamentals Shift Toward Technology Leadership",
+    "date": "2026-05-23 11:48",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "AI-driven technology rotation gaining institutional traction",
+      "Market positioning shows constructive dip-buying on recent pullbacks",
+      "Technical structure suggests base formation with improving momentum"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 positioned for near-term upside as AI leadership drives fundamental re-rating and technical accumulation phase develops.",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "AI-driven rotation and technical accumulation support near-term upside",
+    "entry": "4225.00",
+    "tp": "4400.00",
+    "sl": "4150.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI-Driven Risk Appetite and Liquidity Surge Support Bullish Outlook",
-    "date": "2026-05-23 02:54",
+    "title": "[BTC/USD] [Direction] [Rationale] (e.g. 'Buy the dip toward MA20 with tight risk control')",
+    "date": "2026-05-23 11:55",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Macro risk‑on bias from easing yield curves",
-      "Order‑flow imbalance favors long side on major venues",
-      "Technical cluster around $28,200‑$28,800 provides entry window"
+      {
+        "Key Catalyst": "Stringed regulatory clarity may reduce compliance risk."
+      },
+      {
+        "Technical Support": "MA20 at support could lock in buy interest."
+      },
+      {
+        "Momentum": "RSI signs medium-range revival with AI-driven hype."
+      }
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Bullish case for BTC/USD built on macro risk‑on, order‑flow skew and technical support near $28k.",
+    "excerpt": "120-character summary",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Macro risk‑on, strong long order flow and technical support near $27.6k drive bullish bias.",
-    "entry": "27,500",
-    "tp": "28,800",
-    "sl": "26,800",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "120-character summary",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
