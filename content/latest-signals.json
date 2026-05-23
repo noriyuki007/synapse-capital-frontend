@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "戦術的インサイト：USD/JPYの均衡状態とブレイク条件の定義",
-    "date": "2026-05-23 18:49",
+    "title": "[USD/JPY] UP: MA20でのサポートとリスクオン環境の整合性",
+    "date": "2026-05-24 01:57",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "金利相関（近似）: 0.00で負相関傾向",
-      "テクニカル: 現在価格 --- と MA20 --- の位置関係が主導",
-      "需給: 重要帯の確認が必要 によるターゲット設計"
+      "価格はMA20を上回り押し目買いの場面",
+      "イラン核合意でリスクオンが進み、円売り圧力",
+      "テクニカルは上昇トレンド継続のサイン"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "USD/JPYはMA20を上抜け、イラン核合意によるリスクオンで円売りが進む。テクニカルは上昇トレンド継続を示唆し、押し目買い戦略が有効。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、USD/JPYの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20サポートとリスクオンによる円売りが上昇を後押し",
+    "entry": "158.30",
+    "tp": "160.00",
+    "sl": "157.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: 銀行セクターのリスク警戒と広範なStock Picksの乖離を監視",
-    "date": "2026-05-23 18:53",
+    "title": "[S&P 500] UP: MA20でのサポート確認とAI関連物色の継続を想定",
+    "date": "2026-05-24 02:06",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "SBI証券",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
     "tldr_points": [
-      "銀行セクター3行のリスク指摘が警戒材料、しかしSPHDの連続分配継続は安定供給の証",
-      "S&P 500構成株は強気・弱気混在でセクター選別が重要に",
-      "テクニカルはMA20・RSI監視で明確なトレンド発生待ち"
+      "現在価格はMA20を上回り底堅い",
+      "イラン合意期待とAI関連物色が支援",
+      "7300ドルを下値目処に押し目買い戦略"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "銀行セクターのリスク指摘とS&P500構成株の二極化が進行。明確なトレンド発生まで中立姿勢を維持し、セクター別選別戦略へ移行。",
+    "excerpt": "S&P 500はMA20を上回り底堅い推移、イラン合意期待とAI関連物色で上値試す展開を想定。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "銀行セクター警戒とStock Picks二極化によりインデックス全体のトレンド不明確、セクター選別戦略へ移行",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20サポート確認、イラン合意期待とAI関連物色で上昇余地",
+    "entry": "7350.00",
+    "tp": "7500.00",
+    "sl": "7250.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: 戦略準備金法案継続とAI熱が構造的強気を後押し",
-    "date": "2026-05-23 18:57",
+    "title": "[BTC/USD] DOWN: MA20下放れと機関流出が重なり下振れリスクが顕在化",
+    "date": "2026-05-24 02:07",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "戦略準備金法案が20年ロックアップ付きで継続、中長期需要が確定",
-      "SECがトークン化資産の exemptions を遅延、短期的な規制不確実性継続",
-      "NEARの30%急騰がAI・スケーリングナラティブを示し、BTCへの資金流入転換予想"
+      "機関投資家のETF資金流出が継続、需給悪化",
+      "戦略的ビットコイン準備法案の目標縮小とロックアップ期間延長がネガティブ",
+      "テクニカルはMA20を下抜け、下目線のトレンド構造が形成"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "戦略準備金法案の20年ロックアップとAI熱による資金流入がBTCを中長期で押し上げ、短期は規制遅延リスクに注意。",
+    "excerpt": "MA20を下回る価格動向と機関流出が重なり、BTC/USDは下振れリスクが高まっている。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "戦略準備金ロックアップとAI熱による資金流入で中長期強気、MA20での反発をエントリー",
-    "entry": "MA20",
-    "tp": "前高の110-115%",
-    "sl": "MA20の98%",
+    "status": "SELL",
+    "comment": "MA20下放れと機関流出が需給を悪化させ、下目線が強まるため売り推奨",
+    "entry": "74800.00",
+    "tp": "72000.00",
+    "sl": "76200.00",
     "reliability": "MEDIUM"
   }
 }
