@@ -1,74 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support Formation Amid Fed Shift",
-    "date": "2026-05-23 11:44",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-23 18:49",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Fed signals potential pivot, supporting USD",
-      "USD/JPY finds support near key technical levels",
-      "Iran nuclear deal may boost risk appetite"
+      "Iran nuclear deal reduces geopolitical risk, supporting risk appetite",
+      "Fed signals remain supportive of USD strength",
+      "Oil rig count rise signals commodity price resilience"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised for upside as technical support aligns with Fed shift",
+    "excerpt": "USD/JPY poised for upside as geopolitical tensions ease and Fed remains USD-positive. Key support at MA20 offers tactical entry.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Technical support aligns with Fed shift",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
-    "reliability": "MEDIUM"
+    "comment": "Bullish setup at MA20 support with Fed and geopolitical tailwinds.",
+    "entry": "156.25",
+    "tp": "157.75",
+    "sl": "155.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Accumulation as Fundamentals Shift Toward Technology Leadership",
-    "date": "2026-05-23 11:48",
+    "title": "[S&P 500] UP: Sector Rotation Toward Quality Defensive Plays as Dividend Stability Attracts Flows",
+    "date": "2026-05-23 18:53",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "AI-driven technology rotation gaining institutional traction",
-      "Market positioning shows constructive dip-buying on recent pullbacks",
-      "Technical structure suggests base formation with improving momentum"
+      "Defensive sectors gaining traction as SPHD streak draws income-focused capital",
+      "Quality factor outperforming as bank stock risks elevate broader market caution",
+      "Technical support structure intact despite near-term volatility"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 positioned for near-term upside as AI leadership drives fundamental re-rating and technical accumulation phase develops.",
+    "excerpt": "S&P 500 poised for upside as dividend stability plays attract flows amid sector rotation",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "AI-driven rotation and technical accumulation support near-term upside",
-    "entry": "4225.00",
-    "tp": "4400.00",
-    "sl": "4150.00",
-    "reliability": "HIGH"
+    "comment": "Quality defensive rotation supports upside; buy on MA20 dips",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] [Direction] [Rationale] (e.g. 'Buy the dip toward MA20 with tight risk control')",
-    "date": "2026-05-23 11:55",
+    "title": "[BTC/USD] UP: Strategic Reserve Bill and AI Hype Bolster Bullish Outlook",
+    "date": "2026-05-23 18:57",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      {
-        "Key Catalyst": "Stringed regulatory clarity may reduce compliance risk."
-      },
-      {
-        "Technical Support": "MA20 at support could lock in buy interest."
-      },
-      {
-        "Momentum": "RSI signs medium-range revival with AI-driven hype."
-      }
+      "Strategic bitcoin reserve bill signals institutional demand despite reduced target.",
+      "SEC delay on tokenized asset exemption introduces regulatory headwinds.",
+      "Technical momentum remains neutral; price action awaits confirmation above key resistance."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "120-character summary",
+    "excerpt": "Reserve bill and AI-driven altcoin strength support BTC upside amid regulatory caution.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "120-character summary",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "Bullish bias driven by reserve bill and AI‑sector optimism, with technicals showing a nascent breakout tendency.",
+    "entry": "28500",
+    "tp": "32000",
+    "sl": "27000",
     "reliability": "MEDIUM"
   }
 }

@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Iran De-escalation and Yield Curve Inversion Create BUY Opportunity",
-    "date": "2026-05-23 11:44",
+    "title": "戦術的インサイト：USD/JPYの均衡状態とブレイク条件の定義",
+    "date": "2026-05-23 18:49",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "Iran nuclear talks ease safe-haven demand for JPY",
-      "Fedspeak reinforces USD carry trade favorability",
-      "Technical resistance at 152.00 poised for breakout"
+      "金利相関（近似）: 0.00で負相関傾向",
+      "テクニカル: 現在価格 --- と MA20 --- の位置関係が主導",
+      "需給: 重要帯の確認が必要 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised for near-term upside as geopolitical risk premium unwinds and Fed rhetoric supports dollar funding. Key resistance at 152.00 offers structured entry with tight risk parameters.",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Iran de-escalation and yield curve dynamics support USD upside",
-    "entry": "152.00",
-    "tp": "153.20",
-    "sl": "151.50",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 不明、RSI(---)、MA20(---)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-05-23 11:48",
+    "title": "[S&P 500] FLAT: 銀行セクターのリスク警戒と広範なStock Picksの乖離を監視",
+    "date": "2026-05-23 18:53",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "SBI証券",
     "tldr_points": [
-      "AI関連銘柄の買いポイントが再燃",
-      "エンオヴィス株の機関買い増加",
-      "グーグルの目標株価上方修正が市場心理を改善"
+      "銀行セクター3行のリスク指摘が警戒材料、しかしSPHDの連続分配継続は安定供給の証",
+      "S&P 500構成株は強気・弱気混在でセクター選別が重要に",
+      "テクニカルはMA20・RSI監視で明確なトレンド発生待ち"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20付近での反発が期待され、AI関連と機関買いが上昇を支える見込み。",
+    "excerpt": "銀行セクターのリスク指摘とS&P500構成株の二極化が進行。明確なトレンド発生まで中立姿勢を維持し、セクター別選別戦略へ移行。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20付近のサポートと機関買い・AI関連ニュースが上昇を支える",
-    "entry": "5450",
-    "tp": "5550",
-    "sl": "5400",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "銀行セクター警戒とStock Picks二極化によりインデックス全体のトレンド不明確、セクター選別戦略へ移行",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Strategic Reserve BillとAI叙事が上値材料、流動性拘束は買方優位に",
-    "date": "2026-05-23 11:55",
+    "title": "[BTC/USD] UP: 戦略準備金法案継続とAI熱が構造的強気を後押し",
+    "date": "2026-05-23 18:57",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "米議会、ビットコイン戦略リザーブ法案で20年ロックアップを追加、1M BTC目標は下方修正",
-      "SEC、トークン化資産の免除を延期、第三者トークンリスクに慎重姿勢",
-      "NEAR 30%急騰でAI連動資産の資金流入が明確化"
+      "戦略準備金法案が20年ロックアップ付きで継続、中長期需要が確定",
+      "SECがトークン化資産の exemptions を遅延、短期的な規制不確実性継続",
+      "NEARの30%急騰がAI・スケーリングナラティブを示し、BTCへの資金流入転換予想"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "戦略リザーブとAI叙事がBTの上値材料に。SECの規制遅延は短期に流動性引き締め要因だが、ロックアップ期間が長期需給に寄与する見通し。",
+    "excerpt": "戦略準備金法案の20年ロックアップとAI熱による資金流入がBTCを中長期で押し上げ、短期は規制遅延リスクに注意。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "戦略リザーブロックアップとAI叙事が上値材料、MA20での押し目買いが優位",
-    "entry": "MA20水準",
-    "tp": "直近高値＋3%",
-    "sl": "MA20下方5%",
+    "comment": "戦略準備金ロックアップとAI熱による資金流入で中長期強気、MA20での反発をエントリー",
+    "entry": "MA20",
+    "tp": "前高の110-115%",
+    "sl": "MA20の98%",
     "reliability": "MEDIUM"
   }
 }
