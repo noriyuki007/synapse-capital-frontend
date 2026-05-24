@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Iran Talks Progress",
-    "date": "2026-05-24 18:52",
+    "title": "[USD/JPY] UP: Bullish Momentum Sustained Above MA20 Amid Geopolitical De-escalation",
+    "date": "2026-05-25 01:57",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 supports bullish bias",
-      "Iran nuclear talks provide risk-on backdrop",
-      "Oil rig count suggests energy price support"
+      "Price holding strongly above MA20 support",
+      "Geopolitical easing in Tehran reducing safe-haven JPY demand",
+      "Fed signals maintaining USD strength relative to JPY"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY finds technical support at MA20 with Iran nuclear agreement boosting risk sentiment",
+    "excerpt": "USD/JPY maintains bullish posture above 158.17 as geopolitical risks subside and Fed signals support USD strength.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price above MA20 with Iran nuclear agreement providing risk-on backdrop",
+    "comment": "Bullish momentum supported by MA20 and reduced safe-haven JPY demand.",
     "entry": "158.50",
-    "tp": "160.00",
-    "sl": "158.00",
+    "tp": "160.50",
+    "sl": "157.70",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500 市場分析",
-    "date": "2026-05-24",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-25 01:58",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "tldr_points": [],
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "Current price at 7473.47 above MA20 7336.28",
+      "AI stocks near buy points amid Iran deal optimism",
+      "Technical resistance at 7550 pivotal for continuation"
+    ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "",
+    "excerpt": "S&P 500 rebounds from MA20 support as Iran deal optimism fuels risk appetite. AI stocks near buy zones.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Momentum and fundamentals align at MA20 support",
+    "entry": "7400",
+    "tp": "7550",
+    "sl": "7290",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-24 18:56",
+    "title": "[BTC/USD] DOWN: Institutional Outflows and Stablecoin Depeg Pressure Price Below MA20",
+    "date": "2026-05-25 02:02",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price testing MA20 support at 79,013",
-      "ETF outflows ease, signaling capitulation",
-      "Regulatory clarity imminent with SEC/ECB developments"
+      "BTC/USD trading below MA20 at 76,593 amid $1.26B ETF outflow pressure",
+      "Stablecoin depeg events and ECB regulatory warnings create systemic risk",
+      "Strategic reserve bill revision signals reduced near-term government demand"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD nears MA20 support as ETF outflows ease. AI detects bullish divergence with potential bounce imminent.",
+    "excerpt": "BTC/USD bears control as price breaches below MA20 amid ETF outflows and stablecoin turbulence.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20 retest with ETF outflows peaking offers favorable risk-reward",
-    "entry": "79013.69",
-    "tp": "80000.00",
-    "sl": "76000.00",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "Price below MA20 with bearish fundamental backdrop favors short-side continuation.",
+    "entry": "78000.00",
+    "tp": "74200.00",
+    "sl": "80500.00",
+    "reliability": "MEDIUM"
   }
 }

@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発とリスクオフ緩和による円売り圧力",
-    "date": "2026-05-24 18:52",
+    "title": "[USD/JPY] UP: MA20での反発と、フェドのハイカットサインが整合",
+    "date": "2026-05-25 01:57",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "現在価格はMA20を上抜け、上昇トレンド継続のサイン",
-      "イラン核合意によりリスクオフが後退、円の安全資産需給が弱含む",
-      "米株式が高値から調整も依然リスクオン姿勢がUSD/JPYを支援"
+      "フェドの金利ハイカット期待、イラン危機の軌跡緩和が両面支援",
+      "テクニカルではMA20（158.17）を意識した押し目買い",
+      "板状況からは短期トレンド継続のシグナル"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "MA20を上回る価格動向とリスクオフ緩和が円売りを促し、USD/JPYの上昇余地を示唆する。また、米株式のリスクオン姿勢と原油関連の rig count 増加がインフレ期待を支える。",
+    "excerpt": "米連邦準備理事会の金利引き上げ期待と、イラン核交渉の緩和がUSD/JPYを押し上げる。MA20付近の反発を待つカットオフサイクル。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20上抜けとリスクオフ緩和による円売り圧力が上昇を支持",
-    "entry": "158.30",
-    "tp": "160.00",
-    "sl": "157.50",
+    "comment": "MA20上押し、フェドハイカット期待でドル買い、イラン統計のリスクオン効果も支援",
+    "entry": "159.15",
+    "tp": "160.50",
+    "sl": "158.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500 市場分析",
-    "date": "2026-05-24",
+    "title": "[S&P 500] UP: 価格はMA20を上回り、トランプのイラン合意発言とAI株の買い場が支援",
+    "date": "2026-05-25 01:58",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "tldr_points": [],
+    "prediction_direction": "UP",
+    "recommended_broker": "Nomura Securities",
+    "tldr_points": [
+      "S&P500は現在MA20を上抜け、短期的な上昇モメンタムが確認できる",
+      "トランプ大統領のイラン核合意近づき発言とAI関連株の買いサインが上値を支える",
+      "利益確定売りやIPO警鐘などリスクオフ要因もあるが、全体として上向きバイアスが優位"
+    ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "",
+    "excerpt": "S&P500は現在MA20を上回り、トランプ大統領のイラン核合意に近づくとの発言やAI関連株の買い場形成が上値を支えている。一方、BofAがSpaceXやOpenAIのIPOに警鐘を鳴らすなど、リスクオフ要因も散見されるが、全体としては上向きのバイアスが優位である。",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
+    "comment": "S&P500は現在MA20を上回り、トランプ大統領のイラン核合意に近づくとの発言やAI関連株の買い場形成が上値を支えている。一方、BofAがSpaceXやOpenAIのIPOに警鐘を鳴らすなど、リスクオフ要因も散見されるが、全体としては上向きのバイアスが優位である。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20を下抜けと機関売り圧力の継続",
-    "date": "2026-05-24 18:56",
+    "title": "[BTC/USD] FLAT: MA20下限での支持と長期的なファンダメンタルズのバランスを確認",
+    "date": "2026-05-25 02:02",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20を下抜け、下向きモメンタムが強まる",
-      "機関投資家のETF資金流出が続き、売り圧力が持続",
-      "マクロ環境は規制強化と金利懸念でリスクオフ傾向"
+      "MA20下限で支持帯形成",
+      "スポットETF継続流出が短期的圧力",
+      "戦略的BTC準備法案が長期的支持要因"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20割れと機関売りが重なり、BTC/USDは短期的下落局面に入る可能性が高い。",
+    "excerpt": "",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20下抜けと機関売り圧力が重ね、下目線が強まる",
-    "entry": "76800.00",
-    "tp": "75000.00",
-    "sl": "78000.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "MA20下限でのサポート帯を確認しつつ、短期的な流出圧力と長期的なファンダメンタルズの拮抗",
+    "entry": "76500.00",
+    "tp": "79998.61",
+    "sl": "75000.00",
+    "reliability": "MEDIUM"
   }
 }
