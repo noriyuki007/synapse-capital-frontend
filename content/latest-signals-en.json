@@ -1,68 +1,64 @@
 {
   "FX": {
-    "title": "USD/JPY 市場分析",
-    "date": "2026-05-24 11:56",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Iran Talks Progress",
+    "date": "2026-05-24 18:52",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above 20-period MA (158.17) signaling bullish bias",
-      "Iran nuclear deal optimism supports USD strength",
-      "OPEC rig count surge to 758 boosts energy-positive USD flow"
+      "Price above MA20 supports bullish bias",
+      "Iran nuclear talks provide risk-on backdrop",
+      "Oil rig count suggests energy price support"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish on MA20 support and positive macro catalysts, suggesting short-term upside potential.",
+    "excerpt": "USD/JPY finds technical support at MA20 with Iran nuclear agreement boosting risk sentiment",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPY bullish on MA20 support and positive macro catalysts, suggesting short-term upside potential.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Price above MA20 with Iran nuclear agreement providing risk-on backdrop",
+    "entry": "158.50",
+    "tp": "160.00",
+    "sl": "158.00",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P500] UP: AI Identifies MA20 Support and Positive Macro Catalysts",
-    "date": "2026-05-24 11:59",
+    "title": "S&P 500 市場分析",
+    "date": "2026-05-24",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "For executing this setup, we recommend utilizing [https://www.examplebroker.com](https://www.examplebroker.com) due to optimal liquidity.",
-    "tldr_points": [
-      "Price holds above MA20 (7336.28) amid positive macro developments",
-      "AI flow aligns with institutional buying in tech/AI sectors",
-      "Trump-era geopolitical clarity reduces equity risk premium"
-    ],
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 showing technical strength above MA20 with AI detecting bullish patterns; fundamentals bolstered by Iran deal optimism.",
+    "excerpt": "",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500 showing technical strength above MA20 with AI detecting bullish patterns; fundamentals bolstered by Iran deal optimism.",
+    "comment": "シナプス解析に基づくシグナル",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: ETF Outflows and Regulatory Headwinds Weigh on Price Below MA20",
-    "date": "2026-05-24 12:01",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-24 18:56",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Spot ETFs shed $1.26B worst week since January",
-      "ECB warns stablecoin rule easing would weaken banks",
-      "Strategic reserve bill caps BTC purchase target at 1M"
+      "Price testing MA20 support at 79,013",
+      "ETF outflows ease, signaling capitulation",
+      "Regulatory clarity imminent with SEC/ECB developments"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD trades at 76,699 below MA20 as spot ETFs shed $1.26B; strategic reserve bill adds 20-year lockup but caps purchase target.",
+    "excerpt": "BTC/USD nears MA20 support as ETF outflows ease. AI detects bullish divergence with potential bounce imminent.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price below MA20 amid ETF outflows; regulatory delays cap upside",
-    "entry": "76699",
-    "tp": "75200",
-    "sl": "77200",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20 retest with ETF outflows peaking offers favorable risk-reward",
+    "entry": "79013.69",
+    "tp": "80000.00",
+    "sl": "76000.00",
+    "reliability": "HIGH"
   }
 }

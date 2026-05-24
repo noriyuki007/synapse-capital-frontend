@@ -1,70 +1,64 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発とリスクオン環境の整合性を確認",
-    "date": "2026-05-24 11:56",
+    "title": "[USD/JPY] UP: MA20での反発とリスクオフ緩和による円売り圧力",
+    "date": "2026-05-24 18:52",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "現在価格はMA20を上回り短期的な上昇バイアスが観測される",
-      "イラン核合意合意でリスクオン傾向が強まり、安全資産である円の需給が悪化",
-      "流動性が厚い[dmm-fx]でのエントリーがスリッページリスクを低減"
+      "現在価格はMA20を上抜け、上昇トレンド継続のサイン",
+      "イラン核合意によりリスクオフが後退、円の安全資産需給が弱含む",
+      "米株式が高値から調整も依然リスクオン姿勢がUSD/JPYを支援"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "MA20を上抜けているUSD/JPYは、イラン合意によるリスクオンで円売りが進行し、短期的な上昇余地が見込まれる。",
+    "excerpt": "MA20を上回る価格動向とリスクオフ緩和が円売りを促し、USD/JPYの上昇余地を示唆する。また、米株式のリスクオン姿勢と原油関連の rig count 増加がインフレ期待を支える。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20上抜けとリスクオンによる円売りが上昇バイアスを支える",
-    "entry": "158.90",
-    "tp": "160.50",
-    "sl": "158.20",
+    "comment": "MA20上抜けとリスクオフ緩和による円売り圧力が上昇を支持",
+    "entry": "158.30",
+    "tp": "160.00",
+    "sl": "157.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性",
-    "date": "2026-05-24 11:59",
+    "title": "S&P 500 市場分析",
+    "date": "2026-05-24",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "",
-    "tldr_points": [
-      "金利低下がリスク資産を支援",
-      "Vanguard VFHとState Street XLFの比率が上昇",
-      "AIシナプス解析でセンチメントが中立以上に転換"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "金利低下と資金流入が支撑を形成し、MA20で反発。上昇余地あり、エントリ・TP・SLを明示した実戦戦略を提示。本レポートは、技術的指標とファンダメンタル分析を統合し、リスク管理を徹底した具体的な取引指針を示す。",
-    "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "金利低下と資金流入が支撑を形成し、MA20で反発。上昇余地あり、エントリ・TP・SLを明示した実戦戦略を提示。本レポートは、技術的指標とファンダメンタル分析を統合し、リスク管理を徹底した具体的な取引指針を示す。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
-  },
-  "CRYPTO": {
-    "title": "[BTC/USD] [方向性] [根拠]",
-    "date": "2026-05-24 12:01",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP または DOWN または FLAT",
-    "recommended_broker": "bitflyer",
-    "tldr_points": [
-      "ECBのユーロ安定トグル規則緩和 leatherfür！",
-      "FTXの法的問題音収まね。",
-      "ETFの流出ペース加速。",
-      "ビットコイン保有量目標の引き下げ。",
-      "SECの要嘆懇スキーム遅延。"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
     "excerpt": "",
-    "pair": "BTC/USD",
+    "pair": "S&P 500",
     "status": "NEUTRAL",
     "comment": "シナプス解析に基づくシグナル",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
+  },
+  "CRYPTO": {
+    "title": "[BTC/USD] DOWN: MA20を下抜けと機関売り圧力の継続",
+    "date": "2026-05-24 18:56",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "tldr_points": [
+      "MA20を下抜け、下向きモメンタムが強まる",
+      "機関投資家のETF資金流出が続き、売り圧力が持続",
+      "マクロ環境は規制強化と金利懸念でリスクオフ傾向"
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "MA20割れと機関売りが重なり、BTC/USDは短期的下落局面に入る可能性が高い。",
+    "pair": "BTC/USD",
+    "status": "SELL",
+    "comment": "MA20下抜けと機関売り圧力が重ね、下目線が強まる",
+    "entry": "76800.00",
+    "tp": "75000.00",
+    "sl": "78000.00",
+    "reliability": "HIGH"
   }
 }
