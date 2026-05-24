@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-24 01:57",
+    "title": "USD/JPY 市場分析",
+    "date": "2026-05-24 11:56",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above MA20 support at 158.17, signaling bullish momentum.",
-      "Iran nuclear deal talks progress reduces geopolitical risk, supporting USD strength.",
-      "Fed signaling caution keeps yields steady, limiting downside for USD/JPY."
+      "Price holds above 20-period MA (158.17) signaling bullish bias",
+      "Iran nuclear deal optimism supports USD strength",
+      "OPEC rig count surge to 758 boosts energy-positive USD flow"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY trades above MA20 support amid Iran deal optimism and steady Fed outlook, bias remains bullish with key resistance near 160.50.",
+    "excerpt": "USD/JPY bullish on MA20 support and positive macro catalysts, suggesting short-term upside potential.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Price above MA20 with supportive fundamentals favors upside.",
-    "entry": "158.80",
-    "tp": "160.50",
-    "sl": "158.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPY bullish on MA20 support and positive macro catalysts, suggesting short-term upside potential.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 with Mixed Fundamental Signals",
-    "date": "2026-05-24 02:06",
+    "title": "[S&P500] UP: AI Identifies MA20 Support and Positive Macro Catalysts",
+    "date": "2026-05-24 11:59",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "For executing this setup, we recommend utilizing [https://www.examplebroker.com](https://www.examplebroker.com) due to optimal liquidity.",
     "tldr_points": [
-      "Price above MA20 suggests short-term bullish bias",
-      "Mixed signals from consumer stocks offset AI sector momentum",
-      "Key technical support established at 7336"
+      "Price holds above MA20 (7336.28) amid positive macro developments",
+      "AI flow aligns with institutional buying in tech/AI sectors",
+      "Trump-era geopolitical clarity reduces equity risk premium"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P holds above MA20 with AI momentum offset by consumer weakness; buy with tight risk control",
+    "excerpt": "S&P 500 showing technical strength above MA20 with AI detecting bullish patterns; fundamentals bolstered by Iran deal optimism.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Bullish above MA20 with AI momentum offsetting consumer weakness",
-    "entry": "7336.00",
-    "tp": "7625.00",
-    "sl": "7300.00",
+    "status": "NEUTRAL",
+    "comment": "S&P 500 showing technical strength above MA20 with AI detecting bullish patterns; fundamentals bolstered by Iran deal optimism.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Trades 4.7% Below MA20 as ETF Outflows Accelerate",
-    "date": "2026-05-24 02:07",
+    "title": "[BTC/USD] DOWN: ETF Outflows and Regulatory Headwinds Weigh on Price Below MA20",
+    "date": "2026-05-24 12:01",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trades 4.7% below 20-day MA at 75,366, indicating short-term weakness",
-      "Spot ETF outflows of $1.26B mark worst week since January, removing key demand catalyst",
-      "Strategic reserve bill revision and SEC delays add regulatory headwinds"
+      "Spot ETFs shed $1.26B worst week since January",
+      "ECB warns stablecoin rule easing would weaken banks",
+      "Strategic reserve bill caps BTC purchase target at 1M"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC slides below MA20 support as $1.26B ETF outflows and regulatory uncertainty weigh",
+    "excerpt": "BTC/USD trades at 76,699 below MA20 as spot ETFs shed $1.26B; strategic reserve bill adds 20-year lockup but caps purchase target.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "Price breakdown below MA20 with $1.26B ETF outflows and diminished policy catalyst",
-    "entry": "78500.00",
-    "tp": "71500.00",
-    "sl": "80500.00",
+    "comment": "Price below MA20 amid ETF outflows; regulatory delays cap upside",
+    "entry": "76699",
+    "tp": "75200",
+    "sl": "77200",
     "reliability": "MEDIUM"
   }
 }
