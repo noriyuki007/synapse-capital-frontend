@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発とFedハークイッシュ姿勢が支持",
-    "date": "2026-05-25 12:32",
+    "title": "USD/JPYの見通し：需給バランスから見る「押し目買い」の優位性",
+    "date": "2026-05-25 20:51",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "Fed議長ウォーシュのハークイッシュ姿勢が米ドルを下支え",
-      "PBOCの米ドル元基準レート上昇がリスクオフ傾向を示唆し、円の安全資産需要を抑制",
-      "テクニカルでは現在価格がMA20を上回り、押し目買いの余地あり"
+      "金利相関（近似）: -0.03で負相関傾向",
+      "テクニカル: 現在価格 158.90 と MA20 158.13 の位置関係が主導",
+      "需給: 上限帯 160.32 / 下限帯 155.95 / 直近高値 160.70 / 直近安値 155.05 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Fedのハークイッシュ転換とPBOCの米ドル元レート上昇が米ドルを押し上げ、テクニカルではMA20を上抜けしたUSD/JPYは押し目買いの場面。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 158.90、RSI(68.68)、MA20(158.13)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "Fedのハークイッシュ転換とPBOCの米ドル元レート上昇が米ドルを押し上げ、テクニカルではMA20を上抜けしたUSD/JPYは押し目買いの場面。",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 158.90、RSI(68.68)、MA20(158.13)を軸に、金利相関と需給帯から実行プランを整理する。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20押し買反発とマクロカタリストの整合性確認",
-    "date": "2026-05-25 12:38",
+    "title": "[S&P 500] UP: MA20での反発とAI関連株の牽引効果による上昇トレンド継続",
+    "date": "2026-05-25 21:02",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "価格がMA20超ುನどう上昇トレンド継続",
-      "トランプ政権のイランデータリ comunsな緊張緩和",
-      "AI株の需要からマグ7に広がる強気感"
+      "MA20ラインでの反発が技術的に上昇継続を支持",
+      "AI関連株がS&P 500の大部分の利益を牽引",
+      "利上げ期待が長期的にリスク要因に"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500がMA20押しで上昇トレンドを確保。トランプ政権とAI株の需要が寄与。",
+    "excerpt": "",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20押しによる強力な技術情報と、イラン対策政策のポジティブ影響が組み合わさる。",
-    "entry": "7335.50",
-    "tp": "7600",
-    "sl": "7200",
+    "comment": "MA20での反発とAI関連株の牽引による上昇トレンド継続",
+    "entry": "7350.00",
+    "tp": "7500.00",
+    "sl": "7200.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "警戒アラート：BTC/USDの構造的変化と下落リスクの徹底検証",
-    "date": "2026-05-25 12:40",
+    "title": "[BTC/USD] DOWN: MA20下抜けとマクロ悪化が売りシグナルを強化",
+    "date": "2026-05-25 21:07",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "金利相関（近似）: -0.41で負相関傾向",
-      "テクニカル: 現在価格 76993.97 と MA20 79018.64 の位置関係が主導",
-      "需給: 上限帯 83053.07 / 下限帯 74984.22 / 直近高値 82792.21 / 直近安値 74255.23 によるターゲット設計"
+      "現在価格77278はMA2078835を下回り、下抜けトレンド継続の可能性",
+      "大口ウォレットからの2億BTC移動とCFTC職員削除報道が売り圧力を増幅",
+      "流動性の観点から[bitflyer]での売り執行を推奨"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 76993.97、RSI(30.63)、MA20(79018.64)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "BTC/USDはMA20下抜けとマクロ悪化により下落リスクが高まり、売りエントリーとbitflyerでの執行を推奨。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、BTC/USDの現在価格 76993.97、RSI(30.63)、MA20(79018.64)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "MA20下抜けとマクロ悪化、大口ウォレット移動による売り圧力が根拠",
+    "entry": "77200.00",
+    "tp": "75000.00",
+    "sl": "79000.00",
     "reliability": "MEDIUM"
   }
 }
