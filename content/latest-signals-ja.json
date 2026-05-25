@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPYの見通し：需給バランスから見る「押し目買い」の優位性",
-    "date": "2026-05-25 20:51",
+    "title": "[USD/JPY] UP: MA20付近での反発とリスクオフ環境での円売り圧力",
+    "date": "2026-05-26 02:41",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "金利相関（近似）: -0.03で負相関傾向",
-      "テクニカル: 現在価格 158.90 と MA20 158.13 の位置関係が主導",
-      "需給: 上限帯 160.32 / 下限帯 155.95 / 直近高値 160.70 / 直近安値 155.05 によるターゲット設計"
+      "現在価格はMA20を上抜けし短期的な上昇バイアスが形成",
+      "地政学的緊張がリスクオフを誘導し、円売り圧力が強まる可能性",
+      "テクニカル的にはMA20をサポートとして押し目買いが有効"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 158.90、RSI(68.68)、MA20(158.13)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "USD/JPYはMA20を上回り、リスクオフシナリオでの円売りが意識される中、押し目買い戦略を推奨。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、USD/JPYの現在価格 158.90、RSI(68.68)、MA20(158.13)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20をサポートとする押し目買いがリスクオフ環境での円売りと整合",
+    "entry": "158.60",
+    "tp": "159.50",
+    "sl": "158.00",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発とAI関連株の牽引効果による上昇トレンド継続",
-    "date": "2026-05-25 21:02",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-05-26 02:49",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "MA20ラインでの反発が技術的に上昇継続を支持",
-      "AI関連株がS&P 500の大部分の利益を牽引",
-      "利上げ期待が長期的にリスク要因に"
+      "MA20(7336)サポートを価格が上回り、テクニカルな上昇シグナルを発出",
+      "原油価格下落が市場を下支えし、テクノロジーセクターが主導力を発揮",
+      "流動性を確保しつつ、7450-7500ゾーンでの買いポジションを推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "",
+    "excerpt": "S&P 500がMA20サポートを上抜け、テクノロジーセクターの強気ファンダメンタルズと原油価格下落が市場を下支え。中期上昇トレンドの継続が予測され、戦術的買いを推奨。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20での反発とAI関連株の牽引による上昇トレンド継続",
-    "entry": "7350.00",
-    "tp": "7500.00",
-    "sl": "7200.00",
+    "comment": "MA20サポートを上抜け、原油価格下落とテクノロジーセクターの強気ファンダメンタルズが下支え",
+    "entry": "7450",
+    "tp": "7550",
+    "sl": "7400",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20下抜けとマクロ悪化が売りシグナルを強化",
-    "date": "2026-05-25 21:07",
+    "title": "[BTC/USD] DOWN: MA20下抜けと機関ローテーションが示す短期調整局面",
+    "date": "2026-05-26 02:50",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "現在価格77278はMA2078835を下回り、下抜けトレンド継続の可能性",
-      "大口ウォレットからの2億BTC移動とCFTC職員削除報道が売り圧力を増幅",
-      "流動性の観点から[bitflyer]での売り執行を推奨"
+      "MA20を下抜け、短期的な売り圧力が顕在化",
+      "機関のETFフローはローテーションを示し、出口ではないが上値は重い",
+      "規制ニュースとマルウェアリスクがセンチメントを悪化させ、下値リスクを増幅"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20下抜けとマクロ悪化により下落リスクが高まり、売りエントリーとbitflyerでの執行を推奨。",
+    "excerpt": "MA20を下抜け、機関のローテーションと規制リスクが重なり短期的下押し圧力が強まる。bitflyerでの流動性を活用した売り戦略を提案。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20下抜けとマクロ悪化、大口ウォレット移動による売り圧力が根拠",
-    "entry": "77200.00",
-    "tp": "75000.00",
-    "sl": "79000.00",
+    "status": "NEUTRAL",
+    "comment": "MA20を下抜け、機関のローテーションと規制リスクが重なり短期的下押し圧力が強まる。bitflyerでの流動性を活用した売り戦略を提案。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }

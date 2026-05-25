@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Price Sustains Above MA20 as Bullish Structure Intact Despite Dollar Weakness",
-    "date": "2026-05-25 20:51",
+    "title": "[USD/JPY] UP: Price Holds Above MA20 Amid Mixed Geopolitical Risks",
+    "date": "2026-05-26 02:41",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price maintains position above 20-day MA (158.13), indicating resilient bullish structure",
-      "US-Iran diplomatic progress weighs on oil prices, creating mixed sentiment for USD/JPY",
-      "Japan energy subsidy implementation may cap yen upside despite underlying weakness"
+      "USD/JPY trades above the 20‑day MA, indicating short‑term bullish momentum.",
+      "Middle‑East tensions and falling oil provide conflicting safe‑haven cues for USD and JPY.",
+      "A long bias is favoured with entry near the MA20, targeting the recent swing high."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY retains bullish bias above key MA support even as dollar softens on Middle East diplomatic hopes",
+    "excerpt": "USD/JPY stays above MA20 amid Middle East tensions and lower oil, boosting safe‑haven flows and a near‑term bullish bias",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish structure intact with price above MA20; energy price decline and Japan subsidies reinforce yen weakness",
-    "entry": "158.30",
-    "tp": "159.40",
-    "sl": "157.60",
+    "comment": "Price above MA20 with supportive fundamentals favours a short‑term long bias.",
+    "entry": "158.70",
+    "tp": "159.50",
+    "sl": "158.20",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Leadership Rebalancing Opportunities Emerge Above MA20",
-    "date": "2026-05-25 21:02",
+    "title": "[S&P 500] UP: MA20 Support Holds Amid Positive Macro & Oil Pull‑back",
+    "date": "2026-05-26 02:49",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Current price 7473.47 trades above MA20 support at 7336.28",
-      "AI-driven concentration risk creates tactical rebalancing opportunities",
-      "Rate hike pricing through 2027 supports equity risk reallocation"
+      "Price > MA20, bullish bias",
+      "Oil price decline eases inflation pressure",
+      "Fundamentals: low‑rate outlook and resilient earnings"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above key moving average with AI rebalancing creating tactical long opportunities",
+    "excerpt": "S&P 500 trades 7,473, above MA20, supported by softer oil and stable earnings outlook.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Technical support holding above MA20 with AI rebalancing creating tactical opportunities",
-    "entry": "7336.28",
-    "tp": "7550.00",
-    "sl": "7300.00",
-    "reliability": "MEDIUM"
+    "comment": "Price above MA20 with supportive macro and order flow dynamics",
+    "entry": "7445",
+    "tp": "7600",
+    "sl": "7320",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Tests MA20 Support Amid Bearish Macro",
-    "date": "2026-05-25 21:07",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-05-26 02:50",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price below MA20, bearish macro signals",
-      "Malware news and Tether GELP launch add risk",
-      "Key support at 77k; break likely triggers further decline"
+      "Price testing MA20 support with institutional demand intact",
+      "ETF outflows signal rotation not capitulation, per analysts",
+      "Security concerns in ecosystem not yet pricing in broadly"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC tests MA20 support near 77k as bearish macro and malware news weigh; break below could spark further decline soon!!",
+    "excerpt": "BTC tests MA20 support as institutional flows remain resilient despite short-term volatility.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC tests MA20 support near 77k as bearish macro and malware news weigh; break below could spark further decline soon!!",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Price testing MA20 support with institutional demand intact",
+    "entry": "78900",
+    "tp": "80500",
+    "sl": "77000",
+    "reliability": "HIGH"
   }
 }
