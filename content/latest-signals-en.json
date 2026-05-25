@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Bullish Momentum Sustained Above MA20 Amid Geopolitical De-escalation",
-    "date": "2026-05-25 01:57",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fed Hawkishness Intensifies",
+    "date": "2026-05-25 12:32",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holding strongly above MA20 support",
-      "Geopolitical easing in Tehran reducing safe-haven JPY demand",
-      "Fed signals maintaining USD strength relative to JPY"
+      "Fed hawkishness supports USD strength",
+      "Price holds above key MA20 support",
+      "Technical momentum favors upside continuation"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY maintains bullish posture above 158.17 as geopolitical risks subside and Fed signals support USD strength.",
+    "excerpt": "USD/JPY poised for upside continuation as Fed hawkishness outweighs Asian central bank stability signals",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish momentum supported by MA20 and reduced safe-haven JPY demand.",
-    "entry": "158.50",
-    "tp": "160.50",
-    "sl": "157.70",
+    "comment": "Technical strength above MA20 combined with Fed hawkishness supports upside continuation",
+    "entry": "158.75",
+    "tp": "160.00",
+    "sl": "158.40",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-25 01:58",
+    "title": "[S&P 500] UP: AI Flags MA20 Support as Bullish Fundamentals",
+    "date": "2026-05-25 12:38",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Current price at 7473.47 above MA20 7336.28",
-      "AI stocks near buy points amid Iran deal optimism",
-      "Technical resistance at 7550 pivotal for continuation"
+      "Price above MA20 signals bullish momentum",
+      "AI flags bullish fundamentals supporting upside",
+      "Key resistance at 7600 awaits validation"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 rebounds from MA20 support as Iran deal optimism fuels risk appetite. AI stocks near buy zones.",
+    "excerpt": "S&P 500 trades at 7473, above MA20 7336; AI flags bullish fundamentals, targeting 7600 near term now! with stop at 7300.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Momentum and fundamentals align at MA20 support",
-    "entry": "7400",
-    "tp": "7550",
-    "sl": "7290",
+    "comment": "Price above MA20 with bullish AI fundamentals supports upside momentum",
+    "entry": "7473.47021484375",
+    "tp": "7600",
+    "sl": "7300",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Institutional Outflows and Stablecoin Depeg Pressure Price Below MA20",
-    "date": "2026-05-25 02:02",
+    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 Amid Regulatory Headwinds",
+    "date": "2026-05-25 12:40",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD trading below MA20 at 76,593 amid $1.26B ETF outflow pressure",
-      "Stablecoin depeg events and ECB regulatory warnings create systemic risk",
-      "Strategic reserve bill revision signals reduced near-term government demand"
+      "Regulatory pressure weighs on sentiment",
+      "MA20 acts as immediate resistance",
+      "Strategic short entry near 76k with tight risk"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD bears control as price breaches below MA20 amid ETF outflows and stablecoin turbulence.",
+    "excerpt": "BTC/USD faces potential downside as regulatory news and technical resistance align.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "Price below MA20 with bearish fundamental backdrop favors short-side continuation.",
-    "entry": "78000.00",
-    "tp": "74200.00",
-    "sl": "80500.00",
+    "comment": "MA20 resistance and regulatory pressure support shorting",
+    "entry": "76000",
+    "tp": "72500",
+    "sl": "78000",
     "reliability": "MEDIUM"
   }
 }

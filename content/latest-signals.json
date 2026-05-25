@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と、フェドのハイカットサインが整合",
-    "date": "2026-05-25 01:57",
+    "title": "[USD/JPY] UP: MA20での反発とFedハークイッシュ姿勢が支持",
+    "date": "2026-05-25 12:32",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "フェドの金利ハイカット期待、イラン危機の軌跡緩和が両面支援",
-      "テクニカルではMA20（158.17）を意識した押し目買い",
-      "板状況からは短期トレンド継続のシグナル"
+      "Fed議長ウォーシュのハークイッシュ姿勢が米ドルを下支え",
+      "PBOCの米ドル元基準レート上昇がリスクオフ傾向を示唆し、円の安全資産需要を抑制",
+      "テクニカルでは現在価格がMA20を上回り、押し目買いの余地あり"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米連邦準備理事会の金利引き上げ期待と、イラン核交渉の緩和がUSD/JPYを押し上げる。MA20付近の反発を待つカットオフサイクル。",
+    "excerpt": "Fedのハークイッシュ転換とPBOCの米ドル元レート上昇が米ドルを押し上げ、テクニカルではMA20を上抜けしたUSD/JPYは押し目買いの場面。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20上押し、フェドハイカット期待でドル買い、イラン統計のリスクオン効果も支援",
-    "entry": "159.15",
-    "tp": "160.50",
-    "sl": "158.50",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: 価格はMA20を上回り、トランプのイラン合意発言とAI株の買い場が支援",
-    "date": "2026-05-25 01:58",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
-    "tldr_points": [
-      "S&P500は現在MA20を上抜け、短期的な上昇モメンタムが確認できる",
-      "トランプ大統領のイラン核合意近づき発言とAI関連株の買いサインが上値を支える",
-      "利益確定売りやIPO警鐘などリスクオフ要因もあるが、全体として上向きバイアスが優位"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500は現在MA20を上回り、トランプ大統領のイラン核合意に近づくとの発言やAI関連株の買い場形成が上値を支えている。一方、BofAがSpaceXやOpenAIのIPOに警鐘を鳴らすなど、リスクオフ要因も散見されるが、全体としては上向きのバイアスが優位である。",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P500は現在MA20を上回り、トランプ大統領のイラン核合意に近づくとの発言やAI関連株の買い場形成が上値を支えている。一方、BofAがSpaceXやOpenAIのIPOに警鐘を鳴らすなど、リスクオフ要因も散見されるが、全体としては上向きのバイアスが優位である。",
+    "comment": "Fedのハークイッシュ転換とPBOCの米ドル元レート上昇が米ドルを押し上げ、テクニカルではMA20を上抜けしたUSD/JPYは押し目買いの場面。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20押し買反発とマクロカタリストの整合性確認",
+    "date": "2026-05-25 12:38",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "tldr_points": [
+      "価格がMA20超ುನどう上昇トレンド継続",
+      "トランプ政権のイランデータリ comunsな緊張緩和",
+      "AI株の需要からマグ7に広がる強気感"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500がMA20押しで上昇トレンドを確保。トランプ政権とAI株の需要が寄与。",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "MA20押しによる強力な技術情報と、イラン対策政策のポジティブ影響が組み合わさる。",
+    "entry": "7335.50",
+    "tp": "7600",
+    "sl": "7200",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: MA20下限での支持と長期的なファンダメンタルズのバランスを確認",
-    "date": "2026-05-25 02:02",
+    "title": "警戒アラート：BTC/USDの構造的変化と下落リスクの徹底検証",
+    "date": "2026-05-25 12:40",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20下限で支持帯形成",
-      "スポットETF継続流出が短期的圧力",
-      "戦略的BTC準備法案が長期的支持要因"
+      "金利相関（近似）: -0.41で負相関傾向",
+      "テクニカル: 現在価格 76993.97 と MA20 79018.64 の位置関係が主導",
+      "需給: 上限帯 83053.07 / 下限帯 74984.22 / 直近高値 82792.21 / 直近安値 74255.23 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 76993.97、RSI(30.63)、MA20(79018.64)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "MA20下限でのサポート帯を確認しつつ、短期的な流出圧力と長期的なファンダメンタルズの拮抗",
-    "entry": "76500.00",
-    "tp": "79998.61",
-    "sl": "75000.00",
+    "comment": "本日のAI解析では、BTC/USDの現在価格 76993.97、RSI(30.63)、MA20(79018.64)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
