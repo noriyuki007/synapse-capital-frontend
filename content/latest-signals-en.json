@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Price Holds Above MA20 Amid Mixed Geopolitical Risks",
-    "date": "2026-05-26 02:41",
+    "title": "[USD/JPY] UP: Technical Support Confirmed Above MA20 Amid Bullish Fundamental Shift",
+    "date": "2026-05-26 11:52",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY trades above the 20‑day MA, indicating short‑term bullish momentum.",
-      "Middle‑East tensions and falling oil provide conflicting safe‑haven cues for USD and JPY.",
-      "A long bias is favoured with entry near the MA20, targeting the recent swing high."
+      "Price trading 0.84% above MA20 confirming bullish structure",
+      "BOJ maintains hawkish stance despite Middle East headwinds",
+      "Asian central banks signal potential tightening cycle"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY stays above MA20 amid Middle East tensions and lower oil, boosting safe‑haven flows and a near‑term bullish bias",
+    "excerpt": "USD/JPY bullish above 158.12 MA20 support amid BOJ hawkish guidance and global risk pressures.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price above MA20 with supportive fundamentals favours a short‑term long bias.",
-    "entry": "158.70",
-    "tp": "159.50",
-    "sl": "158.20",
-    "reliability": "MEDIUM"
+    "comment": "Bullish above MA20 with fundamental support from BOJ guidance",
+    "entry": "158.30",
+    "tp": "159.80",
+    "sl": "157.85",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20 Support Holds Amid Positive Macro & Oil Pull‑back",
-    "date": "2026-05-26 02:49",
+    "title": "[S&P 500] UP: AI Detects Bullish Momentum as Price Holds Above MA20 Amid Geopolitical Dip-Buying",
+    "date": "2026-05-26 11:55",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price > MA20, bullish bias",
-      "Oil price decline eases inflation pressure",
-      "Fundamentals: low‑rate outlook and resilient earnings"
+      "Price holding above MA20 at 7473 confirms bullish trend",
+      "Iran geopolitical resolution supports risk appetite",
+      "AI-driven dip buying emerges post-sell-off"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades 7,473, above MA20, supported by softer oil and stable earnings outlook.",
+    "excerpt": "S&P 500 holds above key MA20 support as geopolitical de-risking and AI momentum drive technical strength.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price above MA20 with supportive macro and order flow dynamics",
-    "entry": "7445",
-    "tp": "7600",
-    "sl": "7320",
+    "comment": "Price above MA20 with bullish geopolitical catalyst supports continued upside",
+    "entry": "7336.00",
+    "tp": "7550.00",
+    "sl": "7300.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-26 02:50",
+    "title": "[BTC/USD] DOWN: Price Tests Support Below MA20 Amid Institutional Outflows",
+    "date": "2026-05-26 11:58",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price testing MA20 support with institutional demand intact",
-      "ETF outflows signal rotation not capitulation, per analysts",
-      "Security concerns in ecosystem not yet pricing in broadly"
+      "Key point 1",
+      "Key point 2",
+      "Key point 3"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC tests MA20 support as institutional flows remain resilient despite short-term volatility.",
+    "excerpt": "Price below MA20 hints at near‑term weakness; institutional flows volatile amid ETF outflows and regulatory pressure!!!!",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Price testing MA20 support with institutional demand intact",
-    "entry": "78900",
-    "tp": "80500",
-    "sl": "77000",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "Price below MA20 with bearish momentum and limited upside catalysts.",
+    "entry": "76500",
+    "tp": "74000",
+    "sl": "78500",
+    "reliability": "MEDIUM"
   }
 }
