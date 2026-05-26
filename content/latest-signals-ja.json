@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20上抜けとボジティブなファンダメンタルズの整合性を確認",
-    "date": "2026-05-26 11:52",
+    "title": "[USD/JPY] UP: MA20ブレイクと地政学的リスクの重層的買い支持",
+    "date": "2026-05-27 03:23",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "現在価格はMA20を上抜け、短期的な上昇バイアスが形成",
-      "BOJの利上げ継続示唆と中東リスクが円サポート材料に",
-      "PBOCの中心レート上振れでドルの底堅さが示唆される"
+      "MA20突破と先週高値ブレイクを確認",
+      "米国高金利と中東情勢が重層的買い支持",
+      "流動性観点からdmm-fxの利用を推奨"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20を上抜け、BOJ利上げ路線と中東リスクが円を支える中、ドルの底堅さも示唆され、短期的な上昇が期待できる。",
+    "excerpt": "USD/JPYがMA20突破と先週高値ブレイクを確認。米国高金利と中東情勢が買い支持。流動性観点からdmm-fxの利用を推奨。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20上抜けとファンダメンタルズの整合性により上昇バイアス",
-    "entry": "158.75",
-    "tp": "159.30",
-    "sl": "158.30",
+    "comment": "MA20ブレイクと先週高値を上抜け、金利差拡大が支持",
+    "entry": "159.00",
+    "tp": "160.00",
+    "sl": "158.00",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20突破とギャザーズ・コンフォーマンス下でのテクニカル修正相場",
-    "date": "2026-05-26 11:55",
+    "title": "[S&P 500] UP: 価格がMA20を上回り、地政学的リスク後退とハイテク強気が支援",
+    "date": "2026-05-27 03:26",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "野村證券",
     "tldr_points": [
-      "S&P 500現在価格7473ドル、MA20を上回り上昇修正",
-      "イラン・ホルムズ情勢悩み追加リスクオフ要因軽減",
-      "3本の短期移動平均線がゴールデンクロスを形成"
+      "MA20を上抜けし、上昇トレンドの初期段階にある",
+      "イラン和平期待とマイクロンの1兆ドル達成がリスクオンを後押し",
+      "テクニカル的に押し目買いの機会が形成され、流動性豊かな環境でのエントリーが有利"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500は7473ドルでマイナス20ドル安いが、20日移動平均線を上回りテクニカル的に上昇修正の兆しを示す。",
+    "excerpt": "S&P500はMA20を上回り、地政学的緩和とハイテク株の強さが上昇を支える。押し目買いを推奨。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "20日移動平均線上抜けとイラン和平懸念緩和",
-    "entry": "7450.00",
-    "tp": "7600.00",
-    "sl": "7300.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P500はMA20を上回り、地政学的緩和とハイテク株の強さが上昇を支える。押し目買いを推奨。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20下放れと機関フローのローテーション警戒",
-    "date": "2026-05-26 11:58",
+    "title": "[BTC/USD] DOWN: MA20下抜けリスクと規制強化がファンダメンタルズと整合",
+    "date": "2026-05-27 03:31",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20を下抜け、短期的な下値リスクが顕在化",
-      "機関投資家はETFフローのローテーションで一時的にリスクオフ姿勢",
-      "オンチェーンの流動性逼迫と規制ニュースが重石となる"
+      "MA20を下抜けすれば短期的な下振れが期待できる",
+      "規制強化とオンチェーン活動の鈍化が下押し圧力を強める",
+      "エントリー75800、TP75000、SL76500でbitflyerの流動性を活用"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を下回り、機関のETFフローのローテーションと規制ヘッドウィンドが重なることで下値リスクが高まっている。",
+    "excerpt": "BTC/USDはMA20を下抜けしやすい状況にあり、規制強化とオンチェーン活動の鈍化が下押し圧力を強め、短期的な下振れリスクが顕在化している。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USDはMA20を下回り、機関のETFフローのローテーションと規制ヘッドウィンドが重なることで下値リスクが高まっている。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "MA20下抜けと規制・金利の下押し要因が整合",
+    "entry": "75800",
+    "tp": "75000",
+    "sl": "76500",
     "reliability": "MEDIUM"
   }
 }
