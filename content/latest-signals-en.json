@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-28 03:25",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 Amid Bullish Fundamentals",
+    "date": "2026-05-28 11:51",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holding above MA20 at 158.11 with bullish momentum",
-      "Iran deal uncertainty fuels safe-haven USD demand",
-      "US 5-year yields at 4.182% support dollar strength"
+      "MA20 at 158.07 acts as dynamic support",
+      "US rate hike signals strengthen USD/JPY",
+      "Iran sanctions disrupt oil-linked yen depreciation"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised for extension as MA20 support coincides with hawkish USD dynamics.",
+    "excerpt": "USD/JPY holds above MA20 as BoK rate hike bets and Iran sanctions create asymmetric risks. Broker xm-trading recommended for liquidity execution.",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "USD/JPY poised for extension as MA20 support coincides with hawkish USD dynamics.",
+    "comment": "USD/JPY holds above MA20 as BoK rate hike bets and Iran sanctions create asymmetric risks. Broker xm-trading recommended for liquidity execution.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20 Support Holds as Macro Catalysts Turn Positive",
-    "date": "2026-05-28 03:27",
+    "title": "[S&P 500] UP: MA20 Support and Bullish Fundamentals",
+    "date": "2026-05-28 11:52",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price trading 5% above MA20",
-      "Oil price pull‑back eases inflation pressure",
-      "Tech earnings mitigate valuation concerns"
+      "Price above MA20 signals bullish momentum",
+      "Goldman Sachs reaffirms 2026 bullish outlook",
+      "VOO ETF milestone indicates strong institutional demand"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above MA20, buoyed by lower oil, easing geopolitical risk, and resilient tech earnings.",
+    "excerpt": "S&P 500 rallies above MA20 with bullish fundamentals and positive ETF flows. Buy the dip toward MA20 with tight risk control.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Price above MA20 with supportive macro and tech earnings, indicating upside potential.",
-    "entry": "7485",
-    "tp": "7620",
-    "sl": "7380",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P 500 rallies above MA20 with bullish fundamentals and positive ETF flows. Buy the dip toward MA20 with tight risk control.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Below MA20 Amid Mixed Fundamentals",
-    "date": "2026-05-28 03:28",
+    "title": "[BTC/USD] UP: Regulatory Clarity Emerges as Technical Pullback Tests MA20 Support",
+    "date": "2026-05-28 11:56",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price trades below MA20 signaling near-term bearish bias.",
-      "Fundamentals show supportive crypto adoption news but lack clear bullish catalyst.",
-      "Watch for breakdown below 73k support with targets near 70k."
+      "Price below MA20 but trending toward support zone",
+      "Trump regulatory framework boosts institutional adoption narrative",
+      "Miner AI pivot creates positive supply-side fundamental"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD trades below MA20 at 74,706; fundamentals show mixed adoption news, bias remains bearish toward 73k support!!.",
+    "excerpt": "BTC tests MA20 support amid bullish regulatory catalysts and AI-driven fundamental shift.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price below MA20 with bearish order flow and cautious sentiment targets downside to 73k support.",
-    "entry": "74700.00",
-    "tp": "73000.00",
-    "sl": "75800.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Regulatory clarity meets technical support creating asymmetric long opportunity",
+    "entry": "74207.01",
+    "tp": "78265.41",
+    "sl": "71800.00",
+    "reliability": "HIGH"
   }
 }

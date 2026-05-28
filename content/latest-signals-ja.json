@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20上抜けと地政学的リスクプレミアムによる上昇トレンド継続",
-    "date": "2026-05-28 03:25",
+    "title": "[USD/JPY] UP: MA20確実破上昇＆ジオメトリックファンダメンタルの同調",
+    "date": "2026-05-28 11:51",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20上抜けが上昇継続を示唆",
-      "イラン情勢とECB発言がドル買いを支持",
-      "159.60を上回れば160.00ターゲット"
+      "MA20（158.07）完全抜けて上昇トレンド確定",
+      "日銀マネーアジャスト観憤しかける",
+      "リスクオン証言のオイル・金価格を巡る緊張からUSD逃避に"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20を上抜け、地政学的リスクプレミアムと金利格差拡大で上昇トレンドが継続中。160.00心理的節節を視野に押し目買いを推奨。",
+    "excerpt": "USD/JPYはMA20（158.07）を正式に上抜けし、上昇トレンドに転向。日本銀行の利率政策観念や、 Iran関連のストレス緩和を経由したリスクオン基調が、ドル相対での強気を支えている。テクニカル的には160.00までの飛躍が可能。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20上抜けと地政学的リスクプレミアムによる上昇トレンド継続",
-    "entry": "159.00",
-    "tp": "160.00",
-    "sl": "158.50",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPYはMA20（158.07）を正式に上抜けし、上昇トレンドに転向。日本銀行の利率政策観念や、 Iran関連のストレス緩和を経由したリスクオン基調が、ドル相対での強気を支えている。テクニカル的には160.00までの飛躍が可能。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20付近での押し目買いシグナルと強気ファンダメンタルズの整合性",
-    "date": "2026-05-28 03:27",
+    "title": "S&P 500の見通し：需給バランスから見る「押し目買い」の優位性",
+    "date": "2026-05-28 11:52",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "MA20での反発が上昇トレンドを支える",
-      "金利低下観測とリテール銘柄の好業績が上昇要因",
-      "流動性の高いInteractive Brokersを利用した取引推奨"
+      "金利相関（近似）: -0.81で負相関傾向",
+      "テクニカル: 現在価格 7520.36 と MA20 7372.62 の位置関係が主導",
+      "需給: 上限帯 7595.80 / 下限帯 7149.43 / 直近高値 7539.09 / 直近安値 7107.86 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500は7523.94でMA20（7372.79）を上回り、金利低下とリテール銘柄の強さが上昇要因。リスク管理徹底の上で、Interactive Brokersを推奨。",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 7520.36、RSI(64.64)、MA20(7372.62)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20付近の押し目でリスク管理を徹底し、Interactive Brokers経由でエントリー推奨",
-    "entry": "7520",
-    "tp": "7600",
-    "sl": "7450",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、S&P 500の現在価格 7520.36、RSI(64.64)、MA20(7372.62)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: MA20下抜けとインストitutional Adoptionの軋轢構造",
-    "date": "2026-05-28 03:28",
+    "title": "[BTC/USD] DOWN: MA20での抵抗と規制ニュースの混在を考慮した下目線",
+    "date": "2026-05-28 11:56",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20下抜けによる短期空気感",
-      "Mastercard等のRegulatory Tailwindsが長期構造をサポート",
-      "bitflyer流動性でのスウィング取引戦略を推進"
+      "トランプ政権のデジタル資産友好姿勢が長期的には上振れ要因",
+      "現在価格はMA20を下回り、短期的な売り圧力が優位",
+      "マイナーのAIシフトがハッシュレート底堅さを支えるが、流動性は依然厳しい"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20下抜けを記録しつつも、機関参入と規制進展の背中で底値維持に向かす。流動性の観点からBitflyerでのエントリーを推奨。",
+    "excerpt": "MA20を下回るBTC/USDは短期売りが優勢。規制ニュースは中期的に支えるが、現在の売り圧力を考慮しエントリー、TP、SLを明示。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20ゾーンまでの押し目買い戦略",
-    "entry": "77500.00",
-    "tp": "80000.00",
-    "sl": "75000.00",
+    "status": "SELL",
+    "comment": "MA20未達かつ売りオーダーフロー優勢のため下目線",
+    "entry": "74200",
+    "tp": "71800",
+    "sl": "76500",
     "reliability": "MEDIUM"
   }
 }
