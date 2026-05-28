@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: レンジブレイクアウトと金利差拡大を反映した162.00目標の強気構造",
-    "date": "2026-05-28 20:36",
+    "title": "[USD/JPY] UP: 現在価格がMA20を上抜け、リスクオンファンダメンタルズと整合",
+    "date": "2026-05-29 03:34",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "USD/JPYがレンジ上抜けにより162.00が次の上値目標に浮上",
-      "月末フィックスの穏やかなドル売りは一時的、日米金利差がドル円を下支え",
-      "159.20-159.50帯でのロングエントリー、TP162.00・SL157.90で厳格なリスク管理"
+      "現在価格159.263はMA20 158.054を上回り、上昇バイアスが形成中",
+      "米7年物利回りの上昇がドル買いを支援し、金利差拡大が追い風",
+      "押し目買い戦略でエントリー159.00、TP160.50、SL158.30を設定し、[dmm-fx]での実行を推奨"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはレンジ上抜けにより162.00が次のターゲットに浮上。日米金利差の構造的優位と月末の調整売り、介入リスクを織り込みつつ、159.20-159.50帯からのロングエントリーがアクショナブルである。",
+    "excerpt": "USD/JPYはMA20を上抜け、利上昇とリスクオン要因が背景に上昇余地を示す。押し目買いで利益を狙う。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "レンジブレイクアウトと日米金利差拡大を反映し、162.00目標のロングを推奨。介入リスクはSLで管理。",
-    "entry": "159.40",
-    "tp": "162.00",
-    "sl": "157.90",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-05-28 20:38",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
-    "tldr_points": [
-      "MA20支持で上昇トレンドが再 ignition",
-      "金利動向はリスク資金を押し上げる",
-      "米国景況指数の堅調がエクイティを支える"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500は7520ポイント付近で上昇余地あり、MA20を超える上値ブレイクが期待できる。",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P500は7520ポイント付近で上昇余地あり、MA20を超える上値ブレイクが期待できる。",
+    "comment": "USD/JPYはMA20を上抜け、利上昇とリスクオン要因が背景に上昇余地を示す。押し目買いで利益を狙う。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20での反発とテック株の強気材料を確認",
+    "date": "2026-05-29 03:39",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "野村證券",
+    "tldr_points": [
+      "価格はMA20を上回り短期的な反発局面",
+      "テック株の好決算とAmazon-Snowflake提携が上昇を後押し",
+      "米イラン関係改善報道がリスクオンムードを醸成"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500はMA20を突破し、テック株の好材料と地政学的緩和が上昇を支える。",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "MA20上抜けとテック株の強気ファンダメンタルズが上昇を後押し",
+    "entry": "7400.00",
+    "tp": "7700.00",
+    "sl": "7300.00",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: 価格がMA20を下回り、ファンダメンタルズも混在",
-    "date": "2026-05-28 20:40",
+    "title": "[BTC/USD] DOWN: MA20下放れとリスクオフ環境の整合性を確認",
+    "date": "2026-05-29 03:42",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20(77,926)を大幅に下回り、下押し圧力が顕在化",
-      "ブラックロックのBTC ETFからの大規模資金流出が需給を悪化",
-      "マクロ面ではBISのトークン化推進とCFTCのジェミニ訴訟撤回が材料交錯"
+      "価格はMA20を下回り、下方リスクが顕在化",
+      "テザーのUSAT供給急増が流動性逼迫を示唆",
+      "機関向けETFのシード投資は需給を一時的に支えるも持続性は低い"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を下抜け、ブラックロックETF流出とマクロ混迷で下振れリスクが高まる。",
+    "excerpt": "MA20を下抜けしたBTCは下落基調が強まり、70k付近へのテストが予想される。",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "MA20大幅下離れとETF流出による売り優位",
-    "entry": "73200.00",
-    "tp": "70800.00",
-    "sl": "75000.00",
+    "comment": "MA20下放れとリスクオフ環境が下押しを支持",
+    "entry": "73490.00",
+    "tp": "70000.00",
+    "sl": "75500.00",
     "reliability": "MEDIUM"
   }
 }

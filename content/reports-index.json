@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-05-29-crypto-ja",
+    "date": "2026-05-29 03:42",
+    "title": "[BTC/USD] DOWN: MA20下放れとリスクオフ環境の整合性を確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "MA20を下抜けしたBTCは下落基調が強まり、70k付近へのテストが予想される。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-29-crypto-en",
+    "date": "2026-05-29 03:42",
+    "title": "[BTC/USD] UP: AI Detects Potential Bounce Toward MA20 Amid Rising Stablecoin Supply",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD eyes a rebound to MA20 as stablecoin liquidity expands and institutional interest grows despite regulatory headwinds.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-29-stocks-ja",
+    "date": "2026-05-29 03:39",
+    "title": "[S&P 500] UP: MA20での反発とテック株の強気材料を確認",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "野村證券",
+    "excerpt": "S&P 500はMA20を突破し、テック株の好材料と地政学的緩和が上昇を支える。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-29-stocks-en",
+    "date": "2026-05-29 03:39",
+    "title": "S&P 500",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "Tech earnings lift S&P 500; price above MA20 signals upside; recommend buying pullbacks with tight stops now today!!!????",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-29-fx-ja",
+    "date": "2026-05-29 03:34",
+    "title": "[USD/JPY] UP: 現在価格がMA20を上抜け、リスクオンファンダメンタルズと整合",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYはMA20を上抜け、利上昇とリスクオン要因が背景に上昇余地を示す。押し目買いで利益を狙う。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-29-fx-en",
+    "date": "2026-05-29 03:34",
+    "title": "[USD/JPY] UP: MA20 Support Validates Bullish Momentum Amid Higher-For-Longer Rate Dynamics",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY bullish above MA20 as US yields climb to 4.29%, targeting 160.50",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-05-28-crypto-ja",
     "date": "2026-05-28 20:40",
     "title": "[BTC/USD] DOWN: 価格がMA20を下回り、ファンダメンタルズも混在",
@@ -104,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "野村證券",
     "excerpt": "S&P500はMA20を上回り、AI関連株の買いが続く中、短期的な押し目買い機会が顕在化。流動性豊かな環境で野村證券を活用したポジション構築を推奨。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -116,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Goldman Sachs",
     "excerpt": "S&P 500 holds above MA20 on AI optimism, targeting 7700 with disciplined risk.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -128,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "現在価格159.185はMA20を上回り、BOJの緩和維持とリスクオン sentiment が米ドルを支える。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -140,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY eyes higher levels as BOJ prepares rate hike and price steadies above MA20.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {

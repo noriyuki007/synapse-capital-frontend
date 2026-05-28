@@ -1,68 +1,70 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Technical Structure Validates Bullish Bias Amidst Intervention Risk",
-    "date": "2026-05-28 20:36",
+    "title": "[USD/JPY] UP: MA20 Support Validates Bullish Momentum Amid Higher-For-Longer Rate Dynamics",
+    "date": "2026-05-29 03:34",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Pair trading above MA20 confirms bullish momentum",
-      "Intervention risk creates volatility but not trend reversal",
-      "Target 162.00 as next resistance level"
+      "Price trades above MA20 at 159.26 vs 158.05",
+      "7-year Treasury yield surge to 4.29% reinforces rate differential",
+      "Risk-on flows from US-Iran MOU offset by resilient economy signals"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish above MA20 with 162.00 target despite intervention headwinds",
+    "excerpt": "USD/JPY bullish above MA20 as US yields climb to 4.29%, targeting 160.50",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish momentum confirmed above MA20 with 162.00 target intact",
-    "entry": "158.06",
-    "tp": "162.00",
+    "comment": "Bullish above MA20 with rate differential support",
+    "entry": "159.00",
+    "tp": "160.50",
     "sl": "157.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: Mixed Signals Above MA20 Amid Geopolitical Tension and Earnings Strength",
-    "date": "2026-05-28 20:38",
+    "title": [
+      "S&P 500"
+    ],
+    "date": "2026-05-29 03:39",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price holding above MA20 signals underlying strength",
-      "Iran tensions lift oil but equity risk appetite mixed",
-      "Awaiting FOMC inflation data for directional catalyst"
+      "Price holds above MA20, indicating bullish momentum",
+      "Tech earnings boost index, supporting upside",
+      "RSI unknown but momentum suggests continuation"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 consolidates above MA20 with oil surge offsetting earnings strength ahead of Fed data. Neutral bias.",
+    "excerpt": "Tech earnings lift S&P 500; price above MA20 signals upside; recommend buying pullbacks with tight stops now today!!!????",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "Awaiting core PCE data for directional catalyst while holding above MA20 support",
-    "entry": "7520.36",
-    "tp": "7550.00",
-    "sl": "7350.00",
-    "reliability": "HIGH"
+    "comment": "Tech earnings lift S&P 500; price above MA20 signals upside; recommend buying pullbacks with tight stops now today!!!????",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Technical Break Below MA20 Outweighs Positive Developments",
-    "date": "2026-05-28 20:40",
+    "title": "[BTC/USD] UP: AI Detects Potential Bounce Toward MA20 Amid Rising Stablecoin Supply",
+    "date": "2026-05-29 03:42",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price breaks below psychological $73k support",
-      "BlackRock ETF outflows signal institutional hesitation",
-      "Samsung investment provides longer-term bullish counterbalance"
+      "Price currently trades below MA20, indicating near-term bearish pressure.",
+      "Tether USAT supply surged 540% MoM, boosting overall crypto liquidity.",
+      "Institutional interest via Grayscale Hyperliquid ETF seed talks adds long-term bullish catalyst."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD technical breakdown suggests near-term weakness despite positive institutional developments",
+    "excerpt": "BTC/USD eyes a rebound to MA20 as stablecoin liquidity expands and institutional interest grows despite regulatory headwinds.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Technical breakdown below MA20 with significant ETF outflows",
-    "entry": "73250",
-    "tp": "70000",
-    "sl": "74500",
+    "status": "BUY",
+    "comment": "Liquidity-driven rebound toward MA20 with defined risk.",
+    "entry": "73200.00",
+    "tp": "77800.00",
+    "sl": "71000.00",
     "reliability": "MEDIUM"
   }
 }
