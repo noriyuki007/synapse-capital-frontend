@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Hawkish Fed and Intervention Bias Lift Pair Above MA20",
-    "date": "2026-05-29 20:25",
+    "title": "[USD/JPY] UP: AI Detects Momentum Above MA20 as Risk Tone Favors USD",
+    "date": "2026-05-30 03:30",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Fed inflation concerns boost USD strength",
-      "Japan's ¥11.7tn FX intervention supports USD/JPY upside",
-      "Price above MA20 signals short-term bullish momentum"
+      "Price above MA20 signals bullish continuation",
+      "Fedspeak supports USD yield advantage",
+      "Iran tensions limit JPY safe-haven flows"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Fed hawkish tone and Japanese FX intervention drive USD/JPY above MA20 targeting further upside.",
+    "excerpt": "Bullish USD/JPY setup with price holding above MA20 amid mixed geopolitical risk and supportive Fed rhetoric.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Price above MA20 supported by hawkish Fed and yen‑selling interventions",
-    "entry": "158.50",
-    "tp": "160.50",
-    "sl": "157.80",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Bullish USD/JPY setup with price holding above MA20 amid mixed geopolitical risk and supportive Fed rhetoric.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Price Above MA20 Supported by Tech Earnings and Geopolitical Optimism",
-    "date": "2026-05-29 20:36",
+    "title": "[S&P 500] UP: Trump’s Iran Deal Catalysts and Technical Support at MA20",
+    "date": "2026-05-30 03:31",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price trading above rising MA20 indicates short-term bullish momentum.",
-      "Dell, NetApp earnings beat and US‑Iran deal hopes lift tech sentiment.",
-      "Asia‑Europe gains reinforce risk‑on environment for equities."
+      "Technical support at MA20 (7412.73) with price above key level",
+      "Iran Deal negotiations boosting macro sentiment",
+      "Healthcare sector caution may limit sector-specific risks"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above MA20 as tech earnings and Middle‑East optimism fuel near‑term upside.",
+    "excerpt": "S&P 500 shows strength above MA20 amid Iran Deal optimism; buy with risk-sensitive approach.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price above MA20 with bullish momentum and supportive fundamentals",
-    "entry": "7400.00",
-    "tp": "7700.00",
-    "sl": "7350.00",
+    "comment": "Technical support at MA20 combined with Iran Deal optimism supports upward bias.",
+    "entry": "7583.60",
+    "tp": "7650.00",
+    "sl": "7410.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-29 20:44",
+    "date": "2026-05-30 03:35",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price below MA20 but fundamental catalysts emerging",
-      "Regulatory clarity increasing with Paxos registration",
-      "NYSE parent ICE evaluating crypto derivatives platforms"
+      "Price sits below MA20, suggesting a dip-buying opportunity.",
+      "US policy news and infrastructure expansion bolster long-term BTC fundamentals.",
+      "Entry near 73.5k, target MA20 around 77.6k with stop below 72k."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC testing MA20 support amid institutional adoption catalysts, positioning for potential reversal.",
+    "excerpt": "BTC/USD poised for rebound to MA20 amid supportive US policy news and infrastructure gains, despite near-term technical pressure.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Buy dip toward MA20 support amid institutional adoption catalysts",
-    "entry": "72500.00",
-    "tp": "77576.86",
-    "sl": "71500.00",
+    "status": "NEUTRAL",
+    "comment": "BTC/USD poised for rebound to MA20 amid supportive US policy news and infrastructure gains, despite near-term technical pressure.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }

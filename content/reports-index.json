@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-05-30-crypto-ja",
+    "date": "2026-05-30 03:35",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USDはMA20への接近に伴う押し目買いチャンス。規制環境の改善と強気ファンダメンタルズがサポートに。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-30-crypto-en",
+    "date": "2026-05-30 03:35",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD poised for rebound to MA20 amid supportive US policy news and infrastructure gains, despite near-term technical pressure.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-30-stocks-ja",
+    "date": "2026-05-30 03:31",
+    "title": "S&P 500：AI解析が示す上昇シナリオと戦略的リスク管理",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 7583.60、RSI(68.33)、MA20(7412.73)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-30-stocks-en",
+    "date": "2026-05-30 03:31",
+    "title": "[S&P 500] UP: Trump’s Iran Deal Catalysts and Technical Support at MA20",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 shows strength above MA20 amid Iran Deal optimism; buy with risk-sensitive approach.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-05-30-fx-ja",
+    "date": "2026-05-30 03:30",
+    "title": "[USD/JPY] UP: MA20上の価格維持と地政学的リスクによる安全資産需要の限定的推移",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYはMA20を上回る推移を維持し、強気相場を形成。地政学的リスクへの警戒はあるが、米金利期待の不変性とテクニカルなサポートにより、上値追い傾向が継続すると分析する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-05-30-fx-en",
+    "date": "2026-05-30 03:30",
+    "title": "[USD/JPY] UP: AI Detects Momentum Above MA20 as Risk Tone Favors USD",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "Bullish USD/JPY setup with price holding above MA20 amid mixed geopolitical risk and supportive Fed rhetoric.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-05-29-crypto-ja",
     "date": "2026-05-29 20:44",
     "title": "[BTC/USD] DOWN: MA20下の押し下げとファンダメンタルの混戦",
