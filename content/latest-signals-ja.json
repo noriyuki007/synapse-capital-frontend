@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 現在価格がMA20を上抜け、リスクオンファンダメンタルズと整合",
-    "date": "2026-05-29 03:34",
+    "title": "[USD/JPY] UP: 価格がMA20を上回り、強気ファンダメンタルズが支える",
+    "date": "2026-05-29 11:55",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "現在価格159.263はMA20 158.054を上回り、上昇バイアスが形成中",
-      "米7年物利回りの上昇がドル買いを支援し、金利差拡大が追い風",
-      "押し目買い戦略でエントリー159.00、TP160.50、SL158.30を設定し、[dmm-fx]での実行を推奨"
+      "MA20を上抜けし、上値余地が広がる",
+      "英中銀およびNZ中銀のタカ派姿勢が円売りを促す",
+      "介入警戒があるものの、流動性豊かな[dmm-fx]でエントリー可能"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20を上抜け、利上昇とリスクオン要因が背景に上昇余地を示す。押し目買いで利益を狙う。",
+    "excerpt": "価格はMA20を上回り、英中銀およびNZ中銀のタカ派発言が円売りを後押し。介入リスクはあるが、上昇余地が残る。",
     "pair": "USD/JPY",
+    "status": "BUY",
+    "comment": "MA20を上回る価格とタカ派中央銀行シグナルが長期上昇を支持",
+    "entry": "158.90",
+    "tp": "160.50",
+    "sl": "158.20",
+    "reliability": "HIGH"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-05-29 11:59",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Nomura Securities",
+    "tldr_points": [
+      "米イラン合意がリスクオンを後押し、Dellの好決算がテク株を支える",
+      "金利据え置き観測が継続し、資金流入が株式に向かう",
+      "価格はMA20を明確に上抜け、上余地が広がっている"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "米イラン合意とDell好決算を背景にS&P 500はMA20を上抜け、押し目買いの機会が出現。",
+    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "USD/JPYはMA20を上抜け、利上昇とリスクオン要因が背景に上昇余地を示す。押し目買いで利益を狙う。",
+    "comment": "米イラン合意とDell好決算を背景にS&P 500はMA20を上抜け、押し目買いの機会が出現。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
-  "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発とテック株の強気材料を確認",
-    "date": "2026-05-29 03:39",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "野村證券",
-    "tldr_points": [
-      "価格はMA20を上回り短期的な反発局面",
-      "テック株の好決算とAmazon-Snowflake提携が上昇を後押し",
-      "米イラン関係改善報道がリスクオンムードを醸成"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を突破し、テック株の好材料と地政学的緩和が上昇を支える。",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20上抜けとテック株の強気ファンダメンタルズが上昇を後押し",
-    "entry": "7400.00",
-    "tp": "7700.00",
-    "sl": "7300.00",
-    "reliability": "MEDIUM"
-  },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20下放れとリスクオフ環境の整合性を確認",
-    "date": "2026-05-29 03:42",
+    "title": "BTC/USD戦略：ベア相場におけるドローダウン極小化プロトコル",
+    "date": "2026-05-29 12:02",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を下回り、下方リスクが顕在化",
-      "テザーのUSAT供給急増が流動性逼迫を示唆",
-      "機関向けETFのシード投資は需給を一時的に支えるも持続性は低い"
+      "金利相関（近似）: -0.31で負相関傾向",
+      "テクニカル: 現在価格 73158.96 と MA20 77920.90 の位置関係が主導",
+      "需給: 上限帯 82752.21 / 下限帯 73089.59 / 直近高値 82430.17 / 直近安値 73116.94 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を下抜けしたBTCは下落基調が強まり、70k付近へのテストが予想される。",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 73158.96、RSI(19.77)、MA20(77920.90)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20下放れとリスクオフ環境が下押しを支持",
-    "entry": "73490.00",
-    "tp": "70000.00",
-    "sl": "75500.00",
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、BTC/USDの現在価格 73158.96、RSI(19.77)、MA20(77920.90)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }

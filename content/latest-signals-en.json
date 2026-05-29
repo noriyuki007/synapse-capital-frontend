@@ -1,70 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20 Support Validates Bullish Momentum Amid Higher-For-Longer Rate Dynamics",
-    "date": "2026-05-29 03:34",
+    "title": "[USD/JPY] UP: Technical Breakout Above MA20 Confirms USD Strength Amid Hawkish Central Bank Shifts",
+    "date": "2026-05-29 11:55",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price trades above MA20 at 159.26 vs 158.05",
-      "7-year Treasury yield surge to 4.29% reinforces rate differential",
-      "Risk-on flows from US-Iran MOU offset by resilient economy signals"
+      "Price holds above key MA20 support",
+      "RBNZ signals faster hikes supporting USD",
+      "Intervention risk caps upside near 160.00"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish above MA20 as US yields climb to 4.29%, targeting 160.50",
+    "excerpt": "USD/JPY maintains bullish trajectory above 158.20 amid global rate differentials.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish above MA20 with rate differential support",
-    "entry": "159.00",
-    "tp": "160.50",
-    "sl": "157.50",
+    "comment": "Buy on pullbacks to MA20 with intervention risk at 160.00",
+    "entry": "158.50",
+    "tp": "159.90",
+    "sl": "157.90",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": [
-      "S&P 500"
-    ],
-    "date": "2026-05-29 03:39",
+    "title": "[S&P 500] UP: Bullish Momentum Confirmed Above MA20 as Geopolitical Risk Premium Decompresses",
+    "date": "2026-05-29 11:59",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price holds above MA20, indicating bullish momentum",
-      "Tech earnings boost index, supporting upside",
-      "RSI unknown but momentum suggests continuation"
+      "Price trades 2.3% above MA20 confirming bullish momentum",
+      "Geopolitical de-risking supports equity advance",
+      "Tactical long bias with defined risk parameters"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Tech earnings lift S&P 500; price above MA20 signals upside; recommend buying pullbacks with tight stops now today!!!????",
+    "excerpt": "S&P 500 extends gains above MA20 amid geopolitical thaw; maintain long exposure.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Tech earnings lift S&P 500; price above MA20 signals upside; recommend buying pullbacks with tight stops now today!!!????",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Price above MA20 with bullish fundamental catalysts supports tactical long bias.",
+    "entry": "7520.00",
+    "tp": "7650.00",
+    "sl": "7393.99",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Potential Bounce Toward MA20 Amid Rising Stablecoin Supply",
-    "date": "2026-05-29 03:42",
+    "title": "[BTC/USD] DOWN: Washington Rebuffs CBDC, Whale Accumulation Slows, MA20 Exaptation Persists",
+    "date": "2026-05-29 12:02",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price currently trades below MA20, indicating near-term bearish pressure.",
-      "Tether USAT supply surged 540% MoM, boosting overall crypto liquidity.",
-      "Institutional interest via Grayscale Hyperliquid ETF seed talks adds long-term bullish catalyst."
+      "MA20 now acts as resistance",
+      "Whale accumulation stalls signals demand weakness",
+      "Fed stance on CBDC supports bearish bias"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD eyes a rebound to MA20 as stablecoin liquidity expands and institutional interest grows despite regulatory headwinds.",
+    "excerpt": "BTC faces downward pressure with MA20 resistance, muted whale activity, and Fed skepticism toward CBDCs.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Liquidity-driven rebound toward MA20 with defined risk.",
-    "entry": "73200.00",
-    "tp": "77800.00",
-    "sl": "71000.00",
+    "status": "SELL",
+    "comment": "Price below MA20 with bearish macro catalysts.",
+    "entry": "73158.96",
+    "tp": "70000.00",
+    "sl": "74000.00",
     "reliability": "MEDIUM"
   }
 }
