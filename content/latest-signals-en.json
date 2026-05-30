@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 Amid Diminishing Iran Tension",
-    "date": "2026-05-30 11:48",
+    "title": "[USD/JPY] UP: AI Detects Momentum Above MA20 Amid Safe-Haven Demand",
+    "date": "2026-05-30 18:58",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price > MA20, indicating bullish bias",
-      "Geopolitical risk off‑take reduces safe‑haven demand for JPY",
-      "Technical window shows upside to 160.00 with disciplined risk"
+      "Price above MA20 signals bullish momentum",
+      "Iran tensions support USD safe-haven flows",
+      "Key resistance at 160.00 before major retracement"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY eyes higher ground as MA20 support holds and Iran‑US tensions ease.",
+    "excerpt": "USD/JPY poised for extension above MA20 as Iran risks fuel safe-haven demand. Buy dip toward key support.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Technical bullish bias reinforced by de‑escalating Iran tension and strong USD carry.",
-    "entry": "159.30",
-    "tp": "160.00",
-    "sl": "158.70",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: Price above MA20 signals near-term bullish momentum",
-    "date": "2026-05-30 11:52",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "Price trades above the 20‑day moving average, indicating short‑term bullish bias.",
-      "News flow shows mixed but overall positive catalysts, especially strong Nasdaq performance and sector‑specific bets.",
-      "Technical setup favors a long entry near MA20 with defined risk‑reward parameters."
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades above MA20 at 7580, supported by positive Nasdaq momentum and selective fund inflows, suggesting near‑term upside.",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500 trades above MA20 at 7580, supported by positive Nasdaq momentum and selective fund inflows, suggesting near‑term upside.",
+    "comment": "USD/JPY poised for extension above MA20 as Iran risks fuel safe-haven demand. Buy dip toward key support.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: Technical Strength Persists Despite Macro Headwinds",
+    "date": "2026-05-30 19:01",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "tldr_points": [
+      "Price holding above MA20 suggests continuation",
+      "Mixed macro signals create tactical opportunity",
+      "Risk-managed long positioning warranted"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 maintains technical strength above key moving average despite bearish macro warnings.",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "Technical support above MA20 justified despite macro uncertainty",
+    "entry": "7412.55",
+    "tp": "7650.00",
+    "sl": "7350.00",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Detects Resistance Below MA20 as Fundamentals Turn Mixed",
-    "date": "2026-05-30 11:57",
+    "title": "[BTC/USD] DOWN: MA20 Resistance Amid Macro Headwinds",
+    "date": "2026-05-30 19:07",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trades below the 20‑day moving average, signaling near‑term bearish bias.",
-      "Macro news shows mixed signals: US crypto seizures weigh on risk appetite, while Texas reserve committee and CFTC futures approval provide modest support.",
-      "Technical stance favors short entries around 73.5k with TP near 71k and SL above MA20 at 75k."
+      "Price testing MA20 resistance at 77143.38 amid regulatory headwinds",
+      "US seizure of $1B Iran crypto signals intensified enforcement",
+      "Texas Bitcoin reserve committee appointments signal state-level adoption"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC slips below MA20 resistance amid mixed macro cues; downside bias favors short entry near 73.6k with tight stops now.",
+    "excerpt": "BTC tests MA20 resistance as regulatory crackdown and macro risks pressure price lower.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price below MA20 with bearish order flow and mixed fundamentals supports a short bias toward 71k.",
-    "entry": "73500",
-    "tp": "71000",
-    "sl": "75000",
+    "status": "NEUTRAL",
+    "comment": "BTC tests MA20 resistance as regulatory crackdown and macro risks pressure price lower.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
