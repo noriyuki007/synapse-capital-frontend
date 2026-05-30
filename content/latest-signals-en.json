@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Momentum Above MA20 as Risk Tone Favors USD",
-    "date": "2026-05-30 03:30",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 Amid Diminishing Iran Tension",
+    "date": "2026-05-30 11:48",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 signals bullish continuation",
-      "Fedspeak supports USD yield advantage",
-      "Iran tensions limit JPY safe-haven flows"
+      "Price > MA20, indicating bullish bias",
+      "Geopolitical risk off‑take reduces safe‑haven demand for JPY",
+      "Technical window shows upside to 160.00 with disciplined risk"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Bullish USD/JPY setup with price holding above MA20 amid mixed geopolitical risk and supportive Fed rhetoric.",
+    "excerpt": "USD/JPY eyes higher ground as MA20 support holds and Iran‑US tensions ease.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "Bullish USD/JPY setup with price holding above MA20 amid mixed geopolitical risk and supportive Fed rhetoric.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Technical bullish bias reinforced by de‑escalating Iran tension and strong USD carry.",
+    "entry": "159.30",
+    "tp": "160.00",
+    "sl": "158.70",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Trump’s Iran Deal Catalysts and Technical Support at MA20",
-    "date": "2026-05-30 03:31",
+    "title": "[S&P 500] UP: Price above MA20 signals near-term bullish momentum",
+    "date": "2026-05-30 11:52",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Technical support at MA20 (7412.73) with price above key level",
-      "Iran Deal negotiations boosting macro sentiment",
-      "Healthcare sector caution may limit sector-specific risks"
+      "Price trades above the 20‑day moving average, indicating short‑term bullish bias.",
+      "News flow shows mixed but overall positive catalysts, especially strong Nasdaq performance and sector‑specific bets.",
+      "Technical setup favors a long entry near MA20 with defined risk‑reward parameters."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 shows strength above MA20 amid Iran Deal optimism; buy with risk-sensitive approach.",
+    "excerpt": "S&P 500 trades above MA20 at 7580, supported by positive Nasdaq momentum and selective fund inflows, suggesting near‑term upside.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Technical support at MA20 combined with Iran Deal optimism supports upward bias.",
-    "entry": "7583.60",
-    "tp": "7650.00",
-    "sl": "7410.00",
-    "reliability": "HIGH"
-  },
-  "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-30 03:35",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bybit",
-    "tldr_points": [
-      "Price sits below MA20, suggesting a dip-buying opportunity.",
-      "US policy news and infrastructure expansion bolster long-term BTC fundamentals.",
-      "Entry near 73.5k, target MA20 around 77.6k with stop below 72k."
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD poised for rebound to MA20 amid supportive US policy news and infrastructure gains, despite near-term technical pressure.",
-    "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "BTC/USD poised for rebound to MA20 amid supportive US policy news and infrastructure gains, despite near-term technical pressure.",
+    "comment": "S&P 500 trades above MA20 at 7580, supported by positive Nasdaq momentum and selective fund inflows, suggesting near‑term upside.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
+    "reliability": "MEDIUM"
+  },
+  "CRYPTO": {
+    "title": "[BTC/USD] DOWN: AI Detects Resistance Below MA20 as Fundamentals Turn Mixed",
+    "date": "2026-05-30 11:57",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "tldr_points": [
+      "BTC trades below the 20‑day moving average, signaling near‑term bearish bias.",
+      "Macro news shows mixed signals: US crypto seizures weigh on risk appetite, while Texas reserve committee and CFTC futures approval provide modest support.",
+      "Technical stance favors short entries around 73.5k with TP near 71k and SL above MA20 at 75k."
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "BTC slips below MA20 resistance amid mixed macro cues; downside bias favors short entry near 73.6k with tight stops now.",
+    "pair": "BTC/USD",
+    "status": "SELL",
+    "comment": "Price below MA20 with bearish order flow and mixed fundamentals supports a short bias toward 71k.",
+    "entry": "73500",
+    "tp": "71000",
+    "sl": "75000",
     "reliability": "MEDIUM"
   }
 }
