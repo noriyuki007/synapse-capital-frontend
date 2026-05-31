@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 金利期待上昇とIran懸念からのセーフティーディマンド",
-    "date": "2026-05-31 19:13",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-01 02:03",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "159.25での上抜け構造確認",
-      "Iran緊張によるUSDセーフティーディマンド",
-      "MA20下限での押し目エントリー戦略"
+      "価格はMA20を上回り、上昇バイアスが形成",
+      "米国経済指標の改善とイラン制裁緩和観測がリスクオンを後押し",
+      "テクニカル的には押し目買いの余地が残存"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Iran情勢の再浮上と金利期待変化がUSD/JPYに買い材料を提供。MA20下限158.30近辺からの反発を待ち、159.25からのブレイクでエントリーを検討。",
+    "excerpt": "USD/JPYはMA20を基盤とした反発局面にあり、米国データ強化と地政学的リスク後退が上昇を支える。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Iranリスクと金利優位性が反復買いを支持",
-    "entry": "158.50",
-    "tp": "159.80",
-    "sl": "157.85",
-    "reliability": "MEDIUM"
+    "comment": "MA20サポートとファンダメンタルズの強気要因が一致",
+    "entry": "159.00",
+    "tp": "160.50",
+    "sl": "158.20",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-05-31 19:19",
+    "title": "[S&P 500] UP: MA20上抜けと強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-01 02:07",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "MA20上抜けによるテクニカル上昇トレンド確定",
-      "プレミアム消費とセミコンductorの堅固なファンダメンタルズ",
-      "スプレッド低下と板の厚さが資金流入を支援"
+      "MA20上抜けを確認、上昇トレンド継続の可能性",
+      "インフレ高騰とFRB対応がキーポイント",
+      "流動性確保のため特定ブローカー利用を推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500、MA20（7412）を上抜け7580。プレミアム消費とセミコンの堅固なファンダメンタルズを背景に上昇トレンド確定。",
+    "excerpt": "S&P 500はMA20を上抜け、短期上昇トレンド入り。インフレ高騰とFRB対応が焦点だが、長期リターンは優位。流動性確保のため特定ブローカー利用を推奨。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P 500、MA20（7412）を上抜け7580。プレミアム消費とセミコンの堅固なファンダメンタルズを背景に上昇トレンド確定。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "MA20上抜けと強気ファンダメンタルズが一致",
+    "entry": "7412.55",
+    "tp": "7625.00",
+    "sl": "7350.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: 価格がMA20を下回り、リスクオフ傾向が強まる",
-    "date": "2026-05-31 19:23",
+    "title": "[BTC/USD] DOWN: MA20割れと規制・セキュリティ頭重しで下値リスク拡大",
+    "date": "2026-06-01 02:12",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20下抜けで下降圧力継続",
-      "規制・地政学リスクが需給に悪影響",
-      "流動性低下時にbitflyerの板厚が有利"
+      "現在価格73391ドルは20日移動平均を下回り、下押し基調が続く",
+      "米SEC訴訟やGravity Bridgeハッキング等のネガティブファンダが売り圧力を強化",
+      "売りエントリーは73500付近、TP 72000、SL 74500でリスク管理を徹底"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を下回るBTCは下落リスクが高く、規制・地政学的要因が需給を圧迫する。",
+    "excerpt": "現在価格73391ドルは20日移動平均を下回り、米SECの訴訟やGravity Bridgeのハッキング、サークルの資金凍結など規制・セキュリティ頭風が強まる中、売り圧力が優勢となって下値リスクが高まっている。",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "MA20下抜けと規制リスクが下落圧力を強化",
+    "comment": "MA20割れと規制・セキュリティ頭風により下値リスクが拡大",
     "entry": "73500.00",
-    "tp": "71000.00",
-    "sl": "75500.00",
+    "tp": "72000.00",
+    "sl": "74500.00",
     "reliability": "MEDIUM"
   }
 }
