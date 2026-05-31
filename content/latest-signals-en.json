@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-31 12:31",
+    "date": "2026-05-31 19:13",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY above MA20 with positive momentum",
-      "Iran deal developments supporting USD",
-      "Key economic data ahead to drive next moves"
+      "US data optimism and Iran de‑escalation boost risk appetite, favoring USD/JPY upside.",
+      "Price holds above the 20‑day MA at 158.30, signalling near‑term bullish momentum.",
+      "Key resistance lies near 160.50; a break could target 161.80."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY finds support at MA20 with bullish technicals and positive Iran news flow",
+    "excerpt": "USD/JPY holds above MA20 on USA optimistic data and Iran de‑escalation supporting risk appetite and targeting 160.50 now.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish structure above MA20 supported by yield differentials and geopolitical factors",
-    "entry": "159.00",
+    "comment": "Bullish setup supported by price above MA20, rising US yields and risk‑on sentiment from Iran de‑escalation.",
+    "entry": "159.10",
     "tp": "160.50",
-    "sl": "158.20",
+    "sl": "158.30",
     "reliability": "HIGH"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-05-31 12:35",
+    "date": "2026-05-31 19:19",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 testing MA20 support at 7,412",
-      "AI-driven tech momentum from Nvidia/Tesla",
-      "Cathie Wood's bullish megacap allocation signals conviction"
+      "S&P 500 trades above the 20‑day moving average, signalling short‑term bullish momentum.",
+      "Premium consumer spending strength and Nvidia’s debt‑free status provide fundamental tailwinds.",
+      "Barclays’ price‑target increase on F5 adds sector‑specific upside bias."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 tests MA20 with AI-driven tech momentum and bullish positioning from institutional investors.",
+    "excerpt": "S&P 500 above MA20 buoyed by premium consumer spending, Nvidia strength, and Barclays PT raise, pointing to term upside.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P 500 tests MA20 with AI-driven tech momentum and bullish positioning from institutional investors.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Bullish setup supported by price above MA20 and positive fundamental catalysts.",
+    "entry": "7420.00",
+    "tp": "7700.00",
+    "sl": "7350.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Regulatory Scrutiny and Technical Resistance at MA20 Presses Price",
-    "date": "2026-05-31 12:36",
+    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 as Fundamentals Turn Bearish",
+    "date": "2026-05-31 19:23",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Regulatory headlines dampen sentiment",
-      "MA20 acts as a short‑term resistance",
-      "Liquidity pressure from high‑volume buyers"
+      "Regulatory headwinds intensify with SEC suit and Trump‑linked legislation risk.",
+      "Bridge exploit and Circle freeze raise counterparty‑risk concerns across DeFi.",
+      "Price remains below the 20‑day MA, signaling near‑term bearish momentum."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD faces a bearish bias as regulatory uncertainty erodes sentiment and MA20 forms a robust resistance.",
+    "excerpt": "BTC/USD faces bearish pressure from regulatory news, on‑chain exploits, and technical resistance at MA20.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "Bearish bias due to regulatory encroachment and MA20 resistance",
-    "entry": "74064.76",
-    "tp": "68000",
-    "sl": "76000",
+    "comment": "Price below MA20 with bearish fundamentals and negative sentiment",
+    "entry": "73800.00",
+    "tp": "72000.00",
+    "sl": "75000.00",
     "reliability": "MEDIUM"
   }
 }
