@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 価格がMA20を上回り、リスクオフ要因とファンダメンタルズの分断を示す",
-    "date": "2026-06-01 12:43",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-01 22:33",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20を上回り短期的な上昇バイアスが形成",
-      "日本の設備投資停滞と地政学リスクが円買いを支える可能性",
-      "ECBのタカ派姿勢はドルに対し中立的、流動性は[dmm-fx]で確保"
+      "価格はMA20を上回り上昇バイアスが形成",
+      "中東情勢緩和とドル安定が円売りを支援",
+      "テクニカル的には押し目買いの場面が期待できる"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは159.47でMA20を上回り、リスクオフ要因とファンダメンタルズの分断が見られる。",
+    "excerpt": "USD/JPYはMA20を上抜け、ドルの安定と中東緊張の緩和により上昇余地が見込まれる。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "価格がMA20を上回り、押し目買いのタイミングが生じているため",
-    "entry": "159.25",
-    "tp": "159.80",
-    "sl": "158.90",
+    "status": "NEUTRAL",
+    "comment": "USD/JPYはMA20を上抜け、ドルの安定と中東緊張の緩和により上昇余地が見込まれる。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-06-01 12:45",
+    "title": "[S&P 500] UP: MA20での反発とAI強気ファンダメンタルの継続的信頼",
+    "date": "2026-06-01 22:45",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "価格はMA20を上抜け、上昇トレンドが継続中",
-      "イラン情勢の緊張緩和がリスクオンを後押し",
-      "テクニカル的に押し目買いの好機が形成"
+      "価格がMA20(7430)を上抜け、ショートポジションの圧縮となった",
+      "AIチップ需要の牽引、連邦準備の利率下げ期待が継続",
+      "地緯関連リスクは浮き彫りだが、売り意欲は限定的"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20を基軸とした押し目買いが推奨される状況。ファンダとテクニカルが整合し、上値余地が見込まれる。",
+    "excerpt": "S&P 500はMA20(7430)を7580.98まで上昇。AIチップ、金利下げ期待、ジェット社の買収効果が支える。地緯リスクはあるものの、機関の売り意欲は限られている。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20上抜けとファンダメンタルズの整合性により上昇余地が見込まれる",
-    "entry": "7560.00",
-    "tp": "7700.00",
-    "sl": "7500.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P 500はMA20(7430)を7580.98まで上昇。AIチップ、金利下げ期待、ジェット社の買収効果が支える。地緯リスクはあるものの、機関の売り意欲は限られている。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20割れと弱気ファンダメンタルズの整合性を確認",
-    "date": "2026-06-01 12:48",
+    "title": "[BTC/USD] DOWN: MA20上抜け不能とETF流出が下降トレンドを牽引",
+    "date": "2026-06-01 22:50",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "現在価格はMA20を約3.8%下回り、短期的な下降トレンドが示唆される",
-      "マクロ面では規制強化とプロジェクト遅延が需給に重石となっいる",
-      "エントリーは73500付近、TP 72000、SL 75000でbitflyerの流動性を活用推奨"
+      "ETF流出が価格圧迫",
+      "MA20下落で押し目買い意志が希薄",
+      "センチメントが弱気転調"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20下抜けと規制・プロジェクト遅延が重なり、BTC/USDは短期的に下値リスクが高まる。",
+    "excerpt": "直近のETF流出と価格がMA20を上抜けできない状況が続き、下降トレンドが強まる見込み。市場参加者は慎重にエントリータイミングを見極め、流動性の高いbitflyerを活用して取引コストを抑えることが必須である。今後の価格変動は金利動向やセンチメントの変化に左右され、短期的にボラティリティが拡大する可能性がある。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20割れとファンダメンタルズの弱さが下値リスクを示唆",
-    "entry": "73500.00",
-    "tp": "72000.00",
-    "sl": "75000.00",
+    "status": "NEUTRAL",
+    "comment": "直近のETF流出と価格がMA20を上抜けできない状況が続き、下降トレンドが強まる見込み。市場参加者は慎重にエントリータイミングを見極め、流動性の高いbitflyerを活用して取引コストを抑えることが必須である。今後の価格変動は金利動向やセンチメントの変化に左右され、短期的にボラティリティが拡大する可能性がある。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }

@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY 市場分析",
-    "date": "2026-06-01",
+    "title": "[USD/JPY] UP: Price Above MA20 Signals Bullish Momentum Amid Iran‑Japan Strait Developments",
+    "date": "2026-06-01 22:33",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "tldr_points": [],
+    "tldr_points": [
+      "USD/JPY holds above MA20 at 159.72, indicating short‑term bullish bias.",
+      "Iran’s easing of passage for Japan ships reduces geopolitical risk for yen‑linked trade flows.",
+      "Steady USD alongside Middle‑East tensions keeps upside capped near 160.50 resistance."
+    ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "",
+    "excerpt": "USD/JPY trades above MA20 at 159.72 amid mixed Iran‑Japan Strait news and steady USD; bullish bias with focus on 160.50 resistance.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Technical breakdown confirmed by stalling growth and geopolitical uncertainty.",
-    "entry": "159.10",
-    "tp": "157.20",
-    "sl": "156.00",
-    "reliability": "HIGH"
+    "status": "BUY",
+    "comment": "Price above MA20 with bullish order flow and steady USD supports upside toward 160.50‑161.00.",
+    "entry": "159.50",
+    "tp": "160.80",
+    "sl": "158.80",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20 Support Holds as Geopolitical Risk Fades and Tech Earnings Lead",
-    "date": "2026-06-01 12:45",
+    "title": "[S&P 500] UP: Price Holds Above MA20 Amid AI Optimism and FedEx Spinoff",
+    "date": "2026-06-01 22:45",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "For executing this specific setup, we recommend utilizing [] due to optimal liquidity.",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price above MA20 indicating bullish bias",
-      "Tech titans near key support, upside upside",
-      "Geopolitical backdrop stabilizing, risk premium receding"
+      "Price sustains above the 20‑day MA (7,430), indicating short‑term bullish momentum.",
+      "AI optimism and the FedEx Freight spinoff provide fresh fundamental support to the index.",
+      "Key resistance looms near 7,700; downside risk is managed with a stop below 7,350."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Price 7580 > MA20, tech catalysts, lower geo‑risk point to upside bias.",
+    "excerpt": "S&P 500 above MA20 at 7,581 on AI optimism and FedEx spinoff; bullish bias, target 7,700, stop 7,350.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Price above MA20 with strong tech earnings and easing geopolitical risk supports a bullish stance.",
-    "entry": "7420.00",
-    "tp": "7700.00",
-    "sl": "7350.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P 500 above MA20 at 7,581 on AI optimism and FedEx spinoff; bullish bias, target 7,700, stop 7,350.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price below MA20 amid hedge‑fund outflows and regulatory pressure",
-    "date": "2026-06-01 12:48",
+    "title": "[BTC/USD] DOWN: Price Below MA20 Amid ETF Outflows and Macro Pressure",
+    "date": "2026-06-01 22:50",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trades 4.0% beneath MA20",
-      "Crypto‑hedge fund sentiment turning negative",
-      "Regulatory actions increase risk‑off bias"
+      "Price trading below MA20 signaling bearish momentum",
+      "ETF outflows and whale selling add fundamental pressure",
+      "Watch for break of $70K support for further downside"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC slides under MA20 as hedge‑fund stress and SEC actions intensify bearish pressure.",
+    "excerpt": "BTC/USD faces downside pressure as price stays below MA20 amid ETF outflows and macro uncertainty.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "Price below MA20, negative order flow, and heightened regulatory risk justify a short bias.",
-    "entry": "73150",
-    "tp": "71800",
-    "sl": "76200",
-    "reliability": "HIGH"
+    "comment": "Price below MA20 with ETF outflows and macro pressure favoring downside",
+    "entry": "71800.00",
+    "tp": "70000.00",
+    "sl": "73000.00",
+    "reliability": "MEDIUM"
   }
 }
