@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Price Above MA20 Signals Bullish Momentum Amid Iran‑Japan Strait Developments",
-    "date": "2026-06-01 22:33",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-02 05:15",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY holds above MA20 at 159.72, indicating short‑term bullish bias.",
-      "Iran’s easing of passage for Japan ships reduces geopolitical risk for yen‑linked trade flows.",
-      "Steady USD alongside Middle‑East tensions keeps upside capped near 160.50 resistance."
+      "Price above MA20 signals bullish momentum",
+      "USD strength amid geopolitical stability and Iran negotiations",
+      "Key support at 158.32 offers tactical entry"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY trades above MA20 at 159.72 amid mixed Iran‑Japan Strait news and steady USD; bullish bias with focus on 160.50 resistance.",
+    "excerpt": "USD/JPY poised for extension toward 160.50 as MA20 holds and risk appetite improves.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Price above MA20 with bullish order flow and steady USD supports upside toward 160.50‑161.00.",
-    "entry": "159.50",
-    "tp": "160.80",
-    "sl": "158.80",
+    "status": "NEUTRAL",
+    "comment": "USD/JPY poised for extension toward 160.50 as MA20 holds and risk appetite improves.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Price Holds Above MA20 Amid AI Optimism and FedEx Spinoff",
-    "date": "2026-06-01 22:45",
+    "title": "S&P 500 市場分析",
+    "date": "2026-06-02 05:17",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price sustains above the 20‑day MA (7,430), indicating short‑term bullish momentum.",
-      "AI optimism and the FedEx Freight spinoff provide fresh fundamental support to the index.",
-      "Key resistance looms near 7,700; downside risk is managed with a stop below 7,350."
+      "AI-driven support at MA20 aligns with 28% earnings growth; technical bias bullish, target 7700, stop 7550.",
+      "Broad market earnings expansion supports risk-on tilt.",
+      "Liquidity conditions remain favorable for leveraged exposure."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 above MA20 at 7,581 on AI optimism and FedEx spinoff; bullish bias, target 7,700, stop 7,350.",
+    "excerpt": "AI-driven support at MA20 aligns with 28% earnings growth; technical bias bullish, target 7700, stop 7550.",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500 above MA20 at 7,581 on AI optimism and FedEx spinoff; bullish bias, target 7,700, stop 7,350.",
+    "comment": "AI-driven support at MA20 aligns with 28% earnings growth; technical bias bullish, target 7700, stop 7550.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Below MA20 Amid ETF Outflows and Macro Pressure",
-    "date": "2026-06-01 22:50",
+    "title": "[BTC/USD] UP: Technical Support at MA20 Confirmed Amid Institutional Accumulation",
+    "date": "2026-06-02 05:22",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price trading below MA20 signaling bearish momentum",
-      "ETF outflows and whale selling add fundamental pressure",
-      "Watch for break of $70K support for further downside"
+      "Price tests MA20 support level mechanism",
+      "Grayscale’s ETH ETF fee undercut spurs liquidity",
+      "Bitmine’s ETH buys signal institutional Ethereum demand"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD faces downside pressure as price stays below MA20 amid ETF outflows and macro uncertainty.",
+    "excerpt": "BTC/USD holds critical support at MA20 as technical and institutional dynamics align.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price below MA20 with ETF outflows and macro pressure favoring downside",
-    "entry": "71800.00",
-    "tp": "70000.00",
-    "sl": "73000.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Technical support at MA20 aligns with institutional ETH accumulation signals.",
+    "entry": "76300",
+    "tp": "79000",
+    "sl": "71000",
+    "reliability": "HIGH"
   }
 }

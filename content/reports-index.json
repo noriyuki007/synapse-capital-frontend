@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-06-02-crypto-ja",
+    "date": "2026-06-02 05:22",
+    "title": "[BTC/USD] DOWN: MA20下抜けと機関売却懸念による弱気テクスチャー継続",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USDはMA20を大きく下抜けし、Strategyによる潜在的ビットコイン売却懸念とDeFi部門の信用収縮が重荷。テクニカル的な過剰売り乖離は認めるが、本日のAI解析はリスクオフ優位を示唆。当面の戦略は戻り売り。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-02-crypto-en",
+    "date": "2026-06-02 05:22",
+    "title": "[BTC/USD] UP: Technical Support at MA20 Confirmed Amid Institutional Accumulation",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD holds critical support at MA20 as technical and institutional dynamics align.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-06-02-stocks-ja",
+    "date": "2026-06-02 05:17",
+    "title": "インテリジェンス：S&P 500の強気相場における利益確定ポイント",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 7599.96、RSI(68.48)、MA20(7431.04)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-02-stocks-en",
+    "date": "2026-06-02 05:17",
+    "title": "STOCKS Analysis",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "AI-driven support at MA20 aligns with 28% earnings growth; technical bias bullish, target 7700, stop 7550.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-06-02-fx-ja",
+    "date": "2026-06-02 05:15",
+    "title": "[USD/JPY] UP: MA20突破と中東リスクプレミアムによる上昇トレンド再確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYがMA20を突破、中東情勢の不確実性と米株高がドル買いを支持。159.70付近でのエントリーを推奨。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-02-fx-en",
+    "date": "2026-06-02 05:15",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY poised for extension toward 160.50 as MA20 holds and risk appetite improves.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-06-01-crypto-ja",
     "date": "2026-06-01 22:50",
     "title": "[BTC/USD] DOWN: MA20上抜け不能とETF流出が下降トレンドを牽引",
@@ -80,7 +152,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "excerpt": "MA20を下回るBTCは下落リスクが高く、規制・地政学的要因が需給を圧迫する。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -92,7 +164,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD faces bearish pressure from regulatory news, on‑chain exploits, and technical resistance at MA20.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -116,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500 above MA20 buoyed by premium consumer spending, Nvidia strength, and Barclays PT raise, pointing to term upside.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -128,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "Iran情勢の再浮上と金利期待変化がUSD/JPYに買い材料を提供。MA20下限158.30近辺からの反発を待ち、159.25からのブレイクでエントリーを検討。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -140,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY holds above MA20 on USA optimistic data and Iran de‑escalation supporting risk appetite and targeting 160.50 now.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
