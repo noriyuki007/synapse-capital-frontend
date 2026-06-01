@@ -1,68 +1,64 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Bullish Momentum Above MA20 Amid Divergent Iran Signals",
-    "date": "2026-06-01 02:03",
+    "title": "USD/JPY 市場分析",
+    "date": "2026-06-01",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
-    "tldr_points": [
-      "Price trades above MA20 at 159.25, signaling short-term bullish bias",
-      "Iran diplomacy creates volatility with Trump signaling naval blockade lift",
-      "Upcoming US ISM/NFP data (Jun 1-5) critical for rate trajectory"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above key moving average as Iran uncertainty offsets rate concerns ahead of major US data.",
+    "excerpt": "",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPY holds above key moving average as Iran uncertainty offsets rate concerns ahead of major US data.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Technical breakdown confirmed by stalling growth and geopolitical uncertainty.",
+    "entry": "159.10",
+    "tp": "157.20",
+    "sl": "156.00",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Price Above MA20 Signals Bullish Momentum",
-    "date": "2026-06-01 02:07",
+    "title": "[S&P 500] UP: MA20 Support Holds as Geopolitical Risk Fades and Tech Earnings Lead",
+    "date": "2026-06-01 12:45",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "For executing this specific setup, we recommend utilizing [] due to optimal liquidity.",
     "tldr_points": [
-      "S&P 500 trading above MA20 indicates short‑term bullish bias.",
-      "Inflation pressures may prompt Fed action, creating volatility but also dividend opportunities.",
-      "Technical setup favors buying on dips toward 7412 with target near 7700."
+      "Price above MA20 indicating bullish bias",
+      "Tech titans near key support, upside upside",
+      "Geopolitical backdrop stabilizing, risk premium receding"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 above MA20 hints at near‑term upside; inflation‑driven Fed moves and dividend yields shape outlook.",
+    "excerpt": "Price 7580 > MA20, tech catalysts, lower geo‑risk point to upside bias.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price above MA20 with bullish order flow supports a long bias.",
-    "entry": "7412.00",
+    "comment": "Price above MA20 with strong tech earnings and easing geopolitical risk supports a bullish stance.",
+    "entry": "7420.00",
     "tp": "7700.00",
-    "sl": "7300.00",
-    "reliability": "MEDIUM"
+    "sl": "7350.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Below MA20 Amid Negative Regulatory and Security Headlines",
-    "date": "2026-06-01 02:12",
+    "title": "[BTC/USD] DOWN: Price below MA20 amid hedge‑fund outflows and regulatory pressure",
+    "date": "2026-06-01 12:48",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price below MA20 indicates short‑term bearish bias.",
-      "Regulatory and security headlines weigh on market sentiment.",
-      "Key support near 70k; resistance at MA20 ~76.7k."
+      "BTC trades 4.0% beneath MA20",
+      "Crypto‑hedge fund sentiment turning negative",
+      "Regulatory actions increase risk‑off bias"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC drops under MA20 amid regulatory news, exchange hacks, and treasury concerns, targeting 70k support for instance ok.",
+    "excerpt": "BTC slides under MA20 as hedge‑fund stress and SEC actions intensify bearish pressure.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "Price below MA20 amid bearish news and rising yields supports a short‑term downside move.",
-    "entry": "73500.00",
-    "tp": "70000.00",
-    "sl": "75500.00",
-    "reliability": "MEDIUM"
+    "comment": "Price below MA20, negative order flow, and heightened regulatory risk justify a short bias.",
+    "entry": "73150",
+    "tp": "71800",
+    "sl": "76200",
+    "reliability": "HIGH"
   }
 }
