@@ -1,68 +1,64 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Technical Breakout at MA20 Amid EUR Weakness",
-    "date": "2026-06-02 21:02",
+    "title": "USD/JPY 市場分析",
+    "date": "2026-06-03 04:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 (158.44) signals bullish bias",
-      "ECB rate hawkishness supports USD strength",
-      "Gold rally may limit yen carry appeal"
+      "Price above MA20 signals bullish momentum.",
+      "Geopolitical risk and rising oil prices bolster USD strength.",
+      "Technical setup suggests buying on dip toward MA20."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY technicals confirm bullish breakout as MA20 holds and ECB signals raise rate frontiers.",
+    "excerpt": "USD/JPY trades above MA20 with bullish momentum; geopolitical risk and oil gains support USD, targeting higher levels.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish breakout validated by ECB rate hawkishness and MA20 containment.",
-    "entry": "158.40",
-    "tp": "160.00",
-    "sl": "157.80",
+    "comment": "Price above MA20 with bullish momentum and geopolitical risk support a long bias.",
+    "entry": "158.50",
+    "tp": "161.50",
+    "sl": "158.00",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20 Support Holds as Health‑Care Yield Appeal Strengthens",
-    "date": "2026-06-02 21:06",
+    "title": "[S&P 500] UP: MA20 Support Holds, AI Catalysts Drive Uptrend",
+    "date": "2026-06-03 04:39",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "For executing this setup, we recommend utilizing TradeStation due to optimal liquidity.",
-    "tldr_points": [
-      "Price above MA20, indicating bullish bias",
-      "Healthcare ETF yields attract capital inflows",
-      "Order flow shows net long positioning"
-    ],
+    "recommended_broker": "For executing this specific setup, we recommend utilizing [] due to optimal liquidity.",
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 above MA20, health‑care yield strength, bullish order flow.",
+    "excerpt": "S&P 500 approaches MA20; AI-driven sectors and resilient index components signal bullish momentum ahead.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price above MA20, strong sector rotation into health‑care yields, net long order flow.",
-    "entry": "7540",
-    "tp": "7660",
-    "sl": "7460",
+    "comment": "MA20 support holds amid AI sector strength and macro stabilization",
+    "entry": "7650",
+    "tp": "8000",
+    "sl": "7450",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 as Fundamentals Turn Bearish",
-    "date": "2026-06-02 21:11",
+    "title": "[BTC/USD] DOWN: AI Flags MA20 Resistance and Bearish Macro Catalysts",
+    "date": "2026-06-03 04:43",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price below MA20 signals near-term bearish bias",
-      "CME 24/7 derivatives launch shows institutional inflow but limited immediate impact",
-      "Key resistance at 75.8k; support near 68k"
+      "Price near MA20 hints at breakdown or short‑term bounce",
+      "Regulatory pressure intensifies bearish bias",
+      "Coinbase ETF stake signals institutional interest"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD trades below MA20 resistance; bearish setup targets 66k with stop above 71.5k.",
+    "excerpt": "BTC tests MA20 support below 66.7k as macro data and ETF flows shape bearish bias; entry near 66k with TP 68k, SL 64k. bullish!!",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "Price below MA20 resistance with bearish order flow supports short toward 66k.",
-    "entry": "69100",
-    "tp": "66200",
-    "sl": "71500",
-    "reliability": "MEDIUM"
+    "comment": "Short‑term breakdown below MA20 with bearish macro backdrop",
+    "entry": "66672.99",
+    "tp": "64000",
+    "sl": "69000",
+    "reliability": "HIGH"
   }
 }
