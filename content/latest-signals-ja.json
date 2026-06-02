@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発とハーファンダメンタルズの整合性",
-    "date": "2026-06-02 12:39",
+    "title": "[USD/JPY] UP: MA20サポートでの反発とECB利上げ期待による上昇トレンド継続",
+    "date": "2026-06-02 21:02",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20上で推移し、短期的な押し目買いの余地あり",
-      "BOJの6月利上げ期待が円買い圧力となるが、リスクオンセンチメントが相殺",
-      "エントリーは159.30付近、TP 160.10、SL 158.80、流動性観点から[dmm-fx]を推奨"
+      "USD/JPYはMA20サポートで反発、ECBの利上げ期待と市場の楽観感が上昇を支持",
+      "テクニカル的に現在価格はMA20を上回り、上昇トレンドが継続中",
+      "短期的な押し目買いを考慮、目標価格161.50に向けて推移"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20を支えに反発の可能性があり、BOJ利上げ期待とリスクセンチメントを総合して押し目買い戦略を示す。",
+    "excerpt": "USD/JPYはMA20サポートでの反発を確認、市場の楽観的ニュースとECB利上げ期待が上昇を支持。テクニカル面で上昇トレンドが継続中と判断。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20サポートとリスクセンチメントの拮抗から押し目買いが妥当",
-    "entry": "159.30",
-    "tp": "160.10",
-    "sl": "158.80",
-    "reliability": "MEDIUM"
+    "comment": "MA20サポートでの反発とECB利上げ期待による上昇トレンド継続",
+    "entry": "158.90",
+    "tp": "161.50",
+    "sl": "157.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-06-02 12:42",
+    "title": "[S&P 500] UP: MA20での反発とAI関連ファンダメンタルズの整合性を確認",
+    "date": "2026-06-02 21:06",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "野村證券",
     "tldr_points": [
-      "現在価格はMA20を上回り短期的な上昇バイアスが示唆される",
-      "米国・イラン緊張と政治指数の発表がボラティリティを誘発",
-      "テクニカルとファンダメンタルズの整合性から押し目買い戦略を推奨"
+      "価格はMA20を上回り底堅いが、AI関連高値後の利益確認売りが重し",
+      "ヘルスケアETFの相対優位がセクター輪番を示唆",
+      "テクニカルは押し目買いシナリオが優勢で、TP 7700付近を視野"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20を上回るS&P 500は押し目買いの機会と見なすが、地政学的不確実性がリスク因子として残る。",
+    "excerpt": "S&P 500はMA20を上回り堅調な地合いを維持するものの、AI駆動型記録的高値後の利益確認売りが重しとなり、短期的には方向感が混在し、上値は重い状況が続く。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20を上回る価格とファンダメンタルズの整合性が買いを支持",
-    "entry": "7460.00",
-    "tp": "7700.00",
-    "sl": "7420.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P 500はMA20を上回り堅調な地合いを維持するものの、AI駆動型記録的高値後の利益確認売りが重しとなり、短期的には方向感が混在し、上値は重い状況が続く。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20下落とファンダメンタルズの悪化圏位",
-    "date": "2026-06-02 12:45",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-02 21:11",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20(76,268)を下回る技術的押し目",
-      "Radiant Capitalの破經でリスクオン感度増",
-      "Grayscale ETF手数料競争で資金流出圧力"
+      "価格はMA20に接近、技術的押し目買いゾーン",
+      "CMEの24/7市場が流動性向上に貢献",
+      "Vitalikの提案がDeFiリスク管理を進化"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20(76,268)を下回り、Radiant Capitalの破經やETF手数料競争が悲観的サイドラインを引き続き。抵抗レベル68,000での売り控えが観渡し目。",
+    "excerpt": "BTCはMA20に接近しつつも、機関参入とDeFi革新が中期的な上昇トレンドを支持。押し目買いゾーンでのエントリーを推奨。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20下落とETF競争がサイドライン",
-    "entry": "68000.00",
-    "tp": "62000.00",
-    "sl": "72500.00",
+    "status": "BUY",
+    "comment": "MA20反発の可能性と強気ファンダメンタルズの整合性を確認",
+    "entry": "72000",
+    "tp": "79000",
+    "sl": "68500",
     "reliability": "MEDIUM"
   }
 }
