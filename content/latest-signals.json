@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20突破と中東リスクプレミアムによる上昇トレンド再確認",
-    "date": "2026-06-02 05:15",
+    "title": "[USD/JPY] UP: MA20での反発とハーファンダメンタルズの整合性",
+    "date": "2026-06-02 12:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "USD/JPY、MA20突破で上昇トレンド再確認",
-      "中東情勢の不確実性がドル買いを支持",
-      "159.70付近でのエントリー推奨、160.50をTPに設定"
+      "価格はMA20上で推移し、短期的な押し目買いの余地あり",
+      "BOJの6月利上げ期待が円買い圧力となるが、リスクオンセンチメントが相殺",
+      "エントリーは159.30付近、TP 160.10、SL 158.80、流動性観点から[dmm-fx]を推奨"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYがMA20を突破、中東情勢の不確実性と米株高がドル買いを支持。159.70付近でのエントリーを推奨。",
+    "excerpt": "USD/JPYはMA20を支えに反発の可能性があり、BOJ利上げ期待とリスクセンチメントを総合して押し目買い戦略を示す。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20を上抜けた後の押し目買いを推奨、中東情勢の不確実性と米国の強気バックドロップが支持要因",
-    "entry": "159.70",
-    "tp": "160.50",
-    "sl": "158.90",
-    "reliability": "HIGH"
+    "comment": "MA20サポートとリスクセンチメントの拮抗から押し目買いが妥当",
+    "entry": "159.30",
+    "tp": "160.10",
+    "sl": "158.80",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "インテリジェンス：S&P 500の強気相場における利益確定ポイント",
-    "date": "2026-06-02 05:17",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-02 12:42",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "野村證券",
     "tldr_points": [
-      "金利相関（近似）: -0.82で負相関傾向",
-      "テクニカル: 現在価格 7599.96 と MA20 7431.04 の位置関係が主導",
-      "需給: 上限帯 7634.41 / 下限帯 7227.67 / 直近高値 7617.66 / 直近安値 7174.12 によるターゲット設計"
+      "現在価格はMA20を上回り短期的な上昇バイアスが示唆される",
+      "米国・イラン緊張と政治指数の発表がボラティリティを誘発",
+      "テクニカルとファンダメンタルズの整合性から押し目買い戦略を推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 7599.96、RSI(68.48)、MA20(7431.04)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "MA20を上回るS&P 500は押し目買いの機会と見なすが、地政学的不確実性がリスク因子として残る。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、S&P 500の現在価格 7599.96、RSI(68.48)、MA20(7431.04)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20を上回る価格とファンダメンタルズの整合性が買いを支持",
+    "entry": "7460.00",
+    "tp": "7700.00",
+    "sl": "7420.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20下抜けと機関売却懸念による弱気テクスチャー継続",
-    "date": "2026-06-02 05:22",
+    "title": "[BTC/USD] DOWN: MA20下落とファンダメンタルズの悪化圏位",
+    "date": "2026-06-02 12:45",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "Strategyの売却タイミング懸念がPolymarketを混乱させ、機関の持ち高調整リスクが顕在化",
-      "現在価格はMA20（76,303.927734375）を約6.2%下回り、短期トレンドは明確な下降構造",
-      "DeFiセクターの信用収縮（Radiant Capital閉鎖）がアルティメットリスク資産全体の重荷となる"
+      "MA20(76,268)を下回る技術的押し目",
+      "Radiant Capitalの破經でリスクオン感度増",
+      "Grayscale ETF手数料競争で資金流出圧力"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を大きく下抜けし、Strategyによる潜在的ビットコイン売却懸念とDeFi部門の信用収縮が重荷。テクニカル的な過剰売り乖離は認めるが、本日のAI解析はリスクオフ優位を示唆。当面の戦略は戻り売り。",
+    "excerpt": "BTC/USDはMA20(76,268)を下回り、Radiant Capitalの破經やETF手数料競争が悲観的サイドラインを引き続き。抵抗レベル68,000での売り控えが観渡し目。",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "MA20下抜けと機関売却懸念から弱気継続、6%乖離の戻り売り",
-    "entry": "71584.99",
-    "tp": "69000.00",
-    "sl": "76500.00",
+    "comment": "MA20下落とETF競争がサイドライン",
+    "entry": "68000.00",
+    "tp": "62000.00",
+    "sl": "72500.00",
     "reliability": "MEDIUM"
   }
 }

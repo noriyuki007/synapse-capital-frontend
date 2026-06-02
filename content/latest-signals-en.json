@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-02 05:15",
+    "title": "[USD/JPY] UP: BOJ Rate Hike Prospect Aligns with USD Strength",
+    "date": "2026-06-02 12:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 signals bullish momentum",
-      "USD strength amid geopolitical stability and Iran negotiations",
-      "Key support at 158.32 offers tactical entry"
+      "BOJ likely tightens policy in June",
+      "USD price above MA20 with bullish bias",
+      "Risk defined entry near 159.70, TP 160.50, SL 158.80"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised for extension toward 160.50 as MA20 holds and risk appetite improves.",
+    "excerpt": "BOJ tightening, USD resilience and MA20 support drive USD/JPY higher.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPY poised for extension toward 160.50 as MA20 holds and risk appetite improves.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "BOJ tightening and price above MA20 generate a bullish bias.",
+    "entry": "159.70",
+    "tp": "160.50",
+    "sl": "158.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500 市場分析",
-    "date": "2026-06-02 05:17",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-02 12:42",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "AI-driven support at MA20 aligns with 28% earnings growth; technical bias bullish, target 7700, stop 7550.",
-      "Broad market earnings expansion supports risk-on tilt.",
-      "Liquidity conditions remain favorable for leveraged exposure."
+      "Price above MA20 signals bullish bias",
+      "AI identifies support, earnings resilience and easing geopolitical risk",
+      "Upside catalysts supported by macro backdrop"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "AI-driven support at MA20 aligns with 28% earnings growth; technical bias bullish, target 7700, stop 7550.",
+    "excerpt": "S&P 500 trades above MA20; AI flags support, earnings resilience and easing geopolitical risk as upside catalysts today!",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "AI-driven support at MA20 aligns with 28% earnings growth; technical bias bullish, target 7700, stop 7550.",
+    "comment": "S&P 500 trades above MA20; AI flags support, earnings resilience and easing geopolitical risk as upside catalysts today!",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Technical Support at MA20 Confirmed Amid Institutional Accumulation",
-    "date": "2026-06-02 05:22",
+    "title": "[BTC/USD] DOWN: AI Flags Price Below MA20, Bearish Order Flow, Neutral ETF Impact",
+    "date": "2026-06-02 12:45",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price tests MA20 support level mechanism",
-      "Grayscale’s ETH ETF fee undercut spurs liquidity",
-      "Bitmine’s ETH buys signal institutional Ethereum demand"
+      "AI identifies price testing MA20 as resistance, with weakening momentum.",
+      "Order flow shows net outflows from large holders, adding downward pressure.",
+      "Grayscale’s low‑fee Hyperliquid ETF may limit upside catalyst."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD holds critical support at MA20 as technical and institutional dynamics align.",
+    "excerpt": "AI flags price below MA20, bearish order flow, and neutral ETF fee impact, indicating sharp downside risk!! for BTC/USD.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Technical support at MA20 aligns with institutional ETH accumulation signals.",
-    "entry": "76300",
-    "tp": "79000",
-    "sl": "71000",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "AI flags price below MA20, bearish order flow, and neutral ETF fee impact, indicating sharp downside risk!! for BTC/USD.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
