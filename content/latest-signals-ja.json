@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-06-03 12:46",
+    "date": "2026-06-03 21:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20を上抜け、短期的な上昇バイアスが形成",
-      "中東情勢の悪化と米関税発表でリスクオフが進行、円買い圧力が上限",
-      "中国サービスPMIの好調でリスクオンが回復、ドル買いが優位"
+      "CAD生産性低下がリスクオフ傾向を示唆",
+      "米ADP雇用統計が予想を上回りドル支援",
+      "テクニカルはMA20を上抜け、上余地を示唆"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "現在価格159.88はMA20を上回り、テクニカルは上昇を示唆。ファンダはリスクオフ・オンの混在で方向感は限定的だが、短期的には押し目買いが有利。",
+    "excerpt": "米ADP強含みとMA20上抜けによりドル円は上昇余地を示す。リスクオフ要因は限定的。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20上抜けと買いオーダー集中が上昇を裏付ける",
+    "comment": "米ADP強含みとMA20上抜けによる上昇バイアス",
     "entry": "159.70",
-    "tp": "161.00",
-    "sl": "159.00",
-    "reliability": "HIGH"
+    "tp": "160.50",
+    "sl": "159.20",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20上方離れとAI主導フローによる地政学リスクの素早い吸収",
-    "date": "2026-06-03 12:48",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-03 21:45",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "MA20を大きく上回る強気テクニカル構造の維持",
-      "AI大型株（AVGO, MSFT, PANW等）のモメンタムが地政学リスクを相殺",
-      "押し目買い戦略の最適実行には流動性の高い[]の利用を推奨"
+      "価格はMA20を上回り押し目買いの機会が生じている",
+      "トランプ関連の地政学リスクが一時的な下押し圧力となるが、ファンダメンタルズは底堅い",
+      "流動性の観点からNomura Securitiesを活用したエントリーが適切"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はAI大型株の牽引とMA20の上抜けで強気基調を維持。イラン情勢悪化と原油高はありつつも、機関投資家のリスクオン姿勢は健在。テクニカルではMA20付近が重要サポートとなり、押し目買い戦略が有効。",
+    "excerpt": "S&P 500はMA20を上抜け、押し目買いのシグナルが点灯。地政学的噂は一時的であり、ファンダメンタルズは依然底堅い。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20上方乖離とAI主導フローが強気トレンドを維持、押し目買い優位",
-    "entry": "7550.00",
-    "tp": "7800.00",
+    "comment": "MA20上抜けと限定的下押し圧力により買い推奨",
+    "entry": "7460.00",
+    "tp": "7700.00",
     "sl": "7420.00",
-    "reliability": "MEDIUM"
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20付近での反発と規制・対照的ファンダメンタルズの整合性を確認",
-    "date": "2026-06-03 12:51",
+    "title": "[BTC/USD] DOWN: MA20下放れと慎重なファンダメンタルズの整合性を確認",
+    "date": "2026-06-03 21:53",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を大きく下回り、短期的な押し目買いの余地が広がる",
-      "米国の規制明確化法案推進と機関向け担保サービス拡大が下支えになる",
-      "オーダーフローは薄いが、bitflyerの流動性がエントリー・イグジットに適する"
+      "MA20を大きく下回る67000ドル水準で推移し、下押しリスクが顕在化",
+      "英国議会によるステーブルコイン規制緩和や機関向けETF発表など材料が混在",
+      "売り圧力が優勢となり、短期的な戻り売り戦略が適切"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を下押ししているものの、規制前向きと機関融資拡大が底堅さを示し、短期的な反発を狙う。",
+    "excerpt": "MA20を大きく下回る67000ドル水準で推移し、英国議会によるステーブルコイン規制緩和や機関向けHyperliquid ETF上場など材料が混在する中、売り圧力が優位となり下押しリスクが高まっている。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20付近への押し目買い。規制・機関ファンダメンタルズが下支え。",
-    "entry": "65400.00",
-    "tp": "75000.00",
-    "sl": "60000.00",
+    "status": "SELL",
+    "comment": "MA20下放れと売りオーダー優位による下押しリスク",
+    "entry": "67000",
+    "tp": "65000",
+    "sl": "69000",
     "reliability": "MEDIUM"
   }
 }
