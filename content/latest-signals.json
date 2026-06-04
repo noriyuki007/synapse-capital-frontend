@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-06-04 19:59",
+    "date": "2026-06-05 03:13",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "USD/JPYはMA20を上抜けし、買いバイアスが継続",
-      "BoJのタカ派発言にもかかわらず、米ドルの需給が支えている",
-      "テクニカルは押し目買いのシナリオを示唆"
+      "USD/JPYはMA20で反発、上昇トレンド継続",
+      "Fedのインフレ警戒姿勢がドル支持",
+      "金融セクターの強さが上昇基盤を強化"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "MA20上抜けとファンダの整合性からUSD/JPYの上昇余地を評価し、エントリー・TP・SLを提示。",
+    "excerpt": "USD/JPYはMA20で反発、強気ファンダメンタルズと整合。金融セクターの強さとFedのインフレ警戒姿勢が上昇基盤を強化。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "MA20上抜けとファンダの整合性からUSD/JPYの上昇余地を評価し、エントリー・TP・SLを提示。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "entry": "158.90",
+    "tp": "160.25",
+    "sl": "157.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-06-04 20:04",
+    "date": "2026-06-05 03:16",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "Price above MA20 suggests short-term bullish momentum.",
-      "Mixed news: tech weakness offset by industrials and SpaceX IPO buzz.",
-      "Watch for pullback to MA20 as entry zone."
+      "米国株指数は利回り低下と原油高で広く上昇",
+      "ナスダック・ダウがそれぞれ上昇、リスクオンムードが顕著",
+      "テクニカルはMA20を支えに押し目買いの場を形成"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "現在価格はMA20を上回り、上値余地があるが、テク株の調整とマクロ不安が重しになる。",
+    "excerpt": "利回り低下と原油高を背景にS&P 500はMA20付近での反発が期待され、押し目買いが有利。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20上での底堅い動きとファンダメンタルズの底支え",
-    "entry": "7500.00",
-    "tp": "7700.00",
-    "sl": "7400.00",
+    "comment": "利回り低下・原油高・MA20支持による上昇期待",
+    "entry": "7480",
+    "tp": "7700",
+    "sl": "7400",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: 短期的底打ち期待とMA20乖離による戻り売り圧力の拮抗",
-    "date": "2026-06-04 20:08",
+    "title": "[BTC/USD] DOWN: MA20下からの反発欲求とヘッジファンドリスクオフを確認",
+    "date": "2026-06-05 03:21",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "Standard Charteredによる底打ち観測による下値支持の形成",
-      "MA20（73,978）との大きな乖離による上昇への強い抵抗感",
-      "大口投資家によるポートフォリオ再編に伴うボラティリティの増大"
+      "MA20(74022)下からの価格動きがダウントレンド継続を示唆",
+      "機関参入に伴うRWA需要とグレーマーケットニーズの二重要因",
+      "流動性確保のためbitflyerのシステムトレーディングが適切"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "底打ちの兆候が見える一方、移動平均線との乖離が激しく、反発局面でも戻り売りの圧力が強い。レンジ内での推移を想定し、ボラティリティの収束を待つ局面。",
+    "excerpt": "BTC/USDは現在価格63320.14をホルドし、MA20(74022.87)下からの反発有限。機関RWA需要とグレーマーケットからの避難需要が二重で作用中。",
     "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "底打ちの兆候はあるが、MA20までの乖離が大きく戻り売り圧力が強い",
-    "entry": "62000.00",
-    "tp": "68000.00",
-    "sl": "59000.00",
+    "comment": "BTC/USDは現在価格63320.14をホルドし、MA20(74022.87)下からの反発有限。機関RWA需要とグレーマーケットからの避難需要が二重で作用中。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }

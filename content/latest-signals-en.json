@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Bullish Rate Divergence and Sustained Momentum Above MA20",
-    "date": "2026-06-04 19:59",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-05 03:13",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY trading 190 pips above MA20",
-      "BoJ hawkish tone but US rate outlook remains higher",
-      "Technical bias bullish with clear entry around 159.90"
+      "Price above MA20 with bullish fundamentals",
+      "Inflation risk underpins USD strength",
+      "Technical structure supports upside momentum"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish on rate differentials, holding above MA20; target 160.70, stop 159.30.",
+    "excerpt": "USD/JPY eyes upward bias as Fed inflation risk looms; price above MA20, MA20 at 158.72, broker [xm-trading] optimal. now",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Bullish on rate differential and price above MA20",
-    "entry": "159.92",
-    "tp": "160.70",
-    "sl": "159.30",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPY eyes upward bias as Fed inflation risk looms; price above MA20, MA20 at 158.72, broker [xm-trading] optimal. now",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Diverge",
-    "date": "2026-06-04 20:04",
+    "title": "[S&P 500] UP: Index Holds Above MA20 Amid Broad Equity Rally and Yield Fade",
+    "date": "2026-06-05 03:16",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price above MA20 signals bullish trend continuation",
-      "Tech sector weakness offset by SpaceX IPO optimism",
-      "Key support at MA20 with resistance at 7600"
+      "Price > MA20, signaling bullish bias",
+      "Yield curve flattening supports equity demand",
+      "Key resistance at 7,650–7,680; support at 7,500"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above MA20 amid mixed tech earnings and SpaceX IPO-induced risk-on demand.",
+    "excerpt": "S&P 500 trades above MA20, backed by falling yields and a macro‑driven equity rally.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price above MA20 with institutional rotation offsetting tech weakness supports tactical long bias.",
-    "entry": "7470.00",
-    "tp": "7600.00",
-    "sl": "7425.00",
+    "comment": "Price above MA20 and weakening yields create a bullish risk‑reward profile.",
+    "entry": "7595-7605",
+    "tp": "7680",
+    "sl": "7500",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Bottom Nearing as Institutional Sentiment Improves",
-    "date": "2026-06-04 20:08",
+    "title": "[BTC/USD] FLAT: Price Below MA20 Amid Regulatory Uncertainty and Institutional DeFi Inflows",
+    "date": "2026-06-05 03:21",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price tests near‑term support around $62.5k",
-      "MA20 at $73.9k offers a clear upside target",
-      "Standard Chartered flags bottom, while Coinbase expands futures"
+      "BTC/USD trading 15% below MA20 (74,022)",
+      "Institutional DeFi inflows vs. regulatory headwinds",
+      "Range-bound momentum suggests consolidation phase"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC nears a strategic support zone; institutional catalysts and MA20 create a bullish setup.",
+    "excerpt": "BTC/USD below MA20 with mixed catalysts and technical uncertainty.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Bottom nearing with institutional support; MA20 offers a defined upside.",
-    "entry": "62400",
-    "tp": "73800",
-    "sl": "60500",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Consolidation continues below MA20 amid institutional inflows and policy uncertainty.",
+    "entry": "68500.00",
+    "tp": "72000.00",
+    "sl": "62000.00",
+    "reliability": "MEDIUM"
   }
 }
