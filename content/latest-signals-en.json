@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Support at MA20 Amid Strengthening US Yield Outlook and Regional Growth",
-    "date": "2026-06-04 12:42",
+    "title": "[USD/JPY] UP: Bullish Rate Divergence and Sustained Momentum Above MA20",
+    "date": "2026-06-04 19:59",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above MA20, indicating bullish bias",
-      "US yield curve steepening supports USD strength",
-      "Geopolitical de‑escalation in Middle East reduces risk‑off pressure"
+      "USD/JPY trading 190 pips above MA20",
+      "BoJ hawkish tone but US rate outlook remains higher",
+      "Technical bias bullish with clear entry around 159.90"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY trades above MA20, buoyed by US yield gains and easing Middle‑East tension; upside to 162‑0.5 risk.",
+    "excerpt": "USD/JPY bullish on rate differentials, holding above MA20; target 160.70, stop 159.30.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price above MA20, reinforced by US yield spread and reduced risk‑off sentiment.",
-    "entry": "159.50",
-    "tp": "162.00",
-    "sl": "158.30",
+    "comment": "Bullish on rate differential and price above MA20",
+    "entry": "159.92",
+    "tp": "160.70",
+    "sl": "159.30",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Extreme Valuation Signals Imminent Pullback",
-    "date": "2026-06-04 12:43",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Diverge",
+    "date": "2026-06-04 20:04",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Valuation at historic extreme raises downside risk.",
-      "Price holds above MA20 but momentum weakening amid geopolitical tensions.",
-      "Short‑term bias favors a sell‑the‑rally setup with tight risk control."
+      "Price above MA20 signals bullish trend continuation",
+      "Tech sector weakness offset by SpaceX IPO optimism",
+      "Key support at MA20 with resistance at 7600"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 at rare valuation extreme; technicals flat, fundamentals weak, sentiment negative, suggesting near‑term downside.",
+    "excerpt": "S&P 500 holds above MA20 amid mixed tech earnings and SpaceX IPO-induced risk-on demand.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Extreme valuation and weakening momentum favor a short‑term sell‑the‑rally setup.",
-    "entry": "7540.00",
-    "tp": "7300.00",
-    "sl": "7650.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Price above MA20 with institutional rotation offsetting tech weakness supports tactical long bias.",
+    "entry": "7470.00",
+    "tp": "7600.00",
+    "sl": "7425.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "BTC/USD 市場分析",
-    "date": "2026-06-04",
+    "title": "[BTC/USD] UP: Bottom Nearing as Institutional Sentiment Improves",
+    "date": "2026-06-04 20:08",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "tldr_points": [],
+    "tldr_points": [
+      "Price tests near‑term support around $62.5k",
+      "MA20 at $73.9k offers a clear upside target",
+      "Standard Chartered flags bottom, while Coinbase expands futures"
+    ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "",
+    "excerpt": "BTC nears a strategic support zone; institutional catalysts and MA20 create a bullish setup.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Bottom nearing with institutional support; MA20 offers a defined upside.",
+    "entry": "62400",
+    "tp": "73800",
+    "sl": "60500",
+    "reliability": "HIGH"
   }
 }
