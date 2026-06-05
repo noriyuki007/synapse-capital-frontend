@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-05 03:13",
+    "title": "[USD/JPY] UP: Technical Bullish Bias Reinforced by PBOC USD/CNY Strength",
+    "date": "2026-06-05 12:29",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 with bullish fundamentals",
-      "Inflation risk underpins USD strength",
-      "Technical structure supports upside momentum"
+      "Price above MA20 signals short-term bullish momentum.",
+      "PBOC's higher USD/CNY fix reflects dollar strength, supporting upside.",
+      "Mixed risk sentiment from Nasdaq sell-off and Oman oil disruption limits downside."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY eyes upward bias as Fed inflation risk looms; price above MA20, MA20 at 158.72, broker [xm-trading] optimal. now",
+    "excerpt": "USD/JPY above MA20; PBOC USD/CNY fix shows dollar strength, technical bias favors buying dips at 158.90 with tight risk.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPY eyes upward bias as Fed inflation risk looms; price above MA20, MA20 at 158.72, broker [xm-trading] optimal. now",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Technical bullish bias supported by PBOC USD/CNY fix and price above MA20.",
+    "entry": "158.90",
+    "tp": "160.50",
+    "sl": "158.40",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Index Holds Above MA20 Amid Broad Equity Rally and Yield Fade",
-    "date": "2026-06-05 03:16",
+    "title": "[S&P 500] UP: Support Holds at MA20 Amid Positive Employment Outlook and AI Sector Resilience",
+    "date": "2026-06-05 12:35",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price > MA20, signaling bullish bias",
-      "Yield curve flattening supports equity demand",
-      "Key resistance at 7,650–7,680; support at 7,500"
+      "Price trades 1.4% above MA20",
+      "Broad macro backdrop supportive: moderate rates, strong jobs data",
+      "Technical profile shows bullish channel and near‑term buying interest"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades above MA20, backed by falling yields and a macro‑driven equity rally.",
+    "excerpt": "S&P 500 above MA20, tech pull‑back limited; jobs data and AI exposure drive bullish bias.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price above MA20 and weakening yields create a bullish risk‑reward profile.",
-    "entry": "7595-7605",
-    "tp": "7680",
-    "sl": "7500",
+    "comment": "Price above MA20 with supportive macro data and AI catalyst underpins bullish bias.",
+    "entry": "7505.00",
+    "tp": "7640.00",
+    "sl": "7455.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: Price Below MA20 Amid Regulatory Uncertainty and Institutional DeFi Inflows",
-    "date": "2026-06-05 03:21",
+    "title": "[BTC/USD] DOWN: Price Below MA20 Amid Mixed Fundamentals",
+    "date": "2026-06-05 12:37",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD trading 15% below MA20 (74,022)",
-      "Institutional DeFi inflows vs. regulatory headwinds",
-      "Range-bound momentum suggests consolidation phase"
+      "Price trades below MA20 indicating bearish bias.",
+      "Institutional tokenized deposit plans lend long‑term support.",
+      "Short‑term downside risk remains dominant."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD below MA20 with mixed catalysts and technical uncertainty.",
+    "excerpt": "BTC/USD struggles beneath MA20 as macro news offers mixed signals; near‑term downside favored.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "Consolidation continues below MA20 amid institutional inflows and policy uncertainty.",
-    "entry": "68500.00",
-    "tp": "72000.00",
-    "sl": "62000.00",
+    "status": "SELL",
+    "comment": "Price below MA20 with bearish order flow and rate pressure supports short bias toward 60k support.",
+    "entry": "63200.00",
+    "tp": "60000.00",
+    "sl": "65000.00",
     "reliability": "MEDIUM"
   }
 }
