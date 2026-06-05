@@ -1,68 +1,64 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Technical Bullish Bias Reinforced by PBOC USD/CNY Strength",
-    "date": "2026-06-05 12:29",
+    "title": "[USD/JPY] UP: AI Detects Bullish Bias from Price Above MA20 and Hawkish Fed Expectations",
+    "date": "2026-06-05 20:25",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 signals short-term bullish momentum.",
-      "PBOC's higher USD/CNY fix reflects dollar strength, supporting upside.",
-      "Mixed risk sentiment from Nasdaq sell-off and Oman oil disruption limits downside."
+      "Price holds above MA20 supporting near-term upside.",
+      "Hawkish Fed outlook reinforces USD strength versus yen.",
+      "Key resistance at 161.50; stop-loss near 158.70."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY above MA20; PBOC USD/CNY fix shows dollar strength, technical bias favors buying dips at 158.90 with tight risk.",
+    "excerpt": "USD/JPY holds above MA20 as hawkish Fed outlook and US data support upside, targeting 161.50 with stops near 158.70.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Technical bullish bias supported by PBOC USD/CNY fix and price above MA20.",
-    "entry": "158.90",
-    "tp": "160.50",
-    "sl": "158.40",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPY holds above MA20 as hawkish Fed outlook and US data support upside, targeting 161.50 with stops near 158.70.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Support Holds at MA20 Amid Positive Employment Outlook and AI Sector Resilience",
-    "date": "2026-06-05 12:35",
+    "title": "S&P 500 市場分析",
+    "date": "2026-06-05",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "",
-    "tldr_points": [
-      "Price trades 1.4% above MA20",
-      "Broad macro backdrop supportive: moderate rates, strong jobs data",
-      "Technical profile shows bullish channel and near‑term buying interest"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 above MA20, tech pull‑back limited; jobs data and AI exposure drive bullish bias.",
+    "excerpt": "",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Price above MA20 with supportive macro data and AI catalyst underpins bullish bias.",
-    "entry": "7505.00",
-    "tp": "7640.00",
-    "sl": "7455.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Below MA20 Amid Mixed Fundamentals",
-    "date": "2026-06-05 12:37",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-05 20:32",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price trades below MA20 indicating bearish bias.",
-      "Institutional tokenized deposit plans lend long‑term support.",
-      "Short‑term downside risk remains dominant."
+      "Price sits ~15% below MA20, presenting a dip‑buy opportunity toward the 20‑day average.",
+      "Hong Kong’s tokenized bond push with JPMorgan and HSBC adds institutional crypto demand.",
+      "Grayscale’s call for broader buyer participation suggests a potential sustainable bottom if inflows resume."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD struggles beneath MA20 as macro news offers mixed signals; near‑term downside favored.",
+    "excerpt": "BTC/USD poised for rebound to MA20 resistance amid tokenized bond initiatives; watch for buyer return and risk‑off shifts",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price below MA20 with bearish order flow and rate pressure supports short bias toward 60k support.",
-    "entry": "63200.00",
-    "tp": "60000.00",
-    "sl": "65000.00",
+    "status": "BUY",
+    "comment": "Price below MA20 with improving fundamentals offers a dip‑buy toward the 20‑day average.",
+    "entry": "62250",
+    "tp": "73250",
+    "sl": "59800",
     "reliability": "MEDIUM"
   }
 }
