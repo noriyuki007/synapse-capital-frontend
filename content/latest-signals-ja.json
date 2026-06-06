@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-06-06 02:51",
+    "title": "[USD/JPY] UP: 強い米雇用統計とMA20上抜けが短期的な上昇バイアスを示す",
+    "date": "2026-06-06 11:51",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "USD/JPYはMA20を上抜けし上昇バイアスが形成中",
-      "米利回り上昇とドル強含みが円売りを促進",
-      "リスクオフ要因は限定的でトレンド継続の余地あり"
+      "強い米雇用統計が米ドル需要を押し上げ、債券・株価は下落",
+      "現在価格160.29はMA20158.89を上回り短期的な上昇トレンドを示す",
+      "押し目買いを推奨し、ストップはMA20下方に設定"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "現在価格160.323はMA20の158.892を上回り、米利回り上昇とドル強含みがUSD/JPYの上昇を支える。",
+    "excerpt": "強い米雇用統計が米ドルを支え、価格はMA20を上抜けて短期的な上昇バイアスを維持している。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20上抜けと米利回り上昇によるドル強含みが上昇バイアスを支える",
-    "entry": "160.10",
-    "tp": "161.00",
-    "sl": "159.50",
-    "reliability": "HIGH"
+    "comment": "米雇用統計の好調とMA20上抜けにより短期的な上昇バイアスが継続",
+    "entry": "160.00",
+    "tp": "161.50",
+    "sl": "158.80",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20下抜けと強い雇用データがテクニカルを圧迫",
-    "date": "2026-06-06 02:59",
+    "title": "[S&P 500] DOWN: MA20割れとテクノロジーセクターの下落が示す弱気サイン",
+    "date": "2026-06-06 11:56",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "強い米雇用統計がリスクオフを誘発し、ハイテク株が売られた。",
-      "S&P 500はMA20を下抜け、短期的な下押し圧力が強まっている。",
-      "ファンダメンタルズは依然堅調だが、テクニカル的な調整局面が近い。"
+      "MA20割れが短期的な弱気サインを示す",
+      "テクノロジーセクターの下落がS&P 500に波及",
+      "7400レジスタンスが次の節点"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20下抜けと強雇用データが重なり、S&P 500は短期的な下落リスクが高まっている。",
+    "excerpt": "MA20を下回るS&P 500はテクノロジーセクターの下落に伴い短期的な調整局面。7400レベルでの反発が鍵。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "MA20下抜けと強い雇用データが下押し圧力を強め、売りが優位。",
-    "entry": "7450.00",
-    "tp": "7400.00",
-    "sl": "7500.00",
+    "status": "NEUTRAL",
+    "comment": "MA20割れとテクノロジーセクターの下落が短期的な弱気サインだが、中期的には底入れの可能性あり",
+    "entry": "7400.00",
+    "tp": "7550.00",
+    "sl": "7350.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20下抜け継続と規制過懸念の負けんじ",
-    "date": "2026-06-06 03:09",
+    "title": "[BTC/USD] DOWN: MA20を下回る価格と規制不透明感が重なる",
+    "date": "2026-06-06 11:58",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTCはMA20を7割り下抜け、下落トレンド継続",
-      "米国の税制・規制強化リスクが下押し要因",
-      "bitflyerでの短期売出しシグナル成立"
+      "価格はMA20(73,186)を大幅に下回り、下押し圧力が継続",
+      "米国税制議会聞き取り前の規制不安がリスクオフ志向を強める",
+      "流動性の観点から[bitflyer]でのショートエントリーが効率的"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCはMA20を大きく下抜けし60722ドルで静樹。米規制強化と税制リスクの警戒が下押し圧力を続けている。",
+    "excerpt": "MA20を下回るBTCは規制警戒と売り圧力が重なり、短期的下落が予想される。",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "MA20下抜け継続、規制・税制過懸念",
-    "entry": "60500.00",
-    "tp": "55000.00",
-    "sl": "62000.00",
-    "reliability": "HIGH"
+    "comment": "MA20下抜けと規制不透明感が売りを促す",
+    "entry": "60900",
+    "tp": "58500",
+    "sl": "62500",
+    "reliability": "MEDIUM"
   }
 }
