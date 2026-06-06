@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-06 19:01",
+    "date": "2026-06-07 02:10",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Strong US jobs report lifts dollar yields and USD/JPY bias.",
-      "Equity selloff reduces risk appetite, supporting safe-haven demand for USD.",
-      "Technical price above MA20 signals near-term bullish momentum."
+      "Strong US jobs data fuels USD strength and risk‑off sentiment.",
+      "Price holds above the 20‑day MA at 158.89, signalling near‑term support.",
+      "Bullish setup targets 162.00 with a stop below 158.50."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Strong US jobs data boosts dollar, pushing USD/JPY above MA20 with bullish momentum despite equity weakness.",
+    "excerpt": "Strong US jobs data and risk‑off flows lift USD/JPY above MA20; bullish bias targets 162.00, stop below 159.5.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish bias driven by strong US jobs data and price above MA20.",
+    "comment": "Bullish bias supported by strong US jobs data, rising yield differential, and price holding above MA20.",
     "entry": "159.00",
     "tp": "162.00",
     "sl": "158.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Price Below MA20 Signals Near‑Term Reversion Amid Mixed Earnings",
-    "date": "2026-06-06 19:08",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-07 02:18",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "Price trading below 20‑day MA, suggesting a short‑term mean‑reversion opportunity.",
-      "Fed Chair Kevin Warsh faces inflation and policy tests that could keep rates volatile.",
-      "Earnings resilience provides underlying support but duration uncertain."
+      "Price below MA20 suggests near-term dip buying opportunity.",
+      "Citi's upgraded target to 8100 underscores AI-driven earnings momentum.",
+      "Dividend strength in Pfizer and sector outperformance supports risk appetite."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 sits below its 20‑day mean, offering a tactical long toward MA20 amid mixed macro cues.",
+    "excerpt": "S&P 500 trades below MA20; AI boost and dividend resilience point to upside toward 7500 with defined risk.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price below 20‑day MA offers a near‑term reversion play toward MA20 with defined risk.",
-    "entry": "7385.00",
-    "tp": "7480.00",
+    "comment": "Pullback to MA20 offers attractive entry amid AI‑funded earnings strength.",
+    "entry": "7380.00",
+    "tp": "7500.00",
     "sl": "7300.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Below MA20 Signals Bearish Momentum Amid Mixed Fundamentals",
-    "date": "2026-06-06 19:17",
+    "title": "[BTC/USD] DOWN: Price Below MA20 Signals Bearish Momentum Amid Macro Headwinds",
+    "date": "2026-06-07 02:22",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD trades below MA20 at $60,644, indicating near-term bearish bias.",
-      "Upcoming crypto tax legislation could add selling pressure.",
-      "Securitize’s path to NYSE listing offers a potential long‑term upside catalyst."
+      "Price trading below MA20 indicating bearish bias",
+      "Macro: tax legislation and legacy outflows weigh on risk assets",
+      "Technical: key support near 58k; resistance at MA20 ~72.3k"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD trades below MA20 at $60,644, facing bearish pressure; tax bill looms while Securitize NYSE path offers upside.",
+    "excerpt": "BTC/USD faces downside pressure as price stays under MA20 amid tax concerns and outflows.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price below MA20 with bearish rate correlation and negative short‑term order flow",
-    "entry": "60800.00",
-    "tp": "58200.00",
-    "sl": "62500.00",
+    "status": "NEUTRAL",
+    "comment": "BTC/USD faces downside pressure as price stays under MA20 amid tax concerns and outflows.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
