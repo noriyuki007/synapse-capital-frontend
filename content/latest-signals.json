@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 価格がMA20を上回り、強い米雇用統計がドル支援を示唆",
-    "date": "2026-06-07 02:10",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-07 12:35",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米雇用統計の強化でドル買い圧力が継続",
-      "NASDAQ下落はリスクオフだがドル円はドル優位が顕著",
-      "MA20を上抜けているため押し目買いシナリオが有力"
+      "強い米雇用データでUSD堅調",
+      "160円超えで押し目買いシグナル",
+      "リスク管理と[dmm-fx]の流動性活用を推奨"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "強い米雇用統計と株式市場の調整がドル円を押し上げ、MA20上抜けから押し目買いを推奨する。",
+    "excerpt": "強い米雇用でUSDは堅調、160円超えの押し目買いが狙い目。リスク管理と[dmm-fx]の流動性活用を推奨",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "米雇用統計の強化とMA20上抜けにより上昇期待が高まるため",
-    "entry": "160.05",
-    "tp": "161.30",
-    "sl": "159.40",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "強い米雇用でUSDは堅調、160円超えの押し目買いが狙い目。リスク管理と[dmm-fx]の流動性活用を推奨",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-06-07 02:18",
+    "date": "2026-06-07 12:38",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "インタラクティブブローカーズ",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "CitiがS&P 500目標を8100に引き上げ、AI関連収益の急騰を背景とする。",
-      "現在価格はMA20下抜けだが、調整局面での押し目買い機会と見なす。",
-      "ハイディビッド銘柄の堅調さがセクター全体の下振れを緩和し、全体的な需要を支える。"
+      "現在価格はMA20下抜けだが、短期的な反発余地が残る。",
+      "ファンダメンタルズはメガキャップ買いとETFシフトで底堅い。",
+      "Nomura Securitiesの流動性を活用し、押し目買いを推奨する。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20付近での反発を狙う買いシグナルが点灯。ファンダメンタルズとテクニカルが整合し、上値余地が拡大。",
+    "excerpt": "MA20付近での押し目買いが有望。ファンダメンタルズとテクニカルを併用し、Nomura Securitiesでの実行を推奨。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20付近での反発期待とCitiの上方目標が裏付ける買いシグナル",
-    "entry": "7385",
-    "tp": "7490",
-    "sl": "7280",
-    "reliability": "HIGH"
+    "comment": "MA20付近へのリトレースメント期待とファンダメンタルズの底堅さが根拠",
+    "entry": "7390.00",
+    "tp": "7470.00",
+    "sl": "7320.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20割れと規制リスクの悪化が売りバイアスを強化",
-    "date": "2026-06-07 02:22",
+    "title": "警戒アラート：BTC/USDの構造的変化と下落リスクの徹底検証",
+    "date": "2026-06-07 12:42",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "現在価格はMA20を大きく下回り、下押し圧力が継続",
-      "米国における暗号資産課税法案が機関投資家のリスクオフを誘発",
-      "流動性の観点からbitflyerの板厚を活用した売り戦略が有効"
+      "金利相関（近似）: -0.26で負相関傾向",
+      "テクニカル: 現在価格 61567.08 と MA20 72393.39 の位置関係が主導",
+      "需給: 上限帯 83746.04 / 下限帯 61040.75 / 直近高値 78100.56 / 直近安値 59108.92 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20下抜けと規制強化により下目線。エントリー59,000ドル付近、TP55,000ドル、SL61,500ドルでbitflyer利用を推奨。",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 61567.08、RSI(8.89)、MA20(72393.39)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20下抜け・規制リスク・売りオーダーフローが下目線を裏付ける",
-    "entry": "59000.00",
-    "tp": "55000.00",
-    "sl": "61500.00",
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、BTC/USDの現在価格 61567.08、RSI(8.89)、MA20(72393.39)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
