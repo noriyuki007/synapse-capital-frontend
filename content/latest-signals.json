@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-06-07 19:27",
+    "title": "[USD/JPY] UP: MA20での反発とファンダメンタルズ背後の強気シナリオ",
+    "date": "2026-06-08 02:13",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "強い米雇用統計がドル買いを後押しし、利回り上昇がUSD/JPYを支える",
-      "現在価格はMA20を上抜けており、短期的な押し目買いのシグナルが点灯",
-      "リスクオフの動きは限定的で、円買い圧力は弱いため上値余地が残存"
+      "価格はMA20上昇トレンドを維持",
+      "米CPI・米労働市場データが上振れ改善",
+      "リスクオフから円売り・米ドル買いが再燃"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米雇用統計の強化がドル買いを促し、テクニカルではMA20を上抜けた状態。押し目買いを想定し、エントリー160.00、TP161.50、SL159.30でリスク管理を推奨。",
+    "excerpt": "米CPIと雇用データの上振れがUSD/JPY押し底を支え、MA20超えで上昇トレンド再燃。リスクオフで円売りが再開。",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "米雇用統計の強化がドル買いを促し、テクニカルではMA20を上抜けた状態。押し目買いを想定し、エントリー160.00、TP161.50、SL159.30でリスク管理を推奨。",
+    "comment": "米CPIと雇用データの上振れがUSD/JPY押し底を支え、MA20超えで上昇トレンド再燃。リスクオフで円売りが再開。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: 価格がMA20下放れと弱気テクニカルを示唆",
-    "date": "2026-06-07 19:28",
+    "title": "[S&P 500] DOWN: 現在価格がMA20下抜け、雇用統計ショックとファンダメンタルズの悪化を反映",
+    "date": "2026-06-08 02:17",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "recommended_broker": "指定ブローカー",
     "tldr_points": [
-      "MA20付近での押し目売りが有効",
-      "ファンダメンタルズはスペースX除外でセクター偏りリスク",
-      "流動性観点から主要ブローカーの利用を推奨"
+      "雇用統計の過熱感がS&P 500に1.4兆ドルの時価総額剥落をもたらした",
+      "マーヴェル・テクノロジーのS&P 500採用とAI関連株の上昇はセクター別の強気材料だが、全体相殺効果は限定的",
+      "現在価格7383.74はMA20 7479.51を下抜けており、短期的な下押し圧力が優位"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を下回り、短期的な売り圧力が強まっている。ファンダメンタルズとテクニカルが整合し、売りバイアスが妥当。",
+    "excerpt": "雇用統計の悪化とテクニカルの乖離からS&P 500は下押し基調。エントリーは7350付近、TP 7200、SL 7500でリスク管理を徹底。",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "MA20下放れと弱気ファンダメンタルズが売りバイアスを支持",
-    "entry": "7380",
+    "comment": "雇用統計悪化とMA20下抜けによる下押し圧力",
+    "entry": "7350",
     "tp": "7200",
-    "sl": "7480",
+    "sl": "7500",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20支柱と税制リスクの二重サポート",
-    "date": "2026-06-07 19:33",
+    "title": "[BTC/USD] DOWN: MA20割れと流動性不安の悪循環を警戒",
+    "date": "2026-06-08 02:22",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20付近での買いシグナルが技術的サポート",
-      "税制議論が波及しリスクオフ余波",
-      "流動性確保のためbitflyerを推奨"
+      "MA20を割り込み、短期的な下落トレンドに転換",
+      "流動性問題とリスクオフが売り圧力を強化",
+      "短期的な押し目は売り優勢と判断"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "現在のBTC/USDは62,422円。MA20（71,632円）への戻しが期待され、税制改正議論が変動要因。近い将来の課税規則改正が市場心理に影響し、リスクオフが続くと見込む。また、流動性の高いbitflyerを推奨し、リスク管理を徹底。",
+    "excerpt": "BTC/USDがMA20を割り込み、流動性不安とリスクオフ環境が下落圧力を強化。本戦略の実行にあたっては、流動性の観点からbitflyerの利用を推奨する。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "現在のBTC/USDは62,422円。MA20（71,632円）への戻しが期待され、税制改正議論が変動要因。近い将来の課税規則改正が市場心理に影響し、リスクオフが続くと見込む。また、流動性の高いbitflyerを推奨し、リスク管理を徹底。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "MA20割れと流動性不安が下落圧力を強化",
+    "entry": "60000.00",
+    "tp": "55000.00",
+    "sl": "71623.80",
+    "reliability": "HIGH"
   }
 }
