@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] FLAT: Geopolitical De-escalation Neutralizes Upside Momentum",
-    "date": "2026-06-08 21:26",
+    "title": "[USD/JPY] UP: Price Above MA20 Signals Bullish Momentum Amid Mixed Risk Sentiment",
+    "date": "2026-06-09 03:24",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Geopolitical risk premium receding on ceasefire signals",
-      "Price remains above MA20 but facing psychological resistance at 160.00",
-      " USD weakness offsetting JPY safety bids"
+      "USD/JPY trades above the 20‑day MA at 160.15, suggesting near‑term bullish bias.",
+      "Geopolitical tension in the Middle East adds safe‑haven demand, but USD strength outweighs JPY flow.",
+      "Key technical resistance lies around 161.00; a break could target 162.50."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY stalls near 160.00 as Iran-Israel ceasefire signals reduce safe-haven demand and volatility.",
+    "excerpt": "USD/JPY holds above MA20 with bullish bias; watch for break above 161.00 targeting 162.50.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "Price is pinned between structural support at MA20 and psychological resistance at 160.00.",
-    "entry": "159.95",
-    "tp": "159.10",
-    "sl": "160.30",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Bullish bias supported by price above MA20 and favorable yield differential.",
+    "entry": "160.10",
+    "tp": "161.80",
+    "sl": "159.40",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-08 21:29",
+    "title": "[S&P 500] DOWN: Price Below MA20 Amid Mixed Tech Momentum",
+    "date": "2026-06-09 03:38",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price below MA20 suggests near-term resistance; bounce potential.",
-      "Marvell inclusion and AI IPO wave provide bullish catalysts.",
-      "Geopolitical tensions keep volatility elevated but supportive for risk assets."
+      "S&P 500 trades 52 points beneath MA20",
+      "Tech earnings support short‑term rally but broader rate risk persists",
+      "Target 7400 with stop at 7485 for defined risk"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades below MA20 with upside bias from AI IPO inflows and Marvell addition.",
+    "excerpt": "S&P 500 slips under MA20; technical bias bearish despite tech‑driven lift.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Price poised to retest MA20 support amid AI-driven inflows.",
-    "entry": "7350.00",
-    "tp": "7480.00",
-    "sl": "7300.00",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Price below MA20 with adverse rate backdrop and expanding short positioning",
+    "entry": "7440",
+    "tp": "7400",
+    "sl": "7485",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Anticipating MA20 Re-test as Institutional Catalysts Align",
-    "date": "2026-06-08 21:43",
+    "title": "[BTC/USD] DOWN: Price Below MA20 Amid Institutional Accumulation Uncertainty",
+    "date": "2026-06-09 03:41",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Institutional accumulation via Saylor’s $101M BTC purchase",
-      "Senate Clarity Act vote could unlock regulatory clarity",
-      "ETF outflows dominated by spot funds, not bullish narratives"
+      "Price 9% under MA20, bearish structure",
+      "Institutional sentiment mixed, no panic but cautious",
+      "Liquidity tightening on order flow"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Institutional buys and regulatory progress offset ETF outflows, bullish short-term bias.",
+    "excerpt": "BTC trades 9% below MA20, bearish bias reinforced by order‑flow compression and mixed institutional cues.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Institutional accumulation and regulatory clarity justify directional bias.",
-    "entry": "63500",
-    "tp": "71000",
-    "sl": "61800",
+    "status": "SELL",
+    "comment": "Price is significantly below MA20, order flow is compressing, and institutional sentiment is cautious, favoring a short bias.",
+    "entry": "63453.72",
+    "tp": "59800.00",
+    "sl": "71200.00",
     "reliability": "HIGH"
   }
 }
