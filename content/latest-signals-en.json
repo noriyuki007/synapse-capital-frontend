@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Price Above MA20 Amid Mixed Geopolitical and Fed Signals",
-    "date": "2026-06-08 12:41",
+    "title": "[USD/JPY] FLAT: Geopolitical De-escalation Neutralizes Upside Momentum",
+    "date": "2026-06-08 21:26",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above the 20‑day MA at 160.36, signalling short‑term bullish momentum.",
-      "Fed rate‑cut expectations have been pared back by Goldman Sachs, supporting the USD.",
-      "Geopolitical flare‑ups in Iran and Saudi Arabia introduce risk‑off sentiment but have yet to outweigh USD strength."
+      "Geopolitical risk premium receding on ceasefire signals",
+      "Price remains above MA20 but facing psychological resistance at 160.00",
+      " USD weakness offsetting JPY safety bids"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above MA20 as Fed cuts priced out; geopolitical tension offers limited JPY support, bias remains bullish.!",
+    "excerpt": "USD/JPY stalls near 160.00 as Iran-Israel ceasefire signals reduce safe-haven demand and volatility.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Price above MA20 with supportive Fed outlook; entry on dip to MA20 target.",
-    "entry": "159.10",
-    "tp": "161.50",
-    "sl": "158.30",
+    "status": "NEUTRAL",
+    "comment": "Price is pinned between structural support at MA20 and psychological resistance at 160.00.",
+    "entry": "159.95",
+    "tp": "159.10",
+    "sl": "160.30",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Price Below MA20 Amid Geopolitical Tension",
-    "date": "2026-06-08 12:43",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-08 21:29",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 trades below its 20‑day moving average, signaling short‑term bearish momentum.",
-      "Iran‑Israel escalation adds geopolitical risk premium to equity markets.",
-      "Mixed semiconductor news leaves sector direction ambiguous, limiting upside."
+      "Price below MA20 suggests near-term resistance; bounce potential.",
+      "Marvell inclusion and AI IPO wave provide bullish catalysts.",
+      "Geopolitical tensions keep volatility elevated but supportive for risk assets."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades below MA20 at 7,384, amid Iran-Israel tension and semiconductor readings,pointing to near-term downside.",
+    "excerpt": "S&P 500 trades below MA20 with upside bias from AI IPO inflows and Marvell addition.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Price below MA20 with geopolitical headwinds favors near-term downside.",
-    "entry": "7400.00",
-    "tp": "7200.00",
-    "sl": "7500.00",
+    "status": "BUY",
+    "comment": "Price poised to retest MA20 support amid AI-driven inflows.",
+    "entry": "7350.00",
+    "tp": "7480.00",
+    "sl": "7300.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-08 12:47",
+    "title": "[BTC/USD] UP: Anticipating MA20 Re-test as Institutional Catalysts Align",
+    "date": "2026-06-08 21:43",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC rebounds from oversold control at $63k",
-      "technical support at MA20 near $71.7k",
-      "macro backdrop of quantum treasury balancing"
+      "Institutional accumulation via Saylor’s $101M BTC purchase",
+      "Senate Clarity Act vote could unlock regulatory clarity",
+      "ETF outflows dominated by spot funds, not bullish narratives"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD poised to climb toward MA20 rally, underpinned by dovish yields and bullish macro news.",
+    "excerpt": "Institutional buys and regulatory progress offset ETF outflows, bullish short-term bias.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Bullish trend to MA20 with macro support.",
-    "entry": "63200.00",
-    "tp": "71400.00",
-    "sl": "61500.00",
-    "reliability": "MEDIUM"
+    "comment": "Institutional accumulation and regulatory clarity justify directional bias.",
+    "entry": "63500",
+    "tp": "71000",
+    "sl": "61800",
+    "reliability": "HIGH"
   }
 }

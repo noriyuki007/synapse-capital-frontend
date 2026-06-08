@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-06-08 12:41",
+    "title": "[USD/JPY] DOWN: MA20割れとリスクオフ地合いの継続を示唆",
+    "date": "2026-06-08 21:26",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20（159.05）での技術的買い手介入が期待される",
-      "金融政策の硬化と地緯ストレスがドルを支える",
-      "板の流動性は高いが、ヘッジ勢のポジショニングに注意"
+      "イラン・イスラエルの停戦宣言でリスクオフが後退し、ドル売り圧力が続く可能性",
+      "現在価格はMA20を上抜けているが、上値は重く、下側に159.00付近のサポートが控える",
+      "短期的な押し目売りを狙い、エントリーは159.80付近、TPは159.20、SLは160.30とする"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米金利の持ち上がりと中東の緊張、2つのバッドベネフィットがドルを押し上げる。MA20での技術的買い手を捉え、ロングポジションの時を準備。",
+    "excerpt": "地政学的緊張の緩和でドルが弱含む展開。MA20を上抜けたものの上値は重く、売り方向にバイアスを置く。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20での技術的買い手と強気ファンダメンタルズの整合性",
-    "entry": "159.05",
-    "tp": "161.20",
-    "sl": "158.00",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "地政学的リスク後退によるドル売り圧力とMA20付近の売りオーダーフロー優位性",
+    "entry": "159.80",
+    "tp": "159.20",
+    "sl": "160.30",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] NEUTRAL: 地政学的リスクとテクニカルな押し目が競合",
-    "date": "2026-06-08 12:43",
+    "title": "[S&P 500] DOWN: 価格がMA20下放れ、調整圧力が優勢",
+    "date": "2026-06-08 21:29",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "NEUTRAL",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
     "tldr_points": [
-      "地政学的リスクが市場に不安定さを追加",
-      "テクニカル的にMA20でのサポートを確認",
-      "流動性確保のためIBの利用を推奨"
+      "S&P 500はMA20を下回り短期的な調整局面に入る可能性",
+      "マーベルのS&P 500採用が個別株の上昇をけん引するも、全体への波及は限定的",
+      "中東情勢の緊張がリスクオフ志向を強め、売り圧力を底支え"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500は地政学的緊張とテクニカル要因の間で中立な立場。MA20でのサポートと中期的な強気ファンダメンタルズの間でポジショニングを検討すべき。",
+    "excerpt": "価格はMA20下放れで下向きバイアスが濃厚。マーベルの指数採用は個別株に留まり、中東リスクが市場心理を悪化させる。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "MA20サポートと地政学的リスクのバランスから中立評価。押し目買いを想定",
-    "entry": "7450.00",
-    "tp": "7600.00",
-    "sl": "7250.00",
+    "status": "SELL",
+    "comment": "MA20下放れとリスクオフが下押し要因",
+    "entry": "7380.00",
+    "tp": "7300.00",
+    "sl": "7430.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20付近での反発と強気ファンダメンタルズの整合性",
-    "date": "2026-06-08 12:47",
+    "title": "[BTC/USD] FLAT: MA20下でのテクニカル弱含むが、機関採用とコーポレート買いを踏まえた現在価格は中長期では過小評価の空間",
+    "date": "2026-06-08 21:43",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "現在63,000美元付近で反発局面に転換、MA20超えが期待される",
-      "韓国KOSPI急落がリスクオフを誘発、市場全体の売圧が緩和",
-      "Saylor氏の追加購入示唆が楽観的シナリオを裏付け"
+      "テクニカルは現在価格がMA20下で反張りそのものなも含むが、機関・コーポレートからの継続的なビットコイン購入圧力が存在",
+      "UK FCAによる上場ファンドの暗号資産ETN投資認可、またUS政治リスク低減進展は中長期構造的ポジティブ",
+      "ETFからの大規模アウトローによる短期的な売られた契機となっているものの、ストックホルジ容認テーゼは依然十分に成立"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "現在63,000美元付近で反発局面に転換、MA20超えが期待されると同時に、韓国KOSPIの急落がリスクオフを背景に市場全体の売圧が緩和。Saylor氏の追加購入示唆が楽観的見通しを支えている。",
+    "excerpt": "63599ドルの現在価格はテクニカル的に弱含むも、機関・コーポレートの継続したビットコイン購入が底値予防線として機能中。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20付近の押し目が支持帯に転換、流動性確保",
-    "entry": "63100.78",
-    "tp": "71600",
-    "sl": "60500",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "現在価格はテクニカル的に弱含むも、コーポレート買い・機関採用の構造的要因から過小評価の空間がある",
+    "entry": "63599",
+    "tp": "71015",
+    "sl": "59500",
+    "reliability": "MEDIUM"
   }
 }
