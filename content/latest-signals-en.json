@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Bullish Momentum Above MA20 as US Jobs Data Supports Dollar",
-    "date": "2026-06-08 02:13",
+    "title": "[USD/JPY] UP: Price Above MA20 Amid Mixed Geopolitical and Fed Signals",
+    "date": "2026-06-08 12:41",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US jobs data reinforces dollar strength",
-      "Geopolitical tensions keep yen bid",
-      "Price above MA20 indicates short-term bullish bias"
+      "Price holds above the 20‑day MA at 160.36, signalling short‑term bullish momentum.",
+      "Fed rate‑cut expectations have been pared back by Goldman Sachs, supporting the USD.",
+      "Geopolitical flare‑ups in Iran and Saudi Arabia introduce risk‑off sentiment but have yet to outweigh USD strength."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Strong US jobs data boosts USD, geopolitical risks support JPY; price above MA20 points to near-term USD/JPY upside now.",
+    "excerpt": "USD/JPY holds above MA20 as Fed cuts priced out; geopolitical tension offers limited JPY support, bias remains bullish.!",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish bias supported by strong US jobs data and price above MA20.",
-    "entry": "160.00",
-    "tp": "162.00",
-    "sl": "159.20",
+    "comment": "Price above MA20 with supportive Fed outlook; entry on dip to MA20 target.",
+    "entry": "159.10",
+    "tp": "161.50",
+    "sl": "158.30",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Signals Lithium ETF Momentum, MRVL AI Launch, Bullish Fundamentals",
-    "date": "2026-06-08 02:17",
+    "title": "[S&P 500] DOWN: Price Below MA20 Amid Geopolitical Tension",
+    "date": "2026-06-08 12:43",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Goldman Sachs",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
     "tldr_points": [
-      "AI identifies bullish momentum in lithium ETF",
-      "MRVL AI launch adds upside pressure",
-      "S&P 500 tests MA20 support near 7,384"
+      "S&P 500 trades below its 20‑day moving average, signaling short‑term bearish momentum.",
+      "Iran‑Israel escalation adds geopolitical risk premium to equity markets.",
+      "Mixed semiconductor news leaves sector direction ambiguous, limiting upside."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 probes MA20 near $7,384 as AI flags lithium ETF 125% surge, MRVL AI rally, bullish fundamentals ahead of jobs!!",
+    "excerpt": "S&P 500 trades below MA20 at 7,384, amid Iran-Israel tension and semiconductor readings,pointing to near-term downside.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "AI detects support at MA20 amid bullish fundamentals",
-    "entry": "7350",
-    "tp": "7500",
-    "sl": "7250",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "Price below MA20 with geopolitical headwinds favors near-term downside.",
+    "entry": "7400.00",
+    "tp": "7200.00",
+    "sl": "7500.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-08 02:22",
+    "date": "2026-06-08 12:47",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Bitcoin trading below MA20 at 71,623.80 but approaching key support",
-      "Michael Saylor signals potential fresh buy amid $11.7B Strategy underwater",
-      "Tokenized IPO access expands institutional on-ramps via Bybit and xStocks"
+      "BTC rebounds from oversold control at $63k",
+      "technical support at MA20 near $71.7k",
+      "macro backdrop of quantum treasury balancing"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Bitcoin nears MA20 support as Strategy hints at fresh buy. Institutional catalysts and order flow suggest near-term reversal potential.",
+    "excerpt": "BTC/USD poised to climb toward MA20 rally, underpinned by dovish yields and bullish macro news.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Oversold bounce off MA20 with corporate-backed accumulation signals",
-    "entry": "62250.00",
-    "tp": "68500.00",
-    "sl": "59500.00",
-    "reliability": "HIGH"
+    "comment": "Bullish trend to MA20 with macro support.",
+    "entry": "63200.00",
+    "tp": "71400.00",
+    "sl": "61500.00",
+    "reliability": "MEDIUM"
   }
 }
