@@ -1,68 +1,64 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発とBOJ利上げ期待の整合性を確認",
-    "date": "2026-06-09 11:50",
+    "title": "[USD/JPY] UP: MA20上抜けと米金利ハイク期待の整合性",
+    "date": "2026-06-09 19:58",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "BOJ利上げ期待がUSD/JPYを支持",
-      "MA20上昇が短期的な上昇トレンドを確認",
-      "160.00心理的節節を維持なら上昇継続"
+      "NFIB指数の予想下振れは米国景気の鈍化懸念を示唆するが、影響は限定的。",
+      "ゴールドマンが年内利下げ見送りを示唆し、ドルの金利優位が維持。",
+      "価格はMA20を上抜けており、短期的な上昇バイアスが形成。"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "BOJ利上げ期待と米日金利差拡大がUSD/JPYを支持。MA20上回り流動性が上昇トレンドを確認。",
+    "excerpt": "米NFIB小規模事業者楽観指数が予想を下回った一方で、ゴールドマン・サックスが年内利下げ見送りを示唆し、米ドル円はMA20を上抜けて160.16付近で推移、上昇余地が残ると見られる。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "BOJ利上げ期待と米日金利差拡大で上昇トレンド継続",
-    "entry": "159.70",
-    "tp": "161.10",
-    "sl": "158.80",
-    "reliability": "MEDIUM"
+    "comment": "MA20上抜けと米金利ハイク期待による上昇バイアス",
+    "entry": "160.10",
+    "tp": "161.20",
+    "sl": "159.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500：レンジ圏内での警戒感とプロフェッショナル実行戦略",
-    "date": "2026-06-09 11:51",
+    "title": "[S&P 500] トレンド occasions [方向性]",
+    "date": "2026-06-09 20:02",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP または DOWN または FLAT",
     "recommended_broker": "",
-    "tldr_points": [
-      "金利相関（近似）: -0.75で負相関傾向",
-      "テクニカル: 現在価格 7405.73 と MA20 7479.85 の位置関係が主導",
-      "需給: 上限帯 7642.34 / 下限帯 7317.36 / 直近高値 7620.90 / 直近安値 7333.68 によるターゲット設計"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 7405.73、RSI(50.22)、MA20(7479.85)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "本日のAI解析では、S&P 500の現在価格 7405.73、RSI(50.22)、MA20(7479.85)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "comment": "シナプス解析に基づくシグナル",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20を11.5%下回り、戻り売り優位の戦術局面",
-    "date": "2026-06-09 11:55",
+    "title": "[BTC/USD] FLAT: MA20乖離からの反発機会とETF流出の緩和兆候",
+    "date": "2026-06-09 20:05",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "現在価格はMA20を大きく下回り、短期的なトレンドは売り優位",
-      "機関需要は底堅いが、セキュリティ事故とAI実需批判がリスク選好を抑制",
-      "62,790ドル付近からショート、60,000ドルを第一目標、66,500ドルを損切り水準"
+      "MA20乖離で反発の可能性",
+      "ETF流出に緩和兆候",
+      "流動性確保の重要性"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCはMA20を11.5%下回り、戻り売り優位。機関需要は底堅いが、セキュリティ懸念とAI実需批判がリスク選好を抑制し、60,000ドル攻防が焦点。",
+    "excerpt": "BTC/USDはMA20大幅乖離下だが、ETF流出に緩和兆候あり。押し目買い戦略を厳格なリスク管理下で推奨。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTCはMA20を11.5%下回り、戻り売り優位。機関需要は底堅いが、セキュリティ懸念とAI実需批判がリスク選好を抑制し、60,000ドル攻防が焦点。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "MA20乖離縮小とETF流出緩和兆候を根拠に押し目買い",
+    "entry": "58000",
+    "tp": "63500",
+    "sl": "55000",
     "reliability": "MEDIUM"
   }
 }
