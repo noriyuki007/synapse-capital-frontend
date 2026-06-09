@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Price Above MA20 Signals Bullish Momentum Amid Mixed Risk Sentiment",
-    "date": "2026-06-09 03:24",
+    "title": "[USD/JPY] FLAT: Divergence Between China Trade Strength and BoJ Hawkishness",
+    "date": "2026-06-09 11:50",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY trades above the 20‑day MA at 160.15, suggesting near‑term bullish bias.",
-      "Geopolitical tension in the Middle East adds safe‑haven demand, but USD strength outweighs JPY flow.",
-      "Key technical resistance lies around 161.00; a break could target 162.50."
+      "BoJ June hike expectations create a hard ceiling near 160.50",
+      "Positive Chinese trade data supports broader risk-on sentiment but limits USD dominance",
+      "Price hovering above MA20 suggests short-term resilience despite intervention risks"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above MA20 with bullish bias; watch for break above 161.00 targeting 162.50.",
+    "excerpt": "USD/JPY faces resistance as BoJ rate hike expectations clash with positive Chinese trade data and MA20 support.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Bullish bias supported by price above MA20 and favorable yield differential.",
-    "entry": "160.10",
-    "tp": "161.80",
-    "sl": "159.40",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BoJ hike expectations limit upside while MA20 provides baseline support.",
+    "entry": "160.19",
+    "tp": "160.50",
+    "sl": "158.80",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Price Below MA20 Amid Mixed Tech Momentum",
-    "date": "2026-06-09 03:38",
+    "title": "[S&P 500] DOWN: Price Below MA20 Amid Geopolitical Strain",
+    "date": "2026-06-09 11:51",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 trades 52 points beneath MA20",
-      "Tech earnings support short‑term rally but broader rate risk persists",
-      "Target 7400 with stop at 7485 for defined risk"
+      "S&P 500 trades below its 20‑day moving average, signaling near‑term bearish momentum.",
+      "Escalating Israel‑Iran tensions weigh on risk assets, dragging US equity futures lower.",
+      "Emerging‑market outperformance and dividend‑ETF inflows contrast with domestic equity weakness."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 slips under MA20; technical bias bearish despite tech‑driven lift.",
+    "excerpt": "S&P 500 under pressure as price sits below MA20 amid geopolitical strain and mixed fundamental cues.",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "Price below MA20 with adverse rate backdrop and expanding short positioning",
-    "entry": "7440",
-    "tp": "7400",
-    "sl": "7485",
-    "reliability": "HIGH"
+    "comment": "Price below MA20 with bearish order flow and geopolitical headwinds supports a short‑term decline toward 7300.",
+    "entry": "7420",
+    "tp": "7300",
+    "sl": "7500",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Below MA20 Amid Institutional Accumulation Uncertainty",
-    "date": "2026-06-09 03:41",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-09 11:55",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price 9% under MA20, bearish structure",
-      "Institutional sentiment mixed, no panic but cautious",
-      "Liquidity tightening on order flow"
+      "Price sits below MA20 (~$62.8k vs $71k), indicating near-term bearish bias but potential dip-buying zone.",
+      "Institutional sentiment remains positive per Coinbase strategist, supporting accumulation on lower prices.",
+      "On-chain concerns (Humanity Protocol hack) offset by growing tokenized equity market, keeping fundamentals mixed."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC trades 9% below MA20, bearish bias reinforced by order‑flow compression and mixed institutional cues.",
+    "excerpt": "BTC under MA20 at $62,790; institutions eye dip buying, targeting $70,975 rebound amid mixed headlines despite worries!.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price is significantly below MA20, order flow is compressing, and institutional sentiment is cautious, favoring a short bias.",
-    "entry": "63453.72",
-    "tp": "59800.00",
-    "sl": "71200.00",
-    "reliability": "HIGH"
+    "status": "BUY",
+    "comment": "Price below MA20 with institutional dip‑buying interest offers a favorable long setup targeting the moving‑average resistance.",
+    "entry": "62500.00",
+    "tp": "70950.00",
+    "sl": "60200.00",
+    "reliability": "MEDIUM"
   }
 }
