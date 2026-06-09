@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-06-10-crypto-ja",
+    "date": "2026-06-10 03:12",
+    "title": "[BTC/USD] DOWN: MA20を上抜けできない弱気トレンドと規制リスクの重複",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "MA20を上抜けできない限り下落が続くと見込み、規制リスクが売り圧力を強める。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-10-crypto-en",
+    "date": "2026-06-10 03:12",
+    "title": "[BTC/USD] DOWN: Price Below MA20 Amid Regulatory Headwinds",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC sits below MA20 amid regulatory headwinds; bearish bias with short entry near 61.8k, TP 58k, SL 64.5k.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-06-10-stocks-ja",
+    "date": "2026-06-10 03:09",
+    "title": "[S&P 500] DOWN: MA20を上抜けず弱気モメンタム継続",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Nomura Securities",
+    "excerpt": "S&P500はMA20を下回り、ハイテク株の売り圧力と配当利回り低下予測が下値リスクを強化。戻り売りを推奨。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-10-stocks-en",
+    "date": "2026-06-10 03:09",
+    "title": "[S&P 500] DOWN: Price Below MA20 Amid Tech Weakness and Dividend Yield Pressure",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "PrimeTrade",
+    "excerpt": "S&P 500 slides below MA20 as tech sell‑off intensifies and dividend yields hit record lows.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-06-10-fx-ja",
+    "date": "2026-06-10 03:00",
+    "title": "[USD/JPY] UP: MA20反発と米債利回り上昇の整合性",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "現在価格はMA20を上回り、米長期金利上昇がドルを支える一方で、中東情勢の緊張はリスクオフ要因となる。短期的には押し目買いが有効と見込む。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-10-fx-en",
+    "date": "2026-06-10 03:00",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY climbs above MA20 on higher US yields, BoC stagflation fears, and Middle‑East geopolitical tension favoring dollar strength.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-06-09-crypto-ja",
     "date": "2026-06-09 20:05",
     "title": "[BTC/USD] FLAT: MA20乖離からの反発機会とETF流出の緩和兆候",

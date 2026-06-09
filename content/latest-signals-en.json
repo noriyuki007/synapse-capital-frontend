@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Divergence Widens as Fed Hawkishness Offsets BoJ Rate Hike Concerns",
-    "date": "2026-06-09 19:58",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-10 03:00",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Goldman Sachs shifts to zero-cut outlook for Fed in 2026",
-      "USD/JPY holding critical 160.00 psychological support",
-      "US-Japan yield differential remains the primary driver despite BoJ risks"
+      "Price above MA20 signals bullish momentum",
+      "US Treasury sale lifts yields, supporting USD",
+      "Geopolitical risk boosts safe‑haven demand for USD"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY remains bullish as Fed rate cut expectations vanish, maintaining support above the 160.00 handle.",
+    "excerpt": "USD/JPY climbs above MA20 on higher US yields, BoC stagflation fears, and Middle‑East geopolitical tension favoring dollar strength.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Fed's 'higher for longer' stance creates a fundamental tailwind overriding BoJ risks.",
-    "entry": "159.20",
+    "comment": "Bullish bias driven by higher US yields and geopolitical risk-off sentiment",
+    "entry": "160.20",
     "tp": "161.50",
-    "sl": "158.50",
+    "sl": "159.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-09 20:02",
+    "title": "[S&P 500] DOWN: Price Below MA20 Amid Tech Weakness and Dividend Yield Pressure",
+    "date": "2026-06-10 03:09",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "PrimeTrade",
     "tldr_points": [
-      "Price below MA20 suggests near-term dip, AI sector momentum provides upside.",
-      "Trump-Iran progress boosts risk appetite, supporting equities.",
-      "Technical bounce from MA20 aligns with fundamental catalysts."
+      "Price under MA20 indicates near‑term bearish bias",
+      "Tech sector deterioration and dividend‑yield compression act as downside catalysts",
+      "Risk‑managed short‑bias entry around 7348 with TP at 7200"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 poised for rebound as AI-driven fundamentals outweigh short‑term technical drag.",
+    "excerpt": "S&P 500 slides below MA20 as tech sell‑off intensifies and dividend yields hit record lows.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "AI‑driven fundamentals and improving sentiment support a bounce from MA20.",
-    "entry": "7405.00",
-    "tp": "7520.00",
-    "sl": "7350.00",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Price below MA20, technical breakdown, and macro headwinds support a short bias.",
+    "entry": "7348",
+    "tp": "7200",
+    "sl": "7480",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: Distribution Phase Dominates as Price Struggles Below MA20",
-    "date": "2026-06-09 20:05",
+    "title": "[BTC/USD] DOWN: Price Below MA20 Amid Regulatory Headwinds",
+    "date": "2026-06-10 03:12",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price locked in distribution phase below MA20",
-      "Institutional outflows persist despite easing selling pressure",
-      "Expansion of EU and Japanese institutional infrastructure provides long-term floor"
+      "BTC trades below the 20‑day moving average, indicating near‑term bearish momentum.",
+      "Regulatory news—CFTC weakening, crypto tax debate, and new risk frameworks—adds downside pressure.",
+      "Institutional interest in Ethena‑related products offers limited offsetting support."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC enters a distribution phase below 63k; institutional outflows clash with new EU/Japan adoption catalysts.",
+    "excerpt": "BTC sits below MA20 amid regulatory headwinds; bearish bias with short entry near 61.8k, TP 58k, SL 64.5k.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "Price is in a distribution phase below MA20 with heavy overhead resistance.",
-    "entry": "61500.00",
-    "tp": "67500.00",
-    "sl": "59500.00",
+    "status": "SELL",
+    "comment": "Price below MA20 with bearish order flow and regulatory headwinds supports a short bias toward 58k‑60k support.",
+    "entry": "61800.00",
+    "tp": "58000.00",
+    "sl": "64500.00",
     "reliability": "MEDIUM"
   }
 }
