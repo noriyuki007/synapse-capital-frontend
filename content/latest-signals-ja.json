@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20反発と米債利回り上昇の整合性",
-    "date": "2026-06-10 03:00",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-10 12:26",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "現在価格はMA20を上回り、米長期金利上昇がドルを支える",
-      "中東情勢の緊張はリスクオフ要因だが、利差拡大が優位",
-      "押し目買いを検討し、流動性の高い[dmm-fx]での実行を推奨"
+      "Iranの地域的報復攻撃がリスクオンを誘発",
+      "中国CPI回復圧力、PBOC利率引き下げ観計算される",
+      "テクニカル的に160.35がMA20を上抜け、 momentum continues"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "現在価格はMA20を上回り、米長期金利上昇がドルを支える一方で、中東情勢の緊張はリスクオフ要因となる。短期的には押し目買いが有効と見込む。",
+    "excerpt": "IG相当業種の地緯攻勢、中国経済のCPI回復圧力、そしてテクニカルな上昇トレンドを踏まえ、USD/JPYはMA20（159.33）を意識した押し目買い局面に。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20を支持線とする押し目買いと米長期金利上昇がドルを支えるため",
-    "entry": "159.50",
-    "tp": "162.00",
-    "sl": "158.80",
+    "comment": "MA20上抜け、ファンダメンタルズの整合性",
+    "entry": "160.50",
+    "tp": "161.50",
+    "sl": "159.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20を上抜けず弱気モメンタム継続",
-    "date": "2026-06-10 03:09",
+    "title": "[S&P 500] DOWN: 米国リスク情勢とMA20接近で下押しリスクが顕在化",
+    "date": "2026-06-10 12:31",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "IG証券",
     "tldr_points": [
-      "テクニカルはMA20下放れで短期下落基調",
-      "ファンダメンタルズはハイテク弱含みと配当利回り低下圧力が重複",
-      "売り戦略はMA20付近の戻りを狙う逆張りショート"
+      "米国の地政学的緊張とCPI懸念が下押し圧力を強化",
+      "MA20（7,478）付近での反発が不発、リスクオフが続伸",
+      "短期的には下落余地が残ると判断"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20を下回り、ハイテク株の売り圧力と配当利回り低下予測が下値リスクを強化。戻り売りを推奨。",
+    "excerpt": "米国の地政学的緊張とCPIデータへの注目が、S&P500を下押しさせる。MA20（7,478）付近で反発が不発、リスクオフが続くと見込む。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "MA20下放れとファンダメンタルズの下押し要因が短期下落を支持",
-    "entry": "7450",
-    "tp": "7300",
-    "sl": "7500",
+    "status": "NEUTRAL",
+    "comment": "米国の地政学的緊張とCPIデータへの注目が、S&P500を下押しさせる。MA20（7,478）付近で反発が不発、リスクオフが続くと見込む。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20を上抜けできない弱気トレンドと規制リスクの重複",
-    "date": "2026-06-10 03:12",
+    "title": "警戒アラート：BTC/USDの構造的変化と下落リスクの徹底検証",
+    "date": "2026-06-10 12:32",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20下放れで売り圧力が優勢",
-      "規制強化ニュースがマインドを悪化",
-      "売りエントリーは61000付近、TP 58000、SL 62500"
+      "金利相関（近似）: -0.26で負相関傾向",
+      "テクニカル: 現在価格 61429.37 と MA20 70188.24 の位置関係が主導",
+      "需給: 上限帯 82801.40 / 下限帯 57575.08 / 直近高値 78100.56 / 直近安値 59108.92 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を上抜けできない限り下落が続くと見込み、規制リスクが売り圧力を強める。",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 61429.37、RSI(13.84)、MA20(70188.24)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20未上抜けと規制リスクが売り圧力を強化",
-    "entry": "61000",
-    "tp": "58000",
-    "sl": "62500",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、BTC/USDの現在価格 61429.37、RSI(13.84)、MA20(70188.24)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
