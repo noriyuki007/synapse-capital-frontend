@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-10 12:26",
+    "title": "[USD/JPY] UP: AI Detects MA20 Support as CPI Risk and BOJ Absence Favor Dollar",
+    "date": "2026-06-10 20:36",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY holds above MA20 signaling near-term bullish bias",
-      "Geopolitical risk from Iran strikes boosts safe‑haven flows, favoring USD over JPY",
-      "Soft China CPI and weaker PBOC fixing reinforce dollar strength"
+      "USD/JPY trades above MA20 at 160.4949951171875, supporting a tactical long bias.",
+      "US CPI and Fed-hike repricing risk outweigh yen safe-haven demand unless geopolitical risk-off intensifies.",
+      "Preferred setup: buy pullbacks toward 160.20-160.35 with invalidation below 159.20."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY stays above MA20 amid Middle East tension and soft China CPI, pointing to bullish bias toward 161.50.",
+    "excerpt": "USD/JPY holds above MA20 as BOJ uncertainty, CPI risk, and Iran tensions favor selective dollar strength.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Technical break above MA20 with supportive fundamentals favors upside",
-    "entry": "160.20",
-    "tp": "161.80",
-    "sl": "159.70",
+    "comment": "Price remains above MA20 while BOJ uncertainty and US CPI risk favor controlled dollar strength.",
+    "entry": "160.20-160.35",
+    "tp": "161.20 / 162.00",
+    "sl": "159.20",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: AI Detects Resistance at MA20 as Geopolitical Tension Persists",
-    "date": "2026-06-10 12:31",
+    "title": "[S&P 500] UP: MA20 Holds as Inflation Dynamics and Buffett’s Caution Create Mixed Signals",
+    "date": "2026-06-10 20:43",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "For executing this specific setup, we recommend utilizing [] due to optimal liquidity.",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
     "tldr_points": [
-      "MA20 acts as dynamic resistance at 7478.54.",
-      "Geopolitical risk from Iran tensions fuels risk-off sentiment.",
-      "Fundamental upside moderated by looming CPI data."
+      "MA20 at 7479.85 offers key support amid mixed macro backdrop",
+      "Upcoming CPI data could validate or invalidate bullish momentum",
+      "Buffett’s bearish signal may indicate short-term profit-taking in large caps"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces a likely decline as price grazes MA20 resistance amid heightened risk aversion.",
+    "excerpt": "S&P 500 tests critical MA20 support as inflation CPI and geopolitical risks create uncertainty.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Price is below MA20 and geopolitical risk is high.",
-    "entry": "7440",
-    "tp": "7300",
-    "sl": "7470",
-    "reliability": "HIGH"
+    "status": "BUY",
+    "comment": "Inflation normalization and MA20 support validate bullish bias despite geopolitical risks.",
+    "entry": "7405",
+    "tp": "7480",
+    "sl": "7350",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Technical Breakdown Suggests MA20 Could Act as Support Amid Regulatory Catalysts",
-    "date": "2026-06-10 12:32",
+    "title": "BTC/USD 市場分析",
+    "date": "2026-06-10 20:46",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price nears critical MA20 resistance at $70,188",
-      "Tax legislation debate could boost institutional adoption",
-      "Negative CFTC sentiment may create buying opportunity"
+      "Price below MA20 signals bearish trend continuation",
+      "Regulatory uncertainty in NY/EU may accelerate selloffs",
+      "Underwater supply suggests short-term accumulation but lacks bullish momentum"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD trading below MA20 but catalysts may drive rally; bybit recommended for execution.",
+    "excerpt": "BTC/USD faces critical resistance at $69.37K with regulatory risks weighing sentiment.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USD trading below MA20 but catalysts may drive rally; bybit recommended for execution.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Technical breakdown below MA20 coupled with regulatory uncertainty drives bearish bias.",
+    "entry": "59500",
+    "tp": "55000",
+    "sl": "62000",
+    "reliability": "HIGH"
   }
 }
