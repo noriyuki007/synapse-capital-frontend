@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-06-12-crypto-ja",
+    "date": "2026-06-12 03:53",
+    "title": "[BTC/USD] DOWN: MA20下回りとリスクオフ傾向が強まる",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "MA20下回りとマクロリスクオフが重なり、BTC/USDは下落トレンド継続の可能性が高い。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-12-crypto-en",
+    "date": "2026-06-12 03:53",
+    "title": "[BTC/USD] DOWN: Price Breaches MA20 as Debasement Trade Unwinds Amid Liquidity Concerns",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC breaks key MA20 support as institutional debasement thesis unravels; risk-off bias favored.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-06-12-stocks-ja",
+    "date": "2026-06-12 03:50",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "トランプ米副大統領のイラン軍制限発表がナビゲーション障害を回避。MA20(7468)の抵衝となる足場を確認。コアPPI鈍化でインフレーション不安が和緩し、強気ファンダメンタルズが相補的に機能。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-12-stocks-en",
+    "date": "2026-06-12 03:50",
+    "title": "[S&P 500] UP: AI Detects Bounce Toward MA20 Amid Geopolitical Easing and Soft PPI",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 likely to bounce toward MA20 as geopolitical tensions ease and inflation data supports risk-on sentiment.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-06-12-fx-ja",
+    "date": "2026-06-12 03:45",
+    "title": "[USD/JPY] UP: イラン合意と米利回り上昇がリスクオンを示唆",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "イラン合意と米長期金利上昇がリスクオンを醸成し、USD/JPYはMA20を基軸に上昇余地を探る。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-12-fx-en",
+    "date": "2026-06-12 03:45",
+    "title": "[USD/JPY] UP: Iran Deal Drives Risk‑On, Yields Rise, Price Above MA20",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY set to rise on Iran deal‑driven risk‑on sentiment, higher US yields, and price staying above MA20.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-06-11-crypto-ja",
     "date": "2026-06-11 21:16",
     "title": "BTC/USD戦略：ベア相場におけるドローダウン極小化プロトコル",

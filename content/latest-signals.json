@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発とリスクオフ環境での円買い抑制を確認",
-    "date": "2026-06-11 21:08",
+    "title": "[USD/JPY] UP: イラン合意と米利回り上昇がリスクオンを示唆",
+    "date": "2026-06-12 03:45",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米伊緊張とオイル高でリスクオフが進むが、ドルの相対的優位が維持",
-      "ECBの非タカ派姿勢がユーロを下押しし、USD/JPYの上昇を支援",
-      "価格はMA20を上抜け、短期的な上昇モメンタムが形成"
+      "イラン合意で地政学リスク後退、円安全需給減衰",
+      "米30年利回り5.02%と住宅ローン上昇が米ドルを支え",
+      "価格はMA20を上回り、押し目買いのシナリオ有効"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米伊緊張とECBの非タカ派姿勢がドルを支え、USD/JPYはMA20上抜けで上昇トレンド継続の可能性。",
+    "excerpt": "イラン合意と米長期金利上昇がリスクオンを醸成し、USD/JPYはMA20を基軸に上昇余地を探る。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "米伊緊張とECB非タカ派でドル支え、MA20上抜けで上昇モメンタム",
-    "entry": "160.30",
-    "tp": "162.00",
-    "sl": "159.80",
+    "comment": "イラン合意と米長期金利上昇がリスクオンを促し、MA20を支えに上昇余地が見込まれる",
+    "entry": "159.50",
+    "tp": "161.00",
+    "sl": "159.00",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20下抜けと金利上昇が下値リスクを強化",
-    "date": "2026-06-11 21:14",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-12 03:50",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "MA20を下抜けると下値リスクが継続",
-      "米長期金利の上昇が株式に重しとなる",
-      "オーダーフローは売り優勢で流動性が薄い"
+      "トランプ米副大統領のイラン軍制限発表がリスクオンを牽引",
+      "MA20(7468)の抵衝となる足場を確認",
+      "コアPPI鈍化でインフレーション不安が和緩"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20を下回り、地政学的緊張の緩和が見込めない中、米長期金利の上昇圧力が株価に重しとなり、下値リスクが顕在化している。売りバイアスに基づく tactical なポジション構築を検討すべきである。",
+    "excerpt": "トランプ米副大統領のイラン軍制限発表がナビゲーション障害を回避。MA20(7468)の抵衝となる足場を確認。コアPPI鈍化でインフレーション不安が和緩し、強気ファンダメンタルズが相補的に機能。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "MA20下抜けと金利上昇が下値リスクを強化",
-    "entry": "7266.99",
-    "tp": "7000.00",
-    "sl": "7360.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20の抵衝と政策ムーバブルさが整合",
+    "entry": "7468.00",
+    "tp": "7600.00",
+    "sl": "7300.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "BTC/USD戦略：ベア相場におけるドローダウン極小化プロトコル",
-    "date": "2026-06-11 21:16",
+    "title": "[BTC/USD] DOWN: MA20下回りとリスクオフ傾向が強まる",
+    "date": "2026-06-12 03:53",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "金利相関（近似）: -0.23で負相関傾向",
-      "テクニカル: 現在価格 63080.85 と MA20 68774.10 の位置関係が主導",
-      "需給: 上限帯 81396.03 / 下限帯 56152.16 / 直近高値 77990.87 / 直近安値 59108.92 によるターゲット設計"
+      "MA20を下抜け、下落リスクが顕在化",
+      "マクロ流動性の引き締めがビットコインに逆風",
+      "機関のディベースメントトレード後退が加速"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 63080.85、RSI(22.81)、MA20(68774.10)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "MA20下回りとマクロリスクオフが重なり、BTC/USDは下落トレンド継続の可能性が高い。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、BTC/USDの現在価格 63080.85、RSI(22.81)、MA20(68774.10)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "MA20下抜けとマクロリスクオフが下落を裏付ける",
+    "entry": "63460",
+    "tp": "60000",
+    "sl": "66000",
     "reliability": "MEDIUM"
   }
 }
