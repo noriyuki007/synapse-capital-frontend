@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Bullish Momentum Above MA20 as US Yields Rise",
-    "date": "2026-06-11 03:28",
+    "title": "[USD/JPY] UP: MA20 Support Holds as AI-Driven Risk-Off Sentiment Persists",
+    "date": "2026-06-11 12:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 suggests short-term bullish bias",
-      "Rising US 10‑year yield supports USD strength",
-      "Technical structure intact with room to test prior high"
+      "USD/JPY consolidates above MA20 (159.46) amid AI-driven risk-off flows",
+      "Global oil inventory depletion and gold purchases boost yen demand",
+      "Price cuts in tech sector amplify USD liquidity drain"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above MA20 amid higher US yields, signaling near‑term upside potential.",
+    "excerpt": "USD/JPY stabilizes above 160 amid AI-driven volatility and yen strength",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Bullish momentum above MA20 reinforced by higher US yields",
-    "entry": "160.30",
-    "tp": "161.50",
-    "sl": "159.80",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPY stabilizes above 160 amid AI-driven volatility and yen strength",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: AI Detects Weak Momentum Above MA20 Amid Geopolitical Volatility",
-    "date": "2026-06-11 03:31",
+    "title": "[S&P 500] DOWN: Price Below MA20 Amid Rising Rate Pressure and AI‑Sector Pullback",
+    "date": "2026-06-11 12:43",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "TradeStation",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Geopolitical risk outweighs AI upside",
-      "Price above MA20 signals short‑term weakness",
-      "TradeStation offers optimal execution for swift entries"
+      "S&P 500 trading 2.7% under MA20",
+      "Rate‑sensitive sectors weakening, AI sell‑off persists",
+      "Entry at 7,260 with 7,130 TP and 7,460 SL"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces short‑term downside risk as price remains above MA20 and geopolitical tensions persist.",
+    "excerpt": "S&P 500 slips below MA20; bearish bias driven by yields and AI‑sector volatility.",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "Price remains above MA20 with bearish bias amid geopolitical tension.",
-    "entry": "7310.00",
-    "tp": "7200.00",
-    "sl": "7480.00",
-    "reliability": "MEDIUM"
+    "comment": "Price below MA20, elevated yields and AI sell‑off create a bearish setup.",
+    "entry": "7260",
+    "tp": "7130",
+    "sl": "7470",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 while Fundamentals Remain Weak",
-    "date": "2026-06-11 03:34",
+    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 as Fundamentals Weaken",
+    "date": "2026-06-11 12:46",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price sits under MA20 signalling bearish bias",
-      "CryptoQuant indicates persistent bearish demand",
-      "Macro push‑back from UK regulators may dampen inflows"
+      "Price trades 11% below MA20 ($69,437) signaling bearish momentum",
+      "Institutional rotation toward ETH/stablecoins undermines BTC demand",
+      "CryptoQuant identifies $53,600 support as critical downside target"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD trading below 61.8k, MA20 at 69.4k, with factory‑level sentiment caution due to fresh regulatory friction.",
+    "excerpt": "BTC extends decline below key moving average as institutional flows shift to altcoins and stablecoins.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "Price below MA20 with bearish fundamentals and weak momentum.",
-    "entry": "61880",
-    "tp": "60000",
-    "sl": "63200",
+    "comment": "Price below MA20 with fundamental headwinds and negative sentiment",
+    "entry": "62310",
+    "tp": "58000",
+    "sl": "65000",
     "reliability": "MEDIUM"
   }
 }
