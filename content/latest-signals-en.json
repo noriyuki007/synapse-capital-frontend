@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-12 12:38",
+    "title": "[USD/JPY] UP: Bullish Momentum Above MA20 Amid US-Iran Deal Outlook",
+    "date": "2026-06-12 20:42",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price consolidating above MA20 at 160.23",
-      "RBA policy patience supportive of USD",
-      "Iranian conflict risks unlikely to disrupt Yen strength"
+      "Price holds above MA20 indicating short-term bullish bias",
+      "RSI at 69.5 signals near‑overbought momentum, watch for pullback",
+      "Fundamentals: hawkish Fed outlook and potential US‑Iran deal reduce JPY safe‑haven demand"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "",
+    "excerpt": "USD/JPY trades above MA20 with RSI near 70; bullish bias supported by hawkish Fed expectations and easing Iran tensions.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "Bullish momentum above MA20 supported by hawkish Fed outlook and easing Iran tensions.",
+    "entry": "159.70",
+    "tp": "161.00",
+    "sl": "159.20",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Anticipated bounce to MA20 amid SpaceX IPO optimism",
-    "date": "2026-06-12 12:41",
+    "title": "[S&P 500] FLAT: Price Below MA20 with Neutral RSI Awaits Catalyst",
+    "date": "2026-06-12 20:45",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "",
     "tldr_points": [
-      "Price below MA20 suggests near-term support",
-      "RSI near neutral leaves room for upside",
-      "SpaceX IPO and geopolitical easing provide bullish catalysts"
+      "Price trades below MA20 indicating short-term weakness",
+      "RSI near 46.5 shows neutral momentum",
+      "Key catalysts include battery sector outperformance and Iran deal optimism"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 poised to test MA20 resistance as bullish news outweighs mild technical weakness.",
+    "excerpt": "S&P 500 hovers below MA20 with neutral RSI, awaiting breakout direction from macro catalysts.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Anticipated bounce to MA20 supported by bullish newsflow",
-    "entry": "7390.00",
-    "tp": "7470.00",
-    "sl": "7350.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Price is consolidating below MA20 with neutral RSI, awaiting breakout direction.",
+    "entry": "7490",
+    "tp": "7560",
+    "sl": "7350",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Oversold Bounce Targets MA20 Amid Adoption Catalysts",
-    "date": "2026-06-12 12:50",
+    "title": "[BTC/USD] UP: AI Detects Oversold Bounce at MA20 Amid Institutional Tax Clarity",
+    "date": "2026-06-12 20:48",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "RSI at 24 signals extreme oversold conditions",
-      "Price below MA20 sets up potential mean reversion",
-      "Adoption headlines offset JPM debasement commentary"
+      "Price tests MA20 (68,152) with RSI at 25.66",
+      "South Korea’s tokenized stock tax clarity supports institutional adoption",
+      "Bitwise’s 20% downside target implies near-term capitulation risk"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD shows oversold technical setup with adoption catalysts, targeting MA20 retest near 68.8k.",
+    "excerpt": "BTC tests MA20 with RSI at 25.66 as institutional clarity grows. Buy the dip toward 68,152 with tight risk.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Oversold bounce targeting MA20 confluence amid adoption-driven fundamental support.",
-    "entry": "63500.00",
-    "tp": "68000.00",
-    "sl": "62000.00",
+    "comment": "Oversold bounce setup at MA20 with RSI at 25.66 and positive regulatory catalysts",
+    "entry": "68152",
+    "tp": "72000",
+    "sl": "62500",
     "reliability": "HIGH"
   }
 }
