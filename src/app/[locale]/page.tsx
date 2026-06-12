@@ -169,9 +169,14 @@ export default async function SynapseMarketLanding(props: { params: Promise<{ lo
                                     />
                                     {/* Scanline indicator line */}
                                     <line x1="85" y1="0" x2="85" y2="100" stroke="#22d3ee" strokeWidth="0.5" strokeDasharray="3 3" />
-                                    <circle cx="85" cy="45" r="4" fill="#22d3ee" className="animate-ping" />
-                                    <circle cx="85" cy="45" r="2.5" fill="#22d3ee" />
                                 </svg>
+                                
+                                {/* Perfect circle indicator that scales uniformly without SVG stretching distortion */}
+                                <div className="absolute left-[85%] top-[45%] -translate-x-1/2 -translate-y-1/2 pointer-events-none z-10">
+                                    <div className="w-2.5 h-2.5 bg-[#22d3ee] rounded-full relative">
+                                        <div className="absolute inset-0 bg-[#22d3ee] rounded-full animate-ping opacity-75" />
+                                    </div>
+                                </div>
                                 
                                 {/* Overlay tech numbers */}
                                 <div className="absolute top-4 left-4 p-3 bg-slate-950/80 border border-slate-900 rounded-none space-y-1">
