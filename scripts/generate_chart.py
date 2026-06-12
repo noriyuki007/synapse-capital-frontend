@@ -16,7 +16,14 @@ session.headers.update({
 })
 
 def emit_market_json(stats):
-    print(f"MARKET_DATA_JSON:{json.dumps(stats)}", flush=True)
+    import math
+    clean_stats = {}
+    for k, v in stats.items():
+        if isinstance(v, float) and (math.isnan(v) or math.isinf(v)):
+            clean_stats[k] = None
+        else:
+            clean_stats[k] = v
+    print(f"MARKET_DATA_JSON:{json.dumps(clean_stats)}", flush=True)
 
 def fetch_from_twelve_data(ticker, api_key):
     """Fallback data fetcher using Twelve Data API"""
@@ -27,6 +34,7 @@ def fetch_from_twelve_data(ticker, api_key):
     # Map Yahoo symbols to Twelve Data if needed
     symbol = ticker.replace('=X', '') # USDJPY=X -> USDJPY
     if '^' in symbol: symbol = symbol.replace('^', '') # ^GSPC -> GSPC
+    if '-' in symbol: symbol = symbol.replace('-', '/') # BTC-USD -> BTC/USD
 
     url = f"https://api.twelvedata.com/time_series?symbol={symbol}&interval=1day&outputsize=60&apikey={api_key}"
     try:
@@ -144,7 +152,7 @@ def generate_chart(ticker, filename, title_name):
     gain = (delta.where(delta > 0, 0)).rolling(window=14).mean()
     loss = (-delta.where(delta < 0, 0)).rolling(window=14).mean()
     rs = gain / loss
-    data['RSI'] = 100 - (100 / (1 + rs))
+    data.loc[:, 'RSI'] = 100 - (100 / (1 + rs))
 
     # Setup the plot style
     mc = mpf.make_marketcolors(up='#10b981', down='#ef4444',
@@ -199,7 +207,7 @@ def generate_chart(ticker, filename, title_name):
     # Note: ^TNX is quoted as the yield * 10; correlation sign is still informative.
     interest_corr = None
     try:
-        rates = yf.download("^TNX", period="3mo", interval="1d", auto_adjust=True, progress=False, threads=False)
+        rates = yf.download("^TNX", period="3mo", interval="1d", auto_adjust=True, progress=False, threads=False, session=session)
         if rates is not None and not rates.empty:
             if isinstance(rates.columns, pd.MultiIndex):
                 rates.columns = rates.columns.get_level_values(0)
@@ -217,7 +225,7 @@ def generate_chart(ticker, filename, title_name):
     # VIX as a proxy for risk sentiment (FX/Stocks), also usable as a volatility gauge.
     vix = None
     try:
-        vix_df = yf.download("^VIX", period="3mo", interval="1d", auto_adjust=True, progress=False, threads=False)
+        vix_df = yf.download("^VIX", period="3mo", interval="1d", auto_adjust=True, progress=False, threads=False, session=session)
         if vix_df is not None and not vix_df.empty:
             if isinstance(vix_df.columns, pd.MultiIndex):
                 vix_df.columns = vix_df.columns.get_level_values(0)

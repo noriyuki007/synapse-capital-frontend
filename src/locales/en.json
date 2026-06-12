@@ -83,11 +83,11 @@
     "stats_desc": "Verified track record from {total} public reports"
   },
   "landing": {
-    "hero_badge": "AI Intelligence v2.4 Active",
-    "hero_title": "Uncovering the truth of financial markets through deep AI analysis.",
-    "hero_desc": "Real-time multi-faceted market analysis powered by advanced proprietary algorithms. We integrate on-chain data, macroeconomic indicators, and institutional sentiment to provide highly transparent intelligence.",
-    "terminal_access": "Terminal Access",
-    "latest_reports": "Latest Reports",
+    "hero_badge": "PRO AI SIGNALS • v2.4 ACTIVE",
+    "hero_title": "Trade with an Institutional Edge.\nReal-Time AI Market Intelligence.",
+    "hero_desc": "Synapse AI monitors global markets 24/7—synthesizing on-chain data, macroeconomic liquidity, and dark pool order flows to deliver high-probability trading signals before the crowd.",
+    "terminal_access": "Enter Pro Terminal (Free)",
+    "latest_reports": "Read AI Reports",
     "signal_analysis_title": "Real-time Signal Analysis",
     "view_all_signals": "View all signals",
     "feature_terminal_title": "Market Terminal",
@@ -135,7 +135,7 @@
   "exchange": {
     "integrity_protocol": "AI Integrity Protocol",
     "selected_infrastructure": "Selected Infrastructure",
-    "protocol_desc": "Synapse AI analysis algorithms constantly monitor the execution speed, spread stability, and transparency of each partner. We certify only those environments suitable for professional investing from an impartial third-party perspective.",
+    "protocol_desc": "Synapse AI constantly monitors execution speeds, slippage tolerance, and spread stability across major brokerages. We certify only the top-tier environments suitable for executing high-frequency AI signals. Open a certified partner account below to unlock priority access to our lifetime AI signal delivery.",
     "recommended_partner": "Recommended Partner",
     "beginner_friendly": "Beginner Friendly",
     "official_verified": "Official Verified",
@@ -146,12 +146,12 @@
     "ai_advantage": "AI Advantage",
     "key_benefits": "Key Benefits",
     "risks_notes": "Risks & Notes",
-    "start_trading_optimal": "Start trading in the optimal environment.",
+    "start_trading_optimal": "Open an Account to Unlock Lifetime AI Signals",
     "partnership_verified": "Official Partner Verified",
     "check_campaign": "Check Campaign Details",
-    "integrity_declaration": "AI Integrity Declaration",
-    "declaration_text_1": "We do not accept excessive advertising fees from any brokers that would distort our evaluations.",
-    "declaration_text_2": "Partner selection is based on execution speed and spread tolerance simulated by our AI engine. Transparent evaluations without distortion.",
+    "integrity_declaration": "Impartial Evaluation Protocol",
+    "declaration_text_1": "Our recommendations are entirely data-driven, based on execution speeds and spread tolerance simulated by our AI engine.",
+    "declaration_text_2": "To maintain neutrality, we do not accept placement-enhancing advertising fees. Accounts opened via our links directly fund our research and secure your priority signal delivery slot.",
     "target_desc": "The AI analyzes the execution algorithms and infrastructure of each broker. This service performs best for the investment styles with the above characteristics.",
     "advantage_desc": "By integrating with Synapse Capital's AI signals, slippage at high-probability entry points is minimized, maximizing strategy reproducibility.",
     "pros_desc": "Industry-leading spreads and advanced execution algorithms maximize AI signal reproducibility. Supports everything from short-term trading to long-term holding.",
@@ -389,5 +389,19 @@
     "source_label": "Source",
     "source_link": "Original",
     "empty": "No news matches the selected filter"
+  },
+  "pro_gate": {
+    "title": "Access Restricted: Institutional Intel Inside",
+    "subtitle": "Unlock the Synapse PRO Terminal",
+    "desc_1": "You are attempting to access a high-probability AI signal layer. Public access is currently restricted to ensure execution latency and API stability for our active trading community.",
+    "desc_2": "Unlock lifetime unlimited access to all PRO features (including real-time ticks, whale alerts, and sector dispersion analyses) by completing one of the verification steps below.",
+    "option_1_title": "Option A: Connect Partner Account (100% Free)",
+    "option_1_desc": "Open a new trading account with one of our certified partner brokers using our official link, deposit funds, and verify your account. You will get lifetime PRO terminal access for free.",
+    "option_1_button": "View Certified Broker Partners",
+    "option_2_title": "Option B: Premium Membership License",
+    "option_2_desc": "Get instant access without changing your current broker. Subscription plans start at $99/month, billed quarterly. Perfect for institutional desks or existing account holders.",
+    "option_2_button": "Subscribe to Premium",
+    "trust_badge_title": "Secure & Certified Connection",
+    "trust_badge_desc": "Integrity Certified by Synapse AI Protocol. No hidden fees. Direct execution integration."
   }
 }

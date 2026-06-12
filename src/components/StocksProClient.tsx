@@ -6,9 +6,10 @@ import { Sidebar } from '@/components/Sidebar';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Modal } from '@/components/Modal';
+import ProTerminalGate from '@/components/ProTerminalGate';
 
 /**
- * Shared Pro Ticker
+ * Shared Pro Ticker (Redesigned to Dark Theme)
  */
 const ProTicker = () => {
     const stockItems = [
@@ -22,13 +23,13 @@ const ProTicker = () => {
         { label: "AAPL", val: "185.92", chg: "-0.03%", up: false },
     ];
     return (
-        <div className="w-full bg-slate-50 border-b border-slate-100 py-1.5 overflow-hidden sticky top-[57px] z-[40] backdrop-blur-sm">
+        <div className="w-full bg-slate-950/80 border-b border-slate-800 py-1.5 overflow-hidden sticky top-[57px] z-[40] backdrop-blur-sm">
             <div className="flex animate-ticker whitespace-nowrap">
                 {[...stockItems, ...stockItems].map((item, i) => (
                     <div key={i} className="flex items-center gap-4 px-6 text-[11px] font-bold tracking-tighter">
-                        <span className="text-slate-400 uppercase">{item.label}</span>
-                        <span className="text-slate-900 tabular-nums">{item.val}</span>
-                        <span className={item.up ? "text-emerald-500" : "text-rose-500"}>{item.chg}</span>
+                        <span className="text-slate-500 uppercase">{item.label}</span>
+                        <span className="text-white tabular-nums">{item.val}</span>
+                        <span className={item.up ? "text-emerald-400" : "text-rose-500"}>{item.chg}</span>
                     </div>
                 ))}
             </div>
@@ -49,33 +50,34 @@ export default function StocksProClient({ locale, dict }: { locale: string, dict
     ];
 
     return (
-        <div className="min-h-screen bg-white text-slate-900 selection:bg-emerald-100 selection:text-emerald-900">
+        <div className="min-h-screen bg-[#060913] text-slate-200 selection:bg-emerald-950 selection:text-emerald-200">
+            <ProTerminalGate locale={locale} dict={dict} />
             <Header locale={locale} dict={dict} />
             <ProTicker />
 
-            <main className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 border-x border-slate-100 bg-white min-h-screen shadow-sm">
+            <main className="max-w-[1440px] mx-auto grid grid-cols-1 lg:grid-cols-12 border-x border-slate-800 bg-[#060913] min-h-screen shadow-2xl">
                 
-                <div className="lg:col-span-8 p-6 md:p-12 lg:p-16 space-y-20 border-r border-slate-100">
+                <div className="lg:col-span-8 p-6 md:p-12 lg:p-16 space-y-20 border-r border-slate-800/80">
                     
                     <div className="space-y-8 max-w-2xl">
-                        <div className="inline-flex items-center gap-2.5 px-3 py-1 bg-slate-50 border border-slate-100 rounded-none text-[12px] font-black text-slate-500 uppercase tracking-widest">
+                        <div className="inline-flex items-center gap-2.5 px-3 py-1 bg-indigo-950/60 border border-indigo-900 rounded-none text-[12px] font-black text-indigo-400 uppercase tracking-widest">
                             {dict.stocks_pro.hero_badge}
                         </div>
-                        <h1 className="text-2xl md:text-3xl font-black text-slate-900 tracking-tighter leading-none font-sans uppercase whitespace-nowrap">
+                        <h1 className="text-2xl md:text-3xl font-black text-white tracking-tighter leading-none font-sans uppercase whitespace-nowrap">
                             {dict.stocks_pro.hero_title}
                         </h1>
-                        <p className="text-base font-medium text-slate-500 max-w-xl leading-relaxed uppercase border-l-2 border-slate-100 pl-8">
+                        <p className="text-base font-medium text-slate-400 max-w-xl leading-relaxed uppercase border-l-2 border-indigo-500 pl-8">
                             {dict.stocks_pro.hero_desc}
                         </p>
                     </div>
 
-                    <section className="space-y-10 pt-16 border-t border-slate-100">
+                    <section className="space-y-10 pt-16 border-t border-slate-800/80">
                         <div className="flex items-center justify-between">
-                            <h2 className="text-[13px] font-black uppercase tracking-[0.4em] flex items-center gap-3 text-slate-900 leading-none">
-                                <BarChart3 className="w-4 h-4 text-indigo-600" />
+                            <h2 className="text-[13px] font-black uppercase tracking-[0.4em] flex items-center gap-3 text-white leading-none">
+                                <BarChart3 className="w-4 h-4 text-indigo-400" />
                                 {dict.stocks_pro.terminal_title}
                             </h2>
-                            <div className="text-[11px] font-black text-slate-400 uppercase tracking-widest">{dict.stocks_pro.market_data_synced}</div>
+                            <div className="text-[11px] font-black text-slate-500 tracking-widest">{dict.stocks_pro.market_data_synced}</div>
                         </div>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -85,14 +87,14 @@ export default function StocksProClient({ locale, dict }: { locale: string, dict
                         </div>
                     </section>
 
-                    <section className="space-y-10 pt-16 border-t border-slate-100">
-                        <h3 className="text-xs font-black text-slate-900 uppercase tracking-widest flex items-center gap-3">
-                            <span className="w-4 h-px bg-slate-900" />
+                    <section className="space-y-10 pt-16 border-t border-slate-800/80">
+                        <h3 className="text-xs font-black text-white uppercase tracking-widest flex items-center gap-3">
+                            <span className="w-4 h-px bg-indigo-500" />
                             {dict.stocks_pro.pro_indicators}
                         </h3>
 
-                        <div className="bg-white border border-slate-100 rounded-none shadow-sm overflow-hidden">
-                            <div className="flex items-center bg-slate-50 border-b border-slate-100 overflow-x-auto">
+                        <div className="bg-[#0b0f19] border border-slate-800 rounded-none shadow-2xl overflow-hidden">
+                            <div className="flex items-center bg-slate-950/80 border-b border-slate-800 overflow-x-auto">
                                 {[
                                     { id: 'Sector Heatmap', label: dict.stocks_pro.sector_heatmap },
                                     { id: 'Earnings Radar', label: dict.stocks_pro.earnings_radar },
@@ -101,10 +103,10 @@ export default function StocksProClient({ locale, dict }: { locale: string, dict
                                     <button
                                         key={tab.id}
                                         onClick={() => setActiveTab(tab.id)}
-                                        className={`px-8 py-5 text-[11px] font-black tracking-widest uppercase transition-all relative whitespace-nowrap ${activeTab === tab.id ? 'text-indigo-600 bg-white' : 'text-slate-400 hover:text-slate-600'}`}
+                                        className={`px-8 py-5 text-[11px] font-black tracking-widest uppercase transition-all relative whitespace-nowrap cursor-pointer ${activeTab === tab.id ? 'text-indigo-400 bg-[#0c1122]' : 'text-slate-500 hover:text-slate-300'}`}
                                     >
                                         {tab.label}
-                                        {activeTab === tab.id && <div className="absolute bottom-0 left-0 w-full h-[2px] bg-indigo-600" />}
+                                        {activeTab === tab.id && <div className="absolute bottom-0 left-0 w-full h-[2px] bg-indigo-500" />}
                                     </button>
                                 ))}
                             </div>
@@ -112,16 +114,16 @@ export default function StocksProClient({ locale, dict }: { locale: string, dict
                                 {activeTab === 'Sector Heatmap' && (
                                     <div className="space-y-6">
                                         {[
-                                            { name: dict.stocks_pro.sector_semi, perf: "+3.48%", color: "bg-emerald-500" },
-                                            { name: dict.stocks_pro.sector_tech, perf: "+2.14%", color: "bg-emerald-500" },
+                                            { name: dict.stocks_pro.sector_semi, perf: "+3.48%", color: "bg-emerald-400" },
+                                            { name: dict.stocks_pro.sector_tech, perf: "+2.14%", color: "bg-emerald-400" },
                                             { name: dict.stocks_pro.sector_ev, perf: "-2.61%", color: "bg-rose-500" },
                                         ].map((sector, i) => (
                                             <div key={i} className="flex items-center gap-4">
-                                                <div className="w-32 text-[11px] font-black text-slate-700 uppercase">{sector.name}</div>
-                                                <div className="flex-1 h-1.5 bg-slate-50 rounded-none overflow-hidden flex justify-start">
-                                                    <div className={`h-full ${sector.color} rounded-none transition-all`} style={{ width: sector.perf.replace('+', '').replace('-', '') }} />
+                                                <div className="w-32 text-[11px] font-black text-slate-300 uppercase">{sector.name}</div>
+                                                <div className="flex-1 h-1.5 bg-slate-950 rounded-none overflow-hidden flex justify-start">
+                                                    <div className={`h-full ${sector.color} rounded-none transition-all shadow-[0_0_6px_rgba(99,102,241,0.5)]`} style={{ width: sector.perf.replace('+', '').replace('-', '') }} />
                                                 </div>
-                                                <div className={`w-12 text-right text-[11px] font-black tabular-nums ${sector.perf.startsWith('+') ? 'text-emerald-500' : 'text-rose-500'}`}>{sector.perf}</div>
+                                                <div className={`w-12 text-right text-[11px] font-black tabular-nums ${sector.perf.startsWith('+') ? 'text-emerald-400' : 'text-rose-400'}`}>{sector.perf}</div>
                                             </div>
                                         ))}
                                     </div>
@@ -130,21 +132,21 @@ export default function StocksProClient({ locale, dict }: { locale: string, dict
                                     <div className="overflow-x-auto">
                                         <table className="w-full text-[11px] uppercase font-black tracking-tight">
                                             <thead>
-                                                <tr className="border-b border-slate-100 text-slate-400">
+                                                <tr className="border-b border-slate-800 text-slate-500">
                                                     <th className="py-4 text-left font-black">{dict.stocks_pro.table_ticker}</th>
                                                     <th className="py-4 text-center font-black">{dict.stocks_pro.table_date}</th>
                                                     <th className="py-4 text-right font-black">{dict.stocks_pro.table_sentiment}</th>
                                                 </tr>
                                             </thead>
-                                            <tbody className="divide-y divide-slate-50">
+                                            <tbody className="divide-y divide-slate-900/60">
                                                 {[
-                                                    { ticker: "NVDA", date: "2026-05-20", sentiment: 'sent_extreme_bull', color: "text-emerald-500" },
+                                                    { ticker: "NVDA", date: "2026-05-20", sentiment: 'sent_extreme_bull', color: "text-emerald-400" },
                                                     { ticker: "AAPL", date: "2026-05-02", sentiment: 'sent_neutral', color: "text-slate-400" },
-                                                    { ticker: "TSLA", date: "2026-04-24", sentiment: 'sent_caution', color: "text-rose-500" },
+                                                    { ticker: "TSLA", date: "2026-04-24", sentiment: 'sent_caution', color: "text-rose-400" },
                                                 ].map((row, i) => (
-                                                    <tr key={i} className="group hover:bg-slate-50 transition-colors">
-                                                        <td className="py-5 font-black text-slate-900">{row.ticker}</td>
-                                                        <td className="py-5 text-center tabular-nums text-slate-500">{row.date}</td>
+                                                    <tr key={i} className="group hover:bg-[#0c1122]/40 transition-colors">
+                                                        <td className="py-5 font-black text-white">{row.ticker}</td>
+                                                        <td className="py-5 text-center tabular-nums text-slate-400">{row.date}</td>
                                                         <td className={`py-5 text-right font-black ${row.color}`}>{dict.stocks_pro[row.sentiment]}</td>
                                                     </tr>
                                                 ))}
@@ -158,19 +160,19 @@ export default function StocksProClient({ locale, dict }: { locale: string, dict
                                             { ticker: "NVDA", rsi: 72, rsiLabel: 'overbought', ma: 'golden_cross', trend: 'bullish' },
                                             { ticker: "MSFT", rsi: 58, rsiLabel: 'bullish', ma: 'aligned', trend: 'status_stable' },
                                         ].map((item, i) => (
-                                            <div key={i} className="p-6 bg-slate-50 border border-slate-100 space-y-4">
+                                            <div key={i} className="p-6 bg-slate-900/40 border border-slate-800 space-y-4">
                                                 <div className="flex justify-between items-center">
-                                                    <span className="text-sm font-black text-slate-900">{item.ticker}</span>
-                                                    <span className="text-[11px] font-black text-indigo-600 uppercase">{dict.pro[item.trend] || dict.stocks_pro[item.trend]}</span>
+                                                    <span className="text-sm font-black text-white">{item.ticker}</span>
+                                                    <span className="text-[11px] font-black text-indigo-400 uppercase">{dict.pro[item.trend] || dict.stocks_pro[item.trend]}</span>
                                                 </div>
                                                 <div className="space-y-3">
                                                     <div className="flex justify-between text-[11px] font-black uppercase">
-                                                        <span className="text-slate-400">RSI (14)</span>
-                                                        <span className={item.rsi > 70 ? 'text-rose-500' : 'text-slate-900'}>{item.rsi} ({dict.stocks_pro[item.rsiLabel]})</span>
+                                                        <span className="text-slate-500">RSI (14)</span>
+                                                        <span className={item.rsi > 70 ? 'text-rose-400' : 'text-slate-300'}>{item.rsi} ({dict.stocks_pro[item.rsiLabel]})</span>
                                                     </div>
                                                     <div className="flex justify-between text-[11px] font-black uppercase">
-                                                        <span className="text-slate-400">MA シグナル</span>
-                                                        <span className="text-slate-900">{dict.stocks_pro[item.ma]}</span>
+                                                        <span className="text-slate-500">MA シグナル</span>
+                                                        <span className="text-slate-200">{dict.stocks_pro[item.ma]}</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -181,11 +183,11 @@ export default function StocksProClient({ locale, dict }: { locale: string, dict
                         </div>
                     </section>
 
-                    <section className="space-y-12 pt-16 border-t border-slate-100">
+                    <section className="space-y-12 pt-16 border-t border-slate-800/80">
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
                             <div className="space-y-6">
-                                <h3 className="text-xs font-black text-slate-900 uppercase tracking-widest flex items-center gap-3">
-                                    <Cpu className="w-4 h-4 text-indigo-600" />
+                                <h3 className="text-xs font-black text-white uppercase tracking-widest flex items-center gap-3">
+                                    <Cpu className="w-4 h-4 text-indigo-400" />
                                     {dict.stocks_pro.alpha_scouter}
                                 </h3>
                                 <div className="space-y-4">
@@ -194,45 +196,45 @@ export default function StocksProClient({ locale, dict }: { locale: string, dict
                                         { ticker: "TSLA", score: 42, label: 'bottom_fishing', status: "WAIT" },
                                         { ticker: "AAPL", score: 76, label: 'box_breakout', status: "BULL" },
                                     ].map((stock, i) => (
-                                        <div key={i} className="flex items-center justify-between p-5 bg-slate-50 border border-slate-100 rounded-none">
+                                        <div key={i} className="flex items-center justify-between p-5 bg-slate-900/40 border border-slate-800 rounded-none">
                                             <div className="flex items-center gap-4">
-                                                <span className="text-sm font-black text-slate-900 font-sans">{stock.ticker}</span>
-                                                <span className="text-[11px] font-bold text-slate-400 uppercase">{dict.stocks_pro[stock.label]}</span>
+                                                <span className="text-sm font-black text-white font-sans">{stock.ticker}</span>
+                                                <span className="text-[11px] font-bold text-slate-500 uppercase">{dict.stocks_pro[stock.label]}</span>
                                             </div>
                                             <div className="flex items-center gap-4">
                                                 <div className="text-right">
-                                                    <div className="text-xs font-black text-indigo-600 tabular-nums">{stock.score}</div>
-                                                    <div className="text-[11px] font-black text-slate-300 uppercase">{dict.stocks_pro.alpha_score}</div>
+                                                    <div className="text-xs font-black text-indigo-400 tabular-nums">{stock.score}</div>
+                                                    <div className="text-[11px] font-black text-slate-500 uppercase">{dict.stocks_pro.alpha_score}</div>
                                                 </div>
-                                                <div className={`w-2 h-2 rounded-none ${stock.status === 'BULL' ? 'bg-emerald-500' : 'bg-amber-400'}`} />
+                                                <div className={`w-2 h-2 rounded-none ${stock.status === 'BULL' ? 'bg-emerald-500 animate-pulse shadow-[0_0_6px_rgba(16,185,129,0.8)]' : 'bg-amber-500 animate-pulse shadow-[0_0_6px_rgba(245,158,11,0.8)]'}`} />
                                             </div>
                                         </div>
                                     ))}
                                 </div>
-                                <p className="text-[11px] font-bold text-slate-400 leading-relaxed uppercase">
+                                <p className="text-[11px] font-bold text-slate-500 leading-relaxed uppercase">
                                     {dict.stocks_pro.alpha_desc}
                                 </p>
                             </div>
                             <div className="space-y-6">
-                                <h3 className="text-xs font-black text-slate-900 uppercase tracking-widest flex items-center gap-3">
-                                    <Building2 className="w-4 h-4 text-emerald-600" />
+                                <h3 className="text-xs font-black text-white uppercase tracking-widest flex items-center gap-3">
+                                    <Building2 className="w-4 h-4 text-emerald-400" />
                                     {dict.stocks_pro.institutional_flow}
                                 </h3>
-                                <div className="p-8 bg-white border border-slate-100 rounded-none space-y-8">
+                                <div className="p-8 bg-slate-950/60 border border-slate-800 rounded-none space-y-8">
                                     <div className="flex justify-around items-end h-32 gap-2">
                                         {[30, 85, 45, 90, 65, 40].map((h, i) => (
                                             <div key={i} className="flex-1 flex flex-col items-center gap-2">
-                                                <div className={`w-full ${i === 3 || i === 1 ? 'bg-indigo-600' : 'bg-slate-100'} rounded-none transition-all duration-1000`} style={{ height: `${h}%` }} />
-                                                <span className="text-[11px] font-black text-slate-300">D-{5-i}</span>
+                                                <div className={`w-full ${i === 3 || i === 1 ? 'bg-indigo-600 shadow-[0_0_8px_rgba(99,102,241,0.4)]' : 'bg-slate-800'} rounded-none transition-all duration-1000`} style={{ height: `${h}%` }} />
+                                                <span className="text-[11px] font-black text-slate-500">D-{5-i}</span>
                                             </div>
                                         ))}
                                     </div>
                                     <div className="space-y-3">
                                         <div className="flex justify-between text-[11px] font-black uppercase">
-                                            <span className="text-slate-400">{dict.stocks_pro.net_inflow}</span>
-                                            <span className="text-indigo-600">+$2.4B ({dict.stocks_pro.weekly})</span>
+                                            <span className="text-slate-500">{dict.stocks_pro.net_inflow}</span>
+                                            <span className="text-indigo-400 font-bold">+$2.4B ({dict.stocks_pro.weekly})</span>
                                         </div>
-                                        <p className="text-[11px] font-bold text-slate-400 leading-relaxed uppercase">
+                                        <p className="text-[11px] font-bold text-slate-500 leading-relaxed uppercase">
                                             {dict.stocks_pro.flow_desc}
                                         </p>
                                     </div>
@@ -241,9 +243,9 @@ export default function StocksProClient({ locale, dict }: { locale: string, dict
                         </div>
                     </section>
 
-                    <section className="space-y-10 pt-16 border-t border-slate-100">
-                        <h2 className="text-[11px] font-black uppercase tracking-[0.4em] flex items-center gap-3 text-slate-900 leading-none">
-                            <LayoutGrid className="w-4 h-4 text-slate-400" />
+                    <section className="space-y-10 pt-16 border-t border-slate-800/80">
+                        <h2 className="text-[11px] font-black uppercase tracking-[0.4em] flex items-center gap-3 text-white leading-none">
+                            <LayoutGrid className="w-4 h-4 text-slate-500" />
                             {dict.stocks_pro.sector_dispersion}
                         </h2>
                         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -252,25 +254,25 @@ export default function StocksProClient({ locale, dict }: { locale: string, dict
                                 { sector: "ヘルスケア", dispersion: 'disp_low', risk: 'risk_stable' },
                                 { sector: "エネルギー", dispersion: 'disp_mid', risk: 'risk_high_vola' },
                             ].map((item, i) => (
-                                <div key={i} className="p-6 bg-slate-50 border border-slate-100 rounded-none space-y-3">
-                                    <div className="text-[11px] font-black text-slate-400 uppercase tracking-widest">{item.sector}</div>
+                                <div key={i} className="p-6 bg-slate-900/40 border border-slate-800 rounded-none space-y-3">
+                                    <div className="text-[11px] font-black text-slate-500 uppercase tracking-widest">{item.sector}</div>
                                     <div className="flex justify-between items-end">
-                                        <div className="text-lg font-black text-slate-900 uppercase">{dict.stocks_pro[item.dispersion]}</div>
-                                        <div className="text-[11px] font-black text-indigo-600 uppercase border border-indigo-100 px-1 py-0.5">{dict.stocks_pro[item.risk]}</div>
+                                        <div className="text-lg font-black text-white uppercase">{dict.stocks_pro[item.dispersion]}</div>
+                                        <div className="text-[10px] font-black text-indigo-400 uppercase border border-indigo-950/80 px-1 py-0.5 bg-indigo-950/20">{dict.stocks_pro[item.risk]}</div>
                                     </div>
-                                    <div className="w-full h-1 bg-white">
-                                        <div className="h-full bg-indigo-600" style={{ width: item.dispersion === 'disp_high' ? '80%' : item.dispersion === 'disp_mid' ? '50%' : '20%' }} />
+                                    <div className="w-full h-1 bg-slate-950">
+                                        <div className="h-full bg-indigo-500 shadow-[0_0_6px_rgba(99,102,241,0.6)]" style={{ width: item.dispersion === 'disp_high' ? '80%' : item.dispersion === 'disp_mid' ? '50%' : '20%' }} />
                                     </div>
                                 </div>
                             ))}
                         </div>
-                        <p className="text-[11px] font-bold text-slate-300 leading-relaxed uppercase">
+                        <p className="text-[11px] font-bold text-slate-500 leading-relaxed uppercase">
                             {dict.stocks_pro.disp_desc}
                         </p>
                     </section>
                 </div>
 
-                <div className="lg:col-span-4 p-6 md:p-10 border-none bg-white">
+                <div className="lg:col-span-4 p-6 md:p-10 border-none bg-[#090d1a]/50 border-l border-slate-800/60">
                     <Sidebar 
                         locale={locale}
                         dict={dict}
@@ -290,38 +292,38 @@ const StockCard = ({ ticker, name, price, chg, rank, per, type, dict }: any) => 
     const [isModalOpen, setIsModalOpen] = useState(false);
     
     return (
-        <div className="bg-white border border-slate-100 rounded-none p-6 space-y-6 shadow-sm hover:shadow-xl hover:border-indigo-100 transition-all cursor-crosshair group">
+        <div className="bg-slate-900/40 border border-slate-800 rounded-none p-6 space-y-6 hover:shadow-[0_0_20px_rgba(99,102,241,0.15)] hover:border-indigo-500/80 transition-all cursor-crosshair group">
             <div className="flex justify-between items-start">
                 <div className="space-y-1">
-                    <div className="text-[11px] font-black text-indigo-600 bg-indigo-50 px-1.5 py-0.5 rounded-none border border-indigo-100 inline-block uppercase tracking-widest mb-1">{type}</div>
-                    <h4 className="text-xl font-black text-slate-900 tracking-tighter uppercase font-sans">{ticker}</h4>
-                    <p className="text-[9px] font-bold text-slate-400 opacity-80">{name}</p>
+                    <div className="text-[11px] font-black text-indigo-400 bg-indigo-950/60 px-1.5 py-0.5 rounded-none border border-indigo-900 inline-block uppercase tracking-widest mb-1">{type}</div>
+                    <h4 className="text-xl font-black text-white tracking-tighter uppercase font-sans">{ticker}</h4>
+                    <p className="text-[9px] font-bold text-slate-500">{name}</p>
                 </div>
                 <div className="text-right space-y-1">
-                    <div className="text-xl font-black text-slate-900 tracking-tight tabular-nums font-sans">{price}</div>
-                    <div className={`text-[9px] font-black flex items-center justify-end gap-1 ${isUp ? 'text-emerald-500' : 'text-rose-500'}`}>
+                    <div className="text-xl font-black text-white tracking-tight tabular-nums font-sans">{price}</div>
+                    <div className={`text-[9px] font-black flex items-center justify-end gap-1 ${isUp ? 'text-emerald-400' : 'text-rose-500'}`}>
                         {chg}
                     </div>
                 </div>
             </div>
-            <div className="grid grid-cols-2 gap-4 pt-4 border-t border-slate-50">
+            <div className="grid grid-cols-2 gap-4 pt-4 border-t border-slate-800/60">
                 <div className="space-y-1">
-                    <div className="text-[11px] font-black text-slate-400 uppercase tracking-widest">{dict.stocks_pro.market_rank}</div>
-                    <div className="text-xs font-black text-slate-900 uppercase">NO. {rank}</div>
+                    <div className="text-[11px] font-black text-slate-500 uppercase tracking-widest">{dict.stocks_pro.market_rank}</div>
+                    <div className="text-xs font-black text-white uppercase">NO. {rank}</div>
                 </div>
                 <div className="text-right space-y-1">
-                    <div className="text-[11px] font-black text-slate-400 uppercase tracking-widest">{dict.stocks_pro.est_per}</div>
-                    <div className="text-xs font-black text-slate-900 uppercase">{per}x</div>
+                    <div className="text-[11px] font-black text-slate-500 uppercase tracking-widest">{dict.stocks_pro.est_per}</div>
+                    <div className="text-xs font-black text-white uppercase">{per}x</div>
                 </div>
             </div>
             <div className="flex items-center justify-between pt-2">
                 <div className="flex items-center gap-2">
                     <div className="w-1.5 h-1.5 rounded-none bg-emerald-500 animate-pulse" />
-                    <span className="text-[11px] font-black text-slate-400 uppercase tracking-widest opacity-80">{dict.stocks_pro.ai_eval_breakout}</span>
+                    <span className="text-[11px] font-black text-slate-500 uppercase tracking-widest">{dict.stocks_pro.ai_eval_breakout}</span>
                 </div>
                 <button 
                     onClick={() => setIsModalOpen(true)}
-                    className="text-[11px] font-black text-indigo-600 uppercase tracking-widest hover:underline transition-all"
+                    className="text-[11px] font-black text-indigo-400 uppercase tracking-widest hover:underline transition-all cursor-pointer"
                 >
                     {dict.pro.view_details}
                 </button>
@@ -333,49 +335,49 @@ const StockCard = ({ ticker, name, price, chg, rank, per, type, dict }: any) => 
                 title={dict.stocks_pro.modal_stock_deep.replace('{ticker}', ticker)}
             >
                 <div className="space-y-8">
-                    <div className="flex items-center justify-between p-6 bg-slate-50 border border-slate-100">
+                    <div className="flex items-center justify-between p-6 bg-slate-950/80 border border-slate-800">
                         <div className="space-y-1">
-                            <div className="text-[11px] font-black text-slate-400 uppercase tracking-widest">{dict.stocks_pro.table_ticker}</div>
-                            <div className="text-xl font-black text-slate-900">{name}</div>
+                            <div className="text-[11px] font-black text-slate-500 uppercase tracking-widest">{dict.stocks_pro.table_ticker}</div>
+                            <div className="text-xl font-black text-white">{name}</div>
                         </div>
                         <div className="text-right space-y-1">
-                            <div className="text-[11px] font-black text-slate-400 uppercase tracking-widest">{dict.pro.current_status}</div>
-                            <div className="text-xl font-black text-slate-900 tabular-nums">{price}</div>
+                            <div className="text-[11px] font-black text-slate-500 uppercase tracking-widest">{dict.pro.current_status}</div>
+                            <div className="text-xl font-black text-white tabular-nums">{price}</div>
                         </div>
                     </div>
 
                     <div className="grid grid-cols-2 gap-6">
-                        <div className="p-5 bg-white border border-slate-100 space-y-3">
-                            <div className="text-[11px] font-black text-slate-400 uppercase tracking-widest">{dict.stocks_pro.valuation_metrics}</div>
+                        <div className="p-5 bg-slate-900/60 border border-slate-800 space-y-3">
+                            <div className="text-[11px] font-black text-slate-500 uppercase tracking-widest">{dict.stocks_pro.valuation_metrics}</div>
                             <div className="space-y-2">
                                 <div className="flex justify-between items-center text-sm">
-                                    <span className="font-bold text-slate-500">{dict.stocks_pro.est_per}</span>
-                                    <span className="font-black text-slate-900">{per}x</span>
+                                    <span className="font-bold text-slate-400">{dict.stocks_pro.est_per}</span>
+                                    <span className="font-black text-white">{per}x</span>
                                 </div>
                                 <div className="flex justify-between items-center text-sm">
-                                    <span className="font-bold text-slate-500">{dict.stocks_pro.market_rank}</span>
-                                    <span className="font-black text-slate-900">第 {rank} 位</span>
+                                    <span className="font-bold text-slate-400">{dict.stocks_pro.market_rank}</span>
+                                    <span className="font-black text-white">第 {rank} 位</span>
                                 </div>
                             </div>
                         </div>
-                        <div className="p-5 bg-white border border-slate-100 space-y-3">
-                            <div className="text-[11px] font-black text-slate-400 uppercase tracking-widest">{dict.stocks_pro.momentum_diagnosis}</div>
+                        <div className="p-5 bg-slate-900/60 border border-slate-800 space-y-3">
+                            <div className="text-[11px] font-black text-slate-500 uppercase tracking-widest">{dict.stocks_pro.momentum_diagnosis}</div>
                             <div className="space-y-2">
                                 <div className="flex justify-between items-center text-sm">
-                                    <span className="font-bold text-slate-500">{dict.stocks_pro.prev_day_ratio}</span>
-                                    <span className={`font-black ${isUp ? 'text-emerald-500' : 'text-rose-500'}`}>{chg}</span>
+                                    <span className="font-bold text-slate-400">{dict.stocks_pro.prev_day_ratio}</span>
+                                    <span className={`font-black ${isUp ? 'text-emerald-400' : 'text-rose-500'}`}>{chg}</span>
                                 </div>
                                 <div className="flex justify-between items-center text-sm">
-                                    <span className="font-bold text-slate-500">{dict.crypto_pro.volatility}</span>
-                                    <span className="font-black text-slate-900">{dict.crypto_pro.vola_stable}</span>
+                                    <span className="font-bold text-slate-400">{dict.crypto_pro.volatility}</span>
+                                    <span className="font-black text-white">{dict.crypto_pro.vola_stable}</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div className="p-6 border border-slate-100 space-y-4">
-                        <div className="text-[11px] font-black text-slate-900 uppercase tracking-widest">{dict.stocks_pro.ai_investment_verdict}</div>
-                        <p className="text-sm text-slate-600 leading-relaxed">
+                    <div className="p-6 border border-slate-800 space-y-4">
+                        <div className="text-[11px] font-black text-white uppercase tracking-widest">{dict.stocks_pro.ai_investment_verdict}</div>
+                        <p className="text-sm text-slate-400 leading-relaxed">
                             {dict.stocks_pro.investment_verdict_text.replace('{ticker}', ticker).replace('{type}', type)}
                         </p>
                     </div>

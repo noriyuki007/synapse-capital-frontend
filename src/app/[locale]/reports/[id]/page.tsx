@@ -1,6 +1,7 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
 import { getReportData, getSortedReportsData, getTrackRecordStats } from '@/lib/reports';
+import { getExchangeById } from '@/lib/microcms';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { MarketPriceWidget } from '@/components/MarketPriceWidget';
@@ -87,7 +88,12 @@ export default async function ReportDetailPage(props: { params: Promise<{ id: st
         notFound();
     }
 
-    const { title, date, genre, target_pair, prediction_direction, contentHtml, signalData, tldr_points, chart_image, excerpt, conclusionText, nextSteps } = reportData;
+    const { title, date, genre, target_pair, prediction_direction, contentHtml, signalData, tldr_points, chart_image, excerpt, conclusionText, nextSteps, recommended_broker } = reportData;
+
+    let broker = null;
+    if (recommended_broker) {
+        broker = await getExchangeById(recommended_broker, locale);
+    }
     const allReports = await getSortedReportsData(locale);
     const stats = await getTrackRecordStats(locale);
 
@@ -310,6 +316,27 @@ export default async function ReportDetailPage(props: { params: Promise<{ id: st
                                             <div className="text-5xl font-black tracking-tighter">{signalData?.sl || '---'}</div>
                                           </div>
                                         </div>
+                                        {broker && (
+                                          <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row md:items-center justify-between gap-6">
+                                            <div className="space-y-1">
+                                              <div className="text-[10px] font-black uppercase tracking-widest text-indigo-400">Recommended Execution Broker</div>
+                                              <div className="text-lg font-black text-white">{broker.name}</div>
+                                              <p className="text-xs font-medium text-slate-400 leading-relaxed max-w-md">
+                                                {locale === 'ja' 
+                                                  ? '当シグナルの推奨執行レート・約定スピードが最適化された取引所です。優先シグナル枠の対象になります。'
+                                                  : 'Optimized execution speeds and spreads for this specific AI signal. Eligible for priority signal delivery.'}
+                                              </p>
+                                            </div>
+                                            <Link 
+                                              href={broker.affiliateLink}
+                                              target="_blank"
+                                              className="px-8 py-4 bg-indigo-600 hover:bg-indigo-700 text-white text-[11px] font-black uppercase tracking-widest rounded-none transition-all flex items-center justify-center gap-2 group/btn shrink-0"
+                                            >
+                                              {locale === 'ja' ? '口座開設して取引を開始する' : 'Open Account & Trade'} 
+                                              <ArrowRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
+                                            </Link>
+                                          </div>
+                                        )}
                                       </div>
                                       {hasVisibleContent(restHtml) && (
                                         <div className="prose prose-slate max-w-none prose-p:font-bold prose-p:text-slate-700" dangerouslySetInnerHTML={{ __html: restHtml }} />
