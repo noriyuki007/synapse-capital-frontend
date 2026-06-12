@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-06-13-crypto-ja",
+    "date": "2026-06-13 03:15",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "MA20未満の価格とRSI25.7のオーバーソールド状況から、短期的な上昇余地を想定。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-13-stocks-ja",
+    "date": "2026-06-13 03:12",
+    "title": "[S&P 500] FLAT: MA20での整形選好と中立シグナルの一致",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500はMA20の下での整形選好を維持。 Iran peace dealの希望とSpaceXのIPOがテックバッファとして機能中。Bank of Americaの警告はファンダメンタルズの慎重さを強調する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-13-stocks-en",
+    "date": "2026-06-13 03:12",
+    "title": "[S&P 500] FLAT: MA20 Reclaim Required as Neutral RSI Limits Directional Edge",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "Designated broker platform",
+    "excerpt": "S&P 500 stays flat below MA20; bullish headlines offset neutral RSI and headline risk.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-06-13-fx-ja",
+    "date": "2026-06-13 03:04",
+    "title": "[USD/JPY] UP: MA20超えとRSI71.8で強気トレンド",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYは160.20付近で上値余地あり、MA20超えとRSI71.8で強気トレンド。リスク管理を徹底し[dmm-fx]で流動性確保しつつ、160.25目標、159.50止損でロング推奨。本日のAI解析で支持。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-13-fx-en",
+    "date": "2026-06-13 03:04",
+    "title": "[USD/JPY] UP: AI Detects Bullish Momentum as Price Holds Above MA20",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY holds above MA20, RSI ~72, Iran news supportive; bullish bias intact with upside targets near 162.0 on the chart",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-06-13-crypto-en",
+    "date": "2026-06-13",
+    "title": "CRYPTO Analysis",
+    "genre": "CRYPTO",
+    "target_pair": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-06-12-crypto-ja",
     "date": "2026-06-12 20:48",
     "title": "[BTC/USD] DOWN: MA20下放れとオーバーソールドRSIが示す下振れリスク",
