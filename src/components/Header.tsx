@@ -49,69 +49,71 @@ export const Header = ({ locale, dict }: { locale: string; dict: any }) => {
     return (
         <>
             {/* Mobile Navigation Drawer */}
-            <div className={`fixed inset-0 z-[600] lg:hidden transition-all duration-500 overflow-hidden ${isMobileMenuOpen ? 'opacity-100 pointer-events-auto visible' : 'opacity-0 pointer-events-none invisible'}`}>
-                <div className="absolute inset-0 bg-black/60 backdrop-blur-[4px]" onClick={() => setIsMobileMenuOpen(false)} />
-                <div className={`absolute top-0 right-0 w-[300px] sm:w-[380px] h-screen bg-[#0c1122] shadow-2xl transition-transform duration-500 ease-out border-l border-slate-800/80 ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
-                    <div className="p-6 md:p-8 space-y-12 overflow-y-auto h-full scrollbar-hide">
-                        <div className="flex items-center justify-between">
-                            <div className="flex items-center gap-3 shrink-0">
-                                <Link href={`/${locale}/`} onClick={() => setIsMobileMenuOpen(false)} className="flex items-center gap-3">
-                                    <div className="w-9 h-9 bg-indigo-600 rounded-none flex items-center justify-center text-white shadow-[0_0_15px_rgba(99,102,241,0.5)]">
-                                        <Activity className="w-5 h-5" />
-                                    </div>
-                                    <div className="text-sm font-black tracking-tighter text-white uppercase">SYNAPSE</div>
-                                </Link>
-                            </div>
-                            <button 
-                                onClick={() => setIsMobileMenuOpen(false)} 
-                                className="w-9 h-9 flex items-center justify-center text-slate-450 hover:text-white hover:bg-slate-900 transition-colors"
-                            >
-                                <X className="w-6 h-6" />
-                            </button>
-                        </div>
- 
-                        <nav className="space-y-10">
-                            {menuItems.map((menu) => (
-                                <div key={menu.id} className="space-y-6">
-                                    <div className="text-[11px] font-black text-slate-400 uppercase tracking-[0.3em] pl-2 border-l-2 border-indigo-500">{menu.label}</div>
-                                    <div className="grid gap-4 pl-2">
-                                        {menu.items.map((item) => (
-                                            <Link 
-                                                key={item.href} 
-                                                href={item.href}
-                                                onClick={() => setIsMobileMenuOpen(false)}
-                                                className="flex items-center gap-4 group"
-                                            >
-                                                <div className="w-10 h-10 bg-slate-900 border border-slate-850 flex items-center justify-center text-slate-405 group-active:bg-indigo-950 group-active:text-indigo-400 group-hover:border-indigo-500/50 transition-all">
-                                                    <item.icon className="w-5 h-5" />
-                                                </div>
-                                                <div className="space-y-0.5">
-                                                    <div className="text-[13px] font-black text-slate-100 uppercase tracking-widest group-hover:text-indigo-400 transition-colors">{item.label}</div>
-                                                    <div className="text-[11px] font-bold text-slate-450">{item.desc}</div>
-                                                </div>
-                                            </Link>
-                                        ))}
-                                    </div>
+            {isMobileMenuOpen && (
+                <div className="fixed inset-0 z-[600] lg:hidden transition-all duration-500 overflow-hidden opacity-100 pointer-events-auto visible">
+                    <div className="absolute inset-0 bg-black/60 backdrop-blur-[4px]" onClick={() => setIsMobileMenuOpen(false)} />
+                    <div className="absolute top-0 right-0 w-[300px] sm:w-[380px] h-screen bg-[#0c1122] shadow-2xl transition-transform duration-500 ease-out border-l border-slate-800/80 translate-x-0">
+                        <div className="p-6 md:p-8 space-y-12 overflow-y-auto h-full scrollbar-hide">
+                            <div className="flex items-center justify-between">
+                                <div className="flex items-center gap-3 shrink-0">
+                                    <Link href={`/${locale}/`} onClick={() => setIsMobileMenuOpen(false)} className="flex items-center gap-3">
+                                        <div className="w-9 h-9 bg-indigo-600 rounded-none flex items-center justify-center text-white shadow-[0_0_15px_rgba(99,102,241,0.5)]">
+                                            <Activity className="w-5 h-5" />
+                                        </div>
+                                        <div className="text-sm font-black tracking-tighter text-white uppercase">SYNAPSE</div>
+                                    </Link>
                                 </div>
-                            ))}
-                        </nav>
- 
-                        <div className="pt-8 border-t border-slate-800/80 space-y-4">
-                             <button 
-                                onClick={toggleLanguage}
-                                className="w-full flex items-center gap-3 px-4 py-3 bg-slate-900 border border-slate-800 rounded-none text-[11px] font-black text-slate-100 uppercase tracking-widest hover:bg-slate-850 transition-colors"
-                             >
-                                <Globe className="w-4 h-4 text-indigo-400" />
-                                {locale === 'ja' ? 'English' : '日本語'} に切り替え
-                             </button>
-                             <div className="flex items-center gap-2 px-3 py-3 bg-slate-900/50 border border-slate-800/80 text-[11px] font-black text-slate-400 uppercase tracking-widest justify-center">
-                                <div className="w-1.5 h-1.5 rounded-none bg-emerald-500 animate-pulse shadow-[0_0_8px_rgba(16,185,129,0.8)]" />
-                                {dict.common.system_active}
+                                <button 
+                                    onClick={() => setIsMobileMenuOpen(false)} 
+                                    className="w-9 h-9 flex items-center justify-center text-slate-450 hover:text-white hover:bg-slate-900 transition-colors"
+                                >
+                                    <X className="w-6 h-6" />
+                                </button>
+                            </div>
+     
+                            <nav className="space-y-10">
+                                {menuItems.map((menu) => (
+                                    <div key={menu.id} className="space-y-6">
+                                        <div className="text-[11px] font-black text-slate-400 uppercase tracking-[0.3em] pl-2 border-l-2 border-indigo-500">{menu.label}</div>
+                                        <div className="grid gap-4 pl-2">
+                                            {menu.items.map((item) => (
+                                                <Link 
+                                                    key={item.href} 
+                                                    href={item.href}
+                                                    onClick={() => setIsMobileMenuOpen(false)}
+                                                    className="flex items-center gap-4 group"
+                                                >
+                                                    <div className="w-10 h-10 bg-slate-900 border border-slate-850 flex items-center justify-center text-slate-405 group-active:bg-indigo-950 group-active:text-indigo-400 group-hover:border-indigo-500/50 transition-all">
+                                                        <item.icon className="w-5 h-5" />
+                                                    </div>
+                                                    <div className="space-y-0.5">
+                                                        <div className="text-[13px] font-black text-slate-100 uppercase tracking-widest group-hover:text-indigo-400 transition-colors">{item.label}</div>
+                                                        <div className="text-[11px] font-bold text-slate-450">{item.desc}</div>
+                                                    </div>
+                                                </Link>
+                                            ))}
+                                        </div>
+                                    </div>
+                                ))}
+                            </nav>
+     
+                            <div className="pt-8 border-t border-slate-800/80 space-y-4">
+                                 <button 
+                                    onClick={toggleLanguage}
+                                    className="w-full flex items-center gap-3 px-4 py-3 bg-slate-900 border border-slate-800 rounded-none text-[11px] font-black text-slate-100 uppercase tracking-widest hover:bg-slate-850 transition-colors"
+                                 >
+                                    <Globe className="w-4 h-4 text-indigo-400" />
+                                    {locale === 'ja' ? 'English' : '日本語'} に切り替え
+                                 </button>
+                                 <div className="flex items-center gap-2 px-3 py-3 bg-slate-900/50 border border-slate-800/80 text-[11px] font-black text-slate-400 uppercase tracking-widest justify-center">
+                                    <div className="w-1.5 h-1.5 rounded-none bg-emerald-500 animate-pulse shadow-[0_0_8px_rgba(16,185,129,0.8)]" />
+                                    {dict.common.system_active}
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            )}
  
             <header className="sticky top-0 z-[500] bg-[#060913]/90 border-b border-slate-800/80 px-4 md:px-8 py-3 flex items-center justify-between backdrop-blur-md">
                 <div className="flex items-center gap-4 md:gap-12 flex-1 min-w-0">
