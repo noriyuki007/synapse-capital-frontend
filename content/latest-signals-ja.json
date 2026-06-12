@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: イラン合意と米利回り上昇がリスクオンを示唆",
-    "date": "2026-06-12 03:45",
+    "title": "[USD/JPY] DOWN: RSI過熱とリスクオフによる円買い圧力が優勢",
+    "date": "2026-06-12 12:38",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "イラン合意で地政学リスク後退、円安全需給減衰",
-      "米30年利回り5.02%と住宅ローン上昇が米ドルを支え",
-      "価格はMA20を上回り、押し目買いのシナリオ有効"
+      "RBAは据え置きだが追加利上げ観測が残る",
+      "米中対立とイラン情勢がリスクオフを誘発、円買い圧力が強まる",
+      "テクニカルはMA20を上抜けているがRSI72.5で過熱、戻り売りが有利"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "イラン合意と米長期金利上昇がリスクオンを醸成し、USD/JPYはMA20を基軸に上昇余地を探る。",
+    "excerpt": "USD/JPYはMA20を上回るもRSIが過熱地帯に入り、リスクオフ環境での円買いが優位。戻り売りを推奨。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "イラン合意と米長期金利上昇がリスクオンを促し、MA20を支えに上昇余地が見込まれる",
-    "entry": "159.50",
-    "tp": "161.00",
-    "sl": "159.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPYはMA20を上回るもRSIが過熱地帯に入り、リスクオフ環境での円買いが優位。戻り売りを推奨。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-06-12 03:50",
+    "title": "[S&P 500] UP: MA20付近での反発とポジティブなファンダメンタルズ",
+    "date": "2026-06-12 12:41",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Nomura",
     "tldr_points": [
-      "トランプ米副大統領のイラン軍制限発表がリスクオンを牽引",
-      "MA20(7468)の抵衝となる足場を確認",
-      "コアPPI鈍化でインフレーション不安が和緩"
+      "SpaceX IPOとトランプの中東政策がリスクオンを誘発",
+      "小売・消費関連株が堅調、景気後退懸念の後退",
+      "テクニカルはMA20を上抜けようとする動き、RSIは中立域"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "トランプ米副大統領のイラン軍制限発表がナビゲーション障害を回避。MA20(7468)の抵衝となる足場を確認。コアPPI鈍化でインフレーション不安が和緩し、強気ファンダメンタルズが相補的に機能。",
+    "excerpt": "S&P 500はMA20付近で反発の兆し、SpaceX IPOとトランプの中東動向がリスクオンを後押し。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20の抵衝と政策ムーバブルさが整合",
-    "entry": "7468.00",
-    "tp": "7600.00",
+    "comment": "スペースX IPOとトランプの中東政策がリスクオンを誘発、MA20付近での反発が期待できるため買い推奨。",
+    "entry": "7400.00",
+    "tp": "7550.00",
     "sl": "7300.00",
-    "reliability": "HIGH"
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20下回りとリスクオフ傾向が強まる",
-    "date": "2026-06-12 03:53",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-12 12:50",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20を下抜け、下落リスクが顕在化",
-      "マクロ流動性の引き締めがビットコインに逆風",
-      "機関のディベースメントトレード後退が加速"
+      "価格はMA20大幅下抜け、RSI24で極端に売られている。",
+      "ファンダメンタルズでは機関のディベースメントトレード後退が加速。",
+      "テクニカル的に反発の余地が大きく、押し目買い戦略が有効。"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20下回りとマクロリスクオフが重なり、BTC/USDは下落トレンド継続の可能性が高い。",
+    "excerpt": "現在価格63,398ドルはMA20を大きく下回り、RSIは24で売られ過ぎ。ファンダメンタルズは混在だが短期的反発余地が点灯。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20下抜けとマクロリスクオフが下落を裏付ける",
-    "entry": "63460",
-    "tp": "60000",
-    "sl": "66000",
+    "status": "BUY",
+    "comment": "MA20下抜けとRSI売られ過ぎから短期反発期待",
+    "entry": "62500",
+    "tp": "68800",
+    "sl": "60500",
     "reliability": "MEDIUM"
   }
 }

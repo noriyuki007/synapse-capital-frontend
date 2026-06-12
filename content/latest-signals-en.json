@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Iran Deal Drives Risk‑On, Yields Rise, Price Above MA20",
-    "date": "2026-06-12 03:45",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-12 12:38",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Iran deal reduces geopolitical risk, sparking risk‑on flows that favor USD over JPY.",
-      "US 30‑year yield at 5.02% and rising mortgage rates reinforce dollar strength.",
-      "Price holds above the 20‑day MA at 159.44, indicating short‑term bullish bias."
+      "Price consolidating above MA20 at 160.23",
+      "RBA policy patience supportive of USD",
+      "Iranian conflict risks unlikely to disrupt Yen strength"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY set to rise on Iran deal‑driven risk‑on sentiment, higher US yields, and price staying above MA20.",
+    "excerpt": "",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "USD/JPY bullish on risk‑on sentiment and supportive US yields.",
-    "entry": "159.50",
-    "tp": "161.00",
-    "sl": "159.00",
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Bounce Toward MA20 Amid Geopolitical Easing and Soft PPI",
-    "date": "2026-06-12 03:50",
+    "title": "[S&P 500] UP: Anticipated bounce to MA20 amid SpaceX IPO optimism",
+    "date": "2026-06-12 12:41",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "Equities rose on Trump's Iran strike cancellation and softer core PPI.",
-      "Technical price sits below MA20, suggesting near-term bounce potential.",
-      "Key levels: entry ~7380, target MA20 ~7468, stop ~7320."
+      "Price below MA20 suggests near-term support",
+      "RSI near neutral leaves room for upside",
+      "SpaceX IPO and geopolitical easing provide bullish catalysts"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 likely to bounce toward MA20 as geopolitical tensions ease and inflation data supports risk-on sentiment.",
+    "excerpt": "S&P 500 poised to test MA20 resistance as bullish news outweighs mild technical weakness.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Bullish bias driven by geopolitical easing and technical bounce toward MA20.",
-    "entry": "7380.00",
-    "tp": "7468.00",
-    "sl": "7320.00",
-    "reliability": "MEDIUM"
+    "comment": "Anticipated bounce to MA20 supported by bullish newsflow",
+    "entry": "7390.00",
+    "tp": "7470.00",
+    "sl": "7350.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Breaches MA20 as Debasement Trade Unwinds Amid Liquidity Concerns",
-    "date": "2026-06-12 03:53",
+    "title": "[BTC/USD] UP: Oversold Bounce Targets MA20 Amid Adoption Catalysts",
+    "date": "2026-06-12 12:50",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trades 7.7% below MA20 signaling trend breakdown",
-      "JPMorgan flags accelerated debasement trade retreat",
-      "Liquidity crisis narrative gaining traction per Mallers"
+      "RSI at 24 signals extreme oversold conditions",
+      "Price below MA20 sets up potential mean reversion",
+      "Adoption headlines offset JPM debasement commentary"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC breaks key MA20 support as institutional debasement thesis unravels; risk-off bias favored.",
+    "excerpt": "BTC/USD shows oversold technical setup with adoption catalysts, targeting MA20 retest near 68.8k.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price below MA20 with institutional debasement unwind and liquidity crisis narrative supports downside to 200-day SMA.",
-    "entry": "67750",
-    "tp": "61200",
-    "sl": "69200",
+    "status": "BUY",
+    "comment": "Oversold bounce targeting MA20 confluence amid adoption-driven fundamental support.",
+    "entry": "63500.00",
+    "tp": "68000.00",
+    "sl": "62000.00",
     "reliability": "HIGH"
   }
 }
