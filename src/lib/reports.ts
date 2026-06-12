@@ -317,6 +317,8 @@ export async function getTrackRecordStats(locale?: string) {
 }
 
 import latestSignalsJson from '../../content/latest-signals.json';
+import latestSignalsEnJson from '../../content/latest-signals-en.json';
+import latestSignalsJaJson from '../../content/latest-signals-ja.json';
 
 /**
  * Normalizes varied AI JSON structures into consistent SignalCard props
@@ -324,9 +326,9 @@ import latestSignalsJson from '../../content/latest-signals.json';
 function normalizeSignalData(genre: string, raw: any, locale: string = 'ja') {
     const isEn = locale === 'en';
     const defaults = {
-        FX: { pair: "USD/JPY", status: "NEUTRAL", comment: isEn ? "Analyzing" : "分析中", entry: "---", tp: "---", sl: "---", reliability: "MEDIUM" },
-        STOCKS: { pair: "S&P 500", status: "NEUTRAL", comment: isEn ? "Analyzing" : "分析中", entry: "---", tp: "---", sl: "---", reliability: "MEDIUM" },
-        CRYPTO: { pair: "BTC/USD", status: "NEUTRAL", comment: isEn ? "Analyzing" : "分析中", entry: "---", tp: "---", sl: "---", reliability: "MEDIUM" }
+        FX: { pair: "USD/JPY", status: "NEUTRAL", comment: isEn ? "Analyzing" : "分析中", entry: "---", tp: "---", sl: "---", reliability: "MEDIUM", recommended_broker: "" },
+        STOCKS: { pair: "S&P 500", status: "NEUTRAL", comment: isEn ? "Analyzing" : "分析中", entry: "---", tp: "---", sl: "---", reliability: "MEDIUM", recommended_broker: "" },
+        CRYPTO: { pair: "BTC/USD", status: "NEUTRAL", comment: isEn ? "Analyzing" : "分析中", entry: "---", tp: "---", sl: "---", reliability: "MEDIUM", recommended_broker: "" }
     } as any;
 
     const data = { ...defaults[genre] };
@@ -342,13 +344,21 @@ function normalizeSignalData(genre: string, raw: any, locale: string = 'ja') {
     if (raw.sl) data.sl = raw.sl;
     if (raw.reliability) data.reliability = raw.reliability;
 
+    if (raw.recommended_broker) {
+        const validIds = ["dmm-fx", "dmm-kabu", "matsui-securities", "monex-fx", "bitflyer", "tossy", "fujitomi-securities", "xm-trading", "bybit", "fx-broadnet", "hirose-fx", "hfm", "exness"];
+        if (validIds.includes(raw.recommended_broker)) {
+            data.recommended_broker = raw.recommended_broker;
+        } else {
+            data.recommended_broker = "";
+        }
+    }
+
     return data;
 }
 
 export async function getLatestSignals(locale: string = 'ja') {
     try {
-        const rawSignals = latestSignalsJson;
-
+        const rawSignals = locale === 'en' ? latestSignalsEnJson : (locale === 'ja' ? latestSignalsJaJson : latestSignalsJson);
 
         return {
             FX: normalizeSignalData('FX', rawSignals.FX, locale),

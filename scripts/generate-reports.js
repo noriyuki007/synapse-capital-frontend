@@ -331,7 +331,7 @@ function buildArticlePrompt(genre, newsHeadlines, marketData, jstDateStr, locale
 
     const cp = marketData?.current_price ?? (locale === 'ja' ? '不明' : 'Unknown');
     const ma20 = marketData?.ma20 ?? (locale === 'ja' ? '不明' : 'Unknown');
-    const rsi = marketData?.rsi_14 ?? (locale === 'ja' ? '不明' : 'Unknown');
+    const rsi = marketData?.rsi ?? marketData?.rsi_14 ?? (locale === 'ja' ? '不明' : 'Unknown');
 
     const headlinesBlock = newsHeadlines.map(n => `- ${n.title}`).join('\n');
 

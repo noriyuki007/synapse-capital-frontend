@@ -12,13 +12,13 @@ export const MarketTicker = ({ dict }: { dict: any }) => {
     ];
 
     return (
-        <div className="w-full max-w-full bg-[#f8fafc] border-b border-slate-100 py-1.5 overflow-hidden select-none">
+        <div className="w-full max-w-full bg-slate-950 border-b border-slate-800 py-1.5 overflow-hidden select-none">
             <div className="flex animate-ticker whitespace-nowrap">
                 {[...items, ...items, ...items].map((item, i) => (
                     <div key={i} className="flex items-center gap-4 px-6 text-[9px] font-bold tracking-tighter">
-                        <span className="text-slate-400 uppercase">{item.label}</span>
-                        <span className="text-slate-900">{item.val}</span>
-                        <span className={item.up ? "text-emerald-500" : "text-rose-500"}>{item.chg}</span>
+                        <span className="text-slate-550 uppercase">{item.label}</span>
+                        <span className="text-white">{item.val}</span>
+                        <span className={item.up ? "text-emerald-450" : "text-rose-455"}>{item.chg}</span>
                     </div>
                 ))}
             </div>

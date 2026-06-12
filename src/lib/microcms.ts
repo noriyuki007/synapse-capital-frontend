@@ -58,5 +58,5 @@ export async function getExchanges(locale: string = 'ja') {
 
 export async function getExchangeById(id: string, locale: string = 'ja') {
     const mocks = await getExchanges(locale);
-    return mocks.find(m => m.id === id) || mocks[0];
+    return mocks.find(m => m.id === id);
 }

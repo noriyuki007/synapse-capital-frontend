@@ -38,7 +38,7 @@ jobs:
           python-version: '3.10'
 
       - name: Install Python dependencies
-        run: pip install yfinance mplfinance pandas websockets
+        run: pip install yfinance mplfinance pandas websockets requests
 
       - name: Install dependencies
         run: npm ci
@@ -74,6 +74,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          TWELVE_DATA_API_KEY: ${{ secrets.TWELVE_DATA_API_KEY }}
           NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
           NOTION_DB_ID: ${{ secrets.NOTION_DB_ID }}
           FORCE_DATE: ${{ github.event.inputs.force_date }}
@@ -103,6 +104,12 @@ jobs:
           else
             echo "No changes to commit"
           fi
+
+      - name: Post to Facebook
+        env:
+          MAKE_WEBHOOK_URL: ${{ secrets.MAKE_WEBHOOK_URL }}
+        run: node scripts/post-to-facebook.js
+        continue-on-error: true
 
       - name: Build and Deploy to Cloudflare Pages
         env:

@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import matter from 'gray-matter';
 
 /**
  * Facebook Auto-Poster for Synapse Capital
@@ -25,8 +26,7 @@ async function postToMakeWebhook() {
         return;
     }
 
-    const jstDate = new Date(new Date().toLocaleString("en-US", {timeZone: "Asia/Tokyo"}));
-    const today = jstDate.toISOString().split('T')[0];
+    const today = new Date().toLocaleDateString("sv-SE", { timeZone: "Asia/Tokyo" });
     console.log(`Checking for reports on date: ${today} (JST)`);
     
     // 1. Check for today's reports
@@ -65,7 +65,7 @@ async function postToMakeWebhook() {
     console.log(`📋 Found ${reportsToPost.length} report(s) for ${targetDate}.`);
 
     // Group reports by genre, then randomly select 1 genre and post both ja/en versions
-    const genreRegex = /^\d{4}-\d{2}-\d{2}-([a-zA-Z0-9]+)[-.](ja|en)\.md$/i;
+    const genreRegex = /^\d{4}-\d{2}-\d{2}-([a-zA-Z0-9-]+)[-.](ja|en)\.md$/i;
     const genreGroups = {};
     for (const r of reportsToPost) {
         const m = r.name.match(genreRegex);
@@ -83,7 +83,7 @@ async function postToMakeWebhook() {
         const report = selectedReports[i];
         // [Requirement 1] Extract locale (ja/en) and genre from filename
         // Matches e.g., 2026-03-21-fx.ja.md or 2026-03-21-crypto-en.md
-        const filenameRegex = /^\d{4}-\d{2}-\d{2}-([a-zA-Z0-9]+)[-.](ja|en)\.md$/i;
+        const filenameRegex = /^\d{4}-\d{2}-\d{2}-([a-zA-Z0-9-]+)[-.](ja|en)\.md$/i;
         const match = report.name.match(filenameRegex);
         
         let extractedGenre = 'MARKET';
@@ -105,13 +105,24 @@ async function postToMakeWebhook() {
 
         // Read markdown to get basic metadata
         const content = fs.readFileSync(report.path, 'utf8');
-        const titleMatch = content.match(/title:\s*"(.*?)"/);
-        const genreMatch = content.match(/genre:\s*"(.*?)"/);
-        const chartImageMatch = content.match(/chart_image:\s*"(.+?)"/);
-        
-        const title = titleMatch ? titleMatch[1] : (extractedLocale === 'ja' ? '最新のマーケットレポート' : 'Latest Market Report');
-        const genre = genreMatch ? genreMatch[1] : extractedGenre;
-        const chartImagePath = chartImageMatch ? chartImageMatch[1] : '';
+        let title = extractedLocale === 'ja' ? '最新のマーケットレポート' : 'Latest Market Report';
+        let genre = extractedGenre;
+        let chartImagePath = '';
+
+        try {
+            const { data } = matter(content);
+            if (data.title) title = data.title;
+            if (data.genre) genre = data.genre;
+            if (data.chart_image) chartImagePath = data.chart_image;
+        } catch (e) {
+            console.warn(`⚠️ gray-matter parse failed for ${report.name}, falling back to regex: ${e.message}`);
+            const titleMatch = content.match(/title:\s*["']?(.*?)["']?$/m);
+            const genreMatch = content.match(/genre:\s*["']?(.*?)["']?$/m);
+            const chartImageMatch = content.match(/chart_image:\s*["']?(.+?)["']?$/m);
+            if (titleMatch) title = titleMatch[1].replace(/^["']|["']$/g, '').trim();
+            if (genreMatch) genre = genreMatch[1].replace(/^["']|["']$/g, '').trim();
+            if (chartImageMatch) chartImagePath = chartImageMatch[1].replace(/^["']|["']$/g, '').trim();
+        }
 
         // GitHub Raw URLへの変換
         let imageUrl = '';
