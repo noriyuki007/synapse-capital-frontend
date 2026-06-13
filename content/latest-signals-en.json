@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Bullish Momentum as Price Holds Above MA20",
-    "date": "2026-06-13 03:04",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-13 12:26",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 signals short-term bullish momentum.",
-      "RSI near 72 indicates strong buying pressure but watch for overextension.",
-      "Fundamental backdrop: positive Iran news and stable US yields support USD strength."
+      "US equity rally and Iran interim deal boost risk appetite, supporting dollar strength.",
+      "Technical price sits above rising MA20 with RSI near overbought, indicating bullish momentum.",
+      "Key resistance at 160.50; break targets 161.20, while support at 159.60 limits downside."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above MA20, RSI ~72, Iran news supportive; bullish bias intact with upside targets near 162.0 on the chart",
+    "excerpt": "USD/JPY bullish as risk-on sentiment lifts dollar; price above MA20, RSI 70.6, targeting 160.50–161.20.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish momentum supported by price above MA20 and positive Iran news.",
-    "entry": "160.00",
-    "tp": "162.00",
-    "sl": "159.30",
-    "reliability": "MEDIUM"
+    "comment": "Bullish risk‑on bias, price above MA20 with strong RSI and supportive order flow.",
+    "entry": "160.05",
+    "tp": "161.20",
+    "sl": "159.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: MA20 Reclaim Required as Neutral RSI Limits Directional Edge",
-    "date": "2026-06-13 03:12",
+    "title": "[S&P 500] DOWN: AI Detects MA20 Resistance as Euphoria Normalizes",
+    "date": "2026-06-13 12:30",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "Designated broker platform",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 remains below MA20 at 7430.39990234375, keeping the short-term trend neutral-to-negative.",
-      "Iran-deal hopes and SpaceX momentum support risk appetite, while BofA's warning caps conviction.",
-      "Tactical plan is flat until 7465.801513671875 is reclaimed; downside risk rises below 7400."
+      "Price below MA20 at 7,431.46 signals short-term momentum loss.",
+      "RSI-14 at 47.19 shows neutral momentum with a bearish tilt.",
+      "Key tactical level is 7,465.85; failure there favors 7,380.00."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 stays flat below MA20; bullish headlines offset neutral RSI and headline risk.",
+    "excerpt": "S&P 500 trades below MA20 with neutral RSI; tactical bias turns bearish unless 7,465.85 is reclaimed.",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "No immediate exposure; conditional long requires a sustained reclaim of MA20 above 7465.801513671875.",
-    "entry": "7466.00",
-    "tp": "7515.00",
-    "sl": "7430.00",
+    "comment": "S&P 500 trades below MA20 with neutral RSI; tactical bias turns bearish unless 7,465.85 is reclaimed.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD 市場分析",
-    "date": "2026-06-13",
+    "title": "[BTC/USD] UP: AI Detects Oversold RSI and Potential Support Near MA20",
+    "date": "2026-06-13 12:31",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "tldr_points": [],
+    "tldr_points": [
+      "Price sits below MA20 with RSI at 24.8, indicating deep oversold conditions.",
+      "Regulatory headlines are mixed but overall negative sentiment may be overextended.",
+      "A bounce toward the MA20 (~68k) offers a logical short‑term target."
+    ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "",
+    "excerpt": "BTC/USD oversold near RSI 24.8, price below MA20, potential bounce amid mixed regulatory news.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Oversold RSI combines with institutional adoption catalysts for asymmetric risk/reward",
-    "entry": "63750",
-    "tp": "68100",
-    "sl": "60000",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTC/USD oversold near RSI 24.8, price below MA20, potential bounce amid mixed regulatory news.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
