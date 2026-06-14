@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20上抜けとリスクオン・ファンダメンタルズの整合性を確認",
-    "date": "2026-06-14 19:47",
+    "title": "USD/JPY：AI解析が示す上昇シナリオと戦略的リスク管理",
+    "date": "2026-06-15 02:18",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米株高とイラン合意による資金解放がドル買いを支援",
-      "価格がMA20を明確に上回り、短期トレンドが強気",
-      "RSI70超えで過熱感あり、押し目管理が必須"
+      "金利相関（近似）: 0.02で正相関傾向",
+      "テクニカル: 現在価格 160.18 と MA20 159.62 の位置関係が主導",
+      "需給: 上限帯 160.76 / 下限帯 158.48 / 直近高値 160.59 / 直近安値 158.59 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米株上昇とイラン資金解放でドル買い優勢、USD/JPYはMA20上抜けし短期上昇トレンド継続中だがRSI過熱で調整リスク内在。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 160.18、RSI(70.63)、MA20(159.62)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20上抜けとリスクオン材料で上昇継続、RSI過熱で押し目管理必須",
-    "entry": "160.20",
-    "tp": "162.00",
-    "sl": "159.30",
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 160.18、RSI(70.63)、MA20(159.62)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20下抜けとリスクオフセンチメントの整合性",
-    "date": "2026-06-14 19:53",
+    "title": "[S&P 500] DOWN: MA20割れとインフレ懸念が重なる",
+    "date": "2026-06-15 02:22",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "野村證券",
+    "recommended_broker": "",
     "tldr_points": [
-      "価格がMA20を下抜け、下方バイアスが強まる",
-      "RSIは47で中立付近、過熱感は薄い",
-      "ファンダメンタルズは利上げ警戒と地政学リスクで重し"
+      "MA20を下回る価格動向が下押しリスクを示唆",
+      "インフレ再燃と金利懸念がリスクオフ姿勢を強化",
+      "テクニカルはRSI中立ながらモメンタムは陰転"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を下抜け、RSIは中立付近で下方リスクが顕在化。ファンダメンタルズも警戒感が強まる中、短期的な売り方針を示す。",
+    "excerpt": "S&P 500はMA20割れとインフレ上昇により下押しリスクが高まっており、売り方向の戦略が妥当。",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "MA20下抜けと金利上昇・リスクオフが下方バイアスを強化",
-    "entry": "7450.00",
-    "tp": "7300.00",
-    "sl": "7500.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20割れとインフレ上昇が下押しリスクを強化",
+    "entry": "7420",
+    "tp": "7300",
+    "sl": "7480",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: オーバソールRSIとMA20乖離が示す反転シグナルだが構造破壊の確認が先汎",
-    "date": "2026-06-14 19:56",
+    "title": "[BTC/USD] UP: MA20下押し目からの反発期待とオーバーソールド RSI が示す買い機会",
+    "date": "2026-06-15 02:25",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "RSI(14)27.28は極端な売り過ぎを示す",
-      "MA2066874.97への反発検証がシグナルの成否を分ける",
-      "ETF淌出とAI板作成セクターの投銀増加が複雑因子"
+      "価格はMA20下押し目かつRSI 26でオーバーソールド状態",
+      "機関向けETFフローが金曜に85.8百万ドルの流入で転換点",
+      "マクロは金利安定とスポーツベット訴訟がリスクオフを抑制"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCは64507ドルでオーバソールをテストし、MA2066874ドルへの抵抗確認が直近の参入タイミングを規定する。",
+    "excerpt": "BTC/USDはMA20を下回りRSIが極端に低く、短期的な反発の余地が見込まれる。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "RSIオーバソールとETF流入が反転シグナルを提示、MA20ブレイクで有効化",
+    "comment": "MA20下押し目とRSIオーバーソールドに加え、機関ETF流入が上値を支えるため",
     "entry": "64000",
-    "tp": "66900",
-    "sl": "62000",
+    "tp": "66800",
+    "sl": "62300",
     "reliability": "MEDIUM"
   }
 }

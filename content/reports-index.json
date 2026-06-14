@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-06-15-crypto-ja",
+    "date": "2026-06-15 02:25",
+    "title": "[BTC/USD] UP: MA20下押し目からの反発期待とオーバーソールド RSI が示す買い機会",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USDはMA20を下回りRSIが極端に低く、短期的な反発の余地が見込まれる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-15-crypto-en",
+    "date": "2026-06-15 02:25",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC tests MA20 support as RSI hits 26, bullish catalysts emerge; target 68k with tight risk. amid institutional inflows.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-06-15-stocks-ja",
+    "date": "2026-06-15 02:22",
+    "title": "[S&P 500] DOWN: MA20割れとインフレ懸念が重なる",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "S&P 500はMA20割れとインフレ上昇により下押しリスクが高まっており、売り方向の戦略が妥当。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-15-stocks-en",
+    "date": "2026-06-15 02:22",
+    "title": "[S&P 500] FLAT: AI Detects Key MA20 Resistance with Neutral Fundamental Forces",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 hovering near MA20 forms a consolidation zone; trade cautious due to neutral RSIs and pending geopolitical catalyst.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-06-15-fx-ja",
+    "date": "2026-06-15 02:18",
+    "title": "USD/JPY：AI解析が示す上昇シナリオと戦略的リスク管理",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 160.18、RSI(70.63)、MA20(159.62)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-15-fx-en",
+    "date": "2026-06-15 02:18",
+    "title": "[USD/JPY] UP: Price Holds Above MA20 as Risk-On Flows Overrun JPY Demand",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY stays bid above MA20 as risk-on flows and event risk favor yen weakness, but RSI warns against chasing.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-06-14-crypto-ja",
     "date": "2026-06-14 19:56",
     "title": "[BTC/USD] FLAT: オーバソールRSIとMA20乖離が示す反転シグナルだが構造破壊の確認が先汎",
