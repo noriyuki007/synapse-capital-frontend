@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: RSI Overbought Signals Near-Term Pullback Amid Bullish Fundamentals",
-    "date": "2026-06-14 02:19",
+    "title": "[USD/JPY] UP: Price Trades Above MA20 Amid Risk-On Sentiment",
+    "date": "2026-06-14 12:42",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 with RSI >70 indicates overbought short-term.",
-      "Iran deal unlocking $10B may support USD, but risk-on sentiment favors short-term JPY strength.",
-      "Expect a dip toward MA20 around 159.60 before resumed upside."
+      "Price trades 28 pips above MA20 support",
+      "RSI at 70.63 signals bullish momentum without extreme overbought",
+      "Iran interim deal unlocks $10B+, fueling risk appetite"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USDJPY overbought on RSI; near-term pullback to MA20 likely despite bullish backdrop.",
+    "excerpt": "USD/JPY bullish above MA20 as US equities rally and Iran deal progresses",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "RSI overbought signals near-term pullback to MA20 despite bullish fundamentals",
-    "entry": "160.15",
-    "tp": "159.60",
-    "sl": "160.55",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Technical bullish structure confirmed with price above MA20 and momentum intact",
+    "entry": "159.62",
+    "tp": "160.60",
+    "sl": "159.25",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Technical Bias at MA20 with RSI Mildly Bullish",
-    "date": "2026-06-14 02:25",
+    "title": "[S&P 500] UP: AI Confirms MA20 Support, RSI Neutral, Earnings Catalyst",
+    "date": "2026-06-14 12:44",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price near MA20 with RSI nudges higher, aligning with fundamentals",
-      "AI multi‑factor signals confirm bullish bias",
-      "Key resistance at 7480, support at MA20"
+      "AI confirms MA20 support as price stabilizes",
+      "RSI near neutral suggests lack of overbought pressure",
+      "Tech earnings provide catalyst for upside momentum"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Technical outlook points to upside as price tests MA20 near support while RSI nudges higher, aligning with fundamentals.",
+    "excerpt": "AI signals bullish bias as S&P tests MA20 support; RSI near neutral; tech earnings provide catalyst ahead now!",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Price near MA20 with RSI rising suggests upside bias.",
-    "entry": "7431.46",
-    "tp": "7480",
-    "sl": "7400",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "AI signals bullish bias as S&P tests MA20 support; RSI near neutral; tech earnings provide catalyst ahead now!",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Oversold RSI and ETF Inflow Support",
-    "date": "2026-06-14 02:27",
+    "title": "[BTC/USD] UP: Oversold RSI and Institutional Inflows Signal Near‑Term Rebound",
+    "date": "2026-06-14 12:45",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Spot Bitcoin ETFs recorded a $85.8 M inflow, ending a five‑day outflow streak.",
-      "RSI‑14 sits at 25.15, indicating deep oversold conditions on BTC/USD.",
-      "Price action remains below the 20‑day MA at 67,492, presenting a potential mean‑reversion setup."
+      "Price 64,444 sits ~3% below MA20",
+      "RSI 26.8 indicates deep oversold conditions",
+      "Spot BTC ETF inflows resume, adding institutional demand"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Bitcoin ETF inflows resume, RSI deeply oversold at 25, price below MA20 signaling potential bounce toward68k resistance",
+    "excerpt": "BTC/USD eyes a near‑term bounce as RSI plunges, MA20 remains supportive, and institutional inflows return.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Oversold RSI and ETF inflow support a bounce toward MA20 resistance.",
-    "entry": "64000.00",
+    "comment": "Oversold RSI and institutional ETF inflows justify a near‑term rebound toward MA20.",
+    "entry": "64400.00",
     "tp": "67500.00",
-    "sl": "61500.00",
+    "sl": "62500.00",
     "reliability": "HIGH"
   }
 }

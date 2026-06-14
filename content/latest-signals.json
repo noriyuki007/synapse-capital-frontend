@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: MA20上抜け後の過熱感とリスクオンの調整を示唆",
-    "date": "2026-06-14 02:19",
+    "title": "[USD/JPY] UP: 160円台定着とリスクオン環境下での押し目買い優位性",
+    "date": "2026-06-14 12:42",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米国株高とイラン暫定合意でリスクオンが強まるが、RSIは70超えで過熱感",
-      "現在価格はMA20を上回るが、短期的な戻り売り圧力が予想される",
-      "流動性の観点から[dmm-fx]の利用を推奨し、明確なエグジットポイントを設定"
+      "160.18でMA20を上回り強気トレンド継続、RSI70超えで過熱感も上昇モメンタム優先",
+      "米株高・イラン合意進展によるリスクオンが円売り・ドル買いを後押し",
+      "159.60-159.70のMA20帯をサポートに161.00-161.50を目指す買い戦略が有効"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米国株高とイラン資金解放でリスクオンが強まる一方、RSI過熱感から米ドル円は短期調整局面に入りそうだ。",
+    "excerpt": "USD/JPYは160.18でMA20を明確に上回り、リスクオン環境下で上昇トレンドを強化。RSI過熱も押し目買い意欲を削ぐには至らず、159.60付近を買い場に161円半ばを視野に入れる。",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "RSI過熱感とリスクオンの調整が下押しを促す",
-    "entry": "160.15",
-    "tp": "159.20",
-    "sl": "160.70",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "リスクオン・地政学緩和・MA20サポートで上昇トレンド継続、押し目買い優位",
+    "entry": "159.70",
+    "tp": "161.50",
+    "sl": "159.20",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20付近での反発期待と強気ファンダメンタルズの整合性",
-    "date": "2026-06-14 02:25",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-14 12:44",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "野村證券",
+    "recommended_broker": "[ specified broker ]",
     "tldr_points": [
-      "価格はMA20下押しだが反発の余地あり",
-      "RSIは47で中立、下値リスク限定的",
-      "ファンダメンタルズは個別株の好材料が指数を支える可能性"
+      "MA20（7465）の上押しでの買いシグナル",
+      "RSI47は中立状態、サプライズ安定",
+      "AI関連の企業動向がバッファ要因"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20を意識した押し目買いがシグナルとなり、上値目標は7466付近。",
+    "excerpt": "S&P 500、MA20（7465）の上押しを踏まえた買い機会。米AI関連企業の動向、トランプ米国大統領のイラン合意発表が支持。RSI47の中立状態で、一時的な調整後の反発が期待される。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20付近の押し目買いはファンダメンタルズとテクニカルが一致し、上値余地が見込める",
-    "entry": "7420",
-    "tp": "7466",
-    "sl": "7380",
-    "reliability": "MEDIUM"
+    "comment": "MA20の上押し、RSI中立、トランプ発言のポジティブサプライズ",
+    "entry": "7465",
+    "tp": "7500",
+    "sl": "7420",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20付近での反発とRSI超売りが示唆する短期リバウンド",
-    "date": "2026-06-14 02:27",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-14 12:45",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20下抜けかつRSIが極端に低く、短期的な買い圧力の余地が残る",
-      "金曜日のビットコインETFへの資金流入が機関の関心を再燃させた",
-      "マクロ的には利上げ懸念が続くが、インフレ鈍化兆候がリスクオンを支援"
+      "MA20下抜けとRSI売られ過ぎが反発シグナル",
+      "機関向けビットコインETFへのフローが回復基調",
+      "規制動向は中立ながらAI関連トークンがリスクオンを支援"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20下抜けかつRSI極端に低く、ETF資金流入が再燃すれば短期的な反発余地が広がる。",
+    "excerpt": "現在価格はMA20下抜け、RSIは売られ過ぎで反発期待。流動性と機関フローが上値を支える見込み。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20下抜け・RSI超売り・ETF資金流入が短期反発を支持",
-    "entry": "64000.00",
-    "tp": "66000.00",
-    "sl": "62500.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20下抜け・RSI売られ過ぎと機関フロー回復が反発を支える",
+    "entry": "64500.00",
+    "tp": "68200.00",
+    "sl": "62800.00",
+    "reliability": "HIGH"
   }
 }
