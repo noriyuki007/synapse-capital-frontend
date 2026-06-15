@@ -1,74 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] [Direction] [Rationale] (e.g. 'Buy the dip toward MA20 with tight risk control')",
-    "date": "2026-06-15 12:57",
+    "title": "[USD/JPY] FLAT: AI Analyzes Modest Fundamental, Technical Neutrality",
+    "date": "2026-06-15 22:52",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP or DOWN or FLAT",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      {
-        "Key point 1": "Rising BOJ policy expectations reinforcing yen resistance."
-      },
-      {
-        "Key point 2": "Strength in price consolidation near 160 with narrow MA support."
-      },
-      {
-        "Key point 3": "Numerical proximity of RSI 68 to critical up threshold."
-      }
+      "Neutral fundamentals dampen directional bias",
+      "Price hovering above short-term MA20",
+      "RSI indicates potential overextension"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "120-character summary (no greetings)",
+    "excerpt": "USD/JPY steadies near 160.10 with modest bullish fundamentals offset by overbought momentum.",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "120-character summary (no greetings)",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "comment": "Range-bound dynamics with modest upside potential",
+    "entry": "160.10",
+    "tp": "160.80",
+    "sl": "159.40",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Geopolitical De-escalation Triggers Risk-On Reversal Above 7400",
-    "date": "2026-06-15 12:58",
+    "title": "[S&P 500] UP: Oil De‑Risking and Cease‑Fire Boost Risk Appetite",
+    "date": "2026-06-15 22:53",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "OANDA",
+    "recommended_broker": "",
     "tldr_points": [
-      "U.S.-Iran nuclear framework eliminates Hormuz tail risk, crushing oil premium",
-      "S&P 500 futures gap higher, testing 7465 MA20 resistance from below",
-      "RSI at 47.2 confirms momentum neutrality with upside skew on volume expansion"
+      "Oil price retreat lifts risk assets",
+      "S&P 500 holds above MA20 with neutral RSI",
+      "Geopolitical de‑escalation fuels bullish order flow"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Iran deal fuels risk-on bid; S&P 500 eyes MA20 reclaim at 7466 with 7550 extension target.",
+    "excerpt": "Oil de‑risking after US‑Iran cease‑fire lifts S&P 500 above MA20, technicals stay bullish.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Geopolitical risk removal + MA20 breakout setup yields asymmetric long opportunity",
-    "entry": "7470",
-    "tp": "7550",
-    "sl": "7375",
+    "comment": "Geopolitical de‑escalation and technicals above MA20 create a favorable upside scenario.",
+    "entry": "7480.00",
+    "tp": "7620.00",
+    "sl": "7430.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-15 13:05",
+    "date": "2026-06-15 22:55",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price sits below MA20 with RSI at 31.6, signalling oversold conditions.",
-      "Zimbabwe’s crypto regulation and falling mining difficulty provide constructive macro backdrop.",
-      "Trump‑backed stablecoin initiative and AI‑token rally add short‑term bullish catalysts."
+      "Price near MA20 with bullish reversal signals",
+      "RSI at 37 suggests oversold, potential upside",
+      "Institutional buying and macro catalysts support upward move"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD poised for rebound as oversold RSI meets MA20 support amid easing mining difficulty and regulatory clarity. now!",
+    "excerpt": "BTC/USD near MA20, RSI 37, bullish; target 67,200, SL 65,800.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Oversold RSI and MA20 support suggest a bounce toward near‑term resistance.",
-    "entry": "65500",
-    "tp": "68800",
-    "sl": "64200",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTC/USD near MA20, RSI 37, bullish; target 67,200, SL 65,800.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
