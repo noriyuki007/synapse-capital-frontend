@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-06-15 22:52",
+    "date": "2026-06-16 04:46",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20（159.62）での技術的支持確認",
-      "RSI69.25の過買い圧力緩和",
-      "帰港シェリー需要の増加がJPYを下押す"
+      "現在価格はMA20を上回り、上昇バイアスが継続",
+      "RSIは71.7で過熱感があるが、米長期金利の上昇が下値を支える",
+      "オーダーフローは買い優勢で、短期的な押し目買いが有効"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20を下回るまでの反発を試み、RSIの過買いを消化中。帰港シェリーの増加やHormuz開放の油資影響で、短期的なJPY下方プレッシャーが続く。",
+    "excerpt": "現在価格はMA20を上回り、RSIは71.7と過熱感があるが、米長期金利の上昇とリスクオフの円買いが限定的で、上昇余地が残ると判断。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20の技術的支持と強気ファンダメンタルの整合",
-    "entry": "159.60",
+    "comment": "MA20を上回る上昇トレンドと米長期金利上昇がドルを支えるため",
+    "entry": "160.10",
     "tp": "161.00",
-    "sl": "158.50",
+    "sl": "159.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と米イラン停戦によるリスクオフ緩和",
-    "date": "2026-06-15 22:53",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-16 04:49",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "野村證券",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "米イラン和平合意でホルムズ海峡開放、原油下落によりリスクオフが後退。",
-      "S&P500は現在価格7551.78でMA20(7473.02)を上抜け、反発の兆し。",
-      "RSI(14)は51.98で中立帯、上げ余地あり。流動性確保のため野村證券の利用を推奨。"
+      "価格はMA20を上回り、短期的な上昇バイアスが示唆される。",
+      "RSIは中立圏で過熱感は限定的。",
+      "巡回的セクターローテーションが今後の上昇を支える可能性がある。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "米イラン停戦でホルムズ海峡開放、原油下落かつ株式買い優勢。MA20上抜けとRSI中立が上昇バイアスを支持し、流動性確保のため野村證券の利用を推奨。",
+    "excerpt": "MA20を上回る価格動向と中立的RSI、循環的セクターシフトがS&P 500の短期上昇を支える。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20上抜けと米イラン停戦によるリスクオフ緩和が上昇バイアスを支持",
-    "entry": "7500.00",
-    "tp": "7620.00",
-    "sl": "7440.00",
+    "comment": "MA20上抜けと循環的ローテーションが上昇を支える",
+    "entry": "7475.00",
+    "tp": "7700.00",
+    "sl": "7400.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-06-15 22:55",
+    "title": "[BTC/USD] UP: 金利下方修正とテクニカル超売られ相場からの反転期待",
+    "date": "2026-06-16 04:53",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "機関投資家のBTC累積が継続、Saylorの追加購入が下支え",
-      "Krakenの米国プレミアムパーペチュアル取引開始で流動性拡大",
-      "米長期金利の安定化がリスクオン環境を維持"
+      "RSI37.9の超売られで反転シナリオ",
+      "MA20上での現在価格は軽い強気シグナル",
+      "インフラ拡大とDeFiの強いファンダメンタルズ"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20付近での押し目買いが妥当。ファンダはSaylor追加購入とKraken新商品で底堅く、テクニカルはRSI37.5から反転期待。",
+    "excerpt": "RSI37.9の超売られ相場からの反転期待と、金利下方修正でのリスクオン購入を検討。現在価格66,560はMA20をわずか上にて整合性を維持。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20付近での押し目買いが妥当。ファンダは機関の追加購入とKraken新商品で底堅く、テクニカルはRSI37.5から反転期待。",
-    "entry": "66350.00",
-    "tp": "66800.00",
-    "sl": "66000.00",
+    "comment": "RSI37.9超売られとMA20上での底シナリオ、インフラ拡大＆DeFi期待で反転期待",
+    "entry": "66300",
+    "tp": "67200",
+    "sl": "65800",
     "reliability": "MEDIUM"
   }
 }
