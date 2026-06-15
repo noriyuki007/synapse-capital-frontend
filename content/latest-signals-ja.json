@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY：AI解析が示す上昇シナリオと戦略的リスク管理",
-    "date": "2026-06-15 02:18",
+    "title": "[USD/JPY] DOWN: BOJ利上げ期待とMA20割れを背景とした戻り売りシナリオ",
+    "date": "2026-06-15 12:57",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "金利相関（近似）: 0.02で正相関傾向",
-      "テクニカル: 現在価格 160.18 と MA20 159.62 の位置関係が主導",
-      "需給: 上限帯 160.76 / 下限帯 158.48 / 直近高値 160.59 / 直近安値 158.59 によるターゲット設計"
+      "BOJの利上げが円買いを強化",
+      "現在価格はMA20上だが戻り売り圧力が顕在",
+      "dmm-fxの流動性でエグゼキューションを最適化"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 160.18、RSI(70.63)、MA20(159.62)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "BOJの利上げ期待が円買いを支援し、USD/JPYは上値が重い。MA20を基準とした戻り売りが短期的な下押し圧力となる。",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "本日のAI解析では、USD/JPYの現在価格 160.18、RSI(70.63)、MA20(159.62)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "comment": "BOJの利上げ期待が円買いを支援し、USD/JPYは上値が重い。MA20を基準とした戻り売りが短期的な下押し圧力となる。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20割れとインフレ懸念が重なる",
-    "date": "2026-06-15 02:22",
+    "title": "[S&P 500] UP: MA20付近での反発と米イラン合意によるリスクオンの整合性",
+    "date": "2026-06-15 12:58",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "MA20を下回る価格動向が下押しリスクを示唆",
-      "インフレ再燃と金利懸念がリスクオフ姿勢を強化",
-      "テクニカルはRSI中立ながらモメンタムは陰転"
+      "米イラン和平合意でリスクオンが強まり、株式市場は上昇基調",
+      "現在価格はMA20を下回るが、押し目買いの機会と見なせる",
+      "RSIは47程度で過熱感がなく、上振れ余地あり"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20割れとインフレ上昇により下押しリスクが高まっており、売り方向の戦略が妥当。",
+    "excerpt": "米イラン合意によるリスクオンでS&P500は上昇期待。MA20を下押しした現在の水準は押し目買いの好機と判断。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "MA20割れとインフレ上昇が下押しリスクを強化",
-    "entry": "7420",
-    "tp": "7300",
-    "sl": "7480",
+    "status": "BUY",
+    "comment": "米イラン合意によるリスクオンとMA20付近の技術的反発が一致",
+    "entry": "7445.00",
+    "tp": "7480.00",
+    "sl": "7420.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20下押し目からの反発期待とオーバーソールド RSI が示す買い機会",
-    "date": "2026-06-15 02:25",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-15 13:05",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20下押し目かつRSI 26でオーバーソールド状態",
-      "機関向けETFフローが金曜に85.8百万ドルの流入で転換点",
-      "マクロは金利安定とスポーツベット訴訟がリスクオフを抑制"
+      "価格はMA20を下回り、RSIは31で過売り状態、反転の余地あり",
+      "ジンバブエの規制動向と米国のAI関連ニュースが需給に影響",
+      "流動性の観点からbitflyerの利用を推奨"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を下回りRSIが極端に低く、短期的な反発の余地が見込まれる。",
+    "excerpt": "MA20付近での押し目買いシグナルとファンダメンタルズの整合性を確認し、UPバイアスを示す。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20下押し目とRSIオーバーソールドに加え、機関ETF流入が上値を支えるため",
-    "entry": "64000",
-    "tp": "66800",
-    "sl": "62300",
-    "reliability": "MEDIUM"
+    "comment": "MA20付近での押し目買いと過売りRSIが反転を示唆",
+    "entry": "65800",
+    "tp": "68500",
+    "sl": "64200",
+    "reliability": "HIGH"
   }
 }

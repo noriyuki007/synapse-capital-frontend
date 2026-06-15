@@ -1,68 +1,74 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Price Holds Above MA20 as Risk-On Flows Overrun JPY Demand",
-    "date": "2026-06-15 02:18",
+    "title": "[USD/JPY] [Direction] [Rationale] (e.g. 'Buy the dip toward MA20 with tight risk control')",
+    "date": "2026-06-15 12:57",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "UP or DOWN or FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY remains above MA20, preserving near-term bullish structure.",
-      "Risk-on equity and crypto tone reduces safe-haven JPY demand.",
-      "RSI above 70 supports dip-buying rather than momentum chasing."
+      {
+        "Key point 1": "Rising BOJ policy expectations reinforcing yen resistance."
+      },
+      {
+        "Key point 2": "Strength in price consolidation near 160 with narrow MA support."
+      },
+      {
+        "Key point 3": "Numerical proximity of RSI 68 to critical up threshold."
+      }
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY stays bid above MA20 as risk-on flows and event risk favor yen weakness, but RSI warns against chasing.",
+    "excerpt": "120-character summary (no greetings)",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "USD/JPY stays bid above MA20 as risk-on flows and event risk favor yen weakness, but RSI warns against chasing.",
+    "comment": "120-character summary (no greetings)",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: AI Detects Key MA20 Resistance with Neutral Fundamental Forces",
-    "date": "2026-06-15 02:22",
+    "title": "[S&P 500] UP: Geopolitical De-escalation Triggers Risk-On Reversal Above 7400",
+    "date": "2026-06-15 12:58",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "UP",
+    "recommended_broker": "OANDA",
     "tldr_points": [
-      "Price just below MA20",
-      "RSI near neutral",
-      "Upcoming US‑Iran talks may introduce volatility"
+      "U.S.-Iran nuclear framework eliminates Hormuz tail risk, crushing oil premium",
+      "S&P 500 futures gap higher, testing 7465 MA20 resistance from below",
+      "RSI at 47.2 confirms momentum neutrality with upside skew on volume expansion"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 hovering near MA20 forms a consolidation zone; trade cautious due to neutral RSIs and pending geopolitical catalyst.",
+    "excerpt": "Iran deal fuels risk-on bid; S&P 500 eyes MA20 reclaim at 7466 with 7550 extension target.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Price consolidation at MA20 with neutral RSI indicates no clear bias yet.",
-    "entry": "7435",
-    "tp": "7470",
-    "sl": "7400",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Geopolitical risk removal + MA20 breakout setup yields asymmetric long opportunity",
+    "entry": "7470",
+    "tp": "7550",
+    "sl": "7375",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-15 02:25",
+    "date": "2026-06-15 13:05",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "MA20 support aligns with oversold RSI",
-      "Institutional inflows into BTC ETFs",
-      "Catalysts from stablecoin and AI news"
+      "Price sits below MA20 with RSI at 31.6, signalling oversold conditions.",
+      "Zimbabwe’s crypto regulation and falling mining difficulty provide constructive macro backdrop.",
+      "Trump‑backed stablecoin initiative and AI‑token rally add short‑term bullish catalysts."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC tests MA20 support as RSI hits 26, bullish catalysts emerge; target 68k with tight risk. amid institutional inflows.",
+    "excerpt": "BTC/USD poised for rebound as oversold RSI meets MA20 support amid easing mining difficulty and regulatory clarity. now!",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC tests MA20 support as RSI hits 26, bullish catalysts emerge; target 68k with tight risk. amid institutional inflows.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Oversold RSI and MA20 support suggest a bounce toward near‑term resistance.",
+    "entry": "65500",
+    "tp": "68800",
+    "sl": "64200",
+    "reliability": "HIGH"
   }
 }
