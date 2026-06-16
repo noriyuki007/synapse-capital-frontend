@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: BOJ Hawkish Shift Pressures Yen",
-    "date": "2026-06-16 12:44",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-16 21:51",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "BOJ hikes to 1% and pauses taper, signaling yen strength.",
-      "China retail sales drop adds risk-off sentiment, supporting safe-haven flows.",
-      "Technical price sits above MA20 with RSI 66, suggesting near-term upside exhaustion."
+      "US dollar strength reinforced by BOJ rate hike divergence",
+      "Technical support near MA20 at 159.68 remains intact",
+      "Fundamental tailwinds from Iran deal optimism and weaker yen-linked commodities"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "BOJ rate hike and China weakness tilt bias toward USD/JPY downside; look for sell toward MA20 with defined risk.",
+    "excerpt": "USD/JPY shows bullish technical alignment above MA20 with RSI in positive momentum zone, supported by BOJ tightening and mixed US economic data.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "BOJ hike and China risk‑off shift bias toward yen strength",
-    "entry": "160.20",
-    "tp": "159.00",
-    "sl": "160.80",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] BUY: Technical Trend Aligns with Rates and Sentiment Shifts",
-    "date": "2026-06-16 12:47",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": [],
-    "tldr_points": [
-      "Rates are compressing support, with RSI near midpoint signaling possible consolidation.",
-      "Key candlestick patterns reinforce upward momentum despite short-term pullbacks.",
-      "Analyst sentiment remains consistently positive across major vendors."
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Buy the dip toward MA20 with tight risk control; technical strength intersects with easing rate sentiment.",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "Buy the dip toward MA20 with tight risk control; technical strength intersects with easing rate sentiment.",
+    "comment": "USD/JPY shows bullish technical alignment above MA20 with RSI in positive momentum zone, supported by BOJ tightening and mixed US economic data.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] FLAT: Price Below MA20 as Fed Meeting and Mixed Macro Data Cap Momentum",
+    "date": "2026-06-16 21:53",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "tldr_points": [
+      "S&P 500 trades below MA20, confirming near-term technical pressure.",
+      "Fed policy meeting and housing-start disappointment increase event risk.",
+      "A reclaim of 7465.85 is required to shift tactical bias constructive."
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 remains below MA20 with neutral RSI, making a Fed-driven reclaim of 7465.85 the key tactical trigger.",
+    "pair": "S&P 500",
+    "status": "NEUTRAL",
+    "comment": "Price remains below MA20 with neutral RSI, requiring a confirmed reclaim before shifting to a constructive stance.",
+    "entry": "7466.00",
+    "tp": "7505.00",
+    "sl": "7420.00",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Signals and Technical Support Align for Bullish Outlook",
-    "date": "2026-06-16 12:50",
+    "title": "[BTC/USD] UP: Institutional Product Innovation Counterbalances Regulatory Noise",
+    "date": "2026-06-16 21:56",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Spot HYPE ETFs indicate rising institutional demand",
-      "Price hovering just below MA20 with oversold RSI",
-      "Liquidity influx from upcoming crypto‑linked IPOs"
+      "BlackRock's covered call ETF increases institutional utility",
+      "Securitization of BTC-backed lending signals massive capital inflow",
+      "Price stabilizing above MA20 indicates bullish consolidation"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Institutional inflows and price near MA20 set a bullish bias for BTC/USD.",
+    "excerpt": "BTC holds MA20 support as BlackRock's yield-bearing ETF and lending securitization drive institutional accumulation.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Price near MA20 with oversold RSI and strong institutional inflows justify a bullish entry.",
-    "entry": "66150-66300",
-    "tp": "66950",
-    "sl": "65600",
+    "comment": "Institutional yield products and support at MA20 signal upside potential.",
+    "entry": "66059",
+    "tp": "68500",
+    "sl": "65200",
     "reliability": "HIGH"
   }
 }
