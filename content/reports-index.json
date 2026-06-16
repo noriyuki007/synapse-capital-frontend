@@ -1,75 +1,75 @@
 [
   {
     "id": "2026-06-16-crypto-ja",
-    "date": "2026-06-16 04:53",
-    "title": "[BTC/USD] UP: 金利下方修正とテクニカル超売られ相場からの反転期待",
+    "date": "2026-06-16 12:50",
+    "title": "[BTC/USD] DOWN: 価格はMA20下抜けとRSI36で売り圧力優位",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
-    "excerpt": "RSI37.9の超売られ相場からの反転期待と、金利下方修正でのリスクオン購入を検討。現在価格66,560はMA20をわずか上にて整合性を維持。",
+    "excerpt": "MA20下抜けとRSI36から短期的な売り圧力が優位。65.5k割れで下目線、機関需給は限定的支援。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
+    "id": "2026-06-16-crypto-en",
+    "date": "2026-06-16 12:50",
+    "title": "[BTC/USD] UP: Institutional Signals and Technical Support Align for Bullish Outlook",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "Institutional inflows and price near MA20 set a bullish bias for BTC/USD.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-06-16-stocks-ja",
-    "date": "2026-06-16 04:49",
+    "date": "2026-06-16 12:47",
     "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
-    "excerpt": "MA20を上回る価格動向と中立的RSI、循環的セクターシフトがS&P 500の短期上昇を支える。",
+    "recommended_broker": "Nomura",
+    "excerpt": "S&P 500はMA20を上回り、主要銘柄のポジティブニュースがファンダを支える。テクニカルは押し目買いのシグナルを示し、上値試しが期待できる。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-06-16-stocks-en",
-    "date": "2026-06-16 04:49",
-    "title": "[S&P 500] UP: Bullish Momentum Confirmed Above MA20 as Cyclical Rotation Looms",
+    "date": "2026-06-16 12:47",
+    "title": "[S&P 500] BUY: Technical Trend Aligns with Rates and Sentiment Shifts",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "excerpt": "S&P 500 trades above key moving average amid constructive technical setup and cyclical sector rotation.",
+    "recommended_broker": "",
+    "excerpt": "Buy the dip toward MA20 with tight risk control; technical strength intersects with easing rate sentiment.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-06-16-fx-en",
+    "date": "2026-06-16 12:44",
+    "title": "[USD/JPY] DOWN: BOJ Hawkish Shift Pressures Yen",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "xm-trading",
+    "excerpt": "BOJ rate hike and China weakness tilt bias toward USD/JPY downside; look for sell toward MA20 with defined risk.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-06-16-fx-ja",
-    "date": "2026-06-16 04:46",
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "dmm-fx",
-    "excerpt": "現在価格はMA20を上回り、RSIは71.7と過熱感があるが、米長期金利の上昇とリスクオフの円買いが限定的で、上昇余地が残ると判断。",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-06-16-fx-en",
-    "date": "2026-06-16 04:46",
-    "title": "[USD/JPY] UP: Carry and Risk-On Flows Keep Pair Above MA20 Despite Overbought RSI",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY stays bid above MA20 as risk-on and lower safe-haven JPY demand offset RSI overbought risk.",
-    "result": "PENDING",
-    "locale": "en"
-  },
-  {
-    "id": "2026-06-16-crypto-en",
     "date": "2026-06-16",
-    "title": "CRYPTO Analysis",
-    "genre": "CRYPTO",
+    "title": "FX Analysis",
+    "genre": "FX",
     "target_pair": "",
     "prediction_direction": "FLAT",
     "recommended_broker": "",
     "excerpt": "",
     "result": "PENDING",
-    "locale": "en"
+    "locale": "ja"
   },
   {
     "id": "2026-06-15-crypto-ja",
@@ -152,7 +152,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "BTCは64507ドルでオーバソールをテストし、MA2066874ドルへの抵抗確認が直近の参入タイミングを規定する。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "Oversold technicals align with renewed ETF demand, setting up a high-probability bounce toward MA20 resistance.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
