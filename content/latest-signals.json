@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 価格がMA20を上抜け、インフレデータと米利上げ期待が裏付け",
-    "date": "2026-06-16 21:51",
+    "title": "インテリジェンス：USD/JPYの強気相場における利益確定ポイント",
+    "date": "2026-06-17 04:31",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20(159.68)を上回り、短期的な上昇バイアスを示す。",
-      "米輸入物価の上振れがインフレ懸念を強め、ドル支持。",
-      "BOJ利上げは円支持材料だが、現在の価格行動はドル買い優勢。"
+      "金利相関（近似）: -0.11で負相関傾向",
+      "テクニカル: 現在価格 160.40 と MA20 159.69 の位置関係が主導",
+      "需給: 上限帯 160.80 / 下限帯 158.57 / 直近高値 160.59 / 直近安値 158.59 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20を上抜け、米インフレデータがドルを支える中、上昇余地を探る。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 160.40、RSI(67.78)、MA20(159.69)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20上抜けと米インフレ上振れがドルを支え、短期上昇余地が見込まれる",
-    "entry": "160.00",
-    "tp": "161.50",
-    "sl": "159.30",
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 160.40、RSI(67.78)、MA20(159.69)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20下抜けと住宅starts失望が重石",
-    "date": "2026-06-16 21:53",
+    "title": "[S&P 500] UP: MA20での反発とAIブームによる目標上昇の整合性",
+    "date": "2026-06-17 04:38",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Nomura Securities",
+    "prediction_direction": "UP",
+    "recommended_broker": "[指定ブローカー]",
     "tldr_points": [
-      "住宅startsの失望がマクロヘッドウィンドとなる",
-      "MA20下抜けにより短期的売り圧力が顕在化",
-      "個別株の好材料は指数全体の下押しを相殺しきれない"
+      "価格はMA20を上回り、短期的な押し目買いの余地あり",
+      "Wells FargoがS&P 500目標を7,950に引き上げ、AI関連ファンダメンタルズが底堅い",
+      "RSIは中立域で過熱感なく、トレンド継続の可能性が高い"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "住宅startsの失望と金融政策発表を控えた慎重な市場環境の中で、S&P500はMA20を下抜け、RSIが中立圏に留まることから短期的な売り bias が強まっている。投資家はスペースXの好調やMetaのAI機能発表による個別株の上昇にもかかわらず、指数全体の方向感は依然として不透明であり、下値リスクに備える姿勢が求められる。",
+    "excerpt": "MA20を上回る価格動向とAIブームによる目標引き上げが底堅さを示し、押し目買いが有利。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "住宅starts失望とMA20下抜けが短期的売りシグナルを示す",
-    "entry": "7430.00",
-    "tp": "7350.00",
-    "sl": "7500.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20上抜けとAI関連目標引き上げが裏付ける上値余地",
+    "entry": "7490",
+    "tp": "7950",
+    "sl": "7400",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-06-16 21:56",
+    "date": "2026-06-17 04:41",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BlackRockの収入生成ETF登場が機関投資家の関心を引き付けている",
-      "MA20(66059)での技術的支えと現在価格(66362)の上方交差",
-      "RSI48.86で中立域を維持しつつも、強気サインを呈している"
+      "Coinbaseのシステムアップデートが機関投資家の参入を促す",
+      "MA20(66019)のサポートでの反発が期待される",
+      "ビットフライヤーを通じた流動性確保が戦略実行に不可欠"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20付近での技術的反発を確認。BlackRockの収入生成ETFやLednのリース市場予測など、機関投資家の関心が高まる一方、テクニカル指標は中立だが上昇意欲を示唆。",
+    "excerpt": "BTC/USDはMA20付近でのリビエラージュを確認しつつ、CoinbaseのAIアドバイザー導入やトークン化株式の進展が買い志向を支える。RSI46.3の中立状態を踏まえ、短期トレンドの反発期待。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20の技術的支えと機関系のポジティブニュースのコンフリクト",
-    "entry": "66059",
-    "tp": "67000",
-    "sl": "65800",
-    "reliability": "MEDIUM"
+    "comment": "MA20サポートの反発と機関投資家の参入が整合",
+    "entry": "66000.00",
+    "tp": "67200.00",
+    "sl": "65200.00",
+    "reliability": "HIGH"
   }
 }

@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-16 21:51",
+    "date": "2026-06-17 04:31",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US dollar strength reinforced by BOJ rate hike divergence",
-      "Technical support near MA20 at 159.68 remains intact",
-      "Fundamental tailwinds from Iran deal optimism and weaker yen-linked commodities"
+      "Price above MA20 with RSI near 68 indicates short-term bullish momentum.",
+      "Higher US 20-year yields support USD amid mixed risk sentiment.",
+      "Key resistance near 161.00; support at 159.70."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY shows bullish technical alignment above MA20 with RSI in positive momentum zone, supported by BOJ tightening and mixed US economic data.",
+    "excerpt": "USD/JPY holds above 20‑day MA as higher US yields back the dollar, targeting 161.00 resistance amid mixed risk sentiment.",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "USD/JPY shows bullish technical alignment above MA20 with RSI in positive momentum zone, supported by BOJ tightening and mixed US economic data.",
+    "comment": "USD/JPY holds above 20‑day MA as higher US yields back the dollar, targeting 161.00 resistance amid mixed risk sentiment.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: Price Below MA20 as Fed Meeting and Mixed Macro Data Cap Momentum",
-    "date": "2026-06-16 21:53",
+    "title": "[S&P 500] UP: Wells Fargo Target Raise and Price Above MA20 Signal Bullish Momentum",
+    "date": "2026-06-17 04:38",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 trades below MA20, confirming near-term technical pressure.",
-      "Fed policy meeting and housing-start disappointment increase event risk.",
-      "A reclaim of 7465.85 is required to shift tactical bias constructive."
+      "Price trades modestly above MA20 with neutral RSI, indicating balanced momentum.",
+      "Wells Fargo’s S&P 500 target raise to 7,950 reflects AI‑driven earnings upside.",
+      "Cyclical catch‑up potential remains intact despite AI trade fatigue signals."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 remains below MA20 with neutral RSI, making a Fed-driven reclaim of 7465.85 the key tactical trigger.",
+    "excerpt": "S&P 500 holds above MA20; AI optimism lifts targets; watch for cyclical rotation and disciplined long setup.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Price remains below MA20 with neutral RSI, requiring a confirmed reclaim before shifting to a constructive stance.",
-    "entry": "7466.00",
-    "tp": "7505.00",
-    "sl": "7420.00",
+    "status": "BUY",
+    "comment": "Price above MA20 with neutral RSI and AI‑driven earnings upside supports a long bias toward 7,950.",
+    "entry": "7500.00",
+    "tp": "7950.00",
+    "sl": "7450.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Product Innovation Counterbalances Regulatory Noise",
-    "date": "2026-06-16 21:56",
+    "title": "[BTC/USD] FLAT: MA20 Test with Stable Institutional Flow",
+    "date": "2026-06-17 04:41",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BlackRock's covered call ETF increases institutional utility",
-      "Securitization of BTC-backed lending signals massive capital inflow",
-      "Price stabilizing above MA20 indicates bullish consolidation"
+      "MA20 remains critical support",
+      "RSI indicates neutral momentum",
+      "Institutional activity at Coinbase fuels liquidity"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds MA20 support as BlackRock's yield-bearing ETF and lending securitization drive institutional accumulation.",
+    "excerpt": "BTC holds near MA20 with neutral RSI; moderate institutional flows keep the market flat.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Institutional yield products and support at MA20 signal upside potential.",
-    "entry": "66059",
-    "tp": "68500",
-    "sl": "65200",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Flat market with MA20 as key support and neutral RSI",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
   }
 }

@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-06-17-crypto-ja",
+    "date": "2026-06-17 04:41",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USDはMA20付近でのリビエラージュを確認しつつ、CoinbaseのAIアドバイザー導入やトークン化株式の進展が買い志向を支える。RSI46.3の中立状態を踏まえ、短期トレンドの反発期待。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-17-crypto-en",
+    "date": "2026-06-17 04:41",
+    "title": "[BTC/USD] FLAT: MA20 Test with Stable Institutional Flow",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC holds near MA20 with neutral RSI; moderate institutional flows keep the market flat.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-06-17-stocks-ja",
+    "date": "2026-06-17 04:38",
+    "title": "[S&P 500] UP: MA20での反発とAIブームによる目標上昇の整合性",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "[指定ブローカー]",
+    "excerpt": "MA20を上回る価格動向とAIブームによる目標引き上げが底堅さを示し、押し目買いが有利。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-17-stocks-en",
+    "date": "2026-06-17 04:38",
+    "title": "[S&P 500] UP: Wells Fargo Target Raise and Price Above MA20 Signal Bullish Momentum",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 holds above MA20; AI optimism lifts targets; watch for cyclical rotation and disciplined long setup.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-06-17-fx-ja",
+    "date": "2026-06-17 04:31",
+    "title": "インテリジェンス：USD/JPYの強気相場における利益確定ポイント",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 160.40、RSI(67.78)、MA20(159.69)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-17-fx-en",
+    "date": "2026-06-17 04:31",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY holds above 20‑day MA as higher US yields back the dollar, targeting 161.00 resistance amid mixed risk sentiment.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-06-16-crypto-ja",
     "date": "2026-06-16 21:56",
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
