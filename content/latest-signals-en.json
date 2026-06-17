@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Price Above MA20 with Moderate RSI Supports Bullish Bias",
-    "date": "2026-06-17 21:14",
+    "title": "[USD/JPY] UP: Hawkish Fed Dot Plot Re-Anchors Rate Differential, Price Holds Above MA20",
+    "date": "2026-06-18 03:13",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 indicates short‑term uptrend",
-      "RSI near 63 shows room for further upside before overbought",
-      "Fed‑day expectations of steady yields support USD strength"
+      "FOMC dot plot shifts year-end 2026 rate to 3.8% from 3.4%, widening USD/JPY carry advantage",
+      "Price sustains above rising MA20 (159.75) with RSI at 64.6, signaling healthy bullish momentum",
+      "Strategy favors buying pullbacks to dynamic support with targets toward 161.50/162.00"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY trades above MA20 with RSI 63, suggesting bullish momentum ahead of Fed decision.",
+    "excerpt": "Hawkish FOMC dot plot revision reinforces USD carry appeal; technical structure remains constructive above 159.75 MA20 support.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price above MA20 with RSI suggesting room for upside ahead of Fed‑driven USD strength",
-    "entry": "160.20",
-    "tp": "160.80",
-    "sl": "159.70",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: Bullish Tech Convergence Amid Fed Policy Transition",
-    "date": "2026-06-17 21:17",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "Price holding above MA20 indicating bullish trend persistence",
-      "Anticipation of Chair Kevin Warsh's Fed debut providing catalyst",
-      "Tech sector rebound offsetting geopolitical volatility"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 maintains bullish structure above MA20; focus shifts to Fed debut and Tech rebound catalysts.",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Price holding above MA20 with neutral RSI providing room for upside expansion.",
-    "entry": "7511.35",
-    "tp": "7620.00",
-    "sl": "7440.00",
+    "comment": "Hawkish Fed dot plot shift widens rate differential; price holds above MA20 with constructive RSI momentum.",
+    "entry": "159.90",
+    "tp": "161.50",
+    "sl": "159.20",
     "reliability": "HIGH"
   },
+  "STOCKS": {
+    "title": "[S&P 500] FLAT: Price Hovers Near MA20 Awaiting Fed Catalyst",
+    "date": "2026-06-18 03:17",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "Price sits modestly above MA20 with RSI near 45, indicating indecision.",
+      "Fed decision and geopolitical tensions create near-term volatility.",
+      "AI chip stocks show mixed signals, limiting directional bias."
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 trades flat as technicals show neutrality ahead of Fed decision.",
+    "pair": "S&P 500",
+    "status": "NEUTRAL",
+    "comment": "S&P 500 trades flat as technicals show neutrality ahead of Fed decision.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-17 21:22",
+    "title": "[BTC/USD] DOWN: Price Below MA20 Amid Mixed Fundamentals and Bhutan Selling Pressure",
+    "date": "2026-06-18 03:21",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD tests critical MA20 support amid bullish fundamental signals",
-      "RSI neutral at 52.25 suggests room for upside momentum",
-      "Positive regulatory tailwinds and long-term holder accumulation align"
+      "Price trades below MA20 indicating near-term bearish bias",
+      "BTC outflow from Bhutan to Binance adds sell-side pressure",
+      "RSI near 55 shows limited momentum, supporting a short‑term decline"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/64638.48 approaches MA20/65576.21 as fundamentals pivot bullish; tactical long setup emerging.",
+    "excerpt": "BTC/USD poised for downside as price under MA20 and Bhutan sells BTC to Binance.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Technical support aligning with bullish fundamental catalysts supports a tactical long.",
-    "entry": "64700",
-    "tp": "65576",
-    "sl": "64200",
+    "status": "SELL",
+    "comment": "Price below MA20 with Bhutan‑induced sell pressure favors a short‑term decline",
+    "entry": "65200.00",
+    "tp": "64000.00",
+    "sl": "66000.00",
     "reliability": "MEDIUM"
   }
 }

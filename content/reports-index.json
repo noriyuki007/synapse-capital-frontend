@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-06-18-crypto-ja",
+    "date": "2026-06-18 03:21",
+    "title": "[BTC/USD] DOWN: 価格がMA20を下回り、売り圧力が強まることを示す",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "MA20を下回る価格動向と機関売りが重なり、BTC/USDは下落リスクが高まっている。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-18-crypto-en",
+    "date": "2026-06-18 03:21",
+    "title": "[BTC/USD] DOWN: Price Below MA20 Amid Mixed Fundamentals and Bhutan Selling Pressure",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD poised for downside as price under MA20 and Bhutan sells BTC to Binance.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-06-18-stocks-ja",
+    "date": "2026-06-18 03:17",
+    "title": "[S&P 500] UP: MA20反発とAI株再拍軍継続のテクニカル整合性を確認",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "GMO Click Securities",
+    "excerpt": "S&P 500は7487でマークダウン20平均線上でテクニカル的に買いシグナルを維持。AI関連銘柄の反撤色とイールドカーブの構造改善が上押しファクター。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-18-stocks-en",
+    "date": "2026-06-18 03:17",
+    "title": "[S&P 500] FLAT: Price Hovers Near MA20 Awaiting Fed Catalyst",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 trades flat as technicals show neutrality ahead of Fed decision.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-06-18-fx-ja",
+    "date": "2026-06-18 03:13",
+    "title": "[USD/JPY] UP: ドットプロットの上方修正による金利差拡大の再認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "FOMCのドットプロット上方修正により、米国の高金利維持への期待が高まり、USD/JPYの上昇圧力が強まっている。テクニカル面でもMA20をサポートとした上昇構造を維持しており、さらなる上値を追う展開が想定される。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-18-fx-en",
+    "date": "2026-06-18 03:13",
+    "title": "[USD/JPY] UP: Hawkish Fed Dot Plot Re-Anchors Rate Differential, Price Holds Above MA20",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "Hawkish FOMC dot plot revision reinforces USD carry appeal; technical structure remains constructive above 159.75 MA20 support.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-06-17-crypto-ja",
     "date": "2026-06-17 21:22",
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
