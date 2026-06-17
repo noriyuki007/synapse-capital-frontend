@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-17 04:31",
+    "title": "[USD/JPY] UP: Price Above MA20 with Bullish Momentum Amid Mixed Fundamentals",
+    "date": "2026-06-17 12:47",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 with RSI near 68 indicates short-term bullish momentum.",
-      "Higher US 20-year yields support USD amid mixed risk sentiment.",
-      "Key resistance near 161.00; support at 159.70."
+      "USD/JPY trades above MA20 with RSI near 63, indicating near‑term bullish bias.",
+      "China’s slower credit growth and offshore FX push weigh on the yen, while US geopolitical risk supports the dollar.",
+      "Key technical resistance lies near 161.30; stop‑loss placed just below MA20 at 159.70."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above 20‑day MA as higher US yields back the dollar, targeting 161.00 resistance amid mixed risk sentiment.",
+    "excerpt": "USD/JPY trades above MA20 with RSI 63, signaling near-term upside amid China credit slowdown and US geopolitical risk.",
     "pair": "USD/JPY",
+    "status": "BUY",
+    "comment": "Price above MA20 with bullish RSI supports upside.",
+    "entry": "160.10",
+    "tp": "161.30",
+    "sl": "159.70",
+    "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] UP: Price Holds Above MA20 Ahead of Fed Decision with Neutral RSI",
+    "date": "2026-06-17 12:49",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "tldr_points": [
+      "S&P 500 trades modestly above its 20‑day moving average, indicating short‑term support.",
+      "RSI near 50 shows balanced momentum, leaving room for a breakout on Fed clarity.",
+      "Key equity names highlighted in the news (INTC, SNAP, SOFI, RUM) suggest sector‑specific buying interest."
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 holds above MA20 with neutral RSI; await Fed cue for directional bias.",
+    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "USD/JPY holds above 20‑day MA as higher US yields back the dollar, targeting 161.00 resistance amid mixed risk sentiment.",
+    "comment": "S&P 500 holds above MA20 with neutral RSI; await Fed cue for directional bias.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
-  "STOCKS": {
-    "title": "[S&P 500] UP: Wells Fargo Target Raise and Price Above MA20 Signal Bullish Momentum",
-    "date": "2026-06-17 04:38",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "Price trades modestly above MA20 with neutral RSI, indicating balanced momentum.",
-      "Wells Fargo’s S&P 500 target raise to 7,950 reflects AI‑driven earnings upside.",
-      "Cyclical catch‑up potential remains intact despite AI trade fatigue signals."
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above MA20; AI optimism lifts targets; watch for cyclical rotation and disciplined long setup.",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Price above MA20 with neutral RSI and AI‑driven earnings upside supports a long bias toward 7,950.",
-    "entry": "7500.00",
-    "tp": "7950.00",
-    "sl": "7450.00",
-    "reliability": "MEDIUM"
-  },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: MA20 Test with Stable Institutional Flow",
-    "date": "2026-06-17 04:41",
+    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 as Fundamentals Remain Mixed",
+    "date": "2026-06-17 12:53",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "MA20 remains critical support",
-      "RSI indicates neutral momentum",
-      "Institutional activity at Coinbase fuels liquidity"
+      "Price under MA20 resistance at ~66k, bearish bias.",
+      "RSI near 47 shows muted momentum, room for downside.",
+      "Fundamentals mixed: regulatory pressure, Coinbase AI update, limited DeFi demand."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds near MA20 with neutral RSI; moderate institutional flows keep the market flat.",
+    "excerpt": "BTC faces resistance at MA20 amid mixed fundamentals; bearish bias favors short toward 64.5k with tight risk before Fed...",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "Flat market with MA20 as key support and neutral RSI",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "status": "SELL",
+    "comment": "Price below MA20 with bearish RSI and mixed fundamentals supports a short toward 64.5k.",
+    "entry": "65775",
+    "tp": "64500",
+    "sl": "66500",
     "reliability": "MEDIUM"
   }
 }
