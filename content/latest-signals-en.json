@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Price Holds Above MA20 as Intervention Signal Stays Muted",
-    "date": "2026-06-18 12:37",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-18 20:49",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY trades above MA20, confirming near-term upside structure.",
-      "RSI-14 at 73.42 signals strength but limits chase-entry quality.",
-      "Kihara gave no fresh intervention signal, keeping intervention risk contained for now."
+      "Fed hawkish bias lifts USD while BoE holds and SNB remains cautious.",
+      "Price trades above MA20 with RSI near overbought, indicating short-term bullish momentum.",
+      "Key resistance near 162.00; support at MA20 around 159.85."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY stays above MA20 with overbought RSI; buy pullbacks while intervention risk remains muted.",
+    "excerpt": "USD/JPY climbs on Fed hawkish bets, BoE steady, SNB cautious; price above MA20, RSI near overbought signals bullish bias",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price holds above MA20 with supportive macro backdrop, but overbought RSI requires pullback entry discipline.",
-    "entry": "160.05",
-    "tp": "161.20",
-    "sl": "159.35",
-    "reliability": "MEDIUM"
+    "comment": "Bullish bias supported by Fed hawkish expectations and technical strength above MA20.",
+    "entry": "159.85",
+    "tp": "162.00",
+    "sl": "159.30",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Price Below MA20 with Bearish RSI Momentum",
-    "date": "2026-06-18 12:41",
+    "title": "[S&P 500] UP: Relief Rally Bias Forms Below MA20 as Macro Headwinds Persist",
+    "date": "2026-06-18 20:54",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "Price sits below the 20‑day MA at 7420, indicating short‑term bearish bias.",
-      "RSI‑14 at 42 suggests weakening momentum and room for further downside.",
-      "Fundamentals are mixed: US‑Iran de‑escalation offers upside, but Fed rate‑hike expectations weigh."
+      "S&P 500 is trading below the MA20, indicating short-term weakness and capped upside until 7481.883544921875 is reclaimed.",
+      "RSI-14 at 42.16256800951747 signals soft momentum without oversold exhaustion, supporting a measured rebound setup.",
+      "Iran-deal-driven risk appetite may support futures, while Fed rate-hike fears and software weakness limit conviction."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades below MA20 with RSI near 42, bearish momentum amid mixed Fed/Iran news; target 7350 and watch 7300 support.",
+    "excerpt": "S&P 500 faces a tactical rebound setup, but MA20 resistance and Fed-rate concerns cap upside.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Technical breakdown below MA20 with bearish RSI supports a short‑term sell on rallies.",
-    "entry": "7430.00",
-    "tp": "7350.00",
-    "sl": "7480.00",
+    "status": "BUY",
+    "comment": "Tactical rebound setup is viable near support, but upside remains capped until MA20 is reclaimed.",
+    "entry": "7400.00",
+    "tp": "7480.00",
+    "sl": "7378.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 as Fundamentals Turn Bearish",
-    "date": "2026-06-18 12:46",
+    "title": "[BTC/USD] DOWN: AI Detects Weakness at MA20 Amid Regulatory Uncertainty",
+    "date": "2026-06-18 20:58",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Hawkish Fed stance and Illinois crypto tax weigh on BTC fundamentals.",
-      "Price sits below MA20 with RSI near neutral, indicating bearish bias.",
-      "Short entry near 64,500 targeting 62,000 with stop above 66,500."
+      "Price trapped below MA20 signals potential reversal",
+      "Regulatory scrutiny weighs on sentiment",
+      "RSI near 50 suggests lack of momentum for a breakout"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD faces bearish pressure from macro headwinds and technical resistance at MA20, favoring a short bias.",
+    "excerpt": "BTC/USD likely to retreat from MA20, targeting the 63000 support, amid regulatory headwinds and neutral momentum.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "Bearish bias from macro headwinds and resistance at MA20",
-    "entry": "64500",
-    "tp": "62000",
-    "sl": "66500",
+    "comment": "Price below MA20 with neutral RSI and bearish regulatory backdrop",
+    "entry": "64300",
+    "tp": "63000",
+    "sl": "64850",
     "reliability": "MEDIUM"
   }
 }
