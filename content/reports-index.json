@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-06-19-crypto-ja",
+    "date": "2026-06-19 03:30",
+    "title": "[BTC/USD] DOWN: Price below MA20 signals bearish bias",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USD 62,764 below 20‑day MA 65,035; mixed news & neutral RSI favor short bias.",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-19-crypto-en",
+    "date": "2026-06-19 03:30",
+    "title": "[BTC/USD] DOWN: MA20 Resistance and Mixed Catalysts Favor Rally Fades",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC below MA20 with RSI 46.65; mixed catalysts favor selling rallies toward 65,000.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-06-19-stocks-ja",
+    "date": "2026-06-19 03:27",
+    "title": "[S&P 500] UP: MA20での反発と米伊和平合意によるリスクオン",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "野村證券",
+    "excerpt": "米伊和平合意でリスクオンが広がり、S&P500はMA20を上抜け反発。テクニカルは中立的モメンタムで押し目買いが有効。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-19-stocks-en",
+    "date": "2026-06-19 03:27",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 7,497 above MA20, bullish on US‑Iran deal, tech rally, neutral RSI.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-06-19-fx-ja",
+    "date": "2026-06-19 03:25",
+    "title": "[USD/JPY] UP: 過買いのなかまさにMA20上抜けと地政学リスクオフの相俟り",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYはMA20を強く上抜けしながらRSI過買いのゾーンに留まる。地政学的ならずみとリスクオフバイアスが上昇を全面支援。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-06-19-fx-en",
+    "date": "2026-06-19 03:25",
+    "title": "[USD/JPY] UP: AI Detects Momentum Above MA20 Amid Geopolitical Risk Premium",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY pushes higher above MA20 as US‑Iran tensions boost demand for dollar safety.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-06-18-crypto-ja",
     "date": "2026-06-18 20:58",
     "title": "[BTC/USD] DOWN: 価格がMA20を下回り、ファンダメンタル悪化が重し",

@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-18 20:49",
+    "title": "[USD/JPY] UP: AI Detects Momentum Above MA20 Amid Geopolitical Risk Premium",
+    "date": "2026-06-19 03:25",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Fed hawkish bias lifts USD while BoE holds and SNB remains cautious.",
-      "Price trades above MA20 with RSI near overbought, indicating short-term bullish momentum.",
-      "Key resistance near 162.00; support at MA20 around 159.85."
+      "Price trading 1.7% above MA20",
+      "RSI at 79 indicates strong bullish pressure",
+      "Geopolitical tension lifts USD safe‑haven demand"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY climbs on Fed hawkish bets, BoE steady, SNB cautious; price above MA20, RSI near overbought signals bullish bias",
+    "excerpt": "USD/JPY pushes higher above MA20 as US‑Iran tensions boost demand for dollar safety.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish bias supported by Fed hawkish expectations and technical strength above MA20.",
-    "entry": "159.85",
-    "tp": "162.00",
-    "sl": "159.30",
+    "comment": "Technical momentum above MA20 and safe‑haven demand from US‑Iran tensions support a bullish stance.",
+    "entry": "159.95",
+    "tp": "162.20",
+    "sl": "158.80",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Relief Rally Bias Forms Below MA20 as Macro Headwinds Persist",
-    "date": "2026-06-18 20:54",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-19 03:27",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 is trading below the MA20, indicating short-term weakness and capped upside until 7481.883544921875 is reclaimed.",
-      "RSI-14 at 42.16256800951747 signals soft momentum without oversold exhaustion, supporting a measured rebound setup.",
-      "Iran-deal-driven risk appetite may support futures, while Fed rate-hike fears and software weakness limit conviction."
+      "S&P 500 trades above 20‑day MA at 7485, signaling short‑term bullish bias",
+      "US‑Iran peace deal and tech/gaming catalysts strengthen fundamentals",
+      "RSI at 45.8 remains neutral, offering upside runway"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces a tactical rebound setup, but MA20 resistance and Fed-rate concerns cap upside.",
+    "excerpt": "S&P 500 7,497 above MA20, bullish on US‑Iran deal, tech rally, neutral RSI.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Tactical rebound setup is viable near support, but upside remains capped until MA20 is reclaimed.",
-    "entry": "7400.00",
-    "tp": "7480.00",
-    "sl": "7378.00",
-    "reliability": "MEDIUM"
+    "comment": "AI detects support at MA20 and bullish macro drivers.",
+    "entry": "7485",
+    "tp": "7600",
+    "sl": "7460",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Detects Weakness at MA20 Amid Regulatory Uncertainty",
-    "date": "2026-06-18 20:58",
+    "title": "[BTC/USD] DOWN: MA20 Resistance and Mixed Catalysts Favor Rally Fades",
+    "date": "2026-06-19 03:30",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price trapped below MA20 signals potential reversal",
-      "Regulatory scrutiny weighs on sentiment",
-      "RSI near 50 suggests lack of momentum for a breakout"
+      "BTC remains below MA20 at 65,034.80, limiting upside continuation.",
+      "RSI-14 at 46.65 signals neutral-to-bearish momentum with no oversold rebound signal.",
+      "Mixed miner, AI-cloud, and regulatory headlines favor tactical rally-fades over breakout chasing."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD likely to retreat from MA20, targeting the 63000 support, amid regulatory headwinds and neutral momentum.",
+    "excerpt": "BTC below MA20 with RSI 46.65; mixed catalysts favor selling rallies toward 65,000.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "Price below MA20 with neutral RSI and bearish regulatory backdrop",
-    "entry": "64300",
-    "tp": "63000",
-    "sl": "64850",
+    "comment": "Price remains below MA20 with neutral-bearish RSI, favoring rally-fades into 63,800-64,200 resistance.",
+    "entry": "63,800-64,200",
+    "tp": "62,000 / 61,200",
+    "sl": "65,250",
     "reliability": "MEDIUM"
   }
 }
