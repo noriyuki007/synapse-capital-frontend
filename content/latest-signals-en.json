@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Hawkish Fed Dot Plot Re-Anchors Rate Differential, Price Holds Above MA20",
-    "date": "2026-06-18 03:13",
+    "title": "[USD/JPY] UP: Price Holds Above MA20 as Intervention Signal Stays Muted",
+    "date": "2026-06-18 12:37",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "FOMC dot plot shifts year-end 2026 rate to 3.8% from 3.4%, widening USD/JPY carry advantage",
-      "Price sustains above rising MA20 (159.75) with RSI at 64.6, signaling healthy bullish momentum",
-      "Strategy favors buying pullbacks to dynamic support with targets toward 161.50/162.00"
+      "USD/JPY trades above MA20, confirming near-term upside structure.",
+      "RSI-14 at 73.42 signals strength but limits chase-entry quality.",
+      "Kihara gave no fresh intervention signal, keeping intervention risk contained for now."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Hawkish FOMC dot plot revision reinforces USD carry appeal; technical structure remains constructive above 159.75 MA20 support.",
+    "excerpt": "USD/JPY stays above MA20 with overbought RSI; buy pullbacks while intervention risk remains muted.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Hawkish Fed dot plot shift widens rate differential; price holds above MA20 with constructive RSI momentum.",
-    "entry": "159.90",
-    "tp": "161.50",
-    "sl": "159.20",
-    "reliability": "HIGH"
+    "comment": "Price holds above MA20 with supportive macro backdrop, but overbought RSI requires pullback entry discipline.",
+    "entry": "160.05",
+    "tp": "161.20",
+    "sl": "159.35",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: Price Hovers Near MA20 Awaiting Fed Catalyst",
-    "date": "2026-06-18 03:17",
+    "title": "[S&P 500] DOWN: Price Below MA20 with Bearish RSI Momentum",
+    "date": "2026-06-18 12:41",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price sits modestly above MA20 with RSI near 45, indicating indecision.",
-      "Fed decision and geopolitical tensions create near-term volatility.",
-      "AI chip stocks show mixed signals, limiting directional bias."
+      "Price sits below the 20‑day MA at 7420, indicating short‑term bearish bias.",
+      "RSI‑14 at 42 suggests weakening momentum and room for further downside.",
+      "Fundamentals are mixed: US‑Iran de‑escalation offers upside, but Fed rate‑hike expectations weigh."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades flat as technicals show neutrality ahead of Fed decision.",
+    "excerpt": "S&P 500 trades below MA20 with RSI near 42, bearish momentum amid mixed Fed/Iran news; target 7350 and watch 7300 support.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P 500 trades flat as technicals show neutrality ahead of Fed decision.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "Technical breakdown below MA20 with bearish RSI supports a short‑term sell on rallies.",
+    "entry": "7430.00",
+    "tp": "7350.00",
+    "sl": "7480.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Below MA20 Amid Mixed Fundamentals and Bhutan Selling Pressure",
-    "date": "2026-06-18 03:21",
+    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 as Fundamentals Turn Bearish",
+    "date": "2026-06-18 12:46",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price trades below MA20 indicating near-term bearish bias",
-      "BTC outflow from Bhutan to Binance adds sell-side pressure",
-      "RSI near 55 shows limited momentum, supporting a short‑term decline"
+      "Hawkish Fed stance and Illinois crypto tax weigh on BTC fundamentals.",
+      "Price sits below MA20 with RSI near neutral, indicating bearish bias.",
+      "Short entry near 64,500 targeting 62,000 with stop above 66,500."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD poised for downside as price under MA20 and Bhutan sells BTC to Binance.",
+    "excerpt": "BTC/USD faces bearish pressure from macro headwinds and technical resistance at MA20, favoring a short bias.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "Price below MA20 with Bhutan‑induced sell pressure favors a short‑term decline",
-    "entry": "65200.00",
-    "tp": "64000.00",
-    "sl": "66000.00",
+    "comment": "Bearish bias from macro headwinds and resistance at MA20",
+    "entry": "64500",
+    "tp": "62000",
+    "sl": "66500",
     "reliability": "MEDIUM"
   }
 }

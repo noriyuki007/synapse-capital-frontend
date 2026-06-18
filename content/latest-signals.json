@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: ドットプロットの上方修正による金利差拡大の再認",
-    "date": "2026-06-18 03:13",
+    "title": "[USD/JPY] UP: MA20での支持と米ドル強気ファンダメンタルズの整合性",
+    "date": "2026-06-18 12:37",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "FOMCドットプロットの年末目標値が3.4%から3.8%へ上方修正",
-      "FRBのタカ派的な姿勢維持により日米金利差の拡大傾向が継続",
-      "価格はMA20の上方で推移し、テクニカル的な上昇トレンドを維持"
+      "USD/JPYはMA20上抜けで上昇バイアス継続、RSIは過買域だがファンダメンタルズが米ドル支え",
+      "Fed枠組み見直しと人民元参照レートの上昇が米ドル強気に寄与",
+      "押し目買いをMA20付近で検討、リスク管理厳守で[dmm-fx]利用を推奨"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "FOMCのドットプロット上方修正により、米国の高金利維持への期待が高まり、USD/JPYの上昇圧力が強まっている。テクニカル面でもMA20をサポートとした上昇構造を維持しており、さらなる上値を追う展開が想定される。",
+    "excerpt": "MA20上回り、米ドル強気ファンダが裏付け、押し目買いを検討。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "ドットプロットの上方修正による日米金利差拡大とMA20上の推移を根拠とする",
+    "comment": "MA20支持と米ドル強気ファンダが上昇を後押し、押し目買いでエントリー推奨",
     "entry": "160.10",
-    "tp": "162.50",
-    "sl": "158.80",
+    "tp": "161.50",
+    "sl": "159.70",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20反発とAI株再拍軍継続のテクニカル整合性を確認",
-    "date": "2026-06-18 03:17",
+    "title": "[S&P 500] DOWN: MA20下抜けと弱気モメンタムの継続を示唆",
+    "date": "2026-06-18 12:41",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "GMO Click Securities",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "野村證券",
     "tldr_points": [
-      "MA20上でのわずかなプレミアム confirms bullish structure",
-      "RSI45.5は中立水準で上位展開 room保持",
-      "Fedニューメキシコフォーラムに向けてのリスクオフ圧力短期抑制の見通し"
+      "S&P 500はMA20を下回り、RSIは42で弱気傾向。",
+      "米金利見通しと米イラン合意が相対的に上げ圧力も、ファンダメンタルズは混在。",
+      "短期的な押し目売りを推奨、エントリー 7380、TP 7300、SL 7450。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500は7487でマークダウン20平均線上でテクニカル的に買いシグナルを維持。AI関連銘柄の反撤色とイールドカーブの構造改善が上押しファクター。",
+    "excerpt": "MA20下抜けとRSI42が示す弱気バイアスに基づき、S&P 500の下値リスクを指摘。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20上でのテクニカル整合性とAI股災の持続的な資金フロー",
-    "entry": "7485.00",
-    "tp": "7500.00",
-    "sl": "7470.00",
+    "status": "SELL",
+    "comment": "MA20下抜け・RSI弱気・売り優位のオーダーフローが下値リスクを示す",
+    "entry": "7380.00",
+    "tp": "7300.00",
+    "sl": "7450.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: 価格がMA20を下回り、売り圧力が強まることを示す",
-    "date": "2026-06-18 03:21",
+    "title": "[BTC/USD] DOWN: Macro headwinds and price below MA20",
+    "date": "2026-06-18 12:46",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20を下抜けていることから短期的な下押し圧力が顕在化",
-      "Bhutanの大量BTC送金とDeFiプロジェクトの撤退が需給悪化を示唆",
-      "RSIは中立域だが、モメンタムの転換タイミングに注意"
+      "BTC/USD at $64.3k, below 20‑day MA $65.6k.",
+      "Bearish macro catalysts dominate: hawkish Fed, Illinois 0.2% crypto tax, CME lawsuit.",
+      "RSI ~51 neutral, leaving room for further decline."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を下回る価格動向と機関売りが重なり、BTC/USDは下落リスクが高まっている。",
+    "excerpt": "BTC/USD under pressure at $64.3k; macro headwinds and regulatory strain drive bearish bias.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "MA20を下回る価格動向と機関売りが重なり、BTC/USDは下落リスクが高まっている。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Bearish macro and technical alignment favors short exposure.",
+    "entry": "64277",
+    "tp": "62000",
+    "sl": "66000",
+    "reliability": "HIGH"
   }
 }
