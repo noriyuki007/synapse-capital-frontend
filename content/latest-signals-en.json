@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Momentum Above MA20 Amid Geopolitical Risk Premium",
-    "date": "2026-06-19 03:25",
+    "title": "[USD/JPY] UP: Vance Cancels Iran Trip Boosts Dollar, BOJ Hawkish Signals",
+    "date": "2026-06-19 13:00",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price trading 1.7% above MA20",
-      "RSI at 79 indicates strong bullish pressure",
-      "Geopolitical tension lifts USD safe‑haven demand"
+      "Vance cancels Iran trip lifts risk‑on sentiment and USD strength",
+      "Japanese CPI muted, subsidies hide underlying inflation, limiting BOJ dovishness",
+      "Technical: price above MA20, RSI overbought but momentum may persist"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY pushes higher above MA20 as US‑Iran tensions boost demand for dollar safety.",
+    "excerpt": "USD/JPY likely to extend gains as geopolitical risk supports dollar while BOJ cautions on delaying policy.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Technical momentum above MA20 and safe‑haven demand from US‑Iran tensions support a bullish stance.",
-    "entry": "159.95",
-    "tp": "162.20",
-    "sl": "158.80",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPY likely to extend gains as geopolitical risk supports dollar while BOJ cautions on delaying policy.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-19 03:27",
+    "title": "[S&P 500] FLAT: Price Hovers Above MA20 as RSI Signals Neutral Momentum Amid Mixed Catalysts",
+    "date": "2026-06-19 13:04",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 trades above 20‑day MA at 7485, signaling short‑term bullish bias",
-      "US‑Iran peace deal and tech/gaming catalysts strengthen fundamentals",
-      "RSI at 45.8 remains neutral, offering upside runway"
+      "S&P 500 trades 0.2% above MA20 at 7500.58 with RSI at 45.9 indicating neutral momentum",
+      "Mega-cap concentration risk highlighted by VOO taxonomy; Nvidia leadership narrows breadth",
+      "Range-bound consolidation likely between 7450 support and 7550 resistance near-term"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 7,497 above MA20, bullish on US‑Iran deal, tech rally, neutral RSI.",
+    "excerpt": "S&P 500 consolidates above MA20 with neutral RSI; mega-cap concentration and mixed earnings headlines favor range-bound trade.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "AI detects support at MA20 and bullish macro drivers.",
-    "entry": "7485",
-    "tp": "7600",
-    "sl": "7460",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Price above MA20 but RSI neutral and breadth deteriorating favors range-bound trade between 7475-7550.",
+    "entry": "7485.00",
+    "tp": "7540.00",
+    "sl": "7470.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20 Resistance and Mixed Catalysts Favor Rally Fades",
-    "date": "2026-06-19 03:30",
+    "title": "[BTC/USD] FLAT: Consolidation Phase as Institutional Fee Wars Shift Focus to Alt-ETFs",
+    "date": "2026-06-19 13:10",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC remains below MA20 at 65,034.80, limiting upside continuation.",
-      "RSI-14 at 46.65 signals neutral-to-bearish momentum with no oversold rebound signal.",
-      "Mixed miner, AI-cloud, and regulatory headlines favor tactical rally-fades over breakout chasing."
+      "BTC trading below MA20 indicates short-term bearish pressure",
+      "Institutional pivot toward SOL/ETH ETF fee wars diverting immediate liquidity",
+      "Miners' pivot to AI data centers provides a structural floor for BTC floor prices"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC below MA20 with RSI 46.65; mixed catalysts favor selling rallies toward 65,000.",
+    "excerpt": "BTC consolidates below MA20; institutional shift toward Alt-ETFs and miner-AI pivots create a neutral equilibrium.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price remains below MA20 with neutral-bearish RSI, favoring rally-fades into 63,800-64,200 resistance.",
-    "entry": "63,800-64,200",
-    "tp": "62,000 / 61,200",
-    "sl": "65,250",
+    "status": "NEUTRAL",
+    "comment": "Price trading below MA20 with neutral RSI suggests range-bound consolidation.",
+    "entry": "62500.00",
+    "tp": "65483.00",
+    "sl": "60500.00",
     "reliability": "MEDIUM"
   }
 }

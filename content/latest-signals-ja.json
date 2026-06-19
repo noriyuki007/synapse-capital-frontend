@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 過買いのなかまさにMA20上抜けと地政学リスクオフの相俟り",
-    "date": "2026-06-19 03:25",
+    "title": "[USD/JPY] UP: 強いドル・過熱RSIとボラティリティ拡大を背景に押し目買いバイアス",
+    "date": "2026-06-19 13:00",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "現在価格161.41はMA20159.87を強く上抜け",
-      "RSI79.37の過買いだがトレンドフォロー期間",
-      "地政学的リスクオフと金利上昇の相俟り"
+      "ドル高・原油高が円安圧力を強化",
+      "RSI 78.5で過熱もトレンド継続の兆し",
+      "MA20 159.95がサポートとして機能"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20を強く上抜けしながらRSI過買いのゾーンに留まる。地政学的ならずみとリスクオフバイアスが上昇を全面支援。",
+    "excerpt": "ドル高と原油上昇で円安基調継続、MA20付近での押し目買いを推奨。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20上抜けと地政学リスクオフの相俟り",
-    "entry": "160.00",
+    "comment": "ドル高・原油高とMA20サポートが整合、押し目買い推奨",
+    "entry": "160.20",
     "tp": "162.00",
-    "sl": "158.80",
-    "reliability": "HIGH"
+    "sl": "159.60",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と米伊和平合意によるリスクオン",
-    "date": "2026-06-19 03:27",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-19 13:04",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "野村證券",
     "tldr_points": [
-      "米伊和平合意がリスクオンを誘発しS&P500が反発",
-      "マーベル・テクノロジーなど個別株も強含むが指数はMA20上抜けで上向き",
-      "RSIは45付近で過熱感なく、押し目買いの余地あり"
+      "MA20を上回る価格は短期的な上昇バイアスを示唆",
+      "RSIは45.9で過売り圏に近づきつつあるが、依然中立域",
+      "ファンダメンタルズではNvidiaやGoogleなどのテック株が堅調であり、全体的なリスクオン姿勢を支える"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "米伊和平合意でリスクオンが広がり、S&P500はMA20を上抜け反発。テクニカルは中立的モメンタムで押し目買いが有効。",
+    "excerpt": "現在価格7500.58はMA20 7485.26を上回り、短期的な上昇トレンドを示唆。RSIは45.9で中立ながら下値リスクは限定的。NvidiaやGoogleなどのテック株堅調がリスクオン姿勢を支え、押し目買いのシナリオが有力。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "米伊和平合意でリスクオンが広がり、S&P500はMA20を上抜け反発。テクニカルは中立的モメンタムで押し目買いが有効。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "MA20上抜けとRSI中立、ファンダメンタルズのテック堅調が上昇を支える",
+    "entry": "7485.00",
+    "tp": "7600.00",
+    "sl": "7450.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price below MA20 signals bearish bias",
-    "date": "2026-06-19 03:30",
+    "title": "[BTC/USD] FLAT: MA20乖離とマイクロトランザクションの増加が相対的下値支えを作る",
+    "date": "2026-06-19 13:10",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTC弱気、アリティブラウズ",
-      "価格MA20割れRSI中立",
-      "マクロ不確実性"
+      "現在価格62,788はMA20(65,483)下方でRSI中位(46.1)",
+      "マイクロトランザクションが80%占有し下・中間層参入のサイン",
+      "テキサス電力枠確保でマイナー収益性底拾い上げ"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD 62,764 below 20‑day MA 65,035; mixed news & neutral RSI favor short bias.",
+    "excerpt": "62,788ドルでの価格乖離、RSI中位、マイクロトランザクション80%、電力枲確保などの環境変化が相対的な値動きを規定する。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "価格MA20割れ・RSI中立・規制リスクを考慮した弱気ポジション",
-    "entry": "62764.26",
-    "tp": "60000.00",
-    "sl": "65034.80",
+    "status": "NEUTRAL",
+    "comment": "MA20乖離とマイクロトランザクションの増加が相対的な底拾い上げを示唆",
+    "entry": "62500.00",
+    "tp": "66000.00",
+    "sl": "61500.00",
     "reliability": "MEDIUM"
   }
 }
