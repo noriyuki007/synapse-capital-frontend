@@ -1,69 +1,70 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20 Support and Rate Expectations Keep Dip-Buying Bias Active",
-    "date": "2026-06-19 21:04",
+    "title": "[USD/JPY] UP: Technical Resilience Amid Mixed Fundamentals (Expanding Window Breakout at 162.30)",
+    "date": "2026-06-20 02:54",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY remains above MA20 at 161.23599243164062, confirming near-term trend strength.",
-      "RSI-14 at 77.78117964880684 signals overbought momentum, favoring pullback entries over chasing.",
-      "Juneteenth-thinned US liquidity increases chop risk and supports strict stop placement."
+      "Price above 200-period MA signals bullish bias",
+      "RSI overbought may trigger short-term correction",
+      "AI detects structural support at 159.94",
+      "Textile fluidity in USD bids via Fed rate language",
+      "Gold depreciation weakens JPY demand for safe-haven"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY stays above MA20 with bullish structure, but RSI near 78 favors pullback entries and strict risk control.",
+    "excerpt": "USD/JPY tests 162.30 overhead resistance as AI confirms MA20 support, with金融 mensajes overshadowed by Cal Poly energy volatility.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Trend remains bullish above MA20, but overbought RSI and thin US holiday liquidity favor pullback execution.",
-    "entry": "160.60-160.80",
-    "tp": "161.80 / 162.00",
-    "sl": "159.60",
-    "reliability": "MEDIUM"
+    "comment": "Technical structure maintains ascension bias despite RSI extremes",
+    "entry": "159.90",
+    "tp": "162.30",
+    "sl": "159.00",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] BUY: AI Signals Support at MA20 Amid Fundamentals",
-    "date": "2026-06-19 21:08",
+    "title": "[S&P 500] DOWN: Price Below MA20 with Bearish RSI and Risk-Off Sentiment",
+    "date": "2026-06-20 02:56",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Integration Example: [Broker Name] offers optimal liquidity for this setup.",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
     "tldr_points": [
-      "Rate correlation driving renewed demand.",
-      "Order flow tightening near key support levels.",
-      "RSI underscores short-term overbought caution."
+      "Price trades below the 20-day moving average indicating near-term bearish bias.",
+      "RSI near 42 shows weakening momentum but not yet oversold.",
+      "Geopolitical tensions and defensive sector rotation suggest downside risk."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "120-character summary capturing the AI-driven buying signal and technical grip.",
+    "excerpt": "S&P 500 bears as price under MA20, RSI soft, Iran talks stall and money rotates to defensives.",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "120-character summary capturing the AI-driven buying signal and technical grip.",
+    "comment": "S&P 500 bears as price under MA20, RSI soft, Iran talks stall and money rotates to defensives.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: Technical Neutrality Meets Institutional Demand Ahead of Protocol Upgrades",
-    "date": "2026-06-19 21:12",
+    "title": "[BTC/USD] DOWN: Price Below MA20 Amid Leverage Liquidations and Regulatory Headwinds",
+    "date": "2026-06-20 03:03",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trades below MA20 with neutral RSI suggesting consolidation phase",
-      "Franklin Templeton ETF filing introduces incremental institutional demand catalyst",
-      "Base protocol upgrade on June 25 creates asymmetric upside risk",
-      "Leverage-driven cross-asset volatility suppresses directional conviction"
+      "Price trading under MA20 signals near-term bearish momentum.",
+      "Leverage liquidations and regulatory concerns weigh on sentiment.",
+      "Key support near 62,000; resistance at 65,050 (MA20)."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD consolidates below key moving average amid mixed fundamental signals and institutional ETF developments.",
+    "excerpt": "BTC/USD bears target 62k as price stays below MA20 amid liquidation pressure and CME lawsuit overtones.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "Consolidation phase persists with key catalysts pending June 25th protocol upgrade",
-    "entry": "62500.00",
-    "tp": "64900.00",
-    "sl": "61800.00",
+    "status": "SELL",
+    "comment": "Price below MA20 with bearish RSI and liquidation‑driven sentiment supports a short toward 62k‑61k.",
+    "entry": "63100.00",
+    "tp": "61500.00",
+    "sl": "65200.00",
     "reliability": "MEDIUM"
   }
 }
