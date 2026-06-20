@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Momentum at MA20 Amid Safe-Haven Dynamics",
-    "date": "2026-06-20 12:23",
+    "title": "[USD/JPY] UP: Technical Momentum and Fundamental Strength Persist",
+    "date": "2026-06-20 19:30",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price tests MA20 at 159.94 with overbought RSI at 78.07",
-      "Middle East ceasefire supports risk-sensitive USD funding trades",
-      "AI signals bullish momentum divergence despite stretched valuation"
+      "US‑dollar remains resilient amid geopolitical shocks",
+      "USD/JPY trading above MA20 signals short‑term bullish bias",
+      "RSI over 70 confirms upward momentum"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY tests MA20 at 159.94 while RSI at 78.07 signals overbought conditions amid Middle East risk-on dynamics.",
+    "excerpt": "USD/JPY expected to rally as US dollar strength and JPY weakness continue in the backdrop of recent geopolitical and economic data.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish momentum at MA20 with supportive risk environment and overbought RSI divergence",
-    "entry": "159.94",
-    "tp": "162.00",
-    "sl": "158.75",
+    "comment": "Bullish bias supported by technical momentum and fundamental strength",
+    "entry": "161.30",
+    "tp": "163.00",
+    "sl": "160.20",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Price Trades Below MA20 as RSI Shows Mild Bearish Momentum",
-    "date": "2026-06-20 12:25",
+    "title": "[S&P 500] UP: Trump Bull Market Catalysts Converge with Technical Support",
+    "date": "2026-06-20 19:37",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "prediction_direction": "UP",
+    "recommended_broker": "Schwab",
     "tldr_points": [
-      "S&P 500 trades below its 20‑day moving average, signaling short‑term bearish pressure.",
-      "RSI at 42 indicates mild negative momentum without reaching oversold territory.",
-      "Insider selling in Marvell and soft Dow futures add to near‑term downside risks."
+      "Technical breakout above MA20 (7485.26) signals structural bullishness",
+      "Trump administration policy announcements accelerating equity inflows",
+      "Schwab’s S&P 500 prediction markets indicate institutional risk appetite"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades below MA20 with RSI 42, signaling near-term downside pressure amid mixed earnings and insider selling.",
+    "excerpt": "S&P 500 breaks above MA20 amid accelerating Trump-era bullish catalysts.",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500 trades below MA20 with RSI 42, signaling near-term downside pressure amid mixed earnings and insider selling.",
+    "comment": "S&P 500 breaks above MA20 amid accelerating Trump-era bullish catalysts.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Detects Key Support Rejection as Regulatory Uncertainty Suppresses Price Action",
-    "date": "2026-06-20 12:30",
+    "title": "[BTC/USD] UP: Regulatory Clarity Offsets Short-Term Technical Weakness as MA20 Becomes Key Support",
+    "date": "2026-06-20 19:40",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price trades below MA20 signaling bearish momentum",
-      "Regulatory clarity concerns from CME-CFTC lawsuit create headwinds",
-      "RSI neutrality confirms lack of directional conviction amid leverage wipes"
+      "Price testing MA20 support at 64,487 amid regulatory tailwinds",
+      "RSI below 60 indicates room for recovery",
+      "Ethereum funding concerns redirect flows toward BTC"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD faces technical pressure below MA20 amid mixed regulatory headlines and neutral oscillator readings.",
+    "excerpt": "BTC tests MA20 support as CME regulatory win offsets ETH funding crisis noise. Bullish reversal setup emerging.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Technical breakdown below MA20 confirms bearish momentum with regulatory headwinds persisting.",
-    "entry": "63400.00",
-    "tp": "62800.00",
-    "sl": "65200.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20 support retest with regulatory tailwinds creates bullish tactical entry",
+    "entry": "64200.00",
+    "tp": "65800.00",
+    "sl": "63200.00",
+    "reliability": "HIGH"
   }
 }

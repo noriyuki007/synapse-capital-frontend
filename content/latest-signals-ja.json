@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 週次最高値更新とMA20上抜けが示す上昇トレンド",
-    "date": "2026-06-20 12:23",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-20 19:30",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "USD/JPYが週次最高値を更新、MA20上抜けで上昇トレンド継続期待",
-      "RSIは過熱水準ながら市場リスクオフ要因は限定的",
-      "流動性はdmm-fxで確保しやすく、スリッページ抑止に有効"
+      "週足で1986年以来の高値圏を維持、米ドル買い優勢が継続",
+      "RSIは75.8と過熱感が顕在化、短期的な調整リスクがある",
+      "中東の停戦合意は脆弱で、地政学的リスクプレミアムが米ドルを支える"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは現在161.28でMA20(159.94)を上回り、週次最高値更新。リスクオフ要因は限定的で、上昇トレンドが耐久性を保持。",
+    "excerpt": "USD/JPYはMA20を上抜けし、週足最高値を記録。過熱感と地政学リスクが交錯し、方向性は上向きだが調整注意。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20上抜けと週次最高値更新に裏付けられた上昇トレンドが継続。",
-    "entry": "162.20",
-    "tp": "165.00",
-    "sl": "160.80",
-    "reliability": "HIGH"
+    "comment": "MA20付近の押し目買いとファンダメンタルズの米ドル支えが整合",
+    "entry": "160.80",
+    "tp": "162.30",
+    "sl": "160.20",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20割れとファンダメンタルズの弱含みを確認",
-    "date": "2026-06-20 12:25",
+    "title": "[S&P 500] UP: MA20での反発とファンダメンタルズの整合性を確認",
+    "date": "2026-06-20 19:37",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "MA20を下回り下押し圧力が強まる",
-      "RSIは42で売られすぎではないが上値は重い",
-      "ファンダメンタルズではマーベルの内部売却と予測市場導入が混在"
+      "価格はMA20を上抜け、短期的な買い圧力が顕在化",
+      "RSIは45.9で過熱感はなく、上昇余地あり",
+      "ファンダメンタルズは利下げ期待と企業利益の改善で底堅い"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20割れとRSI42から下値リスクが顕在化、ファンダメンタルズはマーベル売却などで重石。",
+    "excerpt": "MA20上抜けとRSI中立を背景に、ファンダメンタルズの改善がサポートし、S&P500は短期的に上昇余地を残す。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "MA20を下回り、RSIは下降トレンドで売りサイン",
-    "entry": "7460.00",
-    "tp": "7300.00",
-    "sl": "7520.00",
+    "status": "BUY",
+    "comment": "MA20上抜けとファンダメンタルズ改善による上昇期待",
+    "entry": "7490",
+    "tp": "7550",
+    "sl": "7470",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "戦術的インサイト：BTC/USDの均衡状態とブレイク条件の定義",
-    "date": "2026-06-20 12:30",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-20 19:40",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "金利相関（近似）: -0.31で負相関傾向",
-      "テクニカル: 現在価格 63390.08 と MA20 65066.09 の位置関係が主導",
-      "需給: 上限帯 72601.64 / 下限帯 57530.54 / 直近高値 74153.50 / 直近安値 59108.92 によるターゲット設計"
+      "CMEの法的勝利が機関投資家の信頼を強化",
+      "価格がMA20に向かう中、RSIは中立的",
+      "Baseのアップグレードなどエコシステムへの支援が上昇余地を拡大"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 63390.08、RSI(48.62)、MA20(65066.09)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "BTC/USD near $63.5k; CME lawsuit win adds institutional support, while RSI near 60 and MA20 align for upside breakout.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、BTC/USDの現在価格 63390.08、RSI(48.62)、MA20(65066.09)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20反発と強気材料の統合を反映",
+    "entry": "63500",
+    "tp": "65500",
+    "sl": "62800",
+    "reliability": "HIGH"
   }
 }
