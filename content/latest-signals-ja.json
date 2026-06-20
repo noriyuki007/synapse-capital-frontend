@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-06-20 19:30",
+    "date": "2026-06-21 02:23",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "週足で1986年以来の高値圏を維持、米ドル買い優勢が継続",
-      "RSIは75.8と過熱感が顕在化、短期的な調整リスクがある",
-      "中東の停戦合意は脆弱で、地政学的リスクプレミアムが米ドルを支える"
+      "価格はMA20を上回り、上昇トレンドが継続",
+      "RSIは75.8で過熱感が示唆されるが、ファンダメンタルズはリスクオフよりも米ドル支援が優勢",
+      "地政学的緊張は一時的なボラティリティ源であり、方向性は上向きが維持される見込み"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20を上抜けし、週足最高値を記録。過熱感と地政学リスクが交錯し、方向性は上向きだが調整注意。",
+    "excerpt": "USD/JPYは現在MA20を上抜け、週足最高値更新の兆候を見せる。ファンダメンタルズでは米ドルの相対的強さが地政学的リスクを上抜くと判断し、押し目買いを推奨。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20付近の押し目買いとファンダメンタルズの米ドル支えが整合",
-    "entry": "160.80",
-    "tp": "162.30",
-    "sl": "160.20",
-    "reliability": "MEDIUM"
+    "comment": "MA20付近の押し目買い、上昇トレンド継続と過熱感の調整を考慮",
+    "entry": "160.10",
+    "tp": "162.00",
+    "sl": "159.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発とファンダメンタルズの整合性を確認",
-    "date": "2026-06-20 19:37",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-21 02:26",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "価格はMA20を上抜け、短期的な買い圧力が顕在化",
-      "RSIは45.9で過熱感はなく、上昇余地あり",
-      "ファンダメンタルズは利下げ期待と企業利益の改善で底堅い"
+      "価格はMA20上抜け、RSIは中立的で上昇余地あり",
+      "金融 sector の利益率改善が上昇トレンドを支える",
+      "地政学リスクは短期的な調整要因に留まる"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20上抜けとRSI中立を背景に、ファンダメンタルズの改善がサポートし、S&P500は短期的に上昇余地を残す。",
+    "excerpt": "Wells FargoがS&P500目標値を引き上げ、金融ETFの強さが市場を牽引し、テクニカル指標は上昇余地を示唆、投資家は慎重ながらリスク管理を徹底すべき、今後の展開に注目すべきです。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20上抜けとファンダメンタルズ改善による上昇期待",
-    "entry": "7490",
-    "tp": "7550",
-    "sl": "7470",
+    "status": "NEUTRAL",
+    "comment": "Wells FargoがS&P500目標値を引き上げ、金融ETFの強さが市場を牽引し、テクニカル指標は上昇余地を示唆、投資家は慎重ながらリスク管理を徹底すべき、今後の展開に注目すべきです。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-06-20 19:40",
+    "title": "[BTC/USD] FLAT: MA20下抜けによる調整局面とデジタルクレジット不安によるリスクオフへの移行",
+    "date": "2026-06-21 02:28",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "CMEの法的勝利が機関投資家の信頼を強化",
-      "価格がMA20に向かう中、RSIは中立的",
-      "Baseのアップグレードなどエコシステムへの支援が上昇余地を拡大"
+      "MA20を下回る短期的な弱気構造への移行",
+      "デジタルクレジット分野の強制清算による流動性ショック",
+      "CMEの法廷闘争など構造的要因による価格変動性の拡大"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD near $63.5k; CME lawsuit win adds institutional support, while RSI near 60 and MA20 align for upside breakout.",
+    "excerpt": "現在価格はMA20を割り込み、短期的なトレンドは弱含み。デジタルクレジット市場の清算ショックがリスクオフを加速させ、テクニカル的な戻り売り圧力が強い。底堅さの確認まで待機する中立戦略が妥当。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20反発と強気材料の統合を反映",
-    "entry": "63500",
-    "tp": "65500",
-    "sl": "62800",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "MA20下抜けとクレジット市場の清算ショックによる調整局面",
+    "entry": "63500.00",
+    "tp": "65200.00",
+    "sl": "61800.00",
+    "reliability": "MEDIUM"
   }
 }

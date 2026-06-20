@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Technical Momentum and Fundamental Strength Persist",
-    "date": "2026-06-20 19:30",
+    "title": "[USD/JPY] UP: Technicals and Geopolitics Converge in Bullish Setup",
+    "date": "2026-06-21 02:23",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US‑dollar remains resilient amid geopolitical shocks",
-      "USD/JPY trading above MA20 signals short‑term bullish bias",
-      "RSI over 70 confirms upward momentum"
+      "Price ascends to 40-year highs amid Iran Strait volatility",
+      "RSI overbought signals short-term exhaustion risk",
+      "Geopolitical de-escalation in Levant mitigates sentiment risks"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY expected to rally as US dollar strength and JPY weakness continue in the backdrop of recent geopolitical and economic data.",
+    "excerpt": "USD/JPY surges toward 40-year highs as Iran Strait tensions and Middle East ceasefire dynamics fuel bullish momentum. Overbought RSI creates tactical caution.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish bias supported by technical momentum and fundamental strength",
-    "entry": "161.30",
-    "tp": "163.00",
-    "sl": "160.20",
+    "comment": "Bullish breakout confirmed by geopolitical events and technical structure",
+    "entry": "161.00",
+    "tp": "162.50",
+    "sl": "159.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Trump Bull Market Catalysts Converge with Technical Support",
-    "date": "2026-06-20 19:37",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-21 02:26",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Schwab",
+    "recommended_broker": "",
     "tldr_points": [
-      "Technical breakout above MA20 (7485.26) signals structural bullishness",
-      "Trump administration policy announcements accelerating equity inflows",
-      "Schwab’s S&P 500 prediction markets indicate institutional risk appetite"
+      "S&P 500 trades above 20‑day MA at ~7500, RSI neutral hints upside.",
+      "Wells Fargo raises S&P target; bank ETFs outperform, reinforcing bullish fundamentals.",
+      "Technical breakout target near 7580, support at 7485; monitor oil/geopolitical catalysts."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 breaks above MA20 amid accelerating Trump-era bullish catalysts.",
+    "excerpt": "S&P 500 near MA20, neutral RSI, bullish fundamentals suggest upward bias.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P 500 breaks above MA20 amid accelerating Trump-era bullish catalysts.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Bullish technical and fundamental catalysts support a long S&P 500 position.",
+    "entry": "7490",
+    "tp": "7580",
+    "sl": "7450",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Regulatory Clarity Offsets Short-Term Technical Weakness as MA20 Becomes Key Support",
-    "date": "2026-06-20 19:40",
+    "title": "[BTC/USD] DOWN: Technical Downtrend Confirmed as Price Breaks Below MA20 with Neutral RSI",
+    "date": "2026-06-21 02:28",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price testing MA20 support at 64,487 amid regulatory tailwinds",
-      "RSI below 60 indicates room for recovery",
-      "Ethereum funding concerns redirect flows toward BTC"
+      "BTC/USD trading below MA20 at $63,852.30 with neutral RSI (60.9)",
+      "Regulatory headwinds and ecosystem exits weigh on sentiment",
+      "Target support at $62,800 with resistance at $64,500"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC tests MA20 support as CME regulatory win offsets ETH funding crisis noise. Bullish reversal setup emerging.",
+    "excerpt": "BTC/USD confirms downtrend below MA20 amid regulatory uncertainty and ecosystem exits.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20 support retest with regulatory tailwinds creates bullish tactical entry",
+    "status": "SELL",
+    "comment": "Break below MA20 with neutral RSI confirms short bias",
     "entry": "64200.00",
-    "tp": "65800.00",
-    "sl": "63200.00",
-    "reliability": "HIGH"
+    "tp": "62800.00",
+    "sl": "65400.00",
+    "reliability": "MEDIUM"
   }
 }
