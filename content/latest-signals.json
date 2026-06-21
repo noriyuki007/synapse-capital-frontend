@@ -1,21 +1,21 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20でのサポートとリスクオフによる円売りの継続",
-    "date": "2026-06-21 20:13",
+    "title": "[USD/JPY] UP: MA20でのサポートと過熱感の中での上余地",
+    "date": "2026-06-22 02:25",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "イランがホルムズ海峡閉鎖を宣言し、リスクオフが米ドル買いを後押し",
-      "週足で1986年以来の高値を更新し、トレンドは上向き",
-      "RSIは75.8と過熱気味だが、MA20を上回る押し目買いが期待できる"
+      "価格はMA20を上回り、トレンドは依然上向き",
+      "RSIは75.8で過熱感示すも、週間最高値更新でモメンタム継続",
+      "中東リスクと米ドル強含みが下値を支える"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "ホルムズ海峡閉鎖リスクと週間高値更新が米ドル買いを促し、MA20を支えにした押し目買い戦略を示す。",
+    "excerpt": "USD/JPYはMA20を基盤に上昇トレンド継続。過熱感はあるが、週間最高値更新と地政学的リスクが下値を支える。",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "ホルムズ海峡閉鎖リスクと週間高値更新が米ドル買いを促し、MA20を支えにした押し目買い戦略を示す。",
+    "comment": "USD/JPYはMA20を基盤に上昇トレンド継続。過熱感はあるが、週間最高値更新と地政学的リスクが下値を支える。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
@@ -23,46 +23,46 @@
   },
   "STOCKS": {
     "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-06-21 20:15",
+    "date": "2026-06-22 02:30",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "野村證券",
+    "recommended_broker": "Example Broker",
     "tldr_points": [
-      "価格はMA20を若干上回り、RSIは45.9で中立付近",
-      "消費セクターの割安株が台頭し、短期的な買い場が形成",
-      "金利・オーダーフロー・センチメントの三角分析から上昇余地を示唆"
+      "現在価格がMA20（7485.26）を上抜け、 RSI（45.94）は中立域を浮游",
+      "ETF市場では先進国投資がアジア通貨安の中で相対的に堅固",
+      "ナイトリスクヘッジファンドの動きが潜在的買いを示唆"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20をわずかに上回る水準で推移し、RSIは中立付近。消費セクターの割安株が台頭し、短期的な買い場形成が期待される。",
+    "excerpt": "S&P 500はMA20（7485.26）の所有権を確保し、 RSI（45.94）の中立状態を維持。最近のニュースは潜在的な強気ムーメントを浮上。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "MA20をわずかに上回る水準で推移し、RSIは中立付近。消費セクターの割安株が台頭し、短期的な買い場形成が期待される。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20上抜けと中立RSIの整合",
+    "entry": "7500.00",
+    "tp": "7600.00",
+    "sl": "7450.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20 support and favorable regulatory outlook",
-    "date": "2026-06-21 20:18",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-22 02:33",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20 support holds near 63.7k, reinforcing bullish bias",
-      "CME regulatory clarity bolsters institutional exposure narrative",
-      "Neutral RSI suggests upside room before overbought levels"
+      "価格はMA20を上回り、短期的な上昇バイアスが示唆される",
+      "MEVボットおよびAxelarブリッジのハッキングは流動性リスクを浮き彫りにし、注意が必要",
+      "機関向けバイナリーオプションの導入は長期需要を底上げする可能性がある"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds above MA20 at 63.7k, driven by regulatory clarity and modest momentum; target 66k with tight risk controls.",
+    "excerpt": "MA20を上抜けつつあるBTC/USDは、テクニカル的に押し目買いの余地があり、流動性リスクに留意しながらbitflyerでの取引を検討すべき。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20の支持と良好なモメンタムを捉え、厳格なリスク管理の下で押し目買い。",
-    "entry": "63800.00",
-    "tp": "66000.00",
-    "sl": "62500.00",
+    "status": "NEUTRAL",
+    "comment": "MA20を上抜けつつあるBTC/USDは、テクニカル的に押し目買いの余地があり、流動性リスクに留意しながらbitflyerでの取引を検討すべき。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
