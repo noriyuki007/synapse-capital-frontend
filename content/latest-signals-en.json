@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Technicals and Geopolitics Converge in Bullish Setup",
-    "date": "2026-06-21 02:23",
+    "title": "[USD/JPY] FLAT: Overbought Momentum Meets Geopolitical Uncertainty",
+    "date": "2026-06-21 12:52",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price ascends to 40-year highs amid Iran Strait volatility",
-      "RSI overbought signals short-term exhaustion risk",
-      "Geopolitical de-escalation in Levant mitigates sentiment risks"
+      "Geopolitical tensions in Middle East cap USD/JPY upside",
+      "RSI overbought at 75.8 signals potential consolidation",
+      "MA20 convergence with spot price suggests key inflection zone"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY surges toward 40-year highs as Iran Strait tensions and Middle East ceasefire dynamics fuel bullish momentum. Overbought RSI creates tactical caution.",
+    "excerpt": "USD/JPY faces resistance from overbought RSI and mixed Middle East headlines",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Bullish breakout confirmed by geopolitical events and technical structure",
-    "entry": "161.00",
-    "tp": "162.50",
-    "sl": "159.50",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPY faces resistance from overbought RSI and mixed Middle East headlines",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-21 02:26",
+    "title": "[S&P 500] UP: Momentum Accelerates on AI-Driven Support at MA20 and Mixed Macro Catalysts",
+    "date": "2026-06-21 12:55",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 trades above 20‑day MA at ~7500, RSI neutral hints upside.",
-      "Wells Fargo raises S&P target; bank ETFs outperform, reinforcing bullish fundamentals.",
-      "Technical breakout target near 7580, support at 7485; monitor oil/geopolitical catalysts."
+      "S&P 500 approaching long-term support at 7485.26 with RSI divergence",
+      "Bullish divergence between S&P 500 and bonds signals strategic buying",
+      "Volatility compression suggests imminent breakout by June 26"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 near MA20, neutral RSI, bullish fundamentals suggest upward bias.",
+    "excerpt": "S&P 500 shows technical strength near MA20 amid diverging macro signals—watch for breakout ahead of Fed action.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Bullish technical and fundamental catalysts support a long S&P 500 position.",
-    "entry": "7490",
-    "tp": "7580",
-    "sl": "7450",
+    "comment": "Technical rebound at MA20 with bullish RSI divergence supports near-term bullish bias.",
+    "entry": "7500.58",
+    "tp": "7530.00",
+    "sl": "7471.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Technical Downtrend Confirmed as Price Breaks Below MA20 with Neutral RSI",
-    "date": "2026-06-21 02:28",
+    "title": "[BTC/USD] FLAT: Consolidation Below MA20 Amid Mixed Macro Signals",
+    "date": "2026-06-21 12:58",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD trading below MA20 at $63,852.30 with neutral RSI (60.9)",
-      "Regulatory headwinds and ecosystem exits weigh on sentiment",
-      "Target support at $62,800 with resistance at $64,500"
+      "Price consolidates 0.26% below MA20 at $64,528, signaling near-term equilibrium",
+      "RSI at 62.31 reflects neutral momentum with room for upside before overbought",
+      "Headline risk from bridge exploits and tradfi litigation offsets binary options adoption tailwind"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD confirms downtrend below MA20 amid regulatory uncertainty and ecosystem exits.",
+    "excerpt": "BTC holds $64.3K support but fails to reclaim MA20; range-bound action expected pending macro catalyst.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Break below MA20 with neutral RSI confirms short bias",
+    "status": "NEUTRAL",
+    "comment": "Price consolidating below MA20 with neutral RSI; range-bound strategy favored.",
     "entry": "64200.00",
-    "tp": "62800.00",
-    "sl": "65400.00",
+    "tp": "65400.00",
+    "sl": "63400.00",
     "reliability": "MEDIUM"
   }
 }
