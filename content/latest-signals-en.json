@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-22 02:25",
+    "title": "[USD/JPY] DOWN: RSI Overbought Signals Near-Term Pullback Toward MA20",
+    "date": "2026-06-22 12:55",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above MA20 with RSI indicating overbought but intact upside momentum.",
-      "Geopolitical headlines add mixed risk sentiment, yet USD strength remains supported by firm US data.",
-      "A tactical buy‑on‑dip toward the 20‑day moving average offers a defined risk‑reward setup."
+      "Price above MA20 with RSI 78 indicates overextended bullish momentum.",
+      "US-Iran de-escalation and China rare‑earth ban weigh on USD sentiment.",
+      "Technical setup favors a short‑term correction to the 160.08‑160.30 zone."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above MA20 with RSI overbought, poised for further gains amid mixed geopolitical cues and firm US fundamentals.",
+    "excerpt": "USD/JPY trades above MA20 with RSI at 78, signaling overbought conditions and a likely short‑term pullback toward the 160.08 support amid mixed geopolitical cues.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Price above MA20 with bullish rate backdrop; dip to moving average offers asymmetric reward.",
-    "entry": "160.10",
-    "tp": "162.80",
-    "sl": "159.50",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "RSI overbought and near‑term fundamental pressures favor a pullback to MA20 support.",
+    "entry": "161.50",
+    "tp": "160.10",
+    "sl": "162.20",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: AI Detects Breakdown Risk Amid 155-Year Warning and Weak RSI",
-    "date": "2026-06-22 02:30",
+    "title": "[S&P 500] DOWN: Geopolitical Tension Weights Price Despite Mild Technical Support",
+    "date": "2026-06-22 13:01",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price sits marginally above MA20 but RSI below 50 shows fading momentum.",
-      "Headline warning of a 155‑year first‑time event raises bearish macro concerns.",
-      "Short bias toward 7450 with stop above 7550 offers defined risk/reward."
+      "Iran‑Hormuz tensions spur risk‑off sentiment, dragging equity futures lower.",
+      "Price sits modestly above the 20‑day MA but RSI remains sub‑50, indicating limited upside momentum.",
+      "A short‑biased stance is warranted with defined risk levels near recent swing highs."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces potential breakdown as price stalls above MA20, RSI weakens, and 155-year warning signals bearish shift.",
+    "excerpt": "S&P 500 faces downside pressure as geopolitical risks rise; price marginally above MA20 with RSI neutral, suggesting near-term sell bias.",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "Price stalls above MA20 with weakening RSI and a 155‑year warning flag suggesting downside risk.",
-    "entry": "7507.50",
+    "comment": "Geopolitical risk outweighs mild technical support, favoring a short bias toward MA20.",
+    "entry": "7490.00",
     "tp": "7450.00",
-    "sl": "7550.00",
+    "sl": "7520.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Price Above MA20 with Neutral RSI Supports Modest Bullish Bias",
-    "date": "2026-06-22 02:33",
+    "title": "BTC/USD Framework: Analyzing Liquidity Zones in Consolidation",
+    "date": "2026-06-22 13:08",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trades modestly above its 20‑day moving average, indicating short‑term bullish momentum.",
-      "Macro news shows mixed signals: institutional derivative growth offsets recent DeFi exploit concerns.",
-      "Technical setup favors a long toward 65k with defined risk below the MA20."
+      "Interest Correlation (Approx): -0.35 (Negative)",
+      "Technical: Driven by Price 63863.30 vs MA20 63690.89",
+      "Liquidity: Targets based on Upper Band 66973.14 / Lower Band 60408.63 / Recent High 71334.95 / Recent Low 59108.92"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD shows slight upside bias as price holds above MA20; institutional derivatives growth supports near‑term strength.",
+    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 63863.30, RSI(52.65), and MA20(63690.89).",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Price above MA20 with neutral RSI and supportive institutional derivatives news favors a long bias.",
-    "entry": "63950.00",
-    "tp": "65200.00",
-    "sl": "63200.00",
+    "status": "NEUTRAL",
+    "comment": "Today's AI analysis outlines the execution plan for BTC/USD around Price 63863.30, RSI(52.65), and MA20(63690.89).",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
