@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-22 22:32",
+    "date": "2026-06-23 04:23",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY trades above MA20 with RSI in overbought territory",
-      "USD strength supported by hotter Canadian CPI and broad gains versus EUR/JPY",
-      "Near-term bias remains bullish with a pullback to MA20 as optimal entry"
+      "Price holds above MA20 with bullish momentum",
+      "RSI elevated but still supportive of upside",
+      "Key resistance at 162.5"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above MA20 amid overbought RSI, USD strength from hotter CAD CPI and broad gains; tactical long targeting 163.50 with SL at 159.80.",
+    "excerpt": "USD/JPY eyes upside toward 162.5 as price respects MA20 support; RSI elevated, signaling bullish momentum bullish now!!!",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Bullish bias supported by price above MA20 and USD‑strength fundamentals",
-    "entry": "160.20",
-    "tp": "163.50",
-    "sl": "159.80",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPY eyes upside toward 162.5 as price respects MA20 support; RSI elevated, signaling bullish momentum bullish now!!!",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Technical Recovery and Geopolitical Stabilization Provide Lift",
-    "date": "2026-06-22 22:40",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-23 04:27",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price above MA20 signals bullish momentum",
-      "RSI(14) at 46 indicates room for further upside",
-      "US-Iran talks and ETF strength provide fundamental tailwind"
+      "Price tests MA20 support with RSI at neutral 43",
+      "Options skew suggests improved risk appetite",
+      "Institutional flows hint at accumulation near key moving average"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 set to rise on technical recovery and geopolitical stabilization.",
+    "excerpt": "S&P 500 tests MA20 support; AI signals potential reversal with neutral RSI momentum.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Technical recovery and geopolitical stabilization underpin bullish momentum.",
-    "entry": "7523.00",
-    "tp": "7580.00",
-    "sl": "7480.00",
+    "comment": "Testing MA20 support with neutral RSI and stabilizing fundamentals",
+    "entry": "7480.00",
+    "tp": "7550.00",
+    "sl": "7440.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-22 22:48",
+    "date": "2026-06-23 04:29",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price above MA20 with bullish momentum",
-      "RSI near 58 signals healthy bullishness",
-      "Positive macro catalysts from RWA and validator news"
+      "Price holds above MA20 indicating short-term support",
+      "News flow shows growing institutional tokenization interest",
+      "RSI near midpoint leaves room for upward momentum"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC trades above MA20, RSI 58, bullish catalysts emerge; target $570 for Strategy; recommend execution on Bybit. 2026!!!",
+    "excerpt": "BTC holds above MA20 with bullish news on tokenized equities and staking tax bill, signaling near-term upside.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC trades above MA20, RSI 58, bullish catalysts emerge; target $570 for Strategy; recommend execution on Bybit. 2026!!!",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Price above MA20 with bullish fundamental catalysts and constructive technical setup",
+    "entry": "63550.00",
+    "tp": "66000.00",
+    "sl": "63000.00",
+    "reliability": "HIGH"
   }
 }
