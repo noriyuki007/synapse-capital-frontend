@@ -1,68 +1,69 @@
 {
   "FX": {
-    "title": "インテリジェンス：USD/JPYの強気相場における利益確定ポイント",
-    "date": "2026-06-23 11:54",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性」",
+    "date": "2026-06-23 20:13",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "金利相関（近似）: 0.20で正相関傾向",
-      "テクニカル: 現在価格 161.56 と MA20 160.20 の位置関係が主導",
-      "需給: 上限帯 161.53 / 下限帯 158.87 / 直近高値 161.91 / 直近安値 159.10 によるターゲット設計"
+      "金利やボラティリティと put/dive ヘクトルとの相対性に注意。",
+      "RSIिङュールが高値で過熱の兆候。",
+      "ファンダメンタルズのBBCや米央銀行 wykonكicker・脱後。",
+      "エクスプローン・ポジション構成の最適化。"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 161.56、RSI(75.71)、MA20(160.20)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "本日のAI解析では、USD/JPYの現在価格 161.56、RSI(75.71)、MA20(160.20)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "comment": "シナプス解析に基づくシグナル",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20下抜けとリスクオフムードの整合性",
-    "date": "2026-06-23 11:59",
+    "title": "[S&P 500] DOWN: MA20割れとテク売りが重石となる展開",
+    "date": "2026-06-23 20:19",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "価格はMA20下抜けで下方バイアス",
-      "RSIは43.6で弱気モメンタム",
-      "地政学リスクとテクノロジー売りが重し"
+      "テクノロジー株の売りが広がり、全体センチメントが弱含む",
+      "現在価格はMA20を下回り、RSIは43で下向きモメンタムを示唆",
+      "流動性の観点からNomura Securitiesの利用を推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20を下回る水準で推移し、RSIが43.6と弱気を示す。地政学懸念とテクノロジー株売りが下押し圧力を強めている。",
+    "excerpt": "テク売りとマクロ懸念が重なり、S&P 500はMA20下抜けを背景に下落リスクが高まっている。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "MA20下抜けとRSI弱化、地政学リスクが下押しを支える",
-    "entry": "7470.00",
-    "tp": "7400.00",
-    "sl": "7520.00",
+    "status": "NEUTRAL",
+    "comment": "テク売りとマクロ懸念が重なり、S&P 500はMA20下抜けを背景に下落リスクが高まっている。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20支持線上の底堅さとインフラ拡充による中期的買い圧力の継続",
-    "date": "2026-06-23 12:01",
+    "title": "[BTC/USD] UP: MA20付近への反発期待とCBDC禁法によるファンダメンタルズ支援",
+    "date": "2026-06-23 20:22",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20（63,526）を支持線とした上昇構造の維持",
-      "AI会計導入や予測市場の資金流入によるエコシステム拡張",
-      "RSIの中立圏からの反転による上値模索局面"
+      "MA20上抜けで短期上昇余地",
+      "米議会のCBDC禁止法がビットコインの相対的魅力を向上",
+      "RSIは中立帯で過熱感薄く押し目買いの余地"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCはMA20を支持線に64K台で推移。インフラ層のAI統合や機関投資家向けサービス拡充が下値を支え、モメンタムの再加速を待つ展開。テクニカル的な底堅さとファンダメンタルズの整合性を確認し、強気バイアスを維持する。",
+    "excerpt": "価格はMA20下抜けだが、CBDC禁法などのファンダメンタルズが下支え。押し目買いでMA20再テストを狙う。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20支持線での反発とインフラ拡充の整合性",
-    "entry": "64000.00",
-    "tp": "67500.00",
-    "sl": "62800.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "価格はMA20下抜けだが、CBDC禁法などのファンダメンタルズが下支え。押し目買いでMA20再テストを狙う。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }

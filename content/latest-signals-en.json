@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: PBOC Rate Strength Supports Pair Despite Overbought RSI",
-    "date": "2026-06-23 11:54",
+    "title": "[USD/JPY] DOWN: Overbought RSI Signals Reversal as Intervention Threats Loom",
+    "date": "2026-06-23 20:13",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "PBOC USD/CNY central rate set stronger than expected, underpinning dollar bias.",
-      "USD/JPY trades above MA20 with RSI >75, indicating overbought momentum.",
-      "Japan-US policy pact remains intact, offering no near-term yen‑specific headwinds."
+      "Overbought RSI (74.96) signals exhaustion after testing 1986 peaks",
+      "BOJ intervention risks cap upside amid stretched technicals",
+      "Key support at MA20 (160.19) offers downside target for correction"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY trades above MA20 with RSI>75; PBOC USD/CNY fix points to dollar strength, while overbought momentum hints at near-term pullback risk.",
+    "excerpt": "Overbought RSI and intervention threats signal USD/JPY downside correction targeting MA20.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Bullish dollar bias from PBOC fix, entry on MA20 pullback with defined risk.",
-    "entry": "161.00",
-    "tp": "162.50",
-    "sl": "160.50",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] BUY: MA20 Crossing with AI-Driven Signals",
-    "date": "2026-06-23 11:59",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": [],
-    "tldr_points": [],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "120-character summary covering MA dynamics, news impact, and AI insights.",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "120-character summary covering MA dynamics, news impact, and AI insights.",
+    "comment": "Overbought RSI and intervention threats signal USD/JPY downside correction targeting MA20.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] DOWN: Tech Selloff Pressure Mounts as Index Breaches MA20 Support",
+    "date": "2026-06-23 20:19",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "S&P 500 trades 0.18% below MA20 at 7472.79, signaling near-term bearish bias",
+      "RSI-14 at 43.56 reflects waning momentum without oversold relief",
+      "AI valuation concerns and tech sector rotation drive institutional de-risking"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "Index breaches MA20 amid AI bubble fears; RSI 43.56 shows room for further downside before support.",
+    "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "Break below MA20 with RSI momentum decay and AI rotation flows support downside to 50-day SMA",
+    "entry": "7485",
+    "tp": "7420",
+    "sl": "7510",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Price Above MA20 with Constructive Fundamentals",
-    "date": "2026-06-23 12:01",
+    "title": "[BTC/USD] UP: CBDC Ban Signals Institutional Adoption Tailwinds",
+    "date": "2026-06-23 20:22",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC holds above MA20 support at ~63.5k",
-      "RSI near midpoint indicating room for upside",
-      "Fundamental news flow modestly supportive"
+      "CBDC ban in US Senate bill boosts BTC as digital asset alternative",
+      "Trump’s 2031 quantum migration deadline reinforces blockchain infrastructure demand",
+      "Ark Invest’s SpaceX purchase amid crypto correction signals institutional capital rotation"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC steadies above MA20 with neutral RSI; modestly bullish outlook.",
+    "excerpt": "BTC/USD bullish fundamentals override short-term pullback; key technical levels to watch.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Price above MA20 with neutral RSI and modestly bullish fundamentals supports a long bias.",
-    "entry": "63550.00",
-    "tp": "66000.00",
-    "sl": "63000.00",
-    "reliability": "MEDIUM"
+    "comment": "CBDC ban and institutional capital rotation favor long-term appreciation.",
+    "entry": "62400",
+    "tp": "63500",
+    "sl": "59800",
+    "reliability": "HIGH"
   }
 }
