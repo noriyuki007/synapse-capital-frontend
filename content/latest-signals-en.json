@@ -1,68 +1,69 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Bullish Momentum Backed by Strong USD Data and Technical Support at MA20",
-    "date": "2026-06-24 02:50",
+    "title": "[USD/JPY] BUY UP: AI Identifies Precise Support Zone as Core Catalyst",
+    "date": "2026-06-24 11:55",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY trades above MA20 with RSI 75.6 indicating overbought but strong upward bias.",
-      "US 2‑year yield at 4.189% and cruise demand signal USD strength.",
-      "AUD/NZD weakness reinforces bullish outlook; watch for break above 162.00."
+      "Key rate divergence between USD and CNY underpins the move.",
+      "Elevated liquidity following BofA narrative boosts demand.",
+      "Core inflation and optimism drive PBOC’s relative positioning.",
+      "Chart burning at MA20 with strong RSI indicating potential pullback."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above MA20 with RSI 75.6, backed by strong US data and USD strength; watch for break above 162.00 now!!!!",
+    "excerpt": "123 characters highlighting critical input drivers",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Bullish momentum backed by strong USD fundamentals and technical support at MA20.",
-    "entry": "161.30",
-    "tp": "162.50",
-    "sl": "160.80",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "123 characters highlighting critical input drivers",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: AI Detects Resistance at MA20 as Fundamentals Turn Bearish",
-    "date": "2026-06-24 02:52",
+    "title": "[S&P 500] DOWN: Price Below MA20 with Bearish Momentum",
+    "date": "2026-06-24 11:57",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price sits below MA20 with RSI near 40, indicating bearish momentum.",
-      "Rising rate expectations and tech sector weakness weigh on near‑term outlook.",
-      "Key downside target near 7,200; stop above 7,500 controls risk."
+      "Price trading below MA20 indicates near-term bearish bias.",
+      "RSI near 38 suggests selling pressure but not extreme oversold.",
+      "Tech selloff headlines reinforce downside risk to 7300 support."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades below MA20 with RSI near 40 as rising rates and tech weakness signal near-term downside momentum ahead..!",
+    "excerpt": "S&P 500 trades below MA20 with RSI 38.7, pointing to short-term downside toward 7300 amid tech selloff.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Price below MA20 with bearish momentum and rising rate headwinds.",
-    "entry": "7380.00",
-    "tp": "7200.00",
-    "sl": "7500.00",
+    "status": "NEUTRAL",
+    "comment": "S&P 500 trades below MA20 with RSI 38.7, pointing to short-term downside toward 7300 amid tech selloff.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Identifies Resistance at MA20 with Bearish Fundamentals",
-    "date": "2026-06-24 02:55",
+    "title": "[BTC/USD] UP: AI Detects Support Near MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-24 11:59",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price near MA20 support, hinting at potential bounce.",
-      "ETF outflows and fraud headlines increase downside risk.",
-      "AI models flag bearish momentum, reinforcing short bias."
+      "Price holding above key support near MA20",
+      "Macro catalysts: anti-CBDC bill, quantum security push",
+      "RSI neutral, room for upside"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Price probes MA20 around 62.3k as ETF outflows and fraud headlines pressure, AI flags bearish bias amid heightened risk.",
+    "excerpt": "BTC/USD poised for upside as technical support aligns with pro‑crypto policy developments.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price breaks below MA20 with bearish AI signals, targeting 61k.",
-    "entry": "62300",
-    "tp": "61000",
-    "sl": "63500",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTC/USD poised for upside as technical support aligns with pro‑crypto policy developments.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
