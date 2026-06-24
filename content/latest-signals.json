@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20の支持と円の弱気見通しに基づく強気シナリオ",
-    "date": "2026-06-24 19:46",
+    "title": "[USD/JPY] UP: MA20を上抜けかつ米利回り上昇が裏付ける強気バイアス",
+    "date": "2026-06-25 02:52",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "JPモーガンの警告が円の弱気見通しを強調",
-      "グリーンバックはハーキッシュなFedに支えられ強含み",
-      "RSI 77 は過熱感を示しながらも上昇基調を維持"
+      "米5年債利回り4.20%がドルを支援",
+      "RSI78で過熱感ありつつもトレンドは上向き",
+      "押し目買いをMA20付近で検討し、dmm-fxで実行推奨"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY は161.69で取引。MA20を上回り、RSIは77、円の弱気圧力とFedのハト派的姿勢が後押し。",
+    "excerpt": "米長期金利上昇とリスクオン姿勢がドルを支え、USD/JPYはMA20を上抜けて上昇基調。過熱感はあるが押し目での買いを推奨。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20の支持と円の弱気見通しに基づく買い",
-    "entry": "161.70",
-    "tp": "163.50",
-    "sl": "160.30",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: MA20付近への反発期待とテクニカル・ファンダメンタルズの整合性",
-    "date": "2026-06-24 19:49",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "tldr_points": [
-      "価格はMA20下抜けだがRSIが38.7で反転余地あり",
-      "テク売りは一時的と見られ、韓半導体・マイクロンの動向が上昇カタリス",
-      "エントリー7350、TP7480、SL7300でリスク管理済みの押し目買いを推奨"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20下抜けもRSIが反転圏に近づき、テク株の一時的売りが過剰反応と見られるため押し目買いが有利。",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20付近への反発期待とRSI反転シグナルが根拠",
-    "entry": "7350",
-    "tp": "7480",
-    "sl": "7300",
+    "comment": "米利回り上昇とリスクオンがドルを支え、MA20付近の押し目買いが有効",
+    "entry": "160.35",
+    "tp": "162.80",
+    "sl": "159.80",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] DOWN: テクニカル抵Resistance and bearish momentum amid energy sector collapse",
+    "date": "2026-06-25 03:03",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "S&P 500 trading below MA20 at 7472.88, current level 7352.33",
+      "RSI(14) at 40.34 signals distribution phase",
+      "Oil crash and tech weakness create risk-off environment"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 loses ground below key moving average amid crude oil collapse and semiconductor weakness, confirming bearish technical structure.",
+    "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "テクニカル抵抗下でのエネルギー価格暴落と連動した空売りシグナル",
+    "entry": "7340.00",
+    "tp": "7200.00",
+    "sl": "7450.00",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20 resistance and regulatory headwinds",
-    "date": "2026-06-24 19:50",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性",
+    "date": "2026-06-25 03:08",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "Price trading below 20‑day MA, indicating short‑term bearish bias.",
-      "Regulatory concerns from Clarity Act and Voyager case add downside pressure.",
-      "Neutral RSI leaves room for gradual depreciation before reversal."
+      "価格がMA20付近で支えられる可能性",
+      "ニュースが示すリスク許容度上昇",
+      "流動性回復とセンチメント好転"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD faces bearish pressure as price sits under MA20 and regulatory risks mount, suggesting further decline.",
+    "excerpt": "価格59,451円、RSI44低下、MA2063,237円を下回るがニュースがリスク許容度向上を後押しし、押し目買いシナリオが浮上。流動性改善とセンチメント好転が支える。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "弱気なテクニカルと規制懸念が連結し、MA20 を下回る価格となっており、本戦略は下落を見据えている。",
-    "entry": "62453",
-    "tp": "58000",
-    "sl": "64800",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "価格59,451円、RSI44低下、MA2063,237円を下回るがニュースがリスク許容度向上を後押しし、押し目買いシナリオが浮上。流動性改善とセンチメント好転が支える。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
