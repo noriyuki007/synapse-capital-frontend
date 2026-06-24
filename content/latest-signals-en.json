@@ -1,69 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] BUY UP: AI Identifies Precise Support Zone as Core Catalyst",
-    "date": "2026-06-24 11:55",
+    "title": "[USD/JPY] UP: AI Confirms Bullish Momentum Amid Hawkish Fed and Yen Weakness Catalysts",
+    "date": "2026-06-24 19:46",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Key rate divergence between USD and CNY underpins the move.",
-      "Elevated liquidity following BofA narrative boosts demand.",
-      "Core inflation and optimism drive PBOC’s relative positioning.",
-      "Chart burning at MA20 with strong RSI indicating potential pullback."
+      "USD/JPY trading above MA20 confirms bullish technical structure",
+      "RSI at 77.3 signals extended but not exhausted momentum",
+      "Hawkish Fed and yen vulnerability create fundamental tailwinds"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "123 characters highlighting critical input drivers",
+    "excerpt": "USD/JPY bullish bias confirmed technically and fundamentally amid Fed hawkishness and yen pressure",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "123 characters highlighting critical input drivers",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Bullish momentum confirmed with price above MA20 and fundamental tailwinds",
+    "entry": "161.00",
+    "tp": "162.80",
+    "sl": "159.60",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Price Below MA20 with Bearish Momentum",
-    "date": "2026-06-24 11:57",
+    "title": "[S&P 500] UP: Support at MA20 confirms potential bounce amid tech rebound signals",
+    "date": "2026-06-24 19:49",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price trading below MA20 indicates near-term bearish bias.",
-      "RSI near 38 suggests selling pressure but not extreme oversold.",
-      "Tech selloff headlines reinforce downside risk to 7300 support."
+      "MA20 remains a critical support buffer",
+      "RSI below mid‑level hints at recoverable momentum",
+      "Tech sector rebound sustains bullish sentiment"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades below MA20 with RSI 38.7, pointing to short-term downside toward 7300 amid tech selloff.",
+    "excerpt": "Price near MA20 with supportive RSI; tech rebound signals potential upside",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P 500 trades below MA20 with RSI 38.7, pointing to short-term downside toward 7300 amid tech selloff.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Price approaching MA20 support with bullish momentum and tech rebound catalysts",
+    "entry": "7365.46",
+    "tp": "7500",
+    "sl": "7230",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support Near MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-24 11:59",
+    "title": "[BTC/USD] FLAT: Price Consolidation Below MA20 Amidst Regulatory Headwinds",
+    "date": "2026-06-24 19:50",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price holding above key support near MA20",
-      "Macro catalysts: anti-CBDC bill, quantum security push",
-      "RSI neutral, room for upside"
+      "Price trading below MA20 indicating short-term bearish pressure",
+      "Regulatory uncertainty via the Clarity Act creates structural noise",
+      "RSI neutrality suggests a lack of immediate directional conviction"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD poised for upside as technical support aligns with pro‑crypto policy developments.",
+    "excerpt": "BTC consolidates at 62k; technicals show resistance at MA20 while regulatory noise dampens immediate bullish momentum.",
     "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "BTC/USD poised for upside as technical support aligns with pro‑crypto policy developments.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "comment": "Price is trading below MA20 with neutral RSI, indicating a consolidation phase.",
+    "entry": "62453.45",
+    "tp": "63387.30",
+    "sl": "61200.00",
     "reliability": "MEDIUM"
   }
 }
