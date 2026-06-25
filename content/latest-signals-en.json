@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: AI Detects Resistance at 162.5 Amid Rising US Yields & Overbought Momentum",
-    "date": "2026-06-25 02:52",
+    "title": "[USD/JPY] UP: AI Detects Momentum Divergence as Fundamentals Align Bullish",
+    "date": "2026-06-25 11:55",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US 5‑yr yield at 4.20% fuels USD strength",
-      "RSI 78 signals imminent pullback from 162.5 breakout",
-      "EUR/GBP and metal weak cues bolster JPY safe‑haven appeal"
+      "Price above MA20 with overbought RSI signals continuation",
+      "US rate hike prospects offset BoJ dovish bias",
+      "Iran tensions support USD safe-haven demand"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY likely to retreat from 162.5 break, with targeted 160.5 after tightening.",
+    "excerpt": "Bullish USD/JPY setup emerges as technicals align with hawkish US data and geopolitical risk premium.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "High yield and overbought RSI signal imminent pullback from 162.5.",
-    "entry": "162.5",
-    "tp": "160.5",
-    "sl": "163.0",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Bullish momentum aligns with hawkish USD narrative and support from geopolitical premium",
+    "entry": "160.40",
+    "tp": "163.50",
+    "sl": "159.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Bearish Momentum Confirmed by Price Below MA20 and RSI Weakness",
-    "date": "2026-06-25 03:03",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-25 11:57",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price trades below the 20‑day moving average, signaling short‑term bearish bias.",
-      "RSI‑14 at 40 reflects weakening momentum and room for further downside.",
-      "Oil price collapse and chip sector softening weigh on macro sentiment, reinforcing equity pressure."
+      "AI detects support at MA20 as funds rotate into tech",
+      "RSI at 40 signals oversold bounce potential",
+      "Macro data fuels risk appetite for equities"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 under pressure as price undercuts MA20 and RSI shows bearish momentum amid oil and chip weakness.",
+    "excerpt": "S&P 500 eyes upside toward 7500 as MA20 support aligns with bullish macro data.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Price below MA20 and RSI shows bearish momentum amid oil and chip weakness.",
-    "entry": "7380.00",
-    "tp": "7220.00",
-    "sl": "7480.00",
+    "status": "NEUTRAL",
+    "comment": "S&P 500 eyes upside toward 7500 as MA20 support aligns with bullish macro data.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-25 03:08",
+    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 as Fundamentals Turn Bearish",
+    "date": "2026-06-25 12:01",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "MA20 support remains intact",
-      "RSI neutral, not oversold",
-      "Data oracle launch fuels institutional interest"
+      "BTC/USD currently trades below the 20‑day MA at 60,723, indicating near‑term bearish pressure.",
+      "Miner revenue falling below production costs adds supply‑side stress, reinforcing downside bias.",
+      "Fed ‘skinny accounts’ debate and growing onchain yield initiatives provide modest offsetting support."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD poised for a climb as MA20 support remains intact, RSI neutral, and data oracle launch fuels optimism.",
+    "excerpt": "BTC/USD slips below MA20 as miner margins compress; Fed accounts and onchain yield news offer limited upside for traders",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Support at MA20 and positive fundamentals imply upside",
-    "entry": "59200",
-    "tp": "64000",
-    "sl": "58000",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "Price below MA20 with bearish miner fundamentals and modest upside from fintech initiatives.",
+    "entry": "60750",
+    "tp": "58500",
+    "sl": "62500",
+    "reliability": "MEDIUM"
   }
 }

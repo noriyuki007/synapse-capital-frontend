@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20を上抜けかつ米利回り上昇が裏付ける強気バイアス",
-    "date": "2026-06-25 02:52",
+    "title": "[USD/JPY] DOWN: RSI過買いとリスクオフ要因が重なり押し目リスク",
+    "date": "2026-06-25 11:55",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米5年債利回り4.20%がドルを支援",
-      "RSI78で過熱感ありつつもトレンドは上向き",
-      "押し目買いをMA20付近で検討し、dmm-fxで実行推奨"
+      "価格はMA20を上回りRSI77で過買い状態",
+      "イランのホルムズ警告とRBAの利上げ見送りがリスクオフを誘発",
+      "短期的な押し目売りを推奨し、dmm-fxの流動性を活用"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米長期金利上昇とリスクオン姿勢がドルを支え、USD/JPYはMA20を上抜けて上昇基調。過熱感はあるが押し目での買いを推奨。",
+    "excerpt": "RSI過買いと地政学的リスクがUSD/JPYの下押しを促し、押し目売り戦略が有効。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "米利回り上昇とリスクオンがドルを支え、MA20付近の押し目買いが有効",
-    "entry": "160.35",
-    "tp": "162.80",
-    "sl": "159.80",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: テクニカル抵Resistance and bearish momentum amid energy sector collapse",
-    "date": "2026-06-25 03:03",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "S&P 500 trading below MA20 at 7472.88, current level 7352.33",
-      "RSI(14) at 40.34 signals distribution phase",
-      "Oil crash and tech weakness create risk-off environment"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 loses ground below key moving average amid crude oil collapse and semiconductor weakness, confirming bearish technical structure.",
-    "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "テクニカル抵抗下でのエネルギー価格暴落と連動した空売りシグナル",
-    "entry": "7340.00",
-    "tp": "7200.00",
-    "sl": "7450.00",
-    "reliability": "HIGH"
-  },
-  "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性",
-    "date": "2026-06-25 03:08",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bitflyer",
-    "tldr_points": [
-      "価格がMA20付近で支えられる可能性",
-      "ニュースが示すリスク許容度上昇",
-      "流動性回復とセンチメント好転"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "価格59,451円、RSI44低下、MA2063,237円を下回るがニュースがリスク許容度向上を後押しし、押し目買いシナリオが浮上。流動性改善とセンチメント好転が支える。",
-    "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "価格59,451円、RSI44低下、MA2063,237円を下回るがニュースがリスク許容度向上を後押しし、押し目買いシナリオが浮上。流動性改善とセンチメント好転が支える。",
+    "comment": "RSI過買いと地政学的リスクがUSD/JPYの下押しを促し、押し目売り戦略が有効。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
+    "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20での反発とテクニカルファンダメンタルズの整合性",
+    "date": "2026-06-25 11:57",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "インタラクティブブローカーズ",
+    "tldr_points": [
+      "価格は20日移動平均線を下回り、RSIは40前半で売り買い均衡。",
+      "マイクロン決算がテク株に追い風、インフレデータ待ちでボラティリティ上昇。",
+      "テクニカル的に押し目買いのシナリオが有効。"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "MA20付近での反発を狙う買い戦略。テクニカルとファンダメンタルズが整合。",
+    "pair": "S&P 500",
+    "status": "NEUTRAL",
+    "comment": "MA20付近での反発を狙う買い戦略。テクニカルとファンダメンタルズが整合。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
+  },
+  "CRYPTO": {
+    "title": "[BTC/USD] FLAT: 移動平均下からのモデレートなホルダー精神とインフラストラクチャー進展のバランス",
+    "date": "2026-06-25 12:01",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "bitflyer",
+    "tldr_points": [
+      "価格はMA20下で推移中",
+      "RSIは中立ゾーンに留まる",
+      "マイナーマージン縮小が売り圧力を制限"
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "BTC/USDは60723ドルで推移し、MA20下からの回復局面にあるが、マイナー収益性悪化が下押し圧力として作用中。インフラ進展はバックストラップとして機能.",
+    "pair": "BTC/USD",
+    "status": "NEUTRAL",
+    "comment": "60000ドルサポートからの局所的フラット戦略",
+    "entry": "60100",
+    "tp": "61500",
+    "sl": "59200",
     "reliability": "MEDIUM"
   }
 }
