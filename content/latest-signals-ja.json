@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: RSI過熱と介入懸念が重し、MA20を下抜ける可能性",
-    "date": "2026-06-25 19:39",
+    "title": "[USD/JPY] UP: MA20突破と米利回り上昇がファンダメンタルズと整合",
+    "date": "2026-06-26 03:07",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "RSIが77.9と過熱域、上値余地が限定的",
-      "介入観測とBOJ政策の不透明さが下押し圧力",
-      "テクニカル的にMA20を割り込むと160.80付近へ調整"
+      "米7年債入札の高利回りとダラスFedのPCE上昇が米ドルを支える",
+      "価格はMA20を上抜け、RSIは77.7で過熱感も示唆",
+      "テクニカル的には押し目買いが優位、流動性は[dmm-fx]で確保可能"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "RSIが77.9と過熱域に達し、介入観測やBOJ政策の不透明さが重しとなり、USD/JPYはMA20を下抜けて160.80付近へ調整すると見込む。短期的には戻り売りが優勢かつ、リスクオフシフトが進行すればさらに下値を試す可能性がある。",
+    "excerpt": "米利回り上昇とインフレ再燃が米ドルを押し上げ、USD/JPYはMA20を基盤にさらなる上昇余地を示す。",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "RSI過熱と介入懸念によりMA20下抜けの戻り売りが有望",
-    "entry": "161.50",
-    "tp": "160.80",
-    "sl": "162.25",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "米利回り上昇とインフレが米ドルを押し上げ、MA20をサポートに上昇余地あり",
+    "entry": "160.50",
+    "tp": "162.50",
+    "sl": "160.00",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20下放れとRSI低下が示す短期的な売り圧力",
-    "date": "2026-06-25 19:51",
+    "title": "[S&P 500] DOWN: MA20 resistance and mixed tech catalysts suggest near-term weakness",
+    "date": "2026-06-26 03:12",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "",
     "tldr_points": [
-      "現在価格はMA20を下回り、RSIは40付近で売り優位。",
-      "エネルギー株の強さはセクター別の買い材料だが、全体指数には限定的影響。",
-      "半導体関連のプレマーケット上昇は一時的で、トレンド転換には至らない可能性。"
+      "MA20 above price, bearish bias.",
+      "Tech mixed; inflation pressure.",
+      "Momentum neutral; upcoming catalysts"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を下抜け、RSI40で売り圧力が強まる。エネルギー株の上昇はセクター限定、半導体のプレマーケット上昇は一時的。",
+    "excerpt": "MA20 resistance, mixed tech earnings, and rising inflation keep S&P 500 under pressure; technicals suggest near-term downside.",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "MA20下放れとRSI40で売り優位",
-    "entry": "7350.00",
-    "tp": "7200.00",
+    "comment": "テクニカルな抵抗と混合的なファンダメンタルズがショートを裏付ける",
+    "entry": "7365.91",
+    "tp": "7300.00",
     "sl": "7450.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: 価格はMA20下回り、RSIは弱気示唆、ファンダメンタルズは混在",
-    "date": "2026-06-25 19:56",
+    "title": "[BTC/USD] UP: MA20付近への反発期待とRSIオーバーソールドからの技術的戻り",
+    "date": "2026-06-26 03:13",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "現在価格はMA20を約3.3%下回り、短期的な売り圧力が示唆される",
-      "RSIが40台で弱気モメンタムを示すが、極端な売られすぎではない",
-      "SBIによるBitbank買収は長期的な機関需給改善材料だが、規制リスクが重しとなる"
+      "現在価格はMA20下位でRSIが34.7とオーバーソールド状態",
+      "マクロではMSTR株安等のリスクオフ要因が残るが、USDT取引量拡大は流動性支援",
+      "短期的な平均回帰を狙ったロング戦略を、bitflyerの流動性で実行推奨"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20下放れとRSI40台が短期的な売りバイアスを示す。規制ニュースと機関買収が相反し、方向性は不透明だが下押しリスクが優位。",
+    "excerpt": "BTC/USDはMA20を下回るもRSIオーバーソールドにより反発の可能性が高く、目標はMA20付近の63kドル近辺とする。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20下抜けとRSI40台で弱気シグナル、規制リスクが重し",
-    "entry": "61200.00",
-    "tp": "59000.00",
-    "sl": "62500.00",
+    "status": "BUY",
+    "comment": "MA20下押しながらRSIオーバーソールドのため短期反発期待",
+    "entry": "59300.00",
+    "tp": "63000.00",
+    "sl": "56000.00",
     "reliability": "MEDIUM"
   }
 }

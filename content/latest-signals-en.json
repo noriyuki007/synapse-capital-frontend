@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] CONSOLIDATION: MA20 Support Test Amid Overbought Extremes",
-    "date": "2026-06-25 19:39",
+    "title": "[USD/JPY] FLAT: Overbought RSI Suggests Consolidation Despite Bullish Technicals",
+    "date": "2026-06-26 03:07",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "RSI at 77.93 signals extreme overbought conditions",
-      "MA20 convergence at 160.43 presents key support",
-      "Intervention risks cap upside momentum"
+      "Price above MA20 but RSI at extreme 77.75 signals overbought condition",
+      "Dallas Fed PCE acceleration supports USD rate differential",
+      "Geopolitical de-escalation caps upside momentum"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Overbought RSI tests MA20 support as intervention fears limit USD/JPY extension.",
+    "excerpt": "Overbought RSI and mixed fundamentals suggest range-bound trading near 162",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "160.55 entry targeting MA20 retest with 30-pip risk below MA20",
-    "entry": "160.55",
-    "tp": "161.20",
-    "sl": "160.15",
+    "status": "NEUTRAL",
+    "comment": "Await RSI normalization before directional commitment",
+    "entry": "161.80",
+    "tp": "163.20",
+    "sl": "160.50",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Price Below MA20 with Bearish RSI Signals",
-    "date": "2026-06-25 19:51",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-26 03:12",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price trading below MA20 resistance",
-      "RSI near 40 indicates weakening momentum",
-      "Mixed news with Qualcomm strength offset by sector skepticism"
+      "Price tests MA20 (7465.45) with RSI at 39.22 signaling oversold rebound",
+      "Micron earnings beat and AI optimism offset tech sector weakness",
+      "Inflation surge to 3-year high creates near-term volatility but supports risk-on positioning"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 shows bearish bias as price underperforms MA20 and RSI slips.",
+    "excerpt": "S&P 500 nears MA20 support with oversold RSI, poised for bounce amid AI-driven earnings optimism.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Price below MA20 with declining RSI and bearish order flow support a short bias toward 7,200.",
-    "entry": "7360.00",
-    "tp": "7200.00",
-    "sl": "7450.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Oversold bounce near MA20 with AI-driven fundamental support",
+    "entry": "7410.00",
+    "tp": "7520.00",
+    "sl": "7340.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Below MA20 with Bearish Momentum Amid Mixed Fundamentals",
-    "date": "2026-06-25 19:56",
+    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 as Fundamentals Turn Bearish",
+    "date": "2026-06-26 03:13",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price trading below MA20 indicates short-term bearish bias",
-      "RSI ~40 shows neutral momentum, room for further downside",
-      "Fundamentals mixed with regulatory headwinds outweighing positive M&A"
+      "Price under MA20 resistance at ~63.2k; RSI near oversold territory.",
+      "Macro headwinds: Base chain stall, MSTR weakness, USDT0 volume milestone.",
+      "Liquidity leans short; funding rates rising, indicating bearish bias."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD likely to decline as price stays under MA20 amid mixed crypto news.",
+    "excerpt": "BTC/USD slides below MA20 with RSI at 34.7, bearish news, and weak on-chain metrics signaling further downside.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "Price below MA20 with bearish RSI and regulatory pressure supports short‑term downside.",
-    "entry": "61300.00",
-    "tp": "60000.00",
-    "sl": "62000.00",
+    "comment": "Price below MA20 with bearish macro and deteriorating order flow supports a short bias.",
+    "entry": "59500.00",
+    "tp": "56000.00",
+    "sl": "61000.00",
     "reliability": "MEDIUM"
   }
 }
