@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: AI Detects Overbought RSI and Risk‑Off Sentiment Pressuring Pair",
-    "date": "2026-06-26 12:24",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 and Bullish Momentum from Dollar Strength",
+    "date": "2026-06-26 19:48",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Asian equity sell‑off and OpenAI IPO delay weigh on risk appetite.",
-      "Tokyo core‑core CPI at 1.9% signals broadening inflation, supporting BOJ tightening bias.",
-      "RSI 74 and price above MA20 indicate overbought short‑term momentum, favoring a pullback."
+      "Price above MA20, bullish bias",
+      "RSI in upper‑zone suggests momentum",
+      "Dollar‑index resilience supports upside"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY trades above MA20 with RSI 74, risk‑off equity sell‑off and rising CPI suggest downside toward 160.50 support!!!!",
+    "excerpt": "USD/JPY eyes higher ground; price above MA20, RSI strong, dollar resilience fuels bullish case.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Overbought RSI and risk‑off sentiment favor a pullback toward MA20 support.",
-    "entry": "161.70",
-    "tp": "160.40",
-    "sl": "162.20",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Bullish bias supported by yield spread, order flow, and price above MA20.",
+    "entry": "161.30",
+    "tp": "162.00",
+    "sl": "159.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Momentum Weakening Amid Inflationary Pressures and Tech Sector Contraction",
-    "date": "2026-06-26 12:42",
+    "title": "[S&P 500] DOWN: MA20 Resistance, RSI Oversold Signals Correction",
+    "date": "2026-06-26 19:51",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "Hotter-than-expected inflation data is creating headwinds for equity valuations.",
-      "Technical structure shows the index trading below its 20-day moving average.",
-      "RSI indicates approaching oversold territory, suggesting short-term exhaustion."
+      "Price below MA20 at 7357.49 vs 7465.03",
+      "RSI at 38.73 in oversold territory",
+      "Tech selloff pressure amid AI cost concerns"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces downward pressure as inflation data and tech sector weakness challenge current bullish momentum.",
+    "excerpt": "S&P 500 faces MA20 resistance with RSI oversold; tech weakness drives bearish bias.",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "Technical breakdown below MA20 and inflationary headwinds suggest further downside.",
-    "entry": "7380.00",
-    "tp": "7250.00",
-    "sl": "7470.00",
+    "comment": "Price below MA20 with RSI oversold; tech selloff pressure supports downside.",
+    "entry": "7400.00",
+    "tp": "7300.00",
+    "sl": "7465.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Oversold RSI Meets Institutional Accumulation",
-    "date": "2026-06-26 12:45",
+    "title": "[BTC/USD] NEUTRAL: Price Compression Below MA20 Amid Institutional Accumulation Shift",
+    "date": "2026-06-26 19:53",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price trading 5.8% below MA20 at $59,560 with RSI 35.3 indicating oversold conditions",
-      "Ark Invest continues accumulation amid market weakness, signaling institutional conviction",
-      "Crypto legislation momentum and Invesco stablecoin entry provide fundamental tailwinds"
+      "Price trading below MA20 indicating short-term bearish trend",
+      "RSI suggests approaching oversold territory",
+      "Institutional adoption via Pension Funds and Treasuries providing structural floor"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD shows oversold bounce potential as institutional buyers accumulate and regulatory momentum builds",
+    "excerpt": "BTC tests support near 59k as institutional treasury trends clash with short-term technical weakness.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Oversold RSI with institutional accumulation creates compelling risk-reward entry",
-    "entry": "59600",
-    "tp": "63246",
-    "sl": "57800",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Price remains below MA20 but RSI is approaching oversold levels, suggesting a potential bounce.",
+    "entry": "59313",
+    "tp": "63176",
+    "sl": "56800",
+    "reliability": "MEDIUM"
   }
 }

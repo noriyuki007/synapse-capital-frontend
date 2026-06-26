@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: リスクオフに伴う円売り加速と物価上昇による円安圧力の継続",
-    "date": "2026-06-26 12:24",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-26 19:48",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "グローバル株安によるリスク回避的なドル需要の増大",
-      "東京コアコアCPI 1.9%到達による実質金利低下への懸念",
-      "RSI過熱圏にあるものの、MA20を支持線とした強い上昇トレンド"
+      "現在価格がMA20(160.55)を上抜け、RSI71.5でオーバー・バイト状態だが、抵抗レベル(162.00)のブレークアウトを意識したポジション構築が可能",
+      "EUR/USDのドルウェーグ弱化、米連邦準備理事会(FOMC)のハッキーシュリپリスキンプリコーディングの影響を受ける",
+      "月末にかけたドルのやせすぎ圧力(161.00)を踏まえ、MA20までの引き上げを買い機とする"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "グローバル株安によるリスクオフのドル需要と、日本のインフレ加速による実質金利低下がUSD/JPYの押し上げ要因となる。テクニカル面ではMA20を支持線とする上昇構造が継続しており、短期的な調整後の再上昇を想定する。",
+    "excerpt": "USD/JPYはMA20(160.55)を上抜け71.5のRSIでオーバー・バイト、ドルウェーグ弱化や月末調整を控えても、162.00のブレークアウトを意識した買いロジック。dmm-fxでのエントリーを推奨。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "リスクオフのドル需要と実質金利低下による構造的円安",
-    "entry": "161.00",
-    "tp": "163.50",
-    "sl": "159.80",
+    "comment": "MA20での反発とオーバー・バイト後の収斂を踏まえ、162.00ブレークアウトを狙う",
+    "entry": "160.80",
+    "tp": "162.20",
+    "sl": "160.30",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20乖離拡大とRSI弱気圏、ホットなインフレ指標が上値を抑制",
-    "date": "2026-06-26 12:42",
+    "title": "[S&P 500] DOWN: MA20下放れとRSI低下による売り圧力",
+    "date": "2026-06-26 19:51",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers (IBKR)",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "現在値7357.49がMA20(7465.03)を大きく下回り、短期トレンドは明確に下向き",
-      "RSI 38.7は売られ過ぎ水準手前だが、リバウンドの勢い不足を示唆",
-      "ホットなインフレ指標とビッグテック下落がファンダメンタルな重石に"
+      "テクニカルはMA20を下抜け、RSIが38で売り圧力が強まる",
+      "マグナセブンの売却とマイクロンの警告がテクノロジー株に重石",
+      "流動性観点からNomura Securitiesの利用を推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20を下抜け、RSI38.7で弱気モメンタム継続。インフレ再燃懸念とテック主導の売り圧力が上値を封じ、7200台半ばまでの調整を想定。",
+    "excerpt": "MA20下放れとRSI38の売りサインが一致し、テクノロジー株の売りがS&P500に下押し圧力をかけている。",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "MA20レジスタンス確認、インフレ再燃で実質利回り上昇、RSI弱気継続",
-    "entry": "7435",
-    "tp": "7250",
-    "sl": "7480",
-    "reliability": "HIGH"
+    "comment": "MA20下抜けとRSI38の売りサインに加え、マグナセブン売却とマイクロン決算が下押し圧力を強化",
+    "entry": "7350.00",
+    "tp": "7200.00",
+    "sl": "7450.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20下抜けとRSI35で売り圧力顕在",
-    "date": "2026-06-26 12:45",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-26 19:53",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を約3.6%下回り、RSI14は35で売られている。",
-      "マクロでは規制議論の遅延と機関のトークン化ステーブルコイン投資が交錯。",
-      "売りバイアスが強まるため、押し目売りを推奨。"
+      "RSI 34.7は超安超え寸計",
+      "MA20 (63176)が構造的抵抗転支",
+      "ETF/企業保有/安定coins法案がバフェーションを牽引"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "現在価格59560ドルはMA20を約3.6%下回り、RSI14は35と売られている。マクロでは米国議会の暗号資産法案遅延と機関のトークン化ステーブルコイン参入が交錯し、下値リスクが顕在化している。",
+    "excerpt": "価格はMA20(63176)の下で横横感強化。RSI 34.7のオーバーソールド表示や、ETFフロー・企業保有・安定coins法案のフィードオルモメンタムを踏まえ、反発の可能性65%を評価する。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20下抜けとRSI35の売られ状況および規制遅延によるマクロ的下振れリスクから売りを推奨",
-    "entry": "59550.00",
-    "tp": "56000.00",
-    "sl": "62000.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20での構造的抵抗とオーバーソールドRSIの整合",
+    "entry": "63100",
+    "tp": "67000",
+    "sl": "59500",
+    "reliability": "HIGH"
   }
 }
