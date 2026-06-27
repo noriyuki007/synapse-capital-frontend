@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: AI Detects Overbought RSI and Risk‑Off Sentiment as Fundamentals Turn Bearish",
-    "date": "2026-06-27 19:04",
+    "title": "[USD/JPY] DOWN: AI Detects Overbought RSI Awaiting Pullback to MA20 as Fundamentals Turn Mixed",
+    "date": "2026-06-28 02:06",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY trades above MA20 at 161.685 with RSI 76.1, indicating overbought condition.",
-      "Risk‑off equity moves and modest USD strength suggest near‑term downside bias.",
-      "Key support lies at MA20 ~160.67; resistance near 162.30."
+      "Price above MA20 with RSI >70 signals near-term exhaustion.",
+      "Mixed macro backdrop: risk‑off equity bias offsets modest USD strength from yields.",
+      "Look for a corrective move toward 160.70–161.00 as short‑term resistance holds."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY set to slip as overbought RSI and risk‑off sentiment outweigh modest USD strength, targeting MA20 support. 160.7",
+    "excerpt": "USD/JPY shows overbought RSI above MA20; mixed fundamentals and weakening yields suggest a short‑term pullback toward the 20‑day average.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Overbought RSI and risk‑off sentiment favor a short bias toward MA20 support near 160.67.",
-    "entry": "161.80",
-    "tp": "160.67",
-    "sl": "162.30",
+    "status": "NEUTRAL",
+    "comment": "USD/JPY shows overbought RSI above MA20; mixed fundamentals and weakening yields suggest a short‑term pullback toward the 20‑day average.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Suggests Technical Convergence at Critical Support Level",
-    "date": "2026-06-27 19:08",
+    "title": "[S&P 500] NEUTRAL/BEARISH: Price Below MA20 Signals Short-Term Consolidation",
+    "date": "2026-06-28 02:08",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "eSelect Asia for liquid execution of equity indices",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "AI detects confluence of MA20 support with RSI neutrality",
-      "Fundamental catalysts from SpaceX/Anthropic-turnaround narratives",
-      "Enphase's institutional accumulation signals renewed momentum"
+      "Price currently trading below the 20-day Moving Average, indicating bearish momentum.",
+      "RSI at 48 suggest neutral-to-weak momentum with no immediate oversold signals.",
+      "Macro focus shifts to labor market data and individual stock volatility (Eli Lilly/Tesla)."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "AI signals bullish potential as S&P 500 approaches MA20 support with favorable risk-reward structure.",
+    "excerpt": "S&P 500 faces technical resistance as it trades below the MA20; momentum remains lukewarm ahead of jobs data.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Technical support at MA20 combined with AI-narrative catalysts creates high reliability.",
+    "status": "SELL",
+    "comment": "Price remains below MA20 with neutral RSI suggesting continued consolidation or downside.",
     "entry": "7354.02",
-    "tp": "7500.00",
-    "sl": "7300.00",
-    "reliability": "HIGH"
+    "tp": "7250.00",
+    "sl": "7460.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 as Fundamentals Turn Bearish",
-    "date": "2026-06-27 19:09",
+    "title": "[BTC/USD] DOWN: Bearish Fundamentals Overshadow Oversold Technicals",
+    "date": "2026-06-28 02:10",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Enterprise mNAV dip signals weakening liquidity",
-      "Base mainnet stalls dampen institutional appetite",
-      "RSI below 35 indicates downward momentum"
+      "Price trading below MA20 with RSI 35 indicates oversold but bearish momentum.",
+      "Spot Bitcoin ETFs suffered worst week, IBIT investors down ~40%, weighing on demand.",
+      "Technical bounce possible near $58k-$59k support; overall bias remains down."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Short BTC/USD near 60k with tight risk control amid bearish fundamentals.",
+    "excerpt": "BTC/USD faces downside pressure as ETF outflows and bearish news outweigh oversold technical signals.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "Weak fundamentals and technical confirmation of downward bias.",
-    "entry": "60500",
-    "tp": "57500",
-    "sl": "61200",
+    "comment": "Bearish fundamentals and oversold technicals favor a short toward $58k support.",
+    "entry": "60800.00",
+    "tp": "58200.00",
+    "sl": "62000.00",
     "reliability": "MEDIUM"
   }
 }

@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20でのサポートとリスクオフ環境がドルを支える",
-    "date": "2026-06-27 19:04",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-06-28 02:06",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "ドルは週ベースで強含み、リスクオフ傾向が継続",
-      "価格はMA20を上回り短期上昇トレンド継続のサイン",
-      "RSIは76で買われ過ぎ警戒も、押し目買いの機会と判断"
+      "米ドルは週足で上昇基調を維持、FRBタカ派期待が支える",
+      "MA20を上回る価格帯は短期的サポートとして機能",
+      "RSI76は過熱感を示すが、押し目買いの余地は残存"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "ドルは週間で強含み、リスクオフが継続。MA20上抜けと短期トレンドを確認し、押し目買いを検討。",
+    "excerpt": "米雇用指標と原油価格の安定がドルを支え、USD/JPYはMA20を基盤とした押し目買いシナリオが優位。テクニカルは上昇トレンド継続を示唆するが、RSIの過熱には注意が必要。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "ドルは週間で強含み、リスクオフが継続。MA20上抜けと短期トレンドを確認し、押し目買いを検討。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "MA20サポートとドルファンダメンタルの整合性により上昇期待",
+    "entry": "160.75",
+    "tp": "162.30",
+    "sl": "160.20",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20を下回る水準とリスクオフ傾向の整合性",
-    "date": "2026-06-27 19:08",
+    "title": "[S&P 500] DOWN: 価格がMA20を下抜け、弱気のテクニカルとファンダメンタルズが重複",
+    "date": "2026-06-28 02:08",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "野村證券",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "価格はMA20を下抜け、短期的な下押し圧力が継続",
-      "RSIは中立圏で過売りシグナルはまだ弱い",
-      "ファンダメンタルズはハイテク・消費セクターの頭打ちリスクを示唆"
+      "現在価格7354.02はMA20 7454.55を約100ポイント下回り、下抜けリスクが顕在化",
+      "RSI(14)は48.16で中立ゾーンだが、下向きのモメンタムが示唆される",
+      "ファンダメンタルズは高配当株へのシフトと債券利回り上昇が株式に逆風となる"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20割れとリスクオフニュースが重なり、S&P 500は下値を試す展開が濃厚。",
+    "excerpt": "S&P 500はMA20下抜けとRSIの中立から弱い下値リスクが顕在化し、売りバイアスが優位。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "MA20割れとリスクオフニュースが重なり、S&P 500は下値を試す展開が濃厚。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "MA20下抜けと金利上昇・リスクオフが売りバイアスを支持",
+    "entry": "7340",
+    "tp": "7200",
+    "sl": "7380",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: 価格はMA20下抜け、RSI34で弱気モメンタムが優勢",
-    "date": "2026-06-27 19:09",
+    "title": "[BTC/USD] DOWN: MA20突破不可とセンチメント悪化が下落圧力を示唆",
+    "date": "2026-06-28 02:10",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20を下抜け、下抜け後は弱気トレンド継続の可能性",
-      "RSI34は売られ過ぎだが、マクロ的悪材料が重石",
-      "bitflyerの流動性を活用したショートエントリーを検討"
+      "MA20付近の押し目売りが有力",
+      "RSI低下でオーバーソールド感",
+      "センチメントがリスク回避的に悪化"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20下抜けとRSI34が示す弱気バイアスに、ファンダメンタルズの悪材料が重なり、短期的下落リスクが高まる。",
+    "excerpt": "最新ニュースとテクニカル指標が示すBTC/USDの下落リスクと押し目買い戦略。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20下抜けとRSI34の売られ過ぎが弱気トレンドを示し、ファンダメンタルズも下sideリスクを裏付けているため",
-    "entry": "60300.00",
-    "tp": "58000.00",
-    "sl": "61500.00",
+    "status": "NEUTRAL",
+    "comment": "最新ニュースとテクニカル指標が示すBTC/USDの下落リスクと押し目買い戦略。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
