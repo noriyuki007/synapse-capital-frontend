@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20 support aligns with hawkish Fed signals",
-    "date": "2026-06-27 02:44",
+    "title": "[USD/JPY] UP: MA20反発とRSI過買いからの反転買いシナリオ",
+    "date": "2026-06-27 11:49",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20 support confirms bullish bias",
-      "Fed tightening reinforces USD strength",
-      "RSI above 70 signals momentum but overbought risk"
+      "現在価格161.73はMA20(160.55)上抜け維持",
+      "RSI(74.03)過買いセンションからの反転期待",
+      "ドル決算レート安定とリスクオフ負け気配淘汰"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY at 161.74 above MA20; Fed hawkish stance and risk‑off headlines create mixed pressure with RSI 74.",
+    "excerpt": "USD/JPYは161.73で推力を維持し、MA20上抜けからの反転買いがテクニカル的に正当化される。RSI過買いセンションも含みで、週末のドル力はまだ継続可能と判断される。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20 支持と強気な金融政策を背景とした買い",
-    "entry": "160.55",
-    "tp": "164.00",
-    "sl": "159.30",
-    "reliability": "HIGH"
+    "comment": "MA20上抜け維持とRSI過買いセンションからの反転期待",
+    "entry": "160.60",
+    "tp": "162.50",
+    "sl": "160.00",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500：レンジ圏内での警戒感とプロフェッショナル実行戦略",
-    "date": "2026-06-27 02:49",
+    "title": "[S&P 500] DOWN: MA20下抜けと弱気テクニカル、ファンダメンタルズの懸念",
+    "date": "2026-06-27 11:51",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "野村證券",
     "tldr_points": [
-      "金利相関（近似）: -0.61で負相関傾向",
-      "テクニカル: 現在価格 7367.69 と MA20 7455.23 の位置関係が主導",
-      "需給: 上限帯 7655.23 / 下限帯 7255.24 / 直近高値 7620.90 / 直近安値 7237.85 によるターゲット設計"
+      "現在価格はMA20を下回り、短期的な下押し圧力が顕在化",
+      "RSIは中立圏ながらモメンタムの乖離が示唆される",
+      "ファンダメンタルズ面ではハイイールド株への注目と同時に、マグニフィセント・ウォーリーズの懸念が重石"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 7367.69、RSI(49.02)、MA20(7455.23)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "S&P 500はMA20を割り込み、テクニカルとファンダメンタルズの両面から下落リスクが高まっている。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、S&P 500の現在価格 7367.69、RSI(49.02)、MA20(7455.23)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "MA20下抜けと金利・センチメントの弱気要因が売りを支持",
+    "entry": "7340.00",
+    "tp": "7200.00",
+    "sl": "7400.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20 resistance and regulatory headwinds",
-    "date": "2026-06-27 02:55",
+    "title": "[BTC/USD] DOWN: マイナス乖離の拡大と企業保有プレミアムの剥落による下値模索",
+    "date": "2026-06-27 11:53",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTC below 20‑day MA, RSI under 40, bearish macro backdrop.",
-      "Base L2 stall and MiCA enforcement add regulatory pressure.",
-      "Short bias favoured; key support ~57,500, resistance ~62,500."
+      "MicroStrategy関連銘柄のプレミアム低下による資本効率への懸念",
+      "テクニカル面でのMA20乖離とRSIの弱含みによるモメンタム低下",
+      "主要なサポートラインの試行継続"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC trades below MA20, RSI low; Base instability and regulatory actions reinforce bearish outlook.",
+    "excerpt": "BTCはMA20から大幅に下方に乖離しており、企業によるビットコイン保有プレミアムの低下が重石となっている。RSIも低水準で推移し、テクニカル的な底打ちを確認するまで慎重なスタンスが求められる局面である。",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "MA20抵抗と悪化する規制環境を背景に、構造的な買い圧力が弱まっている。",
-    "entry": "59950",
-    "tp": "57300",
-    "sl": "61800",
+    "comment": "MA20の下方乖離と企業プレミアムの低下による弱気トレンド継続の可能性が高い。",
+    "entry": "60245.00",
+    "tp": "58000.00",
+    "sl": "63500.00",
     "reliability": "MEDIUM"
   }
 }

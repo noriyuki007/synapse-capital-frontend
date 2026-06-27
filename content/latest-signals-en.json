@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Oversold Correction Amid Hawkish Fed Signals",
-    "date": "2026-06-27 02:44",
+    "title": "[USD/JPY] UP: AI Detects Bullish Momentum Above MA20 Amid Risk-Off Flows",
+    "date": "2026-06-27 11:49",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "MA20 support at 160.55 aligns with pullback entry",
-      "RSI overbought at 74.3 signals temporary exhaustion",
-      "Fed’s Kashkari hawkish commentary reignites carry trade appeal"
+      "Price above MA20 with RSI near overbought indicates strong upside momentum.",
+      "Risk‑off equity moves support USD demand, bolstering USD/JPY.",
+      "Key resistance near 162.50; stop below 160.50 protects against reversal."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised for correction to MA20 amid rate-hike speculation and RSI divergence.",
+    "excerpt": "USD/JPY poised for further gains as price holds above MA20, RSI signals bullish momentum amid risk‑off flows supporting the dollar.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20 pullback entry amid hawkish Fed and overbought RSI creates tactical long setup.",
-    "entry": "160.60",
+    "comment": "Bullish momentum above MA20 with supportive risk‑off fundamentals",
+    "entry": "161.50",
     "tp": "162.80",
-    "sl": "159.80",
+    "sl": "160.80",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-27 02:49",
+    "title": "[S&P 500] DOWN: Resistance Reforms as Momentum Weakens Amid MFI Divergence",
+    "date": "2026-06-27 15:45",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "https://www.example-broker.com",
     "tldr_points": [
-      "Price testing MA20 resistance with neutral RSI",
-      "Bullish news: SocGen target raise, 8,000 near-term call",
-      "Technical setup favors long on dip to 7,360 with stop below 7,300"
+      "RSI divergence signals bearish momentum",
+      "Near-term resistance at 7450 marks critical level",
+      "Dividend yield anomaly in ZMH warrants caution"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades below MA20; bullish catalysts and neutral RSI suggest upside toward 7,500 if support holds.",
+    "excerpt": "S&P 500 faces overhead resistance despite tepid news sentiment; technical indicators warn of continued downtrend.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Price below MA20 with bullish news and neutral RSI offers favorable risk-reward on a dip.",
-    "entry": "7360.00",
-    "tp": "7500.00",
-    "sl": "7300.00",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Overbought MACD divergence and accelerating yield-driven arbitrage pressures outweigh muted news catalysts.",
+    "entry": "7354.02",
+    "tp": "7200.00",
+    "sl": "7120.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Mainnet stalls and regulatory scrutiny threaten support",
-    "date": "2026-06-27 02:55",
+    "title": "[BTC/USD] UP: AI Identifies Oversold RSI Confluence with MA20 Support as Institutional Hedging Pressures Lift",
+    "date": "2026-06-27 11:53",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price below 20‑period MA",
-      "RSI below 40 signaling bearish momentum",
-      "Regulatory headwinds dampen risk appetite"
+      "RSI(14) at 38.18 suggests imminent bullish reversal",
+      "Price testing critical MA20 support at $63,223",
+      "Saylor-linked institutional sentiment neutralizes bearish bias"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Key support at MA20 faces pressure amid mainnet stalls and regulatory scrutiny.",
+    "excerpt": "BTC/USD shows textbook oversold reversal pattern with MA20 support holding despite negative news flow from Ripple's CEO comments.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price below critical MA, RSI bearish, negative regulatory sentiment.",
-    "entry": "59800",
-    "tp": "58000",
-    "sl": "61000",
+    "status": "NEUTRAL",
+    "comment": "BTC/USD shows textbook oversold reversal pattern with MA20 support holding despite negative news flow from Ripple's CEO comments.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
