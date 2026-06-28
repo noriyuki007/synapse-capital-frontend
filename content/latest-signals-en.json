@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: AI Detects Overbought RSI Awaiting Pullback to MA20 as Fundamentals Turn Mixed",
-    "date": "2026-06-28 02:06",
+    "title": "[USD/JPY] UP: AI Flags Bullish Bias as Price Pierces MA20",
+    "date": "2026-06-28 12:31",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 with RSI >70 signals near-term exhaustion.",
-      "Mixed macro backdrop: risk‑off equity bias offsets modest USD strength from yields.",
-      "Look for a corrective move toward 160.70–161.00 as short‑term resistance holds."
+      "AI detects bullish entry at MA20",
+      "RSI near overbought signals upside momentum",
+      "Fundamentals diverge with oil steadies"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY shows overbought RSI above MA20; mixed fundamentals and weakening yields suggest a short‑term pullback toward the 20‑day average.",
+    "excerpt": "AI flags bullish bias as USD/JPY pierces MA20, RSI near overbought, Fed policy diverges, oil steadies. market today now",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "USD/JPY shows overbought RSI above MA20; mixed fundamentals and weakening yields suggest a short‑term pullback toward the 20‑day average.",
+    "comment": "AI flags bullish bias as USD/JPY pierces MA20, RSI near overbought, Fed policy diverges, oil steadies. market today now",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] NEUTRAL/BEARISH: Price Below MA20 Signals Short-Term Consolidation",
-    "date": "2026-06-28 02:08",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-28 12:33",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price currently trading below the 20-day Moving Average, indicating bearish momentum.",
-      "RSI at 48 suggest neutral-to-weak momentum with no immediate oversold signals.",
-      "Macro focus shifts to labor market data and individual stock volatility (Eli Lilly/Tesla)."
+      "Price nearing MA20 signals possible reversal",
+      "RSI 48.2 suggests active but not overbought",
+      "Capex surge and corporate earnings strengthen demand"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces technical resistance as it trades below the MA20; momentum remains lukewarm ahead of jobs data.",
+    "excerpt": "S&P 500 poised for upside as price aligns with 20‑day MA and fundamentals rally, offering a clear entry with defined risk.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Price remains below MA20 with neutral RSI suggesting continued consolidation or downside.",
-    "entry": "7354.02",
-    "tp": "7250.00",
-    "sl": "7460.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "AI signals bullish momentum as price consolidates near MA20 and fundamentals strengthen",
+    "entry": "7350",
+    "tp": "7500",
+    "sl": "7250",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Bearish Fundamentals Overshadow Oversold Technicals",
-    "date": "2026-06-28 02:10",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-28 12:36",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price trading below MA20 with RSI 35 indicates oversold but bearish momentum.",
-      "Spot Bitcoin ETFs suffered worst week, IBIT investors down ~40%, weighing on demand.",
-      "Technical bounce possible near $58k-$59k support; overall bias remains down."
+      "BTC/USD trades 4.5% below MA20 amid oversold RSI conditions",
+      "Mixed fundamental backdrop with ETF outflows offset by ecosystem recovery signals",
+      "Technical bias skews bullish on mean reversion setup toward 63,056"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD faces downside pressure as ETF outflows and bearish news outweigh oversold technical signals.",
+    "excerpt": "BTC/USD: Oversold RSI and MA20 convergence signal bullish reversal amid recovery narratives.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Bearish fundamentals and oversold technicals favor a short toward $58k support.",
-    "entry": "60800.00",
-    "tp": "58200.00",
-    "sl": "62000.00",
+    "status": "BUY",
+    "comment": "Mean reversion setup toward MA20 with tight risk control",
+    "entry": "59400",
+    "tp": "63000",
+    "sl": "57200",
     "reliability": "MEDIUM"
   }
 }
