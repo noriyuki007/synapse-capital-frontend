@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20乖離拡大とドル買い優勢の中、押し目買い戦略を維持",
-    "date": "2026-06-28 19:25",
+    "title": "[USD/JPY] UP: Confirmation of MA20 support and hawkish Fed bias",
+    "date": "2026-06-29 02:06",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "現在値161.68はMA20(160.67)から大きく乖離、RSI76.1で過熱感顕在",
-      "FedEx決算示唆の米経済強靭性と週次ドル高がファンダメンタルズを支援",
-      "160.80-161.00ゾーンへの押し目買いを最適エントリーとし、厳格な損切りで臨む"
+      "MA20 support at 160.67, RSI 76 overbought but bullish",
+      "Risk‑off macro signals (FedEx, equity dip) may boost USD safe‑haven demand",
+      "Targeted BUY at 161.70, TP 163.30, SL 160.70"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "ドル円は161.68まで上昇しMA20から1円以上乖離。RSI76で短期過熱も、米経済強靭性と地政学的ドル買いが上昇トレンドを維持。押し目買い戦略が有効。",
+    "excerpt": "USD/JPY bullish: MA20 alignment, high RSI, risk‑off macro supports upward move.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "ドル高ファンダメンタルズと上昇トレンド継続中、RSI過熱調整後の押し目買いを推奨",
-    "entry": "160.90",
-    "tp": "162.50",
-    "sl": "160.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20の支持と過熱感を考慮した順張り",
+    "entry": "161.70",
+    "tp": "163.30",
+    "sl": "160.70",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: 地政学リスクの増幅とCapEx拡大による株主還元圧迫への警戒",
-    "date": "2026-06-28 19:28",
+    "title": "[S&P 500] DOWN: MA20下抜けと利上げ懸念による下値リスク",
+    "date": "2026-06-29 02:07",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "中東情勢の緊迫化による地政学リスクの増大",
-      "設備投資（CapEx）拡大に伴う自社株買い余力の低下",
-      "テクニカル面でのMA20乖離による弱気トレンドの継続"
+      "MA20を下回り、短期的な下押し圧力が顕在化",
+      "利上げ観測が長期金利上昇を促し、リスク資産に重荷",
+      "ディビデンド株の堅調さは支えになるが、全体の方向性は下向き"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "地政学リスクの激化と、AI関連投資（CapEx）の増大による自社株買い需要の減退が、S&P 500の重石となっている。テクニカル面ではMA20を下回る弱気形状を呈しており、短期的には下値模索の展開を想定すべき局面である。",
+    "excerpt": "S&P500はMA20を下回り、RSIは中立。利上げ観測とディビデンド株の堅調さが交錯し、短期的な下押しリスクが顕在化。",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "地政学リスクとCapEx増大による自社株買い圧迫を背景に、MA20割れによる下落トレンドを想定。",
-    "entry": "7354.00",
-    "tp": "7200.00",
-    "sl": "7455.00",
+    "comment": "MA20下抜けと利上げ観測による下値リスク",
+    "entry": "7340",
+    "tp": "7280",
+    "sl": "7400",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と過度の売られ過ぎ補正の整合性を確認",
-    "date": "2026-06-28 19:32",
+    "title": "[BTC/USD] UP: MA20での反発とオーバーソールドRSIが示す短期リバウンド期待",
+    "date": "2026-06-29 02:10",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "RSI 25.81での過度の売られ過ぎ状態",
-      "MA20（62,894）での典型的な押し目",
-      "Strategyの企業財務指標悪化に対する現物BTCの絶対的価値評価"
+      "価格はMA20下抜けかつRSI24.6でオーバーソールド状態",
+      "機関筋の売り圧力が続くと見られつつも、Saylorの追加買いシグナルが底支え",
+      "テクニカル的にはMA20付近へのリバウンドがシナリオとして最も確度が高い"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCはMA20（62,894）を下回りRSI 25.81で過度の売られ過ぎ。機関投資家には短期的な押し目買い機会として、流動性の観点からbitflyer推奨。",
+    "excerpt": "BTC/USDはMA20下抜けとRSI24.6のオーバーソールド状態から、機関の売り圧力とSaylorの買いシグナルがせめぎ合い、短期的なMA20付近へのリバウンドを狙う。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "RSI過度売られ過ぎとMA20押し目の整合性",
-    "entry": "62000",
-    "tp": "68000",
-    "sl": "60500",
-    "reliability": "HIGH"
+    "comment": "MA20下抜け・オーバーソールドRSIおよびSaylorの買いシグナルから短期リバウンド期待",
+    "entry": "59500",
+    "tp": "62500",
+    "sl": "57500",
+    "reliability": "MEDIUM"
   }
 }
