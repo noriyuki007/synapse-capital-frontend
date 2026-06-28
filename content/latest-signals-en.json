@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Flags Bullish Bias as Price Pierces MA20",
-    "date": "2026-06-28 12:31",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-28 19:25",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "AI detects bullish entry at MA20",
-      "RSI near overbought signals upside momentum",
-      "Fundamentals diverge with oil steadies"
+      "Price holds above 20‑day MA, reinforcing bullish bias.",
+      "High RSI signals short‑term overbought pressure.",
+      "Risk‑off macro backdrop supports USD safe‑haven demand."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "AI flags bullish bias as USD/JPY pierces MA20, RSI near overbought, Fed policy diverges, oil steadies. market today now",
+    "excerpt": "USD/JPY bullish as price trades above MA20, RSI high, risk‑off supports safe‑haven demand.",
     "pair": "USD/JPY",
+    "status": "BUY",
+    "comment": "Bullish on USD/JPY as price holds above MA20 and risk‑off fundamentals support safe‑haven demand.",
+    "entry": "161.70",
+    "tp": "163.00",
+    "sl": "160.50",
+    "reliability": "HIGH"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] DOWN: Technical break below MA20 amid geopolitical and buyback headwinds",
+    "date": "2026-06-28 19:28",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "Price below MA20 signals near-term bearish bias.",
+      "Geopolitical risk and falling oil weigh on equity demand.",
+      "RSI near 50 shows limited momentum, allowing tactical short."
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 turns bearish as price slips below MA20, RSI neutral, geopolitical tensions and buyback headwinds mount shortly.",
+    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "AI flags bullish bias as USD/JPY pierces MA20, RSI near overbought, Fed policy diverges, oil steadies. market today now",
+    "comment": "S&P 500 turns bearish as price slips below MA20, RSI neutral, geopolitical tensions and buyback headwinds mount shortly.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
-  "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-28 12:33",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "Price nearing MA20 signals possible reversal",
-      "RSI 48.2 suggests active but not overbought",
-      "Capex surge and corporate earnings strengthen demand"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 poised for upside as price aligns with 20‑day MA and fundamentals rally, offering a clear entry with defined risk.",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "AI signals bullish momentum as price consolidates near MA20 and fundamentals strengthen",
-    "entry": "7350",
-    "tp": "7500",
-    "sl": "7250",
-    "reliability": "HIGH"
-  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-06-28 12:36",
+    "title": "[BTC/USD] DOWN: Severe ETF Outflows and Premium Erosion Drive Bearish Momentum",
+    "date": "2026-06-28 19:32",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD trades 4.5% below MA20 amid oversold RSI conditions",
-      "Mixed fundamental backdrop with ETF outflows offset by ecosystem recovery signals",
-      "Technical bias skews bullish on mean reversion setup toward 63,056"
+      "Spot ETF investors experiencing significant drawdown",
+      "MicroStrategy premium erosion signaling institutional fatigue",
+      "RSI indicates extreme oversold conditions but trend remains bearish"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD: Oversold RSI and MA20 convergence signal bullish reversal amid recovery narratives.",
+    "excerpt": "BTC faces downward pressure as ETF outflows accelerate and MicroStrategy's premium collapses below par.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Mean reversion setup toward MA20 with tight risk control",
-    "entry": "59400",
-    "tp": "63000",
-    "sl": "57200",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "ETF outflows and MSTR premium erosion driving price below MA20",
+    "entry": "62500.00",
+    "tp": "57500.00",
+    "sl": "64200.00",
+    "reliability": "HIGH"
   }
 }
