@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "インテリジェンス：USD/JPYの強気相場における利益確定ポイント",
-    "date": "2026-06-29 12:35",
+    "title": "[USD/JPY] DOWN: RSI Overbought Signals Potential Correction Amid Mixed Dollar Outlook",
+    "date": "2026-06-29 21:29",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "金利相関（近似）: 0.21で正相関傾向",
-      "テクニカル: 現在価格 161.78 と MA20 160.68 の位置関係が主導",
-      "需給: 上限帯 162.16 / 下限帯 159.19 / 直近高値 161.93 / 直近安値 159.51 によるターゲット設計"
+      "RSI(14) at 79.94 signals overbought conditions",
+      "MA20 at 160.68 acts as key support/resistance pivot",
+      "Mixed dollar sentiment ahead of US data and Fed cues"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 161.78、RSI(78.74)、MA20(160.68)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "RSI overbought and mixed dollar sentiment suggest near-term downward pressure, eyeing MA20 support at 160.68.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、USD/JPYの現在価格 161.78、RSI(78.74)、MA20(160.68)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-06-29 12:38",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "tldr_points": [
-      "米イランの停戦合意がリスクオフを緩和し、先物が上昇",
-      "現在価格はMA20下抜けだがRSIは中立域で反発余地あり",
-      "流動性の観点から[]の利用を推奨し、押し目買いを検討"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "米イランの緊張緩和で市場心理が改善し、S&P500はMA20付近での押し目買い機会が顕在化。テクニカルは反発余地を示唆。",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "米イラン停戦によるリスクオンとMA20付近のサポートが買いシグナルを強化",
-    "entry": "7355.00",
-    "tp": "7560.00",
-    "sl": "7240.00",
+    "status": "SELL",
+    "comment": "RSI過熱とドルファンダメンタルズの不確実性",
+    "entry": "160.80",
+    "tp": "160.30",
+    "sl": "161.30",
     "reliability": "HIGH"
   },
+  "STOCKS": {
+    "title": "[S&P 500] DOWN: MA20を下回る価格と警告シグナルが示す下振れリスク",
+    "date": "2026-06-29 21:33",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "tldr_points": [
+      "MA20（7454.55）を上回る戻りは売り場、目標は7200付近。",
+      "RSIは48で中立、過熱感はなく下トレンドの余地あり。",
+      "米国長期金利の上昇とリスクオフが株価に重石。"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "MA20を下回るS&P 500は戻り売りが有利。テクニカルとファンダメンタルズから下振れリスクを指摘。",
+    "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "MA20を下回る価格と上昇金利が下振れを示唆",
+    "entry": "7380.00",
+    "tp": "7200.00",
+    "sl": "7450.00",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20以下でのRSIオーバーシンが売圧を裏付け",
-    "date": "2026-06-29 12:40",
+    "title": "[BTC/USD] DOWN: 米ETF流出と金利見通しの不透明感による下値模索",
+    "date": "2026-06-29 21:35",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "RSIが25で過売り、下落局面の反転余地は限定的",
-      "MA20下回りでの売圧が強化、59500円が短期サポート",
-      "流動性重視でbitflyer利用を推奨"
+      "週次ETF流出額が18億ドルに達し、機関投資家の資金流出が加速",
+      "FRBの利上げ観測再燃によるリスクオフ圧力が継続",
+      "RSIが25を下回る極端な売られすぎ水準にあり、テクニカルなボラティリティに警戒"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "現在価格59842円はMA20の62884円に対し約5%低下、RSIは25と過売り。下落トレンドが続くと見込み、59500円付近で売りエントリーを検討。流動性と約定力を重視し、bitflyerを利用することを推奨。",
+    "excerpt": "米スポットETFからの巨額流出と米金利上昇懸念が重なり、BTCは重要なサポートラインを試す展開。テクニカル面ではRSIが過熱感を示す一方、MA20との乖離が拡大しており、短期的には下値を探る局面が続く見通し。",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "MA20以下でRSIが25と過売り、下落継続が見込まれる",
-    "entry": "59500",
-    "tp": "57000",
-    "sl": "61000",
-    "reliability": "HIGH"
+    "comment": "ETF流出とMA20からの乖離、金利上昇懸念による下落トレンド継続の蓋然性が高い。",
+    "entry": "60277.00",
+    "tp": "58500.00",
+    "sl": "63500.00",
+    "reliability": "MEDIUM"
   }
 }
