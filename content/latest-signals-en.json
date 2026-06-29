@@ -1,69 +1,69 @@
 {
   "FX": {
-    "title": "[USD/JPY] [Direction] [Rationale] (e.g. 'Buy the dip toward MA20 with tight risk control')",
-    "date": "2026-06-29 02:06",
+    "title": "[USD/JPY] UP: AI Detects Momentum as Fundamentals Align",
+    "date": "2026-06-29 12:35",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP or DOWN or FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Fluctuating USD/JPY responding to slow RBI easing expectations.",
-      "MACD divergence suggests potential further pullback.",
-      "Volume patterns undermine recent bullish momentum.",
-      "RSI indicates moderate overbought conditions."
+      "Overbought RSI signals continuation not reversal",
+      "Japan's growth blueprint supports yen weakness",
+      "China export restrictions add safe-haven USD premium"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "120-character summary (no greetings)",
+    "excerpt": "Technical momentum and macro catalysts align for USD/JPY upside extension toward 163.00",
     "pair": "USD/JPY",
+    "status": "BUY",
+    "comment": "Bullish momentum with fundamental tailwinds supports extended move toward 163.00",
+    "entry": "161.00",
+    "tp": "162.80",
+    "sl": "160.30",
+    "reliability": "HIGH"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-06-29 12:38",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "tldr_points": [
+      "Geopolitical de-escalation fuels risk-on sentiment",
+      "Price testing key MA20 support level",
+      "AI-driven tech rotation remains intact"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 nears MA20 support amid Iran ceasefire relief; AI momentum confirms bullish bias.",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "Testing MA20 support with positive fundamental catalysts and neutral RSI momentum.",
+    "entry": "7454.55",
+    "tp": "7600.00",
+    "sl": "7300.00",
+    "reliability": "HIGH"
+  },
+  "CRYPTO": {
+    "title": "BTC/USD [BUY] Momentum Reinforced by AI Detection at MA20",
+    "date": "2026-06-29 12:40",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "tldr_points": [
+      "Rates are squeezing distortions as alt-rate divergence narrows.",
+      "Strong volume at the 20-period zone signals accumulation.",
+      "RSI indicates indecidency near zero, suggesting pivot.",
+      "Institutional capital inflows around $XB levels align with next move."
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "Key alignment between technical setup and AI sentiment signals a potential breakdown below $59,800.",
+    "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "120-character summary (no greetings)",
+    "comment": "Key alignment between technical setup and AI sentiment signals a potential breakdown below $59,800.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: AI Detects Resistance at MA20 with Bearish Fundamentals",
-    "date": "2026-06-29 02:07",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
-    "tldr_points": [
-      "Price sits below MA20 (7354 vs 7455), indicating short‑term resistance.",
-      "RSI‑14 at 48 shows weakening momentum, approaching oversold territory.",
-      "News highlights dividend‑focused inflows and potential stealth rate hikes, weighing on equity outlook."
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 under MA20, RSI 48, bearish bias as dividend news and stealth rate hints weigh.",
-    "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Price below MA20 with RSI near 48 and bearish fundamentals from stealth rate hike risks.",
-    "entry": "7360.00",
-    "tp": "7200.00",
-    "sl": "7400.00",
-    "reliability": "MEDIUM"
-  },
-  "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 as Fundamentals Turn Bearish",
-    "date": "2026-06-29 02:10",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "bybit",
-    "tldr_points": [
-      "Price remains below MA20 signaling near-term bearish pressure",
-      "RSI at 24.6 indicates oversold but limited upside without catalyst",
-      "Negative fund flows and ETF outflows weigh on BTC/USD"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD below MA20, RSI 24.6; bearish ETF outflows, Strategy premium loss pressure near-term price amid macro risk now...",
-    "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Short bias driven by price below MA20, oversold RSI, and bearish ETF/fundamentals.",
-    "entry": "60000.00",
-    "tp": "56000.00",
-    "sl": "62000.00",
     "reliability": "MEDIUM"
   }
 }
