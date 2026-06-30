@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での支持と過熱感の中での上方バイアス",
-    "date": "2026-06-30 19:54",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-01 02:50",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20以上で推移し上方バイアスが継続",
-      "RSI81は過熱感を示し調整リスクあり",
-      "米NFP・CPIとECBの利上げ観測がドルを支える"
+      "USD/JPYはMA20を上抜けし、上昇圧力が継続",
+      "ECBの準備要件引き上げ議論がユーロ圏流動性を引き締め、ドル支持材料",
+      "RSIが82超えと過熱感があるため、押し目買いを推奨"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "現在価格162.33はMA20を上抜け、RSIは81で過熱感。米雇用・インフレ待ちとECBの利上げ観測がドルを支えるが、短期的な調整リスクも。",
+    "excerpt": "MA20を上回る価格動向とファンダメンタルズの整合性から、米ドル買いの上昇余地を評価。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20支持と上昇トレンド継続、ただしRSI過熱により押し目買いを推奨",
-    "entry": "161.80",
+    "comment": "MA20上抜けとファンダメンタルズのドル支持が一致",
+    "entry": "162.30",
     "tp": "163.50",
-    "sl": "161.00",
-    "reliability": "MEDIUM"
+    "sl": "161.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-06-30 19:56",
+    "title": "[S&P 500] UP: MA20上抜け維持とテック主導のリスクオン継続を確認",
+    "date": "2026-07-01 02:52",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "テク指数はMA20付近で支持を示し、RSIは中立圏で上値余地あり",
-      "米国債利回りの安定とFRBの緩やかな姿勢がリスクオンを支援",
-      "テックセクターの好調が全体の上昇トレンドを牽引"
+      "現在値7492.53がMA20(7442.20)を上回りトレンド継続を示唆",
+      "RSI 55.8は買われすぎではなく上昇余地を残す",
+      "ナスダック主導のテックラリーが指数を牽引"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20を挟んだ小反発局面にあり、テック株の強含みと金利環境の安定が上値を支える。",
+    "excerpt": "S&P500はMA20をサポートに上昇トレンドを維持。テックセクターの資金流入とRSIの中立域が更なる上値追いを支持する。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20支持とテック株強含み、金利安定が上値を支える",
-    "entry": "7435.00",
-    "tp": "7480.00",
-    "sl": "7420.00",
-    "reliability": "HIGH"
+    "comment": "MA20サポート機能とテック主導の資金流入、RSIの中立域が上昇継続を示唆",
+    "entry": "7445.00",
+    "tp": "7600.00",
+    "sl": "7400.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-06-30 19:58",
+    "date": "2026-07-01 02:54",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "RSI 24.2の過売り圧倒状態",
-      "MA20(62,686)の厚いサポートレベル",
-      "ニューヨーク証券取引所上場を看据えた機関圏の回望"
+      "RSIが深い過売り状態で反転余地大",
+      "機関向けETF規制見直しとステーブルコイン連携が需給を支援",
+      "テクニカルはMA20付近での押し目買いシグナル"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20付近(62,686)での押し目買いを厳密に監視。RSI24.2の過売り状態からのモメンタム回復が、ファンデーション面のビットフライヤ活用動向と整合。",
+    "excerpt": "MA20未満の価格と極低RSIが示す反転期待。SECのETF見直しとステーブルコイン拡張が需給を下支え。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20サポートと過売りRSIの逆張り",
-    "entry": "59300",
-    "tp": "62686",
-    "sl": "58000",
+    "comment": "MA20付近への反転期待と過売りRSIが買いシグナルを示す",
+    "entry": "58300.00",
+    "tp": "62500.00",
+    "sl": "55500.00",
     "reliability": "HIGH"
   }
 }
