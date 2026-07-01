@@ -1,62 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-01 12:31",
+    "title": "[USD/JPY] UP: AI Detects Bullish Momentum Amid Hawkish Fed Tone",
+    "date": "2026-07-01 20:21",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Fed hawkishness adds USD upside; MA20 at 160.93 offers technical support; Overbought RSI warns of near‑term correction"
+      "USD/JPY trades near 1986 highs with price above MA20 and RSI >80.",
+      "Fed speakers likely hawkish; ECB dovish as Eurozone inflation eases.",
+      "Tactical dip‑buy toward MA20 with defined risk/reward."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish on Fed hawkishness, but overbought RSI suggests dip entry near MA20.",
+    "excerpt": "USD/JPY tests 1986 highs amid hawkish Fed tone, overbought RSI, and dovish ECB bias; look for dip‑buying toward MA20.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "AI sees support at MA20 amid hawkish Fed while RSI indicates overbought, favoring a bullish dip trade.",
-    "entry": "160.93",
-    "tp": "163.30",
-    "sl": "160.20",
-    "reliability": "HIGH"
+    "comment": "Bullish momentum supported by hawkish Fed/dovish ECB divergence; dip toward MA20 offers attractive risk‑reward.",
+    "entry": "162.30",
+    "tp": "164.00",
+    "sl": "161.80",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500 市場分析",
-    "date": "2026-07-01",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-01 20:28",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "tldr_points": [],
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "S&P 500 trades above MA20 with neutral RSI, suggesting continued upside.",
+      "Technical bias remains positive with key resistance at 7550.",
+      "Broker recommendation: Interactive Brokers for optimal execution."
+    ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "",
+    "excerpt": "S&P 500 remains above MA20 with RSI 56, indicating sustained bullish momentum toward the 7550‑7600 resistance zone.",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
+    "comment": "S&P 500 remains above MA20 with RSI 56, indicating sustained bullish momentum toward the 7550‑7600 resistance zone.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Oversold RSI and Potential Mean Reversion Toward MA20",
-    "date": "2026-07-01 12:34",
+    "title": "[BTC/USD] UP: Oversold RSI 25 signals bounce toward MA20 amid mixed regulatory news",
+    "date": "2026-07-01 20:30",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "RSI at 23.3 indicates extreme oversold condition, suggesting near-term mean‑reversion.",
-      "Price sits ~6% below the 20‑day MA (62,662), a dynamic support zone.",
-      "Fundamental news shows mixed crypto‑policy signals but no fresh bearish catalysts."
+      "RSI at 25.5 indicates deep oversold condition, suggesting short‑term rebound potential.",
+      "Price sits below MA20 (62,402), testing a key dynamic support that could trigger a bounce.",
+      "Regulatory headlines are mixed, but MiCA enforcement and legal actions may increase long‑term institutional confidence."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD shows deep oversold RSI below 24, price under MA20, signaling imminent bounce toward 62.6k with limited downside",
+    "excerpt": "BTC/USD RSI 25 oversold, testing MA20 support; mixed regulatory news but technicals favor bounce to 62k shortly for active traders!",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Oversold RSI and price below MA20 signal imminent bounce to 62.6k",
-    "entry": "59000",
-    "tp": "62600",
-    "sl": "57500",
-    "reliability": "HIGH"
+    "comment": "Oversold RSI and bullish order flow suggest a bounce to MA20 resistance.",
+    "entry": "58500.00",
+    "tp": "62000.00",
+    "sl": "56500.00",
+    "reliability": "MEDIUM"
   }
 }
