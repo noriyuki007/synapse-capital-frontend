@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-01 02:50",
+    "title": "[USD/JPY] DOWN: Overbought RSI and MA20 pullback",
+    "date": "2026-07-01 12:31",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "USD/JPYはMA20を上抜けし、上昇圧力が継続",
-      "ECBの準備要件引き上げ議論がユーロ圏流動性を引き締め、ドル支持材料",
-      "RSIが82超えと過熱感があるため、押し目買いを推奨"
+      "RSI 82.9 signals overbought, MA20 at 160.93 as primary support",
+      "Fed Chair Warsh speaking and USMCA negotiations add USD volatility",
+      "China PMI dip tempers risk‑on momentum"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "MA20を上回る価格動向とファンダメンタルズの整合性から、米ドル買いの上昇余地を評価。",
+    "excerpt": "USD/JPY at 162.80, RSI 82.9 overbought, MA20 support; Fed and China catalysts pending.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20上抜けとファンダメンタルズのドル支持が一致",
-    "entry": "162.30",
-    "tp": "163.50",
-    "sl": "161.80",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPY at 162.80, RSI 82.9 overbought, MA20 support; Fed and China catalysts pending.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20上抜け維持とテック主導のリスクオン継続を確認",
-    "date": "2026-07-01 02:52",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-01 12:33",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "現在値7492.53がMA20(7442.20)を上回りトレンド継続を示唆",
-      "RSI 55.8は買われすぎではなく上昇余地を残す",
-      "ナスダック主導のテックラリーが指数を牽引"
+      "S&P 500はMA20（7442）を上抱え、短期トレンドの反発を示唆",
+      "RSI56.17は過度ではなく、強気意外の継続可能性を否定せず",
+      "ハイパフォーマンスチip勢の牽引により構造的上昇相場が継続する。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20をサポートに上昇トレンドを維持。テックセクターの資金流入とRSIの中立域が更なる上値追いを支持する。",
+    "excerpt": "S&P 500、MA20付近の押し目での買い機会を捉える。Tech Sectorの牽引による構造的上昇が期待される。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20サポート機能とテック主導の資金流入、RSIの中立域が上昇継続を示唆",
-    "entry": "7445.00",
-    "tp": "7600.00",
-    "sl": "7400.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20付近の押し目での買い、構造的上昇の継続が期待される",
+    "entry": "7440.00",
+    "tp": "7550.00",
+    "sl": "7420.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-01 02:54",
+    "date": "2026-07-01 12:34",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "RSIが深い過売り状態で反転余地大",
-      "機関向けETF規制見直しとステーブルコイン連携が需給を支援",
-      "テクニカルはMA20付近での押し目買いシグナル"
+      "RSI14が23と極端な売られ状況を示し、短期的な反発余地が残る",
+      "MA20を大きく下回る水準で推移しており、押し目買いのタイミングが近づく",
+      "規制強化と機関投資家の参入期待が混在し、ボラティリティの拡大が予想される"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20未満の価格と極低RSIが示す反転期待。SECのETF見直しとステーブルコイン拡張が需給を下支え。",
+    "excerpt": "現在価格はMA20を大きく下回り、RSI14は23と極端な売られシグナルを示すが、規制強化や機関投資家の参入期待が混在し、短期的な反発局面が視野に入る。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20付近への反転期待と過売りRSIが買いシグナルを示す",
-    "entry": "58300.00",
-    "tp": "62500.00",
-    "sl": "55500.00",
+    "comment": "RSI売られすぎとMA20への反発期待が整合",
+    "entry": "58800.00",
+    "tp": "62600.00",
+    "sl": "56000.00",
     "reliability": "HIGH"
   }
 }
