@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-07-02-crypto-ja",
+    "date": "2026-07-02 02:55",
+    "title": "[BTC/USD] FLAT: MA20下抜け後の押し目シグナルと機関下支え需の整合性",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USDはMA20下抜け鈍化中。RSI34で売られすぎ感を示すも、機関参入で堅いサポート。押し目ボランシェ対応必要",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-02-crypto-en",
+    "date": "2026-07-02 02:55",
+    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 amid Slowly Receding Bullish Catalysts",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD falls below 20‑day MA with weak momentum; shorting near 60,200 targets 59,500 with tight stop.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-02-stocks-ja",
+    "date": "2026-07-02 02:53",
+    "title": "[S&P 500] UP: MA20ブレイクとテクノロジー偏重のファンダメンタルズリスクオンシナリオ",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "SBI証券",
+    "excerpt": "S&P 500は現在価格7503.59でMA20を上回り、Metaの好業績がテクノロジー再評価を示唆。今後の上昇ラインは7580～7620ドルゾーン。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-02-stocks-en",
+    "date": "2026-07-02 02:53",
+    "title": "[S&P 500] NEUTRAL/BULLISH: Sector Rotation Dampens Momentum Amid Tech Divergence",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 faces sector rotation headwinds as Meta outpaces semiconductor weakness; technicals remain structurally bullish.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-02-fx-ja",
+    "date": "2026-07-02 02:52",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYはMA20上抜けで強気トレンドを継続。オーバー・ボートRSI（81.38）だが、米貿易政策の不透明さと原油価格の堅調さがドルを支える。短期抵抗165.00を意識したインバウンド・トレードが眼目。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-02-fx-en",
+    "date": "2026-07-02 02:52",
+    "title": "[USD/JPY] FLAT: Overbought Momentum Collides with Growth Deceleration",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY faces a technical ceiling at 162.51 despite bullish momentum, as growth concerns and trade friction loom.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-07-01-crypto-ja",
     "date": "2026-07-01 20:30",
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
