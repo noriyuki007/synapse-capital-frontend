@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-02 02:52",
+    "title": "[USD/JPY] DOWN: RSI極端な買われ過ぎと米雇用減速が下振れリスクを示唆",
+    "date": "2026-07-02 11:56",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "USD/JPYがMA20（160.92）を上抜け、RSIはオーバー・ボート（81.38）だが強化傾向",
-      "米国内の貿易政策不明確さと原油市場の堅調さがドル買いを支える",
-      "短期的な抵抗値165.00を意識したインバウンド・ポジショニングが有望"
+      "米NFP予想が大幅鈍化で米ドル下押し圧力",
+      "RSIが89.9と極端な買われ過ぎ、短期的反落リスク",
+      "人民元基準レートが予想を上回り米ドル支援材料だがテクニカルが優先"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20上抜けで強気トレンドを継続。オーバー・ボートRSI（81.38）だが、米貿易政策の不透明さと原油価格の堅調さがドルを支える。短期抵抗165.00を意識したインバウンド・トレードが眼目。",
+    "excerpt": "米雇用減速とRSI極端な買われ過ぎからUSD/JPYは短期的に下落し、162.30付近での売りエントリーが有効。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20反発＋オーバー・ボートRSIの強化",
-    "entry": "162.00",
-    "tp": "165.00",
-    "sl": "160.50",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "米雇用減速とRSI極端な買われ過ぎからUSD/JPYは短期的に下落し、162.30付近での売りエントリーが有効。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20ブレイクとテクノロジー偏重のファンダメンタルズリスクオンシナリオ",
-    "date": "2026-07-02 02:53",
+    "title": "[S&P 500] UP: テック銘柄の再加速とM&A期待による底堅い推移",
+    "date": "2026-07-02 11:58",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "SBI証券",
+    "recommended_broker": "指定ブローカー",
     "tldr_points": [
-      "MA20ブレイク継続下り有望",
-      "Meta銘柄の急騰がテクノロジーセクターを牽引",
-      "RSI64.8は中立価格エリア維持"
+      "AI関連銘柄（META等）の再評価による指数の牽引",
+      "過去10年最大規模のM&Aウェーブへの期待感",
+      "MA20を支持線とした上昇トレンドの維持"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500は現在価格7503.59でMA20を上回り、Metaの好業績がテクノロジー再評価を示唆。今後の上昇ラインは7580～7620ドルゾーン。",
+    "excerpt": "AIセクターの反発と大規模M&Aへの期待が指数を牽引。テクニカル面ではMA20を上回る推移を継続しており、雇用統計発表を前に強気バイアスが維持される展開を想定する。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20ブレイク継続とMeta銘柄の好業績牽引",
-    "entry": "7503.59",
-    "tp": "7580.00",
-    "sl": "7437.23",
+    "comment": "AIセクターの反発とMA20上の推移による上昇トレンド継続",
+    "entry": "7450.00",
+    "tp": "7600.00",
+    "sl": "7410.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: MA20下抜け後の押し目シグナルと機関下支え需の整合性",
-    "date": "2026-07-02 02:55",
+    "title": "[BTC/USD] DOWN: MA20乖離拡大とRSI中立圏での売り優位継続",
+    "date": "2026-07-02 11:59",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTC/USDはMA20を下抜け60144ドルで鈍化",
-      "RSI34で売られすぎ感を示すも過度なセllオフではない",
-      "機関のEthereum/Solana関与で堅いサポートが確認される"
+      "MA20から3.4%の陰線乖離で下降トレンド継続",
+      "RSI 35は売られ過ぎ水準未到達で下値余地残存",
+      "規制期待と実需乖離が戻り売り機会を提供"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20下抜け鈍化中。RSI34で売られすぎ感を示すも、機関参入で堅いサポート。押し目ボランシェ対応必要",
+    "excerpt": "BTCはMA20を大きく下回り下落トレンドを強化。RSI中立圏で売り圧力優位が継続し、戻り売り戦略が有効。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "押し目範囲でのシグナル、機関下支えでリスクコントロール下買い",
-    "entry": "60000",
-    "tp": "63000",
-    "sl": "58500",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "MA20大きく下回りRSI中立圏、戻り売り優位",
+    "entry": "61500",
+    "tp": "58000",
+    "sl": "62600",
+    "reliability": "MEDIUM"
   }
 }

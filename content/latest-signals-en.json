@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] FLAT: Overbought Momentum Collides with Growth Deceleration",
-    "date": "2026-07-02 02:52",
+    "title": "[USD/JPY] UP: Strong technical momentum reinforces USD strength amid mixed macro data",
+    "date": "2026-07-02 11:56",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "RSI indicates extreme overbought conditions (>81)",
-      "Atlanta Fed GDPNow downward revision to 1.2% pressures USD",
-      "Trade tension via USMCA non-renewal creates volatility spikes"
+      "Price above MA20 with bullish bias",
+      "RSI at 90 indicates strong momentum",
+      "Fundamentals support USD despite softer Japanese data"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY faces a technical ceiling at 162.51 despite bullish momentum, as growth concerns and trade friction loom.",
+    "excerpt": "USD/JPY trades bullish above MA20, driven by solid US yield spread and resilient dollar.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "Extreme RSI overbought status combined with GDPNow downgrade suggests limited upside.",
-    "entry": "162.50",
-    "tp": "161.00",
-    "sl": "163.20",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Price above MA20, strong yield spread, and overbought RSI support a bullish continuation on pull‑backs.",
+    "entry": "162.25",
+    "tp": "164.00",
+    "sl": "161.00",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] NEUTRAL/BULLISH: Sector Rotation Dampens Momentum Amid Tech Divergence",
-    "date": "2026-07-02 02:53",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-02 11:58",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Sector rotation from Semiconductors to Communication Services (Meta) is creating intra-index volatility.",
-      "Price remains structurally bullish above the 20-day Moving Average.",
-      "RSI suggests nearing overbought territory, necessitating a disciplined entry approach."
+      "M&A wave adds upside catalyst",
+      "Price above MA20 supports bullish bias",
+      "RSI 63.3 suggests moderate momentum"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces sector rotation headwinds as Meta outpaces semiconductor weakness; technicals remain structurally bullish.",
+    "excerpt": "M&A surge and tech strength lift S&P; price above MA20, momentum favorable.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Structural bullishness remains intact with sector rotation providing index-level stability.",
-    "entry": "7440.00",
-    "tp": "7580.00",
-    "sl": "7390.00",
-    "reliability": "MEDIUM"
+    "comment": "Price above MA20 and moderate RSI momentum, combined with positive M&A and AI catalysts, suggest upside bias.",
+    "entry": "7470",
+    "tp": "7550",
+    "sl": "7440",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 amid Slowly Receding Bullish Catalysts",
-    "date": "2026-07-02 02:55",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-02 11:59",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC price remains below MA20 indicating short bias",
-      "RSI near 34 suggests limited momentum",
-      "Macro stresses dampen demand despite institutional buzz"
+      "Price below MA20 at $60.35k, RSI 35 suggests near-term oversold conditions",
+      "Ark Invest Circle stake and crypto-legislation urgency provide bullish fundamentals",
+      "Robinhood Chain mainnet launch and AI funding boost sector momentum"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD falls below 20‑day MA with weak momentum; shorting near 60,200 targets 59,500 with tight stop.",
+    "excerpt": "BTC trades below MA20 at $60.35k, RSI 35 hints at oversold bounce amid legislative and AI tailwinds.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price below MA20 with weak momentum signals a bearish bias",
-    "entry": "60500",
-    "tp": "59500",
-    "sl": "61500",
-    "reliability": "HIGH"
+    "status": "BUY",
+    "comment": "Buy dip toward MA20 as fundamentals and RSI suggest reversal.",
+    "entry": "60200",
+    "tp": "62488.75",
+    "sl": "58500",
+    "reliability": "MEDIUM"
   }
 }
