@@ -1,61 +1,71 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-02 19:35",
+    "title": "[USD/JPY] [Direction] [Rationale] (e.g. 'Buy the dip toward MA20 as Fundamentals Turn Bullish')",
+    "date": "2026-07-03 02:44",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "UP or DOWN or FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "MA20 support holds near 160.99",
-      "US NFP forecasts tilt USD bullish",
-      "RSI 66 indicates sustained upward momentum"
+      {
+        "Key point 1": "Rate dynamics are consolidating toward the 160 level with low volatility."
+      },
+      {
+        "Key point 2": "RSI suggests moderate overbought conditions, supporting a pullback."
+      },
+      {
+        "Key point 3": "Score at 60.8 on 14-period confirms psychological resistance holding."
+      }
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY eyes upside as MA20 support holds and NFP expectations drive USD strength toward 162.0.",
+    "excerpt": "120-character summary focusing on contraction and technical touchpoints",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "USD/JPY eyes upside as MA20 support holds and NFP expectations drive USD strength toward 162.0.",
+    "comment": "120-character summary focusing on contraction and technical touchpoints",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20 Resistance Broken, AI Indicates Accumulation Phase (e.g. '[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish')",
-    "date": "2026-07-02 19:36",
+    "title": "S&P 500: Range-Bound Cautiousness and Tactical Execution",
+    "date": "2026-07-03 02:44",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "For executing this specific setup, we recommend utilizing [] due to optimal liquidity.",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
     "tldr_points": [
-      "Technical support forming at MA20",
-      "Fundamental tailwinds from AI-driven earnings momentum",
-      "RSI divergence suggests short-term overbought but sustainable upside"
+      "Interest Correlation (Approx): -0.56 (Negative)",
+      "Technical: Driven by Price 7436.26 vs MA20 7430.34",
+      "Liquidity: Targets based on Upper Band 7584.84 / Lower Band 7275.84 / Recent High 7598.19 / Recent Low 7237.85"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 shows contrarian strength with fundamentals aligning to technical breakouts.",
+    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7436.26, RSI(52.88), and MA20(7430.34).",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Technical breakout and AI-driven fundamentals justify aggressive positioning.",
-    "entry": "7450",
-    "tp": "7700",
-    "sl": "7300",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7436.26, RSI(52.88), and MA20(7430.34).",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] BULL: AI Detects Strong Support at MA20 Amid Koreas Diverge]",
-    "date": "2026-07-02 19:38",
+    "title": "BTC/USD 市場分析",
+    "date": "2026-07-03 02:57",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "tldr_points": [],
+    "tldr_points": [
+      "Price near MA20 support suggests bounce potential",
+      "Fundamental shift toward real-world assets boosts BTC relevance",
+      "RSI neutrality indicates room for accumulation"
+    ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Strategic bias toward price recovery driven by confirmed trading volume and AI sentiment alignment.",
+    "excerpt": "BTC/USD bullish on MA20 support convergence with institutional adoption catalysts.",
     "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "Strategic bias toward price recovery driven by confirmed trading volume and AI sentiment alignment.",
+    "comment": "BTC/USD bullish on MA20 support convergence with institutional adoption catalysts.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
