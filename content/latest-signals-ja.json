@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-03 02:44",
+    "date": "2026-07-03 11:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20は161.00付近でサポートを示し、RSIは強気移行中",
-      "BOEの緩和的な姿勢と金価格の上昇がUSDに厚い素材を提供",
-      " AUD/USDの調整とNASDAQの低迷は、リスク選好の高まりを強化"
+      "Fedの利上げ見送りがドルを支える一方で、日銀の介入警戒は上値を抑制",
+      "人民元対ドル基準レートの上昇はドル円の上昇バイアスを示唆",
+      "テクニカルはMA20上抜けとRSI64.9でモメンタムが緩やかに強化"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "MA20反発を確認し、BOEの緩和姿勢と金の上昇基調を背景にUSD/JPYの強気上昇を予想。",
+    "excerpt": "ドル円はMA20をわずかに上回り、RSIは64.9でやや強気。ファンダはドル支援と円介入警戒が交錯。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20反発と強気ファンダメンタルズの整合性を根拠とする",
-    "entry": "161.09",
-    "tp": "162.20",
-    "sl": "160.80",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "ドル円はMA20をわずかに上回り、RSIは64.9でやや強気。ファンダはドル支援と円介入警戒が交錯。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-03 02:44",
+    "date": "2026-07-03 11:43",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "野村證券",
     "tldr_points": [
-      "価格はMA20をわずかに上抜け、RSIは中立帯で買い余地あり",
-      "アップルの折りたたみiPhone発表がチップ関連株を底上げし、全体指数にプラス影響",
-      "流動性の観点からNomura Securitiesの利用を推奨し、押し目買い戦略を構築"
+      "価格はMA20を上回り中期上昇トレンド継続の兆候",
+      "RSIは56.5で過熱感なく上振れ余地あり",
+      "テクノロジー株の調整は全体を圧迫せず、銀行決算が次期カタリスト"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20を若干上回りRSIは中立、アップルの折りたたみiPhoneニュースがチップセクターを支え、S&P500は上抜けバイアスが強まる。",
+    "excerpt": "S&P 500はMA20を上回り、銀行決えての上振れ期待が裏付けられる。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20を支えにした押し目買い、アップルニュースがチップセクターを底上げし上値余地あり",
-    "entry": "7430",
-    "tp": "7500",
-    "sl": "7400",
-    "reliability": "HIGH"
+    "comment": "MA20上抜けとRSIの余地、銀行決算期待が上昇を支える",
+    "entry": "7435.00",
+    "tp": "7550.00",
+    "sl": "7400.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20割れと弱気ファンダメンタルズの整合性",
-    "date": "2026-07-03 02:57",
+    "title": "[BTC/USD] DOWN: 価格がMA20を下抜け、ファンダメンタルズは混合で下側リスク優位",
+    "date": "2026-07-03 11:47",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20下抜けで短期的な下押し圧力が顕在",
-      "RSIは45付近で過売りサインは見られず、反発余地は限定的",
-      "機関向け実物資産トークン化の進展は長期的には支援材料だが、短期は材料難"
+      "MA20を下抜けし、RSIは43で弱気バイアス",
+      "機関向けオンチェーン株発行は長期プラスだが短期は材料難",
+      "テクニカルは60k前後を下抜ければ55k帯へ下落リスク"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "現在価格61,623ドルはMA20を下回り、RSI45でモメンタムは弱め。機関向け実物資産トークン化は長期的支援材料だが、短期は供給増懸念とテクニカルの下押しが重なり売り圧力が強まる。",
+    "excerpt": "MA20割れとRSI低下により下側リスクが高まるが、オンチェーン株発行が長期的需給を支える。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "現在価格61,623ドルはMA20を下回り、RSI45でモメンタムは弱め。機関向け実物資産トークン化は長期的支援材料だが、短期は供給増懸念とテクニカルの下押しが重なり売り圧力が強まる。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "MA20下抜けとRSI弱気、オーダーフローの売り優位が根拠",
+    "entry": "61500.00",
+    "tp": "60800.00",
+    "sl": "62300.00",
     "reliability": "MEDIUM"
   }
 }

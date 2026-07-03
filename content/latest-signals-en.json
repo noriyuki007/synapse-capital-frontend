@@ -1,71 +1,61 @@
 {
   "FX": {
-    "title": "[USD/JPY] [Direction] [Rationale] (e.g. 'Buy the dip toward MA20 as Fundamentals Turn Bullish')",
-    "date": "2026-07-03 02:44",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-03 11:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP or DOWN or FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      {
-        "Key point 1": "Rate dynamics are consolidating toward the 160 level with low volatility."
-      },
-      {
-        "Key point 2": "RSI suggests moderate overbought conditions, supporting a pullback."
-      },
-      {
-        "Key point 3": "Score at 60.8 on 14-period confirms psychological resistance holding."
-      }
+      "Price above MA20 with RSI 65 signals bullish momentum.",
+      "Fed hold and weaker inflation risk reinforce USD strength.",
+      "Japan's FX intervention readiness caps downside for JPY."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "120-character summary focusing on contraction and technical touchpoints",
+    "excerpt": "USD/JPY bullish as price holds above MA20, RSI 65, Fed hold cuts inflation risk, Japan may intervene yen strength.",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "120-character summary focusing on contraction and technical touchpoints",
+    "comment": "USD/JPY bullish as price holds above MA20, RSI 65, Fed hold cuts inflation risk, Japan may intervene yen strength.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500: Range-Bound Cautiousness and Tactical Execution",
-    "date": "2026-07-03 02:44",
+    "title": "[S&P 500] UP: Price Above MA20 with Moderate RSI Bullish Momentum",
+    "date": "2026-07-03 11:43",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "Interest Correlation (Approx): -0.56 (Negative)",
-      "Technical: Driven by Price 7436.26 vs MA20 7430.34",
-      "Liquidity: Targets based on Upper Band 7584.84 / Lower Band 7275.84 / Recent High 7598.19 / Recent Low 7237.85"
+      "S&P 500 trades above its 20‑day moving average, signaling near‑term bullish bias.",
+      "RSI‑14 at 56.5 indicates moderate upward momentum without overbought extremes.",
+      "Selective equity inflows in Apple and Robinhood counterbalance broader tech weakness."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7436.26, RSI(52.88), and MA20(7430.34).",
+    "excerpt": "S&P 500 holds above MA20 with RSI 56, buoyed by selective equity inflows despite tech weakness and soft jobs data.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7436.26, RSI(52.88), and MA20(7430.34).",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "Price above MA20 with moderate RSI supports a short‑term long bias.",
+    "entry": "7460.00",
+    "tp": "7560.00",
+    "sl": "7400.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD 市場分析",
-    "date": "2026-07-03 02:57",
+    "title": "[BTC/USD] Up: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-03 11:47",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "tldr_points": [
-      "Price near MA20 support suggests bounce potential",
-      "Fundamental shift toward real-world assets boosts BTC relevance",
-      "RSI neutrality indicates room for accumulation"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD bullish on MA20 support convergence with institutional adoption catalysts.",
+    "excerpt": "120-character summary (no greetings)",
     "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "BTC/USD bullish on MA20 support convergence with institutional adoption catalysts.",
+    "comment": "120-character summary (no greetings)",
     "entry": "---",
     "tp": "---",
     "sl": "---",
