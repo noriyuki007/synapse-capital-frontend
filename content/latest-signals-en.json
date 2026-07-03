@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: JPY wage growth and stealth intervention pressure",
-    "date": "2026-07-03 19:32",
+    "title": "[USD/JPY] DOWN: Yen wage surge and gold safe-haven pressure outweigh USD consumer stress",
+    "date": "2026-07-04 02:22",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Japanese wage growth >5% supports yen strength",
-      "Stealth intervention caps USD upside",
-      "Technical support at MA20 (~161.11); short bias with defined risk"
+      "USD/JPY at 161.33 above MA20; RSI 67 hints modest bullish momentum.",
+      "Yen wage hikes >5% and gold safe-haven rally indicate yen strength pressure.",
+      "Stealth intervention support near 161.2 may limit downside but fundamentals favor correction."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY pressured by JPY wage hikes and stealth intervention; technical support at 161.11. Short bias recommended.",
+    "excerpt": "USD/JPY at 161.33; yen wage hikes and gold safe-haven pressure hint at broader downside.",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "Downward pressure from Japanese wage growth, stealth intervention, and narrowing rate differential suggests USD/JPY will decline.",
-    "entry": "161.10",
-    "tp": "159.90",
-    "sl": "161.30",
-    "reliability": "HIGH"
+    "comment": "Yen wage growth and gold safe-haven rally favor USD/JPY downside.",
+    "entry": "161.33",
+    "tp": "159.80",
+    "sl": "162.50",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500 市場分析",
-    "date": "2026-07-03",
+    "title": "[S&P 500] UP: Price Above MA20 with RSI Neutral-Bullish Amid Tech Rebound",
+    "date": "2026-07-04 02:36",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "",
-    "tldr_points": [],
+    "tldr_points": [
+      "Price holds above MA20 support, indicating short‑term bullish bias.",
+      "RSI 56.5 shows moderate upward momentum without overbought conditions.",
+      "Tech sector rebound and buy signals in Apple/Robinhood provide fundamental catalyst."
+    ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "",
+    "excerpt": "S&P 500 trades above MA20 with RSI 56.5, tech rebound signals bullish momentum; key levels and trade setup outlined.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "Price above MA20 with RSI showing moderate bullish momentum; tech rebound provides catalyst.",
+    "entry": "7450.00",
+    "tp": "7550.00",
+    "sl": "7400.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-03 19:36",
+    "title": "[BTC/USD] UP: AI Detects Support Near MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-04 02:39",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "MA20 pending consolidation, potential reversal",
-      "Positive ETF inflows and institutional adoption bolster base",
-      "Digital ruble deployment signals broader crypto integration"
+      "Soft US jobs data eases rate fears, boosting risk-on sentiment for BTC.",
+      "Price holds above $61k with technical support near MA20 and RSI showing room for upside.",
+      "Stablecoin developments and regulatory clarity add fundamental tailwinds despite isolated news noise."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC poised to breach MA20 trendline as institutional inflows and digital ruble rollout bolster bullish momentum.",
+    "excerpt": "BTC steadies above $61k as soft US jobs data eases rate pressure, technicals show support near MA20 and RSI rebounds.???",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Positive ETF flows and digital ruble rollout provide a bullish foundation as price nears MA20.",
-    "entry": "61800",
-    "tp": "63000",
-    "sl": "61000",
-    "reliability": "HIGH"
+    "comment": "Price near MA20 with supportive fundamentals and easing rate pressure",
+    "entry": "62050",
+    "tp": "64200",
+    "sl": "60800",
+    "reliability": "MEDIUM"
   }
 }

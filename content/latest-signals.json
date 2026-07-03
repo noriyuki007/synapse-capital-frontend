@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "UP: MA20 support and positive wage data align with bullish bias",
-    "date": "2026-07-03 19:32",
+    "title": "USD/JPYの見通し：需給バランスから見る「押し目買い」の優位性",
+    "date": "2026-07-04 02:22",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "Japan wage growth exceeds 5% for third year",
-      "Suspected BoJ intervention supports yen near key MA20",
-      "RSI at 64 indicates momentum consolidation"
+      "金利相関（近似）: 0.21で正相関傾向",
+      "テクニカル: 現在価格 161.32 と MA20 161.12 の位置関係が主導",
+      "需給: 上限帯 162.79 / 下限帯 159.46 / 直近高値 162.84 / 直近安値 159.89 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY consolidates at MA20 amid positive wage data and suspected intervention. RSI at 64 suggests potential bounce. Strategic long position recommended with strict risk controls.",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 161.32、RSI(67.07)、MA20(161.12)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20 support and positive wage data align with bullish bias",
-    "entry": "161.15",
-    "tp": "161.50",
-    "sl": "160.80",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] NEUTRAL/SIDEWAYS: 金利先安観と雇用減速の不確実性によるレンジ形成",
-    "date": "2026-07-03 19:34",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "米雇用統計の軟化によるFRBの利下げ期待と、景気後退懸念の拮抗",
-      "半導体セクター（SK Hynix等）の回復が指数を下支えするものの、金利動向が重石",
-      "テクニカル面ではMA20を上回るものの、RSIは中立圏に留まり方向感に欠ける"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "米雇用指数の減速に伴うFedの利下げ期待が強まる一方、景気減速への警戒感が指数を抑制。半導体メモリ需要の回復が下値を支えるものの、テクニカル指標は過熱感のない中立的な推移を示しており、短期的にはボラティリティを伴うレンジ相場を想定すべき局面である。",
-    "pair": "S&P 50-index",
     "status": "NEUTRAL",
-    "comment": "MA20を上回るものの、RSIが中立でありマクロの不透明感からレンジ圏での推移を予測。",
-    "entry": "7435.00",
-    "tp": "7550.00",
-    "sl": "7380.00",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 161.32、RSI(67.07)、MA20(161.12)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20上抜けとRSI56.5で上昇トレンドを確認",
+    "date": "2026-07-04 02:36",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "MA20上抜けとRSI56.5で上昇トレンドが確認",
+      "Dynatrace・Independent Bankの好決算がリスクオン心理を牽引",
+      "Interactive Brokers推奨でリスク管理下エントリー"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500はMA20上抜けRSI56.5で上昇トレンド、AI分析で金利・オーダーフロー・センチメントが支持、Interactive Brokers推奨でリスク管理下エントリー。",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "MA20上抜けとRSI56.5で上昇トレンドが確認され、Dynatrace・Independent Bankの好決算がリスクオン心理を牽引",
+    "entry": "7475",
+    "tp": "7550",
+    "sl": "7420",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20での抵抗とRSI42が示す調整圧力",
-    "date": "2026-07-03 19:36",
+    "title": "[BTC/USD] UP: MA20付近での反発とソフト雇用統計による金利緩和期待",
+    "date": "2026-07-04 02:39",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "米国ビットコインETFに2.22億ドルの流入で需給が改善",
-      "ロシア中央銀行がデジタルルーブルの9月ロールアウト準備完了を発表",
-      "機関投資家のビットコイン採用がブラックロック・フィデリティ等で加速"
+      "現在価格はMA20をわずかに下抜け、RSIは中立域で反発余地あり",
+      "米国のソフト雇用データが金利引き上げ懸念を和らげ、リスク資産への需給が改善",
+      "流動性の観点からbitflyerの板厚さを活用したエントリーが有利"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を上抜けられずRSIが42程度と弱気バイアスが継続、デジタルルーブル・ETF流入が材料視されるも短期的には調整圧力が強い。",
+    "excerpt": "BTC/USDはMA20付近での反発を狙い、ソフト雇用統計による金利緩和期待が背景に。エントリーは61,800ドル付近、TP 63,500ドル、SL 61,200ドルでbitflyer推奨。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20抵抗とRSI42が示す弱気バイアス",
-    "entry": "62200",
-    "tp": "60500",
-    "sl": "63000",
+    "status": "NEUTRAL",
+    "comment": "BTC/USDはMA20付近での反発を狙い、ソフト雇用統計による金利緩和期待が背景に。エントリーは61,800ドル付近、TP 63,500ドル、SL 61,200ドルでbitflyer推奨。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
