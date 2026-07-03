@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-03 11:39",
+    "title": "UP: MA20 support and positive wage data align with bullish bias",
+    "date": "2026-07-03 19:32",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "Fedの利上げ見送りがドルを支える一方で、日銀の介入警戒は上値を抑制",
-      "人民元対ドル基準レートの上昇はドル円の上昇バイアスを示唆",
-      "テクニカルはMA20上抜けとRSI64.9でモメンタムが緩やかに強化"
+      "Japan wage growth exceeds 5% for third year",
+      "Suspected BoJ intervention supports yen near key MA20",
+      "RSI at 64 indicates momentum consolidation"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "ドル円はMA20をわずかに上回り、RSIは64.9でやや強気。ファンダはドル支援と円介入警戒が交錯。",
+    "excerpt": "USD/JPY consolidates at MA20 amid positive wage data and suspected intervention. RSI at 64 suggests potential bounce. Strategic long position recommended with strict risk controls.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "ドル円はMA20をわずかに上回り、RSIは64.9でやや強気。ファンダはドル支援と円介入警戒が交錯。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20 support and positive wage data align with bullish bias",
+    "entry": "161.15",
+    "tp": "161.50",
+    "sl": "160.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-03 11:43",
+    "title": "[S&P 500] NEUTRAL/SIDEWAYS: 金利先安観と雇用減速の不確実性によるレンジ形成",
+    "date": "2026-07-03 19:34",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "野村證券",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "価格はMA20を上回り中期上昇トレンド継続の兆候",
-      "RSIは56.5で過熱感なく上振れ余地あり",
-      "テクノロジー株の調整は全体を圧迫せず、銀行決算が次期カタリスト"
+      "米雇用統計の軟化によるFRBの利下げ期待と、景気後退懸念の拮抗",
+      "半導体セクター（SK Hynix等）の回復が指数を下支えするものの、金利動向が重石",
+      "テクニカル面ではMA20を上回るものの、RSIは中立圏に留まり方向感に欠ける"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を上回り、銀行決えての上振れ期待が裏付けられる。",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20上抜けとRSIの余地、銀行決算期待が上昇を支える",
+    "excerpt": "米雇用指数の減速に伴うFedの利下げ期待が強まる一方、景気減速への警戒感が指数を抑制。半導体メモリ需要の回復が下値を支えるものの、テクニカル指標は過熱感のない中立的な推移を示しており、短期的にはボラティリティを伴うレンジ相場を想定すべき局面である。",
+    "pair": "S&P 50-index",
+    "status": "NEUTRAL",
+    "comment": "MA20を上回るものの、RSIが中立でありマクロの不透明感からレンジ圏での推移を予測。",
     "entry": "7435.00",
     "tp": "7550.00",
-    "sl": "7400.00",
+    "sl": "7380.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: 価格がMA20を下抜け、ファンダメンタルズは混合で下側リスク優位",
-    "date": "2026-07-03 11:47",
+    "title": "[BTC/USD] DOWN: MA20での抵抗とRSI42が示す調整圧力",
+    "date": "2026-07-03 19:36",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20を下抜けし、RSIは43で弱気バイアス",
-      "機関向けオンチェーン株発行は長期プラスだが短期は材料難",
-      "テクニカルは60k前後を下抜ければ55k帯へ下落リスク"
+      "米国ビットコインETFに2.22億ドルの流入で需給が改善",
+      "ロシア中央銀行がデジタルルーブルの9月ロールアウト準備完了を発表",
+      "機関投資家のビットコイン採用がブラックロック・フィデリティ等で加速"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20割れとRSI低下により下側リスクが高まるが、オンチェーン株発行が長期的需給を支える。",
+    "excerpt": "MA20を上抜けられずRSIが42程度と弱気バイアスが継続、デジタルルーブル・ETF流入が材料視されるも短期的には調整圧力が強い。",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "MA20下抜けとRSI弱気、オーダーフローの売り優位が根拠",
-    "entry": "61500.00",
-    "tp": "60800.00",
-    "sl": "62300.00",
+    "comment": "MA20抵抗とRSI42が示す弱気バイアス",
+    "entry": "62200",
+    "tp": "60500",
+    "sl": "63000",
     "reliability": "MEDIUM"
   }
 }
