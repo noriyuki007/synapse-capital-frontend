@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-04 19:06",
+    "date": "2026-07-05 02:01",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "Bank of Englandのインフレーションコメントがドル支える",
-      "US消費者の「猫」支 outlayが経済回復を示唆",
-      "テクニカル的にMA20(161.12)でのリバウンド確信"
+      "価格はMA20を上回り押し目買いの場面",
+      "RSIは67でモメンタムはやや過熱だが余地あり",
+      "ファンダメンタルズは金利差とリスクオフがサポート"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはBOEのインフレーション見通しや米消費者の回復基調、そしてMA20付近のテクニカルサポートを経て、ドル高基調の確率が高まる。",
+    "excerpt": "USD/JPYはMA20を上抜け、上げトレンドの継続が期待される。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20でのテクニカルサポートとファンダメンタルズのユニフォーム",
-    "entry": "161.15",
-    "tp": "161.60",
-    "sl": "160.80",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: MA20上回り、RSI56.5で上昇トレンドが確認",
-    "date": "2026-07-04 19:08",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "MA20上回り、RSI56.5で中立的上昇トレンド",
-      "利率・ファンダメンタルズの不確実性がリスク要因",
-      "Interactive Brokersで流動性確保し、押し目買い推奨"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "価格7,483はMA20上回り、RSI56.5で上昇トレンド。利率とファンダメンタルズの不確実性がリスク要因。Interactive Brokersで流動性確保し、押し目買い推奨。",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "価格7,483はMA20上回り、RSI56.5で上昇トレンド。利率とファンダメンタルズの不確実性がリスク要因。Interactive Brokersで流動性確保し、押し目買い推奨。",
+    "comment": "USD/JPYはMA20を上抜け、上げトレンドの継続が期待される。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20での反発と健康セクターの強気ファンダメンタルズ",
+    "date": "2026-07-05 02:03",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Nomura Securities",
+    "tldr_points": [
+      "価格はMA20を上回り、底堅い上値余地を示唆",
+      "RSIは56.5で過熱感は限定的",
+      "健康関連ETFの優位とモデナへのポジティブ発言が上値を支える"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P500はMA20を上抜け、RSIは中立。健康関連ETFの優位とモデルナへのポジティブ発言が上値を支えるが、トランプ相場の逆転リスクにも注意。",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "MA20上抜けと健康セクターの強気ファンダメンタルズが上値を支えるため買い推奨",
+    "entry": "7450.00",
+    "tp": "7600.00",
+    "sl": "7350.00",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-04 19:09",
+    "title": "[BTC/USD] UP: MA20を上回る価格とDeFi預金拡大が一致",
+    "date": "2026-07-05 02:06",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20で反発し上昇余地",
-      "Deposit spikesがボラティリティ拡大を示唆",
-      "抵抗は62800、支持は62000"
+      "価格はMA20を上抜けし、上昇余地が残る",
+      "AaveのMonad市場預金が1億ドルを突破しDeFi需要が高まる",
+      "CryptoQuantの交換所預金増加はボラティリティ上昇の予兆"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20で反発し、RSIは中立ながら上昇余地。Deposit spikesが示すボラティリティ拡大は短期変動の余地を残し、62800が次の主要抵抗点。流動性重視でbitflyerを活用。",
+    "excerpt": "BTC/USDはMA20を上回り、DeFi関連の資金流入が支援材料。テクニカルは押し目買いの余地を示唆し、流動性の観点からbitflyerの利用を推奨する。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "MA20で反発し、RSIは中立ながら上昇余地。Deposit spikesが示すボラティリティ拡大は短期変動の余地を残し、62800が次の主要抵抗点。流動性重視でbitflyerを活用。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "MA20上抜けとDeFi預金増加が上昇を支えるため買い推奨",
+    "entry": "62600",
+    "tp": "64500",
+    "sl": "61500",
     "reliability": "MEDIUM"
   }
 }

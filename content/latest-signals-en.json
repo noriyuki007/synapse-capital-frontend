@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY 市場分析",
-    "date": "2026-07-04",
+    "title": "[USD/JPY] UP: Technical Resilience Amid Fed Signals",
+    "date": "2026-07-05 02:01",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "tldr_points": [],
+    "tldr_points": [
+      " essied upward break above MA20 and robust RSI +70 momentum",
+      "USD strength intensified by US inflation resilience and BoE war effect",
+      "Anticipated intervention dead‑zone dissolving as price consolidates above support"
+    ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "",
+    "excerpt": "USD/JPY poised for an uptrend as price breaks above MA20 and RSI signals strength; risk of intervention is low.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price above MA20 with RSI bullish and intervention‑supported bias",
-    "entry": "161.20",
-    "tp": "162.00",
-    "sl": "160.80",
-    "reliability": "MEDIUM"
+    "comment": "Price breaking above MA20 with strong RSI and bullish rate correlation.",
+    "entry": "161.40",
+    "tp": "163.00",
+    "sl": "161.00",
+    "reliability": "HIGH"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-04 19:08",
+    "date": "2026-07-05 02:03",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "For executing this specific setup, we recommend utilizing Interactive Brokers due to optimal liquidity.",
     "tldr_points": [
-      "Current price (7483.24) maintains bullish structure above MA20 (7432.69)",
-      "RSI-14 (56.51) indicates momentum without overextension",
-      "Potential Fed rate hikes present near-term volatility but long-term fundamentals remain intact"
+      "Price remains above MA20 with RSI 56.5, indicating sustained upward momentum.",
+      "Technical support aligns at the MA20 and 7500 level, targeting a break toward 7600.",
+      "Positive catalysts from healthcare ETF performance and Moderna endorsement boost risk‑on sentiment."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above MA20 as AI signals bullish continuation despite macro headwinds.",
+    "excerpt": "S&P 500 above MA20, RSI 56.5; support at 7500, bullish fundamentals; recommend Interactive Brokers for execution.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Bullish structure intact with AI-confirmed support at MA20 and momentum stabilization at RSI 56.5",
-    "entry": "7432.69",
-    "tp": "7550",
+    "comment": "Strong technical support at MA20 and bullish fundamentals justify a long position.",
+    "entry": "7483.24",
+    "tp": "7600",
     "sl": "7400",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Price Above MA20 Amid Rising On‑Chain Deposits and Tokenization Policy Debate",
-    "date": "2026-07-04 19:09",
+    "title": "[BTC/USD] UP: Technical Support at MA20 with Bullish Catalysts",
+    "date": "2026-07-05 02:06",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC holds above MA20 support as exchange deposits surge, signaling higher volatility.",
-      "IMF tokenization stance and stablecoin consortium news add macro backdrop.",
-      "RSI near 46 indicates modest bearish momentum but price action favors a bounce."
+      "Price above MA20 signals short-term bullish bias",
+      "AI identifies asset inflow surge from Monad and exchange deposits",
+      "Fundamental divergence between stablecoin consolidation and DeFi token activity"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC trades above MA20 amid rising exchange deposits and tokenization debate, bias to upside with volatility ahead.",
+    "excerpt": "BTC shows strength above MA20 amid DeFi DeFi-driven liquidity inflows, suggesting potential acceleration despite volatility.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Price above MA20 with rising exchange deposits supports a bounce toward 63.8k",
-    "entry": "62250.00",
-    "tp": "63800.00",
-    "sl": "61500.00",
+    "status": "NEUTRAL",
+    "comment": "BTC shows strength above MA20 amid DeFi DeFi-driven liquidity inflows, suggesting potential acceleration despite volatility.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
