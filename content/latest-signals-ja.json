@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPYの見通し：需給バランスから見る「押し目買い」の優位性",
-    "date": "2026-07-04 02:22",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-04 11:36",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "金利相関（近似）: 0.21で正相関傾向",
-      "テクニカル: 現在価格 161.32 と MA20 161.12 の位置関係が主導",
-      "需給: 上限帯 162.79 / 下限帯 159.46 / 直近高値 162.84 / 直近安値 159.89 によるターゲット設計"
+      "価格はMA20を上回り押し目買いの余地あり",
+      "BOEのインフレ発言と米消費の混在がリスクオフ圧力を緩和",
+      "テクニカルはRSI67でモメンタム維持、介入後の支持盤が機能"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 161.32、RSI(67.07)、MA20(161.12)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "MA20を基軸に押し目買いが妥当、ファンダメンタルズは混在ながら上方バイアスを支持",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、USD/JPYの現在価格 161.32、RSI(67.07)、MA20(161.12)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20支持とRSIモメンタムが上値を示唆",
+    "entry": "161.20",
+    "tp": "162.00",
+    "sl": "160.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20上抜けとRSI56.5で上昇トレンドを確認",
-    "date": "2026-07-04 02:36",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-04 11:40",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "[]",
     "tldr_points": [
-      "MA20上抜けとRSI56.5で上昇トレンドが確認",
-      "Dynatrace・Independent Bankの好決算がリスクオン心理を牽引",
-      "Interactive Brokers推奨でリスク管理下エントリー"
+      "価格がMA20（7432.68）を上抜け、RSI（56.51）は中立状態を維持。",
+      "AI関連ニュースの継続的な影響と、ディフェンス株の安定的な配当收益がサポート。",
+      "ETF市場の流動性から、[]を推奨。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20上抜けRSI56.5で上昇トレンド、AI分析で金利・オーダーフロー・センチメントが支持、Interactive Brokers推奨でリスク管理下エントリー。",
+    "excerpt": "S&P 500はMA20付近での反発を確認し、AI関連の継続的な市場心理とディフェンス株の安定的な配当収益がサポート。テクニカル指標も強気を示唆。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20上抜けとRSI56.5で上昇トレンドが確認され、Dynatrace・Independent Bankの好決算がリスクオン心理を牽引",
-    "entry": "7475",
-    "tp": "7550",
-    "sl": "7420",
+    "comment": "MA20上抜けとAIムーンショットの整合性",
+    "entry": "7432.68",
+    "tp": "7500",
+    "sl": "7400",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20付近での反発とソフト雇用統計による金利緩和期待",
-    "date": "2026-07-04 02:39",
+    "title": "[BTC/USD] UP: MA20でのサポートと流動性逼迫が示す上側バイアス",
+    "date": "2026-07-04 11:41",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "現在価格はMA20をわずかに下抜け、RSIは中立域で反発余地あり",
-      "米国のソフト雇用データが金利引き上げ懸念を和らげ、リスク資産への需給が改善",
-      "流動性の観点からbitflyerの板厚さを活用したエントリーが有利"
+      "価格はMA20をわずかに上回り、短期的なサポート機能を示す",
+      "交換所預金の急増はボラティリティ上昇の先行指標",
+      "規制関連ニュースがリスクオン・オフの変動を誘発"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20付近での反発を狙い、ソフト雇用統計による金利緩和期待が背景に。エントリーは61,800ドル付近、TP 63,500ドル、SL 61,200ドルでbitflyer推奨。",
+    "excerpt": "MA20を上回る価格と交換所預金増加が示唆するボラティリティ上昇の中で、流動性逼迫と規制警戒が上値を抑える展開が予想される。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USDはMA20付近での反発を狙い、ソフト雇用統計による金利緩和期待が背景に。エントリーは61,800ドル付近、TP 63,500ドル、SL 61,200ドルでbitflyer推奨。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "MA20サポートと流動性逼迫から上側バイアスが見込まれるが、規制リスクにより慎重なエントリーを推奨",
+    "entry": "62200.00",
+    "tp": "63000.00",
+    "sl": "61800.00",
     "reliability": "MEDIUM"
   }
 }
