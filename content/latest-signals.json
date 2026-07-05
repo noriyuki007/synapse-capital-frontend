@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-05 02:01",
+    "date": "2026-07-05 11:46",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20を上回り押し目買いの場面",
-      "RSIは67でモメンタムはやや過熱だが余地あり",
-      "ファンダメンタルズは金利差とリスクオフがサポート"
+      "価格はMA20を上回りサポート付近で推移",
+      "RSIは67で上昇余地残す",
+      "ファンダは米国の消費者ストレスと金利期待変化が混在"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20を上抜け、上げトレンドの継続が期待される。",
+    "excerpt": "USD/JPYはMA20上抜けとサポートで下値堅調、RSI67で上げ潜在力残す。米金利見通しと猫関連消費の動向を注視し、押し目買いを検討。",
     "pair": "USD/JPY",
+    "status": "BUY",
+    "comment": "MA20上抜けとサポートで下値堅調、RSI67で上げ余地あり、ファンダは金利差がドル支持的",
+    "entry": "161.20",
+    "tp": "162.30",
+    "sl": "160.80",
+    "reliability": "HIGH"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20上抜けと高金利耐性のファンダメンタルズが支え",
+    "date": "2026-07-05 11:48",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "tldr_points": [
+      "MA20上抜けとRSI56で中立的上昇トレンド",
+      "主要ニュースが高成長株の再評価を促進",
+      "7600超への突破が期待できる"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P500はMA20上抜け、RSI56で中立的上昇相場、主要ニュースが高成長株の再評価を促進、7600超への突破が期待できる。",
+    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "USD/JPYはMA20を上抜け、上げトレンドの継続が期待される。",
+    "comment": "S&P500はMA20上抜け、RSI56で中立的上昇相場、主要ニュースが高成長株の再評価を促進、7600超への突破が期待できる。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
-  "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と健康セクターの強気ファンダメンタルズ",
-    "date": "2026-07-05 02:03",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
-    "tldr_points": [
-      "価格はMA20を上回り、底堅い上値余地を示唆",
-      "RSIは56.5で過熱感は限定的",
-      "健康関連ETFの優位とモデナへのポジティブ発言が上値を支える"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20を上抜け、RSIは中立。健康関連ETFの優位とモデルナへのポジティブ発言が上値を支えるが、トランプ相場の逆転リスクにも注意。",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20上抜けと健康セクターの強気ファンダメンタルズが上値を支えるため買い推奨",
-    "entry": "7450.00",
-    "tp": "7600.00",
-    "sl": "7350.00",
-    "reliability": "HIGH"
-  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20を上回る価格とDeFi預金拡大が一致",
-    "date": "2026-07-05 02:06",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-05 11:50",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を上抜けし、上昇余地が残る",
-      "AaveのMonad市場預金が1億ドルを突破しDeFi需要が高まる",
-      "CryptoQuantの交換所預金増加はボラティリティ上昇の予兆"
+      "現在価格62,576はMA20(62,117)を上回り、RSI(43.57)は横ばいの弱含み",
+      "CryptoQuantの流動性集中示唆とAave Monad流動性拡大が買材を支援",
+      "ETF連続販売圧力に対し、Thursday大量流入で逆転シグナルの可能性"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を上回り、DeFi関連の資金流入が支援材料。テクニカルは押し目買いの余地を示唆し、流動性の観点からbitflyerの利用を推奨する。",
+    "excerpt": "BTC/USDはMA20上位置で反発の余地を示唆。CryptoQuantの流動性集中とAave Monadの急伸が買材を支援し、ETFの連続販売への逆転シグナルが注目された。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20上抜けとDeFi預金増加が上昇を支えるため買い推奨",
-    "entry": "62600",
-    "tp": "64500",
-    "sl": "61500",
+    "status": "NEUTRAL",
+    "comment": "BTC/USDはMA20上位置で反発の余地を示唆。CryptoQuantの流動性集中とAave Monadの急伸が買材を支援し、ETFの連続販売への逆転シグナルが注目された。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
