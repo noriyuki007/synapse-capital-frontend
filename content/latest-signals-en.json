@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-05 19:09",
+    "title": "[USD/JPY] UP: AI Detects Bullish Momentum as USD Strength Overshadows JPY Dynamics",
+    "date": "2026-07-06 02:06",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holding above MA20 near 161.12 support",
-      "RSI at 67 indicates room for further upside before overbought",
-      "BoE commentary and US data suggest modest USD strength"
+      "USD maintains upward trajectory above key MA20 support",
+      "Overbought RSI signals potential consolidation before continuation",
+      "Institutional focus on Fed policy divergence vs. BoJ dovish bias"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY tests key support; bullish bias favored with upside targets near 162.0.",
+    "excerpt": "USD/JPY poised for extension amid resilient USD dynamics and JPY weakness. Key support at MA20 offers tactical entry with momentum aligned.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price above MA20 with supportive fundamentals",
-    "entry": "161.20",
-    "tp": "162.30",
-    "sl": "160.80",
+    "comment": "Bullish momentum above MA20 with favorable risk-reward setup",
+    "entry": "161.12",
+    "tp": "162.00",
+    "sl": "160.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-05 19:13",
+    "title": "[S&P 500] UP: Price holds above MA20 with steady RSI, fundamentals buoyed by energy and AI hardware",
+    "date": "2026-07-06 02:07",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price above MA20, RSI moderate bullish.",
-      "Tech catalysts and easing inflation support upside.",
-      "Key resistance ~7520, support ~7435."
+      "Price above MA20 indicates short-term bullish bias",
+      "RSI 56.5 suggests room for further upside without overbought pressure",
+      "Fundamental drivers: Energy Transfer outlook, AI hardware momentum, and potential rate pause support equity"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 above MA20, moderate RSI, AI signals bullish tilt; monitor macro warnings.",
+    "excerpt": "S&P 500 trades above its 20‑day average with moderate RSI, backed by energy and AI catalysts suggesting near‑term upside.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Bullish bias from price > MA20, moderate RSI, and supportive tech fundamentals.",
-    "entry": "7450",
-    "tp": "7520",
-    "sl": "7380",
+    "comment": "Price above MA20 with moderate RSI and supportive fundamentals",
+    "entry": "7470.00",
+    "tp": "7550.00",
+    "sl": "7420.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Cautiously Bullish",
-    "date": "2026-07-05 19:15",
+    "title": "[BTC/USD] UP: MA20 Alignment and Exchange Inflows Suggest Short-Term Bullish Bias",
+    "date": "2026-07-06 02:09",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price holds above MA20 suggesting near-term support.",
-      "RSI near 44 indicates muted momentum, watch for dip to MA20.",
-      "Exchange deposit spikes hint at rising volatility; prioritize tight stops."
+      "BTC price holds above MA20 (61961.58) with RSI in neutral territory",
+      "Exchange deposits spike 15% quarterly per CryptoQuant, signaling accumulation",
+      "ETF inflows persist despite price weakness, suggesting latent institutional demand"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD trades above MA20 with RSI 44; expect bounce to $63.5k if support holds.",
+    "excerpt": "BTC/USD finds support at MA20 amid divergent ETF flows; exchange deposits surge 15% QoQ as per CryptoQuant.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Long setup on dip to MA20 with defined targets",
-    "entry": "62200.00",
-    "tp": "63800.00",
-    "sl": "61800.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20 support and exchange deposit inflows override ETF negativity.",
+    "entry": "61961.58",
+    "tp": "64000",
+    "sl": "61500",
+    "reliability": "HIGH"
   }
 }
