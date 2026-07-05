@@ -1,64 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-05 11:46",
+    "date": "2026-07-05 19:09",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "tldr_points": [],
+    "tldr_points": [
+      "Price holding above MA20 near 161.12 support",
+      "RSI at 67 indicates room for further upside before overbought",
+      "BoE commentary and US data suggest modest USD strength"
+    ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish bias as price finds support at MA20, RSI shows upward momentum, and intervention rumors provide floor.",
+    "excerpt": "USD/JPY tests key support; bullish bias favored with upside targets near 162.0.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price holds above MA20 support with bullish RSI and supportive rate differentials",
+    "comment": "Price above MA20 with supportive fundamentals",
     "entry": "161.20",
-    "tp": "162.00",
+    "tp": "162.30",
     "sl": "160.80",
     "reliability": "HIGH"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-05 11:48",
+    "date": "2026-07-05 19:13",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price holds above MA20 with RSI 56 suggesting upside bias",
-      "Key support at MA20 offers a low‑risk entry zone",
-      "Cautious positioning recommended amid mixed earnings news"
+      "Price above MA20, RSI moderate bullish.",
+      "Tech catalysts and easing inflation support upside.",
+      "Key resistance ~7520, support ~7435."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades modestly above MA20 with RSI 56, indicating a cautious upside bias amid mixed earnings news.",
+    "excerpt": "S&P 500 above MA20, moderate RSI, AI signals bullish tilt; monitor macro warnings.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P 500 trades modestly above MA20 with RSI 56, indicating a cautious upside bias amid mixed earnings news.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Bullish bias from price > MA20, moderate RSI, and supportive tech fundamentals.",
+    "entry": "7450",
+    "tp": "7520",
+    "sl": "7380",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: ETF Outflows and Exchange Deposit Spike Signal Bearish Momentum",
-    "date": "2026-07-05 11:50",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Cautiously Bullish",
+    "date": "2026-07-05 19:15",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Bitcoin ETFs endured eight straight weeks of net outflows despite a Thursday inflow, indicating persistent institutional selling pressure.",
-      "Exchange deposits for BTC and altcoins have surged, per CryptoQuant, heralding higher volatility and potential short‑term downside.",
-      "Price sits above the 20‑day MA but RSI remains below 50, suggesting a short‑term bearish bias with upside capped near MA20."
+      "Price holds above MA20 suggesting near-term support.",
+      "RSI near 44 indicates muted momentum, watch for dip to MA20.",
+      "Exchange deposit spikes hint at rising volatility; prioritize tight stops."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD faces downside pressure from ETF outflows and rising exchange deposits; technicals show bullish bias near MA20.",
+    "excerpt": "BTC/USD trades above MA20 with RSI 44; expect bounce to $63.5k if support holds.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "ETF outflows and rising exchange deposits point to near‑term downside despite price hovering above MA20.",
-    "entry": "62576.35",
-    "tp": "62117.79",
-    "sl": "62900.00",
+    "status": "BUY",
+    "comment": "Long setup on dip to MA20 with defined targets",
+    "entry": "62200.00",
+    "tp": "63800.00",
+    "sl": "61800.00",
     "reliability": "MEDIUM"
   }
 }
