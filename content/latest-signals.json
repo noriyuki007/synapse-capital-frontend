@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20 rebound and bullish macro alignment",
-    "date": "2026-07-06 02:06",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-06 11:53",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "Fed hawkish bias supports USD",
-      "MA20 crossover signals momentum",
-      "RBNZ/ECB policy divergence favors USD/JPY"
+      "価格はMA20を上抜け、RSIは70に近づく強気モメンタムを示す。",
+      "ファンダメンタルズは米ドル強化材料が複数あり、リスクオン環境が続く。",
+      "エントリーはMA20近辺の押し目買い、TP 162.50、SL 161.00を推奨。"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY trades above MA20; Fed hawkish minutes and macro divergence signal continuation; tactical long positioned near 161.30.",
+    "excerpt": "USD/JPYは現在MA20を上抜け、RSIは69.6で強気モメンタムを維持。米長期金利の上昇とリスクオン環境がドル買いを後押しし、押し目買いが有効。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20反発と強気ファンダメンタルズの整合性を確認",
-    "entry": "161.30",
-    "tp": "162.80",
+    "comment": "MA20を上抜け、米金利上昇とリスクオンがドル買いを後押し",
+    "entry": "161.50",
+    "tp": "162.50",
     "sl": "161.00",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20 support and AI hardware catalyst convergence",
-    "date": "2026-07-06 02:07",
+    "title": "[S&P 500] UP: MA20での反発とファンダメンタルズの整合性を確認",
+    "date": "2026-07-06 12:03",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "MA20 7432 付近での押し目買いが継続；AI ハードウエア需要が支援",
-      "強気的なエネルギー物流関連カタリストが上昇圧力を生む",
-      "RSI 56.5 は上昇余地ありを示唆"
+      "S&P 500はMA20を上抜け、短期上昇バイアスが形成中",
+      "RSIは56程度で過熱感は限定的",
+      "ファンダメンタルズではFRBのタカ派姿勢が緩和され、リスクオンが継続"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 はテクニカルな反発基調にあり、AI 関連セクターやエネルギーインフラの強さが相場を押し上げる。一方、RSI は中立レベルにあり、strict risk management 下でのエントリーが不可欠。",
+    "excerpt": "S&P 500はMA20を上抜け、RSI56で買い優勢。ファンダメンタルズはFRBの緩和的シグナルとテクニカルが一致し、上昇余地が残ると見る。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "テクニカル分析では上昇、本質的には短期的な押し目買いが期待される；MA20、堅調なモメンタムと強気のカタリスト。",
-    "entry": "7475.00",
-    "tp": "7590.00",
-    "sl": "7420.00",
+    "comment": "MA20を上抜け、RSIが56で買い優勢。ファンダメンタルズもリスクオンを支持。",
+    "entry": "7470.00",
+    "tp": "7520.00",
+    "sl": "7440.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-06 02:09",
+    "date": "2026-07-06 12:05",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を上回り、短期的な押し目買いの余地が残る",
-      "ETF資金流出は続くが、オンチェーン預金増加はボラティリティ上昇を示唆",
-      "リスクオフ感があるが、流動性豊かなbitflyerでのエントリーが有利"
+      "価格はMA20を上回り、押し目買いの余地が残る",
+      "ETF資金流入は続くが週間ベースでマイナス、需給はやや混在",
+      "マクロは利上げ観測後退でリスクオン傾向が強まる"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を割り込まない限り押し目買いを推奨。エントリー62,300ドル、TP64,500ドル、SL61,800ドル。",
+    "excerpt": "MA20を上回る価格動向とファンダメンタルズの改善が整合し、押し目買いを推奨する。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20サポートでの押し目買い、RSI中立でモメンタム待ち、ファンダは中立～やや弱気",
-    "entry": "62300",
-    "tp": "64500",
-    "sl": "61800",
+    "comment": "MA20上抜けとリスクオン環境が買いシグナル",
+    "entry": "62750.00",
+    "tp": "65500.00",
+    "sl": "61200.00",
     "reliability": "MEDIUM"
   }
 }
