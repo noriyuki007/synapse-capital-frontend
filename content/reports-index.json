@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-07-07-crypto-ja",
+    "date": "2026-07-07 03:30",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTCはMA20上昇で上値余地あり、RSI中立、米政権の暗号支持が支え、bitflyerで流動性確保の上で65000目標のロング推奨、リスクReward比1.5:1を狙い、TP65000、SL61500でリスクReward比1.5:1を維持",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-07-crypto-en",
+    "date": "2026-07-07 03:30",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC steadies above MA20 with neutral RSI; toward 66k if momentum builds.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-07-stocks-ja",
+    "date": "2026-07-07 03:14",
+    "title": "[S&P 500] UP: MA20での反発とテクニカルサポートの整合性",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Nomura Securities",
+    "excerpt": "MA20を上回る水準で推移し、テクニカルは底堅いが、バリュエーション警戒が重しとなる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-07-stocks-en",
+    "date": "2026-07-07 03:14",
+    "title": "[S&P 500] UP: AI Confirms Bullish Structure Amid Valuation Stretch",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "XYZ Brokerage",
+    "excerpt": "S&P 500 above MA20, RSI 57.6; bullish tilt with entry 7500, TP 7600, SL 7450 AI flags upside bias amid inflation concerns",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-07-fx-ja",
+    "date": "2026-07-07 03:09",
+    "title": "[USD/JPY] DOWN: 過買いRSIとMA20上抜けから調整リスクを示唆",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYはMA20を上回るもRSIが過買い示唆し、短期調整リスクが高まる。ファンダメンタルズは混在し、テクニカル的には売り優勢。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-07-fx-en",
+    "date": "2026-07-07 03:09",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 Amid Fed Policy Stability (BOC Sentiment Weakens JPY)",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY targets 162.50 as MA20 support holds despite Nasdaq turmoil, driven by Fed resilience and BOC’s shrinking bullish bias.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-07-06-crypto-ja",
     "date": "2026-07-06 21:07",
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",

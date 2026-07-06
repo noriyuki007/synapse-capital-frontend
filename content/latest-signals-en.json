@@ -1,43 +1,43 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-06 21:02",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 Amid Fed Policy Stability (BOC Sentiment Weakens JPY)",
+    "date": "2026-07-07 03:09",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY bullish on price > MA20 and high RSI; upcoming US CPI key catalyst.",
-      "Eurozone inflation supports EUR, but USD strength dominates near-term.",
-      "Technical setup offers clear entry near MA20 with defined risk."
+      "Price Holding Above MA20 (161.22) with Strong RSI (72.48)",
+      "ECB’s Reduced Market Risk Focus Supports USD",
+      "BOC Survey Signals JPY Weakness via Lower Growth Expectations"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY 162.34, bullish per MA20 & overbought RSI, awaiting CPI catalyst.",
+    "excerpt": "USD/JPY targets 162.50 as MA20 support holds despite Nasdaq turmoil, driven by Fed resilience and BOC’s shrinking bullish bias.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "USD/JPY bullish on price > MA20, overbought RSI, and upcoming CPI catalyst driving USD strength.",
-    "entry": "161.50",
-    "tp": "163.80",
-    "sl": "160.50",
+    "comment": "Bullish bias reinforced by MA20 support and BOC divergent sentiment",
+    "entry": "162.00",
+    "tp": "163.00",
+    "sl": "161.10",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-06 21:05",
+    "title": "[S&P 500] UP: AI Confirms Bullish Structure Amid Valuation Stretch",
+    "date": "2026-07-07 03:14",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "XYZ Brokerage",
     "tldr_points": [
-      "Price holds above MA20 with bullish RSI, targeting 7520.",
-      "Fed minutes risk volatility while institutional flow remains supportive.",
-      "Technical structure points to sustained upside toward 7500+."
+      "Price holds above MA20 with RSI near 58",
+      "Bullish bias confirmed by AI multi‑factor signals",
+      "Key risk‑reward: entry 7500, TP 7600, SL 7450"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 eyes 7500 as MA20 holds, RSI 56 suggests upside momentum; Fed minutes risk volatility market optimism persists now.",
+    "excerpt": "S&P 500 above MA20, RSI 57.6; bullish tilt with entry 7500, TP 7600, SL 7450 AI flags upside bias amid inflation concerns",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500 eyes 7500 as MA20 holds, RSI 56 suggests upside momentum; Fed minutes risk volatility market optimism persists now.",
+    "comment": "S&P 500 above MA20, RSI 57.6; bullish tilt with entry 7500, TP 7600, SL 7450 AI flags upside bias amid inflation concerns",
     "entry": "---",
     "tp": "---",
     "sl": "---",
@@ -45,24 +45,24 @@
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-06 21:07",
+    "date": "2026-07-07 03:30",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price holds just above MA20 with RSI near 42, indicating mild bullish momentum.",
-      "Fundamental backdrop bolstered by sovereign wealth inflows, Ripple's MiCA clearance and Bernstein's $150k year-end target.",
-      "Key resistance near 64k; support at 60k; watch for breakout on volume."
+      "Price holds above MA20 signaling short‑term bullish bias",
+      "Macro cues from Trump and Ethereum lean proposal add risk‑on sentiment",
+      "Key resistance near 65k; break targets 66k"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD holds above MA20, RSI 42.4; bullish macro from sovereign wealth inflows and Ripple MiCA approval support upside.",
+    "excerpt": "BTC steadies above MA20 with neutral RSI; toward 66k if momentum builds.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Price above MA20 with improving RSI and supportive fundamentals suggests upside toward 64k resistance.",
-    "entry": "61750.00",
-    "tp": "64000.00",
-    "sl": "60500.00",
+    "comment": "Price above MA20 with neutral RSI and constructive macro cues supports a dip‑buy toward the moving average.",
+    "entry": "62100.00",
+    "tp": "66200.00",
+    "sl": "60800.00",
     "reliability": "MEDIUM"
   }
 }

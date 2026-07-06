@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-06 21:02",
+    "title": "[USD/JPY] DOWN: 過買いRSIとMA20上抜けから調整リスクを示唆",
+    "date": "2026-07-07 03:09",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "ドル指数の堅調と米株式の反発期待が円売りを支える",
-      "RSIは過熱圏だがMA20を下抜けない限り上トレンド継続の可能性",
-      "ユーロ圏の小幅な小売売上回復と生産者物価上昇がリスクオフを抑制"
+      "価格はMA20を上抜けているがRSI14が72.5で過買い圏",
+      "米金融政策のインフレ目標維持姿勢がドル支援材料となる一方で、欧州・カナダ指標はやや弱含む",
+      "短期的な利益確定売りが予想され、161.30付近までの下押しを視野に入れる"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "ドルの堅調と米CPIへの注目が続く中、USD/JPYはMA20を支えに上値を試す展開が予想される。",
+    "excerpt": "USD/JPYはMA20を上回るもRSIが過買い示唆し、短期調整リスクが高まる。ファンダメンタルズは混在し、テクニカル的には売り優勢。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "ドルの堅調とMA20支えによる上値余地、RSI過熱も押し目買いの機会を提供",
-    "entry": "162.00",
-    "tp": "163.50",
-    "sl": "161.50",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "MA20上抜けだがRSI過買いで調整リスクが高まるため売り推奨",
+    "entry": "162.10",
+    "tp": "161.30",
+    "sl": "162.70",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20上破と金利先行相関の強化を確認",
-    "date": "2026-07-06 21:05",
+    "title": "[S&P 500] UP: MA20での反発とテクニカルサポートの整合性",
+    "date": "2026-07-07 03:14",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "現在価格7483.24はMA20(7432.69)を上回り、RSI 56.5で横ばいから上昇トレンド継続の可能性",
-      "2026年 bull market の期待感と chip 株のリバウンド相模が上昇圧力を強化",
-      "金利利下げ期待が継続し、流動性確保のためInteractive Brokers の利用を推奨"
+      "価格はMA20を上回り短期的な底堅さを示す",
+      "RSI(14)は57.6でmoderateな買い圧力を示唆",
+      "バリュエーションは22x利益・32xキャッシュフローと高水準で警戒必要"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20上回り、RSI 56.5で上昇継続の可能性。2026年 bull market 期待と chip リバウンドが買わせ、金利先行相関が強化。流動性確保のためInteractive Brokers 推奨。",
+    "excerpt": "MA20を上回る水準で推移し、テクニカルは底堅いが、バリュエーション警戒が重しとなる。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20上破と金利先行相関強化により上昇継続の可能性高し",
-    "entry": "7430.00",
-    "tp": "7600.00",
-    "sl": "7350.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "MA20を上回る水準で推移し、テクニカルは底堅いが、バリュエーション警戒が重しとなる。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-06 21:07",
+    "date": "2026-07-07 03:30",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "Bernsteinが年終150Kドル目標を維持し長期上昇志向を示す",
-      "MA20をわずかに上抜け、RSIは42で調整余地あり",
-      "機関の sovereign wealth ファンドへのデジタル資産配分が需要を支援"
+      "MA20上昇で上値余地あり、RSI中立、長期的な上昇トレンドが示唆",
+      "米政権の暗号支持と機関投資家の流動性確保が価格底支え",
+      "bitflyerで流動性確保し、65000目標でロング推奨、リスクReward比1.5:1を狙う"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を支えにした押し目買いが短期的に有利。ファンダは機関流入と規制進展で底堅い。",
+    "excerpt": "BTCはMA20上昇で上値余地あり、RSI中立、米政権の暗号支持が支え、bitflyerで流動性確保の上で65000目標のロング推奨、リスクReward比1.5:1を狙い、TP65000、SL61500でリスクReward比1.5:1を維持",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20支持と機関ファンダの整合性により上昇余地あり",
-    "entry": "61800.00",
-    "tp": "63000.00",
-    "sl": "61000.00",
+    "status": "NEUTRAL",
+    "comment": "BTCはMA20上昇で上値余地あり、RSI中立、米政権の暗号支持が支え、bitflyerで流動性確保の上で65000目標のロング推奨、リスクReward比1.5:1を狙い、TP65000、SL61500でリスクReward比1.5:1を維持",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
