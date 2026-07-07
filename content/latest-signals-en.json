@@ -1,70 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-07 19:52",
+    "title": "[USD/JPY] UP: Price Above MA20 with Rising US Yields Supporting Bullish Bias",
+    "date": "2026-07-08 02:56",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holding above MA20 (161.27) signals structural buying",
-      "Oil stabilisation reduces USD pressure despite geopolitical risks",
-      "China’s gold surge weakens USD/JPY via capital flows",
-      "RSI at 69.3 suggests momentum remains intact before overextension",
-      "Broader USD weakness tied to CPI-driven Fed rate cut risks"
+      "US Treasury sale pushes yields higher, bolstering USD.",
+      "USD/JPY trades above MA20 with RSI near 69, indicating bullish momentum but watch for overbought.",
+      "Geopolitical calm in Hormuz reduces risk-off flows, favoring risk-on USD strength."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY trades above MA20 with bullish technicals; catalysts from oil stabilisation and China gold inflows underpin move higher.",
+    "excerpt": "USD/JPY likely to extend gains as US yields rise and price holds above MA20.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "High-probability setup from MA20 support and bullish fundamentals",
-    "entry": "161.50",
-    "tp": "165.00",
-    "sl": "160.50",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPY likely to extend gains as US yields rise and price holds above MA20.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: Mixed Signals as Price Holds Above MA20 Amid Fed Uncertainty",
-    "date": "2026-07-07 19:55",
+    "title": "[S&P 500] UP: Price Above MA20 with Neutral RSI Amid Mixed Fundamentals",
+    "date": "2026-07-08 02:59",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "Price above MA20 signals tactical support",
-      "Fed outlook and Samsung results drive cautious sentiment",
-      "Sector rotation toward dividend themes amid industrial underperformance"
+      "Price trades above MA20 indicating short-term bullish bias",
+      "RSI near 47 shows no overbought/oversold pressure",
+      "Chipmaker weakness offset by financial strength and oil-driven inflation concerns"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above MA20 as Fed uncertainty and mixed sector plays create tactical range-bound conditions.",
+    "excerpt": "S&P 500 holds above MA20 with neutral momentum; watch for chipmaker drag and oil-driven inflation.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Price holds above MA20 amid cautious Fed outlook and sector rotation toward dividend themes.",
-    "entry": "7430.34",
-    "tp": "7600.00",
-    "sl": "7400.00",
-    "reliability": "HIGH"
+    "status": "BUY",
+    "comment": "Price above MA20 with neutral RSI and supportive financials bias",
+    "entry": "7500",
+    "tp": "7620",
+    "sl": "7440",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Validates Bullish Bias Amid Strategic Reserve Momentum",
-    "date": "2026-07-07 19:57",
+    "title": "[BTC/USD] UP: Technical Strength Above MA20 & Positive Regulatory Outlook",
+    "date": "2026-07-08 03:06",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price holding above MA20 confirms bullish momentum",
-      "Strategic Bitcoin Reserve speculation drives fundamental bid",
-      "RSI at neutral 52.1 suggests room for extension"
+      "BTC holds above MA20 (~61.9k) with RSI near 55, indicating mild bullish momentum.",
+      "Regulatory clarity expected from SEC 2026 agenda and institutional inflows support upside.",
+      "Key resistance near 66k; stop below 61.5k."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD targets 65000 with Strategic Reserve newsflow supporting bullish structure above MA20",
+    "excerpt": "BTC above MA20 at 63,982, RSI 55.8, lifted by SEC 2026 rule outlook and tokenization inflows, targeting 66k for upside!.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Price above MA20 with strategic reserve momentum supports bullish continuation",
-    "entry": "61864.22",
-    "tp": "65000.00",
-    "sl": "60800.00",
-    "reliability": "MEDIUM"
+    "comment": "BTC holds above MA20 with rising on‑chain accumulation and supportive regulatory news, favoring a bullish bounce toward 66k resistance.",
+    "entry": "62800.00",
+    "tp": "66500.00",
+    "sl": "61500.00",
+    "reliability": "HIGH"
   }
 }
