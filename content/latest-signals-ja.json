@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: 過買いRSIとMA20上抜けから調整リスクを示唆",
-    "date": "2026-07-07 03:09",
+    "title": "[USD/JPY] UP: MA20での支持とリスクオン環境の整合性を確認",
+    "date": "2026-07-07 11:47",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20を上抜けているがRSI14が72.5で過買い圏",
-      "米金融政策のインフレ目標維持姿勢がドル支援材料となる一方で、欧州・カナダ指標はやや弱含む",
-      "短期的な利益確定売りが予想され、161.30付近までの下押しを視野に入れる"
+      "価格はMA20を上抜けし上 biased が継続",
+      "RSIは69付近で過熱感は限定的",
+      "ファンダメンタルズはリスクオフ圧力とBOJ利上げ期待が交錯"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20を上回るもRSIが過買い示唆し、短期調整リスクが高まる。ファンダメンタルズは混在し、テクニカル的には売り優勢。",
+    "excerpt": "USD/JPYはMA20を支えに上昇傾向が続く見込み。テクニカルとファンダの混在を整理し、エントリー戦略を示す。",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "MA20上抜けだがRSI過買いで調整リスクが高まるため売り推奨",
-    "entry": "162.10",
-    "tp": "161.30",
-    "sl": "162.70",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20支持と上 biased テクニカル、ファンダのドル強さが根拠",
+    "entry": "161.30",
+    "tp": "162.40",
+    "sl": "160.90",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発とテクニカルサポートの整合性",
-    "date": "2026-07-07 03:14",
+    "title": "[S&P 500] UP: MA20回復と半導体需給逼迫が支えとなる",
+    "date": "2026-07-07 11:49",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "DMM証券",
     "tldr_points": [
-      "価格はMA20を上回り短期的な底堅さを示す",
-      "RSI(14)は57.6でmoderateな買い圧力を示唆",
-      "バリュエーションは22x利益・32xキャッシュフローと高水準で警戒必要"
+      "S&P500はMA20回復と半導体需給逼迫で上昇余地",
+      "RSIが57と中立的ながら上昇トレンド",
+      "流動性はDMM証券で確保可能"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20を上回る水準で推移し、テクニカルは底堅いが、バリュエーション警戒が重しとなる。",
+    "excerpt": "最新相場解説：S&P500はMA20回復と半導体需給逼迫が支えとなり上昇余地を確保。エントリー7510、TP7650、SL7440を示し、流動性重視のDMM証券利用を推奨。",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "MA20を上回る水準で推移し、テクニカルは底堅いが、バリュエーション警戒が重しとなる。",
+    "comment": "最新相場解説：S&P500はMA20回復と半導体需給逼迫が支えとなり上昇余地を確保。エントリー7510、TP7650、SL7440を示し、流動性重視のDMM証券利用を推奨。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-07 03:30",
+    "title": "[BTC/USD] UP: MA20でのサポートとグレースケール売却による信頼回復",
+    "date": "2026-07-07 11:50",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20上昇で上値余地あり、RSI中立、長期的な上昇トレンドが示唆",
-      "米政権の暗号支持と機関投資家の流動性確保が価格底支え",
-      "bitflyerで流動性確保し、65000目標でロング推奨、リスクReward比1.5:1を狙う"
+      "価格はMA20を上回り底堅さを示す",
+      "グレースケールのビットコイン売却が financing 懸念を緩和",
+      "RSIは中立圏で上値余地あり"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCはMA20上昇で上値余地あり、RSI中立、米政権の暗号支持が支え、bitflyerで流動性確保の上で65000目標のロング推奨、リスクReward比1.5:1を狙い、TP65000、SL61500でリスクReward比1.5:1を維持",
+    "excerpt": "MA20を上回る現価格とグレースケールの資金調達安心感が上昇を支える。テクニカルは押し目買いのシグナルを示すが、法規制リスクには注意。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTCはMA20上昇で上値余地あり、RSI中立、米政権の暗号支持が支え、bitflyerで流動性確保の上で65000目標のロング推奨、リスクReward比1.5:1を狙い、TP65000、SL61500でリスクReward比1.5:1を維持",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20サポートとグレースケールニュースによる上昇余地",
+    "entry": "63000",
+    "tp": "66500",
+    "sl": "61500",
+    "reliability": "HIGH"
   }
 }

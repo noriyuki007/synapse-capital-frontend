@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 Amid Fed Policy Stability (BOC Sentiment Weakens JPY)",
-    "date": "2026-07-07 03:09",
+    "title": "[USD/JPY] UP: AI detects support at MA20 as fundamentals turn bullish",
+    "date": "2026-07-07 11:47",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price Holding Above MA20 (161.22) with Strong RSI (72.48)",
-      "ECB’s Reduced Market Risk Focus Supports USD",
-      "BOC Survey Signals JPY Weakness via Lower Growth Expectations"
+      "AI detects bullish momentum above MA20",
+      "RSI near overbought signalling extended upside",
+      "Yen pressure persists amid BOJ tightening expectations"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY targets 162.50 as MA20 support holds despite Nasdaq turmoil, driven by Fed resilience and BOC’s shrinking bullish bias.",
+    "excerpt": "AI signals bullish trend as USD/JPY stays above MA20, RSI approaches overbought, yen pressure remains elevated sharply.!",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Bullish bias reinforced by MA20 support and BOC divergent sentiment",
-    "entry": "162.00",
-    "tp": "163.00",
-    "sl": "161.10",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: AI Confirms Bullish Structure Amid Valuation Stretch",
-    "date": "2026-07-07 03:14",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "XYZ Brokerage",
-    "tldr_points": [
-      "Price holds above MA20 with RSI near 58",
-      "Bullish bias confirmed by AI multi‑factor signals",
-      "Key risk‑reward: entry 7500, TP 7600, SL 7450"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 above MA20, RSI 57.6; bullish tilt with entry 7500, TP 7600, SL 7450 AI flags upside bias amid inflation concerns",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500 above MA20, RSI 57.6; bullish tilt with entry 7500, TP 7600, SL 7450 AI flags upside bias amid inflation concerns",
+    "comment": "AI signals bullish trend as USD/JPY stays above MA20, RSI approaches overbought, yen pressure remains elevated sharply.!",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: Price Holds Above MA20 as Semiconductor Strength Boosts Outlook",
+    "date": "2026-07-07 11:49",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "tldr_points": [
+      "S&P 500 trades above its 20‑day MA with RSI near 58, indicating mild bullish momentum.",
+      "Semiconductor outperformance and Broadcom rally provide sector‑level support for the index.",
+      "Key resistance lies near 7,700; support around the 20‑day MA at 7,430."
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 holds above MA20, buoyed by semiconductor strength; look for dip‑buying toward 7,430 with targets near 7,700.",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "Price above MA20 with RSI indicating room for upside; semiconductor strength adds fundamental support.",
+    "entry": "7500",
+    "tp": "7700",
+    "sl": "7420",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-07 03:30",
+    "title": "[BTC/USD] UP: Price Above MA20 with Constructive Fundamentals",
+    "date": "2026-07-07 11:50",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price holds above MA20 signaling short‑term bullish bias",
-      "Macro cues from Trump and Ethereum lean proposal add risk‑on sentiment",
-      "Key resistance near 65k; break targets 66k"
+      "Price holds above 20‑day MA supporting near‑term upside",
+      "Grayscale confidence boost and Paradigm seed round provide fundamental tailwinds",
+      "RSI near 48 leaves room for further bullish momentum"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC steadies above MA20 with neutral RSI; toward 66k if momentum builds.",
+    "excerpt": "BTC/USD holds above MA20 with mixed news; upside bias toward 65k‑66k zone.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Price above MA20 with neutral RSI and constructive macro cues supports a dip‑buy toward the moving average.",
-    "entry": "62100.00",
-    "tp": "66200.00",
-    "sl": "60800.00",
+    "comment": "Price above MA20 with improving fundamentals supports upside toward 65.8k.",
+    "entry": "63200.00",
+    "tp": "65800.00",
+    "sl": "62000.00",
     "reliability": "MEDIUM"
   }
 }
