@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での支持とリスクオン環境の整合性を確認",
-    "date": "2026-07-07 11:47",
+    "title": "[USD/JPY] UP: MA20を上抜け、リスクオンの流れが継続",
+    "date": "2026-07-07 19:52",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20を上抜けし上 biased が継続",
-      "RSIは69付近で過熱感は限定的",
-      "ファンダメンタルズはリスクオフ圧力とBOJ利上げ期待が交錯"
+      "米CPI待ちで原油価格が68ドル以上を維持しリスクオンが続く",
+      "価格はMA20を上回り、RSIは69で依然強気圏",
+      "エントリーは押し目買い、利益確定は162.70付近、損切りは161.40付近"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20を支えに上昇傾向が続く見込み。テクニカルとファンダの混在を整理し、エントリー戦略を示す。",
+    "excerpt": "米CPI結果を控え、原油価格は戦争プレミアムの後退で68ドル以上を維持し、リスクオンの流れが継続。同時にS&P500は横ばいながらも若干の強気バイアスを示し、金の買い増しが続く中、米ドルは比較的堅調に推移。円は対照的に弱含みとなり、USD/JPYはMA20を上抜けし上値を試す展開が予想される。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20支持と上 biased テクニカル、ファンダのドル強さが根拠",
-    "entry": "161.30",
-    "tp": "162.40",
-    "sl": "160.90",
+    "comment": "MA20を上抜け、リスクオンの流れが継続しテクニカルも強気",
+    "entry": "161.85",
+    "tp": "162.70",
+    "sl": "161.40",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20回復と半導体需給逼迫が支えとなる",
-    "date": "2026-07-07 11:49",
+    "title": "[S&P 500] UP: MA20での押し目買いと強気ファンダメンタルズの整合性",
+    "date": "2026-07-07 19:55",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "DMM証券",
+    "recommended_broker": "XYZ証券",
     "tldr_points": [
-      "S&P500はMA20回復と半導体需給逼迫で上昇余地",
-      "RSIが57と中立的ながら上昇トレンド",
-      "流動性はDMM証券で確保可能"
+      "上昇トレンド継続の根拠に基づく long ポジション",
+      "RSI 57.57で過熱感なし、尚上値余地あり",
+      "流動性確保とリスク管理を徹底したXYZ証券の利用を推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "最新相場解説：S&P500はMA20回復と半導体需給逼迫が支えとなり上昇余地を確保。エントリー7510、TP7650、SL7440を示し、流動性重視のDMM証券利用を推奨。",
+    "excerpt": "S&P 500はMA20付近で支えられ、RSI57.5の過熱感なしで上昇余地を残す。流動性確保とリスク管理を徹底したXYZ証券の利用を推奨し、市場環境変化にも柔軟に対応する。",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "最新相場解説：S&P500はMA20回復と半導体需給逼迫が支えとなり上昇余地を確保。エントリー7510、TP7650、SL7440を示し、流動性重視のDMM証券利用を推奨。",
+    "comment": "S&P 500はMA20付近で支えられ、RSI57.5の過熱感なしで上昇余地を残す。流動性確保とリスク管理を徹底したXYZ証券の利用を推奨し、市場環境変化にも柔軟に対応する。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20でのサポートとグレースケール売却による信頼回復",
-    "date": "2026-07-07 11:50",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-07 19:57",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を上回り底堅さを示す",
-      "グレースケールのビットコイン売却が financing 懸念を緩和",
-      "RSIは中立圏で上値余地あり"
+      "価格がMA20を上回り、RSIは中立圏で上昇余地あり",
+      "機関資金流入とAIインフラ転用が需給支援",
+      "bitflyerの深い板でスリッページ最小化可能"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を上回る現価格とグレースケールの資金調達安心感が上昇を支える。テクニカルは押し目買いのシグナルを示すが、法規制リスクには注意。",
+    "excerpt": "BTCはMA20を明確に超え、機関マクロの追い風で上昇トレンド継続の可能性が高い。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20サポートとグレースケールニュースによる上昇余地",
+    "comment": "MA20上抜けと機関資金流入が上昇トレンドを支持",
     "entry": "63000",
-    "tp": "66500",
+    "tp": "66000",
     "sl": "61500",
-    "reliability": "HIGH"
+    "reliability": "MEDIUM"
   }
 }
