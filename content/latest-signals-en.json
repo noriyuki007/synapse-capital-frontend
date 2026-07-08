@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Price Above MA20 with Rising US Yields Supporting Bullish Bias",
-    "date": "2026-07-08 02:56",
+    "title": "[USD/JPY] FLAT: Overbought RSI Signals Near-Term Consolidation Despite Dovish Risk Tone",
+    "date": "2026-07-08 11:25",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US Treasury sale pushes yields higher, bolstering USD.",
-      "USD/JPY trades above MA20 with RSI near 69, indicating bullish momentum but watch for overbought.",
-      "Geopolitical calm in Hormuz reduces risk-off flows, favoring risk-on USD strength."
+      "Price trades above MA20 at 161.38 support",
+      "RSI-14 overbought at 71.34 signals momentum exhaustion",
+      "RBNZ tightening and PBOC stronger CNY fix underpin cautious tone"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY likely to extend gains as US yields rise and price holds above MA20.",
+    "excerpt": "Overbought RSI at 71.34 suggests consolidation near MA20 support with mixed risk catalysts.",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "USD/JPY likely to extend gains as US yields rise and price holds above MA20.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "comment": "Overbought RSI at 71.34 signals consolidation above MA20 support.",
+    "entry": "161.40",
+    "tp": "163.20",
+    "sl": "160.80",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Price Above MA20 with Neutral RSI Amid Mixed Fundamentals",
-    "date": "2026-07-08 02:59",
+    "title": "[S&P 500] UP: Technical Support at MA20 as AI-Driven Liquidity Pools Build",
+    "date": "2026-07-08 11:26",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "For executing this specific setup, we recommend utilizing [ due to optimal liquidity.",
     "tldr_points": [
-      "Price trades above MA20 indicating short-term bullish bias",
-      "RSI near 47 shows no overbought/oversold pressure",
-      "Chipmaker weakness offset by financial strength and oil-driven inflation concerns"
+      "S&P 500 consolidates near 7504 with MA20 support",
+      "Short-dated gamma squeezes drag vol down",
+      "Macro risks include elevated bond duration exposure"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above MA20 with neutral momentum; watch for chipmaker drag and oil-driven inflation.",
+    "excerpt": "S&P 500 stabilizes at critical level despite AI-driven liquidity disruptions; upside momentum expected on sustained technical hold.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price above MA20 with neutral RSI and supportive financials bias",
-    "entry": "7500",
-    "tp": "7620",
-    "sl": "7440",
-    "reliability": "MEDIUM"
+    "comment": "Resilient technical structure at critical support zone",
+    "entry": "7485",
+    "tp": "7532",
+    "sl": "7436",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Technical Strength Above MA20 & Positive Regulatory Outlook",
-    "date": "2026-07-08 03:06",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-08 11:28",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC holds above MA20 (~61.9k) with RSI near 55, indicating mild bullish momentum.",
-      "Regulatory clarity expected from SEC 2026 agenda and institutional inflows support upside.",
-      "Key resistance near 66k; stop below 61.5k."
+      "BTC holds above MA20 with neutral RSI, signaling bullish structure.",
+      "Regulatory wins (Kraken arbitration) and institutional funding (SBI, EDX) reinforce upward bias.",
+      "Launch of volatility‑proof BTC lending expands utility, supporting price momentum."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC above MA20 at 63,982, RSI 55.8, lifted by SEC 2026 rule outlook and tokenization inflows, targeting 66k for upside!.",
+    "excerpt": "BTC holds above MA20, bullish catalysts drive upward bias; monitor MA20 support.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "BTC holds above MA20 with rising on‑chain accumulation and supportive regulatory news, favoring a bullish bounce toward 66k resistance.",
-    "entry": "62800.00",
-    "tp": "66500.00",
-    "sl": "61500.00",
+    "comment": "Bullish confluence of MA20 support, neutral RSI, and positive regulatory/institutional catalysts.",
+    "entry": "61850",
+    "tp": "66000",
+    "sl": "61200",
     "reliability": "HIGH"
   }
 }
