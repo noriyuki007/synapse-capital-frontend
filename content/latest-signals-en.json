@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-08 19:13",
+    "title": "[USD/JPY] UP: AI Signals MA20 Support, Yield Rise Fuels Rally",
+    "date": "2026-07-09 02:26",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "RSI overbought but MA20 holds as dynamic support",
-      "Oil-driven USD strength offsets JPY safe-haven bids",
-      "Geopolitical risk-off supports USD/JPY inverse correlation to Nikkei"
+      "AI spots bullish momentum at MA20",
+      "Yield divergence and order flow support upside",
+      "Target 163.00 with 161.38 stop"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY retests MA20 support (161.38) as overbought RSI (71.79) meets oil-driven fundamental tailwinds.",
+    "excerpt": "AI flags bullish USD/JPY near MA20, reinforced by yield rise and order flow, eyeing 163.00 target.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Bullish structure intact above MA20 with oil-driven fundamental tailwinds offsetting risk-off JPY bids",
-    "entry": "161.4",
-    "tp": "162.8",
-    "sl": "161",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "AI flags bullish USD/JPY near MA20, reinforced by yield rise and order flow, eyeing 163.00 target.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Technical Support Holds as Big Tech Diverges from Chip Weakness",
-    "date": "2026-07-08 19:16",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 Amid Geopolitical Volatility",
+    "date": "2026-07-09 02:27",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "Onsite Invest",
     "tldr_points": [
-      "S&P 500 trading 0.9% above MA20 support",
-      "RSI-14 at neutral 45.87 indicates room for upside",
-      "Big Tech outperformance offsets semiconductor weakness"
+      "S&P 500 testing MA20 support at 7440",
+      "RSI at neutral 47.44, no oversold condition",
+      "Geopolitical risk priced in, bullish structure intact"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces technical inflection as Big Tech shows divergent strength amid chip sector pressure.",
+    "excerpt": "S&P 500 holds above MA20 as geopolitical risk peaks; technical structure supports near-term upside.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Technical support intact with neutral RSI suggesting upside continuation toward 7600 resistance.",
-    "entry": "7503.85",
-    "tp": "7600.00",
-    "sl": "7420.00",
-    "reliability": "MEDIUM"
+    "comment": "Bullish structure intact with MA20 support and neutral RSI offering favorable risk-reward.",
+    "entry": "7440.00",
+    "tp": "7520.00",
+    "sl": "7400.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Price Reclaims MA20 Amid Institutional Accumulation",
-    "date": "2026-07-08 19:17",
+    "title": "[BTC/USD] UP: Paradigm’s $1.2B AI Fund Drive and MA20 Support Validate Bullish Thesis",
+    "date": "2026-07-09 02:28",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC holds above MA20 at $61,821 signaling near-term bullish structure",
-      "Institutional treasury additions offset regulatory headwinds",
-      "RSI at 54 suggests room for momentum extension"
+      "Paradigm’s $1.2B fourth fund (AI/robotics pivot) signals institutional deep pockets entering BTC ecosystem",
+      "EC’s MiCA expansion to tokenization framing for potential regulatory tailwinds",
+      "Strategy’s 3,588 BTC sale suggests profit-taking but not structural weakness"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC tests $62K resistance with MA20 support intact; institutional flows provide bid.",
+    "excerpt": "BTC/USD bullish on AI adoption and MA20 support; bybit recommended.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Price above MA20 with neutral RSI allows asymmetric upside toward $64K.",
-    "entry": "61850",
-    "tp": "64000",
-    "sl": "60450",
+    "status": "NEUTRAL",
+    "comment": "BTC/USD bullish on AI adoption and MA20 support; bybit recommended.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
