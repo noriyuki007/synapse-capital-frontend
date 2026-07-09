@@ -1,68 +1,69 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 金利上昇圧力とテクニカル強気の二重自立",
-    "date": "2026-07-09 02:26",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-09 11:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米国10年物金利の微増が為替プレミアムを押し上げる",
-      "USD/JPYはMA20上回りRSIも70超で強気相続",
-      "流動性確保のためdmm-fxの利用を推奨"
+      "中国6月CPIが予想を下回りインフレ圧力緩和",
+      "イランによるミサイル発射で地政学リスクが高まり安全資産需要が波及",
+      "テクニカルは価格がMA20を上回りRSIは66.6で上余地あり"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米国10年物金利上昇とテクニカル強気がUSD/JPYを支え、162.46の推進局面でMA20上回りRSI71.9との相乗効果が注目される。",
+    "excerpt": "中国CPI予想下振れとイラン情勢緊張がリスクオフを誘導しつつ、テクニカルはMA20上抜けでドル買い優勢。短期的に上昇余地あり。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "金利上昇とテクニカル強気の二重自立",
-    "entry": "161.5",
-    "tp": "163.3",
-    "sl": "160.8",
-    "reliability": "HIGH"
+    "comment": "MA20上抜けとRSIの上余地から押し目買いが有利",
+    "entry": "162.30",
+    "tp": "163.80",
+    "sl": "161.50",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: 地政学的リスクの高騰とMA20下抜けを確認",
-    "date": "2026-07-09 02:27",
+    "title": "[S&P 500] DOWN: 地政学的ショックによるリスクオフとMA20乖離縮小の売り優位性",
+    "date": "2026-07-09 11:42",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "",
     "tldr_points": [
-      "中東情勢の悪化がリスクオフを誘発",
-      "S&P 500はMA20をわずかに上回るもRSIは中立域",
-      "売り方向でのエントリーはMA20割れをトリガーに"
+      "トランプ前大統領のイラン合意『終了』発言で地政学リスク急増、リスクオフの売り優勢",
+      "現在値7482.7がMA20（7440.2）上方に位置するもRSI中立圏で上値追い弱い",
+      "短期リバウンドを売り向かう戦略がリスク・リワードに優る"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "中東情勢の緊張化でリスクオフが進み、S&P 500はMA20付近での揉み合いから下抜けの可能性が高まる。",
+    "excerpt": "イラン核合意破棄示唆で地政学リスクが急浮上。S&P 500はMA20上方で推移するもRSI中立でモメンタム不足、短期売り戦略が有効。",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "地政学的リスクの高騰とMA20下抜けが売りシグナルを強化",
-    "entry": "7435.00",
+    "comment": "地政学リスク急増とRSI中立圏でのモメンタム喪失、MA20乖離縮小を根拠に短期売り推奨",
+    "entry": "7480.00",
     "tp": "7400.00",
-    "sl": "7460.00",
+    "sl": "7500.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] 上昇相関: MA20上回りと機関流動性拡大の一致を確認",
-    "date": "2026-07-09 02:28",
+    "title": "[BTC/USD] FLAT: MA20下限からの現在価格反発と金利環境の不確実性回避",
+    "date": "2026-07-09 11:44",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20上で安定的に推移、RSIは55台で横ばい",
-      "Paradigm投資増加とMiCA拡充で機関関心がエスカレート",
-      "流動性確保の観点からbitflyer推奨"
+      "MA20付近でのテクニカルサポート確認",
+      "Wyden案保護措置の政策不確実性",
+      "RSI中位のモメンタム静穏",
+      "ParadigmのAI・ロボティクス進出で機関資金流出リスク"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDは62,215円付近でMA20（61,836円）を上回り、RSI（55.3）は中立域を維持。ParadigmのAI領域への撤出やMiCA拡充といった機関関心のカタリストが集中し、流動性確保にはbitflyerの活用を推奨する。",
+    "excerpt": "BTC/USDは61,800ドル付近のMA20からわずか上抜けしているが、RSIは中位であり、ファンダメンタルズの政策不確実性と機関資金のテーマシフトにより方向感失われつつある。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20上回りと機関関心の高まりを踏まえて上昇展開を予測",
-    "entry": "61800",
-    "tp": "64000",
-    "sl": "60500",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "MA20近くでの反発を確認しつつも、政策・機関資金のテーマシフトで方向感低い",
+    "entry": "61780.00",
+    "tp": "62200.00",
+    "sl": "61400.00",
+    "reliability": "MEDIUM"
   }
 }

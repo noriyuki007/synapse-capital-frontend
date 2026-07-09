@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Signals MA20 Support, Yield Rise Fuels Rally",
-    "date": "2026-07-09 02:26",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-09 11:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "AI spots bullish momentum at MA20",
-      "Yield divergence and order flow support upside",
-      "Target 163.00 with 161.38 stop"
+      "USD/JPY trades above MA20 at 161.475, confirming bullish trend",
+      "Iranian missile attacks and PBOC USD/CNY fix at 6.8036 support USD bid",
+      "RSI 66.6 leaves room before overbought; tactical long favored"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "AI flags bullish USD/JPY near MA20, reinforced by yield rise and order flow, eyeing 163.00 target.",
+    "excerpt": "USD/JPY bullish above MA20; Iran oil risk and PBOC fix support upside. Buy dips, TP 163.50.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "AI flags bullish USD/JPY near MA20, reinforced by yield rise and order flow, eyeing 163.00 target.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "Bullish trend above MA20 with geopolitical and PBOC catalysts supporting USD.",
+    "entry": "161.80",
+    "tp": "163.50",
+    "sl": "160.90",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 Amid Geopolitical Volatility",
-    "date": "2026-07-09 02:27",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-09 11:42",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Onsite Invest",
+    "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 testing MA20 support at 7440",
-      "RSI at neutral 47.44, no oversold condition",
-      "Geopolitical risk priced in, bullish structure intact"
+      "S&P 500 trades above 20‑day MA at 7482.71 with neutral RSI",
+      "Cathie Wood AI purchase injects tech confidence",
+      "Short‑term Iran deal noise offset by bullish technical setup"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above MA20 as geopolitical risk peaks; technical structure supports near-term upside.",
+    "excerpt": "S&P 500 at 7482, above MA20; AI buying supports bullish bias; target 7600, stop at 7440.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Bullish structure intact with MA20 support and neutral RSI offering favorable risk-reward.",
-    "entry": "7440.00",
-    "tp": "7520.00",
-    "sl": "7400.00",
-    "reliability": "HIGH"
+    "comment": "S&P 500 above MA20 with neutral RSI, AI buying supports bullish bias",
+    "entry": "7482.71",
+    "tp": "7600.00",
+    "sl": "7440.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Paradigm’s $1.2B AI Fund Drive and MA20 Support Validate Bullish Thesis",
-    "date": "2026-07-09 02:28",
+    "title": "[BTC/USD] UP: AI Multi-Factor Signals Bullish Momentum at MA20",
+    "date": "2026-07-09 11:44",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Paradigm’s $1.2B fourth fund (AI/robotics pivot) signals institutional deep pockets entering BTC ecosystem",
-      "EC’s MiCA expansion to tokenization framing for potential regulatory tailwinds",
-      "Strategy’s 3,588 BTC sale suggests profit-taking but not structural weakness"
+      "Price tests MA20 support, hinting at a rebound.",
+      "Bullish macro news from Wyden and Paradigm expands upside potential.",
+      "RSI at 53 suggests room for upward momentum."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD bullish on AI adoption and MA20 support; bybit recommended.",
+    "excerpt": "BTC holds near MA20 support with bullish macro tone; RSI modest, volume rising. Key catalyst: Wyden bill defense bullish",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USD bullish on AI adoption and MA20 support; bybit recommended.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "AI detects support at MA20 with bullish macro catalyst",
+    "entry": "61780",
+    "tp": "62500",
+    "sl": "61500",
+    "reliability": "HIGH"
   }
 }
