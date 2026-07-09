@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 円安基調継続と米国・イランリスクプレミアムの織り込み",
-    "date": "2026-07-09 19:51",
+    "title": "[USD/JPY] UP: MA20での反発と米長期金利上昇の整合性",
+    "date": "2026-07-10 02:53",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "USD/JPYは162.453とMA20（161.474）を上回り強気トレンドが継続。",
-      "米国・イランリスクプレミアムとECBの緩和的姿勢が円売りを後押し。",
-      "RSI(14)は66.35と過熱の手前だが、モメンタムは上向きで押し目買いが有効。"
+      "価格はMA20を上抜け、RSIは64で買い優勢",
+      "米30年債入札の高利回りが米ドルを支える",
+      "原油安によるリスクオフが円買いを抑制し、USD/JPYの上昇余地を残す"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは162.453でMA20（161.474）を上回る強気構造を維持。米国・イラン情勢のリスクプレミアム上昇と円安基調が上値を支援。本日のシナプス解析では押し目買いバイアスを提示し、162.00台前半からのロングエントリーを戦術的に構築する。",
+    "excerpt": "USD/JPYはMA20を上回り、米長期金利上昇と原油安の影響で上げトレンドが継続見込み。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20上回る強気トレンドと米国・イランリスクプレミアムによる円安基調継続",
-    "entry": "162.000",
-    "tp": "163.000",
-    "sl": "161.200",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPYはMA20を上回り、米長期金利上昇と原油安の影響で上げトレンドが継続見込み。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-09 19:56",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-10 02:56",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Mitsubishi UFJ Morgan Stanley Securities",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "価格MA20を上回り、RSIは中立付近；オイル/サービスセクターのセンチメントは強気。",
-      "テクニカルな合図とマクロ・カタリストが統合され、押し目買い/setupを支持。",
-      "明確なエントリー／TP／SLとブローカー流動性で、システマチックなロング・エクスポージャーが実行可能。"
+      "AI関連半導体株の強含みが全体指数を押し上げ",
+      "米イラン関係の緊張緩和がリスクオン sentiment を支援",
+      "テクニカルはMA20上抜けとRSI 61で上向きモメンタムを示す"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を上回り、RSIは47.6付近、中立モメンタム。オイル/サービス・ニュースが底支え。今、 Disciplineされたロットが適切。",
+    "excerpt": "S&P 500はMA20を上回り、AI・半導体株の rally と地政学的リスク緩和で上昇基盤が強まっている。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20反発、調整的RSI、中立モメンタム・シナリオを考慮し、7485 で買いを推奨。",
-    "entry": "7485.00",
-    "tp": "7555.00",
-    "sl": "7400.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P 500はMA20を上回り、AI・半導体株の rally と地政学的リスク緩和で上昇基盤が強まっている。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-09 19:57",
+    "title": "[BTC/USD] UP: MA20での反発と規制環境の緩和を確認",
+    "date": "2026-07-10 03:00",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTCがMA20(61,796)をブレイクアウト、現価62,703で健気なリカバリー",
-      "金融機関のステーブルコイン活用が加速、機関投信のデリバリティブ需要増",
-      "RSI64.08で買い積極性継続、オーダーフローは底堅い構造"
+      "価格はMA20を上回り、RSIは65で上余地あり",
+      "CFTCの人事不在と最高裁決定が規制の不透明感を緩和",
+      "押し目買いを想定し、bitflyerの流動性を活用したエントリーを推奨"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCがMA20を回復し、機関関連のステーブルコイン動向がデジタルアセット市場を支えつつある。現価62,703でテクニカル側もファンダメンタルズも同相。",
+    "excerpt": "BTC/USDはMA20を基盤とした反発局面にあり、規制リスクの和らぎとテクニカルの強気シグナルが買いを支持する。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20ブレイクと機関ファンダメンタルの同phase",
-    "entry": "62703",
-    "tp": "64200",
-    "sl": "61200",
+    "comment": "MA20を支持点とする上トレンドと規制環境の緩和が買いを後押し",
+    "entry": "62800",
+    "tp": "66000",
+    "sl": "61500",
     "reliability": "HIGH"
   }
 }
