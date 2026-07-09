@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-09 11:39",
+    "date": "2026-07-09 19:51",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY trades above MA20 at 161.475, confirming bullish trend",
-      "Iranian missile attacks and PBOC USD/CNY fix at 6.8036 support USD bid",
-      "RSI 66.6 leaves room before overbought; tactical long favored"
+      "USD/JPY breaks above MA20 amid risk-off Yen weakness",
+      "ECB’s policy neutrality strengthens USD dominance",
+      "US-Iran tensions align with technical bullishness"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish above MA20; Iran oil risk and PBOC fix support upside. Buy dips, TP 163.50.",
+    "excerpt": "USD/JPY continues upward momentum driven by Yen weakness and geopolitical risks. MA20 provides critical support.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish trend above MA20 with geopolitical and PBOC catalysts supporting USD.",
-    "entry": "161.80",
-    "tp": "163.50",
-    "sl": "160.90",
-    "reliability": "MEDIUM"
+    "comment": "Breakout above MA20 with positive macro backdrop and risk-on Yen dynamics.",
+    "entry": "161.47",
+    "tp": "165.00",
+    "sl": "161.00",
+    "reliability": "HIGH"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-09 11:42",
+    "date": "2026-07-09 19:56",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 trades above 20‑day MA at 7482.71 with neutral RSI",
-      "Cathie Wood AI purchase injects tech confidence",
-      "Short‑term Iran deal noise offset by bullish technical setup"
+      "MA20 (7440.20) acts as immediate support amid neutral RSI (47.56)",
+      "PepsiCo earnings and oil sector dynamics add fundamental uncertainty",
+      "Futures edge higher despite geopolitical tension, reinforcing bullish bias"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 at 7482, above MA20; AI buying supports bullish bias; target 7600, stop at 7440.",
+    "excerpt": "S&P 500 hovers above MA20 amid mixed catalysts; traders eye support bounce with tight risk parameters.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "S&P 500 above MA20 with neutral RSI, AI buying supports bullish bias",
-    "entry": "7482.71",
-    "tp": "7600.00",
-    "sl": "7440.00",
-    "reliability": "MEDIUM"
+    "comment": "Bias sustained by MA20 support and neutral RSI amid mixed macro catalysts.",
+    "entry": "7440.20",
+    "tp": "7520.00",
+    "sl": "7420.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Multi-Factor Signals Bullish Momentum at MA20",
-    "date": "2026-07-09 11:44",
+    "title": "[BTC/USD] UP: AI Detects Divergence Near MA20 as Macro Trends Favor Resilience",
+    "date": "2026-07-09 19:57",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price tests MA20 support, hinting at a rebound.",
-      "Bullish macro news from Wyden and Paradigm expands upside potential.",
-      "RSI at 53 suggests room for upward momentum."
+      "Bitcoin price trades above critical MA20, signaling momentum support",
+      "RSI divergence suggests bullish exhaustion; near-term volatility expected",
+      "Tokenization regulatory clarity from OCC stablecoin approval strengthens crypto fundamentals"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds near MA20 support with bullish macro tone; RSI modest, volume rising. Key catalyst: Wyden bill defense bullish",
+    "excerpt": "BTC/USD stabilizes above MA20 amid tokenization-driven institutional demand; RSI divergence warns of short-term pullback risk.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "AI detects support at MA20 with bullish macro catalyst",
-    "entry": "61780",
-    "tp": "62500",
-    "sl": "61500",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTC/USD stabilizes above MA20 amid tokenization-driven institutional demand; RSI divergence warns of short-term pullback risk.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }

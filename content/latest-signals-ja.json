@@ -1,69 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-09 11:39",
+    "title": "[USD/JPY] UP: 円安基調継続と米国・イランリスクプレミアムの織り込み",
+    "date": "2026-07-09 19:51",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "中国6月CPIが予想を下回りインフレ圧力緩和",
-      "イランによるミサイル発射で地政学リスクが高まり安全資産需要が波及",
-      "テクニカルは価格がMA20を上回りRSIは66.6で上余地あり"
+      "USD/JPYは162.453とMA20（161.474）を上回り強気トレンドが継続。",
+      "米国・イランリスクプレミアムとECBの緩和的姿勢が円売りを後押し。",
+      "RSI(14)は66.35と過熱の手前だが、モメンタムは上向きで押し目買いが有効。"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "中国CPI予想下振れとイラン情勢緊張がリスクオフを誘導しつつ、テクニカルはMA20上抜けでドル買い優勢。短期的に上昇余地あり。",
+    "excerpt": "USD/JPYは162.453でMA20（161.474）を上回る強気構造を維持。米国・イラン情勢のリスクプレミアム上昇と円安基調が上値を支援。本日のシナプス解析では押し目買いバイアスを提示し、162.00台前半からのロングエントリーを戦術的に構築する。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20上抜けとRSIの上余地から押し目買いが有利",
-    "entry": "162.30",
-    "tp": "163.80",
-    "sl": "161.50",
-    "reliability": "MEDIUM"
+    "comment": "MA20上回る強気トレンドと米国・イランリスクプレミアムによる円安基調継続",
+    "entry": "162.000",
+    "tp": "163.000",
+    "sl": "161.200",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: 地政学的ショックによるリスクオフとMA20乖離縮小の売り優位性",
-    "date": "2026-07-09 11:42",
+    "title": "[S&P 500] UP: MA20反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-09 19:56",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "prediction_direction": "UP",
+    "recommended_broker": "Mitsubishi UFJ Morgan Stanley Securities",
     "tldr_points": [
-      "トランプ前大統領のイラン合意『終了』発言で地政学リスク急増、リスクオフの売り優勢",
-      "現在値7482.7がMA20（7440.2）上方に位置するもRSI中立圏で上値追い弱い",
-      "短期リバウンドを売り向かう戦略がリスク・リワードに優る"
+      "価格MA20を上回り、RSIは中立付近；オイル/サービスセクターのセンチメントは強気。",
+      "テクニカルな合図とマクロ・カタリストが統合され、押し目買い/setupを支持。",
+      "明確なエントリー／TP／SLとブローカー流動性で、システマチックなロング・エクスポージャーが実行可能。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "イラン核合意破棄示唆で地政学リスクが急浮上。S&P 500はMA20上方で推移するもRSI中立でモメンタム不足、短期売り戦略が有効。",
+    "excerpt": "S&P 500はMA20を上回り、RSIは47.6付近、中立モメンタム。オイル/サービス・ニュースが底支え。今、 Disciplineされたロットが適切。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "地政学リスク急増とRSI中立圏でのモメンタム喪失、MA20乖離縮小を根拠に短期売り推奨",
-    "entry": "7480.00",
-    "tp": "7400.00",
-    "sl": "7500.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20反発、調整的RSI、中立モメンタム・シナリオを考慮し、7485 で買いを推奨。",
+    "entry": "7485.00",
+    "tp": "7555.00",
+    "sl": "7400.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: MA20下限からの現在価格反発と金利環境の不確実性回避",
-    "date": "2026-07-09 11:44",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-09 19:57",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20付近でのテクニカルサポート確認",
-      "Wyden案保護措置の政策不確実性",
-      "RSI中位のモメンタム静穏",
-      "ParadigmのAI・ロボティクス進出で機関資金流出リスク"
+      "BTCがMA20(61,796)をブレイクアウト、現価62,703で健気なリカバリー",
+      "金融機関のステーブルコイン活用が加速、機関投信のデリバリティブ需要増",
+      "RSI64.08で買い積極性継続、オーダーフローは底堅い構造"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDは61,800ドル付近のMA20からわずか上抜けしているが、RSIは中位であり、ファンダメンタルズの政策不確実性と機関資金のテーマシフトにより方向感失われつつある。",
+    "excerpt": "BTCがMA20を回復し、機関関連のステーブルコイン動向がデジタルアセット市場を支えつつある。現価62,703でテクニカル側もファンダメンタルズも同相。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "MA20近くでの反発を確認しつつも、政策・機関資金のテーマシフトで方向感低い",
-    "entry": "61780.00",
-    "tp": "62200.00",
-    "sl": "61400.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20ブレイクと機関ファンダメンタルの同phase",
+    "entry": "62703",
+    "tp": "64200",
+    "sl": "61200",
+    "reliability": "HIGH"
   }
 }
