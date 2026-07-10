@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Yen strength on BOJ hike expectations and fiscal policy",
-    "date": "2026-07-10 11:42",
+    "title": "[USD/JPY] 上昇: MA20上回りと円安要因の拡大が強気を支える",
+    "date": "2026-07-10 19:50",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "日本の生産者物価が2023年以来の伸び、日銀利上げ観測を強化",
-      "財務相発言でGPIF等の国内資産シフトが示唆され円買い圧力",
-      "テクニカルはMA20下回り、RSI中立ながら下値余地を示唆"
+      "現在価格はMA20上回り、RSIはやや上振れ継続中",
+      "BOJは引き締め姿勢維持、米金利差が円安を促進",
+      "CPI発表前のリスク調整局面で押し目買い戦略が有効"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "円高圧力が強まる中、USD/JPYはMA20を下回り下落トレンドへ転換の兆し。エントリー161.30、TP160.80、SL161.80で売り戦略を推奨。",
+    "excerpt": "USD/JPYは161.79でMA20上回り、RSI54の上振れから円安局面が継続する中、米CPI前のリスク調整局面で押し目買い戦略が注目される。",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "日銀利上げ期待と財務相の国内資産シフト発言が円買いを強化、MA20下回りで下落トレンド入り",
-    "entry": "161.30",
-    "tp": "160.80",
-    "sl": "161.80",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20上回りと円安局面が継続する中、米CPI前のリスク調整局面で押し目買い戦略を推奨",
+    "entry": "161.56",
+    "tp": "162.2",
+    "sl": "161.2",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: 半導体主導の上昇トレンド継続とマーケットブレッド改善を確認",
-    "date": "2026-07-10 11:43",
+    "title": "[S&P 500] UP: MA20サポートとRSI中立域上振れが示唆する上昇継続",
+    "date": "2026-07-10 19:51",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "半導体セクターの強勢が指数を牽引、MA20を明確に上回りトレンド継続を示唆",
-      "スモールキャップのアウトパフォームによりマーケットブレッドが改善、上昇の持続性が増大",
-      "RSI 61水準は買われすぎではなく、更なる上昇余地を残している"
+      "現在値7543.64がMA20（7448.05）を上回り、短期トレンドは強気バイアスを維持",
+      "RSI 61.06は買われすぎ水準から離れ、更なる上昇余地を残す健全なモメンタムを示唆",
+      "半導体セクターの軟化を産業・消費セクターのローテーションが相殺し、指数を下支え"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "半導体主導の上昇でS&P 500はMA20を維持。スモールキャップの台頭でブレッド改善が確認され、押し目買い戦略が有効。",
+    "excerpt": "S&P500はMA20を足場に上昇トレンドを継続。RSIは中立域上部で伸びしろ十分。セクターローテーションを背景に押し目買い戦略が有効。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "半導体主導の上昇とブレッド改善、MA20サポート下での押し目買い優位性",
-    "entry": "7505.00",
+    "comment": "MA20サポート・RSI健全・セクターローテーション継続で押し目買い優位",
+    "entry": "7545.00",
     "tp": "7650.00",
-    "sl": "7430.00",
-    "reliability": "MEDIUM"
+    "sl": "7420.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: MA20上限抑え止めとRSI疲れの両方を確認",
-    "date": "2026-07-10 11:44",
+    "title": "[BTC/USD] UP: MA20上抜けと強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-10 19:52",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20上限で抵制中",
-      "RSIは過熱圏近接で反転警告",
-      "レギュレーション不確実性継続"
+      "価格がMA20を明確に上回り、RSIは中立〜強気圏を維持",
+      "機関資金の流入兆候と規制面の不透明感が相殺、上昇バイアス優位",
+      "流動性確保の観点からbitflyerでの執行を推奨"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDは63820ドルでのトレードや MA20ラインの上限抑えで推奨する。",
+    "excerpt": "BTC/USDはMA20を突破しRSI68で上昇モメンタムを維持。機関買いとマクロ金利環境が後押しし、押し目買い戦略が有効。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "MA20上限抑えとRSI過熱で反転警戒",
-    "entry": "63800.00",
-    "tp": "63200.00",
-    "sl": "64300.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20上抜けと機関資金流入が上昇トレンドを裏付け、押し目買いが優位",
+    "entry": "64200",
+    "tp": "66500",
+    "sl": "62800",
+    "reliability": "HIGH"
   }
 }
