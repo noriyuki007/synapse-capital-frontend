@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-07-11-crypto-ja",
+    "date": "2026-07-11 02:48",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "現在価格63823.109375円はMA2061799.81円を上回り、RSI66.68で上昇トレンドを示す。MICROStrategyが1,400BTCを売却し、AIシフトに資金を振り向ける一方、EUのMiCA後の資金流出がリスク要因。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-11-crypto-en",
+    "date": "2026-07-11 02:48",
+    "title": "[BTC/USD] UP: Price Above MA20 with Moderate RSI and Mixed Fundamentals",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC holds above MA20 at 63,823, RSI 66.7 shows bullish tone; mixed news cue near-term upside, watch for profit-taking..!!",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-11-stocks-ja",
+    "date": "2026-07-11 02:46",
+    "title": "[S&P 500] UP: MA20上回る7569とRSI56で長期的上昇トレンドを支持",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P500はMA20上回る7569で上昇トレンド、RSI56で中立的上昇余地、イラン外交がリスクオンを牽引。流動性確保の楽天証券利用を推奨。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-11-stocks-en",
+    "date": "2026-07-11 02:46",
+    "title": "[S&P 500] UP: Bullish Momentum Persists as Price Trades Above MA20 with Neutral RSI",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 maintains bullish trajectory trading above MA20 while RSI indicates sustainable momentum amid de-escalating geopolitical risks",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-11-fx-ja",
+    "date": "2026-07-11 02:45",
+    "title": "[USD/JPY] UP: MA20でのサポートとインフレ期待によるドル強気",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "MA20付近でのサポートとインフレ期待によるドル買いが優位、短期的に上抜けの可能性が高まる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-11-fx-en",
+    "date": "2026-07-11 02:45",
+    "title": "[USD/JPY] UP: Yield Differential Widens as Fed Inflation Warning Anchors Hawkish Bias",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY consolidates above MA20 as hawkish Fed repricing and trade policy uncertainty drive yield advantage.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-07-10-crypto-ja",
     "date": "2026-07-10 19:52",
     "title": "[BTC/USD] UP: MA20上抜けと強気ファンダメンタルズの整合性を確認",

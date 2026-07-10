@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] 上昇: MA20上回りと円安要因の拡大が強気を支える",
-    "date": "2026-07-10 19:50",
+    "title": "[USD/JPY] UP: MA20でのサポートとインフレ期待によるドル強気",
+    "date": "2026-07-11 02:45",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "現在価格はMA20上回り、RSIはやや上振れ継続中",
-      "BOJは引き締め姿勢維持、米金利差が円安を促進",
-      "CPI発表前のリスク調整局面で押し目買い戦略が有効"
+      "USD/JPYはMA20をわずかに上抜け、底堅い動き",
+      "Fedのインフレ見通しがドルを支え、円売り圧力が継続",
+      "原油下落とトランプ発言がリスクオンを後押し"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは161.79でMA20上回り、RSI54の上振れから円安局面が継続する中、米CPI前のリスク調整局面で押し目買い戦略が注目される。",
+    "excerpt": "MA20付近でのサポートとインフレ期待によるドル買いが優位、短期的に上抜けの可能性が高まる。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20上回りと円安局面が継続する中、米CPI前のリスク調整局面で押し目買い戦略を推奨",
-    "entry": "161.56",
-    "tp": "162.2",
-    "sl": "161.2",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "MA20付近でのサポートとインフレ期待によるドル買いが優位、短期的に上抜けの可能性が高まる。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20サポートとRSI中立域上振れが示唆する上昇継続",
-    "date": "2026-07-10 19:51",
+    "title": "[S&P 500] UP: MA20上回る7569とRSI56で長期的上昇トレンドを支持",
+    "date": "2026-07-11 02:46",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "現在値7543.64がMA20（7448.05）を上回り、短期トレンドは強気バイアスを維持",
-      "RSI 61.06は買われすぎ水準から離れ、更なる上昇余地を残す健全なモメンタムを示唆",
-      "半導体セクターの軟化を産業・消費セクターのローテーションが相殺し、指数を下支え"
+      "MA20上回る7569で上昇トレンド",
+      "イラン外交再開と原油安でリスクオンムード",
+      "テクニカル指標が7500～7700の上昇余地を示唆"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20を足場に上昇トレンドを継続。RSIは中立域上部で伸びしろ十分。セクターローテーションを背景に押し目買い戦略が有効。",
+    "excerpt": "S&P500はMA20上回る7569で上昇トレンド、RSI56で中立的上昇余地、イラン外交がリスクオンを牽引。流動性確保の楽天証券利用を推奨。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20サポート・RSI健全・セクターローテーション継続で押し目買い優位",
-    "entry": "7545.00",
-    "tp": "7650.00",
-    "sl": "7420.00",
+    "comment": "MA20上回る7569とRSI56で中立的上昇余地、イラン外交がリスクオンを牽引し、流動性確保の楽天証券利用で安定した執行が期待できる。",
+    "entry": "7500",
+    "tp": "7700",
+    "sl": "7400",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20上抜けと強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-10 19:52",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性",
+    "date": "2026-07-11 02:48",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格がMA20を明確に上回り、RSIは中立〜強気圏を維持",
-      "機関資金の流入兆候と規制面の不透明感が相殺、上昇バイアス優位",
-      "流動性確保の観点からbitflyerでの執行を推奨"
+      "MA20上抜きで上昇トレンド続く",
+      "RSI66.68はやや過熱もまだ上昇余地",
+      "MICROStrategyの売却で短期的売圧が出る可能性"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を突破しRSI68で上昇モメンタムを維持。機関買いとマクロ金利環境が後押しし、押し目買い戦略が有効。",
+    "excerpt": "現在価格63823.109375円はMA2061799.81円を上回り、RSI66.68で上昇トレンドを示す。MICROStrategyが1,400BTCを売却し、AIシフトに資金を振り向ける一方、EUのMiCA後の資金流出がリスク要因。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20上抜けと機関資金流入が上昇トレンドを裏付け、押し目買いが優位",
-    "entry": "64200",
-    "tp": "66500",
-    "sl": "62800",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "現在価格63823.109375円はMA2061799.81円を上回り、RSI66.68で上昇トレンドを示す。MICROStrategyが1,400BTCを売却し、AIシフトに資金を振り向ける一方、EUのMiCA後の資金流出がリスク要因。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
