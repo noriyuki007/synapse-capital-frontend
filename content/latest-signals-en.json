@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Technical Support Confirmed Above MA20 Amid Neutral Fundamentals",
-    "date": "2026-07-11 18:25",
+    "title": "[USD/JPY] FLAT: Neutral RSI Amid Yield Consolidation as Rig Counts Signal Energy Sector Stability",
+    "date": "2026-07-12 01:54",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holding above MA20 confirms bullish structure",
-      "RSI at 52.7 indicates room for upward momentum",
-      "Rig count increase supports energy sector stability"
+      "Price holds marginally above MA20 suggesting range-bound condition",
+      "RSI at 52.7 indicates neither overbought nor oversold conditions",
+      "Rig count increase signals controlled energy supply outlook"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above key moving average with neutral RSI, targeting further upside momentum.",
+    "excerpt": "USD/JPY consolidates around 161.67 with neutral momentum amid stable energy sector data.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Technical support confirmed above MA20 with neutral RSI allowing continuation toward 162.40",
+    "status": "NEUTRAL",
+    "comment": "Range-bound trading favored amid neutral RSI and stable yield differentials",
     "entry": "161.55",
-    "tp": "162.40",
-    "sl": "161.40",
-    "reliability": "HIGH"
+    "tp": "161.95",
+    "sl": "161.30",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-11 18:27",
+    "title": "[S&P 500] UP: Strategic Positioning Ahead of Earnings Catalysts",
+    "date": "2026-07-12 01:55",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers (for global liquidity)",
     "tldr_points": [
-      "S&P 500 holds above MA20 support amid mixed oil/inflation signals",
-      "Earnings season drives institutional buying despite macroheadwinds",
-      "RSI at 57 indicates room for upside momentum before overbought territory"
+      "S&P 500 showing bullish momentum with RSI at 57.3; MA20 signals support",
+      "Strong Q2 EPS growth in Tech/Industrials sectors",
+      "Divergence between S&P 500 and broader market indices persists"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 maintains bullish structure above MA20 as earnings season fuels institutional demand despite oil price volatility.",
+    "excerpt": "S&P 500 bullish setup with technical indicators and earnings catalysts; div trade recommended",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Bullish structure intact above MA20 with earnings season providing fundamental tailwind",
-    "entry": "7475.00",
-    "tp": "7650.00",
-    "sl": "7420.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P 500 bullish setup with technical indicators and earnings catalysts; div trade recommended",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Regulatory Tailwinds and Technical Strength Favor Upside",
-    "date": "2026-07-11 18:30",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-12 01:57",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Housing bill CBDC ban reduces fiat‑competition pressure",
-      "DOJ drops BitClub charges, easing overhang risk",
-      "Empery Digital offloads 1,400 BTC but impact is limited vs. bullish catalysts"
+      "ETF inflows signal renewed institutional demand.",
+      "Regulatory clarity from CBDC ban and Clarity Act supportive.",
+      "Technical bias: price above MA20, RSI near 68 indicates bullish momentum."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds above MA20 with RSI near 68; regulatory tailwinds offset modest BTC sell‑off, supporting upside toward 66k‑68k",
+    "excerpt": "Bitcoin climbs on ETF inflows, regulatory clarity, and technical strength above MA20; RSI~68 signals continued upsideup.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "BTC shows bullish bias with regulatory support and technical strength.",
-    "entry": "62000",
-    "tp": "66500",
-    "sl": "60500",
+    "comment": "Bullish momentum supported by ETF inflows and technical strength above MA20.",
+    "entry": "63800.00",
+    "tp": "66500.00",
+    "sl": "62800.00",
     "reliability": "HIGH"
   }
 }

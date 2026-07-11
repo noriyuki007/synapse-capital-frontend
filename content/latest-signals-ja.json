@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-11 18:25",
+    "title": "[USD/JPY] UP: MA20上方の推移と原油価格・インフレ懸念によるドル買い圧力の継続",
+    "date": "2026-07-12 01:54",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "USD/JPYはMA20を上回り、ボリッシュバイアスが継続",
-      "インフレ懸念と原油リグ増加がドル支持を強める",
-      "テクニカルはRSIが中立圏で押し目買いの余地あり"
+      "MA20が下値支持として機能し、短期的な上昇トレンドを維持",
+      "原油価格の下落が必ずしもインフレ沈静化に直結しないリスクを意識",
+      "RSIは中立圏にあり、さらなる上昇余地を内包"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "現在価格はMA20を上回り、RSIは中立圏に留まる中、インフレ懸念と原油リグ増加がドルの底堅さを支え、上昇バイアスが継続している。",
+    "excerpt": "USD/JPYはMA20（161.55）を上回る161.67で推移しており、テクニカル面では強気姿勢を維持。原油価格とインフレの関係性、および米決算期待を背景としたマクロ環境の不透明感が、ドル買い・円売り圧力を支える構造となっている。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20上抜けとファンダメンタルズのドル支持が一致",
-    "entry": "161.55",
-    "tp": "162.20",
+    "comment": "MA20をサポートとした上昇トレンド継続。インフレ懸念によるドル買い継続を想定。",
+    "entry": "161.60",
+    "tp": "162.50",
     "sl": "161.20",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: 原油安と好決算期待を背景としたMA20上方乖離の維持",
-    "date": "2026-07-11 18:27",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-12 01:55",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "原油安と好決算期待がインデックスを下支え",
-      "現在価格7575.39はMA20(7463.47)を上回りRSI(14)は57.34で過熱なし",
-      "戦術的には押し目買いを推奨、流動性の観点から[]を利用"
+      "MA20上抜けが上昇トレンドの確認サイン",
+      "RSIは57で過熱感限定的、余地あり",
+      "主要銘柄の決算とマクロ指標が上値を支える"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "原油安にもかかわらずトランフレ懸念は残るが、ウォール街は好決算シーズンを背景に上昇。S&P 500はMA20を上回る7575.39で推移し、RSIは中立圏で上昇モメンタムを維持。押し目買い戦略を推奨する。",
+    "excerpt": "MA20を基軸とした押し目買いが妥当で、流動性の高いNomura Securitiesを活用したエントリーを推奨。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20上方乖離とRSI中立圏でのモメンタム維持、好決算期待による押し目買い優位",
-    "entry": "7480.00",
+    "comment": "MA20上抜けと安定RSIが上昇を支持、決算期待が追い風",
+    "entry": "7560.00",
     "tp": "7700.00",
-    "sl": "7400.00",
-    "reliability": "MEDIUM"
+    "sl": "7500.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20上抜けとRSI強気圏でのモメンタム継続を確認",
-    "date": "2026-07-11 18:30",
+    "title": "[BTC/USD] UP: ETF流入反転とMA20乖離のモメンタム継続を確認",
+    "date": "2026-07-12 01:57",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格がMA20を明確に上抜け、トレンド転換の初期シグナルを形成",
-      "RSI68は強気モメンタムを示し、過熱感は未到達",
-      "機関資金流入を示唆するオンチェーン・マクロ要因が背景にある"
+      "ETF8週間ぶり流入転換で実需買い再来",
+      "RSI67.9・MA20上方乖離で短期トレンド強化",
+      "Clarity Act等規制透明化が下支え"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を上回りRSI68で強気継続、機関需要と規制環境改善が上昇バイアスを支える。",
+    "excerpt": "BTC/USDは64120ドル台でMA20を上回りRSI67.9の強気モメンタムを維持。ETF流入転換と規制透明化を背景に押し目買いを推奨。本日のAI解析も上昇バイアスを支持し、投機筋ロングが回帰。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上抜け・RSI強気・機関需要が整合、押し目買い推奨",
-    "entry": "62750",
-    "tp": "69000",
-    "sl": "61500",
+    "comment": "ETF流入転換とMA20上方乖離・RSI67.9のモメンタム維持を確認",
+    "entry": "63000.00",
+    "tp": "66500.00",
+    "sl": "60800.00",
     "reliability": "MEDIUM"
   }
 }
