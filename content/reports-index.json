@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-07-13-crypto-ja",
+    "date": "2026-07-13 02:00",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "MA20を上回る価格動とETF資金流入が需給を支え、CBDC禁則が代替需要を喚起。上昇バイアスを維持しつつ押し目狙いの戦略を提案。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-13-crypto-en",
+    "date": "2026-07-13 02:00",
+    "title": "[BTC/USD] UP: Institutional Inflows and Regulatory Clarity Drive Bullish Momentum",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "ETF inflows and regulatory developments underpin bullish BTC/USD momentum with MA20 support intact.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-13-stocks-ja",
+    "date": "2026-07-13 01:57",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "野村證券",
+    "excerpt": "S&P 500はMA20を基盤とした押し目買いが有望で、リスク管理を徹底すれば短期的上値追いが期待できる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-13-stocks-en",
+    "date": "2026-07-13 01:57",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 retains bullish structure above MA20; utilize dips to establish long exposure amid mixed macro.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-13-fx-en",
+    "date": "2026-07-13 01:56",
+    "title": "[USD/JPY] UP: AI Detects Critical Support at MA20 as Fundamentals Diverge",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "AI system flags USD/JPY bullish reversal at MA20 amid mixed US data risk and rebounding yields.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-13-fx-ja",
+    "date": "2026-07-13",
+    "title": "FX Analysis",
+    "genre": "FX",
+    "target_pair": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
     "id": "2026-07-12-crypto-ja",
     "date": "2026-07-12 18:53",
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
