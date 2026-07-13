@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Critical Support at MA20 as Fundamentals Diverge",
-    "date": "2026-07-13 01:56",
+    "title": "[USD/JPY] UP: AI Detects Break above MA20 Amid Safe‑Haven Divergence",
+    "date": "2026-07-13 11:29",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "MA20 ($161.55) acting as dynamic support with bullish MACD crossover",
-      "US CPI data tonight to validate or invalidate Fed rate cut expectations",
-      "Yield divergence widens as Treasury yields rally amid USD strength"
+      "Price holds above MA20 (161.69)",
+      "RSI remains in mid‑range, supporting upside bias",
+      "Geopolitical risk lifts yen but Fed inflation caution sustains dollar"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "AI system flags USD/JPY bullish reversal at MA20 amid mixed US data risk and rebounding yields.",
+    "excerpt": "USD/JPY edges higher; bullish on‑balance above MA20 despite heightened safe‑haven demand.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Meta-cohort alignment following MA20 bounce confirms asymmetric opportunity",
-    "entry": "161.45",
-    "tp": "163.10",
-    "sl": "160.90",
+    "comment": "Bullish on‑balance above MA20, supported by strong USD carry and limited safe‑haven pressure.",
+    "entry": "162.15",
+    "tp": "163.20",
+    "sl": "161.30",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-13 01:57",
+    "title": "[S&P 500] NEUTRAL: Geopolitical Volatility Offsets Technical Strength",
+    "date": "2026-07-13 11:31",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "XM",
     "tldr_points": [
-      "Price holds above MA20 (7463.47) with RSI-14 at 57.34 signaling constructive momentum",
-      "Geopolitical headlines induce near-term volatility but selective tech buy points emerge",
-      "Tactical long bias on dips toward moving average with defined risk parameters"
+      "Geopolitical tension via U.S.-Iran conflict inducing short-term equity volatility",
+      "S&P 500 trading above MA20, providing structural support for a dip-buy scenario",
+      "Semiconductor sector (NVDA, MU) approaching key institutional buy zones"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 retains bullish structure above MA20; utilize dips to establish long exposure amid mixed macro.",
+    "excerpt": "S&P 500 maintains bullish structure despite geopolitical headwinds; focus on MA20 support for tactical entries.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Price above MA20 with moderate RSI supports tactical long on dips.",
-    "entry": "7465.00",
-    "tp": "7700.00",
-    "sl": "7400.00",
+    "status": "NEUTRAL",
+    "comment": "Wait for pullback to MA20 for high-probability entry amid geopolitical volatility",
+    "entry": "7463.00",
+    "tp": "7650.00",
+    "sl": "7380.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Inflows and Regulatory Clarity Drive Bullish Momentum",
-    "date": "2026-07-13 02:00",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-13 11:32",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "ETF inflows of $282M signal renewed institutional demand",
-      "CBDC regulatory headwinds removed via housing bill enactment",
-      "MA20 support holds amid RSI(14) stabilization at 69.35"
+      "Price above MA20 with RSI 66 indicates near-term upside momentum.",
+      "Whale activation and SBI investment signal growing institutional demand.",
+      "Macro backdrop remains supportive as rates stabilize."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "ETF inflows and regulatory developments underpin bullish BTC/USD momentum with MA20 support intact.",
+    "excerpt": "BTC holds above MA20 with RSI 66, whale activity and SBI inflow support bullish bias for short-term upside in the Asia.!",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "ETF inflows and regulatory tailwinds support bullish continuation above MA20.",
-    "entry": "61852.22",
-    "tp": "65000.00",
-    "sl": "60200.00",
-    "reliability": "MEDIUM"
+    "comment": "Bullish bias supported by price above MA20, rising institutional inflows, and constructive on‑chain whale activity.",
+    "entry": "62000.00",
+    "tp": "66500.00",
+    "sl": "60400.00",
+    "reliability": "HIGH"
   }
 }
