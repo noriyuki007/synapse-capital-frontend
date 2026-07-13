@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Break above MA20 Amid Safe‑Haven Divergence",
-    "date": "2026-07-13 11:29",
+    "title": "[USD/JPY] UP: Carry Trade Momentum Intact Above MA20 Amid Geopolitical Risk Premium",
+    "date": "2026-07-13 19:57",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above MA20 (161.69)",
-      "RSI remains in mid‑range, supporting upside bias",
-      "Geopolitical risk lifts yen but Fed inflation caution sustains dollar"
+      "Price holds above MA20 (161.70) signaling sustained bullish bias",
+      "Goldman Sachs flags carry trade resilience for H2 supporting USD/JPY upside",
+      "Geopolitical oil spike negative for JPY fundamentals, offsetting safe-haven bids"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY edges higher; bullish on‑balance above MA20 despite heightened safe‑haven demand.",
+    "excerpt": "USD/JPY sustains above 162.00 as carry dynamics and oil-driven terms-of-trade deterioration for Japan outweigh safe-haven JPY demand.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish on‑balance above MA20, supported by strong USD carry and limited safe‑haven pressure.",
-    "entry": "162.15",
-    "tp": "163.20",
-    "sl": "161.30",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] NEUTRAL: Geopolitical Volatility Offsets Technical Strength",
-    "date": "2026-07-13 11:31",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "XM",
-    "tldr_points": [
-      "Geopolitical tension via U.S.-Iran conflict inducing short-term equity volatility",
-      "S&P 500 trading above MA20, providing structural support for a dip-buy scenario",
-      "Semiconductor sector (NVDA, MU) approaching key institutional buy zones"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 maintains bullish structure despite geopolitical headwinds; focus on MA20 support for tactical entries.",
-    "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Wait for pullback to MA20 for high-probability entry amid geopolitical volatility",
-    "entry": "7463.00",
-    "tp": "7650.00",
-    "sl": "7380.00",
+    "comment": "Carry dynamics and oil-driven terms-of-trade shock outweigh safe-haven bids; price above MA20 with RSI runway.",
+    "entry": "161.75",
+    "tp": "163.00",
+    "sl": "160.95",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: Oil Volatility Drives Sector Rotation as Technical Support Holds",
+    "date": "2026-07-13 20:00",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "tldr_points": [
+      "S&P 500 trades above MA20 at 7575.39 with neutral RSI 57.34",
+      "Oil price surge creates energy rally while chip stocks retreat",
+      "Earnings season catalyst offsets near-term volatility concerns"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 holds above MA20 amid oil-driven sector rotation and earnings catalyst",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "Holding above MA20 with neutral RSI supports continuation pattern",
+    "entry": "7465.00",
+    "tp": "7695.00",
+    "sl": "7420.00",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-13 11:32",
+    "title": "[BTC/USD] UP: Price Holds Above MA20 Amid Japan Crypto Catalysts",
+    "date": "2026-07-13 20:02",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price above MA20 with RSI 66 indicates near-term upside momentum.",
-      "Whale activation and SBI investment signal growing institutional demand.",
-      "Macro backdrop remains supportive as rates stabilize."
+      "BTC/USD trades above MA20 with RSI indicating mild bullish momentum.",
+      "Japanese institutional activity boosts on‑chain demand for BTC.",
+      "Technical setup favors a pull‑back to MA20 entry with upside target near 65k."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds above MA20 with RSI 66, whale activity and SBI inflow support bullish bias for short-term upside in the Asia.!",
+    "excerpt": "BTC/USD holds above MA20; Japan crypto initiatives support bullish bias.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Bullish bias supported by price above MA20, rising institutional inflows, and constructive on‑chain whale activity.",
-    "entry": "62000.00",
-    "tp": "66500.00",
-    "sl": "60400.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTC/USD holds above MA20; Japan crypto initiatives support bullish bias.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
