@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Carry Trade Momentum Intact Above MA20 Amid Geopolitical Risk Premium",
-    "date": "2026-07-13 19:57",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fed Hawkish Bias Strengthens",
+    "date": "2026-07-14 02:52",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above MA20 (161.70) signaling sustained bullish bias",
-      "Goldman Sachs flags carry trade resilience for H2 supporting USD/JPY upside",
-      "Geopolitical oil spike negative for JPY fundamentals, offsetting safe-haven bids"
+      "Fed hawkish pivot, higher rate hike odds boost USD/JPY",
+      "Current price above MA20 suggests bullish technical structure",
+      "Risk sentiment mixed; safe-haven JPY could offset fundamentals"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY sustains above 162.00 as carry dynamics and oil-driven terms-of-trade deterioration for Japan outweigh safe-haven JPY demand.",
+    "excerpt": "USD/JPY at 162.45, price above MA20, RSI modest, Fed hawkish stance supports upside.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Carry dynamics and oil-driven terms-of-trade shock outweigh safe-haven bids; price above MA20 with RSI runway.",
-    "entry": "161.75",
-    "tp": "163.00",
-    "sl": "160.95",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: Oil Volatility Drives Sector Rotation as Technical Support Holds",
-    "date": "2026-07-13 20:00",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "tldr_points": [
-      "S&P 500 trades above MA20 at 7575.39 with neutral RSI 57.34",
-      "Oil price surge creates energy rally while chip stocks retreat",
-      "Earnings season catalyst offsets near-term volatility concerns"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above MA20 amid oil-driven sector rotation and earnings catalyst",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Holding above MA20 with neutral RSI supports continuation pattern",
-    "entry": "7465.00",
-    "tp": "7695.00",
-    "sl": "7420.00",
+    "comment": "Fed hawkish stance and technical support at MA20 favor further upside.",
+    "entry": "162.00",
+    "tp": "163.50",
+    "sl": "161.50",
     "reliability": "HIGH"
   },
+  "STOCKS": {
+    "title": "[S&P 500] FLAT: Price Holds Above MA20 Amid Mixed Geopolitical Headwinds",
+    "date": "2026-07-14 02:56",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "tldr_points": [
+      "S&P 500 trades flat as price sits above MA20 with RSI near neutral.",
+      "Iran‑related oil spikes and equity‑index declines create conflicting macro signals.",
+      "Range‑bound strategy around MA20 offers defined risk/reward."
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 holds flat above MA20 with RSI near 54, while Iran‑linked oil gains and falling indexes create mixed backdrop.",
+    "pair": "S&P 500",
+    "status": "NEUTRAL",
+    "comment": "Price holds above MA20 with RSI neutral; range‑bound strategy advised.",
+    "entry": "7470.00",
+    "tp": "7560.00",
+    "sl": "7450.00",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Price Holds Above MA20 Amid Japan Crypto Catalysts",
-    "date": "2026-07-13 20:02",
+    "title": "[BTC/USD] UP: Institutional Adoption Catalyst and Technical Support Convergence",
+    "date": "2026-07-14 02:58",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD trades above MA20 with RSI indicating mild bullish momentum.",
-      "Japanese institutional activity boosts on‑chain demand for BTC.",
-      "Technical setup favors a pull‑back to MA20 entry with upside target near 65k."
+      "Institutional tokenization momentum via UK/Japan roadmap",
+      "Price holding above MA20 confirming bullish bias",
+      "Political push for Clarity Act suggests regulatory tailwinds"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD holds above MA20; Japan crypto initiatives support bullish bias.",
+    "excerpt": "BTC holds support at MA20 amid institutional tokenization gains and legislative push for regulatory clarity.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USD holds above MA20; Japan crypto initiatives support bullish bias.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Price holding above MA20 with supportive institutional tokenization news.",
+    "entry": "61850.00",
+    "tp": "64500.00",
+    "sl": "60800.00",
+    "reliability": "HIGH"
   }
 }
