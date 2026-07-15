@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Bullish Momentum Above MA20 with Risk-On Flows",
-    "date": "2026-07-15 02:12",
+    "title": "[USD/JPY] UP: Technical Strength Above MA20 Amid Mixed China Data and Geopolitical Tension",
+    "date": "2026-07-15 11:06",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above MA20 indicating near-term bullish bias",
-      "Risk‑on sentiment from AUDUSD strength supports USD/JPY upside",
-      "Oil price weakness reduces inflation pressure, allowing Fed to stay steady"
+      "China’s June retail sales and industrial output beat expectations, supporting risk-on sentiment.",
+      "Price trades above the 20‑day MA at 162.04 vs 161.88, with RSI near neutral 53.",
+      "Geopolitical escalation in the Gulf introduces safe‑haven bias, but the technical upside bias remains."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY trades above MA20 with RSI 56.8, buoyed by risk‑on flows and stable Fed outlook, targeting upside toward 163.5.",
+    "excerpt": "USD/JPY shows modest bullish bias as price holds above MA20 amid better‑than‑expected China data and regional tensions.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Bullish bias reinforced by price above MA20, RSI indicating room to rise, and risk‑on fundamentals.",
-    "entry": "162.10",
-    "tp": "163.45",
-    "sl": "161.35",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: Overbought RSI Conditions Temporarily Overridden by Fundamentals",
-    "date": "2026-07-15 02:15",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "For executing this setup, [] offers optimal depth in large-cap ETFs.",
-    "tldr_points": [
-      "AI-driven inflows anchor upward momentum",
-      "Macro tailwinds strengthen equity risk premium",
-      "Technical structure confirms breakout"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 breaks above MA20 with AI-driven inflows and inflation-driven rate relief",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500 breaks above MA20 with AI-driven inflows and inflation-driven rate relief",
+    "comment": "USD/JPY shows modest bullish bias as price holds above MA20 amid better‑than‑expected China data and regional tensions.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: Price Holds Above MA20 as Inflation Cools and AI Stabilizes",
+    "date": "2026-07-15 11:07",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "tldr_points": [
+      "S&P 500 trades above MA20 at 7543.59 with RSI-14 at 69.24 signaling strong momentum",
+      "Cooling inflation per recent review supports accommodative rate expectations",
+      "Tactical long favored with entry at spot, stop below 7470, target 7650"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 above MA20 with RSI 69; cooling inflation and AI recovery signal tactical long toward 7650 with stop under 7470.",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "Price above MA20 with cooling inflation supports tactical long.",
+    "entry": "7543.59",
+    "tp": "7650.00",
+    "sl": "7470.00",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-15 02:17",
+    "title": "[BTC/USD] UP: Price Holds Above MA20 Amid Institutional Accumulation Despite Overbought RSI",
+    "date": "2026-07-15 11:10",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price above MA20 with RSI 72.5 indicates strong upward momentum.",
-      "June CPI drop 0.4% fuels risk‑on sentiment, supporting BTC toward $68k‑$70k.",
-      "Mining production slowdown and USDC pressure pose modest headwinds but are outweighed by macro tailwinds."
+      "BTC trades 4.3% above MA20 signaling sustained bullish momentum",
+      "RSI at 72.87 indicates overbought conditions warranting tight risk management",
+      "Institutional flows via ETFs and corporate treasury adoption underpin structural bid"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds above MA20, RSI high; CPI dip fuels upside despite mining slowdown, targeting $68k resistance towards $70k now",
+    "excerpt": "BTC extends gains above $64.7K with MA20 support intact; overbought RSI demands disciplined entry.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "BTC holds above MA20 with rising macro tailwinds, offering a bullish entry toward $68k‑$70k resistance.",
-    "entry": "62800.00",
-    "tp": "69500.00",
-    "sl": "60500.00",
+    "comment": "Bullish trend intact above MA20 with institutional tailwinds, though overbought RSI requires pullback entry.",
+    "entry": "63500",
+    "tp": "68000",
+    "sl": "61800",
     "reliability": "MEDIUM"
   }
 }

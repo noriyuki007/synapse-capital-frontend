@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20上抜けとリスクオンフローの整合性",
-    "date": "2026-07-15 02:12",
+    "title": "[USD/JPY] UP: MA20 alignment with mild fundamentals",
+    "date": "2026-07-15 11:06",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "USD/JPYはMA20上方で推移し強気構造を確認",
-      "原油安とリスクオン環境がドル円をサポート",
-      "実行には流動性観点からdmm-fxを推奨"
+      "China June retail beat fuels risk appetite",
+      "MA20 near 161.88 offers support",
+      "RSI neutral suggests incremental upside"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは現在162.179とMA20（161.783）を上抜け、RSI56.75で堅調なモメンタムを維持。中東情勢の緊張緩和に伴う原油安とリスクオンフローがドル買いを支援。シナプス解析に基づき短期的な上昇バイアスを想定し押し目買いを推奨する。",
+    "excerpt": "USD/JPY currently at 162.04; positive Chinese retail data and MA20 support suggest potential upside in short term.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20上抜けとRSI56.75のモメンタム、リスクオン環境が上昇を支持",
-    "entry": "162.18",
-    "tp": "163.50",
-    "sl": "161.50",
+    "comment": "中国小売業の好調とMA20支持により短期的な上昇期待",
+    "entry": "162.00",
+    "tp": "162.50",
+    "sl": "161.80",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: 現在価格がMA20を上回り、インフレ低下とテクノロジー・金融セクターの強さを背景に上昇余地あり",
-    "date": "2026-07-15 02:15",
+    "title": "[S&P 500] UP: MA20での反発とインフレ冷却が支える上昇バイアス",
+    "date": "2026-07-15 11:07",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "野村證券",
     "tldr_points": [
-      "インフレ低下と Hormuz カーゴ Toll 撤回がリスクオンを後押し",
-      "テクノロジーと金融が S&P500 をリード、ファンダメンタルズ改善",
-      "価格は MA20 上放れ、RSI 69 で上昇余地残だが過熱感に注意"
+      "価格はMA20を上回り短期上昇トレンド継続の可能性",
+      "RSIは69で過熱感は限定的、調整余地あり",
+      "インフレ鈍化とAI株の調整が投資家心理を分断"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "インフレ低下と Hormuz 船舶課税撤回がリスクオンを促し、テクノロジー・金融セクターの強さが S&P500 を押し上げる。現在価格は MA20 を上回り、RSI は 69 で上昇余地ありだが過熱感に警戒。",
+    "excerpt": "MA20上抜けとインフレ鈍化がS&P 500の短期上昇を支え、調整局面での押し目買いが有望。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "インフレ低下とファンダメンタルズ改善が上昇を支え、MA20上抜けとRSI69が買いシグナルを示す",
-    "entry": "7500",
-    "tp": "7620",
-    "sl": "7460",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "MA20上抜けとインフレ鈍化がS&P 500の短期上昇を支え、調整局面での押し目買いが有望。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: CPI減速とMA20突破で機関巣歩みの加速を確認",
-    "date": "2026-07-15 02:17",
+    "title": "[BTC/USD] UP: MA20乖離と機関投資家流入の継続を確認",
+    "date": "2026-07-15 11:10",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "CPI月間0.4%減でFRB利下げ期待が増幅",
-      "MA20上回りRSI過熱でも機関資金の流動拠点確定",
-      "USDC危機感がBTCへリスクオフ資産としての再評価を促す"
+      "BTCはMA20を2,675ドル上回り強い上昇トレンドを維持",
+      "RSI72.8と過熱感はあるが機関投資家の流入が下支え",
+      "エントリーは押し目を待ち厳格なSLを設定"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "6月CPI月間0.4%減、金利先行きが緩和局面に転換。現在価格はMA20上回り、RSI過熱でも機関投資家の買い板が維持。流動性確保の観点からbitflyerの活用を推奨する。",
+    "excerpt": "BTC/USDは64,671ドルで取引され、MA20を大きく上回る強い上昇トレンドにある。機関投資家の暗号資産への資金流入や準備資産としての評価が根底を支える。RSI72.8と短期的な過熱感には警戒が必要だが、戦術的には押し目買いを推奨する。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上回りと金利緩和期待により上昇トレンド継続",
-    "entry": "64200",
-    "tp": "66000",
-    "sl": "62500",
-    "reliability": "HIGH"
+    "comment": "MA20上抜けと機関投資家流入による強い上昇トレンドを評価",
+    "entry": "63500.00",
+    "tp": "68000.00",
+    "sl": "60500.00",
+    "reliability": "MEDIUM"
   }
 }
