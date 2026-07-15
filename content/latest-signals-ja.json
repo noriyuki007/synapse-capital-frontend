@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20 alignment with mild fundamentals",
-    "date": "2026-07-15 11:06",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-15 18:59",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "China June retail beat fuels risk appetite",
-      "MA20 near 161.88 offers support",
-      "RSI neutral suggests incremental upside"
+      "ECBの金利固定姿勢が円を牽引",
+      "欧州産業生産の減速がユーロ弱体化を助長",
+      "日本の政策認識が円高リスクを低減"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY currently at 162.04; positive Chinese retail data and MA20 support suggest potential upside in short term.",
+    "excerpt": "ECBの金利固定姿勢と欧州産業減速がUSD/JPY上昇を支え、テクニカルもMA20超えで強気トレンドを示唆",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "中国小売業の好調とMA20支持により短期的な上昇期待",
-    "entry": "162.00",
-    "tp": "162.50",
-    "sl": "161.80",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発とインフレ冷却が支える上昇バイアス",
-    "date": "2026-07-15 11:07",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "野村證券",
-    "tldr_points": [
-      "価格はMA20を上回り短期上昇トレンド継続の可能性",
-      "RSIは69で過熱感は限定的、調整余地あり",
-      "インフレ鈍化とAI株の調整が投資家心理を分断"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20上抜けとインフレ鈍化がS&P 500の短期上昇を支え、調整局面での押し目買いが有望。",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "MA20上抜けとインフレ鈍化がS&P 500の短期上昇を支え、調整局面での押し目買いが有望。",
+    "comment": "ECBの金利固定姿勢と欧州産業減速がUSD/JPY上昇を支え、テクニカルもMA20超えで強気トレンドを示唆",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-15 19:03",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "野村證券",
+    "tldr_points": [
+      "価格はMA20を上回り、やや強気のモメンタムを示唆",
+      "マクロ環境ではインフレ懸念と利上げ期待が混在",
+      "テクニカルかつファンダメンタルズの両面から押し目買いが有望"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500はMA20を支えに反発し、RSIは中立圏で上昇余地あり。流動性の観点から野村證券の利用を推奨。",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "MA20を支えに反発期待、RSIは中立で上昇余地あり",
+    "entry": "7470",
+    "tp": "7600",
+    "sl": "7440",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20乖離と機関投資家流入の継続を確認",
-    "date": "2026-07-15 11:10",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-15 19:08",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTCはMA20を2,675ドル上回り強い上昇トレンドを維持",
-      "RSI72.8と過熱感はあるが機関投資家の流入が下支え",
-      "エントリーは押し目を待ち厳格なSLを設定"
+      "日本が暗号資産を金融商品として認定し税率引き下げ、機関参入の後押し材料",
+      "米財務省によるイラン関連ウォレット凍結はリスク要因だが、全体へのインパクトは限定的",
+      "資産運用会社の暗号資産投資拡大が需給底堅さを支える"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDは64,671ドルで取引され、MA20を大きく上回る強い上昇トレンドにある。機関投資家の暗号資産への資金流入や準備資産としての評価が根底を支える。RSI72.8と短期的な過熱感には警戒が必要だが、戦術的には押し目買いを推奨する。",
+    "excerpt": "MA20上抜けとRSIの伸びが示す上昇バイアスに、日本の規制緩和と機関投資家の資金流入が後押し。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上抜けと機関投資家流入による強い上昇トレンドを評価",
-    "entry": "63500.00",
-    "tp": "68000.00",
-    "sl": "60500.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20付近の押し目買い、ファンダメンタルズとテクニカルが上昇を支持",
+    "entry": "62350.00",
+    "tp": "66500.00",
+    "sl": "61500.00",
+    "reliability": "HIGH"
   }
 }
