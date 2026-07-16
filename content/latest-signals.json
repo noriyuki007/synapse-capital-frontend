@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 原油高に伴うリスクプレミアム上昇とMA20支持線による強気継続",
-    "date": "2026-07-16 19:05",
+    "title": "[USD/JPY] UP: MA20反弹及美元加息预期",
+    "date": "2026-07-17 02:12",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米・イラン情勢悪化による原油価格の上昇がリスクオフのUSD買いを誘発",
-      "ユーロ圏の貿易赤字拡大と欧州景気減速がドル対円の相対的優位性を維持",
-      "テクニカル面ではMA20が強力な下値支持として機能"
+      "MA20を上回る価格、USD/JPY強気バイアス",
+      "目先高値163.50への反発狙い",
+      "厳格なリスク管理に基づくロング・エントリー"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "中東情勢の緊迫化に伴う原油価格の上昇がリスクプレミアムを拡大させており、USD/JPYは強気モメンタムを維持。テクニカル面ではMA20（161.96）が主要な支持線として機能しており、押し目買いの優位性が極めて高い局面である。",
+    "excerpt": "USD/JPYは162.49で取引、MA20を上回りUSD高のファンダメンタルズと一致、短期的な上昇余地が示唆。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "原油高によるリスクプレミアム拡大とMA20支持による押し目買い戦略",
+    "comment": "MA20反発及びドル高の整合性",
     "entry": "162.00",
-    "tp": "162.80",
+    "tp": "163.50",
     "sl": "161.50",
-    "reliability": "HIGH"
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-16 19:07",
+    "title": "[S&P 500] UP: 価格がMA20を上回りモメンタムが維持",
+    "date": "2026-07-17 02:14",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "MA20上でのサポートが確認され、上昇余地が残る。",
-      "半導体からマグニフィセント7への資金ローテーションが一服し、広範な買いが戻る可能性。",
-      "RSIは72とやや過熱だが、モメンタムは依然として強い。"
+      "価格はMA20を上回り上昇バイアスが継続",
+      "RSIは68.9でやや買われすぎだが逆転リスクは限定的",
+      "小型株のアウトパフォーマンスが全体相場を支える可能性"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を基盤に底堅く、上昇トレンド継続の可能性が高い。",
+    "excerpt": "MA20上抜けと堅調な小型株がS&P500の上昇を支えるが、RSIの高値警戒が必要。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P 500はMA20を基盤に底堅く、上昇トレンド継続の可能性が高い。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "MA20上抜けと強気のオーダーフローが上昇を支えるがRSI警戒が必要",
+    "entry": "7548.00",
+    "tp": "7620.00",
+    "sl": "7500.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-16 19:09",
+    "title": "[BTC/USD] UP: MA20反発と強気ファンダメンタルズの整合性",
+    "date": "2026-07-17 02:16",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を上回り、上昇モメンタムが継続",
-      "オンチェーンでの大口移動と機関向けブロックチェーン採用が上値を支える",
-      "RSIは61で過熱感は限定的、押し目買いの余地あり"
+      "T. Rowe Priceの多トークン暗号通貨ETFが機関資金の流入を先行させている",
+      "Hyperliquidへの投資やステーブルコイン・プラットフォームの拡張など、イノベーションの拡大",
+      "価格がMA20を上回り、RSIが上昇モメンタムを示している"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を上抜け、 whale 大口移動や機関ブロックチェーン採用が上値を支え、RSIは61で過熱感は限定的、押し目買いの余地あり。",
+    "excerpt": "T. Rowe Priceの多トークンETF、Hyperliquidへの投資拡大、Visaのステーブルコイン・プラットフォームの開始など、強気のファンダメンタルズがBTCの疾走を後押し。テクニカルも強気。4689ドル台への支持が予想される。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20を上抜け、オンチェーン大口移動と機関向けブロックチェーン採用が上値を支えるため",
+    "comment": "MA20反発と強気ファンダメンタルズが価格上昇を後押し。",
     "entry": "63800",
-    "tp": "66500",
-    "sl": "62200",
+    "tp": "67500",
+    "sl": "62500",
     "reliability": "HIGH"
   }
 }
