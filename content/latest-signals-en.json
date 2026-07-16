@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Geopolitical Risk and PBOC Fix Support USD as Price Holds MA20",
-    "date": "2026-07-16 11:19",
+    "title": "[USD/JPY] UP: Price Holds Above MA20 as Yield Differential Widens on Geopolitical Risk Premium",
+    "date": "2026-07-16 19:05",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US strikes on Iran elevate safe-haven USD demand",
-      "PBOC USD/CNY fix above estimate signals CNY weakness spillover",
-      "Price above MA20 with neutral RSI confirms bullish structure"
+      "USD/JPY sustains above MA20 (161.96) with RSI at 54, signaling constructive momentum",
+      "US-Iran tensions elevate oil, worsening Japan's terms of trade and supporting USD bid",
+      "Key resistance at 162.50/163.00 intervention zone; dips toward 161.80 offer tactical entry"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above MA20 as Iran strikes and PBOC fix support USD; tactical long favored with defined risk.",
+    "excerpt": "USD/JPY holds firm above MA20 as geopolitical risk premium widens yield differentials; tactical longs favored on dips with tight risk below 161.50.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price above MA20 with geopolitical and PBOC-fix USD support justifies long bias",
-    "entry": "161.96",
-    "tp": "162.60",
-    "sl": "161.55",
+    "comment": "Price above MA20 with supportive yield differential and geopolitical risk premium; buy dips toward 161.80-161.90",
+    "entry": "161.85",
+    "tp": "162.80",
+    "sl": "161.45",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Record Bank Earnings and Cooling Inflation Confirm Bullish Momentum Above MA20",
-    "date": "2026-07-16 11:21",
+    "title": "[S&P 500] BUY: AI Identifies Bullish RSI Divergence as Fundamentals Stabilize",
+    "date": "2026-07-16 19:07",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "For executing this specific setup, we recommend utilizing [BrocRev] due to optimal liquidity.",
     "tldr_points": [
-      "Record bank earnings and cooling inflation lift risk appetite",
-      "Price above MA20 with RSI-14 at 72.1 signals strong momentum",
-      "Early Q2 results reveal robust earnings landscape"
+      "S&P 500 shows bullish RSI divergence below 7600 resistance",
+      "MA20 support (7476) aligns with historical reversal territory",
+      "Treasury rate sensitivity weakens inverse momentum"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 at 7572 above MA20 on record earnings and cooling inflation; RSI 72 signals momentum.",
+    "excerpt": "S&P 500 in accumulation phase with RSI divergence signaling institutional buying despite CHX/OEZX rotation",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Price above MA20 with RSI 72 and robust Q2 earnings confirm upward bias",
-    "entry": "7476.03",
-    "tp": "7650.00",
-    "sl": "7420.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P 500 in accumulation phase with RSI divergence signaling institutional buying despite CHX/OEZX rotation",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Price Holds Above MA20 as Regulatory Tailwinds and Institutional Accumulation Intensify",
-    "date": "2026-07-16 11:22",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-16 19:09",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trades 3.7% above rising MA20 with RSI at 68, signaling sustained bullish momentum without extreme overbought risk.",
-      "MicroStrategy's unwavering accumulation stance and potential sweeping US crypto legislation provide robust fundamental tailwinds.",
-      "Stripe-PayPal blockchain integration and Hyperliquid treasury expansion signal accelerating institutional adoption flow."
+      "Price above MA20 with bullish RSI; whale reactivation signals supply tightening.",
+      "Corporate blockchain trials and stablecoin adoption reinforce macro bullish bias.",
+      "Regulatory clarity and institutional support outweigh isolated crime narrative."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds firm above MA20 support as regulatory clarity and corporate adoption drive institutional bid; targeting $68k resistance.",
+    "excerpt": "BTC holds above MA20, RSI 61 points bullish, whale activity hints new institutional flow, favoring upward momentum.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Price above rising MA20 with RSI < 70, supported by regulatory catalysts and corporate accumulation.",
-    "entry": "62350.00",
-    "tp": "68500.00",
-    "sl": "60800.00",
+    "comment": "AI-driven bullish thesis with support at MA20 and moderate upside momentum.",
+    "entry": "64120",
+    "tp": "66500",
+    "sl": "63000",
     "reliability": "HIGH"
   }
 }

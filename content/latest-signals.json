@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20支持線での底堅い推移と米・中東リスクのインフレ再燃懸念",
-    "date": "2026-07-16 11:19",
+    "title": "[USD/JPY] UP: 原油高に伴うリスクプレミアム上昇とMA20支持線による強気継続",
+    "date": "2026-07-16 19:05",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米・中東緊張高まりによるリスクオフ・インフレ懸念によるドル買い圧力",
-      "韓国BOKの利上げ決定によるアジア通貨のボラティリティ上昇",
-      "テクニカル面ではMA20を上回る価格水準での推移"
+      "米・イラン情勢悪化による原油価格の上昇がリスクオフのUSD買いを誘発",
+      "ユーロ圏の貿易赤字拡大と欧州景気減速がドル対円の相対的優位性を維持",
+      "テクニカル面ではMA20が強力な下値支持として機能"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "中東情勢の緊迫化と韓国BOKの25bp利上げに伴うアジア通貨の変動が、リスク回避的なドル買いを誘発。テクニカル面ではMA20（161.96）が強力な支持線として機能しており、上昇トレンドの継続性が示唆される。",
+    "excerpt": "中東情勢の緊迫化に伴う原油価格の上昇がリスクプレミアムを拡大させており、USD/JPYは強気モメンタムを維持。テクニカル面ではMA20（161.96）が主要な支持線として機能しており、押し目買いの優位性が極めて高い局面である。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "地政学リスクによるドル買いとMA20支持によるテクニカルな底堅さを確認",
+    "comment": "原油高によるリスクプレミアム拡大とMA20支持による押し目買い戦略",
     "entry": "162.00",
-    "tp": "162.50",
-    "sl": "161.60",
+    "tp": "162.80",
+    "sl": "161.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20上回りと円安局面の戻り高志向を確認",
-    "date": "2026-07-16 11:21",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-16 19:07",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "MA20上回りで上昇トレンド継続の兆し",
-      "RSI 72.1で過熱直前、一部調整の余地あり",
-      "円安・銀行業績好調でリスクオンが継続"
+      "MA20上でのサポートが確認され、上昇余地が残る。",
+      "半導体からマグニフィセント7への資金ローテーションが一服し、広範な買いが戻る可能性。",
+      "RSIは72とやや過熱だが、モメンタムは依然として強い。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20上回り、RSI 72.1と円安・銀行好業でリスクオン継続。押し目買い視点での戦略を推奨する。",
+    "excerpt": "S&P 500はMA20を基盤に底堅く、上昇トレンド継続の可能性が高い。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20上回りと円安局面によるリスクオン継続。RSI過熱のため一部調整見込み。",
-    "entry": "7450",
-    "tp": "7700",
-    "sl": "7350",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P 500はMA20を基盤に底堅く、上昇トレンド継続の可能性が高い。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での支持と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-16 11:22",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-16 19:09",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を上回り、上昇トレンド継続の兆候",
-      "RSIは68で買われ過ぎ手前だがまだ余地あり",
-      "規制期待と機関の買い継続が上値を支える"
+      "価格はMA20を上回り、上昇モメンタムが継続",
+      "オンチェーンでの大口移動と機関向けブロックチェーン採用が上値を支える",
+      "RSIは61で過熱感は限定的、押し目買いの余地あり"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を上抜け、規制前向きニュースと機関買いがBTC/USDの上昇を後押し。",
+    "excerpt": "BTC/USDはMA20を上抜け、 whale 大口移動や機関ブロックチェーン採用が上値を支え、RSIは61で過熱感は限定的、押し目買いの余地あり。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上抜けと規制前向きニュースが上値を支える",
-    "entry": "62300.00",
-    "tp": "68000.00",
-    "sl": "61000.00",
+    "comment": "MA20を上抜け、オンチェーン大口移動と機関向けブロックチェーン採用が上値を支えるため",
+    "entry": "63800",
+    "tp": "66500",
+    "sl": "62200",
     "reliability": "HIGH"
   }
 }
