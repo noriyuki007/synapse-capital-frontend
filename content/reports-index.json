@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-07-17-crypto-ja",
-    "date": "2026-07-17 02:16",
-    "title": "[BTC/USD] UP: MA20反発と強気ファンダメンタルズの整合性",
+    "date": "2026-07-17 11:27",
+    "title": "[BTC/USD] UP: MA20上回りとJPMorganの致命的サインが強気相場を支える",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "T. Rowe Priceの多トークンETF、Hyperliquidへの投資拡大、Visaのステーブルコイン・プラットフォームの開始など、強気のファンダメンタルズがBTCの疾走を後押し。テクニカルも強気。4689ドル台への支持が予想される。",
+    "excerpt": "BTC/USDは63,519でMA20上回り、RSI58.4の横ばい。JPMorganの見通し転換とCitadel Securitiesの4億ドル投資が機関資金の流入を刺激し、同時に米議会のCrypto規制最終決定が注目される。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-07-17-crypto-en",
-    "date": "2026-07-17 02:16",
-    "title": "[BTC/USD] UP: Institutional ETF Momentum and Positive Macro backdrop (e.g. '[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish')",
+    "date": "2026-07-17 11:27",
+    "title": "[BTC/USD] UP: Price Holds Above MA20 with Bullish RSI and Supportive Fundamentals",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "BTC/USD boosted by institutional ETF inflows and Visa’s OUSD stablecoin expansion.",
+    "excerpt": "BTC/USD trades above MA20 with RSI 58, bolstered by JPMorgan optimism and Citadel’s $400M Crypto.com investment.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-07-17-stocks-ja",
-    "date": "2026-07-17 02:14",
-    "title": "[S&P 500] UP: 価格がMA20を上回りモメンタムが維持",
+    "date": "2026-07-17 11:24",
+    "title": "[S&P 500] DOWN: 66.9 RSIと金利上昇が圧迫感を醸す",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "excerpt": "MA20上抜けと堅調な小型株がS&P500の上昇を支えるが、RSIの高値警戒が必要。",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "某大手証券",
+    "excerpt": "66.9RSI水準とフューチャーズの連続下落が、S&P500に下押しリスクを顕在化させている。現在の金利上昇トレンドが投資資金の流出を加速し、リスクオフ姿勢が強まる中、S&P500は下押し圧力にさらされている。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-07-17-stocks-en",
-    "date": "2026-07-17 02:14",
-    "title": "[S&P 500] FLAT: Mixed Technicals and Sector Rotation Signal Caution Ahead of Key Resistance",
+    "date": "2026-07-17 11:24",
+    "title": "[S&P 500] UP: Price Above MA20 with Bullish UBS Outlook",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "",
-    "excerpt": "S&P 500 consolidates near MA20 as small-cap rally offsets tech weakness; technicals favor cautious near-term neutrality",
+    "excerpt": "S&P 500 holds above MA20 at 7533.8, RSI 66.9, UBS bullish; chip weakness offsets earnings strength; tactical dip buy!!!!",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-07-17-fx-ja",
-    "date": "2026-07-17 02:12",
-    "title": "[USD/JPY] UP: MA20反弹及美元加息预期",
+    "date": "2026-07-17 11:23",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "USD/JPYは162.49で取引、MA20を上回りUSD高のファンダメンタルズと一致、短期的な上昇余地が示唆。",
+    "excerpt": "USD/JPYはMA20を上抜け、PBOCのドル高示唆と地政学リスクが混在する中、短期的な上昇バイアスを示唆。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-07-17-fx-en",
-    "date": "2026-07-17 02:12",
-    "title": "[USD/JPY] UP: Price Above MA20 with RSI Moderate Bullish as Yields Rise",
+    "date": "2026-07-17 11:23",
+    "title": "[USD/JPY] UP: AI Detects Resistance at 163.50 as Fundamentals Favor Dollar Strength",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY trades above MA20 with moderate RSI, supported by higher US yields.",
+    "excerpt": "USD/JPY at 162.43 faces 163.50 resistance as Trump's China remarks and oil prices lift USD sentiment.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -152,7 +152,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "MA20上抜けとRSIの伸びが示す上昇バイアスに、日本の規制緩和と機関投資家の資金流入が後押し。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD shows bullish divergence as Japanese crypto tax cuts and South Korean asset management law drive demand above $62K resistance",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "野村證券",
     "excerpt": "S&P 500はMA20を支えに反発し、RSIは中立圏で上昇余地あり。流動性の観点から野村證券の利用を推奨。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "",
     "excerpt": "S&P 500 holds above MA20; mixed signals warrant tactical neutral stance with dip-buying.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {

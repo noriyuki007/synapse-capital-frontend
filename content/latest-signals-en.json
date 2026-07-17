@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Price Above MA20 with RSI Moderate Bullish as Yields Rise",
-    "date": "2026-07-17 02:12",
+    "title": "[USD/JPY] UP: AI Detects Resistance at 163.50 as Fundamentals Favor Dollar Strength",
+    "date": "2026-07-17 11:23",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 indicates short‑term bullish bias",
-      "Rising US yields support dollar strength",
-      "RSI near 57 leaves room for further upside"
+      "USD/JPY holds above MA20 amid USD strength amid geopolitical tensions",
+      "PBOC's weaker-than-expected CNY fix supports risk-on flows",
+      "Key resistance at 163.50 with RSI neutral but price bullishly structured"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY trades above MA20 with moderate RSI, supported by higher US yields.",
+    "excerpt": "USD/JPY at 162.43 faces 163.50 resistance as Trump's China remarks and oil prices lift USD sentiment.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price above MA20 with supportive yield backdrop.",
-    "entry": "162.30",
-    "tp": "163.80",
-    "sl": "161.60",
-    "reliability": "MEDIUM"
+    "comment": "Bullish structure intact above MA20 with 163.50 as primary resistance",
+    "entry": "162.05",
+    "tp": "163.5",
+    "sl": "161.5",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: Mixed Technicals and Sector Rotation Signal Caution Ahead of Key Resistance",
-    "date": "2026-07-17 02:14",
+    "title": "[S&P 500] UP: Price Above MA20 with Bullish UBS Outlook",
+    "date": "2026-07-17 11:24",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 hovers near MA20 (7477.90) with RSI at 68.85 signaling short-term overbought pressure",
-      "Small-cap outperformance (widest since 2003) contrasts with tech-driven S&P weakness",
-      "Key resistance at 7600-7650 range requires decisive breakout for bullish continuation"
+      "S&P 500 trades above its 20‑day moving average at 7533.8, indicating short‑term bullish momentum.",
+      "UBS maintains a bullish S&P 500 target despite a broad‑based chip selloff weighing on futures.",
+      "RSI‑14 at 66.9 shows moderate overbought conditions but leaves room for further upside."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 consolidates near MA20 as small-cap rally offsets tech weakness; technicals favor cautious near-term neutrality",
+    "excerpt": "S&P 500 holds above MA20 at 7533.8, RSI 66.9, UBS bullish; chip weakness offsets earnings strength; tactical dip buy!!!!",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Consolidation near MA20 with mixed sector dynamics and elevated RSI suggests limited directional conviction",
-    "entry": "7480",
-    "tp": "7580",
-    "sl": "7450",
+    "status": "BUY",
+    "comment": "Price above MA20 with moderate RSI and bullish UBS outlook supports a tactical long.",
+    "entry": "7500.00",
+    "tp": "7650.00",
+    "sl": "7450.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional ETF Momentum and Positive Macro backdrop (e.g. '[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish')",
-    "date": "2026-07-17 02:16",
+    "title": "[BTC/USD] UP: Price Holds Above MA20 with Bullish RSI and Supportive Fundamentals",
+    "date": "2026-07-17 11:27",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "T. Rowe Price ETF launches actively managed multi-token exposure",
-      "Visa’s OUSD integration signals institutional payment layer adoption",
-      "SBI Ondo deal expands tokenized asset utilization in Japan"
+      "BTC/USD trades above the 20‑day MA with RSI near 58, indicating mild upward momentum.",
+      "JPMorgan’s encouraging outlook and Citadel’s $400 M investment in Crypto.com add fundamental support.",
+      "Key resistance lies near the 66k‑68k zone; a dip to the MA20 offers a defined entry point."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD boosted by institutional ETF inflows and Visa’s OUSD stablecoin expansion.",
+    "excerpt": "BTC/USD trades above MA20 with RSI 58, bolstered by JPMorgan optimism and Citadel’s $400M Crypto.com investment.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Strong institutional ETF inflows and technical support at MA20 confirm bullish bias.",
-    "entry": "64134.60",
-    "tp": "66800",
-    "sl": "61500",
-    "reliability": "HIGH"
+    "comment": "Price above MA20 with bullish RSI and supportive institutional news offers a favorable risk‑reward long setup.",
+    "entry": "62450",
+    "tp": "66000",
+    "sl": "61800",
+    "reliability": "MEDIUM"
   }
 }
