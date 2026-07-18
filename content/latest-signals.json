@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 価格がMA20を上抜け、米利上げ期待がリスクオフを上回る",
-    "date": "2026-07-18 18:21",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-19 01:54",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20を僅かに上回り、短期的な上昇バイアスを示す",
-      "米長期金利の上昇と原油高がドル支援要因となる",
-      "イランのホルムズ海峡での船舶標的はリスクオフを誘発するが、ファンダメンタルズはドル優位を維持"
+      "価格はMA20を上抜けし、短期的な上昇バイアスを示す",
+      "米国株式の調整と原油高がドル支持要因となり得る",
+      "テクニカルはRSIが中立範囲で、押し目買いの余地あり"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは162.35でMA20を上抜け、RSIは55.7と中立並みにやや買い優位。米利上げ期待と原油高がドルを支え、地政学的リスクは限定的。押し目買いを推奨。",
+    "excerpt": "USD/JPYはMA20を基盤に上抜けし、原油高と米国金融政策のハーク派傾向がドルを支える可能性。テクニカルは押し目買いのシグナルを示唆。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20上抜けと米利上げ期待がドルを支えるため上昇バイアス",
-    "entry": "162.10",
-    "tp": "162.80",
-    "sl": "161.60",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPYはMA20を基盤に上抜けし、原油高と米国金融政策のハーク派傾向がドルを支える可能性。テクニカルは押し目買いのシグナルを示唆。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20付近での反発期待とファンダメンタルズの整合性",
-    "date": "2026-07-18 18:23",
+    "title": "[S&P 500] DOWN: MA20での resistance と RSI の中立を示唆",
+    "date": "2026-07-19 01:58",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "価格はMA20下抜けだがRSIは58.7で底堅さ示す",
-      "インフレ懸念がトランプフレーション以外の要因に拡大",
-      "テクニカルは押し目買いシナリオを支持"
+      "現在価格はMA20下抜け、短期的な下押し圧力が継続",
+      "RSIは58.7で過熱感は限定的、下値余地あり",
+      "マクロ環境では金利高警戒とAI関連株の調整が重石"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20付近での反発を期待し、インフレ新要因とファンダメンタルズの整合性からUPバイアスを示す。",
+    "excerpt": "MA20下抜けとRSI中立から短期的な下押しリスクを指摘、流動性観点からNomura Securitiesの利用を推奨。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20付近の反発期待と底堅いRSIおよびファンダメンタルズの下値支持が一致",
-    "entry": "7457.69",
-    "tp": "7490.00",
-    "sl": "7430.00",
+    "status": "SELL",
+    "comment": "MA20下抜けと売りオーダーフロー優勢から短期的な下押し期待",
+    "entry": "7460.00",
+    "tp": "7400.00",
+    "sl": "7500.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発とファンダメンタルズの整合性を確認",
-    "date": "2026-07-18 18:27",
+    "title": "[BTC/USD] UP: MA20サポート確立と機関資金流入の継続性を評価",
+    "date": "2026-07-19 01:59",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20を基軸とした押し目買いが有効",
-      "Coinbaseプレミアムの長期マイナスは短期的な重石だが、機関の crypto‑AI 連携が支え",
-      "流動性の観点から[bitflyer]での執行を推奨"
+      "現在価格がMA20を上回り短期トレンドが強気転換、RSIは中立域で上昇余地十分",
+      "FTX配当の売り圧力は限定的と判断、BoA等の機関参入が需給下支え要因に",
+      "押し目買い戦略が有効、エントリー64,250 / TP 68,000 / SL 62,500でリスクリワード2倍超を確保"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20上抜けで底堅く、Coinbaseプレミアム悪化も材料視。節目の64k~66k帯でのブレイク狙い。",
+    "excerpt": "BTCはMA20を明確に上回り短期上昇トレンドを形成。機関投資家の継続的参入とFTX配当の消化進捗を背景に、62,500ドル割れまでの押し目買いを推奨する。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上抜けと機関のインフラ強化が下値支え、目標レンジへのブレイクが期待されるため",
-    "entry": "63700",
-    "tp": "66500",
-    "sl": "62000",
+    "comment": "MA20サポート機能と機関需給改善に基づく押し目買い戦略",
+    "entry": "64250",
+    "tp": "68000",
+    "sl": "62500",
     "reliability": "MEDIUM"
   }
 }

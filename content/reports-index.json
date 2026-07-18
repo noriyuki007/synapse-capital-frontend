@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-07-19-crypto-ja",
+    "date": "2026-07-19 01:59",
+    "title": "[BTC/USD] UP: MA20サポート確立と機関資金流入の継続性を評価",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTCはMA20を明確に上回り短期上昇トレンドを形成。機関投資家の継続的参入とFTX配当の消化進捗を背景に、62,500ドル割れまでの押し目買いを推奨する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-19-crypto-en",
+    "date": "2026-07-19 01:59",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC bullish on fundamentals, MA20 support, and clearing of FTX liabilities, targeting 66k.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-19-stocks-ja",
+    "date": "2026-07-19 01:58",
+    "title": "[S&P 500] DOWN: MA20での resistance と RSI の中立を示唆",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Nomura Securities",
+    "excerpt": "MA20下抜けとRSI中立から短期的な下押しリスクを指摘、流動性観点からNomura Securitiesの利用を推奨。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-19-stocks-en",
+    "date": "2026-07-19 01:58",
+    "title": "[S&P 500] FLAT: Consolidation Below MA20 Amid Mega-Cap Earnings Risk",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 stalls under MA20 resistance as mega-cap earnings loom; range-bound trade favored.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-19-fx-ja",
+    "date": "2026-07-19 01:54",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYはMA20を基盤に上抜けし、原油高と米国金融政策のハーク派傾向がドルを支える可能性。テクニカルは押し目買いのシグナルを示唆。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-19-fx-en",
+    "date": "2026-07-19 01:54",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY trades above MA20 with mild bullish bias; tariffs, high oil lift USD while geopolitical risk tempers yen demand.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-07-18-crypto-ja",
     "date": "2026-07-18 18:27",
     "title": "[BTC/USD] UP: MA20での反発とファンダメンタルズの整合性を確認",
