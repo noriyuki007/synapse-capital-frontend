@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-18 11:08",
+    "title": "[USD/JPY] UP: AI Detects Critical Support Zone Ahead of Central Bank Catalysts",
+    "date": "2026-07-18 18:21",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price hovers just above MA20 with RSI 55.7 indicating modest bullish momentum",
-      "Fundamental pressure on CAD from Trump’s tariff threat supports USD strength",
-      "Technical bias: break above 162.50 targets 163.00, stop near 161.80"
+      "Support at 162.34 validates bullish staging",
+      "Oil-hedging flows and tariff-driven USD strength anticipated",
+      "164.50 targets amid BoJ intervention risks"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Price near MA20, RSI 55.7, bullish bias as fundamentals improve; recommend entry near 162.35 with TP 163.00, SL 161.80!!.",
+    "excerpt": "USD/JPY strength expected as technicals align with concyclical currency catalysts.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "AI detects support at MA20 with bullish fundamentals",
+    "comment": "Structural support and central bank asymmetry validate long bias",
     "entry": "162.35",
-    "tp": "163.00",
-    "sl": "161.80",
+    "tp": "164.50",
+    "sl": "161.90",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: Technical Range Established as Fundamentals Stabilize",
-    "date": "2026-07-18 11:14",
+    "title": "[S&P 500] FLAT: Price Below MA20 With RSI Neutral As Inflation Risk Re-Emerges",
+    "date": "2026-07-18 18:23",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "FLAT",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 trades flat near its 20‑day moving average with neutral RSI, indicating a range‑bound market.",
-      "Key technical levels are support at 7450 and resistance at 7480, with a breakout above 7479 signaling upside.",
-      "Fundamental catalysts from energy and healthcare sectors provide upside potential despite low volatility."
+      "S&P 500 trades below MA20 at 7479.03, signaling near-term tactical caution",
+      "RSI-14 at 58.71 reflects neutral momentum amid broadening inflation concerns",
+      "Selective single-name value (ACGL) and low-vol income structures offer relative defensiveness"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades flat near MA20, RSI 58; support 7450, resistance 7480, low volume persists. Market awaits Fed commentary",
+    "excerpt": "S&P 500 below MA20, RSI neutral; inflation broadening caps upside, favors tactical flat stance.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Price holds above key support with neutral RSI, suggesting a range‑bound upside toward MA20.",
-    "entry": "7455",
-    "tp": "7480",
-    "sl": "7440",
+    "status": "NEUTRAL",
+    "comment": "Price below MA20 with neutral RSI and inflation-driven multiple compression warrants flat positioning",
+    "entry": "7457.69",
+    "tp": "7479.03",
+    "sl": "7410.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] NEUTRAL: Coinbase Premium Deflation Countered by Institutional Pivot",
-    "date": "2026-07-18 11:19",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-18 18:27",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Coinbase premium remains negative for 60 days, signaling retail exhaustion",
-      "Institutional bridging of AI and TradFi via BoA indicates long-term structural demand",
-      "Price testing MA20 support amidst liquidity volatility"
+      "BTC trades above short‑term MA20, confirming bullish momentum",
+      "RSI 53.9 signals neutral‑to‑bullish dynamic for an upward breakout",
+      "Institutional crypto–AI synergies bolster long‑term demand"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC consolidating near MA20 as negative Coinbase premium persists despite institutional AI-crypto integration news.",
+    "excerpt": "BTC trades above Giorgi’s MA20 with RSI 53.9, pointing to a bullish breakout; target 64,500, stop 62,700.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "Price consolidation near MA20 amid persistent negative retail premium.",
-    "entry": "62650.00",
-    "tp": "65500.00",
-    "sl": "61800.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "BTC sits above MA20 with neutral RSI, indicating a bullish breakout opportunity.",
+    "entry": "64000",
+    "tp": "64500",
+    "sl": "62700",
+    "reliability": "HIGH"
   }
 }
