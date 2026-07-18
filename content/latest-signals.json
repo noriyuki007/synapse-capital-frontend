@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20でのサポートと強気ファンダメンタルズの整合性",
-    "date": "2026-07-18 02:08",
+    "title": "[USD/JPY] UP: MA20を上抜けし、リスクオフ要因が限定的であることを示唆",
+    "date": "2026-07-18 11:08",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20上抜けで上昇バイアス",
-      "RSIは中立圏ながら上向き",
-      "ファンダは米金利継続と地政学リスクがサポート"
+      "価格はMA20を上回り、短期的な上昇バイアスが形成中",
+      "RSIは55.7で過熱感なく、さらなる上値余地がある",
+      "地政学的リスクは限定的で、米ドルの下押し圧力は弱い"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "MA20を基盤とした押し目買いが有利。米金利動向と地政学的緊張がドル円を下支えし、流動性の観点からdmm-fxの利用を推奨。さらに、原油価格の振れ幅とAIインフラ投資ニュースがリスクオン sentiment を補強し、短期的な上昇余地を示唆する。",
+    "excerpt": "USD/JPYはMA20を上抜けており、テクニカルは底堅い。ファンダはリスクオフ要因が薄く、上値試しが期待できる。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20サポートと金利・地政学的ファンダが上昇を支える",
-    "entry": "162.30",
-    "tp": "163.20",
-    "sl": "161.80",
-    "reliability": "HIGH"
+    "comment": "MA20を上抜け、RSIは中立で上値余地あり、ファンダはリスクオフ要因が限定的",
+    "entry": "162.15",
+    "tp": "162.80",
+    "sl": "161.70",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20付近のサポートと強気ファンダメントの整合性",
-    "date": "2026-07-18 02:10",
+    "title": "S&P 500：レンジ圏内での警戒感とプロフェッショナル実行戦略",
+    "date": "2026-07-18 11:14",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Bloomberg Terminal",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
     "tldr_points": [
-      "MA20サポートで上昇余地",
-      "金利リスクは限定的",
-      "センチメント改善"
+      "金利相関（近似）: -0.38で負相関傾向",
+      "テクニカル: 現在価格 7457.69 と MA20 7479.03 の位置関係が主導",
+      "需給: 上限帯 7620.82 / 下限帯 7337.25 / 直近高値 7581.50 / 直近安値 7294.18 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "米国株はテック銘柄の売りで下落も、AMSCやBEの好決算が支える場面。RSIはやや過熱だが、MA20付近の支援で上昇余地が残る。",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 7457.69、RSI(58.71)、MA20(7479.03)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20サポートと強気ファンダメントが上昇を裏付け",
-    "entry": "7500.00",
-    "tp": "7550.00",
-    "sl": "7450.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、S&P 500の現在価格 7457.69、RSI(58.71)、MA20(7479.03)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Confirmation of bullish structure above MA20 and favorable ETF catalyst",
-    "date": "2026-07-18 02:12",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-18 11:19",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "Current price sits above the 20‑day MA, indicating short‑term bullish bias.",
-      "ETF narrative and institutional partnerships provide structural support despite Coinbase premium weakness.",
-      "Neutral RSI (56.5) suggests balanced momentum – scope for controlled upside."
+      "MA20を上抜けし、短期的な上昇バイアスが形成中",
+      "マクロ的には機関によるcrypto‑AI連携が長期需給を支える",
+      "テクニカルはRSIが56で過熱感なく、押し目買いの余地あり"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds above $63k MA20 support; ETF inflows and institutional deals hint at upside; neutral RSI suggests controlled momentum.",
+    "excerpt": "MA20を上回る価格が上回り、機関のcrypto‑AI融合ニュースが上昇を支える中で、リスク管理を伴う押し目買いを推奨。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20を上回る価格と中立RSIを根拠とした慎重なロング。",
-    "entry": "63000",
-    "tp": "64500",
-    "sl": "62500",
-    "reliability": "HIGH"
+    "comment": "MA20上抜けと機関のcrypto‑AI連携が上昇を支える",
+    "entry": "63200",
+    "tp": "66000",
+    "sl": "61800",
+    "reliability": "MEDIUM"
   }
 }
