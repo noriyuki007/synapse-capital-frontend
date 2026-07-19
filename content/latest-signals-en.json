@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-19 01:54",
+    "date": "2026-07-19 11:25",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY holds above MA20 with mild bullish momentum.",
-      "Tariff news and higher oil underpin USD strength.",
-      "Geopolitical tension adds safe‑haven bids but limits upside."
+      "Price comfortably above the 20‑day MA, signaling short‑term bullish momentum",
+      "Higher oil and tariff escalation favor USD strength versus JPY",
+      "RSI remains neutral (55.7), leaving room for further upside"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY trades above MA20 with mild bullish bias; tariffs, high oil lift USD while geopolitical risk tempers yen demand.",
+    "excerpt": "USD/JPY 162.35 above MA20, RSI 55.7 neutral bullish; oil rise and tariff news favor USD.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price above MA20 with rising US yields and modest long order flow supports a bullish bias.",
-    "entry": "162.20",
-    "tp": "163.00",
-    "sl": "161.50",
+    "comment": "Technical support at MA20 and bullish macro backdrop suggest upward continuation.",
+    "entry": "162.30",
+    "tp": "163.50",
+    "sl": "161.80",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: Consolidation Below MA20 Amid Mega-Cap Earnings Risk",
-    "date": "2026-07-19 01:58",
+    "title": "[S&P 500] DOWN: Iran Geopolitical Shock Weights on Price Below MA20",
+    "date": "2026-07-19 11:31",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price consolidating below 20-day MA (7479) after AI-sector profit taking",
-      "RSI at 58.7 signals neutral momentum; no oversold bounce yet",
-      "Key catalyst: Mega-cap earnings (GOOG, TSLA, AMD) to dictate direction"
+      "Iran attack raises risk‑off sentiment, pressuring equities.",
+      "Price sits below MA20 with RSI near 59, indicating mild bearish bias.",
+      "Fundamental backdrop shows no imminent upside catalyst; consider short bias."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 stalls under MA20 resistance as mega-cap earnings loom; range-bound trade favored.",
+    "excerpt": "Geopolitical shock and technical weakness suggest downside for S&P 500 toward near‑term support.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Consolidation below MA20 awaits mega-cap earnings catalyst; conditional long bias near support.",
-    "entry": "7455.00",
-    "tp": "7550.00",
-    "sl": "7375.00",
+    "status": "SELL",
+    "comment": "Short bias driven by Iran‑induced risk‑off and price below MA20 with RSI near neutral.",
+    "entry": "7460",
+    "tp": "7400",
+    "sl": "7490",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-19 01:59",
+    "date": "2026-07-19 11:33",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Institutional adoption accelerates amid AI integration; Uni burned signals tokenomics tightening.",
-      "BTC price above MA20 with moderate RSI suggests bullish momentum.",
-      "FTX payouts and hardware wallet confidence reduce counterparty risk."
+      "BTC consolidates near MA20 with RSI 58, indicating potential breakout.",
+      "US stablecoin rule delay and regulatory uncertainty create cautious market sentiment.",
+      "Institutional interest remains strong as major banks bridge crypto, AI, and traditional finance."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC bullish on fundamentals, MA20 support, and clearing of FTX liabilities, targeting 66k.",
+    "excerpt": "BTC consolidates near MA20 with RSI 58; US stablecoin rule delay and regulatory shifts drive cautious optimism bullish!!",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Bullish fundamentals and technicals support a continuation toward 66k.",
-    "entry": "63000",
-    "tp": "66000",
-    "sl": "62500",
+    "comment": "Price above MA20 with RSI 58 signals a high-probability long setup.",
+    "entry": "64865.00",
+    "tp": "66000.00",
+    "sl": "63000.00",
     "reliability": "HIGH"
   }
 }
