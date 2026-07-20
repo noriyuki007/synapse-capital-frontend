@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY UP: 原油価格上昇に伴うリスク回避型ドル買いとテクニカル的な底堅さ",
-    "date": "2026-07-20 12:11",
+    "title": "戦術的インサイト：USD/JPYの均衡状態とブレイク条件の定義",
+    "date": "2026-07-20 19:48",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "原油価格の反発がアジア通貨への下押し圧力として作用",
-      "地政学リスク（ホルムズ海峡）の高まりによるリスクオフ・ドル買い需要",
-      "MA20の上値支持を確認したテクニカル的な強気展開"
+      "金利相関（近似）: 0.10で正相関傾向",
+      "テクニカル: 現在価格 162.40 と MA20 162.06 の位置関係が主導",
+      "需給: 上限帯 162.83 / 下限帯 161.29 / 直近高値 162.84 / 直近安値 160.62 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "原油価格の反発およびホルムズ海峡での地政学リスク増大を受け、アジア通貨への売り圧力が高まっており、USD/JPYはドル買い・円売りのモメンタムを維持している。テクニカル面ではMA20を支持線として上値を試す展開を想定。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 162.40、RSI(54.89)、MA20(162.06)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "原油高と地政学リスクによるドル買いモメンタムが強く、MA20を支持線とした上昇局面が継続する見通し。",
-    "entry": "162.10",
-    "tp": "163.50",
-    "sl": "161.50",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 162.40、RSI(54.89)、MA20(162.06)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20上回りとリスクオン市場の連動性を確認 | 戦略的シナプス解析",
-    "date": "2026-07-20 12:13",
+    "title": "[S&P 500] UP: MA20付近での押し目と強気ファンダメンタルズが支える",
+    "date": "2026-07-20 19:51",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Bloomberg",
     "tldr_points": [
-      "現在価格7457.69はMA20(7479.03)下、RSI 58.71で横ばいから上抜けの余地あり",
-      "Semiconductor・Energy・Tech株のリバウンド期待がリスクオンを支える",
-      "米金利利下yak引き下げ期待とDow Futures上昇が上位市場を押し上げる"
+      "短期的な押し目買いがテクニカルに示唆",
+      "リスク管理を徹底したロングポジションが合理的",
+      "流動性確保のためBloomberg利用を推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20上回りを維持しつつ、半導体・エネルギー部位のリバウンド期待が買圧を支える。RSI 58.71は上昇局面の横ばいから上向きシグナルへ転換の機会を示す。",
+    "excerpt": "S&P500はMA20付近でサポートを受け、RSI58で過熱感なし、Nasdaq先行のリバウンドが背景にあり、Bloomberg経由の流動性確保でロング推奨。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20下回りつつもRSI上昇局面、Semiconductor・Energy部位のリバウンド期待",
-    "entry": "7455",
-    "tp": "7525",
-    "sl": "7420",
+    "comment": "MA20付近の押し目とRSI58で中立的上昇余地が確認され、Nasdaqリバウンドが支援",
+    "entry": "7465",
+    "tp": "7530",
+    "sl": "7440",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-20 12:15",
+    "title": "[BTC/USD] UP: MA20を上抜けとマクロファンダメンタルズの整合性",
+    "date": "2026-07-20 19:55",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格がMA20を上回り、RSI55台でモメンタムは中立から上昇傾向",
-      "機関資金流入（Bitcoin Japan 60Mドル調達）と規制不透明感の後退が支え",
-      "短期的な押し目買いゾーンは63,000〜63,500ドル付近"
+      "価格はMA20を上回り、短期的な上昇余地を示す",
+      "RSIは中立域で過熱感は限定的",
+      "マクロニュースは流動性供給と規制緩和が継続"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCはMA20上方で安定し、機関マネー流入と規制リスク緩和が上昇バイアスを強める。",
+    "excerpt": "MA20を上抜けし、RSIが中立域で推移する中、流動性環境が改善しBTC/USDは上昇バイアスを示す。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上抜け継続、機関資金流入、RSI中立で上昇余地あり",
-    "entry": "63350",
-    "tp": "66500",
-    "sl": "62500",
-    "reliability": "MEDIUM"
+    "comment": "MA20上抜けと中立RSI、マクロ・ファンダメンタルズが上昇を支持",
+    "entry": "63900.00",
+    "tp": "65500.00",
+    "sl": "62800.00",
+    "reliability": "HIGH"
   }
 }
