@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Price Above MA20 with Bullish Momentum",
-    "date": "2026-07-20 01:55",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-20 12:11",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above MA20 (162.011) with RSI at 55.7, indicating mild bullish momentum.",
-      "Fundamentals show mixed risk‑off sentiment from Hormuz tension and Canadian tariffs, but USD retains yield advantage.",
-      "Technical bias favors a long toward 163.00 with stop near 161.50."
+      "Oil rally fuels Asian FX pressure",
+      "USD/JPY stabilizes near MA20",
+      "Fed hawkishness supports upside"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY above MA20 at 162.353, RSI 55.7; bullish bias on tech strength amid mixed risk-offs news from tariffs and Hormuz.",
+    "excerpt": "Oil rally pressures Asian FX; USD/JPY eyes MA20 support as Fed hawkishness persists, hinting at bullish bias higher now.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Price above MA20 with bullish momentum; fundamentals favor USD carry amid risk‑off sentiment.",
-    "entry": "162.00000",
-    "tp": "163.00000",
-    "sl": "161.50000",
+    "status": "NEUTRAL",
+    "comment": "Oil rally pressures Asian FX; USD/JPY eyes MA20 support as Fed hawkishness persists, hinting at bullish bias higher now.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Geopolitical Tensions and Hawkish Fed Weigh on Momentum",
-    "date": "2026-07-20 01:57",
+    "title": "[S&P 500] UP: MA20 Support Amid Earnings Optimism",
+    "date": "2026-07-20 12:13",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 trades below its 20‑day MA amid rising Middle‑East risk and Fed hawkishness.",
-      "Technical picture shows mild bearish momentum with RSI near 59 and price testing support around 7,300.",
-      "Key catalysts: US‑Iran escalation, Kevin Warsh’s hawkish tone, and sector rotation into energy."
+      "S&P 500 trading below MA20 with RSI near 59 indicates shallow pullback.",
+      "Earnings week and resilient futures suggest near‑term upside bias.",
+      "Key support at 7450; resistance near 7490 defines the trade range."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 slips below MA20 as US‑Iran tensions rise and Fed turns hawkish, targeting 7,300 support, with RSI near 59 (59).",
+    "excerpt": "S&P 500 sits below MA20; RSI 58.7 hints at mild bullish momentum ahead of earnings week with support 7450 and resistance 7490.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Geopolitical risk and hawkish Fed cues drive near-term downside momentum.",
-    "entry": "7460.00",
-    "tp": "7300.00",
-    "sl": "7510.00",
+    "status": "BUY",
+    "comment": "Pullback to MA20 with supportive earnings outlook offers asymmetric upside.",
+    "entry": "7455",
+    "tp": "7490",
+    "sl": "7430",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Price Holds Above MA20 as Institutional Demand Accelerates Despite Regulatory Overhang",
-    "date": "2026-07-20 01:59",
+    "title": "[BTC/USD] UP: AI Detects Bullish Momentum Above MA20 as Macro Sentiment Improves",
+    "date": "2026-07-20 12:15",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trades 2.1% above rising MA20 with RSI at 54.2 signaling sustainable momentum",
-      "Bitcoin Japan's $60M raise and BofA crypto push confirm institutional accumulation phase",
-      "Stablecoin regulatory delay creates near-term uncertainty but structural tailwinds intact"
+      "Price above MA20 with RSI 55.7 shows room for upside",
+      "Saylor's BIP-110 opposition and stablecoin rule delay support bullish bias",
+      "Technical structure favors continuation toward 68k resistance"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC sustains break above MA20 at 63127 with neutral RSI; institutional buying and corporate treasury adoption provide fundamental floor for extension toward 67K.",
+    "excerpt": "BTC trades above MA20 with moderate RSI, supported by macro catalysts and technical momentum, suggesting upside bias.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Price above rising MA20 with neutral RSI and accelerating institutional adoption supports continuation toward 66-67K",
-    "entry": "63400",
-    "tp": "66200",
-    "sl": "62400",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTC trades above MA20 with moderate RSI, supported by macro catalysts and technical momentum, suggesting upside bias.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }

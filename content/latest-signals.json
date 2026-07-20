@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-20 01:55",
+    "title": "USD/JPY UP: 原油価格上昇に伴うリスク回避型ドル買いとテクニカル的な底堅さ",
+    "date": "2026-07-20 12:11",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米国市場の調整と原油高がドルを支える可能性",
-      "カナダ関税強化がリスクオフ傾向を誘発、円買いを抑制",
-      "テクニカルはMA20上抜けとRSI55で買い優勢を示唆"
+      "原油価格の反発がアジア通貨への下押し圧力として作用",
+      "地政学リスク（ホルムズ海峡）の高まりによるリスクオフ・ドル買い需要",
+      "MA20の上値支持を確認したテクニカル的な強気展開"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "ドル円はMA20を上回り買いシグナル。米国株の調整と原油高、カナダ関税がドルを支える見込み。",
+    "excerpt": "原油価格の反発およびホルムズ海峡での地政学リスク増大を受け、アジア通貨への売り圧力が高まっており、USD/JPYはドル買い・円売りのモメンタムを維持している。テクニカル面ではMA20を支持線として上値を試す展開を想定。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "ドル円はMA20を上回り買いシグナル。米国株の調整と原油高、カナダ関税がドルを支える見込み。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "原油高と地政学リスクによるドル買いモメンタムが強く、MA20を支持線とした上昇局面が継続する見通し。",
+    "entry": "162.10",
+    "tp": "163.50",
+    "sl": "161.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20下回りかつ地政学リスクによる下押し圧力",
-    "date": "2026-07-20 01:57",
+    "title": "[S&P 500] UP: MA20上回りとリスクオン市場の連動性を確認 | 戦略的シナプス解析",
+    "date": "2026-07-20 12:13",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "野村證券",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
     "tldr_points": [
-      "価格はMA20下回り、短期的な下押しリスク。",
-      "米イラン緊張がリスクオフ傾向を強める。",
-      "RSIは中立域で過熱感は限定的。"
+      "現在価格7457.69はMA20(7479.03)下、RSI 58.71で横ばいから上抜けの余地あり",
+      "Semiconductor・Energy・Tech株のリバウンド期待がリスクオンを支える",
+      "米金利利下yak引き下げ期待とDow Futures上昇が上位市場を押し上げる"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20を下回るS&P500は地政学リスクにより下押し圧力が強まる見込み。",
+    "excerpt": "S&P 500はMA20上回りを維持しつつ、半導体・エネルギー部位のリバウンド期待が買圧を支える。RSI 58.71は上昇局面の横ばいから上向きシグナルへ転換の機会を示す。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "MA20下回りと地政学リスクにより下押し圧力が強まるため売り推奨",
-    "entry": "7465",
-    "tp": "7400",
-    "sl": "7490",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20下回りつつもRSI上昇局面、Semiconductor・Energy部位のリバウンド期待",
+    "entry": "7455",
+    "tp": "7525",
+    "sl": "7420",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-20 01:59",
+    "date": "2026-07-20 12:15",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を上回り、50日移動平均かつRSIは中立上向き",
-      "規制遅延は稳定コイン市場に不確実性をもたらすが、機関の暗号資産参入は継続",
-      "Bitcoin Japanの資金調達は実需買いを示唆"
+      "価格がMA20を上回り、RSI55台でモメンタムは中立から上昇傾向",
+      "機関資金流入（Bitcoin Japan 60Mドル調達）と規制不透明感の後退が支え",
+      "短期的な押し目買いゾーンは63,000〜63,500ドル付近"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を上抜け、RSIが54前後で推移。規制の不透明感はあるが、機関の資金流入が続くため上昇バイアスが優位。",
+    "excerpt": "BTCはMA20上方で安定し、機関マネー流入と規制リスク緩和が上昇バイアスを強める。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上抜けと機関の実需フローが上昇を支えるため、押し目買いが有効",
-    "entry": "63800.00",
-    "tp": "68200.00",
-    "sl": "62300.00",
-    "reliability": "HIGH"
+    "comment": "MA20上抜け継続、機関資金流入、RSI中立で上昇余地あり",
+    "entry": "63350",
+    "tp": "66500",
+    "sl": "62500",
+    "reliability": "MEDIUM"
   }
 }
