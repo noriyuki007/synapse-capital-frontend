@@ -1,68 +1,66 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-20 19:48",
+    "date": "2026-07-21 02:58",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 with RSI 55 indicating moderate bullish momentum",
-      "Geopolitical tension supports USD strength",
-      "Target zone 162.80‑163.00 aligns with next resistance"
+      "USD/JPY holds above MA20 amid rising US yields",
+      "Dollar strength outweighs safe‑haven yen pressure",
+      "Bias targets 163.00 with controlled risk"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Price above MA20, RSI 55, bullish setup as geopolitical risks lift USD, target 162.80‑163.00 as risk appetite improves!.",
+    "excerpt": "USD/JPY holds on MA20 as US yields rise, dollar firms; bullish bias aims for 163.00 amid geopolitical risk and weak data",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "Price above MA20, RSI 55, bullish setup as geopolitical risks lift USD, target 162.80‑163.00 as risk appetite improves!.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Price above MA20 with rising yields supporting upside; bullish bias toward 163.00.",
+    "entry": "162.10",
+    "tp": "163.00",
+    "sl": "161.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Price Below MA20 Amid Hawkish Fed Signals",
-    "date": "2026-07-20 19:51",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-21 03:02",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price trading below 20‑day MA signals near‑term bias.",
-      "RSI near 59 indicates modest upside momentum but room to fall.",
-      "Geopolitical oil spikes and Fed rhetoric weigh on risk appetite."
+      "Price 7475.27 just below 20‑day MA 7477.77, RSI 53.3 neutral; tech earnings and favorable macro catalyst support upside."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades under MA20 with RSI 58.7; bearish tilt amid Fed caution and Middle East oil risk.",
+    "excerpt": "S&P 500 near 20‑MA, neutral RSI, bullish tech fundamentals set modest upside.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Price below MA20 with RSI indicating limited upside; geopolitical and rate headwinds favor short bias.",
-    "entry": "7475",
-    "tp": "7400",
-    "sl": "7490",
+    "status": "BUY",
+    "comment": "Support at the 20‑day MA and bullish tech fundamentals justify a long bias.",
+    "entry": "7475.27",
+    "tp": "7483.00",
+    "sl": "7465.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Price holds above MA20 with neutral RSI amid mixed fundamentals",
-    "date": "2026-07-20 19:55",
+    "title": "[BTC/USD] UP: Price Holds Above MA20 as Fundamentals Show Mixed but Net Bullish Signals",
+    "date": "2026-07-21 03:03",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD trading above MA20 suggests short‑term bullish bias",
-      "RSI ~51 indicates neutral momentum, room for upside",
-      "Mixed news flow keeps upside capped; watch for break above 65k"
+      "BTC trades above the 20‑day MA at $65,566, indicating short‑term bullish bias.",
+      "RSI‑14 at 56.9 suggests room for further upside without overbought strain.",
+      "Fundamental flow from OKX board addition and Hut 8 AI campus supports demand."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD holds above MA20 with neutral RSI; mixed news suggests cautious upside targeting 65k‑66k.",
+    "excerpt": "BTC/USD holds above MA20 with moderate RSI; news flow adds modest bullish bias for a tactical long.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USD holds above MA20 with neutral RSI; mixed news suggests cautious upside targeting 65k‑66k.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "Price above MA20 with RSI indicating room for upside; fundamentals supportive.",
+    "entry": "63490.00",
+    "tp": "68800.00",
+    "sl": "62800.00",
     "reliability": "MEDIUM"
   }
 }

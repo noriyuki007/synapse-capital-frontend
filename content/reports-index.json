@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-07-21-crypto-ja",
+    "date": "2026-07-21 03:03",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "米政府の緩和期待とAI関連銘柄の好調が相乗効果をもたらし、BTCは65,000ドル前後から66,000ドル超えへ上昇。テクニカル指標はMA20でも支揚げが見られ、RSIは57と過売非表示で短期的な上昇余地が残る。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-21-crypto-en",
+    "date": "2026-07-21 03:03",
+    "title": "[BTC/USD] UP: Price Holds Above MA20 as Fundamentals Show Mixed but Net Bullish Signals",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD holds above MA20 with moderate RSI; news flow adds modest bullish bias for a tactical long.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-21-stocks-ja",
+    "date": "2026-07-21 03:02",
+    "title": "[S&P 500] UP: MA20での反発とテクニカル・ファンダメンタルズの整合性",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Nomura Securities",
+    "excerpt": "S&P 500はMA20を下回る水準で推移し、RSIは中立圏。通信・テクノロジー株の底堅さが下値を支え、押し目買いのシナリオが優位。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-21-stocks-en",
+    "date": "2026-07-21 03:02",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 near 20‑MA, neutral RSI, bullish tech fundamentals set modest upside.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-21-fx-ja",
+    "date": "2026-07-21 02:58",
+    "title": "[USD/JPY] UP: 価格はMA20を上回り、米利回り上昇がドルを支える",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "米利回り上昇と価格のMA20上抜けがUSD/JPYの上昇を示唆し、リスク管理のもと押し目買いを推奨。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-21-fx-en",
+    "date": "2026-07-21 02:58",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY holds on MA20 as US yields rise, dollar firms; bullish bias aims for 163.00 amid geopolitical risk and weak data",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-07-20-crypto-ja",
     "date": "2026-07-20 19:55",
     "title": "[BTC/USD] UP: MA20を上抜けとマクロファンダメンタルズの整合性",

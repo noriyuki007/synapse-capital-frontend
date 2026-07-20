@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "戦術的インサイト：USD/JPYの均衡状態とブレイク条件の定義",
-    "date": "2026-07-20 19:48",
+    "title": "[USD/JPY] UP: 価格はMA20を上回り、米利回り上昇がドルを支える",
+    "date": "2026-07-21 02:58",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "金利相関（近似）: 0.10で正相関傾向",
-      "テクニカル: 現在価格 162.40 と MA20 162.06 の位置関係が主導",
-      "需給: 上限帯 162.83 / 下限帯 161.29 / 直近高値 162.84 / 直近安値 160.62 によるターゲット設計"
+      "米長期金利の上昇がドルを下支え、USD/JPYの上昇バイアスを形成",
+      "現在価格162.46はMA20 162.06を上抜け、短期トレンドは底堅い",
+      "RSI 55.4は中立〜やや買われ、過熱感は限定的"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 162.40、RSI(54.89)、MA20(162.06)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "米利回り上昇と価格のMA20上抜けがUSD/JPYの上昇を示唆し、リスク管理のもと押し目買いを推奨。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、USD/JPYの現在価格 162.40、RSI(54.89)、MA20(162.06)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "米利回り上昇とMA20上抜けがドル強気を支持",
+    "entry": "162.30",
+    "tp": "163.00",
+    "sl": "161.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20付近での押し目と強気ファンダメンタルズが支える",
-    "date": "2026-07-20 19:51",
+    "title": "[S&P 500] UP: MA20での反発とテクニカル・ファンダメンタルズの整合性",
+    "date": "2026-07-21 03:02",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Bloomberg",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "短期的な押し目買いがテクニカルに示唆",
-      "リスク管理を徹底したロングポジションが合理的",
-      "流動性確保のためBloomberg利用を推奨"
+      "テクニカルはMA20付近での押し目買いが有望",
+      "ファンダメンタルズは通信・セクターの底堅さが支える",
+      "リスク管理を徹底し、Nomura Securitiesでの執行を推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20付近でサポートを受け、RSI58で過熱感なし、Nasdaq先行のリバウンドが背景にあり、Bloomberg経由の流動性確保でロング推奨。",
+    "excerpt": "S&P 500はMA20を下回る水準で推移し、RSIは中立圏。通信・テクノロジー株の底堅さが下値を支え、押し目買いのシナリオが優位。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20付近の押し目とRSI58で中立的上昇余地が確認され、Nasdaqリバウンドが支援",
-    "entry": "7465",
-    "tp": "7530",
-    "sl": "7440",
+    "comment": "MA20付近の押し目かつファンダメンタルズ支えにより上値期待",
+    "entry": "7460.00",
+    "tp": "7520.00",
+    "sl": "7430.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20を上抜けとマクロファンダメンタルズの整合性",
-    "date": "2026-07-20 19:55",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性",
+    "date": "2026-07-21 03:03",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を上回り、短期的な上昇余地を示す",
-      "RSIは中立域で過熱感は限定的",
-      "マクロニュースは流動性供給と規制緩和が継続"
+      "米緩和期待とAIブームが上昇ドライブを牽引",
+      "MA20で支揚げ、RSIは57で過売非表示",
+      "流動性重視の実行はbitflyerが最適"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を上抜けし、RSIが中立域で推移する中、流動性環境が改善しBTC/USDは上昇バイアスを示す。",
+    "excerpt": "米政府の緩和期待とAI関連銘柄の好調が相乗効果をもたらし、BTCは65,000ドル前後から66,000ドル超えへ上昇。テクニカル指標はMA20でも支揚げが見られ、RSIは57と過売非表示で短期的な上昇余地が残る。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20上抜けと中立RSI、マクロ・ファンダメンタルズが上昇を支持",
-    "entry": "63900.00",
-    "tp": "65500.00",
-    "sl": "62800.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "米政府の緩和期待とAI関連銘柄の好調が相乗効果をもたらし、BTCは65,000ドル前後から66,000ドル超えへ上昇。テクニカル指標はMA20でも支揚げが見られ、RSIは57と過売非表示で短期的な上昇余地が残る。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
