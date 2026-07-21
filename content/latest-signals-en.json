@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Iran Tension Boosts JPY as Price Tests MA20 Resistance",
-    "date": "2026-07-21 11:24",
+    "title": "[USD/JPY] UP: Geopolitical Risk and BoJ Dovishness Drive Momentum Toward 4-Decade Highs",
+    "date": "2026-07-21 19:23",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Iran conflict escalation fuels safe-haven demand for JPY, pressuring USD/JPY.",
-      "Price sits modestly above MA20 (162.11) with RSI near neutral, indicating limited upside momentum.",
-      "PBOC's stronger USD/CNY fixing supports USD, but geopolitical risk dominates near-term bias."
+      "US-Iran tensions driving USD safe-haven demand",
+      "Divergent monetary policy stance with BoJ",
+      "Price testing critical resistance near multi-decade highs"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Iran conflict boosts JPY safe-haven demand, weighing on USD/JPY despite price above MA20 and RSI near 48 and flat..",
+    "excerpt": "USD/JPY ascends toward historical highs as geopolitical tension and BoJ dovishness sustain bullish USD momentum.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Geopolitical risk favors JPY despite modest technical strength above MA20.",
-    "entry": "162.45",
-    "tp": "161.80",
-    "sl": "162.90",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Geopolitical risk premium and BoJ dovishness support further upside.",
+    "entry": "162.12",
+    "tp": "164.50",
+    "sl": "161.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI-Driven Sentiment Overpowers Dimon’s Hawkish Tone as Tech Momentum Persists",
-    "date": "2026-07-21 11:27",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-21 19:24",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "Nasdaq and S&P 500 futures rally on AI chip demand despite geopolitical risks",
-      "Marvell and Tesla stocks surge ahead of AI earnings, signaling sector strength",
-      "Jamie Dimon’s aversion to equities/bonds reflects institutional caution but not market consensus"
+      "Price trading just below MA20 with RSI near neutral, indicating a potential bounce.",
+      "Chip sector strength and easing AI worries provide near‑term upward momentum.",
+      "Key resistance at MA20 (~7476) defines near‑term upside target."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 rises on AI-driven tech momentum; Dimon’s warnings overshadowed by strong order flow.",
+    "excerpt": "S&P 500 eyes MA20 resistance as chip rally and softer AI sentiment lift near‑term bias.",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500 rises on AI-driven tech momentum; Dimon’s warnings overshadowed by strong order flow.",
+    "comment": "S&P 500 eyes MA20 resistance as chip rally and softer AI sentiment lift near‑term bias.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD: AI Analysis Identifies High-Probability Bullish Scenario",
-    "date": "2026-07-21 11:30",
+    "title": "[BTC/USD] UP: AI Detects Price Above MA20 with Moderate RSI Amid Mixed Regulatory News",
+    "date": "2026-07-21 19:27",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Interest Correlation (Approx): -0.18 (Negative)",
-      "Technical: Driven by Price 65236.58 vs MA20 63471.02",
-      "Liquidity: Targets based on Upper Band 66040.65 / Lower Band 60901.38 / Recent High 65590.63 / Recent Low 57747.77"
+      "Price holds above MA20 support near 63.8k",
+      "RSI ~63 indicates room for upside before overbought",
+      "Institutional product launches offset regulatory headwinds"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 65236.58, RSI(55.62), and MA20(63471.02).",
+    "excerpt": "BTC trades above MA20 at $66.3k, RSI 63 suggests upside; UCITS launch and LSE hours bolster demand amid UK probe and SEC action.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for BTC/USD around Price 65236.58, RSI(55.62), and MA20(63471.02).",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Price above MA20 with RSI showing room for upside; institutional inflows supportive.",
+    "entry": "64500.00",
+    "tp": "70000.00",
+    "sl": "62500.00",
+    "reliability": "HIGH"
   }
 }

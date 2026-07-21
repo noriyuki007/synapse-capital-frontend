@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20付近の押し目とリスクオン要因",
-    "date": "2026-07-21 11:24",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-21 19:23",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20上抜けとRSI中立で上値余地あり",
-      "地政学リスクが米ドルを支援",
-      "流動性確保と[dmm-fx]利用で執行性向上"
+      "MA20サポートで上昇余地残す",
+      "米国金利低下期待が USD 高支付",
+      "リスクオフで円売り加速"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20上抜け、RSI48で中立、地政学リスクが米ドルを支え、買い場と判断。",
+    "excerpt": "USD/JPYは四半世紀高水準に接近、米国イラン緊張とBOJ緩和が円売りを助長、テクニカルはMA20付近で支援的で上昇余地残ると分析。現在の価格162.65は過去最大値に近接し、流動性も十分確保。今後の米国金利動向次第でさらなる上昇が期待される。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20上抜け、RSI中立、リスクオン要因で上値余地あり",
-    "entry": "162.50",
-    "tp": "163.30",
+    "comment": "MA20支援と金利相関で上昇余地あり",
+    "entry": "162.40",
+    "tp": "163.20",
     "sl": "162.00",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20割れと米金融警戒が重石",
-    "date": "2026-07-21 11:27",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-21 19:24",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Nomura Securities",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
     "tldr_points": [
-      "現在価格はMA20下位で推移、下押しリスクが顕在化",
-      "ジェイミー・ダイモンの警戒感が需給に重石",
-      "テクニカルはRSI中立ながらモメンタム減衰"
+      "チップ株の反復上昇が市場全体のリスクオンムードを支援",
+      "MA20を下回る価格は短期的な押し目と見なし、買い場となる可能性",
+      "ファンダメンタルズは金利安定と企業利益改善が背景"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20を下回るS&P 500は下押し圧力が強まっており、売り方向を視野に入れる。",
+    "excerpt": "チップ株主導のリスクオンによりS&P500はMA20付近での反発が期待され、買い向かいの戦略が有効。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "MA20割れと需給悪化が下押しリスクを示唆",
+    "status": "BUY",
+    "comment": "金利安定とチップ株主導のリスクオンに加え、MA20までの押し目が買い場と判断",
     "entry": "7443.00",
-    "tp": "7300.00",
-    "sl": "7550.00",
+    "tp": "7520.00",
+    "sl": "7400.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-21 11:30",
+    "date": "2026-07-21 19:27",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を上回り、中期的な上昇トレンドを示唆",
-      "RSIは55.6で過熱感が限定的、上値余地あり",
-      "米国議会でのクリプト法案進展と機関参入期待が底上げ要因"
+      "MA20上抜けとRSI中立域で上昇トレンド継続",
+      "機関向けUCITSローンチで資金流入期待",
+      "規制リスクは限定的ながら監視継続"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を上回る価格と緩やかなRSIが上昇バイアスを支え、米国クリプト法案の進展と機関参入期待がファンダメンタルズを強化。短期的な押し目買いが有利。",
+    "excerpt": "BTCはMA20を上回りRSI63で強気継続、機関投資家向け商品拡大が追い風。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "価格がMA20を上回り、RSIが中立域で上値余地があり、規制緩和がファンダメンタルズを支えるため買い推奨",
-    "entry": "64800",
-    "tp": "68000",
-    "sl": "63000",
+    "comment": "MA20上抜けと機関向け商品拡大が上昇を支持",
+    "entry": "66300",
+    "tp": "70000",
+    "sl": "63500",
     "reliability": "HIGH"
   }
 }
