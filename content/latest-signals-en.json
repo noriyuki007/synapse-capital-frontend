@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Price Above MA20 with Moderate Bullish RSI Amid Risk‑Off Sentiment",
-    "date": "2026-07-22 19:23",
+    "title": "[USD/JPY] UP: AI Identifies MA20 as Critical Support Amid Divergent Fundamentals",
+    "date": "2026-07-23 02:14",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above MA20 at 163.05 with RSI 55.4 indicating mild bullish momentum.",
-      "Iran‑driven risk‑off sentiment is boosting USD demand relative to JPY.",
-      "Key resistance at 164.00; break could target 165.00."
+      "Price holds above MA20 with RSI in neutral territory",
+      "US Treasury auction signals prolonged dollar strength potential",
+      "European risk rally creates short-term yen weakness"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY above MA20 at 163.05, RSI 55.4, Iran‑driven risk‑off lifts dollar, targeting 164.00 to capture upside towards 165.",
+    "excerpt": "USD/JPY shows technical resilience above MA20 despite mixed US fiscal news.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Technical bullish alignment with risk-off fundamentals",
-    "entry": "162.20",
-    "tp": "164.00",
+    "comment": "Structural bullish case from MA20 support with RSI neutrality",
+    "entry": "162.19",
+    "tp": "163.50",
     "sl": "161.50",
-    "reliability": "MEDIUM"
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI-Derived MA20 Support and Confluent Fundamentals",
-    "date": "2026-07-22 19:26",
+    "title": "[S&P 500] UP: Technicals Stabilize Macro Weakness with RSI Crossing Median",
+    "date": "2026-07-23 02:18",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "For executing this support play, we recommend using [] due to optimal order flow depth.",
+    "recommended_broker": "[[AvidMarkets]]",
     "tldr_points": [
-      "S&P 500 trading 1.2% above MA20 with RSI neutral",
-      "Inflation-driven equity rotation positions asymmetric",
-      "AI models flagging 78% probability of next resistance test"
+      "RSI(14) at 53.44 +1.2% signals trend reversal from bearish signals",
+      "Price holds above 7485 MA despite macro caution",
+      "Earnings cycle to resolve sector divergence in Q3"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 fundamentals strengthen as MA20 acts as self-reinforcing support level despite inflation headwinds.",
+    "excerpt": "Technical stabilization at key support amid mixed macro: 7519 S&P forms potential uptrend base",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Support at MA20 holds amid rotating portfolio rebalancing",
-    "entry": "7495",
-    "tp": "7620",
-    "sl": "7350",
+    "comment": "Strong technicals offset macro uncertainty",
+    "entry": "7515.00",
+    "tp": "7645.00",
+    "sl": "7465.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-22 19:29",
+    "title": "[BTC/USD] UP: Momentum Accelerating as Regulatory Clarity Improves",
+    "date": "2026-07-23 02:19",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC holds above MA20 with RSI momentum intact",
-      "Regulatory headwinds offset by institutional demand signals",
-      "Entry at MA20 support with 1.5% risk-reward ratio"
+      "Legislative tailwinds from the Clarity Act provide long-term structural support",
+      "SEC settlement with Coinbase reduces immediate regulatory overhang",
+      "RSI indicates strong bullish momentum approaching overbought territory"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD maintains bullish structure above MA20 as technical momentum (RSI 66.46) and stablecoin adoption pressures drive institutional inflows.",
+    "excerpt": "BTC maintains bullish structure above MA20 as regulatory clarity improves via Senate Clarity Act and SEC settlement.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Technical structure intact with fundamental catalysts aligning for institutional inflows",
-    "entry": "64017.88",
-    "tp": "66800",
-    "sl": "63200",
+    "comment": "Strong bullish momentum supported by regulatory tailwinds and healthy RSI levels.",
+    "entry": "64800.00",
+    "tp": "68500.00",
+    "sl": "63400.00",
     "reliability": "HIGH"
   }
 }

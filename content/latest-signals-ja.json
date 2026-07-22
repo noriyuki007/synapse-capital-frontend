@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20上回りと米金利先行相関の強化を確認",
-    "date": "2026-07-22 19:23",
+    "title": "[USD/JPY] UP: MA20での反発と米長期金利上昇の整合性を確認",
+    "date": "2026-07-23 02:14",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "現在163.05、MA20（162.18）上で強気基調",
-      "RSI55.35で横ばいながら上昇継続の余地あり",
-      "米金利リスク低減と地中海・イラン緊張の資金流入が円安を支える"
+      "米20年債入札の高利回りが米ドルを支える",
+      "MA20上抜けとRSI56で短期的に上昇余地あり",
+      "リスクオン環境で円売り圧力が継続"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは163.05でMA20上回り、RSI55.35の横ばいを維持。米金利先行相関とイランリスク低減が円安局面を支え、押しもれ買いを厳格なリスク管理下で推奨する。",
+    "excerpt": "米長期金利上昇とリスクオン sentiment が円売りを後押し、USD/JPY は MA20 を基盤とした押し目買いが有望。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20上回りと米金利先行相関が強気を支える",
-    "entry": "162.2",
-    "tp": "164.5",
-    "sl": "161.8",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "米長期金利上昇とリスクオン sentiment が円売りを後押し、USD/JPY は MA20 を基盤とした押し目買いが有望。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: MA20上抜けが継続されるもAI unwindが売り圧力を示す",
-    "date": "2026-07-22 19:26",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-23 02:18",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "UP",
+    "recommended_broker": "[ノムラ證券]",
     "tldr_points": [
-      "MA20上抜けが支持グリッドを形成",
-      "RSIは中立的でモメンタムが薄い",
-      "AI unwindシグナルは短期的に横ばいリスクを示唆"
+      "価格はMA20を上回り、中期的な上昇トレンドが継続",
+      "RSIは53で中立ながらやや買いバイアスを示す",
+      "ファンダメンタルズはマイナス要因もあるが、テクニカルが支持"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20上抜けを維持しつつ、AI unwindによる売り圧力で短期に横ばいリスクが高い。",
+    "excerpt": "S&P 500はMA20上抜けとRSIのやや買い傾向から上昇余地が見込まれ、リスク管理された押し目買い戦略を提案します。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20上抜けを維持しつつAI unwindに注意",
-    "entry": "7480.00",
-    "tp": "7600.00",
-    "sl": "7440.00",
-    "reliability": " VENTILATION "
+    "status": "NEUTRAL",
+    "comment": "S&P 500はMA20上抜けとRSIのやや買い傾向から上昇余地が見込まれ、リスク管理された押し目買い戦略を提案します。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USDの見通し：需給バランスから見る「押し目買い」の優位性",
-    "date": "2026-07-22 19:29",
+    "title": "[BTC/USD] UP: MA20上抜けとRSI67で上値余地、SEC是正と米経済データが支え",
+    "date": "2026-07-23 02:19",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "金利相関（近似）: -0.03で負相関傾向",
-      "テクニカル: 現在価格 65927.77 と MA20 64017.88 の位置関係が主導",
-      "需給: 上限帯 66295.30 / 下限帯 61740.45 / 直近高値 66910.06 / 直近安値 61176.72 によるターゲット設計"
+      "MA20上抜けとRSI67で上値余地、短期押し目買いが有望",
+      "SEC是正と米経済データがファンダメンタル supportive、リスクオン環境を支援",
+      "流動性確保のため bitflyer の利用を推奨し、エントリー・TP・SL を厳格に設定"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 65927.77、RSI(66.46)、MA20(64017.88)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "BTC/USDは66,000円付近でMA20を上回りRSI67と上値余地、SEC是正と米経済データが支え、短期押し目買いシナリオが有望。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、BTC/USDの現在価格 65927.77、RSI(66.46)、MA20(64017.88)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20上抜け、RSI67で上値余地あり、短期押し目買いが有望",
+    "entry": "65500",
+    "tp": "68000",
+    "sl": "63000",
+    "reliability": "HIGH"
   }
 }
