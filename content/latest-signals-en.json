@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Bullish Momentum as Price Holds Above MA20",
-    "date": "2026-07-22 02:14",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-22 11:22",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price trades above MA20 support with RSI neutral, indicating room for upside.",
-      "Positive equity momentum and risk‑on sentiment boost USD/JPY upside potential.",
-      "Key resistance near 164.00; stop below MA20 at ~162.10."
+      "Price above MA20 indicates short-term bullish bias.",
+      "PBOC's stronger USD/CNY fix and US-Saudi nuclear deal bolster USD fundamentals.",
+      "Geopolitical tensions cap upside; watch for safe-haven shifts."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above MA20 with neutral RSI, equity rally supports further upside toward 164.00.",
+    "excerpt": "USD/JPY holds above MA20 with RSI neutral; PBOC and US-Saudi deal support upside while geopolitical risk tempers downside.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price holds above MA20 with neutral RSI and risk‑on equity backdrop, favoring upside.",
-    "entry": "162.80",
-    "tp": "164.30",
+    "comment": "Bullish bias from yield advantage and supportive fundamentals, with technical support near MA20.",
+    "entry": "162.90",
+    "tp": "164.50",
     "sl": "162.00",
-    "reliability": "HIGH"
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-22 02:18",
+    "title": "[S&P 500] UP: MA20 Holds as AI and Semiconductor Resilience Drives Uptrend",
+    "date": "2026-07-22 11:24",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "For executing this specific setup, we recommend utilizing [Broker] due to optimal liquidity.",
     "tldr_points": [
-      "Price holds above MA20 indicating short‑term support",
-      "RSI near 50 shows balanced momentum, room for upside",
-      "Chipmaker strength and Nasdaq gains provide fundamental tailwind"
+      "S&P 500 near-term support at MA20",
+      "AI infrastructure tailwinds intensify",
+      "Semiconductor caution offsets broader risk"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades above MA20 with neutral RSI; chipmaker rally supports near‑term upside.",
+    "excerpt": "S&P 500 near MA20 support amid mixed tech news. Buy potential if resistance breaks.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price above MA20 with neutral RSI and bullish semiconductor catalyst supports near‑term upside.",
-    "entry": "7490.00",
-    "tp": "7550.00",
-    "sl": "7460.00",
-    "reliability": "MEDIUM"
+    "comment": "Technical support and AI-driven earnings momentum favor upside.",
+    "entry": "7509.2",
+    "tp": "7700",
+    "sl": "7450",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-22 02:19",
+    "date": "2026-07-22 11:27",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price above MA20 indicates short‑term bullish bias.",
-      "RSI 63 suggests room for further upside before overbought.",
-      "Macro catalysts: Telegram wallet rollout and Augustus dollar bank funding boost risk appetite."
+      "BTC holds above MA20 with RSI signaling momentum continuation",
+      "Regulatory clarity from DOJ oversight and Tax Chamber litigation boost fundamentals",
+      "Entry at $63,789 with $68,000 TP and $62,000 SL"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds above MA20 with RSI 63, bullish macro from wallet rollout and dollar bank funding; targeting 68k resistance!!.",
+    "excerpt": "BTC/USD maintains bullish structure above MA20 as regulatory catalysts emerge and momentum sustains above neutral RSI threshold.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Price above MA20 with RSI 63 and bullish macro catalysts support upside toward 68k resistance.",
-    "entry": "66400",
-    "tp": "68500",
-    "sl": "64800",
+    "comment": "Bullish structure intact above MA20 with positive fundamental catalysts and momentum-driven RSI rising",
+    "entry": "63789.4",
+    "tp": "68000",
+    "sl": "62000",
     "reliability": "HIGH"
   }
 }
