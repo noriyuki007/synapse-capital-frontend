@@ -1,66 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20上方突破とリスクオフユドランスの反転シナリオ",
-    "date": "2026-07-22 11:22",
+    "title": "[USD/JPY] UP: MA20上回りと米金利先行相関の強化を確認",
+    "date": "2026-07-22 19:23",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20上方突破確認、テクニカル構造強化",
-      "イラン危機金融作動が一時収まり、リスクムード回復",
-      "163.50-164.00の上位エリアを抜け次の段階へ"
+      "現在163.05、MA20（162.18）上で強気基調",
+      "RSI55.35で横ばいながら上昇継続の余地あり",
+      "米金利リスク低減と地中海・イラン緊張の資金流入が円安を支える"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "163.145でMA20線上での上昇基礎形成。イラン情勢のデエスカレーションと金価格の一時軽減からリスクムード回復見込みで、165円目標に向かい下位リスクは162.00前後までと評価。",
+    "excerpt": "USD/JPYは163.05でMA20上回り、RSI55.35の横ばいを維持。米金利先行相関とイランリスク低減が円安局面を支え、押しもれ買いを厳格なリスク管理下で推奨する。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20上方突破とリスクムード回復からの買いシグナル",
-    "entry": "163.35",
-    "tp": "164.50",
-    "sl": "162.00",
+    "comment": "MA20上回りと米金利先行相関が強気を支える",
+    "entry": "162.2",
+    "tp": "164.5",
+    "sl": "161.8",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500分析：持ち合い局面における流動性ゾーンの特定",
-    "date": "2026-07-22 11:24",
+    "title": "[S&P 500] FLAT: MA20上抜けが継続されるもAI unwindが売り圧力を示す",
+    "date": "2026-07-22 19:26",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "FLAT",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "金利相関（近似）: -0.25で負相関傾向",
-      "テクニカル: 現在価格 7509.20 と MA20 7477.99 の位置関係が主導",
-      "需給: 上限帯 7621.00 / 下限帯 7334.97 / 直近高値 7581.50 / 直近安値 7294.18 によるターゲット設計"
+      "MA20上抜けが支持グリッドを形成",
+      "RSIは中立的でモメンタムが薄い",
+      "AI unwindシグナルは短期的に横ばいリスクを示唆"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 7509.20、RSI(50.93)、MA20(7477.99)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "S&P 500はMA20上抜けを維持しつつ、AI unwindによる売り圧力で短期に横ばいリスクが高い。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、S&P 500の現在価格 7509.20、RSI(50.93)、MA20(7477.99)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20上抜けを維持しつつAI unwindに注意",
+    "entry": "7480.00",
+    "tp": "7600.00",
+    "sl": "7440.00",
+    "reliability": " VENTILATION "
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Confirming confluence of MA20 support and bullish institutional flow",
-    "date": "2026-07-22 11:27",
+    "title": "BTC/USDの見通し：需給バランスから見る「押し目買い」の優位性",
+    "date": "2026-07-22 19:29",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20 bullish crossover, RSI moderate bullish, institutional funding surge"
+      "金利相関（近似）: -0.03で負相関傾向",
+      "テクニカル: 現在価格 65927.77 と MA20 64017.88 の位置関係が主導",
+      "需給: 上限帯 66295.30 / 下限帯 61740.45 / 直近高値 66910.06 / 直近安値 61176.72 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC above 20‑day MA, moderate RSI momentum, and regulatory clarity support near‑term upside.",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 65927.77、RSI(66.46)、MA20(64017.88)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "テクニカルとファンダメンタルの相関を考慮した短期ロング",
-    "entry": "66400",
-    "tp": "68000",
-    "sl": "65500",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、BTC/USDの現在価格 65927.77、RSI(66.46)、MA20(64017.88)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
