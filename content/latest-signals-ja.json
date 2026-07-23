@@ -1,68 +1,64 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20サポートと強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-23 19:18",
+    "title": "USD/JPY 市場分析",
+    "date": "2026-07-24",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
-    "tldr_points": [
-      "WTI$90と地政学リスクでドル買い圧力が継続",
-      "MA20（162.27）が強力なサポートとして機能",
-      "RSI73.9は過熱感だがトレンド継続の余地あり"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "ドル円はMA20上方で堅調、原油高・イラン緊張でドル買い継続。押し目買い戦略を推奨。",
+    "excerpt": "",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20サポートとドル買いファンダメンタルズの整合性により上昇継続見込み",
-    "entry": "162.30",
-    "tp": "165.00",
-    "sl": "161.50",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "リスクオフとテクニカル過熱感から調整期待",
+    "entry": "163.30000",
+    "tp": "161.80000",
+    "sl": "164.20000",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] 上昇: MA20上回りとAI需要の持続性を確認",
-    "date": "2026-07-23 19:20",
+    "title": "[S&P 500] DOWN: 原油高によるリスクオフとテクニカルの乖離を示唆",
+    "date": "2026-07-24 02:22",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
     "tldr_points": [
-      "現在価格はMA20上で反発局面",
-      "AI需要と半導体需要がファンダメンタルズを支える",
-      "RSIは中立からやや上向きへ転換"
+      "原油価格の100ドル突破がリスクオフを誘発し、ナスダック中心に売り圧力が強まる。",
+      "テクニカルは現在価格がMA20を下回り、RSIは中立付近で下値リスクが残る。",
+      "本戦略ではMA20付近での戻り売りを推奨し、Nomura Securitiesの流動性を活用する。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20上回りの14.5pt上昇を確認。RSI 51.5の中立維持となり、AI需要を核にした上昇機運が顕在化。",
+    "excerpt": "原油高によるリスクオフとテクニカルの乖離から、S&P 500はMA20付近での戻り売りが適切。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20上回りとファンダメンタルズの好機を確認",
-    "entry": "7487.5",
-    "tp": "7600",
-    "sl": "7400",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "原油高とテクニカルの乖離が下値リスクを示唆",
+    "entry": "7480",
+    "tp": "7350",
+    "sl": "7520",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20の上値支持確認と韓国市場における決済インフラ拡大に伴う潜在的需要増",
-    "date": "2026-07-23 19:22",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-24 02:24",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "韓国市場でのステーブルコイン決済インフラ拡充による需要増",
-      "テクニカル面でのMA20サポートの確認と強気モメンタムの維持",
-      "ブリッジ脆弱性等の局所的リスクはあるものの、マクロ的な流動性流入は継続"
+      "価格はMA20を上回り、RSIは57でやや買われ過ぎではない",
+      "機関が量子耐性コンソーシアムを結成し、長期的な信認が向上",
+      "Discover対応決済拡大とAI決済採用が需要を底上げ"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCはMA20による下値支持を確認し、強気なトレンドを維持している。韓国での決済インフラ拡大といったファンダメンタルズの好材料に加え、テクニカル面でのモメンタムも上値を追う形状である。ブリッジ攻撃等の個別リスクには注意を払いつつ、押し目買い戦略が有効な局面である。",
+    "excerpt": "MA20上抜けとRSI57で底堅さを示し、機関の量子耐性コンソーシアム形成が長期支援材料となる。一方で、Discover対応決済拡大とAI決済の採用が需要を底上げ、短期的な上値余地を支える。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20によるサポート確認とアジア圏での決済インフラ拡充に伴う強気相場",
-    "entry": "64800.00",
-    "tp": "70000.00",
-    "sl": "63500.00",
-    "reliability": "HIGH"
+    "comment": "MA20上抜けとRSI57で底堅さ、機関の量子耐性コンソーシアムと決済拡張が上値を支える",
+    "entry": "64140.00",
+    "tp": "66000.00",
+    "sl": "61500.00",
+    "reliability": "MEDIUM"
   }
 }
