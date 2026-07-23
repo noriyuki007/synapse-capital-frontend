@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Bullish Momentum Above MA20 with Overbought RSI",
-    "date": "2026-07-23 11:27",
+    "title": "[USD/JPY] UP: AI Detects Bullish Momentum Above MA20 as Fundamentals Favor Dollar Strength",
+    "date": "2026-07-23 19:18",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Strong Australian jobs data boosts risk‑on sentiment, supporting USD demand.",
-      "Oil price rise from Iran strikes and port blockades fuels inflation expectations, lifting US yields.",
-      "PBOC’s higher USD/CNY fixing signals USD strength, reinforcing bullish bias for USD/JPY."
+      "Price trades above MA20 with RSI near 74 indicating sustained upward momentum.",
+      "ECB pause and EUR weakness bolster USD/JPY upside.",
+      "Geopolitical tensions raise safe-haven demand, supporting dollar."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY trades above MA20 at 163.06, RSI overbought; oil‑driven USD strength supports upside toward 163.80.",
+    "excerpt": "USD/JPY holds above MA20 with strong RSI, backed by ECB pause and risk-on oil rally, favoring further gains.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish bias supported by price above MA20, oil‑driven USD strength and PBOC fixing, despite overbought RSI.",
-    "entry": "162.30",
-    "tp": "163.80",
-    "sl": "161.80",
+    "comment": "Bullish bias supported by price above MA20, strong RSI, and fundamentals favoring USD strength.",
+    "entry": "163.00",
+    "tp": "165.00",
+    "sl": "162.00",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Earnings Strength Supports Modest Upside",
-    "date": "2026-07-23 11:31",
+    "title": "[S&P 500] UP: Technicals Align with AI‑Driven Fundamentals",
+    "date": "2026-07-23 19:20",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 Q2 earnings beats at 5-year highs signal robust corporate growth.",
-      "Price sits just above MA20 with RSI near neutral, indicating mild bullish momentum.",
-      "AI-driven tech strength offsets softness in Google/Tesla, supporting upside bias."
+      "S&P 500 trades above 20‑day MA with neutral RSI",
+      "AI/semiconductor fundamentals bullish despite regulatory noise",
+      "Tactical bias set to UP with entry at 7490 and tight risk control"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above MA20 on solid earnings; mild upside bias with defined risk levels.",
+    "excerpt": "S&P 500 above MA20, neutral RSI, bullish bias on AI fundamentals.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price above MA20 with solid earnings backdrop supports a long bias.",
-    "entry": "7490.00",
-    "tp": "7550.00",
-    "sl": "7460.00",
-    "reliability": "MEDIUM"
+    "comment": "Technical strength above MA20 and AI‑fueled fundamentals support a modest upside bias.",
+    "entry": "7490",
+    "tp": "7520",
+    "sl": "7450",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Price Holds Above MA20 as Miner Strength Offsets Regulatory Noise",
-    "date": "2026-07-23 11:34",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-23 19:22",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trades 2.8% above rising MA20 with RSI at 65.6, signaling healthy momentum.",
-      "Hut 8 target raise validates miner transition thesis; Kraken expansion supports exchange tokenization flow.",
-      "Regulatory friction (Clarity Act, GOP bill) caps upside but fails to break structural support."
+      "Price above MA20 (64183) with RSI 62 indicates mild bullish momentum.",
+      "Korean stablecoin partnership and institutional exchange uptake provide fundamental support.",
+      "Bridge exploit news weighs on sentiment but technical structure remains intact."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC sustains break above MA20 at $64k; bullish miner equity action counters DC regulatory drag.",
+    "excerpt": "BTC stays above MA20, RSI 62; Korean stablecoin deals and exchange acquisitions support upside despite bridge exploits..",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Bullish trend intact above MA20; miner equity strength and tokenization flows offset regulatory overhang.",
-    "entry": "65000",
-    "tp": "68500",
-    "sl": "63800",
-    "reliability": "MEDIUM"
+    "comment": "Price above MA20 with RSI indicating mild bullish momentum; fundamentals from Korean stablecoin deals and exchange acquisitions support upside.",
+    "entry": "65200",
+    "tp": "68000",
+    "sl": "63000",
+    "reliability": "HIGH"
   }
 }

@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: RSI過熱とファンダメンタルズの混在で調整局面を示唆",
-    "date": "2026-07-23 11:27",
+    "title": "[USD/JPY] UP: MA20サポートと強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-23 19:18",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "豪州雇用強化でAUD上昇、リスクオン傾向が一時的",
-      "原油高と中東緊張が円安全需要を刺激",
-      "テクニカルはMA20上放れもRSI70超で売りシグナル"
+      "WTI$90と地政学リスクでドル買い圧力が継続",
+      "MA20（162.27）が強力なサポートとして機能",
+      "RSI73.9は過熱感だがトレンド継続の余地あり"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "豪州の雇用統計強化と原油高・人民元弱含みが交錯する中、RSIが70を超える過買い状態は、USD/JPYに短期的な調整圧力をもたらし、売りバイアスを示唆する。",
+    "excerpt": "ドル円はMA20上方で堅調、原油高・イラン緊張でドル買い継続。押し目買い戦略を推奨。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "豪州の雇用統計強化と原油高・人民元弱含みが交錯する中、RSIが70を超える過買い状態は、USD/JPYに短期的な調整圧力をもたらし、売りバイアスを示唆する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20サポートとドル買いファンダメンタルズの整合性により上昇継続見込み",
+    "entry": "162.30",
+    "tp": "165.00",
+    "sl": "161.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "戦術的インサイト：S&P 500の均衡状態とブレイク条件の定義",
-    "date": "2026-07-23 11:31",
+    "title": "[S&P 500] 上昇: MA20上回りとAI需要の持続性を確認",
+    "date": "2026-07-23 19:20",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "金利相関（近似）: -0.26で負相関傾向",
-      "テクニカル: 現在価格 7498.96 と MA20 7484.66 の位置関係が主導",
-      "需給: 上限帯 7617.68 / 下限帯 7351.65 / 直近高値 7581.50 / 直近安値 7294.18 によるターゲット設計"
+      "現在価格はMA20上で反発局面",
+      "AI需要と半導体需要がファンダメンタルズを支える",
+      "RSIは中立からやや上向きへ転換"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 7498.96、RSI(51.50)、MA20(7484.66)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "S&P 500はMA20上回りの14.5pt上昇を確認。RSI 51.5の中立維持となり、AI需要を核にした上昇機運が顕在化。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、S&P 500の現在価格 7498.96、RSI(51.50)、MA20(7484.66)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20上回りとファンダメンタルズの好機を確認",
+    "entry": "7487.5",
+    "tp": "7600",
+    "sl": "7400",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: 価格がMA20を上抜け、RSIが堅調且つファンダメンタルズが混在",
-    "date": "2026-07-23 11:34",
+    "title": "[BTC/USD] UP: MA20の上値支持確認と韓国市場における決済インフラ拡大に伴う潜在的需要増",
+    "date": "2026-07-23 19:22",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を約180ポイント上抜け、短期上昇バイアスを示す",
-      "RSIは65.6で買われすぎ手前だが、モメンタムは維持",
-      "ファンダメンタルズはマイニング株の強化と規制不透明感が混在"
+      "韓国市場でのステーブルコイン決済インフラ拡充による需要増",
+      "テクニカル面でのMA20サポートの確認と強気モメンタムの維持",
+      "ブリッジ脆弱性等の局所的リスクはあるものの、マクロ的な流動性流入は継続"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20上抜けとRSIの堅調さから短期的に上昇余地が見込まれ、流動性の観点からbitflyerの利用を推奨します。",
+    "excerpt": "BTCはMA20による下値支持を確認し、強気なトレンドを維持している。韓国での決済インフラ拡大といったファンダメンタルズの好材料に加え、テクニカル面でのモメンタムも上値を追う形状である。ブリッジ攻撃等の個別リスクには注意を払いつつ、押し目買い戦略が有効な局面である。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20を上抜け、RSIが堅調で上昇余地あり",
-    "entry": "65200",
-    "tp": "68000",
-    "sl": "64000",
+    "comment": "MA20によるサポート確認とアジア圏での決済インフラ拡充に伴う強気相場",
+    "entry": "64800.00",
+    "tp": "70000.00",
+    "sl": "63500.00",
     "reliability": "HIGH"
   }
 }
