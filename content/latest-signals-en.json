@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Identifies MA20 as Critical Support Amid Divergent Fundamentals",
-    "date": "2026-07-23 02:14",
+    "title": "[USD/JPY] UP: AI Detects Bullish Momentum Above MA20 with Overbought RSI",
+    "date": "2026-07-23 11:27",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above MA20 with RSI in neutral territory",
-      "US Treasury auction signals prolonged dollar strength potential",
-      "European risk rally creates short-term yen weakness"
+      "Strong Australian jobs data boosts risk‑on sentiment, supporting USD demand.",
+      "Oil price rise from Iran strikes and port blockades fuels inflation expectations, lifting US yields.",
+      "PBOC’s higher USD/CNY fixing signals USD strength, reinforcing bullish bias for USD/JPY."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY shows technical resilience above MA20 despite mixed US fiscal news.",
+    "excerpt": "USD/JPY trades above MA20 at 163.06, RSI overbought; oil‑driven USD strength supports upside toward 163.80.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Structural bullish case from MA20 support with RSI neutrality",
-    "entry": "162.19",
-    "tp": "163.50",
-    "sl": "161.50",
+    "comment": "Bullish bias supported by price above MA20, oil‑driven USD strength and PBOC fixing, despite overbought RSI.",
+    "entry": "162.30",
+    "tp": "163.80",
+    "sl": "161.80",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Technicals Stabilize Macro Weakness with RSI Crossing Median",
-    "date": "2026-07-23 02:18",
+    "title": "[S&P 500] UP: Earnings Strength Supports Modest Upside",
+    "date": "2026-07-23 11:31",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "[[AvidMarkets]]",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "RSI(14) at 53.44 +1.2% signals trend reversal from bearish signals",
-      "Price holds above 7485 MA despite macro caution",
-      "Earnings cycle to resolve sector divergence in Q3"
+      "S&P 500 Q2 earnings beats at 5-year highs signal robust corporate growth.",
+      "Price sits just above MA20 with RSI near neutral, indicating mild bullish momentum.",
+      "AI-driven tech strength offsets softness in Google/Tesla, supporting upside bias."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Technical stabilization at key support amid mixed macro: 7519 S&P forms potential uptrend base",
+    "excerpt": "S&P 500 holds above MA20 on solid earnings; mild upside bias with defined risk levels.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Strong technicals offset macro uncertainty",
-    "entry": "7515.00",
-    "tp": "7645.00",
-    "sl": "7465.00",
-    "reliability": "HIGH"
+    "comment": "Price above MA20 with solid earnings backdrop supports a long bias.",
+    "entry": "7490.00",
+    "tp": "7550.00",
+    "sl": "7460.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Momentum Accelerating as Regulatory Clarity Improves",
-    "date": "2026-07-23 02:19",
+    "title": "[BTC/USD] UP: Price Holds Above MA20 as Miner Strength Offsets Regulatory Noise",
+    "date": "2026-07-23 11:34",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Legislative tailwinds from the Clarity Act provide long-term structural support",
-      "SEC settlement with Coinbase reduces immediate regulatory overhang",
-      "RSI indicates strong bullish momentum approaching overbought territory"
+      "BTC trades 2.8% above rising MA20 with RSI at 65.6, signaling healthy momentum.",
+      "Hut 8 target raise validates miner transition thesis; Kraken expansion supports exchange tokenization flow.",
+      "Regulatory friction (Clarity Act, GOP bill) caps upside but fails to break structural support."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC maintains bullish structure above MA20 as regulatory clarity improves via Senate Clarity Act and SEC settlement.",
+    "excerpt": "BTC sustains break above MA20 at $64k; bullish miner equity action counters DC regulatory drag.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Strong bullish momentum supported by regulatory tailwinds and healthy RSI levels.",
-    "entry": "64800.00",
-    "tp": "68500.00",
-    "sl": "63400.00",
-    "reliability": "HIGH"
+    "comment": "Bullish trend intact above MA20; miner equity strength and tokenization flows offset regulatory overhang.",
+    "entry": "65000",
+    "tp": "68500",
+    "sl": "63800",
+    "reliability": "MEDIUM"
   }
 }

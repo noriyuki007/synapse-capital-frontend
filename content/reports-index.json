@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-07-23-crypto-ja",
-    "date": "2026-07-23 02:19",
-    "title": "[BTC/USD] UP: MA20上抜けとRSI67で上値余地、SEC是正と米経済データが支え",
+    "date": "2026-07-23 11:34",
+    "title": "[BTC/USD] UP: 価格がMA20を上抜け、RSIが堅調且つファンダメンタルズが混在",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "BTC/USDは66,000円付近でMA20を上回りRSI67と上値余地、SEC是正と米経済データが支え、短期押し目買いシナリオが有望。",
+    "excerpt": "MA20上抜けとRSIの堅調さから短期的に上昇余地が見込まれ、流動性の観点からbitflyerの利用を推奨します。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-07-23-crypto-en",
-    "date": "2026-07-23 02:19",
-    "title": "[BTC/USD] UP: Momentum Accelerating as Regulatory Clarity Improves",
+    "date": "2026-07-23 11:34",
+    "title": "[BTC/USD] UP: Price Holds Above MA20 as Miner Strength Offsets Regulatory Noise",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "BTC maintains bullish structure above MA20 as regulatory clarity improves via Senate Clarity Act and SEC settlement.",
+    "excerpt": "BTC sustains break above MA20 at $64k; bullish miner equity action counters DC regulatory drag.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-07-23-stocks-ja",
-    "date": "2026-07-23 02:18",
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-23 11:31",
+    "title": "戦術的インサイト：S&P 500の均衡状態とブレイク条件の定義",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "[ノムラ證券]",
-    "excerpt": "S&P 500はMA20上抜けとRSIのやや買い傾向から上昇余地が見込まれ、リスク管理された押し目買い戦略を提案します。",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 7498.96、RSI(51.50)、MA20(7484.66)を軸に、金利相関と需給帯から実行プランを整理する。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-07-23-stocks-en",
-    "date": "2026-07-23 02:18",
-    "title": "[S&P 500] UP: Technicals Stabilize Macro Weakness with RSI Crossing Median",
+    "date": "2026-07-23 11:31",
+    "title": "[S&P 500] UP: Earnings Strength Supports Modest Upside",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "[[AvidMarkets]]",
-    "excerpt": "Technical stabilization at key support amid mixed macro: 7519 S&P forms potential uptrend base",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 holds above MA20 on solid earnings; mild upside bias with defined risk levels.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-07-23-fx-ja",
-    "date": "2026-07-23 02:14",
-    "title": "[USD/JPY] UP: MA20での反発と米長期金利上昇の整合性を確認",
+    "date": "2026-07-23 11:27",
+    "title": "[USD/JPY] DOWN: RSI過熱とファンダメンタルズの混在で調整局面を示唆",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
-    "excerpt": "米長期金利上昇とリスクオン sentiment が円売りを後押し、USD/JPY は MA20 を基盤とした押し目買いが有望。",
+    "excerpt": "豪州の雇用統計強化と原油高・人民元弱含みが交錯する中、RSIが70を超える過買い状態は、USD/JPYに短期的な調整圧力をもたらし、売りバイアスを示唆する。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-07-23-fx-en",
-    "date": "2026-07-23 02:14",
-    "title": "[USD/JPY] UP: AI Identifies MA20 as Critical Support Amid Divergent Fundamentals",
+    "date": "2026-07-23 11:27",
+    "title": "[USD/JPY] UP: AI Detects Bullish Momentum Above MA20 with Overbought RSI",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY shows technical resilience above MA20 despite mixed US fiscal news.",
+    "excerpt": "USD/JPY trades above MA20 at 163.06, RSI overbought; oil‑driven USD strength supports upside toward 163.80.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -152,7 +152,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "BTCはMA20を上回りRSI63で強気継続、機関投資家向け商品拡大が追い風。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC trades above MA20 at $66.3k, RSI 63 suggests upside; UCITS launch and LSE hours bolster demand amid UK probe and SEC action.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "",
     "excerpt": "チップ株主導のリスクオンによりS&P500はMA20付近での反発が期待され、買い向かいの戦略が有効。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "",
     "excerpt": "S&P 500 eyes MA20 resistance as chip rally and softer AI sentiment lift near‑term bias.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "USD/JPYは四半世紀高水準に接近、米国イラン緊張とBOJ緩和が円売りを助長、テクニカルはMA20付近で支援的で上昇余地残ると分析。現在の価格162.65は過去最大値に近接し、流動性も十分確保。今後の米国金利動向次第でさらなる上昇が期待される。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY ascends toward historical highs as geopolitical tension and BoJ dovishness sustain bullish USD momentum.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
