@@ -1,66 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-24 02:18",
+    "date": "2026-07-24 11:25",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Risk‑off headlines drive safe‑haven USD rally",
-      "RSI 76 signals overbought but still bullish",
-      "MA20 at 162.29 provides support level"
+      "Price above MA20 with RSI 75 indicates sustained bullish momentum",
+      "Geopolitical risk and yen intervention expectations keep USD demand elevated",
+      "Key support at MA20 (~162.36) and resistance near 165.00 provide clear trade levels"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish on risk‑off fundamentals and overbought momentum targeting 165.50.",
+    "excerpt": "USD/JPY poised upward as price holds above MA20, RSI 75 and dovish yen outlook.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Fundamentals and technicals jointly favor upside toward 165.50.",
-    "entry": "163.75",
-    "tp": "165.50",
-    "sl": "162.30",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: RSI Below 50 and Price < MA20 amid Energy‑Driven Risk Off",
-    "date": "2026-07-24 02:22",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
-    "tldr_points": [
-      "Oil at $100 fuels macro risk and equity pressure; S&P 500 trades below its 20‑MA at 7410; mixed tech catalysts keep near‑term bias bearish."
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 below 20‑MA, RSI 44, oil spike fuels near‑term downside risk.",
-    "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Short on S&P 500 as price remains below 20‑MA with bearish momentum and oil‑driven risk aversion.",
-    "entry": "7410.85",
-    "tp": "7360.00",
-    "sl": "7485.00",
+    "status": "NEUTRAL",
+    "comment": "USD/JPY poised upward as price holds above MA20, RSI 75 and dovish yen outlook.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-24 11:26",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "tldr_points": [
+      "S&P 500 tests MA20 support amid AI-driven volatility",
+      "RSI divergence suggests potential oversold bounce",
+      "AI hyperscalers (INTC, TSLA) drive institutional buying"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 consolidates below MA20 (7487.17) as AI earnings and oil-driven volatility create support/resistance dynamics.",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "MA20 support holds as AI earnings offset oil volatility, with RSI suggesting oversold bounce potential.",
+    "entry": "7408.30",
+    "tp": "7520.40",
+    "sl": "7350.00",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Price Holds Above MA20 with Supportive Fundamentals",
-    "date": "2026-07-24 02:24",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-24 11:28",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price above MA20 indicating short-term bullish bias",
-      "RSI near 57 shows room for upside before overbought",
-      "Fundamental catalysts: expanded fiat on‑ramps and AI payment adoption"
+      "Price holds above MA20, signaling bullish continuation",
+      "RSI at 58.7 indicates healthy momentum without overextension",
+      "Strategic Bitcoin reserves and AI payment adoption drive institutional demand"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD holds above MA20 with modest RSI upside and supportive crypto‑adoption news.",
+    "excerpt": "BTC/USD holds above MA20 with RSI near 59, supported by institutional Bitcoin reserves and AI payment adoption.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Price above MA20 with bullish momentum and supportive fundamentals",
-    "entry": "64500.00",
-    "tp": "66000.00",
-    "sl": "63800.00",
-    "reliability": "MEDIUM"
+    "comment": "Bullish trend confirmed above MA20 with supportive RSI momentum and positive fundamental catalysts.",
+    "entry": "64154.97",
+    "tp": "67200.00",
+    "sl": "63200.00",
+    "reliability": "HIGH"
   }
 }
