@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY：AI解析が示す上昇シナリオと戦略的リスク管理",
-    "date": "2026-07-24 19:13",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-07-25 02:27",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "金利相関（近似）: 0.08で正相関傾向",
-      "テクニカル: 現在価格 163.73 と MA20 162.35 の位置関係が主導",
-      "需給: 上限帯 163.46 / 下限帯 161.24 / 直近高値 163.98 / 直近安値 160.62 によるターゲット設計"
+      "価格はMA20を上回り、RSIは75で過熱感",
+      "リスクオン傾向が欧州株上昇から示唆され、USD/JPYの上押し要因",
+      "押し目買い戦略をMA20付近で検討、流動性は[dmm-fx]が適"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 163.73、RSI(74.90)、MA20(162.35)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "MA20を支えにした押し目買いが有望。RSIの過熱は一時的で、リスクオン環境がドルを支える。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、USD/JPYの現在価格 163.73、RSI(74.90)、MA20(162.35)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20を支持線とする押し目買い、リスクオン環境と上昇トレンドの整合性を根拠とする",
+    "entry": "162.90",
+    "tp": "164.50",
+    "sl": "162.20",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20抑制と地緣リスクが重く顕在化",
-    "date": "2026-07-24 19:15",
+    "title": "[S&P 500] DOWN: MA20を上抜けできず、RSIが41で弱気モメンタムを示す",
+    "date": "2026-07-25 02:28",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "指定ブローカー",
+    "recommended_broker": "",
     "tldr_points": [
-      "価格はMA20下押し、RSI44でリスクオフが顕在化",
-      "地緣 tensionsと関税が下値圧力を強める",
-      "Vanguard ETFがS&Pを上回るが、ヘッジファンドの戦術的ポジショニングが鍵"
+      "価格はMA20下位で推移し、RSI41弱気",
+      "中東緊張緩和で一時的買いも、バリュエーション警戒が重石",
+      "売り方向でエントリー7460付近、TP7420、SL7480を推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20下押し、RSI44でリスクオフが顕在化、地緣リスクと関税が下値圧力を強める。",
+    "excerpt": "MA20を上抜けできずRSI41弱気、バリュエーション警戒が重石となり下押しリスクが高まる。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P500はMA20下押し、RSI44でリスクオフが顕在化、地緣リスクと関税が下値圧力を強める。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "MA20下位とRSI41弱気、バリュエーション警戒が下押しリスクを強化",
+    "entry": "7460.00",
+    "tp": "7420.00",
+    "sl": "7480.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-24 19:17",
+    "title": "[BTC/USD] FLAT: MA20直下における一時的な押し下げと政策リスクの緊張",
+    "date": "2026-07-25 02:31",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格がMA20上抜け、上昇余地あり",
-      "RSIが50を維持し上昇トレンドを確認",
-      "Poolin倒産がリスクヘッジで市場安定を支える"
+      "RSIはやや弱い水準だが、トレンドは横ばい",
+      "Clarity Actの通過確率低下が短期的な不安定感を醸す",
+      "MA20付近での反発か、さらなる調整か注視"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCは64,950円前後で小幅上昇。MA20（64,245円）を突破し、RSIは54と上昇トレンドを示す。Poolin倒産が波及リスクを低減し、機関投資家の買い圧力が強まる懸念は限定的。",
+    "excerpt": "BTC/USDはMA20直下で横ばい展開。Clarity Act通過懸念とRSIの弱さから一時的な調整か、戦略的な様子見が求められる。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "上抜け後は調整余地あり",
-    "entry": "64800",
-    "tp": "66000",
-    "sl": "63000",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "MA20付近での横ばい展開と政策リスクの緊張から様子見",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
+    "reliability": "MEDIUM"
   }
 }
