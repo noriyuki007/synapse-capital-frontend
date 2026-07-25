@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: AI Flags Overbought RSI and Geopolitical Risk-off Catalyst",
-    "date": "2026-07-25 18:43",
+    "title": "[USD/JPY] DOWN: RSI Overbought Signals Near-Term Pullback Amid Safe-Haven Demand",
+    "date": "2026-07-26 01:53",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY trades above the 20‑day MA with RSI >75, signalling overbought momentum.",
-      "Iran‑related geopolitical tensions boost safe‑haven yen demand, exerting downward pressure on the pair.",
-      "Technical structure suggests a corrective move toward the MA20 support near 162.36."
+      "RSI above 75 indicates overbought condition, suggesting near-term downside pressure.",
+      "Geopolitical tensions boost safe-haven JPY demand, weighing on USD/JPY.",
+      "Price trades above MA20 but lacks bullish momentum; expect retest of MA20 support near 162.36."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY overbought RSI and Iran‑geopolitics boost yen, biasing short‑term correction toward MA20 support.",
+    "excerpt": "USD/JPY may slip as RSI >75 shows overbought haven JPY strengthens on geopolitical risk, testing MA20 near 162.36 level.",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "Overbought RSI and geopolitical risk‑off bias favor a correction toward MA20 support.",
-    "entry": "163.70",
+    "comment": "RSI overbought and safe-haven JPY pressure favor a short toward MA20 support.",
+    "entry": "163.50",
     "tp": "162.30",
-    "sl": "164.50",
+    "sl": "164.20",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Technical Weakness Amid Inflation Pressures",
-    "date": "2026-07-25 18:45",
+    "title": "[S&P 500] DOWN: AI Detects Downtrend as Fundamentals Turn Bearish",
+    "date": "2026-07-26 01:56",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "Charles Schwab",
     "tldr_points": [
-      "Price below MA20 signals near-term bearish bias",
-      "RSI at 38.9 indicates weakening momentum but not extreme oversold",
-      "Macro inflation and earnings concerns reinforce downside risk"
+      "Price below 20‑day MA signals near‑term bearish bias.",
+      "Citi warnings and Fed uncertainty amplify equity pressure.",
+      "Short setup targeted at 7412 with TP 7300, SL 7470 via Charles Schwab."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades below MA20 with RSI near 39, suggesting bearish momentum amid inflation and earnings worries.",
+    "excerpt": "S&P 500 down; price below MA20, RSI neutral, sell bias set at 7412 with target 7300.",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "Price below MA20 with weakening RSI and bearish fundamentals favor a short bias toward 7,300 support.",
-    "entry": "7490.00",
+    "comment": "Bearish bias driven by price below MA20, neutral RSI, and negative fundamentals.",
+    "entry": "7412.00",
     "tp": "7300.00",
-    "sl": "7560.00",
+    "sl": "7470.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: AI Detects MA20 Resistance as Quantum Governance Fears Persist",
-    "date": "2026-07-25 18:47",
+    "title": "[BTC/USD] FLAT: AI Detects Consolidation Near MA20 Amid Mixed Fundamentals",
+    "date": "2026-07-26 01:59",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price stalls below MA20 at 64219",
-      "Quantum governance risks weigh on sentiment",
-      "Clarity Act odds cut to 30%"
+      "BTC ETF volume drops to Oct 2024 low as ether leads inflows",
+      "Regulatory clarity dims with Galaxy cutting Clarity Act odds to 30%",
+      "Price consolidates around MA20 with neutral RSI, indicating range-bound bias"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD consolidates beneath MA20 as quantum governance narratives and legislative headwinds cap upside volatility.",
+    "excerpt": "BTC trades flat near MA20, RSI neutral; ETF inflow weak, regulatory odds low suggesting range bound action for session.",
     "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "Price remains constrained by MA20 resistance with mixed macro/regulatory catalysts requiring a clear breakout catalyst.",
-    "entry": "63890.87109375",
-    "tp": "63500.00",
-    "sl": "64219.22",
+    "comment": "Price consolidates near MA20 with neutral RSI, reflecting range‑bound market conditions.",
+    "entry": "63800.00",
+    "tp": "64500.00",
+    "sl": "63300.00",
     "reliability": "MEDIUM"
   }
 }

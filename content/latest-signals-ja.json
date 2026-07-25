@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20支援とリスクオフ流入による上昇余地",
-    "date": "2026-07-25 18:43",
+    "title": "[USD/JPY] UP: MA20上抜けとリスク許容度上昇が上昇志向を裏付け",
+    "date": "2026-07-26 01:53",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20付近での反発が上昇トレンドの継続を示唆",
-      "地政学的緊張がリスクオフで米ドル需要を押し上げ",
-      "RSIは過買いゾーンだが、ファンダメンタルズが上値を支える"
+      "MA20上抜けでリスク許容度上昇",
+      "RSI高止まりでも上昇余地",
+      "地政学的緊張緩和でリスク資産買いが優勢"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米ドルはリスクオフ環境で買われやすく、MA20を上回る価格位置と地政学的不安が上昇を後押しする。",
+    "excerpt": "MA20上抜けでリスク許容度上昇、USD/JPYは163.79で買い。163.30にSL、164.10にTPを設定。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20支持とリスクオフ流入が上昇を後押し",
-    "entry": "163.50",
-    "tp": "164.80",
-    "sl": "163.00",
-    "reliability": "MEDIUM"
+    "comment": "価格はMA20上抜けとRSI高止まりを背景に上昇余地あり",
+    "entry": "163.79",
+    "tp": "164.10",
+    "sl": "163.30",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20の割れとインフレ再加熱リスクによるリスクオフ圧力",
-    "date": "2026-07-25 18:45",
+    "title": "[S&P 500] DOWN: MA20下抜けと売りシグナル点灯、ポジション圧迫で下値模索",
+    "date": "2026-07-26 01:56",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "XM",
+    "recommended_broker": "主要プライムブローカー",
     "tldr_points": [
-      "S&P500はMA20（7489.89）を割り下ち、RSI14は38.88となりモメンタムが弱化",
-      "インフレ再加熱と原油高がリスクオフを誘発し、チップ・エネルギー銘柄が売られている",
-      "4780付近の過去の安値を意識した押し目買いも可能だが、慎重なポジショニングが必要"
+      "ダウ先物が売りシグナルを点灯、アップル決算・FOMC・地政学リスクが重なる",
+      "現在値7412はMA20（7490）を明確に下抜け、RSI38.9で下値余地残す",
+      "シティ指摘のポジション圧迫とイェルデニ氏の「荒い夏」予測が下支えを遅らせる"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20を割り下ち、RSI14は38.88で弱化。インフレ再加熱と原油高がリスクオフを誘発中。",
+    "excerpt": "S&P500はMA20を下抜け売りシグナルが点灯。主要イベント控えポジション調整圧力が優勢となり、7300台前半のサポート試す展開を想定。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P500はMA20を割り下ち、RSI14は38.88で弱化。インフレ再加熱と原油高がリスクオフを誘発中。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "MA20下抜けと売りシグナル点灯、イベントリスクとポジション圧迫で下落継続濃厚",
+    "entry": "7490",
+    "tp": "7250",
+    "sl": "7510",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20下抜けと規制リスクの高まり",
-    "date": "2026-07-25 18:47",
+    "title": "[BTC/USD] FLAT: ETF流出と規制停滞が一時的なレンジを生む",
+    "date": "2026-07-26 01:59",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20を下抜け、短期的な下押し圧力が顕在化",
-      "規制関連ニュースが不透明でリスクオフ傾向を助長",
-      "RSIは中立域にとどまり、方向感はまだ確定していない"
+      "BTC ETF流出と規制停滞によりショートカタリストなし、長めのレンジ推移が継続",
+      "MA20線が抵抗線として機能し、現在価格はMA20直下で押し目基線を形成",
+      "量子コンピューティングへの懸念と流動性低下から、ポジションサイズを縮小した半機関構成が求められる"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を下抜け、規制不透明感が重石となりBTC/USDは下押し基調。テクニカルは中立だが売りバイアスが優位。",
+    "excerpt": "BTC ETF流出と規制停滞により一時的なレンジ相場が継続し、MA20線抵抗と量子リスク懸念から即時方向性はなく、ポジションサイズを絞った防御的な買いを[bitflyer]で執行することが求められる。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20下抜けと規制不透明感による下押し圧力",
-    "entry": "63850.00",
-    "tp": "63000.00",
-    "sl": "64500.00",
+    "status": "BUY",
+    "comment": "MA20直下の引け目買い。ETF流出と規制停滞を織り込み防御的にエントリー。",
+    "entry": "64151.31",
+    "tp": "64550.00",
+    "sl": "63850.00",
     "reliability": "MEDIUM"
   }
 }

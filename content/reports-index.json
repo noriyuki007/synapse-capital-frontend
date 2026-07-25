@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-07-26-crypto-ja",
+    "date": "2026-07-26 01:59",
+    "title": "[BTC/USD] FLAT: ETF流出と規制停滞が一時的なレンジを生む",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC ETF流出と規制停滞により一時的なレンジ相場が継続し、MA20線抵抗と量子リスク懸念から即時方向性はなく、ポジションサイズを絞った防御的な買いを[bitflyer]で執行することが求められる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-26-crypto-en",
+    "date": "2026-07-26 01:59",
+    "title": "[BTC/USD] FLAT: AI Detects Consolidation Near MA20 Amid Mixed Fundamentals",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC trades flat near MA20, RSI neutral; ETF inflow weak, regulatory odds low suggesting range bound action for session.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-26-stocks-ja",
+    "date": "2026-07-26 01:56",
+    "title": "[S&P 500] DOWN: MA20下抜けと売りシグナル点灯、ポジション圧迫で下値模索",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "主要プライムブローカー",
+    "excerpt": "S&P500はMA20を下抜け売りシグナルが点灯。主要イベント控えポジション調整圧力が優勢となり、7300台前半のサポート試す展開を想定。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-26-stocks-en",
+    "date": "2026-07-26 01:56",
+    "title": "[S&P 500] DOWN: AI Detects Downtrend as Fundamentals Turn Bearish",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Charles Schwab",
+    "excerpt": "S&P 500 down; price below MA20, RSI neutral, sell bias set at 7412 with target 7300.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-26-fx-ja",
+    "date": "2026-07-26 01:53",
+    "title": "[USD/JPY] UP: MA20上抜けとリスク許容度上昇が上昇志向を裏付け",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "MA20上抜けでリスク許容度上昇、USD/JPYは163.79で買い。163.30にSL、164.10にTPを設定。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-26-fx-en",
+    "date": "2026-07-26 01:53",
+    "title": "[USD/JPY] DOWN: RSI Overbought Signals Near-Term Pullback Amid Safe-Haven Demand",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY may slip as RSI >75 shows overbought haven JPY strengthens on geopolitical risk, testing MA20 near 162.36 level.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-07-25-crypto-ja",
     "date": "2026-07-25 18:47",
     "title": "[BTC/USD] DOWN: MA20下抜けと規制リスクの高まり",
