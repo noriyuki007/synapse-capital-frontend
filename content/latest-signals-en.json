@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: AI Detects Overbought Momentum and Weakening Oil Prices",
-    "date": "2026-07-25 02:27",
+    "title": "[USD/JPY] UP: Price Above MA20 Signals Bullish Momentum Despite Overbought RSI",
+    "date": "2026-07-25 11:22",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Overbought RSI at 75 suggests imminent reversal.",
-      "Oil prices drop amid Iran talks weakens risk appetite.",
-      "MA20 below current price acts as a resistance level."
+      "USD/JPY trades above MA20 at 163.79 with RSI 75 indicating overbought bullish bias.",
+      "Geopolitical tensions and firm crude oil support USD strength relative to JPY.",
+      "Technical setup favors buying pullbacks to MA20 with clear stop‑loss below recent swing low."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY shows overbought RSI at 75, MA20 below price, and oil decline from Iran talk risk, signaling a possible pullback.",
+    "excerpt": "USD/JPY above MA20 at 163.79, RSI 75 shows overbought bullish bias amid geopolitical risk and firm oil prices.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Overbought RSI and weak oil momentum signal a temporary pullback.",
-    "entry": "163.80",
-    "tp": "162.30",
-    "sl": "164.50",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Bullish bias supported by price above MA20, rising yields and geopolitical risk favoring USD.",
+    "entry": "163.50",
+    "tp": "165.00",
+    "sl": "162.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: Mixed Technical & Fundamental Headwinds",
-    "date": "2026-07-25 02:28",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-25 11:25",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price sits below key MA20 with neutral RSI",
-      "Valuation downturn to 20x fuels caution",
-      "Easing Middle East tensions offer mild upside"
+      "Price rebounds from oversold RSI (38.88) with MA20 as key support at 7,489.90",
+      "Chip sector weakness and oil-driven volatility offset by institutional demand for low-volatility ETFs",
+      "AI detects mean-reversion setup with high probability of near-term bounce"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trading below key MA20 amid valuation concerns; neutral stance pending trend confirmation.",
-    "pair": "S&P íte",
-    "status": "NEUTRAL",
-    "comment": "Price below MA20 with a neutral RSI, awaiting trend confirmation.",
-    "entry": "7400",
-    "tp": "7491.33",
-    "sl": "7300",
-    "reliability": "MEDIUM"
+    "excerpt": "S&P 500 finds technical support at MA20 amid mixed fundamentals and oversold momentum",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "Mean-reversion setup confirmed with oversold RSI and institutional buying at MA20",
+    "entry": "7490.00",
+    "tp": "7550.00",
+    "sl": "7400.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 as Fundamentals Turn Bearish",
-    "date": "2026-07-25 02:31",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-25 11:26",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price trading below MA20 signals near-term bearish bias.",
-      "Regulatory headwinds from Clarity Act odds cut weigh on sentiment.",
-      "Technical setup favors a short toward 62.8k with stop above 64.5k."
+      "Price testing MA20 support at $64,197 with RSI neutralizing at 49.4",
+      "US State Department's Freedom Tech Program signals institutional crypto adoption",
+      "Galaxy lowers Clarity Act odds to 30%; regulatory headwinds persist but offset by WLD fundraising momentum"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD turns bearish as price lingers below MA20 amid regulatory headwinds and weakening short-term momentum and bears.",
+    "excerpt": "BTC/USD holds near $64K as AI identifies MA20 support; institutional adoption catalysts emerge amid regulatory uncertainty.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Bearish bias supported by price below MA20, rising yields, and regulatory headwinds.",
-    "entry": "63920.0",
-    "tp": "62800.0",
-    "sl": "64500.0",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Institutional adoption tailwinds and MA20 support confluence create favorable risk-reward at current levels",
+    "entry": "63800.00",
+    "tp": "65200.00",
+    "sl": "63200.00",
+    "reliability": "HIGH"
   }
 }

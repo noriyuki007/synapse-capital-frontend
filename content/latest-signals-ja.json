@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-25 02:27",
+    "title": "USD/JPYの見通し：需給バランスから見る「押し目買い」の優位性",
+    "date": "2026-07-25 11:22",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20を上回り、RSIは75で過熱感",
-      "リスクオン傾向が欧州株上昇から示唆され、USD/JPYの上押し要因",
-      "押し目買い戦略をMA20付近で検討、流動性は[dmm-fx]が適"
+      "金利相関（近似）: 0.03で正相関傾向",
+      "テクニカル: 現在価格 163.79 と MA20 162.36 の位置関係が主導",
+      "需給: 上限帯 163.48 / 下限帯 161.23 / 直近高値 163.98 / 直近安値 160.62 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "MA20を支えにした押し目買いが有望。RSIの過熱は一時的で、リスクオン環境がドルを支える。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 163.79、RSI(75.23)、MA20(162.36)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20を支持線とする押し目買い、リスクオン環境と上昇トレンドの整合性を根拠とする",
-    "entry": "162.90",
-    "tp": "164.50",
-    "sl": "162.20",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 163.79、RSI(75.23)、MA20(162.36)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20を上抜けできず、RSIが41で弱気モメンタムを示す",
-    "date": "2026-07-25 02:28",
+    "title": "[S&P 500] DOWN: RSI below 40 and Oil-driven Sector Weakness Signals Correction",
+    "date": "2026-07-25 11:25",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "価格はMA20下位で推移し、RSI41弱気",
-      "中東緊張緩和で一時的買いも、バリュエーション警戒が重石",
-      "売り方向でエントリー7460付近、TP7420、SL7480を推奨"
+      "RSI(14) at 38.88 indicates bearish momentum",
+      "MA20 (7489.89) acts as resistance above current 7411.98 level",
+      "Energy and semiconductor sectors under pressure from oil and chipmaker rout"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20を上抜けできずRSI41弱気、バリュエーション警戒が重石となり下押しリスクが高まる。",
+    "excerpt": "S&P 500はRIスクリーピング下で、油価上昇とチップメーカーの悪化により下げ方向を維持。テクニカルではMA20上回りの弱さとRSI急落から、下方修正のリスクが顕在化している。",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "MA20下位とRSI41弱気、バリュエーション警戒が下押しリスクを強化",
-    "entry": "7460.00",
-    "tp": "7420.00",
-    "sl": "7480.00",
-    "reliability": "MEDIUM"
+    "comment": "RSI下落とMA20上回りの弱さにより、下方修正リスクが高まっている",
+    "entry": "7350.00",
+    "tp": "7200.00",
+    "sl": "7500.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: MA20直下における一時的な押し下げと政策リスクの緊張",
-    "date": "2026-07-25 02:31",
+    "title": "[BTC/USD] DOWN: MA20割れと弱いオーダーフローが示す調整リスク",
+    "date": "2026-07-25 11:26",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "RSIはやや弱い水準だが、トレンドは横ばい",
-      "Clarity Actの通過確率低下が短期的な不安定感を醸す",
-      "MA20付近での反発か、さらなる調整か注視"
+      "価格はMA20を下回り、短期的な調整局面へ突入",
+      "金利上昇懸念と機関のポジション縮小が下押し圧力を強化",
+      "RSIは中立域だが、モメンタムの乖離が売りサインを支持"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20直下で横ばい展開。Clarity Act通過懸念とRSIの弱さから一時的な調整か、戦略的な様子見が求められる。",
+    "excerpt": "BTC/USDはMA20を下回り、調整リスクが高まる。金利動向とオーダーフローの弱さが下押し圧力を強め、短期的な売り方向を示唆する。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "MA20付近での横ばい展開と政策リスクの緊張から様子見",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "status": "SELL",
+    "comment": "MA20割れと弱いオーダーフローが調整リスクを示唆",
+    "entry": "63800.00",
+    "tp": "63000.00",
+    "sl": "64500.00",
     "reliability": "MEDIUM"
   }
 }
