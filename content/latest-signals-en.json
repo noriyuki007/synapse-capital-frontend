@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Overbought RSI and Geopolitical Safe-Haven Pressure",
-    "date": "2026-07-26 11:29",
+    "title": "[USD/JPY] UP: AI Detects Strong MA20 support amid Hawkish USD fundamentals",
+    "date": "2026-07-26 18:56",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "RSI-14 at 75.2 signals overbought conditions and near-term exhaustion.",
-      "Geopolitical tensions around Iran boost safe-haven yen demand, weakening USD/JPY.",
-      "Price trades above MA20 but faces resistance near 164.00 with weakening momentum."
+      "Price holding above 50-day MA20 at 162.36 signals a bullish bias",
+      "Technical RSI overbought at 75.23 suggests short-term overextension",
+      "Geopolitical risks from Iran tensions could trigger USD flows"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY faces downside pressure as RSI reads overbought, geopolitical tensions boost yen demand, and price trades above MA20 with weakening momentum.",
+    "excerpt": "USD/JPY shows technical strength with price above MA20 despite overbought RSI.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Overbought RSI and geopolitical safe‑haven demand favor a short‑term pullback.",
-    "entry": "163.80",
-    "tp": "162.50",
-    "sl": "164.30",
+    "status": "NEUTRAL",
+    "comment": "USD/JPY shows technical strength with price above MA20 despite overbought RSI.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: Mixed Fundamentals and Technical Pressure",
-    "date": "2026-07-26 11:33",
+    "title": "[S&P 500] UP: Technical Support Meets Bullish Macro Cues",
+    "date": "2026-07-26 18:59",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 trades below MA20, suggesting near‑term bearish pressure.",
-      "RSI at 38.9 indicates neutral momentum amid Fed/earnings uncertainty.",
-      "Key range: support at ~7400, resistance near MA20 ~7490."
+      "Technical support at MA20 aligns with bullish macro cues",
+      "RSI signals upside potential toward 7500",
+      "Fundamentals reinforced by inflation rhetoric and geopolitical tension"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 at 7412, below MA20, awaiting Fed and earnings clarity; range bound.",
+    "excerpt": "Technical support at MA20 aligns with bullish macro cues; RSI hints at upside toward 7500, targeting near-term rally up.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Mixed fundamentals and technical pressure suggest range‑bound trading.",
-    "entry": "7400.00",
-    "tp": "7550.00",
-    "sl": "7300.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Technical support aligns with bullish macro cues; RSI suggests upside toward 7500.",
+    "entry": "7408.30",
+    "tp": "7500.00",
+    "sl": "7350.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Price Holds Above MA20 Amid Mixed Fundamentals",
-    "date": "2026-07-26 11:37",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-26 19:02",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price trading modestly above MA20 indicating short-term support",
-      "RSI near midpoint suggests balanced momentum",
-      "Fundamental cues mixed: ETF volume decline offset by institutional tech initiatives"
+      "BTC holds above MA20 at 64,263 confirming short-term bullish structure",
+      "RSI at 53 signals room for upside momentum expansion",
+      "EU sanctions on HTX and institutional adoption via Freedom Tech Program create mixed but net-positive catalyst set"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC steadies above MA20 as RSI stays neutral; watch for breakout amid mixed news.",
+    "excerpt": "BTC/USD maintains 64,460 holding above MA20; AI signals bullish continuation with RSI momentum and institutional tailwinds.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Price above MA20 with neutral RSI supports a short‑term long bias",
-    "entry": "64200.00",
-    "tp": "66000.00",
-    "sl": "63000.00",
-    "reliability": "MEDIUM"
+    "comment": "Bullish bias intact with support confluence at MA20 and improving institutional sentiment",
+    "entry": "64250",
+    "tp": "65200",
+    "sl": "64000",
+    "reliability": "HIGH"
   }
 }
