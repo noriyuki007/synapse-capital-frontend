@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-07-27-crypto-ja",
+    "date": "2026-07-27 02:00",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "MA20を支えにした押し目買いを推奨し、エントリー64300、TP66000、SL63800でbitflyerの流動性を活用",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-27-crypto-en",
+    "date": "2026-07-27 02:00",
+    "title": "[BTC/USD] UP: AI Detects Support Consolidation at MA20 Amid Diverging ETF Flows",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC stabilizes at 64660.5 as ETF outflows diverge from ETH; technical support holds at MA20.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-27-stocks-ja",
+    "date": "2026-07-27 01:58",
+    "title": "[S&P 500] DOWN: MA20下抜けと弱気RSIによるモメンタム低下",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Nomura Securities",
+    "excerpt": "MA20割れとRSI低下により短期的下押しリスクが高まる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-27-stocks-en",
+    "date": "2026-07-27 01:58",
+    "title": "[S&P 500] DOWN: Price Below MA20 with RSI Indicating Bearish Momentum",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 trades under MA20 with RSI near 39, suggesting bearish momentum ahead of Fed meeting and Big Tech earnings.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-27-fx-ja",
+    "date": "2026-07-27 01:55",
+    "title": "[USD/JPY] UP: 強気モメンタムと金利キャリーの二重確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYは163.79で強気相場を維持。米金利差の維持と地政学リスク高揚が為替レベルを押し上げ、RSI 75付近の過熱感も仮想しない。MA20突破を確認すれば、164.50-165.00が次の目標となる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-27-fx-en",
+    "date": "2026-07-27 01:55",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "Bullish breakout expected as USD/JPY finds support at critical MA20 level amid mixed US markets and geopolitical uncertainty.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-07-26-crypto-ja",
     "date": "2026-07-26 19:02",
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
