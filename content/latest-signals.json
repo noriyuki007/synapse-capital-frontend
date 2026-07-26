@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20上抜けとリスク許容度上昇が上昇志向を裏付け",
-    "date": "2026-07-26 01:53",
+    "title": "[USD/JPY] DOWN: 価格はMA20を上抜けもRSI過買いで調整圧力",
+    "date": "2026-07-26 11:29",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20上抜けでリスク許容度上昇",
-      "RSI高止まりでも上昇余地",
-      "地政学的緊張緩和でリスク資産買いが優勢"
+      "価格はMA20を上回るもRSI75で過買い状態",
+      "地政学リスクとトランプ発言がリスクオフ志向を強め、ドル円の上値が重い",
+      "テクニカル的にはMA20付近への押し目が視野に入る"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "MA20上抜けでリスク許容度上昇、USD/JPYは163.79で買い。163.30にSL、164.10にTPを設定。",
+    "excerpt": "MA20を上抜けているがRSIが過買い圏で、地政学的リスクがドル円の上値を抑える状況。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "価格はMA20上抜けとRSI高止まりを背景に上昇余地あり",
-    "entry": "163.79",
-    "tp": "164.10",
-    "sl": "163.30",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "RSI過買い・地政学的リスクオフ・MA20付近への押し目期待",
+    "entry": "163.50",
+    "tp": "162.80",
+    "sl": "164.20",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20下抜けと売りシグナル点灯、ポジション圧迫で下値模索",
-    "date": "2026-07-26 01:56",
+    "title": "[S&P 500] DOWN: MA20下放れと弱気モメンタムの整合性",
+    "date": "2026-07-26 11:33",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "主要プライムブローカー",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "ダウ先物が売りシグナルを点灯、アップル決算・FOMC・地政学リスクが重なる",
-      "現在値7412はMA20（7490）を明確に下抜け、RSI38.9で下値余地残す",
-      "シティ指摘のポジション圧迫とイェルデニ氏の「荒い夏」予測が下支えを遅らせる"
+      "価格はMA20を下回り、RSIは38.9で弱気圏に位置",
+      "米長期金利の上昇とFedのハーク派姿勢がリスクオフを助長",
+      "売りエントリーは7400付近、TP 7300、SL 7500でリスク管理"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20を下抜け売りシグナルが点灯。主要イベント控えポジション調整圧力が優勢となり、7300台前半のサポート試す展開を想定。",
+    "excerpt": "S&P 500はMA20を割り込み、RSIが弱気圏にあることから短期的な下押しリスクが高まる。Fedの利上げ観測と金利上昇が下値を支える。",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "MA20下抜けと売りシグナル点灯、イベントリスクとポジション圧迫で下落継続濃厚",
-    "entry": "7490",
-    "tp": "7250",
-    "sl": "7510",
-    "reliability": "HIGH"
+    "comment": "MA20下放れとRSI弱気圏、金利上昇とリスクオフが下値を支える",
+    "entry": "7400",
+    "tp": "7300",
+    "sl": "7500",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: ETF流出と規制停滞が一時的なレンジを生む",
-    "date": "2026-07-26 01:59",
+    "title": "[BTC/USD] FLAT: ETF流動性低下とMA20の攻防によるレンジ継続",
+    "date": "2026-07-26 11:37",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTC ETF流出と規制停滞によりショートカタリストなし、長めのレンジ推移が継続",
-      "MA20線が抵抗線として機能し、現在価格はMA20直下で押し目基線を形成",
-      "量子コンピューティングへの懸念と流動性低下から、ポジションサイズを縮小した半機関構成が求められる"
+      "BTC ETFへの資金流入鈍化とETHへの資金シフトによる流動性低下",
+      "価格はMA20近傍の重要な節目に位置し、方向感の欠如が顕著",
+      "規制・地政学リスクがテールリスクとして潜在的に存在"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC ETF流出と規制停滞により一時的なレンジ相場が継続し、MA20線抵抗と量子リスク懸念から即時方向性はなく、ポジションサイズを絞った防御的な買いを[bitflyer]で執行することが求められる。",
+    "excerpt": "ビットコインETFへの週間流入額が過去最低水準まで低下し、資金がイーサリアムへシフトする中、価格は主要移動平均線付近での停滞を見せている。テクニカル面ではRSIが中立を示しており、明確な方向性が出るまでレンジ相場が継続する公算が高い。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20直下の引け目買い。ETF流出と規制停滞を織り込み防御的にエントリー。",
-    "entry": "64151.31",
-    "tp": "64550.00",
-    "sl": "63850.00",
+    "status": "NEUTRAL",
+    "comment": "ETF資金流入の減退とMA20付近での価格停滞により、方向感の欠如。レンジ内での限定的なトレードを推奨。",
+    "entry": "64250.00",
+    "tp": "65500.00",
+    "sl": "63800.00",
     "reliability": "MEDIUM"
   }
 }

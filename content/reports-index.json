@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-07-26-crypto-ja",
-    "date": "2026-07-26 01:59",
-    "title": "[BTC/USD] FLAT: ETF流出と規制停滞が一時的なレンジを生む",
+    "date": "2026-07-26 11:37",
+    "title": "[BTC/USD] FLAT: ETF流動性低下とMA20の攻防によるレンジ継続",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
-    "excerpt": "BTC ETF流出と規制停滞により一時的なレンジ相場が継続し、MA20線抵抗と量子リスク懸念から即時方向性はなく、ポジションサイズを絞った防御的な買いを[bitflyer]で執行することが求められる。",
+    "excerpt": "ビットコインETFへの週間流入額が過去最低水準まで低下し、資金がイーサリアムへシフトする中、価格は主要移動平均線付近での停滞を見せている。テクニカル面ではRSIが中立を示しており、明確な方向性が出るまでレンジ相場が継続する公算が高い。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-07-26-crypto-en",
-    "date": "2026-07-26 01:59",
-    "title": "[BTC/USD] FLAT: AI Detects Consolidation Near MA20 Amid Mixed Fundamentals",
+    "date": "2026-07-26 11:37",
+    "title": "[BTC/USD] UP: Price Holds Above MA20 Amid Mixed Fundamentals",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "BTC trades flat near MA20, RSI neutral; ETF inflow weak, regulatory odds low suggesting range bound action for session.",
+    "excerpt": "BTC steadies above MA20 as RSI stays neutral; watch for breakout amid mixed news.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-07-26-stocks-ja",
-    "date": "2026-07-26 01:56",
-    "title": "[S&P 500] DOWN: MA20下抜けと売りシグナル点灯、ポジション圧迫で下値模索",
+    "date": "2026-07-26 11:33",
+    "title": "[S&P 500] DOWN: MA20下放れと弱気モメンタムの整合性",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "主要プライムブローカー",
-    "excerpt": "S&P500はMA20を下抜け売りシグナルが点灯。主要イベント控えポジション調整圧力が優勢となり、7300台前半のサポート試す展開を想定。",
+    "recommended_broker": "Nomura Securities",
+    "excerpt": "S&P 500はMA20を割り込み、RSIが弱気圏にあることから短期的な下押しリスクが高まる。Fedの利上げ観測と金利上昇が下値を支える。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-07-26-stocks-en",
-    "date": "2026-07-26 01:56",
-    "title": "[S&P 500] DOWN: AI Detects Downtrend as Fundamentals Turn Bearish",
+    "date": "2026-07-26 11:33",
+    "title": "[S&P 500] FLAT: Mixed Fundamentals and Technical Pressure",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Charles Schwab",
-    "excerpt": "S&P 500 down; price below MA20, RSI neutral, sell bias set at 7412 with target 7300.",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 at 7412, below MA20, awaiting Fed and earnings clarity; range bound.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-07-26-fx-ja",
-    "date": "2026-07-26 01:53",
-    "title": "[USD/JPY] UP: MA20上抜けとリスク許容度上昇が上昇志向を裏付け",
+    "date": "2026-07-26 11:29",
+    "title": "[USD/JPY] DOWN: 価格はMA20を上抜けもRSI過買いで調整圧力",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
-    "excerpt": "MA20上抜けでリスク許容度上昇、USD/JPYは163.79で買い。163.30にSL、164.10にTPを設定。",
+    "excerpt": "MA20を上抜けているがRSIが過買い圏で、地政学的リスクがドル円の上値を抑える状況。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-07-26-fx-en",
-    "date": "2026-07-26 01:53",
-    "title": "[USD/JPY] DOWN: RSI Overbought Signals Near-Term Pullback Amid Safe-Haven Demand",
+    "date": "2026-07-26 11:29",
+    "title": "[USD/JPY] DOWN: Overbought RSI and Geopolitical Safe-Haven Pressure",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY may slip as RSI >75 shows overbought haven JPY strengthens on geopolitical risk, testing MA20 near 162.36 level.",
+    "excerpt": "USD/JPY faces downside pressure as RSI reads overbought, geopolitical tensions boost yen demand, and price trades above MA20 with weakening momentum.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -152,7 +152,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "BTCは64,950円前後で小幅上昇。MA20（64,245円）を突破し、RSIは54と上昇トレンドを示す。Poolin倒産が波及リスクを低減し、機関投資家の買い圧力が強まる懸念は限定的。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD holds key support at MA20 amid improving fundamentals despite transient risks from crypto-specific incidents.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "excerpt": "S&P 500 likely to fall amid geopolitical tension and tariff fears trading below MA20 with RSI near 44 showing weak tone.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY shows overbought RSI above MA20; geopolitical tightening favors USD but technicals suggest near-term pullback to support.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
