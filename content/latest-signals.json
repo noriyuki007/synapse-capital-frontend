@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-27 11:37",
+    "title": "USD/JPY：AI解析が示す上昇シナリオと戦略的リスク管理",
+    "date": "2026-07-27 20:17",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20を上回り、RSIは66で買われすぎ警戒ゾーン手前",
-      "リスクオン傾向が株価先物の上昇と原油下落から示唆され、円売り圧力が強まる",
-      "日本サービスPPIの伸び鈍化は日銀のタカ派転換期待を抑制、ドル支えとなる"
+      "金利相関（近似）: 0.02で正相関傾向",
+      "テクニカル: 現在価格 163.63 と MA20 162.45 の位置関係が主導",
+      "需給: 上限帯 163.69 / 下限帯 161.21 / 直近高値 163.98 / 直近安値 160.62 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "MA20上抜けとリスクオン環境がUSD/JPYの上昇を支え、押し目買いが有効。具体的エントリー・利益確定・損切りを提示。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 163.63、RSI(68.14)、MA20(162.45)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20を上回りリスクオン環境が上昇を支えるため押し目買い",
-    "entry": "163.00",
-    "tp": "164.70",
-    "sl": "162.20",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 163.63、RSI(68.14)、MA20(162.45)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20押し目と利下げ期待の整合性を確認",
-    "date": "2026-07-27 11:39",
+    "title": "S&P 500: NEUTRAL/SHORT-TERM REBOUND: RSIの過熱感低下と地政学リスクの緩和によるボラティリティ低下を注視",
+    "date": "2026-07-27 20:20",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "[]",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "指定ブローカー",
     "tldr_points": [
-      "Fed Meeting前に利下げ期待が強まり短期は上昇圧力",
-      "Apple決算好調と原油安がインフレ期待を縮小させファンダメンタルを支持",
-      "現在価格がMA20を割り込んでおり、押し目買いのエントリー適時窗口"
+      "地政学リスクの緩和に伴う市場の不透明感減少",
+      "半導体セクターの押し目買い需要とMag-7決算への関心集中",
+      "テクニカル面ではMA20を下回りRSIも低水準で調整局面"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20割れの弱含みも、FRB利下げ期待とApple決算好調が下支え。MA20での押し目買いを推奨し、具体的なTP・SLとブローカーの活用を明示。",
+    "excerpt": "地政学的緊張の緩和により市場の不透明感は後退しているが、Mag-7の決算発表とFRBの政策スタンスが焦点となる。テクニカル面ではMA20を割り込み、RSIも低下しており、短期的にはボラティリティを伴うレンジ相場が継続する公算が高い。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20前での押し目買い。Fed利下げ期待とApple決算がファンダメンタルを支持。",
+    "status": "NEUTRAL",
+    "comment": "テクニカル的な調整局面にあるが、地政学的リスクの緩和が下値を支える構図。決算発表後のモメンタムに注目。",
     "entry": "7411.98",
-    "tp": "7550.00",
-    "sl": "7340.00",
+    "tp": "7490.00",
+    "sl": "7350.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-27 11:40",
+    "title": "[BTC/USD] UP: 現在価格がMA20上回り、RSI未過熱との戦略的買い機会",
+    "date": "2026-07-27 20:24",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を上回り、RSIは中立~やや強気域に位置",
-      "機関筋のビットコイン保有は継続 tandisにウォレット流出は一部ネガティブ",
-      "流動性の観点からbitflyerの利用が有利"
+      "現在価格65,143はMA20上回り、反発の強さを示す",
+      "RSI63.6は未過熱で、さらなる上昇余地あり",
+      "機関金融との連携進展と報道ニュースがファンダメンタルズ支援"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "現在価格65168はMA20を上回り、RSI56でモメンタムは緩やかに上昇。ファンダはウォレット流出と規制ニュースが重く、機関保有は継続。エントリー64800、TP68000、SL63000、流動性重視でbitflyer利用を推奨。",
+    "excerpt": "BTC/USDは65,143でMA20上回り、RSI63.6は未過熱。機関金融との連携進展がファンダメンタルズを支え、押し目買いのチャンス。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上抜けとRSI56でやや強気、機関保有継続",
-    "entry": "64800.00",
-    "tp": "68000.00",
-    "sl": "63000.00",
+    "comment": "MA20上回りRSI未過熱、機関金融連携好材料",
+    "entry": "65143.4",
+    "tp": "67500",
+    "sl": "63200",
     "reliability": "HIGH"
   }
 }

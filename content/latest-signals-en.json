@@ -1,64 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-27 11:37",
+    "date": "2026-07-27 20:17",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 indicates short‑term bullish momentum.",
-      "RSI near 66 shows room for further upside before overbought.",
-      "Softer Japan PPI and risk‑on sentiment favor USD strength."
+      "Japanese fiscal policy exit signals JPY weakness",
+      "Price maintains bullish structure above MA20",
+      "RSI momentum supports continuation to 165.00+ zone"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above MA20, RSI 66, backed by softer Japan PPI and risk‑on sentiment, eyeing 165.0.",
+    "excerpt": "USD/JPY bullish bias confirmed as AI identifies MA20 support ahead of potential 165.00+ move on Japan policy shift catalysts.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPY holds above MA20, RSI 66, backed by softer Japan PPI and risk‑on sentiment, eyeing 165.0.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Fiscal policy exit narrative strengthens yen weakness thesis with technicals confirming bullish continuation",
+    "entry": "162.45",
+    "tp": "165",
+    "sl": "161.8",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-27 11:39",
+    "title": "[S&P 500] UP: Technical Oversold Meets Bullish Fundamentals",
+    "date": "2026-07-27 20:20",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 trades below MA20 but RSI signals potential bounce",
-      "Apple's earnings and Fed meeting drive near-term catalysts",
-      "Key support at 7411.98, resistance at MA20 (7489.89)"
+      "Price below MA20 with RSI ~39 indicates near-term oversold condition.",
+      "Semiconductor strength and easing geopolitical tension support risk-on sentiment.",
+      "Anticipated bounce toward MA20 around 7,490 offers favorable risk-reward."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 finds support near 7411.98 as RSI (38.88) hints at oversold bounce; Apple's earnings and Fed meeting drive bullish bias.",
+    "excerpt": "S&P 500 below MA20, RSI 39; semiconductor strength and easing geopolitics support bounce toward 7,490 on charts today!!",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Mean-reversion opportunity at oversold levels ahead of Fed and earnings catalysts",
-    "entry": "7430.00",
-    "tp": "7495.00",
-    "sl": "7370.00",
-    "reliability": "HIGH"
+    "comment": "Technical oversold near MA20 with bullish fundamental backdrop supports a bullish bounce.",
+    "entry": "7405.00",
+    "tp": "7490.00",
+    "sl": "7350.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD 市場分析",
-    "date": "2026-07-27",
+    "title": "[BTC/USD] UP: Momentum Sustained Above MA20 Amid Institutional Payment Integration",
+    "date": "2026-07-27 20:24",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "tldr_points": [],
+    "tldr_points": [
+      "Institutional adoption via KB Kookmin Bank/JPMorgan Kinexys increases utility outlook",
+      "Price holding support above 20-day Moving Average",
+      "Risk of hot wallet insecurity remains a secondary macro headwind"
+    ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "",
+    "excerpt": "BTC maintains bullish structure above MA20 as institutional cross-border payment news fuels fundamental optimism.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Bullish momentum sustained above MA20 with positive institutional catalysts.",
+    "entry": "64500.00",
+    "tp": "67500.00",
+    "sl": "63700.00",
+    "reliability": "HIGH"
   }
 }
