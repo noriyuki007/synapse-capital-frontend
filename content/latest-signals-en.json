@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-27 20:17",
+    "date": "2026-07-28 02:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Japanese fiscal policy exit signals JPY weakness",
-      "Price maintains bullish structure above MA20",
-      "RSI momentum supports continuation to 165.00+ zone"
+      "US Treasury yields rise to 4.408% supporting USD",
+      "Price above MA20 with RSI 69 indicating bullish momentum",
+      "Geopolitical risk limited upside; target 165.00"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish bias confirmed as AI identifies MA20 support ahead of potential 165.00+ move on Japan policy shift catalysts.",
+    "excerpt": "USD/JPY poised higher as US yields rise; MA20 support and bullish bias target 165.00.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Fiscal policy exit narrative strengthens yen weakness thesis with technicals confirming bullish continuation",
-    "entry": "162.45",
-    "tp": "165",
-    "sl": "161.8",
+    "comment": "Strong US Treasury yields and price above MA20 confirm bullish momentum.",
+    "entry": "162.50",
+    "tp": "165.00",
+    "sl": "161.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Technical Oversold Meets Bullish Fundamentals",
-    "date": "2026-07-27 20:20",
+    "title": "[S&P 500] UP: Technical Dip Toward MA20 Backed by Strong Earnings Growth",
+    "date": "2026-07-28 02:44",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price below MA20 with RSI ~39 indicates near-term oversold condition.",
-      "Semiconductor strength and easing geopolitical tension support risk-on sentiment.",
-      "Anticipated bounce toward MA20 around 7,490 offers favorable risk-reward."
+      "Price sits below MA20 with RSI near 40 indicating near-term bearish momentum but room for bounce.",
+      "Q2 earnings growth of 70% and megacap results provide fundamental support.",
+      "Key entry near 7350, target MA20 ~7492, stop below 7300."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 below MA20, RSI 39; semiconductor strength and easing geopolitics support bounce toward 7,490 on charts today!!",
+    "excerpt": "S&P 500 poised for a short‑term bounce to MA20 as earnings strength offsets near‑term technical weakness.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Technical oversold near MA20 with bullish fundamental backdrop supports a bullish bounce.",
-    "entry": "7405.00",
+    "comment": "Technical dip to MA20 backed by strong earnings growth offers a favorable risk‑reward long setup.",
+    "entry": "7350.00",
     "tp": "7490.00",
-    "sl": "7350.00",
+    "sl": "7300.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Momentum Sustained Above MA20 Amid Institutional Payment Integration",
-    "date": "2026-07-27 20:24",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-28 02:45",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Institutional adoption via KB Kookmin Bank/JPMorgan Kinexys increases utility outlook",
-      "Price holding support above 20-day Moving Average",
-      "Risk of hot wallet insecurity remains a secondary macro headwind"
+      "BTC holds above MA20 with RSI 62 indicating bullish momentum",
+      "Ondo Chain evolution and Bitbond plans add fundamental upside",
+      "Target 66k, SL at MA20, trade via [bybit]"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC maintains bullish structure above MA20 as institutional cross-border payment news fuels fundamental optimism.",
+    "excerpt": "BTC holds above MA20, RSI 62, fundamentals bullish; target 66k with tight SL, watch for break above 65k resistance, now.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Bullish momentum sustained above MA20 with positive institutional catalysts.",
-    "entry": "64500.00",
-    "tp": "67500.00",
-    "sl": "63700.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTC holds above MA20, RSI 62, fundamentals bullish; target 66k with tight SL, watch for break above 65k resistance, now.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }

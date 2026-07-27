@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-07-28-crypto-ja",
+    "date": "2026-07-28 02:45",
+    "title": "[BTC/USD] UP: MA20上抜けとリスクオン sentimentの整合性",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "現在価格はMA20を上回り、RSIはやや強気圏。ファンダは混在だが流動性観点から上値余地を探る。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-28-crypto-en",
+    "date": "2026-07-28 02:45",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC holds above MA20, RSI 62, fundamentals bullish; target 66k with tight SL, watch for break above 65k resistance, now.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-28-stocks-ja",
+    "date": "2026-07-28 02:44",
+    "title": "[S&P 500] UP: MA20反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500は第2四半期決算成長率70%達成の強気ファンダメンタルズを背景に、MA20への反発が確実視される。半導体セクターの弱調は一時的と判断し、Fed決定会議を前に積極的な買いポジションの構築を推奨。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-28-stocks-en",
+    "date": "2026-07-28 02:44",
+    "title": "[S&P 500] UP: Technical Dip Toward MA20 Backed by Strong Earnings Growth",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 poised for a short‑term bounce to MA20 as earnings strength offsets near‑term technical weakness.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-28-fx-ja",
+    "date": "2026-07-28 02:39",
+    "title": "[USD/JPY] UP: 金利上昇局面でのリバランド需要とテクニカル強気の二重確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYは163.70でMA20（162.45）上回り、RSI 69.4の高位から見える上昇修正の余地。米国債利上昇と通貨リバランスの二重ファンダメンタルズが、流動性の高いdmm-fxでのエントリーを推奨する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-28-fx-en",
+    "date": "2026-07-28 02:39",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY poised higher as US yields rise; MA20 support and bullish bias target 165.00.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-07-27-crypto-ja",
     "date": "2026-07-27 20:24",
     "title": "[BTC/USD] UP: 現在価格がMA20上回り、RSI未過熱との戦略的買い機会",
