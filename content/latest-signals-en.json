@@ -1,68 +1,64 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-27 01:55",
+    "date": "2026-07-27 11:37",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "AI identifies bullish reversal at MA20 (162.36)",
-      "Geopolitical risks amplify USD/JPY upside potential",
-      "RSI divergence warns of overbought exhaustion risk"
+      "Price above MA20 indicates short‑term bullish momentum.",
+      "RSI near 66 shows room for further upside before overbought.",
+      "Softer Japan PPI and risk‑on sentiment favor USD strength."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Bullish breakout expected as USD/JPY finds support at critical MA20 level amid mixed US markets and geopolitical uncertainty.",
+    "excerpt": "USD/JPY holds above MA20, RSI 66, backed by softer Japan PPI and risk‑on sentiment, eyeing 165.0.",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "Bullish breakout expected as USD/JPY finds support at critical MA20 level amid mixed US markets and geopolitical uncertainty.",
+    "comment": "USD/JPY holds above MA20, RSI 66, backed by softer Japan PPI and risk‑on sentiment, eyeing 165.0.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Price Below MA20 with RSI Indicating Bearish Momentum",
-    "date": "2026-07-27 01:58",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-27 11:39",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price trading below MA20 resistance at 7489.9, signaling near-term bearish bias.",
-      "RSI-14 at 38.9 shows weakening momentum and room for further downside.",
-      "Big Tech earnings rotation and Fed policy outlook add fundamental pressure on the index."
+      "S&P 500 trades below MA20 but RSI signals potential bounce",
+      "Apple's earnings and Fed meeting drive near-term catalysts",
+      "Key support at 7411.98, resistance at MA20 (7489.89)"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades under MA20 with RSI near 39, suggesting bearish momentum ahead of Fed meeting and Big Tech earnings.",
+    "excerpt": "S&P 500 finds support near 7411.98 as RSI (38.88) hints at oversold bounce; Apple's earnings and Fed meeting drive bullish bias.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Price below MA20 with RSI showing weakening momentum and bearish fundamentals.",
-    "entry": "7470.00",
-    "tp": "7350.00",
-    "sl": "7520.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Mean-reversion opportunity at oversold levels ahead of Fed and earnings catalysts",
+    "entry": "7430.00",
+    "tp": "7495.00",
+    "sl": "7370.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support Consolidation at MA20 Amid Diverging ETF Flows",
-    "date": "2026-07-27 02:00",
+    "title": "BTC/USD 市場分析",
+    "date": "2026-07-27",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
-    "tldr_points": [
-      "Bitcoin ETF weekly volumes hit post-October lows while Ether leads inflows",
-      "Regulatory headwinds for HTX in the EU and BitMart wind-down create localized volatility",
-      "Price stability maintained above the MA20 level with neutral RSI momentum"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC stabilizes at 64660.5 as ETF outflows diverge from ETH; technical support holds at MA20.",
+    "excerpt": "",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Price is holding above MA20 with neutral RSI suggesting a bullish continuation after consolidation.",
-    "entry": "64300.00",
-    "tp": "66500.00",
-    "sl": "63800.00",
+    "status": "NEUTRAL",
+    "comment": "シナプス解析に基づくシグナル",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
