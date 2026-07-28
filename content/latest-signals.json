@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-28 11:11",
+    "title": "[USD/JPY] UP: 同期ファンダメンタルズとテクニカルのサポートが整合",
+    "date": "2026-07-28 19:31",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "現在価格はMA20を上抜け、上昇余地が残る",
-      "リスクオフとFOMC前のボラティリティ期待がUSDを支援",
-      "テクニカルとファンダが整合し買いバイアスが形成"
+      "米国金利高止まり、日銀緩和継続で対ドルが優勢",
+      "USD/JPYはMA20上方にあり、上昇ベルトを堅持",
+      "RSIは過熱をroitsでも柔らかい回復期待"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "現在価格はMA20を上抜け、RSIは66.9で上昇余地を示す。リスクオフ環境とFOMC前のボラティリティ期待がUSD/JPYを押し上げる可能性。テクニカルとファンダが整合し、買いバイアスが形成される。",
+    "excerpt": "米国の金融政策継続と日銀の円安政策が合致し、USD/JPYはMA20上方安定。RSIは高いが上昇トレンドは今後も継続すると予想。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20上抜けとリスクオフによる米ドル支えが買いシグナル",
-    "entry": "163.30",
-    "tp": "164.80",
-    "sl": "162.80",
-    "reliability": "HIGH"
+    "comment": "米国金利高止まり、日銀緩和継続で対ドルが上昇圧力を受ける",
+    "entry": "163.93",
+    "tp": "167.00",
+    "sl": "162.20",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-28 11:13",
+    "title": "[S&P 500] DOWN: MA20下放れとリスクオフセンチメントの拡大",
+    "date": "2026-07-28 19:32",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "MA20の支持と強気ファンダメンタルズの整合性",
-      "AIシナプス解析は金利・オーダーフロー・センチメントの好転を示唆",
-      "技術的モメンタムは押し目買いシグナルを示唆"
+      "半導体セクターの売りが広がり、S&P 500はMA20を下回る展開",
+      "米金利警戒とインフレ再燃懸念がリスクオフを強化",
+      "テクニカルはRSI39で売られ過ぎだが、下押し余地は残る"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20反発とファンダメンタルズの好調を背景に、S&P 500は上昇余地を拡大。",
+    "excerpt": "半導体株の急落とFRB利上げ懸念が重なり、S&P 500はMA20を割り込み下目線が強まる。エントリーは7400付近、TP 7250、SL 7500でリスク管理を徹底。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20反発と好調なファンダメンタルズを背景に、S&P 500 は押し目買い機会を提供。",
-    "entry": "7410",
-    "tp": "7492.85",
-    "sl": "7300",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "半導体売りと金利上昇が重しとなり、MA20下放れから下目線が強まる",
+    "entry": "7400.00",
+    "tp": "7250.00",
+    "sl": "7500.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price below MA20, bearish macro",
-    "date": "2026-07-28 11:15",
+    "title": "[BTC/USD] DOWN: RSI下位圏での反動弱まりと規制懸念の重映し",
+    "date": "2026-07-28 19:36",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "Current price trades below the 20‑day MA",
-      "RSI(14) at 53.7 shows neutral momentum",
-      "Regulatory tightening adds headwinds"
+      "RSI(14)=41.8で dynastyr低下、MA20上回り厳しく反動弱化",
+      "予測市場関連規制進展とNFLの要請でリスクオン離れ",
+      "流動性確保のためbitflyer推奨"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD under pressure as price sits below MA20, neutral RSI and rising regulatory scrutiny hint at further decline.",
+    "excerpt": "BTC/USDは63,364円で RSI(14)は41.8と横ばい、MA20上回りを維持しつつも下位圏で横ばい。米国での予測市場規制動向が懸念材料となり、機関投資家のリスクオフ志向が顕在化している。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USD under pressure as price sits below MA20, neutral RSI and rising regulatory scrutiny hint at further decline.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "RSI下位圏で反発不足、規制懸念が下向きを支える",
+    "entry": "62800",
+    "tp": "64000",
+    "sl": "61500",
+    "reliability": "HIGH"
   }
 }

@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-28 11:11",
+    "title": "[USD/JPY] UP: AI Confirms MA20 as Critical Support Amid Hawkish FOMC Signals",
+    "date": "2026-07-28 19:31",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above MA20 with RSI 66.9 indicating bullish momentum",
-      "FOMC preview suggests potential Fed hawkishness supporting USD",
-      "South Korea consumer sentiment modestly improves, reducing risk‑off pressure"
+      "Fundamentals favor USD strength as SNB pauses and Fed leaves rates elevated",
+      "Technical structure shows consolidation with institutional buying corridors",
+      "RSI divergence suggests potential for breakout above 165.00"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY rises above MA20, RSI 66.9 signals bullish momentum; bullish bias with risk of Fed volatility.",
+    "excerpt": "USD/JPY consolidates near 163.93 ahead of FOMC/BoJ decisions; MA20 at 162.55 acts as critical pivot.",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "USD/JPY rises above MA20, RSI 66.9 signals bullish momentum; bullish bias with risk of Fed volatility.",
+    "comment": "USD/JPY consolidates near 163.93 ahead of FOMC/BoJ decisions; MA20 at 162.55 acts as critical pivot.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Bearish Momentum as Price Decouples from MA20 Amid Structural Demographic Shifts",
-    "date": "2026-07-28 11:13",
+    "title": "[S&P 500] DOWN: Chip Shock and Fed Uncertainty Keep Index Below MA20",
+    "date": "2026-07-28 19:32",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price remains below the 20-period moving average",
-      "RSI indicates bearish momentum without immediate oversold signals",
-      "Demographic shifts and pension deficits heighten long-term structural risks"
+      "Price below MA20 with RSI 39 indicates bearish momentum.",
+      "Chip sector weakness and Fed uncertainty drive risk‑off sentiment.",
+      "Immediate resistance at MA20; a break lower targets 7300."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces downward pressure as technical indicators show bearish divergence and macro headwinds emerge.",
+    "excerpt": "S&P 500 slides below MA20 as chip sell‑off intensifies; RSI 39 signals oversold pressure before Fed.",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "Price is trading below MA20 with RSI showing bearish momentum.",
-    "entry": "7492.85",
-    "tp": "7350.00",
-    "sl": "7505.00",
-    "reliability": "MEDIUM"
+    "comment": "Price below MA20 with bearish RSI signals further downside.",
+    "entry": "7405.00",
+    "tp": "7300.00",
+    "sl": "7465.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Tectonic LA Survey Finds Support at 62K Ahead of Fundamental Catalysts",
-    "date": "2026-07-28 11:15",
+    "title": "[BTC/USD] DOWN: Price Below MA20 and Bearish RSI",
+    "date": "2026-07-28 19:36",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD consolidates above 63K amid converging macro support",
-      "AI signal aligns with technical transition from distribution to accumulation",
-      "Regulatory developments and institutional inflows position next catalyst vertical"
+      "BTC trades below MA20 with bearish RSI, indicating downside pressure.",
+      "Regulatory headwinds from prediction market rulings add uncertainty.",
+      "Liquidity remains ample on bybit, supporting short execution."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD in accumulation phase; target 65K+ on bullish technicals and ETF inflows tailwind.",
+    "excerpt": "BTC below MA20, RSI 42, bearish sentiment; watch for breakdown toward 62k.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USD in accumulation phase; target 65K+ on bullish technicals and ETF inflows tailwind.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Price below MA20 with bearish RSI signals downside toward 62k.",
+    "entry": "63500",
+    "tp": "62000",
+    "sl": "64000",
+    "reliability": "HIGH"
   }
 }
