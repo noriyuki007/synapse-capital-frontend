@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Confirms MA20 as Critical Support Amid Hawkish FOMC Signals",
-    "date": "2026-07-28 19:31",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-29 02:23",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Fundamentals favor USD strength as SNB pauses and Fed leaves rates elevated",
-      "Technical structure shows consolidation with institutional buying corridors",
-      "RSI divergence suggests potential for breakout above 165.00"
+      "Price above MA20 signals short‑term bullish bias.",
+      "Higher US 7‑year yield supports USD strength.",
+      "Geopolitical easing reduces risk‑off demand for yen."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY consolidates near 163.93 ahead of FOMC/BoJ decisions; MA20 at 162.55 acts as critical pivot.",
+    "excerpt": "USD/JPY holds above MA20, RSI ~67, backed by higher US yields and easing Iran tensions; target 164.50.",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "USD/JPY consolidates near 163.93 ahead of FOMC/BoJ decisions; MA20 at 162.55 acts as critical pivot.",
+    "comment": "USD/JPY holds above MA20, RSI ~67, backed by higher US yields and easing Iran tensions; target 164.50.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Chip Shock and Fed Uncertainty Keep Index Below MA20",
-    "date": "2026-07-28 19:32",
+    "title": "[S&P 500] DOWN: AI Detects Resistance at MA20 with Bearish Momentum",
+    "date": "2026-07-29 02:25",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price below MA20 with RSI 39 indicates bearish momentum.",
-      "Chip sector weakness and Fed uncertainty drive risk‑off sentiment.",
-      "Immediate resistance at MA20; a break lower targets 7300."
+      "Resistance at MA20 holds, limiting upside.",
+      "RSI 44 signals bearish bias amid mixed earnings.",
+      "Chip sector stress raises risk‑off sentiment."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 slides below MA20 as chip sell‑off intensifies; RSI 39 signals oversold pressure before Fed.",
+    "excerpt": "S&P 500 slides as chip rout persists; MA20 resistance holds, RSI 44 signals bearish bias amid mixed earnings today! now",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Price below MA20 with bearish RSI signals further downside.",
-    "entry": "7405.00",
-    "tp": "7300.00",
-    "sl": "7465.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P 500 slides as chip rout persists; MA20 resistance holds, RSI 44 signals bearish bias amid mixed earnings today! now",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Below MA20 and Bearish RSI",
-    "date": "2026-07-28 19:36",
+    "title": "[BTC/USD] DOWN: Price Below MA20 with Bearish Momentum Amid Mixed Fundamentals",
+    "date": "2026-07-29 02:27",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trades below MA20 with bearish RSI, indicating downside pressure.",
-      "Regulatory headwinds from prediction market rulings add uncertainty.",
-      "Liquidity remains ample on bybit, supporting short execution."
+      "Price trades below MA20 indicating near-term resistance",
+      "RSI at 43 shows muted momentum, not oversold",
+      "Fundamentals show AI infrastructure growth but no direct BTC catalyst"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC below MA20, RSI 42, bearish sentiment; watch for breakdown toward 62k.",
+    "excerpt": "BTC/USD struggles near MA20 resistance; bearish bias amid mixed macro and AI-driven crypto news.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "Price below MA20 with bearish RSI signals downside toward 62k.",
-    "entry": "63500",
-    "tp": "62000",
-    "sl": "64000",
-    "reliability": "HIGH"
+    "comment": "Price below MA20 with bearish momentum and resistance-laden order flow",
+    "entry": "63750.00",
+    "tp": "62000.00",
+    "sl": "64500.00",
+    "reliability": "MEDIUM"
   }
 }

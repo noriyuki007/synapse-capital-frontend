@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 同期ファンダメンタルズとテクニカルのサポートが整合",
-    "date": "2026-07-28 19:31",
+    "title": "[USD/JPY] DOWN: 高利回り米国債発行と地政学的リスクがドルを圧迫",
+    "date": "2026-07-29 02:23",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米国金利高止まり、日銀緩和継続で対ドルが優勢",
-      "USD/JPYはMA20上方にあり、上昇ベルトを堅持",
-      "RSIは過熱をroitsでも柔らかい回復期待"
+      "米国債利回り上昇がドル需給に逆風",
+      "中東仲介による米伊合意期待がリスクオフを誘発",
+      "テクニカルはMA20を下抜ければ下落トレンド確定"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米国の金融政策継続と日銀の円安政策が合致し、USD/JPYはMA20上方安定。RSIは高いが上昇トレンドは今後も継続すると予想。",
+    "excerpt": "米国債入札の高利回りと中東情勢がドル売りを促し、USD/JPYはMA20を割り込めば下落トレンドへ転じる可能性が高い。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "米国金利高止まり、日銀緩和継続で対ドルが上昇圧力を受ける",
-    "entry": "163.93",
-    "tp": "167.00",
-    "sl": "162.20",
+    "status": "NEUTRAL",
+    "comment": "米国債入札の高利回りと中東情勢がドル売りを促し、USD/JPYはMA20を割り込めば下落トレンドへ転じる可能性が高い。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20下放れとリスクオフセンチメントの拡大",
-    "date": "2026-07-28 19:32",
+    "title": "[S&P 500] DOWN: MA20を上抜けできず、米長期金利上昇とセンチメント悪化が重石",
+    "date": "2026-07-29 02:25",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "半導体セクターの売りが広がり、S&P 500はMA20を下回る展開",
-      "米金利警戒とインフレ再燃懸念がリスクオフを強化",
-      "テクニカルはRSI39で売られ過ぎだが、下押し余地は残る"
+      "S&P 500はMA20付近で抵抗に直面し、下抜けリスクが顕在化",
+      "半導体株の売り圧力がナスダックに集中しつつも、広指数への波及警戒が高まる",
+      "RSIは44付近で弱気モメンタムを示し、短期的な戻り売りを検討"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "半導体株の急落とFRB利上げ懸念が重なり、S&P 500はMA20を割り込み下目線が強まる。エントリーは7400付近、TP 7250、SL 7500でリスク管理を徹底。",
+    "excerpt": "MA20を下回る価格とRSI44が示す弱気バイアスに、長期金利上昇とチップ株売りが重なり、S&P 500は短期的に下抜けを試す可能性が高い。",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "半導体売りと金利上昇が重しとなり、MA20下放れから下目線が強まる",
-    "entry": "7400.00",
-    "tp": "7250.00",
-    "sl": "7500.00",
+    "comment": "MA20を下抜ける弱気バイアスと金利上昇・センチメント悪化が裏付け",
+    "entry": "7430",
+    "tp": "7350",
+    "sl": "7500",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: RSI下位圏での反動弱まりと規制懸念の重映し",
-    "date": "2026-07-28 19:36",
+    "title": "[BTC/USD] DOWN: MA20下抜けとRSI弱気で売りバイアスを確認",
+    "date": "2026-07-29 02:27",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "RSI(14)=41.8で dynastyr低下、MA20上回り厳しく反動弱化",
-      "予測市場関連規制進展とNFLの要請でリスクオン離れ",
-      "流動性確保のためbitflyer推奨"
+      "現在価格63,699はMA20(64,401)を下回り、弱気のクロスを示唆",
+      "RSI(14)は43.3で買われすぎから離れ、下値リスクが顕在化",
+      "米金利の上振れリスクとAIエージェントの台頭が機関リスクオフを誘発"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDは63,364円で RSI(14)は41.8と横ばい、MA20上回りを維持しつつも下位圏で横ばい。米国での予測市場規制動向が懸念材料となり、機関投資家のリスクオフ志向が顕在化している。",
+    "excerpt": "MA20を下抜け、RSIが弱気ゾーンにあるためBTC/USDは下落リスクが高まっている。",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "RSI下位圏で反発不足、規制懸念が下向きを支える",
-    "entry": "62800",
-    "tp": "64000",
-    "sl": "61500",
-    "reliability": "HIGH"
+    "comment": "MA20下抜けとRSI弱気、金利上昇リスクが下値を支える",
+    "entry": "63500.00",
+    "tp": "62000.00",
+    "sl": "64500.00",
+    "reliability": "MEDIUM"
   }
 }
