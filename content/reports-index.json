@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-07-30-crypto-ja",
+    "date": "2026-07-30 02:16",
+    "title": "[BTC/USD] DOWN: MA20 below price and bearish market sentiment persist",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "現在価格がMA20下でRSIが中立域に留まる中、安定した短期売り戦略を推奨。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-30-crypto-en",
+    "date": "2026-07-30 02:16",
+    "title": "[BTC/USD] DOWN: Price Below MA20 as RSI Signals Weakness Amid Mixed Fundamentals",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC trades below MA20 with RSI 44, signaling bearish bias; key support at 63k, resistance near 64.5k.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-30-stocks-en",
+    "date": "2026-07-30 02:14",
+    "title": "[S&P 500] DOWN: Hawkish Fed Expectations and Rising Oil Pressure",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 faces downside pressure from Fed hawkishness and oil‑driven inflation fears.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-30-fx-ja",
+    "date": "2026-07-30 02:12",
+    "title": "[USD/JPY] UP: MA20上抜けと強気ファンダメンタルズの整合性",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYは163.86でMA20上抜け、RSI66.3と原油高が支え、短期的な押し目買いが有望。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-30-fx-en",
+    "date": "2026-07-30 02:12",
+    "title": "[USD/JPY] UP: Price Above MA20 with Bullish Momentum Amid Mixed Fed/Oil Signals",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY trades above MA20 with RSI 66, suggesting upside potential amid Fed tightening hopes and higher oil.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-30-stocks-ja",
+    "date": "2026-07-30 02 02:14",
+    "title": "[S&P 500] DOWN: MA20下抜けとリスクオフセンチメントの拡大を示唆",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Nomura Securities",
+    "excerpt": "MA20を下抜けたS&P 500は、原油高とFRB利上げ観測によるリスクオフが強まる中、下押しリスクが顕在化している。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
     "id": "2026-07-29-crypto-ja",
     "date": "2026-07-29 19:42",
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",

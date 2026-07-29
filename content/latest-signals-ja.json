@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "インテリジェンス：USD/JPYの強気相場における利益確定ポイント",
-    "date": "2026-07-29 19:35",
+    "title": "[USD/JPY] UP: MA20上抜けと強気ファンダメンタルズの整合性",
+    "date": "2026-07-30 02:12",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "金利相関（近似）: 0.10で正相関傾向",
-      "テクニカル: 現在価格 163.67 と MA20 162.59 の位置関係が主導",
-      "需給: 上限帯 164.03 / 下限帯 161.16 / 直近高値 163.98 / 直近安値 160.62 によるターゲット設計"
+      "USD/JPYは163.86でMA20上抜け、RSI66.3と原油高が支え、短期的な押し目買いが有望。",
+      "技術的・ファンダメンタル的裏付けから上値余地が残ると判断し、長期的なBUY姿勢を維持。",
+      "dmm-fxの流動性確保が戦術的エントリーに不可欠。"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 163.67、RSI(63.91)、MA20(162.59)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "USD/JPYは163.86でMA20上抜け、RSI66.3と原油高が支え、短期的な押し目買いが有望。",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "本日のAI解析では、USD/JPYの現在価格 163.67、RSI(63.91)、MA20(162.59)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "comment": "USD/JPYは163.86でMA20上抜け、RSI66.3と原油高が支え、短期的な押し目買いが有望。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20割れとRSIのさらなる弱化、リスク回避局面への転換",
-    "date": "2026-07-29 19:40",
+    "title": "[S&P 500] DOWN: MA20下抜けとリスクオフセンチメントの拡大を示唆",
+    "date": "2026-07-30 02 02:14",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "S&P500がMA20（7489.95）を割り下ち、RSI14は39.01と売り圧力拡大",
-      "AI関連銘柄の決算やIran情勢を背景にリスク回避ムードが強まる",
-      "戦術的なドテン狙いは厳格なリスク管理が前提"
+      "S&P 500はMA20を下抜け、短期的な下押し圧力が強まる。",
+      "原油高とFRBの利上げ観測がリスクオフを誘発し、主要株価指数に下押し。",
+      "RSIが34.5と妥売り圏に近づき、反発の余地は限定的。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20割れで下落継続か、RSIの弱化とリスク回避ムードから一段下を警戒。",
+    "excerpt": "MA20を下抜けたS&P 500は、原油高とFRB利上げ観測によるリスクオフが強まる中、下押しリスクが顕在化している。",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "MA20割れとRSIの弱化、リスク回避ムードから下落継続を期待",
-    "entry": "7410.00",
-    "tp": "7350.00",
-    "sl": "7460.00",
-    "reliability": "HIGH"
+    "comment": "MA20下抜けとリスクオフセンチメントが下押しを支持",
+    "entry": "7386.00",
+    "tp": "7300.00",
+    "sl": "7450.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-07-29 19:42",
+    "title": "[BTC/USD] DOWN: MA20 below price and bearish market sentiment persist",
+    "date": "2026-07-30 02:16",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を僅かに上回り、底堅いサポートを示唆",
-      "マクロでは規制緩和と機関投資家の資金流入が継続",
-      "テクニカルはRSI中立で、押し目買いの余地がある"
+      "価格はMA20にamorで伸び止まり",
+      "RSIは中立域で過熱が乏しい",
+      "機関投資家向けの流動性はbitflyerが最適"
     ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20付近での反発と規制環境の緩和が、BTC/USDの上値リスクを支える一方で、RSIの中立状態は押し目買いの機会を示唆している。機関投資家の資金流入も継続し、短期的な上方バイアスが形成されている。",
+    "chart_image": "/EXPECTS/market-analysis-crypto.png",
+    "excerpt": "現在価格がMA20下でRSIが中立域に留まる中、安定した短期売り戦略を推奨。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20を上回る価格と規制緩和・マイニング拡張が上値を支える",
-    "entry": "64480",
-    "tp": "65200",
-    "sl": "64000",
+    "status": "NEUTRAL",
+    "comment": "現在価格がMA20下でRSIが中立域に留まる中、安定した短期売り戦略を推奨。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }

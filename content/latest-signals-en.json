@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: ECB Dovish Stance and MA20 Support Signal Bullish Momentum",
-    "date": "2026-07-29 19:35",
+    "title": "[USD/JPY] UP: Price Above MA20 with Bullish Momentum Amid Mixed Fed/Oil Signals",
+    "date": "2026-07-30 02:12",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "ECB official signals dovish bias, reducing euro strength and supporting USD.",
-      "Price above MA20 (162.59) with RSI at 63.9 indicates bullish momentum but not overbought.",
-      "FOMC anticipation and safe-haven flows amid Middle East tension favor USD demand."
+      "Price holds above MA20 indicating short-term bullish bias.",
+      "RSI near 66 suggests room for further upside before overbought.",
+      "Fed tightening potential and rising crude oil support USD demand."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish on ECB dovish tone, Fed hawkish bias and MA20 support; aim for 165.00 with disciplined risk and hold 16.",
+    "excerpt": "USD/JPY trades above MA20 with RSI 66, suggesting upside potential amid Fed tightening hopes and higher oil.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish bias driven by ECB dovishness, Fed hawkish bias and MA20 support",
+    "comment": "Price above MA20 with bullish RSI and supportive fundamentals from oil and Fed tightening prospects.",
     "entry": "162.60",
     "tp": "165.00",
-    "sl": "162.00",
+    "sl": "161.80",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Bearish Structure Confirmed by MA20 Resistance and Low RSI",
-    "date": "2026-07-29 19:40",
+    "title": "[S&P 500] DOWN: Hawkish Fed Expectations and Rising Oil Pressure",
+    "date": "2026-07-30 02:14",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Goldman Sachs",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price below MA20, RSI 39 indicates bearish momentum.",
-      "AI earnings lift selective tech names, but macro volatility persists.",
-      "Layoffs and Iran tensions add uncertainty to earnings outlook."
+      "Fed likely to hike rates amid surging oil prices",
+      "Technical breakdown shows price below MA20 with RSI indicating oversold but bearish momentum",
+      "Key support near 7300; resistance at MA20 ~7487"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades below MA20, RSI 39 signals bearish bias; AI earnings lift tech, while layoffs Iran news add volatility!!.",
+    "excerpt": "S&P 500 faces downside pressure from Fed hawkishness and oil‑driven inflation fears.",
     "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "Bearish bias driven by Fed hawkishness, oil‑induced inflation concerns, and technical breakdown below MA20.",
+    "entry": "7390.00",
+    "tp": "7300.00",
+    "sl": "7500.00",
+    "reliability": "MEDIUM"
+  },
+  "CRYPTO": {
+    "title": "[BTC/USD] DOWN: Price Below MA20 as RSI Signals Weakness Amid Mixed Fundamentals",
+    "date": "2026-07-30 02:16",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "tldr_points": [
+      "BTC trades below MA20 with RSI 44, signaling bearish bias.",
+      "Key support at 63k, resistance near 64.5k.",
+      "Tether's Celo launch and SoFi revenue growth hint at underlying demand."
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "BTC trades below MA20 with RSI 44, signaling bearish bias; key support at 63k, resistance near 64.5k.",
+    "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "S&P 500 trades below MA20, RSI 39 signals bearish bias; AI earnings lift tech, while layoffs Iran news add volatility!!.",
+    "comment": "BTC trades below MA20 with RSI 44, signaling bearish bias; key support at 63k, resistance near 64.5k.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
-  },
-  "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-29 19:42",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bybit",
-    "tldr_points": [
-      "MA20 support aligns with bullish macro catalysts",
-      "RSI near neutral suggests room for upside",
-      "SpaceX investment and AI mining expand demand"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC probes 64.6k, testing MA20 near 64,478; RSI 49.3 shows neutral momentum, but SpaceX investment fuels bullish bias!!!",
-    "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Bullish setup confirmed by MA20 support and AI macro catalysts.",
-    "entry": "64570.16",
-    "tp": "66000.00",
-    "sl": "63500.00",
-    "reliability": "HIGH"
   }
 }
