@@ -1,67 +1,67 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-29 02:23",
+    "date": "2026-07-29 11:21",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 signals short‑term bullish bias.",
-      "Higher US 7‑year yield supports USD strength.",
-      "Geopolitical easing reduces risk‑off demand for yen."
+      "Price above MA20 with RSI 64 indicates bullish momentum",
+      "Australian CPI miss signals softer inflation, reinforcing USD strength",
+      "Geopolitical tension in the Middle East boosts safe‑haven USD demand"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above MA20, RSI ~67, backed by higher US yields and easing Iran tensions; target 164.50.",
+    "excerpt": "USD/JPY trades above MA20, RSI 64, with geopolitical risk and softer Australian inflation supporting a bullish bias.",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "USD/JPY holds above MA20, RSI ~67, backed by higher US yields and easing Iran tensions; target 164.50.",
+    "comment": "USD/JPY trades above MA20, RSI 64, with geopolitical risk and softer Australian inflation supporting a bullish bias.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: AI Detects Resistance at MA20 with Bearish Momentum",
-    "date": "2026-07-29 02:25",
+    "title": "[S&P 500] UP: Technical Divergence Resolves Near MA20 as Oil and Tech Earnings Offset Sector Rotations",
+    "date": "2026-07-29 11:23",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "UP",
+    "recommended_broker": "For executing this specific setup, we recommend utilizing [TD Ameritrade] due to optimal liquidity for index/composite orders.",
     "tldr_points": [
-      "Resistance at MA20 holds, limiting upside.",
-      "RSI 44 signals bearish bias amid mixed earnings.",
-      "Chip sector stress raises risk‑off sentiment."
+      "S&P 500 price action above critical support at MA20 signals bullish bias",
+      "Oil-driven volatility may accelerate leveraged longs",
+      "Tech earnings momentum aligns with AI-driven re-rating of mega-caps"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 slides as chip rout persists; MA20 resistance holds, RSI 44 signals bearish bias amid mixed earnings today! now",
+    "excerpt": "S&P 500 breaks below MA20 pivot with positive fundamentals; oil news amplifies risk appetite.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P 500 slides as chip rout persists; MA20 resistance holds, RSI 44 signals bearish bias amid mixed earnings today! now",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Technical support at MA20 aligns with bullish fundamentals from energy and tech earnings",
+    "entry": "7428.78",
+    "tp": "7520",
+    "sl": "7380",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Below MA20 with Bearish Momentum Amid Mixed Fundamentals",
-    "date": "2026-07-29 02:27",
+    "title": "[BTC/USD] DOWN: Price Below MA20 as RSI Weakens Amid Mixed Fundamentals",
+    "date": "2026-07-29 11:25",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price trades below MA20 indicating near-term resistance",
-      "RSI at 43 shows muted momentum, not oversold",
-      "Fundamentals show AI infrastructure growth but no direct BTC catalyst"
+      "BTC trades below MA20 with RSI near 44, indicating bearish momentum.",
+      "Mixed fundamentals: mining expansion bullish, but record hacks and low L2 TVL weigh on sentiment.",
+      "Short bias toward 62,500 with stop above 64,500."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD struggles near MA20 resistance; bearish bias amid mixed macro and AI-driven crypto news.",
+    "excerpt": "BTC/USD shows bearish technical setup; fundamentals mixed with mining upside offset by security risks and L2 weakness.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "Price below MA20 with bearish momentum and resistance-laden order flow",
-    "entry": "63750.00",
-    "tp": "62000.00",
+    "comment": "Price below MA20 with RSI weakening; short bias toward 62,500.",
+    "entry": "63800.00",
+    "tp": "62500.00",
     "sl": "64500.00",
     "reliability": "MEDIUM"
   }
