@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY 市場分析",
-    "date": "2026-07-30",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-07-30 19:22",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "tldr_points": [],
+    "tldr_points": [
+      "Price above 20‑day MA signals bullish bias",
+      "RSI 55.99 remains neutral, supporting further upside",
+      "Improving eurozone fundamentals weaken yen support"
+    ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "",
+    "excerpt": "USD/JPY at 162.94 above MA20, EUR data bullish, moderate RSI supports upward bias.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Upward continuation on support at MA20 and improving eurozone fundamentals.",
+    "entry": "162.94",
+    "tp": "164.20",
+    "sl": "162.30",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Oversold RSI Signals Rebound Toward MA20 as Fundamentals Stabilize",
-    "date": "2026-07-30 11:06",
+    "title": "[S&P 500] UP: Technical Oversold Conditions Meet Improving Tech Sentiment",
+    "date": "2026-07-30 19:27",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 RSI at 30.32 signals extreme oversold conditions",
-      "Microsoft/Meta earnings provide near-term bullish catalysts",
-      "MA20 at 7483.10 acts as critical support/resistance confluence"
+      "RSI at 30.3 indicates oversold momentum, suggesting near-term bounce potential.",
+      "Microsoft earnings ease AI fears, providing a fundamental tailwind for tech-weighted indices.",
+      "Key resistance lies at the 20‑day MA around 7,483; a break above could target 7,550."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 rebounds from oversold RSI (30.32) as tech earnings and Fed watch drive tactical long bias toward MA20.",
+    "excerpt": "Oversold RSI and improving tech earnings support a tactical long toward the 20‑day MA with defined risk.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Oversold RSI (30.32) and MA20 support create tactical rebound opportunity amid tech earnings catalysts.",
-    "entry": "7450",
-    "tp": "7650",
-    "sl": "7250",
-    "reliability": "HIGH"
+    "comment": "Oversold RSI and improving tech fundamentals support a bounce toward the 20‑day MA.",
+    "entry": "7280",
+    "tp": "7500",
+    "sl": "7200",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Detects Bears at MA20 as Macro Uncertainty Clouds Outlook",
-    "date": "2026-07-30 11:07",
+    "title": "[BTC/USD] UP: Price Holds Above MA20 as Regulatory Catalysts Offset Ark Selloff",
+    "date": "2026-07-30 19:29",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price below 20‑day MA, RSI near 47 signals neutral bearish momentum.",
-      "Fed rate‑wait with hawkish undercurrents creates macro headwinds.",
-      "Pump.fun token dynamics and ETH foundation news favor altcoins, diversifying away from BTC."
+      "BTC defends MA20 at 64,466 with RSI at 54.1 signaling constructive momentum",
+      "Binance.US CFTC license application provides regulatory tailwind amid mixed headlines",
+      "Key resistance at 66,500; downside risk contained by 63,800 structural support"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC at $64.2k under pressure; MA20 at $64.5k, RSI 47 signals caution amid macro uncertainty.",
+    "excerpt": "BTC holds MA20 support with neutral RSI; regulatory progress offsets Ark liquidation flow.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Bearish thesis driven by macro uncertainty, order‑flow imbalance, and price below MA20.",
-    "entry": "64217",
-    "tp": "63000",
-    "sl": "65500",
+    "status": "BUY",
+    "comment": "Price above MA20 with neutral RSI and positive regulatory catalyst support upside toward 66-67k.",
+    "entry": "64500",
+    "tp": "66000",
+    "sl": "63750",
     "reliability": "MEDIUM"
   }
 }
