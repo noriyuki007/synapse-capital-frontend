@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20上抜けと強気ファンダメンタルズの整合性",
-    "date": "2026-07-30 02:12",
+    "title": "[USD/JPY] UP: MA20上抜きとリスク回避シナリオが上昇余地を後押し",
+    "date": "2026-07-30 11:04",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "USD/JPYは163.86でMA20上抜け、RSI66.3と原油高が支え、短期的な押し目買いが有望。",
-      "技術的・ファンダメンタル的裏付けから上値余地が残ると判断し、長期的なBUY姿勢を維持。",
-      "dmm-fxの流動性確保が戦術的エントリーに不可欠。"
+      "イラン空爆がリスク回避を加速し円安を助長",
+      "米金利上昇期待がUSD/JPYに上昇圧力",
+      "RSIが60超で上昇余地示唆"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは163.86でMA20上抜け、RSI66.3と原油高が支え、短期的な押し目買いが有望。",
+    "excerpt": "米国がイランへの空爆を確認し、リスク回避が円安を加速。RSIが62.75に上昇し、MA20（約162.65）を上回る163.46で上値余地が示唆。投資戦略は[dmm-fx]の流動性を活用し、押し目買いを検討せよ。",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "USD/JPYは163.86でMA20上抜け、RSI66.3と原油高が支え、短期的な押し目買いが有望。",
+    "comment": "米国がイランへの空爆を確認し、リスク回避が円安を加速。RSIが62.75に上昇し、MA20（約162.65）を上回る163.46で上値余地が示唆。投資戦略は[dmm-fx]の流動性を活用し、押し目買いを検討せよ。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20下抜けとリスクオフセンチメントの拡大を示唆",
-    "date": "2026-07-30 02 02:14",
+    "title": "[S&P 500] DOWN: MA20下抜けとRSI極端な売られ",
+    "date": "2026-07-30 11:06",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "Nomura",
     "tldr_points": [
-      "S&P 500はMA20を下抜け、短期的な下押し圧力が強まる。",
-      "原油高とFRBの利上げ観測がリスクオフを誘発し、主要株価指数に下押し。",
-      "RSIが34.5と妥売り圏に近づき、反発の余地は限定的。"
+      "MA20を下抜け、短期トレンドは崩壊。",
+      "RSI14が30付近で売られ過ぎだが、モメンタムは依然下向き。",
+      "Fed発言と原油高がインフレ懸念を悪化させ、リスクオフが継続。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20を下抜けたS&P 500は、原油高とFRB利上げ観測によるリスクオフが強まる中、下押しリスクが顕在化している。",
+    "excerpt": "MA20を下抜け、RSI30近辺の売られが顕著。ファンダメンタルズはFed発言のハト派転換と原油高でインフレ懸念が再燃。",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "MA20下抜けとリスクオフセンチメントが下押しを支持",
-    "entry": "7386.00",
-    "tp": "7300.00",
-    "sl": "7450.00",
+    "comment": "MA20下抜け・RSI30付近・Fed不信・原油高で下値リスク",
+    "entry": "7300",
+    "tp": "7100",
+    "sl": "7350",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20 below price and bearish market sentiment persist",
-    "date": "2026-07-30 02:16",
+    "title": "[BTC/USD] UP: MA20 wines with bullish technical alignment and prediction market momentum",
+    "date": "2026-07-30 11:07",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20にamorで伸び止まり",
-      "RSIは中立域で過熱が乏しい",
-      "機関投資家向けの流動性はbitflyerが最適"
+      "BTC rebounds toward key MA20 support",
+      "Prediction market inflows signal institutional accumulation",
+      "Macro stability from Fed rate holds favors crypto premium"
     ],
-    "chart_image": "/EXPECTS/market-analysis-crypto.png",
-    "excerpt": "現在価格がMA20下でRSIが中立域に留まる中、安定した短期売り戦略を推奨。",
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "BTC/USD breaks below MA20 at 64217 amid neutral Fed stance, yet prediction markets and Ethereum ecosystem developments hint at latent accumulation. Key technical confluence at 64460 offers entry with bitflyer liquidity.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "現在価格がMA20下でRSIが中立域に留まる中、安定した短期売り戦略を推奨。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Technical reversal at key MA20 support with predictive market and Ethereum protocol strength",
+    "entry": "64460",
+    "tp": "65000",
+    "sl": "64000",
+    "reliability": "HIGH"
   }
 }

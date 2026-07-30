@@ -1,75 +1,75 @@
 [
   {
     "id": "2026-07-30-crypto-ja",
-    "date": "2026-07-30 02:16",
-    "title": "[BTC/USD] DOWN: MA20 below price and bearish market sentiment persist",
+    "date": "2026-07-30 11:07",
+    "title": "[BTC/USD] UP: MA20 wines with bullish technical alignment and prediction market momentum",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "現在価格がMA20下でRSIが中立域に留まる中、安定した短期売り戦略を推奨。",
+    "excerpt": "BTC/USD breaks below MA20 at 64217 amid neutral Fed stance, yet prediction markets and Ethereum ecosystem developments hint at latent accumulation. Key technical confluence at 64460 offers entry with bitflyer liquidity.",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-07-30-crypto-en",
-    "date": "2026-07-30 02:16",
-    "title": "[BTC/USD] DOWN: Price Below MA20 as RSI Signals Weakness Amid Mixed Fundamentals",
+    "date": "2026-07-30 11:07",
+    "title": "[BTC/USD] DOWN: AI Detects Bears at MA20 as Macro Uncertainty Clouds Outlook",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
-    "excerpt": "BTC trades below MA20 with RSI 44, signaling bearish bias; key support at 63k, resistance near 64.5k.",
-    "result": "PENDING",
-    "locale": "en"
-  },
-  {
-    "id": "2026-07-30-stocks-en",
-    "date": "2026-07-30 02:14",
-    "title": "[S&P 500] DOWN: Hawkish Fed Expectations and Rising Oil Pressure",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
-    "excerpt": "S&P 500 faces downside pressure from Fed hawkishness and oil‑driven inflation fears.",
-    "result": "PENDING",
-    "locale": "en"
-  },
-  {
-    "id": "2026-07-30-fx-ja",
-    "date": "2026-07-30 02:12",
-    "title": "[USD/JPY] UP: MA20上抜けと強気ファンダメンタルズの整合性",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "dmm-fx",
-    "excerpt": "USD/JPYは163.86でMA20上抜け、RSI66.3と原油高が支え、短期的な押し目買いが有望。",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-07-30-fx-en",
-    "date": "2026-07-30 02:12",
-    "title": "[USD/JPY] UP: Price Above MA20 with Bullish Momentum Amid Mixed Fed/Oil Signals",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY trades above MA20 with RSI 66, suggesting upside potential amid Fed tightening hopes and higher oil.",
+    "excerpt": "BTC at $64.2k under pressure; MA20 at $64.5k, RSI 47 signals caution amid macro uncertainty.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-07-30-stocks-ja",
-    "date": "2026-07-30 02 02:14",
-    "title": "[S&P 500] DOWN: MA20下抜けとリスクオフセンチメントの拡大を示唆",
+    "date": "2026-07-30 11:06",
+    "title": "[S&P 500] DOWN: MA20下抜けとRSI極端な売られ",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Nomura Securities",
-    "excerpt": "MA20を下抜けたS&P 500は、原油高とFRB利上げ観測によるリスクオフが強まる中、下押しリスクが顕在化している。",
+    "recommended_broker": "Nomura",
+    "excerpt": "MA20を下抜け、RSI30近辺の売られが顕著。ファンダメンタルズはFed発言のハト派転換と原油高でインフレ懸念が再燃。",
     "result": "PENDING",
     "locale": "ja"
+  },
+  {
+    "id": "2026-07-30-stocks-en",
+    "date": "2026-07-30 11:06",
+    "title": "[S&P 500] UP: Oversold RSI Signals Rebound Toward MA20 as Fundamentals Stabilize",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 rebounds from oversold RSI (30.32) as tech earnings and Fed watch drive tactical long bias toward MA20.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-30-fx-ja",
+    "date": "2026-07-30 11:04",
+    "title": "[USD/JPY] UP: MA20上抜きとリスク回避シナリオが上昇余地を後押し",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "米国がイランへの空爆を確認し、リスク回避が円安を加速。RSIが62.75に上昇し、MA20（約162.65）を上回る163.46で上値余地が示唆。投資戦略は[dmm-fx]の流動性を活用し、押し目買いを検討せよ。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-30-fx-en",
+    "date": "2026-07-30",
+    "title": "FX Analysis",
+    "genre": "FX",
+    "target_pair": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "",
+    "result": "PENDING",
+    "locale": "en"
   },
   {
     "id": "2026-07-29-crypto-ja",
@@ -152,7 +152,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "excerpt": "BTC/USDは63,364円で RSI(14)は41.8と横ばい、MA20上回りを維持しつつも下位圏で横ばい。米国での予測市場規制動向が懸念材料となり、機関投資家のリスクオフ志向が顕在化している。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -164,7 +164,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "excerpt": "BTC below MA20, RSI 42, bearish sentiment; watch for breakdown toward 62k.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "Nomura Securities",
     "excerpt": "半導体株の急落とFRB利上げ懸念が重なり、S&P 500はMA20を割り込み下目線が強まる。エントリーは7400付近、TP 7250、SL 7500でリスク管理を徹底。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500 slides below MA20 as chip sell‑off intensifies; RSI 39 signals oversold pressure before Fed.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "米国の金融政策継続と日銀の円安政策が合致し、USD/JPYはMA20上方安定。RSIは高いが上昇トレンドは今後も継続すると予想。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY consolidates near 163.93 ahead of FOMC/BoJ decisions; MA20 at 162.55 acts as critical pivot.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
