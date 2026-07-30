@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-07-31-crypto-ja",
+    "date": "2026-07-31 02:27",
+    "title": "[BTC/USD] UP: AI infrastructure surge and $65k macro confluence align with technical support",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "AI infrastructure momentum, $65k macro support, and price above MA20 converge for upside bias.",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-31-crypto-en",
+    "date": "2026-07-31 02:27",
+    "title": "[BTC/USD] UP: Bullish Convergence of AI Infrastructure Demand and MA20 Support",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC approaches $65k as AI-driven infrastructure demand and macro yield shifts bolster bullish conviction.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-31-stocks-ja",
+    "date": "2026-07-31 02:25",
+    "title": "[S&P 500] DOWN: MA20上抜けずRSI低下が下落トレンドを裏付け",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "AlphaBroker",
+    "excerpt": "RSI低下とMA20上抜け失敗が下落シグナルを示し、技術的要因とファンダメンタルの売圧が同時に強まり、S&P 500は短期的に下落圧力が強化されている状況です。特にミッドキャップ売却やエネルギーSectorの弱さが顕在化し、投資家のリスク回避が加速している。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-31-stocks-en",
+    "date": "2026-07-31 02:25",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 poised for rebound as oversold momentum meets tech-driven fundamental tailwinds near MA20 support",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-07-31-fx-ja",
+    "date": "2026-07-31 02:23",
+    "title": "[USD/JPY] DOWN: RSI33割れとMA20下行の二重弱化シグナル",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYはRSI33.83の極度売られ過ぎとMA20下積みにより、短期的な下降ペースが鮮明になっている。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-07-31-fx-en",
+    "date": "2026-07-31 02:23",
+    "title": "[USD/JPY] DOWN: Price Below MA20 Signals Bearish Momentum Amid USD Weakness",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY slips below MA20 as dollar weakens on risk-on equities and softer inflation, targeting 158.50.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-07-30-crypto-ja",
     "date": "2026-07-30 19:29",
     "title": "[BTC/USD] UP: MA20反発と資金フローの整合性を確認",
