@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: RSI33割れとMA20下行の二重弱化シグナル",
-    "date": "2026-07-31 02:23",
+    "title": "[USD/JPY] DOWN: リスクオフ局面での円高進行と技術的抵抗の再確認",
+    "date": "2026-07-31 11:30",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "RSI(14)=33.83で過去最低水準、売りシグナル点火",
-      "MA20=162.47を下回り、下降トレンド確認",
-      "米国金利低下観がドル売りを誘発"
+      "現在価格160.57はMA20（162.60）下，RSI40.2で弱み示す",
+      "中韓市場の急騰や中国製造PMI低迷がリスクオフ要因に",
+      "158.80支え確保後の展開を狙うセールスケジチケーション"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはRSI33.83の極度売られ過ぎとMA20下積みにより、短期的な下降ペースが鮮明になっている。",
+    "excerpt": "USD/JPYは160.57でMA20下回り、RSI40.2低下。中国製造PMI低迷と中韓急騰がリスクオフを刺激し、158.80支え伸長を狙う下げざけを推奨する。",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "RSI33.83とMA20下積みによる売りシグナル、158.50までの調整を予想",
-    "entry": "159.70",
-    "tp": "158.50",
-    "sl": "161.00",
+    "status": "BUY",
+    "comment": "MA20下回りとRSI低下による買い機会。中国PMI低迷とAPACリスクオフが円高要因。",
+    "entry": "158.8",
+    "tp": "161.5",
+    "sl": "157.2",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20上抜けずRSI低下が下落トレンドを裏付け",
-    "date": "2026-07-31 02:25",
+    "title": "警戒アラート：S&P 500の構造的変化と下落リスクの徹底検証",
+    "date": "2026-07-31 11:32",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "AlphaBroker",
+    "recommended_broker": "",
     "tldr_points": [
-      "RSI低下で売圧増強",
-      "MA20付近で押し目 resistance",
-      "ニュースで中小型セクターの弱さが顕在化"
+      "金利相関（近似）: -0.13で負相関傾向",
+      "テクニカル: 現在価格 7437.63 と MA20 7480.83 の位置関係が主導",
+      "需給: 上限帯 7612.45 / 下限帯 7349.20 / 直近高値 7581.50 / 直近安値 7313.92 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "RSI低下とMA20上抜け失敗が下落シグナルを示し、技術的要因とファンダメンタルの売圧が同時に強まり、S&P 500は短期的に下落圧力が強化されている状況です。特にミッドキャップ売却やエネルギーSectorの弱さが顕在化し、投資家のリスク回避が加速している。",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 7437.63、RSI(39.68)、MA20(7480.83)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "RSI低下とMA20上抜け失敗が下落シグナルを示し、技術的要因とファンダメンタルの売圧が同時に強まり、S&P 500は短期的に下落圧力が強化されている状況です。特にミッドキャップ売却やエネルギーSectorの弱さが顕在化し、投資家のリスク回避が加速している。",
+    "comment": "本日のAI解析では、S&P 500の現在価格 7437.63、RSI(39.68)、MA20(7480.83)を軸に、金利相関と需給帯から実行プランを整理する。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI infrastructure surge and $65k macro confluence align with technical support",
-    "date": "2026-07-31 02:27",
+    "title": "[BTC/USD] UP: MA20付近での押し目買いとファンダメンタルズの整合性",
+    "date": "2026-07-31 11:33",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "Aschenbrenner fund liquidations ignite AI‑driven mining and data‑center demand",
-      "$65k level draws macro attention as Treasuries favor Bitcoin carry",
-      "Price > MA20, RSI 55.8 signals constructive momentum, reinforcing bullish bias"
+      "Price sits just below MA20, suggesting a potential dip‑buy opportunity.",
+      "Stablecoin regulatory news and cross‑border payment growth support longer‑term demand.",
+      "Technical indicators show neutral momentum; keep risk tight."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "AI infrastructure momentum, $65k macro support, and price above MA20 converge for upside bias.",
+    "excerpt": "BTC/USDはMA20を下回る水準で推移し、押し目買いのシナリオが浮上。ファンダメンタルズはやや支援的。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "AI infrastructure momentum, $65k macro support, and price above MA20 converge for upside bias.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20下抜けからの押し目買い、リスクはタイトに設定",
+    "entry": "64250.00",
+    "tp": "65000.00",
+    "sl": "63900.00",
+    "reliability": "HIGH"
   }
 }
