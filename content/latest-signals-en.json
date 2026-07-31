@@ -1,43 +1,43 @@
 {
   "FX": {
-    "title": "USD/JPY DOWN: Momentum Weakness and Downside Pressure from Geopolitical Uncertainty",
-    "date": "2026-07-31 19:35",
+    "title": "[USD/JPY] DOWN: AI Detects MA20 Resistance as Fundamentals Turn Bearish",
+    "date": "2026-08-01 02:26",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "RSI indicates bearish momentum as price trades significantly below the MA20",
-      "Market volatility elevated due to potential stealth interventions and Middle East tensions",
-      "US CPI and ECB inflation data remain primary macro catalysts for directionality"
+      "Price below MA20 with RSI 34 indicating bearish momentum.",
+      "US Treasury signals potential yen intervention, supporting downside.",
+      "Key resistance at 162.54; breach would target 155.00."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY faces downward pressure as technical indicators signal bearish momentum amid geopolitical and macro uncertainty.",
+    "excerpt": "USD/JPY poised to decline as RSI signals oversold and Treasury hints at yen support.",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "Price is trending below MA20 with RSI showing bearish momentum.",
-    "entry": "160.50",
-    "tp": "158.50",
-    "sl": "161.20",
-    "reliability": "MEDIUM"
+    "comment": "Technical and fundamental signals align for a bearish move, with MA20 resistance and Treasury hints supporting downside.",
+    "entry": "159.40",
+    "tp": "155.00",
+    "sl": "162.54",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-31 19:36",
+    "title": "[S&P 500] UP: Price Holds Above MA20 Amid Mixed Earnings",
+    "date": "2026-08-01 02:28",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "AI spending boom fuels earnings momentum",
-      "Price near MA20 with oversold RSI suggesting bounce",
-      "Bullish fundamentals support upside toward 7500"
+      "Price modestly above MA20 suggests short‑term bullish bias.",
+      "RSI near 48 indicates room for upward move before overbought.",
+      "Mixed earnings from mega‑caps keep direction uncertain, favoring range‑play."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "AI-driven earnings surge pushes S&P 500 toward MA20 resistance; RSI oversold signals potential upside in near term now!!",
+    "excerpt": "S&P 500 trades slightly above its 20‑day MA with neutral RSI, presenting a tactical long opportunity amid mixed earnings.",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "AI-driven earnings surge pushes S&P 500 toward MA20 resistance; RSI oversold signals potential upside in near term now!!",
+    "comment": "S&P 500 trades slightly above its 20‑day MA with neutral RSI, presenting a tactical long opportunity amid mixed earnings.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
@@ -45,24 +45,24 @@
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-07-31 19:40",
+    "date": "2026-08-01 02:29",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price testing MA20 support at $64,475 with RSI near equilibrium at 49.5",
-      "Regulatory headwinds easing as political scrutiny intensifies",
-      "Stablecoin policy developments could catalyze institutional inflows"
+      "BTC held above MA20 despite RSI divergence, signaling potential rebound",
+      "Circle's NYDFS trust charter strengthens USD stablecoin fundamentals",
+      "Uniswap's yield initiatives may redirect DeFi liquidity to BTC ecosystem"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC consolidates below MA20 at $63,795; AI signals support formation with favorable risk-reward setup.",
+    "excerpt": "BTC/USD retests key support at $62,900 as DeFi and stablecoin catalysts offset Ethereum staking concerns.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Support forming at MA20 with improving regulatory backdrop",
-    "entry": "64300",
-    "tp": "65800",
-    "sl": "62800",
+    "comment": "Long bias justified at MA20 support amid stablecoin tailwinds and neutral RSI momentum",
+    "entry": "62850",
+    "tp": "64430",
+    "sl": "61800",
     "reliability": "HIGH"
   }
 }
