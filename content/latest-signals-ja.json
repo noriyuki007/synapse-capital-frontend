@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-01 11:30",
+    "date": "2026-08-01 18:55",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20下で大きく乖離、RSIは極度の売られ状態を示す。",
-      "米国株は週末にかけてキーレジスト付近で推移、リスクオン傾向が継続。",
-      "流動性の観点から[dmm-fx]での取引がスリッページ抑制に有効。"
+      "米国株の上昇とリグカウント増加がドル円に下押し圧力をかける",
+      "RSI23の極端な売られ過ぎは短期的な反発期待を高める",
+      "MA20近辺でのサポートが機能すれば目標は160.00付近まで"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "現在価格157.40はMA20（162.38）を約4.8%下回り、RSI14が23と極度の売られ圏を示すことから、短期的な反発圧力が高まっている。週末にかけて米国株がキーレジスト付近で推移し、リスクオン傾向が継続すれば、米ドルの買い戻しが期待できる。",
+    "excerpt": "現在価格はMA20を大きく下回り、RSIは極端な売られ過ぎ状態。テクニカルとファンダメンタルズの整合点を捉え、押し目買いを推奨する。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20までの押し目買い、RSI極度売られ状態とリスクオン継続を根拠",
-    "entry": "157.70",
-    "tp": "161.00",
+    "comment": "RSI極端な売られ過ぎとMA20付近のサポートが反発を示唆",
+    "entry": "157.40",
+    "tp": "160.00",
     "sl": "156.20",
-    "reliability": "HIGH"
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500分析：持ち合い局面における流動性ゾーンの特定",
-    "date": "2026-08-01 11:33",
+    "title": "[S&P 500] DOWN: MA20上限突破失敗とセンチメント悪化の兆し",
+    "date": "2026-08-01 19:00",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": " Saxo Bank",
     "tldr_points": [
-      "金利相関（近似）: -0.04で負相関傾向",
-      "テクニカル: 現在価格 7489.72 と MA20 7481.15 の位置関係が主導",
-      "需給: 上限帯 7612.83 / 下限帯 7349.46 / 直近高値 7581.50 / 直近安値 7313.92 によるターゲット設計"
+      "RSIは48.06で中立だが、価格はMA20を下回る失速",
+      "Buffettのパッシブ推奨論と8月下落予測が逆風に",
+      "MicronやNVRのファンダメンタルズ不確実性が広がる"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 7489.72、RSI(48.06)、MA20(7481.15)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "S&P500はMA20上限突破を失敗し、RSIはやや弱張。8月の歴史的下落リスクとセンチメント悪化が警戒される。",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "本日のAI解析では、S&P 500の現在価格 7489.72、RSI(48.06)、MA20(7481.15)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "comment": "S&P500はMA20上限突破を失敗し、RSIはやや弱張。8月の歴史的下落リスクとセンチメント悪化が警戒される。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20下抜けとファンダメンタルズの弱含みを確認",
-    "date": "2026-08-01 11:34",
+    "title": "[BTC/USD] UP: MA20付近での反発期待とファンダメンタルズの整合性",
+    "date": "2026-08-01 19:03",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20下抜けで下落圧力が強まる",
-      "テザー準備金減少とコインベース決算ミスがリスク要因",
-      "RSIは中立域だが売り圧力が優位"
+      "価格はMA20下抜けもRSIが40付近で反転余地あり",
+      "Tether準備金減少と機関の現金増強が相殺",
+      "bitflyerの流動性を活用した押し目買い戦略を推奨"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を下抜けたBTC/USDは売りバイアスが優勢。テザー準備金減少とコインベース決算ミスが下値リスクを強め、エントリーは62,500付近、TP 60,800、SL 63,800を推奨。",
+    "excerpt": "MA20付近でのサポートとRSI反転サインから、BTC/USDは短期的な上昇を見込む。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20下抜けとファンダメンタルズの弱含みが下値リスクを強め、売りエントリーが有利",
-    "entry": "62500.00",
-    "tp": "60800.00",
-    "sl": "63800.00",
+    "status": "BUY",
+    "comment": "MA20付近のサポートとRSI反転サインから上昇期待",
+    "entry": "62800",
+    "tp": "64500",
+    "sl": "61000",
     "reliability": "MEDIUM"
   }
 }
