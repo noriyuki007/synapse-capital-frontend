@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Oversold RSI and Price Below MA20 Suggesting Bullish Reversal",
-    "date": "2026-08-02 01:56",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-08-02 11:28",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price sits below MA20 with RSI at oversold 23, signalling potential bullish reversal.",
-      "Risk‑on equity rally and rising US rig count support USD strength versus JPY.",
-      "Key upside target is MA20 around 162.40; stop below recent swing low near 155.00."
+      "Price is below MA20 with RSI 23 indicating oversold conditions",
+      "Bullish fundamentals from rising US rig count and equity gains support USD strength",
+      "Immediate resistance at MA20 (~162.4) and next target near 165-168"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY set to rebound from oversold RSI near 23, aiming for MA20 at 162.4 as risk‑on sentiment backs USD and JPY pairs.",
+    "excerpt": "USD/JPY near 157.4, oversold RSI 23, price below MA20, bullish fundamentals suggest upside toward 162 and momentum now!!",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Oversold RSI and price below MA20 suggest a bullish reversal toward MA20 resistance.",
-    "entry": "157.00",
-    "tp": "162.40",
-    "sl": "155.00",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "S&P 500 市場分析",
-    "date": "2026-08-02",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "tldr_points": [],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "シナプス解析に基づくシグナル",
+    "comment": "USD/JPY near 157.4, oversold RSI 23, price below MA20, bullish fundamentals suggest upside toward 162 and momentum now!!",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: Price Holds Above MA20 as Earnings Catalysts Loom",
+    "date": "2026-08-02 11:31",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "tldr_points": [
+      "Price stabilizes just above the 20‑day MA, indicating short‑term support.",
+      "RSI near 48 shows neutral momentum, leaving room for upside on positive earnings surprise.",
+      "Key upcoming earnings from AMD, SpaceX, Sandisk and Eli Lilly could provide fundamental tailwinds."
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 trades modestly above MA20 with neutral RSI; bullish bias driven by forthcoming tech and healthcare earnings.",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "Price above MA20 with neutral RSI and positive earnings outlook supports a long bias.",
+    "entry": "7480.00",
+    "tp": "7520.00",
+    "sl": "7460.00",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Detects Break Below MA20 as Fundamentals Deteriorate",
-    "date": "2026-08-02 02:00",
+    "title": "[BTC/USD] DOWN: AI Identifies MA20 Resistance Amid Sanctions Flow",
+    "date": "2026-08-02 11:34",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price breaks below MA20 with RSI at 40 signaling waning momentum",
-      "Russian mining ban and Tether reserve decline weigh on sentiment",
-      "Coldcard vulnerability adds $70M loss, undermining custody confidence"
+      "Price near MA20, RSI near 43, bearish catalysts",
+      "Sanctions flow and Russian mining ban increase downside risk",
+      "Momentum weakening as sell pressure builds"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD slips below MA20 as mining bans, custody losses, and reserve declines pressure price lower.",
+    "excerpt": "Price near MA20, RSI ~43; sanctions headlines and Russian mining ban add bearish pressure, targeting a break below 63k",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price below MA20, RSI 40, and negative fundamentals favor downside to 60k.",
-    "entry": "63100",
-    "tp": "60000",
-    "sl": "64500",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Price near MA20, RSI ~43; sanctions headlines and Russian mining ban add bearish pressure, targeting a break below 63k",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
