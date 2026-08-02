@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-08-03-crypto-ja",
+    "date": "2026-08-03 02:10",
+    "title": "[BTC/USD] UP: 現在値の押し目買い局面とMA20上抜けの戦略的目標",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USDは63,081 USDでMA20(64,418 USD)から下抜け確認中。RSI 42.23の反車逼近とTrump MediaのBTC保有声明を踏まえ、押し目買い戦略を厳格リスク管理下で推奨する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-03-crypto-en",
+    "date": "2026-08-03 02:10",
+    "title": "[BTC/USD] DOWN: AI Detects MA20 Rejection as Macros Tighten on Sanctions Heat",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD tests support beneath MA20 as macros weigh; down bias favored near-term.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-08-03-stocks-ja",
+    "date": "2026-08-03 02:07",
+    "title": "[S&P 500] UP: MA20での反発とファンダメンタルズの徐々な改善",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Nomura Securities",
+    "excerpt": "MA20付近での反発が確認され、ファンダメンタルズは決算と地政学リスクの緩やかな改善を示唆する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-03-stocks-en",
+    "date": "2026-08-03 02:07",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 poised to rebound to MA20 support amid election‑driven volatility and tech fundamentals, solid earnings outlook",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-08-03-fx-ja",
+    "date": "2026-08-03 01:55",
+    "title": "[USD/JPY] DOWN: MA20上方の抵抗とRSI低下が示すリスク回避シグナル",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "RSIが23に急低下し、MA20の162.38円が上値抵抗として機能。157.4円付近で売りシグナルが強まり、リスク回避姿勢が顕在化。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-03-fx-en",
+    "date": "2026-08-03 01:55",
+    "title": "USD/JPY: AI Analytics Detects Bearish Structural Shift",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "xm-trading",
+    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 157.40, RSI(23.01), and MA20(162.38).",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-08-02-crypto-ja",
     "date": "2026-08-02 18:58",
     "title": "[BTC/USD] DOWN: price below MA20, regulatory headwinds pressure market",

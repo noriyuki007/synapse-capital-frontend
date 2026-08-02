@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-02 18:53",
+    "title": "[USD/JPY] DOWN: MA20上方の抵抗とRSI低下が示すリスク回避シグナル",
+    "date": "2026-08-03 01:55",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "現在価格はMA20を大幅に下回り、RSIは極端な売られ状態を示す",
-      "米株式市場の堅調とリグカウント増加はリスクオン傾向を示唆",
-      "テクニカル的には押し目買いのシナリオが優位"
+      "MA20上方の抵抗が売り圧力を示唆",
+      "RSI急低下で下落トレンドが加速",
+      "リスク回避姿勢が円買いを促進"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20下放れとRSI23の売られ越しから、押し目買いの機会が生じている。",
+    "excerpt": "RSIが23に急低下し、MA20の162.38円が上値抵抗として機能。157.4円付近で売りシグナルが強まり、リスク回避姿勢が顕在化。",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "USD/JPYはMA20下放れとRSI23の売られ越しから、押し目買いの機会が生じている。",
+    "comment": "RSIが23に急低下し、MA20の162.38円が上値抵抗として機能。157.4円付近で売りシグナルが強まり、リスク回避姿勢が顕在化。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-02 18:55",
+    "title": "[S&P 500] UP: MA20での反発とファンダメンタルズの徐々な改善",
+    "date": "2026-08-03 02:07",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "価格はMA20を若干上回り、底堅い地合いを示す",
-      "半導体セクターの変動は警戒材料だが、ディフェンシブ株へのシフトが支えとなる",
-      "トランプ政策の不確実性は上値を抑えるが、短期的な上昇余地は残る"
+      "価格はMA20を若干上回り、底堅い支持を示す",
+      "イラン情緒の緩和と決算期待が株価を下支え",
+      "RSIは中立で、上抜けの余地が残存"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20付近での反発が確認され、ファンダメンタルズとテクニカルが整合。短期的な上昇を視野にエントリーを検討。",
+    "excerpt": "MA20付近での反発が確認され、ファンダメンタルズは決算と地政学リスクの緩やかな改善を示唆する。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20付近のサポートとディフェンシブ資金流入が下値を支え、上値余地が残る",
-    "entry": "7485.00",
-    "tp": "7550.00",
-    "sl": "7450.00",
+    "comment": "MA20での支持とRSIの中立が買いシグナル",
+    "entry": "7480",
+    "tp": "7520",
+    "sl": "7460",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: price below MA20, regulatory headwinds pressure market",
-    "date": "2026-08-02 18:58",
+    "title": "[BTC/USD] UP: 現在値の押し目買い局面とMA20上抜けの戦略的目標",
+    "date": "2026-08-03 02:10",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTC declines below 20‑day MA amid tightening regulation and security losses",
-      "RSI near 43 signals neutral‑bearish momentum, support seen ~62.5k",
-      "Tactical short bias recommended with defined risk levels"
+      "Trump MediaのBTC保有確認がリスクオフ後の機関流入を後押し",
+      "MA20下抜け後の RSI 42.23の反車シグナルが買いエントリーを誘発",
+      "ロシア・イラン局面のリスク分散需要と金利ストックの相関が上昇圧力を補強"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD below MA20 at 64.4k, RSI 42.9 neutral, regulatory news weighing; tactical bias leans bearish.",
+    "excerpt": "BTC/USDは63,081 USDでMA20(64,418 USD)から下抜け確認中。RSI 42.23の反車逼近とTrump MediaのBTC保有声明を踏まえ、押し目買い戦略を厳格リスク管理下で推奨する。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "主要移動平均及び規制リスクを考慮し、弱気相場と判断。",
-    "entry": "63200",
-    "tp": "60500",
-    "sl": "65200",
+    "status": "BUY",
+    "comment": "MA20下抜け後の押し目買い局面でRSI逆転シグナル成立。Trump MediaのBTC保有声明により機関流入圧力強化",
+    "entry": "64400",
+    "tp": "66500",
+    "sl": "62000",
     "reliability": "HIGH"
   }
 }
