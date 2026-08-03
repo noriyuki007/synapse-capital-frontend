@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: MA20上放れと円高ファンダメンタルズの整合性",
-    "date": "2026-08-03 11:30",
+    "title": "[USD/JPY] UP: MA20下抜け後の反発可能性とRSI極端な売られ示唆",
+    "date": "2026-08-03 20:19",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "USD/JPYはMA20を下回り、RSIは極度の売られすぎ示す",
-      "日本国債利回り上昇と介入観測で円高圧力継続",
-      "テクニカル的には押し目売りを推奨、エントリー156.30付近、TP 155.70、SL 156.90"
+      "価格はMA20を大きく下回りRSIは21.7で極端な売られ状態",
+      "FedのWilliamsはインフレ緩和に楽観的で政策スタンスは変わらず",
+      "テクニカル的には押し目買いのシナリオが優位"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "MA20を下回るUSD/JPYは円高要因とオーバーサールド状況から下落余地が残ると判断。",
+    "excerpt": "MA20下抜けとRSI極端な売られから反発上昇のシナリオを示唆。",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "MA20下放れと円高ファンダメンタルズによる下落期待",
-    "entry": "156.30",
-    "tp": "155.70",
-    "sl": "156.90",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "S&P 500：レンジ圏内での警戒感とプロフェッショナル実行戦略",
-    "date": "2026-08-03 11:31",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "tldr_points": [
-      "金利相関（近似）: -0.04で負相関傾向",
-      "テクニカル: 現在価格 7489.72 と MA20 7481.15 の位置関係が主導",
-      "需給: 上限帯 7612.83 / 下限帯 7349.46 / 直近高値 7581.50 / 直近安値 7313.92 によるターゲット設計"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 7489.72、RSI(48.06)、MA20(7481.15)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "本日のAI解析では、S&P 500の現在価格 7489.72、RSI(48.06)、MA20(7481.15)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "comment": "MA20下抜けとRSI極端な売られから反発上昇のシナリオを示唆。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20での僅かな上放れとファンダメンタルズの改善を確認",
+    "date": "2026-08-03 20:23",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "[Nomura Securities]",
+    "tldr_points": [
+      "価格はMA20を0.1%程度上抜け、短期的な底堅さを示唆",
+      "エネルギー株の下落と決算期待が相まってリスクオン傾向が強まる",
+      "テクニカルは中立的ながらも上値余地が残る"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500はMA20を僅かに上回り、エネルギー株の下落と決算期待が相まって上値を試す展開。機関投資家向けに具体的なエントリー・イグジットを示す。",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "MA20を僅かに上抜け、ファンダメンタルズが底堅いことを確認",
+    "entry": "7480.00",
+    "tp": "7520.00",
+    "sl": "7460.00",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-03 11:35",
+    "title": "[BTC/USD] DOWN: RSI超格下とMA20発展転換のリスク再転換を確認",
+    "date": "2026-08-03 20:25",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20下の調整局面で押し目買いを推奨",
-      "Saylorの継続的買いが長期的強気材料",
-      "SECのオプション保留は短期的不透明要因に過ぎず底堅い"
+      "RSI 38.37は超格下で下向きモメンタム加速",
+      "MA20（64323.56）下抜けでトレンド転換確定",
+      " Clarity Act問題が規制不確実性高まる"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を下回る調整局面にあるが、Saylorの買い継続とSTRC率維持が強気ファンダメンタルズを裏付け、MA20での反発を前提に押し目買いを推奨する。",
+    "excerpt": "BTC/USDは62,662.41でRSI 38.37の超格下、MA20下抜けの典型的な押し目買い枠減。規制懸念とともに追加下落圧力を受け、流動性確保の観点からBitflyer推奨。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20下の調整局面だが、Saylorの買い継続とSTRC率維持が強気ファンダメンタルズを裏付け、反発期待",
-    "entry": "63100",
-    "tp": "64500",
-    "sl": "62800",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "RSI超格下＋MA20下抜け＝下落要因確定、60,000 USDが追加売り圧力",
+    "entry": "61800",
+    "tp": "58500",
+    "sl": "64000",
+    "reliability": "HIGH"
   }
 }

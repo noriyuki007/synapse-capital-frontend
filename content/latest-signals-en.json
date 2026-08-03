@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Bearish Momentum Accelerates on Rising JGB Yields and Oversold RSI",
-    "date": "2026-08-03 11:30",
+    "title": "[USD/JPY] DOWN: AI Detects Resistance at MA20 and Oversold Momentum",
+    "date": "2026-08-03 20:19",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Surging JGB yields driving aggressive Yen repatriation",
-      "China PMI slowdown increasing regional risk aversion",
-      "RSI indicates extreme bearish momentum"
+      "Fed signals easing inflation, supporting USD",
+      "USD/JPY below MA20, indicating bearish trend",
+      "RSI 21.7 signals oversold conditions"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY faces severe downward pressure as Japanese bond yields hit record highs and China's manufacturing growth eases.",
+    "excerpt": "USD/JPY faces pressure with price below MA20 and RSI 21.7; Fed signals may support USD but technicals favor a pullback.",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "Extreme bearish momentum driven by surging JGB yields and oversold RSI.",
-    "entry": "157.20",
-    "tp": "154.50",
-    "sl": "158.50",
-    "reliability": "HIGH"
+    "comment": "Price below MA20 with oversold RSI signals a pullback.",
+    "entry": "156.80",
+    "tp": "155.50",
+    "sl": "158.00",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-03 11:31",
+    "title": "[S&P 500] UP: Momentum Recovery Anticipated via Declining Energy Costs and Earnings Season Tailwinds",
+    "date": "2026-08-03 20:23",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 near MA20 support",
-      "RSI indicates neutral momentum",
-      "Positive macro catalysts from earnings and geopolitical easing"
+      "Falling oil prices providing macro tailwinds for equity valuations",
+      "Anticipated earnings momentum from Mega-cap Tech and Pharma sectors",
+      "Price testing immediate support at the 20-day Moving Average"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 poised for upside as price holds above MA20, neutral RSI, and favorable earnings/geo catalysts.",
+    "excerpt": "S&P 500 shows bullish indications as falling oil prices and upcoming mega-cap earnings provide fundamental momentum.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price holds above MA20 with neutral RSI and bullish catalysts.",
-    "entry": "7481.15",
-    "tp": "7600",
-    "sl": "7450",
-    "reliability": "HIGH"
+    "comment": "Price consolidating near MA20 with strong fundamental catalysts from energy and tech earnings.",
+    "entry": "7485.00",
+    "tp": "7550.00",
+    "sl": "7445.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "BTC/USD 市場分析",
-    "date": "2026-08-03",
+    "title": "[BTC/USD] DOWN: SEC regulatory risk and price below MA20 with low RSI",
+    "date": "2026-08-03 20:25",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
-    "tldr_points": [],
+    "tldr_points": [
+      "BTC trades below MA20 with RSI 38 indicating bearish momentum.",
+      "SEC regulatory uncertainty and price rejection at key resistance heighten downside risk.",
+      "Short bias recommended with entry near current price, tight stop above MA20."
+    ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "",
+    "excerpt": "BTC trades below MA20, RSI 38, SEC rulemaking risk; consider short bias with tight stops.",
     "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "Price is consolidating below MA20 with neutral RSI momentum.",
-    "entry": "64550.00",
-    "tp": "67200.00",
-    "sl": "62800.00",
+    "comment": "BTC trades below MA20, RSI 38, SEC rulemaking risk; consider short bias with tight stops.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
