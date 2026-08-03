@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: AI Detects Resistance at MA20 and Oversold Momentum",
-    "date": "2026-08-03 20:19",
+    "title": "[USD/JPY] UP: AI Detects Oversold RSI and Strong US Fundamentals Support Bounce Toward MA20",
+    "date": "2026-08-04 02:48",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Fed signals easing inflation, supporting USD",
-      "USD/JPY below MA20, indicating bearish trend",
-      "RSI 21.7 signals oversold conditions"
+      "Atlanta Fed GDPNow revision to 6.2% underscores robust US growth, bolstering USD.",
+      "European equity gains and USDCHF strength signal risk‑on mood, reducing JPY safe‑haven demand.",
+      "Technically, USD/JPY is severely oversold (RSI≈22) with price well below MA20, setting up a mean‑reversion bounce."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY faces pressure with price below MA20 and RSI 21.7; Fed signals may support USD but technicals favor a pullback.",
+    "excerpt": "Strong US data, risk‑on sentiment and extreme oversold conditions set USD/JPY for a bounce toward MA20 resistance.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Price below MA20 with oversold RSI signals a pullback.",
-    "entry": "156.80",
-    "tp": "155.50",
-    "sl": "158.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Anticipated bounce to MA20 driven by oversold RSI and strong US fundamentals.",
+    "entry": "157.00",
+    "tp": "162.00",
+    "sl": "155.00",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Momentum Recovery Anticipated via Declining Energy Costs and Earnings Season Tailwinds",
-    "date": "2026-08-03 20:23",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-08-04 02:49",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "Falling oil prices providing macro tailwinds for equity valuations",
-      "Anticipated earnings momentum from Mega-cap Tech and Pharma sectors",
-      "Price testing immediate support at the 20-day Moving Average"
+      "Price holds above MA20 indicating short‑term bullish bias",
+      "RSI near 54 shows neutral momentum with upside room",
+      "Oil‑price drop and easing valuations support equity upside"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 shows bullish indications as falling oil prices and upcoming mega-cap earnings provide fundamental momentum.",
+    "excerpt": "S&P 500 holds above MA20 with neutral RSI; bullish oil‑price drop and easing valuations support upside bias.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price consolidating near MA20 with strong fundamental catalysts from energy and tech earnings.",
-    "entry": "7485.00",
-    "tp": "7550.00",
-    "sl": "7445.00",
+    "comment": "Price holds above MA20 with neutral RSI and supportive fundamentals, favoring a bullish continuation.",
+    "entry": "7490.00",
+    "tp": "7700.00",
+    "sl": "7400.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: SEC regulatory risk and price below MA20 with low RSI",
-    "date": "2026-08-03 20:25",
+    "title": "[BTC/USD] NEUTRAL: Consolidation Near MA20 Amidst Institutional Capital Inflow",
+    "date": "2026-08-04 02:51",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trades below MA20 with RSI 38 indicating bearish momentum.",
-      "SEC regulatory uncertainty and price rejection at key resistance heighten downside risk.",
-      "Short bias recommended with entry near current price, tight stop above MA20."
+      "BlackRock's tokenized money market funds signal institutional liquidity expansion",
+      "Macro accumulation by political treasuries and MicroStrategy maintains long-term floor",
+      "Short-term bearish momentum as price trades below the 20-period moving average"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC trades below MA20, RSI 38, SEC rulemaking risk; consider short bias with tight stops.",
+    "excerpt": "BTC trades below MA20 as institutional tokenization news offsets short-term bearish technical momentum.",
     "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "BTC trades below MA20, RSI 38, SEC rulemaking risk; consider short bias with tight stops.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "comment": "Price is trading below MA20 with RSI showing moderate bearish momentum despite strong institutional fundamentals.",
+    "entry": "64400.00",
+    "tp": "67500.00",
+    "sl": "61200.00",
     "reliability": "MEDIUM"
   }
 }
