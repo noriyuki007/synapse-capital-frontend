@@ -1,68 +1,64 @@
 {
   "FX": {
-    "title": "USD/JPY: AI Analytics Detects Bearish Structural Shift",
-    "date": "2026-08-03 01:55",
+    "title": "[USD/JPY] DOWN: Bearish Momentum Accelerates on Rising JGB Yields and Oversold RSI",
+    "date": "2026-08-03 11:30",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Interest Correlation (Approx): -0.28 (Negative)",
-      "Technical: Driven by Price 157.40 vs MA20 162.38",
-      "Liquidity: Targets based on Upper Band 165.27 / Lower Band 159.48 / Recent High 163.98 / Recent Low 157.40"
+      "Surging JGB yields driving aggressive Yen repatriation",
+      "China PMI slowdown increasing regional risk aversion",
+      "RSI indicates extreme bearish momentum"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 157.40, RSI(23.01), and MA20(162.38).",
+    "excerpt": "USD/JPY faces severe downward pressure as Japanese bond yields hit record highs and China's manufacturing growth eases.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for USD/JPY around Price 157.40, RSI(23.01), and MA20(162.38).",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Extreme bearish momentum driven by surging JGB yields and oversold RSI.",
+    "entry": "157.20",
+    "tp": "154.50",
+    "sl": "158.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-03 02:07",
+    "date": "2026-08-03 11:31",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "MA20 support near 7481",
-      "Election‑driven volatility expected",
-      "Tech sell‑off offset by strong fundamentals"
+      "S&P 500 near MA20 support",
+      "RSI indicates neutral momentum",
+      "Positive macro catalysts from earnings and geopolitical easing"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 poised to rebound to MA20 support amid election‑driven volatility and tech fundamentals, solid earnings outlook",
+    "excerpt": "S&P 500 poised for upside as price holds above MA20, neutral RSI, and favorable earnings/geo catalysts.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20 support holds and fundamentals remain bullish",
+    "comment": "Price holds above MA20 with neutral RSI and bullish catalysts.",
     "entry": "7481.15",
-    "tp": "7520",
-    "sl": "7460",
+    "tp": "7600",
+    "sl": "7450",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Detects MA20 Rejection as Macros Tighten on Sanctions Heat",
-    "date": "2026-08-03 02:10",
+    "title": "BTC/USD 市場分析",
+    "date": "2026-08-03",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
-    "tldr_points": [
-      "Price capped below MA20 at 64418 resistance",
-      "RSI at 42.23 signals bearish momentum",
-      "Geopolitical stress from Iran-Binance link triggers risk-off"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD tests support beneath MA20 as macros weigh; down bias favored near-term.",
+    "excerpt": "",
     "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "BTC/USD tests support beneath MA20 as macros weigh; down bias favored near-term.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "comment": "Price is consolidating below MA20 with neutral RSI momentum.",
+    "entry": "64550.00",
+    "tp": "67200.00",
+    "sl": "62800.00",
     "reliability": "MEDIUM"
   }
 }
