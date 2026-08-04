@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20付近への戻り試しとオーバーソールドRSIの反転期待",
-    "date": "2026-08-04 19:35",
+    "title": "[USD/JPY] UP: MA20付近での反発とリスクオン環境の整合性",
+    "date": "2026-08-05 02:44",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20大幅下回り、RSIは26.5でオーバーソールド",
-      "中東情勢緩和がリスクオフを緩和しドル買いを支える可能性",
-      "来週の米CPI・NFPが方向性を決定づける"
+      "リスクオンの回帰が円売りを支える",
+      "MA20下抜けとRSI24は反転のサイン",
+      "エントリーは157.60付近、TP159.00、SL156.50で[dmm-fx]を推奨"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "MA20下抜けとRSIオーバーソールドから短期的な戻りを狙う買い戦略を提示。",
+    "excerpt": "リスクオンの戻りで米ドルが円に対して上昇余地を示す。テクニカルはMA20下抜けとRSI24で反転の可能性を示唆し、押し目買い戦略を組む。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20への戻りとRSIオーバーソールドから短期的な買いシグナル",
-    "entry": "158.0",
-    "tp": "162.0",
-    "sl": "156.5",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "S&P 500 市場分析",
-    "date": "2026-08-04",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "tldr_points": [],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20反発と強気決算による上昇モメンタム",
-    "entry": "7490.00",
-    "tp": "7550.00",
-    "sl": "7450.00",
-    "reliability": "MEDIUM"
-  },
-  "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20での反発失敗と弱気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-04 19:38",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "bitflyer",
-    "tldr_points": [
-      "BlackRockのトークン化マネー市場ファンドが機関の流動性供給を強化",
-      "Binanceのビットコイン担保ローンがレバレッジ需要を喚起",
-      "テキサスデータセンター監査がマイニング収益の上振れ期待を生む"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を下抜けたら売りを推奨。ブラックロックのトークン化ファンドが機関流動性を供給し、テキサスデータセンター監査がマイニング収益の上振れを示唆。",
-    "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "MA20を下抜けたら売りを推奨。ブラックロックのトークン化ファンドが機関流動性を供給し、テキサスデータセンター監査がマイニング収益の上振れを示唆。",
+    "comment": "リスクオンの戻りで米ドルが円に対して上昇余地を示す。テクニカルはMA20下抜けとRSI24で反転の可能性を示唆し、押し目買い戦略を組む。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20反発と強気ファンダメンタルズの整合性",
+    "date": "2026-08-05 02:47",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "tldr_points": [
+      "記録更新とMA20乖離率の縮小",
+      "半導体セクターの牽引と地政学リスクの改善",
+      "テクニカル指標の過熱兆候なし"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500が記録高を更新し、MA20を上回る強気トレンドと地政学リスクの改善が相まって上昇基調を維持している。半導体セクターの牽引と決算好調を背景に、具体的なエントリー戦略を提示し、アクション可能な投資判断を下す。",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "MA20上での強気構造とセンチメントの改善が確認されたため",
+    "entry": "7750.18",
+    "tp": "7900.00",
+    "sl": "7450.00",
+    "reliability": "HIGH"
+  },
+  "CRYPTO": {
+    "title": "[BTC/USD] UP: MA20付近での押し目買いの機会とファンダメンタルズの整合性",
+    "date": "2026-08-05 02:49",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "tldr_points": [
+      "価格はMA20下抜けだがRSI36で売られ過ぎ、反発余地あり",
+      "上院議員のSEC調査要請は規制リスクだが短期的には影響限定",
+      "bitflyerの流動性を活用し押し目買いを推奨"
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "MA20近辺でのサポートとRSI売られ過ぎが示す反発シグナルを、規制ニュースと流動性観点から評価。",
+    "pair": "BTC/USD",
+    "status": "BUY",
+    "comment": "MA20付近のサポートとRSI売られ過ぎから反発期待",
+    "entry": "63800.00",
+    "tp": "64250.00",
+    "sl": "63400.00",
+    "reliability": "HIGH"
   }
 }
