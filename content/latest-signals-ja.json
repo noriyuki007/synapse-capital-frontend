@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 超過売気象からのリバウンドとMA20反発の戦術的買いエントリー",
-    "date": "2026-08-04 02:48",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-08-04 11:10",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "RSI(14)が21.87で超過売買いシグナル",
-      "現在値156.92はMA20(162.35)下位抵抗から脱出",
-      "6.2% estimated GDPとUSDCHF上昇でリスクオフ局面のドルファン利好"
+      "Oversold RSI hints at near-term rebound",
+      "MA20 at 162.16 offers resistance target",
+      "Positive macro catalysts support USD strength"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはRSI超過売買いにより上昇局面に転じる可能性。MA20下位抵抏下での買い戻しを厳格リスク管理下で推奨する。",
+    "excerpt": "USD/JPY at 157.65, oversold RSI and macro tailwinds suggest bounce toward MA20.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "RSI超過売買い状態に伴う反発予測、MA20抵抗突破で上昇モメンタム拡大",
-    "entry": "156.92",
-    "tp": "162.35",
-    "sl": "154.50",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-04 02:49",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
-    "tldr_points": [
-      "S&P 500はMA20を上回り、短期的な上昇モメンタムが確認できる。",
-      "中東情勢の緩和と原油下落がリスクオフを緩和し、株価を押し上げている。",
-      "バリュエーションの低下が指数横ばいでも上値余地を示唆し、買い向かいが強まる。"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20を上抜け、原油下落とバリュエーション改善が組み合わさり、S&P 500は短期的に上昇余地がある。",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "MA20を上抜け、原油下落とバリュエーション改善が組み合わさり、S&P 500は短期的に上昇余地がある。",
+    "comment": "USD/JPY at 157.65, oversold RSI and macro tailwinds suggest bounce toward MA20.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-08-04 11:14",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "野村證券",
+    "tldr_points": [
+      "価格はMA20を上回り上昇基調",
+      "RSIは中立圏で過熱感薄",
+      "主要ニュースは消費・エンタメ・金融のポジティブ材料"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500はMA20を上抜け、RSIは中立圏で過熱感が薄く上昇余地がある。ファンダメンタルズはアメリカン・エキスプレスの堅調な消費動向、ゴールドマン・サックスの堅実な利益、ネットフリックスの会員増加などが相まって上昇を支える。",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "MA20上抜けとRSI中立、ファンダメンタルズのポジティブ材料が上昇を裏付ける",
+    "entry": "7500",
+    "tp": "7700",
+    "sl": "7440",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: 機関蓄積とMA20攻防における押し目買い優位性",
-    "date": "2026-08-04 02:51",
+    "title": "[BTC/USD] DOWN: MA20での支持割れと弱気マクロの整合性",
+    "date": "2026-08-04 11:16",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BlackRock等の機関マネー流入が下値を強力に支える",
-      "MA20（64,383）直下でのRSI中立は買い場到来を示唆",
-      "戦略的備蓄・法人買い継続で上昇トレンド再開の公算大"
+      "価格はMA20を下抜け、下押し圧力が強まる",
+      "RSIは42で中立だが売りバイアスが示唆",
+      "機関流動性の低下とDEXシェア上昇が売りサイン"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "機関投資家の実需買いが継続する中、MA20直前までの調整は絶好のエントリーポイントを形成。厳格なリスク管理下で押し目買いを推奨。",
+    "excerpt": "BTC/USDはMA20を割り込み、RSIも中立付近で売り優勢。ファンダメンタルズも規制不安とDEX台頭で下押しリスクが高まる。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "機関蓄積継続とMA20攻防における押し目形成。RR 1:2.5超で買い優位。",
-    "entry": "63650",
-    "tp": "65000",
-    "sl": "62000",
+    "status": "SELL",
+    "comment": "MA20下抜けとRSI売りバイアス、規制不安が下押しを後押し",
+    "entry": "63700.00",
+    "tp": "61200.00",
+    "sl": "64500.00",
     "reliability": "MEDIUM"
   }
 }
