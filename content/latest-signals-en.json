@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Oversold RSI and Divergent Growth Signals Point to Short-Term Correction",
-    "date": "2026-08-05 11:09",
+    "title": "[USD/JPY] DOWN: Oversold RSI Signals Rejection Below MA20 Amid Fed-Japan Yield Gap",
+    "date": "2026-08-05 19:31",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Extreme oversold RSI (24.87) indicates high probability of short-term exhaustion",
-      "China's manufacturing PMI (50.4) underperforms expectations, weighing on risk sentiment",
-      "Japan services sector growth decelerates despite rising prices"
+      "RSI(14) at 26.2 indicates extreme oversold conditions",
+      "Price trading 2.5% below MA20 at 157.76",
+      "Gold rally above $4,100 reduces USD demand amid Fed easing expectations"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY facing downward pressure as China's PMI miss and Japan's decelerating services growth trigger technical sell signals.",
+    "excerpt": "USD/JPY extends decline as RSI hits oversold, gold rally undermines USD support",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "Extreme RSI oversold levels combined with weak Chinese PMI suggest a bearish continuation.",
-    "entry": "158.50",
-    "tp": "156.20",
-    "sl": "159.10",
-    "reliability": "MEDIUM"
+    "comment": "Technical breakdown confirmed with RSI in oversold zone; fundamental backdrop turning negative for USD",
+    "entry": "157.75",
+    "tp": "155.00",
+    "sl": "162.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Price Sustains Above MA20 as AI Earnings Drive Momentum",
-    "date": "2026-08-05 11:10",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-08-05 19:32",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 holds 3.2% above MA20 with RSI at 59.7, confirming bullish trend integrity",
-      "Mega-cap AI earnings (AMD, Microsoft) provide fundamental tailwind for continued upside",
-      "Key resistance at 7800-7820 zone; breakout targets 7950 extension"
+      "Price above MA20 with RSI near 60 indicates mild bullish momentum.",
+      "Oil price decline and Middle East optimism provide supportive macro backdrop.",
+      "Tech earnings from SpaceX and AMD reinforce risk-on sentiment."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 extends gains above MA20 supported by AI earnings momentum; tactical long bias favored with defined risk parameters.",
+    "excerpt": "S&P 500 trades above its 20‑day average amid supportive macro data and steady RSI, suggesting near‑term upside potential.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price above MA20 with RSI 59.7 and AI earnings momentum supports continuation to 7820/7950",
-    "entry": "7710",
-    "tp": "7820",
-    "sl": "7450",
-    "reliability": "HIGH"
+    "comment": "Price above MA20 with RSI near 60 and supportive macro backdrop suggests upside.",
+    "entry": "7495.94",
+    "tp": "7900.00",
+    "sl": "7400.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-05 11:12",
+    "title": "[BTC/USD] DOWN: Price below MA20, RSI weak amid regulatory scrutiny",
+    "date": "2026-08-05 19:36",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price consolidating above MA20 indicates short-term support.",
-      "RSI below 50 suggests potential upside momentum.",
-      "Institutional ETF activity adds bullish bias."
+      "BTC/USD trades under the 20‑day moving average with RSI near 39, indicating bearish momentum.",
+      "Mixed regulatory headlines and a quiet macro backdrop keep upside catalysts limited.",
+      "Entry near 64,000, target around 63,000, stop above 64,500."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD poised for a rally as price consolidates above MA20, RSI signals upside, and ETF activity adds bullish bias now.",
+    "excerpt": "BTC/USD trades below MA20 with RSI at 39, signaling downside pressure amid mixed regulatory news and weak macro sentiment.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Price consolidating above MA20 with RSI below 50 indicates potential upside, supported by institutional ETF activity.",
-    "entry": "64350.6935546875",
-    "tp": "65000",
-    "sl": "64000",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "Price below MA20 with RSI near 39 indicates bearish momentum; target downside to 63k.",
+    "entry": "64000.00",
+    "tp": "63000.00",
+    "sl": "64550.00",
+    "reliability": "MEDIUM"
   }
 }
