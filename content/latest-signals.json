@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20付近での反発とリスクオン環境の整合性",
-    "date": "2026-08-05 02:44",
+    "title": "[USD/JPY] DOWN ファンダメンタルズの円高寄り強さが優勢",
+    "date": "2026-08-05 11:09",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "リスクオンの回帰が円売りを支える",
-      "MA20下抜けとRSI24は反転のサイン",
-      "エントリーは157.60付近、TP159.00、SL156.50で[dmm-fx]を推奨"
+      "中国PMIの大幅下方修正とリスクオフ相場が円高を誘発",
+      "日銀利上げ期待と販売価格の記録的高水準が円高圧力を強化",
+      "現在価格はMA20を大きく下回りRSIは超売られ水準だが、ファンダメンタルズは更なる下落を支持"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "リスクオンの戻りで米ドルが円に対して上昇余地を示す。テクニカルはMA20下抜けとRSI24で反転の可能性を示唆し、押し目買い戦略を組む。",
+    "excerpt": "中国PMIの大幅下方修正とリスクオフ要因が優勢、日銀利上げ期待が円高圧力を強化。MA20下回る超売られ状態だが、ファンダメンタルズは更なる下落を支持しダウンサイド優位。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "リスクオンの戻りで米ドルが円に対して上昇余地を示す。テクニカルはMA20下抜けとRSI24で反転の可能性を示唆し、押し目買い戦略を組む。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "中国PMIの大幅下方修正とリスクオフ相場が円高を誘発。日銀利上げ期待が円高圧力を強化し、ファンダメンタルズは更なる下落を支持。",
+    "entry": "161.92",
+    "tp": "155.00",
+    "sl": "164.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20反発と強気ファンダメンタルズの整合性",
-    "date": "2026-08-05 02:47",
+    "title": "[S&P 500] [UP] [MA20反発と強気ファンダメンタルズの整合性]",
+    "date": "2026-08-05 11:10",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "記録更新とMA20乖離率の縮小",
-      "半導体セクターの牽引と地政学リスクの改善",
-      "テクニカル指標の過熱兆候なし"
+      "MA20上で価格を維持し強気トレンドを確認",
+      "MSFTのAI牽引と決算期カタリストが材料",
+      "RSIは中立域で過熱せず、買い優位"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500が記録高を更新し、MA20を上回る強気トレンドと地政学リスクの改善が相まって上昇基調を維持している。半導体セクターの牽引と決算好調を背景に、具体的なエントリー戦略を提示し、アクション可能な投資判断を下す。",
+    "excerpt": "S&P 500はMA20上で推移し強気ファンダメンタルズと整合。MSFTの大幅上昇と決算期カタリストが上昇を支援。MA20上での買い維持を推奨。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20上での強気構造とセンチメントの改善が確認されたため",
-    "entry": "7750.18",
+    "comment": "MA20上での反発と強気ファンダメンタルズの整合性",
+    "entry": "7736.52",
     "tp": "7900.00",
     "sl": "7450.00",
-    "reliability": "HIGH"
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20付近での押し目買いの機会とファンダメンタルズの整合性",
-    "date": "2026-08-05 02:49",
+    "title": "[BTC/USD] DOWN: MA20付近での反発失敗と規制リスクの重なり",
+    "date": "2026-08-05 11:12",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20下抜けだがRSI36で売られ過ぎ、反発余地あり",
-      "上院議員のSEC調査要請は規制リスクだが短期的には影響限定",
-      "bitflyerの流動性を活用し押し目買いを推奨"
+      "価格はMA20をわずかに上回るがRSIは39弱でモメンタム低下",
+      "規制関連ニュースがネガティブバイアスを強化",
+      "売りエントリーはMA20割れをトリガーに、bitflyerの流動性を活用"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20近辺でのサポートとRSI売られ過ぎが示す反発シグナルを、規制ニュースと流動性観点から評価。",
+    "excerpt": "MA20を基準にした短期的な下押しリスクが高まっており、規制動向とテクニカルの乖離から売り方向を示唆。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20付近のサポートとRSI売られ過ぎから反発期待",
-    "entry": "63800.00",
-    "tp": "64250.00",
-    "sl": "63400.00",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "MA20割れとRSI低下、規制リスクが下値を支える",
+    "entry": "64300.00",
+    "tp": "62800.00",
+    "sl": "65200.00",
+    "reliability": "MEDIUM"
   }
 }

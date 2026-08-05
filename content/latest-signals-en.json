@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 with Oversold RSI and Bullish Fundamentals",
-    "date": "2026-08-05 02:44",
+    "title": "[USD/JPY] DOWN: Oversold RSI and Divergent Growth Signals Point to Short-Term Correction",
+    "date": "2026-08-05 11:09",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price near MA20 and RSI 24 indicate a high‑probability bounce.",
-      "Fundamental risk‑on tone and falling yields support a short‑term upside.",
-      "Execution via xm-trading offers optimal liquidity for the setup."
+      "Extreme oversold RSI (24.87) indicates high probability of short-term exhaustion",
+      "China's manufacturing PMI (50.4) underperforms expectations, weighing on risk sentiment",
+      "Japan services sector growth decelerates despite rising prices"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY eyes upside as price tests MA20, RSI 24 signals oversold bounce amid easing yields.",
+    "excerpt": "USD/JPY facing downward pressure as China's PMI miss and Japan's decelerating services growth trigger technical sell signals.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPY eyes upside as price tests MA20, RSI 24 signals oversold bounce amid easing yields.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "Extreme RSI oversold levels combined with weak Chinese PMI suggest a bearish continuation.",
+    "entry": "158.50",
+    "tp": "156.20",
+    "sl": "159.10",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Support at MA20 as fundamentals turn bullish",
-    "date": "2026-08-05 02:47",
+    "title": "[S&P 500] UP: Price Sustains Above MA20 as AI Earnings Drive Momentum",
+    "date": "2026-08-05 11:10",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "Tech earnings & AI rally lift S&P to new highs.",
-      "MA20 support reinforces bullish bias.",
-      "RSI neutral, room for upside expansion."
+      "S&P 500 holds 3.2% above MA20 with RSI at 59.7, confirming bullish trend integrity",
+      "Mega-cap AI earnings (AMD, Microsoft) provide fundamental tailwind for continued upside",
+      "Key resistance at 7800-7820 zone; breakout targets 7950 extension"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 at record highs, supported by tech earnings, bullish MA20, and favorable sentiment.",
+    "excerpt": "S&P 500 extends gains above MA20 supported by AI earnings momentum; tactical long bias favored with defined risk parameters.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20 support and tech-driven fundamentals justify bullish exposure.",
-    "entry": "7740",
-    "tp": "7900",
-    "sl": "7600",
+    "comment": "Price above MA20 with RSI 59.7 and AI earnings momentum supports continuation to 7820/7950",
+    "entry": "7710",
+    "tp": "7820",
+    "sl": "7450",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Oversold RSI and Institutional Inflows Signal Short‑Term Rebound",
-    "date": "2026-08-05 02:49",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-08-05 11:12",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "RSI at 36.5 indicates oversold conditions",
-      "Price trades ~0.6% below the 20‑day MA, creating a mean‑reversion setup",
-      "Institutional tokenization flows and WBTC migration support demand"
+      "Price consolidating above MA20 indicates short-term support.",
+      "RSI below 50 suggests potential upside momentum.",
+      "Institutional ETF activity adds bullish bias."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Oversold RSI and sub‑MA20 price suggest a tactical bounce; institutional tokenization flows add fundamental support.",
+    "excerpt": "BTC/USD poised for a rally as price consolidates above MA20, RSI signals upside, and ETF activity adds bullish bias now.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Oversold RSI and sub‑MA20 price with institutional inflow support a tactical long.",
-    "entry": "63955",
-    "tp": "65500",
-    "sl": "62800",
-    "reliability": "MEDIUM"
+    "comment": "Price consolidating above MA20 with RSI below 50 indicates potential upside, supported by institutional ETF activity.",
+    "entry": "64350.6935546875",
+    "tp": "65000",
+    "sl": "64000",
+    "reliability": "HIGH"
   }
 }
