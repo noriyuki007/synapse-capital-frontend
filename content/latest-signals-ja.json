@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20反発とFED緩和期待の整合性",
-    "date": "2026-08-05 19:31",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-08-06 02:26",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "Gold高騰によるFED引き締めリスク低下がUSD軟化を促進",
-      "RSI26.2の超売られ状態とMA20乖離が反発材料",
-      "US-Iran合意期待とユーロ圏PMI改善がUSD/JPY上昇を抑制する逆転材料"
+      "RSI 26.2 の極端な売られ過ぎが短期反転を示唆",
+      "MA20 (161.93) がレジスタンス兼ターゲット",
+      "ISM サービス弱含みも PMI 最終値が底堅く USD サポート"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Gold高騰によるFED引き締めリスク低下がUSD軟化を加速させ、USD/JPYはMA20を約400pips下回る超売られ水準に張り付く。RSI26.2の反発力とオーダーフローの買い需要蓄積を背景に、MA20付近への押し目買いを推奨。",
+    "excerpt": "USD/JPY は 157.75 まで下落し RSI 26.2 で過売り圏。MA20 161.93 へのリバウンドシナリオが優勢。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "RSI26.2の超売られとMA20乖離が反発根拠、FED緩和期待がUSD軟化を支援",
-    "entry": "157.76",
-    "tp": "161.93",
+    "comment": "RSI過売り・MA20乖離・ファンダメンタルズ底堅さの三点一致",
+    "entry": "157.80",
+    "tp": "161.90",
     "sl": "155.50",
-    "reliability": "HIGH"
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: 価格がMA20を上回り、RSIが中立付近で買い圧力示唆",
-    "date": "2026-08-05 19:32",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性",
+    "date": "2026-08-06 02:31",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "楽天証券",
+    "recommended_broker": "野村證券",
     "tldr_points": [
-      "現在価格はMA20を約240ポイント上回り、中期的上昇トレンドが継続",
-      "RSIは59.6で過熱感はやや限定的、追加上昇余地あり",
-      "中東情勢の緩和とテック決算がリスクオン sentiment を支援"
+      "MA20上抜けで短期上昇バイアス",
+      "RSI62で過熱感はやや高まるも余地あり",
+      "ファンダメンタルズは混在だがイベントリスクに注意"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20を上回る価格と妥当なRSIから、S&P 500は短期的に上昇余地が残ると見込む。",
+    "excerpt": "現在価格はMA20を明確に上回り、RSIは62で弱い過熱感を示すものの、バリーのS&P 500暴落警告やAI株への懐疑的見解、 Hormuzルート合意による地政学的不確実性が重なり、方向感は依然として不安定である。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20上抜けとRSIの妥当な水準から上昇余地が残るため",
-    "entry": "7500.00",
-    "tp": "8000.00",
-    "sl": "7400.00",
-    "reliability": "HIGH"
+    "comment": "MA20上抜けとRSI62が短期上昇を示唆し、押し目買いを推奨",
+    "entry": "7700.00",
+    "tp": "7900.00",
+    "sl": "7600.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発とRSIの過売り修正を確認",
-    "date": "2026-08-05 19:36",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-08-06 02:43",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20下回り、RSIは39で過売り圏",
-      "テキサス電力監査によるマイニング関連ポジティブがファンダ",
-      "機関のリスクオフ姿勢が継続し、短期はレンジ想定"
+      "価格は64,600円付近で横這い、RSIが42と過売り寄り",
+      "MA20付近でサポートが確認され、買い圧力が残る",
+      "米国スポットETFの資金流入がボトム形成の根拠に"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を下回りRSI39で過売り状態。テキサス電力監査によるマイニング関連のポジティブ要因と、機関投資家のリスクオフ姿勢が交錯し、短期的な押し目買いの機会を狙う。",
+    "excerpt": "BTCは64,644.55円で横這い、RSIが42.5と過売り寄り。上昇トレンドの余地は限定的だが、MA20付近でのサポートと米国ETF資金流入がボトムの可能性を示唆。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20付近への反発期待とRSI過売りからの買いシグナル",
-    "entry": "64000.00",
-    "tp": "65500.00",
-    "sl": "63000.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20サポートと過売りRSIがリスク/リターン比を改善",
+    "entry": "64500",
+    "tp": "66000",
+    "sl": "63800",
+    "reliability": "HIGH"
   }
 }
