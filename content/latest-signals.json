@@ -1,68 +1,66 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-06 02:26",
+    "title": "[USD/JPY] UP: Oversold RSI and MA20 support hint at rebound",
+    "date": "2026-08-06 11:13",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "RSI 26.2 の極端な売られ過ぎが短期反転を示唆",
-      "MA20 (161.93) がレジスタンス兼ターゲット",
-      "ISM サービス弱含みも PMI 最終値が底堅く USD サポート"
+      "Oversold RSI signals potential bounce",
+      "MA20 at 161.68 offers key resistance",
+      "PBOC CNY reference rate higher supports USD strength"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY は 157.75 まで下落し RSI 26.2 で過売り圏。MA20 161.93 へのリバウンドシナリオが優勢。",
+    "excerpt": "USD/JPY at 157.63, RSI 22.9 (oversold), MA20 161.68, potential rebound.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "RSI過売り・MA20乖離・ファンダメンタルズ底堅さの三点一致",
-    "entry": "157.80",
-    "tp": "161.90",
-    "sl": "155.50",
-    "reliability": "MEDIUM"
+    "comment": "USD/JPY 押し目買い、RSI 低水準＆MA20 サポートで反発期待",
+    "entry": "157.5",
+    "tp": "159.8",
+    "sl": "156.2",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性",
-    "date": "2026-08-06 02:31",
+    "title": "[S&P 500] UP: Confirmation of corrective bounce off MA20 and convergence of bullish fundamentals",
+    "date": "2026-08-06 11:17",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "野村證券",
+    "recommended_broker": "DesignatedBroker",
     "tldr_points": [
-      "MA20上抜けで短期上昇バイアス",
-      "RSI62で過熱感はやや高まるも余地あり",
-      "ファンダメンタルズは混在だがイベントリスクに注意"
+      "Nvidia lifts Dow while Mideast optimism supports risk assets; technical breakout above MA20 signals continuation; disciplined exposure with tight risk management."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "現在価格はMA20を明確に上回り、RSIは62で弱い過熱感を示すものの、バリーのS&P 500暴落警告やAI株への懐疑的見解、 Hormuzルート合意による地政学的不確実性が重なり、方向感は依然として不安定である。",
+    "excerpt": "S&P 500 bullish on MA20 bounce, Nvidia lift, and moderate RSI; tactical buy with tight SL.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20上抜けとRSI62が短期上昇を示唆し、押し目買いを推奨",
+    "comment": "MA20 支持からの押し目買いが成功、RSI は過熱せず、明確な TP/SL 設定",
     "entry": "7700.00",
-    "tp": "7900.00",
-    "sl": "7600.00",
-    "reliability": "MEDIUM"
+    "tp": "7950.00",
+    "sl": "7500.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-06 02:43",
+    "title": "[BTC/USD] FLAT: RSI低迷とMA20下に位置し、短期的には横ばいが継続する状況",
+    "date": "2026-08-06 11:20",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格は64,600円付近で横這い、RSIが42と過売り寄り",
-      "MA20付近でサポートが確認され、買い圧力が残る",
-      "米国スポットETFの資金流入がボトム形成の根拠に"
+      "BTC価格は64,445円でMA20下に位置しRSIも41付近で横ばいモメンタム",
+      "ロシアの暗号資産規制緩和や米Senateでの規制動向が市場に波紋",
+      "CryptoQuantの whale 蓄積信号は「late-stage bear」を示唆、慎重な展開が必要"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCは64,644.55円で横這い、RSIが42.5と過売り寄り。上昇トレンドの余地は限定的だが、MA20付近でのサポートと米国ETF資金流入がボトムの可能性を示唆。",
+    "excerpt": "BTC/USDは64,445円でMA20下に据え置き、RSI低迷のため短期は横ばい展開が予想される。ロシア規制緩和や米Senateの規制進展が波紋を呼ぶ中、CryptoQuantは買い圧の whales 累積を指摘—流動性確保の観点でbitflyerの活用を推奨する。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20サポートと過売りRSIがリスク/リターン比を改善",
-    "entry": "64500",
-    "tp": "66000",
-    "sl": "63800",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "RSI低迷とMA20下で横ばい展開。規制リスク増大とETF流入の両輪が局面を左右",
+    "entry": "64445.34",
+    "tp": "65200.00",
+    "sl": "63600.00",
+    "reliability": "MEDIUM"
   }
 }

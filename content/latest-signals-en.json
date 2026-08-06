@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Oversold RSI Amid Cautious Fundamentals",
-    "date": "2026-08-06 02:26",
+    "title": "[USD/JPY] UP: AI Detects Oversold RSI and Technical Support Amid Mixed Fundamentals",
+    "date": "2026-08-06 11:13",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "RSI at 26 signals oversold conditions",
-      "Price below MA20 suggests short-term downtrend but potential bounce",
-      "Soft US services data and gold safe-haven flow hint at USD weakness"
+      "Price trades well below MA20 with RSI deeply oversold, suggesting near-term bounce potential.",
+      "Fundamental mix: PBOC USD/CNY fix stronger vs estimate supports USD, while Daly comments hint at fading tariff inflation pressure.",
+      "Australian trade surplus beats expectations, adding risk‑on sentiment that may lift USD/JPY."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY under pressure; oversold RSI hints at bounce amid mixed fundamentals",
+    "excerpt": "USD/JPY sits below MA20 with RSI at 22.9, technical bias points to a short‑term rebound toward the 20‑day average.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Oversold RSI and modest fundamentals indicate a near‑term bounce toward MA20.",
-    "entry": "156.80",
-    "tp": "162.00",
-    "sl": "155.50",
+    "comment": "Oversold RSI and technical support near 157.50 favour a short‑term bounce toward MA20.",
+    "entry": "157.50",
+    "tp": "161.00",
+    "sl": "156.00",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Price above MA20 with moderate RSI supports bullish bias",
-    "date": "2026-08-06 02:31",
+    "title": "[S&P 500] UP: Technical Break Above MA20 Confluences with AI-Driven Fundamentals",
+    "date": "2026-08-06 11:17",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Optimize execution via [] for liquidity during breakout confirmation.",
     "tldr_points": [
-      "Price trading above 20‑day MA indicating short‑term upside",
-      "RSI near 62 suggests room for further gains before overbought",
-      "Geopolitical de‑escalation in Hormuz reduces risk‑off pressure"
+      "Break above MA20 signals trend sustain amid AI tailwinds",
+      "NVIDIA-led rally cushions Dow weakness",
+      "RSI(14) at 61.5 suggests room for consolidation"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above MA20 with moderate RSI, bullish bias amid mixed news.",
+    "excerpt": "S&P 500 breaks MA20 support as AI momentum and Mideast optimism drive bullish confluence.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price above MA20 with moderate RSI and supportive geopolitical news",
-    "entry": "7520.00",
+    "comment": "Break above MA20 with resilient RSI confirms institutional accumulation.",
+    "entry": "7723.55",
     "tp": "7850.00",
     "sl": "7450.00",
-    "reliability": "MEDIUM"
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-06 02:43",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 with Bullish Humans Intensifying",
+    "date": "2026-08-06 11:20",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Spot ETF inflows underpin a nascent bottom near $64K.",
-      "Mining revenue diversification reduces sell pressure from miners.",
-      "Technical price holds above MA20 with RSI showing room to rebound."
+      "BTC held above MA20 amid whale accumulation signals",
+      "ETF inflows and Russian regulatory clarity act as floor",
+      "RSI neutrality suggests room for momentum"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Bitcoin shows nascent support at $64.5K amid ETF inflows and cooling miner revenue, signaling a potential short‑term rebound.",
+    "excerpt": "BTC/USD breaks below $64K resistance as on-chain accumulation and macro catalysts align; bybit recommended for execution.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Price holds above MA20 with RSI showing room to rise amid ETF inflows and stable yields.",
-    "entry": "64500.00",
-    "tp": "66000.00",
-    "sl": "63000.00",
+    "status": "NEUTRAL",
+    "comment": "BTC/USD breaks below $64K resistance as on-chain accumulation and macro catalysts align; bybit recommended for execution.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
