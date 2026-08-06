@@ -1,66 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Oversold RSI and MA20 support hint at rebound",
-    "date": "2026-08-06 11:13",
+    "title": "[USD/JPY] DOWN: MA20での抵抗とインフレ次第のドル弱含みを示唆",
+    "date": "2026-08-06 19:35",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "Oversold RSI signals potential bounce",
-      "MA20 at 161.68 offers key resistance",
-      "PBOC CNY reference rate higher supports USD strength"
+      "ドルはインフレ次第で弱含み、円はボジン待ち。",
+      "MA20上抜けへの戻り売りが短期的下押しリスクを示唆。",
+      "テクニカルはMA20割れとRSI極端な売られで短期反発の余地もあるが、戻り売りが優位。"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY at 157.63, RSI 22.9 (oversold), MA20 161.68, potential rebound.",
+    "excerpt": "ドルはインフレ次第で弱含み、円はボジン待ち。MA20上抜けへの戻り売りが短期的下押しリスクを示唆。ファンダメンタルズは米雇用の堅調と地政学的リスク後退でドル買いが支えられつつ、インフレデータ次第で方向感が変わる可能性。テクニカルはMA20割れとRSI極端な売られで短期反発の余地もあるが、戻り売りが優位。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "USD/JPY 押し目買い、RSI 低水準＆MA20 サポートで反発期待",
-    "entry": "157.5",
-    "tp": "159.8",
-    "sl": "156.2",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "MA20付近の戻り売りとインフレ次第のドル弱含みを根拠にショート推奨",
+    "entry": "158.20",
+    "tp": "155.00",
+    "sl": "159.50",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Confirmation of corrective bounce off MA20 and convergence of bullish fundamentals",
-    "date": "2026-08-06 11:17",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-08-06 19:44",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "DesignatedBroker",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Nvidia lifts Dow while Mideast optimism supports risk assets; technical breakout above MA20 signals continuation; disciplined exposure with tight risk management."
+      "AI関連銘柄の上昇が一巡し、利上げ懸念と業績モメンタムの二重リスクがS&P500を押し下げる可能性。",
+      "利上げ懸念が投資家心理を抑制し、リスクオフ姿勢が強まる。",
+      "金利動向と企業決算の二重圧力が短期的に下押しを誘発。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 bullish on MA20 bounce, Nvidia lift, and moderate RSI; tactical buy with tight SL.",
+    "excerpt": "AI関連銘柄の上昇が一巡し、利上げ懸念と業績モメンタムの二重リスクがS&P500を押し下げる可能性。テクニカル的にはMA20付近での押し目が重要な支持ラインとなり得る、と同時に流動性リスクも顕在化しつつある。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20 支持からの押し目買いが成功、RSI は過熱せず、明確な TP/SL 設定",
-    "entry": "7700.00",
-    "tp": "7950.00",
-    "sl": "7500.00",
+    "comment": "MA20での反発と強気ファンダメンタルズの整合性に基づく押し目買い。",
+    "entry": "7750",
+    "tp": "7850",
+    "sl": "7700",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: RSI低迷とMA20下に位置し、短期的には横ばいが継続する状況",
-    "date": "2026-08-06 11:20",
+    "title": "[BTC/USD] UP: 現在地のリトレース局面と戦略的流動性確保の機会を捉える",
+    "date": "2026-08-06 19:48",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTC価格は64,445円でMA20下に位置しRSIも41付近で横ばいモメンタム",
-      "ロシアの暗号資産規制緩和や米Senateでの規制動向が市場に波紋",
-      "CryptoQuantの whale 蓄積信号は「late-stage bear」を示唆、慎重な展開が必要"
+      "MA20上回りで反発シグナル",
+      "RSI低値からのリバウンド期待",
+      "ロシア正覚化で機関流入喚起"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDは64,445円でMA20下に据え置き、RSI低迷のため短期は横ばい展開が予想される。ロシア規制緩和や米Senateの規制進展が波紋を呼ぶ中、CryptoQuantは買い圧の whales 累積を指摘—流動性確保の観点でbitflyerの活用を推奨する。",
+    "excerpt": "BTCは64,415下抜け後、MA20(64,415)付近で反発を Showing。RSI低迷(48.5)からリバウンド材料が顕在化し、ロシアの規制緩和で機関関心が再燃。流動性拡大期待となり、TP66,200/SL63,200でUPトレンドを狙う。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "RSI低迷とMA20下で横ばい展開。規制リスク増大とETF流入の両輪が局面を左右",
-    "entry": "64445.34",
-    "tp": "65200.00",
-    "sl": "63600.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20反発＋ロシア正覚化で上昇転換の兆し",
+    "entry": "64450",
+    "tp": "66200",
+    "sl": "63200",
+    "reliability": "HIGH"
   }
 }

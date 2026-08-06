@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Oversold RSI and Technical Support Amid Mixed Fundamentals",
-    "date": "2026-08-06 11:13",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-08-06 19:35",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price trades well below MA20 with RSI deeply oversold, suggesting near-term bounce potential.",
-      "Fundamental mix: PBOC USD/CNY fix stronger vs estimate supports USD, while Daly comments hint at fading tariff inflation pressure.",
-      "Australian trade surplus beats expectations, adding risk‑on sentiment that may lift USD/JPY."
+      "Oversold RSI signals rebound",
+      "MA20 provides strong support near 158",
+      "BoJ policy stance keeps yen weak"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY sits below MA20 with RSI at 22.9, technical bias points to a short‑term rebound toward the 20‑day average.",
+    "excerpt": "Oversold RSI, MA20 support near 158, BoJ inaction fuels upside to 160.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Oversold RSI and technical support near 157.50 favour a short‑term bounce toward MA20.",
-    "entry": "157.50",
-    "tp": "161.00",
-    "sl": "156.00",
+    "status": "NEUTRAL",
+    "comment": "Oversold RSI, MA20 support near 158, BoJ inaction fuels upside to 160.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Technical Break Above MA20 Confluences with AI-Driven Fundamentals",
-    "date": "2026-08-06 11:17",
+    "title": "[S&P 500] UP: Broad Market Rotation Supports Index Above MA20 Despite Tech Volatility",
+    "date": "2026-08-06 19:44",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Optimize execution via [] for liquidity during breakout confirmation.",
+    "recommended_broker": "",
     "tldr_points": [
-      "Break above MA20 signals trend sustain amid AI tailwinds",
-      "NVIDIA-led rally cushions Dow weakness",
-      "RSI(14) at 61.5 suggests room for consolidation"
+      "S&P 500 holds 215-point premium to MA20 as capital rotates from mega-cap tech into cyclicals",
+      "RSI at 61.5 confirms bullish momentum without overbought extreme, supporting further upside",
+      "Iran negotiations and earnings deluge create two-way event risk; position sizing paramount"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 breaks MA20 support as AI momentum and Mideast optimism drive bullish confluence.",
+    "excerpt": "S&P 500 sustains breakout above MA20 at 7508 as sector rotation offsets AI-related tech weakness; tactical long biased toward 7850.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Break above MA20 with resilient RSI confirms institutional accumulation.",
-    "entry": "7723.55",
-    "tp": "7850.00",
-    "sl": "7450.00",
-    "reliability": "HIGH"
+    "comment": "Index above MA20 with bullish RSI and favorable rotation dynamics supports tactical long toward 7800.",
+    "entry": "7650",
+    "tp": "7800",
+    "sl": "7495",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 with Bullish Humans Intensifying",
-    "date": "2026-08-06 11:20",
+    "title": "[BTC/USD] UP: Consolidation Near MA20 Supported by Regulatory Expansion",
+    "date": "2026-08-06 19:48",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC held above MA20 amid whale accumulation signals",
-      "ETF inflows and Russian regulatory clarity act as floor",
-      "RSI neutrality suggests room for momentum"
+      "Institutional accumulation by Ark Invest signals long-term confidence",
+      "Regulatory tailwinds in Russia and Japan enhancing liquidity",
+      "Price hovering above critical MA20 support level"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD breaks below $64K resistance as on-chain accumulation and macro catalysts align; bybit recommended for execution.",
+    "excerpt": "BTC consolidates near MA20 as regulatory developments in Russia and Japan provide fundamental support for bullish bias.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USD breaks below $64K resistance as on-chain accumulation and macro catalysts align; bybit recommended for execution.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Price stabilizing above MA20 with positive regulatory tailwinds.",
+    "entry": "64450.00",
+    "tp": "66200.00",
+    "sl": "63800.00",
+    "reliability": "HIGH"
   }
 }
