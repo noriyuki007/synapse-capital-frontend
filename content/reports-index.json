@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-08-07-crypto-en",
+    "date": "2026-08-07 11:34",
+    "title": "[BTC/USD] DOWN: Momentum Divergence Persists as Miners Strain and RSI Lacks Oversold Momentum",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD faces near-term bearish bias as RSI fails to confirm oversold signals and miners report double-digit revenue drops.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-08-07-stocks-ja",
+    "date": "2026-08-07 11:33",
+    "title": "[S&P 500] DOWN: 過度のリバウンド強さと金利先行相場の整合性低下を警告",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500は過度のリバウンド強さと金利先行相場の整合性低下を警戒し、 DOWNトレードを推奨する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-07-stocks-en",
+    "date": "2026-08-07 11:33",
+    "title": "[S&P 500] DOWN: Macro Drag Persists, RSI Approaching Overbought; Earnings Headwinds Push Prices Lower",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 slipping as macro data disappoints; RSI(14) at 66.57 shows bearish momentum with MA20 support at 7516.29.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-08-07-fx-ja",
+    "date": "2026-08-07 11:30",
+    "title": "[USD/JPY] DOWN: MA20での抵抗と介入リスクの整合性を確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "MA20を下回る水準でRSIが極端に売られ、ファンダメンタルズも円買いを示唆。介入リスクを考慮し売り方向が優位。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-07-fx-en",
+    "date": "2026-08-07 11:30",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY: Oversold RSI (27.72), MA20 (161.48) key level, intervention data supports bullish bounce",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-08-07-crypto-ja",
+    "date": "2026-08-07",
+    "title": "CRYPTO Analysis",
+    "genre": "CRYPTO",
+    "target_pair": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
     "id": "2026-08-06-crypto-ja",
     "date": "2026-08-06 19:48",
     "title": "[BTC/USD] UP: 現在地のリトレース局面と戦略的流動性確保の機会を捉える",
@@ -80,7 +152,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "BTC/USDはMA20を下回りRSI39で過売り状態。テキサス電力監査によるマイニング関連のポジティブ要因と、機関投資家のリスクオフ姿勢が交錯し、短期的な押し目買いの機会を狙う。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -92,7 +164,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD trades below MA20 with RSI at 39, signaling downside pressure amid mixed regulatory news and weak macro sentiment.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -104,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "楽天証券",
     "excerpt": "MA20を上回る価格と妥当なRSIから、S&P 500は短期的に上昇余地が残ると見込む。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -116,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500 trades above its 20‑day average amid supportive macro data and steady RSI, suggesting near‑term upside potential.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -128,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "Gold高騰によるFED引き締めリスク低下がUSD軟化を加速させ、USD/JPYはMA20を約400pips下回る超売られ水準に張り付く。RSI26.2の反発力とオーダーフローの買い需要蓄積を背景に、MA20付近への押し目買いを推奨。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -140,7 +212,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY extends decline as RSI hits oversold, gold rally undermines USD support",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {

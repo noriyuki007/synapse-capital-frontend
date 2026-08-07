@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-06 19:35",
+    "date": "2026-08-07 11:30",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Oversold RSI signals rebound",
-      "MA20 provides strong support near 158",
-      "BoJ policy stance keeps yen weak"
+      "RSI(14) at 27.72 signals extreme oversold momentum reversal",
+      "MA20 (161.48) acts as critical dynamic support/Resistance",
+      "Japanese yen intervention data confirms structural JPY buying pressure"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Oversold RSI, MA20 support near 158, BoJ inaction fuels upside to 160.",
+    "excerpt": "USD/JPY: Oversold RSI (27.72), MA20 (161.48) key level, intervention data supports bullish bounce",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "Oversold RSI, MA20 support near 158, BoJ inaction fuels upside to 160.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Oversold momentum (RSI 27.72) meets MA20 intervention-driven support",
+    "entry": "158.35",
+    "tp": "161.48",
+    "sl": "157.85",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Broad Market Rotation Supports Index Above MA20 Despite Tech Volatility",
-    "date": "2026-08-06 19:44",
+    "title": "[S&P 500] DOWN: Macro Drag Persists, RSI Approaching Overbought; Earnings Headwinds Push Prices Lower",
+    "date": "2026-08-07 11:33",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 holds 215-point premium to MA20 as capital rotates from mega-cap tech into cyclicals",
-      "RSI at 61.5 confirms bullish momentum without overbought extreme, supporting further upside",
-      "Iran negotiations and earnings deluge create two-way event risk; position sizing paramount"
+      "Macro headwinds: S&P 500 slipping on second red day; jobs report on tap creates a key catalyst for bearish momentum.",
+      "Technical structure: Price at 7709.96, 194 points above MA20, but RSI(14) at 66.57 signals bearish momentum without being overbought.",
+      "Catalyst: Recent software earnings winners and the jobs report are likely to amplify the current downside trend."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 sustains breakout above MA20 at 7508 as sector rotation offsets AI-related tech weakness; tactical long biased toward 7850.",
+    "excerpt": "S&P 500 slipping as macro data disappoints; RSI(14) at 66.57 shows bearish momentum with MA20 support at 7516.29.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Index above MA20 with bullish RSI and favorable rotation dynamics supports tactical long toward 7800.",
-    "entry": "7650",
-    "tp": "7800",
-    "sl": "7495",
+    "status": "SELL",
+    "comment": "The S&P 500 is bearish in the short term as macro headwinds and a weak jobs report push the index lower.",
+    "entry": "7709.96",
+    "tp": "7600",
+    "sl": "7730",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Consolidation Near MA20 Supported by Regulatory Expansion",
-    "date": "2026-08-06 19:48",
+    "title": "[BTC/USD] DOWN: Momentum Divergence Persists as Miners Strain and RSI Lacks Oversold Momentum",
+    "date": "2026-08-07 11:34",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Institutional accumulation by Ark Invest signals long-term confidence",
-      "Regulatory tailwinds in Russia and Japan enhancing liquidity",
-      "Price hovering above critical MA20 support level"
+      "Price tests below MA20 amid bearish RSI divergence",
+      "Miner revenue collapse (MARA, CleanSpark) fuels headwinds",
+      "Regulatory clarity offset by technical weakness"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC consolidates near MA20 as regulatory developments in Russia and Japan provide fundamental support for bullish bias.",
+    "excerpt": "BTC/USD faces near-term bearish bias as RSI fails to confirm oversold signals and miners report double-digit revenue drops.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Price stabilizing above MA20 with positive regulatory tailwinds.",
-    "entry": "64450.00",
-    "tp": "66200.00",
-    "sl": "63800.00",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "Technical breakdown below MA20 aligns with bearish RSI divergence amid miner funda erosion",
+    "entry": "64300",
+    "tp": "63000",
+    "sl": "64550",
+    "reliability": "MEDIUM"
   }
 }
