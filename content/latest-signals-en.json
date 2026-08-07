@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Oversold RSI Signals Tactical Bounce Amid Pre-CPI Positioning",
-    "date": "2026-08-07 17:55",
+    "title": "[USD/JPY] DOWN: AI Detects Bearish Momentum as Fundamentals Turn Dovish",
+    "date": "2026-08-08 01:51",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "RSI at 27.8 marks deeply oversold condition, favoring mean-reversion bounce",
-      "Price 310 pips below MA20 (161.48) creates substantial reversion bandwidth",
-      "Pre-US CPI/NFP event risk supports range-bound upside toward 159.50-160.00"
+      "US dollar weakens on disappointing jobs data",
+      "Price sits below MA20 with RSI deeply oversold",
+      "Short-term bounce possible but downtrend intact"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY trades at 158.34 with RSI at 27.8; oversold extremes and pre-CPI positioning favor tactical long toward 159.50-160.00.",
+    "excerpt": "USD/JPY faces downside pressure as US labor data disappoint and yields slip.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Oversold RSI at 27.8 with gamma support at 158.00 favors mean-reversion bounce into CPI event risk",
-    "entry": "158.30",
-    "tp": "159.50",
-    "sl": "157.45",
+    "status": "SELL",
+    "comment": "Bearish fundamentals and price below MA20 support a short bias despite oversold RSI.",
+    "entry": "161.20",
+    "tp": "155.00",
+    "sl": "162.50",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-07 17:58",
+    "title": "[S&P 500] UP: AI Validates Breakout Above All-Time Highs on Strong Jobs Momentum",
+    "date": "2026-08-08 01:59",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price above 20‑day MA with strong momentum",
-      "RSI indicates overbought but trend remains bullish",
-      "Fed guidance and mixed growth signals support a cautious upside"
+      "S&P 500 breaks all-time highs on positive US jobs surprise",
+      "MA20 at 7524.76 acts as dynamic support with price holding above 7700",
+      "RSI near 70 signals momentum strength but requires consolidation for continuation"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 poised for a cautious upside as price holds above MA20 amid mixed growth signals and Fed guidance.",
+    "excerpt": "S&P 500 surges to fresh highs post-jobs surprise; Fed pause odds surge as technicals favor bullish continuation with RSI confirming momentum.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price above MA20 with bullish momentum but RSI indicates caution",
-    "entry": "7700",
-    "tp": "7800",
-    "sl": "7600",
-    "reliability": "MEDIUM"
+    "comment": "Breakout confirmed with momentum and dovish fundamentals aligning above key support at MA20",
+    "entry": "7562.28",
+    "tp": "7900",
+    "sl": "7450",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Price Above MA20 with Modest RSI and Institutional Inflows",
-    "date": "2026-08-07 18:00",
+    "title": "[BTC/USD] UP: Fundamental Shift with Technical Momentum Alignment",
+    "date": "2026-08-08 02:01",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trades modestly above its 20‑day moving average, signaling short‑term bullish bias.",
-      "Institutional crypto activity rises as Wintermute gains SEC broker‑dealer status and Ark Invest adds Block exposure.",
-      "Regulatory overhang eases with Senate postponing the Clarity Act vote, reducing near‑term policy risk."
+      "BTC/USD breaks above MA20 amid positive institutional positioning",
+      "Rising Ark Invest accumulation signals renewed long-term demand",
+      "US macrox exits shift from risk-on dynamics to systemic interest rate trajectory"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds above MA20 with neutral RSI; institutional inflows and delayed regulation support a modest upside bias.",
+    "excerpt": "BTC/USD shows technical strength above MA20 with institutional buys and macro catalysts favoring further rally.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Price above MA20 with neutral RSI and institutional inflows supports a short‑term long bias.",
-    "entry": "64300.00",
-    "tp": "66500.00",
-    "sl": "63200.00",
-    "reliability": "MEDIUM"
+    "comment": "Structural bull case validated by technical and institutional metrics",
+    "entry": "64350",
+    "tp": "66000",
+    "sl": "63800",
+    "reliability": "HIGH"
   }
 }
