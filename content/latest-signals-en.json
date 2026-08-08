@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-08 17:36",
+    "title": "[USD/JPY] UP: Extreme Oversold Conditions Trigger Mean Reversion Despite NFP Weakness",
+    "date": "2026-08-09 01:29",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US NFP negative signals bearish USD",
-      "RSI 22.9 indicates oversold condition",
-      "Price near MA20 support suggests bullish bounce"
+      "RSI at 22.9 signals deepest oversold reading in months, prime for snapback",
+      "Price 3.7% below MA20 marks largest negative deviation since 2024",
+      "Iran de-escalation reduces JPY safe-haven bid, supporting recovery"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "US NFP negative, dollar slides; RSI 22.9 oversold; price near MA20 support – bullish upside pending quick markets today.",
+    "excerpt": "USD/JPY plunges to 157.74 on weak NFP but extreme oversold metrics and geopolitical de-escalation favor tactical long.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "US NFP negative, dollar slides; RSI 22.9 oversold; price near MA20 support – bullish upside pending quick markets today.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "Deep oversold RSI and massive MA20 deviation favor snapback despite weak NFP",
+    "entry": "157.90",
+    "tp": "160.50",
+    "sl": "157.35",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Identifies MA20 Support Amid Soft Jobs-Driven Rate Cut Expectations",
-    "date": "2026-08-08 17:41",
+    "title": "[S&P 500] UP: Earnings Momentum and SocGen Target Revision Support Bullish Expansion",
+    "date": "2026-08-09 01:31",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "XM",
     "tldr_points": [
-      "S&P 500 holds above MA20 as soft jobs data eases rate-hike fears",
-      "RSI-14 at 69.78 signals momentum sustainability with room to run",
-      "AI rotation from chips to broader equities may provide tailwind"
+      "SocGen raises S&P 500 target to 8,000 citing earnings breadth",
+      "Price maintains strong bullish posture above MA20",
+      "Geopolitical volatility remains the primary tail risk"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 climbs to 7,757.64 above MA20 as soft jobs data reduces rate risk, with AI detecting bullish support structure.",
+    "excerpt": "Bullish momentum persists as earnings breadth expands; target shifted toward 8,000 despite geopolitical risks.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Bullish momentum supported by rate-cut expectations and AI-confirmed order flow expansion",
-    "entry": "7525.41",
-    "tp": "7820.00",
+    "comment": "Bullish fundamental catalyst from SocGen target upgrade and strong price action above MA20.",
+    "entry": "7550.00",
+    "tp": "8000.00",
     "sl": "7480.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-08 17:43",
+    "date": "2026-08-09 01:34",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD consolidated above MA20 amid mixed institutional sentiment",
-      "RSI neutrality signals room for upward momentum",
-      "Critical support at 64,407.79 requires reinforcement"
+      "MA20 acting as strong support",
+      "ETF inflows reinforce bullish bias",
+      "Neutral RSI suggests continuation potential"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD consolidates above MA20 (64,407.79) with RSI(14) at 53.90, signaling potential upward breakout if institutional volatility stabilizes.",
+    "excerpt": "BTC above MA20, ETF inflows rise, RSI neutral—potential upward momentum.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20 support holding with RSI trending neutral, signaling favorable intraday alignment.",
-    "entry": "64900.00",
-    "tp": "65800.00",
-    "sl": "64200.00",
-    "reliability": "MEDIUM"
+    "comment": "AI and fundamentals support a rise toward 66.5k with defined risk guard.",
+    "entry": "64800",
+    "tp": "66500",
+    "sl": "63500",
+    "reliability": "HIGH"
   }
 }
