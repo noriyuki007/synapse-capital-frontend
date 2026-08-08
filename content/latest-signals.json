@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: 米雇用弱含みとインフレ期待低下でドル売り優勢",
-    "date": "2026-08-08 01:51",
+    "title": "[USD/JPY] DOWN: Non-farm payrolls弱含みとRSI超売りが示す下押し圧力",
+    "date": "2026-08-08 10:18",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米雇用データの悪化とインフレ期待低下がドル売りを促進",
-      "RSI20.95は極端な売られすぎを示し、短期的な反発余地は限定的",
-      "MA20を大きく下回る価格は下トレンド継続のサイン"
+      "米雇用統計の悪化でドル売りが優勢",
+      "RSI 22.9は超売り領域だが、トレンドは下向き",
+      "テクニカルはMA20下抜けで下目線"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米雇用の陰りとインフレ期待低下でドル売りが優勢、テクニカルはMA20下抜けとRSI極端売られすぎを示す。",
+    "excerpt": "米雇用統計の弱含みとリスクオフ後の安全資産需要後退が重なり、ドル円は下押し圧力が強まっている。現在価格はMA20を大きく下回り、RSIは超売り圏だが、トレンドフォローの売りが優位だと見做す。",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "米雇用弱含み・インフレ期待低下とMA20下抜け・RSI売られすぎが下方バイアスを支持",
-    "entry": "157.34",
-    "tp": "156.00",
+    "comment": "米雇用悪化・リスクオフ後退とMA20下抜け・RSI超売りが下目線を裏付ける",
+    "entry": "157.30",
+    "tp": "155.00",
     "sl": "158.50",
-    "reliability": "MEDIUM"
+    "reliability": "HIGH"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-08 01:59",
+    "date": "2026-08-08 10:20",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "野村證券",
     "tldr_points": [
-      "S&P 500は雇用統計サプライズ後に過去最高値更新",
-      "Fedの利上げ停止観測が高まりリスクオン姿勢が強まる",
-      "テクニカルはMA20上抜けとRSI69で上方余地残す"
+      "ソフトな雇用統計が利上げ懸念を緩和し、S&P 500は過去最高値を更新",
+      "MA20を下回る水準からの反発が確認され、上昇トレンドの継続を示唆",
+      "RSIは69.8で過熱感はあるものの、依然として買い優位のモメンタムが維持"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "雇用統計サプライズとFed停止観測でS&P 500は上抜け、MA20を支えに上値余地が残る状況。",
+    "excerpt": "ソフト雇用統計とMA20反発がS&P 500の上昇を後押し、押し目買いが有効と判断。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "雇用統計サプライズとFed停止期待が強気を支え、MA20上抜けとRSI69で上値余地あり",
-    "entry": "7525.00",
-    "tp": "7900.00",
-    "sl": "7400.00",
+    "comment": "ソフト雇用統計とMA20反発による上昇トレンド継続期待",
+    "entry": "7530",
+    "tp": "7850",
+    "sl": "7450",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20 support & bullish catalyst alignment",
-    "date": "2026-08-08 02:01",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-08-08 10:22",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "Fed‑employment data miss fuels safe‑haven demand for BTC",
-      "Institutional purchases (Ark/Block) signal ongoing accumulation",
-      "MA20 convergence provides a clear technical entry zone"
+      "RSIは中立水準で一時的な調整余地あり",
+      "MA20付近での反発期待",
+      "地政学的リスクは依然高水準"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC surged past $65k on US jobs miss; MA20 supports further upside with favorable on‑chain and sentiment catalysts.",
+    "excerpt": "BTC/USDはMA20付近での反発を確認し、RSIの中立感は一時的な調整余地を示す。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20を支持線に、強気RSIと好材料が重なる。買い戦略でリスク管理。",
-    "entry": "64600",
-    "tp": "65400",
-    "sl": "63900",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTC/USDはMA20付近での反発を確認し、RSIの中立感は一時的な調整余地を示す。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
