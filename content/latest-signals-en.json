@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-09 10:23",
+    "title": "[USD/JPY] DOWN: Extreme Oversold Momentum Amidst Dollar Weakness",
+    "date": "2026-08-09 17:37",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price near MA20 support with RSI 22 signaling oversold pressure.",
-      "Weak payrolls and reduced Middle East tension dampen dollar strength, favoring a rebound.",
-      "Bullish bias confirmed by MA20 hold and potential risk‑on flow into USD."
+      "US NFP data signals contraction in labor market, weakening USD",
+      "China CPI/PPI cooling increases global deflationary concerns",
+      "RSI(14) indicates extreme oversold conditions at 157.74"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY oversold on RSI, price near MA20 support; bullish bias with tight risk control.",
+    "excerpt": "USD/JPY bearish momentum accelerates as NFP data triggers Dollar selling and RSI enters oversold territory.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPY oversold on RSI, price near MA20 support; bullish bias with tight risk control.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Bearish momentum driven by US labor market weakness and extreme RSI levels.",
+    "entry": "158.40",
+    "tp": "156.50",
+    "sl": "160.00",
+    "reliability": "HIGH"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-09 10:25",
+    "date": "2026-08-09 17:41",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "AlphaCore Direct",
     "tldr_points": [
-      "MA20 at 7,525 provides technical support.",
-      "RSI 69.8 shows strong but not overextended momentum.",
-      "Bullish catalysts from Berkshire, O'Leary, and SpaceX reinforce upside bias."
+      "MA20 support at ~7525",
+      "RSI 69.8 indicates constructive momentum",
+      "Earnings beats offset Fed hawkishness"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 above MA20, RSI 69.8, bullish fundamentals from Berkshire, O'Leary, and SpaceX; targeting 7,850.",
+    "excerpt": "S&P 500 holds above MA20; earnings boost bullish bias while Fed caution persists.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Bullish S&P 500 based on technical support at MA20 and favorable catalysts.",
-    "entry": "7525.00",
-    "tp": "7850.00",
-    "sl": "7500.00",
+    "comment": "Bullish fundamentals and support at MA20 suggest upside potential.",
+    "entry": "7520",
+    "tp": "7840",
+    "sl": "7470",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20 Support Validates Bullish Structure Amid ETF-Driven Flow",
-    "date": "2026-08-09 10:29",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-08-09 17:46",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price holds above MA20, confirming short-term bullish structure",
-      "ETF inflows of $1.1B signal sustained institutional demand",
-      "RSI at 52.98 suggests room for upside with positive divergence"
+      "ETF inflows signal renewed institutional demand",
+      "Price holds above MA20 indicating short‑term bullish bias",
+      "Regulatory clarity vote pending could reduce downside risk"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD holds above key moving average with bullish momentum and ETF-driven inflows supporting upside",
+    "excerpt": "BTC holds above MA20 with steady ETF inflows; upcoming Clarity Act vote may bolster bullish momentum despite neutral RSI.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Strong technical support combined with inflow-driven demand supports continued appreciation toward key resistance zones.",
-    "entry": "64819.51",
-    "tp": "66800.00",
-    "sl": "64200.00",
-    "reliability": "HIGH"
+    "comment": "Price above MA20 with steady ETF inflows and constructive regulatory outlook",
+    "entry": "64380",
+    "tp": "66000",
+    "sl": "63200",
+    "reliability": "MEDIUM"
   }
 }
