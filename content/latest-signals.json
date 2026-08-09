@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-09 01:29",
+    "title": "USD/JPY：AI解析が示す下落シナリオと防御的ポジション管理",
+    "date": "2026-08-09 10:23",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "NFP弱含みでドル売り圧力、しかしRSI深く売られすぎ示す短期反発余地",
-      "MA20上抜けを狙う押し目買い戦略、リスクは155.0付近で定める",
-      "流動性確保のため[dmm-fx]の利用を推奨"
+      "金利相関（近似）: -0.05で負相関傾向",
+      "テクニカル: 現在価格 157.74 と MA20 161.45 の位置関係が主導",
+      "需給: 上限帯 166.27 / 下限帯 156.62 / 直近高値 163.98 / 直近安値 155.26 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "ドルはNFP悪化で売られつつも、RSI22.9の売られすぎからMA20付近での反発が期待される。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 157.74、RSI(22.88)、MA20(161.45)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "NFP弱含みだがRSI売られすぎからMA20付近への反発期待",
-    "entry": "158.00",
-    "tp": "160.80",
-    "sl": "156.00",
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 157.74、RSI(22.88)、MA20(161.45)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-09 01:31",
+    "date": "2026-08-09 10:25",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "野村證券",
     "tldr_points": [
-      "現在価格はMA20を上回り、RSIは70近くで強気モメンタムが維持。",
-      "SocGenが目標株価8000へ引き上げ、ファンドフローの改善が上値を支える。",
-      "地政学的リスクは残るが、ファンダメンタルズの底堅さが優位。"
+      "MA20を上回る価格は上昇トレンドの継続を示唆",
+      "RSIは69.8で過熱感は限定的、上げ余地あり",
+      "インフレ懸念とウォールストリートの堅調が共存し、押し目買いが有効"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "現在価格はMA20を上回り、RSIは70近くで強気モメンタムが維持。SocGenの目標株価8000引き上げやファンドフローの改善が上値を支える。地政学的リスクは残るが、ファンダメンタルズの底堅さが優位。",
+    "excerpt": "S&P500はMA20を上回りRSIは69.8で上げ余地がある。インフレがMain Streetに重くのしかかる一方、ウォールストリートは依然活況で、テクノロジー株への警戒と全体的リスクオンが交錯し、押し目買いの戦略が有効となる。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20支持と強気ファンダメンタルズおよびアナリスト目標引き上げが根拠",
-    "entry": "7700.00",
-    "tp": "8000.00",
-    "sl": "7600.00",
+    "comment": "MA20を上回るトレンドとRSIの限定的過熱感が買いシグナルを示す",
+    "entry": "7580.00",
+    "tp": "7900.00",
+    "sl": "7500.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20反発確認と暗号資産ETF流入による強気タグが一致",
-    "date": "2026-08-09 01:34",
+    "title": "[BTC/USD] UP: MA20上回りと資金流入強化の二重構造",
+    "date": "2026-08-09 10:29",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTC/USDがMA20（64409.08）にて一時的な反落後、65004.70付近で小幅な上昇を再開。",
-      "5月以来の週間最大ラインETF流入（11億ドル）が背景に強気ファンダメンタルズが形成中。",
-      "RSI(14)=54.05はやや上方向にブっ離しており、トレンド延長の余力を示唆。"
+      "現在価格64,819はMA20(64,399)上回り、強気直感余波が続く",
+      "RSI52.98は横ばいから上値還元なし",
+      "ETF流入増とBIP-110サポート層の分散は一時的なリスク"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20反発とETF流入から上値テストを予想。65000ドル水準の戦術的戦略を提示。",
+    "excerpt": "BTC/USDはMA20上回りで勢い継ぎ、同時にETF流入でファンダメンタルズも堅調。押し込め買い局面を狙うべき。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USDはMA20反発とETF流入から上値テストを予想。65000ドル水準の戦術的戦略を提示。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20上回りとETF流入により上昇トレンド継続",
+    "entry": "64200",
+    "tp": "66500",
+    "sl": "63400",
+    "reliability": "HIGH"
   }
 }
