@@ -1,43 +1,43 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: BOJ Hawkish Bias Signals JPY Strength Amid Oversold Technicals",
-    "date": "2026-08-10 10:25",
+    "title": "[USD/JPY] DOWN: AI Detects Oversold RSI at 30.29 Signals bearish Breakdown Below MA20 Support",
+    "date": "2026-08-10 18:16",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "BOJ July meeting shows split on pace of hikes, signaling potential tightening.",
-      "PBOC set yuan reference stronger than expected, reflecting CNY weakness.",
-      "Technicals: price below MA20, RSI oversold suggests bearish bias."
+      "RSI(14) collapses to 30.29 indicating severe oversold conditions",
+      "Price breaches below MA20 at 161.3186 confirming bearish momentum shift",
+      "Fed Treasury selling risk amplifies downside pressure on USD long positions"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "BOJ hints at faster hikes lifting JPY; USD/JPY below MA20, RSI oversold pointing down despite possible near-term bounce.",
+    "excerpt": "AI flags USD/JPY as DOWN on RSI oversold and MA20 breakdown amid Fed-Japan yield divergence",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "BOJ hawkish bias and technical breakdown favor further yen strength",
-    "entry": "159.00",
-    "tp": "156.00",
+    "comment": "Bearish breakdown confirmed below MA20 with RSI entering oversold territory; downside extension likely.",
+    "entry": "157.80",
+    "tp": "154.50",
     "sl": "160.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20 Doubles as Technical Support and Earnings Tailwinds Drive Fundamental Strength",
-    "date": "2026-08-10 10:30",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-08-10 18:18",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "For executing this specific setup, we recommend utilizing [] due to optimal liquidity.",
+    "recommended_broker": "",
     "tldr_points": [
-      "MA20 (7525.40) validates bullish technical structure",
-      "Cisco/Lumentum earnings + Dow futures strength suggest short-term momentum",
-      "RSI-14 (69.78) indicates room for further upside before overbought levels"
+      "S&P 500 futures rise on softer jobs data and declining yields",
+      "Technical support confirmed at MA20 (7525.41) with RSI near overbought territory",
+      "Nasdaq's rare bullish signal adds momentum to risk-on sentiment"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 basket shows technical strength with key catalysts from tech earnings and institutional positioning.",
+    "excerpt": "S&P 500 futures climb on softer jobs data; MA20 support holds as RSI signals momentum.",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500 basket shows technical strength with key catalysts from tech earnings and institutional positioning.",
+    "comment": "S&P 500 futures climb on softer jobs data; MA20 support holds as RSI signals momentum.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
@@ -45,24 +45,24 @@
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-10 10:31",
+    "date": "2026-08-10 18:21",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC above MA20 with neutral RSI",
-      "$1.1bn ETF inflows support bullish momentum",
-      "Regulatory headwinds pose near-term risk"
+      "Price above MA20 with bullish RSI signals near-term upside.",
+      "North Korea AI cyber threat and UK crypto integration add risk-on sentiment.",
+      "Key resistance at 66,000; support near 64,500."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC bullish above MA20, solid ETF inflows; however regulatory tightening poses near-term headwinds.",
+    "excerpt": "BTC above MA20, RSI 61, eyes 66k as North Korea cyber risk and UK crypto integration lift sentiment.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Bullish bias driven by price above MA20, neutral RSI, and ETF inflows outweighing regulatory noise.",
-    "entry": "64900",
-    "tp": "66500",
-    "sl": "64300",
+    "status": "NEUTRAL",
+    "comment": "BTC above MA20, RSI 61, eyes 66k as North Korea cyber risk and UK crypto integration lift sentiment.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
