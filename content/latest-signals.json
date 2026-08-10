@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20反弹及低RSI确认为买入点",
-    "date": "2026-08-10 01:30",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-08-10 10:25",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "RBA利下げと米国データ弱さがドルに下落圧力",
-      "RSI 22.9 が極端な oversold を示唆、MA20 が反発の抵抗線",
-      "テクニカルから短期的な bullish 反発を想定"
+      "BOJは利上げペースについて意見が分かれているが、インフレは2%目標に近づく",
+      "人民元基準レートが予想を上回り、米ドル相対的強さが示唆される",
+      "現在価格はMA20下抜けかつRSIが極端に売られ過ぎており、短期的な反発余地あり"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY は 157.74 で RSI が 23 まで低下、MA20 への反発が予兆。",
+    "excerpt": "BOJの利上げ議論と人民元レートの上振れが米ドルを支える中、テクニカルは売られ過ぎからの反発を示唆。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "RSIの極端な低下とMA20への反発がショート圧力の解除を示唆。",
-    "entry": "157.80",
-    "tp": "161.44",
-    "sl": "156.50",
-    "reliability": "MEDIUM"
+    "comment": "BOJ利上げの緩やかさと人民元レート上振れがドルを支え、テクニカルは売られ過ぎからのMA20反発を示す",
+    "entry": "158.10",
+    "tp": "161.25",
+    "sl": "157.05",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI牽引と技術的反発の二面から上昇軌道再開を期待",
-    "date": "2026-08-10 01:35",
+    "title": "[S&P 500] UP: MA20上回りと強気ファンダメンタルズの転換点確認",
+    "date": "2026-08-10 10:30",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "AIエージェントの経済シミュレーションにより2026年のEPS見通し上方修正",
-      "RSI(14)=69.78による一時的過熱感ながらMA20からの反発模様",
-      "Micron・Nvidiaを核とする半導体関連テーマの買い気配が指富幅を拡大"
+      "現在価格はMA20上位でRSI低濃度から上昇修正局面",
+      "米国経済指標とIT業界実績が上昇支援",
+      "5600.00/5800.00の戦略的項目が主要介入範囲"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はAIエージェントの経済シミュレーション強力なファンダメンタルズを背景に、RSI過熱から一巡後の再上昇を期待。",
+    "excerpt": "S&P500は現在7757.64上昇中央で、MA20(7525.40)上回りつつRSI低濃度からの修正が逮清。IT業界実績と米経済堅調さが上げ方向を支えている。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "AI牽引のファンダメンタルズと技術的反発を確認",
-    "entry": "7720",
-    "tp": "7900",
-    "sl": "7600",
+    "comment": "MA20上回り・RSI低濃度からの修正が逮清。IT業界実績が上昇支援。",
+    "entry": "7600.00",
+    "tp": "5800.00,7900.00",
+    "sl": "7430.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-10 01:37",
+    "date": "2026-08-10 10:31",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "Price above MA20 suggests short-term support.",
-      "ETF inflows indicate institutional demand.",
-      "RSI near neutral leaves room for upside."
+      "価格はMA20を上回り、RSIは中立でやや上昇バイアス。",
+      "ビットコインETFへの1.1億ドル流入と規制の明確化がファンダメンタルズを支援。",
+      "押し目をMA20付近（約64,400ドル）で狙い、流動性の観点から[bitflyer]の利用を推奨。"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD trades above MA20 with steady ETF inflows, suggesting near‑term upside potential despite mixed regulatory news.",
+    "excerpt": "MA20を上回る価格とETF資金流入が上昇を裏付け、押し目買いが有望。リスク管理を徹底し、bitflyerでの取引を推奨。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20付近の押し目買いとETF流入による需給支持を根拠とする",
-    "entry": "64800.00",
-    "tp": "68000.00",
-    "sl": "64000.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "MA20を上回る価格とETF資金流入が上昇を裏付け、押し目買いが有望。リスク管理を徹底し、bitflyerでの取引を推奨。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }

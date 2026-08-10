@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-08-10-crypto-ja",
-    "date": "2026-08-10 01:37",
+    "date": "2026-08-10 10:31",
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "BTC/USD trades above MA20 with steady ETF inflows, suggesting near‑term upside potential despite mixed regulatory news.",
+    "excerpt": "MA20を上回る価格とETF資金流入が上昇を裏付け、押し目買いが有望。リスク管理を徹底し、bitflyerでの取引を推奨。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-08-10-crypto-en",
-    "date": "2026-08-10 01:37",
+    "date": "2026-08-10 10:31",
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "BTC/USD trades above MA20 with steady ETF inflows, suggesting upside potential amid mixed regulatory news for the near term",
+    "excerpt": "BTC bullish above MA20, solid ETF inflows; however regulatory tightening poses near-term headwinds.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-08-10-stocks-ja",
-    "date": "2026-08-10 01:35",
-    "title": "[S&P 500] UP: AI牽引と技術的反発の二面から上昇軌道再開を期待",
+    "date": "2026-08-10 10:30",
+    "title": "[S&P 500] UP: MA20上回りと強気ファンダメンタルズの転換点確認",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
-    "excerpt": "S&P500はAIエージェントの経済シミュレーション強力なファンダメンタルズを背景に、RSI過熱から一巡後の再上昇を期待。",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P500は現在7757.64上昇中央で、MA20(7525.40)上回りつつRSI低濃度からの修正が逮清。IT業界実績と米経済堅調さが上げ方向を支えている。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-08-10-stocks-en",
-    "date": "2026-08-10 01:35",
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-08-10 10:30",
+    "title": "[S&P 500] UP: MA20 Doubles as Technical Support and Earnings Tailwinds Drive Fundamental Strength",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "excerpt": "AI outlook bullish on S&P 500; price near MA20 support, RSI 69.8, earnings catalyst; target 7850 for next rally soon.",
+    "recommended_broker": "For executing this specific setup, we recommend utilizing [] due to optimal liquidity.",
+    "excerpt": "S&P 500 basket shows technical strength with key catalysts from tech earnings and institutional positioning.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-08-10-fx-ja",
-    "date": "2026-08-10 01:30",
-    "title": "[USD/JPY] UP: MA20反弹及低RSI确认为买入点",
+    "date": "2026-08-10 10:25",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "USD/JPY は 157.74 で RSI が 23 まで低下、MA20 への反発が予兆。",
+    "excerpt": "BOJの利上げ議論と人民元レートの上振れが米ドルを支える中、テクニカルは売られ過ぎからの反発を示唆。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-08-10-fx-en",
-    "date": "2026-08-10 01:30",
-    "title": "[USD/JPY] UP: Oversold RSI Signals Potential Rebound Toward MA20 Amid Softening Inflation",
+    "date": "2026-08-10 10:25",
+    "title": "[USD/JPY] DOWN: BOJ Hawkish Bias Signals JPY Strength Amid Oversold Technicals",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
-    "excerpt": "Oversold RSI and sub-MA20 pricing suggest tactical bounce opportunity for USDJPY",
+    "excerpt": "BOJ hints at faster hikes lifting JPY; USD/JPY below MA20, RSI oversold pointing down despite possible near-term bounce.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD consolidates above MA20 (64,407.79) with RSI(14) at 53.90, signaling potential upward breakout if institutional volatility stabilizes.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "野村證券",
     "excerpt": "S&P 500はMA20を上抜け、記録高を達成。ソフト雇用が利上げ懸念を和らげ、上昇余地が残る。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "",
     "excerpt": "S&P 500 climbs to 7,757.64 above MA20 as soft jobs data reduces rate risk, with AI detecting bullish support structure.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "excerpt": "NFP悪化でドル売りが強まり、USD/JPYはMA20を下抜け、オーバーソールド状態でも下値余地が残る。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "US NFP negative, dollar slides; RSI 22.9 oversold; price near MA20 support – bullish upside pending quick markets today.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
