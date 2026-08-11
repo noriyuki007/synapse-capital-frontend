@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 価格はMA20下抜けもRSI極端な売られ状態とファンダメンタルズの米ドル強気要因が一致",
-    "date": "2026-08-11 10:23",
+    "title": "[USD/JPY] UP: MA20付近での反発期待とファンダメンタルズの整合性",
+    "date": "2026-08-11 17:50",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20近辺での押し目買いシグナル",
-      "RSI30付近の売られすぎは反転余地",
-      "米ドル基調強化と円安期待が背景"
+      "価格はMA20下抜けで一時的な調整局面、RSI32で売られ過ぎ",
+      "米国CPI待ちとイラン合意遅延でリスクオフ志向が弱まる",
+      "円買いの鈍さが続くため、ドル円は上抜け余地あり"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "現在価格はMA20を下回りRSIは30で売られすぎ、ファンダメンタルズは米ドル強気、円安傾向を示唆。",
+    "excerpt": "MA20を下回る水準で一時的な調整が進むが、RSIの売られ過ぎとファンダメンタルズの整合性から上昇余地を示唆。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20付近の押し目買いとRSI売られすぎ、ファンダメンタルズの米ドル強気を根拠とする",
-    "entry": "159.10",
-    "tp": "161.50",
-    "sl": "158.00",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: インフレ警戒とMA20乖離による調整局面",
-    "date": "2026-08-11 10:25",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "[指定ブローカー]",
-    "tldr_points": [
-      "価格はMA20を上回るもRSIが66.6でやや過熱感",
-      "インフレデータ待ちで市場はリスクオフ傾向",
-      "下抜けなら7500付近が次のサポート"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20上放れとRSIのやや過熱感が示す短期調整リスク。インフレ警戒と資金流出が下値を試す可能性。",
-    "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "MA20乖離とRSI過熱感、インフレ警戒による調整期待",
-    "entry": "7520.00",
-    "tp": "7400.00",
-    "sl": "7600.00",
+    "status": "NEUTRAL",
+    "comment": "MA20を下回る水準で一時的な調整が進むが、RSIの売られ過ぎとファンダメンタルズの整合性から上昇余地を示唆。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-08-11 17:54",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Nomura Securities",
+    "tldr_points": [
+      "Price above MA20 with RSI near 66 indicates bullish momentum",
+      "CPI data looming may provide near-term volatility but Fed stance supportive",
+      "Technical breakout above 7700 suggests target 7900"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "MA20を上抜け、RSIはやや過熱気味ながら上昇トレンド継続のサイン。",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "MA20上抜けとRSIの上昇モメンタムに加え、インフレ懸念緩和によるファンダメンタルズ支援",
+    "entry": "7750",
+    "tp": "7950",
+    "sl": "7600",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP:ブラックロックの分離トレンドとサイクル復帰サインの’alignment’",
-    "date": "2026-08-11 10:33",
+    "title": "[BTC/USD] UP: MA20付近での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-08-11 17:57",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BLACKROCKの不動産資産バリュエーションデータでBTC背景資産構造再評価を明示",
-      "BTCPayの回復ボーナスが機関投資家のリターンファンドへの資金流入のサイン",
-      "BitdeerのAI転換誤りが短期的なM&A注目点となり得る"
+      "Coinbaseが英国プロ投資家向けデリバティブをローンチし機関需要が拡大",
+      "Broadridgeの分散型レポプラットフォームが8兆ドルの取引高を記録しインフラ需要が高まる",
+      "Riot Platformsの株価急騰がマイニングセクターのポジティブなサプライチェーンを示唆"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "現在価格下方ピンチゾーンでMA20での反発の焦点、リスク管理付ストリングーニング戦略が altaspeakの可能性を反映",
+    "excerpt": "価格はMA20 légèrement 下だが、機関向けデリバティブ拡大とインフラ投資が上値を支え、押し目買いのシナリオが有力。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "現在価格下方ピンチゾーンでMA20での反発の焦点、リスク管理付ストリングーニング戦略が altaspeakの可能性を反映",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "MA20サポートと機関ファンダメンタルズの整合性により上昇期待",
+    "entry": "63950.00",
+    "tp": "64500.00",
+    "sl": "63700.00",
     "reliability": "MEDIUM"
   }
 }
