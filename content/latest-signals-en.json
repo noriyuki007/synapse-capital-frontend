@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Bounce Toward MA20 Amid CPI Uncertainty and BoJ Hike Expectations",
-    "date": "2026-08-12 18:08",
+    "title": "[USD/JPY] UP: AI Detects MA20 Support as Fundamentals Signal Potential Reversal",
+    "date": "2026-08-13 01:54",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US CPI release looms; upside surprise could boost USD/JPY while a miss favors JPY strength.",
-      "BoJ’s anticipated September rate hike introduces medium‑term JPY support, capping near‑term upside.",
-      "Technicals show price below MA20 with RSI ~32, indicating a potential bounce toward the 20‑day average."
+      "Price near MA20 support with oversold RSI suggests a bounce.",
+      "Higher CPI and larger crude inventory indicate USD weakness.",
+      "Technical bias favors upward move if MA20 holds."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY stalls ahead of US CPI; price below MA20, RSI near 32 hints at bullish bounce toward 160.97 amid BoJ hike.",
+    "excerpt": "USD/JPY approaches MA20 support with oversold RSI, while higher CPI and crude inventory data hint at USD weakness.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price below MA20 with RSI near 32 suggests a bounce toward the 20‑day average amid CPI uncertainty and BoJ hike expectations.",
-    "entry": "159.00",
-    "tp": "160.97",
-    "sl": "158.20",
-    "reliability": "MEDIUM"
+    "comment": "Price near MA20 support with oversold RSI and USD fundamentals favoring downside risk.",
+    "entry": "159.50",
+    "tp": "161.00",
+    "sl": "158.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Bullish Momentum Sustained Above MA20 Amid AI Sector Rotation",
-    "date": "2026-08-12 18:21",
+    "title": "[S&P 500] UP: AI Detects Strength Above MA20 as Tech Fundamentals Improve",
+    "date": "2026-08-13 02:00",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "Anticipated volatility surrounding upcoming CPI data creates a tactical entry window.",
-      "AI-driven sector rotation is shifting capital toward high-growth tech and infrastructure.",
-      "Strong price action relative to the 20-day moving average suggests continued bullish structure."
+      "Price holds above 20‑day MA signaling near‑term bullish bias",
+      "RSI at 75 indicates strong momentum but warns of overbought conditions",
+      "AI‑driven earnings upgrades and modest inflation support equity upside"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 maintains bullish posture above MA20; investors await CPI data amid shifting AI sentiment.",
+    "excerpt": "S&P 500 trades above MA20 with elevated RSI; AI fundamentals and modest CPI reinforce near‑term upside.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Price remains above MA20 with strong RSI momentum and AI sector strength.",
-    "entry": "7600.00",
-    "tp": "7850.00",
-    "sl": "7500.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P 500 trades above MA20 with elevated RSI; AI fundamentals and modest CPI reinforce near‑term upside.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: AI Detects Consolidation Near MA20 Amid Mixed Catalysts",
-    "date": "2026-08-12 18:26",
+    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 Amid Fed‑Fed Pressure",
+    "date": "2026-08-13 02:02",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price near MA20 indicates potential support/resistance",
-      "Regulatory news adds downside risk",
-      "USDe growth supports liquidity"
+      "Price below MA20 indicates short‑term weakness.",
+      "CPI data supports a pause in Fed tightening.",
+      "RSI near 50 suggests no strong momentum."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD consolidates near MA20; regulatory headwinds vs USDe liquidity create a balanced outlook.",
+    "excerpt": "BTC/USD faces short‑term resistance at MA20; CPI data and neutral RSI signal a potential pullback in the near term. now!",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "Price consolidating near MA20 with mixed catalysts.",
-    "entry": "63900.00",
-    "tp": "64500.00",
-    "sl": "63500.00",
+    "status": "SELL",
+    "comment": "Price below MA20 and neutral RSI indicate short bias.",
+    "entry": "64000",
+    "tp": "63000",
+    "sl": "64500",
     "reliability": "MEDIUM"
   }
 }
