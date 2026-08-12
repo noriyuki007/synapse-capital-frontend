@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: RSI逸弱とMA20切り下げが短期トップを示唆",
-    "date": "2026-08-12 10:40",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-08-12 18:08",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "RSI(14)が32.18に逸弱し、売り余力増す",
-      "現在価格159.32はMA20（160.97）を大幅に下抜け",
-      "金策拡大観測で日本国債利回り上昇、JPY買い圧力強まる"
+      "USD/JPYはMA20付近でサポートを試す展開、RSIは超売り圏。",
+      "米CPI結果次第でドル買いが再燃、BoJの9月利上げ観測は材料視。",
+      "エントリーは159.30付近、TP 160.80、SL 158.50、流動性観点から[dmm-fx]を推奨。"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20切り下げとRSI逸弱を同時に確認し、短期的な下方向転のシグナルを発している。",
+    "excerpt": "現在価格はMA20を下回りRSIは32で超売り。米CPIとBoJ利上げ期待が交錯する中、押し目買いのシナリオが有力。",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "USD/JPYはMA20切り下げとRSI逸弱を同時に確認し、短期的な下方向転のシグナルを発している。",
+    "comment": "現在価格はMA20を下回りRSIは32で超売り。米CPIとBoJ利上げ期待が交錯する中、押し目買いのシナリオが有力。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-12 10:41",
+    "title": "[S&P 500] UP: MA20 Pullback Confirmation",
+    "date": "2026-08-12 18:21",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "MA20（7546.53）での反発を確認",
-      "RSI(14)は65.33と過熱感抑える",
-      "CPIデータ待ちの押し目買い機会"
+      "S&P 500 above 20‑day MA, RSI 65 signals bullish momentum",
+      "Upcoming CPI data and AI‑driven rally support upside",
+      "Technical setup targets 7900 with support at 7546"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20での反発を示し、CPIデータ前の押し目買い狙い。RSIは過熱感なく健全。",
+    "excerpt": "S&P 500 trades above MA20 at 7728, RSI 65, bullish bias with upside target near 7900.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P500はMA20での反発を示し、CPIデータ前の押し目買い狙い。RSIは過熱感なく健全。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20に拠り所を確認し、RSIが上昇モメンタムを示し、CPIを控えて強気。",
+    "entry": "7600",
+    "tp": "7900",
+    "sl": "7500",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20での反落と利上げ観慣れ化による時間のもろさ",
-    "date": "2026-08-12 10:43",
+    "title": "[BTC/USD] DOWN: MA20割れとリスクオフファンダメンタルズの整合性",
+    "date": "2026-08-12 18:26",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTC/USDはMA20（64,136）に近づり弱気フラグ形成",
-      "RSIは49割れでも追落余地あり",
-      "利上げ修調観慣れがリスク選好的資産を圧迫"
+      "価格はMA20を下抜け、売り圧力が優位",
+      "マクロでは規制強化とレイオフがリスクオフを誘発",
+      "RSIは中立近辺で反転の余地は限定的"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20付近で頭打ちし利上げ修調観が強化される中で短線は弱気だが戦略的な反発狙いも有効。",
+    "excerpt": "MA20下抜けと規制・レイオフニュースが売りバイアスを強化、bitflyerの流動性を活用した売り戦略を提示。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20割れと利上げ修調観の強化により短線弱気",
-    "entry": "63730.00",
-    "tp": "63000.00",
-    "sl": "64200.00",
+    "status": "NEUTRAL",
+    "comment": "MA20下抜けと規制・レイオフニュースが売りバイアスを強化、bitflyerの流動性を活用した売り戦略を提示。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
