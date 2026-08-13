@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: 短期的なインフレ鈍化期待とRSIの売られすぎ水準による調整局面",
-    "date": "2026-08-13 01:54",
+    "title": "[USD/JPY] UP: RSI<30の極限反発と金利スプレッド拡大のファンダメンタルズ裏付け",
+    "date": "2026-08-13 10:42",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "Cleveland Fed CPIの上昇によりインフレ圧力は継続するものの、ドル指数の下落が先行",
-      "テクニカル面ではRSI(14)が32.65と売られすぎ水準に接近し、調整の可能性を示唆",
-      "EIA原油在庫増によるエネルギー価格の軟調さがドル指数に下押し圧力"
+      "RSI(14)=26.84で極弱信号、MA20(160.83)付近で反発期待",
+      "日銀政策金利維持圧力と米連邦金利高水準がドル円を支える",
+      "PBOCの元件率設定もドル高リスクを背景に"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米国CPIの数値は予想を上回ったものの、ドル指数は下落傾向にあり、USD/JPYはMA20との乖離拡大に伴うテクニカル的な調整局面にある。EIAの在庫増加もドルの上値を抑える要因となっており、短期的には下押し圧力が強い。",
+    "excerpt": "RSI極弱＋MA20近接で押し目買い機会。日銀の政策金利維持と米金利高水準がドル冊を支える。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "RSIの売られすぎ水準とMA20への価格回帰を想定したリバウンド狙い",
-    "entry": "159.20",
-    "tp": "160.80",
-    "sl": "158.80",
-    "reliability": "MEDIUM"
+    "comment": "RSI極弱 + MA20近接 + 金利スプレッド拡大で反発期待",
+    "entry": "159.50",
+    "tp": "160.70",
+    "sl": "158.70",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20上攻とAI効率化株式のファンダメンタルズ改善が一致",
-    "date": "2026-08-13 02:00",
+    "title": "[S&P 500] UP: MA20付近での押し目買いとファンダメンタルズの底堅さを確認",
+    "date": "2026-08-13 10:44",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "現在価格7752.48はMA20上位で強気継続",
-      "RSI75過熱もファンダメンタルズ支える快調",
-      "AI効率化株の利益改善が需給転換を牽引"
+      "価格はMA20を上回り上昇基盤維持",
+      "RSIは75で過熱感あり、押し目待ち",
+      "ファンダメンタルズはヘルスケアETF議論とディビデンド株で底堅さ示唆"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20上昇とRSI過熱が共鳴し、AI効率化株の利益改善が需給転換を牽引。押しもの局面であり、戦略的エントリーを推奨する。",
+    "excerpt": "MA20を上抜けながらRSIが過熱域に入る中、押し目買いの機会を探る。ファンダメンタルズはヘルスケアセクターの相対評価と高配当株の魅力が支える。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20上攻とAI効率化株式の利益改善がファンダメンタルズを支え、過熱は一時的と判断",
-    "entry": "7550.00",
-    "tp": "8050.00",
-    "sl": "7555.53",
-    "reliability": "HIGH"
+    "comment": "MA20付近の押し目買い、ファンダメンタルズの底堅さが支持",
+    "entry": "7570.00",
+    "tp": "7850.00",
+    "sl": "7500.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20下抜けとCPIインラインでファンダメンタルズが弱気を示す",
-    "date": "2026-08-13 02:02",
+    "title": "[BTC/USD] FLAT: MA20付近でのレンジ推移と機関ファンダの混在",
+    "date": "2026-08-13 10:47",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "現在価格63,424ドルはMA20(64,047)を下回り、短期トレンドは下向き。",
-      "RSIは46.6で中立からやや売り圧力、モメンタム弱化。",
-      "CPIインラインでFRBの政策転換期待が薄れ、リスクオフが強まる。"
+      "MA20を挟んで価格が横ばい、短期的には方向感に乏しい。",
+      "機関向けオンチェーン決済の承認が中長期的需給を支える。",
+      "RSIは中立域で、オーダーフローは両建てが続く。"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を下抜け、RSIはやや弱気、CPIインラインでFRB転換期待が薄れ、下値リスクが高まっている。",
+    "excerpt": "MA20近辺でレンジが継続、機関のオンチェーン導入が底堅さを示す中、短期方向性は不明瞭。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20下抜けとインラインCPIによる金利環境硬化が下値リスクを強化",
-    "entry": "63200",
-    "tp": "61800",
-    "sl": "64200",
+    "status": "NEUTRAL",
+    "comment": "MA20を挟んだレンジ相場で方向感に乏しく、中立スタンスが妥当",
+    "entry": "63800.00",
+    "tp": "63000.00",
+    "sl": "64200.00",
     "reliability": "MEDIUM"
   }
 }

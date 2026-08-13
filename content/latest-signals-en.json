@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects MA20 Support as Fundamentals Signal Potential Reversal",
-    "date": "2026-08-13 01:54",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20",
+    "date": "2026-08-13 10:42",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price near MA20 support with oversold RSI suggests a bounce.",
-      "Higher CPI and larger crude inventory indicate USD weakness.",
-      "Technical bias favors upward move if MA20 holds."
+      "Price near MA20 support amid oversold RSI",
+      "BOJ‑intervention risk from weak US data could limit downside",
+      "Elevated Japan PPI keeps BOJ hike prospects alive"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY approaches MA20 support with oversold RSI, while higher CPI and crude inventory data hint at USD weakness.",
+    "excerpt": "AI flags MA20 support at 160.83, oversold RSI 26.8, and BOJ‑intervention risk, targeting a rebound toward 162.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Price near MA20 support with oversold RSI and USD fundamentals favoring downside risk.",
-    "entry": "159.50",
-    "tp": "161.00",
-    "sl": "158.80",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "AI flags MA20 support at 160.83, oversold RSI 26.8, and BOJ‑intervention risk, targeting a rebound toward 162.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Strength Above MA20 as Tech Fundamentals Improve",
-    "date": "2026-08-13 02:00",
+    "title": "[S&P 500] UP: Price Above MA20 with Strong Momentum Awaiting Catalyst",
+    "date": "2026-08-13 10:44",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price holds above 20‑day MA signaling near‑term bullish bias",
-      "RSI at 75 indicates strong momentum but warns of overbought conditions",
-      "AI‑driven earnings upgrades and modest inflation support equity upside"
+      "Price trades above the 20‑day MA at 7,748.5, indicating bullish intermediate‑term bias.",
+      "RSI at 75.1 shows strong momentum but approaches overbought territory, warranting caution on extended moves.",
+      "Fundamental backdrop is mixed: healthcare ETF debate and dividend‑stock safety contrast with valuation concerns in FactSet and peer‑group mispricing."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades above MA20 with elevated RSI; AI fundamentals and modest CPI reinforce near‑term upside.",
+    "excerpt": "S&P 500 holds above MA20 with RSI near 75; look for dip‑buying opportunity amid mixed healthcare and valuation news.",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500 trades above MA20 with elevated RSI; AI fundamentals and modest CPI reinforce near‑term upside.",
+    "comment": "S&P 500 holds above MA20 with RSI near 75; look for dip‑buying opportunity amid mixed healthcare and valuation news.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 Amid Fed‑Fed Pressure",
-    "date": "2026-08-13 02:02",
+    "title": "[BTC/USD] FLAT: Sideways Consolidation Preceding Macro Institutional Inflows",
+    "date": "2026-08-13 10:47",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price below MA20 indicates short‑term weakness.",
-      "CPI data supports a pause in Fed tightening.",
-      "RSI near 50 suggests no strong momentum."
+      "Institutional liquidity inflows via on-chain cash management systems",
+      "Increasing Ethereum staking yields driving capital rotation",
+      "Price trading below MA20 indicating short-term bearish momentum"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD faces short‑term resistance at MA20; CPI data and neutral RSI signal a potential pullback in the near term. now!",
+    "excerpt": "BTC consolidating below MA20 as institutional on-chain adoption accelerates via Franklin Templeton.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price below MA20 and neutral RSI indicate short bias.",
-    "entry": "64000",
-    "tp": "63000",
-    "sl": "64500",
+    "status": "NEUTRAL",
+    "comment": "Price trading below MA20 with RSI indicating neutral momentum; awaiting breakout.",
+    "entry": "64050.00",
+    "tp": "65800.00",
+    "sl": "62900.00",
     "reliability": "MEDIUM"
   }
 }
