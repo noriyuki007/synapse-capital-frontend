@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-08-14-crypto-ja",
+    "date": "2026-08-14 02:04",
+    "title": "[BTC/USD] FLAT: MA20直下集中トレードと控えめな利確待機",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USDはMA20直下での横レンジが続し、RSIは37.51でやや弱い水準。トレードは控えめに利確中心とする。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-14-crypto-en",
+    "date": "2026-08-14 02:04",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD poised for upside as price tests MA20 support, RSI indicates oversold conditions, and macro backdrop shows stabilizing liquidity.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-08-14-stocks-ja",
+    "date": "2026-08-14 02:02",
+    "title": "[S&P 500] UP: RSI過熱圏におけるモメンタム継続と移動平均線乖離による強気トレンド",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "指定ブローカー",
+    "excerpt": "S&P 500はテクニカル面で極めて強いモメンタムを示しており、RSI(14)は76を超え過熱圏にあるものの、MA20との乖離を含め上昇トレンドが鮮明である。セクター別ではM&Aや堅調な決算発表が下値を支えており、短期的な押し目買い戦略が有効な局面である。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-14-stocks-en",
+    "date": "2026-08-14 02:02",
+    "title": "[S&P 500] UP: AI Detects Breakout Above MA20 with Bullish RSI Momentum",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 breaks above MA20 with RSI momentum; bullish catalysts from tech earnings and M&A support upside.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-08-14-fx-ja",
+    "date": "2026-08-14 01:53",
+    "title": "[USD/JPY] UP: MA20での反発とリスクオンフローの整合性を確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYはMA20付近での押し目買いが期待され、テクニカルとファンダが上昇バイアスを示す。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-14-fx-en",
+    "date": "2026-08-14 01:53",
+    "title": "[USD/JPY] DOWN: RSI Divergence Signals Weakness as Fed Policy Uncertainty Persists",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY faces headwinds from oversold RSI and MA20 break, prompting cautious trading.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-08-13-crypto-ja",
     "date": "2026-08-13 18:14",
     "title": "[BTC/USD] DOWN: MA20の上抵抑と弱気モメンタムが短期方向性をネゲート",
