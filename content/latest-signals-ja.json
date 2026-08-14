@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: RSI端な売られすぎとMA20離からの自律反発をう",
-    "date": "2026-08-14 18:04",
+    "title": "[USD/JPY] UP: MA20付近での反発と弱い米ファンダメンタルズを考慮",
+    "date": "2026-08-15 01:49",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "RSI 27.1の深刻な売られすぎとMA20からの大幅離が短期反発のトリガー",
-      "159.00-159.50帯に実需・オプション関連の強力ない板が存在し下を限定",
-      "CPI上振れでユーロい・ドル売りが進行も、クロス円いしがドル円を下支え"
+      "米国経済指標の弱含みがドルに下押し圧力",
+      "RSI27.7とMA20乖離は短期的な反発シグナル",
+      "流動性の観点から[dmm-fx]での執行を推奨"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "ドル円は159.13まで急落しRSIが27台へ突入。MA20との離率約1%は短期的な自律反発を示し、159.00付近のいい板を足場に160.50付近までのリバウンドをう戦略が有。",
+    "excerpt": "米国経済指標の弱含みと欧州株安がドル円に下押し圧力をかける中、RSIが27.7と売られ過ぎとなり、MA20付近での反発を狙う短期的な買いシナリオが浮上。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "RSIとサポート帯整合による短期リバウンドい。リスクリワード当。",
-    "entry": "159.15",
+    "comment": "RSI売られ過ぎとMA20反発期待に基づく短期買い",
+    "entry": "159.20",
     "tp": "160.50",
-    "sl": "158.50",
+    "sl": "158.80",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20突破と金利低下期の資金流入が上値余地を支える",
-    "date": "2026-08-14 18:07",
+    "title": "[S&P 500] UP: MA20上抜けとモメンタム拡大の確認によるリトリート買い戦略",
+    "date": "2026-08-15 01:52",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "IG証券",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "RSIが76.7と過熱域に接近しつつも上値余地残す",
-      "MA20（7568）を上回る7799での価格は即時上昇トレンドの確認",
-      "本戦略はIG証券の高流動性を活用した実行を推奨"
+      "技術指標RSI 74.75とMA20上回りで過熱感も上昇局面を強調",
+      "消費者信頼力低下・小売販売額14か月ぶり下落というリスク要因を分析",
+      "流動性確保のためInteractive Brokersのマルチアセット取引平台を推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "RSIが76.7に上昇し、MA20（7568）を7799円で突破。短期押し目買いでリスク管理し、IG証券の高流動性を活用した取引を推奨。金利低下局面で資金流入が続く見通し。今後のECI公表に注意し、マーケット全体のボラティリティ拡大が見込まれる。",
+    "excerpt": "S&P 500はMA20（7584.73）上回りRSI 74.75の過熱局面にありながら、消費者信頼力低下や小売販売額の急落といったリスクが顕在化。技術的には上昇局面の筋透過が続く中、戦略的リトリートでの買い戦を提案する。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "RSIが76.7に上昇し、MA20（7568）を7799円で突破。短期押し目買いでリスク管理し、IG証券の高流動性を活用した取引を推奨。金利低下局面で資金流入が続く見通し。今後のECI公表に注意し、マーケット全体のボラティリティ拡大が見込まれる。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20上抜けとRSI 74.75の過熱感を踏まえ、リスクリスク管理下でのリトリeet買い戦略を推奨",
+    "entry": "7600",
+    "tp": "7850",
+    "sl": "7450",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "戦術的インサイト：BTC/USDの均衡状態とブレイク条件の定義",
-    "date": "2026-08-14 18:11",
+    "title": "[BTC/USD] UP: テクニカル逆接近と機関流動性拡大の二重シグナル",
+    "date": "2026-08-15 01:56",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "金利相関（近似）: -0.29で負相関傾向",
-      "テクニカル: 現在価格 62805.19 と MA20 63935.38 の位置関係が主導",
-      "需給: 上限帯 65451.74 / 下限帯 62419.02 / 直近高値 65658.34 / 直近安値 62226.58 によるターゲット設計"
+      "MA20下突破後の逆指値買い局面",
+      "Norway SWFのBTC暴露比率拡大と流動性枝葉",
+      "RSI正常域でのモメンタム維持"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 62805.19、RSI(49.91)、MA20(63935.38)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "BTC/USDは63,065円でMA20(63,948)下突破後の整理局面。RSIは52.7で横ばい。機関関与の流動性拡大が買い板支えとなり、押し目買いを推奨する。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、BTC/USDの現在価格 62805.19、RSI(49.91)、MA20(63935.38)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20下突破後の押し目買い局面。機関流動性拡大とRSI正常域からの反発を注視",
+    "entry": "62800",
+    "tp": "64500",
+    "sl": "61500",
+    "reliability": "HIGH"
   }
 }

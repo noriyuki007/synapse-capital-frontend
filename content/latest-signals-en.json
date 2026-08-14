@@ -1,69 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Oversold Momentum at RSI 27.15 with MA20 Resistance at 160.67",
-    "date": "2026-08-14 18:04",
+    "title": "[USD/JPY] UP: Oversold RSI & Yield Support Signal Tactical Bounce",
+    "date": "2026-08-15 01:49",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY oversold at RSI 27.15 ahead of MA20 (160.67)",
-      "French inflation rise offsets Eurozone/Swiss growth",
-      "FX option expiry may trigger short-covering",
-      "Buy dip targeting MA20 with 6-pip stop below 158.50"
+      "RSI(14) at 27.7 signals extreme oversold condition ripe for mean reversion",
+      "Global yield surge provides fundamental floor despite weak US sentiment data",
+      "Price action 1.3% below MA20 offers high reward-to-risk long setup toward 160.68"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY at 159.13, RSI 27.15 suggests oversold bounce toward MA20 (160.67) amid options expiry-driven volatility.",
+    "excerpt": "USD/JPY tests 159.33 with RSI deeply oversold; rising yields and exhaustive selling pressure favor tactical long toward MA20 at 160.68.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "RSI 27.15 signals oversold bounce with MA20 (160.67) as nearest resistance",
-    "entry": "159.25",
-    "tp": "160.67",
-    "sl": "158.45",
+    "comment": "Deeply oversold RSI with yield support favors tactical mean reversion to MA20.",
+    "entry": "159.30",
+    "tp": "160.68",
+    "sl": "158.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Flags Support Near MA20 Amid Cooling Inflation",
-    "date": "2026-08-14 18:07",
+    "title": "[S&P 500] UP: S&P 500 holds above MA20 with overbought RSI, AI narrative limits downside",
+    "date": "2026-08-15 01:52",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "Cooling inflation eases rate fears, bolstering risk appetite.",
-      "Tech earnings lift indices, confirming bullish momentum.",
-      "Price holds above MA20 with RSI near overbought but sustainable."
+      "S&P 500 holding above MA20 despite overbought RSI",
+      "Mixed fundamentals with AI narrative providing upside bias",
+      "RSI 74.75 flags short-term caution but trend remains bullish"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 eyes upside as cooling inflation eases rate fears; tech earnings lift indices, target 7850 with bullish bias now",
+    "excerpt": "S&P 500 at 7780 tests overbought RSI 74.75; AI boom counters weak retail sales; MA20 at 7585 provides key support.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Bullish momentum supported by cooling inflation and tech earnings.",
-    "entry": "7770",
-    "tp": "7850",
-    "sl": "7700",
-    "reliability": "HIGH"
+    "comment": "Price above MA20 with overbought RSI; pullback to MA20 offers defined-risk entry.",
+    "entry": "7584.73",
+    "tp": "7850.00",
+    "sl": "7570.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-14 18:11",
+    "date": "2026-08-15 01:56",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price near MA20, RSI neutral; bullish catalysts emerging, target modest upside.",
-      "MA20 at 63935 acts as immediate support, suggesting upside potential.",
-      "Fundamental news cycle shifts bullish, supporting a short‑term rally."
+      "AI identifies MA20 (63,948) as critical support level",
+      "Binance sanctions dislocation may redirect liquidity to compliant platforms",
+      "Kraken revenue growth signals maturing institutional adoption"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Price near MA20, RSI neutral; bullish catalysts emerging, target modest upside.",
+    "excerpt": "BTC/USD poised for upside break above MA20 with fundamental tailwinds from On-chain Treasury developments.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "Price near MA20, RSI neutral; bullish catalysts emerging, target modest upside.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20 support confirmed by AI flux analysis amid institutional order flow accumulation",
+    "entry": "63000",
+    "tp": "64200",
+    "sl": "62500",
+    "reliability": "HIGH"
   }
 }
