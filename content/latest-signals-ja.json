@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発とリスクオンフローの整合性を確認",
-    "date": "2026-08-14 01:53",
+    "title": "[USD/JPY] UP: 円安期待とリスクオフが根拠",
+    "date": "2026-08-14 10:40",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20下押しでRSIが28と売られ過ぎ",
-      "リスクオンシグナルがAUDUSDの上昇とオイル下落に現れる",
-      "ファンダメンタルズはFedの不確実性から米ドルの下振れ圧力が限定的"
+      "円安が再燃しリスクオフが続く中、USD/JPYは上値余地を拡大する可能性が高い",
+      "PBOCの参考相場が6.7878と予想上回り円高圧力が緩和",
+      "テクニカルは20MA付近で支えられ、下値は限定的"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20付近での押し目買いが期待され、テクニカルとファンダが上昇バイアスを示す。",
+    "excerpt": "円安が再燃し、リスクオフが続くとUSD/JPYは上値余地を拡大する可能性が高い。一方で政府の介入警戒感が残存し、急落リスクも顕在化。今後の動向は技術的抵抗とファンダの二重の焦点となる。",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "USD/JPYはMA20付近での押し目買いが期待され、テクニカルとファンダが上昇バイアスを示す。",
+    "comment": "円安が再燃し、リスクオフが続くとUSD/JPYは上値余地を拡大する可能性が高い。一方で政府の介入警戒感が残存し、急落リスクも顕在化。今後の動向は技術的抵抗とファンダの二重の焦点となる。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: RSI過熱圏におけるモメンタム継続と移動平均線乖離による強気トレンド",
-    "date": "2026-08-14 02:02",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-08-14 10:44",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "指定ブローカー",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "RSI 76超の強い上昇モメンタムを確認",
-      "MA20の上方乖離によるトレンド継続示唆",
-      "主要セクターの堅調な決算とM&Aによる下値支持"
+      "S&P 500はMA20を上回り、RSIは過熱圏だが、利下げ懸念の緩和が上支え",
+      "Workday、Sandisk、Applied Materialsの好決算が個別株の底上げに寄与",
+      "押し目買いをMA20付近で検討し、リスクは7500付近にストップロスを設定"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はテクニカル面で極めて強いモメンタムを示しており、RSI(14)は76を超え過熱圏にあるものの、MA20との乖離を含め上昇トレンドが鮮明である。セクター別ではM&Aや堅調な決算発表が下値を支えており、短期的な押し目買い戦略が有効な局面である。",
+    "excerpt": "S&P 500はMA20を上抜け、RSIは76.7で過熱気味だが、利上げ懸念の後退と好決算が上値を支える。押し目買いを検討すべき局面。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "RSI 76超の強力なモメンタムとMA20の上方乖離を確認。押し目を狙った買い戦略を推奨。",
-    "entry": "7700.00",
+    "comment": "MA20押し目買いとファンダメンタルズの整合性により上値余地あり",
+    "entry": "7575.00",
     "tp": "7950.00",
-    "sl": "7550.00",
-    "reliability": "HIGH"
+    "sl": "7500.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: MA20直下集中トレードと控えめな利確待機",
-    "date": "2026-08-14 02:04",
+    "title": "[BTC/USD] DOWN: 短期過熱と金利上昇懸念が支配",
+    "date": "2026-08-14 10:49",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTCはMA20直下にて横境界運動を続ける",
-      "RSIは37.51とやや弱い水準だが反発力も確認",
-      "ポジションは小さく利確狙いのショートトウェストレンジ戦略を推奨"
+      "RSIが40台で下落局面が示唆",
+      "MA20を下回る下落余地あり",
+      "ニュース注目度は低く実需は限定的"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20直下での横レンジが続し、RSIは37.51でやや弱い水準。トレードは控えめに利確中心とする。",
+    "excerpt": "BTCは63,500 USD付近で下落トレンド。RSIが40台に低下し、MA20上回る余地なし。金利上昇懸念と売圧が相まって投資家はリスク回避的に売り越す。短期的に押し目買いの余地は限定的。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USDはMA20直下での横レンジが続し、RSIは37.51でやや弱い水準。トレードは控えめに利確中心とする。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "MA20下回り、RSI低下でショートシナリオが有力",
+    "entry": "63484.94",
+    "tp": "61500",
+    "sl": "64200",
+    "reliability": "HIGH"
   }
 }
