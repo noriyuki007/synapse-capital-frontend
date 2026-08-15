@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Oversold RSI & Yield Support Signal Tactical Bounce",
-    "date": "2026-08-15 01:49",
+    "title": "[USD/JPY] DOWN: Oversold RSI and Deteriorating Fundamentals Signal Risk-Off Repricing",
+    "date": "2026-08-15 10:02",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "RSI(14) at 27.7 signals extreme oversold condition ripe for mean reversion",
-      "Global yield surge provides fundamental floor despite weak US sentiment data",
-      "Price action 1.3% below MA20 offers high reward-to-risk long setup toward 160.68"
+      "USD/JPY testing key support near 159.30 amid risk-off tone",
+      "RSI-14 at oversold 26.9 signaling potential for deeper correction",
+      "Geopolitical tension and yield compression weigh on bullish momentum"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY tests 159.33 with RSI deeply oversold; rising yields and exhaustive selling pressure favor tactical long toward MA20 at 160.68.",
+    "excerpt": "USD/JPY under pressure near 159.30 as RSI hits oversold territory amid risk-off sentiment.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Deeply oversold RSI with yield support favors tactical mean reversion to MA20.",
+    "status": "SELL",
+    "comment": "Oversold RSI and deteriorating rate differentials reinforce bearish technical structure",
     "entry": "159.30",
-    "tp": "160.68",
-    "sl": "158.50",
+    "tp": "157.50",
+    "sl": "160.80",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: S&P 500 holds above MA20 with overbought RSI, AI narrative limits downside",
-    "date": "2026-08-15 01:52",
+    "title": "[S&P 500] DOWN: Overbought RSI Caps Rally as Geopolitical Risks Resurface",
+    "date": "2026-08-15 10:03",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 holding above MA20 despite overbought RSI",
-      "Mixed fundamentals with AI narrative providing upside bias",
-      "RSI 74.75 flags short-term caution but trend remains bullish"
+      "RSI 75.3 overbought signals near-term exhaustion near MA20",
+      "Geopolitical tensions and mixed earnings weigh on risk sentiment",
+      "Price above MA20 but vulnerable to 7800 resistance break"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 at 7780 tests overbought RSI 74.75; AI boom counters weak retail sales; MA20 at 7585 provides key support.",
+    "excerpt": "S&P 500 faces overbought RSI and geopolitical headwinds near MA20, with downside risk tilted toward 7800 support.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Price above MA20 with overbought RSI; pullback to MA20 offers defined-risk entry.",
-    "entry": "7584.73",
-    "tp": "7850.00",
-    "sl": "7570.00",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Overbought RSI and geopolitical tensions favor near-term decline toward MA20 support.",
+    "entry": "7785.76",
+    "tp": "7585.00",
+    "sl": "7850.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-15 01:56",
+    "date": "2026-08-15 10:05",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "AI identifies MA20 (63,948) as critical support level",
-      "Binance sanctions dislocation may redirect liquidity to compliant platforms",
-      "Kraken revenue growth signals maturing institutional adoption"
+      "Price holds below MA20 with RSI near neutral, suggesting a potential mean‑reversion bounce.",
+      "ETF approval hopes and OCC conditional clearance provide regulatory tailwinds.",
+      "French tax breach introduces short‑term security headwinds but is unlikely to derail medium‑term upside."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD poised for upside break above MA20 with fundamental tailwinds from On-chain Treasury developments.",
+    "excerpt": "BTC hovers near 62.9k, below MA20 but RSI neutral; ETF hopes and OCC approval bias upside, while tax breach risks linger",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20 support confirmed by AI flux analysis amid institutional order flow accumulation",
-    "entry": "63000",
-    "tp": "64200",
-    "sl": "62500",
-    "reliability": "HIGH"
+    "comment": "Price below MA20 with neutral RSI and bullish regulatory/ETF catalysts favors a bounce toward the moving average.",
+    "entry": "62800.00",
+    "tp": "64600.00",
+    "sl": "62100.00",
+    "reliability": "MEDIUM"
   }
 }
