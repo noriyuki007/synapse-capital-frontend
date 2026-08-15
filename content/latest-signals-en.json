@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Oversold RSI and Deteriorating Fundamentals Signal Risk-Off Repricing",
-    "date": "2026-08-15 10:02",
+    "title": "[USD/JPY] DOWN: Dollar Weakens on Rising Yields and Geopolitical Risk",
+    "date": "2026-08-15 17:23",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY testing key support near 159.30 amid risk-off tone",
-      "RSI-14 at oversold 26.9 signaling potential for deeper correction",
-      "Geopolitical tension and yield compression weigh on bullish momentum"
+      "US Treasury yields rise, exerting downward pressure on the dollar.",
+      "Geopolitical escalation around the Strait of Hormuz boosts safe‑haven demand for the yen.",
+      "Technical oversold conditions (RSI ~27) limit upside, reinforcing a bearish bias."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY under pressure near 159.30 as RSI hits oversold territory amid risk-off sentiment.",
+    "excerpt": "USD/JPY pressuredby rising yields and geopolitical risk;oversold technicals suggest bounce before near further downside!",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "Oversold RSI and deteriorating rate differentials reinforce bearish technical structure",
-    "entry": "159.30",
-    "tp": "157.50",
-    "sl": "160.80",
-    "reliability": "HIGH"
+    "comment": "Rising yields and geopolitical risk bolster yen strength while technical resistance at MA20 favors a short entry.",
+    "entry": "160.00",
+    "tp": "158.00",
+    "sl": "161.00",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Overbought RSI Caps Rally as Geopolitical Risks Resurface",
-    "date": "2026-08-15 10:03",
+    "title": "[S&P 500] UP: Price Holds Above MA20 Amid Mixed Fundamentals",
+    "date": "2026-08-15 17:32",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "RSI 75.3 overbought signals near-term exhaustion near MA20",
-      "Geopolitical tensions and mixed earnings weigh on risk sentiment",
-      "Price above MA20 but vulnerable to 7800 resistance break"
+      "Price above MA20 signals near-term upside.",
+      "RSI at 75 indicates overbought conditions, caution on extended move.",
+      "Mixed news: Reddit inclusion boosts sentiment; geopolitical risk weighs."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces overbought RSI and geopolitical headwinds near MA20, with downside risk tilted toward 7800 support.",
+    "excerpt": "S&P 500 holds above MA20 with RSI overbought; bullish bias persists despite geopolitical tension and mixed earnings.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Overbought RSI and geopolitical tensions favor near-term decline toward MA20 support.",
-    "entry": "7785.76",
-    "tp": "7585.00",
-    "sl": "7850.00",
-    "reliability": "HIGH"
+    "status": "BUY",
+    "comment": "Price above MA20 with bullish momentum despite overbought RSI",
+    "entry": "7750.00",
+    "tp": "7900.00",
+    "sl": "7700.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-15 10:05",
+    "title": "[BTC/USD] DOWN: Price Below MA20 Amid Regulatory Uncertainty",
+    "date": "2026-08-15 17:37",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price holds below MA20 with RSI near neutral, suggesting a potential mean‑reversion bounce.",
-      "ETF approval hopes and OCC conditional clearance provide regulatory tailwinds.",
-      "French tax breach introduces short‑term security headwinds but is unlikely to derail medium‑term upside."
+      "Price trading below the 20‑day MA with neutral RSI signals bearish momentum",
+      "Regulatory developments and order‑flow concentration add downside pressure",
+      "Institutional ETF filings contrast with recent negative news, reinforcing a cautious outlook"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC hovers near 62.9k, below MA20 but RSI neutral; ETF hopes and OCC approval bias upside, while tax breach risks linger",
+    "excerpt": "BTC trades below MA20, RSI neutral, and regulatory news heighten downside risk.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Price below MA20 with neutral RSI and bullish regulatory/ETF catalysts favors a bounce toward the moving average.",
-    "entry": "62800.00",
-    "tp": "64600.00",
-    "sl": "62100.00",
+    "status": "NEUTRAL",
+    "comment": "BTC trades below MA20, RSI neutral, and regulatory news heighten downside risk.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
