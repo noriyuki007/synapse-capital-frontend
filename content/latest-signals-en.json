@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Dollar Weakens on Rising Yields and Geopolitical Risk",
-    "date": "2026-08-15 17:23",
+    "title": "[USD/JPY] DOWN: Technical Pressure and Safe-Haven JPY Drive Bearish Momentum",
+    "date": "2026-08-16 01:20",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US Treasury yields rise, exerting downward pressure on the dollar.",
-      "Geopolitical escalation around the Strait of Hormuz boosts safe‑haven demand for the yen.",
-      "Technical oversold conditions (RSI ~27) limit upside, reinforcing a bearish bias."
+      "USD/JPY below 20‑DMA at 160.52",
+      "RSI 26.9 signals oversold but macro favors JPY",
+      "Short setup with TP 158.00, SL 161.00"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY pressuredby rising yields and geopolitical risk;oversold technicals suggest bounce before near further downside!",
+    "excerpt": "USD/JPY trades below MA20 at 159.30, RSI 26.9; bearish bias with support at 158.00.",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "Rising yields and geopolitical risk bolster yen strength while technical resistance at MA20 favors a short entry.",
-    "entry": "160.00",
+    "comment": "Bearish momentum confirmed by price below MA20 and macro‑driven JPY strength.",
+    "entry": "159.30",
     "tp": "158.00",
     "sl": "161.00",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Price Holds Above MA20 Amid Mixed Fundamentals",
-    "date": "2026-08-15 17:32",
+    "title": "[S&P 500] UP: Reddit Inclusion and Tech Strength Drive Momentum Above MA20",
+    "date": "2026-08-16 01:22",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price above MA20 signals near-term upside.",
-      "RSI at 75 indicates overbought conditions, caution on extended move.",
-      "Mixed news: Reddit inclusion boosts sentiment; geopolitical risk weighs."
+      "Price holds above MA20 with RSI in overbought territory, indicating sustained upward momentum.",
+      "Reddit's S&P 500 addition and strength in Sandisk/Nvidia provide fundamental tailwinds.",
+      "Near‑term pullback to the 7,600–7,650 zone offers a low‑risk entry toward an 8,000 target."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above MA20 with RSI overbought; bullish bias persists despite geopolitical tension and mixed earnings.",
+    "excerpt": "S&P 500 above MA20, RSI 75, Reddit lift and tech strength; bullish bias toward 8,000 target.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price above MA20 with bullish momentum despite overbought RSI",
-    "entry": "7750.00",
-    "tp": "7900.00",
-    "sl": "7700.00",
-    "reliability": "MEDIUM"
+    "comment": "Bullish momentum above MA20 with favorable risk‑reward on a pullback to 7,600‑7,650.",
+    "entry": "7625.00",
+    "tp": "8000.00",
+    "sl": "7500.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Below MA20 Amid Regulatory Uncertainty",
-    "date": "2026-08-15 17:37",
+    "title": "[BTC/USD] FLAT: AI Detects Resistance at MA20 Amid Regulatory Uncertainty",
+    "date": "2026-08-16 01:32",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price trading below the 20‑day MA with neutral RSI signals bearish momentum",
-      "Regulatory developments and order‑flow concentration add downside pressure",
-      "Institutional ETF filings contrast with recent negative news, reinforcing a cautious outlook"
+      "Price below MA20 indicates short-term weakness.",
+      "Regulatory news mixed, no clear bullish catalyst.",
+      "RSI neutral, no momentum shift."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC trades below MA20, RSI neutral, and regulatory news heighten downside risk.",
+    "excerpt": "BTC/USD trades near MA20 with neutral RSI; regulatory headlines provide mixed signals, suggesting a flat outlook.",
     "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "BTC trades below MA20, RSI neutral, and regulatory news heighten downside risk.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "comment": "Price below MA20 with neutral RSI and mixed regulatory news.",
+    "entry": "63050.14",
+    "tp": "64000",
+    "sl": "62500",
     "reliability": "MEDIUM"
   }
 }
