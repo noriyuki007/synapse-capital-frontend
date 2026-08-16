@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-16 10:05",
+    "title": "[USD/JPY] BUY: MA20 Support Holds as Rate Divergence Accelerates Bullish Momentum",
+    "date": "2026-08-16 17:25",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "RSI at 26.9 signals oversold conditions",
-      "Price below MA20 hints at short‑term dip but support may attract buyers",
-      "Mixed fundamentals favor cautious bullish stance pending key level validation"
+      "USD/JPY near MA20 (160.52) finds support amid divergent Fed/PBoC rate path",
+      "RSI-14 at 26.89 signals oversold exhaustion with bullish reversal potential",
+      "Trump's geopolitical rhetoric adds tailwind to USD despite dollar index weakness"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY oversold; RSI 26.9, below MA20, potential bounce if support holds.",
+    "excerpt": "USD/JPY nears MA20 support with bullish setup. Key RSI divergence and Trump's Hormuz comment drive positive momentum. xm-trading recommended for execution.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Oversold RSI and support at 159.00 suggest a tactical bullish reversal with defined risk.",
-    "entry": "159.30",
-    "tp": "162.00",
-    "sl": "158.00",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: Technical Breakout Above MA20 Amid Selective Sector Rotation",
-    "date": "2026-08-16 10:10",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Goldman Sachs",
-    "tldr_points": [
-      "Price action sustains above MA20 with RSI indicating controlled overbought momentum.",
-      "Sector rotation favors XMAG and value names as Magnificent Seven show fatigue.",
-      "Earnings season divergence presents selective opportunities within the index."
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 at 7785.76, above MA20 7585.00, RSI 75.30 overbought; UP bias triggered amid heightened volatility and Fed watch.",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500 at 7785.76, above MA20 7585.00, RSI 75.30 overbought; UP bias triggered amid heightened volatility and Fed watch.",
+    "comment": "USD/JPY nears MA20 support with bullish setup. Key RSI divergence and Trump's Hormuz comment drive positive momentum. xm-trading recommended for execution.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] DOWN: RSI Overbought and Mixed Catalysts Signal Pullback toward MA20",
+    "date": "2026-08-16 17:30",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "tldr_points": [
+      "Overbought RSI (>75) signals near‑term weakness",
+      "MA20 at 7,585 provides primary support",
+      "Mixed sector news (healthcare, energy, banks) creates cautionary stance"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 at 7,786, overbought RSI, mixed sector news, likely pullback toward 7,585 support.",
+    "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "Overbought RSI and mixed sector catalysts imply near-term decline.",
+    "entry": "7750.00",
+    "tp": "7585.00",
+    "sl": "7950.00",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Support Test at MA20 Attracts Buyers Ahead of Macro-Catalyst Event Week",
-    "date": "2026-08-16 10:13",
+    "title": "[BTC/USD] UP: Harvard ETF Retention and Regulatory Tailwinds Outweigh Near-Term Technical Weakness",
+    "date": "2026-08-16 17:35",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price testing MA20 support amid neutral RSI",
-      "Catalysts building around Trump-CFTC White House meeting",
-      "Fundamental tone mixed but skew leans cautiously positive"
+      "Harvard's Q2 ETF stake unchanged signals institutional confidence",
+      "Trump administration crypto policy progress highlighted at White House meeting",
+      "OCC-approved Bitcoin-friendly bank could enhance ecosystem legitimacy"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD tests MA20 support; neutral RSI suggests potential bounce ahead of Trump-CFTC crypto meeting.",
+    "excerpt": "BTC/USD bullish thesis driven by ETF stability and regulatory advancements despite short-term technical resistance.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Support test near MA20 aligns with neutral RSI; cautiously bullish setup ahead of catalyst week.",
-    "entry": "62800.00",
-    "tp": "64200.00",
-    "sl": "62400.00",
-    "reliability": "MEDIUM"
+    "comment": "Harvard ETF stability and regulatory tailwinds justify directional bias despite technical overhang",
+    "entry": "63000",
+    "tp": "66500",
+    "sl": "61500",
+    "reliability": "HIGH"
   }
 }
