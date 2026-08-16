@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-16 17:25",
+    "title": "[USD/JPY] UP: MA20で支柱形成とリスクオフ円安の二重支援",
+    "date": "2026-08-17 01:20",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "RSI26.9で売られ過ぎ、MA20下抜けは短期反発のサイン",
-      "ドル円は米利回り上昇とドル弱含みで上値重くも地政学リスクで下支え",
-      "エントリーは159.00付近、TP 160.50、SL 158.30、流動性観点から[dmm-fx]推奨"
+      "RSI超売りで反転シグナル",
+      "MA20が支持線として機能",
+      "米国株上昇でリスク資金流入"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "RSIが26.9と売られ過ぎで、MA20下抜け後の反発期待が高まる。米利回り上昇とドル弱含みが混在し、地政学リスクが下支え。",
+    "excerpt": "159.30円で取引、RSIが26.9と極端に低下し、MA20付近で支柱形成。米国株式上昇とリスクオフ円安がUSD/JPYの上昇を支える。エントリーは159.00、TP 160.50、SL 158.20。流動性確保のため[dmm-fx]利用を推奨。",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "RSIが26.9と売られ過ぎで、MA20下抜け後の反発期待が高まる。米利回り上昇とドル弱含みが混在し、地政学リスクが下支え。",
+    "comment": "159.30円で取引、RSIが26.9と極端に低下し、MA20付近で支柱形成。米国株式上昇とリスクオフ円安がUSD/JPYの上昇を支える。エントリーは159.00、TP 160.50、SL 158.20。流動性確保のため[dmm-fx]利用を推奨。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-16 17:30",
+    "title": "[S&P 500] UP: MA20およびAI投資報われ確認",
+    "date": "2026-08-17 01:23",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "野村證券",
+    "recommended_broker": "",
     "tldr_points": [
-      "現在価格はMA20を上抜け、上向きバイアスが継続",
-      "RSIは75超えで過熱感ありつつもモメンタムは強い",
-      "ファンダメンタルズはヘルスケアとエネルギーのセレクティブな強さを示す"
+      "RSI(14) = 75.30で過熱もMA20（7584.99）での反発確認",
+      "RedditのS&P 500代替ETF化で純資金流入模シミュレーション",
+      "AI投資がEPS成長に波及しマルチプル拡大を支持"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20を基盤とした押し目買いが視野に入り、テクニカルとファンダメンタルズが上昇を裏付ける。機関投資家向けに具体的エントリー・TP・SLを提示。",
+    "excerpt": "S&P 500はRSI過熱水準を踏まえても、MA20に沿った反発とAI投資のEPS波及効果で短期 bullish を維持する。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "MA20を基盤とした押し目買いが視野に入り、テクニカルとファンダメンタルズが上昇を裏付ける。機関投資家向けに具体的エントリー・TP・SLを提示。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "AI投資のEPS波及効果とMA20サポート確認により短期 bullish",
+    "entry": "7750.00",
+    "tp": "7900.00",
+    "sl": "7600.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20抵抗からの反転狙いとリスクヘッジの示唆",
-    "date": "2026-08-16 17:35",
+    "title": "[BTC/USD] DOWN: MA20割れとマクロ不安が重なる局面での売りシグナル",
+    "date": "2026-08-17 01:29",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "強気ファンダメンタルが残存しているが、短期的にはMA20付近で押し目売りのリスクが顕在化",
-      "RSIが44と上昇余地残り、下値リスクが高まる",
-      "オーダーフローは売圧が強化され、流動性確保のためbitflyerの利用推奨"
+      "価格はMA20下抜けで下向きバイアス",
+      "マクロイベント（OCC承認・トランプ会合）が不透明感を助長",
+      "RSIは中立だがモメンタムは鈍化"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "JPMorganの離脱や新規上場への影響を受け、BTCは63,000 USD付近で下落圧力が強まり、MA20（約63,800）を下回る展開が予想される",
+    "excerpt": "MA20を下回るBTCは売り圧力が強まり、マクロ不安とテクニカルが一致して下目線を支持する。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20下抜けでリスクオフが強まり、押し目売りが有効",
-    "entry": "63000",
-    "tp": "61800",
-    "sl": "64500",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "MA20を下回るBTCは売り圧力が強まり、マクロ不安とテクニカルが一致して下目線を支持する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }

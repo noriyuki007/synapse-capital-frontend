@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] BUY: MA20 Support Holds as Rate Divergence Accelerates Bullish Momentum",
-    "date": "2026-08-16 17:25",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-08-17 01:20",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY near MA20 (160.52) finds support amid divergent Fed/PBoC rate path",
-      "RSI-14 at 26.89 signals oversold exhaustion with bullish reversal potential",
-      "Trump's geopolitical rhetoric adds tailwind to USD despite dollar index weakness"
+      "Oversold RSI indicates upside potential",
+      "Price near MA20 support with institutional demand",
+      "US dollar weakness from rising yields supports JPY"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY nears MA20 support with bullish setup. Key RSI divergence and Trump's Hormuz comment drive positive momentum. xm-trading recommended for execution.",
+    "excerpt": "USD/JPY poised for upside as price near MA20 support, RSI oversold, and US dollar weakness from rising yields.",
     "pair": "USD/JPY",
+    "status": "BUY",
+    "comment": "Price near MA20 support with oversold RSI and dollar weakness.",
+    "entry": "159.25",
+    "tp": "160.50",
+    "sl": "158.80",
+    "reliability": "HIGH"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] UP: Price Holds Above MA20 with Strong RSI Momentum",
+    "date": "2026-08-17 01:23",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "tldr_points": [
+      "Price holds above MA20 with RSI at 75, indicating sustained bullish momentum.",
+      "Index‑fund inflows from Reddit’s debut and Big Tech AI capex provide fundamental support.",
+      "Near‑term resistance around 8,000; stop‑loss below 7,500 manages downside risk."
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 holds above MA20, RSI 75 signals strength; index‑fund inflows and AI‑driven earnings support upside toward 8,000 .",
+    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "USD/JPY nears MA20 support with bullish setup. Key RSI divergence and Trump's Hormuz comment drive positive momentum. xm-trading recommended for execution.",
+    "comment": "S&P 500 holds above MA20, RSI 75 signals strength; index‑fund inflows and AI‑driven earnings support upside toward 8,000 .",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: RSI Overbought and Mixed Catalysts Signal Pullback toward MA20",
-    "date": "2026-08-16 17:30",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
-    "tldr_points": [
-      "Overbought RSI (>75) signals near‑term weakness",
-      "MA20 at 7,585 provides primary support",
-      "Mixed sector news (healthcare, energy, banks) creates cautionary stance"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 at 7,786, overbought RSI, mixed sector news, likely pullback toward 7,585 support.",
-    "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Overbought RSI and mixed sector catalysts imply near-term decline.",
-    "entry": "7750.00",
-    "tp": "7585.00",
-    "sl": "7950.00",
-    "reliability": "MEDIUM"
-  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Harvard ETF Retention and Regulatory Tailwinds Outweigh Near-Term Technical Weakness",
-    "date": "2026-08-16 17:35",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-08-17 01:29",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Harvard's Q2 ETF stake unchanged signals institutional confidence",
-      "Trump administration crypto policy progress highlighted at White House meeting",
-      "OCC-approved Bitcoin-friendly bank could enhance ecosystem legitimacy"
+      "Price holding above key support near 62.8k despite being below MA20",
+      "Regulatory developments with Trump meeting and OCC approval provide upside catalyst",
+      "RSI near neutral suggests room for upward momentum"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD bullish thesis driven by ETF stability and regulatory advancements despite short-term technical resistance.",
+    "excerpt": "BTC/USD eyes upside as price stabilizes above 62.8k support amid improving regulatory backdrop.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Harvard ETF stability and regulatory tailwinds justify directional bias despite technical overhang",
-    "entry": "63000",
-    "tp": "66500",
-    "sl": "61500",
-    "reliability": "HIGH"
+    "comment": "Price poised to rebound from support toward MA20 amid improving regulatory backdrop.",
+    "entry": "63200.00",
+    "tp": "65500.00",
+    "sl": "62000.00",
+    "reliability": "MEDIUM"
   }
 }
