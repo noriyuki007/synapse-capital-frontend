@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Technical Oversold Meets Dovish BOJ Outlook",
-    "date": "2026-08-17 10:03",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-08-17 17:38",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price below MA20 with RSI oversold suggests near-term bounce.",
-      "BOJ policy delay from weak Q2 GDP supports USD strength.",
-      "Risk‑off UK data may limit downside but upside bias remains."
+      "Oversold RSI signals potential bounce",
+      "Support consolidation near 158.80‑159.00",
+      "MA20 at 160.51 provides resistance"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY trades below MA20 at 159.05 with RSI 26, signaling a potential bounce as BOJ remains on hold amid weak Japan GDP.",
+    "excerpt": "USD/JPY at 159.00, RSI oversold, MA20 at 160.51 – potential bounce toward resistance with tight risk controls.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Oversold RSI and dovish BOJ backdrop support a short‑term bounce toward MA20.",
-    "entry": "159.20",
-    "tp": "161.00",
-    "sl": "158.50",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: AI-Driven Rally Pushes Past MA20",
-    "date": "2026-08-17 10:05",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "Price above MA20 at 7,785, MA20 7,588 supports bullish bias",
-      "RSI 75 signals overbought, raising short‑term pullback risk",
-      "AI earnings momentum (Nvidia, Gilead, Zoom) underpins S&P upside"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 7,785 trades above MA20, RSI 75 signals overbought; AI surge supports bullish bias but caution for pullbacks.",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "AI momentum sustains bullish bias; dip to MA20 offers entry with defined risk.",
-    "entry": "7580",
-    "tp": "7950",
-    "sl": "7600",
+    "comment": "Oversold RSI and support confluence favor a short-term rebound toward MA20.",
+    "entry": "158.80",
+    "tp": "160.51",
+    "sl": "158.00",
     "reliability": "HIGH"
   },
+  "STOCKS": {
+    "title": "[S&P 500] NEUTRAL: Overbought RSI Meets Resurfacing Inflation Volatility",
+    "date": "2026-08-17 17:43",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "tldr_points": [
+      "RSI(14) at 75.3 indicates extreme overbought conditions",
+      "Resurfacing inflation concerns creating macro headwinds",
+      "Price maintains significant distance above MA20"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 faces resistance amid inflation concerns and overbought technical indicators despite strong momentum.",
+    "pair": "S&P 500",
+    "status": "NEUTRAL",
+    "comment": "Overbought RSI and inflation concerns suggest a potential pullback toward MA20.",
+    "entry": "7650.00",
+    "tp": "7850.00",
+    "sl": "7550.00",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Macroeconomic Factors Offset Regulatory Risk as Institutional Accumulation Detected",
-    "date": "2026-08-17 10:10",
+    "title": "[BTC/USD] DOWN: Price Below MA20 with Neutral RSI and Bearish Fundamentals",
+    "date": "2026-08-17 17:48",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC encounters tight support at MA20 amid mixed news flow",
-      "Harvard’s ETF holding signals institutional conviction",
-      "SafePal breach and utility risks create volatility volatility"
+      "Price trades below MA20 indicating short-term bearish bias.",
+      "RSI near 48 shows muted momentum, leaving room for downside.",
+      "Fundamental headwinds from security news and institutional retreat weigh on BTC."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD shows institutional accumulation despite hacking/LP exposure risks via technical support compression.",
+    "excerpt": "BTC/USD struggles under MA20 as RSI stalls and negative news pressures price.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USD shows institutional accumulation despite hacking/LP exposure risks via technical support compression.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "Price below MA20 with bearish fundamentals supports short",
+    "entry": "63250.00",
+    "tp": "62000.00",
+    "sl": "64000.00",
     "reliability": "MEDIUM"
   }
 }

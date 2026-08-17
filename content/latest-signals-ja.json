@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-17 10:03",
+    "title": "[USD/JPY] DOWN: RSIの売られすぎ圏入りと中国経済減速に伴うリスクオフ・リスク回避の進行",
+    "date": "2026-08-17 17:38",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20下抜けかつRSI超売り状態で技術的反発の余地あり",
-      "日本Q2GDP弱含みでBOJ利上げ観測後退、円安圧力が継続",
-      "シンガポールNODX伸長とPBOC基準レートがリスクオン志向を示唆"
+      "RSI(14)が26.08と極端な売られすぎ水準に到達",
+      "中国の小売・産業統計の低迷によるリスクオフ圧力の増大",
+      "MA20（160.51）を大きく下回る弱気トレンド継続"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20付近での押し目買いが有望で、ファンダとテクニカルが上昇バイアスを支持。",
+    "excerpt": "USD/JPYはテクニカル面でRSIが26.08と大幅な売られすぎを示唆し、ファンダメンタルズ面では中国の経済活動停滞がリスクオフを誘発している。短期的には下落モメンタムが優勢であり、MA20へのリテストが焦点となる。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20付近の押し目買い、ファンダ・テクニカルが上昇を支持",
-    "entry": "159.20",
-    "tp": "160.80",
-    "sl": "158.30",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "RSIの売られすぎと中国経済減速によるリスクオフを背景とした戻り売り戦略。",
+    "entry": "159.50",
+    "tp": "158.20",
+    "sl": "160.10",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20反発とRSI拡大率の急伸整合性を確認",
-    "date": "2026-08-17 10:05",
+    "title": "[S&P 500] DOWN: RSI過熱とMA20支持線の乖離が示す調整リスク",
+    "date": "2026-08-17 17:43",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Morgan Stanley",
     "tldr_points": [
-      "現在価格7785.76はMA20（7588.29）上回り、RSI 75.34の過熱局面につながるものの、ファンダメンタルズ支援が強気を維持",
-      "Nvidiaをはじめとするテクノロジー株の買い材料が市場全体を牽引",
-      "MA20付近の押し目買いを厳格なリスク管理下で実施する場合、TPは前日高値維持、SLは押し目割れ下を設定"
+      "インフレ懸念の再燃が米金利見通しに不透明感を付与",
+      "価格はMA20を大幅に上回るがRSIは75超で過熱感が顕在",
+      "短期的な調整局面で売り bias が優位と判断"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20上位位置に位置し、RSI過熱局面にも関わらず、Nvidia等テクノロジー株の買い材料が上昇を支える見込み。押し目買い戦略を推奨する。",
+    "excerpt": "インフレ再燃懸念と米データの混調でS&P500は上抜け後の調整局面に入り、短期的下押しリスクが高まる。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20上位位置にありながら、RSI過熱局面を上回るファンダメンタルズが高みを維持",
-    "entry": "7588.29",
-    "tp": "7822.15",
-    "sl": "7588.29",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "RSI過熱とMA20乖離から短期調整期待",
+    "entry": "7785.76",
+    "tp": "7580.00",
+    "sl": "7870.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: 価格がMA20を下抜け、RSIは中立且つ若干の売り圧力示唆",
-    "date": "2026-08-17 10:10",
+    "title": "[BTC/USD] DOWN: MA20での抵抗と弱気ファンダメンタルズの整合性",
+    "date": "2026-08-17 17:48",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20を下抜け、短期的な下押しリスクが顕在化",
-      "RSI 44.5で中立ながら売り買いの均衡が崩れ始める",
-      "規制ニュースと機関のETF保有静観が重石となり下振れ圧力を強化"
+      "MA20上抜け失敗で下押し圧力継続",
+      "マクロ要因：米金利動向と機関のBTC保有縮小",
+      "テクニカル：RSI中立、売り圧力優勢"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を下抜け、RSIは44で中立ながら売り圧力が強まる。マクロでは規制強化と機関のETF保有静観が重石。",
+    "excerpt": "MA20を上抜けできず下落基盤が固まり、売り戦略が有望。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USDはMA20を下抜け、RSIは44で中立ながら売り圧力が強まる。マクロでは規制強化と機関のETF保有静観が重石。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "MA20上抜け失敗と金利上昇による下押し圧力",
+    "entry": "63200.00",
+    "tp": "61000.00",
+    "sl": "64500.00",
     "reliability": "MEDIUM"
   }
 }
