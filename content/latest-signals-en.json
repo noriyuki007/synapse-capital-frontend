@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-17 17:38",
+    "title": "[USD/JPY] UP: Oversold Bounce Toward MA20 Amid Soft Retail Sales",
+    "date": "2026-08-18 01:23",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Oversold RSI signals potential bounce",
-      "Support consolidation near 158.80‑159.00",
-      "MA20 at 160.51 provides resistance"
+      "Price sits below MA20 with RSI at 27, signaling oversold conditions.",
+      "US retail sales softness weighs on USD, while housing data shows modest improvement.",
+      "Anticipate a corrective rise toward 160.30 with stop near 159.00."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY at 159.00, RSI oversold, MA20 at 160.51 – potential bounce toward resistance with tight risk controls.",
+    "excerpt": "USD/JPY shows oversold bounce potential toward MA20 as USD weakness from soft retail sales meets technical support.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Oversold RSI and support confluence favor a short-term rebound toward MA20.",
-    "entry": "158.80",
-    "tp": "160.51",
-    "sl": "158.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPY shows oversold bounce potential toward MA20 as USD weakness from soft retail sales meets technical support.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] NEUTRAL: Overbought RSI Meets Resurfacing Inflation Volatility",
-    "date": "2026-08-17 17:43",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-08-18 01:25",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "RSI(14) at 75.3 indicates extreme overbought conditions",
-      "Resurfacing inflation concerns creating macro headwinds",
-      "Price maintains significant distance above MA20"
+      "MA20 at 7601.58 provides immediate support",
+      "RSI 73.66 signals overbought but momentum intact",
+      "Earnings steady and tech gains support bullish bias"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces resistance amid inflation concerns and overbought technical indicators despite strong momentum.",
+    "excerpt": "MA20 support and steady earnings drive bullish S&P 500 outlook.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Overbought RSI and inflation concerns suggest a potential pullback toward MA20.",
-    "entry": "7650.00",
-    "tp": "7850.00",
-    "sl": "7550.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Bullish bias with MA20 support and steady earnings.",
+    "entry": "7620.00",
+    "tp": "7900.00",
+    "sl": "7500.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Below MA20 with Neutral RSI and Bearish Fundamentals",
-    "date": "2026-08-17 17:48",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-08-18 01:28",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price trades below MA20 indicating short-term bearish bias.",
-      "RSI near 48 shows muted momentum, leaving room for downside.",
-      "Fundamental headwinds from security news and institutional retreat weigh on BTC."
+      "Harmony's exploitor rollback reduces short-term selling pressure",
+      "Bitmine's $11B ETH holding reinforces network security confidence",
+      "HIVE's new AI cloud contract secures long-term mining sustainability"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD struggles under MA20 as RSI stalls and negative news pressures price.",
+    "excerpt": "BTC/USD at 64,052 with MA20 support at 63,791; RSI at 55 indicates balanced momentum ahead of potential breakout.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price below MA20 with bearish fundamentals supports short",
-    "entry": "63250.00",
-    "tp": "62000.00",
-    "sl": "64000.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Technical support at MA20 combined with positive fundamentals creates strong buy case.",
+    "entry": "64050",
+    "tp": "65200",
+    "sl": "62800",
+    "reliability": "HIGH"
   }
 }

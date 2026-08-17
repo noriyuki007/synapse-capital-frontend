@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-08-18-crypto-ja",
+    "date": "2026-08-18 01:28",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "MA20を上抜けしつつRSIが55前後で、押し目買いのシグナルが点灯。ファンダは機関フローが支え、規制影響は限定的。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-18-crypto-en",
+    "date": "2026-08-18 01:28",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD at 64,052 with MA20 support at 63,791; RSI at 55 indicates balanced momentum ahead of potential breakout.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-08-18-stocks-ja",
+    "date": "2026-08-18 01:25",
+    "title": "[S&P 500] UP: MA20反発と強気ファンダメンタルズの整合性",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Nomura Securities",
+    "excerpt": "RSIが73.66で過熱感を示す一方、MA20からの上抜きが期待でき、金利上昇懸念や原油変動がリスク要因。テクニカルとファンダメンタルが上昇シグナルを示唆。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-18-stocks-en",
+    "date": "2026-08-18 01:25",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "MA20 support and steady earnings drive bullish S&P 500 outlook.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-08-18-fx-ja",
+    "date": "2026-08-18 01:23",
+    "title": "[USD/JPY] UP: 極端なRSI過売りと弱い米指標を背景にしたテクニカル反発シナリオ",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYは159.33まで下落しRSIが27台に突入。弱い米小売売上高とテクニカル過熱感から、MA20目前までのテクニカル反発をシナリオとして織り込む。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-18-fx-en",
+    "date": "2026-08-18 01:23",
+    "title": "[USD/JPY] UP: Oversold Bounce Toward MA20 Amid Soft Retail Sales",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY shows oversold bounce potential toward MA20 as USD weakness from soft retail sales meets technical support.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-08-17-crypto-ja",
     "date": "2026-08-17 17:48",
     "title": "[BTC/USD] DOWN: MA20での抵抗と弱気ファンダメンタルズの整合性",
