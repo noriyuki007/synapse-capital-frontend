@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-17 01:20",
+    "title": "[USD/JPY] UP: Technical Oversold Meets Dovish BOJ Outlook",
+    "date": "2026-08-17 10:03",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Oversold RSI indicates upside potential",
-      "Price near MA20 support with institutional demand",
-      "US dollar weakness from rising yields supports JPY"
+      "Price below MA20 with RSI oversold suggests near-term bounce.",
+      "BOJ policy delay from weak Q2 GDP supports USD strength.",
+      "Risk‑off UK data may limit downside but upside bias remains."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised for upside as price near MA20 support, RSI oversold, and US dollar weakness from rising yields.",
+    "excerpt": "USD/JPY trades below MA20 at 159.05 with RSI 26, signaling a potential bounce as BOJ remains on hold amid weak Japan GDP.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price near MA20 support with oversold RSI and dollar weakness.",
-    "entry": "159.25",
-    "tp": "160.50",
-    "sl": "158.80",
-    "reliability": "HIGH"
+    "comment": "Oversold RSI and dovish BOJ backdrop support a short‑term bounce toward MA20.",
+    "entry": "159.20",
+    "tp": "161.00",
+    "sl": "158.50",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Price Holds Above MA20 with Strong RSI Momentum",
-    "date": "2026-08-17 01:23",
+    "title": "[S&P 500] UP: AI-Driven Rally Pushes Past MA20",
+    "date": "2026-08-17 10:05",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price holds above MA20 with RSI at 75, indicating sustained bullish momentum.",
-      "Index‑fund inflows from Reddit’s debut and Big Tech AI capex provide fundamental support.",
-      "Near‑term resistance around 8,000; stop‑loss below 7,500 manages downside risk."
+      "Price above MA20 at 7,785, MA20 7,588 supports bullish bias",
+      "RSI 75 signals overbought, raising short‑term pullback risk",
+      "AI earnings momentum (Nvidia, Gilead, Zoom) underpins S&P upside"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above MA20, RSI 75 signals strength; index‑fund inflows and AI‑driven earnings support upside toward 8,000 .",
+    "excerpt": "S&P 500 7,785 trades above MA20, RSI 75 signals overbought; AI surge supports bullish bias but caution for pullbacks.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P 500 holds above MA20, RSI 75 signals strength; index‑fund inflows and AI‑driven earnings support upside toward 8,000 .",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "AI momentum sustains bullish bias; dip to MA20 offers entry with defined risk.",
+    "entry": "7580",
+    "tp": "7950",
+    "sl": "7600",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-17 01:29",
+    "title": "[BTC/USD] UP: Macroeconomic Factors Offset Regulatory Risk as Institutional Accumulation Detected",
+    "date": "2026-08-17 10:10",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price holding above key support near 62.8k despite being below MA20",
-      "Regulatory developments with Trump meeting and OCC approval provide upside catalyst",
-      "RSI near neutral suggests room for upward momentum"
+      "BTC encounters tight support at MA20 amid mixed news flow",
+      "Harvard’s ETF holding signals institutional conviction",
+      "SafePal breach and utility risks create volatility volatility"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD eyes upside as price stabilizes above 62.8k support amid improving regulatory backdrop.",
+    "excerpt": "BTC/USD shows institutional accumulation despite hacking/LP exposure risks via technical support compression.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Price poised to rebound from support toward MA20 amid improving regulatory backdrop.",
-    "entry": "63200.00",
-    "tp": "65500.00",
-    "sl": "62000.00",
+    "status": "NEUTRAL",
+    "comment": "BTC/USD shows institutional accumulation despite hacking/LP exposure risks via technical support compression.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
