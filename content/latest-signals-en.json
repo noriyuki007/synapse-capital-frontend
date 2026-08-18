@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Oversold Bounce Toward MA20 Amid Soft Retail Sales",
-    "date": "2026-08-18 01:23",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-08-18 10:01",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price sits below MA20 with RSI at 27, signaling oversold conditions.",
-      "US retail sales softness weighs on USD, while housing data shows modest improvement.",
-      "Anticipate a corrective rise toward 160.30 with stop near 159.00."
+      "Key resistance at MA20 weakens; bullish fundamentals drive upside",
+      "MA20 support aligns with bullish fundamentals",
+      "RSI at 27.67 signals oversold conditions"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY shows oversold bounce potential toward MA20 as USD weakness from soft retail sales meets technical support.",
+    "excerpt": "Key resistance at MA20 weakens; bullish fundamentals support a move toward 161.50, stop-loss intraday today at 158.00!!.",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "USD/JPY shows oversold bounce potential toward MA20 as USD weakness from soft retail sales meets technical support.",
+    "comment": "Key resistance at MA20 weakens; bullish fundamentals support a move toward 161.50, stop-loss intraday today at 158.00!!.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-18 01:25",
+    "title": "[S&P 500] DOWN: AI Detects Resistance at MA20 Amid Geopolitical Oil Risk",
+    "date": "2026-08-18 10:06",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "MA20 at 7601.58 provides immediate support",
-      "RSI 73.66 signals overbought but momentum intact",
-      "Earnings steady and tech gains support bullish bias"
+      "RSI overbought signals potential pullback",
+      "Geopolitical and oil risk weigh on tech-heavy indices",
+      "MA20 acts as resistance and recent price above it indicates weakness"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20 support and steady earnings drive bullish S&P 500 outlook.",
+    "excerpt": "S&P 500 faces a likely short‑term decline as RSI overbought, MA20 resistance, and geopolitical oil risk weigh on the market.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Bullish bias with MA20 support and steady earnings.",
-    "entry": "7620.00",
-    "tp": "7900.00",
-    "sl": "7500.00",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "RSI overbought and MA20 resistance signal short‑term decline.",
+    "entry": "7745.06",
+    "tp": "7600.08",
+    "sl": "7800.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-18 01:28",
+    "title": "[BTC/USD] UP: MA20 Support Holds as Institutional Tokenized Assets Gain Tailwinds",
+    "date": "2026-08-18 10:09",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Harmony's exploitor rollback reduces short-term selling pressure",
-      "Bitmine's $11B ETH holding reinforces network security confidence",
-      "HIVE's new AI cloud contract secures long-term mining sustainability"
+      "Price holds above MA20 as institutional tokenization fuels BTC demand",
+      "RSI-neutral momentum supports near-term upside",
+      "Entry at 63,800 with 65,500 TP and 63,200 SL via Bybit liquidity"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD at 64,052 with MA20 support at 63,791; RSI at 55 indicates balanced momentum ahead of potential breakout.",
+    "excerpt": "BTC/USD maintains bullish structure above MA20 amid accelerating tokenization and stablecoin regulatory clarity.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Technical support at MA20 combined with positive fundamentals creates strong buy case.",
-    "entry": "64050",
-    "tp": "65200",
-    "sl": "62800",
+    "comment": "Institutional tokenization and GENIUS Act tailwinds support upside from MA20 support",
+    "entry": "63801.25",
+    "tp": "65500",
+    "sl": "63200",
     "reliability": "HIGH"
   }
 }
