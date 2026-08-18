@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: RSIの売られすぎ圏における戻り売り継続戦略",
-    "date": "2026-08-18 17:32",
+    "title": "[USD/JPY] UP: RSI oversold rebound targeting MA20 ceiling with intervention backdrop",
+    "date": "2026-08-19 01:27",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "RSI(14)が29.6と極めて低い水準にあり、テクニカル的な売られすぎを示唆",
-      "主要MA20（160.38）が強力なレジスタンスとして機能",
-      "地政学的リスクによるエネルギー価格変動が通貨ペアのボラティリティを刺激する可能性"
+      "RSI 28.6極度 oversold がMA20（160.38）反発を誘発、介入背景で上値限定的",
+      "Atlanta Fed Q3成長鈍化でUSDに mild ヘッドウィンド、地政学的リスクは方向不明確",
+      "テクニカル的にはMA20ブレイクトライアルがエントリーポイント、リスクは159.00割れ"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはテクニカル面での過熱感（売られすぎ）を示唆しながらも、価格構造はMA20を下回る下降トレンドを維持している。RSIの低迷と主要節目での抵抗を背景に、戻り売り戦略を軸とした戦術的なアプローチが有効となる局面である。",
+    "excerpt": "USD/JPY 159.58, RSI 28.6, MA20 160.38; oversold rebound with intervention backdrop favors defined-risk long.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "RSIの売られすぎ圏からのMA20へのリバウンドを狙った戻り売り戦略。",
-    "entry": "160.35",
-    "tp": "159.00",
-    "sl": "160.70",
+    "status": "BUY",
+    "comment": "RSI oversoldとMA20サポートによる反転誘導、介入背景での定義済リスク長期エントリー",
+    "entry": "159.58",
+    "tp": "160.50",
+    "sl": "158.80",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-18 17:37",
+    "title": "[S&P 500] DOWN: テクニカルオーバーボoughtと警戒感の高まるマクロ環境が示す下値リスク",
+    "date": "2026-08-19 01:30",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "MA20を上抜けし短期的な上昇トレンドが形成",
-      "RSIは75超で過熱気味だが逆行リスクは限定",
-      "インフレ懸念と地政学的リスクが上値を抑える"
+      "RSIが78と過熱感、MA20を上回るがモメンタムは鈍化",
+      "ドットコムバブル級の警戒シグナルがテク株に波及",
+      "流動性観点からNomura Securitiesの利用を推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を上抜け、RSIは75超の過熱気味ながら、インフレ懸念と小売売上の弱さが交錯し、上値余地は限定的だが短期的な押し目買いの機会が残ると見込まれる。",
+    "excerpt": "S&P500はMA20上にあるもののRSI78と過熱、ドットコムバブル級警戒と半導体売りが重しとなり下値リスクが高まる。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20を支えとし、RSIは過熱ながら上値余地が残るため買い優位",
-    "entry": "7750.00",
-    "tp": "7950.00",
-    "sl": "7600.00",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "RSI過熱とマクロ警戒が下値リスクを示唆",
+    "entry": "7610.00",
+    "tp": "7500.00",
+    "sl": "7680.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-18 17:40",
+    "title": "[BTC/USD] UP: MA20 support aligns with strong institutional fundamentals",
+    "date": "2026-08-19 01:36",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を僅かに上回り、短期的な上昇バイアスが示唆される",
-      "マクロでは機関株取引拡大とRWAトークン化の動向が需給に影響",
-      "テクニカルはRSI中立かつオーダーフローが買い優位を示す"
+      "Price above 20‑MA with RSI 56 signals bullish momentum",
+      "Institutional milestones (Metaplanet treasury, Citi custody) reinforce long‑term demand",
+      "Opportunities to capture upside with defined risk entry near $64,500"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20付近での反発とファンダメンタルズの整合性から、BTC/USDは短期的に上昇余地を残すと見込む。",
+    "excerpt": "BTC/USD trades above 20‑MA at $64.7k with rising institutional adoption, suggesting upside continuation.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20支持と機関ファンダの整合性から上昇期待",
-    "entry": "64000",
-    "tp": "66000",
-    "sl": "62800",
-    "reliability": "MEDIUM"
+    "comment": "MA20サポートと強気ファンダメンタルズに基づく押し目買い",
+    "entry": "64500.00",
+    "tp": "68000.00",
+    "sl": "63000.00",
+    "reliability": "HIGH"
   }
 }

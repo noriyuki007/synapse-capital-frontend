@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-08-19-crypto-ja",
+    "date": "2026-08-19 01:36",
+    "title": "[BTC/USD] UP: MA20 support aligns with strong institutional fundamentals",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USD trades above 20‑MA at $64.7k with rising institutional adoption, suggesting upside continuation.",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-19-crypto-en",
+    "date": "2026-08-19 01:36",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD bullish as price holds above MA20, RSI ~56, institutional custody news fuels demand, targeting 68k level for up.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-08-19-stocks-ja",
+    "date": "2026-08-19 01:30",
+    "title": "[S&P 500] DOWN: テクニカルオーバーボoughtと警戒感の高まるマクロ環境が示す下値リスク",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Nomura Securities",
+    "excerpt": "S&P500はMA20上にあるもののRSI78と過熱、ドットコムバブル級警戒と半導体売りが重しとなり下値リスクが高まる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-19-stocks-en",
+    "date": "2026-08-19 01:30",
+    "title": "[S&P 500] DOWN: Overbought RSI and macro warning suggest reversal toward MA20",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 faces overbought conditions and macro headwinds; expect retracement to MA20.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-08-19-fx-ja",
+    "date": "2026-08-19 01:27",
+    "title": "[USD/JPY] UP: RSI oversold rebound targeting MA20 ceiling with intervention backdrop",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPY 159.58, RSI 28.6, MA20 160.38; oversold rebound with intervention backdrop favors defined-risk long.",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-19-fx-en",
+    "date": "2026-08-19 01:27",
+    "title": "[USD/JPY] UP: AI Detects Oversold RSI Rebound as Yen Pressure Sustains Amid Geopolitical Tensions",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY poised for upside as RSI rebounds from oversold territory amid sustained yen pressure.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-08-18-crypto-ja",
     "date": "2026-08-18 17:40",
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
