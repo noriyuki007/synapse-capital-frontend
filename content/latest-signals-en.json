@@ -1,68 +1,66 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Oversold RSI Rebound as Yen Pressure Sustains Amid Geopolitical Tensions",
-    "date": "2026-08-19 01:27",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-08-19 10:02",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Oversold RSI at 28.58 suggests bearish momentum exhaustion",
-      "Price testing key MA20 support at 160.37 after dipping below 159.57",
-      "Geopolitical tension and yen weakness sustain fundamental tailwinds"
+      "PBOC USD/CNY 6.7421 favors USD; Japanese orders beat, yet USD/JPY oversold; mixed risk hints near-term bounce."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised for upside as RSI rebounds from oversold territory amid sustained yen pressure.",
+    "excerpt": "PBOC USD/CNY 6.7421 favors USD; Japanese orders beat, yet USD/JPY oversold; mixed risk hints near-term bounce.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "RSI oversold at 28.58 supports bullish reversal while fundamentals sustain yen pressure.",
-    "entry": "159.60",
-    "tp": "161.50",
-    "sl": "158.75",
+    "comment": "Oversold RSI and support at MA20 align with modest USD fundamentals.",
+    "entry": "159.30",
+    "tp": "160.18",
+    "sl": "158.80",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Overbought RSI and macro warning suggest reversal toward MA20",
-    "date": "2026-08-19 01:30",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-08-19 10:05",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "Overbought RSI 77.96 warns of pullback",
-      "Key support at MA20 (~7609.76)",
-      "Macro headlines signal risk of correction"
+      "MA20 acts as dynamic support amid bullish RSI breakout",
+      "Sector rotation favors cyclical names like AutoZone and Samsara",
+      "Technicals confirm uptrend continuation above 7609"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces overbought conditions and macro headwinds; expect retracement to MA20.",
+    "excerpt": "SPX holds above MA20 with RSI at 76.75, signaling bullish continuation. Key support at 7609, watch cyclical earnings.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Overbought RSI and macro warnings signal an imminent pullback toward MA20.",
-    "entry": "7702.63",
-    "tp": "7609.76",
-    "sl": "7750.00",
+    "status": "BUY",
+    "comment": "Bullish trend confirmed above MA20; RSI supports continuation",
+    "entry": "7691.76",
+    "tp": "7760.00",
+    "sl": "7600.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-19 01:36",
+    "date": "2026-08-19 10:06",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Institutional BTC adoption rises with Metaplanet’s 2,100 BTC purchase and Citi’s upcoming custody platform.",
-      "Price holds above MA20 with RSI near 56, indicating mild bullish momentum.",
-      "Execute a long near 64,000 targeting 68,000 with stop near 62,000 via Bybit for optimal liquidity."
+      "Price holds above MA20 with RSI neutral, suggesting near‑term upside.",
+      "Regulatory optimism around Clarity Act boosts risk appetite for BTC.",
+      "VanEck notes capitulation signals, indicating correction may be ending."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD bullish as price holds above MA20, RSI ~56, institutional custody news fuels demand, targeting 68k level for up.",
+    "excerpt": "BTC steadies above MA20 as RSI stays neutral; regulatory clarity and easing correction bias support near‑term upside.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Price above MA20 with rising institutional custody demand supports upside.",
-    "entry": "64000.00",
-    "tp": "68000.00",
-    "sl": "62000.00",
-    "reliability": "HIGH"
+    "comment": "Price above MA20 with neutral RSI and improving fundamentals support upside.",
+    "entry": "64200",
+    "tp": "66500",
+    "sl": "63200",
+    "reliability": "MEDIUM"
   }
 }
