@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20付近での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-19 10:02",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-08-19 17:32",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "PBOCがUSD/CNY参照レートを6.7421に設定予定、円安圧力を緩和",
-      "韓国KOSPIの急落と取引停止がリスクオフを誘発、円買いを支援",
-      "日本の6月機械受注が予想を上回る+16.9%増、内需堅調で円支持"
+      "FOMC議事録とECB緩和観測が円安期待を後押し",
+      "RSI低下でオーバーシールド",
+      "MA20付近での買いシグナル形成"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "PBOCの参考レート設定と韓国市場の一時停止がリスクオフを誘発、一方で日本の機械受注急増とファンドのリスクオン姿勢がUSD/JPYに上向きバイアスをもたらす。",
+    "excerpt": "FOMC議事録とECB緩和観測が円安期待を後押しし、USD/JPYはRSIが27.8と oversold 水準に低下。テクニカル面ではMA20（160.16）付近で反発が期待され、買いシグナルが顕在化。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20付近での反発とファンダメンタルズの整合性により買いバイアス",
-    "entry": "159.55",
-    "tp": "160.30",
-    "sl": "159.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "FOMC議事録とECB緩和観測が円安期待を後押しし、USD/JPYはRSIが27.8と oversold 水準に低下。テクニカル面ではMA20（160.16）付近で反発が期待され、買いシグナルが顕在化。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-19 10:05",
+    "title": "[S&P 500] DOWN: 上昇トレンドの中での過熱感と利回り上昇による調整リスク",
+    "date": "2026-08-19 17:35",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "野村證券",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "価格はMA20を上回り上昇基調が継続",
-      "RSIは76.75で過買示唆もモメンタムは強い",
-      "ファンダメンタルズは企業利益回復がサポート"
+      "価格はMA20を上回るがRSIが76.75で過熱",
+      "利回り上昇とエネルギーコスト上昇が需給を圧迫",
+      "短期的な調整局面で売りバイアスが妥当"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を基軸に上昇余地が残ると見込まれ、押し目買いが有利。",
+    "excerpt": "S&P 500は過熱感と利回り上昇により短期調整局面へ。売りエントリーを検討。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20を支持線とし、RSI過買もモメンタム強いため買い優位",
-    "entry": "7650.00",
-    "tp": "7850.00",
-    "sl": "7550.00",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "RSI過熱と利回り上昇による短期調整リスク",
+    "entry": "7680.00",
+    "tp": "7600.00",
+    "sl": "7720.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-19 10:06",
+    "date": "2026-08-19 17:36",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を上回り、上昇モメンタムが維持",
-      "Clarity Actに関する政策不透明感は限定的で、機関需給は底堅い",
-      "VanEckの capitulation シグナルが底打ちを示唆"
+      "価格はMA20を上抜け、短期的な上昇バイアスが形成中",
+      "Clarity Act関連の規制動向が機関投資家のリスクオンを支援",
+      "テクニカルはRSI中立で押し目買いの機会を示唆"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "現在価格64,435ドルはMA20を上回り、テクニカル的には押し目買いの余地があり、政策面ではClarity Actの不透明感が限定的であるため、機関投資家の需給は底堅く、上昇余地を残すと判断する。",
+    "excerpt": "MA20を基盤とした押し目買いが有利で、規制期待と流動性環境が後押しする。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上抜けと限定的な政策リスクが上昇を支える",
-    "entry": "64200",
-    "tp": "66000",
-    "sl": "63000",
+    "comment": "MA20を基盤とした押し目買いと規制期待が上昇を支える",
+    "entry": "63700.00",
+    "tp": "66000.00",
+    "sl": "63200.00",
     "reliability": "HIGH"
   }
 }
