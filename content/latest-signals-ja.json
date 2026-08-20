@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: MA20上方の需価整理とファンダメンタルズの弛緩から再下落を期待",
-    "date": "2026-08-20 10:02",
+    "title": "[USD/JPY] DOWN: 158.5付近の下落とRSI低下が売圧を示唆",
+    "date": "2026-08-20 17:33",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "PBOCの元付けレート予想6.7196円はCNY安圧力を意味し、USD買いには逆風",
-      "日本輸出実績の回復も日経株安を招き、safe-haven再加速の可能性",
-      "USD/JPYはMA20（159.95)上方での反発力も RSIが38.32近くで弱いシグナル"
+      "RSIが38に低下し売圧が強まる",
+      "MA20上での押し目売り余地が限定的",
+      "158.50割れで157.80への下落リスクが顕在化"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20付近で反発も、ファンダメンタルズの弛緩とPBOC政策観を背景に再び下落へ。厳格なリスク管理のもと、dmm-fxでのトレードを推奨。",
+    "excerpt": "158.48付近で下落トレンドが強まり、RSI38の oversold示すが、MA20上で押し目買いが失敗しやすく、158.50割れで157.80へ下落リスクが顕在化",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "PBOCレート見通しとテクニカル弱気構造を背景に、再下落の見通し。",
-    "entry": "159.75",
-    "tp": "158.00",
-    "sl": "160.20",
+    "status": "NEUTRAL",
+    "comment": "158.48付近で下落トレンドが強まり、RSI38の oversold示すが、MA20上で押し目買いが失敗しやすく、158.50割れで157.80へ下落リスクが顕在化",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-20 10:03",
+    "date": "2026-08-20 17:35",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Goldman Sachs",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "S&P 500は7707.97でMA20を上回り、RSI72.6と過 bought状態だが、金利低下支援で上昇継続",
-      "主要銘柄の好調な決算発表が市場全体にポジティブな流動性を供給",
-      "短期的な調整リスクを鑑み、エントリーはMA20付近での押し目買いを推奨"
+      "S&P 500はMA20を上回り、RSIは過熱圏だが上傾向が継続",
+      "利回り低下と財政支援が株価を下支え、中期的には8000突破のシナリオが有力",
+      "押し目での買いを推奨し、流動性の観点からNomura Securitiesの利用を検討"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を上回る上昇 trend を示し、金利低下と企業決算の好調さが支援。過 bought RSI に注意しつつ、短期的に买入戦略を検討。",
+    "excerpt": "MA20上放れと利回り低下が上昇を支えるが、RSI77で過熱警戒。押し目買いとリスク管理を推奨。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20を上回る上昇と金利低下支援、企業決算の好調さが後押し。RSI過熱を警戒しつつ短期买入。",
-    "entry": "7700",
-    "tp": "7800",
-    "sl": "7650",
+    "comment": "MA20支持とファンダメンタルズの強さが上昇を裏付け、RSI過熱は押し目買いのシグナル",
+    "entry": "7615.00",
+    "tp": "7850.00",
+    "sl": "7550.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-20 10:07",
+    "date": "2026-08-20 17:38",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を大幅に上回り、上昇トレンドが継続",
-      "議会のcrypto法案進展と機関需要がファンダメンタルズを支援",
-      "RSIは74で過熱感があるが、短期的な押し目買いが有効"
+      "現物ETFの net inflow が5.17億ドルと3.5ヶ月ぶり最大で需給改善",
+      "MA20を大きく上回りRSIは81.28と過熱感だが、ファンダメンタルズが支える",
+      "米国財務省のバイバックおよびSECの暗号資産提案が市場を後押し"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "ビットコインはMA20を大幅に上回り、RSIは74で過熱感があるものの、議会のcrypto法案進展や機関のETF需要増強、米財務の買い戻しが相まって上昇余地を維持している。",
+    "excerpt": "機関向けETF流入と財務政策が追い風となり、BTC/USDはMA20を基盤に上値を試す展開が予想される。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上抜けとファンダメンタルズの改善が上昇を支える",
-    "entry": "68800",
-    "tp": "72000",
-    "sl": "66500",
+    "comment": "ETF流入と財務政策が需給を改善し、MA20支持から上値余地あり",
+    "entry": "64500",
+    "tp": "73500",
+    "sl": "64200",
     "reliability": "HIGH"
   }
 }
