@@ -1,68 +1,69 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: AI Detects Support at MA20 as Fundamentals Turn Bearish",
-    "date": "2026-08-20 01:27",
+    "title": "[USD/JPY] UP: Oversold RSI & Strong Exports Signal Tactical Bounce Toward MA20",
+    "date": "2026-08-20 10:02",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price below MA20 signals bearish trend",
-      "RSI indicates oversold conditions",
-      "US Treasury buybacks dilute dollar strength"
+      "RSI at 38.3 signals oversold conditions ripe for mean reversion",
+      "Japan July exports surge 49% on semiconductors, underpinning JPY fundamentals",
+      "Geopolitical risk premium supports JPY downside protection near 158.00"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY under pressure: price below MA20, RSI oversold, US Treasury buybacks dilute dollar.",
+    "excerpt": "USD/JPY tests 158.45 support with RSI oversold; tactical long targets MA20 at 159.95 amid strong Japanese export data and geopolitical bid.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Price below MA20, oversold RSI, and weakening fundamentals support a short.",
-    "entry": "158.40",
-    "tp": "156.50",
-    "sl": "159.50",
-    "reliability": "HIGH"
+    "status": "BUY",
+    "comment": "Oversold RSI and strong export data support tactical long toward MA20 resistance.",
+    "entry": "158.45",
+    "tp": "159.90",
+    "sl": "157.80",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Price Holds Above MA20 Despite Overbought RSI as Fed Minutes Awaited",
-    "date": "2026-08-20 01:30",
+    "title": "[S&P 500] UP: Momentum Holds Above MA20 as Yields Cool and Technicals Confirm Upside",
+    "date": "2026-08-20 10:03",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "Goldman Sachs",
     "tldr_points": [
-      "S&P 500 sustains break above 7,700 with MA20 at 7,620.55 acting as dynamic support",
-      "RSI-14 at 73.44 signals overbought conditions requiring pullback before next leg higher",
-      "Fed minutes and earnings catalysts (Moderna, CooperCompanies) drive near-term volatility"
+      "S&P 500 climbs on cooling yields with price above MA20",
+      "Mixed financials weigh while AI capex sustains momentum",
+      "RSI 72.65 signals overbought but resilient uptrend"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Index trades 1.4% above MA20 with RSI overbought; bullish bias intact on dips toward 7,620 support.",
+    "excerpt": "S&P 500 futures climb on cooling yields and MA20 support, though RSI 72.65 flags near-term overbought caution amid mixed earnings.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Bullish trend intact above MA20; overbought RSI favors pullback entry at 7,630-7,650 for 2.5:1 R:R toward 7,780.",
-    "entry": "7640",
-    "tp": "7780",
-    "sl": "7590",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P 500 futures climb on cooling yields and MA20 support, though RSI 72.65 flags near-term overbought caution amid mixed earnings.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-20 01:32",
+    "title": "[BTC/USD] UP: MA20 Breakout Confirmed as Treasury Buybacks Fuel Fundamentals",
+    "date": "2026-08-20 10:07",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Injective SEC registration fuels tokenization demand",
-      "AI‑blockchain convergence drives demand for BTC assets",
-      "Technical breakout above MA20 with strong RSI supports upside"
+      "BTC/USD validates bullish breakout above $64K MA20 amid Treasury buybacks",
+      "SEC proposals and stablecoin regulation momentum sustain inflows",
+      "On-chain metrics show $1.2B institutional inflows in last 24h",
+      "Resistance at $70K appears vulnerable as RSI overextends"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC bullish on macro and technicals, targeting $100k as AI and tokenization drive demand.",
+    "excerpt": "",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Fundamental and technical alignment supports upside momentum toward $73k.",
-    "entry": "65000.00",
-    "tp": "73000.00",
-    "sl": "63500.00",
+    "comment": "Technical breakout validated by on-chain accumulation and policy catalysts.",
+    "entry": "68500",
+    "tp": "70500",
+    "sl": "63500",
     "reliability": "HIGH"
   }
 }

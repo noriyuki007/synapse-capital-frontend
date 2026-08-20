@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: RSI過売とマクロ緩め要因の二重弧が強気を抑える",
-    "date": "2026-08-20 01:27",
+    "title": "[USD/JPY] DOWN: MA20上方の需価整理とファンダメンタルズの弛緩から再下落を期待",
+    "date": "2026-08-20 10:02",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "RSI(14)が25.79まで急落し、一時的な反発後の調整局面へ",
-      "米国原油在庫予想上回る増加はドル買い圧力を一時的に弱める",
-      "MA20（160.12）を下回る価格は下降トレンドの構造を示唆"
+      "PBOCの元付けレート予想6.7196円はCNY安圧力を意味し、USD買いには逆風",
+      "日本輸出実績の回復も日経株安を招き、safe-haven再加速の可能性",
+      "USD/JPYはMA20（159.95)上方での反発力も RSIが38.32近くで弱いシグナル"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "RSI過売信号とマクロデータの緩衰が合わさり、USD/JPYは160.12のMA20レベルにて反落。戻り高めの売りも検討。",
+    "excerpt": "USD/JPYはMA20付近で反発も、ファンダメンタルズの弛緩とPBOC政策観を背景に再び下落へ。厳格なリスク管理のもと、dmm-fxでのトレードを推奨。",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "RSI過売とMA20下降ブレイク、原油在庫予想上回る増加によるドル弱気要因",
-    "entry": "158.375",
-    "tp": "155.50",
-    "sl": "160.50",
+    "comment": "PBOCレート見通しとテクニカル弱気構造を背景に、再下落の見通し。",
+    "entry": "159.75",
+    "tp": "158.00",
+    "sl": "160.20",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20支持と過熱感緩和で上値意欲",
-    "date": "2026-08-20 01:30",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-08-20 10:03",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Goldman Sachs",
     "tldr_points": [
-      "上昇トレンド再確認",
-      "RSI過熱ながらMA20支援",
-      "7800円目標での上抜け狙い"
+      "S&P 500は7707.97でMA20を上回り、RSI72.6と過 bought状態だが、金利低下支援で上昇継続",
+      "主要銘柄の好調な決算発表が市場全体にポジティブな流動性を供給",
+      "短期的な調整リスクを鑑み、エントリーはMA20付近での押し目買いを推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500は7700円前後で上昇トレンド、RSI73の過熱感が残るもMA20で支えられ、個別銘柄の決算・ニュースが底堅い。リスク管理の下、7800円を目標ターゲットに設定し、上抜けを狙う戦略を提案する。",
+    "excerpt": "S&P 500はMA20を上回る上昇 trend を示し、金利低下と企業決算の好調さが支援。過 bought RSI に注意しつつ、短期的に买入戦略を検討。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P500は7700円前後で上昇トレンド、RSI73の過熱感が残るもMA20で支えられ、個別銘柄の決算・ニュースが底堅い。リスク管理の下、7800円を目標ターゲットに設定し、上抜けを狙う戦略を提案する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20を上回る上昇と金利低下支援、企業決算の好調さが後押し。RSI過熱を警戒しつつ短期买入。",
+    "entry": "7700",
+    "tp": "7800",
+    "sl": "7650",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20上昇を確認、AIブロックチェーン融合による institutional adoption の加速",
-    "date": "2026-08-20 01:32",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-08-20 10:07",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20を大幅に上回る強気トレンドの継続と構造的ファンダメンタルズの改善",
-      "AIエージェントとtokenized markets の融合による 10-100x 成長見込み",
-      "RSI過熱を一時的な調整機会と捉え、押目买入戦略を推奨"
+      "価格はMA20を大幅に上回り、上昇トレンドが継続",
+      "議会のcrypto法案進展と機関需要がファンダメンタルズを支援",
+      "RSIは74で過熱感があるが、短期的な押し目買いが有効"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を上回る強気相場を継続し、AIブロックチェーン融合による institutional adoption の加速が下値を支える。",
+    "excerpt": "ビットコインはMA20を大幅に上回り、RSIは74で過熱感があるものの、議会のcrypto法案進展や機関のETF需要増強、米財務の買い戻しが相まって上昇余地を維持している。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上回る強気相場とAIブロックCHEIN融合による長期的 fundamentals の改善、RSI過熱は一時的な調整要因にとどまる。",
-    "entry": "66000.00",
-    "tp": "75000.00",
-    "sl": "63500.00",
+    "comment": "MA20上抜けとファンダメンタルズの改善が上昇を支える",
+    "entry": "68800",
+    "tp": "72000",
+    "sl": "66500",
     "reliability": "HIGH"
   }
 }
