@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: AI Detects Bearish Momentum as Price Sits Below MA20",
-    "date": "2026-08-20 17:33",
+    "title": "[USD/JPY] UP: AI Signals MA20 as Immediate Support Amid Fed-Hawkish narration",
+    "date": "2026-08-21 01:30",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price action trending below the 20-period moving average",
-      "RSI indicates cooling momentum towards bearish territory",
-      "Geopolitical and Treasury buyback dynamics complicating USD strength"
+      "MA20 at 159.98 acts as critical short-term support",
+      "US Treasury bond buyback boosts USD dollar strength",
+      "Fed's Musalem/Muss steadiness temporarily offsets potential aggressiveness"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY faces downward pressure as price trades below the MA20 with RSI signaling weakening bullish momentum.",
+    "excerpt": "USD/JPY bullish bias on AI-detected MA20 support; Fed hawkish signals offsetting breakeven positioning.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Price trading below MA20 with RSI indicating bearish momentum.",
-    "entry": "159.00",
-    "tp": "157.50",
-    "sl": "160.10",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "AI materialized MA20 support with favorable rate divergence",
+    "entry": "159.08",
+    "tp": "161.10",
+    "sl": "158.40",
+    "reliability": "HIGH"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-20 17:35",
+    "date": "2026-08-21 01:32",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "eToro",
     "tldr_points": [
-      "Price above MA20 with strong momentum",
-      "RSI near overbought warns of short-term pullback",
-      "Fundamental catalysts: Treasury support and tech leadership"
+      "S&P 500 remains above its 20-day moving average, signaling resilient bullish trend structure.",
+      "RSI at 68.6 indicates strong momentum, though near-term yield spikes present macro risks.",
+      "Strategic entry on pullbacks toward the 7628 MA20 support level offers a high-probability setup."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above key MA20 amid cooling yields and tech-led rebound, suggesting further upside.",
+    "excerpt": "S&P 500 holds bullish trend above MA20. Tactical buy-the-dip strategy advised amid bond yield volatility.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Bullish bias with MA20 support and improving fundamentals; entry on dip toward moving average offers favorable risk‑reward.",
-    "entry": "7650.00",
-    "tp": "7900.00",
-    "sl": "7550.00",
+    "comment": "Strong bullish momentum above MA20 support at 7628.83, offering a tactical dip-buying opportunity amid resilient institutional demand.",
+    "entry": "7628.83",
+    "tp": "7700.00",
+    "sl": "7600.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-20 17:38",
+    "title": "[BTC/USD] UP: Price Above MA20 with Strong Fundamentals, RSI Signals Near-Term Exhaustion",
+    "date": "2026-08-21 01:35",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "ETF inflows boost demand",
-      "Treasury buybacks and SEC proposal underpin rally",
-      "MA20 remains key support amid overbought RSI"
+      "BTC trades above MA20 indicating bullish medium‑term trend.",
+      "RSI 82.7 suggests overbought conditions, warranting caution on extended longs.",
+      "Fundamental news highlights AI‑driven blockchain adoption, supporting long‑term demand."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD poised for upward move as ETF inflows, Treasury buybacks, and SEC proposal strengthen fundamentals, MA20 support.",
+    "excerpt": "BTC holds above key MA20 amid AI‑driven blockchain catalysts; watch for overbought pullback.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Strong ETF inflows and regulatory support sustain bullish bias",
-    "entry": "71500",
-    "tp": "73000",
-    "sl": "70500",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTC holds above key MA20 amid AI‑driven blockchain catalysts; watch for overbought pullback.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }

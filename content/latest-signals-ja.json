@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: 158.5付近の下落とRSI低下が売圧を示唆",
-    "date": "2026-08-20 17:33",
+    "title": "[USD/JPY] UP: フィラデルフィア連銀指数の大幅上振れとリーディング指数の改善が底堅さを示唆",
+    "date": "2026-08-21 01:30",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "RSIが38に低下し売圧が強まる",
-      "MA20上での押し目売り余地が限定的",
-      "158.50割れで157.80への下落リスクが顕在化"
+      "フィラデルフィア連銀業況指数が予想を大幅に上回り、実需の底堅さを示す。",
+      "米景気先行指数が予想を上回り、景気減速懸念が後退。",
+      "テクニカルはMA20付近での押し目買いシグナルが点灯し、RSIは反転余地を残す。"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "158.48付近で下落トレンドが強まり、RSI38の oversold示すが、MA20上で押し目買いが失敗しやすく、158.50割れで157.80へ下落リスクが顕在化",
+    "excerpt": "米国の強い指数と利回り環境を背景に、USD/JPYはMA20付近への反発を狙う。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "158.48付近で下落トレンドが強まり、RSI38の oversold示すが、MA20上で押し目買いが失敗しやすく、158.50割れで157.80へ下落リスクが顕在化",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "強い実需指標とMA20付近への押し目買いシグナルが一致",
+    "entry": "158.80",
+    "tp": "160.00",
+    "sl": "158.40",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-20 17:35",
+    "date": "2026-08-21 01:32",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "",
     "tldr_points": [
-      "S&P 500はMA20を上回り、RSIは過熱圏だが上傾向が継続",
-      "利回り低下と財政支援が株価を下支え、中期的には8000突破のシナリオが有力",
-      "押し目での買いを推奨し、流動性の観点からNomura Securitiesの利用を検討"
+      "価格がMA20を上回り、モメンタムが継続中。",
+      "VYMの17%上昇など、強気なファンダメンタルズを背景に、相場は上昇基調。",
+      "テクニカルな押し目買い機会を提供。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20上放れと利回り低下が上昇を支えるが、RSI77で過熱警戒。押し目買いとリスク管理を推奨。",
+    "excerpt": "S&P 500はMA20を上回り、強気なファンダメンタルズとVYMの17%上昇を背景に、モメンタムが維持されている。テクニカルな押し目買い機会を提供している。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20支持とファンダメンタルズの強さが上昇を裏付け、RSI過熱は押し目買いのシグナル",
-    "entry": "7615.00",
-    "tp": "7850.00",
-    "sl": "7550.00",
+    "comment": "MA20支持と強気ファンダメンタルズを考慮したBuy。",
+    "entry": "7650.00",
+    "tp": "7750.00",
+    "sl": "7610.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-20 17:38",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性",
+    "date": "2026-08-21 01:35",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "現物ETFの net inflow が5.17億ドルと3.5ヶ月ぶり最大で需給改善",
-      "MA20を大きく上回りRSIは81.28と過熱感だが、ファンダメンタルズが支える",
-      "米国財務省のバイバックおよびSECの暗号資産提案が市場を後押し"
+      "RSIが80超え、上昇トレンドが継続",
+      "AI・DeFi関連ニュースがファンダメンタル需給を支援",
+      "流動性の観点からbitflyer利用を推奨"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "機関向けETF流入と財務政策が追い風となり、BTC/USDはMA20を基盤に上値を試す展開が予想される。",
+    "excerpt": "RSIが82超え、上昇トレンドが強い。AI・DeFi関連ニュースが支援。bitflyerで流動性活用を提案。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "ETF流入と財務政策が需給を改善し、MA20支持から上値余地あり",
-    "entry": "64500",
-    "tp": "73500",
-    "sl": "64200",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "RSIが82超え、上昇トレンドが強い。AI・DeFi関連ニュースが支援。bitflyerで流動性活用を提案。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
