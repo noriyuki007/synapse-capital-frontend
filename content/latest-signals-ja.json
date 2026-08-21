@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: 価格がMA20を下回り、ユーロ圏指標改善でドル売り圧力",
-    "date": "2026-08-21 17:35",
+    "title": "[USD/JPY] DOWN: MA20下抜けとリスクオフの金先物上昇が整合",
+    "date": "2026-08-22 01:29",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "ユーロ圏製造・サービスPMIが予想を上回り、ドル相対でユーロ買い圧力",
-      "米国企業利益の警戒感がリスクオフ傾向を強め、ドルの安全資産需給は限定的",
-      "テクニカルでは価格がMA20を割り込み、RSIは60で上値の余地は限定的"
+      "金先物の急騰がリスクオフを示し、円買い圧力が強まる",
+      "米製造業PMIの予想下振れと欧州消費者信頼感の改善が混在し、方向性は不透明だが下側バイアスが優位",
+      "MA20を下回りRSIが62程度で過熱感は限定的、押し目売りの余地あり"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "価格はMA20下抜けで下落バイアス。ユーロ圏指標強化と米利益警戒がドル売りを支え、[dmm-fx]の高流動性環境でショート推奨。",
+    "excerpt": "金先物の上昇とリスクオフムードが円買いを後押しし、USD/JPYはMA20下抜けから下目線。エントリーは158.80付近、TP 158.20、SL 159.30を想定。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "価格はMA20下抜けで下落バイアス。ユーロ圏指標強化と米利益警戒がドル売りを支え、[dmm-fx]の高流動性環境でショート推奨。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "金先物のリスクオフとMA20下抜けが円買いを後押し、下目線が濃厚",
+    "entry": "158.80",
+    "tp": "158.20",
+    "sl": "159.30",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-21 17:38",
+    "date": "2026-08-22 01:32",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "野村證券",
     "tldr_points": [
-      "価格はMA20を僅かに上抜け、RSIは62で過熱感は限定的",
-      "金利上昇懸念が残る一方、ファンダメンタルズは底堅い企業収益を示す",
-      "短期的な押し目買いを推奨し、流動性はNomura Securitiesの利用が適切"
+      "MA20付近でサポート確認、RSIは中立付近で上げ余地",
+      "ADP株の好調が消費関連株に波及、景気後退懸念は後退",
+      "VOO積立シナリオは長期上昇トレンドを裏付ける"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を上抜け、RSIは62で底堅い。金利懸念は残るが短期的な押し目買い機会と判断。",
+    "excerpt": "MA20を上抜けし、RSIが57程度で上げ余地あり。ファンダメンタルズは景気敏感株の好調を背景に上昇バイアス。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20サポートとRSI62の状況から短期的な上昇余地あり",
-    "entry": "7630.00",
-    "tp": "7690.00",
-    "sl": "7600.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20上抜けとRSI中立が上昇余地を示し、ファンダメンタルズは雇用・消費の堅調さを背景に上方バイアスを支える。",
+    "entry": "7650.00",
+    "tp": "7750.00",
+    "sl": "7620.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Overbought RSI, Premature Rally Narrative, and Macro Uncertainty",
-    "date": "2026-08-21 17:44",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-08-22 01:35",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "RSI at 87.5 signals extreme overbought conditions",
-      "Analyst consensus labels current rally as premature",
-      "Macro headlines (regulation, tokenized funds) add asymmetric downside risk"
+      "価格はMA20を大きく上回り、RSIは過熱状態だが機関流入が継続",
+      "ETFフローの回復と韓国取引量急増が流動性を支える",
+      "直近の押し目買いゾーンは75k〜76k付近が視野に"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC trades 19% above its 20‑day MA with RSI near 88; fundamental catalysts are mixed, favoring a short‑term pullback.",
+    "excerpt": "MA20を上抜け、機関のETFフロー回復とアジア流動性拡大が上昇を支えると見込む。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "RSI極端な過熱とプレミアムラリーの時期尚早指摘が下方バイアスを支持",
-    "entry": "77700",
-    "tp": "73200",
-    "sl": "79500",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20上抜けと機関フロー回復が上昇を支え、押し目買いが有利",
+    "entry": "75800",
+    "tp": "82000",
+    "sl": "74500",
+    "reliability": "HIGH"
   }
 }

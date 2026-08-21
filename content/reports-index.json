@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-08-22-crypto-ja",
+    "date": "2026-08-22 01:35",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "MA20を上抜け、機関のETFフロー回復とアジア流動性拡大が上昇を支えると見込む。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-22-crypto-en",
+    "date": "2026-08-22 01:35",
+    "title": "[BTC/USD] UP: Institutional ETF Flows and Liquidity Drive Surge Toward $80K Despite Overbought Conditions",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD surges on institutional ETF inflows. Extreme RSI suggests pullback to MA20 for long entries.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-08-22-stocks-ja",
+    "date": "2026-08-22 01:32",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "野村證券",
+    "excerpt": "MA20を上抜けし、RSIが57程度で上げ余地あり。ファンダメンタルズは景気敏感株の好調を背景に上昇バイアス。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-22-stocks-en",
+    "date": "2026-08-22 01:32",
+    "title": "[S&P 500] UP: Price Above MA20 with Moderate RSI Supports Near-Term Rally",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 above MA20 at 7,681, RSI 57.5, ADP up 13% and Dow outperforming Nasdaq signal near‑term upside.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-08-22-fx-ja",
+    "date": "2026-08-22 01:29",
+    "title": "[USD/JPY] DOWN: MA20下抜けとリスクオフの金先物上昇が整合",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "金先物の上昇とリスクオフムードが円買いを後押しし、USD/JPYはMA20下抜けから下目線。エントリーは158.80付近、TP 158.20、SL 159.30を想定。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-22-fx-en",
+    "date": "2026-08-22 01:29",
+    "title": "[USD/JPY] DOWN: AI Detects Support at MA20 as Fundamentals Turn Bearish",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY trades below MA20 with RSI 62, awaiting downside break toward 158.0 as USD fundamentals weaken.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-08-21-crypto-ja",
     "date": "2026-08-21 17:44",
     "title": "[BTC/USD] DOWN: Overbought RSI, Premature Rally Narrative, and Macro Uncertainty",

@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Technical correction below MA20 as profit-taking emerges",
-    "date": "2026-08-21 17:35",
+    "title": "[USD/JPY] DOWN: AI Detects Support at MA20 as Fundamentals Turn Bearish",
+    "date": "2026-08-22 01:29",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY pulls back below the 20-period MA at 159.68, reflecting short-term profit-taking",
-      "German and UK PMIs beat expectations, but defensive corporate earnings sentiment limits upside",
-      "Key support is located at 158.00, with a break lower exposing further downside toward 157.50"
+      "Price near MA20 with RSI 62 suggests potential reversal",
+      "SNB low inflation expectations and US tariff cuts reduce USD upside, supporting JPY",
+      "Weak US manufacturing PMI and risk‑averse sentiment reinforce downside bias"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY corrects below MA20 as mixed PMIs and defensive earnings sentiment prompt profit-taking.",
+    "excerpt": "USD/JPY trades below MA20 with RSI 62, awaiting downside break toward 158.0 as USD fundamentals weaken.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Technical pullback below MA20 and defensive earnings sentiment suggest a correction toward 158.00 support.",
-    "entry": "159.60",
-    "tp": "158.00",
-    "sl": "160.10",
+    "status": "NEUTRAL",
+    "comment": "USD/JPY trades below MA20 with RSI 62, awaiting downside break toward 158.0 as USD fundamentals weaken.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-21 17:38",
+    "title": "[S&P 500] UP: Price Above MA20 with Moderate RSI Supports Near-Term Rally",
+    "date": "2026-08-22 01:32",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "Spot price tests MA20 support at 7631.31 with RSI momentum diverging",
-      "Higher-for-longer rate concerns offset by sector-specific rally in Copart and AI-focused names",
-      "Tactical entry at MA20 suggests favorable risk/reward toward 7670 resistance"
+      "S&P 500 trades above its 20‑day moving average, indicating short‑term bullish momentum.",
+      "ADP’s 13.4% monthly gain and Dow outperformance signal resilient labor demand and large‑cap preference.",
+      "RSI near 57.5 leaves room for further upside before overbought conditions."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above MA20 at 7641.16; AI signals rebound potential as Copart outperforms amid AI bubble concerns.",
+    "excerpt": "S&P 500 above MA20 at 7,681, RSI 57.5, ADP up 13% and Dow outperforming Nasdaq signal near‑term upside.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Tactical rebound opportunity at MA20 support with strong intraday reversal potential",
-    "entry": "7631.31",
-    "tp": "7670",
-    "sl": "7620",
-    "reliability": "HIGH"
+    "comment": "Price above MA20 with moderate RSI and supportive fundamentals.",
+    "entry": "7660.00",
+    "tp": "7750.00",
+    "sl": "7620.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Breakout Above $75,500 with Overbought RSI Suggests Continued Rally",
-    "date": "2026-08-21 17:44",
+    "title": "[BTC/USD] UP: Institutional ETF Flows and Liquidity Drive Surge Toward $80K Despite Overbought Conditions",
+    "date": "2026-08-22 01:35",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price surges above $75,500 with RSI at 87.5 indicating overbought conditions",
-      "Institutional inflows and macro risk-on sentiment support bullish bias",
-      "Technical pullback toward MA20 at $65,338 offers tactical entry"
+      "Institutional accumulation and rebounding ETF flows drive a liquidity-led surge toward $80,000.",
+      "Technical indicators show extreme overbought conditions (RSI 87.2), signaling near-term consolidation risk.",
+      "Tactical strategy favors long positions on pullbacks toward the 20-day moving average at $65,317."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD breaks $75,500; RSI 87.5 signals overbought; expect pullback to MA20 as institutions accumulate amid uncertainty",
+    "excerpt": "BTC/USD surges on institutional ETF inflows. Extreme RSI suggests pullback to MA20 for long entries.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USD breaks $75,500; RSI 87.5 signals overbought; expect pullback to MA20 as institutions accumulate amid uncertainty",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Institutional ETF inflows and strong liquidity drive a structural uptrend, though extreme overbought RSI suggests waiting for a tactical pullback to MA20 support.",
+    "entry": "70000.00",
+    "tp": "82000.00",
+    "sl": "64000.00",
+    "reliability": "HIGH"
   }
 }
