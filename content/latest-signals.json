@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: BOJハイク期待と日本製造業PMI強化で円高圧力",
-    "date": "2026-08-21 10:05",
+    "title": "[USD/JPY] DOWN: 価格がMA20を下回り、ユーロ圏指標改善でドル売り圧力",
+    "date": "2026-08-21 17:35",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "BOJの9月利上げ観測が円買いを促進",
-      "Flash PMIが日本製造業の回復を示し、金利差縮小の材料に",
-      "テクニカルはMA20付近での売り圧力が優位"
+      "ユーロ圏製造・サービスPMIが予想を上回り、ドル相対でユーロ買い圧力",
+      "米国企業利益の警戒感がリスクオフ傾向を強め、ドルの安全資産需給は限定的",
+      "テクニカルでは価格がMA20を割り込み、RSIは60で上値の余地は限定的"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "BOJ利上げ期待と強い製造業PMIが円を支え、USD/JPYはMA20を上抜けできず下落の可能性が高い。",
+    "excerpt": "価格はMA20下抜けで下落バイアス。ユーロ圏指標強化と米利益警戒がドル売りを支え、[dmm-fx]の高流動性環境でショート推奨。",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "BOJ利上げ期待と強い製造業PMIが円を支え、USD/JPYはMA20を上抜けできず下落の可能性が高い。",
+    "comment": "価格はMA20下抜けで下落バイアス。ユーロ圏指標強化と米利益警戒がドル売りを支え、[dmm-fx]の高流動性環境でショート推奨。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20サポート確認とRSI中立域での買い優位性",
-    "date": "2026-08-21 10:09",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-08-21 17:38",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Major Prime Broker",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "7627のMA20が強固なサポートとして機能し、反発基調を確認",
-      "RSI 65.3は買い優勢ながら過熱感なき健全なモメンタムを示唆",
-      "個別銘柄の明暗分かれるも、指数レベルでは買い戻し優位継続"
+      "価格はMA20を僅かに上抜け、RSIは62で過熱感は限定的",
+      "金利上昇懸念が残る一方、ファンダメンタルズは底堅い企業収益を示す",
+      "短期的な押し目買いを推奨し、流動性はNomura Securitiesの利用が適切"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20付近での下値切り上げを確認。RSIは中立上限で買い余力十分。セクターローテーション下でも指数の強さが際立つ。",
+    "excerpt": "S&P 500はMA20を上抜け、RSIは62で底堅い。金利懸念は残るが短期的な押し目買い機会と判断。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20サポート機能とRSI健全上昇、セクターローテーション下での指数強さを確認",
-    "entry": "7640.00",
-    "tp": "7700.00",
-    "sl": "7625.00",
-    "reliability": "HIGH"
+    "comment": "MA20サポートとRSI62の状況から短期的な上昇余地あり",
+    "entry": "7630.00",
+    "tp": "7690.00",
+    "sl": "7600.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: RSI過熱とMA20乖離からの調整局面を想定",
-    "date": "2026-08-21 10:14",
+    "title": "[BTC/USD] DOWN: Overbought RSI, Premature Rally Narrative, and Macro Uncertainty",
+    "date": "2026-08-21 17:44",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "RSIが84.7と過熱域、MA20を大幅に上回る価格は短期的調整リスクを示唆",
-      "機関の予測市場規制議論とトランプ氏のClarity Act支持が規制不透明感を高める",
-      "流動性の観点から[bitflyer]での売りポジション構築を推奨"
+      "RSI at 87.5 signals extreme overbought conditions",
+      "Analyst consensus labels current rally as premature",
+      "Macro headlines (regulation, tokenized funds) add asymmetric downside risk"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "過熱したRSIとMA20乖離が示す調整局面への備えが必要。ファンダメンタルズは依然強くても、短期的利益確定圧力が高まる。",
+    "excerpt": "BTC trades 19% above its 20‑day MA with RSI near 88; fundamental catalysts are mixed, favoring a short‑term pullback.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "RSI過熱・MA20乖離とオーダーフローの売り圧力から短期調整を想定",
-    "entry": "74200.00",
-    "tp": "70000.00",
-    "sl": "76500.00",
+    "comment": "RSI極端な過熱とプレミアムラリーの時期尚早指摘が下方バイアスを支持",
+    "entry": "77700",
+    "tp": "73200",
+    "sl": "79500",
     "reliability": "MEDIUM"
   }
 }
