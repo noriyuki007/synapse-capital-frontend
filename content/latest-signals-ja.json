@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: フィラデルフィア連銀指数の大幅上振れとリーディング指数の改善が底堅さを示唆",
-    "date": "2026-08-21 01:30",
+    "title": "[USD/JPY] DOWN: BOJハイク期待と日本製造業PMI強化で円高圧力",
+    "date": "2026-08-21 10:05",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "フィラデルフィア連銀業況指数が予想を大幅に上回り、実需の底堅さを示す。",
-      "米景気先行指数が予想を上回り、景気減速懸念が後退。",
-      "テクニカルはMA20付近での押し目買いシグナルが点灯し、RSIは反転余地を残す。"
+      "BOJの9月利上げ観測が円買いを促進",
+      "Flash PMIが日本製造業の回復を示し、金利差縮小の材料に",
+      "テクニカルはMA20付近での売り圧力が優位"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米国の強い指数と利回り環境を背景に、USD/JPYはMA20付近への反発を狙う。",
+    "excerpt": "BOJ利上げ期待と強い製造業PMIが円を支え、USD/JPYはMA20を上抜けできず下落の可能性が高い。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "強い実需指標とMA20付近への押し目買いシグナルが一致",
-    "entry": "158.80",
-    "tp": "160.00",
-    "sl": "158.40",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-21 01:32",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "tldr_points": [
-      "価格がMA20を上回り、モメンタムが継続中。",
-      "VYMの17%上昇など、強気なファンダメンタルズを背景に、相場は上昇基調。",
-      "テクニカルな押し目買い機会を提供。"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を上回り、強気なファンダメンタルズとVYMの17%上昇を背景に、モメンタムが維持されている。テクニカルな押し目買い機会を提供している。",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20支持と強気ファンダメンタルズを考慮したBuy。",
-    "entry": "7650.00",
-    "tp": "7750.00",
-    "sl": "7610.00",
-    "reliability": "HIGH"
-  },
-  "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性",
-    "date": "2026-08-21 01:35",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bitflyer",
-    "tldr_points": [
-      "RSIが80超え、上昇トレンドが継続",
-      "AI・DeFi関連ニュースがファンダメンタル需給を支援",
-      "流動性の観点からbitflyer利用を推奨"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "RSIが82超え、上昇トレンドが強い。AI・DeFi関連ニュースが支援。bitflyerで流動性活用を提案。",
-    "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "RSIが82超え、上昇トレンドが強い。AI・DeFi関連ニュースが支援。bitflyerで流動性活用を提案。",
+    "comment": "BOJ利上げ期待と強い製造業PMIが円を支え、USD/JPYはMA20を上抜けできず下落の可能性が高い。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
+    "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20サポート確認とRSI中立域での買い優位性",
+    "date": "2026-08-21 10:09",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Major Prime Broker",
+    "tldr_points": [
+      "7627のMA20が強固なサポートとして機能し、反発基調を確認",
+      "RSI 65.3は買い優勢ながら過熱感なき健全なモメンタムを示唆",
+      "個別銘柄の明暗分かれるも、指数レベルでは買い戻し優位継続"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500はMA20付近での下値切り上げを確認。RSIは中立上限で買い余力十分。セクターローテーション下でも指数の強さが際立つ。",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "MA20サポート機能とRSI健全上昇、セクターローテーション下での指数強さを確認",
+    "entry": "7640.00",
+    "tp": "7700.00",
+    "sl": "7625.00",
+    "reliability": "HIGH"
+  },
+  "CRYPTO": {
+    "title": "[BTC/USD] DOWN: RSI過熱とMA20乖離からの調整局面を想定",
+    "date": "2026-08-21 10:14",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "tldr_points": [
+      "RSIが84.7と過熱域、MA20を大幅に上回る価格は短期的調整リスクを示唆",
+      "機関の予測市場規制議論とトランプ氏のClarity Act支持が規制不透明感を高める",
+      "流動性の観点から[bitflyer]での売りポジション構築を推奨"
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "過熱したRSIとMA20乖離が示す調整局面への備えが必要。ファンダメンタルズは依然強くても、短期的利益確定圧力が高まる。",
+    "pair": "BTC/USD",
+    "status": "SELL",
+    "comment": "RSI過熱・MA20乖離とオーダーフローの売り圧力から短期調整を想定",
+    "entry": "74200.00",
+    "tp": "70000.00",
+    "sl": "76500.00",
     "reliability": "MEDIUM"
   }
 }
