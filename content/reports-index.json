@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-08-23-crypto-ja",
+    "date": "2026-08-23 01:23",
+    "title": "[BTC/USD] UP: MA20突破と強気ファンダメンタルが支える上昇志向",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTCは77186.93円でMA20を大幅に上抜け、RSIが82.58と過熱ゾーンに接近。リスクオンのファンダメンタルとETF期待が支え、中期的な上昇余地は十分。ただし短期的に調整がある可能性も検討し、流動性重視でbitflyerを活用すべき。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-23-crypto-en",
+    "date": "2026-08-23 01:23",
+    "title": "[BTC/USD] UP: Strong technical upside above MA20, bullish fundamentals from ETF and altcoin rally",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD above MA20, RSI overbought; bullish ETF and altcoin news support upside despite near-term overbought momentum.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-08-23-stocks-ja",
+    "date": "2026-08-23 01:21",
+    "title": "[S&P 500] UP: MA20での支援と金利センチメントの好転が根拠",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "野村証券",
+    "excerpt": "S&P500はMA20上での支援を確認し、金利上昇局面とセンチメントが転換、短期的に上昇余地が見えると見込まれ、リスク許容度の高い投資家にとって魅力的な局面と判断できる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-23-stocks-en",
+    "date": "2026-08-23 01:21",
+    "title": "[S&P 500] UP: AI Momentum Meets Support at MA20",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "AI earnings boost S&P 500; price hovers near MA20 support; RSI modestly bullish; recommend long with tight stop now",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-08-23-fx-ja",
+    "date": "2026-08-23 01:19",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYはMA20付近での反発を狙い、ファンダメンタルズのリスクオフ緩和とテクニカル的買いシグナルが一致。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-23-fx-en",
+    "date": "2026-08-23 01:19",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "AI signals bullish continuation as USD/JPY remains above key support; MA20 aligns as target zone.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-08-22-crypto-ja",
     "date": "2026-08-22 17:32",
     "title": "[BTC/USD] UP: MA20下支えと過熱感を考慮した押し目買いシナリオ",

@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-22 17:25",
+    "date": "2026-08-23 01:19",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Key point 1",
-      "Key point 2",
-      "Key point 3"
+      "USD/JPY holds above key support near 158.94",
+      "Bullish divergence between price and RSI supports upside",
+      "MA20 at 159.70 acts as dynamic resistance and bounce zone"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USDJPY eyes MA20 as risk‑on sentiment lifts, RSI shows bullish bias ahead of weekly range, targeting 160.00 level zone!",
+    "excerpt": "AI signals bullish continuation as USD/JPY remains above key support; MA20 aligns as target zone.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Fundamental risk‑on sentiment and technical alignment support a long toward MA20 and beyond.",
-    "entry": "159.10",
-    "tp": "160.30",
-    "sl": "158.40",
+    "comment": "Bullish continuation likely as price finds support near MA20; RSI confirms positive momentum.",
+    "entry": "159.60",
+    "tp": "160.50",
+    "sl": "158.20",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-22 17:26",
+    "title": "[S&P 500] UP: AI Momentum Meets Support at MA20",
+    "date": "2026-08-23 01:21",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "MA20 support holds near 7674",
-      "RSI 57 indicates moderate bullish momentum",
-      "Elevated yields pose downside risk but trend remains positive"
+      "Support holds near MA20",
+      "RSI suggests modest upside",
+      "Earnings outlook for AI remains constructive"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 near MA20 support, RSI 57, yields high; bullish bias with tight risk.",
+    "excerpt": "AI earnings boost S&P 500; price hovers near MA20 support; RSI modestly bullish; recommend long with tight stop now",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500 near MA20 support, RSI 57, yields high; bullish bias with tight risk.",
+    "comment": "AI earnings boost S&P 500; price hovers near MA20 support; RSI modestly bullish; recommend long with tight stop now",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Grayscale Zcash ETF Filing & AI Adoption Drives Bullish Momentum",
-    "date": "2026-08-22 17:32",
+    "title": "[BTC/USD] UP: Strong technical upside above MA20, bullish fundamentals from ETF and altcoin rally",
+    "date": "2026-08-23 01:23",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Grayscale's amended SEC filing accelerates Zcash ETF timeline",
-      "BounceBit migration to BNB Chain signals ecosystem consolidation",
-      "AI-driven crypto crime rise fuels institutional interest"
+      "Price sits 17% above 20‑day MA, indicating strong upward trend.",
+      "RSI at 82.6 signals overbought conditions, suggesting near‑term profit‑taking risk.",
+      "Fundamental tailwinds: Grayscale Zcash ETF filing, XRP‑led altcoin rally, and rising bitcoin weekly gains."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD at 77k with MA20 support at 66k; RSI overbought at 82; AI adoption surge drives bullish sentiment",
+    "excerpt": "BTC/USD above MA20, RSI overbought; bullish ETF and altcoin news support upside despite near-term overbought momentum.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Strong fundamental catalysts and technical support align for continued upside.",
-    "entry": "66500",
-    "tp": "78500",
-    "sl": "65800",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTC/USD above MA20, RSI overbought; bullish ETF and altcoin news support upside despite near-term overbought momentum.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
