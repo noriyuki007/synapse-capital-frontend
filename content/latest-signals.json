@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-22 10:02",
+    "title": "[USD/JPY] UP: 押し目買いとMA20サポートの整合性を確認",
+    "date": "2026-08-22 17:25",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "現在価格はMA20下放れで推移し、リスクオン環境が米ドル買いを支える",
-      "トランプの牛肉関税撤回で貿易不安が緩和、リスク選好が強まる",
-      "テクニカルは押し目買いのシグナルを示唆し、MA20上抜けを狙う"
+      "トランプの牛肉関税撤回がリスクオンを促し円安圧力が高まる",
+      "MA20付近での反発が期待され、RSI62が上げモメンタムを示す",
+      "流動性の観点から[dmm-fx]の利用を推奨し、エントリー158.90・TP160.20・SL158.30で戦略を構築"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "現在価格はMA20下放れで推移し、リスクオン環境とタリフ緩和が米ドル買いを支える可能性。テクニカルは押し目買いのシグナルを示唆。",
+    "excerpt": "トランプ関税撤回とリスクオンで円安が進み、USD/JPYはMA20付近の押し目買いシグナルが点灯。テクニカルは価格がMA20下位でありながらRSI62で上げ余地を示し、流動性の良い[dmm-fx]での実行を推奨する。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "現在価格はMA20下放れで推移し、リスクオン環境とタリフ緩和が米ドル買いを支える可能性。テクニカルは押し目買いのシグナルを示唆。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "トランプ関税撤回とリスクオンで円安圧力が高まり、テクニカルはMA20付近の押し目買いシグナルを示す",
+    "entry": "158.90",
+    "tp": "160.20",
+    "sl": "158.30",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20上回りと週末の下振れからのリバウンド強化を確認",
-    "date": "2026-08-22 10:03",
+    "title": "[S&P 500] UP: MA20での反発と長期金利上昇への耐性を確認",
+    "date": "2026-08-22 17:26",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "現在価格7674.37はMA20上回り、RSI 56.9で横ばいから上昇局面",
-      "米金利上昇圧力とイランリスクが市場を揺らすが、需給再評価で上方押し込み",
-      "波乱を捕らえるためIEXなどの流動性マーケットを活用を推奨"
+      "価格はMA20を上回り短期的な買い支えが示唆される",
+      "長期金利の上昇が週足の重しとなり、上値は限定的",
+      "RSIは中立付近で過熱感は薄く、押し目買いの余地あり"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20上回り、RSI 56.9で横ばいから上昇局面を確認。米金利上昇圧力とイランリスクが市場を揺らすが、需給再評価で上方押し込み。波乱を捕らえるためIEXなどの流動性マーケットを活用を推奨する。",
+    "excerpt": "S&P 500はMA20を上抜け一時的に強気だが、長期金利上昇が週足の重しとなり上値は限定的。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20上回り、RSI 56.9で横ばい。上昇局面を確認。",
-    "entry": "7650.00",
-    "tp": "7800.00",
-    "sl": "7550.00",
-    "reliability": "HIGH"
+    "comment": "MA20上抜けとRSI中立から短期的な買い余地あり、長期金利上昇で上値は限定的",
+    "entry": "7660",
+    "tp": "7750",
+    "sl": "7620",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: $78K上抜けとRSI強買圏の修正誘発",
-    "date": "2026-08-22 10:08",
+    "title": "[BTC/USD] UP: MA20下支えと過熱感を考慮した押し目買いシナリオ",
+    "date": "2026-08-22 17:32",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "現在値78,099ドルでMA20(65,358ドル)を上抜けRSI87.8の過熱局面",
-      "デフレ市場でのRay Dalioによるビットコイン推奨と機関投資家の資産配分転換",
-      "調整局面の買いエントリーを0.5%リスク許容でTP79,500/SL77,200"
+      "価格はMA20を大幅に上回り、上昇トレンドは継続中",
+      "RSIが82と過熱圏に達しており、短期的な押し目が想定される",
+      "GrayscaleのZcash ETF申請等、機関向け製品の拡張がファンダメンタルズを支える"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDは78,099ドルでMA20上抜けRSI87.8の強買圏に突入。デフレ懸念の下Ray Dalio流の資産保護視点から機関資金の流入が加速し、本値付近での調整を狙った買いエントリーを推奨する。流動性確保の観点ではbitflyerを推奨する。",
+    "excerpt": "BTC/USDはMA20を堅固なサポートとして保ちつつ、RSIの過熱から押し目買いの機会が生じている。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "RSI過熱局面の修正を狙い、MA20下抜け後の反発買い",
-    "entry": "77500",
-    "tp": "79500",
-    "sl": "77200",
+    "comment": "MA20をサポートとする上昇トレンド継続と、RSI過熱からの押し目買い機会",
+    "entry": "72000.00",
+    "tp": "85000.00",
+    "sl": "68000.00",
     "reliability": "HIGH"
   }
 }

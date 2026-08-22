@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-22 10:02",
+    "date": "2026-08-22 17:25",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price testing MA20 support at 158.94 with RSI neutralizing at 62",
-      "Trump's beef tariff concession lifts risk sentiment favoring USD",
-      "AUD/USD rally signals broad FX risk-on driving USD strength"
+      "Key point 1",
+      "Key point 2",
+      "Key point 3"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY stabilizes near 158.94 as Trump backs down on beef tariffs, MA20 acts as critical support for tactical long entries.",
+    "excerpt": "USDJPY eyes MA20 as risk‑on sentiment lifts, RSI shows bullish bias ahead of weekly range, targeting 160.00 level zone!",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Tactical long opportunity at MA20 support amid bullish fundamental pivot and neutral momentum",
-    "entry": "158.95",
-    "tp": "160.2",
-    "sl": "158.35",
+    "comment": "Fundamental risk‑on sentiment and technical alignment support a long toward MA20 and beyond.",
+    "entry": "159.10",
+    "tp": "160.30",
+    "sl": "158.40",
     "reliability": "HIGH"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-22 10:03",
+    "date": "2026-08-22 17:26",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price holds above MA20 with RSI confirming momentum",
-      "Elevated long-duration yields present short-term headwinds",
-      "Buy dips toward MA20 with protective stop below 7620"
+      "MA20 support holds near 7674",
+      "RSI 57 indicates moderate bullish momentum",
+      "Elevated yields pose downside risk but trend remains positive"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 consolidates near 7674 as technical support strengthens at MA20 amid mixed macro signals and AI-driven buy-the-dip setup.",
+    "excerpt": "S&P 500 near MA20 support, RSI 57, yields high; bullish bias with tight risk.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Technical strength at MA20 supported by improving sentiment and earnings tailwinds offsets rate concerns",
-    "entry": "7650",
-    "tp": "7720",
-    "sl": "7615",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P 500 near MA20 support, RSI 57, yields high; bullish bias with tight risk.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Overbought RSI meets Gemini Round 2 support as DALIO bullish",
-    "date": "2026-08-22 10:08",
+    "title": "[BTC/USD] UP: Grayscale Zcash ETF Filing & AI Adoption Drives Bullish Momentum",
+    "date": "2026-08-22 17:32",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC holds 100-day high support",
-      "Dalio’s debt crisis thesis validates upside",
-      "Onchain inflows suggest accumulation trend"
+      "Grayscale's amended SEC filing accelerates Zcash ETF timeline",
+      "BounceBit migration to BNB Chain signals ecosystem consolidation",
+      "AI-driven crypto crime rise fuels institutional interest"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD shows technical strength with Dahlio’s buy signal offsetting macro caution.",
+    "excerpt": "BTC/USD at 77k with MA20 support at 66k; RSI overbought at 82; AI adoption surge drives bullish sentiment",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USD shows technical strength with Dahlio’s buy signal offsetting macro caution.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Strong fundamental catalysts and technical support align for continued upside.",
+    "entry": "66500",
+    "tp": "78500",
+    "sl": "65800",
+    "reliability": "HIGH"
   }
 }
