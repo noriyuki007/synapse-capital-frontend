@@ -1,68 +1,66 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-23 10:06",
+    "title": "[USD/JPY] UP: MA20 pullback aligns with risk rally",
+    "date": "2026-08-23 17:24",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米国株指数のMA回帰とAUD/USDの高値更新によるリスクオンの波がUSD/JPYの下支えとなる",
-      "現価格（158.94）はMA20（159.70）下で割安感があり、RSI(62)が上昇余地を示す",
-      "158.94付近での戦略的买入を、ターゲット159.70、SL 158.20で推奨する"
+      "Price below MA20 signals short‑term bearish bias; risk assets bullish, supporting USD upside; key resistance at MA20 ~159.70 and support near 158.40."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米国株指数のMA回帰とAUD/USDの高値更新によるリスクオンの波を背景に、USD/JPYは一時的にMA20下に下落したが、RSI(62)の強気構造から戦略的买入帯として158.94付近を評価する。",
+    "excerpt": "USD/JPY at 158.94, below 20‑day MA, awaits catalyst from risk rally; key levels 158.40/159.70.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "リスクオンの宏观動向とRSI(62)の強気サインを背景に、158.94付近での买入を推奨",
+    "comment": "MA20 pullback aligns with risk rally, moderate RSI bullish momentum",
     "entry": "158.94",
     "tp": "159.70",
-    "sl": "158.20",
+    "sl": "158.40",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-23 10:09",
+    "date": "2026-08-23 17:27",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "現在価格はMA20を上抜け、RSIは56.9でやや買い傾向",
-      "FRBの利上げペース緩和とAI関連収益期待が材料",
-      "押し目買いを推奨し、エントリー7660、TP7750、SL7600でリスク管理"
+      "S&P 500はMA20を上回り、RSIは中立的な買い圧力を示唆",
+      "アルファベットとアマゾンの相対的割安さがセクター内ローテーションを促す可能性",
+      "金利政策とトランプ関税リスクが短期的なボラティリティを引き続き供給"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を上回り、RSIはやや買われ過ぎでない状態。ファンダメンタルズはFRB政策とAI収益期待が混在し、短期的な押し目買いが有利。",
+    "excerpt": "現在価格はMA20を上回り、RSIは56.9でやや買い優勢。ファンダメンタルズはハイテク割安と金利動向が鍵。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20上抜けとRSI中立、ファンダメンタルズはFRB緩和とAI期待が支える",
+    "comment": "MA20上抜けとRSI中立的買いがファンダメンタルのハイテク割安・金利緩和と整合",
     "entry": "7660.00",
-    "tp": "7750.00",
+    "tp": "7850.00",
     "sl": "7600.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "インテリジェンス：BTC/USDの強気相場における利益確定ポイント",
-    "date": "2026-08-23 10:10",
+    "title": "[BTC/USD] UP: ETF流入増加とMA20上抜けによる強気トレンドの継続",
+    "date": "2026-08-23 17:29",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "金利相関（近似）: -0.11で負相関傾向",
-      "テクニカル: 現在価格 77249.96 と MA20 66058.15 の位置関係が主導",
-      "需給: 上限帯 75390.94 / 下限帯 56725.36 / 直近高値 79463.71 / 直近安値 62226.58 によるターゲット設計"
+      "BTC/ETH ETFへの2.6億ドル流入が需要を押し上げ、MA20を大きく上回る価格帯で推移",
+      "RSI14が78.8と過熱感を示すが、ファンダメンタルズの強さが調整を限定的と見込む",
+      "Zcash関連ETF進展やSolanaの高速化が全体のリスクオン姿勢を支援"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 77249.96、RSI(82.86)、MA20(66058.15)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "ETF資金流入とテクニカル上抜けがBTC/USDの上昇基盤を形成、短期的過熱は調整要因となる。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、BTC/USDの現在価格 77249.96、RSI(82.86)、MA20(66058.15)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "ETF流入とMA20上抜けによる上昇バイアス、押し目買いでエントリー",
+    "entry": "73500.00",
+    "tp": "82000.00",
+    "sl": "71000.00",
+    "reliability": "HIGH"
   }
 }

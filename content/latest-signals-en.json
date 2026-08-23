@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Near-Term Support Awaiting MA20 Breakout as Risk Sentiment Improves",
-    "date": "2026-08-23 10:06",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-08-23 17:24",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price sits below MA20 at 158.94, with RSI 62 indicating moderate bullish momentum.",
-      "Risk‑on sentiment boosted by tariff relief and AUD/USD strength supports USD/JPY upside.",
-      "Key resistance at 159.70 (MA20) and 160.20; stop below 158.30 manages downside."
+      "Price trading below MA20 with RSI at 62 indicates near-term bullish momentum.",
+      "Trump’s retreat on beef tariffs reduces trade‑headwinds, supporting USD strength.",
+      "Risk‑on crypto rally adds to upward bias for USD/JPY."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds below MA20 with RSI 62; risk-on sentiment and tariff relief suggest near-term upside toward 159.70–160.20.",
+    "excerpt": "USD/JPY poised to test MA20 resistance as bullish fundamentals align.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Risk‑on sentiment and improving yield differential support a bullish bounce toward MA20 resistance.",
-    "entry": "158.90",
-    "tp": "160.20",
+    "comment": "Bullish momentum above MA20 supported by risk‑on fundamentals and orderly order flow.",
+    "entry": "159.00",
+    "tp": "160.50",
     "sl": "158.30",
     "reliability": "HIGH"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-23 10:09",
+    "date": "2026-08-23 17:27",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "Price holds above the 20‑day moving average signaling short‑term bullish momentum.",
-      "RSI at 56.9 indicates moderate upward pressure without overbought conditions.",
-      "Fundamental backdrop supported by Fed policy expectations and AI‑driven earnings optimism."
+      "Price holds above MA20 support, indicating short‑term bullish bias.",
+      "RSI near 57 shows moderate momentum without overbought extremes.",
+      "AI‑driven earnings expectations and steady macro backdrop support upside."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades above MA20 with RSI 56.9, near all-time high; Fed policy and AI earnings outlook bias market upward today.",
+    "excerpt": "S&P 500 above MA20, RSI 57; bullish on AI earnings optimism and steady macro despite tariff worries with steady Fed view.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P 500 trades above MA20 with RSI 56.9, near all-time high; Fed policy and AI earnings outlook bias market upward today.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Bullish bias supported by price above MA20, moderate RSI, and positive AI earnings outlook.",
+    "entry": "7650.00",
+    "tp": "7750.00",
+    "sl": "7620.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: ETF Inflows and Institutional Demand Overcome RSI Overbought Conditions",
-    "date": "2026-08-23 10:10",
+    "title": "[BTC/USD] UP: Strong ETF inflows and Zcash rally support bullish momentum",
+    "date": "2026-08-23 17:29",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD ETF inflows reach $2.6B, highest since October",
-      "Zcash ETF filings signal altcoin momentum spillover",
-      "Solana's protocol upgrade reduces transaction latency risks"
+      "Record-breaking ETF inflows triple volume, fueling demand",
+      "Zcash reaches eight-year high near $850 with Grayscale ETF momentum",
+      "Solana's network efficiency improvements boost ecosystem confidence"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD reflects strong ETF-linked demand despite overbought RSI, with bybit recommending execution for leveraged long setups.",
+    "excerpt": "BTC/USD shows strong bullish signal with ETF inflows, Zcash rally, and technical strength at MA20.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Strong ETF-driven demand overwhelms short-term RSI overbought signals",
-    "entry": "66200",
-    "tp": "80500",
-    "sl": "64500",
+    "comment": "Strong ETF inflows and technical strength at MA20 support bullish outlook.",
+    "entry": "75500",
+    "tp": "78000",
+    "sl": "74000",
     "reliability": "HIGH"
   }
 }
