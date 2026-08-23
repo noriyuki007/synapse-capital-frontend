@@ -1,66 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20 pullback aligns with risk rally",
-    "date": "2026-08-23 17:24",
+    "title": "[USD/JPY] UP: MA20付近の押し目とRSI62で上値余地、トランプ関税折りのリスクオンが支援",
+    "date": "2026-08-24 01:20",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "Price below MA20 signals short‑term bearish bias; risk assets bullish, supporting USD upside; key resistance at MA20 ~159.70 and support near 158.40."
+      "MA20付近の押し目とRSI62で上値余地",
+      "トランプ関税折りのリスクオンが支援",
+      "158.94を上抜け目標159.80、下抜け158.20が注目"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY at 158.94, below 20‑day MA, awaits catalyst from risk rally; key levels 158.40/159.70.",
+    "excerpt": "USD/JPYはMA20付近で押し目形成、RSI62で上値余地、トランプ関税折りのリスクオンが支援し、158.94を上抜け目標159.80、下抜け158.20が注目、短期上昇トレンドが確認中、リスク管理を徹底しポジションを調整。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20 pullback aligns with risk rally, moderate RSI bullish momentum",
-    "entry": "158.94",
-    "tp": "159.70",
-    "sl": "158.40",
+    "status": "NEUTRAL",
+    "comment": "USD/JPYはMA20付近で押し目形成、RSI62で上値余地、トランプ関税折りのリスクオンが支援し、158.94を上抜け目標159.80、下抜け158.20が注目、短期上昇トレンドが確認中、リスク管理を徹底しポジションを調整。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-23 17:27",
+    "title": "[S&P 500] UP: MA20上抜けとRSI57で中立的上昇余地を確認",
+    "date": "2026-08-24 01:35",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "指定ブローカー",
     "tldr_points": [
-      "S&P 500はMA20を上回り、RSIは中立的な買い圧力を示唆",
-      "アルファベットとアマゾンの相対的割安さがセクター内ローテーションを促す可能性",
-      "金利政策とトランプ関税リスクが短期的なボラティリティを引き続き供給"
+      "短期的な押し目買いが有望で、MA20上抜けとRSI57が中立的上昇余地を示す。",
+      "Nvidiaの好決算とJackson Holeの注目材料が市場のリスクオン心理を醸成。",
+      "技術的支持位置は7650〜7700で、ブレイクアウトが確認された場合は上値目標7800を設定。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "現在価格はMA20を上回り、RSIは56.9でやや買い優勢。ファンダメンタルズはハイテク割安と金利動向が鍵。",
+    "excerpt": "S&P 500はMA20上抜けとRSI57で中立的上昇余地を示し、短期的な押し目買いが有望、テクニカル指標は依然として上値ブレイクの可能性を示唆している。市場のボラティリティが高まる中、リスク管理を徹底しつつポジションを段階的に増やすことが重要だ。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20上抜けとRSI中立的買いがファンダメンタルのハイテク割安・金利緩和と整合",
-    "entry": "7660.00",
-    "tp": "7850.00",
-    "sl": "7600.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P 500はMA20上抜けとRSI57で中立的上昇余地を示し、短期的な押し目買いが有望、テクニカル指標は依然として上値ブレイクの可能性を示唆している。市場のボラティリティが高まる中、リスク管理を徹底しつつポジションを段階的に増やすことが重要だ。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: ETF流入増加とMA20上抜けによる強気トレンドの継続",
-    "date": "2026-08-23 17:29",
+    "title": "[BTC/USD] UP: MA20上昇と強気ファンダメンタルズの整合性",
+    "date": "2026-08-24 01:39",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTC/ETH ETFへの2.6億ドル流入が需要を押し上げ、MA20を大きく上回る価格帯で推移",
-      "RSI14が78.8と過熱感を示すが、ファンダメンタルズの強さが調整を限定的と見込む",
-      "Zcash関連ETF進展やSolanaの高速化が全体のリスクオン姿勢を支援"
+      "ETFへの26億ドル資金流入が最大週間流入を記録",
+      "価格がMA20を上回りRSIが過熱領域",
+      "Zcash上昇とSolana改良が市場センチメントを改善"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "ETF資金流入とテクニカル上抜けがBTC/USDの上昇基盤を形成、短期的過熱は調整要因となる。",
+    "excerpt": "BTC/USDはMA20を上回り、RSIが82と過熱状態だが、ETFへの26億ドルの資金流入が下支えし、上昇持続の見込み。Zcashの上昇やSolanaの改良も市場に楽観を広げている。GrayscaleのZcash ETF申请も注目されている。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "ETF流入とMA20上抜けによる上昇バイアス、押し目買いでエントリー",
-    "entry": "73500.00",
-    "tp": "82000.00",
-    "sl": "71000.00",
+    "comment": "MA20上昇とETF資金流入が支持、RSI過熱も一時的",
+    "entry": "77350.56",
+    "tp": "80000",
+    "sl": "75000",
     "reliability": "HIGH"
   }
 }
