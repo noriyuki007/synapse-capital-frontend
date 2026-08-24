@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-08-24-crypto-ja",
-    "date": "2026-08-24 01:39",
-    "title": "[BTC/USD] UP: MA20上昇と強気ファンダメンタルズの整合性",
+    "date": "2026-08-24 10:10",
+    "title": "[BTC/USD] DOWN: RSI過熱とMA20乖離から短期調整局面を予測",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
-    "excerpt": "BTC/USDはMA20を上回り、RSIが82と過熱状態だが、ETFへの26億ドルの資金流入が下支えし、上昇持続の見込み。Zcashの上昇やSolanaの改良も市場に楽観を広げている。GrayscaleのZcash ETF申请も注目されている。",
+    "excerpt": "RSI過熱とMA20乖離から短期調整を想定し、売りバイアスでエントリー・TP・SLを示す。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-08-24-crypto-en",
-    "date": "2026-08-24 01:39",
-    "title": "[BTC/USD] UP: ETF Inflows Drive Momentum Despite Overbought RSI",
+    "date": "2026-08-24 10:10",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as ETF Inflows and Institutional Demand Surge",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "Institutional ETF inflows bolster BTC upside while technical extremes warn of near-term exhaustion.",
+    "excerpt": "BTC surges on ETF inflows. AI flags support at MA20. RSI overbought but momentum intact.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-08-24-stocks-ja",
-    "date": "2026-08-24 01:35",
-    "title": "[S&P 500] UP: MA20上抜けとRSI57で中立的上昇余地を確認",
+    "date": "2026-08-24 10:06",
+    "title": "[S&P 500] UP: MA20 pullback aligns with bullish catalyst convergence",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "指定ブローカー",
-    "excerpt": "S&P 500はMA20上抜けとRSI57で中立的上昇余地を示し、短期的な押し目買いが有望、テクニカル指標は依然として上値ブレイクの可能性を示唆している。市場のボラティリティが高まる中、リスク管理を徹底しつつポジションを段階的に増やすことが重要だ。",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 trades above 20‑day MA, moderate RSI, bullish UBS target, Nvidia catalyst; watch for MA20 pullback to ~7645.",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-08-24-stocks-en",
-    "date": "2026-08-24 01:35",
+    "date": "2026-08-24 10:06",
     "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
-    "excerpt": "S&P 500 holds above MA20, bullish momentum intact, targets 7800 with support at 7644.",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 trades above MA20 with steady RSI, buoyed by UBS target hike and Nvidia earnings, targeting 7700‑7720.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-08-24-fx-ja",
-    "date": "2026-08-24 01:20",
-    "title": "[USD/JPY] UP: MA20付近の押し目とRSI62で上値余地、トランプ関税折りのリスクオンが支援",
+    "date": "2026-08-24 10:04",
+    "title": "[USD/JPY] DOWN: MA20下の安値圧とRSI61の抵抗",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
-    "excerpt": "USD/JPYはMA20付近で押し目形成、RSI62で上値余地、トランプ関税折りのリスクオンが支援し、158.94を上抜け目標159.80、下抜け158.20が注目、短期上昇トレンドが確認中、リスク管理を徹底しポジションを調整。",
+    "excerpt": "USD/JPYは158.78でMA20下、RSI61の過熱なし。短期的に下落傾向が継続する可能性が高い。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-08-24-fx-en",
-    "date": "2026-08-24 01:20",
-    "title": "[USD/JPY] UP: AI Detects Bullish Momentum as Trump Tariff Easing Boosts Risk Appetite",
+    "date": "2026-08-24 10:04",
+    "title": "[USD/JPY] FLAT: Price Consolidates Below MA20 as Geopolitical Risk Premium Fades",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY poised to test MA20 resistance as risk sentiment improves post-tariff news.",
+    "excerpt": "USD/JPY consolidates below MA20 resistance as geopolitical risk premium evaporates; RSI structure favors buy-the-dip within 157.50-159.50 range.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -152,7 +152,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "BTC/USDはMA20を堅固なサポートとして保ちつつ、RSIの過熱から押し目買いの機会が生じている。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD at 77k with MA20 support at 66k; RSI overbought at 82; AI adoption surge drives bullish sentiment",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Nomura Securities",
     "excerpt": "S&P 500はMA20を上抜け一時的に強気だが、長期金利上昇が週足の重しとなり上値は限定的。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500 near MA20 support, RSI 57, yields high; bullish bias with tight risk.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "トランプ関税撤回とリスクオンで円安が進み、USD/JPYはMA20付近の押し目買いシグナルが点灯。テクニカルは価格がMA20下位でありながらRSI62で上げ余地を示し、流動性の良い[dmm-fx]での実行を推奨する。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USDJPY eyes MA20 as risk‑on sentiment lifts, RSI shows bullish bias ahead of weekly range, targeting 160.00 level zone!",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {

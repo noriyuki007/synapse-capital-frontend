@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20付近の押し目とRSI62で上値余地、トランプ関税折りのリスクオンが支援",
-    "date": "2026-08-24 01:20",
+    "title": "[USD/JPY] DOWN: MA20下の安値圧とRSI61の抵抗",
+    "date": "2026-08-24 10:04",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20付近の押し目とRSI62で上値余地",
-      "トランプ関税折りのリスクオンが支援",
-      "158.94を上抜け目標159.80、下抜け158.20が注目"
+      "価格がMA20下で推移",
+      "RSI61が上昇抵抗を示す",
+      "PBOC人民元レートがUSD強気を支援"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20付近で押し目形成、RSI62で上値余地、トランプ関税折りのリスクオンが支援し、158.94を上抜け目標159.80、下抜け158.20が注目、短期上昇トレンドが確認中、リスク管理を徹底しポジションを調整。",
+    "excerpt": "USD/JPYは158.78でMA20下、RSI61の過熱なし。短期的に下落傾向が継続する可能性が高い。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPYはMA20付近で押し目形成、RSI62で上値余地、トランプ関税折りのリスクオンが支援し、158.94を上抜け目標159.80、下抜け158.20が注目、短期上昇トレンドが確認中、リスク管理を徹底しポジションを調整。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "MA20下の安値圧とRSI61の抵抗、PBOC人民元レートがUSD強気を支援",
+    "entry": "158.85",
+    "tp": "158.30",
+    "sl": "159.20",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20上抜けとRSI57で中立的上昇余地を確認",
-    "date": "2026-08-24 01:35",
+    "title": "[S&P 500] UP: MA20 pullback aligns with bullish catalyst convergence",
+    "date": "2026-08-24 10:06",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "指定ブローカー",
+    "recommended_broker": "",
     "tldr_points": [
-      "短期的な押し目買いが有望で、MA20上抜けとRSI57が中立的上昇余地を示す。",
-      "Nvidiaの好決算とJackson Holeの注目材料が市場のリスクオン心理を醸成。",
-      "技術的支持位置は7650〜7700で、ブレイクアウトが確認された場合は上値目標7800を設定。"
+      "UBS raises 2026 S&P target, Nvidia drives tech momentum",
+      "Price above 20‑day MA, RSI near neutral, supporting upside",
+      "Controlled pullback to MA20 offers tactical entry with defined risk"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20上抜けとRSI57で中立的上昇余地を示し、短期的な押し目買いが有望、テクニカル指標は依然として上値ブレイクの可能性を示唆している。市場のボラティリティが高まる中、リスク管理を徹底しつつポジションを段階的に増やすことが重要だ。",
+    "excerpt": "S&P 500 trades above 20‑day MA, moderate RSI, bullish UBS target, Nvidia catalyst; watch for MA20 pullback to ~7645.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P 500はMA20上抜けとRSI57で中立的上昇余地を示し、短期的な押し目買いが有望、テクニカル指標は依然として上値ブレイクの可能性を示唆している。市場のボラティリティが高まる中、リスク管理を徹底しつつポジションを段階的に増やすことが重要だ。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Bullish macro and technical convergence; target MA20 pullback with defined risk.",
+    "entry": "7645.00",
+    "tp": "7750.00",
+    "sl": "7620.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20上昇と強気ファンダメンタルズの整合性",
-    "date": "2026-08-24 01:39",
+    "title": "[BTC/USD] DOWN: RSI過熱とMA20乖離から短期調整局面を予測",
+    "date": "2026-08-24 10:10",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "ETFへの26億ドル資金流入が最大週間流入を記録",
-      "価格がMA20を上回りRSIが過熱領域",
-      "Zcash上昇とSolana改良が市場センチメントを改善"
+      "RSIが82.7と極端な過熱圏にあり、短期的な利益確定売りが予想される。",
+      "MA20から約16%乖離した価格水準は、調整時のサポート候補となる。",
+      "ETF資金流入は中期的な需要を支えるが、DeFiハッキングやテザー鉱業失況などマイナス要因も存在する。"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を上回り、RSIが82と過熱状態だが、ETFへの26億ドルの資金流入が下支えし、上昇持続の見込み。Zcashの上昇やSolanaの改良も市場に楽観を広げている。GrayscaleのZcash ETF申请も注目されている。",
+    "excerpt": "RSI過熱とMA20乖離から短期調整を想定し、売りバイアスでエントリー・TP・SLを示す。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20上昇とETF資金流入が支持、RSI過熱も一時的",
-    "entry": "77350.56",
-    "tp": "80000",
-    "sl": "75000",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "RSI過熱とMA20乖離から短期調整が予想されるため",
+    "entry": "77000",
+    "tp": "73000",
+    "sl": "79500",
+    "reliability": "MEDIUM"
   }
 }
