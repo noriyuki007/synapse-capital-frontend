@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: MA20下の安値圧とRSI61の抵抗",
-    "date": "2026-08-24 10:04",
+    "title": "[USD/JPY] UP: MA20付近の押し目とリスクオフ環境によるドル買い優勢",
+    "date": "2026-08-24 17:43",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格がMA20下で推移",
-      "RSI61が上昇抵抗を示す",
-      "PBOC人民元レートがUSD強気を支援"
+      "米伊緊張とECBのインフレ見通しがドルを支える",
+      "CADの下落と円安圧力がリスクオフを示唆",
+      "テクニカルはMA20を下回る押し目買いの機会を示す"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは158.78でMA20下、RSI61の過熱なし。短期的に下落傾向が継続する可能性が高い。",
+    "excerpt": "米伊対立の長期化とECBのインフレ抑制がドル買いを後押しし、テクニカルではMA20付近の押し目が買い場となる。",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "MA20下の安値圧とRSI61の抵抗、PBOC人民元レートがUSD強気を支援",
-    "entry": "158.85",
-    "tp": "158.30",
-    "sl": "159.20",
+    "status": "NEUTRAL",
+    "comment": "米伊対立の長期化とECBのインフレ抑制がドル買いを後押しし、テクニカルではMA20付近の押し目が買い場となる。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20 pullback aligns with bullish catalyst convergence",
-    "date": "2026-08-24 10:06",
+    "title": "[S&P 500] UP: 技術的サポート維持とファンダメンタルズの逆行リスク管理",
+    "date": "2026-08-24 17:45",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "みずほ証券",
     "tldr_points": [
-      "UBS raises 2026 S&P target, Nvidia drives tech momentum",
-      "Price above 20‑day MA, RSI near neutral, supporting upside",
-      "Controlled pullback to MA20 offers tactical entry with defined risk"
+      "S&P 500はMA20近傍でテクニカル支持、RSIも50超水準。",
+      "米利回り上昇が成長株に重荷ながら、セクター別の資金流出入が限定的。",
+      "UBSターゲット調整観測が上値抑制要因か。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades above 20‑day MA, moderate RSI, bullish UBS target, Nvidia catalyst; watch for MA20 pullback to ~7645.",
+    "excerpt": "S&P 500はMA20付近で技術的反発基調、利回り上昇が成長遅延懸念を誘う中、機関系のリスク管理が鍵。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Bullish macro and technical convergence; target MA20 pullback with defined risk.",
-    "entry": "7645.00",
-    "tp": "7750.00",
-    "sl": "7620.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P 500はMA20付近で技術的反発基調、利回り上昇が成長遅延懸念を誘う中、機関系のリスク管理が鍵。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: RSI過熱とMA20乖離から短期調整局面を予測",
-    "date": "2026-08-24 10:10",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-08-24 17:53",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "RSIが82.7と極端な過熱圏にあり、短期的な利益確定売りが予想される。",
-      "MA20から約16%乖離した価格水準は、調整時のサポート候補となる。",
-      "ETF資金流入は中期的な需要を支えるが、DeFiハッキングやテザー鉱業失況などマイナス要因も存在する。"
+      "価格はMA20を大きく上回り、上昇トレンドが継続",
+      "RSIは84付近で過熱感が顕著、短期調整のリスクあり",
+      "機関向けETF流入とファンド資金増強が上値を支える"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "RSI過熱とMA20乖離から短期調整を想定し、売りバイアスでエントリー・TP・SLを示す。",
+    "excerpt": "MA20を上抜け強気トレンド継続中。過熱感は短期調整リスクを示唆し、流動性豊かな取引所でのエントリーを推奨。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "RSI過熱とMA20乖離から短期調整が予想されるため",
-    "entry": "77000",
-    "tp": "73000",
-    "sl": "79500",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20を上抜け、強気ファンダメンタルズとETF流入が継続",
+    "entry": "72500",
+    "tp": "81000",
+    "sl": "69000",
+    "reliability": "HIGH"
   }
 }

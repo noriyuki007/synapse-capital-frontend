@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] FLAT: Price Consolidates Below MA20 as Geopolitical Risk Premium Fades",
-    "date": "2026-08-24 10:04",
+    "title": "[USD/JPY] UP: AI Signals Bullish Momentum as MA20 Holds",
+    "date": "2026-08-24 17:43",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY holds 158.78, 0.4% below declining MA20 at 159.45",
-      "RSI-14 at 61.1 signals intact bullish momentum despite near-term pause",
-      "Easing Iran tensions reduce safe-haven JPY bid, supporting range-bound bias"
+      "Price trades below MA20, hinting at upside toward 159.50",
+      "RSI near 65 suggests momentum still intact",
+      "US‑Iran tensions boost JPY safe‑haven demand, supporting USD strength"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY consolidates below MA20 resistance as geopolitical risk premium evaporates; RSI structure favors buy-the-dip within 157.50-159.50 range.",
+    "excerpt": "USD/JPY poised for upside as price holds above key support and fundamentals turn bullish.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Bullish consolidation above key Fibonacci support favors accumulation on dips toward 157.50",
-    "entry": "157.70",
-    "tp": "159.45",
-    "sl": "157.00",
+    "status": "NEUTRAL",
+    "comment": "USD/JPY poised for upside as price holds above key support and fundamentals turn bullish.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-24 10:06",
+    "title": "[S&P 500] UP: Price Above MA20 with Moderate RSI Supports Bullish Bias",
+    "date": "2026-08-24 17:45",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price holds above MA20 with RSI near 57, indicating mild bullish momentum.",
-      "UBS upward target revision and Nvidia earnings provide fundamental upside.",
-      "Historical pattern repetition suggests imminent breakout toward 7700‑7720 zone."
+      "Price above MA20 suggests short-term bullish bias.",
+      "RSI at 56.9 indicates moderate momentum, not overbought.",
+      "News shows rising futures and UBS target upgrade supporting upside."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades above MA20 with steady RSI, buoyed by UBS target hike and Nvidia earnings, targeting 7700‑7720.",
+    "excerpt": "S&P 500 trades above MA20 with RSI near 57, backed by rising futures and UBS target upgrade, signaling near-term upside.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price above MA20 with supportive fundamentals and bullish technical setup",
-    "entry": "7646.00",
+    "comment": "Price above MA20 with moderate RSI supports a near‑term long bias.",
+    "entry": "7645.00",
     "tp": "7700.00",
     "sl": "7620.00",
-    "reliability": "HIGH"
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as ETF Inflows and Institutional Demand Surge",
-    "date": "2026-08-24 10:10",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-08-24 17:53",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "ETF inflows reach $2.6B in strongest week since October",
-      "Price holds above MA20 amid RSI overbought conditions",
-      "Tether mining collapse adds volatility but underpins bullish narrative"
+      "BTC at $77,048, above MA20",
+      "RSI 84 signals overbought momentum",
+      "ETF inflows and bullish news support upside"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC surges on ETF inflows. AI flags support at MA20. RSI overbought but momentum intact.",
+    "excerpt": "BTC bullish above MA20; record ETF inflows; overbought RSI warns of consolidation.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Strong ETF inflows and MA20 support justify long bias despite overbought RSI.",
-    "entry": "66750.00",
-    "tp": "80000.00",
-    "sl": "63000.00",
+    "comment": "Bullish fundamentals and support at MA20 justify dip entry despite overbought RSI.",
+    "entry": "73000",
+    "tp": "85000",
+    "sl": "70200",
     "reliability": "HIGH"
   }
 }
