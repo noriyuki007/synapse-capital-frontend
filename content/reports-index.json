@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-08-25-crypto-ja",
+    "date": "2026-08-25 01:40",
+    "title": "[BTC/USD] UP: 強気ルーブル推進と機関投資家の戦略的保有増加が価格を押し上げる",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USDは機関投資家による積極的な保有拡大と macro マイルドな金融環境支えに、短期的な pullback 後、再度上昇転換が期待される。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-25-crypto-en",
+    "date": "2026-08-25 01:40",
+    "title": "[BTC/USD] UP: Extreme Overbought Conditions Signal Tactical Pullback Risk Amid Strong Accumulation",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD uptrend holds on strong accumulation, but extreme overbought RSI signals consolidation risk.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-08-25-stocks-ja",
+    "date": "2026-08-25 01:37",
+    "title": "[S&P 500] DOWN: 価格はMA20上限近辺で推移し、RSIの低下が下押しリスクを示唆",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "MA20付近でのもみ合いとRSI低下が下落リスクを示唆し、短期的な売りポジションを検討すべき。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-25-stocks-en",
+    "date": "2026-08-25 01:37",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 near MA20 with RSI sub-50, AI flags support zone as bullish catalysts accumulate",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-08-25-fx-ja",
+    "date": "2026-08-25 01:32",
+    "title": "[USD/JPY] DOWN: MA20下抜けとリスクオフ環境の整合性",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "米国の対中追加関税報道とハイテク株の下落がリスクオフを誘発し、ドル弱含み・円買いが強まる中、USD/JPYはMA20を下抜けて下落余地を残す。さらに金利動向はドル弱含みが続き、短期的な調整局面での売り圧力が予想されます。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-25-fx-en",
+    "date": "2026-08-25 01:32",
+    "title": "[USD/JPY] DOWN: AI Detects Bearish Momentum as Risk-Off Sentiment Drives JPY Strength",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY down as risk‑off, tariffs weigh on dollar, technical bearish below MA20.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-08-24-crypto-ja",
     "date": "2026-08-24 17:53",
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
