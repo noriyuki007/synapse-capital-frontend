@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-08-26-crypto-ja",
+    "date": "2026-08-26 01:40",
+    "title": "[BTC/USD] DOWN: RSIの過熱とMA20からの乖離が获利決済を誘発",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USDは過熱感から获利決済の圧力が強まり、短期的に下値模索の展開が予想される。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-26-crypto-en",
+    "date": "2026-08-26 01:40",
+    "title": "[BTC/USD] UP: Extreme Overbought RSI Signals Correction Risk Amid Institutional Tailwinds",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD momentum extreme but institutional adoption wave underpins bullish bias. RSI warns of near-term correction risk.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-08-26-stocks-ja",
+    "date": "2026-08-26 01:36",
+    "title": "[S&P 500] UP: MA20上抜け維持と機関資金流入の整合性を確認",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "機関資金の流入とテクニカルの整合性から上昇継続を想定。MA20付近への押し目をエントリーゾーンとして設定し、厳格な損切りで臨む。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-26-stocks-en",
+    "date": "2026-08-26 01:36",
+    "title": "[S&P 500] UP: Tech Inflows and Price Above MA20 Signal Near-Term Bias",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 trades above MA20 with modest RSI; tech inflows and VOO demand suggest near‑term upside potential.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-08-26-fx-ja",
+    "date": "2026-08-26 01:33",
+    "title": "[USD/JPY] UP: MA20での反発とファンダメンタルズの整合性を確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "米国のインフレ懸念が続く中、カナダの報復関税とイラン・オマーン航路協調がリスクオン・オフを交錯させ、テクニカルはMA20を支えに上抜けバイアスを示す。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-08-26-fx-en",
+    "date": "2026-08-26 01:33",
+    "title": "[USD/JPY] UP: MA20 Defends as Fed Hawkishness Caps BoJ Easing Bets",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY bid above MA20 at 159.233 as Fed hawkishness and supply-chain risks offset BoJ caution; tactical buy-the-dip bias intact.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-08-25-crypto-ja",
     "date": "2026-08-25 17:46",
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",

@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-25 17:37",
+    "title": "[USD/JPY] UP: MA20での反発とファンダメンタルズの整合性を確認",
+    "date": "2026-08-26 01:33",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "ドイツのIFO予想上振れがユーロを支え、リスクオンで円売りが進む可能性",
-      "米国の仮想通貨関連ポジティブニュースがリスク選好を強化",
-      "テクニカルでは価格がMA20を上抜け、RSIは64で上余地あり"
+      "米国のインフレ懸念が継続し、ハイブリッドなリスクオン・オフ環境が形成",
+      "テクニカルは現在価格がMA20を僅かに上回り、RSIは63で買われ過ぎではない",
+      "エントリーはMA20付近の押し目狙い、TPは160.00、SLは158.80を想定"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "ドイツIFO予想上振れと米国仮想通貨関連ポジティブがリスクオンを後押しし、USD/JPYはMA20を上抜けて上昇余地がある。エントリー159.30、TP160.00、SL158.80を推奨する。",
+    "excerpt": "米国のインフレ懸念が続く中、カナダの報復関税とイラン・オマーン航路協調がリスクオン・オフを交錯させ、テクニカルはMA20を支えに上抜けバイアスを示す。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "ドイツIFO上振れとリスクオンで円売り圧力、MA20上抜けとRSI64で上余地あり",
-    "entry": "159.30",
+    "comment": "MA20支持と米金利上振れ期待が上抜けを後押し",
+    "entry": "159.20",
     "tp": "160.00",
     "sl": "158.80",
-    "reliability": "MEDIUM"
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20下回る価格帯と強気PMIによる利回り上昇圧力",
-    "date": "2026-08-25 17:39",
+    "title": "[S&P 500] UP: MA20上抜け維持と機関資金流入の整合性を確認",
+    "date": "2026-08-26 01:36",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
     "tldr_points": [
-      "米国PMI指数の強気値がFRBのハーキン・インセット（政策金利の維持・引き上げ）を強化し、金利上昇圧力が株式市場の評価を圧迫",
-      "テックセクターの長引く調整圧力がS&P 500全体の下値牵引役已经成为り、構造的な弱気相場を継続",
-      "テクニカル面ではMA20 (7656.41) を下回る価格帯(7652.86)でRSI(40.03)が中立〜弱気サインを示し、戦術的空軍ポジションを推奨"
+      "VOOへの43億ドル流入が機関の強気バイアスを証明",
+      "MA20をサポートに上昇トレンド継続、RSIは上昇余地を示唆",
+      "押し目買い戦略がリスク・リワードで優位"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を下回る弱気相場で、強気PMIによるハーキン・インセットとテックセクターの調整が重なり、戦術的な空軍ポジションを推奨する局面である。",
+    "excerpt": "機関資金の流入とテクニカルの整合性から上昇継続を想定。MA20付近への押し目をエントリーゾーンとして設定し、厳格な損切りで臨む。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "MA20を下回る価格帯と、強気PMIによる高金利政策の継続とテックセクターの調整圧力が重なり、下落トレンドが継続する。戦術的ショートを推奨。",
-    "entry": "7655.00",
-    "tp": "7600.00",
-    "sl": "7680.00",
+    "status": "BUY",
+    "comment": "機関資金流入とMA20サポートの整合性、RSI中立圏による上昇余地を評価。押し目買い優位。",
+    "entry": "7665.00",
+    "tp": "7750.00",
+    "sl": "7620.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-25 17:46",
+    "title": "[BTC/USD] DOWN: RSIの過熱とMA20からの乖離が获利決済を誘発",
+    "date": "2026-08-26 01:40",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "ETFフローで8万ドル維持",
-      "RSI過熱感と機関流入の兼ね合い",
-      "テクニカルはMA20付近の反発待ち"
+      "RSIが89.7と極度の過熱状態",
+      "MA20から約11,000USDの乖離",
+      "機関投資家の流入は依然として継続"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDは8万ドルの大台を維持し、ETF流入と機関需要が上昇トレンドを支援。RSI過熱域ながらMA20付近での反発が警戒され、8万3000ラウンドが重要な抵抗ラインとなっている。",
+    "excerpt": "BTC/USDは過熱感から获利決済の圧力が強まり、短期的に下値模索の展開が予想される。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20付近の押し目買いを想定、流動性確保",
-    "entry": "80020.73",
-    "tp": "83000.00",
-    "sl": "78000.00",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "RSI過熱とMA20乖離から下値修正予想",
+    "entry": "79500",
+    "tp": "75000",
+    "sl": "81000",
+    "reliability": "MEDIUM"
   }
 }

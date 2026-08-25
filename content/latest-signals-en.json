@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-25 17:37",
+    "title": "[USD/JPY] UP: MA20 Defends as Fed Hawkishness Caps BoJ Easing Bets",
+    "date": "2026-08-26 01:33",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above MA20 signaling bullish continuation",
-      "RSI at 64.35 indicates healthy buying momentum without immediate overbought risks",
-      "Positive revisions in German GDP and Ifo index support global risk appetite, boosting yield differentials"
+      "MA20 at 159.233 holding as immediate dynamic support for the latest advance.",
+      "Fed's Collins reaffirms inflation concerns, sustaining US yield premium over JGBs.",
+      "Geopolitical shipping-lane proposal in the Gulf introduces a risk-off undercurrent for JPY crosses."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY remains poised for an upward extension as technical momentum aligns with supportive macroeconomic data.",
+    "excerpt": "USD/JPY bid above MA20 at 159.233 as Fed hawkishness and supply-chain risks offset BoJ caution; tactical buy-the-dip bias intact.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "USD/JPY exhibits strong bullish momentum with RSI at 64.35 and price holding firmly above the MA20 support at 159.24.",
-    "entry": "159.24",
-    "tp": "159.80",
-    "sl": "159.05",
-    "reliability": "HIGH"
+    "comment": "MA20 defense at 159.23 and elevated U.S. yields sustain the uptrend, favoring buy-on-dip toward 160.00.",
+    "entry": "159.23",
+    "tp": "160.00",
+    "sl": "158.80",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: AI Detects Resistance Near MA20 as Fundamentals Turn Bearish",
-    "date": "2026-08-25 17:39",
+    "title": "[S&P 500] UP: Tech Inflows and Price Above MA20 Signal Near-Term Bias",
+    "date": "2026-08-26 01:36",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "Price sits slightly below MA20 with RSI near 40 indicating mild bearish momentum.",
-      "Strong US PMI data complicates Fed policy outlook, keeping rates higher for longer.",
-      "Technology sector weakness drags on broader market sentiment."
+      "Price holds above MA20 indicating short‑term support",
+      "RSI near 44 shows room for upside before overbought",
+      "Strong VOO inflows and tech‑driven momentum underpin bullish bias"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 below MA20, RSI 40; bearish bias as strong PMI clouds Fed path and tech stocks decline amid rate fears incoming",
+    "excerpt": "S&P 500 trades above MA20 with modest RSI; tech inflows and VOO demand suggest near‑term upside potential.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Price below MA20, RSI 40, and bearish fundamentals favor a short bias toward the 7600 support zone.",
-    "entry": "7655.00",
-    "tp": "7600.00",
-    "sl": "7680.00",
+    "status": "BUY",
+    "comment": "Price above MA20 with supportive inflows and room for upside per RSI.",
+    "entry": "7669.00",
+    "tp": "7700.00",
+    "sl": "7650.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-25 17:46",
+    "title": "[BTC/USD] UP: Extreme Overbought RSI Signals Correction Risk Amid Institutional Tailwinds",
+    "date": "2026-08-26 01:40",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC holds $80k as ETF inflows boost bullish thesis",
-      "RSI 90 indicates overbought but price remains above MA20",
-      "Buy dip toward MA20 with TP at $85k and SL below support"
+      "RSI at 89.7 indicates extreme overbought condition; pullback probability elevated",
+      "Price trading 16.1% above MA20 confirms structural uptrend integrity",
+      "Institutional product expansion (Galaxy lending, Bitwise portfolios, Grayscale ETF) provides fundamental support for continued upside"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds $80k as ETF flows boost bullish case; MA20 support at ~68k with RSI 90 suggests dip‑buy opportunity.",
+    "excerpt": "BTC/USD momentum extreme but institutional adoption wave underpins bullish bias. RSI warns of near-term correction risk.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC holds $80k as ETF flows boost bullish case; MA20 support at ~68k with RSI 90 suggests dip‑buy opportunity.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Long-term uptrend intact with RSI extreme warning; favor pullback entries toward 78000-68241 over chase at current levels.",
+    "entry": "78000.00",
+    "tp": "85000.00",
+    "sl": "67000.00",
+    "reliability": "HIGH"
   }
 }
