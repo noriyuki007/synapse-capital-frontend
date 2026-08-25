@@ -1,68 +1,66 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: MA20下抜けとリスクオフ環境の整合性",
-    "date": "2026-08-25 01:32",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-08-25 10:03",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米国の対中追加関税とハイテク株下落がリスクオフを誘発",
-      "金利動向はドル弱含みで円買い圧力が強まる",
-      "テクニカルでは価格がMA20を下回り、RSIは過熱感薄めで下抜けの余地あり"
+      "価格はMA20付近で反発し上昇余地が見込まれる",
+      "米長期金利の低下と円の安全資産需要が相殺、方向感は限定的",
+      "テクニカルはRSI63でやや買われ過ぎだが、MA20が支持線として機能"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米国の対中追加関税報道とハイテク株の下落がリスクオフを誘発し、ドル弱含み・円買いが強まる中、USD/JPYはMA20を下抜けて下落余地を残す。さらに金利動向はドル弱含みが続き、短期的な調整局面での売り圧力が予想されます。",
+    "excerpt": "現在価格159.192はMA20(159.23)をわずかに下回り、RSI63で買われ過ぎ圏に近づくものの、米長期金利低下と円の安全資産需要が相殺され、方向感は上向きにバイアスがかかっている。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "米国の対中追加関税報道とハイテク株の下落がリスクオフを誘発し、ドル弱含み・円買いが強まる中、USD/JPYはMA20を下抜けて下落余地を残す。さらに金利動向はドル弱含みが続き、短期的な調整局面での売り圧力が予想されます。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "MA20支持での押し目買い、上向きバイアスとリスクリワードが有利",
+    "entry": "159.10",
+    "tp": "159.50",
+    "sl": "158.80",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: 価格はMA20上限近辺で推移し、RSIの低下が下押しリスクを示唆",
-    "date": "2026-08-25 01:37",
+    "title": "[S&P 500] DOWN: MA20付近の押し目下押しとRSI40で弱含みが示唆",
+    "date": "2026-08-25 10:06",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "価格はMA20付近で停滞、下押し圧力が強まる",
-      "RSI 41は売り圧力の兆候、モメンタム弱体化",
-      "ナスダックのエンビディア連鎖下落が全体に波及"
+      "MA20付近の押し目下押しとRSI40で弱含みが続き、下値リスクが残存",
+      "主要株の相次ぐ下落が市場全体のリスクオフ感を強め、投機筋の売却が加速",
+      "流動性確保と低コストでInteractive Brokersを活用し、ポジションサイズを最適化"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20付近でのもみ合いとRSI低下が下落リスクを示唆し、短期的な売りポジションを検討すべき。",
+    "excerpt": "S&P500はMA20付近で横ばい、RSI40で弱含み、主要株の相次ぐ下落が圧迫要因。流動性確保の上でInteractive Brokers推奨。",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "MA20下抜けとRSI低下による下押しリスク",
-    "entry": "7655.00",
-    "tp": "7600.00",
-    "sl": "7675.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20付近の押し目下押しとRSI40で弱含みが続き、下値リスクが残存",
+    "entry": "7650",
+    "tp": "7670",
+    "sl": "7640",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: 強気ルーブル推進と機関投資家の戦略的保有増加が価格を押し上げる",
-    "date": "2026-08-25 01:40",
+    "title": "[BTC/USD] UP: MA20支持と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-08-25 10:09",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "戦略的保有増（Strive、追加1,110 BTC）",
-      "超過買われRSI88.25を越える",
-      "MA20（67,536ドル）に pullback 押しかえり買い"
+      "Price above MA20 signals bullish bias; RSI 88.4 indicates overbought; Institutional accumulation and volume surge reinforce upward momentum"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDは機関投資家による積極的な保有拡大と macro マイルドな金融環境支えに、短期的な pullback 後、再度上昇転換が期待される。",
+    "excerpt": "BTC/USD trades above MA20 at $79.8k, RSI 88.4, with volume spikes and institutional buys driving bullish bias.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USDは機関投資家による積極的な保有拡大と macro マイルドな金融環境支えに、短期的な pullback 後、再度上昇転換が期待される。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20サポートと強気ファンダメンタルズを考慮したロング",
+    "entry": "68000.00",
+    "tp": "85000.00",
+    "sl": "62000.00",
+    "reliability": "HIGH"
   }
 }
