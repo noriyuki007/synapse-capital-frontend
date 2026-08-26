@@ -1,66 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20付近での反発とインフレ加速を背景に",
-    "date": "2026-08-26 10:05",
+    "title": "[USD/JPY] UP: MA20接近と強気ファンダメンタルズの再一致",
+    "date": "2026-08-26 17:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20を上抜け、短期上昇バイアスが形成",
-      "サービスインフレの加速が円安圧力を強化",
-      "Fedインフレ指標がハト派期待を抑制しドル支持"
+      "MA20（158.9816）接近で一時的押し目あり",
+      "ECB Schnabel「早期対策必要」発言でドル高圧力",
+      "RSI61.85で上方向モメンタム続伺"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "ドル円はMA20をわずかに上回り、RSIは64で買われ過ぎではないが上余地あり。日本のサービスインフレが予想を上回り、円安要因となる。Fedのインフレゲージが発表前に強含み、ドル買いが継続的。",
+    "excerpt": "USD/JPYは158.9550付近で推推じ騰伸を模索中。MA20とRSIの関係から、一時的リトルだが上方向のファンダメンタルズとの一致が期待される。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "ドル円はMA20をわずかに上回り、RSIは64で買われ過ぎではないが上余地あり。日本のサービスインフレが予想を上回り、円安要因となる。Fedのインフレゲージが発表前に強含み、ドル買いが継続的。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20接近とファンダメンタルズ一致により上昇リスク",
+    "entry": "158.95",
+    "tp": "159.50",
+    "sl": "158.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Nvidia決算予想とレンジ相場が下押し圧力を示唆",
-    "date": "2026-08-26 10:16",
+    "title": "[S&P 500] DOWN: MA20近傍での売り圧力と弱いモメンタム確認",
+    "date": "2026-08-26 17:40",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "ゴールドマン・サックス",
     "tldr_points": [
-      "価格はMA20付近で推移し、RSIは44.6で弱気傾向",
-      "Nvidia決算予想が下振れればS&P 500にも波及",
-      "国際高配当ETFの優れたパフォーマンスが防御的シフトを示す"
+      "MA20上値限定のリスクオフ",
+      "Nvidiaリスクでセクター偏り鮮明",
+      "流動性観点からゴールドマン・サックスでの実行推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20 ligeramente上だがRSIが44.6で弱気、Nvidia決算待ちでレンジかつ下押しリスクが高まる。",
+    "excerpt": "S&P 500 7677レベルでRSI44.6、MA20付近での方向性不透明。ファンダメンタルズとテクニカルの整合性から下抜けトレード推奨。",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "MA20下抜けとRSI弱気、Nvidia決算リスクで下押し期待",
-    "entry": "7660.00",
-    "tp": "7600.00",
-    "sl": "7700.00",
+    "comment": "MA20割れ売りエントリーを推奨",
+    "entry": "7670.00",
+    "tp": "7640.00",
+    "sl": "7685.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20 pullback and bullish fundamentals",
-    "date": "2026-08-26 10:17",
+    "title": "[BTC/USD] DOWN: RSI過熱とMA20乖離から短期調整局面を予測",
+    "date": "2026-08-26 17:46",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "Institutional liquidity surge supports upside; RSI overbought signals short‑term pullback risk; MA20 provides key support."
+      "RSI88.6で極端過熱、MA20から大幅乖離",
+      "米金利横ばい・韓日機関導入が長期需給を支えるが規制不透明感が重し",
+      "短期は調整圧力が優位、押し目での売りを検討"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC remains above MA20; RSI 89 signals overbought, expect pullback to MA20 before continuation.",
+    "excerpt": "RSIが88.6と極端に過熱し、MA20から大きく乖離。短期調整リスクが高まる中、米金利横ばい、韓国・日本の機関導入が長期需給を支えるが、規制不透明感が重し。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "RSI過熱後、MA20付近で押し目買いを想定。戻り売りの確認後に短期的な上昇を予想。",
-    "entry": "71000",
-    "tp": "85000",
-    "sl": "66000",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "RSI過熱とMA20乖離による短期調整予測",
+    "entry": "79500.00",
+    "tp": "69000.00",
+    "sl": "80800.00",
+    "reliability": "MEDIUM"
   }
 }

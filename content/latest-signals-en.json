@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-26 10:05",
+    "title": "[USD/JPY] UP: AI Detects Bullish Momentum as Risk Sentiment Improves",
+    "date": "2026-08-26 17:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above 20‑day MA, RSI 64 hints upward momentum",
-      "Fed inflation data ahead of Jackson Hole supports hawkish USD bias; Japanese services inflation reinforces yen weakness",
-      "Key resistance at 159.80‑160.00, stop‑loss at 158.30 for risk control"
+      "Risk-on sentiment from Swiss UBS survey supports USD/JPY upside.",
+      "Price testing near MA20 with RSI indicating bullish bias.",
+      "Watch Nvidia earnings for intraday volatility; break above MA20 targets 159.30."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY above MA20, RSI 64, bullish Fed & Japan data; target 159.80, SL 158.30",
+    "excerpt": "Bullish bias driven by improving risk sentiment and technical proximity to MA20 resistance.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "AI signals bullish bias as price trades above MA20, moderate RSI, and hawkish Fed inflation outlook.",
+    "comment": "Bullish bias from improving risk sentiment and technical bounce off MA20",
     "entry": "158.90",
-    "tp": "159.80",
-    "sl": "158.30",
-    "reliability": "HIGH"
+    "tp": "159.30",
+    "sl": "158.60",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-26 10:16",
+    "title": "[S&P 500] FLAT: MA20 Anchors Price as Nvidia Catalyst Looms",
+    "date": "2026-08-26 17:40",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "",
     "tldr_points": [
-      "Support holds at MA20 (7668.83)",
-      "RSI at 44.63 indicates mild bearish momentum",
-      "Nvidia earnings await catalyst on Aug 26"
+      "Price clings to MA20 at 7668.83",
+      "RSI sits at 44.63, signaling weak momentum",
+      "Nvidia earnings and CPI data cap upside"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 futures test MA20 support as traders eye Nvidia earnings, inflation data, and AI-driven momentum shifts.",
+    "excerpt": "S&P 500 hovers near MA20 as investors await Nvidia results and inflation cues.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20 support intact, RSI indicates potential reversal, awaiting earnings catalyst.",
-    "entry": "7670",
-    "tp": "7720",
-    "sl": "7650",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Awaiting Nvidia earnings and CPI data to determine breakout direction from MA20-bound range.",
+    "entry": "7677.28",
+    "tp": "7715.00",
+    "sl": "7650.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Momentum Extends Beyond Overbought RSI as Institutional Adoption Accelerates",
-    "date": "2026-08-26 10:17",
+    "title": "[BTC/USD] UP: Extreme Overbought Alerts Technical Rejection; Institutional Adoption Catalysts Remain Supportive",
+    "date": "2026-08-26 17:46",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trading at 78,845, 15.6% above MA20 in strong uptrend",
-      "RSI at 89 signals short-term overbought, pullback likely toward 68k support",
-      "Institutional catalysts including Galaxy lending, Bitwise portfolios, and Grayscale ETFs drive fundamental tailwinds"
+      "RSI-14 at 88.66 signals extreme overbought; pullback toward MA20 (68943.84) likely imminent",
+      "Price deviation of +14.6% above MA20 creates mean-reversion risk despite bullish momentum",
+      "Institutional adoption headlines from Visa partnership and Japan blockchain settlement underpin long-term bullish thesis"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD holds 78,845, RSI at 89 prompts dip-toward-MA20 play with institutional catalysts supporting continued upside.",
+    "excerpt": "BTC/USD overbought at RSI 88.66; expect MA20 pullback before next leg up. Buy dips via bybit on institutional adoption thesis.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Institutional catalysts and strong MA alignment support continuation, pullback offers tactical entry",
-    "entry": "68000.00",
-    "tp": "82000.00",
-    "sl": "65500.00",
+    "comment": "Overbought RSI signals pullback opportunity; buy MA20 support with tight stop on continued adoption thesis.",
+    "entry": "68943.84",
+    "tp": "75000.00",
+    "sl": "67500.00",
     "reliability": "HIGH"
   }
 }
