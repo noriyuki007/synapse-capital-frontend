@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-27 16:07",
+    "title": "[USD/JPY] UP: 価格がMA20を上回り、RSIが60で強気モメンタムを示す",
+    "date": "2026-08-28 03:48",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20をわずかに上抜け、RSIはやや強気ゾーン",
-      "ドイツ消費者信頼感改善とオプション満期がリスクオンを支援",
-      "エントリーは159.20付近、TP 159.80、SL 158.90を想定"
+      "価格はMA20を上抜け、RSI60で買い優位",
+      "Fedのインフレ緩和発言が金利政策への警戒を和らげる",
+      "米国債入札の高利回りが米ドル支えを示す"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "MA20付近での押し目買いが有利で、ファンダメンタルズはリスクオンを示唆。エントリー159.20、TP159.80、SL158.90を推奨し、流動性の観点から[dmm-fx]の利用を考慮する。",
+    "excerpt": "USD/JPYはMA20を上抜け、RSI60で買いシグナル。ファンダはインフレ緩和期待と高利回り債入札が混在し、短期的な上値余地を示唆。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "MA20付近での押し目買いが有利で、ファンダメンタルズはリスクオンを示唆。エントリー159.20、TP159.80、SL158.90を推奨し、流動性の観点から[dmm-fx]の利用を考慮する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20上抜けとRSI60で買い優位",
+    "entry": "159.30",
+    "tp": "160.00",
+    "sl": "158.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500：レンジ圏内での警戒感とプロフェッショナル実行戦略",
-    "date": "2026-08-27 16:09",
+    "title": "[S&P 500] UP: MA20での反発とNvidiaブレイクアウトが上昇を支える",
+    "date": "2026-08-28 03:59",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "金利相関（近似）: -0.24で負相関傾向",
-      "テクニカル: 現在価格 7675.70 と MA20 7686.81 の位置関係が主導",
-      "需給: 上限帯 7868.92 / 下限帯 7504.71 / 直近高値 7816.70 / 直近安値 7370.98 によるターゲット設計"
+      "MA20上抜けとRSI反転が短期上昇のサイン",
+      "Nvidiaの新規買いシグナルがテク株に波及",
+      "金利安定と保険株の好決算が下値を支える"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 7675.70、RSI(45.91)、MA20(7686.81)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "MA20を突き上げたS&P 500は、Nvidiaのブレイクアウトと金利環境の安定により短期的な上昇余地が見込まれる。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、S&P 500の現在価格 7675.70、RSI(45.91)、MA20(7686.81)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "MA20上抜けとRSI反転が短期上昇のサイン",
+    "entry": "7705.00",
+    "tp": "7750.00",
+    "sl": "7680.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: 過買いRSIとMA20乖離から調整局面を想定",
-    "date": "2026-08-27 16:11",
+    "title": "[BTC/USD] DOWN: 過熱 RSI とマクロリスクを背景に調整预期",
+    "date": "2026-08-28 04:03",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を大幅に上回り、RSIは88.5で過買い圏",
-      "量子耐性トランザクションやトークン担保住ローン等のファンダは中長期的に支援",
-      "直近の調整圧力が強まるため、売りバイアスを採用"
+      "価格80K near MA20 above, RSI 89 indicating過熱",
+      "Polish Olympic Committee のスキャンダルや規制監視の強化でリスクオフの圧力",
+      "明確なサポート・レベルへの戻りを想定し、売りを優先し、bitflyerでの流動性を確保"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20乖離と過買いRSIから短期調整を予想、売り戦略をbitflyerでの実行を推奨。",
+    "excerpt": "BTC at 80,164 above MA20, RSI 89 signals overbought; bribery probe adds pressure, supporting a short‑term bearish outlook.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "過買いRSIとMA20乖離から短期調整を想定",
-    "entry": "78500",
-    "tp": "68900",
-    "sl": "80000",
+    "comment": "価格80K near MA20 above, RSI 89 indicating過熱, 規制スキャンダルによるリスクオフ圧力",
+    "entry": "80500",
+    "tp": "73000",
+    "sl": "82500",
     "reliability": "MEDIUM"
   }
 }

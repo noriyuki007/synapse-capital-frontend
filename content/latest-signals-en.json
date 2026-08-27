@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-27 16:07",
+    "title": "[USD/JPY] UP: Above MA20 as Fed Cautious Stance Caps JPY Weakness",
+    "date": "2026-08-28 03:48",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above MA20 with bullish RSI momentum",
-      "Improving German consumer sentiment supports risk-on USD demand",
-      "FX option expiries at 10am NY may provide short-term liquidity"
+      "Price reclaims 159.40 with momentum above 20-period MA at 158.80",
+      "Fed speakers reaffirm disinflation glide path, delaying aggressive dovish pivot",
+      "RSI-14 at 60.1 preserves bullish optionality without overbought extension"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY trends upward as technical support aligns with improving German sentiment and upcoming option expiries.",
+    "excerpt": "USD/JPY grinds above MA20 as Fed caution caps JPY gains; long bias toward 160.50 with risk at 158.20.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price above MA20 with bullish RSI and supportive fundamentals",
-    "entry": "158.80",
+    "comment": "Bullish structure intact above MA20 158.80; tactical long targeting 160.00 with stop at 158.20.",
+    "entry": "158.90",
     "tp": "160.50",
     "sl": "158.20",
-    "reliability": "HIGH"
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-27 16:09",
+    "title": "[S&P 500] UP: Tactical Long on MA20 Support Amid Tech Divergence",
+    "date": "2026-08-28 03:59",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "Price action below the 20‑day MA signals a near‑term dip.",
-      "AI sector momentum (Nvidia FY28 outlook) provides a strong upside catalyst.",
-      "Neutral RSI supports a controlled bullish setup."
+      "Price holds above critical MA20 support at 7700.75.",
+      "RSI at 44.98 indicates neutral momentum and consolidation.",
+      "Tech divergence highlights need for selective, tactical risk management."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 slightly below MA20, bullish AI catalysts suggest upside bias toward 7690 with tight risk.",
+    "excerpt": "S&P 500 holds above MA20 support; tactical long on dip with tight risk controls amid tech divergence.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "AI-driven upside bias as price nears MA20 support",
-    "entry": "7675.7",
-    "tp": "7690.0",
-    "sl": "7650.0",
+    "comment": "Price holds above MA20 support at 7700.75 with neutral RSI, suggesting a tactical dip-buying opportunity with tight risk management.",
+    "entry": "7700.75",
+    "tp": "7730.00",
+    "sl": "7685.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Detects Overbought RSI and Resistance Awaiting $83k Confirmation",
-    "date": "2026-08-27 16:11",
+    "title": "[BTC/USD] UP: Momentum Overextension Persists Amid Institutional Adoption Wave",
+    "date": "2026-08-28 04:03",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price well above MA20 with RSI near 89 signaling overextension.",
-      "Fundamental bullish catalysts present but need $83k break for confirmation.",
-      "Expect near-term correction toward MA20 as profit-taking emerges."
+      "RSI-14 at 89.3 signals deep overbought conditions, warranting tactical caution despite structural uptrend.",
+      "Institutional adoption accelerates with Charles Schwab adding SOL, AVAX, and LINK to its crypto offering.",
+      "Spot price trading 15% above MA20, establishing dynamic support at 69,710.81 if a retracement occurs."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD overextended; likely pullback to MA20 despite bullish macro backdrop.",
+    "excerpt": "BTC/USD extends vertical rally to 80,164 as RSI hits 89.3; institutional adoption catalysts reinforce uptrend but overbought conditions demand disciplined entries.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Short bias driven by overbought RSI and resistance near $82k‑$83k despite bullish macro backdrop.",
-    "entry": "78800",
-    "tp": "68900",
-    "sl": "82200",
+    "status": "BUY",
+    "comment": "Structural uptrend intact despite RSI overbought at 89.3; favor pullback entries to MA20 support for optimal risk-reward.",
+    "entry": "70500.00",
+    "tp": "85000.00",
+    "sl": "67500.00",
     "reliability": "MEDIUM"
   }
 }
