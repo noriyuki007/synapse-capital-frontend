@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Bullish Momentum Intact Above MA20 Amid Yield Support",
-    "date": "2026-08-28 17:55",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-08-29 09:22",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds 159.58, firmly above rising MA20 at 158.76",
-      "RSI at 68.2 signals momentum strength without extreme overbought",
-      "Yield spread dynamics and BoJ uncertainty underpin structural bid"
+      "Price sits above MA20 with RSI 71, confirming bullish momentum.",
+      "US payroll revisions and weaker equity sentiment reinforce USD strength.",
+      "Key support at MA20 (158.79) and resistance near 161.00 guide trade execution."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY sustains gains above 159.50 as yield differentials and BoJ policy ambiguity maintain structural upside bias.",
+    "excerpt": "Price above MA20 with RSI 71; US payroll cuts and rate‑hike doubts boost USD/JPY upside.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Bullish trend intact above MA20 with yield spread support; buy dips toward 158.80-159.00",
-    "entry": "158.90",
-    "tp": "160.30",
-    "sl": "157.95",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: Price Holds Above MA20 as Futures Advance Amid Sticky Inflation",
-    "date": "2026-08-28 17:58",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "tldr_points": [
-      "S&P 500 holds 0.38% above MA20 at 7,731 with RSI-14 at 46.9 signaling constructive pullback",
-      "Futures rise despite slowing growth as sticky inflation sustains nominal earnings support",
-      "Semiconductor leadership broadening via ETF flows offsets concentration risk in mega-cap tech"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Index defends MA20 support with RSI in neutral zone; sticky inflation underpins nominal growth as semiconductor breadth improves.",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Price above MA20 with RSI reset offers favorable risk/reward toward 7,785 resistance",
-    "entry": "7715.00",
-    "tp": "7785.00",
-    "sl": "7690.00",
-    "reliability": "MEDIUM"
-  },
-  "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Overbought RSI and MA20 Divergence Signal Potential Correction",
-    "date": "2026-08-28 18:04",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "bybit",
-    "tldr_points": [
-      "Overbought RSI (>85) signals imminent pullback.",
-      "Price above MA20 but divergence suggests short‑term downside.",
-      "Immediate support at MA20 (70,439) with stop below 68k."
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD shows overbought RSI (87.5) above MA20, signaling a downside correction; target entry near MA20 with tight stop.",
-    "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "BTC/USD shows overbought RSI (87.5) above MA20, signaling a downside correction; target entry near MA20 with tight stop.",
+    "comment": "Price above MA20 with RSI 71; US payroll cuts and rate‑hike doubts boost USD/JPY upside.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
+    "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] FLAT: Price Tests MA20 Support as Sector Divergence Signals Consolidation Phase",
+    "date": "2026-08-29 09:26",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "tldr_points": [
+      "Price hugs MA20 at 7,711.76 with RSI at 45.31 — neutral momentum with slight bearish lean",
+      "Defensive rotation into financials (WFC) offsets weakness in miners (NEM, FCX) and semis (INTC)",
+      "Range-bound structure likely until a decisive break above 7,720 or below 7,680"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 consolidates at MA20 support; sector divergence between financials and cyclicals suggests range-bound trading near 7,712.",
+    "pair": "S&P 500",
+    "status": "NEUTRAL",
+    "comment": "Price pinned at MA20 with neutral RSI and offsetting sector flows — await breakout confirmation above 7,720 or below 7,680.",
+    "entry": "7720.00",
+    "tp": "7750.00",
+    "sl": "7700.00",
+    "reliability": "MEDIUM"
+  },
+  "CRYPTO": {
+    "title": "[BTC/USD] UP: Overbought Momentum Meets Bullish Fundamental Catalysts",
+    "date": "2026-08-29 09:27",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "tldr_points": [
+      "Price holds firmly above MA20 with RSI overbought at 82",
+      "Solana ETF milestone and Asian institutional expansion reinforce demand",
+      "Execution via bybit recommended for optimal liquidity"
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "BTC/USD at 77,940 above MA20, RSI 82 overbought, as Solana ETF hits $1B AUM and institutional push continues.",
+    "pair": "BTC/USD",
+    "status": "BUY",
+    "comment": "Strong uptrend above MA20 with bullish fundamental catalysts; enter on pullback to 70,367.",
+    "entry": "70367.00",
+    "tp": "80000.00",
+    "sl": "68000.00",
     "reliability": "MEDIUM"
   }
 }
