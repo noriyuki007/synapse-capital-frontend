@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: AI Detects Bearish Divergence as Fundamentals Turn Dovish",
-    "date": "2026-08-30 22:30",
+    "title": "[USD/JPY] DOWN: Rate‑Cut Expectations and Overbought RSI Signal Near‑Term Pullback",
+    "date": "2026-08-31 04:01",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US jobs revision weakens USD supporting downside",
-      "Price above MA20 with RSI overbought suggests near-term exhaustion",
-      "Key resistance at 160.50, support near 159.30"
+      "US employment revision softens dollar outlook.",
+      "RSI‑14 at 71 signals overbought conditions near 160.04.",
+      "Break below MA20 (158.79) targets 158.20–157.60 support."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY faces downside pressure as dovish fundamentals clash with overbought technicals.",
+    "excerpt": "USD/JPY poised for downside as dovish Fed cues and overbought RSI suggest a pullback toward the 20-day MA at 158.79 zone",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "Bearish fundamentals and overbought RSI suggest a short‑term pullback toward MA20 support",
+    "comment": "Overbought RSI and dovish fundamentals favor a pullback to the 20‑day MA",
     "entry": "160.00",
-    "tp": "159.30",
-    "sl": "160.70",
-    "reliability": "MEDIUM"
+    "tp": "158.80",
+    "sl": "160.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-08-30 22:31",
+    "title": "[S&P 500] DOWN: Price Slightly Below MA20 with RSI Indicating Mild Bearish Momentum",
+    "date": "2026-08-31 04:03",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
     "tldr_points": [
-      "Support near MA20 offset by modest bullish news",
-      "RSI neutral, indicating balanced momentum",
-      "Trade set up with defined risk at 7700/7650/7800"
+      "S&P 500 price 7711.76 sits just under MA20 7712.58, suggesting near-term resistance.",
+      "RSI at 45.3 shows weakening momentum, not oversold.",
+      "Fundamental concentration in mega‑caps and looming leadership shifts add caution."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 near MA20, neutral RSI, bullish catalysts favor modest upside.",
+    "excerpt": "S&P 500 flirts with resistance as momentum wanes; watch for pullback toward 7650.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "AI‑driven support at MA20 and constructive news underpin bullish bias",
-    "entry": "7700.00",
-    "tp": "7800.00",
-    "sl": "7650.00",
+    "status": "SELL",
+    "comment": "Price below MA20 with RSI indicating weakening momentum; near‑term resistance likely to hold.",
+    "entry": "7712.60",
+    "tp": "7650.00",
+    "sl": "7730.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Extreme Overbought Conditions Signal Intact Bull Trend Despite RSI Caution",
-    "date": "2026-08-30 22:32",
+    "title": "[BTC/USD] DOWN: AI Detects RSI Overbought and Fundamental Headwinds",
+    "date": "2026-08-31 04:04",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC holds 10.8% premium to MA20, confirming strong uptrend structure",
-      "RSI-14 at 82.35 signals elevated overbought risk requiring disciplined entry",
-      "Bitwise SOL ETF $1B AUM milestone reinforces institutional crypto adoption thesis"
+      "Price holding above MA20 but RSI >80 signals overextended bullish momentum.",
+      "Negative on-chain news (Cronos, Fogo exploits) weighs on sentiment.",
+      "Tactical short targeting 75k with stop above 80.5k."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD technicals remain bullish above MA20 support despite extreme RSI readings; pullbacks toward 71056 present accumulation opportunities.",
+    "excerpt": "BTC/USD shows RSI >80 amid bearish crypto headlines; we advise a short toward 75k with tight risk.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Pullback entries toward MA20 offer optimal risk-reward; RSI overbought mandates patience over momentum chasing.",
-    "entry": "73500.00",
-    "tp": "82000.00",
-    "sl": "68500.00",
+    "status": "SELL",
+    "comment": "RSI >80 signals overextended momentum amid bearish crypto‑specific headlines; short toward 75k with stop above 80.5k.",
+    "entry": "78500",
+    "tp": "75000",
+    "sl": "80500",
     "reliability": "MEDIUM"
   }
 }

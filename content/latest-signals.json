@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20支持と利回り上昇の整合性を確認",
-    "date": "2026-08-30 22:30",
+    "title": "[USD/JPY] UP: MA20乖離とRSI過熱の中、押し目買いを軸とした戦術を構築",
+    "date": "2026-08-31 04:01",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20が強力な底部支持として機能している",
-      "NFP改定の下方修正は米金利の持続的上昇圧力を緩和しない",
-      "RSI71超の圏外環境が急騰モメンタムを示唆"
+      "NFPベンチマーク修正で米雇用が79K下方改定され、利下げ観測は維持されるが米金利底堅さがUSD/JPYを支える構造",
+      "RSI(14)=71.04と買われ過ぎ水準、ただしMA20=158.79からの上方乖離は約+1.25%でトレンド継続シグナル",
+      "160.00の節目を上方に放れた局面では161.50～162.00を第一利確、押し目形成時は158.80～158.20で分量的エントリーを推奨"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは160円台で推移し、MA20を強力な支持として日銀とFRBの金利方向性の乖離が再拡大している。NFP改定の下方修正は米国債利回りの上昇圧力を抑制せず、ドル高円安トレンドの継続を示唆する。",
+    "excerpt": "USD/JPYは160.03で強気バイアスを維持。NFP下方改定は米金利の低下余地を残す一方、相対的な米日金利差はドル優位を支える。RSI71.04は過熱警戒、MA20=158.79への押し目を優先し、158.80で分割エントリー、TP162.00/SL158.00を構築。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20支持と利回り上昇の整合性",
-    "entry": "158.80",
-    "tp": "161.50",
-    "sl": "158.20",
-    "reliability": "HIGH"
+    "comment": "MA20=158.79への押し目形成を待つ中期押し目買い。RSI71の過熱感から分量的エントリー・分割決済で過熱リスクを制御。リスクリワード1:3.2。",
+    "entry": "158.60",
+    "tp": "162.00",
+    "sl": "157.95",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: テクニカル中立とマクロ警告の整合性",
-    "date": "2026-08-30 22:31",
+    "title": "[S&P 500] DOWN: MA20付近での戻り売り日和と集中リスクの警戒",
+    "date": "2026-08-31 04:03",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "S&P 500はMA20（7712.58）直下で均衡状態、RSI(45.3)は中立域。",
-      "市場は「1950年以来の最悪月」の可能性についての警告と、ETF戦略の優位性という相反するシグナルを受けている。",
-      "流動性とポジショニングの観点から、一時的な方向性の欠如は継続し、慎重なポジション管理が必須。"
+      "S&P 500はマイクロソフトとエヌビディアの二銘柄に依存し、全体の上値は限定的。",
+      "MA20をわずかに下回り、RSIは45で下方バイアスが示唆される。",
+      "戻り売りをMA20付近で仕掛け、流動性の観点から[野村證券]の利用を推奨する。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はテクニカル中立とNegativeなマクロシグナルの狭間で推移。戦術的に则是、方向性決定のtriggerを待機し、流動性の高い[]の利用を推奨する。",
+    "excerpt": "S&P 500は指数の上昇がMSFTとNVDAに集中し、MA20下放れとRSI45から下向きリスクが高まる。戻り売り戦略と具体的エグジットポイントを提示。",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "テクニカル中立とマクロ警告が重なり、方向性決定を待機",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "comment": "S&P 500は指数の上昇がMSFTとNVDAに集中し、MA20下放れとRSI45から下向きリスクが高まる。戻り売り戦略と具体的エグジットポイントを提示。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: RSI超買いとMA20乖離から短期調整局面を予測",
-    "date": "2026-08-30 22:32",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-08-31 04:04",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "RSI14が82.3で超買いサイン",
-      "現在価格はMA20を約11%上回り乖離拡大",
-      "マクロではソーラナETF資金流入などリスクオンだが、短期利益確定圧力が高まる"
+      "価格はMA20を大きく上回り、上昇トレンドが継続",
+      "RSIは82.5で過熱感が顕著、短期的調整の可能性",
+      "主要ニュースはDeFi・L1のハッキングが続き、リスクオフ傾向が強まる"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "RSI超買いと価格-MA20乖離から短期調整を予想し、売り戦略を提示。",
+    "excerpt": "MA20を基調とした押し目買いシグナルが発生、過熱感を考慮しタイトなリスク管理でエントリーを検討",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "RSI超買いと価格-MA20乖離から短期調整局面を予測",
-    "entry": "78500",
-    "tp": "75000",
-    "sl": "80000",
+    "status": "BUY",
+    "comment": "MA20をサポートとした押し目買い、過熱感を考慮したリスク管理",
+    "entry": "71200.00",
+    "tp": "80000.00",
+    "sl": "70000.00",
     "reliability": "MEDIUM"
   }
 }
