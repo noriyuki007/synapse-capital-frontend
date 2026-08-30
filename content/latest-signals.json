@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-08-30 04:09",
+    "date": "2026-08-30 12:27",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "現在価格はMA20を上回りRSIは71超え、短期的な買い圧力が示唆される",
-      "米雇用統計の下方修正と株安は米ドルに対するヘッジ需要を刺激",
-      "流動性の観点から[dmm-fx]の利用が戦略実行に適している"
+      "現価格がMA20（158.78）を大幅に上回り、短期上昇トレンドが継続",
+      "RSI(71.04)が過剰buy状態だが、160.00突破後のモメンタムが更に上値を追う可能性",
+      "米金利のハーキッシュな姿勢と日本銀行の緩和政策による利差拡大が価格を支援"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "現在価格はMA20を上回りRSIは71超え、弱い雇用統計と米株下落の中での短期的な押し目買いシグナルを示唆。",
+    "excerpt": "USD/JPYはMA20を支持として160.00を突破し、金利差の優位性が後押しする強気トレンドを継続する。一時的なRSIの過剰状態を経て、戦術的な押目買いを提供する。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20付近の押し目買いがトレンド継続とリスクリワード面で優位",
+    "comment": "現価格がMA20を大幅に上回り、金利差拡大の期待から上昇トレンドが継続。一時的なRSI過剰状態を経て、MA20支持下的押目買いを推奨。",
     "entry": "158.85",
-    "tp": "160.50",
-    "sl": "158.20",
-    "reliability": "MEDIUM"
+    "tp": "161.20",
+    "sl": "157.90",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20攻防と半導体・雇用統計への限定再評価を整合的に確認",
-    "date": "2026-08-30 04:11",
+    "title": "[S&P 500] UP: MA20直下での下値堅調とセンチメント反転期待",
+    "date": "2026-08-30 12:29",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "9月入りに向けた1950年来最悪月アノマリー警戒は残るが、MA20を上抜き傾向が継続し上昇バイアスを再確認",
-      "半導体・サイバーセキュリティ・雇用統計の3点集中リスクに対し、現値水準ではヘッドライン売りも押し目買い材料",
-      "高配当・低ボラETFへの質的逃避はリスク許容度の底堅りを示唆、ただしベア入りシナリオはテールリスクとして管理"
+      "MA20付近でのテクニカル下支えとセンチメントの反転材料を確認",
+      "半導体・サイバーセキュリティ・雇用統計が今週のカタリスト",
+      "レンジブレイクに向けた方向性選択が迫る"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20（7701.48）上方に位置を維持し、RSI46.87は中立域。9月アノマリー警戒と半導体・雇用統計イベントを織り込みつつ、押し目買い優位の戦術的アップバイアスを推奨。",
+    "excerpt": "S&P 500はMA20直下で推移しRSIは45台半ばで推移している。1950年以来の厳しい月間パフォーマンスという逆張り材料が背景にあり、反発の伏線が築かれつつある。半導体・サイバーセキュリティ・雇用統計といった今週の主要カタリストに注目が集まっている。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20上方維持とRSI中立域を根拠に押し目買い優位。9月アノマリーはテール管理、半導体・雇用統計通過後のフロー加速局面で段階的ロング構築。",
-    "entry": "7715.00",
-    "tp": "7820.00",
-    "sl": "7675.00",
+    "comment": "MA20直下での下値堅調とセンチメント反転期待",
+    "entry": "7711.76",
+    "tp": "7850.00",
+    "sl": "7600.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Integration of MA20 pullback confirmation and bullish fundamentals.",
-    "date": "2026-08-30 04:12",
+    "title": "BTC/USD：AI解析が示す上昇シナリオと戦略的リスク管理",
+    "date": "2026-08-30 12:31",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20 support at ~70.4k reinforces consolidation bias",
-      "RSI 83 signals extended overbought momentum but remains directional",
-      "ETF inflows and Asian institutional pushes add fundamental upside"
+      "金利相関（近似）: -0.03で負相関傾向",
+      "テクニカル: 現在価格 78159.80 と MA20 70378.23 の位置関係が主導",
+      "需給: 上限帯 84844.36 / 下限帯 55912.09 / 直近高値 81235.03 / 直近安値 62487.70 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC at $78.3k, MA20 support, and steady ETF inflows sustain upward bias.",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 78159.80、RSI(82.88)、MA20(70378.23)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20 直近の押し目買いと強気ファンダメンタルズに基づき、長ポジションを採用。",
-    "entry": "71000",
-    "tp": "80000",
-    "sl": "69000",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、BTC/USDの現在価格 78159.80、RSI(82.88)、MA20(70378.23)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
