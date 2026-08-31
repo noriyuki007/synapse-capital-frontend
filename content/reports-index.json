@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-09-01-crypto-ja",
+    "date": "2026-09-01 00:59",
+    "title": "BTC/USDの見通し：需給バランスから見る「押し目買い」の優位性",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 78544.00、RSI(82.21)、MA20(71046.71)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-01-crypto-en",
+    "date": "2026-09-01 00:59",
+    "title": "[BTC/USD] UP: Institutional Accumulation Drives Price Above MA20 Despite Overbought RSI",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD rises on heavy institutional accumulation, technicals show bullish trend above MA20.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-09-01-stocks-ja",
+    "date": "2026-09-01 00:57",
+    "title": "[S&P 500] DOWN: MA20下回る価格とRSI中立が示す調整圧力",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Nomura Securities",
+    "excerpt": "S&P 500はMA20下回り、RSI中立。調整立。調整圧力が継続し、7600支援線を注視する必要がある。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-01-stocks-en",
+    "date": "2026-09-01 00:57",
+    "title": "[S&P 500] DOWN: Technical Breakdown Below MA20 as Macro Headwinds Intensify",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 faces technical breakdown below MA20 amid shifting fundamentals and waning momentum.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-09-01-fx-ja",
+    "date": "2026-09-01 00:49",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "米国株下落と油価下落がリスクオフを示し、米ドルが安全通貨として強含む。テクニカルではMA20を上抜け、RSIはやや買い優勢。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-01-fx-en",
+    "date": "2026-09-01 00:49",
+    "title": "[USD/JPY] UP: Price Above MA20 with Modest RSI Bullishness Amid Mixed Risk Sentiment",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY trades above MA20 at 159.70, RSI near 58, supported by steady yields and risk‑off flows favoring the dollar.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-08-31-crypto-ja",
     "date": "2026-08-31 12:31",
     "title": "[BTC/USD] DOWN: RSI81.12の過調整と流動性リスクからの短期的な下方トレンド",
