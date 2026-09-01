@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-01 06:17",
+    "title": "[USD/JPY] UP: Bullish Bias Supported by MA20 Break and Positive Risk Sentiment",
+    "date": "2026-09-01 12:25",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above the key 20-day moving average, signaling underlying bullish momentum.",
-      "RSI at 58.36 indicates room for further upside before entering overbought territory.",
-      "Fed officials' hawkish rhetoric contrasts with potential policy shifts, keeping USD demand elevated against the JPY."
+      "Price holds above MA20 with RSI indicating mild bullish momentum.",
+      "China PMI beat supports risk‑on sentiment, reducing yen safe‑haven demand.",
+      "Officials stress orderly yen moves, lowering intervention risk."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY maintains a bullish bias above the 20-day MA, supported by favorable rate differentials and technical momentum.",
+    "excerpt": "USD/JPY above MA20, RSI 56, buoyed by strong China data and orderly yen stance, targeting near-term upside to 160.5.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "The pair is trading above its 20-day MA with bullish RSI momentum, favoring long positions on dips.",
-    "entry": "159.30",
+    "comment": "Bullish bias supported by MA20 break, positive China data, and orderly yen stance",
+    "entry": "159.10",
     "tp": "160.50",
-    "sl": "158.45",
-    "reliability": "HIGH"
+    "sl": "158.70",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Price Below MA20, RSI 45, and Rising Yields Signal Bearish Bias",
-    "date": "2026-09-01 06:19",
+    "title": "[S&P 500] DOWN: Technical Weakness Amid Seasonal Pressure",
+    "date": "2026-09-01 12:28",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 trades below its 20‑day moving average with RSI near 45, indicating short‑term bearish momentum.",
-      "Rising Treasury yields and Iran‑related geopolitical tension are weighing on risk appetite.",
-      "Utility sector weakness adds to downside pressure, suggesting a near‑term correction."
+      "Price below MA20 with RSI near 43 indicates mild bearish momentum",
+      "Seasonal weakness and negative news reinforce downside bias",
+      "Key support near 7600; resistance at MA20 ~7711"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 under MA20, RSI 45, as yields rise and Iran tensions rise; utilities slip, pointing to near-term downside.",
+    "excerpt": "S&P 500 trades below its 20‑day average with RSI at 43, suggesting near‑term downside amid seasonal weakness for pro now.",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "Price below MA20 with RSI 45 and rising yields support a short‑term bearish bias.",
-    "entry": "7686.00",
-    "tp": "7600.00",
-    "sl": "7730.00",
+    "comment": "Price below MA20 with RSI near 43 and seasonal weakness favor downside",
+    "entry": "7680",
+    "tp": "7600",
+    "sl": "7750",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Detects Overbought RSI and Profit‑Taking Pressure",
-    "date": "2026-09-01 06:22",
+    "title": "[BTC/USD] UP: AI Detects Strength Above MA20 as Institutional Demand Accelerates",
+    "date": "2026-09-01 12:30",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD trading above MA20 but RSI at 83 signals overextension.",
-      "Fundamental boost from Strive’s 1,800 BTC treasury purchase and TD Cowen upgrade offsets short‑term noise.",
-      "Expect a corrective move toward the 75k–76k zone before trend resumption."
+      "Price holding firm at 78,460 with 8.3% premium to MA20, confirming sustained bullish structure",
+      "RSI-14 at 79.99 signals extreme overbought territory, warranting disciplined risk management",
+      "Strive's 1,800 BTC acquisition and Robinhood DEX volume surge validate institutional DeFi demand thesis"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD shows overbought momentum despite bullish fundamentals; a short‑term pullback toward MA20 is anticipated.",
+    "excerpt": "BTC/USD extends rally above MA20 as institutional treasury accumulation accelerates with RSI signaling overbought conditions.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "RSI overbought and resistance at 80k suggest near‑term pullback toward MA20 support.",
-    "entry": "78800",
-    "tp": "75000",
-    "sl": "80500",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Maintain long bias with MA20 as critical support; await pullback entry for improved risk-reward",
+    "entry": "74500.00",
+    "tp": "80000.00",
+    "sl": "71500.00",
+    "reliability": "HIGH"
   }
 }
