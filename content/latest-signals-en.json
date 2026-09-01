@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Current AI Analysis Detects MA20 Support as Yields Propel Dollar",
-    "date": "2026-09-01 22:02",
+    "title": "[USD/JPY] UP: USD Strength Amid Geopolitical Tension Supports Bullish Bias",
+    "date": "2026-09-02 04:11",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY holds above MA20 support at 159.01 amid yield-driven dollar strength.",
-      "RSI-14 at 61.5 signals room for further upside before overbought conditions.",
-      "Risk-off tone and higher US yields create fundamental tailwinds for long exposure."
+      "USD gains on Iran conflict risk-off sentiment",
+      "Price above MA20 with RSI near 62 indicates mild bullish momentum",
+      "Key resistance near 161.00, support at 159.00"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY extends above MA20 as yields and risk-off sentiment propel the pair toward 161.50.",
+    "excerpt": "USD/JPY poised to rise as geopolitical shock boosts dollar, technicals favor buying near MA20.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Yield differentials and technical posture favor upside continuation toward 161.50.",
-    "entry": "159.01",
-    "tp": "161.50",
-    "sl": "158.50",
+    "comment": "USD/JPY supported by dollar strength and technical bounce from MA20.",
+    "entry": "159.50",
+    "tp": "161.80",
+    "sl": "158.70",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Macro Headwinds and Technical Breakdown Below MA20 Signal Short-Term Bearish Pressure",
-    "date": "2026-09-01 22:04",
+    "title": "[S&P 500] DOWN: Price below MA20 and modest RSI signals caution",
+    "date": "2026-09-02 04:19",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "[]",
     "tldr_points": [
-      "MA20 resistance at 7716.864501953125 caps upside",
-      "Rising yields and geopolitical tensions weigh on sentiment",
-      "RSI-14 at 45.24121791762472 confirms lack of bullish momentum"
+      "MA20 at 7712.79 provides immediate resistance; price 7630 below",
+      "RSI 40.17 signals weak bullish momentum",
+      "Mixed energy and software news favor a short‑term corrective stance"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces downside pressure below its 20-day MA amid rising yields and geopolitical escalation.",
+    "excerpt": "S&P 500 under MA20, RSI 40, mixed fundamentals hint at short-term downside.",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "Technical breakdown below MA20 combined with macro headwinds signals bearish continuation.",
-    "entry": "7686.14013671875",
-    "tp": "7550.00",
-    "sl": "7716.864501953125",
+    "comment": "Technical bearishness with price below MA20 and low RSI suggests short exposure.",
+    "entry": "7620",
+    "tp": "7400",
+    "sl": "7700",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-01 22:05",
+    "title": "[BTC/USD] UP: Institutional Treasury Growth and Debasement Trade Drive Bullish Continuation",
+    "date": "2026-09-02 04:20",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC holds above MA20 with RSI 77, indicating strong momentum.",
-      "Ethena’s 6% yield and Binance’s $433 billion perpetual volume boost crypto risk appetite.",
-      "Institutional inflows via tokenization and options expand demand, supporting upside toward 80k."
+      "Bitcoin remains in a strong bullish trend, trading significantly above its 20-day moving average at $73,160.",
+      "Macro fundamentals favor BTC as a debasement hedge, aligning with gold's performance amid liquidity concerns.",
+      "Regulatory advancements, including the SEC's modernization of transfer agent rules, provide a constructive backdrop for institutional adoption."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds above MA20, RSI 77, with Ethena yield and Binance liquidity driving upside toward 80k.",
+    "excerpt": "BTC/USD trades above MA20 amid institutional treasury growth and regulatory tailwinds, targeting upside.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "BTC is above MA20 with bullish momentum and supportive fundamentals, offering a high‑probability upside toward 80k.",
-    "entry": "73500",
-    "tp": "80000",
-    "sl": "71500",
+    "comment": "Strong bullish trend above MA20 supported by institutional treasury adoption and macro debasement hedge demand.",
+    "entry": "73200.00",
+    "tp": "82000.00",
+    "sl": "71500.00",
     "reliability": "HIGH"
   }
 }
