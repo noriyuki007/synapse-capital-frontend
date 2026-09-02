@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20付近の強気トレンドと地政学的リスクの整合性を確認",
-    "date": "2026-09-02 04:11",
+    "title": "[USD/JPY] UP: 日米金利差拡大と介入警戒を上回るテクニカル強気シグナル",
+    "date": "2026-09-02 11:44",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "地政学的リスクによる米ドル safe-haven 震動と石油高がUSD/JPYの上昇トレンドを牽引",
-      "テクニカル上、MA20上抜けでモメンタムが残りつつRSI62で様子見態勢",
-      "オイル・ゴールド動向と実質利回り差が通貨評価に与える影響を慎重に見極める必要あり"
+      "RBNZの利上げと豪州GDP上方修正を受け、リスク選好が円売りを再燃させる局面",
+      "BOJ高田委員のタカ派発言は円安抑止要因として限定的、市場は日米金利差を重視",
+      "RSI60.0台とMA20を上放れた構造は中期的160円台後半～161円台への余地を示唆"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "地政学的リスク高まる中、米ドルが主要通貨に対して新高値更新。USD/JPYはテクニカル上の強気構造と相まって上値トライの動き。",
+    "excerpt": "USD/JPYは160.25水準でMA20を明確に上放れ、RSIは60.0台の強気圏。日米金利差拡大を主因とした円売りが再燃し、160円後半～161円トライのシナリオを優先。介入リスクには警戒しつつ、押し目買いを主戦術とする。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20サポートと地政学的リスクオフでロング志向",
+    "comment": "MA20上放れとRSI60.0台の強気シグナル、日米金利差拡大が整合し押し目買い優勢",
     "entry": "160.20",
-    "tp": "161.50",
-    "sl": "159.00",
+    "tp": "161.00",
+    "sl": "158.80",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20回帰を狙う戦術的押し目買いとセクター選別の重要性",
-    "date": "2026-09-02 04:19",
+    "title": "[S&P 500] DOWN: 価格がMA20下回り、RSIが弱気圏を示す",
+    "date": "2026-09-02 11:46",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "ソフトウェアセクターの歴史的な9月の弱さと個別株の調整が指数を押し下げている",
-      "現在価格はMA20を下回り、RSI 40.17にてテクニカル的な押し目局面を形成",
-      "MA20への回帰を前提とした戦術的買い戦略とセレクティブなセクターローテーションを推奨"
+      "S&P 500はMA20を下抜け、短期的な下押し圧力が強まる。",
+      "米国‑イランの膠着状況がリスクオフ sentiment を誘発し、ハイテク株に波及。",
+      "RSIが37.7と弱気圏にあり、反発余地は限定的と見込まれる。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はソフトウェア株の季節的弱さとOracle下落等の個別要因で調整。現在価格7630.36はMA20を下回るが、RSI40.17にて押し目買いの妥当性を確認。MA20回帰を狙う戦術的戦略を提示。",
+    "excerpt": "MA20を下回るS&P 500は、米イラン膠着とSeptember Bluesが重しとなり、短期的な下落リスクが顕在化。RSIは弱気圏で反発余地は限定的。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20下方的の押し目とRSI 40の水準から、平均回帰を狙う戦術的買いを推奨。",
-    "entry": "7630.00",
-    "tp": "7710.00",
-    "sl": "7550.00",
+    "status": "NEUTRAL",
+    "comment": "MA20を下回るS&P 500は、米イラン膠着とSeptember Bluesが重しとなり、短期的な下落リスクが顕在化。RSIは弱気圏で反発余地は限定的。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-02 04:20",
+    "title": "[BTC/USD] UP: MA20近傍での反発と強気ファンダメンタルズの整合性",
+    "date": "2026-09-02 11:47",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "機関のデジタル資産保有が340億ドル規模に拡大し、需給基盤が堅調",
-      "金・BTCの連動がディベースメント取引の拡大で強化",
-      "規制当局の移転エージェントルール更新が長期的な市場信頼性を向上"
+      "価格はMA20を上回りRSI75.4でオーバーボック但、機関流動性と呼応した上昇トレンド継続",
+      "SEC規則改正と treasury 規模拡大はBTC需要の長期的支え",
+      "本戦略の実行にあたっては、流動性の観点から[bitflyer]の利用を推奨する。"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "機関のデジタル資産保有が拡大し、金・BTCの連動が強まる中、MA20を上抜けしRSIは過熱だが上余地が残る。",
+    "excerpt": "BTC/USDは77164ドルでMA20を上回るがRSI75.4はオーバーボックゾーン、機関流動性と呼応したトレンド継続が見込まれる。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20上抜けと機関フローおよび金連動が上昇を支える",
-    "entry": "75000",
-    "tp": "80500",
-    "sl": "71800",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTC/USDは77164ドルでMA20を上回るがRSI75.4はオーバーボックゾーン、機関流動性と呼応したトレンド継続が見込まれる。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }

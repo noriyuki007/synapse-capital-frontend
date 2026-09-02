@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: USD Strength Amid Geopolitical Tension Supports Bullish Bias",
-    "date": "2026-09-02 04:11",
+    "title": "[USD/JPY] UP: Technical Strength Above MA20 as BOJ Hawkishness Priced In",
+    "date": "2026-09-02 11:44",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD gains on Iran conflict risk-off sentiment",
-      "Price above MA20 with RSI near 62 indicates mild bullish momentum",
-      "Key resistance near 161.00, support at 159.00"
+      "Price holds above MA20 support with RSI indicating bullish momentum.",
+      "BOJ hawkish commentary already reflected, limiting further JPY upside.",
+      "Australian and NZ data support risk‑on sentiment, boosting USD demand."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised to rise as geopolitical shock boosts dollar, technicals favor buying near MA20.",
+    "excerpt": "USD/JPY trades above MA20 with RSI near 60, suggesting near‑term upside despite BOJ hawkish tone.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "USD/JPY supported by dollar strength and technical bounce from MA20.",
-    "entry": "159.50",
-    "tp": "161.80",
-    "sl": "158.70",
-    "reliability": "HIGH"
+    "comment": "Price above MA20 with bullish RSI and supportive rate differential favours upside.",
+    "entry": "159.20",
+    "tp": "162.00",
+    "sl": "158.50",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Price below MA20 and modest RSI signals caution",
-    "date": "2026-09-02 04:19",
+    "title": "[S&P 500] UP: AI Detects Support as Geopolitical Premium Eases and Momentum Bottoming",
+    "date": "2026-09-02 11:46",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "[]",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
     "tldr_points": [
-      "MA20 at 7712.79 provides immediate resistance; price 7630 below",
-      "RSI 40.17 signals weak bullish momentum",
-      "Mixed energy and software news favor a short‑term corrective stance"
+      "RSI(14) at 37.7 indicates oversold conditions ripe for mean-reversion bounce",
+      "Price testing MA20 support at 7711 — a decisive hold preserves the medium-term uptrend",
+      "Geopolitical stalemate and September seasonality are priced in; AI infrastructure names remain bid"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 under MA20, RSI 40, mixed fundamentals hint at short-term downside.",
+    "excerpt": "S&P 500 tests MA20 support at 7711 with RSI at 37.7; AI signals tactical bounce amid easing geopolitical premium.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Technical bearishness with price below MA20 and low RSI suggests short exposure.",
-    "entry": "7620",
-    "tp": "7400",
-    "sl": "7700",
+    "status": "BUY",
+    "comment": "Tactical bounce setup at MA20 support with oversold RSI and easing geopolitical premium.",
+    "entry": "7705.00",
+    "tp": "7820.00",
+    "sl": "7550.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Treasury Growth and Debasement Trade Drive Bullish Continuation",
-    "date": "2026-09-02 04:20",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-09-02 11:47",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Bitcoin remains in a strong bullish trend, trading significantly above its 20-day moving average at $73,160.",
-      "Macro fundamentals favor BTC as a debasement hedge, aligning with gold's performance amid liquidity concerns.",
-      "Regulatory advancements, including the SEC's modernization of transfer agent rules, provide a constructive backdrop for institutional adoption."
+      "BTC trades above MA20 with RSI 75, signaling bullish momentum.",
+      "SEC rule updates and rising crypto treasury market cap support fundamentals.",
+      "Key resistance near 78,500; support at MA20 around 73,158."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD trades above MA20 amid institutional treasury growth and regulatory tailwinds, targeting upside.",
+    "excerpt": "BTC holds above MA20, RSI 75, bullish bias with strong fundamentals; target 78,500, stop 75,500.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Strong bullish trend above MA20 supported by institutional treasury adoption and macro debasement hedge demand.",
-    "entry": "73200.00",
-    "tp": "82000.00",
-    "sl": "71500.00",
+    "comment": "BTC is above MA20 with RSI 75, indicating strong upward momentum and supportive fundamentals.",
+    "entry": "77200.00",
+    "tp": "78500.00",
+    "sl": "75500.00",
     "reliability": "HIGH"
   }
 }
