@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Oversold Momentum Persists as Safe-Haven Yen Strengthens Amid Geopolitical Escalation",
-    "date": "2026-09-03 21:34",
+    "title": "[USD/JPY] DOWN: Deep Oversold RSI Signals Potential Rebound Amid Safe-Haven Flows",
+    "date": "2026-09-04 04:04",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY trades at 155.59, well below MA20 at 159.01, confirming bearish trend structure.",
-      "RSI-14 at 28.87 signals deeply oversold conditions, suggesting potential tactical bounce before continuation lower.",
-      "Rising oil prices from US-Iran conflict and surging global yields create conflicting cross-currents, but JPY safe-haven flows dominate."
+      "USD/JPY trades heavily below its 20-day moving average at 159.01, reflecting sustained risk-off and safe-haven JPY demand.",
+      "RSI-14 has plunged to 28.86, signaling extreme short-term oversold conditions and a high probability of a technical mean-reversion bounce.",
+      "Broad USD selling across G10 currencies, combined with geopolitical tensions, caps any immediate USD recovery attempts."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY at 155.59 below MA20; RSI-14 at 28.87 oversold as yen surges on US-Iran war and bond selloff, signaling extended downside.",
+    "excerpt": "USD/JPY trades at 155.59, deeply oversold (RSI 28.86). Tactical pullback toward 159.00 MA20 amid broad USD selling.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Bearish trend structure below MA20 with oversold RSI-14; JPY safe-haven flows and narrowing yield spread favor continued downside.",
+    "status": "BUY",
+    "comment": "Deeply oversold RSI at 28.86 signals a high-probability tactical rebound toward the 159.00 MA20 resistance.",
     "entry": "155.60",
-    "tp": "153.00",
-    "sl": "159.05",
+    "tp": "159.00",
+    "sl": "154.80",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Technical Oversold Near MA20 with Bullish Fundamentals",
-    "date": "2026-09-03 21:36",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-09-04 04:08",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price trading below MA20 with RSI indicating oversold conditions.",
-      "Futures and oil strength suggest near-term risk-on sentiment despite geopolitical risks.",
-      "Dividend king highlight provides fundamental support for equity upside."
+      "S&P 500 exhibits a resilient bullish structure, trading above its 20-day moving average at 7710.84.",
+      "Neutral RSI at 46.79 indicates balanced momentum with significant room for upward expansion.",
+      "Fundamental catalysts support selective equity allocation, particularly in defensive insurers and quality industrials."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 shows oversold near MA20; futures and oil strength support a bounce toward resistance in the short term outlooks",
+    "excerpt": "S&P 500 maintains tactical bullish bias above MA20 support, with neutral RSI signaling upcoming directional expansion.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Oversold near MA20 with bullish fundamentals and supportive futures/oil",
-    "entry": "7666.60",
-    "tp": "7708.80",
-    "sl": "7620.00",
-    "reliability": "MEDIUM"
+    "comment": "S&P 500 shows a bullish continuation pattern above MA20 support, with neutral RSI indicating balanced momentum and room for upside.",
+    "entry": "7710.84",
+    "tp": "7800.00",
+    "sl": "7680.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Price above MA20, RSI bullish, macro supportive",
-    "date": "2026-09-03 21:37",
+    "title": "[BTC/USD] UP: AI Detects Bullish Momentum Above MA20 Supported by Macro Catalysts",
+    "date": "2026-09-04 04:10",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price trading above MA20 support at ~74.6k, indicating bullish trend.",
-      "RSI 65 shows moderate upward momentum without overbought extremes.",
-      "Gold correlation at six-year high and Coinbase board addition reinforce risk-on sentiment."
+      "Price trading above MA20 with RSI near overbought indicates short‑term bullish bias.",
+      "Macro catalysts: Revolut OCC approval, Strive bitcoin holdings growth, stablecoin and banking‑crypto integrations boost adoption.",
+      "Bitcoin‑gold correlation at six‑year high warrants watch for equity‑linked pullbacks."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds above MA20 with RSI 65, bolstered by rising gold correlation and board addition at Coinbase, signaling upside..",
+    "excerpt": "BTC holds above MA20, RSI near overbought; macro news supportive, suggesting upside despite high gold correlation now!!.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Price above MA20 with supportive macro and moderate RSI indicates near‑term upside.",
-    "entry": "75000.00",
-    "tp": "82000.00",
-    "sl": "73000.00",
-    "reliability": "MEDIUM"
+    "comment": "BTC shows bullish momentum above MA20 with supportive macro backdrop.",
+    "entry": "74800.00",
+    "tp": "88000.00",
+    "sl": "72500.00",
+    "reliability": "HIGH"
   }
 }

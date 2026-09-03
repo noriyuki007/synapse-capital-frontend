@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: MA20上抜け失敗と円高ファンダメンタルズの整合性",
-    "date": "2026-09-03 21:34",
+    "title": "[USD/JPY] UP: MA20付近での反発と超売りRSIが示す買い機会",
+    "date": "2026-09-04 04:04",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "円が2日連続で上昇しリスクオフ傾向が強まる",
-      "MA20を下抜けており下値余地が拡大",
-      "RSIが28.9で売られすぎだが反転は限定的"
+      "価格はMA20下抜けで超売り状態",
+      "米雇用統計前のリスクオフが円買いを抑制",
+      "テクニカル反転の可能性が高い"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米イラン緊張でリスクオフが円買いを促し、USD/JPYはMA20下抜け後の調整局面に入っている。",
+    "excerpt": "MA20を下回る水準でRSIが超売り、ファンダメンタルズは中立的で買いの機会が示唆される。",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "MA20下抜けとリスクオフによる円高が下押し圧力を強化",
-    "entry": "155.30",
-    "tp": "154.00",
-    "sl": "156.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20下抜けとRSI超売りからの技術的反転期待",
+    "entry": "155.60",
+    "tp": "157.20",
+    "sl": "155.00",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-03 21:36",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-09-04 04:08",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "SBI証券",
+    "recommended_broker": "野村證券",
     "tldr_points": [
-      "MA20上方反発で短期トレンド強化",
-      "RSI低位で买入機会の存在",
-      "中東情勢監視によるリスク管理必要"
+      "価格はMA20を上回り、下支えが強い",
+      "RSIは中立圏で過熱感なし",
+      "ファンダメンタルズは保険・産業セクターの堅調さが支援"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 は7666.60でMA20上方反発を記録し、RSI35.64で买入適宜。中東情勢の不安定化が短期リスク要因として残る",
+    "excerpt": "MA20を上抜けし、RSIが46.8で中立。ファンダメンタルズは保険株の強さがS&P 500を下支え。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20反発とRSI低位により短期上昇トレンドが強化。中東情勢リスク管理が必要",
-    "entry": "7600",
-    "tp": "7800",
-    "sl": "7580",
-    "reliability": "HIGH"
+    "comment": "MA20上抜けと中立RSI、ファンダメンタルズのセクター支援が上昇を裏付ける",
+    "entry": "7735.00",
+    "tp": "7850.00",
+    "sl": "7680.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20付近での反発と金雪銀行事件のグロースセクタ再評価促進",
-    "date": "2026-09-03 21:37",
+    "title": "[BTC/USD] UP: MA20反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-09-04 04:10",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTCは金利・金価との相関強化でマクロヘッジとして注目される",
-      "RSI過熱水準回避中で一時休み高賭けの構造",
-      "AI解体層の予測による投機ポジションの増加導づる"
+      "機関の銀行ライセンス獲得による暗号通貨市場への流入拡大",
+      "StriveのBTC保有拡大および決済インフラへの資金流入",
+      "テクニカルでは価格がMA20を上回り、RSIは強気水準を維持"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCは金価との相関が6年高値を記録し、マクロヘッジ資産としての地位を確固たるものにしている。",
+    "excerpt": "マクロの追い風とテクニカルの底値支持を背景にBTCは上昇を再開、81,300ドル近辺で押し目買いが期待。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTCは金価との相関が6年高値を記録し、マクロヘッジ資産としての地位を確固たるものにしている。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "マクロの追い風とMA20の裏付けにより、押し目買い推奨。",
+    "entry": "81000",
+    "tp": "84000",
+    "sl": "80200",
+    "reliability": "HIGH"
   }
 }

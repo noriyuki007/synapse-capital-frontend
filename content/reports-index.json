@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-09-04-crypto-ja",
+    "date": "2026-09-04 04:10",
+    "title": "[BTC/USD] UP: MA20反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "マクロの追い風とテクニカルの底値支持を背景にBTCは上昇を再開、81,300ドル近辺で押し目買いが期待。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-04-crypto-en",
+    "date": "2026-09-04 04:10",
+    "title": "[BTC/USD] UP: AI Detects Bullish Momentum Above MA20 Supported by Macro Catalysts",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC holds above MA20, RSI near overbought; macro news supportive, suggesting upside despite high gold correlation now!!.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-09-04-stocks-ja",
+    "date": "2026-09-04 04:08",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "野村證券",
+    "excerpt": "MA20を上抜けし、RSIが46.8で中立。ファンダメンタルズは保険株の強さがS&P 500を下支え。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-04-stocks-en",
+    "date": "2026-09-04 04:08",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 maintains tactical bullish bias above MA20 support, with neutral RSI signaling upcoming directional expansion.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-09-04-fx-ja",
+    "date": "2026-09-04 04:04",
+    "title": "[USD/JPY] UP: MA20付近での反発と超売りRSIが示す買い機会",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "MA20を下回る水準でRSIが超売り、ファンダメンタルズは中立的で買いの機会が示唆される。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-04-fx-en",
+    "date": "2026-09-04 04:04",
+    "title": "[USD/JPY] DOWN: Deep Oversold RSI Signals Potential Rebound Amid Safe-Haven Flows",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY trades at 155.59, deeply oversold (RSI 28.86). Tactical pullback toward 159.00 MA20 amid broad USD selling.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-09-03-crypto-ja",
     "date": "2026-09-03 21:37",
     "title": "[BTC/USD] UP: MA20付近での反発と金雪銀行事件のグロースセクタ再評価促進",
