@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 158.80サポート帯での反発と米金利底堅さの整合性を確認",
-    "date": "2026-09-03 04:12",
+    "title": "[USD/JPY] DOWN: confirmation of bearish cross at MA20 and mixed catalysts",
+    "date": "2026-09-03 11:49",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "Fedベージュブックは「モダレートな成長とインフレ」を確認、利下げ急進観測を後退させUSDを下方支援",
-      "USD/JPYは158.80-159.00の支持帯でモメンタムが中立化、RSI46.7は売られ過ぎ手前",
-      "MA20（159.05）奪還を短期トリガー、159.80/160.20を段階的利確ターゲットに設定"
+      "USD/JPY below 20‑day MA (159.14) signals short‑term bearish bias",
+      "RSI at 39.8 shows neutral momentum, not yet oversold",
+      "Mixed catalysts (Iran tension → JPY safe haven; rising US rates → USD support) favor a short position"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Fedベージュブックが米景気のモダレートな成長と粘着質なインフレを裏付け、USD/JPYは158.80-159.00支持帯で下げ止まり。MA20（159.05）直下の攻防で買い優勢の構図が浮上し、押し目買い戦略が有効。",
+    "excerpt": "USD/JPY below MA20, RSI neutral; geopolitical and rate catalysts suggest short bias.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "ベージュブックが米経済モダレート成長と粘着インフレを裏付け、USD金利優位継続。158.80-159.00支持帯での押し目買い優位、MA20奪還がトリガー。",
-    "entry": "158.95-159.05",
-    "tp": "159.50 / 159.80 / 160.20",
-    "sl": "158.65",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "MA20を下回る価格とRSIの低迷が短期的な下落を示唆；地政学リスクが JPY を優位に立たせる",
+    "entry": "158.07",
+    "tp": "156.80",
+    "sl": "159.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20の押し目とAI関連株の強気キーボードで反発を期待",
-    "date": "2026-09-03 04:13",
+    "title": "[S&P 500] DOWN: MA20抵抗とRSI35.6のモメンタム低下を背景とした戦術的空売りシナリオ",
+    "date": "2026-09-03 11:50",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Goldman Sachs",
     "tldr_points": [
-      "MA20（7709.54）付近までの押し目買いを推奨",
-      "AI関連銘柄の買いリスクを感知し反発期待",
-      "RSI(14)42.40はやや割れており、短期的な反発余地あり"
+      "MA20抵抗が上値限界となるモメンタムの弱さ",
+      "複数のS&P 500構成銘柄がファンダメンタルズでイエローゾーン",
+      "油価格の横ばいと機関のネットショートが下押し圧力を支える"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20付近での反発を期待。AI関連株の強さとRSIの割れ状況を踏まえ、短期トレードへの押し目買いを推奨。",
+    "excerpt": "S&P 500はMA20抵抗に加え、RSI35.6でのモメンタム低下が下押し圧力を裏付ける。エarningsシーズンの変動の中で、流動性重視の戦略が必須とされる。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20付近の押し目とAI関連銘柄の強気で反発を期待",
-    "entry": "7705.00",
-    "tp": "7800.00",
-    "sl": "7620.00",
+    "status": "SELL",
+    "comment": "MA20抵抗とRSI35.6のモメンタム低下を背景とした空売りシナリオ",
+    "entry": "7666.60",
+    "tp": "7620.00",
+    "sl": "7710.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20上方の推移と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-03 04:14",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-09-03 11:58",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20上方で推移を維持し強気構造が継続",
-      "RSI70超の注意喚起が必要な過熱感",
-      "セキュリティ・トークン化ニュースが中長期的カタリストに"
+      "価格はMA20を明確に上回り、上昇トレンドが継続",
+      "RSIは71と過熱圏だが、機関ニュースが下値を支える",
+      "流動性の観点から[bitflyer]の利用を推奨"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20上方で推移を維持し強気構造が継続する一方、RSI70超の過熱感に注意が必要である。セキュリティトークン化や予測市場規制の動向が中長期的カタリストとなりうる。",
+    "excerpt": "BTC/USDはMA20を上回り堅調、RSIは過熱感示すもファンダメンタルズの機関参入が上値を支える。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上方の強気構造とファンダメンタルズの整合性を確認",
-    "entry": "77345.29",
-    "tp": "80000.00",
-    "sl": "73500.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20上押しと機関ファンダメンタルズが上値を支える",
+    "entry": "76500.00",
+    "tp": "81000.00",
+    "sl": "75300.00",
+    "reliability": "HIGH"
   }
 }
