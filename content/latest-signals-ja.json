@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: confirmation of bearish cross at MA20 and mixed catalysts",
-    "date": "2026-09-03 11:49",
+    "title": "[USD/JPY] DOWN: MA20上抜け失敗と円高ファンダメンタルズの整合性",
+    "date": "2026-09-03 21:34",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "USD/JPY below 20‑day MA (159.14) signals short‑term bearish bias",
-      "RSI at 39.8 shows neutral momentum, not yet oversold",
-      "Mixed catalysts (Iran tension → JPY safe haven; rising US rates → USD support) favor a short position"
+      "円が2日連続で上昇しリスクオフ傾向が強まる",
+      "MA20を下抜けており下値余地が拡大",
+      "RSIが28.9で売られすぎだが反転は限定的"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY below MA20, RSI neutral; geopolitical and rate catalysts suggest short bias.",
+    "excerpt": "米イラン緊張でリスクオフが円買いを促し、USD/JPYはMA20下抜け後の調整局面に入っている。",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "MA20を下回る価格とRSIの低迷が短期的な下落を示唆；地政学リスクが JPY を優位に立たせる",
-    "entry": "158.07",
-    "tp": "156.80",
-    "sl": "159.50",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20抵抗とRSI35.6のモメンタム低下を背景とした戦術的空売りシナリオ",
-    "date": "2026-09-03 11:50",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Goldman Sachs",
-    "tldr_points": [
-      "MA20抵抗が上値限界となるモメンタムの弱さ",
-      "複数のS&P 500構成銘柄がファンダメンタルズでイエローゾーン",
-      "油価格の横ばいと機関のネットショートが下押し圧力を支える"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20抵抗に加え、RSI35.6でのモメンタム低下が下押し圧力を裏付ける。エarningsシーズンの変動の中で、流動性重視の戦略が必須とされる。",
-    "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "MA20抵抗とRSI35.6のモメンタム低下を背景とした空売りシナリオ",
-    "entry": "7666.60",
-    "tp": "7620.00",
-    "sl": "7710.00",
+    "comment": "MA20下抜けとリスクオフによる円高が下押し圧力を強化",
+    "entry": "155.30",
+    "tp": "154.00",
+    "sl": "156.00",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-09-03 21:36",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "SBI証券",
+    "tldr_points": [
+      "MA20上方反発で短期トレンド強化",
+      "RSI低位で买入機会の存在",
+      "中東情勢監視によるリスク管理必要"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 は7666.60でMA20上方反発を記録し、RSI35.64で买入適宜。中東情勢の不安定化が短期リスク要因として残る",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "MA20反発とRSI低位により短期上昇トレンドが強化。中東情勢リスク管理が必要",
+    "entry": "7600",
+    "tp": "7800",
+    "sl": "7580",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-03 11:58",
+    "title": "[BTC/USD] UP: MA20付近での反発と金雪銀行事件のグロースセクタ再評価促進",
+    "date": "2026-09-03 21:37",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を明確に上回り、上昇トレンドが継続",
-      "RSIは71と過熱圏だが、機関ニュースが下値を支える",
-      "流動性の観点から[bitflyer]の利用を推奨"
+      "BTCは金利・金価との相関強化でマクロヘッジとして注目される",
+      "RSI過熱水準回避中で一時休み高賭けの構造",
+      "AI解体層の予測による投機ポジションの増加導づる"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を上回り堅調、RSIは過熱感示すもファンダメンタルズの機関参入が上値を支える。",
+    "excerpt": "BTCは金価との相関が6年高値を記録し、マクロヘッジ資産としての地位を確固たるものにしている。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20上押しと機関ファンダメンタルズが上値を支える",
-    "entry": "76500.00",
-    "tp": "81000.00",
-    "sl": "75300.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTCは金価との相関が6年高値を記録し、マクロヘッジ資産としての地位を確固たるものにしている。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }

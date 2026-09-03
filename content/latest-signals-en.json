@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: AI Detects Bearish Momentum as Fundamentals Favor JPY Safe Haven",
-    "date": "2026-09-03 11:49",
+    "title": "[USD/JPY] DOWN: Oversold Momentum Persists as Safe-Haven Yen Strengthens Amid Geopolitical Escalation",
+    "date": "2026-09-03 21:34",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Bearish momentum below MA20",
-      "Risk‑off fundamentals boost JPY",
-      "Support near 157.00"
+      "USD/JPY trades at 155.59, well below MA20 at 159.01, confirming bearish trend structure.",
+      "RSI-14 at 28.87 signals deeply oversold conditions, suggesting potential tactical bounce before continuation lower.",
+      "Rising oil prices from US-Iran conflict and surging global yields create conflicting cross-currents, but JPY safe-haven flows dominate."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY below MA20; risk‑off bias favors short with key support at 157.00.",
+    "excerpt": "USD/JPY at 155.59 below MA20; RSI-14 at 28.87 oversold as yen surges on US-Iran war and bond selloff, signaling extended downside.",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "Bearish momentum below MA20 and risk‑off fundamentals favor a short USD/JPY.",
-    "entry": "158.07",
-    "tp": "156.50",
-    "sl": "159.30",
-    "reliability": "HIGH"
+    "comment": "Bearish trend structure below MA20 with oversold RSI-14; JPY safe-haven flows and narrowing yield spread favor continued downside.",
+    "entry": "155.60",
+    "tp": "153.00",
+    "sl": "159.05",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Oversold Conditions at MA20 Support Signal Tactical Bounce",
-    "date": "2026-09-03 11:50",
+    "title": "[S&P 500] UP: Technical Oversold Near MA20 with Bullish Fundamentals",
+    "date": "2026-09-03 21:36",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price at 7666.60 below MA20 at 7708.76, RSI oversold at 35.64 indicating limited downside",
-      "S&P 500 snapped three-day losing streak; AVGO, MSFT, DELL earnings in focus drive sector rotation",
-      "Tactical long setup targeting 5-7% upside toward MA20 retest with defined risk at 7590"
+      "Price trading below MA20 with RSI indicating oversold conditions.",
+      "Futures and oil strength suggest near-term risk-on sentiment despite geopolitical risks.",
+      "Dividend king highlight provides fundamental support for equity upside."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 approaching oversold as price probes MA20 support; tactical bounce toward 7700 expected",
+    "excerpt": "S&P 500 shows oversold near MA20; futures and oil strength support a bounce toward resistance in the short term outlooks",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Oversold RSI and price probing MA20 support signal tactical bounce targeting 5-7% upside",
-    "entry": "7650.00",
-    "tp": "7790.00",
-    "sl": "7590.00",
+    "comment": "Oversold near MA20 with bullish fundamentals and supportive futures/oil",
+    "entry": "7666.60",
+    "tp": "7708.80",
+    "sl": "7620.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Adoption and MA20 Support Drive Bullish Momentum",
-    "date": "2026-09-03 11:58",
+    "title": "[BTC/USD] UP: Price above MA20, RSI bullish, macro supportive",
+    "date": "2026-09-03 21:37",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "MA20 support holds as RSI confirms bullish momentum",
-      "Institutional adoption accelerates with Coinbase board expansion",
-      "Tokenization and ZK-proof infrastructure drive long-term demand"
+      "Price trading above MA20 support at ~74.6k, indicating bullish trend.",
+      "RSI 65 shows moderate upward momentum without overbought extremes.",
+      "Gold correlation at six-year high and Coinbase board addition reinforce risk-on sentiment."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds above MA20 support as institutional catalysts align with technical momentum. Trade the dip with defined risk parameters.",
+    "excerpt": "BTC holds above MA20 with RSI 65, bolstered by rising gold correlation and board addition at Coinbase, signaling upside..",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Bullish trend structure confirmed above MA20 with constructive fundamental catalysts and favorable risk-reward entry.",
-    "entry": "73888.59",
-    "tp": "80000.00",
-    "sl": "72500.00",
+    "comment": "Price above MA20 with supportive macro and moderate RSI indicates near‑term upside.",
+    "entry": "75000.00",
+    "tp": "82000.00",
+    "sl": "73000.00",
     "reliability": "MEDIUM"
   }
 }
