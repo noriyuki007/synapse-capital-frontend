@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20へのテクニカル回帰とJPMorganの円ショート巻き戻し観測を統合評価",
-    "date": "2026-09-04 11:48",
+    "title": "[USD/JPY] DOWN: RSIの極度割安とMA20からの大幅な乖離に基づく短期調整局面の捉挙",
+    "date": "2026-09-04 21:28",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "ISM高止まりと原油高がドル高・円安圧力を再燃",
-      "JPMorganが103億ドル超の円ショートを指摘、巻き戻しで142方向の上振れ余地",
-      "RSI(14)=30.8の売られ過ぎ水準からMA20(159.05)への回帰をロングで狙う"
+      "RSI(14)が31.41と極めやすゾーンに突入し、売りポテンシャルを示唆",
+      "現在価格156.12がMA20（159.06）から54pips下落中で、下向きトレンドが確認されている",
+      "米雇用統計前においてリスク回避ムードが強まり、safe-havenへの資金流入が懸念される"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは155.95近辺で過売り域に到達。ISMの強靱さと原油高によるインフレ粘着性がドルを支え、JPMorganの円ショート巻き戻し観測が142方向の上値余地を示唆。MA20=159.05へのテクニカル回帰を主シナリオとする。",
+    "excerpt": "RSIの極めやすとMA20の乖離から、USD/JPYは短期的な下調整局面に入っているとみられる。米NFPに向けてはさらなるボラatilityが予想される。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20=159.05への回帰を主シナリオ。RSI売られ過ぎとJPMorgan指摘の103億ドル円ショート巻き戻し観測が上振れの非対称性を担保。",
-    "entry": "156.30",
-    "tp": "159.05",
-    "sl": "155.40",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "RSI極めやすとMA20乖離から売り信号",
+    "entry": "156.00",
+    "tp": "155.20",
+    "sl": "156.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-04 11:49",
+    "title": "[S&P 500] UP: MA20支持の維持とMagnificent Sevenの反発期待",
+    "date": "2026-09-04 21:29",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "価格はMA20を上回り短期上昇バイアスが示唆",
-      "利回り安定と利上げ期待後退がリスクオンを支援",
-      "RSIは中立域で追加上昇余地あり"
+      "8月雇用統計前の警戒感が強い",
+      "MA20を下支えとして維持",
+      "RSIは均衡領域であり方向待ち"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20上抜けと利回り安定がS&P500の短期上昇を支え、買い bias が強まる。",
+    "excerpt": "8月雇用統計を控えFRBの方針不確実性が残る中、MA20支持とマグニフィセントセブンの買い戻し期待が指数を支える。雇用統計結果を契機にブレイクアウトか戻り売りかの局面が目前に迫っている。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20上抜けと利回り安定による上昇バイアス",
-    "entry": "7720.00",
+    "comment": "MA20支持とMagnificent Sevenの反発期待",
+    "entry": "7710.65",
     "tp": "7850.00",
-    "sl": "7680.00",
-    "reliability": "HIGH"
+    "sl": "7650.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: 機関投資家需要の構造的拡大とMA20乖離の解消トレンドを評価",
-    "date": "2026-09-04 11:51",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-09-04 21:31",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "Coinbaseの24/7エクイティ・パーペチュアル上場申請は、トークン化と伝統的金融の融合加速を示唆",
-      "Zcash主導で暗号資産時価総額が2.82兆ドルへ拡大、機関マネーのリスク選好が明確化",
-      "RSI(14) 69.67は買われ過ぎ圏手前、MA20からの乖離+8%は短期調整リスクを含むが強気トレンドは継続"
+      "価格はMA20を上回り上昇基盤が形成",
+      "RSIは68で過熱感は限定的",
+      "機関向け規制進展と流動性改善が支え"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCは80,692ドルで強気構造を維持。Coinbaseのパーペチュアル認可申請と暗号資産時価総額2.82兆ドル拡大が追い風。RSIは買われ過ぎ圏接近も、機関需要とトレンドフォローの買い優勢により上値余地を優先。",
+    "excerpt": "BTC/USDはMA20を上抜け、RSI68で上昇余地あり。機関向け規制進展と流動性改善が支え、押し目買いを推奨。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "機関需要拡大と強気トレンド継続、押し目エントリーで上値余地を捕捉",
-    "entry": "79500.00",
-    "tp": "84500.00",
-    "sl": "77800.00",
+    "comment": "MA20上抜けとRSI68で上昇余地、機関向け規制進展が支え",
+    "entry": "78500",
+    "tp": "82000",
+    "sl": "76500",
     "reliability": "HIGH"
   }
 }

@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Yen Short Unwind Risk Overshadows Technical Oversold Conditions",
-    "date": "2026-09-04 11:48",
+    "title": "[USD/JPY] DOWN: AI Detects Bearish Mean Reversion Below MA20",
+    "date": "2026-09-04 21:28",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "JPMorgan flags $103B yen short unwind risk targeting 142",
-      "RSI-14 at 30.79 signals extreme oversold conditions below MA20",
-      "Hot ISM data entrenches inflation risk but fails to lift USD/JPY"
+      "Price is trading roughly 290 pips below the 20-period moving average at 156.12, indicating a stretched bearish deviation.",
+      "The RSI-14 is reading 31.41, a deeply oversold condition that suggests exhaustion selling and potential for mean reversion back to the MA20.",
+      "Upcoming US Non-Farm Payroll data introduces asymmetric volatility, favoring downside continuation in the absence of a hawkish Fed surprise."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Yen short squeeze risk dominates as USD/JPY trades below MA20 with RSI-14 at 30.79, targeting 142 on positioning unwind.",
+    "excerpt": "USD/JPY faces bearish pressure at 156.12, trading well below MA20 with an RSI-14 of 31.41; mean reversion offers downside continuation into NFP.",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "Bearish trend below MA20 with extreme short unwind risk targeting 142.",
-    "entry": "159.05",
-    "tp": "142.00",
-    "sl": "160.50",
-    "reliability": "MEDIUM"
+    "comment": "Bearish mean reversion setup with price deeply below MA20 and oversold RSI confirming downside momentum into NFP.",
+    "entry": "158.20",
+    "tp": "155.00",
+    "sl": "159.30",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Rates Correlation Drives Bullish Momentum",
-    "date": "2026-09-04 11:49",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-09-04 21:29",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "[]",
     "tldr_points": [
-      "Rates correlation supports upward momentum",
-      "Fundamental catalysts from WM and VLO outperformance",
-      "RSI at neutral territory indicates room for upside"
+      "Index trades above 20‑day MA, indicating short‑term bullish bias.",
+      "RSI at 46.4 suggests neutral momentum, allowing upside.",
+      "August jobs report is the key catalyst; positioning for a breakout."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 shows bullish signal with MA20 support and strong fundamentals; rates correlation drives upside potential.",
+    "excerpt": "S&P 500 holds above MA20, RSI neutral; anticipate breakout on jobs report, AI sector drives risk appetite and Fed policy",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Rates correlation and fundamental catalysts support an upward bias despite neutral RSI.",
-    "entry": "7700",
-    "tp": "7800",
-    "sl": "7680",
+    "comment": "Price above MA20 with neutral RSI and bullish catalysts.",
+    "entry": "7730",
+    "tp": "7820",
+    "sl": "7690",
     "reliability": "HIGH"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-04 11:51",
+    "date": "2026-09-04 21:31",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price above MA20 with RSI nearing 70 indicates bullish momentum",
-      "Positive fundamentals from Coinbase, Revolut, Strive boost long‑term demand",
-      "Key resistance near 84k; support at 74.75k provides risk‑defined entry"
+      "Price holds above MA20 with RSI near 68 signaling bullish momentum",
+      "ETF optimism and OCC charter approval provide fundamental support",
+      "Order flow shows accumulating bids around $78k‑$80k despite security‑breach news"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC stays above MA20, RSI ~70, bullish news aligns; consider longs near 75k aiming for 84k with tight risk control soon.",
+    "excerpt": "BTC holds above MA20 with RSI near 68; bullish catalysts from ETF pressure and OCC approval offset breach news.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Price above MA20 with RSI near 70 and supportive fundamentals favor a long bias toward $84k resistance.",
-    "entry": "75000.00",
-    "tp": "84000.00",
-    "sl": "73000.00",
+    "comment": "Price above MA20 with rising bullish momentum; ETF optimism and OCC approval provide fundamental support.",
+    "entry": "79300",
+    "tp": "84000",
+    "sl": "77000",
     "reliability": "HIGH"
   }
 }
