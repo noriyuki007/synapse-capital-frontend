@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-09-06-crypto-ja",
+    "date": "2026-09-06 02:56",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "現在価格80066はMA20の76474を明確に上回り、RSI59.6はやや買われ過ぎとは言えず、上昇余地を示唆。一方、ZcashのETF流入や機関向けニュースが市場全体のリスクオン感情を強化し、上昇トレンドの持続可能性を支える。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-06-crypto-en",
+    "date": "2026-09-06 02:56",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC bulls maintain momentum above MA20; RSI neutral; favorable regulatory news supports upside.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-09-06-stocks-ja",
+    "date": "2026-09-06 02:55",
+    "title": "S&P 500：レンジ圏内での警戒感とプロフェッショナル実行戦略",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 7718.60、RSI(47.44)、MA20(7708.70)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-06-stocks-en",
+    "date": "2026-09-06 02:55",
+    "title": "[S&P 500] UP: MA20 Support Holds Amid Defensive Dividend Rotation and AI Capex Tailwinds",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 consolidates above MA20 support at 7708.70. Neutral RSI and defensive yield rotation point to a tactical long bias.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-09-06-fx-ja",
+    "date": "2026-09-06 02:54",
+    "title": "[USD/JPY] DOWN: 弱いRSIとMA20下回り、投機資金の押し目損で下向き修正の可能性",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYは156.22でMA20下回り、RSI弱勢。金利差拡大と投機資金の押し目損を受け、152-154が下値転換ポイント。実行はdmm-fxで流動性確保を推奨。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-06-fx-en",
+    "date": "2026-09-06 02:54",
+    "title": "[USD/JPY] UP: AI Detects Oversold RSI and Strong Payrolls Boost USD",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY poised for upside as RSI oversold, price below MA20, and strong US payrolls bolster dollar demand.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-09-05-crypto-ja",
     "date": "2026-09-05 20:44",
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",

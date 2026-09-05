@@ -1,67 +1,67 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Oversold RSI Bounce Targets MA20 Resistance Amid NFP Beat",
-    "date": "2026-09-05 20:37",
+    "title": "[USD/JPY] UP: AI Detects Oversold RSI and Strong Payrolls Boost USD",
+    "date": "2026-09-06 02:54",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "NFP beat supports USD, but Jordan explosions cap gains",
-      "RSI 31.8 signals oversold bounce potential",
-      "MA20 at 159.07 acts as key resistance"
+      "Price sits below MA20 with RSI at 31.8, indicating oversold conditions.",
+      "Strong US non-farm payrolls data supports dollar strength.",
+      "Technical bias favors a bounce toward MA20 resistance near 159.07."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY at 156.22 with RSI 31.8 oversold; NFP beat supports bounce toward 159.07 MA20 resistance.",
+    "excerpt": "USD/JPY poised for upside as RSI oversold, price below MA20, and strong US payrolls bolster dollar demand.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Oversold RSI bounce toward MA20 resistance supported by NFP beat",
-    "entry": "156.25",
-    "tp": "159.07",
-    "sl": "155.50",
+    "comment": "Oversold RSI and strong payrolls favor a bounce to MA20 resistance",
+    "entry": "156.00",
+    "tp": "159.00",
+    "sl": "155.00",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20 Support Holds as Fundamentals Remain Resilient",
-    "date": "2026-09-05 20:38",
+    "title": "[S&P 500] UP: MA20 Support Holds Amid Defensive Dividend Rotation and AI Capex Tailwinds",
+    "date": "2026-09-06 02:55",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price sits above MA20 with RSI in neutral zone",
-      "Technical support confirmed at 7708 level",
-      "Fundamental catalysts remain mixed but dividend focus supports risk-on tilt"
+      "Index is compressing above the MA20 (7708.70), a classic continuation pattern suggesting imminent upside resolution.",
+      "Defensive sector rotation into high-yield equities cushions downside while AI infrastructure capex remains robust.",
+      "RSI(14) at 47.44 indicates neutral momentum with room to accelerate without immediate overbought risk."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 near all‑time high, MA20 support intact, RSI 47; outlook remains cautiously bullish.",
+    "excerpt": "S&P 500 consolidates above MA20 support at 7708.70. Neutral RSI and defensive yield rotation point to a tactical long bias.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P 500 near all‑time high, MA20 support intact, RSI 47; outlook remains cautiously bullish.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Tactical long favored as MA20 support holds and neutral RSI allows for upside continuation without overbought risk.",
+    "entry": "7709.00",
+    "tp": "7760.00",
+    "sl": "7690.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-05 20:44",
+    "date": "2026-09-06 02:56",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC retains bullish structure above MA20 amid institutional momentum",
-      "Fed policy uncertainty likely to drive risk-on/altseason dynamics",
-      "Key support at 76,452 with resistance cluster at 82,000-85,000"
+      "Institutional momentum above MA20",
+      "Regulatory tailwinds from Hyperliquid and Polymarket",
+      "RSI in neutral zone, room for upside"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds above MA20 as macro-friendly catalysts emerge; tactical buy zone at 76,452 with 82K-85K resistance window. Execute via [bybit].",
+    "excerpt": "BTC bulls maintain momentum above MA20; RSI neutral; favorable regulatory news supports upside.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Bullish structure intact above MA20; favorable risk/reward at key support zone",
-    "entry": "76452",
-    "tp": "82000",
+    "comment": "Support at MA20 aligns with regulatory tailwinds, signaling further upside.",
+    "entry": "76450",
+    "tp": "84000",
     "sl": "74500",
     "reliability": "HIGH"
   }
