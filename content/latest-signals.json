@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY戦略：ベア相場におけるドローダウン極小化プロトコル",
-    "date": "2026-09-05 03:47",
+    "title": "[USD/JPY] DOWN: オーバーボルト转入とMA20下抜ける下落トレンドの継続",
+    "date": "2026-09-05 11:49",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "金利相関（近似）: -0.16で負相関傾向",
-      "テクニカル: 現在価格 156.25 と MA20 159.07 の位置関係が主導",
-      "需給: 上限帯 160.76 / 下限帯 157.38 / 直近高値 160.38 / 直近安値 155.28 によるターゲット設計"
+      "USD/JPYは156.22でMA20（159.07）を約3円下回る明確な下落トレンド継続中",
+      "RSI31.80はオーバーボルト圏に接近も尚未だ明確な反発シグナル发出せず",
+      "NFP好結果の一方、地政学リスク（ジョルダン爆発報道）でリスクオフ加速"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 156.25、RSI(31.90)、MA20(159.07)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "USD/JPYは156.22にてMA20を約3円下回り下落トレンドが明確化。RSI31.80はオーバーボルト接近も未だ反発確認取れず。中東地政学リスクと米国債利回り低下が重石的。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、USD/JPYの現在価格 156.25、RSI(31.90)、MA20(159.07)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "MA20割れの確定、RSIオーバーボルト接近、地政学リスクを総合的に判断。戻り売り戦略を継続。",
+    "entry": "155.50",
+    "tp": "154.50",
+    "sl": "158.50",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-05 04:00",
+    "date": "2026-09-05 11:50",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "[Nomura Securities]",
     "tldr_points": [
-      "価格はMA20をわずかに上抜け、底堅い地合いを示唆。",
-      "金利懸念は小売りの堅調さで相殺、マクロは中立。",
-      "テクニカルはRSI中立、押し目買いのシナリオが有効。"
+      "S&P 500はMA20をわずかに上回り、短期的な底堅さを示す。",
+      "Bloom Energyなどの新規構成銘柄が指数に追い風となるが、雇用統計による利上げ懸念が重石。",
+      "テクニカルはRSIが中立圏で、押し目買いの機会を示唆。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "本日のS&P 500はMA20を僅かに上回り、底堅い地合いを維持。金利懸念は小売りの堅調で相殺され、ファンダメンタルズとテクニカルが整合的に上値試しの環境を形成している。",
+    "excerpt": "MA20を上回る価格動向とファンダメンタルズの改善が見られる中、利上げ警戒との tug-of-war が続く。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20支持とRSI中立から押し目買いが有利",
-    "entry": "7705.00",
+    "comment": "MA20を上回る価格と新規構成銘柄によるファンダメンタルズ支えが上方バイアスを形成",
+    "entry": "7710.00",
     "tp": "7750.00",
-    "sl": "7680.00",
+    "sl": "7690.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20上抜けと強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-05 04:04",
+    "title": "[BTC/USD] 上昇志向: MA20上抜けと機関流入の加速を確認",
+    "date": "2026-09-05 11:51",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格がMA20を明確に上回り、トレンド転換の初期シグナルを点灯",
-      "マクロニュース（TrumpのHyperliquid言及、Zcash ETF流入）がリスクオン資産への資金シフトを示唆",
-      "RSI 54は過熱感なく、さらなる上昇余地を残す"
+      "現値79,563ドルはMA20（75,606）上、RSI 53.73で横ばい余地",
+      "Zcash突破＆Ripple拡大により暗号資産全体の機関需要が強化",
+      "Hyperliquid米国進出狙いのトランプ氏発言が規制リスク低減"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を突破し、ファンダメンタルズ好材料が重なり上昇基調を強める。押し目買い戦略を厳格なリスク管理で実行。",
+    "excerpt": "BTC/USDは現在79,563ドルでMA20上位、RSI 53.73の中立局面。Zcash $1,000突破とRippleの大学スポーツ進出を含む複数の機関カタリストが強気をサポート。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上抜けと好材料が整合、押し目買いでリスクリワード良好",
-    "entry": "78500",
-    "tp": "84000",
-    "sl": "75000",
+    "comment": "MA20上抜けと機関流入カタリストによる強気構図",
+    "entry": "78000",
+    "tp": "82500",
+    "sl": "75500",
     "reliability": "HIGH"
   }
 }
