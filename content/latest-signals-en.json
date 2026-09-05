@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-05 11:49",
+    "title": "[USD/JPY] UP: Oversold RSI Bounce Targets MA20 Resistance Amid NFP Beat",
+    "date": "2026-09-05 20:37",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY oversold at 156.22 with RSI at 31.8, poised for bounce toward MA20 (159.07)",
-      "Non-farm payrolls beat and US macro data support USD, while geopolitical tensions from Jordan explosions may buoy JPY safe-haven flows",
-      "Entry: 157.00, TP: 159.00, SL: 155.50 for tactical reversion play"
+      "NFP beat supports USD, but Jordan explosions cap gains",
+      "RSI 31.8 signals oversold bounce potential",
+      "MA20 at 159.07 acts as key resistance"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY oversold at 156.22, RSI at 31.8. Bounce toward MA20 (159.07) supported by NFP beat and geopolitical risk. BUY: 157.00, TP: 159.00, SL: 155.50.",
+    "excerpt": "USD/JPY at 156.22 with RSI 31.8 oversold; NFP beat supports bounce toward 159.07 MA20 resistance.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Oversold RSI and MA20 confluence support reversion play",
-    "entry": "157",
-    "tp": "159",
-    "sl": "155.5",
-    "reliability": "HIGH"
+    "comment": "Oversold RSI bounce toward MA20 resistance supported by NFP beat",
+    "entry": "156.25",
+    "tp": "159.07",
+    "sl": "155.50",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Index Holds MA20 Support Amid Rebalancing Flows and Chip Leadership",
-    "date": "2026-09-05 11:50",
+    "title": "[S&P 500] UP: MA20 Support Holds as Fundamentals Remain Resilient",
+    "date": "2026-09-05 20:38",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 defends MA20 at 7,708.70 with RSI neutral at 47.4, signaling consolidation not distribution",
-      "Quarterly rebalancing adds Bloom Energy, Parker-Hannifin, Illumina providing passive flow tailwind",
-      "Strong payrolls reignite rate-hike probability; focus shifts to CPI/PPI for directional conviction"
+      "Price sits above MA20 with RSI in neutral zone",
+      "Technical support confirmed at 7708 level",
+      "Fundamental catalysts remain mixed but dividend focus supports risk-on tilt"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds MA20 support at 7,708 as rebalancing inflows offset rate-hike jitters; chip leadership intact.",
+    "excerpt": "S&P 500 near all‑time high, MA20 support intact, RSI 47; outlook remains cautiously bullish.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Price holds MA20 with rebalancing tailwind; asymmetric risk-reward long CPI event.",
-    "entry": "7712.00",
-    "tp": "7775.00",
-    "sl": "7680.00",
+    "status": "NEUTRAL",
+    "comment": "S&P 500 near all‑time high, MA20 support intact, RSI 47; outlook remains cautiously bullish.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-05 11:51",
+    "date": "2026-09-05 20:44",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "MA20 support holds at 75,606 while RSI indicates neutral momentum",
-      "Zcash ETF inflows and miner accumulation create bullish catalyst",
-      "El Salvador's Bitcoin policy signals long-term institutional adoption"
+      "BTC retains bullish structure above MA20 amid institutional momentum",
+      "Fed policy uncertainty likely to drive risk-on/altseason dynamics",
+      "Key support at 76,452 with resistance cluster at 82,000-85,000"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD at 79,563 tests MA20 support with RSI 54; ETF inflows and regulatory clarity signal upside.",
+    "excerpt": "BTC holds above MA20 as macro-friendly catalysts emerge; tactical buy zone at 76,452 with 82K-85K resistance window. Execute via [bybit].",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Strong support at MA20 combined with positive fundamental catalysts and neutral RSI suggests a bullish bias.",
-    "entry": "75606.20",
-    "tp": "85000.00",
-    "sl": "74500.00",
+    "comment": "Bullish structure intact above MA20; favorable risk/reward at key support zone",
+    "entry": "76452",
+    "tp": "82000",
+    "sl": "74500",
     "reliability": "HIGH"
   }
 }
