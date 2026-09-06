@@ -1,66 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Price Below MA20 with Oversold RSI Signals Potential Rebound",
-    "date": "2026-09-06 20:56",
+    "title": "[USD/JPY] UP: AI Flags Oversold RSI & Strong NFP Data Driving Bullish Bias",
+    "date": "2026-09-07 02:59",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price trades below MA20 indicating near-term bearish pressure but oversold RSI suggests bounce potential.",
-      "Fundamental backdrop shows strong US jobs data supporting dollar, yet mixed equity rotation may cap upside.",
-      "Watch for break above MA20 around 159.07 as confirmation of bullish momentum."
+      "Strong NFP data bolsters USD despite geopolitical tensions.",
+      "Price sits below MA20 with RSI at 31.8, indicating oversold conditions.",
+      "Anticipated bounce toward MA20 offers a favorable risk‑reward setup."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY sits below MA20 with RSI near 32, pointing to a possible short‑term rebound amid solid US payrolls.",
+    "excerpt": "USD/JPY rebounds from oversold RSI as price under MA20, bolstered by strong US NFP data and risk‑off flows positive bias",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Oversold RSI and price below MA20 suggest a short‑term rebound toward moving average resistance.",
-    "entry": "156.50",
+    "comment": "Price below MA20 with oversold RSI and strong NFP data supports a bullish bounce toward the 20‑day moving average.",
+    "entry": "156.00",
     "tp": "159.00",
     "sl": "155.00",
-    "reliability": "MEDIUM"
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Technical Support at MA20 Overrides Mixed Macro Signals",
-    "date": "2026-09-06 20:58",
+    "title": "[S&P 500] UP: Price Holds Above MA20 Amid Mixed Macro Cues",
+    "date": "2026-09-07 03:01",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price 7718 above MA20, RSI neutral; record ETF inflows and dividend strength; Fed warnings and rare bearish signals create short‑term risk."
+      "S&P 500 trades slightly above its 20‑day moving average",
+      "RSI‑14 remains neutral at 47.4, indicating limited momentum",
+      "Fed warnings and dividend‑yield news create a cautiously bullish bias"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 at 7,718 above MA20; mixed fundamentals; ETF inflows record high; technical bias remains upward.",
+    "excerpt": "S&P 500 hovers above MA20 with neutral RSI; Fed warnings and dividend strength bias toward modest upside.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "AI and fundamentals suggest upward momentum as price stays above MA20 while macro risks remain contained.",
-    "entry": "7700",
-    "tp": "7850",
-    "sl": "7600",
-    "reliability": "HIGH"
+    "comment": "Price holds above MA20 with neutral RSI; dividend strength and tactical support suggest modest upside.",
+    "entry": "7708.00",
+    "tp": "7750.00",
+    "sl": "7690.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Inflows & Technical Breakout Above MA20 Signal Continued Upside",
-    "date": "2026-09-06 20:59",
+    "title": "[BTC/USD] UP: Bullish Momentum Holds Above MA20 as Institutional Inflows Accelerate",
+    "date": "2026-09-07 03:04",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC sustains 3.5% premium to MA20 with RSI at 57.4 confirming healthy momentum",
-      "Institutional ETF flows via Hyperliquid & Zcash signal deepening TradFi adoption",
-      "Key resistance at $82.5K aligns with 1.618 Fib extension of July-August range"
+      "BTC trades comfortably above the 20-day moving average, signaling robust short-term bullish momentum.",
+      "Institutional adoption accelerates with UBS and Jane Street allocating $75M to crypto-linked ETFs.",
+      "RSI at 56.9 indicates healthy momentum with room for further upside before overbought territory."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds above MA20 with institutional ETF inflows accelerating; targeting $82.5K resistance with defined risk.",
+    "excerpt": "BTC/USD holds firm above MA20 as institutional inflows and pro-crypto sentiment drive the next upward leg.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Price above MA20 with institutional ETF inflows driving spot-led accumulation; targeting 1.618 Fib extension at 82.5K",
-    "entry": "77400",
-    "tp": "82500",
-    "sl": "76500",
+    "comment": "Price holds firmly above MA20 with RSI showing healthy bullish momentum, supported by strong institutional inflows.",
+    "entry": "77350.00",
+    "tp": "82500.00",
+    "sl": "76500.00",
     "reliability": "HIGH"
   }
 }
