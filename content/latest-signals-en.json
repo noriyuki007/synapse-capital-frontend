@@ -1,68 +1,66 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Technical Rebound Expected as Oversold RSI Meets Strong US Payrolls Catalyst",
-    "date": "2026-09-06 11:47",
+    "title": "[USD/JPY] UP: Price Below MA20 with Oversold RSI Signals Potential Rebound",
+    "date": "2026-09-06 20:56",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Strong US non-farm payrolls beat supports USD fundamentals.",
-      "USD/JPY trades significantly below MA20 at 159.07, signaling short-term capitulation.",
-      "RSI(14) at 31.8 indicates oversold conditions, favoring a tactical rebound."
+      "Price trades below MA20 indicating near-term bearish pressure but oversold RSI suggests bounce potential.",
+      "Fundamental backdrop shows strong US jobs data supporting dollar, yet mixed equity rotation may cap upside.",
+      "Watch for break above MA20 around 159.07 as confirmation of bullish momentum."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY exhibits oversold RSI at 31.8 below MA20, while robust payrolls data provides fundamental support for a tactical rebound.",
+    "excerpt": "USD/JPY sits below MA20 with RSI near 32, pointing to a possible short‑term rebound amid solid US payrolls.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Oversold RSI at 31.8 combined with strong payrolls data suggests a tactical rebound toward the 20-day MA at 159.07.",
-    "entry": "156.00",
-    "tp": "159.07",
-    "sl": "154.50",
+    "comment": "Oversold RSI and price below MA20 suggest a short‑term rebound toward moving average resistance.",
+    "entry": "156.50",
+    "tp": "159.00",
+    "sl": "155.00",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-06 11:48",
+    "title": "[S&P 500] UP: Technical Support at MA20 Overrides Mixed Macro Signals",
+    "date": "2026-09-06 20:58",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price holding above MA20 confirms short-term bullish bias",
-      "RSI near mid-40s supports continuation narrative",
-      "Tariff uncertainty easing with defensive rotation into AI plays"
+      "Price 7718 above MA20, RSI neutral; record ETF inflows and dividend strength; Fed warnings and rare bearish signals create short‑term risk."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above MA20 as AI and storage sectors buoy fundamentals despite tariff-driven volatility.",
+    "excerpt": "S&P 500 at 7,718 above MA20; mixed fundamentals; ETF inflows record high; technical bias remains upward.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price holds above MA20 with stable RSI supporting bullish continuation play.",
-    "entry": "7718.6",
-    "tp": "7745.0",
-    "sl": "7700.0",
-    "reliability": "MEDIUM"
+    "comment": "AI and fundamentals suggest upward momentum as price stays above MA20 while macro risks remain contained.",
+    "entry": "7700",
+    "tp": "7850",
+    "sl": "7600",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support Above MA20 with Bullish Macro Catalysts",
-    "date": "2026-09-06 11:54",
+    "title": "[BTC/USD] UP: Institutional Inflows & Technical Breakout Above MA20 Signal Continued Upside",
+    "date": "2026-09-06 20:59",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trading above MA20 at $79.9k indicates short‑term bullish bias.",
-      "RSI~59 shows room for upside before overbought conditions.",
-      "Hyperliquid ETF inflows and supportive US regulatory news provide fundamental tailwinds."
+      "BTC sustains 3.5% premium to MA20 with RSI at 57.4 confirming healthy momentum",
+      "Institutional ETF flows via Hyperliquid & Zcash signal deepening TradFi adoption",
+      "Key resistance at $82.5K aligns with 1.618 Fib extension of July-August range"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds above MA20 at $79.9k, RSI 59, Hyperliquid ETF inflows and regulatory tailwinds support further upside strongly.",
+    "excerpt": "BTC holds above MA20 with institutional ETF inflows accelerating; targeting $82.5K resistance with defined risk.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Price above MA20 with RSI indicating room for upside and supportive macro/fundamental catalysts.",
-    "entry": "77200.00",
-    "tp": "84800.00",
-    "sl": "75000.00",
+    "comment": "Price above MA20 with institutional ETF inflows driving spot-led accumulation; targeting 1.618 Fib extension at 82.5K",
+    "entry": "77400",
+    "tp": "82500",
+    "sl": "76500",
     "reliability": "HIGH"
   }
 }
