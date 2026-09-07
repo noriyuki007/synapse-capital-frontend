@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Flags Oversold RSI & Strong NFP Data Driving Bullish Bias",
-    "date": "2026-09-07 02:59",
+    "title": "[USD/JPY] DOWN: BOJ rate hike repricing and Fed hike expectations keep USD/JPY under pressure",
+    "date": "2026-09-07 11:45",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Strong NFP data bolsters USD despite geopolitical tensions.",
-      "Price sits below MA20 with RSI at 31.8, indicating oversold conditions.",
-      "Anticipated bounce toward MA20 offers a favorable risk‑reward setup."
+      "Yen rally driven by BOJ hawkish repricing and persistent Fed hike expectations",
+      "USD/JPY trades below MA20 with RSI indicating bearish momentum",
+      "Technical structure points to further downside toward 154.50 support"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY rebounds from oversold RSI as price under MA20, bolstered by strong US NFP data and risk‑off flows positive bias",
+    "excerpt": "USD/JPY down as yen strengthens; MA20 and RSI point lower, Fed/BOJ policy outlook bearish.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Price below MA20 with oversold RSI and strong NFP data supports a bullish bounce toward the 20‑day moving average.",
-    "entry": "156.00",
-    "tp": "159.00",
-    "sl": "155.00",
+    "status": "SELL",
+    "comment": "BOJ hawkish repricing and Fed hike expectations drive yen strength, confirming bearish USD/JPY outlook.",
+    "entry": "158.80",
+    "tp": "154.50",
+    "sl": "159.30",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Price Holds Above MA20 Amid Mixed Macro Cues",
-    "date": "2026-09-07 03:01",
+    "title": "[S&P 500] FLAT: Price Holds Above MA20 Amid Mixed Fundamentals",
+    "date": "2026-09-07 11:46",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 trades slightly above its 20‑day moving average",
-      "RSI‑14 remains neutral at 47.4, indicating limited momentum",
-      "Fed warnings and dividend‑yield news create a cautiously bullish bias"
+      "Price modestly above MA20 with RSI near neutral",
+      "Fed warning and seasonal weakness cap upside",
+      "ETF inflows record supports liquidity but fee mix shift may pressure"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 hovers above MA20 with neutral RSI; Fed warnings and dividend strength bias toward modest upside.",
+    "excerpt": "S&P 500 trades flat near 7719 as technicals show balance and fundamentals mixed.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Price holds above MA20 with neutral RSI; dividend strength and tactical support suggest modest upside.",
-    "entry": "7708.00",
+    "status": "NEUTRAL",
+    "comment": "Price holds above MA20 with RSI neutral amid mixed fundamentals, suggesting range-bound trade.",
+    "entry": "7718.60",
     "tp": "7750.00",
-    "sl": "7690.00",
+    "sl": "7680.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Bullish Momentum Holds Above MA20 as Institutional Inflows Accelerate",
-    "date": "2026-09-07 03:04",
+    "title": "[BTC/USD] UP: ETF Inflows Sustain Momentum Above MA20",
+    "date": "2026-09-07 11:48",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trades comfortably above the 20-day moving average, signaling robust short-term bullish momentum.",
-      "Institutional adoption accelerates with UBS and Jane Street allocating $75M to crypto-linked ETFs.",
-      "RSI at 56.9 indicates healthy momentum with room for further upside before overbought territory."
+      "Spot ETF inflows of $987M signal institutional recovery",
+      "Price holding above MA20 with RSI in neutral-bullish zone",
+      "Liquid Network exploit creates short-term macro uncertainty"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD holds firm above MA20 as institutional inflows and pro-crypto sentiment drive the next upward leg.",
+    "excerpt": "BTC/USD holds above MA20 as ETF inflows resume, RSI confirming bullish momentum despite ecosystem volatility.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Price holds firmly above MA20 with RSI showing healthy bullish momentum, supported by strong institutional inflows.",
-    "entry": "77350.00",
-    "tp": "82500.00",
-    "sl": "76500.00",
-    "reliability": "HIGH"
+    "comment": "Institutional inflows and MA20 support validate bullish continuation.",
+    "entry": "77248.09",
+    "tp": "83500",
+    "sl": "75800",
+    "reliability": "MEDIUM"
   }
 }
