@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Oversold Bounce Toward MA20 Amid Geopolitical Oil Shock",
-    "date": "2026-09-08 21:36",
+    "title": "[USD/JPY] DOWN: Bearish Break Below MA20 Amidst Geopolitical Risks",
+    "date": "2026-09-09 04:15",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price sits below MA20 with RSI deep in oversold territory suggesting mean‑reversion upside.",
-      "Middle‑East tensions lift oil prices, feeding inflation fears that could keep Fed hawkish and support USD.",
-      "Technical bounce toward MA20 (~158.70) offers a clear risk‑defined entry with stop below 152.0."
+      "USD/JPY plunges sharply below the 20-day moving average, signaling strong bearish momentum.",
+      "RSI(14) enters deeply oversold territory at 24.94, hinting at potential consolidation or a technical rebound.",
+      "Geopolitical tensions in the Middle East support safe-haven Yen, while US Treasury yields remain elevated."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY oversold, geopolitical oil shock fuels Fed hawkish bias, targeting MA20 bounce.",
+    "excerpt": "USD/JPY plunges on geopolitical risk-off; safe-haven Yen demand surges despite deeply oversold RSI conditions.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPY oversold, geopolitical oil shock fuels Fed hawkish bias, targeting MA20 bounce.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "Geopolitical risk-off drives sharp yen strength, pushing USD/JPY below key moving averages despite oversold RSI.",
+    "entry": "154.80",
+    "tp": "152.00",
+    "sl": "156.50",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20 Support Confirmed as Fundamental Shift Toward Bullish Momentum",
-    "date": "2026-09-08 21:38",
+    "title": "[S&P 500] FLAT: Geopolitical Overhang vs Technical Support as MA20 Acts as Resistance",
+    "date": "2026-09-09 04:17",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
     "tldr_points": [
-      "MA20 support holds at 7708.70 with volume confirmation",
-      "Fundamental catalysts including Bloom Energy addition and strong earnings",
-      "RSI at 47 indicates balanced momentum without overbought conditions"
+      "Price below MA20 at 7705 signals near-term resistance",
+      "Oil shock revives Fed hike bets pressuring rate-sensitive assets",
+      "Iran war escalation creates volatility regime shift"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 shows bullish reversal at MA20 support with fundamental catalysts supporting upward momentum.",
+    "excerpt": "S&P 500 tests MA20 support amid oil-driven rate fears and geopolitical tensions; FLAT stance advised pending clearer directional catalyst.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Strong fundamental catalysts and technical support at MA20 justify an upward bias.",
-    "entry": "7680",
-    "tp": "7820",
-    "sl": "7650",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Price below MA20 with geopolitical headwinds; wait for directional break.",
+    "entry": "7683.03",
+    "tp": "7720.00",
+    "sl": "7645.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-08 21:41",
+    "title": "[BTC/USD] FLAT: AI Detects Consolidation at MA20 as Institutional Flows Diverge",
+    "date": "2026-09-09 04:19",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "STRC share buybacks provide neutral catalyst while Visa stablecoin growth accelerates",
-      "Polishing Zondacrypto case reduces regulatory uncertainty for crypto ecosystem",
-      "Metaplanet's decline signals sector rotation toward stronger fundamentals"
+      "Institutional treasury accumulation offsets regulatory headwinds",
+      "Price consolidating at the 20-day moving average",
+      "RSI indicates neutral momentum pending a directional breakout"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD shows bullish setup at support near MA20 with strong volume accumulation ahead of potential breakout.",
+    "excerpt": "BTC/USD consolidates at 78,453 as institutional accumulation offsets regulatory headwinds, momentum at inflection.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Strong support at MA20 combined with improving fundamentals creates clear upside potential.",
-    "entry": "75250.00",
-    "tp": "79000.00",
-    "sl": "74800.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Price is consolidating at the 20-day moving average with neutral RSI, indicating a wait-and-see environment before a directional breakout.",
+    "entry": "78435.25",
+    "tp": "80500.00",
+    "sl": "76800.00",
+    "reliability": "MEDIUM"
   }
 }
