@@ -1,75 +1,75 @@
 [
   {
     "id": "2026-09-08-crypto-ja",
-    "date": "2026-09-08 04:39",
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-09-08 12:06",
+    "title": "[BTC/USD] UP: MA20反発と強気ファンダメンタルズの整合性を確認",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "ビットコインはMA20を上抜け、金利懸念にもかかわらず底堅い展開。機関のトークン化決済と資金流入が上昇を支え、テクニカルは押し目買いのシグナルを示す。",
+    "excerpt": "BTC holds above MA20 near $79k; Fed rate fears offset by institutional buying and tokenized payments, bias upward.",
     "result": "PENDING",
     "locale": "ja"
   },
   {
-    "id": "2026-09-08-stocks-ja",
-    "date": "2026-09-08 04:37",
-    "title": "[S&P 500] UP: MA20反発とAI銘柄の個別動向の整合性を確認",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
+    "id": "2026-09-08-crypto-en",
+    "date": "2026-09-08 12:06",
+    "title": "[BTC/USD] UP: Defends MA20 Amid Institutional Tokenization Momentum",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
     "prediction_direction": "UP",
-    "recommended_broker": "",
-    "excerpt": "S&P500は7718.60で推移し、MA20を足場に反発構造を維持している。AI関連銘柄の個別上昇とAres Managementの堅調な推移が市場の一部を牽引しており、インデックス再平衡を控えた中期的な上昇トレンドの継続を示唆する。",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD holds MA20 support as tokenization accelerates and CPI risks cap upside momentum.",
     "result": "PENDING",
-    "locale": "ja"
+    "locale": "en"
   },
   {
     "id": "2026-09-08-stocks-en",
-    "date": "2026-09-08 04:37",
-    "title": "[S&P 500] UP: Price Above MA20 with Support from Index Additions and AI Strength",
+    "date": "2026-09-08 11:59",
+    "title": "[S&P 500] DOWN: Iran Escalation Tests MA20 Support Amid Overbought Holiday Risk",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "excerpt": "S&P 500 stays above MA20 amid AI strength and upcoming index additions, suggesting near‑term upside with solid base for.",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 futures dip as geopolitical risks mount; technicals show neutral momentum.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-09-08-fx-ja",
-    "date": "2026-09-08 04:34",
-    "title": "[USD/JPY] DOWN: MA20下回る価格とRSI oversold、円高基調",
+    "date": "2026-09-08 11:56",
+    "title": "[USD/JPY] UP: RSI(14) Oversold と MA20 への大幅乖離が Mean-Reversion 型反発を支持",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "USD/JPYは154.35でMA20を下回り、RSI(14)=25.06と oversold。BOJの利上げ期待が円を強気し、円高基調が継続。短期SELLを推奨、TP152.00、SL155.50、流動性考慮でdmm-fx推奨。",
+    "excerpt": "USD/JPYは153.26まで急落。RSI(14)が23.69の深部oversold且つMA20からの大幅乖離により、戦略的平均回帰ロングの機会。本戦略の実行には[dmm-fx]を推奨。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-09-08-fx-en",
-    "date": "2026-09-08 04:34",
-    "title": "[USD/JPY] DOWN: Yen Strengthens on BOJ Rate-Hike Expectations",
+    "date": "2026-09-08 11:56",
+    "title": "[USD/JPY] UP: AI Detects Oversold Mean-Reversion Toward MA20 as PBOC Signals CNY Weakness",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "excerpt": "Yen strength on BOJ rate‑hike hopes pushes USD/JPY below MA20; oversold RSI supports short bias toward 152.50.",
+    "excerpt": "USD/JPY oversold at 153.26 vs MA20 158.66; PBOC weak CNY to 6.7804, setting up mean-reversion bounce toward resistance.",
     "result": "PENDING",
     "locale": "en"
   },
   {
-    "id": "2026-09-08-crypto-en",
+    "id": "2026-09-08-stocks-ja",
     "date": "2026-09-08",
-    "title": "CRYPTO Analysis",
-    "genre": "CRYPTO",
+    "title": "STOCKS Analysis",
+    "genre": "STOCKS",
     "target_pair": "",
     "prediction_direction": "FLAT",
     "recommended_broker": "",
     "excerpt": "",
     "result": "PENDING",
-    "locale": "en"
+    "locale": "ja"
   },
   {
     "id": "2026-09-07-crypto-ja",
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC holds above MA20 with institutional ETF inflows accelerating; targeting $82.5K resistance with defined risk.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "Nomura Securities",
     "excerpt": "FRBの警告と過去155年で2度しか見られなかった市場シグナルが同時に点灯し、S&P500の下押しリスクが高まっている。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "",
     "excerpt": "S&P 500 at 7,718 above MA20; mixed fundamentals; ETF inflows record high; technical bias remains upward.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY sits below MA20 with RSI near 32, pointing to a possible short‑term rebound amid solid US payrolls.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "FLAT",
     "recommended_broker": "",
     "excerpt": "",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
