@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 価格はMA20下抜けかつRSI極端な売られ状態で反発期待",
-    "date": "2026-09-09 11:56",
+    "title": "[USD/JPY] UP: 過度な売られすぎRSIとECB利上げ期待の金利格差維持",
+    "date": "2026-09-09 21:43",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "現在価格153.49はMA20 158.40を大きく下回り、RSI 27.1は売られ過ぎを示す",
-      "中東情勢緊張によるリスクオフは金に向かうが、USD/JPYは相対的に円買い圧力が弱まる可能性",
-      "テクニカル的にMA20付近での反発がシナリオとして最も確度が高い"
+      "RSI(14) 26.81で過度な売られすぎ、テクニカル反発余地",
+      "ECB利上げ観測と原油高がUSDサポート、JPYの利回り不利は継続",
+      "MA20 158.40が主要抵抗、突破まで一時的な押し目買い戦略"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "MA20下抜けとRSI極端な売られ状態から、USD/JPYは反発上昇を狙う戦略を示す。",
+    "excerpt": "USD/JPYは153.38でMA20(158.40)まで約500pips離隔、RSI26.81の極端な売られすぎ。ECB利上げ期待と原油高がUSD支持、JPY売りの材料は継続中。売られすぎ反発のエントリーを模索。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20下抜けとRSI売られ過ぎから反発期待",
-    "entry": "153.50",
-    "tp": "155.00",
-    "sl": "152.50",
+    "comment": "RSI極度の売られすぎ反発狙い、ECB利上げ期待がJPY売り支持",
+    "entry": "152.80",
+    "tp": "158.40",
+    "sl": "151.50",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20抵抗と地政学リスクによる下行圧力が優位",
-    "date": "2026-09-09 11:58",
+    "title": "[S&P 500] DOWN: MA20割れとファンダメンタルズの不確実性が重石",
+    "date": "2026-09-09 21:43",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "S&P 500はMA20（7704.72）を下回る取引であり、テクニカル resistance が機能している。",
-      "中東情勢の激化による原油価格の急騰が、关键通胀数据前の市場心理を圧迫している。",
-      "タクティカルなショートポジションを7685でエントリーし、7600をTP、7740をSLとして管理する。"
+      "価格はMA20下抜けで売り圧力が顕在化",
+      "RBCの警告とAI関連ニュースが方向感を分断",
+      "テクニカルはRSI中立、モメンタムは弱含み"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20（7704.72）の抵抗を下回り、中東情勢に伴う原油価格の急騰が关键通胀数据前の市場心理を圧迫下行バイアスが優位。タクティカルなショートポジションを構築推奨。",
+    "excerpt": "MA20を下回るS&P 500は売り優勢。ファンダメンタルズは混在し、リスクオフが短期的に優位。",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "MA20 resistance at 7704 and geopolitical oil rally pressure index down; tactical short entry at 7685 targeting 7600.",
-    "entry": "7685.00",
-    "tp": "7600.00",
-    "sl": "7740.00",
+    "comment": "MA20下抜けとリスクオフ環境が売りを支持",
+    "entry": "7600.00",
+    "tp": "7500.00",
+    "sl": "7650.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-09 12:01",
+    "date": "2026-09-09 21:47",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を上回り、短期的な上昇バイアスが示唆される",
-      "RSIは中立付近で過熱感は薄く、さらなる上げ余地あり",
-      "レイヤー2活況と機関の銀行参入がファンダメンタルを支援"
+      "Price above MA20 indicates modest bullish momentum.",
+      "Staked Tron ETF and Renzo's basis product add institutional support.",
+      "Regulatory actions in India pose localized risk but overall sentiment remains constructive."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を上回る価格と中立RSIが上昇の余地を示し、レイヤー2拡張と機関の銀行参入が追い風となる。",
+    "excerpt": "BTC/USD trades above MA20 with neutral RSI; bullish fundamentals from staked ETF and DeFi expansion support upside.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上抜けと中立RSI、レイヤー2および機関の銀行参入が上昇を支える",
-    "entry": "78500.00",
-    "tp": "80000.00",
-    "sl": "78200.00",
-    "reliability": "HIGH"
+    "comment": "テクニカルな押し目買いシグナルと強気ファンダメンタルズに基づくポジティブな見通し",
+    "entry": "79550.9375",
+    "tp": "81000.00",
+    "sl": "78600.00",
+    "reliability": "MEDIUM"
   }
 }
