@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-09-09-crypto-ja",
-    "date": "2026-09-09 04:19",
-    "title": "[BTC/USD] UP: MA20反発と強気ファンダメンタルズの併用",
+    "date": "2026-09-09 12:01",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "価格がMA20を上回り、強気ファンダメンタルズに支えられ、短期的な上昇が予想される。",
+    "excerpt": "MA20を上回る価格と中立RSIが上昇の余地を示し、レイヤー2拡張と機関の銀行参入が追い風となる。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-09-09-crypto-en",
-    "date": "2026-09-09 04:19",
-    "title": "[BTC/USD] FLAT: AI Detects Consolidation at MA20 as Institutional Flows Diverge",
+    "date": "2026-09-09 12:01",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "BTC/USD consolidates at 78,453 as institutional accumulation offsets regulatory headwinds, momentum at inflection.",
+    "excerpt": "BTC holds above MA20 with neutral RSI; on‑chain activity and Fed‑friendly bank charter news support upside bias.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-09-09-stocks-ja",
-    "date": "2026-09-09 04:17",
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性",
+    "date": "2026-09-09 11:58",
+    "title": "[S&P 500] DOWN: MA20抵抗と地政学リスクによる下行圧力が優位",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "excerpt": "S&P500はMA20付近で反発しRSI49で中立的上昇トレンド、マクロとニュースが支援。指定ブローカーで流動性確保し、押し目買い推奨。",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500はMA20（7704.72）の抵抗を下回り、中東情勢に伴う原油価格の急騰が关键通胀数据前の市場心理を圧迫下行バイアスが優位。タクティカルなショートポジションを構築推奨。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-09-09-stocks-en",
-    "date": "2026-09-09 04:17",
-    "title": "[S&P 500] FLAT: Geopolitical Overhang vs Technical Support as MA20 Acts as Resistance",
+    "date": "2026-09-09 11:58",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "S&P 500 tests MA20 support amid oil-driven rate fears and geopolitical tensions; FLAT stance advised pending clearer directional catalyst.",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 trades below MA20, RSI 48; inflation data and oil rally pose downside risk.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-09-09-fx-ja",
-    "date": "2026-09-09 04:15",
-    "title": "[USD/JPY] DOWN: MA20下方の著な乖離とRSI oversold状態が示す戦術的反発の可能性",
+    "date": "2026-09-09 11:56",
+    "title": "[USD/JPY] UP: 価格はMA20下抜けかつRSI極端な売られ状態で反発期待",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "USD/JPYは下落傾向が续くも、RSI oversoldとMA20への著な负乖離により戦術的反発の可能性。米金利上昇（4.474%）がUSDをサポートする中、严格的 risque 管理下で反発买入を検討する。",
+    "excerpt": "MA20下抜けとRSI極端な売られ状態から、USD/JPYは反発上昇を狙う戦略を示す。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-09-09-fx-en",
-    "date": "2026-09-09 04:15",
-    "title": "[USD/JPY] DOWN: Bearish Break Below MA20 Amidst Geopolitical Risks",
+    "date": "2026-09-09 11:56",
+    "title": "[USD/JPY] DOWN: Safe-Haven Yen Demand and Oversold Trend Structure Favor a Rally-Sell Setup",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY plunges on geopolitical risk-off; safe-haven Yen demand surges despite deeply oversold RSI conditions.",
+    "excerpt": "Iran escalation supports yen safe-haven demand while RSI 27.1 signals an oversold USD/JPY vulnerable to a sharp rebound.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD consolidates near $79,390 with MA20 support at $77,989 holding firm amid macro crosswinds and institutional accumulation.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "",
     "excerpt": "S&P 500 consolidates above MA20 support as technology catalysts offset macro headwinds; bullish setup with tight risk at 7708.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "excerpt": "米祝日と原油高によるリスクオフが円買いを誘発し、USD/JPYはMA20を下抜けて下落基調。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "excerpt": "Risk‑off flows push yen higher; USD/JPY likely to test lower support despite oversold RSI.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {

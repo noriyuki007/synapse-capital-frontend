@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: MA20下方の著な乖離とRSI oversold状態が示す戦術的反発の可能性",
-    "date": "2026-09-09 04:15",
+    "title": "[USD/JPY] UP: 価格はMA20下抜けかつRSI極端な売られ状態で反発期待",
+    "date": "2026-09-09 11:56",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米3年国債利回りが4.474%の高水準で決定し、日米金利差がUSDをサポート",
-      "RSI(14)が24.94の oversold 状態并且 MA20 との著な负乖離により戦術的反発の可能性",
-      "地政学リスク（ハルク島、ジッダ空港）の動向を監視しつつ、严格的 risque 管理下で反発买入を検討"
+      "現在価格153.49はMA20 158.40を大きく下回り、RSI 27.1は売られ過ぎを示す",
+      "中東情勢緊張によるリスクオフは金に向かうが、USD/JPYは相対的に円買い圧力が弱まる可能性",
+      "テクニカル的にMA20付近での反発がシナリオとして最も確度が高い"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは下落傾向が续くも、RSI oversoldとMA20への著な负乖離により戦術的反発の可能性。米金利上昇（4.474%）がUSDをサポートする中、严格的 risque 管理下で反発买入を検討する。",
+    "excerpt": "MA20下抜けとRSI極端な売られ状態から、USD/JPYは反発上昇を狙う戦略を示す。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "RSI oversold (24.94) and deep negative gap to MA20 (158.69) suggest a tactical rebound, while high US yields provide fundamental support.",
-    "entry": "153.60",
-    "tp": "155.50",
+    "comment": "MA20下抜けとRSI売られ過ぎから反発期待",
+    "entry": "153.50",
+    "tp": "155.00",
     "sl": "152.50",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性",
-    "date": "2026-09-09 04:17",
+    "title": "[S&P 500] DOWN: MA20抵抗と地政学リスクによる下行圧力が優位",
+    "date": "2026-09-09 11:58",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "価格はMA20付近で支持",
-      "RSIが中立域で上昇トレンド",
-      "ファンダメンタルズとニュースが追い風"
+      "S&P 500はMA20（7704.72）を下回る取引であり、テクニカル resistance が機能している。",
+      "中東情勢の激化による原油価格の急騰が、关键通胀数据前の市場心理を圧迫している。",
+      "タクティカルなショートポジションを7685でエントリーし、7600をTP、7740をSLとして管理する。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20付近で反発しRSI49で中立的上昇トレンド、マクロとニュースが支援。指定ブローカーで流動性確保し、押し目買い推奨。",
+    "excerpt": "S&P 500はMA20（7704.72）の抵抗を下回り、中東情勢に伴う原油価格の急騰が关键通胀数据前の市場心理を圧迫下行バイアスが優位。タクティカルなショートポジションを構築推奨。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P500はMA20付近で反発しRSI49で中立的上昇トレンド、マクロとニュースが支援。指定ブローカーで流動性確保し、押し目買い推奨。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "MA20 resistance at 7704 and geopolitical oil rally pressure index down; tactical short entry at 7685 targeting 7600.",
+    "entry": "7685.00",
+    "tp": "7600.00",
+    "sl": "7740.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20反発と強気ファンダメンタルズの併用",
-    "date": "2026-09-09 04:19",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-09-09 12:01",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格がMA20を上回り、RSIが中立圏。",
-      "機関投資家の積み増しとDeFi開発継続が需要を後押し。",
-      "MA20反発と強気ファンダメンタルズの組み合わせが短期的な上昇シグナルを形成。"
+      "価格はMA20を上回り、短期的な上昇バイアスが示唆される",
+      "RSIは中立付近で過熱感は薄く、さらなる上げ余地あり",
+      "レイヤー2活況と機関の銀行参入がファンダメンタルを支援"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "価格がMA20を上回り、強気ファンダメンタルズに支えられ、短期的な上昇が予想される。",
+    "excerpt": "MA20を上回る価格と中立RSIが上昇の余地を示し、レイヤー2拡張と機関の銀行参入が追い風となる。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "価格がMA20を上回り、強気ファンダメンタルズが継続し、センチメントが中立的となり、押し目買いシグナルが確認されたため。",
-    "entry": "78400.00",
-    "tp": "78600.00",
-    "sl": "78300.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20上抜けと中立RSI、レイヤー2および機関の銀行参入が上昇を支える",
+    "entry": "78500.00",
+    "tp": "80000.00",
+    "sl": "78200.00",
+    "reliability": "HIGH"
   }
 }
