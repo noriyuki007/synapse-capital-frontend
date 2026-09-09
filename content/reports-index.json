@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-09-10-crypto-ja",
+    "date": "2026-09-10 04:15",
+    "title": "[BTC/USD] DOWN: MA20下抜けとリスクオフセンチメントの整合性を確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "MA20を下回るBTC/USDは下目線。テクニカルとファンダが整合し、売り方向のエントリーを検討。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-10-crypto-en",
+    "date": "2026-09-10 04:15",
+    "title": "[BTC/USD] FLAT: Price Hugs MA20 as Miner Divergence Warrants Caution",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC consolidates at MA20 with neutral momentum; miner divergence and regulatory risk favor range-bound trade.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-09-10-stocks-ja",
+    "date": "2026-09-10 04:04",
+    "title": "[S&P 500] DOWN: 原油高と利回り上昇が重しとなりMA20下抜けリスク",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "指定ブローカー",
+    "excerpt": "原油高と利回り上昇がS&P500に下押し圧力、MA20割れで調整リスクが高まる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-10-stocks-en",
+    "date": "2026-09-10 04:04",
+    "title": "[S&P 500] DOWN: AI Detects Resistance at MA20 as Fundamentals Turn Bearish",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 trades below MA20 with elevated oil and yields, suggesting short‑term downside pressure.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-09-10-fx-ja",
+    "date": "2026-09-10 04:03",
+    "title": "[USD/JPY] UP: RSI過度な買い目線とMA20反発の確率",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYは153.65水準でMA20(158.41)から大幅乖離しRSI27.5の過度な売られ状態が続いている。ECB決算・米PPI先行き不透明で一時的反発買いを推奨し、流動性確保にはdmm-fxの利用を検討すべきである。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-10-fx-en",
+    "date": "2026-09-10 04:03",
+    "title": "[USD/JPY] UP: AI Detects Oversold Bounce Potential Toward MA20 Amid RSI Extremes",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "Oversold RSI and 4.8% discount to MA20 present tactical long opportunity toward 158.41 resistance pending US PPI catalyst.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-09-09-crypto-ja",
     "date": "2026-09-09 21:47",
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
