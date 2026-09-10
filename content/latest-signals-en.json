@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-10 21:41",
+    "title": "[USD/JPY] DOWN: MA20 Resistance and Defensive JPY Flows Override Oversold Bounce Risk",
+    "date": "2026-09-11 03:55",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US labor market remains steady, supporting USD strength.",
-      "RSI at 29.7 signals oversold conditions, hinting at a rebound.",
-      "Price near MA20 support with bullish fundamentals likely to drive upside."
+      "USD/JPY remains 2.42% below MA20, confirming bearish trend structure.",
+      "RSI-14 at 28.73 creates substantial rebound risk and favors selling rallies rather than chasing spot.",
+      "Oil above $102 and Iran-related escalation support defensive JPY demand despite elevated US yields."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised to rebound as RSI hits oversold and fundamentals stay bullish, targeting MA20 resistance.",
+    "excerpt": "USD/JPY remains below MA20 as oversold momentum and oil-driven risk aversion favor tactical downside pressure to 153.00.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "AI analysis identifies oversold RSI and supportive fundamentals suggesting a bounce toward MA20.",
-    "entry": "154.50",
-    "tp": "158.20",
-    "sl": "153.40",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "Bearish structure favors selling a rebound, although oversold momentum and mixed rate signals limit reliability.",
+    "entry": "155.20",
+    "tp": "153.00",
+    "sl": "156.40",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Technical Dip Toward MA20 Supported by Pre‑Bell PPI Optimism",
-    "date": "2026-09-10 21:44",
+    "title": "[S&P 500] DOWN: PPI Shock Squeezes Yields, MA20 Retreat Sows Technical Weakness",
+    "date": "2026-09-11 03:59",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "Price below MA20 with RSI near 43 indicates near‑term bounce potential.",
-      "Pre‑bell PPI optimism and Fed pause expectations provide near‑term upside catalyst.",
-      "Nike’s confirmation of S&P 500 membership removes a minor idiosyncratic risk."
+      "Yields surge after PPI-driven inflation scare",
+      "S&P tests MA20 support amid bearish momentum",
+      "RSI remains neutral but trending lower post-PPI"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 tests MA20 resistance as PPI data looms; bullish bias hinges on Fed pause and Nike’s index retention.",
+    "excerpt": "PPI-driven yield spike presses S&P below MA20 as RSI momentum wavers.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Price near-term dip toward MA20 supported by PPI optimism and Fed pause expectations.",
-    "entry": "7620.00",
-    "tp": "7700.00",
-    "sl": "7575.00",
+    "status": "NEUTRAL",
+    "comment": "PPI-driven yield spike presses S&P below MA20 as RSI momentum wavers.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Coinbase signals cycle bottom and technical support near MA20",
-    "date": "2026-09-10 21:48",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-09-11 04:02",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Armstrong declares BTC bottomed and forecasts uptrend",
-      "Current price below MA20 offers technical support zone (~78.6k)",
-      "RSI 39 indicates moderate momentum, not yet oversold"
+      "BTC/USD trades below MA20 at $77,150 with RSI signaling oversold conditions",
+      "Institutional adoption catalysts support reversal potential",
+      "Key resistance at $78,636 (MA20) with upside bias if broken"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD at 76.9k tests MA20; bullish fundamentals point to upside.",
+    "excerpt": "BTC/USD shows oversold RSI (39.6) near $77K support; institutional adoption catalysts enable potential bounce toward $78.6K resistance.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "BTC is poised for a rebound toward $79k on support at MA20 and bullish fundamental outlook.",
-    "entry": "76400",
-    "tp": "79000",
-    "sl": "75000",
+    "comment": "Tactical long bias driven by oversold RSI (39.6) and institutional adoption tailwinds, targeting MA20 retest at $78,636",
+    "entry": "77500",
+    "tp": "78636",
+    "sl": "76000",
     "reliability": "MEDIUM"
   }
 }
