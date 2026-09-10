@@ -1,66 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と弱い円・ファンダメンタルズの整合性",
-    "date": "2026-09-10 11:57",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-09-10 21:41",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "現在価格はMA20を下回りRSIは深い oversold 区域",
-      "BOJの利上げ発言と原油高が円安圧力を維持",
-      "テクニカルは押し目買いのシグナルを示唆"
+      "米雇用統計は予想通り安定、PPIはやや上振れでインフレ懸念が残る",
+      "ECBは予想通り25bp利上げ、ユーロ買い圧力がUSD/JPYに対してやや重し",
+      "テクニカルは価格がMA20大幅下抜け、RSI29.7で売られ過ぎ、押し目買いの余地あり"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20付近での反発を狙い、買い bias が優位。",
+    "excerpt": "米雇用統計は安定、PPIはやや上振れ、ECBは予想通り利上げ。テクニカルはMA20下押しでRSI29.7と売られ過ぎ、押し目買いのシナリオが有力。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20付近の押し目買い、RSIオーバーセールドと円安ファンダが後押し",
-    "entry": "153.40",
-    "tp": "155.00",
-    "sl": "152.30",
-    "reliability": "HIGH"
+    "comment": "米国ファンダメンタルズの底堅さとテクニカルの売られ過ぎから反発期待",
+    "entry": "154.50",
+    "tp": "157.00",
+    "sl": "153.50",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20 resistance and bearish catalysts pressure index",
-    "date": "2026-09-10 11:59",
+    "title": "[S&P 500] DOWN: 価格がMA20下抜けとRSI低下で弱気バイアス",
+    "date": "2026-09-10 21:44",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "MA20 above spot signals pullback; bearish news reinforces down bias; short exposure favoured pending inflation data."
+      "MA20を下回る価格帯で押し目売りの余地",
+      "RSIが43付近で売り圧力が優勢",
+      "PPI発表前のボラティリティ拡大に注意"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades below MA20 at 7,636; bearish news and neutral RSI point to further downside.",
+    "excerpt": "MA20下抜けとRSI低下からS&P 500は短期的下落リスクが高まる。",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "Price below MA20, bearish news and neutral RSI support short exposure.",
-    "entry": "7636.00",
-    "tp": "7580.00",
-    "sl": "7720.00",
+    "comment": "MA20下抜けとRSI低下から短期的下落リスクが優位",
+    "entry": "7630.00",
+    "tp": "7500.00",
+    "sl": "7700.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: 価格がMA20下抜けとマイナー売り圧力が重く、下落リスクが顕在化",
-    "date": "2026-09-10 12:01",
+    "title": "[BTC/USD] UP: MA20下の反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-09-10 21:48",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20を下抜け、短期的な下押しリスクが高まる",
-      "マイナーの売り増しと取引所・ステーブルコインの流入が需給を悪化",
-      "RSIは中立だが、オーダーフローは売り優勢を示唆"
+      "BTC/USDはMA20(78,626)下で取引され、RSI(39)は中立域",
+      "Coinbase CEOの底部観測発言と流動性改善が上昇催化剂",
+      "短期的に76,000-78,000円帯のレンジ相場を経て80,000円突破の可能性"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20下抜けとマイナー売り圧力が重なり、BTC/USDは短期的に下落リスクが高まる。テクニカルとファンダメンタルズの整合性から売りを検討。",
+    "excerpt": "BTC/USDはMA20下でRSI39の中期調整、ファンダメンタルズの底部観測と流動性改善により上昇余地。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20下抜けとマイナー売り圧力により下落リスクが高まるため売りを推奨",
-    "entry": "78200.00",
-    "tp": "76500.00",
-    "sl": "79500.00",
+    "status": "BUY",
+    "comment": "MA20下の反発とファンダメンタルズの支援により上昇余地",
+    "entry": "76944.8",
+    "tp": "80000",
+    "sl": "75000",
     "reliability": "MEDIUM"
   }
 }
