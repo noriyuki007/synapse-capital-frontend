@@ -1,68 +1,66 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Oversold Bounce Potential Toward MA20 Amid RSI Extremes",
-    "date": "2026-09-10 04:03",
+    "title": "[USD/JPY] DOWN: Price Below MA20 Signals Bearish Bias Amid BOJ Hawkish Talk",
+    "date": "2026-09-10 11:57",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "RSI-14 at 27.5 signals oversold bounce setup",
-      "Price deviates -4.8% below MA20 creating mean-reversion window",
-      "US PPI and ECB rhetoric to dominate session volatility"
+      "Price trades well below MA20 indicating bearish momentum",
+      "RSI at 22.5 shows oversold condition but trend remains down",
+      "BOJ hawkish whispers and USD strength from PBOC rate weigh on yen"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Oversold RSI and 4.8% discount to MA20 present tactical long opportunity toward 158.41 resistance pending US PPI catalyst.",
+    "excerpt": "USD/JPY faces bearish pressure as price stays below MA20 amid BOJ hawkish talk and oversold RSI, targeting 152.00.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Oversold bounce toward MA20 resistance",
-    "entry": "153.65",
-    "tp": "156.50",
-    "sl": "152.00",
+    "status": "SELL",
+    "comment": "Price below MA20 with bearish order flow and BOJ hawkish expectations favor further downside.",
+    "entry": "153.50",
+    "tp": "152.00",
+    "sl": "154.50",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: AI Detects Resistance at MA20 as Fundamentals Turn Bearish",
-    "date": "2026-09-10 04:04",
+    "title": "[S&P 500] UP: Futures Climb Amid Inflation Wait; Support Near 7600",
+    "date": "2026-09-10 11:59",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "Price below MA20 signals near-term bearish bias",
-      "Rising crude oil and yields pressure equity valuations",
-      "RSI near 44 indicates room for further downside before oversold"
+      "Futures rise on oil/yield dynamics; technical support near 7600; upcoming CPI data pivotal."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades below MA20 with elevated oil and yields, suggesting short‑term downside pressure.",
+    "excerpt": "S&P futures edge higher as oil and yields fluctuate; support near 7600, await inflation data.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Price below MA20 with rising yields and oil prices signals near‑term downside.",
-    "entry": "7640.00",
-    "tp": "7600.00",
-    "sl": "7710.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Tactical long bias targeting MA20 with support near 7600.",
+    "entry": "7620",
+    "tp": "7700",
+    "sl": "7550",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: Price Hugs MA20 as Miner Divergence Warrants Caution",
-    "date": "2026-09-10 04:15",
+    "title": "[BTC/USD] NEUTRAL: Consolidation Below MA20 Amid Macro Uncertainty",
+    "date": "2026-09-10 12:01",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trades 0.25% below MA20 at $78,506 with RSI neutral at 48.3, signaling consolidation",
-      "Miners underperforming spot rally suggests supply-side hesitation despite exchange/stablecoin inflows",
-      "Regulatory overhang from CFTC/CME perpetual futures dispute caps upside conviction"
+      "Price consolidates below MA20 resistance",
+      "Exchange stablecoin surge signals latent buying power",
+      "Miner sell-pressure offset by institutional inflows"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC consolidates at MA20 with neutral momentum; miner divergence and regulatory risk favor range-bound trade.",
+    "excerpt": "BTC/USD trades below the 20-day MA as exchange stablecoin reserves surge, signaling latent buying pressure despite miner distribution.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "Price consolidating at MA20 with neutral RSI; wedge resolution required for directional edge",
-    "entry": "78350",
-    "tp": "79100",
-    "sl": "77750",
+    "status": "SELL",
+    "comment": "Price rejected at MA20 resistance with neutral RSI, favoring a tactical fade.",
+    "entry": "78317.02",
+    "tp": "77000.00",
+    "sl": "79000.00",
     "reliability": "MEDIUM"
   }
 }

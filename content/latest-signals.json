@@ -1,68 +1,66 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: RSI過度な買い目線とMA20反発の確率",
-    "date": "2026-09-10 04:03",
+    "title": "[USD/JPY] UP: MA20での反発と弱い円・ファンダメンタルズの整合性",
+    "date": "2026-09-10 11:57",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "RSI27.5の過度な売られ状況",
-      "MA20(158.41)への反発確率",
-      "ECB/US PPIイベントリスク"
+      "現在価格はMA20を下回りRSIは深い oversold 区域",
+      "BOJの利上げ発言と原油高が円安圧力を維持",
+      "テクニカルは押し目買いのシグナルを示唆"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは153.65水準でMA20(158.41)から大幅乖離しRSI27.5の過度な売られ状態が続いている。ECB決算・米PPI先行き不透明で一時的反発買いを推奨し、流動性確保にはdmm-fxの利用を検討すべきである。",
+    "excerpt": "USD/JPYはMA20付近での反発を狙い、買い bias が優位。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "RSI過度売られとMA20乖離による反発概率",
-    "entry": "153.65",
-    "tp": "156.50",
-    "sl": "152.50",
-    "reliability": "MEDIUM"
+    "comment": "MA20付近の押し目買い、RSIオーバーセールドと円安ファンダが後押し",
+    "entry": "153.40",
+    "tp": "155.00",
+    "sl": "152.30",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: 原油高と利回り上昇が重しとなりMA20下抜けリスク",
-    "date": "2026-09-10 04:04",
+    "title": "[S&P 500] DOWN: MA20 resistance and bearish catalysts pressure index",
+    "date": "2026-09-10 11:59",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "指定ブローカー",
+    "recommended_broker": "",
     "tldr_points": [
-      "原油価格の上昇と米国債利回り上昇が株式に重荷",
-      "RSIは中立圏、MA20未満で下抜けリスク",
-      "歴史的統計では来年上昇確率95%だが短期は調整局面"
+      "MA20 above spot signals pullback; bearish news reinforces down bias; short exposure favoured pending inflation data."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "原油高と利回り上昇がS&P500に下押し圧力、MA20割れで調整リスクが高まる。",
+    "excerpt": "S&P 500 trades below MA20 at 7,636; bearish news and neutral RSI point to further downside.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "原油高と利回り上昇がS&P500に下押し圧力、MA20割れで調整リスクが高まる。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "Price below MA20, bearish news and neutral RSI support short exposure.",
+    "entry": "7636.00",
+    "tp": "7580.00",
+    "sl": "7720.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20下抜けとリスクオフセンチメントの整合性を確認",
-    "date": "2026-09-10 04:15",
+    "title": "[BTC/USD] DOWN: 価格がMA20下抜けとマイナー売り圧力が重く、下落リスクが顕在化",
+    "date": "2026-09-10 12:01",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を下回り、下方バイアスが強まる",
-      "RSIは中立域で過売り・過買いシグナルは absent",
-      "マクロ的には選挙関連デリバティブ拡大とマイナーの出遅れが重し"
+      "MA20を下抜け、短期的な下押しリスクが高まる",
+      "マイナーの売り増しと取引所・ステーブルコインの流入が需給を悪化",
+      "RSIは中立だが、オーダーフローは売り優勢を示唆"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を下回るBTC/USDは下目線。テクニカルとファンダが整合し、売り方向のエントリーを検討。",
+    "excerpt": "MA20下抜けとマイナー売り圧力が重なり、BTC/USDは短期的に下落リスクが高まる。テクニカルとファンダメンタルズの整合性から売りを検討。",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "MA20下抜けとリスクオフマクロが売り bias を支持",
-    "entry": "78650.00",
-    "tp": "77500.00",
-    "sl": "78800.00",
+    "comment": "MA20下抜けとマイナー売り圧力により下落リスクが高まるため売りを推奨",
+    "entry": "78200.00",
+    "tp": "76500.00",
+    "sl": "79500.00",
     "reliability": "MEDIUM"
   }
 }
