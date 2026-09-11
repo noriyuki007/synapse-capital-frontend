@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Oversold RSI Bounce Toward MA20 Ahead of CPI Catalyst",
-    "date": "2026-09-11 21:34",
+    "title": "[USD/JPY] UP: Hawkish Fed and Lower Deficit Support Bounce Toward MA20",
+    "date": "2026-09-12 03:57",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price below MA20 with RSI oversold",
-      "US CPI catalyst imminent",
-      "Houthi escalation adds risk premium"
+      "US August budget deficit beats expectations, boosting USD",
+      "Fed hike outlook for Sep/Dec per JPMorgan adds hawkish pressure",
+      "Technical oversold RSI with price below MA20 suggests short-term bounce"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY oversold at 154.04 with RSI-14 at 26.62; tactical long toward MA20 157.85 ahead of CPI catalyst.",
+    "excerpt": "USD/JPY poised to test MA20 as Fed hawkishness and lower deficit outweigh oil-driven JPY pressure.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Oversold RSI bounce setup toward MA20",
-    "entry": "154.04",
-    "tp": "157.85",
-    "sl": "153.50",
-    "reliability": "MEDIUM"
+    "comment": "Fundamental tailwinds from Fed hawkishness and lower deficit combined with technical oversold bounce toward MA20.",
+    "entry": "153.80",
+    "tp": "156.00",
+    "sl": "152.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: Price Consolidates Below MA20 Ahead of CPI Catalyst",
-    "date": "2026-09-11 21:36",
+    "title": "[S&P 500] FLAT: MA20 Reclaim Required as Yield Pressure Offsets Tech Leadership",
+    "date": "2026-09-12 03:59",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "FLAT",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price trading 1.3% below MA20 with RSI at 45 signals weak momentum",
-      "CPI inflation print is the decisive near-term catalyst for directional resolution",
-      "Pre-market futures show relief buying but structural trend remains unresolved"
+      "Price is 21.73 points, or 0.283%, below MA20, while RSI-14 at 49.03 signals balanced momentum.",
+      "Technology and Communication Services support index resilience, but higher shorter-maturity yields limit valuation upside.",
+      "Use a 7,690.00 breakout entry, 7,765.00 target, and 7,635.00 stop; remain flat without confirmation."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 consolidates below MA20 at 7591.70 as CPI becomes the swing factor; tactical FLAT pending inflation data.",
+    "excerpt": "Neutral below 7,690: sub-MA20 price and RSI 49.03 offset tech-led strength as CPI-driven yields cap expansion risk.",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "Consolidation below MA20 with RSI at 45; CPI catalyst pending for directional resolution.",
-    "entry": "0.00",
-    "tp": "0.00",
-    "sl": "0.00",
+    "comment": "Price remains below MA20 with neutral RSI, warranting a conditional breakout trade rather than immediate directional exposure.",
+    "entry": "7690.00",
+    "tp": "7765.00",
+    "sl": "7635.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Below MA20 as Mixed Fundamentals Weigh",
-    "date": "2026-09-11 21:38",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-09-12 04:02",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price trades below MA20 indicating short-term bearish bias",
-      "RSI near neutral shows limited momentum",
-      "Macro news mixed with token bond adoption offset by regulatory scrutiny"
+      "BTC/USD trades below MA20 with RSI near neutral, indicating a potential bounce.",
+      "Steady inflation outlook keeps Fed rates unchanged, supporting risk‑on sentiment.",
+      "Key resistance at MA20 (~78,600) offers upside target; stop below recent swing low."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD slips under MA20 amid mixed fundamentals, suggesting near-term downside risk.",
+    "excerpt": "BTC/USD under MA20, RSI 47; steady inflation outlook supports bounce to MA20 on risk‑on sentiment; execute via bybit now",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price below MA20 with neutral RSI indicates short-term bearish bias.",
-    "entry": "77200.00",
-    "tp": "75500.00",
-    "sl": "78500.00",
+    "status": "BUY",
+    "comment": "BTC/USD shows bullish bounce potential from below MA20 with steady macro backdrop supporting risk‑on appetite.",
+    "entry": "76500.00",
+    "tp": "78600.00",
+    "sl": "75000.00",
     "reliability": "MEDIUM"
   }
 }

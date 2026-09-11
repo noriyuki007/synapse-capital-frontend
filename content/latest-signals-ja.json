@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-11 21:34",
+    "title": "[USD/JPY] UP: 金利上振れ・エネルギー・リスク回避と過売れ反発",
+    "date": "2026-09-12 03:57",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "US CPI待ちでドル買い圧力が高まる",
-      "MA20を下回りRSIは超売り、押し目買いの好機",
-      "リスクオフ要因は限定的で上値余地あり"
+      "MA20下・RSI過売れでドル売りは過熱",
+      "日米金利差拡大とエネルギー・リスク回避がドルを支える",
+      "154.00近辺での限定買い、157.80を第一目標"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米CPI発表を前に市場はドル買いが優勢となり、USD/JPYはMA20を下回る水準から反転上昇を狙う展開が予想される。RSIは超売り水準で押し目買いのシグナルが点灯し、テクニカル・ファンダメンタルズが整合。",
+    "excerpt": "Fedの9月・12月利上げ観測、エネルギー価格上昇、リスク回避がドルを支える一方、米財政赤字は予想を下回った。RSIは過売れで、MA20反発を狙った限定買いとする。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "米CPI待ちのドル買いとRSI超売りからの押し目買いが期待できる",
-    "entry": "154.20",
-    "tp": "156.50",
-    "sl": "153.50",
-    "reliability": "HIGH"
+    "comment": "金利上振れ・エネルギー・リスク回避がドルを支え、RSIの過売れを背景にMA20反発を狙う。",
+    "entry": "153.90-154.40",
+    "tp": "157.80/159.00",
+    "sl": "152.00",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20下抜け後の反発期待とCPIを控えたリスクオン",
-    "date": "2026-09-11 21:36",
+    "title": "[S&P 500] UP: MA20 support and modest catalysts",
+    "date": "2026-09-12 03:59",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "CPI発表前だが株価はリスクオン姿勢を維持し、押し目買いの機会が示唆される",
-      "MA20付近でのサポートが機能すれば、目標はMA20近辺までの上昇が見込まれる",
-      "流動性の観点から野村證券の利用を推奨し、リスク管理を徹底する"
+      "MA20 provides near-term support",
+      "Inflation data and tech strength add modest bullish pressure",
+      "Technical indicators remain neutral, favoring controlled upside exposure"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "CPI発表を控え、株価はMA20下抜けながらもリスクオン姿勢が強く、押し目買いの機会が見込まれる。",
+    "excerpt": "MA20 support and modest macro tailwinds suggest a controlled upside play; entry ~7685, TP ~7750, SL ~7600.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20サポートとリスクオン環境から押し目買いが有利",
-    "entry": "7590.00",
-    "tp": "7692.00",
-    "sl": "7500.00",
+    "comment": "MA20の支持とインフレ緩和の統合によるモメンタムの改善を捉える。",
+    "entry": "7685.00",
+    "tp": "7750.00",
+    "sl": "7600.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: 価格がMA20を下回りRSI中立ながら売り圧力優位の構造",
-    "date": "2026-09-11 21:38",
+    "title": "[BTC/USD] DOWN: MA20下値固定とRSI中性による押し目売り",
+    "date": "2026-09-12 04:02",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20上抜け失敗で短期下目線",
-      "RSI48付近でモメンタム不足",
-      "機関ニュースは中立〜ややネガティブ"
+      "現在価格はMA20を約2.06%下回り、短期トレンドは下値優位",
+      "RSI 46.88は中性で、反発売り・76,000割れ時の加速を監視",
+      "78,602.52の明確な回復まではSELL方針を維持"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCはMA20を下回り、RSI中立圏ながら売り圧力が優勢。短期的な下落継続を想定し、厳格なリスク管理で売り戦略を推奨。",
+    "excerpt": "現在価格はMA20を約2.06%下回り、RSI(14)は46.88で中性圏。インフレがFedの見通しを変えず、BTC固有の需要カタリストも限られるため、78,602.52付近での反発失敗を条件に押し目売りを優先し、リスクは78,800超えで切り替える。",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "MA20下抜けとRSI中立で下目線",
-    "entry": "77500",
-    "tp": "75000",
-    "sl": "79000",
+    "comment": "MA20下値固定とRSI中性を背景に押し目売り。78,602.52超えで論理破綻。",
+    "entry": "77500.00",
+    "tp": "74800.00",
+    "sl": "78800.00",
     "reliability": "MEDIUM"
   }
 }
