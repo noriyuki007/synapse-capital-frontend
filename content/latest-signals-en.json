@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: MA20 Resistance and Defensive JPY Flows Override Oversold Bounce Risk",
-    "date": "2026-09-11 03:55",
+    "title": "[USD/JPY] DOWN: AI Detects Weakness Below MA20 as BOJ Hawkishness Looms",
+    "date": "2026-09-11 11:52",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY remains 2.42% below MA20, confirming bearish trend structure.",
-      "RSI-14 at 28.73 creates substantial rebound risk and favors selling rallies rather than chasing spot.",
-      "Oil above $102 and Iran-related escalation support defensive JPY demand despite elevated US yields."
+      "BOJ hike expectations lift yen, pressuring USD/JPY downward.",
+      "Price sits below MA20 with RSI ~29, indicating oversold conditions.",
+      "Fed CPI and ECB policy add mixed USD pressure but yen strength dominates."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY remains below MA20 as oversold momentum and oil-driven risk aversion favor tactical downside pressure to 153.00.",
+    "excerpt": "USD/JPY turns bearish on BOJ hike prospects; price below MA20, RSI oversold hints at short dip before deeper decline.",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "Bearish structure favors selling a rebound, although oversold momentum and mixed rate signals limit reliability.",
-    "entry": "155.20",
-    "tp": "153.00",
-    "sl": "156.40",
+    "comment": "BOJ hike expectations and bearish technicals favor downside move toward 152.00.",
+    "entry": "154.45",
+    "tp": "152.00",
+    "sl": "156.00",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: PPI Shock Squeezes Yields, MA20 Retreat Sows Technical Weakness",
-    "date": "2026-09-11 03:59",
+    "title": "[S&P 500] DOWN: Oil Spike & Yield Rise Pressure Valuations",
+    "date": "2026-09-11 12:03",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "Yields surge after PPI-driven inflation scare",
-      "S&P tests MA20 support amid bearish momentum",
-      "RSI remains neutral but trending lower post-PPI"
+      "S&P 500 trades below its 20‑day MA as oil prices and Treasury yields climb.",
+      "Hotter‑than‑expected CPI data fuels September Fed‑hike expectations, weighing on equities.",
+      "Technical stance remains bearish with RSI near 45 and resistance at MA20."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "PPI-driven yield spike presses S&P below MA20 as RSI momentum wavers.",
+    "excerpt": "S&P 500 falls below MA20 on oil jump, yield rise, hot CPI, boosting Sept rate‑hike odds and bias for investors -.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "PPI-driven yield spike presses S&P below MA20 as RSI momentum wavers.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "Bearish bias from rising rates, oil surge, and technical weakness below MA20.",
+    "entry": "7600.00",
+    "tp": "7500.00",
+    "sl": "7700.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-11 04:02",
+    "title": "[BTC/USD] DOWN: AI Detects MA20 Rejection as ETF Winds and Senate Bill Drags Sentiment",
+    "date": "2026-09-11 12:07",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD trades below MA20 at $77,150 with RSI signaling oversold conditions",
-      "Institutional adoption catalysts support reversal potential",
-      "Key resistance at $78,636 (MA20) with upside bias if broken"
+      "Price Rejected Below MA20 at 76688.828 Triggers Bearish Bias",
+      "RSI at 38.458 Confirms Lack of Bullish Momentum",
+      "Senate Crypto Bill Uncertainty and ETF Shocks Spook Market"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD shows oversold RSI (39.6) near $77K support; institutional adoption catalysts enable potential bounce toward $78.6K resistance.",
+    "excerpt": "BTC rejected at MA20, RSI weak at 38.45, ETF and bill risks push bearish.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Tactical long bias driven by oversold RSI (39.6) and institutional adoption tailwinds, targeting MA20 retest at $78,636",
-    "entry": "77500",
-    "tp": "78636",
-    "sl": "76000",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Technical rejection below MA20 and weakening RSI confirm bearish short-term outlook.",
+    "entry": "76600.00",
+    "tp": "74000.00",
+    "sl": "79100.00",
+    "reliability": "HIGH"
   }
 }
