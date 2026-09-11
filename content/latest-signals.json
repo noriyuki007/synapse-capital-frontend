@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-11 11:52",
+    "date": "2026-09-11 21:34",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "BOJ追加利上げ観測がJPYに抑制的圧力",
-      "MA20(157.87)は重要なレジスタンスだがRSI29は過度な売られ過ぎ",
-      "米CPI前夜のボラティリティ拡大で流動性確保が最優先"
+      "US CPI待ちでドル買い圧力が高まる",
+      "MA20を下回りRSIは超売り、押し目買いの好機",
+      "リスクオフ要因は限定的で上値余地あり"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "BOJ利上げ観測とECB追加ハイクがJPY売りを後押し。MA20下での過度な売られ過ぎRSI29は反発力を示唆。米CPIリスクを織り込みながら押し目買いを構図。",
+    "excerpt": "米CPI発表を前に市場はドル買いが優勢となり、USD/JPYはMA20を下回る水準から反転上昇を狙う展開が予想される。RSIは超売り水準で押し目買いのシグナルが点灯し、テクニカル・ファンダメンタルズが整合。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "過度な売られ過ぎRSI29とBOJ利上げ観測が反発材料",
-    "entry": "154.45",
-    "tp": "157.87",
+    "comment": "米CPI待ちのドル買いとRSI超売りからの押し目買いが期待できる",
+    "entry": "154.20",
+    "tp": "156.50",
     "sl": "153.50",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: 油価高騰による利上げ懸念とMA20下での下降トレンド確認",
-    "date": "2026-09-11 12:03",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
-    "tldr_points": [
-      "油価高騰によるインフレ再燃のリスク",
-      "MA20を下回る価格の弱気構造",
-      "利回り上昇が成長株に与える圧力"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500は7591.70で推移し、MA20の7692.29を割り込んだ状態にある。油価高騰を背景にした利上げ観測の高まりが市場心理を冷却しており、短期的な下降圧力が支配的である。",
-    "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "利上げ観測とMA20下の弱気構造",
-    "entry": "7591.70",
-    "tp": "7450.00",
-    "sl": "7720.00",
     "reliability": "HIGH"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20下抜け後の反発期待とCPIを控えたリスクオン",
+    "date": "2026-09-11 21:36",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "tldr_points": [
+      "CPI発表前だが株価はリスクオン姿勢を維持し、押し目買いの機会が示唆される",
+      "MA20付近でのサポートが機能すれば、目標はMA20近辺までの上昇が見込まれる",
+      "流動性の観点から野村證券の利用を推奨し、リスク管理を徹底する"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "CPI発表を控え、株価はMA20下抜けながらもリスクオン姿勢が強く、押し目買いの機会が見込まれる。",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "MA20サポートとリスクオン環境から押し目買いが有利",
+    "entry": "7590.00",
+    "tp": "7692.00",
+    "sl": "7500.00",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20を上抜けられず、弱気モメンタム継続の兆候",
-    "date": "2026-09-11 12:07",
+    "title": "[BTC/USD] DOWN: 価格がMA20を下回りRSI中立ながら売り圧力優位の構造",
+    "date": "2026-09-11 21:38",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を下回り、RSIは38で弱気バイアスが示唆",
-      "規制ニュースとETF撤退が市場心理に重し",
-      "売りエントリーは76600付近、TP 75000、SL 78500でbitflyerの流動性を活用"
+      "MA20上抜け失敗で短期下目線",
+      "RSI48付近でモメンタム不足",
+      "機関ニュースは中立〜ややネガティブ"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を上抜けられない限り、売り方向を維持し、75k付近をターゲットにする。",
+    "excerpt": "BTCはMA20を下回り、RSI中立圏ながら売り圧力が優勢。短期的な下落継続を想定し、厳格なリスク管理で売り戦略を推奨。",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "MA20下放れとRSI38で弱気バイアスが確認",
-    "entry": "76600",
+    "comment": "MA20下抜けとRSI中立で下目線",
+    "entry": "77500",
     "tp": "75000",
-    "sl": "78500",
+    "sl": "79000",
     "reliability": "MEDIUM"
   }
 }
