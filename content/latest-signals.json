@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: RSI(23.1)の深層超売とFed利上げ観測の戦術的合流",
-    "date": "2026-09-12 11:59",
+    "title": "[USD/JPY] UP: MA20付近での反発と米CPIによる利上げ期待が支える",
+    "date": "2026-09-12 20:57",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "RSI(23.1)の深層超売状態と、米CPIによるFed利上げ観測の対比",
-      "MA20(157.82)からの大幅乖離が生む平均回帰トリガーを戦術的に捕捉",
-      "流動性と実行精度を重視し、[dmm-fx]でのエントリーを推奨"
+      "米CPI上昇でFed利上げ観測が高まりUSD買い優位",
+      "RSI23の深い売られで短期反発の余地大",
+      "MA20上抜けがトレンド転換のシグナルとなり得る"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは一時的に153.55まで下落したが、RSIの深層超売と米金利上昇圧力により、戦術的な反発（平均回帰）が期待できる。",
+    "excerpt": "米CPIの上振れによりFedの利上げ観測が高まり、ドル買いが優勢となる中、USD/JPYは153.55付近で下値を固め、MA20(157.82)への反発が期待される。RSIが23と売られすぎを示すため、短期的な買い戻しの余地が大きい。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "RSIが23.1の深層超売状態にあり、米CPIによるFed利上げ観測が利差拡大を支援するため、平均回帰の戦術的ロングを推奨。",
-    "entry": "153.55",
-    "tp": "157.82",
-    "sl": "152.40",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: 金利上昇とMA20下抜けで下押し圧力",
-    "date": "2026-09-12 12:01",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
-    "tldr_points": [
-      "米長期金利の上昇が株価に下押し圧力をかけている",
-      "S&P 500はMA20を下回り、短期的な売りバイアスが形成中",
-      "Fed会合を控えたポジション調整がボラティリティを誘発"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "金利上昇とテクニカルの乖離によりS&P 500は下押し圧力が強まる見込み。",
-    "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "金利上昇とMA20下抜けによる下押し圧力が確認され、売り方向が優位",
-    "entry": "7656.98",
-    "tp": "7600.00",
-    "sl": "7700.00",
+    "status": "NEUTRAL",
+    "comment": "米CPIの上振れによりFedの利上げ観測が高まり、ドル買いが優勢となる中、USD/JPYは153.55付近で下値を固め、MA20(157.82)への反発が期待される。RSIが23と売られすぎを示すため、短期的な買い戻しの余地が大きい。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-09-12 21:00",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "MA20反発",
+      "強気ファンダメンタルズ",
+      "上昇トレンド継続"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 現在7656.98、MA20 7685.19、RSI 48.39。上昇トレンド継続予測。",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "MA20反発と強気ファンダメンタルズにより上昇トレンド継続予測",
+    "entry": "7700",
+    "tp": "7800",
+    "sl": "7600",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20下の反発とマクロデータの支持",
-    "date": "2026-09-12 12:05",
+    "title": "[BTC/USD] DOWN: MA20下値乖離と中立RSIによる押し目売り",
+    "date": "2026-09-12 21:03",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20下で推移もRSI中立、反発の可能性",
-      "インフレデータがFR方針を変更らず、risiko資産を支持",
-      "流動性動向から短期上昇シナリオを予想"
+      "現在価格がMA20を下回り、逆行回復は未確認",
+      "RSI46.6は売過ぎず、下落余地が残る",
+      "78,550ドル附近的な反発を売り、75,800ドルを第一段目標"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20下で推移するが、RSI中立とマクロデータの支持により上昇余地が残る。",
+    "excerpt": "BTCは77,327ドルでMA20の78,591ドルを下回り、逆行回復は未確認。物価材料もFRB見通しを変えず、RSI46.6は売過ぎず。78,500ドル近辺の反発を売り材料に使い、75,800ドルを第一段目標とする中短期DOWNバイアス。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20下の反発とマクロデータの支持により上昇余地",
-    "entry": "77312.88",
-    "tp": "78800",
-    "sl": "76500",
+    "status": "SELL",
+    "comment": "MA20下且つRSI46.6で逆行回復は未確認。78,550ドル反発を売り、75,800ドルを目標とする。",
+    "entry": "78550.00",
+    "tp": "75800.00",
+    "sl": "80200.00",
     "reliability": "MEDIUM"
   }
 }
