@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: US CPI Fuels Fed Hike Odds, Technical Rebound Anticipated",
-    "date": "2026-09-12 20:57",
+    "title": "[USD/JPY] UP: AI Detects Oversold RSI and Hawkish Fed Cues Supporting Bounce Toward MA20",
+    "date": "2026-09-13 03:04",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US CPI data raises Fed rate‑hike probability, supporting USD strength.",
-      "RSI at 23.1 indicates deep oversold condition, suggesting a near‑term bounce.",
-      "Price sits below MA20 (157.82), offering a clear upside target on a mean‑reversion move."
+      "US CPI data raises Fed hike odds, boosting USD fundamentals.",
+      "RSI at 23.1 signals extreme oversold conditions, suggesting a technical rebound.",
+      "Price sits below the 20‑day MA, presenting a dip‑buying opportunity toward 157.8."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "US CPI fuels Fed hike odds, lifting USD/JPY from oversold 153.55 toward MA20 157.82 despite RSI weakness.",
+    "excerpt": "USD/JPY poised for a bounce as oversold RSI meets hawkish Fed expectations, targeting the 20‑day MA near 157.8.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Oversold RSI and bullish Fed outlook support a short‑term rebound toward MA20 resistance.",
-    "entry": "153.30",
+    "comment": "Oversold RSI and hawkish Fed fundamentals support a bounce toward the 20‑day MA.",
+    "entry": "153.40",
     "tp": "156.00",
-    "sl": "152.50",
-    "reliability": "HIGH"
+    "sl": "152.80",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Price Stays Under MA20 as Valuation and Correction Risks Rise",
-    "date": "2026-09-12 21:00",
+    "title": "[S&P 500] FLAT: Price Tests MA20 Amid Yield Pressure, Valuation Divergence",
+    "date": "2026-09-13 03:07",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Designated broker",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "Goldman Sachs",
     "tldr_points": [
-      "Price is 28.21 points below MA20, keeping the near-term bias defensive.",
-      "RSI-14 at 48.39 signals neutral-bearish momentum rather than capitulation.",
-      "A failed 7,685.19 retest offers a tactical short targeting 7,600.00."
+      "Price sits near MA20 with RSI 48.39, indicating near-term equilibrium amid yield pressure.",
+      "Fed rate hike concerns and elevated oil prices cap risk appetite, while Apple/Moderna buys and dividend ETF outperformance signal rotating capital toward value.",
+      "S&P 500 at 25x earnings offers limited upside; capital reallocation toward lower-valuation names defines near-term dynamics."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 remains below its 20-day average; a failed rebound offers a tactical short toward 7,600.",
+    "excerpt": "S&P 500 trades flat around MA20 as yields pressure risk, valuation split between 25x earnings and dividend ETF outperformance.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "A failed retest of the 20-day average offers a tactical short while price remains below 7,685.19.",
-    "entry": "7682.00",
-    "tp": "7600.00",
-    "sl": "7715.00",
+    "status": "NEUTRAL",
+    "comment": "S&P 500 trades flat around MA20 as yields pressure risk, valuation split between 25x earnings and dividend ETF outperformance.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-12 21:03",
+    "title": "[BTC/USD] DOWN: Price Remains Below MA20 as Macro Catalysts Stay Neutral",
+    "date": "2026-09-13 03:12",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trades below MA20 with RSI near 47.",
-      "Steady Fed outlook and tokenized bond adoption bolster upside.",
-      "Entry near 77k targeting MA20 around 78.6k with stop below 76k."
+      "BTC remains below the 78,582.96 MA20, preserving a near-term bearish bias.",
+      "RSI-14 near 46 indicates weak momentum without an oversold reversal signal.",
+      "A tactical short below 78,600 targets 75,800 and 74,500 with risk above 78,700."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC trades below MA20 with RSI near 47; steady Fed outlook and tokenized bonds support a test of the 20‑day average now.",
+    "excerpt": "BTC trades below MA20 with neutral-bearish RSI, favoring a tactical short while 78,583 caps relief rallies.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Price below MA20 with bullish adoption catalysts supports a bounce to the 20‑day average.",
-    "entry": "77000",
-    "tp": "78590",
-    "sl": "76000",
+    "status": "SELL",
+    "comment": "Price remains below MA20 with neutral-bearish momentum and no decisive macro catalyst.",
+    "entry": "77200",
+    "tp": "74500",
+    "sl": "78700",
     "reliability": "MEDIUM"
   }
 }
