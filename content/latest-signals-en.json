@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Oversold RSI and Fed Hawkish Bias",
-    "date": "2026-09-13 11:59",
+    "title": "[USD/JPY] UP: AI Detects Oversold RSI as Fundamentals Support USD Strength",
+    "date": "2026-09-13 22:05",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US CPI data boosts Fed hike expectations, supporting USD",
-      "RSI at 23 signals extreme oversold condition, ripe for mean‑reversion bounce",
-      "Price sits well below the 20‑day MA, presenting a dip‑buying opportunity toward 157.80"
+      "USD/JPY trades at 153.55, significantly below the 20-day moving average of 157.82, indicating a sharp recent decline.",
+      "The RSI-14 at 23.11 signals deeply oversold conditions, presenting a tactical buying opportunity for a rebound.",
+      "Strong US CPI data raising odds of a Fed rate hike provides fundamental support for USD long positions."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Fed hawkish cues and oversold RSI set up a short‑term USD/JPY bounce toward MA20 resistance.",
+    "excerpt": "USD/JPY shows deeply oversold RSI at 23.11, signaling a tactical rebound toward the 20-day MA.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Fed hawkish expectations and RSI oversold condition support a short‑term bounce toward MA20 resistance.",
-    "entry": "153.60",
-    "tp": "157.80",
+    "comment": "Deeply oversold RSI at 23.11 combined with strong US CPI-driven rate hike expectations offers a high-probability tactical long setup.",
+    "entry": "153.55",
+    "tp": "157.82",
     "sl": "152.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-13 12:02",
+    "title": "[S&P 500] DOWN: Price Subordinate to MA20 Amid Yield Pressure and AI Regulatory Overhang",
+    "date": "2026-09-13 22:15",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
     "tldr_points": [
-      "Elevated yields not pressuring S&P",
-      "Sector rotation favors unloved Vanguards",
-      "Technical proximity to MA20 suggests upside"
+      "Price trading below MA20 with RSI mid-range",
+      "Fed meeting + AI slowdown calls weigh on sentiment",
+      "Oil/yield pressure and defensive positioning signal caution"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 near MA20, RSI neutral, fundamentals supportive for modest upside.",
+    "excerpt": "S&P 500 stalls below MA20 as Fed uncertainty and AI regulatory headwinds cap upside.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Technical support near MA20 and constructive fundamentals support a bullish position.",
-    "entry": "7655",
-    "tp": "7685",
-    "sl": "7580",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "Price below MA20 with bearish macro catalysts and defensive rotation.",
+    "entry": "7657.00",
+    "tp": "7630.00",
+    "sl": "7690.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: MA20 Suppression and $81,700 Breakout Dependency",
-    "date": "2026-09-13 12:03",
+    "title": "[BTC/USD] DOWN: Sub-MA20 Structure Intact as $81.7k Resistance Looms",
+    "date": "2026-09-13 22:17",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price remains 1.74% below the 20-day moving average.",
-      "RSI-14 at 46.26 shows neutral-to-soft momentum.",
-      "A sustained break above $81,700 is required to confirm a tactical long."
+      "BTC trades below MA20 at $78.5k, signaling near-term bearish structure",
+      "CryptoQuant identifies $81.7k as critical bull-market confirmation level",
+      "RSI at 46.4 reflects neutral momentum with downside bias"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD stays below MA20; a sustained break above $81,700 is required to restore a tactical long bias for the near term.",
+    "excerpt": "BTC consolidates below MA20; $81.7k resistance remains key hurdle for bullish reversal.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "Price remains below MA20, so a sustained break and retest of $81,700 is required before initiating a tactical long.",
-    "entry": "81700.00",
-    "tp": "84500.00",
-    "sl": "79400.00",
+    "status": "SELL",
+    "comment": "Price below MA20 with overhead resistance at $81.7k favors downside continuation.",
+    "entry": "78200",
+    "tp": "74500",
+    "sl": "79200",
     "reliability": "MEDIUM"
   }
 }
