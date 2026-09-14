@@ -1,66 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: MA20割れが示す下降優位と27水準RSIの反発リスク",
-    "date": "2026-09-14 12:14",
+    "title": "USD/JPY戦略：ベア相場におけるドローダウン極小化プロトコル",
+    "date": "2026-09-14 23:42",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "現在価格はMA20を3.5112円下回り、下降トレンドが優位。",
-      "RSI(14)は27.06で売られ過ぎ。直追いは反発リスク。",
-      "154.00割れ確認後の153.90SELL、TP152.00、SL155.20。"
+      "金利相関（近似）: 0.06で正相関傾向",
+      "テクニカル: 現在価格 154.76 と MA20 157.64 の位置関係が主導",
+      "需給: 上限帯 162.49 / 下限帯 152.80 / 直近高値 160.38 / 直近安値 152.90 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは154.10とMA20 157.61を大きく下回り、RSI27.1は売られ過ぎを示す。PBOC基準値と原油需要毀損懸念はリスク回避・円買い材料だが、急反発に備え154.00割れ確認後のSELLを軸にする。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 154.76、RSI(29.87)、MA20(157.64)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "MA20を約2.23%下回る下降構造とPBOC基準値上振れが円買いを支持。RSI27.06のため反発リスクがあり、154.00割れ確認を条件化。",
-    "entry": "153.90",
-    "tp": "152.00",
-    "sl": "155.20",
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 154.76、RSI(29.87)、MA20(157.64)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20 pullback aligns with momentum ETF strength",
-    "date": "2026-09-14 12:24",
+    "title": "[S&P 500] DOWN: MA20下値とRSI45で下押しリスクが顕在化",
+    "date": "2026-09-14 23:45",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "流動性の観点から[指定ブローカー]の利用を推奨する",
     "tldr_points": [
-      "AI slowdown pressure offset by momentum ETF breakout; Fed meeting volatility; Berkshire underperformance historically transient; oil high but market indifferent; S&P near 20‑day MA, neutral RSI."
+      "MA20下値とRSI45で下押しリスクが顕在化",
+      "AI減速懸念と地政学リスクが投資家心理を抑制、流動性確保が重要",
+      "短期下押し後はMA20回復が鍵、流動性の観点から[指定ブローカー]利用推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 hovers just below its 20‑day MA with neutral RSI, while momentum ETFs and macro catalysts hint at a modest upside bias ahead of the Fed meeting.",
+    "excerpt": "S&P500は7600下値で調整、MA20とRSI45が下押しを示唆、流動性確保でIG利用推奨。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20 pullback aligns with momentum ETF strength and neutral RSI supports modest upside.",
-    "entry": "7660",
-    "tp": "7720",
-    "sl": "7560",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "MA20下値とRSI45で下押しリスクが顕在化、流動性確保で[指定ブローカー]利用推奨",
+    "entry": "7650.00",
+    "tp": "7750.00",
+    "sl": "7600.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20下抜けと81,700抵抗が抑制要因",
-    "date": "2026-09-14 12:25",
+    "title": "[BTC/USD] FLAT: MA20 proximity and neutral momentum",
+    "date": "2026-09-14 23:48",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格77,716でMA20(78,525)下抜け、RSI50と横ばい相場が続くと予測。",
-      "81,700超えが新たな上昇トリガーとされ、抵抗突破が注目される。",
-      "Symbiosisの15 BTC回復とメキシコのマイニング抜けがファンダメンタルリスクを緩和。"
+      "Price below MA20 with RSI near 50",
+      "Regulatory pressure offsets institutional accumulation",
+      "Range‑bound trading likely in short term"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD 77,716でMA20下抜け、RSI50と横ばい相場が続く。81,700超えが新たな上昇トリガーとなり、リスク管理が必須。",
+    "excerpt": "BTC trades under MA20 with neutral RSI, mixed regulatory/institutional news, and expected consolidation.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20下抜け後の押し目買いと81,700超え期待が根拠",
-    "entry": "77500.00",
-    "tp": "81700.00",
-    "sl": "76000.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "直近の価格MA20直下、RSI中立付近で方向性不明確",
+    "entry": "78300",
+    "tp": "78500",
+    "sl": "77800",
+    "reliability": "MEDIUM"
   }
 }
