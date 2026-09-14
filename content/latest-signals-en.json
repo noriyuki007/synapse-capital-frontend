@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Oversold RSI Awaiting Fed-Driven Dollar Strength",
-    "date": "2026-09-14 03:31",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-09-14 12:14",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US CPI data boosts Fed hike expectations, supporting USD strength.",
-      "RSI at 23 signals deep oversold condition, suggesting a technical bounce toward MA20.",
-      "Key resistance lies at the 20‑day moving average around 157.82, with initial support near 152.80."
+      "OMR (MA20) at 157.61 serves as key resistance with RSI at 27 signaling oversold conditions",
+      "PBOC's USD/CNY reference rate deviation supports yen weakness narrative",
+      "Liquidity imbalance in Asian sessions favors short-term upward reversion"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised for a rebound as oversold RSI meets Fed‑driven dollar bullishness.",
+    "excerpt": "USD/JPY oversold at 154.10 rebounds toward MA20 (157.61) as PBOC intervention drives yen weakness fundamentals.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Oversold RSI and Fed‑driven dollar strength suggest a bounce toward MA20 resistance.",
-    "entry": "153.75",
-    "tp": "157.50",
-    "sl": "152.80",
-    "reliability": "MEDIUM"
+    "comment": "PBOC divergence and RSI oversold signal 150-pip rebound toward MA20",
+    "entry": "154.8",
+    "tp": "157.61",
+    "sl": "152.3",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Momentum Divergence Signals Near-Term Weakness Ahead of Fed Meeting",
-    "date": "2026-09-14 03:32",
+    "title": "[S&P 500] DOWN: MA20 Rejection Risk as Rates and Technology Sentiment Pressure the Index",
+    "date": "2026-09-14 12:24",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price below MA20 signals weakening short-term momentum",
-      "RSI divergence suggests potential for further downside correction",
-      "Fed rate hike expectations and September seasonality amplify risk-tapering pressure"
+      "Price is 28.21 points below MA20, preserving a mildly negative tactical structure.",
+      "RSI-14 at 48.39 is neutral, limiting conviction absent a confirmed downside break.",
+      "Near-5% yields, $100 oil, Fed risk, and technology-sector headlines favor downside risk."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 shows technical signs of near-term weakness as price drops below MA20 amid rising rate concerns and historically weak September seasonality.",
+    "excerpt": "S&P 500 remains below MA20 as neutral RSI, elevated yields, and technology-sector risk favor a tactical downside bias.",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "Technical divergence and seasonal risks justify near-term bearish tilt pending MA20 retest confirmation.",
-    "entry": "7710.00",
-    "tp": "7620.00",
-    "sl": "7760.00",
+    "comment": "A failed MA20 retest offers downside leverage, but neutral RSI and missing order-flow data limit conviction.",
+    "entry": "7680.00",
+    "tp": "7600.00",
+    "sl": "7710.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Below MA20 as Resistance Holds",
-    "date": "2026-09-14 03:35",
+    "title": "[BTC/USD] FLAT: Neutral Structure Ahead of $81,700 Confirmation",
+    "date": "2026-09-14 12:25",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price trades below MA20 indicating bearish bias",
-      "RSI neutral at 48.7 suggests lack of momentum",
-      "Key resistance at $81,700 must be cleared for bullish confirmation"
+      "Price is 1.03% below MA20, preserving neutral trend structure.",
+      "A confirmed break above $81,700 is required to validate bullish continuation.",
+      "Conditional long target is $86,000; $79,500 defines downside risk."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD below MA20, RSI neutral; $81,700 resistance caps upside, suggesting a short-term sell with caution and patience.",
+    "excerpt": "BTC/USD is below MA20; clearing $81,700 would validate a tactical long and restore bullish-market continuation signals.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price below MA20 and neutral RSI suggest further downside; resistance at $81,700 remains unbroken.",
-    "entry": "77323.46",
-    "tp": "76000.00",
-    "sl": "78500.00",
+    "status": "NEUTRAL",
+    "comment": "Price remains below MA20 with neutral RSI; a confirmed break above $81,700 activates the conditional long.",
+    "entry": "81700.00",
+    "tp": "86000.00",
+    "sl": "79500.00",
     "reliability": "MEDIUM"
   }
 }

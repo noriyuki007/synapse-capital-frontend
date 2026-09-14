@@ -1,68 +1,66 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 極端なRSI過売りと米CPI後のドル支えでリバウンド狙い",
-    "date": "2026-09-14 03:31",
+    "title": "[USD/JPY] DOWN: MA20割れが示す下降優位と27水準RSIの反発リスク",
+    "date": "2026-09-14 12:14",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "RSI 23.1の極端な過売り水準が短期リバウンドを示唆",
-      "米CPI上振れでFRB利上げ観測後退せず、ドル下値堅い",
-      "MA20(157.82)までのギャップは4.3円超、第一目標は155.50付近"
+      "現在価格はMA20を3.5112円下回り、下降トレンドが優位。",
+      "RSI(14)は27.06で売られ過ぎ。直追いは反発リスク。",
+      "154.00割れ確認後の153.90SELL、TP152.00、SL155.20。"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "ドル円は153.55まで下落しRSIが23.1まで低下。米CPI受けのドル買い戻しとテクニカル的自律反発で155.50→157.82(MA20)を目指す短期上昇シナリオが優位。",
+    "excerpt": "USD/JPYは154.10とMA20 157.61を大きく下回り、RSI27.1は売られ過ぎを示す。PBOC基準値と原油需要毀損懸念はリスク回避・円買い材料だが、急反発に備え154.00割れ確認後のSELLを軸にする。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "RSI極端過売り+米CPI後のドル支えで短期リバウンド狙い。MA20までのギャップ埋めを想定。",
-    "entry": "153.55",
-    "tp": "155.50",
-    "sl": "152.80",
+    "status": "SELL",
+    "comment": "MA20を約2.23%下回る下降構造とPBOC基準値上振れが円買いを支持。RSI27.06のため反発リスクがあり、154.00割れ確認を条件化。",
+    "entry": "153.90",
+    "tp": "152.00",
+    "sl": "155.20",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20付近への反発期待と季節的弱気を考慮した押し目買い",
-    "date": "2026-09-14 03:32",
+    "title": "[S&P 500] UP: MA20 pullback aligns with momentum ETF strength",
+    "date": "2026-09-14 12:24",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "野村證券",
+    "recommended_broker": "",
     "tldr_points": [
-      "現在価格はMA20を下回り短期的な下押し圧力が示唆される",
-      "RSIは48近辺で中立、過熱感は薄い",
-      "9月の歴史的弱さと利上げ観測が重なるが、押し目買いの機会と見る"
+      "AI slowdown pressure offset by momentum ETF breakout; Fed meeting volatility; Berkshire underperformance historically transient; oil high but market indifferent; S&P near 20‑day MA, neutral RSI."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を下回り、RSIは中立。9月の季節的弱さと利上げ観測が重なる中、押し目買いの機会と見る。",
+    "excerpt": "S&P 500 hovers just below its 20‑day MA with neutral RSI, while momentum ETFs and macro catalysts hint at a modest upside bias ahead of the Fed meeting.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20への反発期待と季節的弱さを考慮した押し目買い",
-    "entry": "7650.00",
-    "tp": "7685.00",
-    "sl": "7600.00",
+    "comment": "MA20 pullback aligns with momentum ETF strength and neutral RSI supports modest upside.",
+    "entry": "7660",
+    "tp": "7720",
+    "sl": "7560",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: MA20Below and Neutral RSI",
-    "date": "2026-09-14 03:35",
+    "title": "[BTC/USD] DOWN: MA20下抜けと81,700抵抗が抑制要因",
+    "date": "2026-09-14 12:25",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "Price below MA20 with neutral RSI",
-      "Key resistance at $81,700 remains unbroken",
-      "Institutional flow shows cautious positioning"
+      "価格77,716でMA20(78,525)下抜け、RSI50と横ばい相場が続くと予測。",
+      "81,700超えが新たな上昇トリガーとされ、抵抗突破が注目される。",
+      "Symbiosisの15 BTC回復とメキシコのマイニング抜けがファンダメンタルリスクを緩和。"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC trades below MA20 with neutral RSI; key resistance at $81,700 must be cleared for bullish confirmation.",
+    "excerpt": "BTC/USD 77,716でMA20下抜け、RSI50と横ばい相場が続く。81,700超えが新たな上昇トリガーとなり、リスク管理が必須。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "価格がMA20を下回り、RSI中立。抵抗線$81,700の突破を待つ。",
-    "entry": "77300",
-    "tp": "81500",
-    "sl": "75500",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20下抜け後の押し目買いと81,700超え期待が根拠",
+    "entry": "77500.00",
+    "tp": "81700.00",
+    "sl": "76000.00",
+    "reliability": "HIGH"
   }
 }
