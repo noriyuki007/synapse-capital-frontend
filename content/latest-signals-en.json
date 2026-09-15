@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Price Below MA20 with Bearish Momentum Amid Mixed Data",
-    "date": "2026-09-15 22:07",
+    "title": "[USD/JPY] DOWN: Geopolitical Risk Sparks Risk-Off as Price Stays Below MA20",
+    "date": "2026-09-16 04:30",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price trades below MA20 signaling near-term bearish bias.",
-      "RSI at 33.6 indicates oversold but lacking bullish conviction.",
-      "Mixed US data: stronger ADP employment offset by weak Empire manufacturing."
+      "Geopolitical tensions in Saudi Arabia drive WTI crude to $106, triggering safe-haven flows into the JPY.",
+      "USD/JPY trades at 155.11, below the 20-period moving average of 157.37, confirming a bearish trend structure.",
+      "RSI at 34.51 suggests short-term downward exhaustion, but any corrective rally toward MA20 should be sold."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY under pressure as price stays under MA20, RSI weak, and mixed US fundamentals favor near-term downside.",
+    "excerpt": "Saudi Arabia geopolitical risk boosts JPY safe-haven demand, keeping USD/JPY bearish below MA20.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Price below MA20 with bearish momentum amid mixed US data",
-    "entry": "155.00",
-    "tp": "153.50",
-    "sl": "155.80",
+    "status": "NEUTRAL",
+    "comment": "Saudi Arabia geopolitical risk boosts JPY safe-haven demand, keeping USD/JPY bearish below MA20.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: AI Detects Resistance at MA20 as Fundamentals Turn Bearish",
-    "date": "2026-09-15 22:10",
+    "title": "[S&P 500] DOWN: Price Below MA20, RSI 42 Signals Bearish Momentum",
+    "date": "2026-09-16 04:32",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Fed rate decision looming with rising 10‑year yield near 5% weighs on equity valuations.",
-      "Technical show price below MA20 and RSI near 47, indicating mild bearish momentum.",
-      "ESOP index outperformance suggests selective strength but broad market faces headwinds."
+      "Price below MA20 with RSI 42 signals bearish bias",
+      "Key support at 7500, resistance at MA20 7669",
+      "Institutional sentiment turning negative amid macro uncertainty"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 eyes downside as yields rise and price trades below MA20 with neutral RSI.",
+    "excerpt": "S&P 500 below MA20, RSI 42 shows bearish bias; watch for downside toward 7500.",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "Bearish bias driven by rising yields and price below MA20.",
-    "entry": "7625.00",
-    "tp": "7550.00",
-    "sl": "7685.00",
+    "comment": "Price below MA20 and RSI 42 indicate bearish momentum, targeting 7500.",
+    "entry": "7600.00",
+    "tp": "7500.00",
+    "sl": "7670.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Today's AI Analysis Flags MA20 Rejection Risk as Momentum Stays Sub-50",
-    "date": "2026-09-15 22:12",
+    "title": "[BTC/USD] DOWN: Regulatory Overhang and Technical Breakdown Suppress Recovery",
+    "date": "2026-09-16 04:36",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC remains below the MA20, preserving a near-term bearish bias.",
-      "RSI-14 at 48.577840099446895 signals neutral-to-weak momentum rather than capitulation.",
-      "A failed retest of $78,350 offers a tactical short toward $77,000, with invalidation above $79,250."
+      "Clarity Act legislative failure creates immediate regulatory headwind",
+      "Price trading below MA20 with sub-50 RSI confirms bearish momentum",
+      "DOJ enforcement actions further dampen institutional appetite"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC stays below MA20 with sub-50 RSI; sell a $78,350 retest toward $77,000, with risk above $79,250.",
+    "excerpt": "BTC/USD faces pressure as legislative gridlock and enforcement collide with deteriorating technical momentum below MA20.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "BTC remains below MA20 with neutral-bearish momentum, making a failed retest the higher-quality tactical setup.",
-    "entry": "78350.00",
-    "tp": "77000.00",
-    "sl": "79250.00",
-    "reliability": "MEDIUM"
+    "comment": "Bearish structure below MA20 with negative regulatory catalysts driving momentum lower.",
+    "entry": "78303.46",
+    "tp": "72500.00",
+    "sl": "80500.00",
+    "reliability": "HIGH"
   }
 }

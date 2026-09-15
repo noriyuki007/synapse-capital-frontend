@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 強雇用データによる米金利上昇期待とRSI oversoldからの平均回帰",
-    "date": "2026-09-15 22:07",
+    "title": "[USD/JPY] DOWN: MA20下の下降トレンドと弱含みRSIの整合性を確認",
+    "date": "2026-09-16 04:30",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米ADP雇用統計が予想を大幅に上回り、米金利の上昇期待がUSD/JPYの下支えとなる。",
-      "現在価格はMA20を大幅に下回るが、RSI(14)が33.63と oversold 領域に入りつつあり、平均回帰の機会が増加。",
-      "FOMC之前的 gold 下落と dot plot フォーカスは、日米金利差の拡大を示唆し、USD優位のmacro environmentを継続。"
+      "MA20下の下降トレンド継続を確認",
+      "RSI弱含みで反転兆候なし",
+      "原油高と地政学リスクが円売りを後押し"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米雇用統計の強気データがUSDを支援する中、USD/JPYはRSI oversold領域での平均回帰を試みる。流動性と低スプレッドを重視し、本戦略の実行にはdmm-fxの利用を推奨する。",
+    "excerpt": "USD/JPYはMA20を下回り下降トレンド、RSI弱含みが売り圧を強める。本戦略は押し目売りを推奨する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "米ADP雇用が予想を大幅に上回り、米金利の上昇期待が強まっている。テクニカル面ではRSIが oversold 領域に入り、MA20（157.35）への平均回帰が期待できる。",
-    "entry": "154.90",
-    "tp": "157.20",
-    "sl": "154.50",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "MA20下方の下降トレンドと弱含みRSIの整合性を確認",
+    "entry": "155.11",
+    "tp": "153.50",
+    "sl": "157.50",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: MA20下での膠着と利上げ懸念の拮抗",
-    "date": "2026-09-15 22:10",
+    "title": "[S&P 500] DOWN: MA20下抜けと弱含むモメンタムの整合性",
+    "date": "2026-09-16 04:32",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "[]",
     "tldr_points": [
-      "MA20未満での推移は弱含みを示唆",
-      "RSI47は反転余地を残す中立域",
-      "連邦準備理事会の政策次第で方向性決定"
+      "MA20下でRSI41.6の弱気構造が継続",
+      "BessentのK字型発言追討で不確実性拡大",
+      "セクター連動性低下で個別銘柄選定の重要性増"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20下で7619.98、RSI47の中立域。金利5%水準の持続リスクとESOP企業の堅調なファンダメンタルズが拮抗し、当面のレンジ相場を示唆。決定的なブレイクまで様子見姿勢が妥当。",
+    "excerpt": "S&P 500はMA20 7668.72を下抜け、RSI 41.6で底値圏に留まる。BessentによるK字型経済終焉発言への追討は市場に不確実性を注入し、セクター間連動性が低下する中で防御的な銘柄選定が求められる。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "MA20下の弱含みと中立RSI、連邦準備理事会決定前の不確実性",
-    "entry": "7620-7630",
-    "tp": "7677",
-    "sl": "7590",
+    "status": "SELL",
+    "comment": "MA20下抜けと弱含モメンタムの整合",
+    "entry": "7581.49",
+    "tp": "7400.00",
+    "sl": "7750.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20割れと政策不透明感が重石",
-    "date": "2026-09-15 22:12",
+    "title": "[BTC/USD] DOWN: MA20割れと規制不透明感による戻り売り優位",
+    "date": "2026-09-16 04:36",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20下抜けで売り圧力が顕在化",
-      "米国のcrypto税法案が規制リスクを浮上",
-      "RSIは中立帯でモメンタムは乏しい"
+      "現在価格はMA20を3.11%下回り、短中期のトレンド優位は売り側に傾いている",
+      "Clarity Actを巡る対立とHyperliquid関連の司法捜査が、リスク選好と取引所プレミアムを抑制",
+      "77,800～78,200ドルの戻り売りを選択し、72,000ドルを主目標、80,300ドルを損切りに設定"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を下回るBTC/USDは売りバイアスが強く、エントリーは現在付近、TP 75k、SL 78.5kを推奨。",
+    "excerpt": "BTC/USDはMA20を明確に下回り、RSIも中立圏で推移。規制法案の対立と取引所を巡る司法リスクが上値を抑えるため、77,800～78,200ドルへの戻りを72,000ドル指向の売り機会と判断する。",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "MA20下抜けと規制ヘッドウィンドで売り bias",
-    "entry": "77012.68",
-    "tp": "75000.00",
-    "sl": "78500.00",
+    "comment": "MA20割れとRSI弱含み、規制不透明感の重なりにより戻り売りが優位。",
+    "entry": "77900.00",
+    "tp": "72000.00",
+    "sl": "80300.00",
     "reliability": "MEDIUM"
   }
 }
