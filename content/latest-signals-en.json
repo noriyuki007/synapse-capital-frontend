@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: AI Detects Resistance at MA20 as Fundamentals Turn Bearish",
-    "date": "2026-09-15 05:09",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-09-15 12:15",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price remains below MA20 signaling bearish bias",
-      "RSI near oversold suggests limited downside momentum",
-      "Trump AI optimism boosts risk appetite but fails to sustain USD/JPY upside"
+      "Oversold RSI (32.76) signals potential rebound toward MA20 (157.35)",
+      "China’s weak property data may weigh on risk sentiment, supporting JPY",
+      "US-Japan yield spread remains favorable for USD strength if BOJ maintains dovish stance"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY trades below MA20 with RSI oversold; bearish outlook as buyers fail at resistance.",
+    "excerpt": "USD/JPY: Oversold RSI and MA20 support align with bullish reversal bias amid global yield differentials.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Price below MA20 with RSI oversold; sellers likely to test 152.00 support",
-    "entry": "155.00",
-    "tp": "152.30",
-    "sl": "156.00",
+    "status": "BUY",
+    "comment": "Oversold RSI and MA20 support create favorable risk/reward for mean reversion trade",
+    "entry": "156.8",
+    "tp": "158.5",
+    "sl": "153.65",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Price Below MA20 as RSI Stalls at Neutral",
-    "date": "2026-09-15 05:11",
+    "title": "[S&P 500] DOWN: Price Below MA20 as RSI Stalls Near Neutral",
+    "date": "2026-09-15 12:18",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price trades below 20‑day MA",
-      "RSI(14) at 47 indicates neutral momentum",
-      "Fundamental headwinds from rate sensitivity and sector rotation"
+      "Price at 7619.98 sits below the 20‑day MA (7676.90), signaling short‑term bearish momentum.",
+      "RSI(14) at 47.04 indicates neutral momentum, leaving room for further downside.",
+      "Recent news of tech sector slowdown and AI exec warnings pressure broader equities."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades below MA20 with RSI at 47, suggesting potential further downside amid rate concerns.",
+    "excerpt": "S&P 500 is trading below its 20‑day moving average, RSI at 47, indicating a short‑term bearish bias and monitor closely.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Price below MA20 and neutral RSI suggest further downside amid rising rate pressure.",
-    "entry": "7619.98",
-    "tp": "7550",
-    "sl": "7700",
+    "status": "NEUTRAL",
+    "comment": "S&P 500 is trading below its 20‑day moving average, RSI at 47, indicating a short‑term bearish bias and monitor closely.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-15 05:13",
+    "title": "[BTC/USD] UP: AI Detects Support Near MA20 as Fundamentals Turn Bullish",
+    "date": "2026-09-15 12:21",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "MA20 at 78,511 supports upside",
-      "RSI at 52.1 neutral, room for gains",
-      "Regulatory hopes offset AG pushback, net bullish"
+      "Clarity Act optimism fuels institutional inflows.",
+      "Price holds above 77k support with MA20 acting as dynamic resistance.",
+      "RSI near neutral leaves room for upside momentum."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC bullish as price holds above MA20, regulatory hopes rise, RSI neutral.",
+    "excerpt": "BTC/USD poised for upside as regulatory clarity improves and technicals show support near 77k.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Bullish bias from MA20 support and favorable fundamentals.",
-    "entry": "78900.00",
-    "tp": "80500.00",
-    "sl": "78300.00",
-    "reliability": "HIGH"
+    "comment": "Long setup supported by fundamental catalysts and technical bounce from 77.5k support.",
+    "entry": "77500.00",
+    "tp": "80000.00",
+    "sl": "76500.00",
+    "reliability": "MEDIUM"
   }
 }
