@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Geopolitical Risk Sparks Risk-Off as Price Stays Below MA20",
-    "date": "2026-09-16 04:30",
+    "title": "[USD/JPY] DOWN: Price Below MA20 Confirms Bearish Momentum",
+    "date": "2026-09-16 12:12",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Geopolitical tensions in Saudi Arabia drive WTI crude to $106, triggering safe-haven flows into the JPY.",
-      "USD/JPY trades at 155.11, below the 20-period moving average of 157.37, confirming a bearish trend structure.",
-      "RSI at 34.51 suggests short-term downward exhaustion, but any corrective rally toward MA20 should be sold."
+      "USD/JPY trades below its MA20, keeping the tactical bias bearish.",
+      "RSI-14 near 35 signals weak momentum but limits the attractiveness of chasing downside.",
+      "Sell rallies into 156.80–157.12 resistance for a primary target at 154.00."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Saudi Arabia geopolitical risk boosts JPY safe-haven demand, keeping USD/JPY bearish below MA20.",
+    "excerpt": "USD/JPY is below MA20 with RSI near oversold; sell rallies into 157.12 resistance, targeting 154.00.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "Saudi Arabia geopolitical risk boosts JPY safe-haven demand, keeping USD/JPY bearish below MA20.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "Price remains below MA20 with weak momentum, favoring a sell-on-rally setup into resistance.",
+    "entry": "157.00",
+    "tp": "154.00",
+    "sl": "157.65",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Price Below MA20, RSI 42 Signals Bearish Momentum",
-    "date": "2026-09-16 04:32",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-09-16 12:30",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price below MA20 with RSI 42 signals bearish bias",
-      "Key support at 7500, resistance at MA20 7669",
-      "Institutional sentiment turning negative amid macro uncertainty"
+      "Price below 20‑day MA signals short‑term dip",
+      "Neutral RSI suggests limited downside momentum",
+      "Tech‑led futures strength supports a bounce"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 below MA20, RSI 42 shows bearish bias; watch for downside toward 7500.",
+    "excerpt": "S&P 500 below 20‑day MA at 7,585, neutral RSI, mixed news suggest potential bounce toward 7,669 resistance.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Price below MA20 and RSI 42 indicate bearish momentum, targeting 7500.",
-    "entry": "7600.00",
-    "tp": "7500.00",
-    "sl": "7670.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Support at MA20 with neutral RSI and upside catalysts",
+    "entry": "7585.73",
+    "tp": "7668.93",
+    "sl": "7500.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Regulatory Overhang and Technical Breakdown Suppress Recovery",
-    "date": "2026-09-16 04:36",
+    "title": "[BTC/USD] DOWN: Technical Breakdown Below MA20 Amid Regulatory Setback",
+    "date": "2026-09-16 12:31",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Clarity Act legislative failure creates immediate regulatory headwind",
-      "Price trading below MA20 with sub-50 RSI confirms bearish momentum",
-      "DOJ enforcement actions further dampen institutional appetite"
+      "Clarity Act procedural failure removes near-term regulatory tailwind",
+      "Price remains below MA20 with RSI sub-50 confirming bearish momentum",
+      "DOJ front-running charges add compliance overhang to exchange sentiment"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD faces pressure as legislative gridlock and enforcement collide with deteriorating technical momentum below MA20.",
+    "excerpt": "BTC/USD below 75,816 as Senate kills Clarity Act; MA20 at 78,300 resists recovery amid DOJ enforcement actions",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "Bearish structure below MA20 with negative regulatory catalysts driving momentum lower.",
-    "entry": "78303.46",
-    "tp": "72500.00",
-    "sl": "80500.00",
-    "reliability": "HIGH"
+    "comment": "Regulatory blowout and bearish technical breakdown below MA20.",
+    "entry": "75850",
+    "tp": "74200",
+    "sl": "78400",
+    "reliability": "MEDIUM"
   }
 }
