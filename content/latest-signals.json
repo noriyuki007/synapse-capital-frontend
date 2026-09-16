@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: MA20割れと弱気モメンタムが示す上値抵抗優勢",
-    "date": "2026-09-16 12:12",
+    "title": "[USD/JPY] DOWN: FOMC前の利回り反発とモメンタムの弱さを確認",
+    "date": "2026-09-16 22:05",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "現在値はMA20を1.84円下回り、短中期のトレンドは弱気",
-      "RSIは35.14と売られ過ぎに接近し、成行追いは不利",
-      "156.20円の反発売り、154.00円の利確、157.30円の損切りを基本とする"
+      "FOMCを控えドル高材料が限定的であること",
+      "MA20を大幅に下回る弱気構造の維持",
+      "RSIが35前辺りでモメンタム減速の兆候"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは155.2740円でMA20を1.84円下回り、RSI35.14が下値優位を示す。156.20円の売り、154.00円の利確、157.30円の損切りを基本とし、米日金利材料の欠如をリスク要因とする。",
+    "excerpt": "FOMC決議を前にしたUSD/JPYは155.26とMA20の157.12の間で圧縮している。米国の小売売上高の堅調さは物価上昇圧力を示唆するが、為替市場では利下げ観測が先行し、現在のテクニカル構造は売り優位の展開を示している。需給バランスは慎重なスタンスを強めている。",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "現在値がMA20を1.84円下回り、RSI35.14と弱気優位。ただし直接の金利材料欠如と売られ過ぎ近接で確度中程度。",
-    "entry": "156.20",
+    "comment": "MA20下方での弱気モメンタムとFOMC前の慎重ムードを確認",
+    "entry": "156.50",
     "tp": "154.00",
-    "sl": "157.30",
+    "sl": "157.50",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: MA20レジスタンス強化と選択的弱さの継続",
-    "date": "2026-09-16 12:30",
+    "title": "[S&P 500] DOWN: MA20を下回る価格とRSIの弱さが示す下押し圧力",
+    "date": "2026-09-16 22:06",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "現状7585.73でMA207668.93下、RSI41.90の弱気優勢",
-      "ダウ先物上昇の材料ありもMA20抵抗が障壁",
-      "流動性確保のため[]の利用を推奨"
+      "MA20以上の反発が乏しく、価格は7585付近で押し目基調。",
+      "RSIが41.9と低水準で、下方モメンタムが続く可能性。",
+      "トラック株の警告と145年レアな市場警告サインがリスクを増大。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20下で推移しRSI41.90の弱気域。ダウ先物上昇の材料ありもMA20抵抗が障壁。流動性確保のため[]の利用を推奨。",
+    "excerpt": "S&P 500はMA20を下回りRSIも弱気。ファンダメンタルズとテクニカルが売り圧力を示唆し、短期的な下落を想定。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "MA20レジスタンス強化と選択的弱さ。MA20到達確認後にエントリー",
-    "entry": "7668.93",
-    "tp": "7720.00",
-    "sl": "7550.00",
+    "status": "SELL",
+    "comment": "MA20下回りとRSI弱気、ファンダメンタルズ警告が売りを支持",
+    "entry": "7580.00",
+    "tp": "7500.00",
+    "sl": "7669.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20を下抜け規制懸念が重ねた下押しリスク",
-    "date": "2026-09-16 12:31",
+    "title": "[BTC/USD] DOWN: MA20下方と弱気センチメント",
+    "date": "2026-09-16 22:08",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20下抜けで売り圧力が顕在化",
-      "規制ニュースがリスクオフ sentiment を強化",
-      "bitflyer の流動性を活用した売りエントリーが望ましい"
+      "現在価格はMA20より3.05%下方で、短期トレンドは弱気",
+      "RSI 44.64は過売りではなく、下落余力が残る",
+      "規制敗北は構造的ではないが、中長期材料より短期の売り圧力が優位"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を下抜け、規制懸念が重なることで下押し圧力が強まっており、売り方向でのエントリーが検討されるべき状況となっている。",
+    "excerpt": "BTCはMA20比3.05%下方で、RSIも44.64と弱域。Clarity Act敗北は短期的な売り材料だが構造的損傷ではない。Deutsche Bankの保管開始とArc主net化は中長期材料であり、MA20再奪回前に押し目売りを優先する。",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "MA20下抜けと規制リスクが売りを後押し",
-    "entry": "75500",
-    "tp": "73000",
-    "sl": "76500",
-    "reliability": "HIGH"
+    "comment": "MA20下方とRSI 44.64により、反発売り優位",
+    "entry": "75681.25",
+    "tp": "72500.00",
+    "sl": "77400.00",
+    "reliability": "MEDIUM"
   }
 }
