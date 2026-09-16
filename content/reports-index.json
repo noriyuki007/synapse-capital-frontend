@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-09-17-crypto-ja",
+    "date": "2026-09-17 04:25",
+    "title": "[BTC/USD] DOWN: Price below MA20 and neutral RSI suggest further retracement",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USD trades below MA20, RSI neutral; regulatory noise continues, setting up for further retracement.",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-17-crypto-en",
+    "date": "2026-09-17 04:25",
+    "title": "[BTC/USD] DOWN: Price Trading Below MA20 as Regulatory Catalyst Remains Delayed",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD trades below MA20 at 75309 as Clarity Act stalls, prompting a defensive stance ahead of key support tests.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-09-17-stocks-ja",
+    "date": "2026-09-17 04:22",
+    "title": "[S&P 500] DOWN: MA20割れとファンダメンタルズの悪化を確認",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "野村證券",
+    "excerpt": "FRBの利上げと長期金利上昇がS&P 500に重しとなり、MA20割れとRSI37から下目線が強まる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-17-stocks-en",
+    "date": "2026-09-17 04:22",
+    "title": "[S&P 500] DOWN: Bearish Momentum Persists as Hawkish Fed Policy Overrides Technical Support",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 slides as hawkish Fed rate hike triggers sell-off; technical support breaks, signaling further bearish.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-09-17-fx-ja",
+    "date": "2026-09-17 04:21",
+    "title": "[USD/JPY] UP: Fedの追加利上げ示唆とMA20回復を待つ押し目買いの妥当性",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "Fedの9月FOMCでドットプロットが2026年の追加利上げを示唆し、米前年利が急騰。USD/JPYは156.097で取引され、MA20(157.157)を下回るものの、ファンダメンタルズの強気材料は変わらず、短期的な押し目が中期的な買い場となりうる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-17-fx-en",
+    "date": "2026-09-17 04:21",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY poised for reversal as Fed hawkishness meets oversold technical conditions near MA20.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-09-16-crypto-ja",
     "date": "2026-09-16 22:08",
     "title": "[BTC/USD] DOWN: MA20下方と弱気センチメント",
