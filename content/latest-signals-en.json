@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-17 04:21",
+    "title": "[USD/JPY] UP: AI Detects bullish fundamentals and technical bounce toward MA20",
+    "date": "2026-09-17 12:17",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Fed dot plot signals 2026 rate hike amid strengthening economy",
-      "USD/JPY oversold at RSI 38.89 with MA20 acting as dynamic support",
-      "Buy dip strategy with 1:2 reward-risk ratio targeting MA20 resistance cluster"
+      "Fed hike expectations bolster USD strength",
+      "Price below MA20 with RSI near 38 suggests room for upside",
+      "Key resistance at 157.00; break above targets 157.50"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised for reversal as Fed hawkishness meets oversold technical conditions near MA20.",
+    "excerpt": "Fed hike expectations and lower oil lift USD/JPY toward MA20 resistance.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Fed rate hike expectations align with oversold technicals creating high-probability entry at MA20 confluence zone",
-    "entry": "156.2",
-    "tp": "157.5",
-    "sl": "155.5",
+    "comment": "Fed hike expectations and technical bounce toward MA20 support upside.",
+    "entry": "156.00",
+    "tp": "157.50",
+    "sl": "155.30",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Bearish Momentum Persists as Hawkish Fed Policy Overrides Technical Support",
-    "date": "2026-09-17 04:22",
+    "title": "[S&P 500] UP: AI Detects Support near MA20 as Fundamentals Turn Bullish",
+    "date": "2026-09-17 12:39",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
     "tldr_points": [
-      "The Federal Reserve's hawkish 25 bps rate hike and persistent high 10-year yields have triggered a sharp equity sell-off.",
-      "Technical indicators show the S&P 500 trading significantly below its 20-day moving average at 7,660.15, signaling bearish dominance.",
-      "RSI(14) at 37.40 indicates strong bearish momentum, with room for further downside before reaching oversold conditions."
+      "Fed hike triggered short-term bounce despite technical weakness",
+      "RSI near 40 suggests oversold conditions, potential mean-reversion",
+      "Key resistance at MA20 (~7662) aligns with near-term upside target"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 slides as hawkish Fed rate hike triggers sell-off; technical support breaks, signaling further bearish.",
+    "excerpt": "S&P 500 poised for short-term rebound toward MA20 as Fed hike fuels oversold bounce.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "The S&P 500 is in a strong bearish trend below its 20-day moving average, driven by hawkish Fed policy and rising yields, offering a high-probability short setup.",
-    "entry": "7530.00",
-    "tp": "7400.00",
-    "sl": "7610.00",
-    "reliability": "HIGH"
+    "status": "BUY",
+    "comment": "Oversold RSI and post‑Fed bullish fundamentals support a bounce to MA20 resistance.",
+    "entry": "7552.00",
+    "tp": "7662.00",
+    "sl": "7450.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Trading Below MA20 as Regulatory Catalyst Remains Delayed",
-    "date": "2026-09-17 04:25",
+    "title": "[BTC/USD] DOWN: Price Below MA20 After Hawkish Fed Repricing",
+    "date": "2026-09-17 12:41",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price trading below MA20 indicating bearish momentum",
-      "RSI at 43.5 confirms bearish dominance without oversold conditions",
-      "Regulatory delays shift focus to immediate technical support"
+      "BTC is 2.14% below MA20 with RSI below 50.",
+      "Hawkish Fed repricing is the primary near-term headwind.",
+      "A rejection at 78,000-78,100 defines the tactical short."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD trades below MA20 at 75309 as Clarity Act stalls, prompting a defensive stance ahead of key support tests.",
+    "excerpt": "BTC is below MA20 after a hawkish Fed shift; regulatory progress is supportive, but momentum favors a pullback short now",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "Price below MA20 and RSI confirming bearish momentum amid regulatory delays.",
-    "entry": "77800.00",
-    "tp": "74500.00",
-    "sl": "79200.00",
+    "comment": "A failed rebound into MA20 offers asymmetric downside exposure while hawkish Fed positioning remains intact.",
+    "entry": "78000.00",
+    "tp": "73500.00",
+    "sl": "79250.00",
     "reliability": "MEDIUM"
   }
 }
