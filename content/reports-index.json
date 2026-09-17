@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-09-18-crypto-ja",
+    "date": "2026-09-18 04:37",
+    "title": "[BTC/USD] UP: MA20奪還後の反転と建設的材料を材料視",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTCはMA20を1.96%下回り、RSIは30付近まで低下した。規制緩和とETF関連材料は下支え要因だが、78,018ドルの奪還までは慎重とし、同水準ブレイク後の順張り買いを最適戦略とする。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-18-crypto-en",
+    "date": "2026-09-18 04:37",
+    "title": "[BTC/USD] UP: Oversold RSI Signals Reversal as ETF Optimism and Multichain Momentum Build",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD poised for rebound as RSI hits oversold, ETFs and multichain narratives fuel fundamental tailwinds.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-09-18-stocks-ja",
+    "date": "2026-09-18 04:33",
+    "title": "[S&P 500] UP: 5%金利警戒感下におけるMA20直近での押し目買い機会を特定",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "5%の米国債利回りがS&P 500に警戒感を与える一方、RSI 42.71と過熱感は後退。MA20直下での押し目買いを推奨する戦術的ロングシナリオを提示する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-18-stocks-en",
+    "date": "2026-09-18 04:33",
+    "title": "[S&P 500] DOWN: MA20 Resistance and 5% Yield Warning Signal Bearish Momentum",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Goldman Sachs",
+    "excerpt": "S&P 500 near 7639, below MA20 at 7658, RSI 42; Powell Q2 and 5% yield warning drive bearish bias.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-09-18-fx-ja",
+    "date": "2026-09-18 04:31",
+    "title": "[USD/JPY] UP: MA20での反発可能性とインフレ懸念によるファンダメンタルズ整合性",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "MA20を下回る水準で推移し、RSIは38と反転余地がある。インフレ懸念と地政学リスクが交錯する中、押し目買いを検討。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-18-fx-en",
+    "date": "2026-09-18 04:31",
+    "title": "[USD/JPY] DOWN: Iran Geopolitical Risk and Yield Decline Drive Safe-Haven Demand",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY faces renewed selling pressure amid Iran escalation fears and declining yields despite persistent inflation concerns.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-09-17-crypto-ja",
     "date": "2026-09-17 22:17",
     "title": "[BTC/USD] DOWN: MA20 未能回帰と弱気モメンタムの加速",
