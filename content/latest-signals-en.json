@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Technical Breakdown Below MA20 as BOJ Rate Hike Caps Upside",
-    "date": "2026-09-18 12:03",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-09-18 21:40",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "BOJ rate hike caps pair upside",
-      "Price trades below MA20",
-      "RSI-14 indicates bearish momentum"
+      "USD/JPY trades above its 20-day moving average, signaling short-term bullish momentum.",
+      "RSI at 42.43 leaves ample room for upward momentum without entering overbought territory.",
+      "Geopolitical risk and central bank divergence support a cautious long bias toward 158.50."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY faces downward pressure below the MA20 as the BOJ rate hike reinforces yield curve adjustments, prompting tactical short positioning.",
+    "excerpt": "USD/JPY maintains a bullish footprint above 156.95 dynamic support, targeting 158.50 as macro forces favor yield-differential expansion.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Bearish momentum below MA20 reinforced by BOJ rate hike.",
-    "entry": "156.80",
-    "tp": "156.00",
-    "sl": "157.20",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "USD/JPY remains supported above MA20 at 156.95, with neutral RSI indicating room for further upside toward 158.50.",
+    "entry": "157.00",
+    "tp": "158.50",
+    "sl": "156.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: Mixed fundamentals and MA20 resistance suggest consolidation",
-    "date": "2026-09-18 12:05",
+    "title": "[S&P 500] DOWN: Technical pressure and macro caution point to further decline",
+    "date": "2026-09-18 21:44",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "[]",
     "tldr_points": [
-      "MA20 resistance at 7658.4 caps near‑term upside.",
-      "RSI 42.6 indicates neutral momentum, caution warranted.",
-      "ETF warnings and mixed sentiment point to a consolidation phase."
+      "S&P 500 trades below 20‑day MA at 7,658, RSI neutral, signaling short‑term weakness.",
+      "Fed inflation uncertainty and earnings‑bubble concerns create bearish macro bias.",
+      "Short setup: entry 7,640, TP 7,500, SL 7,700; execute via []."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 hovering below MA20; mixed news and neutral RSI suggest flat near‑term action.",
+    "excerpt": "S&P 500 below MA20, mixed macro cues suggest near‑term downside; target 7,500, stop 7,700.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20 resistance and neutral RSI suggest a shallow bounce; dip buying offers asymmetric risk/reward.",
-    "entry": "7620",
-    "tp": "7658",
-    "sl": "7550",
+    "status": "SELL",
+    "comment": "Macro caution and technical pressure support a short bias.",
+    "entry": "7640",
+    "tp": "7500",
+    "sl": "7700",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Oversold RSI Suggests Bounce Toward MA20 Amid Mixed Fundamentals",
-    "date": "2026-09-18 12:08",
+    "title": "[BTC/USD] FLAT: Price Anchors to MA20 as Weak Momentum Offsets Bullish Catalysts",
+    "date": "2026-09-18 21:47",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price below MA20 with RSI ~33 indicates oversold condition.",
-      "Fundamentals show regulatory easing and ETF support offsetting geopolitical headwinds.",
-      "A tactical long toward MA20 with defined risk offers favorable risk/reward."
+      "BTC trades only 0.06% above MA20, signaling equilibrium rather than a confirmed trend.",
+      "RSI-14 at 43.19 reflects subdued momentum despite mildly constructive adoption headlines.",
+      "Remain neutral below $78,100; a conditional long targets $79,000 and $80,000 with a $77,400 stop."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD oversold near MA20; regulatory easing supports a tactical long toward 78k.",
+    "excerpt": "BTC sits almost exactly on MA20 with RSI 43.2; remain neutral until a confirmed break restores directional conviction.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Oversold RSI and supportive fundamentals favor a bounce toward MA20.",
-    "entry": "76800.00",
-    "tp": "78040.00",
-    "sl": "76200.00",
-    "reliability": "MEDIUM"
+    "status": "NEUTRAL",
+    "comment": "Price is balanced on MA20 with sub-50 RSI, so only a confirmed break above $78,100 justifies a conditional long.",
+    "entry": "78100.00",
+    "tp": "79000.00 / 80000.00",
+    "sl": "77400.00",
+    "reliability": "LOW"
   }
 }
