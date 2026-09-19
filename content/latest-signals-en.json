@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Weak Momentum and Intervention Risk Favor a Rebound Sell",
-    "date": "2026-09-19 03:51",
+    "title": "[USD/JPY] DOWN: MA20 Below Pivot and Intervention Risk Caps Rebound",
+    "date": "2026-09-19 12:00",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price remains below MA20 with weak, non-oversold momentum",
-      "Japanese FX intervention risk creates asymmetric downside tail risk",
-      "A rejection near 156.90 offers the preferred tactical short setup"
+      "USD/JPY is below the 156.90095062255858 MA20 with RSI-14 at 38.422296917313396.",
+      "Japan's FX rate check and intervention warning increase policy-risk asymmetry.",
+      "A conditional short below 156.90 targets 156.20; a reclaim of MA20 invalidates the setup."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY remains below MA20 with weak momentum; intervention risk and stalled rebound favor a tactical sell below 156.90.",
+    "excerpt": "USD/JPY sits below MA20 with weak momentum; Japan's intervention risk and yen-rate caution support a bearish bias today.",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "A failed rebound below MA20 offers downside exposure, with Japanese intervention risk limiting upside tail risk.",
+    "comment": "Price is below MA20 with RSI below 40, while intervention risk creates a conditional downside setup.",
     "entry": "156.90",
     "tp": "156.20",
-    "sl": "157.35",
+    "sl": "157.30",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Yield Pressure and RSI Below 50 Signal Downturn",
-    "date": "2026-09-19 03:52",
+    "title": "[S&P 500] DOWN: Sub-MA20 Price Meets Yield and Oil Pressure",
+    "date": "2026-09-19 12:32",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Broker",
+    "recommended_broker": "",
     "tldr_points": [
-      "Yields at 5% pressure equities",
-      "RSI at 44 indicates weakening momentum",
-      "Price below MA20 suggests continued downside"
+      "S&P 500 at 7650.5 remains below the 7658.891015625 MA20, preserving a tactical sell bias.",
+      "Elevated yields and oil are the primary macro headwinds despite isolated strength in momentum names.",
+      "Sell a failed 7658.891015625-7660 retest; target 7620 with a 7672 stop."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 slides as yields surge, RSI at 44 signals further downside.",
+    "excerpt": "The S&P 500 remains below its 20-day average as yields and oil pressure risk; sell failed MA20 retests with tight stops.",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "Bearish momentum confirmed by price below MA20 and RSI below 50.",
-    "entry": "7642.72",
-    "tp": "7600",
-    "sl": "7680",
+    "comment": "Price below MA20 and RSI under 50, reinforced by elevated yields and oil, favor a failed-retest short.",
+    "entry": "7655.00",
+    "tp": "7620.00",
+    "sl": "7672.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-19 03:54",
+    "date": "2026-09-19 12:36",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Bitcoin reclaims $80k on bullish momentum",
-      "CFTC rulemaking and institutional adoption catalysts",
-      "MA20 support holds with RSI in neutral zone"
+      "Bitcoin reclaimed $80K support level",
+      "Grayscale Zcash ETF 3-for-1 split drives inflows",
+      "Ava Labs tests Avalanche tech for tokenization"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD reclaims $81k with MA20 support intact; CFTC rulemaking and institutional flows drive bullish bias.",
+    "excerpt": "BTC/USD at 81,104; MA20 78,156; RSI 54.79. Grayscale Zcash ETF 3-for-1 split drives bullish momentum.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Bullish structure above MA20 with institutional catalysts supporting continuation.",
-    "entry": "81038.65",
-    "tp": "84000.00",
-    "sl": "77500.00",
+    "comment": "Technical breakout above MA20 with bullish RSI and ETF-driven inflows create strong long bias.",
+    "entry": "78700.00",
+    "tp": "82500.00",
+    "sl": "77200.00",
     "reliability": "HIGH"
   }
 }
