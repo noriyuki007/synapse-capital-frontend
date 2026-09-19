@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: MA20付近での抵抗と介入警戒が重し",
-    "date": "2026-09-19 21:15",
+    "title": "[USD/JPY] DOWN: MA20割れ後の下行加速と介入ギャップ警戒",
+    "date": "2026-09-20 03:24",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "BOJ後の為替レートチェックと介入警戒が米ドル売りを誘発",
-      "米長期金利上昇と日本国債利回り上昇が相反する圧力を生む",
-      "テクニカルはMA20 ligeramente 上抜けもRSIが弱気を示す"
+      "指定日時は日曜未開設に該当し、156.855は執行価格ではなく直近参照値として扱う",
+      "米債利回り上昇は下支え要因だが、原油安と当局介入警戒が上値を抑制",
+      "156.762のMA20割れ確認後は156.25、155.85を目標に売り戻しを優先"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "BOJ後の為替レートチェックと市場の介入警戒が重なり、USD/JPYはMA20付近での売り圧力が強まる。さらに債券利回りの上昇が円買いを後押しし、短期的な下振れリスクが高まっている。",
+    "excerpt": "米債利回り上昇は下支え要因だが、日曜未開設によるギャップリスクと当局介入警戒が上値を抑制。即時成行は避け、156.762のMA20割れ後は156.25、155.85を目標に売り戻しを優先し、157.12で撤退する。",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "BOJ為替チェックと介入警戒が円買いを促し、MA20付近のレジスタンスとRSI弱気シグナルが売りを支持",
-    "entry": "156.80",
-    "tp": "156.30",
-    "sl": "157.10",
-    "reliability": "HIGH"
+    "comment": "MA20割れ確認を条件に下行を優先。日曜未開設と介入リスクにより信頼度は抑制。",
+    "entry": "156.68",
+    "tp": "156.25 / 155.85",
+    "sl": "157.12",
+    "reliability": "LOW"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20 support and balanced catalysts",
-    "date": "2026-09-19 21:18",
+    "title": "[S&P 500] DOWN: MA20割れと利上回り圧力の二重矢が局面を迎える",
+    "date": "2026-09-20 03:28",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "バークレイズブローカー",
     "tldr_points": [
-      "MA20 proximity offers controlled upside entry",
-      "RSI near 45 signals neutral momentum – room for gradual recovery",
-      "Mixed catalysts (tech strength vs macro pressure) favor a cautious bullish bias"
+      "MA20（7,658.9）割れで短期トレンド転換シグナル",
+      "RSI14=45.07で弱気フットプリント確認",
+      "利上回りとマージンレバレッジが同時発生リスクを示唆"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 at 7,650 trades below MA20; RSI 45 indicates neutral ground. Tech surges offset macro headwinds, setting stage for a measured rally.",
+    "excerpt": "S&P500がMA20割れを確認し、利上回リスクとマージンレバレッジ圧力が同時に強まる局面。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Current price below MA20 with neutral RSI suggests controlled upside; entry at 7,640 with SL 7,580 and TP MA20 7,658.",
-    "entry": "7640.00",
-    "tp": "7658.00",
-    "sl": "7580.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P500がMA20割れを確認し、利上回リスクとマージンレバレッジ圧力が同時に強まる局面。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-19 21:20",
+    "title": "[BTC/USD] UP: MA20附近的反発とETF資金流入の整合性",
+    "date": "2026-09-20 03:33",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTCは80kを回復し、MA20の支持と強気なファンダメンタルズの後押しで上昇",
-      "リファイナンス環境の改善と規制進行が上昇圧力を後押",
-      "ストップ高で上昇が続く中、目先抵抗は84k、重要支持は78k"
+      "BTC/USDは81,384円で上昇傾向",
+      "MA20を上回り、RSI55で強気モーメンタム",
+      "ETF流入と機関投資家関心が支援"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "ビットコインは80kを回復し、MA20の支持と強気なファンダメンタルズの後押しで上昇、リファイナンス環境の改善と規制進行が上昇圧力を後押し、目先抵抗は84k、重要支持は78k。",
+    "excerpt": "BTC/USDは81,384円で上昇。MA20を上回り、RSI55で強気。ETF流入と institutional interest が継続的に支援。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "価格がMA20を上回り、強気なファンダメンタルズが上昇圧力をサポート。78,300でエントリーし、84kで利益確定。SLは77kに設定。",
-    "entry": "78300",
-    "tp": "84000",
-    "sl": "77000",
+    "comment": "MA20を上回る価格推移とETF資金流入の支持により、上昇傾向が継続",
+    "entry": "81000",
+    "tp": "83000",
+    "sl": "79500",
     "reliability": "HIGH"
   }
 }
