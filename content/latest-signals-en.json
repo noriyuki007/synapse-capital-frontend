@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: MA20 Below Pivot and Intervention Risk Caps Rebound",
-    "date": "2026-09-19 12:00",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-09-19 21:15",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY is below the 156.90095062255858 MA20 with RSI-14 at 38.422296917313396.",
-      "Japan's FX rate check and intervention warning increase policy-risk asymmetry.",
-      "A conditional short below 156.90 targets 156.20; a reclaim of MA20 invalidates the setup."
+      "USD/JPY holds above key MA20 support at 156.76 despite Japanese FX rate check.",
+      "Bond yield dynamics and BOJ policy divergence support USD strength, but intervention risk remains a key volatility driver.",
+      "Tactical entry initiated on dip toward 156.80 with tight stop-loss below 156.50."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY sits below MA20 with weak momentum; Japan's intervention risk and yen-rate caution support a bearish bias today.",
+    "excerpt": "USD/JPY holds MA20 support amid BOJ divergence. Intervention risk requires disciplined tactical entries.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Price is below MA20 with RSI below 40, while intervention risk creates a conditional downside setup.",
-    "entry": "156.90",
-    "tp": "156.20",
-    "sl": "157.30",
+    "status": "BUY",
+    "comment": "USD/JPY holds above MA20 support at 156.76, with RSI at 39.47 signaling healthy consolidation ahead of a potential breakout toward 157.20.",
+    "entry": "156.78",
+    "tp": "157.20",
+    "sl": "156.50",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Sub-MA20 Price Meets Yield and Oil Pressure",
-    "date": "2026-09-19 12:32",
+    "title": "[S&P 500] DOWN: Price Below MA20 as Elevated Yields Cap Momentum",
+    "date": "2026-09-19 21:18",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 at 7650.5 remains below the 7658.891015625 MA20, preserving a tactical sell bias.",
-      "Elevated yields and oil are the primary macro headwinds despite isolated strength in momentum names.",
-      "Sell a failed 7658.891015625-7660 retest; target 7620 with a 7672 stop."
+      "The S&P 500 trades 8.39 points below its MA20, creating a near-term bearish pivot.",
+      "Elevated yields and oil are the principal macro headwinds despite resilience in the index and selected momentum names.",
+      "A tactical short at 7650.50 targets 7600.00, with 7680.00 as the invalidation level."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "The S&P 500 remains below its 20-day average as yields and oil pressure risk; sell failed MA20 retests with tight stops.",
+    "excerpt": "S&P 500 sits below its MA20 as elevated yields and oil support a tactical downside setup toward 7600.",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "Price below MA20 and RSI under 50, reinforced by elevated yields and oil, favor a failed-retest short.",
-    "entry": "7655.00",
-    "tp": "7620.00",
-    "sl": "7672.00",
+    "comment": "Price is below MA20 with sub-50 RSI, while elevated yields and oil create a tactical downside bias.",
+    "entry": "7650.50",
+    "tp": "7600.00",
+    "sl": "7680.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-19 12:36",
+    "title": "[BTC/USD] UP: Price Holds Above MA20 as Fundamentals Turn Bullish",
+    "date": "2026-09-19 21:20",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Bitcoin reclaimed $80K support level",
-      "Grayscale Zcash ETF 3-for-1 split drives inflows",
-      "Ava Labs tests Avalanche tech for tokenization"
+      "BTC holds above 20‑day MA at ~78.3k, signaling short‑term support.",
+      "RSI near 55 indicates balanced momentum with upside bias.",
+      "Positive news flow: Grayscale ETF split, NYSE testing Avalanche, regulatory push."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD at 81,104; MA20 78,156; RSI 54.79. Grayscale Zcash ETF 3-for-1 split drives bullish momentum.",
+    "excerpt": "BTC stays above MA20 with bullish news and balanced RSI, suggesting upward tilt.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Technical breakout above MA20 with bullish RSI and ETF-driven inflows create strong long bias.",
-    "entry": "78700.00",
-    "tp": "82500.00",
-    "sl": "77200.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTC stays above MA20 with bullish news and balanced RSI, suggesting upward tilt.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
