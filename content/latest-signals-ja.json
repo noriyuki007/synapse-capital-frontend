@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: 為替レートチェック介入警戒とレジスタンス明確化による反落シナリオ",
-    "date": "2026-09-20 12:15",
+    "title": "[USD/JPY] DOWN: 介入リスクとMA20上抜けの限界",
+    "date": "2026-09-20 21:50",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "財務省の為替レートチェック観測が介入警戒を再燃",
-      "156.80-157.00のレジスタンスで上値が明確に抑えられる",
-      "RSI39.5と弱気モメンタムが反落バイアスを支持"
+      "米長期金利の上昇がドルを支えるも実質金利の鈍化が円買いを補強",
+      "介入警戒とFXレートチェックで上値が重く、ボンドスラムと原油安がリスクオフを助長",
+      "価格はMA20をわずかに上回るがRSI39.5でモメンタム弱含み、下抜けリスクが顕在化"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "為替レートチェックによる介入警戒が相場の重しとなる中、USD/JPYは156.85前後で上値の重い展開。MA20を上回るもRSIは弱気圏にあり、157.00手前でのショート戦略を推告する。",
+    "excerpt": "USD/JPYはMA20を僅かに上回るも、介入警戒とRSI低下で下抜けリスクが高まる。売り戦略を推奨。",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "為替レートチェック介入警戒とRSI弱気乖離、157.00のレジスタンス集中により反落を予想",
-    "entry": "157.00",
-    "tp": "155.80",
-    "sl": "157.60",
-    "reliability": "HIGH"
+    "comment": "介入警戒とRSI低下による下抜けリスクが優位",
+    "entry": "156.78",
+    "tp": "156.30",
+    "sl": "156.95",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20付近での反発とファンダメンタルズの整合性を確認",
-    "date": "2026-09-20 12:18",
+    "title": "[S&P 500] DOWN: MA20割れと金利懸念が重なる下振れリスク",
+    "date": "2026-09-20 21:55",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "S&P 500はMA20を若干下回るもRSIは中立域",
-      "10年物利回り上昇がディフェンシブシフトを促す",
-      "押し目買いの機会としてMA20付近を狙う"
+      "FRBの追加利上げ観測が利益率圧迫を悪化",
+      "テクニカルはMA20を下抜け、売りサイン点灯",
+      "流動性が厳しい中でNomura Securitiesの執行力が鍵"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を下回るもRSIは中立、金利上昇とファンドフローが混在し、押し目買いの機会が窺える。",
+    "excerpt": "マクロの利上げ懸念とMA20割れが重なり、S&P 500は短期的な下押しリスクが高まっている。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20付近の押し目買い、RSI中立およびファンダメンタルズ底堅さを根拠に",
+    "status": "SELL",
+    "comment": "MA20割れと金利上昇が下押しリスクを強めるため売り推奨",
     "entry": "7645.00",
-    "tp": "7700.00",
-    "sl": "7620.00",
+    "tp": "7580.00",
+    "sl": "7680.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-20 12:29",
+    "title": "[BTC/USD] UP: MA20上回りのポジショニングとETF資金流入の再加速が上値探求を支持",
+    "date": "2026-09-20 21:57",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を上抜け、上昇バイアスが強まる",
-      "ETFフローが継続的に資金流入を示す",
-      "RSIは中立域で過熱感は限定的"
+      "米国BTC ETFの週次大幅流入が$80,000回復を牽引しファンダメンタルズの強気構造を確認",
+      "現在価格がMA20(78,418)を上方に推移し中期的ブル相場トレンドを維持",
+      "RSI(14)が50.24で中立域に位置し、過熱警告なしに追加上値余地を残す"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を上回り、ETF資金流入とマクロ環境の改善から上昇余地が見込まれる。",
+    "excerpt": "BTC/USDは$80,000を再掌握し、MA20上方での堅調なポジショニングを維持している。ETF資金流入の再加速と規制環境の不透明感の軽減が相まって、短中期的な上値探求トレンドが続くと判断する。RSIの中立域位置は追加ポジション取りの環境を整えている。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上抜けとETF資金流入が上昇バイアスを支える",
-    "entry": "80200",
-    "tp": "82500",
-    "sl": "78800",
+    "comment": "MA20上方のポジショニングとETF資金流入の再加速が上値バイアスを支持。RSI中立域は追加エントリー環境を整える。",
+    "entry": "80000",
+    "tp": "84500",
+    "sl": "77500",
     "reliability": "HIGH"
   }
 }
