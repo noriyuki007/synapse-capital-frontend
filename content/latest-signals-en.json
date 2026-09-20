@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] FLAT: Price Stalls at Key Retracement as BOJ Rate Check Dampens Momentum",
-    "date": "2026-09-20 21:50",
+    "title": "[USD/JPY] UP: MA20 Support Holds as Fundamentals Favor Higher Yields",
+    "date": "2026-09-21 03:28",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holding above MA20 at 156.85 but RSI below 40 signals weak bullish conviction",
-      "BOJ FX rate check and intervention warnings cap downside for JPY",
-      "Slumping bond yields and softer oil temper USD upside catalysts"
+      "Yen weakening amid BOJ rate check divergence",
+      "Price stalls at MA20 retracement level",
+      "Intervention risk elevated but limited near-term"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY consolidates at 156.85 above MA20; RSI divergence and intervention risk suggest range-bound drift",
+    "excerpt": "USD/JPY stalls at MA20 as BOJ rate divergence and intervention warnings create tactical entry above 156.76.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "Range-bound between intervention ceiling and MA20 support; fade strength above 157.20",
-    "entry": "157.15",
-    "tp": "156.30",
-    "sl": "157.45",
+    "status": "BUY",
+    "comment": "Bullish MA20 support holds with yield differential favor",
+    "entry": "156.85",
+    "tp": "157.45",
+    "sl": "156.40",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Price Rejects MA20 Amid Hawkish Fed Risks and Valuation Concerns",
-    "date": "2026-09-20 21:55",
+    "title": "[S&P 500] DOWN: Price below MA20 amid Fed tightening and valuation risk",
+    "date": "2026-09-21 03:29",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "recommended_broker": "Goldman Sachs",
     "tldr_points": [
-      "Price below MA20 signals bearish momentum",
-      "RSI neutral at 45 lacks bullish conviction",
-      "Fed hawkishness and Trump policy risks dominate"
+      "Price below MA20 signals short bias",
+      "Fed rate hike expectations weigh on valuations",
+      "RSI near neutral suggests limited upside potential"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 rejects MA20 as rate hike fears and political risks cap rallies.",
+    "excerpt": "S&P 500 trades below MA20 with bearish bias as Fed hints more hikes, valuation risk rises.",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "Price below MA20 with RSI lacking momentum amid hawkish Fed and political risks.",
-    "entry": "7650.50",
-    "tp": "7600.00",
-    "sl": "7675.00",
-    "reliability": "MEDIUM"
+    "comment": "Price below MA20 with bearish sentiment and elevated valuation risk",
+    "entry": "7658.9",
+    "tp": "7600.0",
+    "sl": "7665.0",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Flows Support Reclamation of 80K as Momentum Stabilizes",
-    "date": "2026-09-20 21:57",
+    "title": "[BTC/USD] UP: ETF Inflows Fuel Bullish Breakout Above $80,000 as Technicals Align",
+    "date": "2026-09-21 03:35",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "ETF inflows confirm institutional accumulation",
-      "Price holding above MA20 signals structural support",
-      "RSI neutral leaves room for upside momentum"
+      "BTC/USD breaches critical $80,000 resistance with strong volume and positive ETF flow dynamics.",
+      "Price trades comfortably above the 20-day moving average at $78,459, confirming bullish trend continuation.",
+      "RSI-14 at 53.06 indicates neutral-to-bullish momentum with ample room for upward expansion."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC reclaims 80K as ETF inflows drive institutional demand; technicals stabilize above MA20 with neutral RSI.",
+    "excerpt": "BTC/USD breaches $80,000 resistance as institutional inflows surge, technicals remain firmly bullish above the 20-day moving average.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "ETF inflows and MA20 support drive bullish continuation thesis.",
-    "entry": "80425.38",
-    "tp": "83500.00",
-    "sl": "77800.00",
+    "comment": "Strong institutional ETF inflows and bullish technical structure above the 20-day MA support a continuation rally toward $85,000.",
+    "entry": "80500.00",
+    "tp": "85000.00",
+    "sl": "77500.00",
     "reliability": "HIGH"
   }
 }
