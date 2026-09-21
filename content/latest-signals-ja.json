@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-21 03:28",
+    "title": "[USD/JPY] UP: MA20 support aligns with hawkish Fed outlook",
+    "date": "2026-09-21 12:11",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "BOJ後のレートチェックと米債利回り上昇が円安を下支え",
-      "MA20がサポートとして機能する押し目買い場を確認",
-      "RSI調整局面は一時的、買い優勢の再開を想定"
+      "MA20 support near 156.77",
+      "Fed Oct/Dec hike expectations boost USD",
+      "Risk‑off geopolitics favour JPY but USD dominance prevails"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米債利回りの上昇とBOJのFXレートチェックを背景に、USD/JPYがMA20を回復する強含みを維持。本日のAI解析による押し目買い戦略とリスク管理水準を提示する。リスクテイクを制御しながらの上昇相場継続を想定。",
+    "excerpt": "USD/JPY holds above MA20 at 156.93; Fed tightening and mixed risk cues point to modest upside.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20サポートと利回り差拡大の整合性",
-    "entry": "156.85",
-    "tp": "158.50",
-    "sl": "155.80",
-    "reliability": "HIGH"
+    "comment": "Fed tightening and MA20 support signal USD appreciation.",
+    "entry": "156.70",
+    "tp": "158.00",
+    "sl": "156.20",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20上抑制とリスクヘッジの必要性を確認",
-    "date": "2026-09-21 03:29",
+    "title": "[S&P 500] UP: MA20付近での反発と強気ファンダメンタルズの整合性",
+    "date": "2026-09-21 12:12",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "UP",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "MA20上抑制とRSI45でリスクヘッジが必要",
-      "リスクヘッジと流動性管理が市場変動を制御",
-      "下値リスクが高まり、短期的な下押しが予想"
+      "価格はMA20わずかに下回り、反発の余地あり",
+      "RSIは45で中立圏、過売りシグナル未満",
+      "ファンダメンタルズはジェファリーズ等の強気見込みと選挙サイクルが支援"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500は7650.5でMA20(7658.9)下に、RSI45とリスクヘッジ警戒感から下値リスクが高まる可能性を示唆。市場は利上げ期待と流動性縮小が重荷となり、短期的な下押しが予想され、投資家はリスク管理を徹底すべき。",
+    "excerpt": "MA20近辺での反発期待とファンダメンタルズの強気姿勢がS&P500の上値を支える。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P500は7650.5でMA20(7658.9)下に、RSI45とリスクヘッジ警戒感から下値リスクが高まる可能性を示唆。市場は利上げ期待と流動性縮小が重荷となり、短期的な下押しが予想され、投資家はリスク管理を徹底すべき。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "MA20付近の押し目買いはファンダメンタルズの上方修正期待とテクニカル反発シグナルに裏付けられている",
+    "entry": "7640.00",
+    "tp": "7660.00",
+    "sl": "7620.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20反発と強気ファンダメンタルズに基づく",
-    "date": "2026-09-21 03:35",
+    "title": "[BTC/USD] UP: MA20上積みと80,000ドル回復が買い優位を支持",
+    "date": "2026-09-21 12:13",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTC価格が20MAを上回り、ETF資金流入が継続",
-      "RSIが中立圏でモメンタムが安定",
-      "直近支持線は77,000ドル付近に限定される"
+      "BTC/USDはMA20を3.5%上回り、短期トレンドは買い優位",
+      "金曜のBTC ETF純流入4.33億ドルと80,000ドル回復が需給を下支え",
+      "80,800〜81,100ドルの押し目買い、目標85,000ドル、損切り78,300ドル"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCは20MAを上回り、ETFの資金流入とマクロ強気材料を背景に90Kドル付近まで上昇する可能性がある。",
+    "excerpt": "BTC/USDは81,227ドルとMA20を3.5%上回り、ETF純流入と80,000ドル回復が下支え。RSIは中立圏で過熱感は低いが、板・金利データ未確認のため押し目限定の買いが最適。損切り78,300ドル、目標85,000ドルで損益比を確保する。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20支持とETF資金流入による強気ファンダメンタルズ",
-    "entry": "78500",
-    "tp": "90000",
-    "sl": "77000",
-    "reliability": "HIGH"
+    "comment": "MA20上積み、ETF純流入、80,000ドル回復が買い材料だが、板・金利データ不足により押し目限定",
+    "entry": "80950.00",
+    "tp": "85000.00",
+    "sl": "78300.00",
+    "reliability": "MEDIUM"
   }
 }
