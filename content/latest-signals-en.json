@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Price Holds Above MA20 Despite Soft Momentum",
-    "date": "2026-09-21 23:49",
+    "title": "[USD/JPY] UP: MA20 Support and Hawkish Fed Signals Favor Rebound",
+    "date": "2026-09-22 05:15",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY remains above the 20-period moving average, preserving a tactical long bias.",
-      "RSI-14 at 41.91 signals sub-neutral momentum and favors a support-led entry over a breakout chase.",
-      "Risk-on oil weakness supports the dollar pair, while lower Japanese import costs temper conviction."
+      "Price holds approximately 0.40% above MA20, preserving a conditional bullish structure",
+      "Musalem's higher-rate signal supports USD carry if front-end yields confirm",
+      "Buy a 156.90 pullback with a 158.20 target and 156.20 stop"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY favors a pullback buy near 156.79; price holds above MA20, though soft RSI and risk-on oil news limit conviction",
+    "excerpt": "USD/JPY holds above MA20 as hawkish Fed signals favor a rebound toward 158.20, with 156.79 the key downside invalidation",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPY favors a pullback buy near 156.79; price holds above MA20, though soft RSI and risk-on oil news limit conviction",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "MA20 support and hawkish Fed signaling favor a rebound, but sub-50 RSI keeps conviction medium.",
+    "entry": "156.90",
+    "tp": "158.20",
+    "sl": "156.20",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-21 23:52",
+    "date": "2026-09-22 05:18",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 is trading above its 20-day moving average at 7661.15, maintaining a bullish trend structure.",
-      "RSI at 52.51159386349304 indicates neutral momentum, allowing for a fresh upward leg without overbought constraints.",
-      "Tech sector valuations are at historical lows, providing a high-conviction entry point for long-term investors."
+      "S&P 500 exhibits strong bullish momentum, holding well above the 20-day moving average.",
+      "Sliding crude oil prices and resilient communication/technology sectors provide key fundamental tailwinds.",
+      "RSI at 55.53 indicates healthy bullish momentum without immediate overbought extremes."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds key support at MA20 as tech valuations present a rare buying opportunity, signaling a tactical long entry.",
+    "excerpt": "S&P 500 targets record highs as falling oil prices and tech strength drive institutional buying.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "S&P 500 is set to rebound from MA20 support as tech valuations offer attractive entry points.",
-    "entry": "7670.00",
-    "tp": "7780.00",
-    "sl": "7635.00",
+    "comment": "S&P 500 is primed for further upside as falling crude oil prices ease inflation fears and tech giants lead a strong sectoral rotation.",
+    "entry": "7730.00",
+    "tp": "7900.00",
+    "sl": "7630.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-21 23:54",
+    "title": "[BTC/USD] UP: AI Detects Bullish Momentum as Fundamentals Strengthen",
+    "date": "2026-09-22 05:22",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price rebounds to $86,019 as institutional demand intensifies",
-      "MA20 acts as dynamic support amid bullish RSI momentum",
-      "Strategy and Bitmine accumulations signal sustained buying interest"
+      "Price holds above MA20 with RSI near 71, indicating sustained upside.",
+      "Institutional inflows from Strive and Strategy reinforce bullish fundamentals.",
+      "Macro backdrop supportive as regulatory headwinds ease per Clarity Act fallout."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD rebounds to $86K as institutional demand and RSI momentum align above MA20.",
+    "excerpt": "BTC/USD trades above MA20 with RSI 70.6, buoyed by institutional buying and easing regulatory concerns.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USD rebounds to $86K as institutional demand and RSI momentum align above MA20.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Price above MA20 with RSI near 71 and supportive fundamentals justify a long bias.",
+    "entry": "86500",
+    "tp": "92500",
+    "sl": "83500",
+    "reliability": "HIGH"
   }
 }

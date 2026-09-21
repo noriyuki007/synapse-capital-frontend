@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-09-22-crypto-ja",
+    "date": "2026-09-22 05:22",
+    "title": "[BTC/USD] UP: MA20付近の押し目と強気ファンダメンタルズの整合性",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USDはMA20付近の押し目で買い場を狙い、RSI70超えで上値余地あり。リスク管理を徹底し、bitflyerで流動性確保。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-22-crypto-en",
+    "date": "2026-09-22 05:22",
+    "title": "[BTC/USD] UP: AI Detects Bullish Momentum as Fundamentals Strengthen",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD trades above MA20 with RSI 70.6, buoyed by institutional buying and easing regulatory concerns.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-09-22-stocks-ja",
+    "date": "2026-09-22 05:18",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "野村證券",
+    "excerpt": "S&P500はMA20上抜けとRSI中立で上向き bias、ハイテク株と原油下落が支え、短期的な上昇余地が見込まれる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-22-stocks-en",
+    "date": "2026-09-22 05:18",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 targets record highs as falling oil prices and tech strength drive institutional buying.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-09-22-fx-ja",
+    "date": "2026-09-22 05:15",
+    "title": "[USD/JPY] UP: 利上げ期待とMA20サポートの整合性を確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "利上げ観測とMA20サポートが円安軌道を維持。61.8%リトレースメント付近での押し目買いを推奨。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-22-fx-en",
+    "date": "2026-09-22 05:15",
+    "title": "[USD/JPY] UP: MA20 Support and Hawkish Fed Signals Favor Rebound",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY holds above MA20 as hawkish Fed signals favor a rebound toward 158.20, with 156.79 the key downside invalidation",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-09-21-crypto-ja",
     "date": "2026-09-21 23:54",
     "title": "[BTC/USD] UP: 85,000ドル突破と強気ファンダメンタルズを根拠に押し目買い",

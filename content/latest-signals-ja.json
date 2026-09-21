@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20付近での反発とリスクオンの高まりを確認",
-    "date": "2026-09-21 23:49",
+    "title": "[USD/JPY] UP: 利上げ期待とMA20サポートの整合性を確認",
+    "date": "2026-09-22 05:15",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "ドル円はMA20を上回り、リスクオンの強まりで上値余地が拡大",
-      "RSIは41と弱含みで上げ幅は限定的、押し目買いが有効",
-      "原油安と中東情勢の緩和が円売りを後押し、ただし地政学リスクは残存"
+      "セントルイス連銀の利上げ発言がドル強気を後押し",
+      "61.8%リトレースメントで買い注文の凝縮確認",
+      "RSI41.88で過度な売られず、反発余地残す"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "ドル円はMA20を上抜け、リスクオンの高まりと原油安が円売りを後押し。ただしRSIは41と弱含みで、上げ幅は限定的と見込む。",
+    "excerpt": "利上げ観測とMA20サポートが円安軌道を維持。61.8%リトレースメント付近での押し目買いを推奨。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "ドル円はMA20を上抜け、リスクオンの高まりと原油安が円売りを後押し。ただしRSIは41と弱含みで、上げ幅は限定的と見込む。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20サポートと利上げ観測の整合性",
+    "entry": "157.42",
+    "tp": "158.20",
+    "sl": "156.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20上方の堅調な構造と割安テクノロジーの反発期待",
-    "date": "2026-09-21 23:52",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-09-22 05:18",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "野村證券",
     "tldr_points": [
-      "テクニカル指標はMA20上方での推移を確認",
-      "割安なテクノロジー株が下支え要因となる",
-      "リスク管理を伴う戦略的ポジション構築を推奨"
+      "価格はMA20を上回り、RSIは55.5で中立からやや強気",
+      "ハイテク株の上昇と原油価格下落が相乗効果",
+      "流動性の観点から野村證券の利用を推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500は7719.55で推移し、MA20の7661.15を上方で維持している。割安なテクノロジーセクターの反発期待と中性的なRSIを考慮し、戦略的な買いポジションの構築を推奨する。",
+    "excerpt": "S&P500はMA20上抜けとRSI中立で上向き bias、ハイテク株と原油下落が支え、短期的な上昇余地が見込まれる。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20上方で推移し、割安テクノロジーの反発期待が高い",
-    "entry": "7719.55",
-    "tp": "7850.00",
-    "sl": "7620.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20上抜けとRSI中立、ファンダメンタルズの上向きが裏付け",
+    "entry": "7670.00",
+    "tp": "7925.00",
+    "sl": "7560.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: 85,000ドル突破と強気ファンダメンタルズを根拠に押し目買い",
-    "date": "2026-09-21 23:54",
+    "title": "[BTC/USD] UP: MA20付近の押し目と強気ファンダメンタルズの整合性",
+    "date": "2026-09-22 05:22",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "85,000ドル突破とMA20上乗せにより、中期トレンドはUP",
-      "RSIは69.02で過熱感があり、追高より85,000ドル附近的な押し目を優先",
-      "84,800〜85,200ドルを買い、90,000ドルを第一段階の目標に設定"
+      "MA20上抜けで上値余地あり",
+      "RSI70超えもニュースが支え、上昇トレンド継続",
+      "bitflyerで流動性確保しリスク管理を徹底"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCは85,000ドル超えと企業・投機筋の買いを背景に強気。MA20を上回るもRSIは69で過熱感があるため、84,500〜85,000ドルの押し目を買い、90,000ドルを第一段階の利益確定目標とする。",
+    "excerpt": "BTC/USDはMA20付近の押し目で買い場を狙い、RSI70超えで上値余地あり。リスク管理を徹底し、bitflyerで流動性確保。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "85,000ドル突破後の押し目を買い、企業需要とショート清算を反映する。",
-    "entry": "84800.00",
-    "tp": "90000.00",
-    "sl": "82600.00",
+    "status": "NEUTRAL",
+    "comment": "BTC/USDはMA20付近の押し目で買い場を狙い、RSI70超えで上値余地あり。リスク管理を徹底し、bitflyerで流動性確保。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
