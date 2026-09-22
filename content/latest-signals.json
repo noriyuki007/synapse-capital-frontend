@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 利上げ期待とMA20サポートの整合性を確認",
-    "date": "2026-09-22 05:15",
+    "title": "[USD/JPY] UP: MA20 pullback aligns with hawkish Fed",
+    "date": "2026-09-22 12:10",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "セントルイス連銀の利上げ発言がドル強気を後押し",
-      "61.8%リトレースメントで買い注文の凝縮確認",
-      "RSI41.88で過度な売られず、反発余地残す"
+      "Hawkish Fed outlook reinforces higher rate expectations",
+      "Rising oil prices drive near‑term inflation concerns",
+      "PBOC USD/CNY central rate supports dollar strength"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "利上げ観測とMA20サポートが円安軌道を維持。61.8%リトレースメント付近での押し目買いを推奨。",
+    "excerpt": "USD/JPY bullish on Fed hawkishness, oil‑driven inflation, and stronger USD via PBOC policy.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20サポートと利上げ観測の整合性",
-    "entry": "157.42",
-    "tp": "158.20",
-    "sl": "156.50",
+    "comment": "MA20反発と強気なFed見通しを根拠とする",
+    "entry": "156.80",
+    "tp": "158.00",
+    "sl": "155.60",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-22 05:18",
+    "title": "[S&P 500] UP: AI主導のファンダメンタルズとMA20上のテクニカル構造の整合性を確認",
+    "date": "2026-09-22 12:13",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "野村證券",
+    "recommended_broker": "",
     "tldr_points": [
-      "価格はMA20を上回り、RSIは55.5で中立からやや強気",
-      "ハイテク株の上昇と原油価格下落が相乗効果",
-      "流動性の観点から野村證券の利用を推奨"
+      "AIラリーによる構造的押し上げ",
+      "MA20上でのトレンド維持",
+      "トランプ・習会による地政学リスクの後退"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20上抜けとRSI中立で上向き bias、ハイテク株と原油下落が支え、短期的な上昇余地が見込まれる。",
+    "excerpt": "S&P 500はAI主導のファンダメンタルズと地政学リスクの後退を受け、MA20を上回る強気構造を維持している。テクニカル指標はモメンタムの回復を示唆し、短期的な押し目買いのエントリーが妥当である。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20上抜けとRSI中立、ファンダメンタルズの上向きが裏付け",
-    "entry": "7670.00",
-    "tp": "7925.00",
-    "sl": "7560.00",
+    "comment": "MA20上でのテクニカル強気とAI主導のファンダメンタルズの整合性",
+    "entry": "7700.00",
+    "tp": "7850.00",
+    "sl": "7630.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20付近の押し目と強気ファンダメンタルズの整合性",
-    "date": "2026-09-22 05:22",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-09-22 12:15",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20上抜けで上値余地あり",
-      "RSI70超えもニュースが支え、上昇トレンド継続",
-      "bitflyerで流動性確保しリスク管理を徹底"
+      "RSIの過熱感（68.25）が一時的な調整を誘発する可能性があるが、MA20（78,863）を下支えとする強気構造は不変",
+      "StriveやBitmineによる大口・企業レベルの蓄積以及 Tom Lee のブルマーケット宣言がファンダメンタルズを支援",
+      "政治的レギュレーション（Clarity Act, PAC支出）の前進が機関投資家参入の土台を築く"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20付近の押し目で買い場を狙い、RSI70超えで上値余地あり。リスク管理を徹底し、bitflyerで流動性確保。",
+    "excerpt": "BTC/USDはMA20を明確なサポートとして85,000円台を確保。一時的なRSI過熱を経て、企業による大口蓄積を背景に上昇基調を維持する。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USDはMA20付近の押し目で買い場を狙い、RSI70超えで上値余地あり。リスク管理を徹底し、bitflyerで流動性確保。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "強気ファンダメンタルズ（企業による大口蓄積、制度整備）とMA20上での価格維持により上昇基調。RSI過熱期は一時的な調整を伴うが、押目买入機。",
+    "entry": "83000.00",
+    "tp": "88000.00",
+    "sl": "78000.00",
+    "reliability": "HIGH"
   }
 }
