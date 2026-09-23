@@ -1,68 +1,66 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Bullish Momentum as Price Holds Above MA20 with Modest RSI",
-    "date": "2026-09-23 12:10",
+    "title": "[USD/JPY] UP: Yield Escalation and Safe-Haven Dollar Flows Drive Bullish Momentum",
+    "date": "2026-09-23 22:19",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above MA20 at 157.63, signaling near-term upside bias.",
-      "PBOC USD/CNY fix at 6.7468 supports USD strength amid mixed risk sentiment.",
-      "Entry near 157.30 with TP 158.80 and SL 156.50 offers a favorable risk‑reward."
+      "US Treasury yields climbing toward 5% provide structural tailwinds for USD"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY above MA20 at 157.63 RSI 45 shows mild bullish bias amid steady yields and cautious sentiment in the near term.",
+    "excerpt": "USD/JPY sustains bullish bias as 5% Treasury yield proximity and geopolitical risk drive US Dollar demand.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price above MA20 with mild bullish momentum; entry on pullback offers favorable risk‑reward.",
-    "entry": "157.30",
-    "tp": "158.80",
-    "sl": "156.50",
-    "reliability": "MEDIUM"
+    "comment": "Strong yield divergence and safe-haven USD demand support upward trajectory.",
+    "entry": "157.00",
+    "tp": "159.50",
+    "sl": "155.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-23 12:22",
+    "date": "2026-09-23 22:21",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "AlphaBroker",
     "tldr_points": [
-      "S&P 500 trading above MA20 with RSI near 60 indicates mild bullish momentum.",
-      "Strong earnings growth and AI-driven rally support upside toward 7,900.",
-      "Geopolitical easing and Buffett-style value bias add downside protection."
+      "Price above MA20 with moderate RSI suggests upward momentum",
+      "Energy and material stocks (CVX, XOM, FCX) provide fundamental support",
+      "Entry set near 7700 with defined risk/reward"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above MA20, RSI 60, earnings up 25%+, AI rally and Iran diplomacy lift bias toward 7,900 target.",
+    "excerpt": "S&P 500 holds above MA20; energy/material strength fuels bullish bias; entry near 7700.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Bullish bias supported by price above MA20, moderate RSI, and strong fundamental catalysts.",
+    "comment": "Bullish thesis driven by price above MA20, supportive sector trends, and moderate momentum.",
     "entry": "7700",
-    "tp": "7900",
-    "sl": "7600",
+    "tp": "7950",
+    "sl": "7650",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-23 12:25",
+    "title": "[BTC/USD] UP: Today's AI Analysis Detects MA20 Support as Institutional Demand Improves",
+    "date": "2026-09-23 22:23",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price above MA20 signals bullish medium-term trend.",
-      "RSI near 73 indicates overbought conditions, suggesting possible short-term consolidation.",
-      "Fundamental inflow from VC funds and tokenization optimism supports upside bias."
+      "BTC trades 7.4% above MA20, confirming a bullish trend regime",
+      "Institutional stablecoin and tokenization catalysts improve risk appetite",
+      "RSI near 70 favors a disciplined pullback entry over chasing"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds above MA20 on strong crypto fund inflows; RSI ~73 hints at near-term pause but upside bias stays intact. today",
+    "excerpt": "BTC trades 7.4% above MA20 as institutional catalysts improve, favoring gains while elevated RSI calls for tight entries",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "BTC holds above MA20 support with bullish fundamentals despite overbought RSI.",
-    "entry": "86500.00",
-    "tp": "92000.00",
-    "sl": "78500.00",
+    "comment": "Price remains above MA20 and institutional catalysts are constructive, but elevated RSI favors a pullback entry.",
+    "entry": "85000.00",
+    "tp": "89500.00",
+    "sl": "82700.00",
     "reliability": "MEDIUM"
   }
 }
