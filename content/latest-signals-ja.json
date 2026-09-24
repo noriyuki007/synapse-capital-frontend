@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20 support confluence with rising US yields",
-    "date": "2026-09-24 04:25",
+    "title": "[USD/JPY] UP: PBOC参考レートのドル寄り設定とMA20支持線の維持",
+    "date": "2026-09-24 12:01",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米国利回り急上昇がドル高を支える",
-      "価格がMA20を上回り上昇基調",
-      "テクニカル水準150.50に向けて目標、_SL_157.20_でリスク管理"
+      "PBOC参考レート6.7489は市場予想6.7184を下回り人民元安・ドル高方向に傾斜",
+      "AUD失業率4.6%の悪化はG10商品通貨全体のリスク嗜好を抑制し円安基調を後押し",
+      "157.878でのMA20支持線維持は上昇トレンド構造の継続を示唆"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20を上回り、米国利回り上昇を背景に上昇基調。テクニカルでは150.50をターゲット、_SL_157.20_で管理。",
+    "excerpt": "PBOCが人民元安寄りの参考レートを設定しUSD/CNYが予想外の水準で推移。MA20支持線は維持され、RSI61は過熱圏を回避しつつ強気モメンタムを継続。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20支持と米国利回り上昇によるドル高優位が取引を裏付ける",
-    "entry": "158.40",
-    "tp": "160.50",
+    "comment": "PBOC参考レートのドル寄り設定とMA20支持線維持が上昇材料",
+    "entry": "157.88",
+    "tp": "158.50",
     "sl": "157.20",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: 利上げ観測の再燃とリスクオフ環境の兆し",
-    "date": "2026-09-24 04:27",
+    "title": "[S&P 500] UP: MA20支持位での反発と上昇モメンタムの継続",
+    "date": "2026-09-24 12:01",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "prediction_direction": "UP",
+    "recommended_broker": "Goldman Sachs",
     "tldr_points": [
-      "Fed利上げ観測の再燃が市場に重石",
-      "テクニカルはMA20維持もRSIは中立、トレンド転換の明確なシグナルなし",
-      "SNSセンチメントと実体経済の乖離が市場の不安定さを助長"
+      "MA20 support at 7666 holds",
+      "RSI 55.2 indicates bullish momentum",
+      "Liquidity inflows support continued ascent"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "堅調な経済データがFedの利上げ観測を再燃させ、株式市場はリスクオフ色を強めている。S&P 500はMA20付近で支持を受けつつも、RSIは中立圏に留まり、明確な方向感のないレンジ相場が続いている。",
+    "excerpt": "S&P 500 rebounds from MA20 as RSI 55 signals bullish momentum, liquidity improving.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "利上げ観測の再燃とリスクオフ環境の強まりを考慮し、下方圧力が優勢",
-    "entry": "7730",
-    "tp": "7680",
-    "sl": "7760",
+    "status": "NEUTRAL",
+    "comment": "S&P 500 rebounds from MA20 as RSI 55 signals bullish momentum, liquidity improving.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20上の価格維持と機関需要の継続を確認",
-    "date": "2026-09-24 04:27",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-09-24 12:03",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "現在価格はMA20を6.20%上回り、中期的なトレンド優位性は買い側に傾いている。",
-      "RSI14は65.45で上昇基調を維持する一方、85,000ドル付近での追跡買いには過熱警戒が必要である。",
-      "83,500～84,200ドルの押し目を分割取得し、81,400ドルを厳格な損切り水準とする。"
+      "Hut 8の1.4億ドルテックスデータセンター取得がマイニング供給側の安定化を示唆",
+      "機関投資家のBTCへの露出拡大が80kドル突破後も継続",
+      "ステーブルコインの銀行レベル保護による需要増加が全体流動性を支える"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を6.20%上回り、RSI14は65.45。機関需要とステーブルコイン利用拡大は追い風だが、板・オンチェーン指標が未確認のため、83,500～84,200ドルの押し目限定で買い、81,400ドルで切断する。",
+    "excerpt": "MA20を上抜け、RSIは65程度で上余地あり。ファンダメンタルズもマイニングインフラ拡張と機関需要で底堅い。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上での価格維持と強気の材料を評価する一方、流動性・オンチェーン指標の未確認により押し目限定とする。",
-    "entry": "83800.00-84200.00",
-    "tp": "88000.00/91500.00",
-    "sl": "81400.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20上抜けとファンダメンタルズの強気要素が一致",
+    "entry": "83500.00",
+    "tp": "89000.00",
+    "sl": "81000.00",
+    "reliability": "HIGH"
   }
 }

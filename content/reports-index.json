@@ -1,73 +1,73 @@
 [
   {
-    "id": "2026-09-24-stocks-ja",
-    "date": "2026-09-24 04:27",
-    "title": "[S&P 500] DOWN: 利上げ観測の再燃とリスクオフ環境の兆し",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
-    "excerpt": "堅調な経済データがFedの利上げ観測を再燃させ、株式市場はリスクオフ色を強めている。S&P 500はMA20付近で支持を受けつつも、RSIは中立圏に留まり、明確な方向感のないレンジ相場が続いている。",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-09-24-stocks-en",
-    "date": "2026-09-24 04:27",
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "excerpt": "S&P 500 holds above MA20; Fed rate‑hike worries weigh, but technicals suggest a dip buy near 7,660.",
-    "result": "PENDING",
-    "locale": "en"
-  },
-  {
     "id": "2026-09-24-crypto-ja",
-    "date": "2026-09-24 04:27",
-    "title": "[BTC/USD] UP: MA20上の価格維持と機関需要の継続を確認",
+    "date": "2026-09-24 12:03",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "BTC/USDはMA20を6.20%上回り、RSI14は65.45。機関需要とステーブルコイン利用拡大は追い風だが、板・オンチェーン指標が未確認のため、83,500～84,200ドルの押し目限定で買い、81,400ドルで切断する。",
+    "excerpt": "MA20を上抜け、RSIは65程度で上余地あり。ファンダメンタルズもマイニングインフラ拡張と機関需要で底堅い。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-09-24-crypto-en",
-    "date": "2026-09-24 04:27",
-    "title": "[BTC/USD] UP: Price above MA20, RSI 65, bolstered by inflows and tokenized equity",
+    "date": "2026-09-24 12:03",
+    "title": "[BTC/USD] UP: Synapse Analysis Detects Institutional Demand at MA20",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "BTC stays above MA20, RSI 65, as inflows, tokenized stocks, and stablecoin adoption reinforce bullish momentum ahead up.",
+    "excerpt": "Today's AI analysis confirms BTC/USD breaks structural resistance as institutional capital rotates in, validating a bullish continuation pattern above dynamic trend support.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-09-24-stocks-ja",
+    "date": "2026-09-24 12:01",
+    "title": "[S&P 500] UP: MA20支持位での反発と上昇モメンタムの継続",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Goldman Sachs",
+    "excerpt": "S&P 500 rebounds from MA20 as RSI 55 signals bullish momentum, liquidity improving.",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-24-stocks-en",
+    "date": "2026-09-24 12:01",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 holds above 20-day MA with neutral RSI, suggesting continuation of uptrend amid bond market caution",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-09-24-fx-ja",
-    "date": "2026-09-24 04:25",
-    "title": "[USD/JPY] UP: MA20 support confluence with rising US yields",
+    "date": "2026-09-24 12:01",
+    "title": "[USD/JPY] UP: PBOC参考レートのドル寄り設定とMA20支持線の維持",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "USD/JPYはMA20を上回り、米国利回り上昇を背景に上昇基調。テクニカルでは150.50をターゲット、_SL_157.20_で管理。",
+    "excerpt": "PBOCが人民元安寄りの参考レートを設定しUSD/CNYが予想外の水準で推移。MA20支持線は維持され、RSI61は過熱圏を回避しつつ強気モメンタムを継続。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-09-24-fx-en",
-    "date": "2026-09-24 04:25",
-    "title": "[USD/JPY] UP: AI Detects Yield-Driven Momentum Above MA20",
+    "date": "2026-09-24 12:01",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "excerpt": "US yield surge to multi-year highs drives USD/JPY above MA20 with bullish bias; tactical long setup activated.",
+    "excerpt": "USD/JPY maintains bullish posture above the 20-day moving average as PBOC reference rate adjustments and US-Japan yield differentials drive momentum.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -152,7 +152,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "BTC/USDはMA20を上抜け、機関のETF流入とステーブルコイン決済拡張により上昇余地が広がっている。さらに、予測市場の成長とステーブルコインのMastercardネットワークへの対応が機関参加を後押しし、需給環境は底堅い。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC stays above MA20 amid record ETF inflows and stablecoin settlement expansion targeting $90k resistance with support",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Nomura Securities",
     "excerpt": "MA20上抜けとRSI61が示す弱い買いシグナルに、ファンダメンタルズの改善が重なり、S&P500は短期的に上値を試す展開が期待される。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "",
     "excerpt": "S&P 500 at 7780, above MA20, bullish momentum; sectors SYY, VST, TSM, GOOGL, CRWD drive support.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "excerpt": "Weak US services data threatens USD upside; technicals show mild bullish bias but momentum turning down.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
