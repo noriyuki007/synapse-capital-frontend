@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Hawkish Fed Bias and Technical Break Above MA20",
-    "date": "2026-09-24 22:09",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-09-25 04:47",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Fed inflation risks tilt upside supporting USD",
-      "Price holds above MA20 with RSI at 64 indicating bullish momentum",
-      "ECB official departure may weigh on EUR, indirect USD strength"
+      "Higher US Treasury yields favor USD;",
+      "Geopolitical de-escalation reduces JPY safe-haven demand;",
+      "Technical structure shows bullish break above MA20 with moderate RSI momentum."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised to rise as Fed hawkishness supports dollar and price trades above key MA20 with bullish RSI.",
+    "excerpt": "USD/JPY at 158.87, above MA20, bullish momentum with RSI 65, strong US yields support upward move.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price above MA20 with bullish RSI and hawkish Fed backdrop supports upside.",
-    "entry": "156.60",
+    "comment": "Higher US yields and reduced JPY safe-haven demand drive bullish momentum.",
+    "entry": "156.70",
     "tp": "159.30",
-    "sl": "155.80",
+    "sl": "156.30",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Inflation Pressure and Pre-Bell Futures Weakness",
-    "date": "2026-09-24 22:15",
+    "title": "[S&P 500] UP: Index Holds Above MA20 Support Amidst Fundamental EPS Upgrades",
+    "date": "2026-09-25 04:54",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Equity concentration in two stocks raises systemic risk.",
-      "Inflation data resurgence threatens earnings multiples.",
-      "Pre‑bell futures weakness ahead of Trump‑Xi meeting signals near‑term downside."
+      "S&P 500 maintains a constructive technical posture above the 20-day moving average.",
+      "RSI at 53.17 signals neutral-to-bullish momentum with room for expansion.",
+      "Fundamental catalysts include broad EPS upgrades and resilient financial sector allocation."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 faces inflation headwinds and futures weakness, prompting a tactical sell bias toward MA20 support.",
+    "excerpt": "S&P 500 technicals show resilience above MA20 support, while fundamental EPS upgrades support a tactical long bias.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Inflation pressure and pre‑bell futures weakness reinforce a bearish bias toward MA20 support.",
-    "entry": "7700.00",
-    "tp": "7600.00",
-    "sl": "7750.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "S&P 500 holds above MA20 support with neutral-to-bullish RSI, offering a tactical long entry on dips.",
+    "entry": "7667.70",
+    "tp": "7750.00",
+    "sl": "7640.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Momentum Holds Above MA20 Amid Institutional Infrastructure Expansion",
-    "date": "2026-09-24 22:23",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-09-25 04:55",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price maintains a premium over the 20-day moving average, indicating structural bullishness.",
-      "RSI approaches overbought territory at 68.87, signaling strong but potentially exhausting momentum.",
-      "Institutional adoption and tokenization infrastructure funding provide a robust fundamental backdrop."
+      "BTC trading above MA20 with bullish momentum structure",
+      "RSI-14 at 71.4 signals strength but not yet overbought for trend continuation",
+      "Institutional onchain activity and production cost dynamics underpin upside bias"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD sustains bullish momentum above MA20 as institutional tokenization initiatives accelerate.",
+    "excerpt": "BTC/USD holds above MA20 as JPMorgan notes $85k production cost shift to neutralizing miner selling pressure, while ARK's $1.3B venture fund launch signals deepening institutional adoption.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Fundamental tailwinds from institutional tokenization and technical support at MA20 justify a tactical long position.",
-    "entry": "80150.00",
-    "tp": "85000.00",
-    "sl": "77500.00",
+    "comment": "Institutional adoption and declining miner selling pressure support continued upside from current elevated levels",
+    "entry": "79754.96",
+    "tp": "86000",
+    "sl": "78500",
     "reliability": "HIGH"
   }
 }

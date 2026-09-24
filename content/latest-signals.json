@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-24 22:09",
+    "date": "2026-09-25 04:47",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "Fedのハマック発言がインフレ上振れリスクを示唆しUSD買い圧力が継続",
-      "ECBのシュナーベル退任でユーロ側のタカ派期待が後退、USD/JPYの上押し要因に",
-      "テクニカルはMA20上抜けとRSI64で買いモメンタムが強化"
+      "MA20サポートでの押し目買い機会とRSI65に伴う過熱警戒",
+      "イラン核合意前進とリスクオン志向がJPY需要を薄め、USD/JPY上値をサポート",
+      "流動性観点から[dmm-fx]利用推奨、160.00ラウンドナンバー到達を目指すトレード構想"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Fedのインフレ上振れ警告とECB幹部離脱で米ドルが相対的に強含み、MA20を基盤とした押し目買いが有力。RSIは64とやや過熱気味だがトレンドは上向き。",
+    "excerpt": "USD/JPY 158.87圏上、MA20を上回る推移。高利回りとリスクオン要因がUSD支持、過熱感には警戒.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Fedのインフレ上振れ警告とMA20支持による上値余地",
-    "entry": "158.50",
-    "tp": "159.60",
-    "sl": "158.00",
-    "reliability": "HIGH"
+    "comment": "MA20サポートでの押し目買いと利回り差拡大が上昇トレンドを後押し",
+    "entry": "158.87",
+    "tp": "160.00",
+    "sl": "156.50",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: 価格はMA20を上抜け、インフレ懸念にもかかわらずモメンタム維持",
-    "date": "2026-09-24 22:15",
+    "title": "[S&P 500] UP: MA20上値支持とRSI中立強気の整合",
+    "date": "2026-09-25 04:54",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "",
     "tldr_points": [
-      "価格はMA20以上で推移し、上抜けの可能性",
-      "RSIは中立圏で過熱感なし",
-      "インフレ復活とトランプ・シー会合が短期的に変動要因"
+      "MA20を上回り、短期トレンドは軽微な強気",
+      "RSIは中立寄りで過熱・弱気いずれでもない",
+      "7700〜7710で買い、7780利確、7650損切り"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を上回り、上昇バイアスが示唆されるがインフレと地政学的リスクに注意。",
+    "excerpt": "MA20を上回り、RSIも中立寄りの一方、短期反発の継続は未確認。7700〜7710での買い、7780利確、7650損切りでリスクを限定し、材料確定後に追加判断する。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20上抜けとRSI中立が上昇バイアスを示唆",
-    "entry": "7665.00",
-    "tp": "7750.00",
-    "sl": "7620.00",
+    "comment": "MA20上回りとRSI中立強気を根拠に買い。ただし短期反発の継続は未確認で、金利・流動性データ不足により中信頼度。",
+    "entry": "7700-7710",
+    "tp": "7780",
+    "sl": "7650",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20突破と機関インフラ投資の拡大による上昇基調の継続",
-    "date": "2026-09-24 22:23",
+    "title": "BTC/USDの見通し：需給バランスから見る「押し目買い」の優位性",
+    "date": "2026-09-25 04:55",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "現在価格(83,753USD)がMA20(79,717USD)を明確に突破し、中間term上昇トレンドが継続中",
-      "RSI(14)が68.9に達し過熱感を示すが、依然として強気モメンタムは優勢",
-      "Solana Foundationの機関参入支援やHIFIの資金調達など、ブロックチェーンインフラ拡大のファンダメンタルズが支持"
+      "金利相関（近似）: -0.32で負相関傾向",
+      "テクニカル: 現在価格 84494.89 と MA20 79754.96 の位置関係が主導",
+      "需給: 上限帯 86522.39 / 下限帯 72987.53 / 直近高値 87363.76 / 直近安値 74944.59 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を突破し、RSIが過熱域目前ながら機関投資のインフラ拡大により上昇基調を維持する。 strictなリスク管理下で、82,000USD附近的な調整を経由してLongポジションを構築する方針だ。",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 84494.89、RSI(71.41)、MA20(79754.96)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20を明確に突破する強気相場を確認。RSIは過熱域目前だが、機関投資のインフラ拡大により長期的な上昇基調が維持される。82,000USD附近的な調整を経由してLongポジションを構築する。",
-    "entry": "82000.00",
-    "tp": "88000.00",
-    "sl": "79500.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、BTC/USDの現在価格 84494.89、RSI(71.41)、MA20(79754.96)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
