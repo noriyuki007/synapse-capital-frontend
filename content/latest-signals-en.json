@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Bullish Trend Persists Above MA20 Amid Resilient US Spending and AI Boom",
-    "date": "2026-09-25 12:18",
+    "title": "[USD/JPY] UP: AI Detects Bullish Bias Above MA20 as Trade News Supports USD",
+    "date": "2026-09-25 22:14",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY remains firmly above its 20-day moving average at 156.50, maintaining a strong bullish trajectory.",
-      "Resilient US consumer spending and massive AI capital expenditure support the US Dollar against the Yen.",
-      "RSI at 61.5 indicates room for further upside before reaching overbought conditions."
+      "Price holds above 20-day MA supporting near-term upside.",
+      "Durable goods data flat vs expectations adds modest USD backing.",
+      "Resistance near 158.00 from prior yen‑strength episode caps gains."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY maintains a strong bullish bias above 156.50, driven by robust AI spending and resilient US economic indicators.",
+    "excerpt": "USD/JPY trades above MA20 with mild bullish momentum; watch 158.00 resistance.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Bullish trend remains intact above the 20-day MA, supported by resilient US spending and AI-driven dollar demand.",
-    "entry": "157.20",
-    "tp": "159.00",
-    "sl": "156.40",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPY trades above MA20 with mild bullish momentum; watch 158.00 resistance.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Technical Support at MA20 Amid Yield Spikes",
-    "date": "2026-09-25 12:19",
+    "title": "[S&P 500] FLAT: Neutral Momentum as Market Weighs Valuation Warnings Against Quality Support",
+    "date": "2026-09-25 22:16",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "XM",
     "tldr_points": [
-      "Yields spiking but futures ease",
-      "MA20 provides technical floor",
-      "RSI neutral at 52.7"
+      "Price maintaining narrow range above MA20",
+      "RSI indicates lack of clear directional momentum",
+      "Contradictory signals between systemic warnings and individual equity optimism"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 finds technical support at the 20-day moving average despite surging Treasury yields, maintaining a constructive outlook as institutional positioning remains stable.",
+    "excerpt": "S&P 500 oscillates above MA20; neutral RSI and mixed macro signals suggest short-term consolidation.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Price holding above MA20 support with neutral RSI indicates a low-risk entry point.",
-    "entry": "7667.40",
-    "tp": "7850.00",
-    "sl": "7590.00",
+    "status": "NEUTRAL",
+    "comment": "Price consolidating above MA20 with neutral RSI and conflicting macro signals.",
+    "entry": "7672.00",
+    "tp": "7750.00",
+    "sl": "7640.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-25 12:20",
+    "title": "[BTC/USD] UP: Momentum Holds Above MA20 Amid Regulatory Clarity",
+    "date": "2026-09-25 22:18",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "MA20 at ~79,741 provides key support",
-      "RSI 70.6 signals mild overbought pressure",
-      "Fund inflows and easing miner selling offset regulatory headwinds"
+      "Price maintains solid premium over MA20, indicating strong bullish trend structure.",
+      "RSI(14) at 70.3 suggests overbought conditions but not yet signaling reversal.",
+      "Regulatory developments for stablecoins provide structural tailwinds despite exchange security concerns."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC above $84k, MA20 support, overbought RSI, fund inflows—monitor for pullback.",
+    "excerpt": "Today's AI Analysis shows BTC holding above MA20 with strong momentum despite security breaches and stablecoin rules.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "AI detects support at MA20 while fundamentals tilt bullish despite overbought RSI.",
-    "entry": "79800",
-    "tp": "86500",
-    "sl": "78500",
-    "reliability": "MEDIUM"
+    "comment": "Synapse Analysis suggests buying the dip toward MA20 as bullish momentum and regulatory clarity support the macro uptrend.",
+    "entry": "81000.00",
+    "tp": "88000.00",
+    "sl": "78500.00",
+    "reliability": "HIGH"
   }
 }
