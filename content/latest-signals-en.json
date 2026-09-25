@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-25 04:47",
+    "title": "[USD/JPY] UP: Bullish Trend Persists Above MA20 Amid Resilient US Spending and AI Boom",
+    "date": "2026-09-25 12:18",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Higher US Treasury yields favor USD;",
-      "Geopolitical de-escalation reduces JPY safe-haven demand;",
-      "Technical structure shows bullish break above MA20 with moderate RSI momentum."
+      "USD/JPY remains firmly above its 20-day moving average at 156.50, maintaining a strong bullish trajectory.",
+      "Resilient US consumer spending and massive AI capital expenditure support the US Dollar against the Yen.",
+      "RSI at 61.5 indicates room for further upside before reaching overbought conditions."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY at 158.87, above MA20, bullish momentum with RSI 65, strong US yields support upward move.",
+    "excerpt": "USD/JPY maintains a strong bullish bias above 156.50, driven by robust AI spending and resilient US economic indicators.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Higher US yields and reduced JPY safe-haven demand drive bullish momentum.",
-    "entry": "156.70",
-    "tp": "159.30",
-    "sl": "156.30",
+    "comment": "Bullish trend remains intact above the 20-day MA, supported by resilient US spending and AI-driven dollar demand.",
+    "entry": "157.20",
+    "tp": "159.00",
+    "sl": "156.40",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Index Holds Above MA20 Support Amidst Fundamental EPS Upgrades",
-    "date": "2026-09-25 04:54",
+    "title": "[S&P 500] UP: Technical Support at MA20 Amid Yield Spikes",
+    "date": "2026-09-25 12:19",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 maintains a constructive technical posture above the 20-day moving average.",
-      "RSI at 53.17 signals neutral-to-bullish momentum with room for expansion.",
-      "Fundamental catalysts include broad EPS upgrades and resilient financial sector allocation."
+      "Yields spiking but futures ease",
+      "MA20 provides technical floor",
+      "RSI neutral at 52.7"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 technicals show resilience above MA20 support, while fundamental EPS upgrades support a tactical long bias.",
+    "excerpt": "S&P 500 finds technical support at the 20-day moving average despite surging Treasury yields, maintaining a constructive outlook as institutional positioning remains stable.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "S&P 500 holds above MA20 support with neutral-to-bullish RSI, offering a tactical long entry on dips.",
-    "entry": "7667.70",
-    "tp": "7750.00",
-    "sl": "7640.00",
-    "reliability": "HIGH"
+    "comment": "Price holding above MA20 support with neutral RSI indicates a low-risk entry point.",
+    "entry": "7667.40",
+    "tp": "7850.00",
+    "sl": "7590.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-25 04:55",
+    "date": "2026-09-25 12:20",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trading above MA20 with bullish momentum structure",
-      "RSI-14 at 71.4 signals strength but not yet overbought for trend continuation",
-      "Institutional onchain activity and production cost dynamics underpin upside bias"
+      "MA20 at ~79,741 provides key support",
+      "RSI 70.6 signals mild overbought pressure",
+      "Fund inflows and easing miner selling offset regulatory headwinds"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD holds above MA20 as JPMorgan notes $85k production cost shift to neutralizing miner selling pressure, while ARK's $1.3B venture fund launch signals deepening institutional adoption.",
+    "excerpt": "BTC above $84k, MA20 support, overbought RSI, fund inflows—monitor for pullback.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Institutional adoption and declining miner selling pressure support continued upside from current elevated levels",
-    "entry": "79754.96",
-    "tp": "86000",
+    "comment": "AI detects support at MA20 while fundamentals tilt bullish despite overbought RSI.",
+    "entry": "79800",
+    "tp": "86500",
     "sl": "78500",
-    "reliability": "HIGH"
+    "reliability": "MEDIUM"
   }
 }
