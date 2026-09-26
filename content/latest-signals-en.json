@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-26 21:39",
+    "title": "[USD/JPY] UP: Price Holds Above MA20 with Bullish Fundamentals",
+    "date": "2026-09-27 03:58",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "MA20 at 156.37 provides bullish support",
-      "Risk‑on fundamentals from US‑China talks favor USD",
-      "Technical momentum (RSI 67.6) suggests continuation"
+      "Price above MA20 signals short-term bullish bias",
+      "RSI near 68 shows solid momentum without extreme overbought",
+      "Easing Iran tensions and upcoming Trump-Xi meeting support risk‑on sentiment favoring USD/JPY gains"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish on MA20 support and improving fundamentals.",
+    "excerpt": "USD/JPY trades above MA20 at 157.185 with RSI 67.6, supported by easing geopolitical tensions and upcoming Trump-Xi summit, suggesting further upside.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20 support and risk‑on fundamentals align for upside",
-    "entry": "157.00",
-    "tp": "158.30",
-    "sl": "156.70",
+    "comment": "Price above MA20 with bullish fundamentals and momentum supports further upside.",
+    "entry": "156.50",
+    "tp": "158.00",
+    "sl": "156.00",
     "reliability": "HIGH"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-26 21:40",
+    "date": "2026-09-27 04:09",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "[]",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price above MA20 signals bullish bias",
-      "Mixed news creates selective opportunity",
-      "RSI near 52 indicates moderate momentum"
+      "S&P 500 trades above MA20, bullish bias",
+      "Key support at 7672, resistance at 7850",
+      "Setup: entry 7700, TP 7850, SL 7620"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades above MA20 with mixed catalysts; cautious bullish stance.",
+    "excerpt": "S&P 500 trades above MA20 at 7743, bullish bias with support near 7672 and resistance at 7850.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "AI detects support at MA20 with mixed fundamentals; moderate upside expected.",
-    "entry": "7740",
-    "tp": "7900",
-    "sl": "7650",
-    "reliability": "MEDIUM"
+    "comment": "Bullish bias as price holds above MA20 with neutral RSI, targeting 7850.",
+    "entry": "7700.00",
+    "tp": "7850.00",
+    "sl": "7620.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-26 21:42",
+    "title": "[BTC/USD] UP: ETF Inflows Confirm Bullish Momentum",
+    "date": "2026-09-27 04:11",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price above MA20 with RSI 68.7 indicates bullish momentum.",
-      "SEC FAQ clarity and leadership change boost institutional confidence.",
-      "Targeting $85k‑$86k range with tight risk management."
+      "BTC above MA20, RSI 68.6 hints at further upside.",
+      "Bitcoin ETFs recorded $2.4bn weekly inflow, the strongest since October.",
+      "Key resistance near $86.5k; support anchored at $80.1k (MA20)."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC holds above MA20, RSI 68.7, SEC clarity and leadership shift drive bullish bias toward $85k, targeting 86k soon now.",
+    "excerpt": "BTC bullish on ETF inflows, price above MA20, RSI nearing overbought.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "BTC holds above MA20, RSI 68.7, SEC clarity and leadership shift drive bullish bias toward $85k, targeting 86k.",
-    "entry": "84030.74",
-    "tp": "86000.00",
-    "sl": "82000.00",
+    "comment": "Bullish bias driven by strong ETF inflows and technical confirmation above MA20.",
+    "entry": "80200.00",
+    "tp": "86500.00",
+    "sl": "78500.00",
     "reliability": "HIGH"
   }
 }

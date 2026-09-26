@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-09-27-crypto-ja",
+    "date": "2026-09-27 04:11",
+    "title": "[BTC/USD] UP: MA20突破とETF資金流入の強気シナリオ",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USDはMA20を上回り、ETF大規模流入と強気ファンダメンタルズが連動。一時調整後も上昇継続の見込みで、機関投資家によるポジション構築が継続する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-27-crypto-en",
+    "date": "2026-09-27 04:11",
+    "title": "[BTC/USD] UP: ETF Inflows Confirm Bullish Momentum",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC bullish on ETF inflows, price above MA20, RSI nearing overbought.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-09-27-stocks-ja",
+    "date": "2026-09-27 04:09",
+    "title": "[S&P 500] UP: MA20サポート確立と金利上昇耐性による強気継続の確認",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "主要プライムブローカー",
+    "excerpt": "S&P 500はMA20を足場に上昇トレンドを維持。金利上昇下でも成長セクターが買われ、指数は7800台視野に入る強気継続フェーズへ移行。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-27-stocks-en",
+    "date": "2026-09-27 04:09",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 trades above MA20 at 7743, bullish bias with support near 7672 and resistance at 7850.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-09-27-fx-ja",
+    "date": "2026-09-27 03:58",
+    "title": "[USD/JPY] UP: MA20での反発とリスクオンファンダメンタルズの整合性を確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "MA20上抜けとリスクオン環境がUSD/JPYの上昇を支え、押し目買いが有効と判断。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-27-fx-en",
+    "date": "2026-09-27 03:58",
+    "title": "[USD/JPY] UP: Price Holds Above MA20 with Bullish Fundamentals",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY trades above MA20 at 157.185 with RSI 67.6, supported by easing geopolitical tensions and upcoming Trump-Xi summit, suggesting further upside.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-09-26-crypto-ja",
     "date": "2026-09-26 21:42",
     "title": "[BTC/USD] UP: MA20での反発と規制明確化の整合性を確認",

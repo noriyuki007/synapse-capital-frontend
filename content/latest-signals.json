@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発とリスクオンファンダメンタルズの整合性",
-    "date": "2026-09-26 21:39",
+    "title": "[USD/JPY] UP: MA20での反発とリスクオンファンダメンタルズの整合性を確認",
+    "date": "2026-09-27 03:58",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20を上抜け、中期的な上昇トレンドを示す",
-      "RSIは67.6で買われ過ぎ手前だがまだ余地あり",
-      "イラン・米中関係の改善期待がリスクオンを支援"
+      "価格はMA20を上回り短期的に上昇バイアス",
+      "米中首脳会談とイラン情勢緩和がリスクオンを後押し",
+      "RSIは67.6で買われすぎに近いがモメンタムは依然強い"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "MA20を基軸とした押し目買いシナリオと、リスクオンファンダメンタルズの整合性を示す。",
+    "excerpt": "MA20上抜けとリスクオン環境がUSD/JPYの上昇を支え、押し目買いが有効と判断。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20上抜けとリスクオンファンダメンタルズの整合性による上値期待",
-    "entry": "156.40",
-    "tp": "158.00",
-    "sl": "155.80",
+    "comment": "MA20上抜けとリスクオン_sentimentが裏付け",
+    "entry": "156.80",
+    "tp": "158.50",
+    "sl": "156.20",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での支持とRSIの中立域での反発可能性",
-    "date": "2026-09-26 21:40",
+    "title": "[S&P 500] UP: MA20サポート確立と金利上昇耐性による強気継続の確認",
+    "date": "2026-09-27 04:09",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "主要プライムブローカー",
     "tldr_points": [
-      "価格はMA20上で推移し、下値支持を示唆",
-      "RSIは52で過熱感なく上余地あり",
-      "ファンダメンタルズは混合だが短期的には上昇バイアス"
+      "現在値7743.41がMA20（7672.48）を上回り維持、短期トレンドの強気構造を確認",
+      "RSI 52.03は中立域にあり上昇余地を残し、買い圧力の持続可能性を示唆",
+      "成長株の金利耐性と防衛セクターの配当魅力がリスク・オン/オフ双方に対応"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20を上回る価格動向と中立RSIが短期的な上昇余地を示唆。",
+    "excerpt": "S&P 500はMA20を足場に上昇トレンドを維持。金利上昇下でも成長セクターが買われ、指数は7800台視野に入る強気継続フェーズへ移行。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20支持とRSIの中立域が短期的上昇余地を示唆",
-    "entry": "7675.00",
-    "tp": "7950.00",
-    "sl": "7600.00",
+    "comment": "MA20サポート確立、RSI中立域、成長株の金利耐性により押し目買い優位継続",
+    "entry": "7730.00",
+    "tp": "7850.00",
+    "sl": "7660.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と規制明確化の整合性を確認",
-    "date": "2026-09-26 21:42",
+    "title": "[BTC/USD] UP: MA20突破とETF資金流入の強気シナリオ",
+    "date": "2026-09-27 04:11",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20上での価格維持とRSI68.72は強気構造を示唆",
-      "SEC FAQによるトークン買戻し・ネットワークアップグレード明確化が規制リスク軽減",
-      "Aave V4 on BaseでのCoinbase tokenized stocks担保追加がDeFi流动性拡大"
+      "ETF週間流入24億ドルが2026年最大、市場に強気資金の流入を示唆",
+      "RSI 68.6の過 bought 状態ながら、MA20を上回る価格は上昇トレンドを維持",
+      "流動性とポジショニングから、一時的な調整後も上昇継続の可能性が高く、bitflyerでのエントリーを推奨"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20上の84030ドルで推移し、RSI68.72の強気領域を維持。SEC FAQの規制明確化とAave V4のDeFi拡大が材料に。MA20支持線を起点にした押し目買いを推奨。",
+    "excerpt": "BTC/USDはMA20を上回り、ETF大規模流入と強気ファンダメンタルズが連動。一時調整後も上昇継続の見込みで、機関投資家によるポジション構築が継続する。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20支持線维持と规制明确化がリスクリターンを改善",
-    "entry": "81500",
+    "comment": "ETF流入とMA20上昇が強気シナリオを支持",
+    "entry": "83997.07",
     "tp": "88000",
-    "sl": "79000",
+    "sl": "79500",
     "reliability": "HIGH"
   }
 }
