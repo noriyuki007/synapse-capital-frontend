@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発とリスクオン傾向の整合性を確認",
-    "date": "2026-09-27 12:30",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-09-27 22:31",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20を上抜け、上昇トレンドの継続が示唆される",
-      "RSIは67.6で過熱感はややあるが売り疲れは見られない",
-      "原油下落と中東緊張緩和がリスクオンを後押しし、ドル円を支える"
+      "価格はMA20を上回り、RSIは67.6で上げトレンドが継続",
+      "原油下落とイラン情勢緩和がリスク選好を後押し、米ドル買い優勢",
+      "押し目買いを推奨し、エントリー156.80、TP158.00、SL156.30"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "MA20上抜けと原油下落、中東情緩和がリスクオンを後押しし、USD/JPYは上昇余地が残ると判断。",
+    "excerpt": "現在価格はMA20を上回り、RSIは67.6で上げ勢いが続くが、原油下落とイラン情勢緩和がリスク選好を後押しし、米ドル買い優勢が示唆される。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "MA20上抜けと原油下落、中東情緩和がリスクオンを後押しし、USD/JPYは上昇余地が残ると判断。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "MA20サポートと上げトレンド、リスク選好環境が買いを支持",
+    "entry": "156.80",
+    "tp": "158.00",
+    "sl": "156.30",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500 市場分析",
-    "date": "2026-09-27",
+    "title": "[S&P 500] DOWN 集中度リスクと富裕層の逃避が優勢、警告サインの蓄積",
+    "date": "2026-09-27 22:32",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "tldr_points": [],
+    "prediction_direction": "DOWN",
+    "recommended_broker": "[]",
+    "tldr_points": [
+      "M7集中リスクと富豪の代替資産シフトが相場を重しに",
+      "警告サイン蓄積とテクニカルな一時反発は弱含み継続の可能性",
+      "MA20を下回る抜けでより明確な売りサイン"
+    ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "",
+    "excerpt": "S&P500はM7集中度と富豪のエスケープでリスクオフ方向。現在はMA20上での一時反発だが、警告サインは弱含み続く可能性を示唆。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20上抜けと金利緩やかさ、オーダーフローの機関買いが上昇を支える",
-    "entry": "7680",
-    "tp": "7950",
-    "sl": "7620",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "M7集中リスクと富豪の逃避、警告サイン蓄積が優勢",
+    "entry": "7743.41",
+    "tp": "7650.00",
+    "sl": "7765.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: ETF流入拡大とMA20上抜けで上昇バイアス",
-    "date": "2026-09-27 12:34",
+    "title": "[BTC/USD] UP: ETF大量流入とMA20上方の強気構造が上昇トレンド継続を示唆",
+    "date": "2026-09-27 22:34",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "ビットコインETFへの週間24億ドルの資金流入が継続、機関需給を支える",
-      "現在価格84,420ドルはMA20(80,163)を明確に上抜け、トレンド転換のサイン",
-      "RSIは69.4で過熱感はややあるが、まだ70未満で上余地あり"
+      "ETF週間$24億ドル流入が2025年10月以来の大量流入であり機関買いの加速を確認",
+      "現在価格はMA20を大きく上回り構造的な強気優位が維持されている",
+      "RSI(14)が72と警戒ゾーンに達しており、短期的な押し目リスクを織り込んだエントリーが求められる"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "ETF資金流入と価格のMA20上抜けを根拠に、BTC/USDは短期的に上昇傾向が継続すると見込む。",
+    "excerpt": "BTC/USDはETF大量流入とMA20上方の強気トレンドが合致し上昇構造を維持している。RSI72の超買状態を考慮し、押し目買いをメイン戦略とする。流動性確保の観点からbitflyerを推奨する。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "ETF流入とMA20上抜けで上昇期待",
-    "entry": "80500",
-    "tp": "90000",
-    "sl": "78500",
-    "reliability": "HIGH"
+    "comment": "ETF大量流入とMA20上方の強気構造が一致。RSI超買により押し目買い推奨",
+    "entry": "82500.00",
+    "tp": "89500.00",
+    "sl": "78500.00",
+    "reliability": "MEDIUM"
   }
 }

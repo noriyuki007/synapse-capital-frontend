@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-27 12:30",
+    "date": "2026-09-27 22:31",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above MA20 as Iran de-escalation reduces JPY safe-haven demand",
-      "RSI at 67.6 signals bullish momentum with room before overbought",
-      "Trump-Xi meeting Nov supports USD strength via risk-on sentiment"
+      "USD/JPY maintains bullish bias above the 20-day moving average at 156.37.",
+      "RSI at 67.6 indicates strong momentum, though nearing overbought territory.",
+      "Improving US-China trade relations and easing geopolitical tensions support risk appetite."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY sustains above MA20 at 156.37 amid Iran diplomatic thaw and US-China summit anticipation; tactical long bias maintained.",
+    "excerpt": "USD/JPY holds bullish trend above MA20 at 156.37, RSI momentum strong at 67.6, fundamentals support further upside.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price above MA20 with RSI momentum and geopolitical tailwinds",
-    "entry": "156.40",
-    "tp": "158.50",
-    "sl": "155.80",
+    "comment": "Bullish trend intact above MA20 at 156.37, with RSI momentum strong and geopolitical/economic catalysts supporting further upside.",
+    "entry": "156.50",
+    "tp": "158.20",
+    "sl": "156.00",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Price Above MA20 with RSI Room to Run",
-    "date": "2026-09-27 12:32",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-09-27 22:32",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "[]",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price holds above MA20 at 7672 with RSI at 52 indicating bullish momentum",
-      "Growth equities shrug off surging yields while defensives like PepsiCo underperform",
-      "Micron, SpaceX, Tesla eyeing buy points suggests institutional accumulation"
+      "Price holds above 20‑day MA with neutral RSI",
+      "Defensive catalysts (concentration, flight to alternatives) create upside potential",
+      "Key resistance near 7,800; entry on dip to 7,720 with tight stop below 7,650"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 at 7743 maintains MA20 support as growth outperforms defensives amid surging yields.",
+    "excerpt": "S&P 500 above MA20 at 7,743; RSI neutral, resistance near 7,800. Defensive catalysts weigh, but dip opportunities.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price above MA20 with RSI room to run and growth rotation supporting bullish bias",
-    "entry": "7743.41",
+    "comment": "Bullish technicals with neutral momentum support a long position on dip toward MA20.",
+    "entry": "7720.00",
     "tp": "7850.00",
-    "sl": "7620.00",
-    "reliability": "HIGH"
+    "sl": "7650.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-27 12:34",
+    "title": "[BTC/USD] UP: Institutional Inflows Surge as Price Holds Above MA20 Despite Overbought RSI",
+    "date": "2026-09-27 22:34",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC above MA20 with RSI 69",
-      "ETF weekly inflows of $2.4B",
-      "Target 86,000 with stop at 82,000"
+      "Bitcoin ETFs turn positive for 2026 with $2.4 billion weekly inflow, their largest since October",
+      "Price remains highly bullish, trading significantly above the 20-day moving average at 80,458",
+      "RSI(14) at 72.02 indicates overbought conditions, but in a strong institutional trend, pullbacks to MA20 are buying opportunities"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC above MA20, RSI 69, ETF inflows support bullish bias; entry 84,420, TP 86,000, SL 82,000.",
+    "excerpt": "BTC/USD surges on record $2.4B weekly ETF inflows. Key support at MA20 (80,458) offers a strategic long entry.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC above MA20, RSI 69, ETF inflows support bullish bias; entry 84,420, TP 86,000, SL 82,000.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Institutional inflows of $2.4B support a strong bullish trend, with technicals holding above the MA20 despite overbought RSI.",
+    "entry": "80458.74",
+    "tp": "88000.00",
+    "sl": "79500.00",
+    "reliability": "HIGH"
   }
 }
