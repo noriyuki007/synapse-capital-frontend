@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: RSI過熱とリスクオフムードが重視される展開",
-    "date": "2026-09-28 12:28",
+    "title": "[USD/JPY] UP: MA20支持線を上回る上昇モーメンタムと米国 geopolitical 缓和による円安基調",
+    "date": "2026-09-29 01:25",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20を上回り一時的な強気推移もRSI72で過熱",
-      "ナスダック先物の下落とディーゼル輸出禁止報道がリスクオフを誘発",
-      "短期的な押し目売りを検討し、エントリーは157.50付近、TP 156.80、SL 158.20"
+      "現行価格157.17がMA20（156.37）を上回り、短期的な上昇トレンドが維持されている",
+      "米国Dallas Fed製造業指数が9.8と拡大基調を維持し、米経済の底堅さがUSDを支援",
+      "イラン核問題を巡る米制裁緩和の見通しにより risk-on 基調が強まり、円安・米高の流れが加速"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "RSI72の過熱とリスクオフ要因が重なり、USD/JPYは短期的に下落へ向かう見込み。",
+    "excerpt": "USD/JPYは157.17でMA20を上回る強気構成。RSI 67.5で過熱感は未確認。米制裁缓和と risk-on により円安・米高継続の見通し。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "RSI72の過熱とリスクオフ要因が重なり、USD/JPYは短期的に下落へ向かう見込み。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20（156.37）を明確に上回る推移と、米国製造業の底堅さ、イラン情勢の缓和による risk-on 基調が上昇要因。RSIは過熱感なく上昇余地あり。",
+    "entry": "156.60",
+    "tp": "158.00",
+    "sl": "155.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: confirming convergence of MA20 bounce and bullish fundamentals",
-    "date": "2026-09-28 12:40",
+    "title": "[S&P 500] UP: MA20トレンド維持と利回り縮小がもたらすリスクオンシフト",
+    "date": "2026-09-29 01:28",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "SBI証券",
     "tldr_points": [
-      "MA20 support aligns with bullish catalysts",
-      "RSI near 52 signals neutral‑to‑bullish momentum",
-      "Entry near $7,720 with defined TP/SL levels"
+      "MA20近傍での価格反発が上値トライの可能性を示唆",
+      "利回りのピークアウトと企業利回り改善により上値余地が限定的ながら存在",
+      "機関資金の選好的買い越しがセクター回転を牽引する局面"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 at $7,743; MA20 support and bullish catalysts point to upside with defined risk.",
+    "excerpt": "S&P 500はMA20水準での反発基調を強め、利回り落ち着きと流動性回復によりリスクオン姿勢が鮮明になっている。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20の支持とマクロの強気材料が一致",
-    "entry": "7710",
-    "tp": "7800",
-    "sl": "7640",
+    "comment": "MA20上抜けとRSI50超でのモメンタム転換を確認",
+    "entry": "7720.38",
+    "tp": "7850.00",
+    "sl": "7660.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: BTC ETF大口流入とMA20反発の整合性",
-    "date": "2026-09-28 12:41",
+    "title": "[BTC/USD] UP: MA20反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-09-29 01:46",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTC ETF週間流入24億ドルで大口機関需要確認",
-      "MA20上で価格維持、RSI67と強気但不穏",
-      "SEC FAQでトークンバック規制強化の見通し"
+      "SECのピース委員が任期延長の可能性を示唆し、規制環境に上昇圧力",
+      "ストラテジーやストリーブの大型BTC購入が59000万ドル以上で継続中",
+      "Bitgetのセキュリティ侵害も大規模資本流入の需要を強調"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC ETF大口流入とMA20維持で上昇トレンド継続。RSI67の過熱リスクを監視しつつ、bitflyerでの厳格なSL管理による押し目買いを推奨。",
+    "excerpt": "MA20を上回る価格、強気ファンダメンタルズ、RSI65で上昇基調。テクニカルとオンチェーンのシナジーから短期的な買いシグナルを採用。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "BTC ETF大口流入とMA20サポート維持、RSI67の強気但不穏",
-    "entry": "83392",
-    "tp": "85500",
-    "sl": "79000",
-    "reliability": "MEDIUM"
+    "comment": "MA20と強気ファンダメンタルズのシナジーによる明確な上昇シグナル",
+    "entry": "84150",
+    "tp": "86800",
+    "sl": "82800",
+    "reliability": "HIGH"
   }
 }

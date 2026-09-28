@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-09-29-crypto-ja",
+    "date": "2026-09-29 01:46",
+    "title": "[BTC/USD] UP: MA20反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "MA20を上回る価格、強気ファンダメンタルズ、RSI65で上昇基調。テクニカルとオンチェーンのシナジーから短期的な買いシグナルを採用。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-29-crypto-en",
+    "date": "2026-09-29 01:46",
+    "title": "[BTC/USD] UP: Price above MA20 with bullish inflows and supportive fundamentals",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD trades above MA20 with supportive on-chain inflows and moderate RSI, signaling continued upside potential.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-09-29-stocks-ja",
+    "date": "2026-09-29 01:28",
+    "title": "[S&P 500] UP: MA20トレンド維持と利回り縮小がもたらすリスクオンシフト",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "SBI証券",
+    "excerpt": "S&P 500はMA20水準での反発基調を強め、利回り落ち着きと流動性回復によりリスクオン姿勢が鮮明になっている。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-29-stocks-en",
+    "date": "2026-09-29 01:28",
+    "title": "[S&P 500] UP: Price above MA20 and neutral RSI suggest modest upside",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 stays above MA20, RSI ~54, hinting at modest upside as valuation pressures ease and rate‑sensitive sectors hold.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-09-29-fx-ja",
+    "date": "2026-09-29 01:25",
+    "title": "[USD/JPY] UP: MA20支持線を上回る上昇モーメンタムと米国 geopolitical 缓和による円安基調",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYは157.17でMA20を上回る強気構成。RSI 67.5で過熱感は未確認。米制裁缓和と risk-on により円安・米高継続の見通し。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-09-29-fx-en",
+    "date": "2026-09-29 01:25",
+    "title": "[USD/JPY] UP: Geopolitical De-escalation Supports Yield-Seeking Flows",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "Geopolitical thaw and technical support alignment signal bullish continuation for USD/JPY toward 158.50.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-09-28-crypto-ja",
     "date": "2026-09-28 12:41",
     "title": "[BTC/USD] UP: BTC ETF大口流入とMA20反発の整合性",

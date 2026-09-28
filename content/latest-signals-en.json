@@ -1,67 +1,67 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Bullish Structure Above MA20 Amid Risk-On Catalyst",
-    "date": "2026-09-28 12:28",
+    "title": "[USD/JPY] UP: Geopolitical De-escalation Supports Yield-Seeking Flows",
+    "date": "2026-09-29 01:25",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 with RSI at 72 suggests bullish momentum despite overbought",
-      "China-US trade truce extension to Jan 2027 supports risk-on yen weakness",
-      "Diesel export ban inflationary pressure reinforces Fed hawkishness, supporting USD"
+      "Iran sanctions relief reduces JPY safe-haven demand",
+      "Price holds above MA20 at 156.37",
+      "RSI momentum supports continuation to 158.50"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above MA20 at 156.40; China-US trade truce extension to Jan 2027 supports risk-on yen weakness toward 159.00.",
+    "excerpt": "Geopolitical thaw and technical support alignment signal bullish continuation for USD/JPY toward 158.50.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish above MA20 with risk-on trade truce extension and US inflation support.",
-    "entry": "157.76",
-    "tp": "158.50",
-    "sl": "156.20",
-    "reliability": "MEDIUM"
+    "comment": "Geopolitical risk reduction supports yield-carry flows above technical support",
+    "entry": "156.80",
+    "tp": "158.40",
+    "sl": "155.90",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Price Holds Above MA20 Amid Geopolitical Noise as Technical Structure Remains Constructive",
-    "date": "2026-09-28 12:40",
+    "title": "[S&P 500] UP: Price above MA20 and neutral RSI suggest modest upside",
+    "date": "2026-09-29 01:28",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 sustains 7,743, 0.9% above rising MA20 (7,672) with RSI-14 at neutral 52",
-      "Iran escalation risk priced into futures gap; underlying breadth resilient per Buffett accumulation signals",
-      "Actionable long bias: buy pullbacks to 7,670–7,690 zone with defined risk"
+      "Price holding above 20‑day MA indicates short‑term bullish bias.",
+      "RSI near 54 shows balanced momentum, leaving room for upside.",
+      "Valuation concerns easing as rate‑sensitive sectors show resilience."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 defends MA20 support at 7,672 as RSI neutrality offers asymmetric upside; geopolitical headlines create entry opportunity.",
+    "excerpt": "S&P 500 stays above MA20, RSI ~54, hinting at modest upside as valuation pressures ease and rate‑sensitive sectors hold.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price above MA20 with neutral RSI and supportive order flow creates asymmetric long opportunity on geopolitical dip",
-    "entry": "7680",
-    "tp": "7900",
-    "sl": "7640",
+    "comment": "Price above MA20 with neutral RSI offers a favorable risk‑reward setup for a modest upside move.",
+    "entry": "7675",
+    "tp": "7850",
+    "sl": "7600",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20 Support Validated as ETF Demand Accelerates",
-    "date": "2026-09-28 12:41",
+    "title": "[BTC/USD] UP: Price above MA20 with bullish inflows and supportive fundamentals",
+    "date": "2026-09-29 01:46",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "ETF inflows surge to $2.4 billion weekly – largest since October",
-      "BTC trading above key MA20 at 80376.37 with RSI at 67.25",
-      "Market structure remains bullish despite short-term overbought conditions"
+      "Price holds above MA20 indicating short-term bullish momentum",
+      "Institutional accumulation continues with Strive and Strategy adding BTC",
+      "RSI at 65.6 suggests room for further upside before overbought"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD holds above MA20 as ETF inflows and institutional demand drive bullish momentum across crypto markets.",
+    "excerpt": "BTC/USD trades above MA20 with supportive on-chain inflows and moderate RSI, signaling continued upside potential.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "ETF inflows and support above MA20 validate bullish structure with manageable risk",
-    "entry": "80376.37",
-    "tp": "86000.00",
+    "comment": "Price above MA20 with bullish inflow and moderate RSI supports upside.",
+    "entry": "81200.00",
+    "tp": "88500.00",
     "sl": "79500.00",
     "reliability": "HIGH"
   }
