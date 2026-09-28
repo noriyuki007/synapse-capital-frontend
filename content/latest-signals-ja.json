@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20 bounce aligns with improving diplomatic sentiment and oil support.",
-    "date": "2026-09-28 04:30",
+    "title": "[USD/JPY] DOWN: RSI過熱とリスクオフムードが重視される展開",
+    "date": "2026-09-28 12:28",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20 at 156.37 supports upside momentum; price above MA20.",
-      "RSI 67.6 signals moderate bullish momentum, not overbought.",
-      "Positive diplomatic headlines and oil stability undergird USD strength."
+      "価格はMA20を上回り一時的な強気推移もRSI72で過熱",
+      "ナスダック先物の下落とディーゼル輸出禁止報道がリスクオフを誘発",
+      "短期的な押し目売りを検討し、エントリーは157.50付近、TP 156.80、SL 158.20"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY at 157.18 above MA20; bullish momentum supported by improving diplomatic sentiment and oil stability.",
+    "excerpt": "RSI72の過熱とリスクオフ要因が重なり、USD/JPYは短期的に下落へ向かう見込み。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20と心理的節目を上回ったことを確認後、押し目買い。",
-    "entry": "157.00",
-    "tp": "158.30",
-    "sl": "156.50",
+    "status": "NEUTRAL",
+    "comment": "RSI72の過熱とリスクオフ要因が重なり、USD/JPYは短期的に下落へ向かう見込み。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-28 04:32",
+    "title": "[S&P 500] UP: confirming convergence of MA20 bounce and bullish fundamentals",
+    "date": "2026-09-28 12:40",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "価格はMA20を上回り、短期的に底堅い展開",
-      "CAPE比率の高騰が上値を重くし、リスクオフ要因が残存",
-      "押し目買いを前提に、Nomura Securities を利用した流動性確保を推奨"
+      "MA20 support aligns with bullish catalysts",
+      "RSI near 52 signals neutral‑to‑bullish momentum",
+      "Entry near $7,720 with defined TP/SL levels"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を上回り底堅いが、CAPE高騰と地政学リスクで上値重く、方向感は限定的。押し目買いの機会を探る。",
+    "excerpt": "S&P 500 at $7,743; MA20 support and bullish catalysts point to upside with defined risk.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20を上回る底堅さとファンダメンタルズの支えを反映し、押し目買いが有利",
-    "entry": "7700.00",
-    "tp": "7850.00",
-    "sl": "7600.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20の支持とマクロの強気材料が一致",
+    "entry": "7710",
+    "tp": "7800",
+    "sl": "7640",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20支持とETF资金流入推动上涨",
-    "date": "2026-09-28 04:33",
+    "title": "[BTC/USD] UP: BTC ETF大口流入とMA20反発の整合性",
+    "date": "2026-09-28 12:41",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20支持が維持され、ETF週間流入24億ドルが記録更新",
-      "RSI71の過 buying状態が一時的な調整を示唆",
-      "MACDが bullish crossover を示し、上昇継続の可能性"
+      "BTC ETF週間流入24億ドルで大口機関需要確認",
+      "MA20上で価格維持、RSI67と強気但不穏",
+      "SEC FAQでトークンバック規制強化の見通し"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD maintains upward bias as MA20 support holds and ETF inflows surge, despite overbought RSI signaling potential pullback.",
+    "excerpt": "BTC ETF大口流入とMA20維持で上昇トレンド継続。RSI67の過熱リスクを監視しつつ、bitflyerでの厳格なSL管理による押し目買いを推奨。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20支持とETF资金流入推动上涨，但RSI超买需谨慎",
-    "entry": "84655",
-    "tp": "87000",
-    "sl": "83000",
+    "comment": "BTC ETF大口流入とMA20サポート維持、RSI67の強気但不穏",
+    "entry": "83392",
+    "tp": "85500",
+    "sl": "79000",
     "reliability": "MEDIUM"
   }
 }
