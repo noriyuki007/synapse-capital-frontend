@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20反発とRSI過熱局面のリスク管理的分析を踏まえた戦略",
-    "date": "2026-09-29 23:35",
+    "title": "[USD/JPY] DOWN: 利回りピーク圧力とRSI過熱による一時的値下落",
+    "date": "2026-09-30 05:25",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "現在価格157.32はMA20(156.27)上、RSI71.53の過熱下でも上振れ継続の圧力",
-      "米国住宅需要増加（CaseShiller+2.5%）と労市場の微弱な伸びがUSD支持",
-      "調整局面のFOBライン下げを狙ったTBT「MA20越え買い」を厳守"
+      "米長期金利の高値圏推押せき反発",
+      "RSI(14)週境界71.85超買い",
+      "MA20付近156.27割込みリスク"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは157.32でMA20上、RSI過熱下でも上昇継続の圧力。TBT戦術での段階的決済を推奨。",
+    "excerpt": "米30年債利回り高値圏推押、RSI過熱で一時安。MA20割れなれば155.70台へ下落。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20上昇継続、RSI過熱下の安全術",
-    "entry": "157.50",
-    "tp": "158.40",
-    "sl": "156.20",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "RSI過熱と利回りピークサイクルの複合売り信号",
+    "entry": "156.90",
+    "tp": "155.70",
+    "sl": "157.70",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: 価格がMA20を上回りテクニカル・ファンダメンタルズが一致",
-    "date": "2026-09-29 23:37",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-09-30 05:26",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Nomura",
+    "recommended_broker": "指定ブローカー",
     "tldr_points": [
-      "S&P 500はMA20をわずかに上回り、上げ幅の余地がある",
-      "金利は高止まりだが一時的な緩和でテクニカルが支えている",
-      "流動性の観点からNomuraの利用を推奨"
+      "価格はMA20をわずかに上抜け、底堅い地合いを示す",
+      "米長期金利の上昇はインフレ懸念を伴うが、ソフトウェアセクターの買いシグナルが相殺",
+      "RSIは中立域で、押し目買いの余地が残っている"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20を上回る価格とRSI中立から上げ余地を示唆、テクニカルとファンダの整合性を確認",
+    "excerpt": "S&P500はMA20を支えに反発しやすく、テクニカルとファンダの整合性から上昇バイアスが優位。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20を上回る価格とRSI中立から上げ余地が見込まれ、流動性の高いNomuraでの実行が適切。",
-    "entry": "7680.00",
-    "tp": "7750.00",
-    "sl": "7620.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20サポートとソフトウェアセクターの買いシグナルが上昇を支えるため",
+    "entry": "7665.00",
+    "tp": "7700.00",
+    "sl": "7640.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20下値支持と規制整備加速の共振（例：「[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認」）",
-    "date": "2026-09-29 23:40",
+    "title": "[BTC/USD] DOWN: 過熱感と利益実現圧力による調整局面",
+    "date": "2026-09-30 05:28",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "RSI過熱はあるがMA20支持線が下値壁に機能",
-      "Coinbase DCO/CFTC完遂で機関向け Derivatives 環境が拡充",
-      "Tether shadow banking 指摘は短期的ボラティリティ要因にとどまる見通し"
+      "RSIが76と過熱圏、利益実現の圧力が高まる",
+      "MA20を上抜けているが、長期ホルダー供給クラスターがサポートとなる可能性",
+      "ニュースから規制監視強調と新商品発売が混在、方向感は限定的"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCはMA20支持を維持しつつRSI76超の強気モメンタム。規制インフラの完了とステーブル決済拡大が下支え。押し目買いを基本軸とし、bitflyerの流動性を活用したリミット执行を推奨。",
+    "excerpt": "BTC/USDは過熱感から調整局面入り、MA20付近での売り圧力が予想され、短期的な下振れを視野にリスク管理された売り戦略を示す。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20支持維持＋規制カタリスト整合。RSI過熱注意",
-    "entry": "82000",
-    "tp": "87500",
-    "sl": "79500",
+    "status": "SELL",
+    "comment": "RSI過熱感と利益実現圧力による調整局面での売りシグナル",
+    "entry": "84200.00",
+    "tp": "79000.00",
+    "sl": "86000.00",
     "reliability": "MEDIUM"
   }
 }
