@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20支持線を上回る上昇モーメンタムと米国 geopolitical 缓和による円安基調",
-    "date": "2026-09-29 01:25",
+    "title": "[USD/JPY] UP: MA20支持と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-09-29 13:04",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "現行価格157.17がMA20（156.37）を上回り、短期的な上昇トレンドが維持されている",
-      "米国Dallas Fed製造業指数が9.8と拡大基調を維持し、米経済の底堅さがUSDを支援",
-      "イラン核問題を巡る米制裁緩和の見通しにより risk-on 基調が強まり、円安・米高の流れが加速"
+      "MA20支持線で押し目買优点検",
+      "Katayama-Bessent協力発言は介入リスクとして逆張り材料",
+      "RSI72.5は一時的な過熱だがトレンドは上昇継続"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは157.17でMA20を上回る強気構成。RSI 67.5で過熱感は未確認。米制裁缓和と risk-on により円安・米高継続の見通し。",
+    "excerpt": "USD/JPYはMA20支持を再確認し157.44で推移。財務大臣のyen過度の安さ問題発言とBessentとの協力合意が市場心理に重みを与えつつある。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20（156.37）を明確に上回る推移と、米国製造業の底堅さ、イラン情勢の缓和による risk-on 基調が上昇要因。RSIは過熱感なく上昇余地あり。",
-    "entry": "156.60",
-    "tp": "158.00",
-    "sl": "155.80",
-    "reliability": "HIGH"
+    "comment": "MA20支持＋ファンダメンタルズ整合。Katayama介入リスクはポジションサイズで吸収",
+    "entry": "157.10",
+    "tp": "158.20",
+    "sl": "156.20",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20トレンド維持と利回り縮小がもたらすリスクオンシフト",
-    "date": "2026-09-29 01:28",
+    "title": "[S&P 500] FLAT: 金利上昇とAI懸念の中での膠着状態、MA20サポート維持",
+    "date": "2026-09-29 13:05",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "SBI証券",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
     "tldr_points": [
-      "MA20近傍での価格反発が上値トライの可能性を示唆",
-      "利回りのピークアウトと企業利回り改善により上値余地が限定的ながら存在",
-      "機関資金の選好的買い越しがセクター回転を牽引する局面"
+      "金利上昇とAI懸念で上昇圧力弱し",
+      "MA20付近で一時的な支持線維持",
+      "センチメントは中立寄り"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20水準での反発基調を強め、利回り落ち着きと流動性回復によりリスクオン姿勢が鮮明になっている。",
+    "excerpt": "S&P500は金利上昇とAIセクター懸念で重荷、MA20支持線は一時維持するも方向感なき膠着状態が続く。リスク管理を最優先し、流動性確保を推奨する。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20上抜けとRSI50超でのモメンタム転換を確認",
-    "entry": "7720.38",
-    "tp": "7850.00",
-    "sl": "7660.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "金利上昇とAI懸念の重荷、MA20支持線維持",
+    "entry": "7680",
+    "tp": "7725",
+    "sl": "7655",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-29 01:46",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-09-29 13:07",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "SECのピース委員が任期延長の可能性を示唆し、規制環境に上昇圧力",
-      "ストラテジーやストリーブの大型BTC購入が59000万ドル以上で継続中",
-      "Bitgetのセキュリティ侵害も大規模資本流入の需要を強調"
+      "価格はMA20を上抜け、RSIは63で買い余力残存",
+      "機関のデリバティブ拡大とステーブルコイン連携が需給を支える",
+      "イランのUSDT利用報道はリスクだが、全体的な流動性環境は依然プラス"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を上回る価格、強気ファンダメンタルズ、RSI65で上昇基調。テクニカルとオンチェーンのシナジーから短期的な買いシグナルを採用。",
+    "excerpt": "BTC/USDはMA20上抜けとRSI63で強気継続、流動性拡大と機関買いが支え",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20と強気ファンダメンタルズのシナジーによる明確な上昇シグナル",
-    "entry": "84150",
-    "tp": "86800",
-    "sl": "82800",
+    "comment": "MA20上抜け・RSI63・機関ファンダが買いを裏付け",
+    "entry": "82500",
+    "tp": "86000",
+    "sl": "81500",
     "reliability": "HIGH"
   }
 }
