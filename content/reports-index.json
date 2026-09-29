@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-09-29-crypto-ja",
-    "date": "2026-09-29 13:07",
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-09-29 23:40",
+    "title": "[BTC/USD] UP: MA20下値支持と規制整備加速の共振（例：「[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認」）",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "BTC/USDはMA20上抜けとRSI63で強気継続、流動性拡大と機関買いが支え",
+    "excerpt": "BTCはMA20支持を維持しつつRSI76超の強気モメンタム。規制インフラの完了とステーブル決済拡大が下支え。押し目買いを基本軸とし、bitflyerの流動性を活用したリミット执行を推奨。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-09-29-crypto-en",
-    "date": "2026-09-29 13:07",
-    "title": "[BTC/USD] UP: AI Detects Bullish Momentum from Derivatives Approval and Institutional Buying",
+    "date": "2026-09-29 23:40",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "BTC stays above MA20, RSI 63, as Coinbase derivatives approval and institutional buying boost near-term upside.!!",
+    "excerpt": "BTC/USD holds above 80k with institutional catalysts and MA20 support signaling continuation potential.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-09-29-stocks-ja",
-    "date": "2026-09-29 13:05",
-    "title": "[S&P 500] FLAT: 金利上昇とAI懸念の中での膠着状態、MA20サポート維持",
+    "date": "2026-09-29 23:37",
+    "title": "[S&P 500] UP: 価格がMA20を上回りテクニカル・ファンダメンタルズが一致",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "excerpt": "S&P500は金利上昇とAIセクター懸念で重荷、MA20支持線は一時維持するも方向感なき膠着状態が続く。リスク管理を最優先し、流動性確保を推奨する。",
+    "prediction_direction": "UP",
+    "recommended_broker": "Nomura",
+    "excerpt": "MA20を上回る価格とRSI中立から上げ余地を示唆、テクニカルとファンダの整合性を確認",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-09-29-stocks-en",
-    "date": "2026-09-29 13:05",
-    "title": "[S&P 500] FLAT: Yield Pressure Offsets Mild Technical Support",
+    "date": "2026-09-29 23:37",
+    "title": "[S&P 500] UP: Price Above MA20 with Moderate RSI as Yields Ease",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "",
-    "excerpt": "Yield‑driven pressure keeps S&P 500 near 20‑day MA; neutral RSI points to flat‑to‑slightly down bias.",
+    "excerpt": "S&P 500 trades above MA20 with neutral RSI; yields easing offer upside bias for near‑term long.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-09-29-fx-ja",
-    "date": "2026-09-29 13:04",
-    "title": "[USD/JPY] UP: MA20支持と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-09-29 23:35",
+    "title": "[USD/JPY] UP: MA20反発とRSI過熱局面のリスク管理的分析を踏まえた戦略",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "USD/JPYはMA20支持を再確認し157.44で推移。財務大臣のyen過度の安さ問題発言とBessentとの協力合意が市場心理に重みを与えつつある。",
+    "excerpt": "USD/JPYは157.32でMA20上、RSI過熱下でも上昇継続の圧力。TBT戦術での段階的決済を推奨。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-09-29-fx-en",
-    "date": "2026-09-29 13:04",
-    "title": "[USD/JPY] DOWN: RSI Overbought Signals Near-Term Pullback Amid Yen Undervaluation Concerns",
+    "date": "2026-09-29 23:35",
+    "title": "[USD/JPY] DOWN: AI Detects Overbought RSI and Soft US Data Favoring Correction",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY faces short-term downside pressure as overbought RSI and yen undervaluation concerns converge.",
+    "excerpt": "USD/JPY overbought, soft US macro, expected pullback toward 154.5.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -80,7 +80,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "BTC ETF大口流入とMA20維持で上昇トレンド継続。RSI67の過熱リスクを監視しつつ、bitflyerでの厳格なSL管理による押し目買いを推奨。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -92,7 +92,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD holds above MA20 as ETF inflows and institutional demand drive bullish momentum across crypto markets.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -104,7 +104,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500 at $7,743; MA20 support and bullish catalysts point to upside with defined risk.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -116,7 +116,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "",
     "excerpt": "S&P 500 defends MA20 support at 7,672 as RSI neutrality offers asymmetric upside; geopolitical headlines create entry opportunity.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -140,7 +140,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY holds above MA20 at 156.40; China-US trade truce extension to Jan 2027 supports risk-on yen weakness toward 159.00.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {

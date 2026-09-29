@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20支持と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-29 13:04",
+    "title": "[USD/JPY] UP: MA20反発とRSI過熱局面のリスク管理的分析を踏まえた戦略",
+    "date": "2026-09-29 23:35",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20支持線で押し目買优点検",
-      "Katayama-Bessent協力発言は介入リスクとして逆張り材料",
-      "RSI72.5は一時的な過熱だがトレンドは上昇継続"
+      "現在価格157.32はMA20(156.27)上、RSI71.53の過熱下でも上振れ継続の圧力",
+      "米国住宅需要増加（CaseShiller+2.5%）と労市場の微弱な伸びがUSD支持",
+      "調整局面のFOBライン下げを狙ったTBT「MA20越え買い」を厳守"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20支持を再確認し157.44で推移。財務大臣のyen過度の安さ問題発言とBessentとの協力合意が市場心理に重みを与えつつある。",
+    "excerpt": "USD/JPYは157.32でMA20上、RSI過熱下でも上昇継続の圧力。TBT戦術での段階的決済を推奨。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20支持＋ファンダメンタルズ整合。Katayama介入リスクはポジションサイズで吸収",
-    "entry": "157.10",
-    "tp": "158.20",
+    "comment": "MA20上昇継続、RSI過熱下の安全術",
+    "entry": "157.50",
+    "tp": "158.40",
     "sl": "156.20",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: 金利上昇とAI懸念の中での膠着状態、MA20サポート維持",
-    "date": "2026-09-29 13:05",
+    "title": "[S&P 500] UP: 価格がMA20を上回りテクニカル・ファンダメンタルズが一致",
+    "date": "2026-09-29 23:37",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
+    "prediction_direction": "UP",
+    "recommended_broker": "Nomura",
     "tldr_points": [
-      "金利上昇とAI懸念で上昇圧力弱し",
-      "MA20付近で一時的な支持線維持",
-      "センチメントは中立寄り"
+      "S&P 500はMA20をわずかに上回り、上げ幅の余地がある",
+      "金利は高止まりだが一時的な緩和でテクニカルが支えている",
+      "流動性の観点からNomuraの利用を推奨"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500は金利上昇とAIセクター懸念で重荷、MA20支持線は一時維持するも方向感なき膠着状態が続く。リスク管理を最優先し、流動性確保を推奨する。",
+    "excerpt": "MA20を上回る価格とRSI中立から上げ余地を示唆、テクニカルとファンダの整合性を確認",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "金利上昇とAI懸念の重荷、MA20支持線維持",
-    "entry": "7680",
-    "tp": "7725",
-    "sl": "7655",
+    "status": "BUY",
+    "comment": "MA20を上回る価格とRSI中立から上げ余地が見込まれ、流動性の高いNomuraでの実行が適切。",
+    "entry": "7680.00",
+    "tp": "7750.00",
+    "sl": "7620.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-29 13:07",
+    "title": "[BTC/USD] UP: MA20下値支持と規制整備加速の共振（例：「[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認」）",
+    "date": "2026-09-29 23:40",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を上抜け、RSIは63で買い余力残存",
-      "機関のデリバティブ拡大とステーブルコイン連携が需給を支える",
-      "イランのUSDT利用報道はリスクだが、全体的な流動性環境は依然プラス"
+      "RSI過熱はあるがMA20支持線が下値壁に機能",
+      "Coinbase DCO/CFTC完遂で機関向け Derivatives 環境が拡充",
+      "Tether shadow banking 指摘は短期的ボラティリティ要因にとどまる見通し"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20上抜けとRSI63で強気継続、流動性拡大と機関買いが支え",
+    "excerpt": "BTCはMA20支持を維持しつつRSI76超の強気モメンタム。規制インフラの完了とステーブル決済拡大が下支え。押し目買いを基本軸とし、bitflyerの流動性を活用したリミット执行を推奨。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上抜け・RSI63・機関ファンダが買いを裏付け",
-    "entry": "82500",
-    "tp": "86000",
-    "sl": "81500",
-    "reliability": "HIGH"
+    "comment": "MA20支持維持＋規制カタリスト整合。RSI過熱注意",
+    "entry": "82000",
+    "tp": "87500",
+    "sl": "79500",
+    "reliability": "MEDIUM"
   }
 }
