@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での押し目と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-30 23:35",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-10-01 05:30",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20付近の押し目で買い場を狙い、リスク管理を徹底",
-      "RSI68.5で過熱感あり、上値ブレイクが期待できる",
-      "米GDP改善と原油在庫増加がUSD強含みを示唆"
+      "価格はMA20を上抜けし、上昇トレンド継続の可能性が高い",
+      "RSIは71.9で過熱気味だが、モメンタムは依然強い",
+      "地政学的プレミアムとFRBへの政治的圧力が混在し、方向性は上向きにバイアス"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20付近で押し目買いのチャンス、RSI68.5で過熱感あり、米GDP改善と原油在庫増加が背景にある。",
+    "excerpt": "MA20を突破したUSD/JPYは上昇余地を示すが、RSIの過熱感から押し目買いが適切と判断。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPYはMA20付近で押し目買いのチャンス、RSI68.5で過熱感あり、米GDP改善と原油在庫増加が背景にある。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "MA20支持と上昇モメンタムに基づく押し目買い",
+    "entry": "156.30",
+    "tp": "158.00",
+    "sl": "155.80",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: PCEインフレ鈍化とMA20支えで上げトレンド継続の期待",
-    "date": "2026-09-30 23:39",
+    "title": "[S&P 500] UP: MA20での反発とソフトインフレの整合性を確認",
+    "date": "2026-10-01 05:31",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "野村證券",
+    "recommended_broker": "",
     "tldr_points": [
-      "PCEインフレが予想を下回り、S&P 500先物が上昇。",
-      "現在価格はMA20を上回り、RSIは59.7でやや強気。",
-      "押し目買いを推奨し、流動性は野村證券を活用。"
+      "MA20(7671.31)直下の7651.54で一時的な押し目買いを狙う",
+      "ソフトインフレ維持でFRB据え置きシナリオが優勢",
+      "Breadth悪化は内部弱さの証、左監視必要"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "PCEインフレ鈍化で先物上昇、価格はMA20を維持しRSIはやや強気。押し目買いと具体的エグジットを示す。",
+    "excerpt": "S&P500はMA20下で推移しRSI55.20の中立帯。ソフトインフレ維持でFRB据え置きシナリオンが優勢だが、Breadth悪化は内部弱さ。MA20回復狙いの一時的な押し目買いを推奨。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "PCEインフレ鈍化とMA20支えで上げトレンド継続期待",
-    "entry": "7700",
-    "tp": "7850",
-    "sl": "7620",
-    "reliability": "HIGH"
+    "comment": "ソフトインフレ維持とMA20支持線が押し目買い根拠",
+    "entry": "7640.00",
+    "tp": "7735.00",
+    "sl": "7580.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-09-30 23:41",
+    "date": "2026-10-01 05:33",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20レベルでの技術的反発確認",
-      "FCA規制明確化による機関参入加速",
-      "RSIオーバーブラック警戒と短期的調整リスク"
+      "価格はMA20を上回り上昇トレンド継続の兆候",
+      "RSIは75超えで過熱感もあるがモメンタムは依然強い",
+      "マクロではソフトPCEがFRBの利上げ観測を抑制"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDは83471水準でMA20を上回りRSI74.6に接近。ファンダは機関取り込み進展だが短期調整リスク。戦略的エントリーと厳格リスク管理を提言。",
+    "excerpt": "MA20を上抜け、過熱感とファンダメンタルズの緩和が重なり、BTC/USDは上昇余地が拡大している。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USDは83471水準でMA20を上回りRSI74.6に接近。ファンダは機関取り込み進展だが短期調整リスク。戦略的エントリーと厳格リスク管理を提言。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20上抜けと金利緩和が上昇を支持",
+    "entry": "82000.00",
+    "tp": "88000.00",
+    "sl": "79500.00",
+    "reliability": "HIGH"
   }
 }

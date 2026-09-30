@@ -1,68 +1,66 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Price above MA20, RSI near overbought, strong US GDP supports bullish bias",
-    "date": "2026-09-30 23:35",
+    "title": "[USD/JPY] UP: AI Detects Bullish Momentum Above MA20 Amid Mixed Fundamentals",
+    "date": "2026-10-01 05:30",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US Q2 GDP final at 2.2% vs 1.5% estimate boosts dollar fundamentals.",
-      "USD/JPY trades above the 20‑day MA at 156.97, indicating short‑term upward momentum.",
-      "RSI‑14 at 68.5 suggests room for further upside before reaching overbought territory."
+      "Price above MA20 with elevated RSI signals momentum",
+      "Trump-Powell tension creates policy uncertainty",
+      "Tech strength supports risk-on sentiment"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Strong US data lifts dollar, USD/JPY holds above MA20 with RSI moderate, favoring a long bias.",
+    "excerpt": "USD/JPY sustains above MA20 at 157.48 as RSI reaches 71.9, suggesting continued bullish momentum despite political uncertainty.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish momentum supported by strong US GDP and price above MA20 with RSI indicating room for further upside.",
-    "entry": "156.80",
-    "tp": "158.20",
-    "sl": "156.30",
-    "reliability": "HIGH"
+    "comment": "Bullish momentum above MA20 with RSI support",
+    "entry": "157.48",
+    "tp": "158.50",
+    "sl": "156.13",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-30 23:39",
+    "title": "[S&P 500] FLAT: Price Below MA20 with Neutral RSI Amid Mixed Fundamentals",
+    "date": "2026-10-01 05:31",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 holds above MA20 with RSI showing room for upside momentum",
-      "PCE inflation surprise fuels rate-cut optimism amid mixed sentiment drivers",
-      "Buyback rotation into defensive sectors reduces near-term volatility pressure"
+      "Price trades below the 20‑day moving average while RSI remains neutral, indicating indecision.",
+      "Fundamental news shows resilient consumer spending but soft inflation and geopolitical tension from Iran weighing on breadth.",
+      "A range‑bound approach between 7600 and 7700 offers the clearest risk‑defined setup."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 rises on dovish PCE surprise; AI signals support at MA20 with bullish momentum extending into key resistance zone.",
+    "excerpt": "S&P 500 hovers under MA20 with neutral momentum; mixed fundamentals suggest a flat outlook and range‑bound trading.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Inflation-driven repricing supports continued upward trajectory with MA20 holding as key support",
-    "entry": "7674",
-    "tp": "7760",
-    "sl": "7640",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P 500 hovers under MA20 with neutral momentum; mixed fundamentals suggest a flat outlook and range‑bound trading.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-30 23:41",
+    "title": "[BTC/USD] UP: AI Confirms Strength Above MA20 and Soft PCE Supports Bullish Momentum",
+    "date": "2026-10-01 05:33",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price holds above MA20 with RSI confirming bullish momentum",
-      "FCA regulatory clarity and Standard Chartered stablecoin forecasts provide fundamental tailwinds",
-      "Kalshi liquidity concerns represent isolated risk vs broad institutional adoption"
+      "BTC price above MA20 with RSI near overbought levels; Soft PCE cooling supports rate‑pause bets; Base Cobalt upgrade adds utility catalysts"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD bullish above MA20 as FCA clarity and stablecoin expansion offset wash trading concerns.",
+    "excerpt": "BTC bullish as price holds above MA20 and Fed rate‑hike odds ease; AI signals continuation.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Price above MA20 with bullish fundamental catalysts outweighing isolated market integrity risks",
-    "entry": "83471.20",
-    "tp": "85800.00",
-    "sl": "81200.00",
+    "comment": "AI confirms support at MA20 and soft PCE underpins bullish momentum.",
+    "entry": "81302.00",
+    "tp": "86000.00",
+    "sl": "82000.00",
     "reliability": "HIGH"
   }
 }
