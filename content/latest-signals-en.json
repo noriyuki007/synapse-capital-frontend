@@ -1,66 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: US Yield Surge Supports Dollar as RSI Signals Overbought Momentum",
-    "date": "2026-09-30 05:25",
+    "title": "[USD/JPY] UP: Price above MA20, RSI near overbought, strong US GDP supports bullish bias",
+    "date": "2026-09-30 23:35",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US 30‑year yields at 2002 highs boost USD strength.",
-      "Fed officials signal one more hike likely, reinforcing dollar bullish bias.",
-      "Technical price above MA20 with RSI >70 suggests near‑term upside but watch for overbought reversal."
+      "US Q2 GDP final at 2.2% vs 1.5% estimate boosts dollar fundamentals.",
+      "USD/JPY trades above the 20‑day MA at 156.97, indicating short‑term upward momentum.",
+      "RSI‑14 at 68.5 suggests room for further upside before reaching overbought territory."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY poised for further gains as dollar strengthens on rising US yields and hawkish Fed cues.",
+    "excerpt": "Strong US data lifts dollar, USD/JPY holds above MA20 with RSI moderate, favoring a long bias.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "USD/JPY supported by rising US yields and technical bullish bias despite overbought RSI.",
-    "entry": "156.30",
-    "tp": "158.80",
-    "sl": "155.70",
-    "reliability": "MEDIUM"
+    "comment": "Bullish momentum supported by strong US GDP and price above MA20 with RSI indicating room for further upside.",
+    "entry": "156.80",
+    "tp": "158.20",
+    "sl": "156.30",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: Price Hovering Around MA20 with Neutral RSI Amid Mixed Macro",
-    "date": "2026-09-30 05:26",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-09-30 23:39",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 trades flat near MA20 with RSI ~53.",
-      "Rising Treasury yields despite weak jobs data create headwinds.",
-      "Tech sector shows buy zones but broader market flashes warning signs."
+      "S&P 500 holds above MA20 with RSI showing room for upside momentum",
+      "PCE inflation surprise fuels rate-cut optimism amid mixed sentiment drivers",
+      "Buyback rotation into defensive sectors reduces near-term volatility pressure"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades flat near MA20 with neutral RSI as yields rise and tech shows mixed signals.",
+    "excerpt": "S&P 500 rises on dovish PCE surprise; AI signals support at MA20 with bullish momentum extending into key resistance zone.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P 500 trades flat near MA20 with neutral RSI as yields rise and tech shows mixed signals.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Inflation-driven repricing supports continued upward trajectory with MA20 holding as key support",
+    "entry": "7674",
+    "tp": "7760",
+    "sl": "7640",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-09-30 05:28",
+    "date": "2026-09-30 23:41",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trades above MA20 but RSI 76 signals overbought conditions; Long‑term holder supply cluster offers support; Regulatory and profit‑taking risks loom."
+      "Price holds above MA20 with RSI confirming bullish momentum",
+      "FCA regulatory clarity and Standard Chartered stablecoin forecasts provide fundamental tailwinds",
+      "Kalshi liquidity concerns represent isolated risk vs broad institutional adoption"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC tests MA20 support; overbought RSI warns of pullback; fundamentals mixed but holder demand steady.",
+    "excerpt": "BTC/USD bullish above MA20 as FCA clarity and stablecoin expansion offset wash trading concerns.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "AI bullish bias on MA20 support with controlled risk amid overbought RSI.",
-    "entry": "83000",
-    "tp": "85500",
-    "sl": "82500",
-    "reliability": "MEDIUM"
+    "comment": "Price above MA20 with bullish fundamental catalysts outweighing isolated market integrity risks",
+    "entry": "83471.20",
+    "tp": "85800.00",
+    "sl": "81200.00",
+    "reliability": "HIGH"
   }
 }
