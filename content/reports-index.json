@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-10-02-crypto-ja",
+    "date": "2026-10-02 00:21",
+    "title": "[BTC/USD] UP: MA20での支持とファンダメンタルズの一部改善を確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USDはMA20を上回り上トレンド継続が示唆されるが、RSIの過熱とETFフロー停滞が短期調整リスクとなる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-02-crypto-en",
+    "date": "2026-10-02 00:21",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC consolidation near $84,200 as ETF inflows pause; AI signals MA20 support and pending upward continuation.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-02-stocks-ja",
+    "date": "2026-10-02 00:09",
+    "title": "[S&P 500] DOWN: MA20割れ継続と金利上昇の重圧が弱気シナリオを主導",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "S&P 500はMA20割れと金利上昇の圧力が優勢。AIインフラ・半導体の業績カタリストは存在するが、金利相関とオーダーフローが弱気。戦術的には反発時のレジスタンス確度と下値モメンタムを重視し、DOWNを推奨。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-02-stocks-en",
+    "date": "2026-10-02 00:09",
+    "title": "[S&P 500] DOWN: Bond Selloff Pressure and Technical Break Below MA20",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 faces downside risk as bond selloff resumes and price breaks under MA20 amid mixed fundamentals.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-02-fx-ja",
+    "date": "2026-10-02 00:03",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYはMA20を上抜け、建設支出の強い数字とISMのやや弱いが拡張継続を背景に上昇バイアスが形成中。さらに、米長期金利の安定とリスクオン sentiment が円売りを支え、短期的な上値余地が広がっている。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-02-fx-en",
+    "date": "2026-10-02 00:03",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY dips to offer a strategic long entry as US economic resilience overrides minor ISM misses, keeping the uptrend intact.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-10-01-crypto-ja",
     "date": "2026-10-01 13:04",
     "title": "[BTC/USD] UP: MA20での支持と規制環境の改善が上げを後押し",

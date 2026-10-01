@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPYの見通し：需給バランスから見る「押し目買い」の優位性",
-    "date": "2026-10-01 12:59",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-10-02 00:03",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "金利相関（近似）: -0.05で負相関傾向",
-      "テクニカル: 現在価格 158.09 と MA20 156.09 の位置関係が主導",
-      "需給: 上限帯 159.56 / 下限帯 152.61 / 直近高値 159.00 / 直近安値 152.90 によるターゲット設計"
+      "建設支出の予想外増加が米ドルを下支え",
+      "ISM製造業指数はやや下振れも拡張継続でリスクオン継続",
+      "価格はMA20を上抜け、RSIは70手前で上昇余地あり"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 158.09、RSI(70.92)、MA20(156.09)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "USD/JPYはMA20を上抜け、建設支出の強い数字とISMのやや弱いが拡張継続を背景に上昇バイアスが形成中。さらに、米長期金利の安定とリスクオン sentiment が円売りを支え、短期的な上値余地が広がっている。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、USD/JPYの現在価格 158.09、RSI(70.92)、MA20(156.09)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "建設支出の強さとMA20上抜けが上昇バイアスを支持",
+    "entry": "157.70",
+    "tp": "158.50",
+    "sl": "157.20",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20を下回る価格と弱まるモメンタム",
-    "date": "2026-10-01 13:01",
+    "title": "[S&P 500] DOWN: MA20割れ継続と金利上昇の重圧が弱気シナリオを主導",
+    "date": "2026-10-02 00:09",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Nomura Securities",
+    "recommended_broker": "",
     "tldr_points": [
-      "現在価格はMA20下抜け、下方バイアスが濃厚",
-      "RSIは中立圏だが上値余地限定",
-      "AI関連株の上昇は局所的で指数全体への波及は薄い"
+      "MA20割れ継続で上値余地が制限される",
+      "金利上昇とbond selloffがバリュエーション圧力を高める",
+      "AI・半導体ファンダメンタルズは堅いが戦術的には軟調"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を下回り、テクニカル的に売りサイン。金利上昇とオーダーフローの萎縮が下押し圧力を強める。",
+    "excerpt": "S&P 500はMA20割れと金利上昇の圧力が優勢。AIインフラ・半導体の業績カタリストは存在するが、金利相関とオーダーフローが弱気。戦術的には反発時のレジスタンス確度と下値モメンタムを重視し、DOWNを推奨。",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "MA20下抜けと金利上昇が下押しを強める",
-    "entry": "7650.00",
-    "tp": "7600.00",
-    "sl": "7700.00",
+    "comment": "MA20割れ継続と金利上昇が弱気。ファンダメンタルズは強いが戦術的には反発売り。",
+    "entry": "7660.00",
+    "tp": "7480.00",
+    "sl": "7740.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での支持と規制環境の改善が上げを後押し",
-    "date": "2026-10-01 13:04",
+    "title": "[BTC/USD] UP: MA20での支持とファンダメンタルズの一部改善を確認",
+    "date": "2026-10-02 00:21",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20上維持で上昇バイアス",
-      "RSI75.5は過熱だが規制フローが支え",
-      "流動性の観点からbitflyerでの執行を推奨"
+      "価格はMA20を上回り上トレンド基調を維持",
+      "RSIは75.7で一時的過熱感があり調整リスクあり",
+      "機関向けUSDC決済拡大とETFフロー停滞が混在"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20上での価格維持と規制前向きニュースが上昇を支える。RSIは過熱だが、機関フローが底堅い。",
+    "excerpt": "BTC/USDはMA20を上回り上トレンド継続が示唆されるが、RSIの過熱とETFフロー停滞が短期調整リスクとなる。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20支持と規制前向きが上昇を後押し、リスクリワード良好",
-    "entry": "81500",
-    "tp": "88000",
+    "comment": "MA20支持とマクロ環境の改善が上昇を裏付け、RSI過買は短期調整要因",
+    "entry": "82500",
+    "tp": "92000",
     "sl": "80000",
-    "reliability": "HIGH"
+    "reliability": "MEDIUM"
   }
 }
