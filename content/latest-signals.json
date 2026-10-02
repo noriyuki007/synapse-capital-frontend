@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: RSI過買いと米ドル弱含みの整合性を確認",
-    "date": "2026-10-02 23:25",
+    "title": "[USD/JPY] UP: MA20 rebound & strong fundamentals",
+    "date": "2026-10-03 05:20",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米雇用指標後の米ドル売りが継続",
-      "RSI78.9で過買い圧力が顕在",
-      "MA20を下抜ければさらなる下値余地"
+      "Strong risk sentiment and Fed focus support USD strength",
+      "Price above 20‑day MA with high RSI signals bullish momentum",
+      "Key resistance at 158.50; support near 156.80"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米雇用報告を受けた米ドル弱含みとRSI過買いが重なり、USD/JPYは下押しリスクが高まっている。",
+    "excerpt": "USD/JPY bullish on macro support and technical breakout above MA20; target 158.50, watch for overbought levels.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "RSI過買いと米ドル弱含みが重ねて下押しリスクを示唆",
-    "entry": "156.15",
-    "tp": "155.50",
-    "sl": "156.40",
+    "status": "BUY",
+    "comment": "テクニカルな押し目買いと強気なファンダメンタルズが価格を支持",
+    "entry": "157.90",
+    "tp": "158.50",
+    "sl": "156.80",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-10-02 23:30",
+    "title": "[S&P 500] UP: 雇用統計悪化による利下げ期待とMA20サポートの整合性を確認",
+    "date": "2026-10-03 05:21",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "価格がMA20を上回りトレンド転換を示唆",
-      "雇用統計の弱さで利上げ確率低下、リスクオン継続",
-      "AI関連セクターの資金流入が下支え"
+      "弱い雇用統計が10月FOMCの利下げ観測を強め、リスクオンのトリガーとなる",
+      "銀行株の記録的アンダーパフォーマンスが金融システムへの波及リスクを孕んでおり、上値は重い",
+      "テクニカルはMA20上方での安定とRSI中立域を確認、押し目買い優位継続"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20上抜けかつRSI61で上昇基調、雇用鈍化による利上げ後退とAI資金流入が強気を補強。",
+    "excerpt": "雇用悪化で利下げ期待が高まるも、銀行株の歴史的出遅れが信用収縮を示唆。MA20サポートを軸に押し目買い戦略を維持。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20上抜け・RSI中立強気・利上げ後退で上昇トレンド継続",
-    "entry": "7705",
-    "tp": "7950",
-    "sl": "7650",
-    "reliability": "HIGH"
+    "comment": "利下げ期待とMA20サポートで上昇継続、銀行株弱含みで上値重くスイング向き",
+    "entry": "7680.00",
+    "tp": "7800.00",
+    "sl": "7640.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-10-02 23:34",
+    "title": "[BTC/USD] UP: MA20での押し目買いと強気ファンダメンタルズの整合性を確認",
+    "date": "2026-10-03 05:26",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "米雇用統計の弱含みがリスクオンを後押し",
-      "ETF流入継続で機関需要は堅調",
-      "MA20 bastion維持で上昇トレンド持続"
+      "84,500付近の押し目でロングエントリー、TP 86,000、SL 83,000 を設定",
+      "85,500 をブレークすれば追加エントリー、リスク管理を徹底",
+      "流動性確保のため bitflyer の利用を推奨し、オーダーフローをモニタリング"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDは85,768.99ドルで推移しMA20（82,109.18ドル）を上回る強含み。米雇用統計の失望とスポットETF27億ドル流入が相まって上昇トレンド継続の可能性が高まり、リスクオン環境が持続している状況が続いている。",
+    "excerpt": "BTCは84,500上昇トレンド、MA20サポートとRSI65で上値余地あり、86,000目標でロング推奨。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "MA20支持線と強気ファンダメンタルズの整合性",
-    "entry": "85768.99",
-    "tp": "89000",
-    "sl": "82000",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTCは84,500上昇トレンド、MA20サポートとRSI65で上値余地あり、86,000目標でロング推奨。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
