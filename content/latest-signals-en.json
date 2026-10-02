@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Overbought RSI Signals Tactical Pullback Ahead of Payrolls",
-    "date": "2026-10-02 12:56",
+    "title": "[USD/JPY] DOWN: RSI Overbought Signals Pullback Amid USD Weakness Post-Jobs",
+    "date": "2026-10-02 23:25",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "RSI at 80.4 signals overextension; price 1.1% above MA20",
-      "Dollar strength pauses pre-payrolls; BoJ policy uncertainty limits JPY downside",
-      "UBS flags aggressive Fed hike pricing; risk of yield compression favors correction"
+      "US jobs data shows consumer strength but USD weakened",
+      "Price above MA20 with RSI ~79 indicates overextension",
+      "Expect retest of MA20 support near 156.15"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY hits 157.92 with RSI at 80.4; overbought conditions and pre-payroll positioning suggest tactical pullback toward 156.20 MA20.",
+    "excerpt": "USD/JPY likely to correct lower from overbought levels as USD softens after strong jobs data.",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "Overbought RSI at 80.4, price extended above MA20, and payrolls event risk favor tactical mean reversion",
-    "entry": "157.95",
-    "tp": "156.20",
-    "sl": "158.55",
+    "comment": "RSI overbought and declining yields suggest near‑term downside toward MA20 support",
+    "entry": "158.00",
+    "tp": "156.15",
+    "sl": "158.70",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Futures Strength and New Constituents Signal Near‑Term Upside",
-    "date": "2026-10-02 12:56",
+    "title": "[S&P 500] UP: Price Consolidates Above MA20 as Soft Jobs Data Sinks Rate-Hike Odds",
+    "date": "2026-10-02 23:30",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "[]",
     "tldr_points": [
-      "U.S. futures are edging higher ahead of the nonfarm payrolls release, reflecting risk‑on sentiment.",
-      "Two new additions to the S&P 500 are experiencing buying pressure, providing incremental index support.",
-      "Energy ETFs have surged in 2026, bolstering the broader market’s upside bias."
+      "Soft hiring data reduced near-term rate-hike probability, supporting equity multiples.",
+      "Index maintains 1% premium over MA20 with RSI at neutral-bullish 61.28.",
+      "Sector rotation favors technology and energy; consumer equities face headwinds."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 poised for modest upside as futures rise, new index additions boost sentiment, and price holds near key MA20 support.",
+    "excerpt": "S&P 500 holds above MA20 following soft jobs data; rate-hike odds sink, favoring bullish technical continuation.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price near MA20 support with bullish futures and fresh index inflows",
-    "entry": "7665.00",
-    "tp": "7690.00",
-    "sl": "7645.00",
-    "reliability": "MEDIUM"
+    "comment": "Price holds above MA20 with rate cuts supportive.",
+    "entry": "7748.46",
+    "tp": "7850.00",
+    "sl": "7665.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-02 12:59",
+    "date": "2026-10-02 23:34",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price holds above MA20 amid bullish regulatory news",
-      "RSI indicates sustained upward momentum",
-      "Strategic entry near MA20 offers favorable risk-reward"
+      "$85,000 resistance cleared amid bullish ETF flows",
+      "MA20 acts as dynamic support with RSI easing from overbought",
+      "Institutional demand remains elevated following $2.7B ETF inflows"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD bullish above MA20; RSI strong; enter near support with bybit for best execution.",
+    "excerpt": "BTC nears Jan highs after $85K wall breaks; fundamentals support continued upside.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Bullish above MA20 with strong RSI momentum and supportive fundamentals.",
-    "entry": "81716.99",
-    "tp": "87000.00",
-    "sl": "80500.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTC nears Jan highs after $85K wall breaks; fundamentals support continued upside.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }

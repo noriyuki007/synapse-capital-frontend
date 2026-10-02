@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20支持と金利差ファクターの整合性",
-    "date": "2026-10-02 12:56",
+    "title": "[USD/JPY] DOWN: RSI過買いと米ドル弱含みの整合性を確認",
+    "date": "2026-10-02 23:25",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20支持線が買い入口を示唆",
-      "RSI過熱は段階的ポジション管理の必要性",
-      "雇用統一前のレンジ内で押し目買い優先"
+      "米雇用指標後の米ドル売りが継続",
+      "RSI78.9で過買い圧力が顕在",
+      "MA20を下抜ければさらなる下値余地"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは157.92でMA20上の強含み、RSI80超の過熱状態。米雇用統一前に利確圧力を警戒しつつ、MA20支持での押し目買いを戦略的に推奨。",
+    "excerpt": "米雇用報告を受けた米ドル弱含みとRSI過買いが重なり、USD/JPYは下押しリスクが高まっている。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20支持と金利差ファクターが買い優勢、RSI過熱は利確信号",
-    "entry": "157.50",
-    "tp": "158.90",
-    "sl": "156.00",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "RSI過買いと米ドル弱含みが重ねて下押しリスクを示唆",
+    "entry": "156.15",
+    "tp": "155.50",
+    "sl": "156.40",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20付近の押し目と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-10-02 12:56",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-10-02 23:30",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "楽天証券",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P500は上値余地あり、MA20付近で反発期待",
-      "RSI50.9で中立的なポジション、流動性確保とリスク管理が鍵",
-      "エントリー7665、TP7720、SL7640でリスクReward比良好"
+      "価格がMA20を上回りトレンド転換を示唆",
+      "雇用統計の弱さで利上げ確率低下、リスクオン継続",
+      "AI関連セクターの資金流入が下支え"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500は上値余地あり、MA20付近で反発期待、RSI50.9の中立的ポジション、流動性確保とリスク管理を徹底したロング推奨",
+    "excerpt": "S&P500はMA20上抜けかつRSI61で上昇基調、雇用鈍化による利上げ後退とAI資金流入が強気を補強。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20付近の押し目とRSI中立で上値余地あり、流動性確保とリスク管理を徹底したロング推奨",
-    "entry": "7665.00",
-    "tp": "7720.00",
-    "sl": "7640.00",
+    "comment": "MA20上抜け・RSI中立強気・利上げ後退で上昇トレンド継続",
+    "entry": "7705",
+    "tp": "7950",
+    "sl": "7650",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "インテリジェンス：BTC/USDの強気相場における利益確定ポイント",
-    "date": "2026-10-02 12:59",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-10-02 23:34",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "金利相関（近似）: -0.37で負相関傾向",
-      "テクニカル: 現在価格 85507.76 と MA20 81716.99 の位置関係が主導",
-      "需給: 上限帯 89065.64 / 下限帯 74368.33 / 直近高値 87363.76 / 直近安値 74944.59 によるターゲット設計"
+      "米雇用統計の弱含みがリスクオンを後押し",
+      "ETF流入継続で機関需要は堅調",
+      "MA20 bastion維持で上昇トレンド持続"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 85507.76、RSI(77.64)、MA20(81716.99)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "BTC/USDは85,768.99ドルで推移しMA20（82,109.18ドル）を上回る強含み。米雇用統計の失望とスポットETF27億ドル流入が相まって上昇トレンド継続の可能性が高まり、リスクオン環境が持続している状況が続いている。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、BTC/USDの現在価格 85507.76、RSI(77.64)、MA20(81716.99)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20支持線と強気ファンダメンタルズの整合性",
+    "entry": "85768.99",
+    "tp": "89000",
+    "sl": "82000",
+    "reliability": "HIGH"
   }
 }
