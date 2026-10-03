@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20 rebound & strong fundamentals",
-    "date": "2026-10-03 05:20",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-10-03 12:40",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "Strong risk sentiment and Fed focus support USD strength",
-      "Price above 20‑day MA with high RSI signals bullish momentum",
-      "Key resistance at 158.50; support near 156.80"
+      "価格はMA20を上回り上昇モメンタムが持続",
+      "米国雇用の緩やかな弱含みと利回り上昇がドルを支える",
+      "RSIは76超えで買われ過ぎだが、トレンド継続の可能性が高い"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish on macro support and technical breakout above MA20; target 158.50, watch for overbought levels.",
+    "excerpt": "USD/JPYはMA20を基盤とした上昇トレンドが続き、米国金利上昇と弱い雇用統計がドルを下支えしている。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "テクニカルな押し目買いと強気なファンダメンタルズが価格を支持",
-    "entry": "157.90",
-    "tp": "158.50",
-    "sl": "156.80",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPYはMA20を基盤とした上昇トレンドが続き、米国金利上昇と弱い雇用統計がドルを下支えしている。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: 雇用統計悪化による利下げ期待とMA20サポートの整合性を確認",
-    "date": "2026-10-03 05:21",
+    "title": "[S&P 500] UP: 強気ファンダメンタルズとの整合性と押し目買い機会の拡大",
+    "date": "2026-10-03 12:51",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "弱い雇用統計が10月FOMCの利下げ観測を強め、リスクオンのトリガーとなる",
-      "銀行株の記録的アンダーパフォーマンスが金融システムへの波及リスクを孕んでおり、上値は重い",
-      "テクニカルはMA20上方での安定とRSI中立域を確認、押し目買い優位継続"
+      "弱い雇用統計が金利見直しの可能性を冷水落とし、市場がリスクオフからリスクオンへ転換",
+      "テクニカル面でMA20上に位置し、RSI局面で板を押し上げる構造",
+      "一部銘柄の買い残し・ボランティール構造が全体ゲインを牽引"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "雇用悪化で利下げ期待が高まるも、銀行株の歴史的出遅れが信用収縮を示唆。MA20サポートを軸に押し目買い戦略を維持。",
+    "excerpt": "弱い雇用報告とテクニカル転換点で、S&P 500はMA20上昇とRSI局面の強化により上昇トレンドを維持中。流動性確保のためInteractive Brokersの利用を推奨する。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "利下げ期待とMA20サポートで上昇継続、銀行株弱含みで上値重くスイング向き",
-    "entry": "7680.00",
-    "tp": "7800.00",
-    "sl": "7640.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20上昇とRSI局面の強化に伴い、金利先行の緩和が上昇トレンドを支える",
+    "entry": "7680",
+    "tp": "7800",
+    "sl": "7520",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での押し目買いと強気ファンダメンタルズの整合性を確認",
-    "date": "2026-10-03 05:26",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-10-03 12:52",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "84,500付近の押し目でロングエントリー、TP 86,000、SL 83,000 を設定",
-      "85,500 をブレークすれば追加エントリー、リスク管理を徹底",
-      "流動性確保のため bitflyer の利用を推奨し、オーダーフローをモニタリング"
+      "BTCは85,000USDの sell wall を突破し、現在84,646USDで取引されている。",
+      "MA20（82,053USD）を上回る価格で上昇トレンドが継続。",
+      "米雇用統計の不振により risiko-on 動向が強まり、短期的に上昇余地。"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCは84,500上昇トレンド、MA20サポートとRSI65で上値余地あり、86,000目標でロング推奨。",
+    "excerpt": "BTC/USDは85,000USDの sell wall を突破し、MA20を上回る価格で上昇トレンドが継続。米雇用統計の不振により risiko-on 動向が強まり、短期的に上昇余地。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTCは84,500上昇トレンド、MA20サポートとRSI65で上値余地あり、86,000目標でロング推奨。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20上昇とRSIの強気サイン、 macroeconomic backdrop から上昇期待",
+    "entry": "84600",
+    "tp": "86000",
+    "sl": "83800",
+    "reliability": "HIGH"
   }
 }
