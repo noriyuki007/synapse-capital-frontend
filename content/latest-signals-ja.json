@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-10-03 12:40",
+    "title": "[USD/JPY] UP: MA20上抜けと過買いRSIにもかかわらず上向きモメンタム維持",
+    "date": "2026-10-03 22:01",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20を上回り上昇モメンタムが持続",
-      "米国雇用の緩やかな弱含みと利回り上昇がドルを支える",
-      "RSIは76超えで買われ過ぎだが、トレンド継続の可能性が高い"
+      "ナスダック100の記録的上昇と米長期金利の上昇が米ドルを支援",
+      "RSI76超えは過買いだが価格はMA20を明確に上抜け、トレンド継続のサイン",
+      "来週のISMサービス・Fed議事録・カナダ雇用が変数だが、現状は米ドル買い優位"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20を基盤とした上昇トレンドが続き、米国金利上昇と弱い雇用統計がドルを下支えしている。",
+    "excerpt": "米株式の強さと長期金利上昇がドル円を押し上げ、MA20を上抜けた状態で過買いRSIもトレンド継続を示唆する。",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPYはMA20を基盤とした上昇トレンドが続き、米国金利上昇と弱い雇用統計がドルを下支えしている。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20上抜けと金利上昇・リスクオンが上方バイアスを支える",
+    "entry": "156.25",
+    "tp": "159.00",
+    "sl": "155.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: 強気ファンダメンタルズとの整合性と押し目買い機会の拡大",
-    "date": "2026-10-03 12:51",
+    "title": "[S&P 500] UP: MA20 支持と季節的買い材料の整合性を確認",
+    "date": "2026-10-03 22:02",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "弱い雇用統計が金利見直しの可能性を冷水落とし、市場がリスクオフからリスクオンへ転換",
-      "テクニカル面でMA20上に位置し、RSI局面で板を押し上げる構造",
-      "一部銘柄の買い残し・ボランティール構造が全体ゲインを牽引"
+      "MA20 支持線（7670）を堅持、短期的トレンドは強気",
+      "10-11 月の季節的買いパターンと決算集中リスクの板挟み",
+      "リスク管理下での押し目買いを推奨、SL は 7660 割れ"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "弱い雇用報告とテクニカル転換点で、S&P 500はMA20上昇とRSI局面の強化により上昇トレンドを維持中。流動性確保のためInteractive Brokersの利用を推奨する。",
+    "excerpt": "現在値 7722 台で MA20 支持線を堅持。10 月中旬以降の季節的買い材料と決算ペースの二重構造を背景に、短期的な上昇トレンドを踏襲しつつ、決算リスクを織り込んだリスク管理下で戦略的買いを実行する方針とする。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20上昇とRSI局面の強化に伴い、金利先行の緩和が上昇トレンドを支える",
-    "entry": "7680",
-    "tp": "7800",
-    "sl": "7520",
-    "reliability": "HIGH"
+    "comment": "MA20 支持と季節感買いを前提。決算リスクは SL で管理。",
+    "entry": "7720.00",
+    "tp": "7800.00",
+    "sl": "7660.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-10-03 12:52",
+    "title": "[BTC/USD] UP: MA20上抜けと弱い米雇用統計が買いを後押し",
+    "date": "2026-10-03 22:03",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTCは85,000USDの sell wall を突破し、現在84,646USDで取引されている。",
-      "MA20（82,053USD）を上回る価格で上昇トレンドが継続。",
-      "米雇用統計の不振により risiko-on 動向が強まり、短期的に上昇余地。"
+      "MA20を上抜けし、84,849ドルで強気モメンタムが継続",
+      "米雇用統計の失望がドル弱含みを助長し、BTC/USDの上昇余地を拡大",
+      "RSIは65と過熱感は限定的で、さらなる上振れ余地あり"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDは85,000USDの sell wall を突破し、MA20を上回る価格で上昇トレンドが継続。米雇用統計の不振により risiko-on 動向が強まり、短期的に上昇余地。",
+    "excerpt": "MA20を上抜けし84,849ドルで推移、弱い米雇用統計がドル売りを誘発し、85,000ドルの売り壁がクリアされたことで上値余地が広がっている。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上昇とRSIの強気サイン、 macroeconomic backdrop から上昇期待",
-    "entry": "84600",
-    "tp": "86000",
-    "sl": "83800",
+    "comment": "MA20上抜けと弱い米雇用統計が買いを後押し、リスクリワードが有利",
+    "entry": "83000.00",
+    "tp": "88000.00",
+    "sl": "82000.00",
     "reliability": "HIGH"
   }
 }

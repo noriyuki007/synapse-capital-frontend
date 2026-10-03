@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Yield Rebound and RSI Resilience Above MA20 Support",
-    "date": "2026-10-03 12:40",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-03 22:01",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Soft US jobs offset by yield rebound and hawkish Fedspeak",
-      "Price holds above MA20 at 156.26 despite overbought RSI",
-      "ISM services and Fed minutes loom as near-term catalysts"
+      "USD/JPY trades above MA20 with bullish momentum",
+      "RSI at 76 signals overbought but trend intact",
+      "Strong US data and rising yields support further upside"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY above MA20 as soft jobs fail to derail yield rebound; overbought RSI warns of cautious upside ahead of ISM.",
+    "excerpt": "USD/JPY trades above MA20 with RSI overbought; strong US data and yields support further upside toward 159.00.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Above MA20 with yield rebound supports upside, but overbought RSI warrants tight stops.",
-    "entry": "157.00",
-    "tp": "158.50",
-    "sl": "156.00",
-    "reliability": "MEDIUM"
+    "comment": "Technical strength above MA20 with supportive US yields favors further upside.",
+    "entry": "156.30",
+    "tp": "159.00",
+    "sl": "155.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-03 12:51",
+    "date": "2026-10-03 22:02",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Weak September jobs soften Fed tightening, supporting equity rally.",
-      "Tech giants and AI stocks drive half of S&P gains, reinforcing bullish bias.",
-      "Price trades above MA20 at 7722, RSI 59 signals moderate upside momentum."
+      "Price above MA20 with RSI at 59.4 indicating room for upside",
+      "Chip/software strength driving Nasdaq while cyclicals lag",
+      "Midterm election history supports Q4 bullish bias"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 bullish: weak jobs, tech momentum; price > MA20, RSI 59. Tactical dip buy at 7680–7690.",
+    "excerpt": "S&P 500 holds above MA20 at 7670 with RSI 59.4, positioning for Q4 upside amid midterm seasonality and sector rotation.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Bullish macro, tech momentum, price above MA20, moderate RSI supports upside.",
-    "entry": "7680.00",
+    "comment": "Price above MA20 with RSI room to run and midterm seasonality favoring equities.",
+    "entry": "7722.72",
     "tp": "7850.00",
-    "sl": "7600.00",
-    "reliability": "HIGH"
+    "sl": "7640.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: $85K Resistance Cleared as Weak Jobs Data Fuels Rate-Cut Bets",
-    "date": "2026-10-03 12:52",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-03 22:03",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC breaks $85K resistance on disappointing US payrolls, reviving Fed pivot narrative",
-      "Price holds 3.2% above rising MA20 with RSI at 66, signaling sustainable momentum",
-      "Institutional order flow shifts long as ETF flows stabilize post-August drawdown"
+      "Bitcoin clears $85k sell wall amid weak US jobs data, boosting bullish momentum.",
+      "MA20 support at ~82.4k aligns with price above, reinforcing upward bias.",
+      "RSI at 65.5 indicates room to run before overbought thresholds."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC clears $85K supply zone on weak labor data; MA20 support at $82K defines risk for continuation toward $88-90K.",
+    "excerpt": "BTC holds above MA20 with supportive fundamentals; targeting upside toward $88k with defined risk.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Break of $85K resistance on weak jobs data with supportive order flow and rates backdrop",
-    "entry": "83800",
-    "tp": "88500",
-    "sl": "81800",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTC holds above MA20 with supportive fundamentals; targeting upside toward $88k with defined risk.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
