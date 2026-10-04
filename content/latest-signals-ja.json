@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: RSI過熱感に伴う調整リスクを注視しつつも、米金利上昇を背景とした上昇トレンド継続を想定",
-    "date": "2026-10-04 22:39",
+    "title": "[USD/JPY] UP: MA20での反発とナスダック記録・利回り上昇を背景にした強気バイアス",
+    "date": "2026-10-05 04:01",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米Treasury利回りの反転上昇がドル買いを誘発",
-      "テクニカル面ではRSIが76超と買われすぎ水準に到達",
-      "MA20との乖離拡大による短期的な押し目形成の可能性"
+      "ナスダック記録と利回り上昇が米ドルを下支え",
+      "RSI76.3は過熱感を示し押し目リスクがある",
+      "MA20付近での買いを推奨し、dmm-fxの流動性を活用"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米国債利回りの上昇と株式市場の堅調な推移を受け、ドル円は上昇モメンタムを維持している。一方でRSIは76を超え、短期的な過熱感が示唆されているため、MA20への回帰を伴う押し目買い戦略が妥当である。",
+    "excerpt": "ナスダック記録と利回り上昇が米ドルを支える一方、RSIは過熱感を示し、MA20への押し目が鍵となる。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "米金利上昇と上昇トレンド継続を背景とした、MA20への押し目買い戦略。",
-    "entry": "156.40",
-    "tp": "158.50",
-    "sl": "155.80",
+    "status": "NEUTRAL",
+    "comment": "ナスダック記録と利回り上昇が米ドルを支える一方、RSIは過熱感を示し、MA20への押し目が鍵となる。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20上抜けと割安ファンダメンタルズが支える",
-    "date": "2026-10-04 22:41",
+    "title": "[S&P 500] FLAT: 技術的抵抗とファンダメンタルズの均衡が織り込まれる",
+    "date": "2026-10-05 04:05",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "ゴールドマン・サックス",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
     "tldr_points": [
-      "価格はMA20を上回り短期的な上値余地が示唆される",
-      "RSIは59程度で過熱感は限定的",
-      "ファンダメンタルズでは割安指標が買いを後押し"
+      "RSIは59.44で過熱感なしから中立",
+      "MA20（7670.05）上にありながらも上昇動力は限定的",
+      "市場は売り圧を回避しつつ方向感を欠く"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20を上回るS&P 500は割安感と限定的なRSIから上昇余地があると見られる。",
+    "excerpt": "S&P500は7722.72で推高感を示さず、RSIやMA20の整合性から一時的な調整か方向感ありきのFLATを予想。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20上抜けと割安ファンダメンタルズが上昇を支える",
-    "entry": "7700.00",
-    "tp": "7850.00",
-    "sl": "7600.00",
+    "status": "NEUTRAL",
+    "comment": "S&P500は7722.72で推高感を示さず、RSIやMA20の整合性から一時的な調整か方向感ありきのFLATを予想。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20反発と強気ファンダメンタルズの整合性",
-    "date": "2026-10-04 22:44",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性",
+    "date": "2026-10-05 04:06",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を上抜け、85k付近での売りウォールが解消され上値余地が拡大",
-      "米雇用統計の失望がドル弱含みを誘発し、リスクオン資産へのシフトが進行",
-      "ECBのオンチェーン中央銀行マネー検討は機関流入の長期的支援要因となる"
+      "$85,000売りウォールがクリアされ上値余地が拡大",
+      "米雇用統計の失望がドルを弱め、リスクオン傾向を助長",
+      "MA20を上抜けしRSIが67.5でモメンタムが持続"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20上抜け、85,000ドル売りウォール解消による上値余地拡大と、米雇用統計の失望がリスクオンを後押しする環境が整っている。",
+    "excerpt": "BTC/USDはMA20を上回り、85k水準の売りウォール解消で上値余地が拡大。米雇用データの失望がドルを押し下げ、リスクオン環境が継続。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20上抜けと売りウォール解消に加え、米雇用統計の失望がリスクオンを後押し",
-    "entry": "84500",
-    "tp": "89500",
-    "sl": "82800",
-    "reliability": "HIGH"
+    "comment": "MA20上抜けとドル弱含みが上値を支え、押し目買いが有利",
+    "entry": "84500.00",
+    "tp": "88000.00",
+    "sl": "83000.00",
+    "reliability": "MEDIUM"
   }
 }
