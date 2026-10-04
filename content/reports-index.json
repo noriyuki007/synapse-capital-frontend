@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-10-04-crypto-ja",
-    "date": "2026-10-04 04:20",
-    "title": "BTC/USDの見通し：需給バランスから見る「押し目買い」の優位性",
+    "date": "2026-10-04 13:16",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 84843.22、RSI(65.44)、MA20(82445.84)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "MA20を上抜け、売り壁が解消されたことで上値余地が広がり、弱い米雇用統計がリスクオンを後押し。さらに、機関流動性の回復とLayer2の縮小が相まって、短期的な買い圧力が強まっている。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-10-04-crypto-en",
-    "date": "2026-10-04 04:20",
-    "title": "[BTC/USD] UP: Weak Jobs Data Clears 85k Sell Wall and MA20 Retains Support",
+    "date": "2026-10-04 13:16",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
-    "excerpt": "BTC holds above MA20 at 84843; weak jobs data supports 85k breakout. Buy 84550, target 85850, stop 83950, use bybit now.",
+    "excerpt": "Bitcoin holds above MA20, RSI 65, clearing $85k sell wall amid weak US jobs data, signaling near-term upside momentum.!!!",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-10-04-stocks-ja",
-    "date": "2026-10-04 04:10",
-    "title": "[S&P 500] UP: MA20近傍の押し目買いと強気ファンダメンタルズの整合性を確認",
+    "date": "2026-10-04 13:14",
+    "title": "[S&P 500] UP: MA20超えと金利リスク吸収を反映した押し目買い局面",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "SBI証券",
-    "excerpt": "S&P 500は7722.72水準でMA20を上回り、モメンタム上昇。ファンダと機関ポジショニング整合性から短期ロング機会。",
+    "recommended_broker": "",
+    "excerpt": "S&P 500は7722.72でMA20（7670.05）上を保持し、RSI14は59.44と中期的な買い優位を示す。金利上昇圧力はあるが、半導体や成長株の買いフローが優位と判断し、7670.00台の押し目を買い圏とする短期ロングを推奨する。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-10-04-stocks-en",
-    "date": "2026-10-04 04:10",
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-04 13:14",
+    "title": "[S&P 500] UP: Index Retains Support Above MA20 as Technicals Outweigh Hawkish Rate Shock",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Recommended Broker",
-    "excerpt": "S&P 500 trades above its 20‑day average with RSI at 59, signaling near‑term upside amid supportive news.",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 holds 7722.72 above MA20; tech flash buy signals offset hawkish Fed Chair confirmation.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-10-04-fx-ja",
-    "date": "2026-10-04 03:59",
-    "title": "USD/JPYの見通し：需給バランスから見る「押し目買い」の優位性",
+    "date": "2026-10-04 13:10",
+    "title": "[USD/JPY] DOWN: RSIオーバーショットとMA20回帰のリスク",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 157.83、RSI(76.34)、MA20(156.26)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "157.83レベルでのRSIオーバーショットとMA20サポートの競合により、方向感が薄れ、トレード機会の見極めが困難となっている。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-10-04-fx-en",
-    "date": "2026-10-04 03:59",
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-04 13:10",
+    "title": "[USD/JPY] UP: Yield Reversal Offsets Overbought RSI as US Equities Hit Records",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "excerpt": "AI flags strong support at MA20; bullish RSI and soft jobs data underpin upside case.",
+    "excerpt": "USD/JPY bullish above MA20 at 156.26. Rising US yields and record equities support the uptrend, despite overbought RSI at 76.34.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -152,7 +152,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "BTC/USDは85,768.99ドルで推移しMA20（82,109.18ドル）を上回る強含み。米雇用統計の失望とスポットETF27億ドル流入が相まって上昇トレンド継続の可能性が高まり、リスクオン環境が持続している状況が続いている。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC nears Jan highs after $85K wall breaks; fundamentals support continued upside.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P500はMA20上抜けかつRSI61で上昇基調、雇用鈍化による利上げ後退とAI資金流入が強気を補強。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "[]",
     "excerpt": "S&P 500 holds above MA20 following soft jobs data; rate-hike odds sink, favoring bullish technical continuation.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "excerpt": "米雇用報告を受けた米ドル弱含みとRSI過買いが重なり、USD/JPYは下押しリスクが高まっている。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY likely to correct lower from overbought levels as USD softens after strong jobs data.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
