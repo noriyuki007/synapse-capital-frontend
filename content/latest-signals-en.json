@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Yield Reversal Offsets Overbought RSI as US Equities Hit Records",
-    "date": "2026-10-04 13:10",
+    "title": "[USD/JPY] UP: AI Detects Upside Momentum as Yields Reverse Higher and Risk-On Flows Persist",
+    "date": "2026-10-04 22:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY trades at 157.83, maintaining a strong position above its 20-day moving average of 156.26.",
-      "US Treasury yields reversed higher, providing fundamental support for the US dollar despite soft jobs data.",
-      "RSI(14) at 76.34 indicates overbought conditions, suggesting potential consolidation or a pullback toward the MA20 before resuming the uptrend."
+      "Treasury yields reverse higher despite soft US jobs",
+      "Price holds above MA20 at 156.26",
+      "RSI-14 at 76.34 signals stretched but trending momentum"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bullish above MA20 at 156.26. Rising US yields and record equities support the uptrend, despite overbought RSI at 76.34.",
+    "excerpt": "USD/JPY holds above MA20 with yields reversing higher; institutional bias remains UP on risk-on flows.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "USD/JPY remains bullish above the 20-day MA (156.26) as rising US yields and record equity indices support the pair, despite overbought RSI at 76.34.",
-    "entry": "156.50",
-    "tp": "158.00",
-    "sl": "155.80",
+    "comment": "Price holds above MA20 with rising yields; overbought RSI suggests dip-buying setup.",
+    "entry": "156.30",
+    "tp": "159.50",
+    "sl": "155.75",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Index Retains Support Above MA20 as Technicals Outweigh Hawkish Rate Shock",
-    "date": "2026-10-04 13:14",
+    "title": "[S&P 500] UP: MA20 Support and AI-Led Fundamentals Favor Continuation",
+    "date": "2026-10-04 22:41",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "Price holds above MA20 despite divisive Fed Chair rate hike confirmation",
-      "Tech leadership via Nvidia and SpaceX flash buy signals underwrites momentum",
-      "RSI-14 at 59.44 indicates bullish neutrality with expansion room"
+      "Price remains above MA20, preserving a constructive short-term trend.",
+      "RSI at 59.44 supports upside momentum without overextension.",
+      "AI-driven buying and valuation support offset correction chatter."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds 7722.72 above MA20; tech flash buy signals offset hawkish Fed Chair confirmation.",
+    "excerpt": "S&P 500 holds above MA20, RSI near 59 supports upside continuation toward extension targets on AI-led demand.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price holds above MA20 with neutral-bullish momentum despite hawkish Fed confirmation.",
-    "entry": "7690.00",
-    "tp": "7780.00",
-    "sl": "7650.00",
-    "reliability": "HIGH"
+    "comment": "Price above MA20 and neutral RSI favor upside continuation toward extension targets.",
+    "entry": "7712.00",
+    "tp": "7820.00",
+    "sl": "7648.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-04 13:16",
+    "date": "2026-10-04 22:44",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price above MA20 (82,444) with RSI 65 indicates bullish momentum.",
-      "$85k sell wall cleared; disappointing US jobs data reduces near‑term resistance.",
-      "Macro news: ECB explores on‑chain CBDC models, adding institutional interest."
+      "Price holds above MA20 with bullish momentum",
+      "Weak US jobs data supports dovish Fed outlook",
+      "Technical breakout above $85k sell wall signals upside"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Bitcoin holds above MA20, RSI 65, clearing $85k sell wall amid weak US jobs data, signaling near-term upside momentum.!!!",
+    "excerpt": "BTC/USD trending up as price stays above MA20, RSI 67, macro data favors bulls after jobs miss and sell wall cleared.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Price above MA20 with bullish order flow and supportive macro backdrop.",
-    "entry": "84500",
-    "tp": "88000",
-    "sl": "82000",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTC/USD trending up as price stays above MA20, RSI 67, macro data favors bulls after jobs miss and sell wall cleared.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
