@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-10-06-crypto-ja",
+    "date": "2026-10-06 01:51",
+    "title": "[BTC/USD] UP: MA20 支持線での押し目介入と強気ファンダメンタルズの整合性確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USD は MA20 支持線 83339 ドルで下支えされ、機関投資家の累積加速と CFTC の規制枠組み改善が押し目を支える。調整局面での戦略的買いが優勢となり、当面は UP バイアスを維持する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-06-crypto-en",
+    "date": "2026-10-06 01:51",
+    "title": "[BTC/USD] UP: Price Holds Above MA20 as Regulatory Clarity and Institutional Accumulation Boost Fundamentals",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD rebounds above MA20 amid CFTC framework progress and Strive’s 2,000 BTC accumulation, reinforcing institutional confidence.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-06-stocks-ja",
+    "date": "2026-10-06 01:48",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500はMA20を上回り、金利上昇の中でも需給が底堅く、短期的な上値追いが期待できる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-06-stocks-en",
+    "date": "2026-10-06 01:48",
+    "title": "[S&P 500] DOWN: Overbought RSI and rising yields signal risk",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "MA20 bullish but high yields and overbought RSI hint at S&P 500 pullback.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-06-fx-ja",
+    "date": "2026-10-06 01:46",
+    "title": "[USD/JPY] UP: MA20上方の強気構造と米国PMIの堅調さが支持",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "米国経済の堅調さ（composite PMI 58.4）がUSDを支持する中、USD/JPYはMA20を大幅に上回る強気トレンドを維持する。しかしRSIの過買（77.95）により一時調整が予想されるため、买入機会の監視を強化すべきだ。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-06-fx-en",
+    "date": "2026-10-06 01:46",
+    "title": "[USD/JPY] DOWN: AI Detects Overbought Momentum and PMI Miss",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY at 158.06, overbought, MA20 support, PMI miss weighs on USD.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-10-05-crypto-ja",
     "date": "2026-10-05 12:59",
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
