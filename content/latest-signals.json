@@ -1,68 +1,64 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20上方の強気構造と米国PMIの堅調さが支持",
-    "date": "2026-10-06 01:46",
+    "title": "USD/JPY 市場分析",
+    "date": "2026-10-06",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
-    "tldr_points": [
-      "米国composite PMIが58.4と极高い水準を維持し、米国経済の優位性が续く",
-      "現価格がMA20（156.27）を大幅に上回り、上昇トレンドが坚調に续く",
-      "RSI(14)が77.95と過買状態にあり、一時的な調整の可能性は否定できない"
-    ],
+    "tldr_points": [],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米国経済の堅調さ（composite PMI 58.4）がUSDを支持する中、USD/JPYはMA20を大幅に上回る強気トレンドを維持する。しかしRSIの過買（77.95）により一時調整が予想されるため、买入機会の監視を強化すべきだ。",
+    "excerpt": "",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "米国PMIの堅調さと日米金利差の拡大が支持。RSIの過買（77.95）により一時調整の可能性があるが、MA20付近の买入を推奨。",
-    "entry": "157.50",
-    "tp": "159.50",
-    "sl": "156.80",
-    "reliability": "MEDIUM"
+    "comment": "金利差拡大と機関暗号資産流入が上向きを支え、テクニカルも強気",
+    "entry": "158.2",
+    "tp": "159.5",
+    "sl": "156.5",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-10-06 01:48",
+    "title": "[S&P 500] UP: 金利警戒感と記録的高値の狭間での MA20 支持",
+    "date": "2026-10-06 13:44",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "野村證券",
     "tldr_points": [
-      "価格はMA20を上回り短期的に上値余地あり",
-      "長期金利の上昇はセクター別に頭風となるが、総合的には需給が支える",
-      "RSIは66.5で過熱感は限定的、追加の上げ余地が残る"
+      "米国債利回りの上昇圧力に抵触せず、NY 株先物は横ばい継続",
+      "Nasdaq 100 の記録的高値更新がテクニカル抵抗感を相殺",
+      "MA20 上方でのトレンド構造は維持され、押し目買いの条件は整う"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を上回り、金利上昇の中でも需給が底堅く、短期的な上値追いが期待できる。",
+    "excerpt": "米国債市場からの警戒シグナルと FED 利上げ期待の低下という相反するマクロ要因の下、記録的高値圏にある S&P 500 は MA20 を明確な支持帯とし、押し目でのリスクオン機会を構造化して捉える。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20を上回りRSIは66.5で上げ余地あり、金利上昇はセクター別頭風だが需給が支える",
-    "entry": "7670.00",
-    "tp": "7900.00",
-    "sl": "7550.00",
+    "comment": "MA20 上方でのトレンド維持と RSI の買過熱未達を確認",
+    "entry": "7773.95",
+    "tp": "7850.00",
+    "sl": "7672.82",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20 支持線での押し目介入と強気ファンダメンタルズの整合性確認",
-    "date": "2026-10-06 01:51",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-10-06 13:46",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20 支持線 83339 ドルでの押し目介入を推奨",
-      "機関投資家の累積と CFTC 規制枠組みが下支え要因",
-      "RSI 42.47 は調整局面を示唆し、モメンタム監視が必要"
+      "価格はMA20を上回り、上昇バイアスが継続",
+      "規制緩和と機関のビットコイン増加がファンダを支える",
+      "RSIは中立圏で、押し目買いの余地あり"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD は MA20 支持線 83339 ドルで下支えされ、機関投資家の累積加速と CFTC の規制枠組み改善が押し目を支える。調整局面での戦略的買いが優勢となり、当面は UP バイアスを維持する。",
+    "excerpt": "MA20を上回る価格動向と規制緩和、機関によるビットコイン増加が上昇を後押し。押し目買いを検討。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20 支持線での押し目買い。機関資金流入と規制環境改善が下支え。",
-    "entry": "83339.38",
-    "tp": "87500.00",
-    "sl": "82000.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20を上回る価格と規制緩和、機関のビットコイン増加が上昇を裏付ける",
+    "entry": "84500",
+    "tp": "88000",
+    "sl": "82500",
+    "reliability": "HIGH"
   }
 }
