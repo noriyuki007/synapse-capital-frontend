@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY 市場分析",
-    "date": "2026-10-06",
+    "title": "[USD/JPY] UP: MA20での反発とリスクオンファンダメンタルズの整合性",
+    "date": "2026-10-06 23:43",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "tldr_points": [],
+    "tldr_points": [
+      "Price above MA20 with bullish momentum",
+      "Risk‑on sentiment from equity highs and improving European risk backdrop supports USD/JPY upside",
+      "RSI near overbought warns of near‑term pullback, suggesting a buy‑on‑dip approach"
+    ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "",
+    "excerpt": "USD/JPY trades above its 20‑day moving average amid risk‑on flows; technical bias is up but RSI suggests caution, favouring a dip‑buy strategy.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "金利差拡大と機関暗号資産流入が上向きを支え、テクニカルも強気",
-    "entry": "158.2",
-    "tp": "159.5",
-    "sl": "156.5",
+    "comment": "Price above MA20 with risk‑on backing; RSI overbought suggests buying on dips.",
+    "entry": "156.90",
+    "tp": "160.00",
+    "sl": "155.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: 金利警戒感と記録的高値の狭間での MA20 支持",
-    "date": "2026-10-06 13:44",
+    "title": "[S&P 500] UP: MA20での反発とテクノロジー株の牽引",
+    "date": "2026-10-06 23:51",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "野村證券",
     "tldr_points": [
-      "米国債利回りの上昇圧力に抵触せず、NY 株先物は横ばい継続",
-      "Nasdaq 100 の記録的高値更新がテクニカル抵抗感を相殺",
-      "MA20 上方でのトレンド構造は維持され、押し目買いの条件は整う"
+      "テクノロジー3銘柄がS&P 500の20%以上を占め、指数を下支え",
+      "MA20を上回る現在価格とRSI73.8はやや過熱も上昇バイアスが継続",
+      "2027年の利益成長率半減予想が警戒材料だが、短期的には買い優勢"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "米国債市場からの警戒シグナルと FED 利上げ期待の低下という相反するマクロ要因の下、記録的高値圏にある S&P 500 は MA20 を明確な支持帯とし、押し目でのリスクオン機会を構造化して捉える。",
+    "excerpt": "現在価格はMA20を上回り、テクノロジー株が指数を支える。RSIはやや過熱だが上昇トレンドが続く見込み。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20 上方でのトレンド維持と RSI の買過熱未達を確認",
-    "entry": "7773.95",
-    "tp": "7850.00",
-    "sl": "7672.82",
-    "reliability": "HIGH"
+    "comment": "MA20支持とテクノロジー株の牽引により上昇期待。RSI過熱に注意し押し目買い。",
+    "entry": "7690",
+    "tp": "8000",
+    "sl": "7620",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-10-06 13:46",
+    "title": "[BTC/USD] UP: MA20 confirmation and institutional flow",
+    "date": "2026-10-06 23:53",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を上回り、上昇バイアスが継続",
-      "規制緩和と機関のビットコイン増加がファンダを支える",
-      "RSIは中立圏で、押し目買いの余地あり"
+      "Brevan Howard adopts Ripple Prime, boosting liquidity.",
+      "Polymarket V2 and tokenized cash funds raise crypto demand.",
+      "BTC above MA20, RSI neutral, setting up breakout."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を上回る価格動向と規制緩和、機関によるビットコイン増加が上昇を後押し。押し目買いを検討。",
+    "excerpt": "BTC bullish on Brevan Howard’s Ripple Prime integration and rising spot volume, targeting MA20 breakout.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20を上回る価格と規制緩和、機関のビットコイン増加が上昇を裏付ける",
-    "entry": "84500",
-    "tp": "88000",
-    "sl": "82500",
+    "comment": "MA20 support confirmed, institutional flow rising.",
+    "entry": "86000",
+    "tp": "88500",
+    "sl": "84500",
     "reliability": "HIGH"
   }
 }
