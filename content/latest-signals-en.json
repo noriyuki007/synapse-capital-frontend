@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Favor USD",
-    "date": "2026-10-07 05:46",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-07 13:10",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price trades above 20‑day MA (156.46) indicating bullish bias.",
-      "RSI 73.3 marks overbought levels, heightening near‑term continuation risk.",
-      "Fed labor strength and oil‑driven risk sentiment favor USD upside."
+      "Hawkish RBA and expected RBI hike widen rate differentials, favoring USD.",
+      "Oil price surge and Gulf tensions create mixed risk sentiment but lean USD‑positive.",
+      "Technicals show price above MA20 with RSI ~71, indicating continuation potential."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY above MA20; overbought RSI; USD fundamentals support further upside.",
+    "excerpt": "USD/JPY bullish on rate differentials and technical support at MA20.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "AI detects support at MA20 and USD fundamentals favor upside despite overbought RSI.",
-    "entry": "156.80",
-    "tp": "158.80",
-    "sl": "155.80",
+    "comment": "AI sees bullish technicals and supportive fundamentals for USD/JPY.",
+    "entry": "156.70",
+    "tp": "160.00",
+    "sl": "155.00",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Chip Rally Drives Momentum Above MA20 with Overbought RSI",
-    "date": "2026-10-07 05:48",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-07 13:12",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Price above MA20 indicates bullish bias",
-      "RSI at 73.3 shows strong momentum but nearing overbought",
-      "AI chip rally provides fundamental upside catalyst"
+      "S&P 500 trades at record highs above the 20-day MA, signaling persistent institutional bullish momentum.",
+      "RSI-14 at 73.35 indicates overbought conditions, suggesting tactical pullback risk to the 7,680 support zone.",
+      "Narrow AI-led leadership and rising yields pose headwinds to broad market participation, requiring selective entry."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 above MA20 at 7818.9, RSI 73.3; AI chip rally supports upside, consider pullback to 7680via Interactive Brokers",
+    "excerpt": "S&P 500 maintains structural upside above MA20 despite overbought RSI and narrow market breadth.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price above MA20 with strong AI sector momentum supports a bullish bias.",
-    "entry": "7700.00",
-    "tp": "8000.00",
-    "sl": "7600.00",
-    "reliability": "HIGH"
+    "comment": "Strong bullish trend above MA20, but overbought RSI suggests waiting for a dip toward 7680.09.",
+    "entry": "7680.09",
+    "tp": "7818.93",
+    "sl": "7550.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-07 05:49",
+    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 as Liquidations Spike",
+    "date": "2026-10-07 13:14",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD holds above MA20 at 83,840.70, showing resilient bullish structure.",
-      "Neutral RSI at 46.72 indicates consolidation before next leg up.",
-      "Institutional moves like Brevan Howard using Ripple Prime boost crypto liquidity."
+      "Bitcoin price struggles above MA20 amid $487M long liquidations.",
+      "Coinbase Pro revival and Deribit integration offset somewhat by negative L2 and Tether news.",
+      "Technical bias favors short toward 83k with stop above 84.8k."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD consolidates above MA20 support at 83,840. Neutral RSI suggests a healthy pullback before resuming the upward trend.",
+    "excerpt": "BTC/USD faces short-term downside pressure as liquidations mount and RSI stays weak.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "BTC/USD is consolidating above the 20-day moving average at 83,840.70 with neutral RSI, offering a tactical long entry on pullbacks.",
-    "entry": "83,840.70",
-    "tp": "88,000.00",
-    "sl": "82,500.00",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "Price above MA20 but weakening RSI and heavy liquidations favor a short toward 83k.",
+    "entry": "84200.00",
+    "tp": "83000.00",
+    "sl": "84800.00",
+    "reliability": "MEDIUM"
   }
 }
