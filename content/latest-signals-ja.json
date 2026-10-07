@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20上抜けとリスクオン・原油高が円安を支援",
-    "date": "2026-10-07 13:10",
+    "title": "[USD/JPY] UP: MA20ブレイク上抜けと強気ファンダメンタルズの整合性を確認",
+    "date": "2026-10-08 05:59",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20を上回りトレンド継続",
-      "原油高・地政学リスクで円売り圧力",
-      "RSI 71で短期過熱、押し目買い好機"
+      "価格がMA20を上回りRSI69.3でモメンタム継続",
+      "中東リスクとF利上げ観測がドル買いをサポート",
+      "158.50が短期抵抗、ブレイクでターゲット拡大"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは158.42でMA20を明確に上抜け、原油高と地政学リスクが円安を後押し。RSI71の過熱感は押し目買いの好機を示唆。",
+    "excerpt": "USD/JPYは158.08でMA20を上回り、RSI69.3とファンダカタリスクにより上昇トレンドが持続。近傍の抵抗に注目。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20上抜けと原油高・地政学リスクが円安を支援、押し目買い推奨",
-    "entry": "156.90",
-    "tp": "160.00",
-    "sl": "155.80",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "S&P 500の見通し：需給バランスから見る「押し目買い」の優位性",
-    "date": "2026-10-07 13:12",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "tldr_points": [
-      "金利相関（近似）: -0.59で負相関傾向",
-      "テクニカル: 現在価格 7818.93 と MA20 7680.09 の位置関係が主導",
-      "需給: 上限帯 7819.62 / 下限帯 7540.57 / 直近高値 7844.52 / 直近安値 7507.77 によるターゲット設計"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 7818.93、RSI(73.35)、MA20(7680.09)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "本日のAI解析では、S&P 500の現在価格 7818.93、RSI(73.35)、MA20(7680.09)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "comment": "USD/JPYは158.08でMA20を上回り、RSI69.3とファンダカタリスクにより上昇トレンドが持続。近傍の抵抗に注目。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] DOWN: 金利上昇とFed tighteningによる調整圧力",
+    "date": "2026-10-08 06:08",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "金利上昇で株式市場が下落",
+      "RSI過熱から一時調整の可能性",
+      "Fed追加利上げ観測が継続"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500は金利上昇とFedの追加利上げ観測により下落。RSI過熱から一時的な調整が継続する見込み。",
+    "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "金利上昇とFed追加利上げ観測により下落傾向。RSI過熱から調整継続。",
+    "entry": "7801.77",
+    "tp": "7700",
+    "sl": "7850",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] FLAT: Price consolidation ahead of mixed catalysts",
-    "date": "2026-10-07 13:14",
+    "title": "[BTC/USD] DOWN: MA20下抜けとリスクオフファンダメンタルズの整合性を確認",
+    "date": "2026-10-08 06:10",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "Price holds above MA20 amid mild RSI reading.",
-      "Long liquidations spike as BTC briefly slipped below $84k.",
-      "Mixed fundamental signals from exchange news and L2 closures."
+      "価格はMA20を下抜け、下目線が優位",
+      "RSIは中立圏ながら下落バイアスを示唆",
+      "機関向けニュースはリスクオフ傾向を強める"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC trades near $84.1k, above MA20, with neutral RSI. Mixed news suggests a consolidation phase.",
+    "excerpt": "MA20割れとリスクオフ要因が重なり、BTC/USDは短期的に下落余地が拡大すると見込む。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "価格が MA20 を上回り、RSI が中立的な水準にある中、混合したファンダメンタルズが示唆する方向性は、中立的なものとなっている。慎重なロング・バイアスを採用し、厳格なリスク管理を講じることが、短期的な反発の可能性を捉える上で最適である。",
-    "entry": "84111",
-    "tp": "85500",
-    "sl": "83200",
+    "status": "SELL",
+    "comment": "MA20下抜けとリスクオフ要因が下目線を支持",
+    "entry": "83300.00",
+    "tp": "82000.00",
+    "sl": "84500.00",
     "reliability": "MEDIUM"
   }
 }

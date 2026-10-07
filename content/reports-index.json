@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-10-08-crypto-ja",
+    "date": "2026-10-08 06:10",
+    "title": "[BTC/USD] DOWN: MA20下抜けとリスクオフファンダメンタルズの整合性を確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "MA20割れとリスクオフ要因が重なり、BTC/USDは短期的に下落余地が拡大すると見込む。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-08-crypto-en",
+    "date": "2026-10-08 06:10",
+    "title": "[BTC/USD] DOWN: Price below MA20 and neutral RSI signal",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD below MA20, RSI 44, bearish bias with key support/resistance pending.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-08-stocks-ja",
+    "date": "2026-10-08 06:08",
+    "title": "[S&P 500] DOWN: 金利上昇とFed tighteningによる調整圧力",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500は金利上昇とFedの追加利上げ観測により下落。RSI過熱から一時的な調整が継続する見込み。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-08-stocks-en",
+    "date": "2026-10-08 06:08",
+    "title": "[S&P 500] UP: Bullish Technical Break Above MA20 Amid Mixed Fed Signals",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 above MA20, RSI 66, bullish bias despite rising yields; dip‑buy toward 7750, target 7950.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-08-fx-ja",
+    "date": "2026-10-08 05:59",
+    "title": "[USD/JPY] UP: MA20ブレイク上抜けと強気ファンダメンタルズの整合性を確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYは158.08でMA20を上回り、RSI69.3とファンダカタリスクにより上昇トレンドが持続。近傍の抵抗に注目。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-08-fx-en",
+    "date": "2026-10-08 05:59",
+    "title": "[USD/JPY] UP: Hawkish Fed Rhetoric & Geopolitical Risk Propel Break Above 158.00",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY breaks 158.00 on hawkish Fed repricing and tanker attack off Qatar; technical structure remains constructive above rising MA20.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-10-07-crypto-ja",
     "date": "2026-10-07 13:14",
     "title": "[BTC/USD] FLAT: Price consolidation ahead of mixed catalysts",
