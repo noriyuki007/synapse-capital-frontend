@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20ブレイク上抜けと強気ファンダメンタルズの整合性を確認",
-    "date": "2026-10-08 05:59",
+    "title": "[USD/JPY] UP: MA20での反発と米長期金利上昇のファンダメンタルズ整合性",
+    "date": "2026-10-08 13:21",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格がMA20を上回りRSI69.3でモメンタム継続",
-      "中東リスクとF利上げ観測がドル買いをサポート",
-      "158.50が短期抵抗、ブレイクでターゲット拡大"
+      "現在価格はMA20を上回り短期上昇トレンド継続",
+      "米長期金利上昇がドル買いを支える",
+      "リスクオフ要因は限定的で下値は堅調"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは158.08でMA20を上回り、RSI69.3とファンダカタリスクにより上昇トレンドが持続。近傍の抵抗に注目。",
+    "excerpt": "USD/JPYはMA20を上回り、米金利上昇とリスクオン傾向がドル買いを後押しし、短期的に上昇が期待される。",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "USD/JPYは158.08でMA20を上回り、RSI69.3とファンダカタリスクにより上昇トレンドが持続。近傍の抵抗に注目。",
+    "comment": "USD/JPYはMA20を上回り、米金利上昇とリスクオン傾向がドル買いを後押しし、短期的に上昇が期待される。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: 金利上昇とFed tighteningによる調整圧力",
-    "date": "2026-10-08 06:08",
+    "title": "[S&P 500] DOWN: 金利騰進とセンチメント悪化が重なり反発力維持に疑問",
+    "date": "2026-10-08 13:23",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "XM",
     "tldr_points": [
-      "金利上昇で株式市場が下落",
-      "RSI過熱から一時調整の可能性",
-      "Fed追加利上げ観測が継続"
+      "金利騰進圧力が拡大しリスク資産への投資対気性が低下",
+      "S&P500はMA20割下でRSIも高値圏からの調整局面へ",
+      "テクニカル指標とファンダメンタルズの不一致が警号"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500は金利上昇とFedの追加利上げ観測により下落。RSI過熱から一時的な調整が継続する見込み。",
+    "excerpt": "S&P500は金利騰進とセンチメント悪化により一時的反落局面へ。テクニカル指標の警信号を受け一段落調整を想定する。",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "金利上昇とFed追加利上げ観測により下落傾向。RSI過熱から調整継続。",
+    "comment": "金利騰進とテクセクターの弱さが市場を押し下げる可能性がある",
     "entry": "7801.77",
-    "tp": "7700",
-    "sl": "7850",
+    "tp": "7600.00",
+    "sl": "7900.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20下抜けとリスクオフファンダメンタルズの整合性を確認",
-    "date": "2026-10-08 06:10",
+    "title": "[BTC/USD] UP: MA20 consolidation and bullish Solana ecosystem news",
+    "date": "2026-10-08 13:24",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を下抜け、下目線が優位",
-      "RSIは中立圏ながら下落バイアスを示唆",
-      "機関向けニュースはリスクオフ傾向を強める"
+      "Solana ecosystem news fuels risk appetite and supports BTC upside",
+      "BTC trades below 20‑MA, RSI neutral signals consolidation phase",
+      "Tactical long positioned near $82,500 with tight risk management"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20割れとリスクオフ要因が重なり、BTC/USDは短期的に下落余地が拡大すると見込む。",
+    "excerpt": "BTC/USD leans higher on macro tailwinds; tactical entry near current levels with defined risk.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20下抜けとリスクオフ要因が下目線を支持",
-    "entry": "83300.00",
-    "tp": "82000.00",
-    "sl": "84500.00",
+    "status": "BUY",
+    "comment": "Technical consolidation below MA20 and bullish Solana ecosystem news support a tactical long at $82.5k.",
+    "entry": "82500",
+    "tp": "85000",
+    "sl": "81500",
     "reliability": "MEDIUM"
   }
 }
