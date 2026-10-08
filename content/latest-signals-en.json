@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Geopolitical Tension and Soft Inventories Favor Yen Strength",
-    "date": "2026-10-09 00:11",
+    "title": "[USD/JPY] UP: Bullish Bias Supported by Price Above MA20 and Rising Oil",
+    "date": "2026-10-09 06:00",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US-Iran escalation boosts safe-haven yen demand.",
-      "August wholesale inventories came in softer than expected, hinting at dovish Fed.",
-      "Technical bias remains short as price holds above MA20 but RSI nears overbought."
+      "Price holds above MA20 at 157.82 with RSI near 58",
+      "Oil gains ~4% on supply concerns, reducing safe‑haven JPY demand",
+      "Asia calendar light; geopolitical risk eases after Trump comment"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY pressured down as US-Iran tensions boost safe-haven demand and softer wholesale inventories hint at dovish Fed, outweighing technical upside.",
+    "excerpt": "USD/JPY trades above MA20 at 157.82, buoyed by higher oil and eased geopolitical risk, RSI shows mild bullish momentum!.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Geopolitical risk‑off and softer inventories favor yen strength; technical setup shows overbought RSI with resistance near 158.80.",
-    "entry": "158.10",
-    "tp": "156.50",
-    "sl": "158.80",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPY trades above MA20 at 157.82, buoyed by higher oil and eased geopolitical risk, RSI shows mild bullish momentum!.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Price Holds Above MA20 Amid Mixed Macro Signals",
-    "date": "2026-10-09 00:13",
+    "title": "[S&P 500] DOWN: Tech Selloff and Rising Yields Pressure Index Despite Price Above MA20",
+    "date": "2026-10-09 06:02",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 sustains above MA20 at 7697.67 with RSI at 62.4 signaling controlled momentum",
-      "Geopolitical oil spike and bond yield volatility create headline risk but technical structure intact",
-      "Meta AI momentum offsets Broadcom weakness; selective long bias favored with defined risk"
+      "Tech‑heavy selloff drags broader indexes lower despite supportive MA20.",
+      "Rising crude oil and sovereign yields reinforce risk‑off sentiment.",
+      "RSI near 61 shows waning upside momentum, favoring a short‑term pullback."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Technical structure bullish above MA20; macro crosswinds demand tight stops and selective exposure.",
+    "excerpt": "Tech selloff, rising yields and oil surge pressure S&P 500; price above MA20 but momentum weakening, suggesting near‑term downside.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Price above MA20 with RSI <70 supports continuation; macro risks managed via tight stops and hedging.",
-    "entry": "7725.00",
-    "tp": "7850.00",
-    "sl": "7675.00",
+    "status": "SELL",
+    "comment": "Tech selloff and rising yields create downside bias; price above MA20 offers a short‑term rally‑sell opportunity.",
+    "entry": "7730.00",
+    "tp": "7660.00",
+    "sl": "7780.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-09 00:16",
+    "title": "[BTC/USD] UP: Mean Reversion Play as RSI 37 Contrasts With $50B Macro Inflows",
+    "date": "2026-10-09 06:15",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price below MA20 with RSI oversold suggests bounce potential",
-      "Macro: Securitize tokenized stocks and Std Chartered custody expansion support institutional demand",
-      "Key resistance at MA20 ~84,240; support near 80,000"
+      "Price consolidates at 81,696.35, 3% below the 20-day moving average.",
+      "JPMorgan attributes $50 billion in annual inflows, supporting downside absorption.",
+      "RSI-14 at 37.02 signals oversold conditions primed for mean reversion."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD poised for short‑term bounce toward MA20 amid mixed macro and oversold technicals.",
+    "excerpt": "BTC/USD trades at 81,696.35 below MA20 with RSI 37.02; $50B inflows support a rebound toward 84,220.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Price below MA20 with RSI oversold suggests bounce toward moving average amid institutional inflows.",
-    "entry": "81500",
-    "tp": "84200",
-    "sl": "79500",
-    "reliability": "MEDIUM"
+    "comment": "Oversold bounce targeting 20-day moving average resistance.",
+    "entry": "81696.35",
+    "tp": "84220.13",
+    "sl": "80400.00",
+    "reliability": "HIGH"
   }
 }
