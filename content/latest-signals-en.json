@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Yield Differential Sustains Bullish Structure Above MA20",
-    "date": "2026-10-09 23:56",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-10 05:31",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY sustains price above the 20-period moving average at 157.12",
-      "Broad USD strength evidenced by USDCAD gains on weak Canadian employment data",
-      "RSI-14 at 63.09 retains momentum capacity above 70"
+      "Price above MA20 with bullish RSI",
+      "US inflation and retail sales key catalysts",
+      "Risk-on sentiment supports USD strength"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above MA20 as broad USD strength persists despite softer UMich sentiment data.",
+    "excerpt": "USD/JPY poised to rise as price holds above MA20 and fundamentals turn supportive.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPY holds above MA20 as broad USD strength persists despite softer UMich sentiment data.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Price holds above MA20 with bullish RSI and supportive fundamentals.",
+    "entry": "157.30",
+    "tp": "159.00",
+    "sl": "156.80",
+    "reliability": "HIGH"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-09 23:58",
+    "date": "2026-10-10 05:42",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "SpaceX inclusion pushes AI sector to 51% weight",
-      "TransDigm Group shows resilience against short-term sell-off",
-      "Proprietary silicon and privacy anchor Apple's edge advantage"
+      "Price holds above MA20 with RSI neutral, indicating bullish momentum.",
+      "Broad-based rally and upcoming big‑bank earnings provide fundamental support.",
+      "Treasury yields remain elevated but have not derailed equity upside."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 bullish at MA20 with AI strength; SpaceX inclusion adds 51% weight to sector.",
+    "excerpt": "S&P 500 trades above MA20 with steady RSI, poised for further upside on earnings rally.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Strong fundamental catalysts and technical support at MA20 create a high-probability long setup.",
-    "entry": "7750",
-    "tp": "7850",
-    "sl": "7700",
+    "comment": "Price above MA20 with constructive earnings backdrop supports upside.",
+    "entry": "7710.00",
+    "tp": "7950.00",
+    "sl": "7650.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 as Fundamentals Turn Bearish",
-    "date": "2026-10-09 23:59",
+    "title": "[BTC/USD] DOWN: Price Sub-MA20 with RSI Decay Amid Regulatory Overhang",
+    "date": "2026-10-10 05:52",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price under MA20 resistance at $84.3k, signaling near-term bearish bias.",
-      "RSI near 45 indicates limited momentum; watch for break below $82k support.",
-      "Regulatory news (Iran seizure, Thailand ETF rules) adds mixed fundamentals but overall tilt to downside."
+      "BTC trades 2.2% below MA20 at $82,430 with RSI-14 at 42.5 signaling fading momentum",
+      "Regulatory headwinds intensify: CFTC derivative filings, Iran seizure, and Ledger exploit weigh on sentiment",
+      "Key support at $80,500 (prior breakout zone); break targets $78,000"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD faces bearish pressure as price trades below MA20 amid regulatory headwinds and mixed on-chain developments.",
+    "excerpt": "BTC slips below MA20 as regulatory headlines and wallet exploits pressure risk appetite; downside bias toward $80.5k support.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USD faces bearish pressure as price trades below MA20 amid regulatory headwinds and mixed on-chain developments.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "Price below MA20 with decaying RSI and negative regulatory catalyst stack supports downside continuation to 80.5k.",
+    "entry": "83500.00",
+    "tp": "80500.00",
+    "sl": "84500.00",
     "reliability": "MEDIUM"
   }
 }
