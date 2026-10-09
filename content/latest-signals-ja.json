@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-10-09 13:26",
+    "date": "2026-10-09 23:56",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20直下の158.10近辺での買い圧が上昇中",
-      "強気な米国能源ファンダメンタルズがUSDを支える",
-      "RSI61は過熱せずにさらなる上昇余地を残す"
+      "米消費者感情低下も株価指数の反発がドル円を下支え",
+      "MA20を上抜け、RSIは63で買い優勢が継続",
+      "エントリーは158.20付近、TP 159.00、SL 157.50で[dmm-fx]の流動性を活用"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20を上回り、強気な米国ファンダメンタルズと穏やかなモメンタムに後押しされ、上昇中。",
+    "excerpt": "米消費者 Sentiment低下も株価指数の反発とMA20支えでドル円は短期的に上抜け、テクニカルは買い優勢。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20での押し目買いと強気な米国ファンダメンタルズの整合性を活用し、160近くまで上昇する可能性を確認。",
-    "entry": "157.10",
-    "tp": "159.50",
-    "sl": "156.80",
+    "comment": "MA20支えとRSI63での買い優勢、目標159.00",
+    "entry": "158.20",
+    "tp": "159.00",
+    "sl": "157.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-10-09 13:36",
+    "title": "[S&P 500] UP: MA20 Support and Fundamental Resilience Confirm Bullish Bias",
+    "date": "2026-10-09 23:58",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "AlphaBroker",
+    "recommended_broker": "Goldman Sachs",
     "tldr_points": [
-      "MA20を上回る価格でトレード",
-      "歴史的な4年目のブーム継続",
-      "AlphaBrokerでの低コスト実行を推奨"
+      "Index trades above 20‑day MA, signaling short‑term bullish trend.",
+      "Fundamental catalysts include AI sector weight increase and aerospace growth.",
+      "Technical momentum is neutral, allowing for tactical long entries."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を上回り、RSI 61% は中立強気、モメンタムと歴史的サイクルを活用した戦略を推奨。",
+    "excerpt": "S&P 500 shows bullish momentum with price above MA20, neutral RSI, and strong fundamentals from AI and aerospace sectors.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20を上回る価格とRSI 61% は強気のモメンタムを示し、買いが適切。",
-    "entry": "7765.36",
-    "tp": "7850.00",
-    "sl": "7680.00",
-    "reliability": "HIGH"
+    "comment": "Price above MA20 and neutral RSI support a tactical long bias, reinforced by AI and aerospace fundamentals.",
+    "entry": "7799.68",
+    "tp": "7900",
+    "sl": "7700",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20 割れからの RSI 逆張り動機と流動性流入の整合性",
-    "date": "2026-10-09 13:39",
+    "title": "[BTC/USD] UP: MA20反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-10-09 23:59",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "年内 500 億ドルの資金流入が中長期的な下支え要因となる",
-      "RSI 39.44 の過売水準が短期的な反発の材料となる",
-      "MA20 84,251 ドルが直近の上値抵抗線、80,000 ドルが下値支持線"
+      "MA20反発と強気ファンダメンタルズの整合性確認",
+      "Celsius事件後の信頼回復",
+      "Thailand SEC ETF規制の進展"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD は MA20 割れを示しつつも RSI 39.44 と過売水準にあり、JPM が指摘する年内 500 億ドル流入の流動性基盤を背景に、80,000 ドル支持帯での押し目買いを推奨する。",
+    "excerpt": "BTC/USDは82980.93でMA20上方反発中、Celsius事件後の信頼回復とThailand SECのETF規制が上昇を支える",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "MA20 割れだが RSI 過売と巨額資金流入を背景に押し目買いを推奨",
-    "entry": "82330.86",
-    "tp": "84251.85",
-    "sl": "79500.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20反発とCelsius事件後の信頼回復が上昇を支える",
+    "entry": "82750",
+    "tp": "86000",
+    "sl": "82000",
+    "reliability": "HIGH"
   }
 }
