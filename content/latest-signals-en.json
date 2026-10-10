@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Identifies MA20 Support Amid Bullish Momentum and Fundamental Catalysts",
-    "date": "2026-10-10 23:12",
+    "title": "[USD/JPY] UP: Price Above MA20 with Bullish Momentum Ahead of US Inflation Data",
+    "date": "2026-10-11 04:43",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price maintains bullish structure above MA20 (157.11)",
-      "RSI at 62 signals momentum but not overbought conditions",
-      "Macro catalysts favor USD as US data resilience offsets BoJ policy"
+      "USD/JPY trades above the 20‑day moving average, indicating short‑term bullish bias.",
+      "RSI‑14 at 62 signals room for further upside before overbought territory.",
+      "Upcoming US inflation and retail sales data could reinforce USD strength if prints exceed expectations."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY reaccelerates above MA20 as US fundamentals strengthen; tactical entry near support with RSI confirming bullish bias.",
+    "excerpt": "USD/JPY holds above MA20 with RSI at 62, suggesting upside ahead of key US inflation release.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish momentum confirmed above MA20 amid supportive yield differentials and technical structure intact.",
-    "entry": "157.25",
-    "tp": "159",
-    "sl": "156.5",
+    "comment": "Price above MA20 with bullish RSI and supportive fundamentals favors further upside.",
+    "entry": "158.00",
+    "tp": "159.50",
+    "sl": "157.00",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Confirms Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-10 23:13",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-11 04:43",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "MA20 support holds at 7704.77 with bullish RSI confirmation",
-      "Economic caution signals potential late-year rally catalyst",
-      "Fundamental improvements offset near-term rate concerns"
+      "MA20 support holds at 7704.77 with bullish fundamentals",
+      "RSI at 55 indicates balanced momentum without overbought conditions",
+      "Dell's outpacing suggests continued sector strength in technology"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 near MA20 support with bullish RSI confirming upside momentum amid economic caution",
+    "excerpt": "S&P 500 shows bullish reversal at MA20 support with strong tech sector momentum and favorable RSI levels.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Technical support at MA20 combined with positive fundamentals creates favorable conditions for an upward move.",
+    "comment": "Strong support at MA20 combined with positive sector momentum justifies long position.",
     "entry": "7750",
-    "tp": "7800",
-    "sl": "7700",
+    "tp": "7900",
+    "sl": "7720",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] NEUTRAL: RSI Indicates Accumulation but MA20 Remains Above Price",
-    "date": "2026-10-10 23:18",
+    "title": "[BTC/USD] UP: AI Detects MA20 Support as CFTC Clarity Bolsters Bias",
+    "date": "2026-10-11 04:45",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "MA20 at 84,364 acts as immediate resistance",
-      "RSI-14 at 42 suggests early accumulation phase",
-      "Fundamental catalysts offset short-term technical weakness"
+      "MA20 support holds with CFTC regulatory clarity offsetting ETF outflows",
+      "RSI near 44 permits short-term bounce but trend remains bearish below key level",
+      "Institutional flow shifts from ETH outflows to SOL rotation, BTC resilience tested"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD trades near support zone with RSI indicating balanced momentum despite MA20 resistance.",
+    "excerpt": "BTC near MA20 support as CFTC clarity offsets ETF outflows; Solana inflow snap triggers altcoin rotation in Q4 2026.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Technical support at MA20 with RSI indicating accumulation; fundamentals supportive despite short-term consolidation.",
-    "entry": "82650.00",
-    "tp": "84100.00",
-    "sl": "81800.00",
-    "reliability": "HIGH"
+    "comment": "Price retests MA20 support with CFTC clarity offering upside catalyst.",
+    "entry": "83200.00",
+    "tp": "85500.00",
+    "sl": "82500.00",
+    "reliability": "MEDIUM"
   }
 }
