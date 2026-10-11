@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Price Holds Above MA20 as US Inflation Catalysts Loom Ahead",
-    "date": "2026-10-11 23:36",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-12 04:54",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above MA20 support at 157.109 while RSI-14 reads 62.10",
-      "Week ahead features US inflation and retail sales as primary catalysts",
-      "Bullish trend structure intact amid risk-on equity rebound"
+      "Price above MA20 sustains bullish structure",
+      "RSI > 60 indicates near-term momentum, caution at overbought levels",
+      "US inflation calendar this week key for USD/JPY trajectory"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above MA20 support with bullish momentum ahead of US inflation data; structure favors upside.",
+    "excerpt": "USD/JPY rebounds to 159.50; fundamentals bullish; RSI exits overbought; bias upside if 157.11 holds amid US CPI focus this week.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Price holds above MA20 with bullish momentum ahead of US inflation data",
-    "entry": "157.90",
-    "tp": "159.50",
-    "sl": "157.10",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPY rebounds to 159.50; fundamentals bullish; RSI exits overbought; bias upside if 157.11 holds amid US CPI focus this week.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Earnings Surge Drives Breakout Above MA20",
-    "date": "2026-10-11 23:38",
+    "title": "[S&P 500] UP: Institutional Momentum Supports Record High Extension",
+    "date": "2026-10-12 05:00",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "Q3 earnings projected +31% YoY led by AI capex cycle",
-      "Price 7811.54 holds 1.4% above rising MA20 (7704.77)",
-      "RSI 55.1 confirms momentum without overbought risk"
+      "S&P 500 trades above its 20-day moving average, indicating persistent institutional momentum.",
+      "Market consensus projects further upside from record highs, supported by steady dividend plays.",
+      "RSI at 55.1 suggests room for further buying without immediate overbought conditions."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 breaks out on 31% AI-driven earnings forecast; technical structure supports continuation toward 8000 handle.",
+    "excerpt": "S&P 500 holds above MA20; record momentum and steady dividends support tactical long positions.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "AI earnings inflection + technical breakout above MA20 supports continuation to 8050",
-    "entry": "7790",
-    "tp": "8050",
-    "sl": "7690",
+    "comment": "Price holds above MA20 with neutral RSI, supporting a tactical long bias toward record highs.",
+    "entry": "7750.00",
+    "tp": "7900.00",
+    "sl": "7650.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Sub-45 RSI, Price Below MA20 as Macro Flows Turn Cautiously Bearish",
-    "date": "2026-10-11 23:40",
+    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 as Fundamentals Turn Bearish",
+    "date": "2026-10-12 05:02",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price below MA20 with RSI sub-45 signals near-term bearishness.",
-      "Macro news flow suggests cautious sentiment with prediction market and ETF developments.",
-      "Key technical levels at 82500 support and 84200 resistance define short-term range."
+      "Price sits below MA20 signaling near-term resistance",
+      "RSI at 46 indicates muted momentum with downside bias",
+      "Macro news highlights regulatory openness but no direct BTC catalyst"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD trades below MA20, RSI 43.5 signals bearish momentum as macro news and derivative flows dampen risk appetite.",
+    "excerpt": "BTC/USD trades under MA20 with RSI near 46, suggesting a short‑term bearish bias amid mixed crypto fundamentals.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price below MA20, RSI 43.5 signals near-term bearishness.",
-    "entry": "83031.70",
-    "tp": "82500.00",
-    "sl": "83500.00",
+    "status": "NEUTRAL",
+    "comment": "BTC/USD trades under MA20 with RSI near 46, suggesting a short‑term bearish bias amid mixed crypto fundamentals.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
