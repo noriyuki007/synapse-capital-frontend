@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20 support confirms bullish bias",
-    "date": "2026-10-12 04:54",
+    "title": "[USD/JPY] UP: 158.20付近での強気サポートとMA20上回りの継続性を確認",
+    "date": "2026-10-12 13:11",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "MA20 below price, bullish RSI",
-      "US equity rally supports USD",
-      "Next inflation/retail sales data pending"
+      "現在価格158.22、MA20(157.34)上に位置しRSI 59.2の勢いは穏やかな強さを示す",
+      "米金利発表（US CPI）前のリスクヘッジ局面でリアルポジションを推奨",
+      "AI需要に支えられるTSMC好材料は通貨リスク許容度を上向け"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY above MA20, RSI 62, bullish bias ahead of US inflation prints.",
+    "excerpt": "USD/JPYは158.20付近の強気サポート継続を確認。MA20上回りとRSI 59.2のモメンタムは押し目買いの利強を示す。流動性確保のためdmm-fxを推奨。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20サポートと強気ファンダメンタルズに基づき、上昇余地を想定。",
-    "entry": "158.20",
-    "tp": "158.80",
-    "sl": "157.80",
+    "comment": "MA20上回りとRSI 59.2の継続し、押し込み買いのチャンス",
+    "entry": "158.22",
+    "tp": "159.2",
+    "sl": "157.5",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-10-12 05:00",
+    "title": "[S&P 500] UP: MA20クリアとセクター・リスクオン再加熱",
+    "date": "2026-10-12 13:12",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "IBKR",
     "tldr_points": [
-      "S&P 500が記録 highs を更新、MA20上方で推移",
-      "RSI(14)は55と中立域、一時的な過熱なし",
-      "米国株が欧州株に遅れ、ローテーションによる上値拡大の余地"
+      "RSI55で上昇抵抗なし",
+      "MA20＋7705支持への反発完了",
+      "エネルギー・金利安でリスクオン"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500は記録 highs を更新し、MA20を上回る推移。RSI中立域で、米国株の欧州株に対する遅れから上値拡大の可能性。",
+    "excerpt": "S&P500は7811.54でMA20上穴を確認、RSI55は上昇余力を示し、リスクオンフローが広がる。",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20上方で推移し、RSI中立域。上値拡大の余地あり。",
-    "entry": "7811.54",
-    "tp": "7900",
-    "sl": "7650",
-    "reliability": "MEDIUM"
+    "comment": "MA20上穴確認+RSI55上昇余力",
+    "entry": "7750",
+    "tp": "7850",
+    "sl": "7680",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20でのサポート試しと弱気ファンダメンタルズの整合性",
-    "date": "2026-10-12 05:02",
+    "title": "[BTC/USD] DOWN: MA20下抜けと弱いRSIが示す調整局面",
+    "date": "2026-10-12 13:14",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "XRP Ledgerの長年のバグ修正が供給インフレリスクを低減",
-      "イーサリアムETFの9日間連続流出がリスクオフ感を強化",
-      "BTCはMA20下抜けで売り圧力が顕在化"
+      "価格はMA20を下回り、調整圧力が高まる",
+      "RSI45弱気モメンタムが売りサイン",
+      "マクロ的には米長期金利上昇がリスクオフを誘導"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を割り込む価格動向と規制・マクロの混合シグナルから、BTC/USDは短期的な下押し局面にあると判断。",
+    "excerpt": "MA20下抜けとRSI45弱気から下目線。機関は利益確定とリスクオフを背景に売りを検討すべき。",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "MA20下抜けと売りオーダーフロー優勢により下押し局面",
-    "entry": "83000.00",
-    "tp": "81000.00",
-    "sl": "84500.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20下抜けとRSI弱気、金利上昇が売りを裏付ける",
+    "entry": "83200",
+    "tp": "81500",
+    "sl": "84500",
+    "reliability": "HIGH"
   }
 }
