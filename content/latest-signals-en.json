@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-12 13:11",
+    "title": "[USD/JPY] UP: Dollar Strength Supports Price Above MA20 Amid CPI Focus",
+    "date": "2026-10-13 02:19",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Current price near MA20 with bullish fundamentals",
-      "RSI indicates neutral momentum without overbought conditions",
-      "TSMC AI demand surge provides strong fundamental support"
+      "USD/JPY trades above MA20 with RSI near 63, indicating bullish momentum.",
+      "Dollar strength backed by higher European equities and focus on US CPI and French budget.",
+      "Entry near 158.30, TP at 159.50, SL at 157.80, execute via xm-trading."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY at 158.22 testing support at MA20 while AI-driven fundamentals push bullish momentum",
+    "excerpt": "USD/JPY holds above MA20 as dollar gains on equity strength and CPI watch; bullish setup targets 159.50 for near-term up",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Strong support at MA20 combined with AI-driven fundamental strength supports an upward bias.",
-    "entry": "157.40",
-    "tp": "160.80",
-    "sl": "156.90",
+    "comment": "Price above MA20 with rising US yields supports bullish bias.",
+    "entry": "158.30",
+    "tp": "159.50",
+    "sl": "157.80",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Technical Support at MA20 and Sector Rotation Drive Bullish Momentum",
-    "date": "2026-10-12 13:12",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-13 02:21",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 trades above its 20-day moving average at 7704.77, maintaining bullish short-term structure.",
-      "RSI(14) at 55.10 indicates healthy, non-overbought momentum with room for upward extension.",
-      "Sector rotation and earnings season catalysts provide fundamental support despite narrow index breadth."
+      "MA20 support holds at 7714.06 with bullish fundamentals",
+      "RSI at 54.42 indicates neutral-to-bullish momentum",
+      "Tech sector outperformance creates asymmetric upside potential"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above MA20 at 7704.77 with RSI at 55.10, signaling bullish momentum and sector rotation.",
+    "excerpt": "S&P 500 at 7805.75 near MA20 support; RSI 54.42 shows balanced momentum ahead of resistance at 7900.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "S&P 500 holds above MA20 at 7704.77 with RSI at 55.10, signaling bullish momentum and sector rotation.",
-    "entry": "7811.54",
-    "tp": "7950.00",
-    "sl": "7680.00",
+    "comment": "Technical support holds at MA20 with RSI indicating room for upside before resistance at 7900.",
+    "entry": "7810",
+    "tp": "7920",
+    "sl": "7785",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Below MA20 as Fundamentals Remain Neutral",
-    "date": "2026-10-12 13:14",
+    "title": "[BTC/USD] UP: Technical Dip to MA20 Meets Strong Institutional Buying",
+    "date": "2026-10-13 02:22",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trades below MA20 with neutral RSI, suggesting downside pressure amid mixed macro news.",
-      "Elevated Treasury yields suppress risk appetite, limiting upside potential.",
-      "Cautious market sentiment as institutional flows shift from Ether outflows to Solana inflows."
+      "Price holding above 82k with MA20 resistance at 84k",
+      "RSI neutral suggests room for upside before overbought",
+      "Institutional BTC accumulation fuels bullish bias"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC trades below MA20 with neutral RSI, suggesting downside pressure amid mixed macro news.",
+    "excerpt": "BTC/USD eyes upside as price approaches MA20 support, RSI neutral, while institutional buying fuels bullish momentum!!!!!!",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC trades below MA20 with neutral RSI, suggesting downside pressure amid mixed macro news.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Price above key support with MA20 as upside target and institutional buying supporting bullish momentum.",
+    "entry": "82300.00",
+    "tp": "84500.00",
+    "sl": "81500.00",
+    "reliability": "HIGH"
   }
 }
