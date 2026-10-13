@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-10-14-crypto-ja",
+    "date": "2026-10-14 00:40",
+    "title": "[BTC/USD] UP: MA20での反発と機関によるビットコイン蓄積の整合性",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "機関によるビットコイン蓄積とETF関連のOTC取引が需給を支え、MA20付近での押し目買いが有望。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-14-crypto-en",
+    "date": "2026-10-14 00:40",
+    "title": "[BTC/USD] DOWN: Price Below MA20 Signals Near-Term Weakness Amid Mixed Fundamentals",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD trades below MA20 with neutral RSI; downside bias driven by profit‑taking and mixed on‑chain flows.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-14-stocks-ja",
+    "date": "2026-10-14 00:34",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500はMA20をサポートに反発し、強気のファンダメンタルズとテクニカルが一致。押し目買いを推奨。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-14-stocks-en",
+    "date": "2026-10-14 00:34",
+    "title": "[S&P 500] UP: MA20 Support Holds as Tech Momentum Persists",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Goldman Sachs",
+    "excerpt": "S&P 500 sustains upside bias above MA20 with RSI at 59.8 confirming moderate momentum; next resistance at 7850; support at MA20 7724.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-14-fx-ja",
+    "date": "2026-10-14 00:32",
+    "title": "[USD/JPY] UP: MA20 支持線突破と米国住宅販売数の強さを背景にした押し目買いシナリオ",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPY は直近 MA20 支持線を保持しており、米国住宅販売数の予想上回りと強気ファンダメンタルズを背景に押し目買いシナリオを提示する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-14-fx-en",
+    "date": "2026-10-14 00:32",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY climbs above MA20 with RSI near 61, supported by stronger US housing data and risk‑on sentiment,targeting 159.20",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-10-13-crypto-ja",
     "date": "2026-10-13 14:26",
     "title": "[BTC/USD] DOWN: MA20下抜けと流動性悪化を確認",
@@ -80,7 +152,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "excerpt": "MA20下抜けとRSI45弱気から下目線。機関は利益確定とリスクオフを背景に売りを検討すべき。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -92,7 +164,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "excerpt": "BTC trades below MA20 with neutral RSI, suggesting downside pressure amid mixed macro news.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -104,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "IBKR",
     "excerpt": "S&P500は7811.54でMA20上穴を確認、RSI55は上昇余力を示し、リスクオンフローが広がる。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -116,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500 holds above MA20 at 7704.77 with RSI at 55.10, signaling bullish momentum and sector rotation.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -128,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "USD/JPYは158.20付近の強気サポート継続を確認。MA20上回りとRSI 59.2のモメンタムは押し目買いの利強を示す。流動性確保のためdmm-fxを推奨。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -140,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY at 158.22 testing support at MA20 while AI-driven fundamentals push bullish momentum",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {

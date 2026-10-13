@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: マクロリスクオフ圧力とMA20上抜けの限定的整理",
-    "date": "2026-10-13 14:20",
+    "title": "[USD/JPY] UP: MA20 支持線突破と米国住宅販売数の強さを背景にした押し目買いシナリオ",
+    "date": "2026-10-14 00:32",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "マクロ経済のリスクオフ進行がUSD/JPYに下押し圧力をかける",
-      "テクニカルはMA20水準での反転待機の形を示唆",
-      "戦略的な売りポジションを慎重に構築する"
+      "米国住宅販売数が予想を上回りドル強気の根拠に",
+      "MA20 を上回る構造で上昇トレンド継続の可能性大",
+      "RSI 60.77 は過熱感なしで上昇余地あり"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "マクロリスクオフの強まりとMA20近傍のテクニカル整理により、USD/JPYは下値トライの動きが想定される。リスクオフセンチメントの高まりとJPY safe-haven再評価の観点から、流動性の観点から[dmm-fx]利用を推奨する。",
+    "excerpt": "USD/JPY は直近 MA20 支持線を保持しており、米国住宅販売数の予想上回りと強気ファンダメンタルズを背景に押し目買いシナリオを提示する。",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "リスクオフ圧力とMA20サポートでの反転観測。",
-    "entry": "157.80",
-    "tp": "156.50",
-    "sl": "158.50",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20 支持と米住宅販売数の強さによる押し目買い",
+    "entry": "158.40",
+    "tp": "160.00",
+    "sl": "157.20",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: チップセールオフとMA20支持の均衡",
-    "date": "2026-10-13 14:24",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-10-14 00:34",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "野村證券",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
     "tldr_points": [
-      "現在価格はMA20を上回り、RSIは中立域",
-      "チップセールオフがナスダックに影響し、S&P 500は調整圧力",
-      "Q3決算発表と利益確定売却が方向性を限定"
+      "現在価格はMA20を上回り、中期的な上昇トレンドが継続",
+      "RSIは59.8で過熱感は限定的、さらなる上伸余地あり",
+      "ファンダメンタルズではビッグテックの収益回復が市場を支える"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20上方で推移するが、チップセールオフと利益確定の影響で横ばい圏内。短期戦略はレンジ取引。",
+    "excerpt": "S&P 500はMA20をサポートに反発し、強気のファンダメンタルズとテクニカルが一致。押し目買いを推奨。",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "MA20上方で推移するが、チップセールオフと利益確定の影響で横ばい。レンジ取引推奨。",
-    "entry": "7780",
-    "tp": "7860",
-    "sl": "7740",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20をサポートに反発し、RSIは過熱感が限定的。ファンダメンタルズもビッグテックの好調で上昇余地あり。",
+    "entry": "7730",
+    "tp": "7850",
+    "sl": "7700",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20下抜けと流動性悪化を確認",
-    "date": "2026-10-13 14:26",
+    "title": "[BTC/USD] UP: MA20での反発と機関によるビットコイン蓄積の整合性",
+    "date": "2026-10-14 00:40",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "大型ホエールの6年振り移動が資金流入の兆候",
-      "清算額が7.7億ドルを超え売り圧力が顕在化",
-      "規制の不透明さとNFT市場の縮小がリスク要因"
+      "機関のビットコイン大口購入が下値支持を強化",
+      "MA20付近での押し目は反発の契機となる可能性",
+      "セキュリティ懸念は限定的であり全体的需給は堅調"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCはMA20を下抜け、大口ホエールの移動と清算増大が混在し、方向感が定まらない状況。",
+    "excerpt": "機関によるビットコイン蓄積とETF関連のOTC取引が需給を支え、MA20付近での押し目買いが有望。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20下抜けと清算増大による売り圧力が優勢",
-    "entry": "83500.00",
-    "tp": "80000.00",
-    "sl": "85000.00",
+    "status": "BUY",
+    "comment": "機関の大口購入と需給改善によりMA20付近から反発が期待できる",
+    "entry": "83200",
+    "tp": "86000",
+    "sl": "80000",
     "reliability": "MEDIUM"
   }
 }
