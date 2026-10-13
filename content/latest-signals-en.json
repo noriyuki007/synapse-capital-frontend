@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Dollar Strength Supports Price Above MA20 Amid CPI Focus",
-    "date": "2026-10-13 02:19",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-13 14:20",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY trades above MA20 with RSI near 63, indicating bullish momentum.",
-      "Dollar strength backed by higher European equities and focus on US CPI and French budget.",
-      "Entry near 158.30, TP at 159.50, SL at 157.80, execute via xm-trading."
+      "USD/JPY holds above MA20 despite global risk-off tone",
+      "RSI remains in bullish range but trending lower",
+      "Geopolitical and rate divergence support yen weakness"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above MA20 as dollar gains on equity strength and CPI watch; bullish setup targets 159.50 for near-term up",
+    "excerpt": "Despite global selloffs, USD/JPY clings to bullish structure above MA20 as rate differentials tighten.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price above MA20 with rising US yields supports bullish bias.",
-    "entry": "158.30",
-    "tp": "159.50",
-    "sl": "157.80",
+    "comment": "Bullish structure intact above MA20; supported by rate differentials and positive order flow.",
+    "entry": "157.75",
+    "tp": "160.00",
+    "sl": "156.90",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-13 02:21",
+    "title": "[S&P 500] UP: Price Holds Above MA20 Amid Mixed Earnings Backdrop",
+    "date": "2026-10-13 14:24",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "MA20 support holds at 7714.06 with bullish fundamentals",
-      "RSI at 54.42 indicates neutral-to-bullish momentum",
-      "Tech sector outperformance creates asymmetric upside potential"
+      "S&P 500 trades above its 20‑day moving average, signaling short‑term bullish momentum.",
+      "Big‑bank Q3 earnings kickoff provides potential upside catalyst, while chip sector weakness remains a headwind.",
+      "RSI near 55 indicates balanced momentum, leaving room for a move toward near‑term resistance."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 at 7805.75 near MA20 support; RSI 54.42 shows balanced momentum ahead of resistance at 7900.",
+    "excerpt": "S&P 500 holds above MA20 as bank earnings start; chip selloff limits upside, presenting a tactical long bias.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Technical support holds at MA20 with RSI indicating room for upside before resistance at 7900.",
-    "entry": "7810",
-    "tp": "7920",
-    "sl": "7785",
-    "reliability": "HIGH"
+    "comment": "Price above MA20 with constructive earnings backdrop supports a tactical long.",
+    "entry": "7750.00",
+    "tp": "7950.00",
+    "sl": "7700.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Technical Dip to MA20 Meets Strong Institutional Buying",
-    "date": "2026-10-13 02:22",
+    "title": "[BTC/USD] UP: AI Detects Support Near MA20 as Whale Activity Signals Accumulation",
+    "date": "2026-10-13 14:26",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price holding above 82k with MA20 resistance at 84k",
-      "RSI neutral suggests room for upside before overbought",
-      "Institutional BTC accumulation fuels bullish bias"
+      "Whale moved $378M BTC after six-year dormancy indicating accumulation",
+      "Liquidations exceeded $770M as price slipped below $82k, marking capitulation",
+      "MA20 at $84,099 acts as dynamic support; RSI ~50 shows neutral momentum"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD eyes upside as price approaches MA20 support, RSI neutral, while institutional buying fuels bullish momentum!!!!!!",
+    "excerpt": "Bitcoin holds near MA20 as whale accumulation and liquidation washout suggest imminent bounce toward $86k resistance!!!.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Price above key support with MA20 as upside target and institutional buying supporting bullish momentum.",
-    "entry": "82300.00",
-    "tp": "84500.00",
-    "sl": "81500.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Bitcoin holds near MA20 as whale accumulation and liquidation washout suggest imminent bounce toward $86k resistance!!!.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }

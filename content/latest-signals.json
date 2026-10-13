@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: ドル高基調と MA20 支持の上値余地を確認",
-    "date": "2026-10-13 02:19",
+    "title": "[USD/JPY] DOWN: マクロリスクオフ圧力とMA20上抜けの限定的整理",
+    "date": "2026-10-13 14:20",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "ドル高基調が継続",
-      "MA20 支持で上昇トレンド維持",
-      "RSI62.75 で過熱感はない"
+      "マクロ経済のリスクオフ進行がUSD/JPYに下押し圧力をかける",
+      "テクニカルはMA20水準での反転待機の形を示唆",
+      "戦略的な売りポジションを慎重に構築する"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "米ドルはユーロ圏の財政懸念と高金利を背景に強さを維持しており、USD/JPY は MA20 を支持して上昇トレンドを継続中。RSI 過熱回避のため押し目買いを推奨し、米 CPI 発表前日の流動性管理を徹底する。本レポートを投資判断の参考にすること。",
+    "excerpt": "マクロリスクオフの強まりとMA20近傍のテクニカル整理により、USD/JPYは下値トライの動きが想定される。リスクオフセンチメントの高まりとJPY safe-haven再評価の観点から、流動性の観点から[dmm-fx]利用を推奨する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20 支持とドル高基調による上昇トレンド継続",
-    "entry": "158.65",
-    "tp": "160.00",
-    "sl": "157.30",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "リスクオフ圧力とMA20サポートでの反転観測。",
+    "entry": "157.80",
+    "tp": "156.50",
+    "sl": "158.50",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発とテクノロジー sektorsの弱さを考慮した方向性",
-    "date": "2026-10-13 02:21",
+    "title": "[S&P 500] FLAT: チップセールオフとMA20支持の均衡",
+    "date": "2026-10-13 14:24",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "野村證券",
     "tldr_points": [
-      "価格はMA20を上回り、短期的に上押し圧力が残る。",
-      "テクノロジー部門の下落が全体指数に重石となり、上値は限定的。",
-      "RSIは中立域で、過熱感は見られず押し目買いの余地がある。"
+      "現在価格はMA20を上回り、RSIは中立域",
+      "チップセールオフがナスダックに影響し、S&P 500は調整圧力",
+      "Q3決算発表と利益確定売却が方向性を限定"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20を基盤とした押し目買いが有望だが、テクノロジー株の弱さが上値を制限する。",
+    "excerpt": "S&P 500はMA20上方で推移するが、チップセールオフと利益確定の影響で横ばい圏内。短期戦略はレンジ取引。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20を上抜けているがテクノロジー部門の弱さが上値を制限し、調整局面での押し目買いが適切。",
-    "entry": "7750",
-    "tp": "8000",
-    "sl": "7600",
+    "status": "NEUTRAL",
+    "comment": "MA20上方で推移するが、チップセールオフと利益確定の影響で横ばい。レンジ取引推奨。",
+    "entry": "7780",
+    "tp": "7860",
+    "sl": "7740",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: 機関の実需買いが下値を支え、MA20回復を窺う",
-    "date": "2026-10-13 02:22",
+    "title": "[BTC/USD] DOWN: MA20下抜けと流動性悪化を確認",
+    "date": "2026-10-13 14:26",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "Strategyが250BTC追加購入、保有高84.8万BTCで機関実需の強さを再確認",
-      "価格はMA20(84,042)を下回るもRSI中立で下値余地限定的",
-      "トークン化・ETF流入等の構造的買い支えで押し目買い優位"
+      "大型ホエールの6年振り移動が資金流入の兆候",
+      "清算額が7.7億ドルを超え売り圧力が顕在化",
+      "規制の不透明さとNFT市場の縮小がリスク要因"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "機関投資家の継続的なBTC蓄積が下支え要因となる一方、短期テクニカルはMA20下方で調整中。80.5-81.0万付近のサポート帯からの反発を狙う戦略が有効。",
+    "excerpt": "BTCはMA20を下抜け、大口ホエールの移動と清算増大が混在し、方向感が定まらない状況。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "機関実需の継続的買い支えと主要サポート帯接近により、押し目買い優位性が高い。MA20回復でトレンド転換確認。",
-    "entry": "80800",
-    "tp": "86500",
-    "sl": "79500",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "MA20下抜けと清算増大による売り圧力が優勢",
+    "entry": "83500.00",
+    "tp": "80000.00",
+    "sl": "85000.00",
+    "reliability": "MEDIUM"
   }
 }
