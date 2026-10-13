@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20 支持線突破と米国住宅販売数の強さを背景にした押し目買いシナリオ",
-    "date": "2026-10-14 00:32",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-10-14 05:58",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米国住宅販売数が予想を上回りドル強気の根拠に",
-      "MA20 を上回る構造で上昇トレンド継続の可能性大",
-      "RSI 60.77 は過熱感なしで上昇余地あり"
+      "ファンダメンタルズ：Fedの追加利上げ期待が米ドルを下支え",
+      "テクニカル：現在価格はMA20を上回り、RSIは59で買い余地あり",
+      "戦略：押し目買いエントリー158.00、TP159.00、SL157.50、流動性重視で[dmm-fx]推奨"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY は直近 MA20 支持線を保持しており、米国住宅販売数の予想上回りと強気ファンダメンタルズを背景に押し目買いシナリオを提示する。",
+    "excerpt": "Fedのハイク派発言による利上げ期待が米ドルを下支え、リスクオフによる円買い圧力が同時に生じる中、USD/JPYはMA20を上回る価格帯で底堅さを示し、中期的な上昇余地が見込まれる。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20 支持と米住宅販売数の強さによる押し目買い",
-    "entry": "158.40",
-    "tp": "160.00",
-    "sl": "157.20",
-    "reliability": "HIGH"
+    "comment": "MA20をサポートとした上昇期待と、Fedの利上げ観測が金利差を支える",
+    "entry": "158.000",
+    "tp": "159.000",
+    "sl": "157.500",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-10-14 00:34",
+    "title": "インテリジェンス：S&P 500の強気相場における利益確定ポイント",
+    "date": "2026-10-14 06:05",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "現在価格はMA20を上回り、中期的な上昇トレンドが継続",
-      "RSIは59.8で過熱感は限定的、さらなる上伸余地あり",
-      "ファンダメンタルズではビッグテックの収益回復が市場を支える"
+      "金利相関（近似）: -0.50で負相関傾向",
+      "テクニカル: 現在価格 7805.45 と MA20 7725.12 の位置関係が主導",
+      "需給: 上限帯 7870.49 / 下限帯 7579.76 / 直近高値 7844.52 / 直近安値 7507.77 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20をサポートに反発し、強気のファンダメンタルズとテクニカルが一致。押し目買いを推奨。",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 7805.45、RSI(62.24)、MA20(7725.12)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20をサポートに反発し、RSIは過熱感が限定的。ファンダメンタルズもビッグテックの好調で上昇余地あり。",
-    "entry": "7730",
-    "tp": "7850",
-    "sl": "7700",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、S&P 500の現在価格 7805.45、RSI(62.24)、MA20(7725.12)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20での反発と機関によるビットコイン蓄積の整合性",
-    "date": "2026-10-14 00:40",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-10-14 06:06",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "機関のビットコイン大口購入が下値支持を強化",
-      "MA20付近での押し目は反発の契機となる可能性",
-      "セキュリティ懸念は限定的であり全体的需給は堅調"
+      "Striveが3,311BTCを280百万円で購入し、最大の买入り since January",
+      "MA20（83,954）付近で価格が支持され、RSI中立から反発の可能性",
+      "機関投資家によるOTCスワップや ステーキング拡大が流動性と需要を拡大"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "機関によるビットコイン蓄積とETF関連のOTC取引が需給を支え、MA20付近での押し目買いが有望。",
+    "excerpt": "BTC/USDはMA20付近で支持され、強気ファンダメンタルズと技術的反発が重なり、上昇傾向が期待される。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "機関の大口購入と需給改善によりMA20付近から反発が期待できる",
+    "comment": "Striveの大量購入とMA20付近の支持が重なり、上昇期待",
     "entry": "83200",
-    "tp": "86000",
-    "sl": "80000",
-    "reliability": "MEDIUM"
+    "tp": "85000",
+    "sl": "82000",
+    "reliability": "HIGH"
   }
 }
