@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-10-14 12:25",
+    "title": "[USD/JPY] UP: MA20を上抜け、CPI上振れとファンダメンタルズの整合性を確認",
+    "date": "2026-10-14 22:17",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "現在価格はMA20を上回り、短期的な押し目買いの環境が整う。",
-      "中国の製造業インフレ上昇は世界的な需給逼迫を示唆し、リスクオフ時に円買いが強まる可能性がある。",
-      "ECBとRBAのハーキッシュ傾向がドル円の上押しを支援する。"
+      "価格がMA20を上回り短期的に上昇バイアス",
+      "米CPIの上振れがドル支持材料となり、リスクオン傾向",
+      "テクニカルはRSI57で過熱感なく、押し目買い余地あり"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "MA20を基盤とした押し目買いシナリオを提示し、ファンダメンタルズとテクニカルの整合性を検証する。",
+    "excerpt": "現在価格158.89はMA20を上抜け、CPI上振れとファンダメンタルズがドル買いを後押し。押し目買い戦略を推奨。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20支持と金利上昇期待が一致し、上値余地あり",
-    "entry": "158.00",
-    "tp": "159.50",
-    "sl": "157.20",
+    "comment": "MA20を上回り、CPI上振れとファンダメンタルズがドル買いを支える",
+    "entry": "158.75",
+    "tp": "159.45",
+    "sl": "158.30",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20支持線（7725）での反発とRSI 62の中期トレンド継続、しかし半導体調整の重石で展開は限定的",
-    "date": "2026-10-14 12:28",
+    "title": "[S&P 500] DOWN: CPIインフレオーバーショットと利回り上昇が下押し圧力",
+    "date": "2026-10-14 22:19",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers (IBKR Pro)",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "野村證券",
     "tldr_points": [
-      "S&P 500はMA20（7725）を上回る推移を Maintain しており、RSI（62.2）も中期的上昇モーメンタムを示している。",
-      "しかし、メモリーチップ制造商の売却や Nasdaq の下落、CPI データの控えにより、半導体セクターの重石が継続する可能性が高い。",
-      "戦略としては、7750-7780の_pullback_ を严格的なSL（7700）でコントロールしたうえで、ターゲット7900 toward する tactically long を推奨する。"
+      "CPIインフレが予想を上回り、利回り上昇でリスクオフ傾向",
+      "価格はMA20を上回るがRSIは62と伸び余地限定",
+      "下押しリスクを考慮し、押し目売りを検討"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20支持線を維持するが、半導体セクターの調整とCPIの不確定性により展開は限定的。MA20付近の調整を严格的なリスク管理下で买入する戦略を推奨する。",
+    "excerpt": "CPIインフレオーバーショットにより利回りが上昇、S&P 500は下押しリスクが高まる。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20（7725）支持線を維持しRSI 62の中期上昇モーメンタムを保持するが、半導体調整の重石で展開は限定的。MA20附近的調整を严格的なSLでコントロールした tactically long を推奨。",
-    "entry": "7750.00",
-    "tp": "7900.00",
-    "sl": "7700.00",
+    "status": "SELL",
+    "comment": "CPIインフレオーバーショットと利回り上昇が下押し圧力となり、MA20付近での売りが妥当",
+    "entry": "7805.00",
+    "tp": "7725.00",
+    "sl": "7835.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20抵抗での売り圧力とリスクオフ整合性を確認",
-    "date": "2026-10-14 12:35",
+    "title": "[BTC/USD] DOWN: Price below MA20 with neutral RSI signals near‑term weakness",
+    "date": "2026-10-14 22:24",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20抵抗での売りシグナル発生",
-      "RSI50.7は弱いモメンタム",
-      "機関系リスクオフが価格構造を圧迫"
+      "BTC trades ~1.8% under its 20‑day MA, RSI at 45.9 indicates fading momentum",
+      "Institutional tokenization news (BNY, Citadel) supports long‑term adoption but lacks immediate price catalyst",
+      "Short‑term bias remains bearish; a break below 81,500 could accelerate to 80,000"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20抵抗のもとで売りシグナルが鮮明化。RSI50.7は弱いモメンタム。機関系資金のリスクオフ傾向が背景にある。",
+    "excerpt": "BTC/USD sits below MA20 with RSI in neutral‑bearish territory; institutional tokenization developments are positive long‑term but do not offset current technical weakness.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "MA20抵抗での売りシグナルとリスクオフセンチメントの整合性から",
-    "entry": "83979.00",
-    "tp": "83500.00",
-    "sl": "84150.00",
-    "reliability": "HIGH"
+    "comment": "Price below MA20, RSI neutral‑bearish, order flow skewed to sell; short‑term downside favored",
+    "entry": "82000",
+    "tp": "80000",
+    "sl": "83200",
+    "reliability": "MEDIUM"
   }
 }

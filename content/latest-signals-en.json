@@ -1,66 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-14 12:25",
+    "title": "[USD/JPY] UP: Price Above MA20 with Mildly Bullish RSI and Hawkish Fed Cues",
+    "date": "2026-10-14 22:17",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above MA20 at 157.69",
-      "RSI(14) at 49.67 signals neutral momentum",
-      "China PPI surge boosts yield differential appeal"
+      "USD/JPY trading above MA20 with RSI near 57",
+      "US CPI slightly hotter than expected, supporting dollar",
+      "Fed speaker slate hints at potential hawkish tone"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USDJPY holds above MA20 amid bullish momentum and global yield repricing",
+    "excerpt": "USD/JPY holds above MA20 as US CPI beats expectations and Fed speakers turn hawkish.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Supported by rising yield differentials and confirmed technical bounce",
-    "entry": "158.00",
-    "tp": "161.20",
-    "sl": "156.70",
-    "reliability": "HIGH"
+    "comment": "Price above MA20 with mild bullish momentum and supportive US CPI data.",
+    "entry": "158.70",
+    "tp": "160.10",
+    "sl": "158.00",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Momentum Builds",
-    "date": "2026-10-14 12:28",
+    "title": "[S&P 500] UP: Rates Correlation Drives Momentum Amid Inflation Pressure",
+    "date": "2026-10-14 22:19",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price above MA20 suggests short‑term support.",
-      "RSI 62 indicates room for further upside before overbought.",
-      "CPI data looms; a softer print could catalyze a rally."
+      "Inflation overshoot pressures yields while fundamentals remain resilient",
+      "MA20 support holds near 7725, providing clear buying zone",
+      "RSI at 62 suggests healthy momentum without overbought conditions"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 above MA20 at 7805, RSI 62, awaiting CPI; bullish bias amid chip selloff, Nasdaq weakness supports equity upside",
+    "excerpt": "S&P 500 shows bullish reversal potential with MA20 support amid improving fundamentals.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price above MA20 with bullish RSI and supportive fundamentals",
-    "entry": "7750.00",
-    "tp": "7950.00",
-    "sl": "7650.00",
+    "comment": "Rates correlation and technical support suggest an upward bias despite inflation pressures.",
+    "entry": "7750",
+    "tp": "7830",
+    "sl": "7700",
     "reliability": "HIGH"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-14 12:35",
+    "date": "2026-10-14 22:24",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price below MA20 signals near-term dip with upside potential; Coinbase’s flexible post‑quantum migration adds fundamental bullish momentum; RSI hovering near 50 indicates balanced momentum for a controlled rally."
+      "Price tests MA20 support at ~82.4k with RSI neutral.",
+      "Institutional crypto adoption rises via tokenized Treasury and Ripple RLUSD integration.",
+      "Bullish bias if BTC reclaims MA20; target ~86k."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD poised for upside as fundamentals strengthen and price nears MA20 support.",
+    "excerpt": "BTC steadies near MA20 as institutional crypto use grows; upside if price holds above 82k with stronger on‑chain flow.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "AI and fundamentals support a bounce toward MA20 with controlled risk.",
-    "entry": "83700",
-    "tp": "84100",
-    "sl": "83400",
-    "reliability": "HIGH"
+    "comment": "Price holds MA20 support with improving institutional crypto fundamentals.",
+    "entry": "82200.00",
+    "tp": "84500.00",
+    "sl": "80500.00",
+    "reliability": "MEDIUM"
   }
 }
