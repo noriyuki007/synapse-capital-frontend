@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Price Above MA20 with Mildly Bullish RSI and Hawkish Fed Cues",
-    "date": "2026-10-14 22:17",
+    "title": "[USD/JPY] UP: Price Holds Above MA20 Amid Fed CPI Scrutiny",
+    "date": "2026-10-15 04:57",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY trading above MA20 with RSI near 57",
-      "US CPI slightly hotter than expected, supporting dollar",
-      "Fed speaker slate hints at potential hawkish tone"
+      "Price above MA20 with neutral RSI, Fed CPI mixed but Beige Book supportive",
+      "Technical bias bullish with MA20 support intact",
+      "Key resistance near 159.00 as yield dynamics evolve"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above MA20 as US CPI beats expectations and Fed speakers turn hawkish.",
+    "excerpt": "USD/JPY stabilizes above MA20 with RSI 50.1; Fed CPI and Beige Book deliver mixed fundamental cues, bias moderately bullish.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price above MA20 with mild bullish momentum and supportive US CPI data.",
-    "entry": "158.70",
-    "tp": "160.10",
-    "sl": "158.00",
+    "comment": "Price above MA20 with RSI neutral, favoring long setup toward 159.00.",
+    "entry": "158.27",
+    "tp": "159.00",
+    "sl": "157.60",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Rates Correlation Drives Momentum Amid Inflation Pressure",
-    "date": "2026-10-14 22:19",
+    "title": "[S&P 500] UP: Institutional Accumulation in Oversold Tech Offsets Inflation Headwinds",
+    "date": "2026-10-15 05:03",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Inflation overshoot pressures yields while fundamentals remain resilient",
-      "MA20 support holds near 7725, providing clear buying zone",
-      "RSI at 62 suggests healthy momentum without overbought conditions"
+      "S&P 500 exhibits oversold conditions with over 25% of constituents trading 40% below recent peaks.",
+      "Hot inflation data increases Fed rate hike probability, creating a tactical headwind for big tech.",
+      "Technical analysis indicates a neutral RSI (51.57) with price consolidating just below the 20-day moving average."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 shows bullish reversal potential with MA20 support amid improving fundamentals.",
+    "excerpt": "S&P 500 consolidates below MA20 amid inflation volatility. Bargain tech and defensive sectors offer tactical entries.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Rates correlation and technical support suggest an upward bias despite inflation pressures.",
-    "entry": "7750",
-    "tp": "7830",
-    "sl": "7700",
-    "reliability": "HIGH"
+    "comment": "Oversold tech sector and defensive rotation provide tactical long opportunities near support, with neutral RSI indicating balanced consolidation.",
+    "entry": "7715.00",
+    "tp": "7780.00",
+    "sl": "7600.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-14 22:24",
+    "title": "[BTC/USD] DOWN: AI Detects Breach Below MA20 as CPI Inflation Weighs on Momentum",
+    "date": "2026-10-15 05:05",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price tests MA20 support at ~82.4k with RSI neutral.",
-      "Institutional crypto adoption rises via tokenized Treasury and Ripple RLUSD integration.",
-      "Bullish bias if BTC reclaims MA20; target ~86k."
+      "Core CPI prints above consensus at 0.3% MoM, pressuring risk assets",
+      "BTC breaches MA20 at 83810.54, confirming short-term bearish momentum",
+      "RSI(14) at 43.99 signals weakening upside pressure amid rising volatility"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC steadies near MA20 as institutional crypto use grows; upside if price holds above 82k with stronger on‑chain flow.",
+    "excerpt": "BTC/USD breaks below MA20 as hot CPI revives Fed hike fears; RSI weakens, signaling extended downside risk.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Price holds MA20 support with improving institutional crypto fundamentals.",
-    "entry": "82200.00",
-    "tp": "84500.00",
-    "sl": "80500.00",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Break below MA20 confirms bearish shift amid sticky inflation narrative",
+    "entry": "81746.15",
+    "tp": "79500.00",
+    "sl": "84050.00",
+    "reliability": "HIGH"
   }
 }
