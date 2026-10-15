@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: BOJハークシック姿勢とMA20下抜けリスクを確認",
-    "date": "2026-10-15 12:03",
+    "title": "[USD/JPY] DOWN: RSI38.6とリスクオフが円買いを促す",
+    "date": "2026-10-15 22:03",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "BOJの率引き上げ姿勢がJPYを支援",
-      "MA20をわずかに下回る価格とRSI37.5が下方バイアスを示す",
-      "リスクオフ環境で米ドルの上値は限定的"
+      "US CPIショック後、リスクオフが円買いを促す可能性",
+      "RSI38.6は売り圧力継続を示唆、MA20付近で推移",
+      "流動性観点から[dmm-fx]の利用が有効"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "BOJのハークシックな利上げ姿勢と、オーストラリア雇用悪化によるリスクオフが米ドルの上値を抑え、MA20を下回る価格とRSI37.5が下方バイアスを強めている。",
+    "excerpt": "US CPIショック後にリスクオフが強まり、円買いが優勢。RSI38.6とMA20付近の価格動向から下押しリスクが高く、売り戦略を検討。",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "BOJハークシックとMA20下抜けリスクが下方バイアスを形成",
-    "entry": "157.70",
-    "tp": "157.20",
-    "sl": "158.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "US CPIショック後にリスクオフが強まり、円買いが優勢。RSI38.6とMA20付近の価格動向から下押しリスクが高く、売り戦略を検討。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20付近での反発期待と季節的強気要因の整合性",
-    "date": "2026-10-15 12:08",
+    "title": "[S&P 500] DOWN: Price below MA20 amid risk-off sentiment and valuation concerns",
+    "date": "2026-10-15 22:05",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "現在価格はMA20わずか下抜け、RSI中立で短期反発余地あり",
-      "インフレ熱化でFed利上げ懸念が重石だが、季節的に強い期間入り",
-      "テクニカル的にはMA20までの押し目買いを推奨、流動性観点から[]の利用を推奨"
+      "Risk-off macro backdrop pressures valuations",
+      "Current price trading below 20‑day MA, RSI neutral",
+      "Technical setup favors short bias with defined levels"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "MA20下抜けだが季節的強気窓とテクニカル反発期待が一致、短期上向きを視野に。",
+    "excerpt": "S&P 500 weakens below MA20 amid risk‑off news, AI sell‑off and awaited macro data; short bias recommended with tight risk management.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20までの反発期待と季節的強気要因が一致",
-    "entry": "7710.00",
-    "tp": "7733.00",
-    "sl": "7690.00",
+    "status": "SELL",
+    "comment": "MA20割れとリスクオフを考慮した売策略",
+    "entry": "7718.94",
+    "tp": "7680.00",
+    "sl": "7750.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20下抜けと利上げ懸念による売り圧力",
-    "date": "2026-10-15 12:10",
+    "title": "[BTC/USD] DOWN: MA20下抜けとリスクオフセンチメントの整合性",
+    "date": "2026-10-15 22:07",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を下抜けし、下目線が強まる",
-      "コアCPIの上昇で金利引き上げ観測が再燃",
-      "RSIは42付近で反発余地が限定的"
+      "MA20を下抜け、80k前半での売り圧力が継続",
+      "RSI35付近は短期的な反発余地を示すもトレンドは依然下向き",
+      "リスクオフによるアジア株の下落がBTCに波及し、機関のポジション調整が進行"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を割り込み、金利上昇警戒が売りを誘うBTC/USDの短期的な下落シナリオを示す。",
+    "excerpt": "MA20下抜けとリスクオフが重なり、BTC/USDは下目線。テクニカルは売りサインを示し、bitflyerでの売り戦略を推奨。",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "MA20下抜けと金利上昇警戒が売り圧力を強化",
-    "entry": "81200.00",
+    "comment": "MA20下抜けとリスクオフによる売り優位、オーダーフローの売りサイド厚みを根拠とする",
+    "entry": "80490.00",
     "tp": "78000.00",
-    "sl": "83800.00",
+    "sl": "82500.00",
     "reliability": "MEDIUM"
   }
 }
