@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-15 22:03",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Favor USD",
+    "date": "2026-10-16 04:40",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY stabilizing above MA20 at 157.79140090942383",
-      "RSI-14 at 38.5718415512794 reflects moderate bearish momentum",
-      "Global risk sentiment recovering post-US CPI supports upside toward 160.00"
+      "USD/JPY above MA20, RSI 41 neutral",
+      "Atlanta Fed GDPNow 3.6% supports USD",
+      "Short covering and risk asset rebound boost bullish bias"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above MA20; RSI near oversold suggests bounce as sentiment stabilizes.",
+    "excerpt": "USD/JPY trades above 20‑MA, bullish fundamentals drive modest upside bias",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Holding above MA20 with stabilizing RSI supports upside continuation.",
-    "entry": "157.79",
-    "tp": "159.50",
-    "sl": "157.25",
+    "comment": "Mild bullish bias driven by fundamentals and technical support at MA20",
+    "entry": "158.00",
+    "tp": "158.80",
+    "sl": "157.30",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Technical Support Breach Triggers Institutional Risk-Off Rotation",
-    "date": "2026-10-15 22:05",
+    "title": "[S&P 500] UP: Price Holds Above MA20 Amid Sector Rotation and Sliding Yields",
+    "date": "2026-10-16 04:49",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 below MA20 signals bearish momentum",
-      "RSI neutral at 51.5 with downside skew",
-      "Fundamental headwinds from AI valuation concerns and inflation data"
+      "S&P 500 trades marginally above the 20-day moving average at 7748.6201171875 with RSI-14 neutral at 50.541248513722444",
+      "Hot PPI print coincided with sliding Treasury yields, limiting hawkish rate pressure on equities",
+      "Rotation from AI into healthcare, led by Tenet Healthcare, offsets sector weakness while consumer spending remains self-sustaining"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 breaches key moving average amid rising macro uncertainty and weakening technical structure.",
+    "excerpt": "S&P 500 marginally above MA20 with neutral RSI; PPI heat and yield slide create mixed tactical setup.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Technical support breach below MA20 amid weakening momentum and fundamental uncertainty.",
-    "entry": "7718.94",
-    "tp": "7650.00",
-    "sl": "7780.00",
-    "reliability": "HIGH"
+    "status": "BUY",
+    "comment": "Price holds above MA20 with neutral RSI and supportive consumption data",
+    "entry": "7745.00",
+    "tp": "7810.00",
+    "sl": "7720.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Oversold RSI Below $81K Signals Accelerated Decline",
-    "date": "2026-10-15 22:07",
+    "title": "[BTC/USD] DOWN: Below MA20, RSI 41.5",
+    "date": "2026-10-16 04:52",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC breaches $81K on global risk-off sentiment",
-      "RSI(14) at 35.46 confirms bearish momentum",
-      "MA20 at $83,624 now acts as resistance"
+      "Price tests MA20 support with RSI 41.5 indicating bearish momentum.",
+      "Mixed fundamentals: tokenized asset inflows offset mining production dips.",
+      "Technical breach of 82000 likely to trigger next leg lower."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC slides below $81K as RSI hits oversold; MA20 flips to resistance with bearish breakdown confirmed.",
+    "excerpt": "BTC/USD 82348.5 below MA20 RSI 41.5; token inflows offset mining dips.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC slides below $81K as RSI hits oversold; MA20 flips to resistance with bearish breakdown confirmed.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "Price below MA20 with RSI 41.5 confirming bearish bias",
+    "entry": "82348.5",
+    "tp": "80000.00",
+    "sl": "83717.04",
     "reliability": "MEDIUM"
   }
 }

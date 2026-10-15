@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-10-16-crypto-ja",
+    "date": "2026-10-16 04:52",
+    "title": "[BTC/USD] DOWN: 価格がMA20を下回りRSIが中立未満、ファンダメンタルズの短期的な供給懸念が重なる",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTCはMA20を割り込みRSIも中立未満、短期的な下押し圧力が優勢。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-16-crypto-en",
+    "date": "2026-10-16 04:52",
+    "title": "[BTC/USD] DOWN: Below MA20, RSI 41.5",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD 82348.5 below MA20 RSI 41.5; token inflows offset mining dips.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-16-stocks-ja",
+    "date": "2026-10-16 04:49",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500はMA20を僅かに上回り、RSIは中立。金利とヘルスケアが支え、テクは調整局面。上抜けの可能性を探る。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-16-stocks-en",
+    "date": "2026-10-16 04:49",
+    "title": "[S&P 500] UP: Price Holds Above MA20 Amid Sector Rotation and Sliding Yields",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 marginally above MA20 with neutral RSI; PPI heat and yield slide create mixed tactical setup.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-16-fx-ja",
+    "date": "2026-10-16 04:40",
+    "title": "[USD/JPY] UP: MA20を上回り消費者支出改善で米ドルが堅調",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYはMA20を上回り、消費者支出改善とショートカバーが上昇を支える見込み。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-16-fx-en",
+    "date": "2026-10-16 04:40",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Favor USD",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY trades above 20‑MA, bullish fundamentals drive modest upside bias",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-10-15-crypto-ja",
     "date": "2026-10-15 22:07",
     "title": "[BTC/USD] DOWN: MA20下抜けとリスクオフセンチメントの整合性",
