@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20を上回り消費者支出改善で米ドルが堅調",
-    "date": "2026-10-16 04:40",
+    "title": "USD/JPYの見通し：需給バランスから見る「押し目買い」の優位性",
+    "date": "2026-10-16 12:01",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "価格はMA20(157.80)を若干上回り、RSIは41でやや弱含みだが反発余地あり",
-      "米国消費者支出の改善とGDPNow 3.6%が米ドルを下支え",
-      "ショートカバーと金利相関が上向きバイアスを形成"
+      "金利相関（近似）: -0.01で負相関傾向",
+      "テクニカル: 現在価格 157.95 と MA20 157.89 の位置関係が主導",
+      "需給: 上限帯 158.79 / 下限帯 156.98 / 直近高値 159.00 / 直近安値 156.40 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20を上回り、消費者支出改善とショートカバーが上昇を支える見込み。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 157.95、RSI(58.99)、MA20(157.89)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20を上回り、ファンダメンタルズとテクニカルが一致",
-    "entry": "157.90",
-    "tp": "159.30",
-    "sl": "157.40",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 157.95、RSI(58.99)、MA20(157.89)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-10-16 04:49",
+    "title": "[S&P 500] DOWN: 50日間無安値更新の過熱銘柯錢からリセット圧力を確認",
+    "date": "2026-10-16 12:06",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "DMM.com",
     "tldr_points": [
-      "MA20を僅かに上回る価格動向が続き、RSIは中立域。",
-      "ヘルスケアセクターがAI相場の冷え込みに対し堅調。",
-      "PPI熱波後にテクが調整、全体は方向感の模索フェーズ。"
+      "S&P500が50営業日以上1%下落なしのストリークを終えた",
+      "AI過剰投資懸念と連動しバリュェーション調整局面到達",
+      "テクニカル面でMA20割り込みとRSI50超え鈍化を観測"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を僅かに上回り、RSIは中立。金利とヘルスケアが支え、テクは調整局面。上抜けの可能性を探る。",
+    "excerpt": "S&P500は50日間1%下落なしと過熱銘柯錢から一転、AI過剰投資懸念によるリセット売りを受けMA20割り込みを確認。テクニカルとセンチメントの二面が同時に警告を発する。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20付近の支持とヘルスケアの相対的強さが上抜けの根拠",
-    "entry": "7735.00",
-    "tp": "7780.00",
-    "sl": "7700.00",
+    "status": "NEUTRAL",
+    "comment": "S&P500は50日間1%下落なしと過熱銘柯錢から一転、AI過剰投資懸念によるリセット売りを受けMA20割り込みを確認。テクニカルとセンチメントの二面が同時に警告を発する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: 価格がMA20を下回りRSIが中立未満、ファンダメンタルズの短期的な供給懸念が重なる",
-    "date": "2026-10-16 04:52",
+    "title": "[BTC/USD] DOWN: 価格がMA20を下回りRSI40で下方圧力継続",
+    "date": "2026-10-16 12:07",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格がMA20（83,717）を明確に下回り、短期トレンドが弱含み",
-      "RSI14が41.5と中立圏下限にあり、モメンタム減退を示唆",
-      "マイニング生産減と機関向けインフラ拡充の綱引きで、直近は売り優勢"
+      "価格がMA20を下回り短期トレンドが弱気転換",
+      "RSI40でモメンタム不足、買い圧力が限定的",
+      "規制・供給面のネガティブニュースが下支えを削ぐ"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCはMA20を割り込みRSIも中立未満、短期的な下押し圧力が優勢。",
+    "excerpt": "BTCはMA20を割り込みRSI40で下落バイアスが強まる。短期売り向けエントリーを推奨。",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "MA20下抜けとRSI中立未満、マイニング生産減が短期売りを支持",
-    "entry": "82300",
-    "tp": "80000",
-    "sl": "84200",
+    "comment": "価格がMA20を下回りRSI40で下方圧力継続、規制・供給ネガティブが後押し",
+    "entry": "82000",
+    "tp": "79500",
+    "sl": "83500",
     "reliability": "MEDIUM"
   }
 }

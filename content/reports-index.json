@@ -1,73 +1,73 @@
 [
   {
     "id": "2026-10-16-crypto-ja",
-    "date": "2026-10-16 04:52",
-    "title": "[BTC/USD] DOWN: 価格がMA20を下回りRSIが中立未満、ファンダメンタルズの短期的な供給懸念が重なる",
+    "date": "2026-10-16 12:07",
+    "title": "[BTC/USD] DOWN: 価格がMA20を下回りRSI40で下方圧力継続",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
-    "excerpt": "BTCはMA20を割り込みRSIも中立未満、短期的な下押し圧力が優勢。",
+    "excerpt": "BTCはMA20を割り込みRSI40で下落バイアスが強まる。短期売り向けエントリーを推奨。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-10-16-crypto-en",
-    "date": "2026-10-16 04:52",
-    "title": "[BTC/USD] DOWN: Below MA20, RSI 41.5",
+    "date": "2026-10-16 12:07",
+    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 as Fundamentals Turn Bearish",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
-    "excerpt": "BTC/USD 82348.5 below MA20 RSI 41.5; token inflows offset mining dips.",
+    "excerpt": "BTC/USD under MA20, RSI 40 signals bearish tone; MSCI rule tweaks and mining output slip add downside pressure shortlys.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-10-16-stocks-ja",
-    "date": "2026-10-16 04:49",
-    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-10-16 12:06",
+    "title": "[S&P 500] DOWN: 50日間無安値更新の過熱銘柯錢からリセット圧力を確認",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "excerpt": "S&P 500はMA20を僅かに上回り、RSIは中立。金利とヘルスケアが支え、テクは調整局面。上抜けの可能性を探る。",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "DMM.com",
+    "excerpt": "S&P500は50日間1%下落なしと過熱銘柯錢から一転、AI過剰投資懸念によるリセット売りを受けMA20割り込みを確認。テクニカルとセンチメントの二面が同時に警告を発する。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-10-16-stocks-en",
-    "date": "2026-10-16 04:49",
-    "title": "[S&P 500] UP: Price Holds Above MA20 Amid Sector Rotation and Sliding Yields",
+    "date": "2026-10-16 12:06",
+    "title": "[S&P 500] UP: Price Defends MA20 Amid AI Rotation as Volatility Normalizes",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
-    "excerpt": "S&P 500 marginally above MA20 with neutral RSI; PPI heat and yield slide create mixed tactical setup.",
+    "excerpt": "S&P 500 defends MA20 support as AI rotation fuels breadth; neutral RSI offers tactical long setup with defined risk.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-10-16-fx-ja",
-    "date": "2026-10-16 04:40",
-    "title": "[USD/JPY] UP: MA20を上回り消費者支出改善で米ドルが堅調",
+    "date": "2026-10-16 12:01",
+    "title": "USD/JPYの見通し：需給バランスから見る「押し目買い」の優位性",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "excerpt": "USD/JPYはMA20を上回り、消費者支出改善とショートカバーが上昇を支える見込み。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 157.95、RSI(58.99)、MA20(157.89)を軸に、金利相関と需給帯から実行プランを整理する。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-10-16-fx-en",
-    "date": "2026-10-16 04:40",
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Favor USD",
+    "date": "2026-10-16 12:01",
+    "title": "[USD/JPY] UP: Technical Structure Holds Above MA20 Amid Yield Divergence and Geopolitical Hedging",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
-    "excerpt": "USD/JPY trades above 20‑MA, bullish fundamentals drive modest upside bias",
+    "excerpt": "USD/JPY holds bullish structure above MA20. RSI at 58.99 supports tactical long positioning.",
     "result": "PENDING",
     "locale": "en"
   },
@@ -152,7 +152,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "excerpt": "BTC/USD sits below MA20 with RSI in neutral‑bearish territory; institutional tokenization developments are positive long‑term but do not offset current technical weakness.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -164,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC steadies near MA20 as institutional crypto use grows; upside if price holds above 82k with stronger on‑chain flow.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -176,7 +176,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "野村證券",
     "excerpt": "CPIインフレオーバーショットにより利回りが上昇、S&P 500は下押しリスクが高まる。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "",
     "excerpt": "S&P 500 shows bullish reversal potential with MA20 support amid improving fundamentals.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "現在価格158.89はMA20を上抜け、CPI上振れとファンダメンタルズがドル買いを後押し。押し目買い戦略を推奨。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY holds above MA20 as US CPI beats expectations and Fed speakers turn hawkish.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
