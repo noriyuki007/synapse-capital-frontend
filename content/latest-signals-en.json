@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Technical Structure Holds Above MA20 Amid Yield Divergence and Geopolitical Hedging",
-    "date": "2026-10-16 12:01",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-16 21:59",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY maintains bullish posture above the 20-day moving average at 157.89.",
-      "RSI at 58.99 indicates robust momentum with room for further upside before overbought conditions.",
-      "Geopolitical headlines regarding Iran and Trump introduce tactical safe-haven flows, but yield differentials favor USD accumulation."
+      "Key point 1",
+      "Key point 2",
+      "Key point 3"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds bullish structure above MA20. RSI at 58.99 supports tactical long positioning.",
+    "excerpt": "USD/JPY holds above MA20 with RSI near 60, buoyed by steady eurozone stocks and modest yield rise signaling now shortly.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "USD/JPY holds bullish structure above MA20 at 157.89, with RSI momentum at 58.99 supporting tactical long positioning.",
-    "entry": "157.88",
-    "tp": "158.60",
-    "sl": "157.45",
+    "comment": "Price above MA20 with bullish RSI and supportive fundamentals.",
+    "entry": "157.89",
+    "tp": "158.50",
+    "sl": "157.50",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Price Defends MA20 Amid AI Rotation as Volatility Normalizes",
-    "date": "2026-10-16 12:06",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-16 22:05",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 holds MA20 at 7738.79 after historic 50-day low-volatility streak breaks",
-      "Sector rotation from AI mega-caps into defensives supports index breadth",
-      "RSI 50.07 signals neutral momentum with asymmetric upside on dip-buying"
+      "Price holds above MA20 signaling near-term support",
+      "RSI near 50 indicates balanced momentum, room for upside",
+      "Fundamental mix: Baird optimism offset by rate-sensitive caution"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 defends MA20 support as AI rotation fuels breadth; neutral RSI offers tactical long setup with defined risk.",
+    "excerpt": "S&P 500 holds above MA20 with RSI~50; bullish bias from technical support and quality-stock favor amid mixed macro.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price holds MA20 with neutral RSI and positive gamma; rotation supports breadth-driven advance.",
-    "entry": "7742.00",
-    "tp": "7805.00",
-    "sl": "7725.00",
+    "comment": "Price above MA20 with balanced RSI; quality‑stock tilt supports upside toward 7,850.",
+    "entry": "7738.8",
+    "tp": "7850",
+    "sl": "7700",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 as Fundamentals Turn Bearish",
-    "date": "2026-10-16 12:07",
+    "title": "[BTC/USD] DOWN: Technical Breakdown Below MA20 Amidst Regulatory Overhang",
+    "date": "2026-10-16 22:08",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "MSCI rule changes threaten crypto treasury inclusion, adding regulatory headwinds.",
-      "September mining output slips at CleanSpark and BitFuFu, signaling weaker on‑chain supply growth.",
-      "Price sits below MA20 with RSI near 40, indicating bearish momentum and a test of the 80k‑82k support zone."
+      "Price trades below the 20-day moving average at $83,578.92, signaling short-term bearish momentum.",
+      "RSI(14) at 40.84 indicates cooling momentum, but failure to reclaim MA20 risks further downside.",
+      "Regulatory headwinds from the Gemini-CFTC settlement denial offset positive stablecoin adoption news from Visa."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD under MA20, RSI 40 signals bearish tone; MSCI rule tweaks and mining output slip add downside pressure shortlys.",
+    "excerpt": "BTC/USD trades below MA20 at $81,851.09 as regulatory pressure mounts. Short-term bias remains bearish with tactical short opportunities.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "BTC/USD trades below MA20 with RSI near 40, bearish bias amid regulatory and mining headwinds.",
-    "entry": "82200.00",
+    "comment": "Price trades below MA20 with RSI cooling, but regulatory headwinds and technical resistance suggest further downside toward $80,000.",
+    "entry": "83200.00",
     "tp": "80000.00",
-    "sl": "84500.00",
+    "sl": "84100.00",
     "reliability": "MEDIUM"
   }
 }
