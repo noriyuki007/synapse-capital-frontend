@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-16 21:59",
+    "title": "[USD/JPY] UP: Momentum Builds as MA20 Supports and Fed Path Uncertainty Firms Yield Differentials",
+    "date": "2026-10-17 04:16",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Key point 1",
-      "Key point 2",
-      "Key point 3"
+      "Pair holds above MA20 near 158.01, signaling bullish continuation.",
+      "Widening US fiscal deficit and sticky yields support USD strength.",
+      "RSI-14 near 60 confirms upside momentum remains intact."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above MA20 with RSI near 60, buoyed by steady eurozone stocks and modest yield rise signaling now shortly.",
+    "excerpt": "USD/JPY holds above MA20 as yield divergence and fiscal concerns buoy the greenback.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Price above MA20 with bullish RSI and supportive fundamentals.",
-    "entry": "157.89",
-    "tp": "158.50",
-    "sl": "157.50",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPY holds above MA20 as yield divergence and fiscal concerns buoy the greenback.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-16 22:05",
+    "title": "[S&P 500] DOWN: Price Below MA20 Amid Tech Distribution and Rate Sensitivity",
+    "date": "2026-10-17 04:17",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "Price holds above MA20 signaling near-term support",
-      "RSI near 50 indicates balanced momentum, room for upside",
-      "Fundamental mix: Baird optimism offset by rate-sensitive caution"
+      "S&P 500 trades below the 20-day moving average at 7649.51",
+      "Nasdaq-led rotation out of high-growth equities pressures index breadth",
+      "RSI-14 at 46.66 indicates neutral-to-bearish momentum without oversold relief"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above MA20 with RSI~50; bullish bias from technical support and quality-stock favor amid mixed macro.",
+    "excerpt": "S&P 500 under pressure below MA20 as tech sell-off and rate-sensitive rotation drive near-term downside bias.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Price above MA20 with balanced RSI; quality‑stock tilt supports upside toward 7,850.",
-    "entry": "7738.8",
-    "tp": "7850",
-    "sl": "7700",
+    "status": "SELL",
+    "comment": "Price below MA20 with bearish RSI momentum and tech-led distribution.",
+    "entry": "7730.00",
+    "tp": "7550.00",
+    "sl": "7770.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Technical Breakdown Below MA20 Amidst Regulatory Overhang",
-    "date": "2026-10-16 22:08",
+    "title": "[BTC/USD] UP: Support Confirmed at MA20 with Neutral RSI",
+    "date": "2026-10-17 04:20",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price trades below the 20-day moving average at $83,578.92, signaling short-term bearish momentum.",
-      "RSI(14) at 40.84 indicates cooling momentum, but failure to reclaim MA20 risks further downside.",
-      "Regulatory headwinds from the Gemini-CFTC settlement denial offset positive stablecoin adoption news from Visa."
+      "MA20 support holds near 83,553",
+      "RSI-14 at 39.42 indicates balanced momentum",
+      "Macro fundamentals and on-chain catalysts support bullish outlook"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD trades below MA20 at $81,851.09 as regulatory pressure mounts. Short-term bias remains bearish with tactical short opportunities.",
+    "excerpt": "BTC/USD trades near critical support with neutral RSI; bybit provides optimal liquidity for long entries.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price trades below MA20 with RSI cooling, but regulatory headwinds and technical resistance suggest further downside toward $80,000.",
-    "entry": "83200.00",
-    "tp": "80000.00",
-    "sl": "84100.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Strong support at MA20 combined with neutral RSI and positive on-chain catalysts indicate a favorable long entry.",
+    "entry": "81330.67",
+    "tp": "86000",
+    "sl": "82800",
+    "reliability": "HIGH"
   }
 }

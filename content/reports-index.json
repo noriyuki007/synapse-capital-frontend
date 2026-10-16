@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-10-17-crypto-ja",
+    "date": "2026-10-17 04:20",
+    "title": "[BTC/USD] DOWN: MA20上値圧迫とRSI低迷が下値リスクを示唆",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "81330円付近でMA20上値圧迫、RSI39と下値勢いが強調、短期下落リスクが顕在化。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-17-crypto-en",
+    "date": "2026-10-17 04:20",
+    "title": "[BTC/USD] UP: Support Confirmed at MA20 with Neutral RSI",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD trades near critical support with neutral RSI; bybit provides optimal liquidity for long entries.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-17-stocks-ja",
+    "date": "2026-10-17 04:17",
+    "title": "[S&P 500] DOWN: MA20下抜けとテク売りが相殺、下方リスク顕在化",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "野村證券",
+    "excerpt": "S&P 500は現在MA20を下回り、RSIは中立近くで下振れ圧力が強まっている。ナスダックの2%下落とハイグロースセクターからの資金逃避が全体に波及し、売り圧力が継続すれば7600付近までの下押しが見込まれる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-17-stocks-en",
+    "date": "2026-10-17 04:17",
+    "title": "[S&P 500] DOWN: Price Below MA20 Amid Tech Distribution and Rate Sensitivity",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 under pressure below MA20 as tech sell-off and rate-sensitive rotation drive near-term downside bias.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-17-fx-en",
+    "date": "2026-10-17 04:16",
+    "title": "[USD/JPY] UP: Momentum Builds as MA20 Supports and Fed Path Uncertainty Firms Yield Differentials",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY holds above MA20 as yield divergence and fiscal concerns buoy the greenback.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-17-fx-ja",
+    "date": "2026-10-17",
+    "title": "FX Analysis",
+    "genre": "FX",
+    "target_pair": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
     "id": "2026-10-16-crypto-ja",
     "date": "2026-10-16 22:08",
     "title": "[BTC/USD] DOWN: Price Below MA20 and RSI in Neutral Territory",
