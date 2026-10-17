@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Momentum Builds as MA20 Supports and Fed Path Uncertainty Firms Yield Differentials",
-    "date": "2026-10-17 04:16",
+    "title": "[USD/JPY] UP: AI Detects Support Retention at MA20 with Neutral Momentum (RSI 59.66) Amid Mixed Fundamentals; Oil-Driven Risk Fades into Background",
+    "date": "2026-10-17 11:53",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Pair holds above MA20 near 158.01, signaling bullish continuation.",
-      "Widening US fiscal deficit and sticky yields support USD strength.",
-      "RSI-14 near 60 confirms upside momentum remains intact."
+      "Price retests MA20 support at 157.89 after approaching from above; RSI-14 at 59.66 indicates balanced momentum, not overbought",
+      "Oil price surge exerts transient downward pressure on JPY via energy import cost channel, but current technicals do not reflect breakout exhaustion",
+      "Nasdaq weakness and fiscal deficit headlines create dislocation risk only if rate-path assumptions break; otherwise USDJPY trades in a measured corridor"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above MA20 as yield divergence and fiscal concerns buoy the greenback.",
+    "excerpt": "USD/JPY holds near MA20 support (157.89) with neutral RSI (59.66); oil-driven pressure against JPY remains secondary to technical structure, supporting a measured bounce bias.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPY holds above MA20 as yield divergence and fiscal concerns buoy the greenback.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "Bullish consolidation above MA20 with neutral RSI confirms measured bounce; oil-driven pressure secondary to structural support",
+    "entry": "0.00",
+    "tp": "0.00",
+    "sl": "0.00",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Price Below MA20 Amid Tech Distribution and Rate Sensitivity",
-    "date": "2026-10-17 04:17",
+    "title": "[S&P 500] DOWN: MA20 Resistance Caps Rally as Tech Liquidation Persists",
+    "date": "2026-10-17 12:05",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 trades below the 20-day moving average at 7649.51",
-      "Nasdaq-led rotation out of high-growth equities pressures index breadth",
-      "RSI-14 at 46.66 indicates neutral-to-bearish momentum without oversold relief"
+      "S&P 500 trades below the 20-day moving average, reinforcing a near-term bearish bias.",
+      "Nasdaq 100 posted its worst weekly performance in 18 months as investors reduced chipmaker exposure.",
+      "RSI-14 at 47.58 reflects neutral momentum with limited scope for an immediate oversold bounce."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 under pressure below MA20 as tech sell-off and rate-sensitive rotation drive near-term downside bias.",
+    "excerpt": "S&P 500 trades below MA20 resistance with RSI neutral; tech liquidation pressures near-term downside bias.",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "Price below MA20 with bearish RSI momentum and tech-led distribution.",
-    "entry": "7730.00",
-    "tp": "7550.00",
-    "sl": "7770.00",
+    "comment": "Price below MA20 with neutral RSI and persistent tech-sector liquidation favors near-term downside.",
+    "entry": "7700-7720",
+    "tp": "7600",
+    "sl": "7760",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Support Confirmed at MA20 with Neutral RSI",
-    "date": "2026-10-17 04:20",
+    "title": "[BTC/USD] UP: TD Cowen Upgrade and Support at MA20",
+    "date": "2026-10-17 12:07",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "MA20 support holds near 83,553",
-      "RSI-14 at 39.42 indicates balanced momentum",
-      "Macro fundamentals and on-chain catalysts support bullish outlook"
+      "TD Cowen raises BTC price target 27% on Strive buying pressure.",
+      "MA20 at $83.55k provides resistance; $81.2k offers key support.",
+      "RSI at 39 signals neutral‑bearish momentum; breakout potential above MA20."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD trades near critical support with neutral RSI; bybit provides optimal liquidity for long entries.",
+    "excerpt": "BTC holds near $81.3k; bullish fundamentals and support at $81.2k suggest upward momentum toward $83.5k.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Strong support at MA20 combined with neutral RSI and positive on-chain catalysts indicate a favorable long entry.",
-    "entry": "81330.67",
-    "tp": "86000",
-    "sl": "82800",
-    "reliability": "HIGH"
+    "comment": "TD Cowen upgrade and $81.2k support create a tactical bullish setup targeting MA20.",
+    "entry": "81200",
+    "tp": "83500",
+    "sl": "80000",
+    "reliability": "MEDIUM"
   }
 }

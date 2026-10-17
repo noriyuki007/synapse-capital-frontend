@@ -1,64 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY 市場分析",
-    "date": "2026-10-17",
+    "title": "[USD/JPY] UP: MA20での反発とテクニカル的サポートおよびリスクオフセンチメントの整合性",
+    "date": "2026-10-17 11:53",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
-    "tldr_points": [],
+    "tldr_points": [
+      "価格はMA20を上回り短期的なサポートを確認",
+      "RSIは59.6で過熱感は限定的",
+      "米テク株の弱含みがリスクオフを誘発し米ドルを支援"
+    ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "",
+    "excerpt": "米国債券利回りとリスクオフがドルを押し上げ、MA20付近での反発が見込まれる。",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "MA20上押けとRSI 60付近のモメンタムが上向きを示す",
+    "comment": "MA20を支えとした反発とリスクオフセンチメントの整合性により上昇余地が見込まれる",
     "entry": "157.95",
-    "tp": "158.9",
-    "sl": "157.6",
-    "reliability": "HIGH"
+    "tp": "158.30",
+    "sl": "157.60",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20下抜けとテク売りが相殺、下方リスク顕在化",
-    "date": "2026-10-17 04:17",
+    "title": "[S&P 500] DOWN: MA20の押し抜け確認とナスダック100の悪寛反映",
+    "date": "2026-10-17 12:05",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "野村證券",
+    "recommended_broker": "TDAmeritrade",
     "tldr_points": [
-      "現在価格はMA20下回り、RSIは中立圏で下振れリスク。",
-      "ナスダックの2%下落とハイグロースセクターからの資金逃避が全体に波及。",
-      "売り圧力が継続すれば7600付近までの下押しが期待される。"
+      "S&P500がMA20（7739.24）を割り下降盤中",
+      "ナスダック100が過去18カ月最悪週間、チップ株売り越し",
+      "RSI14が47.58と弱気水準、反発力不足"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500は現在MA20を下回り、RSIは中立近くで下振れ圧力が強まっている。ナスダックの2%下落とハイグロースセクターからの資金逃避が全体に波及し、売り圧力が継続すれば7600付近までの下押しが見込まれる。",
+    "excerpt": "S&P500はMA20割れで下落趣勢、RSI47.58の弱気水準。ナスダック100の大失敗が投資感情を暗濁させる。",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "MA20下回りとRSI売りシグナルが下方リスクを示唆",
-    "entry": "7730",
-    "tp": "7600",
-    "sl": "7780",
-    "reliability": "MEDIUM"
+    "comment": "MA20割れとRSI47.58の弱気水準より、短期下降トレンドと判断",
+    "entry": "7660.00",
+    "tp": "7600.00",
+    "sl": "7760.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20上値圧迫とRSI低迷が下値リスクを示唆",
-    "date": "2026-10-17 04:20",
+    "title": "[BTC/USD] DOWN: MA20下のRSI低位とマクロ圧力の継続",
+    "date": "2026-10-17 12:07",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20上に位置し、下値リスクが高まる。",
-      "RSI 39と売られ過ぎ感はさらなる下落余地を示唆。",
-      "ビットフライヤーでの流動性確保とポジションサイズ管理が必須。"
+      "価格がMA20を下回る",
+      "RSI 39で下値圧力",
+      "ストライブ買増しも上値抵抗"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "81330円付近でMA20上値圧迫、RSI39と下値勢いが強調、短期下落リスクが顕在化。",
+    "excerpt": "BTC/USDは81,309でMA20下回り、RSI39の弱気モメンタム。ストライブ買増しも上値抵抗とし、短期的に下値継続の可能性。",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "81330円付近でMA20上値圧迫、RSI39と下値勢いが強調、短期下落リスクが顕在化。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "MA20下回りとRSI低位が下値圧力、ストライブ買増しも一時的",
+    "entry": "81309.98",
+    "tp": "78000",
+    "sl": "82500",
     "reliability": "MEDIUM"
   }
 }
