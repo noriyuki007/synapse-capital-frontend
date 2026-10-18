@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-18 11:54",
+    "title": "[USD/JPY] UP: Price Holds Above MA20 Amid Mixed Risk-Off Cues",
+    "date": "2026-10-18 21:26",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "MA20 support confirms bullish structure",
-      "RSI at 59.66 suggests room for upward momentum",
-      "Fundamental catalysts favor USD strength"
+      "Price above MA20 with RSI near 60 indicates mild bullish bias.",
+      "Risk-off sentiment from Nasdaq weakness and fiscal deficit may cap upside.",
+      "Key resistance at 158.30; support at 157.50."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "MA20 support and RSI 59.66 indicate bullish momentum amid USD-positive catalysts.",
+    "excerpt": "USD/JPY trades modestly above MA20 as mixed fundamentals weigh on direction.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Technical support at MA20 aligns with positive yield differentials driven by expanding fiscal deficits",
+    "comment": "Price above MA20 with moderate RSI supports a bullish bias amid mixed fundamentals.",
     "entry": "157.90",
-    "tp": "158.75",
-    "sl": "157.45",
-    "reliability": "HIGH"
+    "tp": "158.30",
+    "sl": "157.50",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Support Break as Fundamentals Turn Bearish",
-    "date": "2026-10-18 11:56",
+    "title": "[S&P 500] DOWN: Price Below MA20 with Neutral RSI Amid Mixed Guidance",
+    "date": "2026-10-18 21:28",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Prime Brokerage",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Support break below 20‑MA as price sits at 7659 vs 7739.",
-      "Bearish sentiment amplified by Howard Marks and recent news.",
-      "RSI at 47.6 signals neutral‑bearish momentum."
+      "S&P 500 currently sits 1.0% below its 20‑day MA, indicating short‑term bearish pressure.",
+      "RSI‑14 at 47.6 shows neutral momentum, leaving room for either continuation or a modest bounce.",
+      "Mixed fundamentals: upbeat earnings guidance contrasts with Bearish warnings from Burry and macro uncertainty."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 breaks support, bearish fundamentals, RSI neutral.",
+    "excerpt": "S&P 500 trades below MA20 with neutral RSI; mixed earnings guidance and macro caution suggest near-term downside.",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "Bearish thesis driven by support breach, hawkish rates, and negative sentiment.",
-    "entry": "7659.44",
-    "tp": "7500.00",
-    "sl": "7750.00",
-    "reliability": "HIGH"
+    "comment": "Price below MA20 with neutral RSI and cautious fundamentals support a short bias.",
+    "entry": "7660.00",
+    "tp": "7600.00",
+    "sl": "7740.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support Near MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-18 12:01",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-18 21:41",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD holding above key MA20 support despite bearish RSI",
-      "Fundamental catalysts trending positive with institutional adoption news",
-      "Downside risk limited; tactical long bias favored toward resistance"
+      "Price below MA20 with RSI near oversold levels.",
+      "Strive buying spree lifts bullish price target outlook.",
+      "Stablecoin adoption supports BTC demand as collateral."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD finds support above MA20 as fundamentals improve; RSI suggests oversold bounce setup.",
+    "excerpt": "BTC tests MA20 resistance amid oversold RSI, bullish Strive buying spree and stablecoin adoption bolster upside potential now.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USD finds support above MA20 as fundamentals improve; RSI suggests oversold bounce setup.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "Oversold bounce toward MA20 with bullish fundamental tailwinds.",
+    "entry": "81500.00",
+    "tp": "83300.00",
+    "sl": "80000.00",
     "reliability": "MEDIUM"
   }
 }
