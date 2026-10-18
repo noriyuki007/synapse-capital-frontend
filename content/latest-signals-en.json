@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Price Holds Above MA20 Amid Mixed Risk-Off Cues",
-    "date": "2026-10-18 21:26",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-19 03:26",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 with RSI near 60 indicates mild bullish bias.",
-      "Risk-off sentiment from Nasdaq weakness and fiscal deficit may cap upside.",
-      "Key resistance at 158.30; support at 157.50."
+      "MA20 support confirmed",
+      "RSI remains in bullish territory",
+      "Risk-off sentiment from equity selloff supports JPY"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY trades modestly above MA20 as mixed fundamentals weigh on direction.",
+    "excerpt": "USD/JPY holds above MA20 with RSI 59.7, suggesting upside toward 158.50 amid risk-off backdrop.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Price above MA20 with moderate RSI supports a bullish bias amid mixed fundamentals.",
-    "entry": "157.90",
-    "tp": "158.30",
-    "sl": "157.50",
+    "status": "NEUTRAL",
+    "comment": "USD/JPY holds above MA20 with RSI 59.7, suggesting upside toward 158.50 amid risk-off backdrop.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Price Below MA20 with Neutral RSI Amid Mixed Guidance",
-    "date": "2026-10-18 21:28",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-19 03:30",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 currently sits 1.0% below its 20‑day MA, indicating short‑term bearish pressure.",
-      "RSI‑14 at 47.6 shows neutral momentum, leaving room for either continuation or a modest bounce.",
-      "Mixed fundamentals: upbeat earnings guidance contrasts with Bearish warnings from Burry and macro uncertainty."
+      "MA20 resistance at 7739 acts as dynamic support",
+      "RSI at 47.58 indicates balanced momentum without overbought conditions",
+      "Fundamental catalyst from Meta/SpaceX/Tesla earnings drives sector rotation"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades below MA20 with neutral RSI; mixed earnings guidance and macro caution suggest near-term downside.",
+    "excerpt": "S&P 500 shows bullish reversal signal with MA20 acting as support while fundamentals remain resilient.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Price below MA20 with neutral RSI and cautious fundamentals support a short bias.",
-    "entry": "7660.00",
-    "tp": "7600.00",
-    "sl": "7740.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Technical rebound at MA20 combined with positive fundamental catalysts supports a long position.",
+    "entry": "7620",
+    "tp": "7800",
+    "sl": "7580",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-18 21:41",
+    "title": "[BTC/USD] UP: AI Detects Oversold RSI and Institutional Buying Pressure",
+    "date": "2026-10-19 03:31",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price below MA20 with RSI near oversold levels.",
-      "Strive buying spree lifts bullish price target outlook.",
-      "Stablecoin adoption supports BTC demand as collateral."
+      "RSI at 29.5 signals oversold condition; probability of short‑term bounce elevated",
+      "Institutional inflows from Strive and Coinbase stable‑card rollout provide fundamental tailwind",
+      "Key resistance at 20‑day MA (83.3k) defines upside target; risk limited below 80k"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC tests MA20 resistance amid oversold RSI, bullish Strive buying spree and stablecoin adoption bolster upside potential now.",
+    "excerpt": "Oversold RSI and fresh institutional demand set up a high‑probability rebound toward the 20‑day MA.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Oversold bounce toward MA20 with bullish fundamental tailwinds.",
-    "entry": "81500.00",
-    "tp": "83300.00",
-    "sl": "80000.00",
+    "comment": "Oversold RSI and institutional inflows favor a rebound to the 20‑day MA.",
+    "entry": "81200",
+    "tp": "83300",
+    "sl": "79400",
     "reliability": "MEDIUM"
   }
 }
