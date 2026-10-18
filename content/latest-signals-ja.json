@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: リスクオフ環境とMA20付近での反落を想定",
-    "date": "2026-10-18 03:08",
+    "title": "[USD/JPY] DOWN: 財政赤字拡大とナスダク下落がリスクオフを誘導、円高圧力が高まる",
+    "date": "2026-10-18 11:54",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "リスクオフが強まる中、米ドルは対円で売り圧力が高まる",
-      "MA20付近での反落がテクニカル的にサポートされる",
-      "エントリーは157.90付近、TP 157.30、SL 158.30を想定"
+      "米国財政赤字拡大とナスダク下落がリスクオフを誘導、円高圧力が高まる",
+      "原油高がインフレ懸念を刺激し、FRBの利上げ観測が根強い",
+      "テクニカルはMA20をわずかに上抜け、下値リスクが顕在化"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "リスクオフが強まる中、USD/JPYはMA20付近での反落が見込まれる。",
+    "excerpt": "米国財政赤字の過去最大級とナスダク下落がリスクオフを誘導し、円高・米ドル安の圧力が高まる中、USD/JPYはMA20付近での反落を試す。",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "リスクオフとMA20付近での反落シグナルが一致し、下値リスクが高まる",
-    "entry": "157.90",
-    "tp": "157.30",
-    "sl": "158.30",
+    "status": "NEUTRAL",
+    "comment": "米国財政赤字の過去最大級とナスダク下落がリスクオフを誘導し、円高・米ドル安の圧力が高まる中、USD/JPYはMA20付近での反落を試す。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: RSI逆転シグナルとサポート割れによる調整局面の拡大",
-    "date": "2026-10-18 03:10",
+    "title": "[S&P 500] DOWN: 最近の上昇トレンドの崩壊と利益回収が進む",
+    "date": "2026-10-18 11:56",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "recommended_broker": "楽天証券",
     "tldr_points": [
-      "RSI(14)が47.58と中枢下突破、過熱感の縮小を示す",
-      "価格がMA20(7739.24)下回り、下向き転換の兆し",
-      "ニュースから見られるリスクオフ局面の拡大を懸念"
+      "S&P500は利益取りで下値リスクが顕在化し、MA20割れとRSI47で横ばい。",
+      "テクニカル的には7600支持を割ると下落圧力が強まり、7750超えで反発シナリオが出る。",
+      "流動性確保とリスク管理を重視し、楽天証券を利用したポジションサイズ調整が推奨。"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20下回り、RSI低下で調整加速。技術・ファンダメンタルズ両面で下方修正リスクが顕在化。",
+    "excerpt": "S&P500は利益取りで下値リスク、MA20割れとRSI47で横ばい、7659現在で売りシグナル。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "MA20下回り・RSI低下により下向き修正が拡大中",
-    "entry": "7650",
-    "tp": "7580",
-    "sl": "7800",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P500は利益取りで下値リスク、MA20割れとRSI47で横ばい、7659現在で売りシグナル。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: ストライトの買い増しとMA20付近の押し目買い機会",
-    "date": "2026-10-18 03:13",
+    "title": "[BTC/USD] UP: 価格はMA20下抜けもRSIが売られすぎ示し、買い戻し期待",
+    "date": "2026-10-18 12:01",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "ストライトのビットコイン購入拡大がTD Cowenから目標株価上昇を促す",
-      "マクロ環境は利上げペースの緩和が続き、リスクオン傾向が強まる",
-      "テクニカルはMA20を上抜く可能性があり、RSIは反転余地を示唆"
+      "MA20付近での反発が期待される",
+      "RSI39.7は売られすぎゾーン、短期的な戻りを示唆",
+      "Striveのビットコイン買い増しがファンダメンタルズを支援"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "ストライトの買い増しとマクロの利上げ緩和がBTCを押し上げ、MA20付近での反発を狙う戦略を提示する。",
+    "excerpt": "現在価格81,727ドルはMA20を下回り、RSIは39.7で売られすぎ状態。Striveの買い増しなどポジティブなファンダメンタルズが下値を支え、MA20への戻りを狙う買い戦略が適切。",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "ストライトの買い増しとマクロ利上げ緩和に加え、MA20付近での押し目買いが有利",
-    "entry": "81000",
-    "tp": "83500",
-    "sl": "79500",
-    "reliability": "MEDIUM"
+    "comment": "MA20反発とRSI売られすぎ、機関買い増しが下値を支える",
+    "entry": "81500.00",
+    "tp": "84000.00",
+    "sl": "80000.00",
+    "reliability": "HIGH"
   }
 }

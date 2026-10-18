@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-18 03:08",
+    "date": "2026-10-18 11:54",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 confirms bullish structure",
-      "RSI near midline suggests room for upside",
-      "Strong US fundamentals and JPY headwinds support move"
+      "MA20 support confirms bullish structure",
+      "RSI at 59.66 suggests room for upward momentum",
+      "Fundamental catalysts favor USD strength"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY reclaims MA20 as AI signals bullish momentum with US fiscal pressures and oil strength favoring the dollar.",
+    "excerpt": "MA20 support and RSI 59.66 indicate bullish momentum amid USD-positive catalysts.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish structure confirmed with price above MA20 and RSI trending higher amid fundamental tailwinds.",
-    "entry": "157.84",
-    "tp": "158.5",
-    "sl": "157.65",
+    "comment": "Technical support at MA20 aligns with positive yield differentials driven by expanding fiscal deficits",
+    "entry": "157.90",
+    "tp": "158.75",
+    "sl": "157.45",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Price Below MA20 as Distribution Pressure Mounts",
-    "date": "2026-10-18 03:10",
+    "title": "[S&P 500] DOWN: Support Break as Fundamentals Turn Bearish",
+    "date": "2026-10-18 11:56",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "Goldman Sachs Execution & Clearing",
+    "recommended_broker": "Prime Brokerage",
     "tldr_points": [
-      "S&P 500 trades below the 20-day moving average at 7659.43994140625, signaling near-term distribution.",
-      "RSI-14 at 47.582883952732296 confirms neutral-to-bearish momentum without oversold relief.",
-      "Headline flow indicates unwinding of recent winners and vulnerability to further downside."
+      "Support break below 20‑MA as price sits at 7659 vs 7739.",
+      "Bearish sentiment amplified by Howard Marks and recent news.",
+      "RSI at 47.6 signals neutral‑bearish momentum."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 slips below MA20 with RSI neutral-bearish as distribution in recent winners raises downside risk to 7550.",
+    "excerpt": "S&P 500 breaks support, bearish fundamentals, RSI neutral.",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "Price below MA20 with neutral-to-bearish RSI and distribution in recent winners supports a short bias.",
+    "comment": "Bearish thesis driven by support breach, hawkish rates, and negative sentiment.",
     "entry": "7659.44",
-    "tp": "7550.00",
+    "tp": "7500.00",
     "sl": "7750.00",
-    "reliability": "MEDIUM"
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Bounce Toward MA20 Amid Bullish Flow",
-    "date": "2026-10-18 03:13",
+    "title": "[BTC/USD] UP: AI Detects Support Near MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-18 12:01",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Strive’s buying spree lifts TD Cowen price target 27%",
-      "Coinbase partnership expands stablecoin utility for Marqeta cards",
-      "Technical setup shows RSI oversold with price below MA20, favoring a short‑term bounce"
+      "BTC/USD holding above key MA20 support despite bearish RSI",
+      "Fundamental catalysts trending positive with institutional adoption news",
+      "Downside risk limited; tactical long bias favored toward resistance"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD poised for upside bounce to MA20 as buying pressure rises; RSI oversold, bullish news supports near-term long.",
+    "excerpt": "BTC/USD finds support above MA20 as fundamentals improve; RSI suggests oversold bounce setup.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "RSI oversold, price below MA20 with bullish news and accumulating order flow supports a bounce to the 20‑day moving average.",
-    "entry": "81200",
-    "tp": "83400",
-    "sl": "79800",
+    "status": "NEUTRAL",
+    "comment": "BTC/USD finds support above MA20 as fundamentals improve; RSI suggests oversold bounce setup.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
