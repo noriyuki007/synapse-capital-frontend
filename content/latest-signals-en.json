@@ -1,21 +1,21 @@
 {
   "FX": {
     "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-19 03:26",
+    "date": "2026-10-19 12:07",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "MA20 support confirmed",
-      "RSI remains in bullish territory",
-      "Risk-off sentiment from equity selloff supports JPY"
+      "China Q3 GDP and retail sales beat forecasts, boosting risk appetite.",
+      "PBOC sets USD/CNY reference rate weaker than expected, supporting USD strength.",
+      "Technical price sits above MA20 with RSI 62, indicating bullish momentum."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds above MA20 with RSI 59.7, suggesting upside toward 158.50 amid risk-off backdrop.",
+    "excerpt": "China's stronger data and PBOC's weaker CNY fix lift USD/JPY; price above MA20 with RSI 62 signals near‑term upside soon",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "USD/JPY holds above MA20 with RSI 59.7, suggesting upside toward 158.50 amid risk-off backdrop.",
+    "comment": "China's stronger data and PBOC's weaker CNY fix lift USD/JPY; price above MA20 with RSI 62 signals near‑term upside soon",
     "entry": "---",
     "tp": "---",
     "sl": "---",
@@ -23,46 +23,46 @@
   },
   "STOCKS": {
     "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-19 03:30",
+    "date": "2026-10-19 12:19",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "MA20 resistance at 7739 acts as dynamic support",
-      "RSI at 47.58 indicates balanced momentum without overbought conditions",
-      "Fundamental catalyst from Meta/SpaceX/Tesla earnings drives sector rotation"
+      "S&P 500 consolidates above key support as AI trade regains momentum.",
+      "Technical indicators show neutral RSI and price near MA20, suggesting potential upside.",
+      "Macro catalysts include strong earnings from mega‑cap tech and resilient US futures."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 shows bullish reversal signal with MA20 acting as support while fundamentals remain resilient.",
+    "excerpt": "S&P 500 poised for upside as AI momentum returns; technicals indicate bounce from MA20.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Technical rebound at MA20 combined with positive fundamental catalysts supports a long position.",
-    "entry": "7620",
-    "tp": "7800",
-    "sl": "7580",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P 500 poised for upside as AI momentum returns; technicals indicate bounce from MA20.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Oversold RSI and Institutional Buying Pressure",
-    "date": "2026-10-19 03:31",
+    "title": "[BTC/USD] DOWN: Price Below MA20, RSI 35.77 Signals Bearish Momentum",
+    "date": "2026-10-19 12:20",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "RSI at 29.5 signals oversold condition; probability of short‑term bounce elevated",
-      "Institutional inflows from Strive and Coinbase stable‑card rollout provide fundamental tailwind",
-      "Key resistance at 20‑day MA (83.3k) defines upside target; risk limited below 80k"
+      "BTC trades below MA20 with RSI 35.8, indicating bearish momentum.",
+      "Bridge suspension and regulatory news weigh on sentiment, reinforcing downside risk.",
+      "Key support at 82k and resistance at MA20 83.3k define the near‑term range."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Oversold RSI and fresh institutional demand set up a high‑probability rebound toward the 20‑day MA.",
+    "excerpt": "BTC trades below MA20 with RSI 35.8, bearish bias as bridge suspension and legal risks weigh on sentiment.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Oversold RSI and institutional inflows favor a rebound to the 20‑day MA.",
-    "entry": "81200",
-    "tp": "83300",
-    "sl": "79400",
+    "status": "NEUTRAL",
+    "comment": "BTC trades below MA20 with RSI 35.8, bearish bias as bridge suspension and legal risks weigh on sentiment.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
