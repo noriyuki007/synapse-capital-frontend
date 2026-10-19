@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
-    "date": "2026-10-19 12:07",
+    "title": "インテリジェンス：USD/JPYの強気相場における利益確定ポイント",
+    "date": "2026-10-20 00:15",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "中国マクロが4.5%成長と堅調さを示し、円売り基調を後押し",
-      "RSI62.4とMA20上抜けが短期モメンタムの上昇を示唆",
-      "158.50が重要抵抗、157.50がサポート水準"
+      "金利相関（近似）: -0.03で負相関傾向",
+      "テクニカル: 現在価格 158.44 と MA20 157.97 の位置関係が主導",
+      "需給: 上限帯 158.82 / 下限帯 157.11 / 直近高値 159.00 / 直近安値 156.40 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY 158.07に接近し、RSI>60とMA20上抜けで上値トライの構図。中国Q3GDP4.5%とPBOC参考レート6.7208は円売り材料となり、ファンダとテクニカルの整合性が高まる。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 158.44、RSI(67.61)、MA20(157.97)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20上抜けと中国GDP・PBOCレートで円売り基調",
-    "entry": "158.07",
-    "tp": "158.50",
-    "sl": "157.50",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: AIトレードの回復とMA20付近での反発期待",
-    "date": "2026-10-19 12:19",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "tldr_points": [
-      "AI関連株安値調整後の買い戻し感弘",
-      "S&P500先物がGAAP修正IPO受注減にも関わらず上昇",
-      "RSIはやや割れているものの、長期トレンドは依然として上向き"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "AIトレードの一時的な売り圧にもかかわらず、先物が上昇しており、中枢MA20付近での反発を期待する。",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "AIトレードの一時的な売り圧にもかかわらず、先物が上昇しており、中枢MA20付近での反発を期待する。",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 158.44、RSI(67.61)、MA20(157.97)を軸に、金利相関と需給帯から実行プランを整理する。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20付近での反発とファンダメンタルズの整合性",
+    "date": "2026-10-20 00:18",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Nomura Securities",
+    "tldr_points": [
+      "MA20付近での押し目買いが有望",
+      "金利環境は中立で上値余地あり",
+      "ファンダメンタルズは年終 rallies を支持"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "MA20を下回る水準での反発期待と金利中立、ファンダメンタルズの改善がS&P500の上昇を支える。",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "MA20付近の押し目買いは上昇トレンド継続のシグナル",
+    "entry": "7700",
+    "tp": "7850",
+    "sl": "7620",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20下抜けとRSI低下による売り圧力",
-    "date": "2026-10-19 12:20",
+    "title": "[BTC/USD] UP: MA20下抜け後の反発と機関買い増しが裏付ける強気シナリオ",
+    "date": "2026-10-20 00:23",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格はMA20を下抜けており、短期的な下降トレンドが形成中。",
-      "RSIは35.7と弱気圏にあり、モメンタムの減退が確認できる。",
-      "規制関連ニュースがリスクオフ志向を強め、売り圧力を後押ししている。"
+      "価格はMA20下位でRSI37と過売り状態、反発余地あり。",
+      "StriveやSaylor等の機関継続買いとカストディサービス拡大が需給を支える。",
+      "Revolutのジブラルタルライセンス取得で機関流動性拡大期待。"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "MA20を下抜けたBTC/USDは、弱いRSIと規制関連のネガティブニュースにより下落リスクが高まっている。",
+    "excerpt": "MA20付近での押し目買いを推奨、機関買い増しと過売りRSIが上昇を裏付ける。[bitflyer]での実行を推奨。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20下抜けとRSI低下、規制関連ニュースによる売り圧力が継続",
-    "entry": "82200.00",
-    "tp": "80000.00",
-    "sl": "83500.00",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "MA20付近の押し目買い、機関買い増しとRSI過売りが裏付け",
+    "entry": "82000.00",
+    "tp": "84500.00",
+    "sl": "80500.00",
+    "reliability": "HIGH"
   }
 }
