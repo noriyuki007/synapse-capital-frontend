@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 and Momentum Builds",
-    "date": "2026-10-20 00:15",
+    "title": "[USD/JPY] UP: MA20 Support Preserves Tactical Upside Despite USD Political Risk",
+    "date": "2026-10-20 05:52",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 (157.97) with RSI 67.6 signaling upward momentum",
-      "NAHB housing slowdown and mixed dollar fundamentals create modest USD pressure",
-      "Key resistance at 159.20, support at MA20; actionable trade outlined"
+      "Price at 158.53 remains above MA20 at 157.97, preserving a tactical bullish structure.",
+      "RSI-14 at 68.54 is near overbought, making a pullback entry preferable to chasing.",
+      "Oil and risk appetite support the cross, while record-low Trump approval limits conviction to medium."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY at 158.44, bullish bias on technicals.",
+    "excerpt": "USD/JPY retains a tactical upside bias above MA20, but stretched momentum and USD political risk favor buying dips.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "AI detects support at MA20 and upward momentum favoring a move toward 159.20.",
+    "comment": "A MA20-retest long offers favorable tactical asymmetry while 157.97 support holds, despite near-overbought momentum and mixed US political signals.",
     "entry": "158.00",
-    "tp": "159.20",
-    "sl": "157.70",
-    "reliability": "HIGH"
+    "tp": "159.50 / 160.20",
+    "sl": "157.20",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-20 00:18",
+    "title": "[S&P 500] FLAT: Price Below MA20 Amid Mixed Tech/Yield Dynamics",
+    "date": "2026-10-20 06:02",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price near MA20 with bullish momentum",
-      "RSI 54 indicates room for upside",
-      "News negates Black Monday fears, supporting year‑end rally"
+      "Price trading below MA20 suggests near-term resistance.",
+      "Technology sector rebound offsets rising Treasury yields.",
+      "RSI near 50 indicates balanced momentum, favoring a range-bound outlook."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 near MA20, RSI 54, news negates Black Monday fears; bullish bias with tight risk control.",
+    "excerpt": "S&P 500 trades below MA20 as tech gains counter yield pressure, pointing to a neutral, range-bound stance.",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500 near MA20, RSI 54, news negates Black Monday fears; bullish bias with tight risk control.",
+    "comment": "Price below MA20 with neutral RSI suggests a range-bound stance awaiting clearer catalyst.",
+    "entry": "7660.00",
+    "tp": "7735.00",
+    "sl": "7620.00",
+    "reliability": "MEDIUM"
+  },
+  "CRYPTO": {
+    "title": "[BTC/USD] DOWN: RSI Divergence Warns of Deeper Correction as MA20 Acts as Dynamic Resistance",
+    "date": "2026-10-20 06:06",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "tldr_points": [
+      "BTC/USD trades below MA20 at 81926.5625; bearish RSI divergence signals weakening momentum",
+      "Fundamental backdrop mixed as institutional adoption advances but macro risk remains elevated",
+      "Technical structure favors short-side exposure with defined risk below 80500 handle"
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "BTC/USD dips below MA20; RSI divergence warns of further downside toward 80500–79000 zone.",
+    "pair": "BTC/USD",
+    "status": "NEUTRAL",
+    "comment": "BTC/USD dips below MA20; RSI divergence warns of further downside toward 80500–79000 zone.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
-  },
-  "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-20 00:23",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bybit",
-    "tldr_points": [
-      "AnchorWatch insured custody up to $370M boosts institutional confidence",
-      "Strive and Michael Saylor add >1.5k BTC, reinforcing accumulation trend",
-      "Technical setup shows price near support with potential breakout above MA20"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC edges near support; institutional inflows and favorable macro point to breakout above MA20.",
-    "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Institutional accumulation and proximity to support signal a favorable risk/reward long entry.",
-    "entry": "82000",
-    "tp": "84500",
-    "sl": "81000",
-    "reliability": "HIGH"
   }
 }
