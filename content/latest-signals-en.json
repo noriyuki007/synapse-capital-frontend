@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-20 12:16",
+    "title": "[USD/JPY] UP: Cautious Bullish Retest of MA20 Amidst Risk-Off Headwinds",
+    "date": "2026-10-20 22:17",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above MA20 signaling short‑term bullish momentum.",
-      "RSI near 64 indicates room for further upside before overbought.",
-      "USD/CNY mid‑point above estimate reflects underlying USD strength supporting the pair."
+      "Price holds above MA20 support at 157.96",
+      "Rising oil prices and risk-off sentiment cap aggressive upside",
+      "Tactical long entry recommended with tight risk control"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bids higher, price above MA20, RSI 64, USD/CNY mid‑point beats estimate, risk‑on tone supports upside.",
+    "excerpt": "USD/JPY displays resilient bullish structure above MA20 despite macro headwinds, offering tactical long opportunities.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price above MA20 with bullish RSI and supportive fundamentals.",
+    "comment": "Price holds above MA20 support with bullish RSI momentum, offering a tactical long entry despite macro risks.",
     "entry": "158.00",
-    "tp": "159.00",
-    "sl": "157.50",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: Price Below MA20 Signals Near-Term Pressure",
-    "date": "2026-10-20 12:21",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "S&P 500 trades below its 20‑day moving average with neutral RSI.",
-      "Earnings season remains mixed; Goldman Sachs warning adds caution.",
-      "Technical bias favors a short‑term dip toward 7600 with stop above 7750."
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 under MA20, RSI neutral; earnings mixed and Goldman caution hint at near-term downside despite steady tech rally",
-    "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Price below MA20 with neutral RSI and cautious fundamentals support a near‑term short bias.",
-    "entry": "7725.00",
-    "tp": "7600.00",
-    "sl": "7750.00",
+    "tp": "158.50",
+    "sl": "157.80",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-20 22:19",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Charles Schwab",
+    "tldr_points": [
+      "AI sees near‑term support at MA20",
+      "Fundamentals remain constructive with Buffett‑style value upside",
+      "Neutral RSI suggests balanced momentum"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "AI support at MA20 aligns with bullish fundamentals for S&P 500.",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "AI support at MA20 aligns with bullish fundamentals, presenting a structured risk‑reward setup.",
+    "entry": "7680.00",
+    "tp": "7735.50",
+    "sl": "7620.00",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20 Rejection and RSI Downturn Signal Near-Term Weakness",
-    "date": "2026-10-20 12:27",
+    "title": "Critical Alert: BTC/USD Navigating Potential Correction Phase",
+    "date": "2026-10-20 22:22",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price below MA20 with RSI<40 indicates bearish momentum",
-      "ETF demand offset by Solana liquidation and AI sector risk-off",
-      "Downside target near 78500 with stop above 84000"
+      "Interest Correlation (Approx): -0.25 (Negative)",
+      "Technical: Driven by Price 81372.05 vs MA20 83135.82",
+      "Liquidity: Targets based on Upper Band 86427.84 / Lower Band 79843.80 / Recent High 87146.35 / Recent Low 79735.86"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD breaches MA20 as RSI signals weakness; ETF demand faces headwinds from broader risk-off tone.",
+    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 81372.05, RSI(34.25), and MA20(83135.82).",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Bearish breakdown below MA20 with RSI<35 confirms downside continuation",
-    "entry": "81750",
-    "tp": "77000",
-    "sl": "84000",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Today's AI analysis outlines the execution plan for BTC/USD around Price 81372.05, RSI(34.25), and MA20(83135.82).",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
