@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Cautious Bullish Retest of MA20 Amidst Risk-Off Headwinds",
-    "date": "2026-10-20 22:17",
+    "title": "USD/JPY UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-21 04:48",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above MA20 support at 157.96",
-      "Rising oil prices and risk-off sentiment cap aggressive upside",
-      "Tactical long entry recommended with tight risk control"
+      "Support at MA20 provides immediate buying opportunity",
+      "BOE's hawkish stance strengthens USD momentum",
+      "RSI at 61.7 indicates healthy bullish momentum without overbought conditions"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY displays resilient bullish structure above MA20 despite macro headwinds, offering tactical long opportunities.",
+    "excerpt": "USD/JPY at 158.22, MA20 at 157.98, RSI 61.7 signals healthy bullish momentum ahead of potential breakout.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price holds above MA20 support with bullish RSI momentum, offering a tactical long entry despite macro risks.",
-    "entry": "158.00",
-    "tp": "158.50",
-    "sl": "157.80",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-20 22:19",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Charles Schwab",
-    "tldr_points": [
-      "AI sees near‑term support at MA20",
-      "Fundamentals remain constructive with Buffett‑style value upside",
-      "Neutral RSI suggests balanced momentum"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "AI support at MA20 aligns with bullish fundamentals for S&P 500.",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "AI support at MA20 aligns with bullish fundamentals, presenting a structured risk‑reward setup.",
-    "entry": "7680.00",
-    "tp": "7735.50",
-    "sl": "7620.00",
+    "comment": "Technical support at MA20 combined with positive fundamentals creates a high-probability long setup.",
+    "entry": "156.50",
+    "tp": "162.00",
+    "sl": "155.80",
     "reliability": "HIGH"
   },
-  "CRYPTO": {
-    "title": "Critical Alert: BTC/USD Navigating Potential Correction Phase",
-    "date": "2026-10-20 22:22",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "bybit",
+  "STOCKS": {
+    "title": "S&P 500: Range-Bound Cautiousness and Tactical Execution",
+    "date": "2026-10-21 04:51",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
     "tldr_points": [
-      "Interest Correlation (Approx): -0.25 (Negative)",
-      "Technical: Driven by Price 81372.05 vs MA20 83135.82",
-      "Liquidity: Targets based on Upper Band 86427.84 / Lower Band 79843.80 / Recent High 87146.35 / Recent Low 79735.86"
+      "Interest Correlation (Approx): -0.33 (Negative)",
+      "Technical: Driven by Price 7709.68 vs MA20 7732.80",
+      "Liquidity: Targets based on Upper Band 7844.21 / Lower Band 7621.38 / Recent High 7844.52 / Recent Low 7616.78"
     ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 81372.05, RSI(34.25), and MA20(83135.82).",
-    "pair": "BTC/USD",
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7709.68, RSI(55.59), and MA20(7732.80).",
+    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for BTC/USD around Price 81372.05, RSI(34.25), and MA20(83135.82).",
+    "comment": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7709.68, RSI(55.59), and MA20(7732.80).",
     "entry": "---",
     "tp": "---",
     "sl": "---",
+    "reliability": "MEDIUM"
+  },
+  "CRYPTO": {
+    "title": "[BTC/USD] FLAT: Below-MA20 Structure Meets a Constructive Long-Term Catalyst Mix",
+    "date": "2026-10-21 04:53",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "bybit",
+    "tldr_points": [
+      "BTC remains below MA20, with resistance at $83,195 and initial support near $82,000.",
+      "RSI-14 at 38.85 signals weak momentum without reaching an oversold condition.",
+      "Regulatory and institutional catalysts support strategic allocation but do not yet confirm a tactical breakout."
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "BTC remains below MA20 with weak RSI; strategic catalysts improve, but a $83,195 reclaim is required.",
+    "pair": "BTC/USD",
+    "status": "NEUTRAL",
+    "comment": "BTC remains below MA20 with sub-50 RSI, so a confirmed reclaim of $83,195 is required before taking a long.",
+    "entry": "83250",
+    "tp": "85000",
+    "sl": "82350",
     "reliability": "MEDIUM"
   }
 }
