@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY: AI Analysis Identifies High-Probability Bullish Scenario",
-    "date": "2026-10-21 12:12",
+    "title": "[USD/JPY] DOWN: AI Detects MA20 Resistance as Fundamentals Favor USD Weakness",
+    "date": "2026-10-21 22:24",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Interest Correlation (Approx): -0.04 (Negative)",
-      "Technical: Driven by Price 158.24 vs MA20 158.03",
-      "Liquidity: Targets based on Upper Band 158.82 / Lower Band 157.24 / Recent High 159.00 / Recent Low 156.40"
+      "Price below MA20 indicates bearish bias",
+      "Neutral RSI confirms lack of momentum",
+      "Fundamental dollar weakness supports downside"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 158.24, RSI(58.70), and MA20(158.03).",
+    "excerpt": "USD/JPY trades below MA20 with neutral RSI, and dollar weakness suggests a short bias.",
     "pair": "USD/JPY",
+    "status": "SELL",
+    "comment": "Price below MA20 with neutral RSI and bearish order flow suggest downside potential.",
+    "entry": "157.95",
+    "tp": "157.50, 156.80",
+    "sl": "158.20",
+    "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "S&P 500: Range-Bound Cautiousness and Tactical Execution",
+    "date": "2026-10-21 22:31",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "tldr_points": [
+      "Interest Correlation (Approx): -0.32 (Negative)",
+      "Technical: Driven by Price 7726.67 vs MA20 7733.97",
+      "Liquidity: Targets based on Upper Band 7844.60 / Lower Band 7623.35 / Recent High 7844.52 / Recent Low 7616.78"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7726.67, RSI(55.77), and MA20(7733.97).",
+    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for USD/JPY around Price 158.24, RSI(58.70), and MA20(158.03).",
+    "comment": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7726.67, RSI(55.77), and MA20(7733.97).",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
-  "STOCKS": {
-    "title": "[S&P 500] UP: Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-21 12:18",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Broker",
-    "tldr_points": [
-      "SpaceX earnings lift broader market sentiment",
-      "Price consolidating just below MA20 with neutral RSI",
-      "Trade dip toward 7700 with defined risk"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 near MA20, SpaceX earnings boost bullish bias; trade dip toward 7700 with TP 7740.",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Bullish bias driven by SpaceX earnings support and technical proximity to MA20.",
-    "entry": "7700.00",
-    "tp": "7740.00",
-    "sl": "7670.00",
-    "reliability": "HIGH"
-  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Oversold RSI and MA20 Confluence as Macro Tailwinds Build",
-    "date": "2026-10-21 12:20",
+    "title": "BTC/USD: Range-Bound Cautiousness and Tactical Execution",
+    "date": "2026-10-21 22:37",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price sits 0.6% below MA20 with RSI at 39.4, signaling a high‑probability mean‑reversion bounce.",
-      "JPMorgan’s 10% annual BTC return forecast and SEC regulatory clarity improve institutional risk appetite.",
-      "Order‑flow data shows accumulating spot bids near $82.5k, providing structural support."
+      "Interest Correlation (Approx): -0.27 (Negative)",
+      "Technical: Driven by Price 83313.34 vs MA20 83137.28",
+      "Liquidity: Targets based on Upper Band 86231.83 / Lower Band 80042.73 / Recent High 87146.35 / Recent Low 79735.86"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC tests key MA20 support with oversold RSI; macro catalysts favor upside.",
+    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 83313.34, RSI(50.16), and MA20(83137.28).",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Oversold RSI and MA20 confluence amid supportive macro fundamentals",
-    "entry": "82650",
-    "tp": "84200",
-    "sl": "81800",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Today's AI analysis outlines the execution plan for BTC/USD around Price 83313.34, RSI(50.16), and MA20(83137.28).",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
