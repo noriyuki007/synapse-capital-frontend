@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: AI Flags MA20 Resistance as Dollar Firmer",
-    "date": "2026-10-22 22:25",
+    "title": "[USD/JPY] DOWN: AI Detects Support at MA20 as Fundamentals Turn Bearish",
+    "date": "2026-10-23 04:43",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "US initial jobless claims beat estimates, supporting dollar",
-      "USD/JPY rejected at MA20, bearish momentum",
-      "Iran oil risk caps risk appetite"
+      "Price trades below MA20 with RSI signaling oversold conditions.",
+      "Risk-off sentiment and Fed pause probability reduce USD upside.",
+      "Key resistance at 157.96 and support near 155.50 define near-term range."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY rejected at MA20 as dollar firms; oil risk caps upside.",
+    "excerpt": "USD/JPY trades below MA20, RSI oversold, risk-off bias and Fed pause point to further downside toward 155.5.",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "USD/JPY rejected at MA20 as dollar firms; oil risk caps upside.",
+    "comment": "USD/JPY trades below MA20, RSI oversold, risk-off bias and Fed pause point to further downside toward 155.5.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Macro pressures and technical resistance trigger pullback",
-    "date": "2026-10-22 22:32",
+    "title": "[S&P 500] DOWN: Technical Support Fractured as AI Spending Worries Weigh on Fundamentals",
+    "date": "2026-10-23 04:52",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "[]",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Hot UK inflation reignites rate‑hike fears, pressuring equities.",
-      "S&P trades below 20‑day MA at 7,695 with neutral RSI.",
-      "Technical setup favors short bias; key levels at 7,735 (MA20) resistance and 7,600 support."
+      "S&P 500 slides 1.4% amid AI spending concerns and tech sell-off",
+      "Price tests key support below MA20 with weakening momentum",
+      "Equal-weight index diverges, signaling narrow market leadership"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P under macro pressure, trading below MA20 with neutral RSI.",
+    "excerpt": "S&P 500 breaks below MA20 as AI spend fears trigger tech-led selloff and momentum erosion.",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Bearish macro and technical alignment suggests further decline.",
-    "entry": "7700.00",
-    "tp": "7600.00",
-    "sl": "7750.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P 500 breaks below MA20 as AI spend fears trigger tech-led selloff and momentum erosion.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-22 22:34",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Regulatory Catalysts Shift Mildly Bullish",
+    "date": "2026-10-23 05:21",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Institutional custody deals and ETF inflows boost fundamentals",
-      "Price holds near MA20 with neutral RSI indicating consolidation",
-      "Bullish sentiment and rising on-chain liquidity support upside"
+      "BTC sits 2.1% below its 20-day MA (83010) with RSI neutral (48.5), indicating exhaustion at multi-weekly highs and creating a measured reversion setup toward MA20.",
+      "JPMorgan's stance that regulatory moves partially offset the stalled Clarity Act plus the Blockchain Association's tax-clarity push provide a mildly constructive fundamental backdrop.",
+      "Operational governance headlines (Coinbase Ireland fine, Fireblocks Visa denial) are noise, not trend catalysts, and currently outweigh the regulatory tailwind."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC consolidates near MA20 as institutional custody news and ETF inflows drive bullish sentiment.",
+    "excerpt": "BTC consolidates below MA20 (83010); RSI neutral at 48.5; expect a measured move toward MA20 on regulatory catalysts.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Bullish fundamentals and technical support at MA20 suggest upside potential.",
-    "entry": "81800",
-    "tp": "84000",
-    "sl": "80500",
-    "reliability": "HIGH"
+    "comment": "Price below MA20 with neutral RSI offers a measured reversion toward MA20; regulatory clarity provides supportive backdrop.",
+    "entry": "82800",
+    "tp": "84300",
+    "sl": "81500",
+    "reliability": "MEDIUM"
   }
 }
