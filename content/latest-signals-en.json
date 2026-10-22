@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20 Support Holds as Treasury Yields Anchor Dollar",
-    "date": "2026-10-22 04:54",
+    "title": "[USD/JPY] UP: AI Detects Resistance at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-22 12:17",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY sustains above MA20 on resilient Treasury yields",
-      "Risk-on flows from crypto and equities provide underlying bullish bias",
-      "Key technical pivot at 158.03 with downside limited by carry dynamics"
+      "BOJ rate hike expectations in December buoy USD/JPY structural bias",
+      "Price tests key resistance at MA20 with RSI neutral but momentum emerging",
+      "PBOC-driven USD strength and energy demand catalysts reinforce bullish case"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY sustains above MA20 as Treasury yields anchor dollar bids amid risk-on flows.",
+    "excerpt": "USD/JPY poised for break above MA20 as BOJ hike and USD strength align.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price above MA20 with RSI support, bias remains bullish",
-    "entry": "158.03",
-    "tp": "158.45",
-    "sl": "157.90",
-    "reliability": "MEDIUM"
+    "comment": "Entry on test of MA20 with confirmation of upward momentum break",
+    "entry": "157.75",
+    "tp": "158.2",
+    "sl": "157.3",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20 Support Extends Momentum into Tech Earnings",
-    "date": "2026-10-22 04:59",
+    "title": "[S&P 500] UP: AI Flags MA20 Support as Nasdaq Momentum Firms",
+    "date": "2026-10-22 12:19",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "[]",
     "tldr_points": [
-      "Price is 0.30% above MA20, while RSI-14 at 58.36 indicates constructive but non-overbought momentum.",
-      "Meta and Tesla earnings provide the principal near-term catalyst, with technology concentration creating elevated event risk.",
-      "Favor a defined-risk long near MA20 with a 7825.00 target and 7690.00 stop-loss."
+      "S&P 500 holds above MA20 at 7735.50",
+      "RSI-14 at 58.21 supports moderate bullish momentum",
+      "Meta, Tesla, and SpaceX narrative keeps index bid tone intact"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds above MA20; buy pullbacks near 7736 as tech earnings loom, targeting 7825 with defined risk.",
+    "excerpt": "S&P 500 holds above key moving averages with AI momentum aligning; watch Meta, Tesla, SpaceX drivers.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Price remains above MA20 with constructive RSI and a positive technology-earnings catalyst, but concentration risk and missing flow data limit confidence.",
+    "comment": "S&P 500 holding above MA20 with bullish AI-led momentum; favor long dip near 7735-7740.",
     "entry": "7740.00",
-    "tp": "7825.00",
-    "sl": "7690.00",
-    "reliability": "MEDIUM"
+    "tp": "7792.00",
+    "sl": "7728.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-22 05:02",
+    "date": "2026-10-22 12:21",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trading near MA20 support with bullish fundamentals",
-      "RSI at neutral territory indicating room for upside",
-      "Technical structure shows potential for continued momentum"
+      "Aerodrome-Velodrome merger launches cross-chain Aero network",
+      "Robinhood single-stock perps signal positive momentum for HOOD",
+      "Grayscale expands crypto ETF subscriptions to ten products"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD $84,458 near MA20 $83,195; RSI 54.5 signals balanced conditions for upward momentum",
+    "excerpt": "BTC/USD at 82,744 with MA20 at 83,109; RSI 47.75 indicates balanced momentum ahead of bullish setup.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Technical analysis shows BTC/USD trading above MA20 with neutral RSI, supporting a bullish bias.",
-    "entry": "82800.00",
-    "tp": "88000.00",
-    "sl": "81200.00",
+    "comment": "Strong technical support at MA20 combined with institutional catalysts and improving order flow justify an upward bias.",
+    "entry": "82780",
+    "tp": "83200",
+    "sl": "82450",
     "reliability": "HIGH"
   }
 }
