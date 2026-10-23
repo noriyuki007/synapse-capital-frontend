@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "Critical Alert: USD/JPY Navigating Potential Correction Phase",
-    "date": "2026-10-23 22:03",
+    "title": "[USD/JPY] DOWN: AI Detects Resistance at MA20 as Fundamentals Remain Mixed",
+    "date": "2026-10-24 04:45",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Interest Correlation (Approx): -0.01 (Negative)",
-      "Technical: Driven by Price 156.48 vs MA20 157.91",
-      "Liquidity: Targets based on Upper Band 158.87 / Lower Band 156.95 / Recent High 158.94 / Recent Low 156.07"
+      "Price below MA20 and RSI indicates bearish bias",
+      "Fed earnings and tariff news add volatility but no clear directional catalyst",
+      "Key support near 155.5 and resistance at 158.5 define the near-term range"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 156.48, RSI(37.69), and MA20(157.91).",
+    "excerpt": "USD/JPY below MA20, RSI 40; Fed earnings and tariff news add volatility, targeting a decline to 155.5.",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for USD/JPY around Price 156.48, RSI(37.69), and MA20(157.91).",
+    "comment": "USD/JPY below MA20, RSI 40; Fed earnings and tariff news add volatility, targeting a decline to 155.5.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Bounce toward MA20 as RSI Neutralizes",
-    "date": "2026-10-23 22:10",
+    "title": "S&P 500: AI Analytics Detects Bearish Structural Shift",
+    "date": "2026-10-24 04:48",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price below MA20 but RSI neutral",
-      "Fundamental catalysts include strong jobs and PMI",
-      "Technical bounce expected toward 7733"
+      "Interest Correlation (Approx): -0.01 (Negative)",
+      "Technical: Driven by Price 7626.04 vs MA20 7727.59",
+      "Liquidity: Targets based on Upper Band 7851.94 / Lower Band 7603.24 / Recent High 7844.52 / Recent Low 7612.07"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 poised for short-term bounce as RSI stabilizes near 45",
+    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7626.04, RSI(37.16), and MA20(7727.59).",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Technical bounce toward MA20 with neutral RSI and supportive macro data.",
-    "entry": "7663.43",
-    "tp": "7733.46",
-    "sl": "7600.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7626.04, RSI(37.16), and MA20(7727.59).",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: BTC Targets MA20 Recovery Amid ETF Outflows",
-    "date": "2026-10-23 22:14",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-24 04:55",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC holds below MA20 with ETF outflows pressuring sentiment",
-      "Stablecoin and prediction-market flows add selective support",
-      "Risk-defined long toward MA20 with tight invalidation"
+      "BTC trades below MA20 with RSI near oversold territory, signaling potential reversal",
+      "Institutional adoption catalysts emerging from Singapore-Malaysia-Thailand stablecoin initiative and US regulatory developments",
+      "Key support at 82,834 (MA20) with downside risk to 80,000 if breached"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD consolidates near 81.5k as ETF outflows and stablecoin flows shape cautious sentiment.",
+    "excerpt": "BTC/USD rallies toward MA20 support zone as institutional adoption catalysts and oversold momentum converge.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USD consolidates near 81.5k as ETF outflows and stablecoin flows shape cautious sentiment.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Oversold momentum and institutional catalysts align for a short-term recovery toward MA20 and beyond.",
+    "entry": "81500.00",
+    "tp": "84500.00",
+    "sl": "79800.00",
+    "reliability": "HIGH"
   }
 }

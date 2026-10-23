@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: RSI陰弱水準とMA20接近による一時的反発期待",
-    "date": "2026-10-23 22:03",
+    "title": "USD/JPY：AI解析が示す下落シナリオと防御的ポジション管理",
+    "date": "2026-10-24 04:45",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "RSI(14)が37.69となり過去半年間最も安い水準に接近中。",
-      "現在価格156.47はMA20（157.91）から3.2%下方、修正余力あり。",
-      "テクニカル面から一時的な反発期待が高まるが、長期トレンドは仍未明。"
+      "金利相関（近似）: -0.04で負相関傾向",
+      "テクニカル: 現在価格 156.87 と MA20 157.93 の位置関係が主導",
+      "需給: 上限帯 158.78 / 下限帯 157.08 / 直近高値 158.94 / 直近安値 156.07 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはRSI陰弱水準とMA20接近により一時的な反発が期待される。戦術的買い場と割り切り、厳密なリスク管理を推奨。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 156.87、RSI(40.87)、MA20(157.93)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "RSI陰弱水準とMA20接近で一時的反発期待",
-    "entry": "157.00",
-    "tp": "158.50",
-    "sl": "156.00",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20 Breakdown and Correction Alignment",
-    "date": "2026-10-23 22:10",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Bloomberg Terminal",
-    "tldr_points": [
-      "S&P 500 trades below MA20 with RSI near 45, signaling near-term bearish bias.",
-      "Broad correction territory across constituents limits upside momentum.",
-      "Tactical short-term downside play favored with strict risk management."
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades below MA20 with RSI 45, correcting into broad territory; tactical downside bias with defined risk.",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500 trades below MA20 with RSI 45, correcting into broad territory; tactical downside bias with defined risk.",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 156.87、RSI(40.87)、MA20(157.93)を軸に、金利相関と需給帯から実行プランを整理する。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] DOWN: MA20割れと原油高による金利上昇圧力で短期調整継続",
+    "date": "2026-10-24 04:48",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Prime Broker",
+    "tldr_points": [
+      "MA20を下回り短期トレンドが悪化、RSI37で売り圧力優勢",
+      "原油高騰がインフレ懸念を再燃、テック中心の反発を抑制",
+      "7500付近のサポートブレイクなら7300台まで下値拡大の公算"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P500はMA20を明確に下抜け、RSIは37まで低下。原油高による金利上昇圧力がテック主導の回復を封じ、短期的な下値模索が優勢となる。",
+    "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "MA20下抜けと原油高による金利上昇で短期下落トレンド継続、戻り売り優位",
+    "entry": "7710",
+    "tp": "7500",
+    "sl": "7780",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20下回りとETF資金流出の圧力",
-    "date": "2026-10-23 22:14",
+    "title": "[BTC/USD] DOWN: MA20下抜けと規制リスクの増大で短期下落バイアス",
+    "date": "2026-10-24 04:55",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTC価格はMA20下回りで推移し、RSIは中立域",
-      "ETF資金流出が636百万円で売圧力強調",
-      "テクニカル面では81500〜82500のレンジ内に収束"
+      "価格がMA20を明確に下回り、RSI44.8で売り圧力が優勢",
+      "Tetherへの規制当局の追及とネットワーク障害がリスクオフを誘発",
+      "東南アジアのステーブルコイン連携は長期的支援材料だが短期反発には不十分"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20を下回る価格帯で推移し、ETF資金流出が636百万円に達するなど売圧力が強調され、RSIが中立域にありながらも下biasedな構造が継続する。",
+    "excerpt": "BTCがMA20を下回りRSI44.8で売り圧力優勢。規制・セキュリティ懸念が重し、短期は下落継続の公算大。",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "MA20下回りとETF資金流出の圧力が下向きバイアスを強調",
-    "entry": "81560.20",
-    "tp": "80500.00",
-    "sl": "82500.00",
+    "comment": "MA20下抜け・RSI弱含み・規制リスク増大で短期下落バイアス",
+    "entry": "80500",
+    "tp": "78500",
+    "sl": "82500",
     "reliability": "MEDIUM"
   }
 }
