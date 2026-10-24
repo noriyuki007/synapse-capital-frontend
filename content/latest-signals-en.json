@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: AI Detects Resistance at MA20 as Fundamentals Remain Mixed",
-    "date": "2026-10-24 04:45",
+    "title": "[USD/JPY] DOWN: Geopolitical Risk-Off and Technical Breakdown Favor JPY Strength",
+    "date": "2026-10-24 12:09",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price below MA20 and RSI indicates bearish bias",
-      "Fed earnings and tariff news add volatility but no clear directional catalyst",
-      "Key support near 155.5 and resistance at 158.5 define the near-term range"
+      "Middle East escalation fears and equity losses drive safe-haven JPY demand",
+      "Spot trades below MA20 with RSI-14 at 40.36 confirming bearish momentum",
+      "Fed and Big Tech earnings convergence raises volatility ahead of key support tests"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY below MA20, RSI 40; Fed earnings and tariff news add volatility, targeting a decline to 155.5.",
+    "excerpt": "USD/JPY is biased lower as geopolitical risk aversion undermines the pair, with technicals targeting sub-156.00 support.",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "USD/JPY below MA20, RSI 40; Fed earnings and tariff news add volatility, targeting a decline to 155.5.",
+    "comment": "USD/JPY is biased lower as geopolitical risk aversion undermines the pair, with technicals targeting sub-156.00 support.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500: AI Analytics Detects Bearish Structural Shift",
-    "date": "2026-10-24 04:48",
+    "title": "[S&P 500] DOWN: AI Detects Breakdown Below MA20 as Inflation Fears Dominate Fed Catalyst",
+    "date": "2026-10-24 12:11",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "recommended_broker": "[TradingView Brokerage]",
     "tldr_points": [
-      "Interest Correlation (Approx): -0.01 (Negative)",
-      "Technical: Driven by Price 7626.04 vs MA20 7727.59",
-      "Liquidity: Targets based on Upper Band 7851.94 / Lower Band 7603.24 / Recent High 7844.52 / Recent Low 7612.07"
+      "S&P 500 breaches key MA20 support at 7727.48",
+      "RSI-14 signals bearish momentum at 37.01",
+      "Await 7600 psychological level for potential capitulation bounce"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7626.04, RSI(37.16), and MA20(7727.59).",
+    "excerpt": "S&P 500 drops below MA20 amid oil-driven inflation concerns ahead of key Fed meeting.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7626.04, RSI(37.16), and MA20(7727.59).",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Breakdown below MA20 confirmed amid inflation-driven selling pressure.",
+    "entry": "7615.00",
+    "tp": "7525.00",
+    "sl": "7750.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-24 04:55",
+    "title": "[BTC/USD] UP: AI Detects MA20 Support as Sanctions Play Turns Risk-On",
+    "date": "2026-10-24 12:12",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trades below MA20 with RSI near oversold territory, signaling potential reversal",
-      "Institutional adoption catalysts emerging from Singapore-Malaysia-Thailand stablecoin initiative and US regulatory developments",
-      "Key support at 82,834 (MA20) with downside risk to 80,000 if breached"
+      "BTC rejected bearish alignment but RSI neutral",
+      "News flow adds geopolitical and stablecoin liquidity narratives",
+      "Tactical bias favors reclaim of MA20 with tight risk"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD rallies toward MA20 support zone as institutional adoption catalysts and oversold momentum converge.",
+    "excerpt": "BTC/USD tests MA20 after resilient dip; policy headlines add selective crypto upside.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Oversold momentum and institutional catalysts align for a short-term recovery toward MA20 and beyond.",
-    "entry": "81500.00",
-    "tp": "84500.00",
-    "sl": "79800.00",
-    "reliability": "HIGH"
+    "comment": "Tactical long bias conditional on reclaim of MA20 at 82818.3046875.",
+    "entry": "81000",
+    "tp": "82818.3046875",
+    "sl": "78800",
+    "reliability": "MEDIUM"
   }
 }
