@@ -1,7 +1,7 @@
 {
   "FX": {
     "title": "USD/JPY Strategy: Defense and Risk Mitigation in Downtrend",
-    "date": "2026-10-25 12:04",
+    "date": "2026-10-25 21:56",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
@@ -22,47 +22,47 @@
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Oversold RSI & Breadth Divergence Signal Tactical Mean Reversion",
-    "date": "2026-10-25 12:08",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-25 21:58",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "RSI at 37 signals oversold bounce probability",
-      "Positive breadth divergence masks index weakness",
-      "Key resistance at MA20 (7727.5) defines upside target"
+      "RSI at 37 indicates oversold conditions with room for recovery",
+      "MA20 resistance at 7727.48 provides a potential pullback target",
+      "Healthcare sector divergence creates long-term growth catalysts"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Tactical long setup triggered by RSI oversold and bullish breadth divergence; target MA20 reclaim.",
+    "excerpt": "S&P 500 at 7623.68 with RSI 37 and MA20 at 7727.48 signals bullish reversal potential as healthcare sector divergence supports long-term upside",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "RSI oversold + positive breadth divergence + dealer gamma support favor mean reversion to MA20",
-    "entry": "7615",
-    "tp": "7727",
-    "sl": "7550",
-    "reliability": "MEDIUM"
+    "comment": "Technical support at MA20 combined with fundamental healthcare divergence creates a high-probability long entry.",
+    "entry": "7600",
+    "tp": "7800",
+    "sl": "7580",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Long Liquidation Flush Below $80,000 Sets Up MA20 Reclaim",
-    "date": "2026-10-25 12:10",
+    "title": "BTC/USD Strategy: Defense and Risk Mitigation in Downtrend",
+    "date": "2026-10-25 21:59",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "$404 million long liquidation flushed speculative leverage as BTC briefly tested $80,000",
-      "Price at 80,859.47 sits below MA20 at 82,547.43 with RSI-14 at 42.10, signaling oversold bounce potential",
-      "Tactical bias favors longs near 80,000 with stops below 79,000 and MA20 as primary target"
+      "Interest Correlation (Approx): 0.01 (Positive)",
+      "Technical: Driven by Price 80345.30 vs MA20 82271.94",
+      "Liquidity: Targets based on Upper Band 84761.72 / Lower Band 79782.16 / Recent High 86664.54 / Recent Low 79145.54"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD reclaims $80,000 after $404M long liquidation; tactical long targets MA20 at 82,547 with tight risk control.",
+    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 80345.30, RSI(36.92), and MA20(82271.94).",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Liquidation flush below $80,000 creates oversold bounce setup toward MA20 at 82,547.",
-    "entry": "80750.00",
-    "tp": "82547.00",
-    "sl": "79000.00",
+    "status": "NEUTRAL",
+    "comment": "Today's AI analysis outlines the execution plan for BTC/USD around Price 80345.30, RSI(36.92), and MA20(82271.94).",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
