@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: MA20割れと弱気モメンタムで下押し圧力",
-    "date": "2026-10-26 12:04",
+    "title": "戦術的インサイト：USD/JPYの均衡状態とブレイク条件の定義",
+    "date": "2026-10-26 23:49",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "USD/JPYはMA20を下回り、弱気構造が優先。",
-      "BOJ・PBOCの材料は一見ハト派・ドル売りで局所的にJPY優位。",
-      "トレードは下側リスクを抑え、厳格なリスク管理を要請。"
+      "金利相関（近似）: -0.09で負相関傾向",
+      "テクニカル: 現在価格 157.56 と MA20 157.91 の位置関係が主導",
+      "需給: 上限帯 158.86 / 下限帯 156.96 / 直近高値 158.94 / 直近安値 156.10 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "最新のマクロ・ファンダメンタルズとテクニカルを統合すると、USD/JPYはMA20割れの逆風材料が優位。強気材料は限定的で、戦略的には下側リスクを重視し、厳格なリスク管理で対応する。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 157.56、RSI(46.58)、MA20(157.91)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "MA20割れと弱気モメンタム",
-    "entry": "157.85",
-    "tp": "156.50",
-    "sl": "158.20",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20抵抗が保持されモメンタムが弱化",
-    "date": "2026-10-26 12:07",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
-    "tldr_points": [
-      "強気派生の限定的な押し目形成",
-      "MA20が7,727で上値抵抗",
-      "RSI 37がモメンタムの弱さを示唆"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はテクニカルな下落圧力に直面。価格が20日MAを下回り、モメンタムが弱化。大型株の決算待ち。",
-    "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "価格がMA20を下回り、RSIが弱気を示唆。短期的な下落リスクを想定。",
-    "entry": "7623.68",
-    "tp": "7000.00",
-    "sl": "7740.00",
-    "reliability": "MEDIUM"
-  },
-  "CRYPTO": {
-    "title": "BTC/USD戦略：ベア相場におけるドローダウン極小化プロトコル",
-    "date": "2026-10-26 12:08",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "bitflyer",
-    "tldr_points": [
-      "金利相関（近似）: 0.01で正相関傾向",
-      "テクニカル: 現在価格 79595.92 と MA20 82234.47 の位置関係が主導",
-      "需給: 上限帯 84864.91 / 下限帯 79604.03 / 直近高値 86664.54 / 直近安値 79145.54 によるターゲット設計"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 79595.92、RSI(34.87)、MA20(82234.47)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "本日のAI解析では、BTC/USDの現在価格 79595.92、RSI(34.87)、MA20(82234.47)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 157.56、RSI(46.58)、MA20(157.91)を軸に、金利相関と需給帯から実行プランを整理する。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
+    "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-10-26 23:52",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "TradeStation",
+    "tldr_points": [
+      "S&P 500はMA20割れ後の反発で強気テールを模索",
+      "RSI(14)は39.57で中立圏のモメンタム",
+      "リスク管理下での買い再検討"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500はMA20割れ後の反発で強気テールを模索。強気ファンダメンタルズと短期モメンタムが一時的に整合。リスク確認下で買いを再検討。",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "MA20割れ後の反発とファンダメンタル整合。テク確認後に買い再検討。",
+    "entry": "7655.00",
+    "tp": "7740.00",
+    "sl": "7635.00",
+    "reliability": "MEDIUM"
+  },
+  "CRYPTO": {
+    "title": "[BTC/USD] UP: MA20抵抗線再試上昇と機関資金の流入トレンドを確認",
+    "date": "2026-10-26 23:53",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "tldr_points": [
+      "MA20 81989再上抜けがトレンド転換の鍵、80220で保ち合い継続",
+      "GalaxyとStriveの連続的BTC買いにより空ポジションカバーリングが上値を支援",
+      "米10年債利回り上昇は限定的、リスクオン特性を妨げず需給で方向感決定"
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "BTC/USD 80220で底堅く、MA20 81989再試上抜けでトレンド転換期待。機関需給の高まりと技術的反発シナリオを併せ持つことで、短期の方向感は板形成に委ねられ、流動性イベントがトレンド転換を牽引する構図。",
+    "pair": "BTC/USD",
+    "status": "BUY",
+    "comment": "MA20 81989再上抜けを待機、80220付近でロング",
+    "entry": "80220.00",
+    "tp": "81989.00",
+    "sl": "79500.00",
     "reliability": "MEDIUM"
   }
 }

@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: BOJ Rate Hike Expectations Pressure USD/JPY",
-    "date": "2026-10-26 12:04",
+    "title": "[USD/JPY] UP: Dollar Firm Ahead of Fed Deluge as Dip Buyers Eye MA20 Reclaim",
+    "date": "2026-10-26 23:49",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price 156.73 below 20‑day MA (157.87) and RSI 37.9 signals bearish bias",
-      "BOJ hints further tightening, strengthening JPY and pressuring USD/JPY",
-      "Key levels: support ~156.00, resistance at MA20 157.87; trade on breakout/breakdown"
+      "USD/JPY pulls back to 157.56, testing uptrend support below the 20-day MA at 157.91",
+      "Fed-speak and earnings deluge this week favor USD upside via yield differential persistence",
+      "RSI at 46.6 signals neutral momentum with capacity for impulsive long-side extension"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY down on BOJ hawkish tilt, price below MA20, key levels 156.00/157.87",
+    "excerpt": "USD/JPY dips to 157.56 offering tactical long entry as Fed event risk and yield spreads underpin structural bullish bias toward 159.00.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "BOJ hike expectations and price below MA20 drive USD/JPY lower",
-    "entry": "156.30",
-    "tp": "155.00",
-    "sl": "158.20",
+    "status": "BUY",
+    "comment": "Bullish structure intact; Fed week yield support favors dip-buy into 159.00.",
+    "entry": "157.55",
+    "tp": "158.95",
+    "sl": "156.90",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Oversold RSI and MA20 Proximity Favor Mean Reversion Ahead of Mega-Cap Earnings",
-    "date": "2026-10-26 12:07",
+    "title": "Critical Alert: S&P 500 Navigating Potential Correction Phase",
+    "date": "2026-10-26 23:52",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
     "tldr_points": [
-      "Price trades below MA20 with RSI-14 at 37.01 signaling oversold bounce potential",
-      "Microsoft, Alphabet, and Amazon earnings constitute ~15% of index weight and drive near-term volatility",
-      "Key resistance at MA20 7727.48; support near 7550-7600 with stop below 7550"
+      "Interest Correlation (Approx): -0.04 (Negative)",
+      "Technical: Driven by Price 7693.18 vs MA20 7727.95",
+      "Liquidity: Targets based on Upper Band 7852.08 / Lower Band 7603.82 / Recent High 7844.52 / Recent Low 7612.07"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 nears MA20 at 7,727.48; RSI-14 at 37.01 signals oversold bounce ahead of mega-cap earnings and Fed.",
+    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7693.18, RSI(39.57), and MA20(7727.95).",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500 nears MA20 at 7,727.48; RSI-14 at 37.01 signals oversold bounce ahead of mega-cap earnings and Fed.",
+    "comment": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7693.18, RSI(39.57), and MA20(7727.95).",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Structured Break above 20-Day MA20 Signals Bearish Continuation",
-    "date": "2026-10-26 12:08",
+    "title": "Critical Alert: BTC/USD Navigating Potential Correction Phase",
+    "date": "2026-10-26 23:53",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Crypto longs deplete $404M as BTC slips below $80k",
-      "RSI(14) at 34.87 indicates structural exhaustion at MA20 resistance",
-      "Regulatory and sanctions headlines add volatility suppressing reversion bids"
+      "Interest Correlation (Approx): 0.02 (Positive)",
+      "Technical: Driven by Price 80219.59 vs MA20 81988.98",
+      "Liquidity: Targets based on Upper Band 84170.33 / Lower Band 79807.62 / Recent High 85594.55 / Recent Low 79145.54"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Crypto longs lose $404M as BTC briefly slips below $80k; RSI(14) hits 34.87 indicating imminent bearish breakdown above MA20 resistance.",
+    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 80219.59, RSI(43.20), and MA20(81988.98).",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Structural bearish break above 20-day MA20 with RSI failure signaling continued downside pressure.",
-    "entry": "79595.92",
-    "tp": "75000.00",
-    "sl": "80000.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Today's AI analysis outlines the execution plan for BTC/USD around Price 80219.59, RSI(43.20), and MA20(81988.98).",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
