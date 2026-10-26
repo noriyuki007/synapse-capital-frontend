@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "Critical Alert: USD/JPY Navigating Potential Correction Phase",
-    "date": "2026-10-26 03:42",
+    "title": "[USD/JPY] DOWN: BOJ Rate Hike Expectations Pressure USD/JPY",
+    "date": "2026-10-26 12:04",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Interest Correlation (Approx): -0.04 (Negative)",
-      "Technical: Driven by Price 156.81 vs MA20 157.93",
-      "Liquidity: Targets based on Upper Band 158.79 / Lower Band 157.06 / Recent High 158.94 / Recent Low 156.07"
+      "Price 156.73 below 20‑day MA (157.87) and RSI 37.9 signals bearish bias",
+      "BOJ hints further tightening, strengthening JPY and pressuring USD/JPY",
+      "Key levels: support ~156.00, resistance at MA20 157.87; trade on breakout/breakdown"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 156.81, RSI(40.36), and MA20(157.93).",
+    "excerpt": "USD/JPY down on BOJ hawkish tilt, price below MA20, key levels 156.00/157.87",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for USD/JPY around Price 156.81, RSI(40.36), and MA20(157.93).",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "BOJ hike expectations and price below MA20 drive USD/JPY lower",
+    "entry": "156.30",
+    "tp": "155.00",
+    "sl": "158.20",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: RSI Oversold at MA20, Technicals Eye Rebound Setup",
-    "date": "2026-10-26 03:44",
+    "title": "[S&P 500] UP: Oversold RSI and MA20 Proximity Favor Mean Reversion Ahead of Mega-Cap Earnings",
+    "date": "2026-10-26 12:07",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Goldman Sachs",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 trades below MA20 with RSI 37 indicating near-term oversold risk and potential rebound toward 7730.",
-      "Institutional flows pivot defensive amid mixed fundamental cues, including AI payoff disillusionment and BoA 2027 risk warnings.",
-      "Key technical pivot at 7620–7650 support; breach sets trajectory for next directional move."
+      "Price trades below MA20 with RSI-14 at 37.01 signaling oversold bounce potential",
+      "Microsoft, Alphabet, and Amazon earnings constitute ~15% of index weight and drive near-term volatility",
+      "Key resistance at MA20 7727.48; support near 7550-7600 with stop below 7550"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 hovers near MA20 pivot with RSI 37 signaling oversold risk; institutional flows favor defensive positioning.",
+    "excerpt": "S&P 500 nears MA20 at 7,727.48; RSI-14 at 37.01 signals oversold bounce ahead of mega-cap earnings and Fed.",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500 hovers near MA20 pivot with RSI 37 signaling oversold risk; institutional flows favor defensive positioning.",
+    "comment": "S&P 500 nears MA20 at 7,727.48; RSI-14 at 37.01 signals oversold bounce ahead of mega-cap earnings and Fed.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Liquidity Sweep Below $80k Triggers Bearish Reversal",
-    "date": "2026-10-26 03:48",
+    "title": "[BTC/USD] DOWN: Structured Break above 20-Day MA20 Signals Bearish Continuation",
+    "date": "2026-10-26 12:08",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC longs lost $404 million in four hours as price briefly slipped below $80,000, confirming aggressive downside liquidation pressure.",
-      "Spot price at 80,586.52 trades below the MA20 of 82,284.00 with RSI-14 at 37.63, signaling bearish momentum and immediate resistance at the moving average.",
-      "Exchange and hardware wallet security breaches weigh on risk appetite, while Argentine legal clarity and Israeli blockchain planning provide only marginal offset."
+      "Crypto longs deplete $404M as BTC slips below $80k",
+      "RSI(14) at 34.87 indicates structural exhaustion at MA20 resistance",
+      "Regulatory and sanctions headlines add volatility suppressing reversion bids"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD breaks below $80k, triggering $404M long liquidations; price under MA20 with RSI at 37.63, downside target 78,000",
+    "excerpt": "Crypto longs lose $404M as BTC briefly slips below $80k; RSI(14) hits 34.87 indicating imminent bearish breakdown above MA20 resistance.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "Price trades below MA20 after $80k long liquidations, with RSI confirming bearish momentum toward 78,000.",
-    "entry": "80550.00",
-    "tp": "78000.00",
-    "sl": "82500.00",
-    "reliability": "MEDIUM"
+    "comment": "Structural bearish break above 20-day MA20 with RSI failure signaling continued downside pressure.",
+    "entry": "79595.92",
+    "tp": "75000.00",
+    "sl": "80000.00",
+    "reliability": "HIGH"
   }
 }
