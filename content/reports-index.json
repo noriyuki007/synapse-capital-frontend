@@ -1,75 +1,75 @@
 [
   {
     "id": "2026-10-27-crypto-ja",
-    "date": "2026-10-27 05:57",
+    "date": "2026-10-27 12:43",
     "title": "BTC/USD：AI解析が示す下落シナリオと防御的ポジション管理",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 79727.46、RSI(41.11)、MA20(81964.37)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 79782.03、RSI(41.31)、MA20(81967.10)を軸に、金利相関と需給帯から実行プランを整理する。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-10-27-crypto-en",
-    "date": "2026-10-27 05:57",
+    "date": "2026-10-27 12:43",
     "title": "BTC/USD: AI Analytics Detects Bearish Structural Shift",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
-    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 79727.46, RSI(41.11), and MA20(81964.37).",
+    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 79782.03, RSI(41.31), and MA20(81967.10).",
     "result": "PENDING",
     "locale": "en"
   },
   {
-    "id": "2026-10-27-stocks-ja",
-    "date": "2026-10-27 05:55",
-    "title": "[S&P 500] UP: MA20 support and mixed catalysts suggest rebound",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "excerpt": "S&P 500 at 7,677 trades below its 20‑day MA; mixed macro news and modest RSI point to a potential bounce with disciplined risk management.",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
     "id": "2026-10-27-stocks-en",
-    "date": "2026-10-27 05:55",
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-10-27 12:37",
+    "title": "[S&P 500] FLAT: Oversold RSI Signals Tactical Bounce Amid Deteriorating Breadth",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "excerpt": "S&P 500 shows oversold RSI-14 at 37.88, suggesting a tactical bounce toward the 20-day MA at 7727.13 as AI leadership persists.",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 tests oversold levels with fragile breadth; tactical bounce likely but trend repair requires breadth confirmation.",
     "result": "PENDING",
     "locale": "en"
   },
   {
     "id": "2026-10-27-fx-ja",
-    "date": "2026-10-27 05:53",
-    "title": "[USD/JPY] DOWN: 価格がMA20下突破とRSI低下で修正局面を強調",
+    "date": "2026-10-27 12:35",
+    "title": "[USD/JPY] DOWN: MA20での抵抗と日銀利上げ路線を背景に円買いを優先",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
-    "excerpt": "USD/JPYは157.49でMA20下突破。RSI低下と高金利一時的支援を踏まえ、下方修正路線を強調する。",
+    "excerpt": "米株高とアジア株の堅調にもかかわらず、日本の9月サービスPPIが3.7%と上振れし、日銀の利上げ路線を後押し。USD/JPYはMA20を下回り、RSIは中立から弱気圏に位置。短期的な円買い・ドル売りの下落シナリオを提示する。",
     "result": "PENDING",
     "locale": "ja"
   },
   {
     "id": "2026-10-27-fx-en",
-    "date": "2026-10-27 05:53",
-    "title": "USD/JPY: Range-Bound Cautiousness and Tactical Execution",
+    "date": "2026-10-27 12:35",
+    "title": "[USD/JPY] DOWN: Technical Support Tested as BoJ Tightening Pushes Yen Higher",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
-    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 157.49, RSI(45.94), and MA20(157.91).",
+    "excerpt": "USD/JPY below MA20, BoJ tightening supports yen; wait for momentum.",
     "result": "PENDING",
     "locale": "en"
+  },
+  {
+    "id": "2026-10-27-stocks-ja",
+    "date": "2026-10-27",
+    "title": "STOCKS Analysis",
+    "genre": "STOCKS",
+    "target_pair": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "",
+    "result": "PENDING",
+    "locale": "ja"
   },
   {
     "id": "2026-10-26-crypto-ja",
@@ -176,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500はRSI(14)が37と oversold、MA20の7727付近への反発を期待し、戦術的なロングポジションを推奨。流動性とリスク管理を徹底し、短期的な反発を狙う。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -188,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "",
     "excerpt": "S&P 500 at 7623.68 with RSI 37 and MA20 at 7727.48 signals bullish reversal potential as healthcare sector divergence supports long-term upside",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -200,7 +200,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "excerpt": "USD/JPYはMA20を下回り、RSIは40、中立的なモメンタム。地政学的リスクと石油高が安全資産であるJPYを支援し、下落圧力を示唆。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -212,7 +212,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 156.81, RSI(40.36), and MA20(157.93).",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
