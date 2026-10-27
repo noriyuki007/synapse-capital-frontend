@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Technical Support Tested as BoJ Tightening Pushes Yen Higher",
-    "date": "2026-10-27 12:35",
+    "title": "USD/JPY: Range-Bound Cautiousness and Tactical Execution",
+    "date": "2026-10-27 22:55",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY trades below MA20, signaling near‑term bearish pressure.",
-      "BoJ policy tightening and rising Japanese inflation favor yen strength.",
-      "Neutral RSI suggests patience for a clearer momentum shift."
+      "Interest Correlation (Approx): -0.09 (Negative)",
+      "Technical: Driven by Price 157.85 vs MA20 157.90",
+      "Liquidity: Targets based on Upper Band 158.93 / Lower Band 156.87 / Recent High 158.94 / Recent Low 156.10"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY below MA20, BoJ tightening supports yen; wait for momentum.",
+    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 157.85, RSI(46.21), and MA20(157.90).",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Short USD/JPY on yen fundamentals and technical breakdown.",
-    "entry": "157.68",
-    "tp": "156.30",
-    "sl": "158.20",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] FLAT: Oversold RSI Signals Tactical Bounce Amid Deteriorating Breadth",
-    "date": "2026-10-27 12:37",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "tldr_points": [
-      "Price at 7676.77 sits 0.65% below MA20 (7727.13) with RSI-14 at 37.88 signaling oversold conditions",
-      "80% of index constituents in correction territory reflects severe breadth deterioration despite tech resilience",
-      "Anthropic IPO-driven tech bid provides near-term support but fails to offset broad-based distribution"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 tests oversold levels with fragile breadth; tactical bounce likely but trend repair requires breadth confirmation.",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Oversold RSI and MA20 mean-reversion setup with defined risk; breadth deterioration caps upside reliability",
-    "entry": "7665",
-    "tp": "7730",
-    "sl": "7600",
-    "reliability": "MEDIUM"
-  },
-  "CRYPTO": {
-    "title": "BTC/USD: AI Analytics Detects Bearish Structural Shift",
-    "date": "2026-10-27 12:43",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "bybit",
-    "tldr_points": [
-      "Interest Correlation (Approx): 0.01 (Positive)",
-      "Technical: Driven by Price 79782.03 vs MA20 81967.10",
-      "Liquidity: Targets based on Upper Band 84230.41 / Lower Band 79703.78 / Recent High 85594.55 / Recent Low 79145.54"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 79782.03, RSI(41.31), and MA20(81967.10).",
-    "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for BTC/USD around Price 79782.03, RSI(41.31), and MA20(81967.10).",
+    "comment": "Today's AI analysis outlines the execution plan for USD/JPY around Price 157.85, RSI(46.21), and MA20(157.90).",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] DOWN: Technical Pressure Overrides Mixed Catalysts",
+    "date": "2026-10-27 22:59",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "tldr_points": [
+      "Current price 7,688 trades below 20‑day MA 7,728",
+      "RSI 40.2 indicates neutral momentum, supporting bearish bias",
+      "Mixed earnings and AI news offset by technical deterioration"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 at 7,688 below MA20, RSI neutral; technical pressure favors downside.",
+    "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "Technical pressure below MA20 and neutral RSI suggest near-term downside.",
+    "entry": "7680",
+    "tp": "7500",
+    "sl": "7720",
+    "reliability": "MEDIUM"
+  },
+  "CRYPTO": {
+    "title": "[BTC/USD] UP: MA20 Support Test with Bullish RSI Reversal",
+    "date": "2026-10-27 23:02",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "tldr_points": [
+      "Zcash grant phaseout reduces supply pressure",
+      "Circle/Ark ETF sell-off signals profit-taking",
+      "StoneX price target upgrade adds bullish momentum"
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "BTC/USD at 79,758 with MA20 at 81,802 and RSI at 33.45 signals short-term bullish momentum",
+    "pair": "BTC/USD",
+    "status": "BUY",
+    "comment": "BTC/USD shows bullish reversal at support near MA20 with strong fundamental catalysts.",
+    "entry": "79000",
+    "tp": "81000",
+    "sl": "77500",
+    "reliability": "HIGH"
   }
 }
