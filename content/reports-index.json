@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-10-28-crypto-ja",
+    "date": "2026-10-28 05:28",
+    "title": "警戒アラート：BTC/USDの構造的変化と下落リスクの徹底検証",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 80599.17、RSI(38.03)、MA20(81844.49)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-28-crypto-en",
+    "date": "2026-10-28 05:28",
+    "title": "BTC/USD Strategy: Defense and Risk Mitigation in Downtrend",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 80599.17, RSI(38.03), and MA20(81844.49).",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-28-stocks-ja",
+    "date": "2026-10-28 05:26",
+    "title": "[S&P 500] UP: MA20割戻し買いとAI関連銘柄の強いリーダーシップロジック",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P500はMA20割れ一時安だが、AI株の追い上げで再び上伸。FOMC前の押し目は戦略的買い場と見る。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-28-stocks-en",
+    "date": "2026-10-28 05:26",
+    "title": "S&P 500 Strategy: Defense and Risk Mitigation in Downtrend",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7722.60, RSI(43.56), and MA20(7729.72).",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-28-fx-ja",
+    "date": "2026-10-28 05:24",
+    "title": "[USD/JPY] UP: 米株上昇バイアスとMA20保持による上昇基調の継続",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYはMA20を維持し、米株の上昇バイアスを背景に缓やかな上昇基調。157.90附近的な买入機を戦略的に確保する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-28-fx-en",
+    "date": "2026-10-28 05:24",
+    "title": "[USD/JPY] UP: MA20 Support Confirms Bullish Momentum",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY at 157.93 shows support at MA20 with RSI neutral; bullish bias confirmed by broad market technicals.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-10-27-crypto-ja",
     "date": "2026-10-27 23:02",
     "title": "BTC/USD：AI解析が示す下落シナリオと防御的ポジション管理",

@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY: Range-Bound Cautiousness and Tactical Execution",
-    "date": "2026-10-27 22:55",
+    "title": "[USD/JPY] UP: MA20 Support Confirms Bullish Momentum",
+    "date": "2026-10-28 05:24",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Interest Correlation (Approx): -0.09 (Negative)",
-      "Technical: Driven by Price 157.85 vs MA20 157.90",
-      "Liquidity: Targets based on Upper Band 158.93 / Lower Band 156.87 / Recent High 158.94 / Recent Low 156.10"
+      "MA20 at 157.9064 acts as strong support level",
+      "RSI at 46.89 indicates neutral momentum without overbought conditions",
+      "S&P and Nasdaq 100 technical bias supports USD strength"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 157.85, RSI(46.21), and MA20(157.90).",
+    "excerpt": "USD/JPY at 157.93 shows support at MA20 with RSI neutral; bullish bias confirmed by broad market technicals.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for USD/JPY around Price 157.85, RSI(46.21), and MA20(157.90).",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Technical support at MA20 combined with neutral RSI and positive macro bias supports a long entry.",
+    "entry": "157.90",
+    "tp": "158.50",
+    "sl": "157.75",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Technical Pressure Overrides Mixed Catalysts",
-    "date": "2026-10-27 22:59",
+    "title": "S&P 500 Strategy: Defense and Risk Mitigation in Downtrend",
+    "date": "2026-10-28 05:26",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "Current price 7,688 trades below 20‑day MA 7,728",
-      "RSI 40.2 indicates neutral momentum, supporting bearish bias",
-      "Mixed earnings and AI news offset by technical deterioration"
+      "Interest Correlation (Approx): -0.00 (Negative)",
+      "Technical: Driven by Price 7722.60 vs MA20 7729.72",
+      "Liquidity: Targets based on Upper Band 7852.24 / Lower Band 7607.20 / Recent High 7844.52 / Recent Low 7612.07"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 at 7,688 below MA20, RSI neutral; technical pressure favors downside.",
+    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7722.60, RSI(43.56), and MA20(7729.72).",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Technical pressure below MA20 and neutral RSI suggest near-term downside.",
-    "entry": "7680",
-    "tp": "7500",
-    "sl": "7720",
+    "status": "NEUTRAL",
+    "comment": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7722.60, RSI(43.56), and MA20(7729.72).",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: MA20 Support Test with Bullish RSI Reversal",
-    "date": "2026-10-27 23:02",
+    "title": "BTC/USD Strategy: Defense and Risk Mitigation in Downtrend",
+    "date": "2026-10-28 05:28",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Zcash grant phaseout reduces supply pressure",
-      "Circle/Ark ETF sell-off signals profit-taking",
-      "StoneX price target upgrade adds bullish momentum"
+      "Interest Correlation (Approx): 0.05 (Positive)",
+      "Technical: Driven by Price 80599.17 vs MA20 81844.49",
+      "Liquidity: Targets based on Upper Band 84057.31 / Lower Band 79631.68 / Recent High 84840.05 / Recent Low 79145.54"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD at 79,758 with MA20 at 81,802 and RSI at 33.45 signals short-term bullish momentum",
+    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 80599.17, RSI(38.03), and MA20(81844.49).",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "BTC/USD shows bullish reversal at support near MA20 with strong fundamental catalysts.",
-    "entry": "79000",
-    "tp": "81000",
-    "sl": "77500",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "Today's AI analysis outlines the execution plan for BTC/USD around Price 80599.17, RSI(38.03), and MA20(81844.49).",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
