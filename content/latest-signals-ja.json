@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: 米株上昇バイアスとMA20保持による上昇基調の継続",
-    "date": "2026-10-28 05:24",
+    "title": "[USD/JPY] UP: Confirmation of bullish alignment at MA20 pivot",
+    "date": "2026-10-28 12:51",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "米株指数が技术的上昇バイアスを強め、USD/JPYの下支え材料となる",
-      "現在価格はMA20（157.90）を若干上回り、RSI（46.8）は中立域。モメンタムは平衡だが、MA20保持を確認",
-      "157.90附近的な押目买入を、严格的なSL（157.40以下）で管理する戦略を推奨"
+      "MA20 support confirms modest upside",
+      "Neutral RSI suggests balanced momentum",
+      "Hawkish central banks and oil rebound add bullish bias"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20を維持し、米株の上昇バイアスを背景に缓やかな上昇基調。157.90附近的な买入機を戦略的に確保する。",
+    "excerpt": "USD/JPY 157.96 above MA20, neutral RSI; hawkish central banks and oil rise hint at upside.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "米株上昇バイアスとMA20支持を背景に、157.90域附近的な买入戦略を採用。",
-    "entry": "157.90",
+    "comment": "強気ファンダメンタルズとMA20の支持を確認。RISK管理を徹底。",
+    "entry": "157.95",
     "tp": "158.30",
-    "sl": "157.40",
+    "sl": "157.55",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20割戻し買いとAI関連銘柄の強いリーダーシップロジック",
-    "date": "2026-10-28 05:26",
+    "title": "[S&P 500] DOWN: MA20抵抗とフェデックスリスクによる下方圧力の確認",
+    "date": "2026-10-28 13:02",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Goldman Sachs",
     "tldr_points": [
-      "AI関連株の強さがマーケットを支える",
-      "MA20付近での押し目買い機会",
-      "FOMC通じ明日のポジション拡大を推奨"
+      "MA20抵抗に苦戦、RSI43.56で下値限定的、Fed決定への警戒感が限定的な上昇余地を圧迫",
+      "チップセクターの強さとマイク・バリーの価値観が相容れない動き、方向感に乖離",
+      "短期的なレンジ内動意識が強まり、ブレイク方向でのトレードが望ましい"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20割れ一時安だが、AI株の追い上げで再び上伸。FOMC前の押し目は戦略的買い場と見る。",
+    "excerpt": "S&P 500はMA20近傍で膠着し、RSI43.56とフェデックスリスクが下方圧力を形成、方向感に乖離が見られる。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "AI関連銘柄の強さとMA20での反発が売り材料が欠如し上昇シグナル",
-    "entry": "7729.72",
-    "tp": "7850.00",
-    "sl": "7650.00",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "MA20抵抗下、RSI43.56で下方圧優位",
+    "entry": "7722.60",
+    "tp": "7700.00",
+    "sl": "7735.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "警戒アラート：BTC/USDの構造的変化と下落リスクの徹底検証",
-    "date": "2026-10-28 05:28",
+    "title": "[BTC/USD] DOWN: MA20下回りとRSI低位の抵抗",
+    "date": "2026-10-28 13:06",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "金利相関（近似）: 0.05で正相関傾向",
-      "テクニカル: 現在価格 80599.17 と MA20 81844.49 の位置関係が主導",
-      "需給: 上限帯 84057.31 / 下限帯 79631.68 / 直近高値 84840.05 / 直近安値 79145.54 によるターゲット設計"
+      "価格がMA20を下回り、RSIが40付近で下昇圧力が継続",
+      "CFTCの予測市場規制動向とCrypto.comの米国永久契約拡大が流動性に与える影響",
+      "短期的に80,000USDを下値和支持として、82,000USDで抵抗"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 80599.17、RSI(38.03)、MA20(81844.49)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "BTC/USDはMA20下回りとRSI低位で下昇圧力が優勢、短期売却機会を検討",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、BTC/USDの現在価格 80599.17、RSI(38.03)、MA20(81844.49)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "MA20下回りとRSI低位が下昇圧力優勢、短期売却推奨",
+    "entry": "80934.6875",
+    "tp": "78500.00",
+    "sl": "82500.00",
     "reliability": "MEDIUM"
   }
 }
