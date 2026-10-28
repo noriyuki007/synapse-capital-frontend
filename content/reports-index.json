@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-10-29-crypto-ja",
+    "date": "2026-10-29 00:04",
+    "title": "[BTC/USD] DOWN: MA20下抜けとRSI中立域から下押し圧力を継続",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USDは80,516ドルでMA20を下回る展開。RSIは44.4と中立ながら下押しリスクが高く、短期売りバイアスを維持する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-29-crypto-en",
+    "date": "2026-10-29 00:04",
+    "title": "Critical Alert: BTC/USD Navigating Potential Correction Phase",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 80516.19, RSI(44.43), and MA20(81796.78).",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-29-stocks-ja",
+    "date": "2026-10-29 00:01",
+    "title": "戦術的インサイト：S&P 500の均衡状態とブレイク条件の定義",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 7728.58、RSI(46.85)、MA20(7733.57)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-29-stocks-en",
+    "date": "2026-10-29 00:01",
+    "title": "[S&P 500] FLAT: Price Hovers Below MA20 as Valuation Concerns Meet Fed Event Risk",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 consolidates below MA20 as extreme valuations and Fed/earnings event risk cap upside; neutral RSI supports range-bound thesis.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-28-fx-ja",
+    "date": "2026-10-28 23:49",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYは158.18でMA20を上回り、中立のRSIが上昇余地を示す。カナダ金利上昇と油価動向がUSD強気を支援。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-28-fx-en",
+    "date": "2026-10-28 23:49",
+    "title": "USD/JPY Framework: Analyzing Liquidity Zones in Consolidation",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "xm-trading",
+    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 158.18, RSI(51.04), and MA20(157.93).",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-10-28-crypto-ja",
     "date": "2026-10-28 13:06",
     "title": "[BTC/USD] DOWN: MA20下回りとRSI低位の抵抗",
@@ -44,30 +116,6 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500 holds below MA20 as AI chips and Fed loom; tactical bias stays risk-on with tight levels.",
-    "result": "PENDING",
-    "locale": "en"
-  },
-  {
-    "id": "2026-10-28-fx-ja",
-    "date": "2026-10-28 12:51",
-    "title": "[USD/JPY] UP: Confirmation of bullish alignment at MA20 pivot",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
-    "recommended_broker": "dmm-fx",
-    "excerpt": "USD/JPY 157.96 above MA20, neutral RSI; hawkish central banks and oil rise hint at upside.",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-10-28-fx-en",
-    "date": "2026-10-28 12:51",
-    "title": "USD/JPY Framework: Analyzing Liquidity Zones in Consolidation",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "xm-trading",
-    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 157.96, RSI(49.09), and MA20(157.91).",
     "result": "PENDING",
     "locale": "en"
   },
