@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-10-30-crypto-ja",
+    "date": "2026-10-30 00:04",
+    "title": "[BTC/USD] DOWN: MA20下回りとRSI中立域による下向き圧力",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USDはMA20を下回り、RSI(14)が44.6と中立域でモメンタム不足のため、下向き圧力が継続。短期的なショートポジションの構築を推奨。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-30-crypto-en",
+    "date": "2026-10-30 00:04",
+    "title": "[BTC/USD] UP: Institutional Momentum Tests MA20 Rebound",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD holds below MA20; institutional crypto catalysts remain supportive, momentum neutral-bullish.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-30-stocks-ja",
+    "date": "2026-10-30 00:01",
+    "title": "S&P 500：AI解析が示す下落シナリオと防御的ポジション管理",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 7718.72、RSI(41.99)、MA20(7736.95)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-30-stocks-en",
+    "date": "2026-10-30 00:01",
+    "title": "S&P 500: AI Analytics Detects Bearish Structural Shift",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7718.72, RSI(41.99), and MA20(7736.95).",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-29-fx-ja",
+    "date": "2026-10-29 23:55",
+    "title": "戦術的インサイト：USD/JPYの均衡状態とブレイク条件の定義",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 157.83、RSI(48.03)、MA20(157.93)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-29-fx-en",
+    "date": "2026-10-29 23:55",
+    "title": "Professional Outlook: USD/JPY Equilibrium and Breakout Triggers",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "xm-trading",
+    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 157.83, RSI(48.03), and MA20(157.93).",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-10-29-crypto-ja",
     "date": "2026-10-29 13:21",
     "title": "[BTC/USD] DOWN: 価格がMA20を下回りRSIが中立未満、短期下落リスクが優勢",
@@ -48,30 +120,6 @@
     "locale": "en"
   },
   {
-    "id": "2026-10-29-fx-ja",
-    "date": "2026-10-29 13:14",
-    "title": "[USD/JPY] DOWN: MA20による抵抗と米テク株の調整圧力が下値を誘導",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "dmm-fx",
-    "excerpt": "USD/JPYはMA20の抵抗を下回り、米テク株の調整圧力により下値指引が強まっている。短期的な反発売却戦略を推奨する。",
-    "result": "PENDING",
-    "locale": "ja"
-  },
-  {
-    "id": "2026-10-29-fx-en",
-    "date": "2026-10-29 13:14",
-    "title": "Professional Outlook: USD/JPY Equilibrium and Breakout Triggers",
-    "genre": "FX",
-    "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "xm-trading",
-    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 157.67, RSI(46.81), and MA20(157.92).",
-    "result": "PENDING",
-    "locale": "en"
-  },
-  {
     "id": "2026-10-28-fx-ja",
     "date": "2026-10-28 23:49",
     "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
@@ -104,7 +152,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "excerpt": "BTC/USDはMA20下回りとRSI低位で下昇圧力が優勢、短期売却機会を検討",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -116,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD rebound likely from MA20 support as RSI signals oversold conditions amid rising institutional liquidity.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -128,7 +176,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "Goldman Sachs",
     "excerpt": "S&P 500はMA20近傍で膠着し、RSI43.56とフェデックスリスクが下方圧力を形成、方向感に乖離が見られる。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -140,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500 holds below MA20 as AI chips and Fed loom; tactical bias stays risk-on with tight levels.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {

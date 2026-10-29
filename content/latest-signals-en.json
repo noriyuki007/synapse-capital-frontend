@@ -1,68 +1,68 @@
 {
   "FX": {
     "title": "Professional Outlook: USD/JPY Equilibrium and Breakout Triggers",
-    "date": "2026-10-29 13:14",
+    "date": "2026-10-29 23:55",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Interest Correlation (Approx): -0.09 (Negative)",
-      "Technical: Driven by Price 157.67 vs MA20 157.92",
-      "Liquidity: Targets based on Upper Band 158.93 / Lower Band 156.91 / Recent High 158.94 / Recent Low 156.10"
+      "Interest Correlation (Approx): -0.03 (Negative)",
+      "Technical: Driven by Price 157.83 vs MA20 157.93",
+      "Liquidity: Targets based on Upper Band 158.93 / Lower Band 156.92 / Recent High 158.94 / Recent Low 156.10"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 157.67, RSI(46.81), and MA20(157.92).",
+    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 157.83, RSI(48.03), and MA20(157.93).",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for USD/JPY around Price 157.67, RSI(46.81), and MA20(157.92).",
+    "comment": "Today's AI analysis outlines the execution plan for USD/JPY around Price 157.83, RSI(48.03), and MA20(157.93).",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] FLAT: Price Consolidates at MA20 Amid Mixed Rate and AI Catalysts",
-    "date": "2026-10-29 13:16",
+    "title": "S&P 500: AI Analytics Detects Bearish Structural Shift",
+    "date": "2026-10-30 00:01",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
     "tldr_points": [
-      "Spot price sits marginally above the 20-day moving average with RSI-14 in neutral territory.",
-      "Federal Reserve rate hold and Alphabet earnings weakness create offsetting fundamental forces.",
-      "Technical structure favors a range-bound approach until a decisive break above or below MA20."
+      "Interest Correlation (Approx): 0.10 (Positive)",
+      "Technical: Driven by Price 7718.72 vs MA20 7736.95",
+      "Liquidity: Targets based on Upper Band 7849.78 / Lower Band 7624.13 / Recent High 7844.52 / Recent Low 7612.07"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 consolidates at MA20 with neutral RSI as steady Fed policy counters AI capex concerns.",
+    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7718.72, RSI(41.99), and MA20(7736.95).",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "Price action consolidates at MA20 with neutral RSI and mixed macro catalysts.",
-    "entry": "7740.00",
-    "tp": "7800.00",
-    "sl": "7700.00",
+    "comment": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7718.72, RSI(41.99), and MA20(7736.95).",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Technical Pullback Presents Strategic Entry as Institutional Bullishness Persists",
-    "date": "2026-10-29 13:21",
+    "title": "[BTC/USD] UP: Institutional Momentum Tests MA20 Rebound",
+    "date": "2026-10-30 00:04",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Institutional bullishness remains resilient despite recent market weakness and Robinhood's earnings miss.",
-      "Bitwise's long-term target of $1.6 million by 2036 reinforces strong structural demand for BTC.",
-      "Technically, BTC/USD is experiencing a pullback toward key support zones, presenting a tactical accumulation opportunity."
+      "BTC/USD remains below key MA20 with neutral RSI momentum.",
+      "Institutional crypto adoption headlines provide incremental bid support.",
+      "Tactical focus centers on reclaiming 81765.346875 for upside continuation."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD trades at 79,747 below MA20, offering a tactical entry as institutional outlook remains strong.",
+    "excerpt": "BTC/USD holds below MA20; institutional crypto catalysts remain supportive, momentum neutral-bullish.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Technical pullback to 79,747 below the MA20 presents a strategic entry point, supported by strong institutional fundamentals and a bullish long-term price target.",
-    "entry": "79000.00",
-    "tp": "81758.32",
-    "sl": "77800.00",
-    "reliability": "HIGH"
+    "comment": "BTC/USD recovered from key support as institutional crypto catalysts underpinned sentiment while price remains below MA20.",
+    "entry": "80200.00",
+    "tp": "81765.346875",
+    "sl": "79500.00",
+    "reliability": "MEDIUM"
   }
 }
