@@ -1,21 +1,21 @@
 {
   "FX": {
-    "title": "Professional Outlook: USD/JPY Equilibrium and Breakout Triggers",
-    "date": "2026-10-29 23:55",
+    "title": "[USD/JPY] FLAT: MA20 resistance and yield support create range",
+    "date": "2026-10-30 05:50",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Interest Correlation (Approx): -0.03 (Negative)",
-      "Technical: Driven by Price 157.83 vs MA20 157.93",
-      "Liquidity: Targets based on Upper Band 158.93 / Lower Band 156.92 / Recent High 158.94 / Recent Low 156.10"
+      "Price hovering just below the 20‑day moving average with RSI near 47 indicating neutral momentum.",
+      "US 7‑year note yield at 4.894% supports USD, while geopolitical risk‑off cues limit upside.",
+      "Key support at 157.50 and resistance at 158.50 define the near‑term range."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 157.83, RSI(48.03), and MA20(157.93).",
+    "excerpt": "USD/JPY trades near 157.68, below MA20, RSI 46; US yield high, geopolitical risk offsets, range-bound bias.",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for USD/JPY around Price 157.83, RSI(48.03), and MA20(157.93).",
+    "comment": "USD/JPY trades near 157.68, below MA20, RSI 46; US yield high, geopolitical risk offsets, range-bound bias.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
@@ -23,46 +23,46 @@
   },
   "STOCKS": {
     "title": "S&P 500: AI Analytics Detects Bearish Structural Shift",
-    "date": "2026-10-30 00:01",
+    "date": "2026-10-30 05:55",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "Interest Correlation (Approx): 0.10 (Positive)",
-      "Technical: Driven by Price 7718.72 vs MA20 7736.95",
-      "Liquidity: Targets based on Upper Band 7849.78 / Lower Band 7624.13 / Recent High 7844.52 / Recent Low 7612.07"
+      "Interest Correlation (Approx): 0.09 (Positive)",
+      "Technical: Driven by Price 7720.39 vs MA20 7737.04",
+      "Liquidity: Targets based on Upper Band 7849.81 / Lower Band 7624.27 / Recent High 7844.52 / Recent Low 7612.07"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7718.72, RSI(41.99), and MA20(7736.95).",
+    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7720.39, RSI(42.11), and MA20(7737.04).",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7718.72, RSI(41.99), and MA20(7736.95).",
+    "comment": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7720.39, RSI(42.11), and MA20(7737.04).",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Institutional Momentum Tests MA20 Rebound",
-    "date": "2026-10-30 00:04",
+    "title": "[BTC/USD] DOWN: Price Below MA20 with Oversold RSI Amid Mixed Fundamental Catalysts",
+    "date": "2026-10-30 05:59",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD remains below key MA20 with neutral RSI momentum.",
-      "Institutional crypto adoption headlines provide incremental bid support.",
-      "Tactical focus centers on reclaiming 81765.346875 for upside continuation."
+      "BTC/USD trades below the 20-day moving average at 78,783.89, signaling near-term bearish momentum.",
+      "RSI-14 at 35.36 indicates oversold conditions, capping aggressive downside but confirming weak sentiment.",
+      "Fundamental catalysts remain mixed, with corporate BTC adoption offset by derivatives-market liquidity shifts."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD holds below MA20; institutional crypto catalysts remain supportive, momentum neutral-bullish.",
+    "excerpt": "BTC/USD declines below MA20 as RSI signals oversold momentum amid mixed corporate adoption and derivatives catalysts.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "BTC/USD recovered from key support as institutional crypto catalysts underpinned sentiment while price remains below MA20.",
-    "entry": "80200.00",
-    "tp": "81765.346875",
-    "sl": "79500.00",
+    "status": "NEUTRAL",
+    "comment": "BTC/USD declines below MA20 as RSI signals oversold momentum amid mixed corporate adoption and derivatives catalysts.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
