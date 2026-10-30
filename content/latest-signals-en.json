@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Bearish MA20 Rejection as BoJ Holds and AI Risk-Off Persists",
-    "date": "2026-10-30 13:14",
+    "title": "[USD/JPY] DOWN: Risk-Off Sentiment and Technical Break Below MA20 Signal Pullback",
+    "date": "2026-10-30 23:48",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY remains below MA20 with bearish structure",
-      "BoJ holds 1.25% and lifts FY2027 inflation forecast",
-      "RSI-14 at 42.96 favors downside path"
+      "Risk-off sentiment across equities and crypto limits USD/JPY upside.",
+      "Price trades below the 20-day moving average at 157.90, signaling short-term bearish bias.",
+      "RSI at 42.8 indicates losing bullish momentum but not yet oversold."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY rejected at MA20 as BoJ holds, yields decline; downside bias persists.",
+    "excerpt": "USD/JPY pulls back as risk-off sentiment and technical resistance at MA20 signal further downside.",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "Bearish setup as price holds below MA20 and BoJ policy limits near-term yen upside.",
-    "entry": "157.31",
-    "tp": "156.80",
-    "sl": "157.95",
-    "reliability": "MEDIUM"
+    "comment": "Risk-off sentiment and technical rejection below the 20-day MA signal a tactical pullback toward 156.50.",
+    "entry": "157.80",
+    "tp": "156.50",
+    "sl": "158.10",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Bearish Momentum Persists as Tech Valuation Concerns Weigh on Index",
-    "date": "2026-10-30 13:21",
+    "title": "[S&P 500] DOWN: MA20 Caved as Earnings Misses Stoke Risk-Off Sentiment",
+    "date": "2026-10-30 23:52",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "Technical breakdown shows S&P 500 trading below its 20-day moving average at 7,737.04, signaling near-term bearish momentum.",
-      "Fundamental catalysts are heavily negative, driven by Alphabet's historic selloff and broader tech sector multiple compression.",
-      "RSI-14 at 42.11 indicates room for further downside before reaching oversold conditions, suggesting a continuation of the bear trend."
+      "Price below MA20 with RSI 36.2 signals bearish momentum",
+      "Tech earnings disappointments drive broad risk-off tone",
+      "Downside support at 7550 with breakdown risk toward 7480"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 bearish on tech multiple compression and breakdown below the 20-day moving average.",
+    "excerpt": "S&P 500 breaks key moving average as earnings disappointments fuel risk-off, RSI 36 signals bearish momentum",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "Bearish momentum persists as the index trades below the 20-day MA amid severe tech valuation headwinds.",
-    "entry": "7735.00",
-    "tp": "7650.00",
-    "sl": "7760.00",
+    "comment": "Price below MA20 with RSI 36.2 confirms bearish momentum amid earnings-driven risk-off",
+    "entry": "7622.14",
+    "tp": "7550.00",
+    "sl": "7765.50",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Binance Hack Sparks Sell-Off as Technicals Break Key Support",
-    "date": "2026-10-30 13:25",
+    "title": "[BTC/USD] UP: Oversold RSI-14 and Preferred-Stock Buying Fix Support Mean Reversion Toward MA20",
+    "date": "2026-10-30 23:54",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Bitcoin faces immediate headwinds following the Binance hack investigation with suspicious outflows reaching up to $5.8 billion.",
-      "Technical indicators show BTC trading below its 20-day moving average at $81,614.20 with RSI-14 at 33.49, signaling bearish momentum.",
-      "Institutional interest persists as NYSE parent ICE moves to integrate Hyperliquid perps, providing a mixed backdrop for altcoins."
+      "BTC/USD is trading at 77,021.17, approximately 5.3% below the 20-day moving average of 81,301.23, with RSI-14 at 32.21 signaling oversold conditions.",
+      "Binance’s $6.34 billion hack-loss reserve and Coinbase’s 66% Q3 net income increase reinforce exchange-sector resilience despite near-term security headlines.",
+      "Tactical bias favors a selective mean-reversion bid toward MA20 resistance, while stops must respect the $77,000 psychological support level."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Bitcoin slides below support amid Binance hack concerns, trading below MA20 with bearish momentum persisting.",
+    "excerpt": "BTC/USD tests $77k as RSI-14 hits 32.2; oversold bounce toward 81,301 MA20 is the primary tactical thesis.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Bearish trend confirmed below MA20 with RSI showing room for further downside amid exchange security concerns.",
-    "entry": "79800.00",
-    "tp": "76500.00",
-    "sl": "81800.00",
-    "reliability": "HIGH"
+    "status": "BUY",
+    "comment": "Oversold RSI-14 and discounted valuation below MA20 favor a mean-reversion bid into exchange resilience news.",
+    "entry": "77000.00",
+    "tp": "81301.23",
+    "sl": "75500.00",
+    "reliability": "MEDIUM"
   }
 }
