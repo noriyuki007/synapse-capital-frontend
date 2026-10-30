@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] FLAT: MA20 resistance and yield support create range",
-    "date": "2026-10-30 05:50",
+    "title": "[USD/JPY] DOWN: Bearish MA20 Rejection as BoJ Holds and AI Risk-Off Persists",
+    "date": "2026-10-30 13:14",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price hovering just below the 20‑day moving average with RSI near 47 indicating neutral momentum.",
-      "US 7‑year note yield at 4.894% supports USD, while geopolitical risk‑off cues limit upside.",
-      "Key support at 157.50 and resistance at 158.50 define the near‑term range."
+      "USD/JPY remains below MA20 with bearish structure",
+      "BoJ holds 1.25% and lifts FY2027 inflation forecast",
+      "RSI-14 at 42.96 favors downside path"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY trades near 157.68, below MA20, RSI 46; US yield high, geopolitical risk offsets, range-bound bias.",
+    "excerpt": "USD/JPY rejected at MA20 as BoJ holds, yields decline; downside bias persists.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPY trades near 157.68, below MA20, RSI 46; US yield high, geopolitical risk offsets, range-bound bias.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "Bearish setup as price holds below MA20 and BoJ policy limits near-term yen upside.",
+    "entry": "157.31",
+    "tp": "156.80",
+    "sl": "157.95",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500: AI Analytics Detects Bearish Structural Shift",
-    "date": "2026-10-30 05:55",
+    "title": "[S&P 500] DOWN: Bearish Momentum Persists as Tech Valuation Concerns Weigh on Index",
+    "date": "2026-10-30 13:21",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "Interest Correlation (Approx): 0.09 (Positive)",
-      "Technical: Driven by Price 7720.39 vs MA20 7737.04",
-      "Liquidity: Targets based on Upper Band 7849.81 / Lower Band 7624.27 / Recent High 7844.52 / Recent Low 7612.07"
+      "Technical breakdown shows S&P 500 trading below its 20-day moving average at 7,737.04, signaling near-term bearish momentum.",
+      "Fundamental catalysts are heavily negative, driven by Alphabet's historic selloff and broader tech sector multiple compression.",
+      "RSI-14 at 42.11 indicates room for further downside before reaching oversold conditions, suggesting a continuation of the bear trend."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7720.39, RSI(42.11), and MA20(7737.04).",
+    "excerpt": "S&P 500 bearish on tech multiple compression and breakdown below the 20-day moving average.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7720.39, RSI(42.11), and MA20(7737.04).",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Bearish momentum persists as the index trades below the 20-day MA amid severe tech valuation headwinds.",
+    "entry": "7735.00",
+    "tp": "7650.00",
+    "sl": "7760.00",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Below MA20 with Oversold RSI Amid Mixed Fundamental Catalysts",
-    "date": "2026-10-30 05:59",
+    "title": "[BTC/USD] DOWN: Binance Hack Sparks Sell-Off as Technicals Break Key Support",
+    "date": "2026-10-30 13:25",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD trades below the 20-day moving average at 78,783.89, signaling near-term bearish momentum.",
-      "RSI-14 at 35.36 indicates oversold conditions, capping aggressive downside but confirming weak sentiment.",
-      "Fundamental catalysts remain mixed, with corporate BTC adoption offset by derivatives-market liquidity shifts."
+      "Bitcoin faces immediate headwinds following the Binance hack investigation with suspicious outflows reaching up to $5.8 billion.",
+      "Technical indicators show BTC trading below its 20-day moving average at $81,614.20 with RSI-14 at 33.49, signaling bearish momentum.",
+      "Institutional interest persists as NYSE parent ICE moves to integrate Hyperliquid perps, providing a mixed backdrop for altcoins."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD declines below MA20 as RSI signals oversold momentum amid mixed corporate adoption and derivatives catalysts.",
+    "excerpt": "Bitcoin slides below support amid Binance hack concerns, trading below MA20 with bearish momentum persisting.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USD declines below MA20 as RSI signals oversold momentum amid mixed corporate adoption and derivatives catalysts.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Bearish trend confirmed below MA20 with RSI showing room for further downside amid exchange security concerns.",
+    "entry": "79800.00",
+    "tp": "76500.00",
+    "sl": "81800.00",
+    "reliability": "HIGH"
   }
 }

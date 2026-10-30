@@ -1,68 +1,64 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20付近の押し目と高金利が支援する上値ブレイクの可能性",
-    "date": "2026-10-30 05:50",
+    "title": "[USD/JPY] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "date": "2026-10-30 13:14",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "USD/JPYはMA20付近で反発が期待でき、上値ブレイクが狙える",
-      "米国7年債利回り上昇がUSDを支援し、リスクオン要因が背後に",
-      "流動性確保とスプレッド最適化のためdmm-fx利用を推奨"
+      "157.31付近でMA20(157.90)上昇トレンドが限定的、押し目買いの余地あり",
+      "BoJが2%インフレ目標を維持しつつ円圧力緩和、USD優位が支援",
+      "RSI43と板状流動性確保でリスク管理を徹底し、dmm-fxを活用"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20付近で反発が期待され、米国高金利が支援する上値ブレイクが狙える。",
+    "excerpt": "USD/JPYはMA20付近で反発し、BoJの堅調な政策と米国債の安全資産需要が上昇圧力を支援。リスク管理を徹底した押し目買いを推奨し、dmm-fxで流動性確保を実施。",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "USD/JPYはMA20付近で反発が期待され、米国高金利が支援する上値ブレイクが狙える。",
+    "comment": "USD/JPYはMA20付近で反発し、BoJの堅調な政策と米国債の安全資産需要が上昇圧力を支援。リスク管理を徹底した押し目買いを推奨し、dmm-fxで流動性確保を実施。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20下回り・RSI42でのモメンタム低下とファンダ風リスクオフを確認",
-    "date": "2026-10-30 05:55",
+    "title": "S&P 500：AI解析が示す下落シナリオと防御的ポジション管理",
+    "date": "2026-10-30 13:21",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "SBI証券",
+    "recommended_broker": "",
     "tldr_points": [
-      "MA20割れとRSI42のテクニカル弱含み",
-      "テック銘柄の決算売りとFTCリスクでS&P 500は重推移",
-      "流動性の側面からSBI証券でのヘッジ最適化を推奨"
+      "金利相関（近似）: 0.09で正相関傾向",
+      "テクニカル: 現在価格 7720.39 と MA20 7737.04 の位置関係が主導",
+      "需給: 上限帯 7849.81 / 下限帯 7624.27 / 直近高値 7844.52 / 直近安値 7612.07 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20割れとRSI42のモメンタム低下、テック決算売りとFTCリスクで重推移。戦術的な空売り機会を模織。",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 7720.39、RSI(42.11)、MA20(7737.04)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "MA20下回り・RSI42での売りモメンタム",
-    "entry": "7720.39",
-    "tp": "7700.00",
-    "sl": "7740.00",
-    "reliability": "MEDIUM"
-  },
-  "CRYPTO": {
-    "title": "BTC/USD：AI解析が示す下落シナリオと防御的ポジション管理",
-    "date": "2026-10-30 05:59",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "bitflyer",
-    "tldr_points": [
-      "金利相関（近似）: 0.11で正相関傾向",
-      "テクニカル: 現在価格 78783.90 と MA20 81646.23 の位置関係が主導",
-      "需給: 上限帯 84208.35 / 下限帯 79084.11 / 直近高値 84840.05 / 直近安値 78839.98 によるターゲット設計"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 78783.90、RSI(35.36)、MA20(81646.23)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "本日のAI解析では、BTC/USDの現在価格 78783.90、RSI(35.36)、MA20(81646.23)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "comment": "本日のAI解析では、S&P 500の現在価格 7720.39、RSI(42.11)、MA20(7737.04)を軸に、金利相関と需給帯から実行プランを整理する。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
+  },
+  "CRYPTO": {
+    "title": "BTC/USD 市場分析",
+    "date": "2026-10-30",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "bitflyer",
+    "tldr_points": [],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "",
+    "pair": "BTC/USD",
+    "status": "SELL",
+    "comment": "下抵け confirmation + RSI拡大下落シナリオの発生",
+    "entry": "78143.39",
+    "tp": "74500",
+    "sl": "83500",
+    "reliability": "HIGH"
   }
 }
