@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-10-31-crypto-ja",
+    "date": "2026-10-31 05:31",
+    "title": "[BTC/USD] UP: MA20 support aligns with bullish fundamentals",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC rebounds above $76k as Coinbase earnings and strategic support hint upside, while key MA20 levels offer entry risk.",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-31-crypto-en",
+    "date": "2026-10-31 05:31",
+    "title": "[BTC/USD] UP: Oversold RSI Signals Tactical Bounce as Institutional Fundamentals Strengthen",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "Oversold RSI signals tactical BTC/USD bounce. Strong institutional earnings support strategic dip accumulation toward MA20.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-31-stocks-ja",
+    "date": "2026-10-31 05:27",
+    "title": "[S&P 500] DOWN: チップセクターの下落とMA20下的抵抗が下降トレンドを確定",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "半導体セクターの広範な下落がナスダックを引き下げ、S&P 500も dragged down する形勢に。現価格はMA20（7729.90）を下回り、RSI(14)は34.08と下降モーメンタムを示すが、一時的な反弹の可能性も無視できない。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-31-stocks-en",
+    "date": "2026-10-31 05:27",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 dips below MA20 with RSI 34, signaling oversold bounce; key support at 7550, target 7700.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-10-31-fx-ja",
+    "date": "2026-10-31 05:22",
+    "title": "警戒アラート：USD/JPYの構造的変化と下落リスクの徹底検証",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 157.57、RSI(44.81)、MA20(157.91)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-10-31-fx-en",
+    "date": "2026-10-31 05:22",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 Amid Fed Hawkishness",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "Fed's Logan signals two additional 25bp hikes; USD/JPY edges toward MA20 with RSI 44.8 indicating moderate bearish momentum, defining near-term tactical parameters.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-10-30-crypto-ja",
     "date": "2026-10-30 23:54",
     "title": "BTC/USD：AI解析が示す下落シナリオと防御的ポジション管理",
