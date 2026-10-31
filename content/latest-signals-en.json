@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 Amid Fed Hawkishness",
-    "date": "2026-10-31 05:22",
+    "title": "[USD/JPY] DOWN: Risk-Off Flows Pressure Pair Below MA20 Ahead of Key Event Risk",
+    "date": "2026-10-31 12:57",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Fed's Logan signals further 25bp hikes underpin USD strength",
-      "Price action tests MA20 support with RSI indicating mild bearishness",
-      "Key technical and fundamental levels dictate tactical approach"
+      "Price slips below MA20 (157.92) signaling near-term bearish momentum",
+      "Risk-off sentiment from tech selloff bolsters JPY safe-haven demand",
+      "Dense event calendar (FOMC, BoJ, NFP) favors range-bound consolidation with downside skew"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Fed's Logan signals two additional 25bp hikes; USD/JPY edges toward MA20 with RSI 44.8 indicating moderate bearish momentum, defining near-term tactical parameters.",
+    "excerpt": "USD/JPY trades sub-MA20 at 157.80 as risk aversion lifts JPY; tactical bias lower into event-heavy week.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "Fed's Logan signals two additional 25bp hikes; USD/JPY edges toward MA20 with RSI 44.8 indicating moderate bearish momentum, defining near-term tactical parameters.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "Break below MA20 and risk-off equity flows favor JPY; sell rallies to 158.00 targeting 157.00.",
+    "entry": "157.95",
+    "tp": "157.00",
+    "sl": "158.25",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
     "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-10-31 05:27",
+    "date": "2026-10-31 12:59",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 dips below MA20 with RSI 34, signaling oversold bounce; key support at 7550, target 7700.",
-      "Chip sector weakness drags Nasdaq and S&P 500 lower, but broader market fundamentals remain supportive.",
-      "Bloom Energy’s S&P 500 inclusion suggests potential catalyst for index momentum."
+      "RSI 34 and support near 7500 signal oversold bounce potential",
+      "MA20 at 7729 defines clear upside target",
+      "Sector rotation and AI news add short-term volatility but reinforce long-term S&P500 diversification"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 dips below MA20 with RSI 34, signaling oversold bounce; key support at 7550, target 7700.",
+    "excerpt": "S&P 500 oversold; support at 7500, target MA20 7729. Mixed news but fundamentals hold.",
     "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "S&P 500 dips below MA20 with RSI 34, signaling oversold bounce; key support at 7550, target 7700.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "Oversold price with MA20 upside and stable fundamentals justify dip purchase.",
+    "entry": "7500.00",
+    "tp": "7729.90",
+    "sl": "7400.00",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Oversold RSI Signals Tactical Bounce as Institutional Fundamentals Strengthen",
-    "date": "2026-10-31 05:31",
+    "title": "[BTC/USD] UP: Oversold RSI & Strategy Buying Support Mean Reversion Toward MA20",
+    "date": "2026-10-31 13:00",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD trades significantly below the 20-day moving average at $81,289, indicating a deeply oversold technical state.",
-      "RSI(14) at 31.6 suggests capitulation is nearing completion, offering high-risk/reward tactical long entries.",
-      "Fundamental catalysts, including Coinbase's 66% Q3 net income surge and corporate treasury allocations, underpin structural demand."
+      "RSI at 32.17 signals oversold conditions ripe for a counter-trend bounce.",
+      "Strategy (MSTR) preferred equity raise renews structural bid for Bitcoin accumulation.",
+      "Price trades 5.3% below MA20 (81,300), defining a clear mean-reversion target."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Oversold RSI signals tactical BTC/USD bounce. Strong institutional earnings support strategic dip accumulation toward MA20.",
+    "excerpt": "Oversold technicals and renewed corporate buying pressure support a tactical long toward the 20-day MA.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Oversold RSI at 31.6 and deep discount to MA20 offer a high-probability tactical long setup supported by strong institutional fundamentals.",
-    "entry": "76500.00",
-    "tp": "81289.27",
-    "sl": "74500.00",
-    "reliability": "HIGH"
+    "comment": "Oversold RSI, negative funding, and Strategy buying support mean reversion to MA20.",
+    "entry": "77000",
+    "tp": "80500",
+    "sl": "75800",
+    "reliability": "MEDIUM"
   }
 }
