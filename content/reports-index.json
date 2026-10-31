@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-11-01-crypto-ja",
+    "date": "2026-11-01 04:47",
+    "title": "[BTC/USD] DOWN: MA20割れとリスクオフが先行する短期トレンド",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC価格はMA20割れ基調で下値重く、主要ハッキング事例がリスクオフを誘発。短期的な戻りは売り埋めの機会。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-01-crypto-en",
+    "date": "2026-11-01 04:47",
+    "title": "[BTC/USD] DOWN: Price Sub-MA20 Amid Security Crisis and Oversold Momentum Risk",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC breaks MA20 support as exchange security crises accelerate; downside bias toward $75k with oversold bounce risk.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-01-stocks-ja",
+    "date": "2026-11-01 04:44",
+    "title": "[S&P 500] DOWN: MA20乖離拡大とテック主導の修正局面入りを確認",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "インタラクティブ・ブローカーズ",
+    "excerpt": "S&P500はMA20を大きく下回りRSI34まで低下。テック主導の修正局面入りとFed Put期待の綱引きの中、下方リスクが優勢と判断しショートバイアスを推奨。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-01-stocks-en",
+    "date": "2026-11-01 04:44",
+    "title": "[S&P 500] UP: Oversold RSI Signals Tactical Bounce as Fed Put Re-Emerges",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "Oversold RSI at 34.08 and drop below MA20 signal a tactical S&P 500 bounce as the Fed put anchors sentiment.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-01-fx-ja",
+    "date": "2026-11-01 04:42",
+    "title": "[USD/JPY] UP: MA20回復を試す押し目買いと米金利高の整合性",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "米長期金利の上昇とFRB関係者のタカ派発言が米ドルを下支えし、USD/JPYはMA20付近での反発を試す構造にある。RSIは46.6で中立圏に留まり、売られすぎは限定的。テクノロジー株の下落はリスク回避要因だが、金利相関が優位と判断する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-01-fx-en",
+    "date": "2026-11-01 04:42",
+    "title": "[USD/JPY] UP: Consolidation Preceding MA20 Rebound as Fed Hawkishness Overrides Risk-Off",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY holds critical support at 157.80; tactical long bias favored toward MA20 at 157.92 as rate differential dominates.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-10-31-crypto-ja",
     "date": "2026-10-31 23:28",
     "title": "警戒アラート：BTC/USDの構造的変化と下落リスクの徹底検証",
