@@ -1,29 +1,29 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Pullback to MA20 aligns with hawkish Fed bias",
-    "date": "2026-11-01 23:43",
+    "title": "[USD/JPY] DOWN: MA20割れとリスクオフ・介入警戒感で下値模索",
+    "date": "2026-11-02 05:08",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "USD/JPY is hovering below the 20‑day MA, suggesting a short‑term pullback.",
-      "Fed speakers continue to signal higher rates while BOJ stays accommodative, supporting USD strength.",
-      "Technical setup offers a defined risk long entry with clear support and resistance levels."
+      "ナスダック急落とFEDタカ派継続でリスクオフ円買い圧力が優勢",
+      "現在値がMA20を下抜け、RSI中立圏で下値余地を残す",
+      "158.00付近の戻り売り戦略がリスク・リワードで最適解"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY bias upbeat as Fed hawkishness and MA20 alignment point to upside; risk managed at 157.60.",
+    "excerpt": "ナスダック急落とFED利上げ観測の継続でリスク回避の円買いが優勢。157.80はMA20を下抜け、157.50-157.00への下値模索を示唆。戻り売り戦略を推奨。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20に対する押し目買いで、Fedのハーキッシュな姿勢とBOJの緩和策を考慮",
-    "entry": "157.90",
-    "tp": "158.50",
-    "sl": "157.60",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "リスクオフ・介入警戒・MA20割れの三重苦で下落トレンド継続。戻り売りが最適。",
+    "entry": "158.00",
+    "tp": "157.20",
+    "sl": "158.35",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "警戒アラート：S&P 500の構造的変化と下落リスクの徹底検証",
-    "date": "2026-11-01 23:45",
+    "title": "S&P 500戦略：ベア相場におけるドローダウン極小化プロトコル",
+    "date": "2026-11-02 05:10",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
@@ -44,25 +44,25 @@
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20を下回りRSIが過売圏に入り、セキュリティ懸念が重し",
-    "date": "2026-11-01 23:46",
+    "title": "[BTC/USD] DOWN: 価格がMA20を大きく下回り、ファンダメンタル悪化が売り圧力を強化",
+    "date": "2026-11-02 05:13",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "価格がMA20（80,806）を明確に下回り、下落トレンド継続を示唆",
-      "RSI14が33.5で過売圏、短期リバウンドの可能性はあるが上値は重い",
-      "DeFiサイト乗っ取りやBinance大規模ハッキングなどセキュリティリスクがセンチメントを悪化"
+      "BTCがMA20（80,793）を下回り、RSI32で過売りながらも下落トレンド継続",
+      "Binance大量流出と北朝鮮系ハックが機関資金のリスク回避を誘発",
+      "短期リバウンドの可能性は限定的、売り目線でエントリー推奨"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCはMA20を割り込みRSIが過売圏に；セキュリティ不安が加わり下方バイアス優勢。",
+    "excerpt": "BTCはMA20を下抜け、RSI32の過売り圏でも買い戻しが弱く、ハッキング関連の資金流出が売り圧力を増幅させている。",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "MA20下抜け・RSI過売・セキュリティ懸念で下方バイアス優勢",
-    "entry": "78000",
-    "tp": "75000",
-    "sl": "80500",
+    "comment": "MA20下抜け・RSI過売りでも買い戻し弱く、ハッキング関連流出が売り圧力を強化",
+    "entry": "77500",
+    "tp": "73500",
+    "sl": "80800",
     "reliability": "MEDIUM"
   }
 }
