@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Consolidation Preceding MA20 Rebound as Fed Hawkishness Overrides Risk-Off",
-    "date": "2026-11-01 04:42",
+    "title": "USD/JPY Framework: Analyzing Liquidity Zones in Consolidation",
+    "date": "2026-11-01 13:11",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY consolidates near 157.80, testing key support ahead of MA20 resistance at 157.92.",
-      "Risk-off sentiment from Nasdaq tech sell-off and crypto fears is countered by persistent Fed hawkishness on rates.",
-      "RSI at 46.5 indicates neutral momentum, setting up a tactical long entry on a dip."
+      "Interest Correlation (Approx): -0.03 (Negative)",
+      "Technical: Driven by Price 157.80 vs MA20 157.92",
+      "Liquidity: Targets based on Upper Band 158.93 / Lower Band 156.92 / Recent High 158.94 / Recent Low 156.10"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds critical support at 157.80; tactical long bias favored toward MA20 at 157.92 as rate differential dominates.",
+    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 157.80, RSI(46.58), and MA20(157.92).",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "USD/JPY consolidates near key support at 157.80; tactical long bias favored toward MA20 at 157.92 as rate differential dominates.",
-    "entry": "157.80",
-    "tp": "157.92",
-    "sl": "157.60",
+    "status": "NEUTRAL",
+    "comment": "Today's AI analysis outlines the execution plan for USD/JPY around Price 157.80, RSI(46.58), and MA20(157.92).",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Oversold RSI Signals Tactical Bounce as Fed Put Re-Emerges",
-    "date": "2026-11-01 04:44",
+    "title": "[S&P 500] DOWN: Technical pressure dominates as price trades below MA20 and RSI remains low.",
+    "date": "2026-11-01 13:16",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 is trading significantly below its 20-day moving average at 7729.90, signaling a potential tactical oversold bounce.",
-      "RSI(14) has cooled to 34.08, indicating bearish momentum is exhausted in the short term.",
-      "Macro catalysts suggest the 'Fed put' remains active, providing a downside hedge for equity longs."
+      "Price below 20‑day MA indicates bearish momentum",
+      "Fed policy uncertainty and tech sell‑off weigh on fundamentals",
+      "RSI at 34 suggests continued downward pressure"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Oversold RSI at 34.08 and drop below MA20 signal a tactical S&P 500 bounce as the Fed put anchors sentiment.",
+    "excerpt": "S&P 500 trades below MA20 at 7580, RSI 34 signals bearish momentum amid tech sell‑off and Fed policy uncertainty.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Oversold RSI at 34.08 and proximity to key support suggest a tactical long setup targeting the 20-day MA.",
-    "entry": "7560.00",
-    "tp": "7729.90",
-    "sl": "7480.00",
-    "reliability": "MEDIUM"
+    "status": "SELL",
+    "comment": "Technical breakdown below MA20 and low RSI suggest further downside.",
+    "entry": "7575",
+    "tp": "7500",
+    "sl": "7620",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Sub-MA20 Amid Security Crisis and Oversold Momentum Risk",
-    "date": "2026-11-01 04:47",
+    "title": "[BTC/USD] DOWN: Hack-driven selloff pushes price below MA20 as bearish bias persists",
+    "date": "2026-11-01 13:18",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC trades 4.4% below MA20 at $77,409 with RSI at 34.1 signaling momentum decay",
-      "Cascade of exchange hacks and regulatory scrutiny undermines custody confidence",
-      "Key support at $75,000 psychological level; break targets $72,000 structural gap"
+      "Price below MA20 resistance",
+      "Hack-related selloff weighs on sentiment",
+      "RSI indicates lingering downside bias"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC breaks MA20 support as exchange security crises accelerate; downside bias toward $75k with oversold bounce risk.",
+    "excerpt": "BTC/USD trades below MA20 at $77,629 as hack-driven selloff intensifies regulatory pressure, bias bearish near-term.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price sub-MA20 with negative funding and escalating custody crisis favors downside continuation to $75k",
-    "entry": "79800",
-    "tp": "75000",
-    "sl": "81800",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTC/USD trades below MA20 at $77,629 as hack-driven selloff intensifies regulatory pressure, bias bearish near-term.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
