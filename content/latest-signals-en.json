@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: MA20 Resistance Caps Near-Term Upside as RSI Holds Below 50",
-    "date": "2026-11-02 13:15",
+    "title": "[USD/JPY] UP: Manufacturing PMI Beat Supports USD Resilience Against JPY",
+    "date": "2026-11-03 02:47",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY trades at 157.9030, marginally below the 20-day MA at 157.9321.",
-      "RSI-14 at 44.51 indicates neutral-to-bearish momentum without oversold conditions.",
-      "Geopolitical headlines and oil at $105 offset equity dip-buying, capping USD/JPY rallies."
+      "ISM manufacturing PMI beat expectations at 55.5, signaling resilient US economic activity.",
+      "Easing Iran tensions and lower oil prices foster a risk-on environment supportive of USD/JPY.",
+      "Technically, USD/JPY is consolidating just below the MA20 at 157.93, primed for a bullish breakout."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY at 157.9030 below MA20 157.9321; RSI 44.51 neutral-bearish as oil spike and Iran risk cap upside.",
+    "excerpt": "USD/JPY consolidates below MA20. Resilient PMI and risk-on sentiment support a bullish rebound toward 158.50.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Price below MA20 with RSI below 50 and geopolitical risk favoring yen funding",
-    "entry": "157.90",
-    "tp": "157.20",
-    "sl": "158.25",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Resilient US manufacturing PMI and positive risk sentiment support a bullish bias as the pair consolidates above key support near 157.50.",
+    "entry": "157.65",
+    "tp": "158.50",
+    "sl": "157.20",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Bounce Anticipated as Fundamentals Strengthen",
-    "date": "2026-11-02 13:16",
+    "title": "[S&P 500] UP: Oversold RSI Signals Mean Reversion as Price Tests MA20 Support",
+    "date": "2026-11-03 02:49",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
     "recommended_broker": "",
     "tldr_points": [
-      "RSI 34.08 signals oversold conditions",
-      "Price 7580 below 20‑day MA 7729.90, yet holding above 7500 support",
-      "AI sector rout likely priced in, setting up a bounce"
+      "S&P 500 trades 1.6% below MA20 with RSI at 35.9, indicating oversold conditions ripe for technical bounce",
+      "Mixed earnings backdrop: Amazon capex optimism offsets consumer weakness signaled by McDonald's warning",
+      "Kenvue index removal creates temporary passive outflow overhang, likely priced into current weakness"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 at 7580, oversold RSI, pending rise to MA20 as AI recovery unfolds.",
+    "excerpt": "S&P 500 oversold at 7599 with RSI 35.9; tactical bounce toward MA20 at 7721 favored with defined risk.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Oversold RSI and support align for a bounce toward MA20.",
-    "entry": "7580.00",
-    "tp": "7729.90",
-    "sl": "7500.00",
-    "reliability": "HIGH"
+    "comment": "Oversold RSI at 35.9 with price 1.6% below MA20 favors tactical long for mean reversion",
+    "entry": "7585",
+    "tp": "7720",
+    "sl": "7500",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20 breach & outflow-driven bearish tilt",
-    "date": "2026-11-02 13:18",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-11-03 02:53",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price at $78.5k below MA20 with RSI 36.9 indicating bearish momentum",
-      "ETF outflows and hack-driven selling dominate fundamental narrative",
-      "Key support at $77.5k; resistance at $80.8k MA20"
+      "Oversold RSI indicates dip opportunity",
+      "MA20 offers upside target near 80.5k",
+      "Institutional accumulation offsets ETF outflows"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD at $78,591 tests support below MA20 at $80,839; RSI 36.9 signals bearish momentum as ETF outflows dominate narrative.",
+    "excerpt": "BTC rebounds toward MA20 as ETF inflows and institutional buys offset hack concerns.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price below MA20 and RSI 36.9 with outflow-driven bearish momentum favors short positions.",
-    "entry": "78591.12",
-    "tp": "77500.00",
-    "sl": "80839.28",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "Institutional accumulation and oversold RSI support a bounce toward MA20.",
+    "entry": "76800",
+    "tp": "80511",
+    "sl": "73500",
+    "reliability": "HIGH"
   }
 }
