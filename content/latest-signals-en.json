@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Fed hawkish + risk-off, price below MA20",
-    "date": "2026-11-02 05:08",
+    "title": "[USD/JPY] DOWN: MA20 Resistance Caps Near-Term Upside as RSI Holds Below 50",
+    "date": "2026-11-02 13:15",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Risk-off sentiment and Fed hawkishness favor yen strength; USD/JPY currently below MA20 with bearish RSI.",
-      "Japan’s protective economic measures bolster the yen, further pressuring USD.",
-      "Strategic short bias with defined risk; execution via xm-trading recommended."
+      "USD/JPY trades at 157.9030, marginally below the 20-day MA at 157.9321.",
+      "RSI-14 at 44.51 indicates neutral-to-bearish momentum without oversold conditions.",
+      "Geopolitical headlines and oil at $105 offset equity dip-buying, capping USD/JPY rallies."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Fed hawkish + risk-off setup signals USD/JPY downside; price action confirms bearish bias.",
+    "excerpt": "USD/JPY at 157.9030 below MA20 157.9321; RSI 44.51 neutral-bearish as oil spike and Iran risk cap upside.",
     "pair": "USD/JPY",
     "status": "SELL",
-    "comment": "Bearish fundamentals and price below MA20 signal further depreciation.",
-    "entry": "157.80",
-    "tp": "156.80",
-    "sl": "158.30",
+    "comment": "Price below MA20 with RSI below 50 and geopolitical risk favoring yen funding",
+    "entry": "157.90",
+    "tp": "157.20",
+    "sl": "158.25",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Tactical Rebound Expected as RSI Approaches Oversold on Midterm Dip",
-    "date": "2026-11-02 05:10",
+    "title": "[S&P 500] UP: AI Bounce Anticipated as Fundamentals Strengthen",
+    "date": "2026-11-02 13:16",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 exhibits oversold conditions with RSI(14) at 34.08, signaling potential tactical reversal.",
-      "Price is trading below the 20-day moving average at 7729.90, but historical post-election seasonality favors accumulation.",
-      "Key support must hold at 7500; a rebound toward the 20-day MA is the high-probability setup."
+      "RSI 34.08 signals oversold conditions",
+      "Price 7580 below 20‑day MA 7729.90, yet holding above 7500 support",
+      "AI sector rout likely priced in, setting up a bounce"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 shows oversold RSI(14) at 34.08 below MA20, offering a tactical long opportunity.",
+    "excerpt": "S&P 500 at 7580, oversold RSI, pending rise to MA20 as AI recovery unfolds.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Oversold RSI at 34.08 and historical midterm election seasonality support a tactical rebound toward the 20-day MA.",
-    "entry": "7580.07",
+    "comment": "Oversold RSI and support align for a bounce toward MA20.",
+    "entry": "7580.00",
     "tp": "7729.90",
-    "sl": "7450.00",
+    "sl": "7500.00",
     "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Oversold RSI Signals Potential Reversal amid Security‑Driven Sell‑Pressure",
-    "date": "2026-11-02 05:13",
+    "title": "[BTC/USD] DOWN: MA20 breach & outflow-driven bearish tilt",
+    "date": "2026-11-02 13:18",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC below MA20, RSI 32 indicates oversold conditions",
-      "Recent security breaches and Binance outflows keep short‑term pressure",
-      "Technical confluence suggests a counter‑trend bounce toward MA20"
+      "Price at $78.5k below MA20 with RSI 36.9 indicating bearish momentum",
+      "ETF outflows and hack-driven selling dominate fundamental narrative",
+      "Key support at $77.5k; resistance at $80.8k MA20"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC under MA20; RSI oversold; security concerns drive sell‑off but setup hints at upside.",
+    "excerpt": "BTC/USD at $78,591 tests support below MA20 at $80,839; RSI 36.9 signals bearish momentum as ETF outflows dominate narrative.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Oversold RSI and order‑flow support at $77k create a high‑probability short‑term recovery toward $81k.",
-    "entry": "77000",
-    "tp": "81000",
-    "sl": "76000",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "Price below MA20 and RSI 36.9 with outflow-driven bearish momentum favors short positions.",
+    "entry": "78591.12",
+    "tp": "77500.00",
+    "sl": "80839.28",
+    "reliability": "MEDIUM"
   }
 }

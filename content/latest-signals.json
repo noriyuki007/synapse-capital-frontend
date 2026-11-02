@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: MA20割れとリスクオフ・介入警戒感で下値模索",
-    "date": "2026-11-02 05:08",
+    "title": "[USD/JPY] UP: MA20 support and macro divergence favor USD",
+    "date": "2026-11-02 13:15",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "ナスダック急落とFEDタカ派継続でリスクオフ円買い圧力が優勢",
-      "現在値がMA20を下抜け、RSI中立圏で下値余地を残す",
-      "158.00付近の戻り売り戦略がリスク・リワードで最適解"
+      "RBA rate‑hike expectations widen USD‑JPY spread",
+      "Higher oil and BoJ policy divergence tilt fundamentals USD‑positive",
+      "Technical proximity to MA20 supports a controlled long bias"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "ナスダック急落とFED利上げ観測の継続でリスク回避の円買いが優勢。157.80はMA20を下抜け、157.50-157.00への下値模索を示唆。戻り売り戦略を推奨。",
+    "excerpt": "USD/JPY near MA20; macro favors USD upside from oil rise and RBA expectations.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "リスクオフ・介入警戒・MA20割れの三重苦で下落トレンド継続。戻り売りが最適。",
-    "entry": "158.00",
-    "tp": "157.20",
-    "sl": "158.35",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "S&P 500戦略：ベア相場におけるドローダウン極小化プロトコル",
-    "date": "2026-11-02 05:10",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
-    "tldr_points": [
-      "金利相関（近似）: 0.17で正相関傾向",
-      "テクニカル: 現在価格 7580.07 と MA20 7729.90 の位置関係が主導",
-      "需給: 上限帯 7862.74 / 下限帯 7597.06 / 直近高値 7844.52 / 直近安値 7527.56 によるターゲット設計"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 7580.07、RSI(34.08)、MA20(7729.90)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "本日のAI解析では、S&P 500の現在価格 7580.07、RSI(34.08)、MA20(7729.90)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "comment": "USD/JPY near MA20; macro favors USD upside from oil rise and RBA expectations.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20下でのRSI oversold反発と macro catalyst の整合性",
+    "date": "2026-11-02 13:16",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "OANDA",
+    "tldr_points": [
+      "RSI(14)が34と oversold レジオン",
+      "MA20差額-149.83で下偏离、反発可能性",
+      "AI投資の調整局面が一時的、流動性改善の兆し"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500はMA20下でRSI oversold状態にあり、短期的な反発が期待される。AI投資の調整局面が継続するも、流動性環境は改善の兆しを示す。",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "RSI oversold と MA20 下偏离が重なり、短期平均回帰が期待される。流動性改善が支援。",
+    "entry": "7580.00",
+    "tp": "7750.00",
+    "sl": "7520.00",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: 価格がMA20を大きく下回り、ファンダメンタル悪化が売り圧力を強化",
-    "date": "2026-11-02 05:13",
+    "title": "[BTC/USD] DOWN: MA20上抜けの抵抗とETF流出が価格下落を牽引",
+    "date": "2026-11-02 13:18",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTCがMA20（80,793）を下回り、RSI32で過売りながらも下落トレンド継続",
-      "Binance大量流出と北朝鮮系ハックが機関資金のリスク回避を誘発",
-      "短期リバウンドの可能性は限定的、売り目線でエントリー推奨"
+      "ETF大規模流出が売圧を強める",
+      "MA20上抜けの抵抗で下値リスクが顕在化",
+      "RSI低下でモメンタムが弱体化"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTCはMA20を下抜け、RSI32の過売り圏でも買い戻しが弱く、ハッキング関連の資金流出が売り圧力を増幅させている。",
+    "excerpt": "ETF大規模流出とハッキングニュースが相まって、BTCはMA20上抜けの抵抗で下値リスクが顕在化し、短期的に売り込みが加速すると予想され、リスク管理が必須。特に流動性の逼迫感が高まり、取引所の出金遅延リスクも考慮すべき。本レポートは即時のポジション調整を推奨する。",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "MA20下抜け・RSI過売りでも買い戻し弱く、ハッキング関連流出が売り圧力を強化",
-    "entry": "77500",
-    "tp": "73500",
-    "sl": "80800",
+    "status": "NEUTRAL",
+    "comment": "ETF大規模流出とハッキングニュースが相まって、BTCはMA20上抜けの抵抗で下値リスクが顕在化し、短期的に売り込みが加速すると予想され、リスク管理が必須。特に流動性の逼迫感が高まり、取引所の出金遅延リスクも考慮すべき。本レポートは即時のポジション調整を推奨する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
