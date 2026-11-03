@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Yield Support Holds Above MA20 Amid Election Volatility",
-    "date": "2026-11-04 00:48",
+    "title": "[USD/JPY] UP: Price Holds Above MA20 Amid US Midterm Uncertainty and Geopolitical Risk",
+    "date": "2026-11-04 06:29",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price sustains above rising MA20 (157.95) with RSI neutral at 51.3, signaling latent bullish momentum.",
-      "Widening US-Japan yield differentials provide fundamental tailwind despite geopolitical headline risk.",
-      "US election uncertainty favors range-bound volatility; bias remains long on dips toward dynamic support."
+      "USD/JPY trades above the 20-day moving average with neutral RSI-14 momentum.",
+      "US midterm results and potential Republican Senate control may support the dollar through fiscal expansion expectations.",
+      "Iran-related risk aversion and ECB hawkishness provide two-way volatility but do not overturn short-term bullish structure."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY holds 158.48 above key MA20 support as yield advantage offsets safe-haven JPY bids ahead of US election.",
+    "excerpt": "USD/JPY above MA20 at 158.72, neutral RSI; US midterms and Iran risks support cautious upside bias with defined risk levels.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Bullish structure intact above MA20 with yield support; election volatility favors range expansion upside.",
-    "entry": "158.30",
-    "tp": "159.50",
-    "sl": "157.75",
+    "comment": "Price holds above MA20 with neutral RSI and supportive US fiscal expectations.",
+    "entry": "158.50",
+    "tp": "160.50",
+    "sl": "157.50",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Technical support at MA20 aligns with earnings-driven risk-on momentum",
-    "date": "2026-11-04 00:55",
+    "title": "[S&P 500] UP: Chipmaker rebound offsets midterm jitters as MA20 resistance comes into focus",
+    "date": "2026-11-04 06:35",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "Midterm elections and Q3 earnings supply bullish catalysts.",
-      "Price sits below MA20 but RSI at 40 suggests upside room.",
-      "Chip sector rebound reinforces risk‑on narrative."
+      "Price tests MA20 support amid election volatility",
+      "Chip sector rebound provides tentative upside bias",
+      "RSI 39.15 signals bearish momentum but oversold proximity"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 trades below MA20 with bullish catalysts and moderate momentum.",
+    "excerpt": "S&P 500 trades below MA20 with RSI 39.15, eyeing midterm catalysts for directional clarity near support",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Technical support at MA20 aligns with earnings‑driven risk‑on momentum.",
-    "entry": "7580.00",
-    "tp": "7706.00",
-    "sl": "7500.00",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "S&P 500 trades below MA20 with RSI 39.15, eyeing midterm catalysts for directional clarity near support",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Oversold RSI Signals Mean Reversion as Regulatory Tailwinds Emerge",
-    "date": "2026-11-04 00:59",
+    "title": "[BTC/USD] DOWN: AI Detects Oversold Momentum Below MA20 Amid Security Risks",
+    "date": "2026-11-04 06:38",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "RSI at 30.85 marks oversold extreme; statistical bounce probability elevated",
-      "Price 3.4% below MA20 creates mean-reversion window toward 80.3k",
-      "CFTC perpetual futures approval provides structural regulatory tailwind"
+      "Price below MA20 with RSI oversold suggesting short-term resilience",
+      "CFTC approval expands institutional derivative infrastructure",
+      "Elevated AI-driven security risks and geopolitical tension weigh on sentiment"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC oversold at 77.6k with RSI 30.8; regulatory catalysts support relief rally toward MA20 at 80.3k.",
+    "excerpt": "BTC/USD at 77843.81 below MA20 80315.32 with RSI 32.05 oversold; CFTC approval lifts derivatives, AI security threats and election uncertainty weigh sentiment.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Oversold RSI at 30.85 with price 3.4% below MA20 creates high-probability mean reversion setup supported by CFTC regulatory tailwind.",
-    "entry": "77600",
-    "tp": "80300",
-    "sl": "76500",
+    "status": "NEUTRAL",
+    "comment": "BTC/USD at 77843.81 below MA20 80315.32 with RSI 32.05 oversold; CFTC approval lifts derivatives, AI security threats and election uncertainty weigh sentiment.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
