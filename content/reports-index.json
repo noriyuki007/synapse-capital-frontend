@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-11-04-crypto-ja",
+    "date": "2026-11-04 00:59",
+    "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTCはRSI30近くでoversold、MA20上押し目で反発期待。CFTC新規商品承認がリスクオンを牽引し、77,600上抜け目標78,500へ。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-04-crypto-en",
+    "date": "2026-11-04 00:59",
+    "title": "[BTC/USD] UP: Oversold RSI Signals Mean Reversion as Regulatory Tailwinds Emerge",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC oversold at 77.6k with RSI 30.8; regulatory catalysts support relief rally toward MA20 at 80.3k.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-04-stocks-ja",
+    "date": "2026-11-04 00:55",
+    "title": "[S&P 500] DOWN: MA20割れトレンドとmidterm選挙不透明感からの戦略的売り",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "野村證券",
+    "excerpt": "S&P 500 7578.72はMA20下抜け、RSI40でモメンタム薄。midterm選挙とJOLTSを前に方向感欠く。テクニカル売りバイアスを維持。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-04-stocks-en",
+    "date": "2026-11-04 00:55",
+    "title": "[S&P 500] UP: Technical support at MA20 aligns with earnings-driven risk-on momentum",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 trades below MA20 with bullish catalysts and moderate momentum.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-04-fx-ja",
+    "date": "2026-11-04 00:48",
+    "title": "[USD/JPY] UP: MA20上抜けと利回り上昇によるブルッシュバイアスの整合性を確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYは158.48でMA20を上抜け、RSI51.26で控えめな上昇モーメンタム。イラン選挙と米利回り動向が方向転換のシナリオとなり、159.00ラウンドナンバーが重要なボーダーラインとなる。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-04-fx-en",
+    "date": "2026-11-04 00:48",
+    "title": "[USD/JPY] UP: Yield Support Holds Above MA20 Amid Election Volatility",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY holds 158.48 above key MA20 support as yield advantage offsets safe-haven JPY bids ahead of US election.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-11-03-crypto-ja",
     "date": "2026-11-03 14:36",
     "title": "BTC/USD：AI解析が示す下落シナリオと防御的ポジション管理",
@@ -92,7 +164,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD at $78,591 tests support below MA20 at $80,839; RSI 36.9 signals bearish momentum as ETF outflows dominate narrative.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -104,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "OANDA",
     "excerpt": "S&P 500はMA20下でRSI oversold状態にあり、短期的な反発が期待される。AI投資の調整局面が継続するも、流動性環境は改善の兆しを示す。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -116,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "",
     "excerpt": "S&P 500 at 7580, oversold RSI, pending rise to MA20 as AI recovery unfolds.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -140,7 +212,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY at 157.9030 below MA20 157.9321; RSI 44.51 neutral-bearish as oil spike and Iran risk cap upside.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
