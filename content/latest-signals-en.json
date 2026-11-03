@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Manufacturing PMI Beat Supports USD Resilience Against JPY",
-    "date": "2026-11-03 02:47",
+    "title": "[USD/JPY] FLAT: AI Detects Support at MA20 as Fundamentals Turn Neutral",
+    "date": "2026-11-03 14:13",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "ISM manufacturing PMI beat expectations at 55.5, signaling resilient US economic activity.",
-      "Easing Iran tensions and lower oil prices foster a risk-on environment supportive of USD/JPY.",
-      "Technically, USD/JPY is consolidating just below the MA20 at 157.93, primed for a bullish breakout."
+      "USD/JPY consolidates near MA20 with neutral RSI",
+      "RBA rate hike widens yield differential supporting USD",
+      "Risk‑off sentiment limits immediate directional bias"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY consolidates below MA20. Resilient PMI and risk-on sentiment support a bullish rebound toward 158.50.",
+    "excerpt": "USD/JPY consolidates near MA20 with neutral RSI; RBA hike and US tech caution limit directional bias.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Resilient US manufacturing PMI and positive risk sentiment support a bullish bias as the pair consolidates above key support near 157.50.",
-    "entry": "157.65",
-    "tp": "158.50",
-    "sl": "157.20",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "USD/JPY consolidates near MA20 with neutral RSI; RBA hike and US tech caution limit directional bias.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Oversold RSI Signals Mean Reversion as Price Tests MA20 Support",
-    "date": "2026-11-03 02:49",
+    "title": "[S&P 500] DOWN: Price Below MA20 as Capex Concerns Override Rate Hopes",
+    "date": "2026-11-03 14:25",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 trades 1.6% below MA20 with RSI at 35.9, indicating oversold conditions ripe for technical bounce",
-      "Mixed earnings backdrop: Amazon capex optimism offsets consumer weakness signaled by McDonald's warning",
-      "Kenvue index removal creates temporary passive outflow overhang, likely priced into current weakness"
+      "S&P 500 tests MA20 support as capex fears dominate",
+      "RSI 32.4 indicates near-oversold condition with limited bounce conviction",
+      "RBA rate hike reinforces global tightening backdrop weighing on equity risk"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 oversold at 7599 with RSI 35.9; tactical bounce toward MA20 at 7721 favored with defined risk.",
+    "excerpt": "S&P 500 slides below MA20 on persistent capex concerns, RSI at 32.4 flags oversold bias while tech selloff intensifies.",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Oversold RSI at 35.9 with price 1.6% below MA20 favors tactical long for mean reversion",
-    "entry": "7585",
-    "tp": "7720",
-    "sl": "7500",
+    "status": "NEUTRAL",
+    "comment": "S&P 500 slides below MA20 on persistent capex concerns, RSI at 32.4 flags oversold bias while tech selloff intensifies.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-11-03 02:53",
+    "title": "[BTC/USD] DOWN: Bearish Breakdown Below MA20 as Exchange Security Risks Dominate",
+    "date": "2026-11-03 14:36",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Oversold RSI indicates dip opportunity",
-      "MA20 offers upside target near 80.5k",
-      "Institutional accumulation offsets ETF outflows"
+      "BTC trades significantly below the 20-day moving average at 80,491, signaling persistent bearish momentum.",
+      "RSI-14 at 31.23 indicates oversold conditions, but suggests potential downside exhaustion rather than immediate bullish reversal.",
+      "Institutional adoption catalysts like DTCC tokenization are offset by immediate security concerns from the Mercado Bitcoin and Binance hacks."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC rebounds toward MA20 as ETF inflows and institutional buys offset hack concerns.",
+    "excerpt": "BTC/USD remains bearish below MA20. RSI indicates short-term exhaustion, but downside momentum persists.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "Institutional accumulation and oversold RSI support a bounce toward MA20.",
-    "entry": "76800",
-    "tp": "80511",
-    "sl": "73500",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "Bearish momentum persists below the 20-day moving average, with technical indicators suggesting further downside potential.",
+    "entry": "78000.00",
+    "tp": "74000.00",
+    "sl": "81000.00",
+    "reliability": "MEDIUM"
   }
 }
