@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: Risk-Off Surge and Technical Break Below MA20 Signal JPY Strength",
-    "date": "2026-11-04 13:44",
+    "title": "[USD/JPY] UP: Price Holds Above MA20 as Trade Deficit Narrows Despite Services PMI Revision",
+    "date": "2026-11-05 00:57",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Escalating geopolitical tensions in the Strait of Hormuz trigger risk-off flows, boosting safe-haven JPY.",
-      "Technical breakdown below the 20-period MA (157.88) confirms short-term bearish momentum.",
-      "US midterm election uncertainty and tech sector sell-off suppress USD demand, favoring a sell-the-rally approach."
+      "USD/JPY trades above the 20-day moving average at 158.441 with RSI-14 neutral at 54.14",
+      "US September trade deficit narrowed to -105.0B, providing marginal USD support",
+      "Final October services PMI revised down to 56.1 from 57.9 prelim, capping upside momentum"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Risk-off flows surge on Hormuz threats and US political shifts. USD/JPY remains bearish below MA20, targeting 156.50 support.",
+    "excerpt": "USD/JPY above MA20 at 158.441; narrower trade deficit supports USD, services PMI revision caps upside.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Bearish technical breakdown below the MA20 combined with risk-off flows from geopolitical escalation and US midterm uncertainty targets further downside.",
-    "entry": "157.70",
-    "tp": "156.50",
-    "sl": "158.15",
-    "reliability": "HIGH"
+    "status": "BUY",
+    "comment": "Price above MA20 with neutral RSI and supportive trade data",
+    "entry": "158.10",
+    "tp": "159.60",
+    "sl": "157.30",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Price below MA20, RSI 39; election volatility may test 7600 support",
-    "date": "2026-11-04 14:16",
+    "title": "Professional Outlook: S&P 500 Equilibrium and Breakout Triggers",
+    "date": "2026-11-05 01:01",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 below MA20, RSI 39; election volatility may test 7600 support before a bounce.",
-      "Midterm results could trigger short‑term liquidity shifts affecting intraday price discovery.",
-      "Technical bias remains bearish until price reclaims the 7705 MA20 level."
+      "Interest Correlation (Approx): 0.34 (Positive)",
+      "Technical: Driven by Price 7689.40 vs MA20 7700.16",
+      "Liquidity: Targets based on Upper Band 7855.20 / Lower Band 7545.11 / Recent High 7821.67 / Recent Low 7527.56"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 below MA20, RSI 39; election volatility may test 7600 support before a bounce.",
+    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7689.40, RSI(46.53), and MA20(7700.16).",
     "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Price below MA20 with bearish RSI suggests downside pressure; short entry near 7600 targeting 7500.",
-    "entry": "7600.0",
-    "tp": "7500.0",
-    "sl": "7705.8",
+    "status": "NEUTRAL",
+    "comment": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7689.40, RSI(46.53), and MA20(7700.16).",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
     "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-11-04 14:18",
+    "date": "2026-11-05 01:05",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Oversold RSI signals reversal potential",
-      "MA20 support at $80,290",
-      "Positive regulatory and macro catalysts"
+      "Circle's $865M revenue signals ecosystem strength",
+      "BitGo's institutional expansion accelerates adoption",
+      "Morgan Stanley's tokenization of US equities drives institutional demand"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD oversold, bullish fundamentals, potential rebound toward MA20.",
+    "excerpt": "BTC/USD at 80221.55 with MA20 at 80194.39 and RSI at 37.77 indicates bullish reversal potential.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Oversold RSI and bullish fundamentals suggest a reversal toward MA20.",
-    "entry": "77000.00",
-    "tp": "80290.00",
-    "sl": "75000.00",
+    "comment": "Bullish momentum supported by technical breakout and institutional catalysts.",
+    "entry": "80220.00",
+    "tp": "80500.00",
+    "sl": "80180.00",
     "reliability": "HIGH"
   }
 }

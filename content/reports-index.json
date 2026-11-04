@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-11-05-crypto-ja",
+    "date": "2026-11-05 01:05",
+    "title": "戦術的インサイト：BTC/USDの均衡状態とブレイク条件の定義",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "bitflyer",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 80221.55、RSI(37.77)、MA20(80194.39)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-05-crypto-en",
+    "date": "2026-11-05 01:05",
+    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD at 80221.55 with MA20 at 80194.39 and RSI at 37.77 indicates bullish reversal potential.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-05-stocks-ja",
+    "date": "2026-11-05 01:01",
+    "title": "[S&P 500] DOWN: MA20乖離警戒とRSI弱気レンジ推移",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "S&P 500は上方修正余地が乏しく、MA20下放れ、RSI46.5と弱気。選挙後のバウンスが過熱警戒から失敗する可能性を前提に下落リスクを過小評価せず、逆張り戦略を志向。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-05-stocks-en",
+    "date": "2026-11-05 01:01",
+    "title": "Professional Outlook: S&P 500 Equilibrium and Breakout Triggers",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7689.40, RSI(46.53), and MA20(7700.16).",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-05-fx-ja",
+    "date": "2026-11-05 00:57",
+    "title": "戦術的インサイト：USD/JPYの均衡状態とブレイク条件の定義",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 158.44、RSI(54.14)、MA20(157.93)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-05-fx-en",
+    "date": "2026-11-05 00:57",
+    "title": "[USD/JPY] UP: Price Holds Above MA20 as Trade Deficit Narrows Despite Services PMI Revision",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY above MA20 at 158.441; narrower trade deficit supports USD, services PMI revision caps upside.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-11-04-crypto-ja",
     "date": "2026-11-04 14:18",
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
@@ -92,7 +164,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD remains bearish below MA20. RSI indicates short-term exhaustion, but downside momentum persists.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
