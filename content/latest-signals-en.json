@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Price Holds Above MA20 as Trade Deficit Narrows Despite Services PMI Revision",
-    "date": "2026-11-05 00:57",
+    "title": "[USD/JPY] UP: AI Flags MA20 Support as Dollar Softness Persists",
+    "date": "2026-11-05 06:44",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY trades above the 20-day moving average at 158.441 with RSI-14 neutral at 54.14",
-      "US September trade deficit narrowed to -105.0B, providing marginal USD support",
-      "Final October services PMI revised down to 56.1 from 57.9 prelim, capping upside momentum"
+      "USD/JPY holds above key yield-sensitive support as market prices Iran war de-escalation",
+      "AI multi-factor model remains constructive while price is above MA20",
+      "Execution focus favors disciplined entry near MA20 with defined risk"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY above MA20 at 158.441; narrower trade deficit supports USD, services PMI revision caps upside.",
+    "excerpt": "USD/JPY holds above yield-sensitive MA20; AI model eyes upside continuation.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Price above MA20 with neutral RSI and supportive trade data",
-    "entry": "158.10",
-    "tp": "159.60",
-    "sl": "157.30",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "Professional Outlook: S&P 500 Equilibrium and Breakout Triggers",
-    "date": "2026-11-05 01:01",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "",
-    "tldr_points": [
-      "Interest Correlation (Approx): 0.34 (Positive)",
-      "Technical: Driven by Price 7689.40 vs MA20 7700.16",
-      "Liquidity: Targets based on Upper Band 7855.20 / Lower Band 7545.11 / Recent High 7821.67 / Recent Low 7527.56"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7689.40, RSI(46.53), and MA20(7700.16).",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7689.40, RSI(46.53), and MA20(7700.16).",
+    "comment": "USD/JPY holds above yield-sensitive MA20; AI model eyes upside continuation.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] DOWN: Technical Break Below MA20 Indicates Rotational Decline as Rate Sensitivity Mounts",
+    "date": "2026-11-05 06:45",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "Price structurally beneath MA20 (7688 vs 7700)",
+      "RSI-14 neutral-to-bearish at 46.5",
+      "Bank rally + Everest dividend provide muted upside catalysts"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 breaks under MA20; rate dynamics weaken while bank rally proves insufficient.",
+    "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "Price structurally below MA20 with neutral RSI reading implies rotational decline risk from rate rotation dynamics.",
+    "entry": "7685",
+    "tp": "7600",
+    "sl": "7700",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-11-05 01:05",
+    "title": "[BTC/USD] UP: Rebound Past $80k Amidst Resilient Institutional Demand",
+    "date": "2026-11-05 06:48",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Circle's $865M revenue signals ecosystem strength",
-      "BitGo's institutional expansion accelerates adoption",
-      "Morgan Stanley's tokenization of US equities drives institutional demand"
+      "Bitcoin rebounds past $80,000 despite macro/political uncertainty",
+      "RSI-14 at 37.33 indicates potential oversold bounce near MA20 support",
+      "Institutional custody transparency and tokenization initiatives support medium-term floor"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD at 80221.55 with MA20 at 80194.39 and RSI at 37.77 indicates bullish reversal potential.",
+    "excerpt": "Bitcoin rebounds past $80,000 as resilient institutional demand meets oversold technical conditions near MA20 support.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Bullish momentum supported by technical breakout and institutional catalysts.",
-    "entry": "80220.00",
-    "tp": "80500.00",
-    "sl": "80180.00",
-    "reliability": "HIGH"
+    "comment": "Oversold RSI at 37.33 and resilient institutional demand provide a tactical entry point for a rebound toward the 20-day moving average.",
+    "entry": "80110.00",
+    "tp": "81500.00",
+    "sl": "78800.00",
+    "reliability": "MEDIUM"
   }
 }
