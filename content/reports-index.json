@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-11-06-crypto-ja",
+    "date": "2026-11-06 01:10",
+    "title": "[BTC/USD] UP: MA20下的反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USDはMA20下的でRSI oversold、機関資金流入を背景に上昇基調。短期的に75,000-76,000帯でbuy the dip戦略を推奨。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-06-crypto-en",
+    "date": "2026-11-06 01:10",
+    "title": "BTC/USD: AI Analytics Detects Bearish Structural Shift",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 75780.21, RSI(34.29), and MA20(79917.54).",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-06-stocks-ja",
+    "date": "2026-11-06 01:08",
+    "title": "[S&P 500] DOWN: Price below MA20 and weakening momentum",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 under pressure below 20‑MA as Nasdaq slides; RSI near neutral, bias bearish for upcoming sessions.",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-06-stocks-en",
+    "date": "2026-11-06 01:08",
+    "title": "[S&P 500] DOWN: Nasdaq Plunge Sparks Risk-Off as Technicals Break",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 faces downside pressure as tech selloff intensifies; key levels at 7400 and 7682.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-06-fx-ja",
+    "date": "2026-11-06 01:05",
+    "title": "[USD/JPY] DOWN: 米株調整とメモリーセクター下落がMA20下割れを支援",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "米株の調整とメモリーセクターの下落がリスクオフを加速させ、USD/JPYはMA20(157.91)を下回る推移が续く。日元の対米-dollar 避難所としての優位性が高まり、短期的な下値優位の構造を维持する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-06-fx-en",
+    "date": "2026-11-06 01:05",
+    "title": "[USD/JPY] DOWN: AI Detects Structural Break Below MA20 as Risk Assets Bleed Globally",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY slides below MA20 as US indices crater and safe-haven flows accelerate.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-11-05-crypto-ja",
     "date": "2026-11-05 14:07",
     "title": "[BTC/USD] DOWN: MA20割れリスクと弱気シナプスとの整合性を確認",
@@ -92,7 +164,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD oversold, bullish fundamentals, potential rebound toward MA20.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -104,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "中間選挙通過で政治的不透明感が剥落し、9-10月下落の希少アノマリーが反転上昇を示唆。テクニカル的にもRSI 39からMA20への平均回帰トレードが高確率で機能する局面。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -116,7 +188,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "excerpt": "S&P 500 below MA20, RSI 39; election volatility may test 7600 support before a bounce.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -140,7 +212,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "excerpt": "Risk-off flows surge on Hormuz threats and US political shifts. USD/JPY remains bearish below MA20, targeting 156.50 support.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
