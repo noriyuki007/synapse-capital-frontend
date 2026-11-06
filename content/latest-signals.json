@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: MA20近傍のリスクオフ売りとファンダメンタルズ整合性",
-    "date": "2026-11-06 13:59",
+    "title": "USD/JPY分析：持ち合い局面における流動性ゾーンの特定",
+    "date": "2026-11-07 00:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "リスクオフセンチメントがUSD/JPYに下押し圧力をかける",
-      "テクニカルはMA20下押しながらRSI中立、方向感薄",
-      "dmm-fxでの実行によりスリッページ最小化と流動性確保"
+      "金利相関（近似）: -0.10で負相関傾向",
+      "テクニカル: 現在価格 158.19 と MA20 157.95 の位置関係が主導",
+      "需給: 上限帯 159.00 / 下限帯 156.90 / 直近高値 158.94 / 直近安値 156.10 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "マクロリスクオフとMA20下押しテクニカルがUSD/JPYに下方リスクを示唆。戦略的な売りエントリーを推奨する。現在の市場環境を踏まえたポジショニングと、[dmm-fx]利用時の流動性確認が鍵となる。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 158.19、RSI(53.44)、MA20(157.95)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "MA20下押しとリスクオフセンチメントによる売りバイアス",
-    "entry": "157.8650",
-    "tp": "157.5000",
-    "sl": "157.9350",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: Price below MA20 and bearish momentum",
-    "date": "2026-11-06 14:04",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
-    "tldr_points": [
-      "価格が20MAを下回り、弱気バイアスが形成されている",
-      "RSI 35はモメンタムの弱さを示唆",
-      "AIセクターの調整と雇用データ不確実性がショート圧力を強化"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500は20MAを下回り、AI関連株の急落や不確実なマクロ経済データを受け、近況では下落圧力が続く。",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500は20MAを下回り、AI関連株の急落や不確実なマクロ経済データを受け、近況では下落圧力が続く。",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 158.19、RSI(53.44)、MA20(157.95)を軸に、金利相関と需給帯から実行プランを整理する。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: MA20からの押し目とRSI上昇が反転シグナルを示唆",
+    "date": "2026-11-07 00:41",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "MA20下押し目でRSI上昇、短期的な上値余地あり",
+      "7659超えで上昇トレンド確認",
+      "流動性確保のInteractive Brokers利用でリスク管理を最適化"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P500はMA20下押し目でRSI上昇、テクニカル的に上値余地あり、流動性確保のブローカー利用を推奨。",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "MA20下押し目とRSI上昇が反転シグナルを示し、流動性確保のInteractive Brokers利用でリスク管理が可能",
+    "entry": "7450.00",
+    "tp": "7700.00",
+    "sl": "7300.00",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20割れと流動性悪化が下押しを優先",
-    "date": "2026-11-06 14:05",
+    "title": "[BTC/USD] DOWN: Declining MA20 and ETF outflows suggest bearish bias",
+    "date": "2026-11-07 00:43",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTC/USDはMA20割れリスクが優先",
-      "流動性悪化とクジラ売りが下押し圧力",
-      "押し目売りは厳格リスク管理で"
+      "BTC below MA20, bearish macro catalysts",
+      "ETF outflows and mining revenue slump",
+      "Technical structure favors further downside"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDはMA20割れと流動性悪化で下押し。リスクを伴う逆風レンジへ。",
+    "excerpt": "BTC under pressure: price below MA20, ETF outflows, mining revenue slump suggest further decline.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "MA20割れと流動性悪化で下押し、押し目売りが優先",
-    "entry": "75200",
-    "tp": "73600",
-    "sl": "77000",
+    "comment": "テクニカルとマクロの弱気シグナルが一致し、さらなる下落が予想される。",
+    "entry": "70500",
+    "tp": "62000",
+    "sl": "72500",
     "reliability": "MEDIUM"
   }
 }
