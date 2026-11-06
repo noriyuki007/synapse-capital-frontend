@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY分析：持ち合い局面における流動性ゾーンの特定",
-    "date": "2026-11-07 00:39",
+    "title": "USD/JPYの見通し：需給バランスから見る「押し目買い」の優位性",
+    "date": "2026-11-07 06:16",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "金利相関（近似）: -0.10で負相関傾向",
-      "テクニカル: 現在価格 158.19 と MA20 157.95 の位置関係が主導",
-      "需給: 上限帯 159.00 / 下限帯 156.90 / 直近高値 158.94 / 直近安値 156.10 によるターゲット設計"
+      "金利相関（近似）: -0.09で負相関傾向",
+      "テクニカル: 現在価格 158.50 と MA20 157.96 の位置関係が主導",
+      "需給: 上限帯 159.03 / 下限帯 156.89 / 直近高値 158.94 / 直近安値 156.10 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 158.19、RSI(53.44)、MA20(157.95)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 158.50、RSI(56.21)、MA20(157.96)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "本日のAI解析では、USD/JPYの現在価格 158.19、RSI(53.44)、MA20(157.95)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 158.50、RSI(56.21)、MA20(157.96)を軸に、金利相関と需給帯から実行プランを整理する。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20からの押し目とRSI上昇が反転シグナルを示唆",
-    "date": "2026-11-07 00:41",
+    "title": "[S&P 500] DOWN: MA20下抜けとヘッジファンドのデレバレッジ加速を確認",
+    "date": "2026-11-07 06:19",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
     "tldr_points": [
-      "MA20下押し目でRSI上昇、短期的な上値余地あり",
-      "7659超えで上昇トレンド確認",
-      "流動性確保のInteractive Brokers利用でリスク管理を最適化"
+      "MA20を明確に下抜け下落トレンド継続中、RSIは34.7で売られ過ぎ水準に接近",
+      "雇用統計強で長期金利上昇、ヘッジファンドのポジション解消が需給悪化を加速",
+      "戻り売り戦略が有効、MA20(7658)付近までのリバウンドをショート機会と捉える"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P500はMA20下押し目でRSI上昇、テクニカル的に上値余地あり、流動性確保のブローカー利用を推奨。",
+    "excerpt": "S&P500はMA20を下抜け7377まで下落。雇用統計受けの金利上昇とヘッジファンドのデレバレッジが重しとなり、戻り売り優勢の展開続く。",
     "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "MA20下押し目とRSI上昇が反転シグナルを示し、流動性確保のInteractive Brokers利用でリスク管理が可能",
-    "entry": "7450.00",
-    "tp": "7700.00",
-    "sl": "7300.00",
-    "reliability": "HIGH"
+    "status": "SELL",
+    "comment": "金利上昇とHFデレバレッジによる構造的売り圧力、MA20下抜け継続で戻り売り優位",
+    "entry": "7575",
+    "tp": "7200",
+    "sl": "7680",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Declining MA20 and ETF outflows suggest bearish bias",
-    "date": "2026-11-07 00:43",
+    "title": "[BTC/USD] DOWN: RSIオーバーロードと利回り上昇が下押し圧力を維持",
+    "date": "2026-11-07 06:20",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "BTC below MA20, bearish macro catalysts",
-      "ETF outflows and mining revenue slump",
-      "Technical structure favors further downside"
+      "RSI 34.76はMA20下でのオーバーロード状態を示す",
+      "米財務省の規制動向とMXC切断が流動性リスクを悪化",
+      "機関の401(k)参加は長期プラスだが短期的な材料限定"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC under pressure: price below MA20, ETF outflows, mining revenue slump suggest further decline.",
+    "excerpt": "BTC/USD 75779でRSIオーバーロード、MA20下落トレンド継続か。規制・利回り要因が下押し圧力を強める。",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "テクニカルとマクロの弱気シグナルが一致し、さらなる下落が予想される。",
-    "entry": "70500",
-    "tp": "62000",
-    "sl": "72500",
+    "comment": "RSIオーバーロードとMA20抵抗に基づくショートバイアス",
+    "entry": "75778.84",
+    "tp": "73000.00",
+    "sl": "79800.00",
     "reliability": "MEDIUM"
   }
 }
