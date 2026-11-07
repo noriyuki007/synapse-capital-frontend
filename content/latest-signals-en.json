@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Flags MA20 Support as Labor Data Validates Dollar Demand",
-    "date": "2026-11-07 13:31",
+    "title": "[USD/JPY] UP: AI Flags MA20 Support as Fundamentals Turn Firm",
+    "date": "2026-11-07 23:39",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Non-farm payroll beat keeps Fed narrative intact",
-      "USD/JPY rejected below key dip zone but MA20 acts as near-term magnet",
-      "Execution via [xm-trading] recommended for liquidity"
+      "USD/JPY holds above MA20 while NFP beat supports near-term USD strength.",
+      "Gold and equity headlines remain mixed, but spot USD/JPY lacks bearish momentum.",
+      "Tactical bias is long with risk defined near MA20."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY rebounds toward MA20 as NFP beat validates dollar bid; risk remains on yield trigger.",
+    "excerpt": "USD/JPY defends key levels as NFP beat fuels USD; bias stays cautiously bullish.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Non-farm payroll beat and Fed Daly commentary support near-term USD tone, while price holds above key dip zone near MA20.",
-    "entry": "157.50",
-    "tp": "157.91",
-    "sl": "157.20",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: Price Below MA20 and RSI Bearish as Growth Selloff Persists",
-    "date": "2026-11-07 13:33",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "S&P 500 closed below its 20-day moving average at 7657.80.",
-      "RSI-14 at 34.73 signals weakening momentum without yet oversold.",
-      "Tactical bias favors downside continuation with defined risk."
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 breakdown persists as price slips below MA20; RSI bearish, strategy favors downside.",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "S&P 500 breakdown persists as price slips below MA20; RSI bearish, strategy favors downside.",
+    "comment": "USD/JPY defends key levels as NFP beat fuels USD; bias stays cautiously bullish.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] UP: Oversold Bounce Setup as Mega-Cap Valuation Discount Emerges",
+    "date": "2026-11-07 23:44",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "https://hirose-fx.co.jp/",
+    "tldr_points": [
+      "S&P 500 trades 3.7% below MA20 with RSI at 34.7, signaling oversold mean-reversion opportunity",
+      "Tech sector valuation discount vs broad index first since 2017 provides fundamental anchor for mega-cap leadership",
+      "Democratic sweep historically correlates with above-average S&P 500 returns over subsequent 12 months"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "Oversold technicals converge with historic tech valuation discount and post-election tailwinds for tactical long bias.",
+    "pair": "S&P 500",
+    "status": "BUY",
+    "comment": "Oversold bounce setup at 38.2% Fib with tech valuation discount and post-election tailwind",
+    "entry": "7370.00",
+    "tp": "7658.00",
+    "sl": "7235.00",
+    "reliability": "HIGH"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Detects Resistance at MA20 as Fundamental Catalysts Favor Rate-Driven Bearishness",
-    "date": "2026-11-07 13:35",
+    "title": "[BTC/USD] DOWN: Break Below MA20 Signals Continuation as Oversold Conditions Limit Immediate Drawdown",
+    "date": "2026-11-07 23:46",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price break below MA20 with RSI depresssing below 35 signals persistent distribution.",
-      "Trump administration advancing crypto-in-401k legislation provides tailwind, but immediate technicals dominate.",
-      "MEXC sanctions and Binance hack news drag global sentiment downward pre-election regulatory clarity."
+      "Price action confirms bearish structure trading 4.4% below the 20-day moving average",
+      "RSI at 35.66 approaches oversold threshold, increasing probability of a tactical counter-trend bounce",
+      "Regulatory overhang from MEXC sanctions offsets positive policy signals on retirement allocation"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC faces structural resistance at MA20; current downtrend suggests immediate downside risk despite new 401(k) catalyst.",
+    "excerpt": "BTC/USD remains structurally bearish below MA20; oversold RSI suggests near-term consolidation before next leg lower.",
     "pair": "BTC/USD",
     "status": "SELL",
-    "comment": "Price breakdown below MA20 with RSI exhaustion signaling strong downside momentum; 401(k) news provides limited near-term support.",
-    "entry": "79645.56",
-    "tp": "72000",
-    "sl": "78500",
+    "comment": "Bearish structure intact below MA20; fade rallies into 78.5K-79K resistance zone with oversold RSI limiting downside momentum.",
+    "entry": "78750",
+    "tp": "73000",
+    "sl": "79600",
     "reliability": "MEDIUM"
   }
 }
