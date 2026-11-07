@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Flags MA20 Support as Fundamentals Turn Firm",
-    "date": "2026-11-07 23:39",
+    "title": "[USD/JPY] UP: AI Detects MA20 Support as Fundamentals Turn Bullish",
+    "date": "2026-11-08 04:51",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY holds above MA20 while NFP beat supports near-term USD strength.",
-      "Gold and equity headlines remain mixed, but spot USD/JPY lacks bearish momentum.",
-      "Tactical bias is long with risk defined near MA20."
+      "USD/JPY holds above MA20 as AI and NFP momentum favor upside.",
+      "Non-farm payrolls beat supports near-term USD bid tone.",
+      "Key risk is reversal below 157.925; tight invalidation advised."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY defends key levels as NFP beat fuels USD; bias stays cautiously bullish.",
+    "excerpt": "USD/JPY defends MA20 as NFP beat fuels USD; momentum eyes upside confirmation.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPY defends key levels as NFP beat fuels USD; bias stays cautiously bullish.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "USD/JPY holds above MA20 with NFP-driven USD momentum; upside strategy favored.",
+    "entry": "157.925",
+    "tp": "159.20",
+    "sl": "157.55",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: Oversold Bounce Setup as Mega-Cap Valuation Discount Emerges",
-    "date": "2026-11-07 23:44",
+    "title": "[S&P 500] UP: Oversold RSI Signals Tactical Rebound Toward MA20",
+    "date": "2026-11-08 04:53",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "https://hirose-fx.co.jp/",
+    "recommended_broker": "Interactive Brokers",
     "tldr_points": [
-      "S&P 500 trades 3.7% below MA20 with RSI at 34.7, signaling oversold mean-reversion opportunity",
-      "Tech sector valuation discount vs broad index first since 2017 provides fundamental anchor for mega-cap leadership",
-      "Democratic sweep historically correlates with above-average S&P 500 returns over subsequent 12 months"
+      "The S&P 500 suffered its worst week since the April 2025 tariff crash, breaking below key moving averages.",
+      "RSI(14) has reached 34.73, signaling extreme oversold conditions and a high-probability tactical rebound.",
+      "A strategic long entry is advised near current levels with a target toward the 20-day moving average at 7657.80."
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Oversold technicals converge with historic tech valuation discount and post-election tailwinds for tactical long bias.",
+    "excerpt": "S&P 500 drops to 7376.86 with oversold RSI at 34.73, signaling a strong tactical rebound toward MA20 resistance at 7657.80.",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "Oversold bounce setup at 38.2% Fib with tech valuation discount and post-election tailwind",
-    "entry": "7370.00",
-    "tp": "7658.00",
-    "sl": "7235.00",
-    "reliability": "HIGH"
+    "comment": "Oversold RSI at 34.73 and sharp discount to MA20 signal a tactical rebound toward 7657.80.",
+    "entry": "7376.86",
+    "tp": "7657.80",
+    "sl": "7250.00",
+    "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Break Below MA20 Signals Continuation as Oversold Conditions Limit Immediate Drawdown",
-    "date": "2026-11-07 23:46",
+    "title": "[BTC/USD] DOWN: ETF Outflows Cap Rebound as Price Fails at MA20",
+    "date": "2026-11-08 04:56",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price action confirms bearish structure trading 4.4% below the 20-day moving average",
-      "RSI at 35.66 approaches oversold threshold, increasing probability of a tactical counter-trend bounce",
-      "Regulatory overhang from MEXC sanctions offsets positive policy signals on retirement allocation"
+      "BTC ETF outflows widen to worst week since June",
+      "Price rejected below key MA20 resistance at 79327.16",
+      "RSI-14 at 35.14 signals bearish momentum with room to sell"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD remains structurally bearish below MA20; oversold RSI suggests near-term consolidation before next leg lower.",
+    "excerpt": "BTC/USD remains pressured as ETF outflows hit multi-month highs; price below MA20.",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Bearish structure intact below MA20; fade rallies into 78.5K-79K resistance zone with oversold RSI limiting downside momentum.",
-    "entry": "78750",
-    "tp": "73000",
-    "sl": "79600",
+    "status": "NEUTRAL",
+    "comment": "BTC/USD remains pressured as ETF outflows hit multi-month highs; price below MA20.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }

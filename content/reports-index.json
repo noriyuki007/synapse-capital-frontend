@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-11-08-crypto-ja",
+    "date": "2026-11-08 04:56",
+    "title": "BTC/USD戦略：ベア相場におけるドローダウン極小化プロトコル",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 75683.22、RSI(35.14)、MA20(79327.16)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-08-crypto-en",
+    "date": "2026-11-08 04:56",
+    "title": "[BTC/USD] DOWN: ETF Outflows Cap Rebound as Price Fails at MA20",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD remains pressured as ETF outflows hit multi-month highs; price below MA20.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-08-stocks-ja",
+    "date": "2026-11-08 04:53",
+    "title": "S&P 500戦略：ベア相場におけるドローダウン極小化プロトコル",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 7376.86、RSI(34.73)、MA20(7657.80)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-08-stocks-en",
+    "date": "2026-11-08 04:53",
+    "title": "[S&P 500] UP: Oversold RSI Signals Tactical Rebound Toward MA20",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 drops to 7376.86 with oversold RSI at 34.73, signaling a strong tactical rebound toward MA20 resistance at 7657.80.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-08-fx-ja",
+    "date": "2026-11-08 04:51",
+    "title": "戦術的インサイト：USD/JPYの均衡状態とブレイク条件の定義",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 158.43、RSI(49.25)、MA20(157.92)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-08-fx-en",
+    "date": "2026-11-08 04:51",
+    "title": "[USD/JPY] UP: AI Detects MA20 Support as Fundamentals Turn Bullish",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY defends MA20 as NFP beat fuels USD; momentum eyes upside confirmation.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-11-07-crypto-ja",
     "date": "2026-11-07 23:46",
     "title": "警戒アラート：BTC/USDの構造的変化と下落リスクの徹底検証",
