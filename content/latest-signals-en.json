@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: NFP Beat Drives Dollar Higher, Technicals Eye 159.00",
-    "date": "2026-11-08 13:17",
+    "title": "[USD/JPY] DOWN: AI Detects Momentum Neutrality as Fundamentals Shift",
+    "date": "2026-11-08 23:45",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "NFP beat estimates reinforce USD bullish bias",
-      "Price holds above MA20 with RSI neutral, targeting 159.00 resistance",
-      "Gold strength and geopolitical headlines cap upside, maintaining caution"
+      "RSI(14) sits near 49 reflecting directional caution",
+      "Price pinning above MA20 signals a lack of breakout conviction",
+      "NFP-driven USD strength creates structural JPY headwinds"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Strong NFP beat estimates fuel USD/JPY upside bias as price challenges MA20 resistance, eyeing 159.00 with neutral RSI maintaining bullish bias.",
+    "excerpt": "AI detects a definite absence of bullish momentum; price pins near MA20 while broad USD strength from payrolls exerts downside pressure on USD/JPY.",
     "pair": "USD/JPY",
+    "status": "SELL",
+    "comment": "RSI neutrality and price pinning above MA20 amid USD strength from payrolls indicate a lack of bullish momentum.",
+    "entry": "158.75",
+    "tp": "157.92",
+    "sl": "159.20",
+    "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] DOWN: Bearish MA20 Resistance and AI Risk Aversion Persist",
+    "date": "2026-11-08 23:51",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "tldr_points": [
+      "S&P 500 below key MA20 with RSI near oversold",
+      "Buffett and Yardeni warnings highlight stretched AI optimism",
+      "Tactical bias favors downside resolution unless MA20 reclaim fails"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 tests bearish MA20 resistance as AI optimism faces scrutiny; Buffett warnings add risk.",
+    "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "Price rejection at MA20 and RSI bearish alignment justify defensive short bias.",
+    "entry": "7350.00",
+    "tp": "7280.00",
+    "sl": "7430.00",
+    "reliability": "MEDIUM"
+  },
+  "CRYPTO": {
+    "title": "[BTC/USD] DOWN: AI Identifies MA20 Resistance as ETF Outflows Persist",
+    "date": "2026-11-08 23:52",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "tldr_points": [
+      "ETF outflows signal institutional redemption pressure",
+      "Price remains below MA20 with RSI indicating bearish momentum",
+      "Regulatory headwinds offset by reduced compliance burden"
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "BTC holds below MA20 amid $1.28B ETF outflow wave and regulatory crackdowns, biasing near-term downside risk.",
+    "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "Strong NFP beat estimates fuel USD/JPY upside bias as price challenges MA20 resistance, eyeing 159.00 with neutral RSI maintaining bullish bias.",
+    "comment": "BTC holds below MA20 amid $1.28B ETF outflow wave and regulatory crackdowns, biasing near-term downside risk.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: Support at MA20 Fails Amid Weak Fundamentals",
-    "date": "2026-11-08 13:22",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "[Schwab]",
-    "tldr_points": [
-      "AI trade reversal pressures equities",
-      "Price below MA20 with bearish RSI",
-      "Energy sector rotation but overall risk-off"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 under pressure below MA20, RSI low, AI trade reversal fuels bearish outlook.",
-    "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Bearish technical breakdown and weak fundamentals suggest further downside.",
-    "entry": "7376.86",
-    "tp": "7200.00",
-    "sl": "7650.00",
-    "reliability": "MEDIUM"
-  },
-  "CRYPTO": {
-    "title": "[BTC/USD] [UP] [Bullish on ETF outflows and regulatory clarity]",
-    "date": "2026-11-08 13:25",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
-    "recommended_broker": "bybit",
-    "tldr_points": [
-      "Key point 1",
-      "Key point 2",
-      "Key point 3"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD at 75843.93 with MA20 at 79335.19 and RSI-14 at 35.64. ETF outflows and regulatory clarity create bullish sentiment",
-    "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "RSI at neutral territory with support at MA20 and bullish ETF sentiment.",
-    "entry": "75600",
-    "tp": "82000",
-    "sl": "75000",
-    "reliability": "HIGH"
   }
 }
