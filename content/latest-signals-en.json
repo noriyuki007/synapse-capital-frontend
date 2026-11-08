@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects MA20 Support as Fundamentals Turn Bullish",
-    "date": "2026-11-08 04:51",
+    "title": "[USD/JPY] UP: NFP Beat Drives Dollar Higher, Technicals Eye 159.00",
+    "date": "2026-11-08 13:17",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY holds above MA20 as AI and NFP momentum favor upside.",
-      "Non-farm payrolls beat supports near-term USD bid tone.",
-      "Key risk is reversal below 157.925; tight invalidation advised."
+      "NFP beat estimates reinforce USD bullish bias",
+      "Price holds above MA20 with RSI neutral, targeting 159.00 resistance",
+      "Gold strength and geopolitical headlines cap upside, maintaining caution"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY defends MA20 as NFP beat fuels USD; momentum eyes upside confirmation.",
+    "excerpt": "Strong NFP beat estimates fuel USD/JPY upside bias as price challenges MA20 resistance, eyeing 159.00 with neutral RSI maintaining bullish bias.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "USD/JPY holds above MA20 with NFP-driven USD momentum; upside strategy favored.",
-    "entry": "157.925",
-    "tp": "159.20",
-    "sl": "157.55",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: Oversold RSI Signals Tactical Rebound Toward MA20",
-    "date": "2026-11-08 04:53",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "The S&P 500 suffered its worst week since the April 2025 tariff crash, breaking below key moving averages.",
-      "RSI(14) has reached 34.73, signaling extreme oversold conditions and a high-probability tactical rebound.",
-      "A strategic long entry is advised near current levels with a target toward the 20-day moving average at 7657.80."
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 drops to 7376.86 with oversold RSI at 34.73, signaling a strong tactical rebound toward MA20 resistance at 7657.80.",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Oversold RSI at 34.73 and sharp discount to MA20 signal a tactical rebound toward 7657.80.",
-    "entry": "7376.86",
-    "tp": "7657.80",
-    "sl": "7250.00",
-    "reliability": "MEDIUM"
-  },
-  "CRYPTO": {
-    "title": "[BTC/USD] DOWN: ETF Outflows Cap Rebound as Price Fails at MA20",
-    "date": "2026-11-08 04:56",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "bybit",
-    "tldr_points": [
-      "BTC ETF outflows widen to worst week since June",
-      "Price rejected below key MA20 resistance at 79327.16",
-      "RSI-14 at 35.14 signals bearish momentum with room to sell"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD remains pressured as ETF outflows hit multi-month highs; price below MA20.",
-    "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "BTC/USD remains pressured as ETF outflows hit multi-month highs; price below MA20.",
+    "comment": "Strong NFP beat estimates fuel USD/JPY upside bias as price challenges MA20 resistance, eyeing 159.00 with neutral RSI maintaining bullish bias.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] DOWN: Support at MA20 Fails Amid Weak Fundamentals",
+    "date": "2026-11-08 13:22",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "[Schwab]",
+    "tldr_points": [
+      "AI trade reversal pressures equities",
+      "Price below MA20 with bearish RSI",
+      "Energy sector rotation but overall risk-off"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 under pressure below MA20, RSI low, AI trade reversal fuels bearish outlook.",
+    "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "Bearish technical breakdown and weak fundamentals suggest further downside.",
+    "entry": "7376.86",
+    "tp": "7200.00",
+    "sl": "7650.00",
+    "reliability": "MEDIUM"
+  },
+  "CRYPTO": {
+    "title": "[BTC/USD] [UP] [Bullish on ETF outflows and regulatory clarity]",
+    "date": "2026-11-08 13:25",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "tldr_points": [
+      "Key point 1",
+      "Key point 2",
+      "Key point 3"
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "BTC/USD at 75843.93 with MA20 at 79335.19 and RSI-14 at 35.64. ETF outflows and regulatory clarity create bullish sentiment",
+    "pair": "BTC/USD",
+    "status": "BUY",
+    "comment": "RSI at neutral territory with support at MA20 and bullish ETF sentiment.",
+    "entry": "75600",
+    "tp": "82000",
+    "sl": "75000",
+    "reliability": "HIGH"
   }
 }
