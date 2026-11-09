@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY: Range-Bound Cautiousness and Tactical Execution",
-    "date": "2026-11-09 05:09",
+    "title": "[USD/JPY] DOWN: Intervention and Risk‑Off Pressure Override Technical Strength",
+    "date": "2026-11-09 13:31",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Interest Correlation (Approx): -0.13 (Negative)",
-      "Technical: Driven by Price 158.39 vs MA20 157.92",
-      "Liquidity: Targets based on Upper Band 159.00 / Lower Band 156.85 / Recent High 158.94 / Recent Low 156.10"
+      "Japan's $50bn yen‑defence intervention creates immediate USD/JPY headwinds",
+      "Weak Chinese CPI and risk‑off sentiment favour JPY safe‑haven demand",
+      "Technical pullback expected toward 20‑MA at 157.92 as RSI stays neutral"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 158.39, RSI(48.99), and MA20(157.92).",
+    "excerpt": "USD/JPY faces downward pressure from yen intervention and risk‑off fundamentals despite price above MA20.",
     "pair": "USD/JPY",
+    "status": "SELL",
+    "comment": "JPY intervention and risk‑off fundamentals outweigh modest technical strength",
+    "entry": "158.30",
+    "tp": "157.00",
+    "sl": "159.30",
+    "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "S&P 500: AI Analytics Detects Bearish Structural Shift",
+    "date": "2026-11-09 13:33",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "tldr_points": [
+      "Interest Correlation (Approx): 0.31 (Positive)",
+      "Technical: Driven by Price 7376.86 vs MA20 7657.80",
+      "Liquidity: Targets based on Upper Band 7903.27 / Lower Band 7412.34 / Recent High 7821.67 / Recent Low 7350.35"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7376.86, RSI(34.73), and MA20(7657.80).",
+    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for USD/JPY around Price 158.39, RSI(48.99), and MA20(157.92).",
+    "comment": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7376.86, RSI(34.73), and MA20(7657.80).",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: Price Below MA20 as RSI Weakens",
-    "date": "2026-11-09 05:13",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "S&P 500 at 7376.86 below MA20 of 7657.80.",
-      "RSI-14 at 34.73 indicates weakening momentum.",
-      "Tactical bias remains bearish; key risk defines downside."
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 holds below MA20 as RSI softens; bearish momentum favors tactical shorts toward key resistance.",
-    "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Price below MA20 and RSI at 34.73 signal bearish momentum.",
-    "entry": "7600.00",
-    "tp": "7350.00",
-    "sl": "7730.00",
-    "reliability": "MEDIUM"
-  },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Detects Bearish Divergence as ETF Outflows Spike",
-    "date": "2026-11-09 05: colect",
+    "title": "BTC/USD: AI Analytics Detects Bearish Structural Shift",
+    "date": "2026-11-09 13:35",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Price below 20‑day MA as ETF outflows surge",
-      "RSI at 37 suggests weak momentum",
-      "Negative headlines increase bear risk"
+      "Interest Correlation (Approx): 0.28 (Positive)",
+      "Technical: Driven by Price 74917.56 vs MA20 78983.58",
+      "Liquidity: Targets based on Upper Band 84195.11 / Lower Band 73772.05 / Recent High 84840.05 / Recent Low 74508.44"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD vulnerable; price under MA20, ETF flows negative, momentum weakening.",
+    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 74917.56, RSI(35.14), and MA20(78983.58).",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Bearish divergence below MA20 and negative ETF flows drive short bias.",
-    "entry": "75800.00",
-    "tp": "70200.00",
-    "sl": "78500.00",
+    "status": "NEUTRAL",
+    "comment": "Today's AI analysis outlines the execution plan for BTC/USD around Price 74917.56, RSI(35.14), and MA20(78983.58).",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
