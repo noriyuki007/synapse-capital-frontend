@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY分析：持ち合い局面における流動性ゾーンの特定",
-    "date": "2026-11-10 14:52",
+    "title": "[USD/JPY] UP: Hot CPI Fuels Yield Surge and USD Strength Above MA20",
+    "date": "2026-11-11 01:04",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "FLAT",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "金利相関（近似）: -0.00で負相関傾向",
-      "テクニカル: 現在価格 158.05 と MA20 157.89 の位置関係が主導",
-      "需給: 上限帯 158.92 / 下限帯 156.87 / 直近高値 158.94 / 直近安値 156.10 によるターゲット設計"
+      "October core CPI beats expectations (+0.3% vs +0.2%), triggering yield spike",
+      "Fed's Waller opens door for 50bps December hike, boosting USD",
+      "Price holds above MA20 (157.93) with RSI neutral (53.5), supporting upside bias"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 158.05、RSI(48.29)、MA20(157.89)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "Hotter-than-expected October CPI drives US yields higher and revives aggressive Fed tightening bets, propelling USD/JPY above key moving average support with a constructive technical backdrop.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、USD/JPYの現在価格 158.05、RSI(48.29)、MA20(157.89)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
+    "status": "BUY",
+    "comment": "CPI beat and hawkish Waller drive yield advantage; price above MA20 with neutral RSI allows room for extension.",
+    "entry": "158.60",
+    "tp": "159.80",
+    "sl": "157.50",
+    "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "警戒アラート：S&P 500の構造的変化と下落リスクの徹底検証",
-    "date": "2026-11-10 15:07",
+    "title": "S&P 500戦略：ベア相場におけるドローダウン極小化プロトコル",
+    "date": "2026-11-11 01:06",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "金利相関（近似）: 0.35で正相関傾向",
-      "テクニカル: 現在価格 7549.94 と MA20 7644.94 の位置関係が主導",
-      "需給: 上限帯 7884.32 / 下限帯 7405.56 / 直近高値 7814.15 / 直近安値 7350.35 によるターゲット設計"
+      "金利相関（近似）: 0.26で正相関傾向",
+      "テクニカル: 現在価格 7496.59 と MA20 7629.49 の位置関係が主導",
+      "需給: 上限帯 7865.10 / 下限帯 7393.89 / 直近高値 7789.15 / 直近安値 7350.35 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 7549.94、RSI(43.10)、MA20(7644.94)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 7496.59、RSI(39.03)、MA20(7629.49)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "本日のAI解析では、S&P 500の現在価格 7549.94、RSI(43.10)、MA20(7644.94)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "comment": "本日のAI解析では、S&P 500の現在価格 7496.59、RSI(39.03)、MA20(7629.49)を軸に、金利相関と需給帯から実行プランを整理する。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: MA20超え下抜けとRSI低下、利益確定売圧が支配",
-    "date": "2026-11-10 15:13",
+    "title": "[BTC/USD] UP: Oversold RSI and MA20 support point to a short‑term rebound",
+    "date": "2026-11-11 01:10",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "MA20超え下抜けで下値リスクが顕在化",
-      "RSI34のoversoldも利益確定売圧が支配的",
-      "bitflyerで流動性確保の短期ショートを推奨"
+      "Canaan’s Q3 mining hardware revenue collapse highlights sector stress",
+      "Moody’s‑Chainlink cross‑chain rating pilot adds institutional credibility",
+      "Bitdeer’s Q3 revenue surge offsets widening net loss, suggesting operational resilience"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "74,558でMA20下抜け、RSI34のoversoldも利益確定売圧で下値リスクが高まる。bitflyerで流動性確保の短期ショート推奨。リスク管理を徹底し、止損は74,200に設定。市場の流動性リスクも考慮してください。",
+    "excerpt": "BTC at $73.2k trades below 20‑day MA; RSI 30 signals oversold, while mixed fundamentals create a short‑term bullish bias.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "74,558でMA20下抜け、RSI34のoversoldも利益確定売圧で下値リスクが高まる。bitflyerで流動性確保の短期ショート推奨。リスク管理を徹底し、止損は74,200に設定。市場の流動性リスクも考慮してください。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "RSI 30.4 + MA20 support suggests short‑term rebound; enter near $73k with tight stop.",
+    "entry": "73050",
+    "tp": "78000",
+    "sl": "71500",
     "reliability": "MEDIUM"
   }
 }
