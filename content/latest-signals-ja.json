@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Hot CPI Fuels Yield Surge and USD Strength Above MA20",
-    "date": "2026-11-11 01:04",
+    "title": "戦術的インサイト：USD/JPYの均衡状態とブレイク条件の定義",
+    "date": "2026-11-11 13:35",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "FLAT",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "October core CPI beats expectations (+0.3% vs +0.2%), triggering yield spike",
-      "Fed's Waller opens door for 50bps December hike, boosting USD",
-      "Price holds above MA20 (157.93) with RSI neutral (53.5), supporting upside bias"
+      "金利相関（近似）: -0.05で負相関傾向",
+      "テクニカル: 現在価格 158.82 と MA20 157.92 の位置関係が主導",
+      "需給: 上限帯 159.01 / 下限帯 156.82 / 直近高値 158.96 / 直近安値 156.10 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Hotter-than-expected October CPI drives US yields higher and revives aggressive Fed tightening bets, propelling USD/JPY above key moving average support with a constructive technical backdrop.",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 158.82、RSI(54.78)、MA20(157.92)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "CPI beat and hawkish Waller drive yield advantage; price above MA20 with neutral RSI allows room for extension.",
-    "entry": "158.60",
-    "tp": "159.80",
-    "sl": "157.50",
-    "reliability": "HIGH"
-  },
-  "STOCKS": {
-    "title": "S&P 500戦略：ベア相場におけるドローダウン極小化プロトコル",
-    "date": "2026-11-11 01:06",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "",
-    "tldr_points": [
-      "金利相関（近似）: 0.26で正相関傾向",
-      "テクニカル: 現在価格 7496.59 と MA20 7629.49 の位置関係が主導",
-      "需給: 上限帯 7865.10 / 下限帯 7393.89 / 直近高値 7789.15 / 直近安値 7350.35 によるターゲット設計"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 7496.59、RSI(39.03)、MA20(7629.49)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "本日のAI解析では、S&P 500の現在価格 7496.59、RSI(39.03)、MA20(7629.49)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 158.82、RSI(54.78)、MA20(157.92)を軸に、金利相関と需給帯から実行プランを整理する。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
+  "STOCKS": {
+    "title": "[S&P 500] DOWN: MA20割れリスクとインフレ再燃で下押し",
+    "date": "2026-11-11 13:37",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "S&P 500はMA20（7630.71）を上抜けできず",
+      "Red-Hot InflationとNvidia Lossが売り圧力",
+      "RSI39.85は下側リスクを残す"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500はMA20割れリスクを抱え、インフレ再燃とNvidia減価が下押し圧力。リスク管理を徹底。",
+    "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "MA20割れリスクとインフレ再燃で下押し、需給悪化",
+    "entry": "7508.00",
+    "tp": "7390.00",
+    "sl": "7558.00",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Oversold RSI and MA20 support point to a short‑term rebound",
-    "date": "2026-11-11 01:10",
+    "title": "BTC/USD戦略：ベア相場におけるドローダウン極小化プロトコル",
+    "date": "2026-11-11 13:39",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "Canaan’s Q3 mining hardware revenue collapse highlights sector stress",
-      "Moody’s‑Chainlink cross‑chain rating pilot adds institutional credibility",
-      "Bitdeer’s Q3 revenue surge offsets widening net loss, suggesting operational resilience"
+      "金利相関（近似）: 0.30で正相関傾向",
+      "テクニカル: 現在価格 73710.71 と MA20 78065.98 の位置関係が主導",
+      "需給: 上限帯 83007.46 / 下限帯 73124.50 / 直近高値 84301.28 / 直近安値 73264.47 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC at $73.2k trades below 20‑day MA; RSI 30 signals oversold, while mixed fundamentals create a short‑term bullish bias.",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 73710.71、RSI(31.19)、MA20(78065.98)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "RSI 30.4 + MA20 support suggests short‑term rebound; enter near $73k with tight stop.",
-    "entry": "73050",
-    "tp": "78000",
-    "sl": "71500",
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、BTC/USDの現在価格 73710.71、RSI(31.19)、MA20(78065.98)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
