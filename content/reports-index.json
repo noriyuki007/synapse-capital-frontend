@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-11-12-crypto-ja",
+    "date": "2026-11-12 01:02",
+    "title": "BTC/USD：AI解析が示す下落シナリオと防御的ポジション管理",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 73956.22、RSI(30.37)、MA20(77698.66)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-12-crypto-en",
+    "date": "2026-11-12 01:02",
+    "title": "[BTC/USD] DOWN: Options sentiment and price below MA20 suggest further correction",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC falling below MA20, RSI low, options hint sub‑70k; bearish outlook.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-12-stocks-ja",
+    "date": "2026-11-12 00:50",
+    "title": "S&P 500：レンジ圏内での警戒感とプロフェッショナル実行戦略",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 7599.07、RSI(47.20)、MA20(7624.72)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-12-stocks-en",
+    "date": "2026-11-12 00:50",
+    "title": "S&P 500: Range-Bound Cautiousness and Tactical Execution",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7599.07, RSI(47.20), and MA20(7624.72).",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-12-fx-ja",
+    "date": "2026-11-12 00:50",
+    "title": "[USD/JPY] UP: 高CPI後のドル買い継続とMA20上方維持を背景とした順張り買い",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "159.86のUSD/JPYはMA20と高CPI後のドル買いに支えられ上値を探る。地政学リスクは原油を不安定化させるが、為替は米国側の金利期待を主導要因と見る。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-12-fx-en",
+    "date": "2026-11-12 00:50",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY at 159.86, MA20 at 157.97, RSI 60.5; bullish bias with support intact",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-11-11-crypto-ja",
     "date": "2026-11-11 13:39",
     "title": "BTC/USD戦略：ベア相場におけるドローダウン極小化プロトコル",
@@ -140,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY 158.05 bullish on AI‑driven fundamentals and MA20 support.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
