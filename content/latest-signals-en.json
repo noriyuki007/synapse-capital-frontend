@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Price Above MA20 Amid Fed Hike Expectations",
-    "date": "2026-11-12 14:40",
+    "title": "[USD/JPY] DOWN: AI Detects Overbought Extension Above MA20 Amid Risk-Off Tone",
+    "date": "2026-11-13 01:33",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Fed-driven USD strength propels pair higher than MA20",
-      "Technical structure favors upside break of 160.00 psychological level",
-      "RSI overbought warrants caution on pullback toward 158.00"
+      "USD/JPY is stretched above MA20 with RSI in overbought territory",
+      "Nvidia headline risk and softer US housing data reduce USD tailwind",
+      "Tactical downside favors fading strength toward 158.00"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY rallies toward 160.00 on Fed hike bets, RSI overbought but bias bullish on US yield differentials in global markets.",
+    "excerpt": "USD/JPY is stretched above MA20 with RSI overbought, while risk-off tone favors a tactical fade towards 158.00 supports.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPY rallies toward 160.00 on Fed hike bets, RSI overbought but bias bullish on US yield differentials in global markets.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "Overbought RSI and extended price above MA20 favor a tactical downside into 158.00.",
+    "entry": "160.20",
+    "tp": "158.10",
+    "sl": "161.00",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects MA20 Support as Tech Breadth Stabilizes",
-    "date": "2026-11-12 14:46",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-11-13 01:35",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "UP",
-    "recommended_broker": "Interactive Brokers",
+    "recommended_broker": "",
     "tldr_points": [
-      "S&P 500 holds below MA20 at 7625.73; RSI neutral at 48.11",
-      "AI leadership fallout caps tech upside, rotation cited",
-      "Tactical long bias favors MA20 retest with tight risk"
+      "NVIDIA leadership crisis creates short-term pressure but AI sector strength offsets it",
+      "MA20 support at 7620 resists with RSI at neutral 50.36 indicating balanced momentum",
+      "3 ETFs identified as long-term buy candidates if 2027 bear market begins"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 defends MA20 as AI leadership rotates; tactical bias stays long with tight risk.",
+    "excerpt": "S&P 500 at 7631.81 with MA20 at 7620.12 and RSI 50.36 signals bullish support structure despite NVIDIA volatility",
     "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20 support test and AI rotation create tactical long setup.",
-    "entry": "7618.00",
-    "tp": "7650.00",
-    "sl": "7595.00",
-    "reliability": "MEDIUM"
+    "comment": "MA20 support holds with RSI at neutral, creating bullish setup for long positions",
+    "entry": "7625",
+    "tp": "7750",
+    "sl": "7600",
+    "reliability": "HIGH"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Oversold RSI Signals Potential Rebound Amid Bearish Fundamentals",
-    "date": "2026-11-12 14:50",
+    "title": "[BTC/USD] [UP] [AI Detects Support at MA20 as Fundamentals Turn Bullish]",
+    "date": "2026-11-13 01:35",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD trades at 73,522, significantly below the 20-day moving average of 77,677, signaling persistent bearish momentum.",
-      "RSI-14 at 29.16 indicates deeply oversold conditions, presenting a tactical counter-trend opportunity.",
-      "Bearish fundamentals, including potential sub-$70,000 Christmas targets and corporate index exclusions, cap upside rallies."
+      "Visa's Western Union USDPT integration signals stablecoin adoption",
+      "Unocoin's BitGo ETH suspension highlights exchange security tightening",
+      "DTCC's Solana tokenization roadmap creates long-term infrastructure tailwinds"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD at 73,522 is deeply oversold (RSI 29.16). Bearish fundamentals and technical breakdown suggest continued downside, but tactical bounces toward MA20 are possible.",
+    "excerpt": "BTC/USD at 71,737 with RSI at 32.6 indicating oversold conditions and potential bounce toward MA20 support.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Deeply oversold RSI at 29.16 suggests a tactical counter-trend bounce toward the 20-day MA, despite the broader bearish trend.",
-    "entry": "73522.94",
-    "tp": "77677.00",
-    "sl": "71000.00",
-    "reliability": "MEDIUM"
+    "comment": "RSI at 32.6 indicates oversold conditions with MA20 support acting as a strong bounce zone.",
+    "entry": "71700",
+    "tp": "73000",
+    "sl": "71500",
+    "reliability": "HIGH"
   }
 }

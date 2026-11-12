@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-11-13-stocks-ja",
+    "date": "2026-11-13 01:35",
+    "title": "[S&P 500] UP: MA20 pullback aligns with modest bullish momentum",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 trades above its 20‑day MA with neutral RSI, while NVIDIA headwinds and earnings create mixed fundamentals. Technical bias leans bullish, supporting a controlled long position.",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-13-stocks-en",
+    "date": "2026-11-13 01:35",
+    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 at 7631.81 with MA20 at 7620.12 and RSI 50.36 signals bullish support structure despite NVIDIA volatility",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-13-crypto-ja",
+    "date": "2026-11-13 01:35",
+    "title": "警戒アラート：BTC/USDの構造的変化と下落リスクの徹底検証",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 71737.09、RSI(32.61)、MA20(77232.22)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-13-crypto-en",
+    "date": "2026-11-13 01:35",
+    "title": "[BTC/USD] [UP] [AI Detects Support at MA20 as Fundamentals Turn Bullish]",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD at 71,737 with RSI at 32.6 indicating oversold conditions and potential bounce toward MA20 support.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-13-fx-ja",
+    "date": "2026-11-13 01:33",
+    "title": "USD/JPYの見通し：需給バランスから見る「押し目買い」の優位性",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 159.99、RSI(76.14)、MA20(158.01)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-13-fx-en",
+    "date": "2026-11-13 01:33",
+    "title": "[USD/JPY] DOWN: AI Detects Overbought Extension Above MA20 Amid Risk-Off Tone",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY is stretched above MA20 with RSI overbought, while risk-off tone favors a tactical fade towards 158.00 supports.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-11-12-crypto-en",
     "date": "2026-11-12 14:50",
     "title": "[BTC/USD] DOWN: Oversold RSI Signals Potential Rebound Amid Bearish Fundamentals",
@@ -104,7 +176,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500はMA20割れリスクを抱え、インフレ再燃とNvidia減価が下押し圧力。リスク管理を徹底。",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -116,7 +188,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "Interactive Brokers",
     "excerpt": "S&P 500 slips below key averages as inflation and Nvidia losses fuel risk-off pressure.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -140,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY exhibits a bullish continuation pattern, holding firmly above the 20-day moving average as risk appetite returns to Asian markets.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
