@@ -126,7 +126,7 @@ jobs:
           npx wrangler pages deploy deploy --project-name synapse-capital-frontend --branch main --commit-dirty=true
 
       - name: Notify on failure
-        if: failure()
+        if: false # LINE notifications disabled at owner request
         env:
           LINE_CHANNEL_ACCESS_TOKEN: ${{ secrets.LINE_CHANNEL_ACCESS_TOKEN }}
           LINE_USER_ID: ${{ secrets.LINE_USER_ID }}
