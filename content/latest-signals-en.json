@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: AI Detects Overbought Extension Above MA20 Amid Risk-Off Tone",
-    "date": "2026-11-13 01:33",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-11-13 13:56",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "USD/JPY is stretched above MA20 with RSI in overbought territory",
-      "Nvidia headline risk and softer US housing data reduce USD tailwind",
-      "Tactical downside favors fading strength toward 158.00"
+      "USD/JPY exhibits a robust bullish trend, trading significantly above the 20-period moving average at 158.09.",
+      "Overbought RSI conditions (74.57) suggest a tactical pullback toward the 20-day MA before resuming upward momentum.",
+      "Geopolitical tensions in the Middle East and elevated oil prices may introduce short-term volatility, but yield differentials favor further USD strength."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY is stretched above MA20 with RSI overbought, while risk-off tone favors a tactical fade towards 158.00 supports.",
+    "excerpt": "USD/JPY bullish trend holds above MA20 at 158.09. Yield spreads support further upside. Pullbacks to 158.50-158.09 offer tactical longs.",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "Overbought RSI and extended price above MA20 favor a tactical downside into 158.00.",
-    "entry": "160.20",
-    "tp": "158.10",
-    "sl": "161.00",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-11-13 01:35",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "tldr_points": [
-      "NVIDIA leadership crisis creates short-term pressure but AI sector strength offsets it",
-      "MA20 support at 7620 resists with RSI at neutral 50.36 indicating balanced momentum",
-      "3 ETFs identified as long-term buy candidates if 2027 bear market begins"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 at 7631.81 with MA20 at 7620.12 and RSI 50.36 signals bullish support structure despite NVIDIA volatility",
-    "pair": "S&P 500",
     "status": "BUY",
-    "comment": "MA20 support holds with RSI at neutral, creating bullish setup for long positions",
-    "entry": "7625",
-    "tp": "7750",
-    "sl": "7600",
+    "comment": "Bullish trend remains robust above MA20 support, with yield spreads and oil-driven JPY weakness supporting further upside.",
+    "entry": "158.25",
+    "tp": "160.85",
+    "sl": "157.60",
     "reliability": "HIGH"
   },
+  "STOCKS": {
+    "title": "[S&P 500] DOWN: Bonds Outperform, Price Below MA20 Signals Bearish Momentum",
+    "date": "2026-11-13 14:00",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "AlphaPrime Securities",
+    "tldr_points": [
+      "Bond yields exceed equity returns, pressuring valuations",
+      "Current price 7592 < MA20 7618, signaling short‑term bearish bias",
+      "RSI neutral (~49) indicates limited upside momentum"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "Bond yields outpace stocks; price below MA20 signals near‑term downside.",
+    "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "Bearish bias driven by bond‑yield headwinds and price below MA20",
+    "entry": "7590.00",
+    "tp": "7500.00",
+    "sl": "7640.00",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] [UP] [AI Detects Support at MA20 as Fundamentals Turn Bullish]",
-    "date": "2026-11-13 01:35",
+    "title": "[BTC/USD] UP: Oversold RSI-14 Triggers Mean-Reversion Bias Toward MA20 Resistance",
+    "date": "2026-11-13 14:01",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Visa's Western Union USDPT integration signals stablecoin adoption",
-      "Unocoin's BitGo ETH suspension highlights exchange security tightening",
-      "DTCC's Solana tokenization roadmap creates long-term infrastructure tailwinds"
+      "BTC/USD at 12-week low near 68,415 as RSI-14 hits 27.37 indicating oversold conditions",
+      "MA20 resistance at 77,066.15 caps near-term upside while SEC/CFTC appointments add regulatory uncertainty",
+      "Tactical long bias toward 77,000 with stop below 65,500; execute via [bybit]"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD at 71,737 with RSI at 32.6 indicating oversold conditions and potential bounce toward MA20 support.",
+    "excerpt": "BTC/USD at 12-week low near 68,415; RSI-14 at 27.37 signals oversold mean-reversion long toward MA20 at 77,066.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "RSI at 32.6 indicates oversold conditions with MA20 support acting as a strong bounce zone.",
-    "entry": "71700",
-    "tp": "73000",
-    "sl": "71500",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "BTC/USD at 12-week low near 68,415; RSI-14 at 27.37 signals oversold mean-reversion long toward MA20 at 77,066.",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   }
 }
