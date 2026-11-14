@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-11-15-crypto-ja",
+    "date": "2026-11-15 05:32",
+    "title": "[BTC/USD] UP: RSI(14)23.7の極端な売られ過ぎからMA20への中間目標を狙う戦術的反転買い",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "excerpt": "ETF流出の継続と規制リスクで下落基調は変わらないが、RSI(14)23.7の極端な売られ過ぎが平均回帰相場の確度を高めている。65,410付近で計画的に建て入れ、70,500で利食い、62,800で損切り切る。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-15-crypto-en",
+    "date": "2026-11-15 05:32",
+    "title": "[BTC/USD] DOWN: AI Flags Breakdown Setup as ETF Outflows Persist",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD breakdown risk persists as price sits below MA20 and ETF outflows continue; bearish setup favors downside.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-15-stocks-ja",
+    "date": "2026-11-15 05:26",
+    "title": "[S&P 500] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "UP",
+    "recommended_broker": "",
+    "excerpt": "S&P 500現物指数は直近値7561.67、MA20水準7613.26に対し上側確認を模索中。強気材料とファンダメンタルズ確認を組み合わせ、押し目リスクを分離し、現金/先物RL下で慎重なロング検討。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-15-stocks-en",
+    "date": "2026-11-15 05:26",
+    "title": "S&P 500: AI Analytics Detects Bearish Structural Shift",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7561.67, RSI(44.92), and MA20(7613.26).",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-15-fx-ja",
+    "date": "2026-11-15 05:23",
+    "title": "[USD/JPY] UP: MA20上抜けと強気ファンダメンタルズの整合性を確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYはRSI74で過熱感、MA20上抜けで短期上昇トレンドが確認。リスク管理を徹底し、dmm-fxで流動性確保の上、押し目買い推奨。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-15-fx-en",
+    "date": "2026-11-15 05:23",
+    "title": "USD/JPY: AI Analysis Identifies High-Probability Bullish Scenario",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 159.88, RSI(74.41), and MA20(158.09).",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-11-14-crypto-ja",
     "date": "2026-11-14 23:49",
     "title": "BTC/USD戦略：ベア相場におけるドローダウン極小化プロトコル",
