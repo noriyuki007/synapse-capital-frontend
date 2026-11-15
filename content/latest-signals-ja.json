@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPYの見通し：需給バランスから見る「押し目買い」の優位性",
-    "date": "2026-11-16 00:18",
+    "title": "[USD/JPY] UP: MA20 pullback and alignment of bullish fundamentals",
+    "date": "2026-11-16 05:47",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "金利相関（近似）: 0.08で正相関傾向",
-      "テクニカル: 現在価格 159.88 と MA20 158.09 の位置関係が主導",
-      "需給: 上限帯 159.67 / 下限帯 156.50 / 直近高値 160.18 / 直近安値 156.10 によるターゲット設計"
+      "Price 159.55 > MA20 158.17, RSI 67 bullish",
+      "Fed hawkish pressure easing after PPI, supporting USD",
+      "US consumer slowdown tempers risk but technical bias remains up"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "本日のAI解析では、USD/JPYの現在価格 159.88、RSI(74.41)、MA20(158.09)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "USD/JPY at 159.55, above MA20, moderate RSI bullish, while Fed sentiment eases and US consumer shows signs of slowdown.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "本日のAI解析では、USD/JPYの現在価格 159.88、RSI(74.41)、MA20(158.09)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "MA20における押し目買いで、強気モメンタムが継続する。",
+    "entry": "159.50",
+    "tp": "161.00",
+    "sl": "158.50",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "警戒アラート：S&P 500の構造的変化と下落リスクの徹底検証",
-    "date": "2026-11-16 00:19",
+    "title": "[S&P 500] DOWN: MA20割れとRSI50割れのモメンタム減衰、季節性好材料は戦術的売り優位を覆せず",
+    "date": "2026-11-16 05:49",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "金利相関（近似）: 0.25で正相関傾向",
-      "テクニカル: 現在価格 7561.67 と MA20 7613.26 の位置関係が主導",
-      "需給: 上限帯 7836.43 / 下限帯 7390.09 / 直近高値 7770.40 / 直近安値 7350.35 によるターゲット設計"
+      "価格7561.67はMA20(7613.26)を0.68%下回り、短期トレンドは下降構造に転換",
+      "RSI(14)44.92は50割れかつ売られ過ぎ圏でなく、反発は保有売り機会と判断",
+      "期中選挙後12カ月の上昇統計は構造論に留め、7613下では売りバイアスを維持"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 7561.67、RSI(44.92)、MA20(7613.26)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "S&P500はMA20(7613.26)を下回りRSI(14)44.92とモメンタム減衰。期中選挙後の季節性は構造論に留め、戦術的には7613下で売り優位と判断する。",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "本日のAI解析では、S&P 500の現在価格 7561.67、RSI(44.92)、MA20(7613.26)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "comment": "S&P500はMA20(7613.26)を下回りRSI(14)44.92とモメンタム減衰。期中選挙後の季節性は構造論に留め、戦術的には7613下で売り優位と判断する。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: RSI深い売られすぎとMA20乖離に基づく反発狙い、ただしETF流出で上値重し",
-    "date": "2026-11-16 00:20",
+    "title": "[BTC/USD] DOWN: ETF流出とMA20下方乖離が示す戻り売り優位",
+    "date": "2026-11-16 05:54",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "RSI14が21.75で深い売られすぎ圏、短期的な反発余地を示唆",
-      "現物価格64,722ドルはMA20の75,026ドルを大きく下回り、トレンドは依然弱気",
-      "BTC現物ETFの2週連続10億ドル流出が上値抵抗要因、押し目買いのリスク管理が必須"
+      "BTC ETFの2週連続10億ドル流出で機関需給は弱い",
+      "価格はMA20を約13%下回り、RSI22.9の売られ過ぎだが反転確認前",
+      "67,000ドル近辺の戻り売りを基本に、64,000割れは追随安警戒"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "RSI21.75の売られすぎとMA20からの乖離を根拠に、BTC/USDの短期反発を狙う押し目買い戦略を提示。ETF資金流出を考慮し、厳格な損切りラインを設定する。",
+    "excerpt": "BTCはETF流出とDeFiリスクで戻り売り優位。RSI22.9の売られ過ぎを考慮し、67,000ドル近辺の反発売りを軸に62,500ドルを目標とする。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "RSI14が21.75で売られすぎ、MA20から約13.7%乖離しており短期反発の余地があるが、ETF流出で上値は重い",
-    "entry": "64750.00",
-    "tp": "70500.00",
-    "sl": "61500.00",
+    "status": "SELL",
+    "comment": "ETF流出とMA20下方乖離が戻り売り優位を示す。RSI売られ過ぎを考慮し、反発待ちのショートを推奨。",
+    "entry": "67000.00",
+    "tp": "62500.00",
+    "sl": "68500.00",
     "reliability": "MEDIUM"
   }
 }
