@@ -1,7 +1,7 @@
 {
   "FX": {
     "title": "USD/JPY: AI Analysis Identifies High-Probability Bullish Scenario",
-    "date": "2026-11-15 05:23",
+    "date": "2026-11-15 13:41",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
@@ -23,7 +23,7 @@
   },
   "STOCKS": {
     "title": "S&P 500: AI Analytics Detects Bearish Structural Shift",
-    "date": "2026-11-15 05:26",
+    "date": "2026-11-15 13:43",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
@@ -44,25 +44,25 @@
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: AI Flags Breakdown Setup as ETF Outflows Persist",
-    "date": "2026-11-15 05:32",
+    "title": "[BTC/USD] DOWN: Extreme ETF Outflows Override Oversold RSI Signal",
+    "date": "2026-11-15 13:46",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC/USD remains below the 20-day moving average with RSI-14 oversold.",
-      "Spot and ETF liquidity pressures persist amid continued crypto fund outflows.",
-      "Tactical bias favors downside continuation with tight invalidation risk."
+      "Bitcoin ETFs bleed $1 billion for the second consecutive week, signaling persistent institutional outflows.",
+      "Price trades severely below the 20-day moving average at 75,822, indicating entrenched bearish momentum.",
+      "RSI(14) at 23.07 marks extreme oversold conditions, warning of a potential tactical consolidation or relief rally."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD breakdown risk persists as price sits below MA20 and ETF outflows continue; bearish setup favors downside.",
+    "excerpt": "BTC/USD slides on sustained ETF outflows, but extreme oversold RSI signals a tactical bounce.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "BTC/USD breakdown risk persists as price sits below MA20 and ETF outflows continue; bearish setup favors downside.",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "BUY",
+    "comment": "Extreme oversold RSI at 23.07 suggests a tactical bounce, though overall trend remains bearish.",
+    "entry": "64765.99",
+    "tp": "68500.00",
+    "sl": "62500.00",
     "reliability": "MEDIUM"
   }
 }
