@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-11-17-crypto-ja",
+    "date": "2026-11-17 02:57",
+    "title": "[BTC/USD] DOWN: Oversold RSI but price far below MA20 signals continued bearish pressure",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC trades 13% under its 20‑day MA with RSI at 24.8; macro and flow signals point to continued downside.",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-17-crypto-en",
+    "date": "2026-11-17 02:57",
+    "title": "[BTC/USD] DOWN: Oversold RSI Below MA20 Signals Bearish Breakdown",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD at 64.9K, RSI 24.8 oversold below MA20; bearish momentum favors downside continuation.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-17-stocks-ja",
+    "date": "2026-11-17 02:55",
+    "title": "[S&P 500] DOWN: MA20下方の戻り売りとNVDA決算前のリスクオフ",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "S&P 500はMA20を下回り、RSI14は38.68とモメンタム弱含み。Nvidia決算とビットコイン安が短期リスクオフを促すため、戻り売りを主戦略とし、7,350を目標、7,615を損切りに設定する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-17-stocks-en",
+    "date": "2026-11-17 02:55",
+    "title": "Critical Alert: S&P 500 Navigating Potential Correction Phase",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7451.56, RSI(38.68), and MA20(7601.30).",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-17-fx-ja",
+    "date": "2026-11-17 02:54",
+    "title": "[USD/JPY] UP: 159.56円のMA20上方維持とNY製造業弱含みの綱引き、押し目買い優位は不変",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "NY連銀製造業景況感の弱含みでドルは上値を抑えられる一方、159.56円はMA20上方を維持。押し目買いの優位は不変も、追随には159.85円上抜け確認を要する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-17-fx-en",
+    "date": "2026-11-17 02:54",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY bullish as price holds above MA20, RSI at 67, chip-dollar narrative supports USD; next resistance at 161.00 now.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-11-16-crypto-ja",
     "date": "2026-11-16 13:46",
     "title": "[BTC/USD] UP: MA20での反発と強気ファンダメンタルズの整合性を確認",
@@ -92,7 +164,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "excerpt": "BTC/USD slides on sustained ETF outflows, but extreme oversold RSI signals a tactical bounce.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -128,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "米国金利見通しと消費者センチメントが主軸となり、ドル円はマクロ強気とテクニカル過熱が交錯。金融政策と需給の両面から短期方向感は限定され、日銀政策も焦点となる。資産価格とリスクプレゼンテーションの変動を注視。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -140,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 159.88, RSI(74.41), and MA20(158.09).",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {

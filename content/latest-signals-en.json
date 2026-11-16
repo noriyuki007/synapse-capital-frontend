@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "USD/JPY Outlook: Strategic Upside Potential and Risk Evaluation",
-    "date": "2026-11-16 13:38",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-11-17 02:54",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Interest Correlation (Approx): 0.08 (Positive)",
-      "Technical: Driven by Price 159.66 vs MA20 158.18",
-      "Liquidity: Targets based on Upper Band 159.91 / Lower Band 156.45 / Recent High 160.18 / Recent Low 156.10"
+      "Key fundamental support from chip-dollar narrative and softer CAD inflation",
+      "Technical bias remains bullish with price above MA20 and RSI 67.33",
+      "Immediate resistance zone near 160.50–161.00"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for USD/JPY around Price 159.66, RSI(68.51), and MA20(158.18).",
+    "excerpt": "USD/JPY bullish as price holds above MA20, RSI at 67, chip-dollar narrative supports USD; next resistance at 161.00 now.",
     "pair": "USD/JPY",
+    "status": "BUY",
+    "comment": "Fundamental chip-dollar support and technical confirmation justify a bullish stance.",
+    "entry": "158.90",
+    "tp": "160.50",
+    "sl": "158.00",
+    "reliability": "HIGH"
+  },
+  "STOCKS": {
+    "title": "Critical Alert: S&P 500 Navigating Potential Correction Phase",
+    "date": "2026-11-17 02:55",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "tldr_points": [
+      "Interest Correlation (Approx): 0.25 (Positive)",
+      "Technical: Driven by Price 7451.56 vs MA20 7601.30",
+      "Liquidity: Targets based on Upper Band 7832.48 / Lower Band 7370.12 / Recent High 7770.40 / Recent Low 7350.35"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7451.56, RSI(38.68), and MA20(7601.30).",
+    "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for USD/JPY around Price 159.66, RSI(68.51), and MA20(158.18).",
+    "comment": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7451.56, RSI(38.68), and MA20(7601.30).",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
-  "STOCKS": {
-    "title": "[S&P 500] FLAT: Awaiting Nvidia Earnings as Technicals Consolidate",
-    "date": "2026-11-16 13:40",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "FLAT",
-    "recommended_broker": "Charles Schwab",
-    "tldr_points": [
-      "AI adoption narrative gaining traction",
-      "S&P 500 trading below 20‑day MA, RSI neutral",
-      "Key support at 7500, resistance at 7613 pending Nvidia earnings"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 flat as AI story underpins market while technicals show consolidation ahead of Nvidia earnings.",
-    "pair": "S&P 500",
-    "status": "NEUTRAL",
-    "comment": "Awaiting Nvidia earnings as technicals consolidate.",
-    "entry": "7560",
-    "tp": "7620",
-    "sl": "7500",
-    "reliability": "MEDIUM"
-  },
   "CRYPTO": {
-    "title": "BTC/USD Strategy: Defense and Risk Mitigation in Downtrend",
-    "date": "2026-11-16 13:46",
+    "title": "[BTC/USD] DOWN: Oversold RSI Below MA20 Signals Bearish Breakdown",
+    "date": "2026-11-17 02:57",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "Interest Correlation (Approx): 0.06 (Positive)",
-      "Technical: Driven by Price 64791.89 vs MA20 75029.90",
-      "Liquidity: Targets based on Upper Band 84497.80 / Lower Band 65562.00 / Recent High 81889.95 / Recent Low 63329.43"
+      "BTC/USD at 64885.98828125, RSI-14 at 24.77 oversold",
+      "MA20 at 74259.605078125 overhead caps upside recovery",
+      "RWA and institutional headlines offer selective offset to bearish tape"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 64791.89, RSI(21.97), and MA20(75029.90).",
+    "excerpt": "BTC/USD at 64.9K, RSI 24.8 oversold below MA20; bearish momentum favors downside continuation.",
     "pair": "BTC/USD",
-    "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for BTC/USD around Price 64791.89, RSI(21.97), and MA20(75029.90).",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
+    "status": "SELL",
+    "comment": "BTC/USD at 64885.98828125 with RSI-14 at 24.77 and price below MA20 favors bearish continuation.",
+    "entry": "64850.00",
+    "tp": "63200.00",
+    "sl": "65650.00",
     "reliability": "MEDIUM"
   }
 }
