@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20上での上昇継続と米長期金利優位の整合、ただし日銀正常化リスクを監視",
-    "date": "2026-11-17 15:24",
+    "title": "USD/JPY：AI解析が示す上昇シナリオと戦略的リスク管理",
+    "date": "2026-11-18 02:22",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "USD/JPYはMA20(158.22)を支持に上昇継続、RSI(14)60.76で買い余地あり。",
-      "PIMCOの高利回りロックイン主張とリスクオンがドル買いを支援、黒田氏の日銀タカ派発言は上値抑制材料。",
-      "158.50付近の押し目買いを推奨、TP160.50/SL157.60でR:R約2.2倍の戦術的ポジションを構築。"
+      "金利相関（近似）: 0.11で正相関傾向",
+      "テクニカル: 現在価格 159.24 と MA20 158.22 の位置関係が主導",
+      "需給: 上限帯 160.03 / 下限帯 156.41 / 直近高値 160.18 / 直近安値 156.10 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYはMA20(158.22)を下支えに上昇基調が持続。RSI(14)60.76は買い過剰圏に至らず、日銀タカ派リスクを限定しつつ158.50付近の押し目買いを推奨する。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 159.24、RSI(60.97)、MA20(158.22)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20(158.22)上に位置しRSI60.76で買い余裕あり。米長期金利優位とリスクオンがドル買いを支持、黒田発言による日銀正常化リスクは上値抑制材料に留まる。",
-    "entry": "158.50",
-    "tp": "160.50",
-    "sl": "157.60",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: MA20下回りとRSI37の下方圧力",
-    "date": "2026-11-17 15:29",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "野村證券",
-    "tldr_points": [
-      "MA20を下回る価格動向",
-      "RSI37が卖出圧力残存",
-      "Nvidia決算前後の不確定性"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500はMA20を下回り、RSI37が下方モメントを示す。Nvidia決算前後の不確定性から短期売却戦略を推奨。",
-    "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "MA20下回りとRSI37の下方モメント、Nvidia決算前後の不確定性",
-    "entry": "7416.59",
-    "tp": "7300.00",
-    "sl": "7600.00",
-    "reliability": "MEDIUM"
-  },
-  "CRYPTO": {
-    "title": "BTC/USD戦略：ベア相場におけるドローダウン極小化プロトコル",
-    "date": "2026-11-17 15:31",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "bitflyer",
-    "tldr_points": [
-      "金利相関（近似）: 0.06で正相関傾向",
-      "テクニカル: 現在価格 64510.65 と MA20 74240.84 の位置関係が主導",
-      "需給: 上限帯 84297.53 / 下限帯 64184.15 / 直近高値 81889.95 / 直近安値 62017.88 によるターゲット設計"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "本日のAI解析では、BTC/USDの現在価格 64510.65、RSI(24.38)、MA20(74240.84)を軸に、金利相関と需給帯から実行プランを整理する。",
-    "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "本日のAI解析では、BTC/USDの現在価格 64510.65、RSI(24.38)、MA20(74240.84)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 159.24、RSI(60.97)、MA20(158.22)を軸に、金利相関と需給帯から実行プランを整理する。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
+    "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] DOWN: MA20を下回る下降トレンドと歴史的二重トップの抵抗",
+    "date": "2026-11-18 02:24",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
+    "tldr_points": [
+      "S&P 500指数はMA20（7581.62）を約3%下回り、下降トレンドを維持している。",
+      "RSI(14)が34.69に低下し、一時的な過売状態だが、構造的な下降バイアスは改变しない。",
+      "戦術的なショートエントリーを7400付近で推奨し、严格的なSL/TPを設定する。"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500はMA20を大幅に下回り、RSIが34台と過売状態。歴史的二重top patternsと相槌を knock し、下降トレンドの継続が予想される。",
+    "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "S&P 500指数はMA20を下回る下降トレンドにあり、歴史的二重top patternsが抵抗機能を発揮。RSIは34.69と一時的な過売状態だが、構造的な下降バイアスは継続し、戦術的なショートポジションを推奨する。",
+    "entry": "7400.00",
+    "tp": "7150.00",
+    "sl": "7600.00",
+    "reliability": "HIGH"
+  },
+  "CRYPTO": {
+    "title": "[BTC/USD] UP: 超売RSIと強気ファンダメンタルズを背景に押し目買い",
+    "date": "2026-11-18 02:27",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bitflyer",
+    "tldr_points": [
+      "BTC/USDはMA20割れ後の下押し、RSI21超売",
+      "Alpaca/Kalshi/先物マージン等が強気材料",
+      "押し目買いなら63683.41、TP68,000/SL62,500"
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "BTC/USDはMA20割れと超売RSI。強気ファンダメンタルズと押し目買いで上側リスクを模索。",
+    "pair": "BTC/USD",
+    "status": "BUY",
+    "comment": "MA20割れとRSI超売、強気ファンダメンタルズを背景にした押し目買い",
+    "entry": "63683.41",
+    "tp": "68000.00",
+    "sl": "62400.00",
     "reliability": "MEDIUM"
   }
 }
