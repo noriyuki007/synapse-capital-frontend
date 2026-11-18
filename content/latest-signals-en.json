@@ -1,68 +1,66 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Price Holds Above MA20 Amid Bullish Fundamental Shifts",
-    "date": "2026-11-18 14:48",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-11-19 01:55",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price above MA20 with strong RSI momentum",
-      "Fundamentally supported by Fed-Boeing divergence and yield dynamics",
-      "Key resistance at 161.50, support at MA20"
+      "USD/JPY above 20‑day MA with RSI 62.5; mixed macro; resistance near 160.5"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY 159.30, RSI 63.3 bullish; >170 fair value, 5% Treasury yield caps risk, target 161.50 amid BoJ policy shift.",
+    "excerpt": "USD/JPY bullish on price above MA20, modest RSI momentum; mixed fundamentals suggest upside potential.",
     "pair": "USD/JPY",
     "status": "BUY",
-    "comment": "Price above MA20 with RSI momentum supports bullish bias",
-    "entry": "159.30",
-    "tp": "161.50",
-    "sl": "158.20",
+    "comment": "Technical breakout above MA20 and moderate RSI momentum suggest upside potential.",
+    "entry": "158.30",
+    "tp": "160.80",
+    "sl": "157.80",
     "reliability": "HIGH"
   },
   "STOCKS": {
-    "title": "S&P 500: AI Analytics Detects Bearish Structural Shift",
-    "date": "2026-11-18 14:52",
+    "title": "S&P 500 Strategy: Defense and Risk Mitigation in Downtrend",
+    "date": "2026-11-19 02:02",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
-      "Interest Correlation (Approx): 0.27 (Positive)",
-      "Technical: Driven by Price 7340.53 vs MA20 7580.95",
-      "Liquidity: Targets based on Upper Band 7837.61 / Lower Band 7324.30 / Recent High 7770.40 / Recent Low 7288.34"
+      "Interest Correlation (Approx): 0.28 (Positive)",
+      "Technical: Driven by Price 7315.31 vs MA20 7558.86",
+      "Liquidity: Targets based on Upper Band 7827.44 / Lower Band 7290.28 / Recent High 7758.43 / Recent Low 7285.76"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7340.53, RSI(34.33), and MA20(7580.95).",
+    "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7315.31, RSI(34.29), and MA20(7558.86).",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7340.53, RSI(34.33), and MA20(7580.95).",
+    "comment": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7315.31, RSI(34.29), and MA20(7558.86).",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] DOWN: Price Trades 12% Below MA20 as RSI at 22.3 Flags Capitulation Risk",
-    "date": "2026-11-18 14:54",
+    "title": "BTC/USD Strategy: Defense and Risk Mitigation in Downtrend",
+    "date": "2026-11-19 02:06",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "BTC at 64,632 sits roughly 12% below the 20-day moving average, confirming a dominant bearish trend structure.",
-      "RSI-14 at 22.3 signals deep oversold conditions, implying elevated short-term bounce risk but no confirmed reversal.",
-      "Institutional rotation into crypto equities and World Bank stablecoin pilots support medium-term demand against a near-term regulatory overhang."
+      "Interest Correlation (Approx): 0.09 (Positive)",
+      "Technical: Driven by Price 62778.99 vs MA20 72689.61",
+      "Liquidity: Targets based on Upper Band 83763.98 / Lower Band 61615.24 / Recent High 81079.79 / Recent Low 62017.88"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC trades below MA20 with RSI at 22.3; tactical shorts favored into relief rallies.",
+    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 62778.99, RSI(9.62), and MA20(72689.61).",
     "pair": "BTC/USD",
-    "status": "SELL",
-    "comment": "Price 12% below MA20 with distribution-driven order flow favors shorts into relief rallies despite oversold RSI.",
-    "entry": "65800.00",
-    "tp": "60500.00",
-    "sl": "68900.00",
+    "status": "NEUTRAL",
+    "comment": "Today's AI analysis outlines the execution plan for BTC/USD around Price 62778.99, RSI(9.62), and MA20(72689.61).",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
