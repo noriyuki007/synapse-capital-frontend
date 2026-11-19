@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects MA20 Support as Geopolitical Risk Favors USD Strength",
-    "date": "2026-11-19 14:48",
+    "title": "[USD/JPY] UP: Price Holds Above MA20 as Risk-On Sentiment Supports Dollar",
+    "date": "2026-11-20 02:02",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "MA20 support at 158.37 aligns with price holding above, indicating bullish bias",
-      "RSI 66 shows moderate momentum with upside potential before overbought",
-      "Geopolitical tension and stable oil prices support USD strength against JPY"
+      "USD/JPY trades above the 20-day moving average at 158.38, confirming short-term bullish structure.",
+      "RSI-14 at 67.67 signals strong momentum without overbought exhaustion.",
+      "Risk-on sentiment from AI sector strength and resilient US consumer data supports further USD/JPY upside."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY eyes MA20 support at 158.37 as RSI 66 and geopolitical risk favor upside; target 161.00. with strong momentum now",
+    "excerpt": "USD/JPY trades above MA20 with RSI near 68; risk-on sentiment and higher yields favor upside toward 161.00.",
     "pair": "USD/JPY",
-    "status": "NEUTRAL",
-    "comment": "USD/JPY eyes MA20 support at 158.37 as RSI 66 and geopolitical risk favor upside; target 161.00. with strong momentum now",
-    "entry": "---",
-    "tp": "---",
-    "sl": "---",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] DOWN: Technical Breakdown Below MA20 Amid Hawkish Fed Minutes",
-    "date": "2026-11-19 14:52",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "Interactive Brokers",
-    "tldr_points": [
-      "S&P 500 has broken below key short-term moving averages, trading significantly below the 20-day MA at 7559.28.",
-      "Fed minutes signaling further rate hikes and the end of the 155-day streak above the 200-day MA point to structural bearish momentum.",
-      "RSI(14) at 34.51 indicates lingering bearish momentum, with potential for further downside before oversold conditions stabilize the index."
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 breaks key support below MA20 as hawkish Fed minutes signal further rate hikes, confirming bearish trend.",
-    "pair": "S&P 500",
-    "status": "SELL",
-    "comment": "Technical breakdown below the 20-day MA and hawkish Fed minutes confirm a bearish trend continuation.",
-    "entry": "7450.00",
-    "tp": "7150.00",
-    "sl": "7580.00",
+    "status": "BUY",
+    "comment": "Price above MA20 with bullish RSI momentum supports further upside.",
+    "entry": "159.50",
+    "tp": "161.00",
+    "sl": "158.00",
     "reliability": "HIGH"
   },
+  "STOCKS": {
+    "title": "[S&P 500] FLAT: Oversold RSI at 35.3 Tests 4.3% MA20 Deviation as Historical Warning Signals Emerge",
+    "date": "2026-11-20 02:03",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "tldr_points": [
+      "Index trades 4.3% below MA20 (7536.6) with RSI-14 at 35.3, signaling extreme short-term oversold condition",
+      "Historical breadth deterioration marks only 6th occurrence in 156 years, implying elevated mean-reversion probability",
+      "Multiple compression in semiconductors (AMAT) and failed upside follow-through suggest defensive positioning warranted"
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 at 7210.5 tests critical oversold threshold; tactical bounce likely but structural damage requires confirmation above 7400.",
+    "pair": "S&P 500",
+    "status": "NEUTRAL",
+    "comment": "Oversold bounce setup with defined risk; structural downtrend intact until MA20 reclamation at 7537",
+    "entry": "7230",
+    "tp": "7380",
+    "sl": "7150",
+    "reliability": "MEDIUM"
+  },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: AI Detects Capitulation Oversold Bounce as Fundamentals Stabilize",
-    "date": "2026-11-19 14:55",
+    "title": "[BTC/USD] UP: Extreme RSI Oversold and MA20 Discount Signal Mean-Reversion Long",
+    "date": "2026-11-20 02:08",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
     "prediction_direction": "UP",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "RSI-14 at 9.83 signals deep capitulation and elevated mean-reversion probability.",
-      "Price is 13% below MA20, keeping the primary trend bearish until 66,800-69,200 is reclaimed.",
-      "Tokenized-deposit progress and Kraken/Tribe expansion offset hack and regulatory headlines."
+      "BTC/USD at 62375.55078125 trades deep below MA20 at 71958.890625 with RSI-14 at 11.81398793587644, indicating extreme oversold conditions.",
+      "Infrastructure catalysts include Hyperliquid perpetual integration via 1inch and Ant International tokenized deposit settlement.",
+      "Tactical long bias targets mean reversion to MA20 with defined risk; execute via [bybit]."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC at 63,254.71 sits 13% below MA20 with RSI 9.83; oversold capitulation favors a tactical bounce toward 66,800.",
+    "excerpt": "RSI-14 at 11.81 and a 13.3% discount to MA20 support a tactical BTC/USD long toward mean reversion.",
     "pair": "BTC/USD",
     "status": "BUY",
-    "comment": "Extreme RSI-14 oversold at 9.83 and price 13% below MA20 favor a tactical mean-reversion long while 60,200 holds.",
-    "entry": "63254.71",
-    "tp": "66800.00",
-    "sl": "60200.00",
+    "comment": "Extreme RSI oversold reading and price discount to MA20 create a mean-reversion long setup.",
+    "entry": "62375.55",
+    "tp": "71958.89",
+    "sl": "58500.00",
     "reliability": "MEDIUM"
   }
 }

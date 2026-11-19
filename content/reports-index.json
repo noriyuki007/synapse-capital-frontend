@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-11-20-crypto-ja",
+    "date": "2026-11-20 02:08",
+    "title": "BTC/USD戦略：ベア相場におけるドローダウン極小化プロトコル",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 62375.55、RSI(11.81)、MA20(71958.89)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-20-crypto-en",
+    "date": "2026-11-20 02:08",
+    "title": "[BTC/USD] UP: Extreme RSI Oversold and MA20 Discount Signal Mean-Reversion Long",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "RSI-14 at 11.81 and a 13.3% discount to MA20 support a tactical BTC/USD long toward mean reversion.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-20-stocks-ja",
+    "date": "2026-11-20 02:03",
+    "title": "S&P 500戦略：ベア相場におけるドローダウン極小化プロトコル",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 7210.50、RSI(35.26)、MA20(7536.63)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-20-stocks-en",
+    "date": "2026-11-20 02:03",
+    "title": "[S&P 500] FLAT: Oversold RSI at 35.3 Tests 4.3% MA20 Deviation as Historical Warning Signals Emerge",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 at 7210.5 tests critical oversold threshold; tactical bounce likely but structural damage requires confirmation above 7400.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-20-fx-ja",
+    "date": "2026-11-20 02:02",
+    "title": "[USD/JPY] UP: MA20上方維持とリスク選好の整合性を確認",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "USD/JPYは159.75でMA20を上方乖離し、リスク選好と日米金利差が下支え。ただし160.00の介入警戒が上値を抑えるため、押し目買いを優先する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-20-fx-en",
+    "date": "2026-11-20 02:02",
+    "title": "[USD/JPY] UP: Price Holds Above MA20 as Risk-On Sentiment Supports Dollar",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY trades above MA20 with RSI near 68; risk-on sentiment and higher yields favor upside toward 161.00.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-11-19-crypto-ja",
     "date": "2026-11-19 14:55",
     "title": "警戒アラート：BTC/USDの構造的変化と下落リスクの徹底検証",
@@ -92,7 +164,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "excerpt": "BTC trades below MA20 with RSI at 22.3; tactical shorts favored into relief rallies.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -104,7 +176,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "excerpt": "S&P 500はMA20割れとRSI低下で下押し優位。Nvidia楽観は一巡後、テック圧・金利懸念が優先。トレードはリスク管理徹底、押し目は待つ。短線は損切り前提。板戻り確認。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -116,7 +188,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "excerpt": "Today's AI analysis outlines the execution plan for S&P 500 around Price 7340.53, RSI(34.33), and MA20(7580.95).",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -140,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY 159.30, RSI 63.3 bullish; >170 fair value, 5% Treasury yield caps risk, target 161.50 amid BoJ policy shift.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
