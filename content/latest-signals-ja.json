@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] DOWN: リスクオフ加速とRSI過熱感からMA20への平均回帰を狙う",
-    "date": "2026-11-22 00:54",
+    "title": "USD/JPYの見通し：需給バランスから見る「押し目買い」の優位性",
+    "date": "2026-11-22 06:26",
     "genre": "FX",
     "target_pair": "USD/JPY",
-    "prediction_direction": "DOWN",
+    "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "ナスダック急落・地政学リスクでリスクオフ円買い優勢",
-      "現在値159.71はMA20（158.52）から大きく乖離、RSI 68.2で短期過熱",
-      "MA20付近158.50までの調整的下落をメインシナリオに設定"
+      "金利相関（近似）: 0.06で正相関傾向",
+      "テクニカル: 現在価格 159.71 と MA20 158.52 の位置関係が主導",
+      "需給: 上限帯 160.39 / 下限帯 156.65 / 直近高値 160.18 / 直近安値 156.66 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "ナスダック暴落と地政学リスクで円買い圧力が強まる中、USD/JPYはMA20からの大幅乖離とRSI高水準を背景に158.50付近までの平均回帰を想定。短期売り戦略が優位。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 159.71、RSI(68.20)、MA20(158.52)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "SELL",
-    "comment": "リスクオフ円買いとMA20乖離修正の整合性、RSI過熱感から短期売り優位",
-    "entry": "159.70",
-    "tp": "158.50",
-    "sl": "160.20",
-    "reliability": "HIGH"
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 159.71、RSI(68.20)、MA20(158.52)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
+    "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] UP: MA20付近の押し目と楽観的マクロ要因が相まって上昇余地を示唆",
-    "date": "2026-11-22 00:56",
+    "title": "[S&P 500] DOWN: MA20上押し目売りとRSI29のoversoldが示す短期下値リスク",
+    "date": "2026-11-22 06:29",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Nomura Securities",
     "tldr_points": [
-      "恐慌指数低下で上昇余地が示唆",
-      "RSI oversoldとMA20超購超売でリバウンド期待",
-      "流動性確保と指定ブローカー利用でリスク管理強化"
+      "S&P500は6910で下値リスクが顕在化",
+      "RSI29でoversold、MA20上押し目売り推奨",
+      "TP6600、SL7500でリスク管理を徹底"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "恐慌指数が9.7に低下し、RSIが29.2とoversold領域にあるため、MA20超購超売でS&P500は3週間で約10%上昇余地が示唆される。",
+    "excerpt": "S&P500は6910で下値リスクが顕在化、RSI29でoversold、MA20上押し目売り推奨、TP6600、SL7500でリスク管理を徹底。",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "恐慌指数が9.7に低下し、RSIが29.2とoversold領域にあるため、MA20超購超売でS&P500は3週間で約10%上昇余地が示唆される。",
+    "comment": "S&P500は6910で下値リスクが顕在化、RSI29でoversold、MA20上押し目売り推奨、TP6600、SL7500でリスク管理を徹底。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: RSI14の極端な売りすぎとMA20乖離に基づく反発シナリオ",
-    "date": "2026-11-22 01:02",
+    "title": "[BTC/USD] DOWN: MA20離脱と極値RSIが示す下リスクの拡大",
+    "date": "2026-11-22 06:32",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "RSI(14)14.13は歴史的な売りすぎ水準",
-      "価格はMA20を14.6%下回り、平均回帰の余地を残す",
-      "マイナー圧迫と資金洗浄報道が下値リスクとして残存"
+      "RSI14極値15.8とMA2070k離脱による下リスク優位、JPMorgan・規制ニュースが下押し材料。",
+      "流動性枯渇と板の薄さから、エントリーは厳格なSL必須。",
+      "bitflyerの深い流動性が当戦略のリスク管理に適合。"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USDは59,835ドルでMA20を14.6%下回り、RSIは14.13と極端な売りすぎを示す。テクニカル反発の余地はあるが、マイナー圧迫と資金洗浄報道が下値リスクを支える。",
+    "excerpt": "BTC/USDはMA2070k大幅離脱、RSI14が15.8まで極度下落。JPMorgan・規制ニュースで下リスク優位、慎重なショート戦略を推奨する。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "RSI14.13の極端な売りすぎとMA20乖離に基づく短期反発シナリオ",
-    "entry": "59835.10",
-    "tp": "64200.00",
-    "sl": "56200.00",
+    "status": "NEUTRAL",
+    "comment": "BTC/USDはMA2070k大幅離脱、RSI14が15.8まで極度下落。JPMorgan・規制ニュースで下リスク優位、慎重なショート戦略を推奨する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   }
 }
