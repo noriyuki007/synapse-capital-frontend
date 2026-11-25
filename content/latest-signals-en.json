@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
-    "date": "2026-11-25 09:19",
+    "title": "[USD/JPY] UP: Synapse Analysis Identifies MA20 Support Amid Rising Treasury Yields",
+    "date": "2026-11-26 03:24",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Hawkish US PCE inflation underpins USD resilience",
-      "Price above MA20 with RSI confirming bullish momentum",
-      "Technical breakout targeting 160.00 with MA20 support at 158.76"
+      "USD/JPY holds above the 20-day moving average at 158.75, signaling short-term bullish bias.",
+      "The 7-year Treasury auction cleared at 4.708%, reinforcing rate differentials that favor the USD.",
+      "RSI-14 at 56.07 leaves scope for further upside before overbought conditions emerge."
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "US PCE at 3.8% fuels Fed December hike expectations; USD/JPY holds above MA20 at 158.76 with RSI 57.70 targeting 160.00 resistance.",
+    "excerpt": "USD/JPY holds above MA20 as 7-year yields hit 4.708%; RSI-14 at 56.07 signals further upside before resistance.",
     "pair": "USD/JPY",
     "status": "NEUTRAL",
-    "comment": "US PCE at 3.8% fuels Fed December hike expectations; USD/JPY holds above MA20 at 158.76 with RSI 57.70 targeting 160.00 resistance.",
+    "comment": "USD/JPY holds above MA20 as 7-year yields hit 4.708%; RSI-14 at 56.07 signals further upside before resistance.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "[S&P 500] DOWN: Price Below MA20 as AI Governance and Tariff Risks Pressure Risk Appetite",
-    "date": "2026-11-25 09:23",
+    "title": "[S&P 500] DOWN: Price Sub-MA20 Amid AI-Led Rotation as Nasdaq Enters Bear Territory",
+    "date": "2026-11-26 03:27",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
-    "recommended_broker": "",
+    "recommended_broker": "https://t.co/HH5r5rBInU",
     "tldr_points": [
-      "S&P 500 trades below MA20 at 7451.18 with RSI-14 at 35.9, preserving bearish short-term momentum.",
-      "AI governance headlines and fresh tariff rhetoric weaken tech leadership and market breadth.",
-      "Tactical plan: sell rallies into 7250–7300, target 7080, stop-loss 7465; utilize [] for execution."
+      "S&P 500 trades 3.5% below MA20 at 7163, confirming near-term downtrend structure",
+      "Nasdaq bear market signal reflects aggressive AI-theme unwind pressuring mega-cap leadership",
+      "RSI at 43.4 indicates room for further downside before oversold bounce candidates emerge"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "S&P 500 remains below MA20 with RSI at 35.9; AI governance and tariff risks favor selling rallies toward 7250–7300.",
+    "excerpt": "S&P 500 breaks key MA20 support as AI liquidation spreads; defensive rotation favors Berkshire-style value over growth momentum.",
     "pair": "S&P 500",
     "status": "SELL",
-    "comment": "Price below MA20 and RSI-14 at 35.9 favor selling rallies amid AI governance and tariff risk.",
-    "entry": "7250.00",
-    "tp": "7080.00",
-    "sl": "7465.00",
+    "comment": "Price sub-MA20 with bearish momentum; AI leadership collapse favors further downside to 7,050–6,850 zone.",
+    "entry": "7325",
+    "tp": "7050",
+    "sl": "7435",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Capitulation RSI at 17.6 Sets Up Tactical Mean-Reversion Long",
-    "date": "2026-11-25 09:26",
+    "title": "[BTC/USD] DOWN: Oversold RSI and MA20 Rejection Signal Breakdown Risk",
+    "date": "2026-11-26 03:29",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "tldr_points": [
-      "RSI-14 at 17.6 is cycle-extreme oversold; historical analogs resolve via mean reversion",
-      "CleanSpark's $987M loss confirms miner capitulation, a classic late-shakeout signal",
-      "Long toward 64,000 with hard stop at 56,900; MA20 at 67,468 is the medium-term ceiling"
+      "BTC holds below MA20 with RSI near extreme oversold.",
+      "ETF and macro headlines shift focus to crypto downside flows.",
+      "Risk-defined bearish setup favors selloff toward 56.5K."
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC trades 11.8% below MA20 with RSI at 17.6; capitulation metrics favor a tactical rebound toward 64,000.",
+    "excerpt": "BTC/USD breakdown risk as RSI hits oversold; MA20 rejection caps upside, macro headlines add pressure.",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "RSI-14 at 17.6 and capitulation-grade sentiment signal a high-probability mean-reversion long toward 64,000.",
-    "entry": "59500.00",
-    "tp": "64000.00",
-    "sl": "56900.00",
+    "status": "SELL",
+    "comment": "BTC rejected MA20 at 66665.087109375 and RSI-14 at 16.806360390259158 signaled extreme oversoldness.",
+    "entry": "59600.00",
+    "tp": "56500.00",
+    "sl": "60300.00",
     "reliability": "MEDIUM"
   }
 }

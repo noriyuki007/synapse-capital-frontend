@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-11-26-crypto-ja",
+    "date": "2026-11-26 03:29",
+    "title": "[BTC/USD] DOWN: MA20下回りと弱気構造の継続性を確認",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USDは59,636ドルとMA20を下回り、弱気トレンドが優位。RSI16.8の過剰売られは反発余地を示すが、60,000ドル超の戻りは売り場とする戦術が妥当。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-26-crypto-en",
+    "date": "2026-11-26 03:29",
+    "title": "[BTC/USD] DOWN: Oversold RSI and MA20 Rejection Signal Breakdown Risk",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC/USD breakdown risk as RSI hits oversold; MA20 rejection caps upside, macro headlines add pressure.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-26-stocks-en",
+    "date": "2026-11-26 03:27",
+    "title": "[S&P 500] DOWN: Price Sub-MA20 Amid AI-Led Rotation as Nasdaq Enters Bear Territory",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "https://t.co/HH5r5rBInU",
+    "excerpt": "S&P 500 breaks key MA20 support as AI liquidation spreads; defensive rotation favors Berkshire-style value over growth momentum.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-26-fx-ja",
+    "date": "2026-11-26 03:24",
+    "title": "[USD/JPY] UP: MA20サポートと高止まりする米長期利回りが上値を支える",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "ドル円はMA20を足場に159円台を維持。米長期利回りの高止まりが支えだが、160円大台は介入リスクで上値重い。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-26-fx-en",
+    "date": "2026-11-26 03:24",
+    "title": "[USD/JPY] UP: Synapse Analysis Identifies MA20 Support Amid Rising Treasury Yields",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY holds above MA20 as 7-year yields hit 4.708%; RSI-14 at 56.07 signals further upside before resistance.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-26-stocks-ja",
+    "date": "2026-11-26",
+    "title": "STOCKS Analysis",
+    "genre": "STOCKS",
+    "target_pair": "",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
     "id": "2026-11-25-crypto-ja",
     "date": "2026-11-25 09:26",
     "title": "[BTC/USD] DOWN: MA20割れ下落と超売れRSIで下押し圧力",
@@ -80,7 +152,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "bitflyer",
     "excerpt": "BTC/USD trades at $60,285 with RSI deeply oversold; institutional buying and legal clarity create a tactical long setup targeting $63k with tight risk.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "ja"
   },
   {
@@ -92,7 +164,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 60284.76, RSI(18.28), and MA20(67507.20).",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -116,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "",
     "excerpt": "Nvidia catalyst ignites risk-on rotation; oversold S&P 500 targets MA20 reclaim at 7,477.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
@@ -128,7 +200,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "excerpt": "USD/JPYは159.375でMA20を上抜け維持。160.00の介入警戒が上値を抑えるが、ドル底堅さとRSI57台の中立強気を背景に、押し目買いを優先する戦術。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -140,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY consolidates near 159.38 with bullish bias above MA20; 160.00 intervention risk caps aggressive longs.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
