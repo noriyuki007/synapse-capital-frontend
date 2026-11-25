@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-11-25-crypto-ja",
+    "date": "2026-11-25 09:26",
+    "title": "[BTC/USD] DOWN: MA20割れ下落と超売れRSIで下押し圧力",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "BTC/USDはMA20割れ下落トレンド。超売れRSIと清算悪化リスクを確認し、損切・逆指値厳守の厳格なリスク管理下で下押し判断。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-25-crypto-en",
+    "date": "2026-11-25 09:26",
+    "title": "[BTC/USD] UP: Capitulation RSI at 17.6 Sets Up Tactical Mean-Reversion Long",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "excerpt": "BTC trades 11.8% below MA20 with RSI at 17.6; capitulation metrics favor a tactical rebound toward 64,000.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-25-stocks-ja",
+    "date": "2026-11-25 09:23",
+    "title": "警戒アラート：S&P 500の構造的変化と下落リスクの徹底検証",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 7201.09、RSI(35.91)、MA20(7451.18)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-25-stocks-en",
+    "date": "2026-11-25 09:23",
+    "title": "[S&P 500] DOWN: Price Below MA20 as AI Governance and Tariff Risks Pressure Risk Appetite",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "excerpt": "S&P 500 remains below MA20 with RSI at 35.9; AI governance and tariff risks favor selling rallies toward 7250–7300.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-25-fx-ja",
+    "date": "2026-11-25 09:19",
+    "title": "USD/JPYの見通し：需給バランスから見る「押し目買い」の優位性",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 159.24、RSI(57.70)、MA20(158.76)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-25-fx-en",
+    "date": "2026-11-25 09:19",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "US PCE at 3.8% fuels Fed December hike expectations; USD/JPY holds above MA20 at 158.76 with RSI 57.70 targeting 160.00 resistance.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-11-24-crypto-ja",
     "date": "2026-11-24 17:19",
     "title": "[BTC/USD] UP: Oversold RSI and Institutional Accumulation Signal Potential Rebound",
@@ -80,7 +152,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "excerpt": "BTC/USDは現在MA20乖離と超売りRSIを示し、ブリッジの逸脱・送金凍結・TRUMP暴落などで下押し圧力が優先。機関資産のリスクオフ観点も加わる。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -92,7 +164,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "bybit",
     "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 61506.79, RSI(21.18), and MA20(69337.17).",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -104,7 +176,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Bloomberg Terminal",
     "excerpt": "S&P 500はRSIが oversold 領域に入り、政策緩和の動きにより战术的反発の機会が高まっている。流動性とリスク管理を重視した短期売買を推奨する。",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "ja"
   },
   {
@@ -116,7 +188,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "Designated Institutional Broker",
     "excerpt": "Oversold RSI and rebounding futures favor a tactical S&P 500 bounce, with risk defined below 6845.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {
@@ -140,7 +212,7 @@
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "excerpt": "USD/JPY holds above MA20 with neutral-bullish RSI; dollar resilience and risk stabilization favor dip-buying toward 159.80.",
-    "result": "PENDING",
+    "result": "HIT",
     "locale": "en"
   },
   {

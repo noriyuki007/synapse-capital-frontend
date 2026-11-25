@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: Bullish Structure Intact Above MA20 Despite 160.00 Intervention Ceiling",
-    "date": "2026-11-24 17:17",
+    "title": "[USD/JPY] UP: AI Detects Support at MA20 as Fundamentals Turn Bullish",
+    "date": "2026-11-25 09:19",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "xm-trading",
     "tldr_points": [
-      "Price holds above rising MA20 at 158.72 with RSI at 57.5 signaling room for upside",
-      "160.00 psychological barrier coincides with heightened BoJ intervention risk",
-      "Broad USD resilience on sticky rate expectations supports dips toward 158.50-158.70 zone"
+      "Hawkish US PCE inflation underpins USD resilience",
+      "Price above MA20 with RSI confirming bullish momentum",
+      "Technical breakout targeting 160.00 with MA20 support at 158.76"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPY consolidates near 159.38 with bullish bias above MA20; 160.00 intervention risk caps aggressive longs.",
+    "excerpt": "US PCE at 3.8% fuels Fed December hike expectations; USD/JPY holds above MA20 at 158.76 with RSI 57.70 targeting 160.00 resistance.",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "Bullish trend above MA20 with RSI room; 160.00 intervention risk caps upside",
-    "entry": "158.85",
-    "tp": "159.80",
-    "sl": "158.40",
-    "reliability": "MEDIUM"
-  },
-  "STOCKS": {
-    "title": "[S&P 500] UP: AI Detects Oversold Bounce as Nvidia Catalyst Triggers $3T Risk-On Rotation",
-    "date": "2026-11-24 17:18",
-    "genre": "STOCKS",
-    "target_pair": "S&P 500",
-    "prediction_direction": "UP",
-    "recommended_broker": "",
-    "tldr_points": [
-      "S&P 500 futures surge on Nvidia-led AI rebound, testing 7,237 support",
-      "RSI-14 at 40.86 signals oversold conditions ripe for mean reversion",
-      "MA20 at 7,477 acts as immediate resistance target for tactical longs"
-    ],
-    "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "Nvidia catalyst ignites risk-on rotation; oversold S&P 500 targets MA20 reclaim at 7,477.",
-    "pair": "S&P 500",
-    "status": "BUY",
-    "comment": "Oversold bounce setup catalyzed by Nvidia-led AI rotation with bullish RSI divergence at key 200-day support",
-    "entry": "7240",
-    "tp": "7477",
-    "sl": "7185",
-    "reliability": "HIGH"
-  },
-  "CRYPTO": {
-    "title": "BTC/USD: AI Analytics Detects Bearish Structural Shift",
-    "date": "2026-11-24 17:19",
-    "genre": "CRYPTO",
-    "target_pair": "BTC/USD",
-    "prediction_direction": "DOWN",
-    "recommended_broker": "bybit",
-    "tldr_points": [
-      "Interest Correlation (Approx): 0.20 (Positive)",
-      "Technical: Driven by Price 60284.76 vs MA20 67507.20",
-      "Liquidity: Targets based on Upper Band 80131.02 / Lower Band 54883.37 / Recent High 80833.62 / Recent Low 55149.57"
-    ],
-    "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 60284.76, RSI(18.28), and MA20(67507.20).",
-    "pair": "BTC/USD",
     "status": "NEUTRAL",
-    "comment": "Today's AI analysis outlines the execution plan for BTC/USD around Price 60284.76, RSI(18.28), and MA20(67507.20).",
+    "comment": "US PCE at 3.8% fuels Fed December hike expectations; USD/JPY holds above MA20 at 158.76 with RSI 57.70 targeting 160.00 resistance.",
     "entry": "---",
     "tp": "---",
     "sl": "---",
+    "reliability": "MEDIUM"
+  },
+  "STOCKS": {
+    "title": "[S&P 500] DOWN: Price Below MA20 as AI Governance and Tariff Risks Pressure Risk Appetite",
+    "date": "2026-11-25 09:23",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "",
+    "tldr_points": [
+      "S&P 500 trades below MA20 at 7451.18 with RSI-14 at 35.9, preserving bearish short-term momentum.",
+      "AI governance headlines and fresh tariff rhetoric weaken tech leadership and market breadth.",
+      "Tactical plan: sell rallies into 7250–7300, target 7080, stop-loss 7465; utilize [] for execution."
+    ],
+    "chart_image": "/images/market-analysis-stocks.png",
+    "excerpt": "S&P 500 remains below MA20 with RSI at 35.9; AI governance and tariff risks favor selling rallies toward 7250–7300.",
+    "pair": "S&P 500",
+    "status": "SELL",
+    "comment": "Price below MA20 and RSI-14 at 35.9 favor selling rallies amid AI governance and tariff risk.",
+    "entry": "7250.00",
+    "tp": "7080.00",
+    "sl": "7465.00",
+    "reliability": "MEDIUM"
+  },
+  "CRYPTO": {
+    "title": "[BTC/USD] UP: Capitulation RSI at 17.6 Sets Up Tactical Mean-Reversion Long",
+    "date": "2026-11-25 09:26",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "UP",
+    "recommended_broker": "bybit",
+    "tldr_points": [
+      "RSI-14 at 17.6 is cycle-extreme oversold; historical analogs resolve via mean reversion",
+      "CleanSpark's $987M loss confirms miner capitulation, a classic late-shakeout signal",
+      "Long toward 64,000 with hard stop at 56,900; MA20 at 67,468 is the medium-term ceiling"
+    ],
+    "chart_image": "/images/market-analysis-crypto.png",
+    "excerpt": "BTC trades 11.8% below MA20 with RSI at 17.6; capitulation metrics favor a tactical rebound toward 64,000.",
+    "pair": "BTC/USD",
+    "status": "BUY",
+    "comment": "RSI-14 at 17.6 and capitulation-grade sentiment signal a high-probability mean-reversion long toward 64,000.",
+    "entry": "59500.00",
+    "tp": "64000.00",
+    "sl": "56900.00",
     "reliability": "MEDIUM"
   }
 }

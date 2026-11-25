@@ -1,68 +1,68 @@
 {
   "FX": {
-    "title": "[USD/JPY] UP: MA20上抜け維持と160介入警戒下の押し目買い戦略",
-    "date": "2026-11-24 17:17",
+    "title": "USD/JPYの見通し：需給バランスから見る「押し目買い」の優位性",
+    "date": "2026-11-25 09:19",
     "genre": "FX",
     "target_pair": "USD/JPY",
     "prediction_direction": "UP",
     "recommended_broker": "dmm-fx",
     "tldr_points": [
-      "159.375はMA20 158.7168を上抜けし、短期トレンドは上向き",
-      "RSI 57.54は中立強気で過熱感を欠く",
-      "160.00の介入警戒を前提に押し目買いを優先"
+      "金利相関（近似）: 0.04で正相関傾向",
+      "テクニカル: 現在価格 159.24 と MA20 158.76 の位置関係が主導",
+      "需給: 上限帯 160.37 / 下限帯 157.15 / 直近高値 160.18 / 直近安値 156.97 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-fx.png",
-    "excerpt": "USD/JPYは159.375でMA20を上抜け維持。160.00の介入警戒が上値を抑えるが、ドル底堅さとRSI57台の中立強気を背景に、押し目買いを優先する戦術。",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 159.24、RSI(57.70)、MA20(158.76)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "USD/JPY",
-    "status": "BUY",
-    "comment": "MA20上抜け維持とRSI中立強気を背景に押し目買い。160.00介入警戒で上値は限定。",
-    "entry": "159.00",
-    "tp": "159.85",
-    "sl": "158.35",
+    "status": "NEUTRAL",
+    "comment": "本日のAI解析では、USD/JPYの現在価格 159.24、RSI(57.70)、MA20(158.76)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "entry": "---",
+    "tp": "---",
+    "sl": "---",
     "reliability": "MEDIUM"
   },
   "STOCKS": {
-    "title": "S&P 500：AI解析が示す下落シナリオと防御的ポジション管理",
-    "date": "2026-11-24 17:18",
+    "title": "警戒アラート：S&P 500の構造的変化と下落リスクの徹底検証",
+    "date": "2026-11-25 09:23",
     "genre": "STOCKS",
     "target_pair": "S&P 500",
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "tldr_points": [
       "金利相関（近似）: 0.35で正相関傾向",
-      "テクニカル: 現在価格 7237.17 と MA20 7477.25 の位置関係が主導",
-      "需給: 上限帯 7899.56 / 下限帯 7054.94 / 直近高値 7758.43 / 直近安値 6882.66 によるターゲット設計"
+      "テクニカル: 現在価格 7201.09 と MA20 7451.18 の位置関係が主導",
+      "需給: 上限帯 7874.10 / 下限帯 7028.25 / 直近高値 7758.43 / 直近安値 6882.66 によるターゲット設計"
     ],
     "chart_image": "/images/market-analysis-stocks.png",
-    "excerpt": "本日のAI解析では、S&P 500の現在価格 7237.17、RSI(40.86)、MA20(7477.25)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 7201.09、RSI(35.91)、MA20(7451.18)を軸に、金利相関と需給帯から実行プランを整理する。",
     "pair": "S&P 500",
     "status": "NEUTRAL",
-    "comment": "本日のAI解析では、S&P 500の現在価格 7237.17、RSI(40.86)、MA20(7477.25)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "comment": "本日のAI解析では、S&P 500の現在価格 7201.09、RSI(35.91)、MA20(7451.18)を軸に、金利相関と需給帯から実行プランを整理する。",
     "entry": "---",
     "tp": "---",
     "sl": "---",
     "reliability": "MEDIUM"
   },
   "CRYPTO": {
-    "title": "[BTC/USD] UP: Oversold RSI and Institutional Accumulation Signal Potential Rebound",
-    "date": "2026-11-24 17:19",
+    "title": "[BTC/USD] DOWN: MA20割れ下落と超売れRSIで下押し圧力",
+    "date": "2026-11-25 09:26",
     "genre": "CRYPTO",
     "target_pair": "BTC/USD",
-    "prediction_direction": "UP",
+    "prediction_direction": "DOWN",
     "recommended_broker": "bitflyer",
     "tldr_points": [
-      "RSI(14) at 18.3 indicates extreme oversold condition",
-      "Strategy purchased 457 BTC, DOJ recovery adds supply‑side confidence",
-      "Price 7.2% below MA20, setting up a high‑probability mean‑reversion bounce"
+      "BTC/USDはMA20（67468.59）割れ下落トレンド",
+      "RSI(14)は17.64と超売れ水準",
+      "清算・流動性悪化リスクを警戒"
     ],
     "chart_image": "/images/market-analysis-crypto.png",
-    "excerpt": "BTC/USD trades at $60,285 with RSI deeply oversold; institutional buying and legal clarity create a tactical long setup targeting $63k with tight risk.",
+    "excerpt": "BTC/USDはMA20割れ下落トレンド。超売れRSIと清算悪化リスクを確認し、損切・逆指値厳守の厳格なリスク管理下で下押し判断。",
     "pair": "BTC/USD",
-    "status": "BUY",
-    "comment": "RSI極端な売られ過ぎと機関買いの整合性から短期リバウンドを狙う",
-    "entry": "60300",
-    "tp": "63000",
-    "sl": "59000",
+    "status": "SELL",
+    "comment": "MA20割れと超売れRSI、清算悪化リスク",
+    "entry": "59500",
+    "tp": "58000",
+    "sl": "60250",
     "reliability": "MEDIUM"
   }
 }
