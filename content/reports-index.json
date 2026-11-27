@@ -1,5 +1,77 @@
 [
   {
+    "id": "2026-11-28-crypto-ja",
+    "date": "2026-11-28 03:02",
+    "title": "警戒アラート：BTC/USDの構造的変化と下落リスクの徹底検証",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bitflyer",
+    "excerpt": "本日のAI解析では、BTC/USDの現在価格 59812.12、RSI(25.45)、MA20(65142.77)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-28-crypto-en",
+    "date": "2026-11-28 03:02",
+    "title": "BTC/USD Strategy: Defense and Risk Mitigation in Downtrend",
+    "genre": "CRYPTO",
+    "target_pair": "BTC/USD",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "bybit",
+    "excerpt": "Today's AI analysis outlines the execution plan for BTC/USD around Price 59812.12, RSI(25.45), and MA20(65142.77).",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-28-stocks-ja",
+    "date": "2026-11-28 02:54",
+    "title": "S&P 500分析：持ち合い局面における流動性ゾーンの特定",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "FLAT",
+    "recommended_broker": "",
+    "excerpt": "本日のAI解析では、S&P 500の現在価格 7284.03、RSI(46.89)、MA20(7401.30)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-28-stocks-en",
+    "date": "2026-11-28 02:54",
+    "title": "[S&P 500] DOWN: Price Sub-MA20 With RSI Momentum Decay Signals Near-Term Weakness",
+    "genre": "STOCKS",
+    "target_pair": "S&P 500",
+    "prediction_direction": "DOWN",
+    "recommended_broker": "Interactive Brokers",
+    "excerpt": "S&P 500 slips below MA20 as RSI fades; tactical short bias favored toward 7,150 with tight stops above 7,400.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
+    "id": "2026-11-28-fx-ja",
+    "date": "2026-11-28 02:50",
+    "title": "USD/JPYの見通し：需給バランスから見る「押し目買い」の優位性",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "dmm-fx",
+    "excerpt": "本日のAI解析では、USD/JPYの現在価格 159.50、RSI(63.55)、MA20(158.92)を軸に、金利相関と需給帯から実行プランを整理する。",
+    "result": "PENDING",
+    "locale": "ja"
+  },
+  {
+    "id": "2026-11-28-fx-en",
+    "date": "2026-11-28 02:50",
+    "title": "[USD/JPY] UP: AI Momentum Tests Yields as Trade Data Weighs",
+    "genre": "FX",
+    "target_pair": "USD/JPY",
+    "prediction_direction": "UP",
+    "recommended_broker": "xm-trading",
+    "excerpt": "USD/JPY extends AI-driven upside as yields, trade data, and geopolitics shape near-term dollar path.",
+    "result": "PENDING",
+    "locale": "en"
+  },
+  {
     "id": "2026-11-27-crypto-ja",
     "date": "2026-11-27 15:45",
     "title": "[BTC/USD] DOWN: 価格がMA20を大きく下回りRSIが極端な売られすぎ水準に達しているため、短期的な下押し継続を示唆",
@@ -116,7 +188,7 @@
     "prediction_direction": "DOWN",
     "recommended_broker": "",
     "excerpt": "S&P 500 slips below MA20 as AI profit-taking accelerates; RSI 44 suggests further downside before support tests.",
-    "result": "PENDING",
+    "result": "MISS",
     "locale": "en"
   },
   {
